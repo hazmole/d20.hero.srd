@@ -8,6 +8,8 @@ class LanguageParser {
 		this.loadLanguageJSON();
 	}
 
+	const LP = this;
+
 	FMT = function(key){
 		var lang = this.currentLang;
 		if(!this.lang[lang]) return key;
@@ -16,7 +18,7 @@ class LanguageParser {
 	}
 	loadLanguageJSON = function(){
 		var JSON_URL = "lang/lang_"+this.currentLang+".json";
-		DataUtil.loadJSON(JSON_URL).then(this.onJsonLoad);
+		DataUtil.loadJSON(JSON_URL).then(this.onJsonLoad.bind(this));
 	}
 
 	onJsonLoad = function(data){
