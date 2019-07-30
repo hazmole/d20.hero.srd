@@ -44,7 +44,7 @@ DataUtil = {
 			}
 		});
 
-		await DataUtil.pDoMetaMerge(data);
+		//await DataUtil.pDoMetaMerge(data);
 
 		return data;
 	},
