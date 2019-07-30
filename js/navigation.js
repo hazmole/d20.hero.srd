@@ -16,24 +16,24 @@ class NavBar {
 	static initElements () {
 		const navBar = document.getElementById("navbar");
 
-		addLi(navBar, "index.html", languageParser.FMT("Home"));
+		addLi(navBar, "index.html", FMT("Home"));
 
-		const ulRules = addDropdown(navBar, languageParser.FMT("Rules"));
-		addLi(ulRules, "???.html", languageParser.FMT("Character Creation"));
+		const ulRules = addDropdown(navBar, FMT("Rules"));
+		//addLi(ulRules, "???.html", FMT("Character Creation"));
 
-		const ulPlayer = addDropdown(navBar, languageParser.FMT("Player Options"));
-		const ulPower = addDropdown(ulPlayer, languageParser.FMT("Powers"), true);
-		addLi(ulPower, "???.html", languageParser.FMT("Power Effects"));
-		addLi(ulPower, "???.html", languageParser.FMT("Descriptors"));
-		addLi(ulPower, "???.html", languageParser.FMT("Modifiers"));
-		addLi(ulPlayer, "advantages.html", languageParser.FMT("Advantages"));
-		addLi(ulPlayer, "???.html", languageParser.FMT("Gadgets & Gear"));
+		const ulPlayer = addDropdown(navBar, FMT("Player Options"));
+		//const ulPower = addDropdown(ulPlayer, FMT("Powers"), true);
+		//addLi(ulPower, "???.html", FMT("Power Effects"));
+		//addLi(ulPower, "???.html", FMT("Descriptors"));
+		//addLi(ulPower, "???.html", FMT("Modifiers"));
+		addLi(ulPlayer, "advantages.html", FMT("Advantages"));
+		//addLi(ulPlayer, "???.html", FMT("Gadgets & Gear"));
 
-		const ulSettings = addDropdown(navBar, languageParser.FMT("Settings"));
+		const ulSettings = addDropdown(navBar, FMT("Settings"));
 		addButton(
 			ulSettings,
 			{
-				html: styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? languageParser.FMT("Night Mode") : languageParser.FMT("Day Mode"),
+				html: styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? FMT("Night Mode") : FMT("Day Mode"),
 				click: (evt) => {
 					evt.preventDefault();
 					styleSwitcher.toggleActiveStyleSheet();
@@ -41,7 +41,7 @@ class NavBar {
 				className: "nightModeToggle"
 			}
 		);
-		const ulLanguage = addDropdown(ulSettings, languageParser.FMT("Change Language"), true);
+		const ulLanguage = addDropdown(ulSettings, FMT("Change Language"), true);
 		addButton(
 			ulLanguage,
 			{

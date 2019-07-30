@@ -4,27 +4,7 @@ class LanguageParser {
 	constructor () {
 		this.currentLang = LanguageParser.LANG_TW;
 		this.loadStyleFromCookie();
-		this.lang = {};
-		this.loadLanguageJSON();
 	}
-
-	FMT = function(key){
-		var lang = this.currentLang;
-		if(!this.lang[lang]) return key;
-		if(!this.lang[lang][key.toLowerCase()]) return key;
-		return this.lang[lang][key.toLowerCase()];
-	}
-	loadLanguageJSON = function(){
-		var JSON_URL = "lang/lang_"+this.currentLang+".json";
-		DataUtil.loadJSON(JSON_URL).then(this.onJsonLoad.bind(this));
-	}
-
-	onJsonLoad = function(data){
-		this.lang[this.currentLang] = data;
-		console.log(data);
-		console.log(this.lang[this.currentLang]);
-	}
-
 
 	// Set Language
 	setActiveLanguage (lang) {
@@ -56,10 +36,7 @@ try {
 	LanguageParser.storage = window.localStorage;
 } catch (e) { // cookies are disabled
 	LanguageParser.storage = {
-		getItem () {
-			return LanguageParser.LANG_TW;
-		},
-
+		getItem () { return LanguageParser.LANG_TW;},
 		setItem (k, v) {}
 	}
 }
@@ -68,3 +45,10 @@ window.addEventListener("unload", function () {
 	const title = languageParser.getActiveLanguage();
 	LanguageParser.createCookie(title);
 });
+
+function FMT(key){
+	var token = languageParser.getActiveLanguage();
+	if(!LANG[token]) return key;
+	if(!LANG[token][key.toLowerCase()]) return key;
+	return LANG[token][key.toLowerCase()];
+}
