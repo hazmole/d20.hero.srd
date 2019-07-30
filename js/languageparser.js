@@ -8,8 +8,6 @@ class LanguageParser {
 		this.loadLanguageJSON();
 	}
 
-	const LP = this;
-
 	FMT = function(key){
 		var lang = this.currentLang;
 		if(!this.lang[lang]) return key;
