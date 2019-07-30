@@ -4,14 +4,14 @@
 			"translate_name": "精準攻擊", "name": "Accurate Attack",
 			"type": "C",
 			"entries": [
-				"當你進行一次攻擊，你可以使該攻擊效果的調整值承受最多-2的減值，並使相同數值的加值（最多+2）加入該攻擊的攻擊加值中。你的效果調整值不能被降低至+0以下，且你的攻擊加值不能透過這個方式變為原本的兩倍。這個變動必須在你進行攻擊檢定之前宣告，且這個影響將持續直到你的下個回合開始。"
+				"當你進行「精準攻擊」戰技時，你可以使該攻擊的效果強度承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{
 			"translate_name": "全力攻擊", "name": "All-out Attack",
 			"type": "C",
 			"entries": [
-				"When you make an attack you can take a penalty of up to –2 on your active defenses (Dodge and Parry) and add the same number (up to +2) to your attack bonus. Your defense bonuses cannot be reduced below +0 and your attack bonus cannot more than double. The changes to attack and defense bonus are declared before you make the attack check and last until the start of your next turn."
+				"當你進行「全力攻擊」戰技時，你可以使你的主動防禦（閃避或格擋）承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		}
 	]
