@@ -1,12 +1,12 @@
 "use strict";
 
-const JSON_URL = "advantages.json";
+const JSON_URL = "powereffects.json";
 let list;
 
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
-	//DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
-	onJsonLoad(getFakeData());
+	DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
+	//onJsonLoad(getFakeData());
 };
 
 async function onJsonLoad (data) {
@@ -47,7 +47,7 @@ function addAdvantages (data) {
 					<span class="type col-2 text-align-center">${Renderer.getTypeFullText(entry.type)}</span>
 					<span class="type col-2 text-align-center">${Renderer.powereffect.getActionText(entry.action)}</span>
 					<span class="type col-2 text-align-center">${Renderer.powereffect.getRangeText(entry.range)}</span>
-					<span class="type col-2 text-align-center">${entry.duration}</span>
+					<span class="type col-2 text-align-center">${Renderer.powereffect.getDurationText(entry.duration)}</span>
 					
 					<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : Idx}</span>
 					<span class="eng_name hidden">${entry.name}</span>

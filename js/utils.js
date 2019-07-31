@@ -1711,6 +1711,103 @@ JqueryUtil = {
 	}
 };
 
+// ROLLING =============================================================================================================
+RollerUtil = {
+	isCrypto: () => {
+		return typeof window !== "undefined" && typeof window.crypto !== "undefined";
+	},
+
+	randomise: (max, min = 1) => {
+		if (min > max) return 0;
+		if (max === min) return max;
+		if (RollerUtil.isCrypto()) {
+			return RollerUtil._randomise(min, max + 1);
+		} else {
+			return RollerUtil.roll(max) + min;
+		}
+	},
+
+	rollOnArray (array) {
+		return array[RollerUtil.randomise(array.length) - 1]
+	},
+
+	/**
+	 * Cryptographically secure RNG
+	 */
+	_randomise: (min, max) => {
+		const range = max - min;
+		const bytesNeeded = Math.ceil(Math.log2(range) / 8);
+		const randomBytes = new Uint8Array(bytesNeeded);
+		const maximumRange = Math.pow(Math.pow(2, 8), bytesNeeded);
+		const extendedRange = Math.floor(maximumRange / range) * range;
+		let i;
+		let randomInteger;
+		while (true) {
+			window.crypto.getRandomValues(randomBytes);
+			randomInteger = 0;
+			for (i = 0; i < bytesNeeded; i++) {
+				randomInteger <<= 8;
+				randomInteger += randomBytes[i];
+			}
+			if (randomInteger < extendedRange) {
+				randomInteger %= range;
+				return min + randomInteger;
+			}
+		}
+	},
+
+	/**
+	 * Result in range: 0 to (max-1); inclusive
+	 * e.g. roll(20) gives results ranging from 0 to 19
+	 * @param max range max (exclusive)
+	 * @param fn funciton to call to generate random numbers
+	 * @returns {number} rolled
+	 */
+	roll: (max, fn = Math.random) => {
+		return Math.floor(fn() * max);
+	},
+
+	addListRollButton: () => {
+		const listWrapper = $("#listcontainer");
+
+		const $btnRoll = $(`<button class="btn btn-default" id="feelinglucky" title="試試手氣？"><span class="glyphicon glyphicon-random"></span></button>`);
+		$btnRoll.on("click", () => {
+			if (listWrapper.data("lists")) {
+				const allLists = listWrapper.data("lists").filter(l => l.visibleItems.length);
+				if (allLists.length) {
+					const rollX = RollerUtil.roll(allLists.length);
+					const list = allLists[rollX];
+					const rollY = RollerUtil.roll(list.visibleItems.length);
+					window.location.hash = $(list.visibleItems[rollY].elm).find(`a`).prop("hash");
+				}
+			}
+		});
+
+		$(`#filter-search-input-group`).find(`#reset`).before($btnRoll);
+	},
+
+	isRollCol (colLabel) {
+		if (typeof colLabel !== "string") return false;
+		if (/^{@dice [^}]+}$/.test(colLabel.trim())) return true;
+		return !!Renderer.dice.parseToTree(colLabel);
+	},
+
+	_DICE_REGEX_STR: "((([1-9]\\d*)?d([1-9]\\d*)(\\s*?[-+×x*]\\s*?(\\d,\\d|\\d)+)?))+?"
+};
+RollerUtil.DICE_REGEX = new RegExp(RollerUtil._DICE_REGEX_STR, "g");
+RollerUtil.REGEX_DAMAGE_DICE = /(\d+)( \((?:{@dice |{@damage ))([-+0-9d ]*)(}\) [a-z]+( \([-a-zA-Z0-9 ]+\))?( or [a-z]+( \([-a-zA-Z0-9 ]+\))?)? damage)/gi;
+RollerUtil.REGEX_DAMAGE_FLAT = /(Hit: |{@h})([0-9]+)( [a-z]+( \([-a-zA-Z0-9 ]+\))?( or [a-z]+( \([-a-zA-Z0-9 ]+\))?)? damage)/gi;
+
+
+String.prototype.isNumeric = String.prototype.isNumeric ||
+	function () {
+		return !isNaN(parseFloat(this)) && isFinite(this);
+	};
+String.prototype.last = String.prototype.last ||
+	function () {
+		return this[this.length - 1];
+	};
+
 function noModifierKeys (e) {
 	return !e.ctrlKey && !e.altKey && !e.metaKey;
 }

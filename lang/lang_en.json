@@ -13,11 +13,7 @@
 
 "title_advantage": "Advantages",
 "title_powereffect": "Power Effects",
-"advantage": "advantage",
-"powereffect": "power effect",
-"ranked": "Ranked",
-"ranked_max": "Ranked [{0}]",
-"pl_num": "PL",
+
 "type_combat": "Combat",
 "type_fortune": "Fortune",
 "type_general": "General",
@@ -28,7 +24,9 @@
 "type_movement": "Movement",
 "type_sensory": "Sensory",
 
-"costtext_per": "{0} point per rank",
+"cost_per": "{0} point per rank",
+"modcost_per": "{0} cost per rank",
+"modcost_flat": "Flat {0} point",
 
 "action_suffix": " action",
 "action_standard": "Standard",
@@ -40,6 +38,11 @@
 "range_ranged": "Ranged",
 "range_perception": "Perception",
 "range_rank": "Rank",
+"duration_instant": "Instant",
+"duration_concentration": "Concentration",
+"duration_sustained": "Sustained",
+"duration_continuous": "Continuous",
+"duration_permanent": "Permanent",
 
 "list_name": "Name",
 "list_type": "Type",
@@ -53,6 +56,14 @@
 "search_placeholder": "search for {0}...",
 "search_subtitle": "search by name on the left, click entry name to display on the right.",
 "context_default_text": "Select a {0} from the list to view it here",
+
+"advantage": "advantage",
+"powereffect": "power effect",
+"ranked": "Ranked",
+"ranked_max": "Ranked [{0}]",
+"extras": "Extras",
+"flaws": "Flaws",
+"pl_num": "PL",
 
 "none": "None"
 }

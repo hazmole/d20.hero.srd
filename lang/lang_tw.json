@@ -13,11 +13,7 @@
 
 "title_advantage": "優勢",
 "title_powereffect": "超能力效果",
-"advantage": "優勢",
-"powereffect": "超能力效果",
-"ranked": "可重複提升等級",
-"ranked_max": "可重複提升等級，最高至［{0}］級",
-"pl_num": "玩家人數",
+
 "type_combat": "戰鬥",
 "type_fortune": "運氣",
 "type_general": "泛用",
@@ -28,7 +24,9 @@
 "type_movement": "移動",
 "type_sensory": "感知",
 
-"costtext_per": "{0}點/每級",
+"cost_per": "{0}點/每級",
+"modcost_per": "每級額外{0}點",
+"modcost_flat": "額外{0}點",
 
 "action_suffix": "動作",
 "action_standard": "標準",
@@ -40,6 +38,11 @@
 "range_ranged": "遠距",
 "range_perception": "感知距離",
 "range_rank": "等級",
+"duration_instant": "即效",
+"duration_concentration": "專注",
+"duration_sustained": "維持",
+"duration_continuous": "持續",
+"duration_permanent": "永久",
 
 "list_name": "名稱",
 "list_type": "類別",
@@ -47,12 +50,20 @@
 "list_action": "動作",
 "list_range": "射程",
 "list_duration": "持續",
-"list_cost": "代價",
+"list_cost": "花費",
 
 "search_reset": "重置",
 "search_placeholder": "尋找{0}...",
 "search_subtitle": "使用左側的名稱搜尋，點擊項目名稱以在右側顯示。",
 "context_default_text": "從列表中選擇一個{0}以在此處檢視",
+
+"advantage": "優勢",
+"powereffect": "超能力效果",
+"ranked": "可重複提升等級",
+"ranked_max": "可重複提升等級，最高至［{0}］級",
+"extras": "追加強化",
+"flaws": "追加缺點",
+"pl_num": "玩家人數",
 
 "none": "無"
 }

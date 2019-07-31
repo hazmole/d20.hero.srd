@@ -203,8 +203,7 @@ function Renderer () {
 				case "variant": this._renderVariant(entry, textStack, meta, options); break;
 				case "variantSub": this._renderVariantSub(entry, textStack, meta, options); break;
 				case "quote": this._renderQuote(entry, textStack, meta, options); break;
-				case "optfeature": this._renderOptfeature(entry, textStack, meta, options); break;
-				case "patron": this._renderPatron(entry, textStack, meta, options); break;
+				case "modifier": this._renderModifier(entry, textStack, meta, options); break;
 
 				// block
 				case "abilityDc": this._renderAbilityDc(entry, textStack, meta, options); break;
@@ -436,7 +435,6 @@ function Renderer () {
 
 	this._renderEntriesSubtypes = function (entry, textStack, meta, options, incDepth) {
 		const isInlineTitle = meta.depth >= 2;
-		const pagePart = !isInlineTitle && entry.page ? ` <span class="rd__title-link">${entry.source ? `<span class="help--subtle" title="${Parser.sourceJsonToFull(entry.source)}">${Parser.sourceJsonToAbv(entry.source)}</span> ` : ""}p${entry.page}</span>` : "";
 		const nextDepth = incDepth && meta.depth < 2 ? meta.depth + 1 : meta.depth;
 		const styleString = this._renderEntriesSubtypes_getStyleString(entry, meta, isInlineTitle);
 		const dataString = this._renderEntriesSubtypes_getDataString(entry);
@@ -444,7 +442,7 @@ function Renderer () {
 
 		const headerClass = `rd__h--${meta.depth + 1}`; // adjust as the CSS is 0..4 rather than -1..3
 
-		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" book-idx="${entry.idx_name ? entry.idx_name : entry.name}">${this.render({type: "inline", entries: [entry.name]})}${entry.ENG_name ? (" <st style='font-size:80%;'>"+entry.ENG_name+"<st>") : ""}${isInlineTitle ? "." : ""}</span>${pagePart}</span> ` : "";
+		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" book-idx="${entry.idx_name ? entry.idx_name : entry.name}">${this.render({type: "inline", entries: [entry.name]})}${entry.ENG_name ? (" <st style='font-size:80%;'>"+entry.ENG_name+"<st>") : ""}${isInlineTitle ? "." : ""}</span></span> ` : "";
 
 		if (meta.depth === -1) {
 			if (!this._firstSection) textStack[0] += `<hr class="rd__hr rd__hr--section">`;
@@ -595,13 +593,10 @@ function Renderer () {
 		textStack[0] += `</p>`;
 	};
 
-	this._renderOptfeature = function (entry, textStack, meta, options) {
-		this._renderEntriesSubtypes(entry, textStack, meta, options, true);
-	};
-
-	this._renderPatron = function (entry, textStack, meta, options) {
+	this._renderModifier = function (entry, textStack, meta, options){
+		console.log(arguments)
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
-	};
+	}
 
 	this._renderAbilityDc = function (entry, textStack, meta, options) {
 		this._renderPrefix(entry, textStack, meta, options);
@@ -4160,9 +4155,7 @@ Renderer.advantage = {
 		return `<tr><td colspan="6">${content}</td></tr>`;
 	},
 
-	getTypeFullText: function (type) {
-		Renderer.getTypeFullText(type);
-	}
+	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); }
 };
 
 Renderer.powereffect = {
@@ -4171,43 +4164,57 @@ Renderer.powereffect = {
 		var content = (
 			`<tr><td colspan="6"><span class="bold">${FMT("list_action")}：</span>${this.getActionFullText(entry.action)}</td></tr>
 			<tr><td colspan="6"><span class="bold">${FMT("list_range")}：</span>${Renderer.powereffect.getRangeText(entry.range)}</td></tr>
-			<tr><td colspan="6"><span class="bold">${FMT("list_duration")}：</span>${entry.duration}</td></tr>
+			<tr><td colspan="6"><span class="bold">${FMT("list_duration")}：</span>${Renderer.powereffect.getDurationText(entry.duration)}</td></tr>
 			<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
 		return content;
 	},
 	getModifierBlock: function(entry) {
 		var new_renderer = Renderer.get();
 
-		const outstack = [];
+		var outstack = [];
 		if(entry.extras && entry.extras.length>0 ){
 			outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("extras")}</span></td></tr>`);
-			outstack.push('<tr><td colspan="6">');
-			new_renderer.recursiveRender({entries: entry.extras}, outstack, {depth: 2});
-			outstack.push('</td></tr>');
-			console.log();
+			outstack.push(this.renderModifiers(entry.extras));
 		}
 
 		if(entry.flaws && entry.flaws.length>0 ){
-			//outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("flaws")}</span></td></tr>`);
-			//renderer.recursiveRender({entries: entry.flaws}, outstack, {depth: 2});
+			outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("flaws")}</span></td></tr>`);
+			outstack.push(this.renderModifiers(entry.flaws));
+			
 		}
 		return outstack.join("");
 	},
 
-	getCostText: function (cost){
-		if(!cost) return "";
-		switch(cost.cost_type){
-			case "per": return FMT("costtext_per", cost.cost_value);
-			default: return "";
-		};
+	renderModifiers: function (modifiers){
+		var outstack = [];
+		outstack.push('<tr><td colspan="6">');
+		for(var idx in modifiers){
+			outstack.push(this.renderModifier(modifiers[idx]));
+		}
+		outstack.push('</td></tr>');
+		return outstack.join("");
 	},
-
+	renderModifier: function (modifier){
+		//console.log(modifier);
+		var outstack = [];
+		outstack.push('<div class=" rd__b--3">');
+		outstack.push(`<span class="rd__h rd__h--3" data-title-index="2"><span class="entry-title-inner">${modifier.name}: </span></span>`);
+		for(var idx in modifier.entries){
+			renderer.recursiveRender(modifier.entries[idx], outstack, {depth: 3});
+		}
+		if(!modifier.cost.hidden)
+			outstack.push(` <b>${Renderer.getModifyCostText(modifier.cost)}.</b>`);
+		outstack.push('</div>');
+		return outstack.join("");
+	},
+	
 	getActionText: function (action){
 		switch(action){
 			case "S": return FMT("action_standard");
 			case "M": return FMT("action_move");
 			case "F": return FMT("action_free");
 			case "R": return FMT("action_reaction");
+			case "N": return FMT("none");
 			default: return "－";
 		};
 	},
@@ -4219,7 +4226,6 @@ Renderer.powereffect = {
 			default: return this.getActionText(action);
 		};
 	},
-
 	getRangeText: function (range){
 		switch(range){
 			case "personal": return FMT("range_personal");
@@ -4227,13 +4233,22 @@ Renderer.powereffect = {
 			case "ranged": return FMT("range_ranged");
 			case "perception": return FMT("range_perception");
 			case "rank": return FMT("range_rank");
-			default: return "???";
+			default: return FMT(range);
+		};
+	},
+	getDurationText: function (duration){
+		switch(duration){
+			case "instant": return FMT("duration_instant");
+			case "concentration": return FMT("duration_concentration");
+			case "sustained": return FMT("duration_sustained");
+			case "continuous": return FMT("duration_continuous");
+			case "permanent": return FMT("duration_permanent");
+			default: return FMT(duration);
 		};
 	},
 
-	getTypeFullText: function (type) {
-		Renderer.getTypeFullText(type);
-	}
+	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
+	getCostText: function (cost){ return Renderer.getCostText(cost); }
 };
 
 Renderer.getTypeFullText = function(type) {
@@ -4249,6 +4264,31 @@ Renderer.getTypeFullText = function(type) {
 		case "SEN": return FMT("type_sensory");
 		default: return "???";
 	}
+};
+Renderer.getCostText = function (cost){
+	if(!cost) return "";
+	switch(cost.type){
+		case "per": return FMT("cost_per", cost.value);
+		default: return "";
+	};
+};
+Renderer.getModifyCostText = function (cost){
+	if(!cost) return "";
+	if(cost.hidden) return "";
+	var value = cost.value, value_pos;
+	if(typeof value !== "number"){
+		value_pos = value.min>=0;
+		value = value.min + "~" + value.max;
+	}
+	else{
+		value_pos = value>=0; 
+	}
+	value = (value_pos? "+": "") + value;
+	switch(cost.type){
+		case "per": return FMT("modcost_per", value);
+		case "flat": return FMT("modcost_flat", value);
+		default: return "";
+	};
 };
 
 //=================================
