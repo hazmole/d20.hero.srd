@@ -1747,7 +1747,7 @@ Renderer.advantage = {
 			case "S": return FMT("Skill");
 			default: return "";
 		}
-	}
+	},
 
 	getCompactRenderedString: (feat) => {
 		const renderer = Renderer.get();
