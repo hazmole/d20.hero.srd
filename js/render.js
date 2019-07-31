@@ -1731,16 +1731,23 @@ Renderer.advantage = {
 	getRankTr: function (rank) {
 		if (rank == null) return "";
 		var str = "";
-
-		if((typeof rank)==='boolean'){
+		if((typeof rank)==='boolean')
 			str = FMT("Ranked");
-		}
-		else {
+		else
 			str = FMT("Ranked [{0}]").replace("{0}", rank);
-		}
 
 		return `<tr><td colspan="6">${str}</td></tr>`;
 	},
+
+	getTypeFullText: function (type) {
+		switch(type){
+			case "C": return FMT("Combat");
+			case "F": return FMT("Fortune");
+			case "G": return FMT("General");
+			case "S": return FMT("Skill");
+			default: return "";
+		}
+	}
 
 	getCompactRenderedString: (feat) => {
 		const renderer = Renderer.get();

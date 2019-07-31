@@ -42,7 +42,7 @@ function addAdvantages (data) {
 			<li class="row" ${FLTR_ID}="${Idx}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
 				<a id="${Idx}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
 					<span class="name col-8">${name}</span>
-					<span class="type col-4 text-align-center">${type}</span>
+					<span class="type col-4 text-align-center">${renderer.advantage.getTypeFullText(type)}</span>
 					
 					<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : Idx}</span>
 					<span class="eng_name hidden">${entry.name}</span>
