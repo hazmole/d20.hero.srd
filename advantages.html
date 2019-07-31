@@ -30,8 +30,8 @@
 <div class="viewport-wrapper">
 	<header class="hidden-xs hidden-sm page__header">
 		<div class="container">
-			<h1 class="page__title"></h1>
-			<p class="page__subtitle"></p>
+			<h1 class="page__title">{{FMT("title_advantage")}}</h1>
+			<p class="page__subtitle">{{FMT("search_subtitle")}}</p>
 		</div>
 	</header>
 	<nav class="container page__nav" id="navigation">
@@ -45,12 +45,13 @@
 	<div class="container view-col-wrapper">
 		<div id="listcontainer" class="col-4">
 			<div class="input-group" id="filter-search-input-group">
-				<input type="search" id="search" class="search form-control" placeholder="{{FMT('search for {0}...').replace('{0}', FMT('advantage'))}}">
-				<span class="input-group-btn"><button class="btn btn-default" id="reset">{{FMT("Reset")}}</button></span>
+				<input type="search" id="search" class="search form-control" placeholder="{{FMT('search_placeholder', 'advantage')}}">
+				<span class="input-group-btn"><button class="btn btn-default" id="reset">{{FMT("search_reset")}}</button></span>
 			</div>
 			<div id="filtertools" class="sortlabel btn-group">
-				<button class="col-8 sort btn btn-default btn-xs" data-sort="name">{{FMT("Name")}}<span class="caret_wrp"></span></button>
-				<button class="col-4 sort btn btn-default btn-xs" data-sort="type">{{FMT("Type")}}<span class="caret_wrp"></span></button>
+				<button class="col-7 sort btn btn-default btn-xs" data-sort="name">{{FMT("list_name")}}<span class="caret_wrp"></span></button>
+				<button class="col-3 sort btn btn-default btn-xs" data-sort="type">{{FMT("list_type")}}<span class="caret_wrp"></span></button>
+				<button class="col-2 sort btn btn-default btn-xs" data-sort="type">{{FMT("list_rank")}}<span class="caret_wrp"></span></button>
 			</div>
 
 			<ul class="list advantages"></ul>
@@ -58,8 +59,8 @@
 		<div id="contentwrapper" class="view-col">
 			<div id="sublistcontainer" class="sublist">
 				<div id="sublistsort" class="sortlabel btn-group">
-					<button class="col-8 sort btn btn-default btn-xs" data-sort="name">{{FMT("Name")}}</button>
-					<button class="col-4 sort btn btn-default btn-xs" data-sort="ability">{{FMT("Type")}}</button>
+					<button class="col-8 sort btn btn-default btn-xs" data-sort="name">{{FMT("list_name")}}</button>
+					<button class="col-4 sort btn btn-default btn-xs" data-sort="ability">{{FMT("list_type")}}</button>
 				</div>
 				<ul class="list subadvantages">
 					<!-- populate with JS -->
@@ -73,7 +74,7 @@
 			<div class="wrp-stats-table">
 			<table id="pagecontent" class="stats">
 				<tr><th class="border" colspan="6"></th></tr>
-				<tr><td colspan="6" class="initial-message">{{ FMT("select a {0} from the list to view it here").replace("{0}", FMT("advantage")) }}</td></tr>
+				<tr><td colspan="6" class="initial-message">{{ FMT("context_default_text", "advantage") }}</td></tr>
 				<tr><th class="border" colspan="6"></th></tr>
 			</table>
 			</div>
@@ -91,9 +92,7 @@
 		$scope.FMT = FMT;
 	});
 
-	document.title = FMT("Advantages")+" - "+FMT("d20hero srd");
-	$(".page__title").html(   FMT("Advantages"));
-	$(".page__subtitle").html(FMT("Search by name on the left, click entry name to display on the right."));
+	document.title = FMT("title_advantage")+" - "+FMT("site_title");
 </script>
 </body>
 

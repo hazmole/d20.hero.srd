@@ -1732,19 +1732,21 @@ Renderer.advantage = {
 		if (rank == null) return "";
 		var str = "";
 		if((typeof rank)==='boolean')
-			str = FMT("Ranked");
+			str = FMT("ranked");
+		else if((typeof rank)==='string')
+			str = FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
 		else
-			str = FMT("Ranked [{0}]").replace("{0}", rank);
+			str = FMT("ranked_max", rank);
 
 		return `<tr><td colspan="6">${str}</td></tr>`;
 	},
 
 	getTypeFullText: function (type) {
 		switch(type){
-			case "C": return FMT("Combat");
-			case "F": return FMT("Fortune");
-			case "G": return FMT("General");
-			case "S": return FMT("Skill");
+			case "C": return FMT("combat");
+			case "F": return FMT("fortune");
+			case "G": return FMT("general");
+			case "S": return FMT("skill");
 			default: return "";
 		}
 	},

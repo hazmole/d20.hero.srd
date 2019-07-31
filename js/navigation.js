@@ -16,24 +16,24 @@ class NavBar {
 	static initElements () {
 		const navBar = document.getElementById("navbar");
 
-		addLi(navBar, "index.html", FMT("Home"));
+		addLi(navBar, "index.html", FMT("nav_home"));
 
-		const ulRules = addDropdown(navBar, FMT("Rules"));
+		const ulRules = addDropdown(navBar, FMT("nav_rules"));
 		//addLi(ulRules, "???.html", FMT("Character Creation"));
 
-		const ulPlayer = addDropdown(navBar, FMT("Player Options"));
+		const ulPlayer = addDropdown(navBar, FMT("nav_pl_opt"));
 		//const ulPower = addDropdown(ulPlayer, FMT("Powers"), true);
 		//addLi(ulPower, "???.html", FMT("Power Effects"));
 		//addLi(ulPower, "???.html", FMT("Descriptors"));
 		//addLi(ulPower, "???.html", FMT("Modifiers"));
-		addLi(ulPlayer, "advantages.html", FMT("Advantages"));
+		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
 		//addLi(ulPlayer, "???.html", FMT("Gadgets & Gear"));
 
-		const ulSettings = addDropdown(navBar, FMT("Settings"));
+		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
 		addButton(
 			ulSettings,
 			{
-				html: styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? FMT("Night Mode") : FMT("Day Mode"),
+				html: styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? FMT("night_mode") : FMT("day_mode"),
 				click: (evt) => {
 					evt.preventDefault();
 					styleSwitcher.toggleActiveStyleSheet();
@@ -41,7 +41,7 @@ class NavBar {
 				className: "nightModeToggle"
 			}
 		);
-		const ulLanguage = addDropdown(ulSettings, FMT("Change Language"), true);
+		const ulLanguage = addDropdown(ulSettings, FMT("set_language"), true);
 		addButton(
 			ulLanguage,
 			{

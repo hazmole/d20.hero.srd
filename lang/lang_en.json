@@ -1,0 +1,31 @@
+{
+"site_title": "d20Hero SRD",
+"site_desc": "a suite of tools for playing d20 hero.",
+"nav_home": "Home",
+"nav_rules": "Rules",
+"nav_pl_opt": "Player Options",
+"nav_advantage": "Advantages",
+"nav_settings": "Settings",
+"day_mode": "Day Mode",
+"night_mode": "Night Mode",
+"set_language": "Change Language",
+
+"title_advantage": "Advantages",
+"advantage": "advantage",
+"ranked": "Ranked",
+"ranked_max": "Ranked [{0}]",
+"pl_num": "PL",
+"combat": "Combat",
+"fortune": "Fortune",
+"general": "General",
+"skill": "Skill",
+
+"list_name": "Name",
+"list_type": "Type",
+"list_rank": "Rank?",
+
+"search_reset": "Reset",
+"search_placeholder": "search for {0}...",
+"search_subtitle": "search by name on the left, click entry name to display on the right.",
+"context_default_text": "Select a {0} from the list to view it here"
+}

@@ -22,7 +22,7 @@ class StyleSwitcher {
 		if (!$button || !$button.length) {
 			return;
 		}
-		$button.html(`${style === StyleSwitcher.STYLE_DAY ? FMT("Night Mode") : FMT("Day Mode")}`);
+		$button.html(`${style === StyleSwitcher.STYLE_DAY ? FMT("night_mode") : FMT("day_mode")}`);
 	}
 
 	getActiveStyleSheet () {

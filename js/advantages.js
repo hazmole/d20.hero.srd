@@ -37,12 +37,14 @@ function addAdvantages (data) {
 		const entry = entryList[Idx];
 		const name = entry.translate_name? entry.translate_name: entry.name;
 		const type = entry.type;
+		const rank = entry.rank;
 
 		tempString += `
 			<li class="row" ${FLTR_ID}="${Idx}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
 				<a id="${Idx}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
-					<span class="name col-8">${name}</span>
-					<span class="type col-4 text-align-center">${Renderer.advantage.getTypeFullText(type)}</span>
+					<span class="name col-7">${name}</span>
+					<span class="type col-3 text-align-center">${Renderer.advantage.getTypeFullText(type)}</span>
+					<span class="type col-2 text-align-center">${rank? "V": ""}</span>
 					
 					<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : Idx}</span>
 					<span class="eng_name hidden">${entry.name}</span>

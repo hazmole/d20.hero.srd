@@ -46,9 +46,14 @@ window.addEventListener("unload", function () {
 	LanguageParser.createCookie(title);
 });
 
-function FMT(key){
+function FMT(key, ...parameter){
 	var token = languageParser.getActiveLanguage();
 	if(!LANG[token]) return key;
 	if(!LANG[token][key.toLowerCase()]) return key;
-	return LANG[token][key.toLowerCase()];
+
+	var text = LANG[token][key.toLowerCase()];
+	for(var idx in parameter){
+		text = text.replace("{"+idx+"}", FMT(parameter[idx]));
+	}
+	return text;
 }
