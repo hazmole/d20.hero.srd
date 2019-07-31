@@ -49,9 +49,9 @@ window.addEventListener("unload", function () {
 function FMT(key, ...parameter){
 	var token = languageParser.getActiveLanguage();
 	if(!LANG[token]) return key;
-	if(!LANG[token][key.toLowerCase()]) return key;
+	if(!LANG[token][key]) return key;
 
-	var text = LANG[token][key.toLowerCase()];
+	var text = LANG[token][key];
 	for(var idx in parameter){
 		text = text.replace("{"+idx+"}", FMT(parameter[idx]));
 	}
