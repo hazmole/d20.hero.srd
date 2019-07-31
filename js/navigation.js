@@ -22,11 +22,11 @@ class NavBar {
 		//addLi(ulRules, "???.html", FMT("Character Creation"));
 
 		const ulPlayer = addDropdown(navBar, FMT("nav_pl_opt"));
-		//const ulPower = addDropdown(ulPlayer, FMT("Powers"), true);
-		//addLi(ulPower, "???.html", FMT("Power Effects"));
+		
 		//addLi(ulPower, "???.html", FMT("Descriptors"));
 		//addLi(ulPower, "???.html", FMT("Modifiers"));
 		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
+		addLi(ulPlayer, "powereffects.html", FMT("nav_powereffect"));
 		//addLi(ulPlayer, "???.html", FMT("Gadgets & Gear"));
 
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));

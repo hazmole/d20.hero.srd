@@ -1727,47 +1727,6 @@ Renderer.utils = {
 	}
 };
 
-Renderer.advantage = {
-	getRankTr: function (rank) {
-		if (rank == null) return "";
-		var str = "";
-		if((typeof rank)==='boolean')
-			str = FMT("ranked");
-		else if((typeof rank)==='string')
-			str = FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
-		else
-			str = FMT("ranked_max", rank);
-
-		return `<tr><td colspan="6">${str}</td></tr>`;
-	},
-
-	getTypeFullText: function (type) {
-		switch(type){
-			case "C": return FMT("combat");
-			case "F": return FMT("fortune");
-			case "G": return FMT("general");
-			case "S": return FMT("skill");
-			default: return "";
-		}
-	},
-
-	getCompactRenderedString: (feat) => {
-		const renderer = Renderer.get();
-		const renderStack = [];
-
-		const prerequisite = Renderer.feat.getPrerequisiteText(feat.prerequisite);
-		renderStack.push(`
-			${Renderer.utils.getNameTr(feat, true)}
-			<tr class='text'><td colspan='6' class='text'>
-			${prerequisite ? `<p><i>Prerequisite: ${prerequisite}</i></p>` : ""}
-		`);
-		renderer.recursiveRender({entries: feat.entries}, renderStack, {depth: 2});
-		renderStack.push(`</td></tr>`);
-
-		return renderStack.join("");
-	}
-};
-
 Renderer.get = () => {
 	if (!Renderer.defaultRenderer) Renderer.defaultRenderer = new Renderer();
 	return Renderer.defaultRenderer;
@@ -2495,6 +2454,7 @@ Renderer.hover = {
 	},
 
 	_pageToRenderFn (page) {
+		console.log(page);
 		switch (page) {
 			case "hover":
 				return Renderer.hover.getGenericCompactRenderedString;
@@ -4084,22 +4044,6 @@ Renderer.stripTags = function (str) {
 						return parts.length >= 3 ? parts[2] : parts[0];
 					}
 
-					case "@deity": {
-						const parts = text.split("|");
-						return parts.length >= 4 ? parts[3] : parts[0];
-					}
-
-					case "@homebrew": {
-						const [newText, oldText] = text.split("|");
-						if (newText && oldText) {
-							return `${newText} [this is a homebrew addition, replacing the following: "${oldText}"]`;
-						} else if (newText) {
-							return `${newText} [this is a homebrew addition]`;
-						} else if (oldText) {
-							return `[the following text has been removed due to homebrew: ${oldText}]`;
-						} else throw new Error(`Homebrew tag had neither old nor new text!`);
-					}
-
 					default: throw new Error(`Unhandled tag: "${tag}"`);
 				}
 			} else return it;
@@ -4200,3 +4144,111 @@ if (typeof module !== "undefined") {
 	module.exports.Renderer = Renderer;
 	global.Renderer = Renderer;
 }
+
+//=================================
+Renderer.advantage = {
+	getRankTr: function (rank) {
+		if (rank == null) return "";
+		var content = "";
+		if((typeof rank)==='boolean')
+			content = FMT("ranked");
+		else if((typeof rank)==='string')
+			content = FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
+		else
+			content = FMT("ranked_max", rank);
+
+		return `<tr><td colspan="6">${content}</td></tr>`;
+	},
+
+	getTypeFullText: function (type) {
+		Renderer.getTypeFullText(type);
+	}
+};
+
+Renderer.powereffect = {
+	getInfoTr: function (entry) {
+		var cost_text = this.getCostText(entry.cost);
+		var content = (
+			`<tr><td colspan="6"><span class="bold">${FMT("list_action")}：</span>${this.getActionFullText(entry.action)}</td></tr>
+			<tr><td colspan="6"><span class="bold">${FMT("list_range")}：</span>${Renderer.powereffect.getRangeText(entry.range)}</td></tr>
+			<tr><td colspan="6"><span class="bold">${FMT("list_duration")}：</span>${entry.duration}</td></tr>
+			<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
+		return content;
+	},
+	getModifierBlock: function(entry) {
+		var new_renderer = Renderer.get();
+
+		const outstack = [];
+		if(entry.extras && entry.extras.length>0 ){
+			outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("extras")}</span></td></tr>`);
+			outstack.push('<tr><td colspan="6">');
+			new_renderer.recursiveRender({entries: entry.extras}, outstack, {depth: 2});
+			outstack.push('</td></tr>');
+			console.log();
+		}
+
+		if(entry.flaws && entry.flaws.length>0 ){
+			//outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("flaws")}</span></td></tr>`);
+			//renderer.recursiveRender({entries: entry.flaws}, outstack, {depth: 2});
+		}
+		return outstack.join("");
+	},
+
+	getCostText: function (cost){
+		if(!cost) return "";
+		switch(cost.cost_type){
+			case "per": return FMT("costtext_per", cost.cost_value);
+			default: return "";
+		};
+	},
+
+	getActionText: function (action){
+		switch(action){
+			case "S": return FMT("action_standard");
+			case "M": return FMT("action_move");
+			case "F": return FMT("action_free");
+			case "R": return FMT("action_reaction");
+			default: return "－";
+		};
+	},
+	getActionFullText: function (action){
+		switch(action){
+			case "S":
+			case "M":
+			case "F": return this.getActionText(action)+FMT("action_suffix");
+			default: return this.getActionText(action);
+		};
+	},
+
+	getRangeText: function (range){
+		switch(range){
+			case "personal": return FMT("range_personal");
+			case "close": return FMT("range_close");
+			case "ranged": return FMT("range_ranged");
+			case "perception": return FMT("range_perception");
+			case "rank": return FMT("range_rank");
+			default: return "???";
+		};
+	},
+
+	getTypeFullText: function (type) {
+		Renderer.getTypeFullText(type);
+	}
+};
+
+Renderer.getTypeFullText = function(type) {
+	switch(type){
+		case "C": return FMT("type_combat");
+		case "F": return FMT("type_fortune");
+		case "G": return FMT("type_general");
+		case "S": return FMT("type_skill");
+		case "ATK": return FMT("type_attack");
+		case "CTL": return FMT("type_control");
+		case "DEF": return FMT("type_defense");
+		case "MOV": return FMT("type_movement");
+		case "SEN": return FMT("type_sensory");
+		default: return "???";
+	}
+};
+
+//=================================

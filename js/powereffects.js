@@ -1,4 +1,129 @@
-{
+"use strict";
+
+const JSON_URL = "advantages.json";
+let list;
+
+window.onload = async function load () {
+	SortUtil.initHandleFilterButtonClicks();
+	//DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
+	onJsonLoad(getFakeData());
+};
+
+async function onJsonLoad (data) {
+	list = ListUtil.search({
+		valueNames: ['name', 'type', "action", "range", "duration", "uniqueid", "eng_name"],
+		listClass: "powereffects"
+	});
+
+	const subList = ListUtil.initSublist({
+		valueNames: ["name", "type", "id"],
+		listClass: "subpowereffects",
+		getSublistRow: getSublistItem
+	});
+	ListUtil.initGenericPinnable();
+
+	addAdvantages(data);
+}
+
+let entryList = [];
+let Idx = 0;
+function addAdvantages (data) {
+	if (!data.powereffect || !data.powereffect.length) return;
+
+	entryList = entryList.concat(data.powereffect);
+
+	const entryTable = $("ul.powereffects");
+	let tempString = "";
+	for (; Idx < entryList.length; Idx++) {
+		const entry = entryList[Idx];
+		const name = entry.translate_name? entry.translate_name: entry.name;
+		const type = entry.type;
+		const rank = entry.rank;
+
+		tempString += `
+			<li class="row" ${FLTR_ID}="${Idx}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
+				<a id="${Idx}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
+					<span class="name col-4">${name}</span>
+					<span class="type col-2 text-align-center">${Renderer.getTypeFullText(entry.type)}</span>
+					<span class="type col-2 text-align-center">${Renderer.powereffect.getActionText(entry.action)}</span>
+					<span class="type col-2 text-align-center">${Renderer.powereffect.getRangeText(entry.range)}</span>
+					<span class="type col-2 text-align-center">${entry.duration}</span>
+					
+					<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : Idx}</span>
+					<span class="eng_name hidden">${entry.name}</span>
+				</a>
+			</li>`;
+
+	}
+	const lastSearch = ListUtil.getSearchTermAndReset(list);
+	entryTable.append(tempString);
+
+	list.reIndex();
+	list.sort("type");
+	
+	ListUtil.setOptions({
+		itemList: entryList,
+		getSublistRow: getSublistItem,
+		primaryLists: [list]
+	});
+	//ListUtil.bindPinButton();
+	//Renderer.hover.bindPopoutButton(entryList);
+	//UrlUtil.bindLinkExportButton(filterBox);
+	//ListUtil.bindDownloadButton();
+	//ListUtil.bindUploadButton();
+
+	History.init(true);
+}
+
+// filtering function
+function getSublistItem (feat, pinId) {
+	return `
+		<li class="row" ${FLTR_ID}="${pinId}" oncontextmenu="ListUtil.openSubContextMenu(event, this)">
+			<a href="#${UrlUtil.autoEncodeHash(feat)}" title="${feat.name}">
+				<span class="name col-4">${feat.name}</span>
+				<span class="ability col-4 ${feat._slAbility === STR_NONE ? "list-entry-none" : ""}">${feat._slAbility}</span>
+				<span class="prerequisite col-4 ${feat._slPrereq === STR_NONE ? "list-entry-none" : ""}">${feat._slPrereq}</span>
+				<span class="id hidden">${pinId}</span>
+			</a>
+		</li>
+	`;
+}
+
+const renderer = Renderer.get();
+function loadhash (id) {
+	renderer.setFirstSection(true);
+
+	const $content = $("#pagecontent").empty();
+	const entry = entryList[id];
+
+	//const prerequisite = Renderer.feat.getPrerequisiteText(feat.prerequisite);
+	//Renderer.feat.mergeAbilityIncrease(feat);
+	const renderStack = [];
+	renderer.recursiveRender({entries: entry.entries}, renderStack, {depth: 0});
+
+	$content.append(`
+		${Renderer.utils.getBorderTr()}
+		${Renderer.utils.getNameTr(entry)}
+		${Renderer.powereffect.getInfoTr(entry)}
+		<tr><td class="divider" colspan="6"><div></div></td></tr>
+		<tr class='text'><td colspan='6'>${renderStack.join("")}</td></tr>
+		${Renderer.powereffect.getModifierBlock(entry)}
+		${Renderer.utils.getBorderTr()}
+	`);
+
+	ListUtil.updateSelected();
+}
+
+function loadsub (sub) {
+	//filterBox.setFromSubHashes(sub);
+	ListUtil.setFromSubHashes(sub);
+}
+
+
+
+
+function getFakeData(){
+	return {
 	"powereffect": [
 		{
 			"name": "Affliction",
@@ -67,4 +192,5 @@
 			],
 		}
 	]
+};
 }

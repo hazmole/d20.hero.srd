@@ -10,7 +10,7 @@ window.onload = async function load () {
 
 async function onJsonLoad (data) {
 	list = ListUtil.search({
-		valueNames: ['name', 'type', "uniqueid", "eng_name"],
+		valueNames: ['name', 'type', "rank", "uniqueid", "eng_name"],
 		listClass: "advantages"
 	});
 
