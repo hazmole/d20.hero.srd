@@ -1560,27 +1560,6 @@ Renderer.utils = {
 		return `<td colspan=6>${Renderer.utils._getPageTrText(it)}</td>`;
 	},
 
-	_getPageTrText: (it) => {
-		function getAltSourceText (prop, introText) {
-			if (it[prop] && it[prop].length) {
-				return `${introText} ${it[prop].map(as => {
-					if (as.entry) {
-						return Renderer.get().render(as.entry);
-					} else {
-						return `<i title="${Parser.sourceJsonToFull(as.source)}">${Parser.sourceJsonToAbv(as.source)}</i>${as.page ? `, 第 ${as.page}頁` : ""}`;
-					}
-				}).join("; ")}`
-			} else return "";
-		}
-		const sourceSub = Renderer.utils.getSourceSubText(it);
-		const baseText = it.page ? `<b>資源：</b><i title="${Parser.sourceJsonToFull(it.source)}${sourceSub}">${Parser.sourceJsonToAbv(it.source)}${sourceSub}</i>, 第 ${it.page}頁` : "";
-		const addSourceText = getAltSourceText("additionalSources", "額外情報記載於");
-		const otherSourceText = getAltSourceText("otherSources", "同時記載於");
-		const externalSourceText = getAltSourceText("externalSources", "External sources:");
-
-		return `${[baseText, addSourceText, otherSourceText, externalSourceText].filter(it => it).join(". ")}${baseText && (addSourceText || otherSourceText || externalSourceText) ? "." : ""}`;
-	},
-
 	getAbilityRoller (statblock, ability) {
 		const mod = Parser.getAbilityModifier(statblock[ability]);
 		return Renderer.get().render(`{@d20 ${mod}|${statblock[ability]} (${mod})|${Parser.attAbvToFull(ability)}`);
@@ -1748,139 +1727,19 @@ Renderer.utils = {
 	}
 };
 
-Renderer.feat = {
-	getPrerequisiteText: function (prereqList, isShorthand, doMakeAsArray) {
-		isShorthand = isShorthand == null ? false : isShorthand;
-		doMakeAsArray = doMakeAsArray == null ? false : doMakeAsArray;
-		const andStack = [];
-		if (prereqList == null) return "";
-		for (let i = 0; i < prereqList.length; ++i) {
-			const outStack = [];
-			const pre = prereqList[i];
-			if (pre.level) {
-				if (isShorthand) {
-					outStack.push(`${pre.level}級`);
-				} else {
-					outStack.push(`${pre.level}級`);
-				}
-			}
-			if (pre.race != null) {
-				for (let j = 0; j < pre.race.length; ++j) {
-					if (isShorthand) {
-						const DASH = "-";
-						const raceNameParts = pre.race[j].name.split(DASH);
-						let raceName = [];
-						for (let k = 0; k < raceNameParts.length; ++k) {
-							raceName.push(raceNameParts[k].uppercaseFirst());
-						}
-						raceName = raceName.join(DASH);
-						outStack.push(Parser.RaceToDisplay(raceName) + (pre.race[j].subrace != null ? "(" + Parser.SubraceToDisplay(pre.race[j].subrace) + ")" : ""))
-					} else {
-						const raceName = j === 0 ? pre.race[j].name.uppercaseFirst() : pre.race[j].name;
-						outStack.push(Parser.RaceToDisplay(raceName) + (pre.race[j].subrace != null ? "(" + Parser.SubraceToDisplay(pre.race[j].subrace) + ")" : ""))
-					}
-				}
-			}
-			if (pre.ability != null) {
-				// this assumes all ability requirements are the same (13), correct as of 2017-10-06
-				let attCount = 0;
-				for (let j = 0; j < pre.ability.length; ++j) {
-					for (const att in pre.ability[j]) {
-						if (!pre.ability[j].hasOwnProperty(att)) continue;
-						if (isShorthand) {
-							outStack.push(Parser.AtrAbvToDisplay(att) + (attCount === pre.ability.length - 1 ? " 13+" : ""));
-						} else {
-							outStack.push(Parser.AtrAbvToDisplay(att) + (attCount === pre.ability.length - 1 ? " 13或以上" : ""));
-						}
-						attCount++;
-					}
-				}
-			}
-			if (pre.proficiency != null) {
-				// only handles armor proficiency requirements,
-				for (let j = 0; j < pre.proficiency.length; ++j) {
-					for (const type in pre.proficiency[j]) { // type is armor/weapon/etc.
-						if (!pre.proficiency[j].hasOwnProperty(type)) continue;
-						if (type === "armor") {
-							if (isShorthand) {
-								outStack.push("熟練" + Parser.ArmorToDisplay(pre.proficiency[j][type]) + "甲");
-							} else {
-								outStack.push("熟練" + Parser.ArmorToDisplay(pre.proficiency[j][type]) + "甲");
-							}
-						}
-					}
-				}
-			}
-			if (pre.spellcasting) {
-				if (isShorthand) {
-					outStack.push("施法能力");
-				} else {
-					outStack.push("具有施展至少一種法術的能力");
-				}
-			}
-			if (pre.special) {
-				if (isShorthand) outStack.push("特殊");
-				else {
-					const renderer = Renderer.get();
-					outStack.push(renderer.render(pre.special));
-				}
-			}
-			andStack.push(outStack);
-		}
-		if (doMakeAsArray) {
-			return andStack.reduce((a, b) => a.concat(b), []);
-		} else {
-			if (isShorthand) return andStack.map(it => it.join("/")).join("; ");
-			else {
-				const anyLong = andStack.filter(it => it.length > 1).length && andStack.length > 1;
-				return andStack.map(it => it.joinConjunct(", ", " 或 ")).joinConjunct(anyLong ? "; " : ", ", anyLong ? " 和 " : ", ");
-			}
-		}
-	},
+Renderer.advantage = {
+	getRankTr: function (rank) {
+		if (rank == null) return "";
+		var str = "";
 
-	mergeAbilityIncrease: function (feat) {
-		const entries = feat.entries;
-		const abilityObj = feat.ability;
-		if (!abilityObj || feat._hasMergedAbility) return;
-		feat._hasMergedAbility = true;
-		const targetList = entries.find(e => e.type === "list");
-		if (targetList) targetList.items.unshift(abilityObjToListItem());
+		if((typeof rank)==='boolean'){
+			str = FMT("Ranked");
+		}
 		else {
-			// this should never happen, but display sane output anyway, and throw an out-of-order exception
-			entries.unshift(abilityObjToListItem());
-			setTimeout(() => {
-				throw new Error(`Could not find object of type "list" in "entries" for feat "${feat.name}" from source "${feat.source}" when merging ability scores! Reformat the feat to include a "list"-type entry.`);
-			}, 1);
+			str = FMT("Ranked [{0}]").replace("{0}", rank);
 		}
 
-		function abilityObjToListItem () {
-			const TO_MAX_OF_TWENTY = "，上限為20。";
-			const abbArr = [];
-			if (!abilityObj.choose) {
-				Object.keys(abilityObj).forEach(ab => abbArr.push(`你的 ${Parser.attAbvToFull(ab)} 增加${abilityObj[ab]}點${TO_MAX_OF_TWENTY}`));
-			} else {
-				const choose = abilityObj.choose;
-				for (let i = 0; i < choose.length; ++i) {
-					if (choose[i].from.length === 6) {
-						if (choose[i].textreference) { // only used in "Resilient"
-							abbArr.push(`所選的屬性值增加${choose[i].amount}點${TO_MAX_OF_TWENTY}`);
-						} else {
-							abbArr.push(`你所選的一個屬性值增加${choose[i].amount}點${TO_MAX_OF_TWENTY}`);
-						}
-					} else {
-						const from = choose[i].from;
-						const amount = choose[i].amount;
-						const abbChoices = [];
-						for (let j = 0; j < from.length; ++j) {
-							abbChoices.push(Parser.attAbvToFull(from[j]));
-						}
-						const abbChoicesText = abbChoices.joinConjunct(", ", " 或 ");
-						abbArr.push(`你的 ${abbChoicesText} 增加${amount}點${TO_MAX_OF_TWENTY}`);
-					}
-				}
-			}
-			return abbArr.join(" ");
-		}
+		return `<tr><td colspan="6">${str}</td></tr>`;
 	},
 
 	getCompactRenderedString: (feat) => {

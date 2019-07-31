@@ -11,6 +11,8 @@
 "powers": "超能力",
 "advantage": "優勢",
 "advantages": "優勢",
+"ranked": "可重複提升等級",
+"ranked [{0}]": "可重複提升等級，最高至[{0}]",
 "reset": "重置",
 "name": "名稱",
 "type": "類別",

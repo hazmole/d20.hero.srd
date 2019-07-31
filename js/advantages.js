@@ -99,6 +99,7 @@ function loadhash (id) {
 	$content.append(`
 		${Renderer.utils.getBorderTr()}
 		${Renderer.utils.getNameTr(entry)}
+		${Renderer.advantage.getRankTr(entry.rank)}
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		<tr class='text'><td colspan='6'>${renderStack.join("")}</td></tr>
 		${Renderer.utils.getBorderTr()}
@@ -108,6 +109,6 @@ function loadhash (id) {
 }
 
 function loadsub (sub) {
-	filterBox.setFromSubHashes(sub);
+	//filterBox.setFromSubHashes(sub);
 	ListUtil.setFromSubHashes(sub);
 }
