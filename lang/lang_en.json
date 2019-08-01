@@ -25,8 +25,10 @@
 "type_sensory": "Sensory",
 
 "cost_per": "{0} point per rank",
+"cost_as_base_trait": "As base Trait",
 "modcost_per": "{0} cost per rank",
 "modcost_flat": "Flat {0} point",
+
 
 "action_suffix": " action",
 "action_standard": "Standard",

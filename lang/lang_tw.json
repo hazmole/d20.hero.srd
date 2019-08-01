@@ -25,6 +25,7 @@
 "type_sensory": "感知",
 
 "cost_per": "{0}點/每級",
+"cost_as_base_trait": "與該屬性的花費相同",
 "modcost_per": "每級額外{0}點",
 "modcost_flat": "額外{0}點",
 

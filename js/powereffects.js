@@ -5,8 +5,8 @@ let list;
 
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
-	DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
-	//onJsonLoad(getFakeData());
+	//DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
+	onJsonLoad(getFakeData());
 };
 
 async function onJsonLoad (data) {
@@ -126,71 +126,124 @@ function getFakeData(){
 	return {
 	"powereffect": [
 		{
-			"name": "Affliction",
-			"type": "ATK",
+			"name": "Healing",
+			"type": "G",
 			"action": "S",
 			"range": "close",
 			"duration": "instant",
 			"cost": {
-				"cost_value": 1,
-				"cost_type": "per"
+				"value": 2,
+				"type": "per"
 			},
 			"entries": [
-				"You can impose some debilitating condition or conditions on a target by making a close attack. You set the conditions your Affliction causes at each degree when you acquire it and they may not be changed. Higher degree conditions replace lower degree conditions and do not stack with them. See the possible conditions for each degree under the Affliction Resistance Check table. The target resists with Fortitude or Will defense (chosen when you take the effect):",
-				{
-					"type": "entries",
-					"name": "Affliction Resistance Check",
-					"entries": [
-						"",
-						"Fortitude or Will vs. DC [Affliction rank + 10]",
-						{
-							"type": "list",
-							"items": [
-								"{@b Success}: No effect.",
-								"{@b Failure (one degree)}: The target is dazed, entranced, fatigued, hindered, impaired, or vulnerable (choose one). Potential descriptors include coughing or sneezing, creeping mental influence, drowsiness, euphoria, fear, itchiness, lethargy, nausea, pain, or tipsiness.",
-								"{@b Failure (two degrees)}: The target is compelled, defenseless, disabled, exhausted, immobile, prone, or stunned (choose one). Potential descriptors include agonizing pain, confusion, ecstasy, momentary emotional or mental influence, paralysis, seizure, terror, or vomiting.",
-								"{@b Failure (three degrees)}: The target is asleep, controlled, incapacitated, paralyzed, transformed or unaware (choose one)."
-							]
-						},
-						
-						"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
-						"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
-					]
-				}
+				"You can heal Damage conditions by touching a subject and taking a standard action to make a DC 10 Healing check. Each degree of success healing one Damage condition, starting with the subject’s worst condition, and working down, as if the subject were recovering rapidly. If the subject is dying, the highest degree of success stabilizes the subject, removing the dying condition. If the Healing check fails, you must wait one minute or use extra effort in order to try again.",
+				"You can also grant a subject a bonus equal to your Healing rank on resistance checks against effects with disease or poison descriptors. The bonus applies to the subject’s next resistance check against the effect.",
+				"You can use Healing on yourself, provided you are still capable of taking the standard action needed.",
+				"Healing does not work on subjects unable to recover on their own, such as creatures with no Stamina rank or inanimate objects."
 			],
 			"extras": [
 				{
-					"name": "Alternate Resistance",
-					"entries": ["Some Afflictions may be initially resisted by Dodge, representing the need for quick reaction time or reflexes to avoid the effect. In this case, the later resistance checks to remove the Affliction’s conditions are typically still based on Fortitude or Will. For example, a target might make a Dodge check to avoid a blinding light or spray of liquid, but a Fortitude check to eliminate the effect if the initial Dodge fails. +0 cost per rank."]
+					"name": "Action",
+					"entries": ["This extra reduces the action required for you to use Healing. You cannot use Healing more than once per turn regardless. To heal multiple subjects at once, apply the Area modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
 				},
 				{
-					"name": "Concentration",
-					"entries": ["Once you have hit with a Concentration Affliction, so long as you continue to take a standard action each turn to maintain the effect, the target must make a new resistance check against it, with no attack check required. +1 cost per rank."]
+					"name": "Affects Objects",
+					"entries": ["Your Healing can also “heal” damage to non-living subjects. You make a Healing check against the subject’s worst damage condition, as normal. "],
+					"cost": {
+						"value": 1, "type": "per"
+					}
 				},
 				{
-					"name": "Cumulative",
-					"entries": ["Normally, an Affliction does not have a cumulative effect on the same target, so getting two results of one degree, one after the other, has no more or less effect than a single one degree result; you have to get a higher degree with a later attack, which replaces the initial result. A Cumulative Affliction adds any further degrees to the existing degrees on the target. For example, if you hit a target and impose a vulnerable condition (one degree), then attack again and get one degree on the effect, you impose the Affliction’s second degree condition. +1 cost per rank."]
+					"name": "Area",
+					"entries": ["Healing with this extra grants the same benefit to all subjects in the affected area. Area Empathic Healing (see this power’s Flaws) is an unwise combination, as the healer takes on all of the damage conditions of the affected subjects at once!"],
+					"cost": {
+						"value": 1, "type": "per"
+					}
 				},
 				{
-					"name": "Extra Condition",
-					"entries": ["Your Affliction imposes an additional condition per degree of success. So with one application of this extra, your Affliction imposes two conditions—such as dazed and hindered, or impaired and vulnerable—rather than just one. With two applications, it imposes three conditions, and so forth. Since mutually incompatible conditions are largely wasted, Afflictions with this extra often have the Limited Degree flaw as well. +1 cost per rank."]
+					"name": "Energizing",
+					"entries": ["You can heal the fatigued and exhausted conditions as well as damage conditions: DC 10, one degree of success for fatigued, two degrees of success for exhausted. However, you take on the removed conditions and cannot use Healing to eliminate your own fatigue (although you can still use victory points to recover from them). If the Healing check fails, you must wait the normal recovery time or use extra effort to try again."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
 				},
 				{
-					"name": "Progressive",
-					"entries": ["This modifier causes an Affliction to increase incrementally without any effort from you. If the target fails a resistance check to end the Affliction, it not only persists, but increases in effect by one degree! So a target affected by the first degree of a Progressive Affliction who fails to resist progresses to the second degree of the effect at the start of his next round. A successful resistance check still ends the Affliction, as usual. +2 cost per rank."]
+					"name": "Perception",
+					"entries": ["Applied to Ranged Healing (following), perception Ranged Healing does not require an attack check to “touch” the subject."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Persistent",
+					"entries": ["Your Healing can remove even Incurable effects (see the Incurable modifier)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["Ranged Healing requires an attack check to “touch” the subject with the Healing effect. The GM may waive the check for a willing subject holding completely still, but the subject is defenseless that round, making it an unwise decision in the midst of combat."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Restorative",
+					"entries": ["Your Healing effect can restore character points removed by Weaken effects with the appropriate descriptors, such as injury, disease, or poison. You restore points equal to your rank to the affected trait(s)."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Resurrection",
+					"entries": ["You can restore life to the dead! If the subject has been dead for fewer minutes than your Healing rank, makes a DC 20 Healing check. If successful, the patient’s condition becomes incapacitated, as if just stabilized. If the check fails, you can only try again using extra effort."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["Area Healing may have this extra, allowing you to choose who in the area does and does not gain the benefits."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Stabilize",
+					"entries": ["You don’t need to make a Healing check to stabilize a dying character, your Healing effect does so automatically, although it still requires the normal standard action."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
 				}
 			],
 			"flaws": [
 				{
-					"name": "Instant Recovery",
-					"entries": ["Similar to the Reversible extra, the target of an Affliction effect with this modifier recovers automatically, no check required, at the end of the round in which the duration ends. So, for example, an instant duration Affliction only lasts one round, while a sustained duration Affliction lasts until no longer sustained. –1 cost per rank."]
+					"name": "Empathic",
+					"entries": ["When you successfully cure someone else of a condition, you acquire the condition yourself and must recover from it normally. You can use Healing and Regeneration to cure your own conditions. You can have the Resurrection modifier for Healing, but if you successfully use it, you die! This may not be as bad as it seems if you have Immortality, allowing you to return to life (see the Immortality effect for details)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
 				},
 				{
-					"name": "Limited Degree",
-					"entries": ["Your Affliction is limited to no more than two degrees of effect. With two applications of this modifier, it is limited to no more than one degree of effect. –1 cost per rank."]
+					"name": "Limited",
+					"entries": ["Examples of ways in which Healing may be Limited include: One Type of Damage (such as energy or bludgeoning damage), Objects (in conjunction with Affects Objects), Others (you can’t use Healing on yourself), or Self (you can only use Healing on yourself)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Temporary",
+					"entries": ["The benefits of your Healing are temporary, lasting for one hour. The subject then regains any damage conditions you healed. These conditions stack with others the subject acquired since the initial healing, which may result in more severe damage or even death."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
 				}
-			],
-		}
+			]
+		},
 	]
 };
 }

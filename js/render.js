@@ -578,7 +578,7 @@ function Renderer () {
 	};
 
 	this._renderQuote = function (entry, textStack, meta, options) {
-		textStack[0] += `<p><i>`;
+		textStack[0] += `<p style="margin-left:10px;"><i>`;
 		const len = entry.entries.length;
 		for (let i = 0; i < len; ++i) {
 			this._recursiveRender(entry.entries[i], textStack, meta);
@@ -4198,11 +4198,12 @@ Renderer.powereffect = {
 		//console.log(modifier);
 		var outstack = [];
 		outstack.push('<div class=" rd__b--3">');
-		outstack.push(`<span class="rd__h rd__h--3" data-title-index="2"><span class="entry-title-inner">${modifier.name}: </span></span>`);
+		if(modifier.name)
+			outstack.push(`<span class="rd__h rd__h--3" data-title-index="2"><span class="entry-title-inner">${modifier.name}: </span></span>`);
 		for(var idx in modifier.entries){
 			renderer.recursiveRender(modifier.entries[idx], outstack, {depth: 3});
 		}
-		if(!modifier.cost.hidden)
+		if(modifier.cost && !modifier.cost.hidden)
 			outstack.push(` <b>${Renderer.getModifyCostText(modifier.cost)}.</b>`);
 		outstack.push('</div>');
 		return outstack.join("");
@@ -4267,8 +4268,13 @@ Renderer.getTypeFullText = function(type) {
 };
 Renderer.getCostText = function (cost){
 	if(!cost) return "";
+	var value = cost.value;
+	if(typeof value == "object"){
+		value = value.min + "~" + value.max;
+	}
 	switch(cost.type){
-		case "per": return FMT("cost_per", cost.value);
+		case "per": return FMT("cost_per", value);
+		case "special": return FMT(value);
 		default: return "";
 	};
 };
@@ -4276,7 +4282,7 @@ Renderer.getModifyCostText = function (cost){
 	if(!cost) return "";
 	if(cost.hidden) return "";
 	var value = cost.value, value_pos;
-	if(typeof value !== "number"){
+	if(typeof value == "object"){
 		value_pos = value.min>=0;
 		value = value.min + "~" + value.max;
 	}
