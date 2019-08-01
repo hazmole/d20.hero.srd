@@ -1516,7 +1516,7 @@
 					"name": "Luck",
 					"entries": ["Each rank in this extra gives you the benefit of a rank in the Luck advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM."],
 					"cost": {
-						"value": 1, "type": "flat_per",
+						"value": 1, "type": "flat_per"
 					}
 				},
 				{
@@ -2951,7 +2951,7 @@
 					"entries": [
 						"Weaken with Affects Objects and the right descriptor(s) can lower the traits provided by a device (see the Removable flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like Nullify."
 					]
-				},
+				}
 			],
 			"extras": [
 				{
