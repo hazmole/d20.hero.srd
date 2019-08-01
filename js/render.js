@@ -199,6 +199,7 @@ function Renderer () {
 				case "table": this._renderTable(entry, textStack, meta, options); break;
 				case "tableGroup": this._renderTableGroup(entry, textStack, meta, options); break;
 				case "inset": this._renderInset(entry, textStack, meta, options); break;
+				case "insetResistCheck": this._renderInsetResistCheck(entry, textStack, meta, options); break;
 				case "insetReadaloud": this._renderInsetReadaloud(entry, textStack, meta, options); break;
 				case "variant": this._renderVariant(entry, textStack, meta, options); break;
 				case "variantSub": this._renderVariantSub(entry, textStack, meta, options); break;
@@ -523,6 +524,25 @@ function Renderer () {
 		if (entry.name != null) {
 			this._handleTrackTitles(entry.name);
 			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+		}
+		const len = entry.entries.length;
+		for (let i = 0; i < len; ++i) {
+			const cacheDepth = meta.depth;
+			meta.depth = 2;
+			this._recursiveRender(entry.entries[i], textStack, meta, {prefix: "<p>", suffix: "</p>"});
+			meta.depth = cacheDepth;
+		}
+		textStack[0] += `</${this.wrapperTag}>`;
+	};
+
+	this._renderInsetResistCheck = function (entry, textStack, meta, options) {
+		textStack[0] += `<${this.wrapperTag} class="rd__b-inset rd__b-inset--readaloud">`;
+		if (entry.name != null) {
+			this._handleTrackTitles(entry.name);
+			textStack[0] += `<span class="rd__h rd__h--2" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+		}
+		if (entry.func != null) {
+			textStack[0] += `<span class="rd__h rd__h--2-inset"><span class="entry-title-inner">${entry.func}</span></span>`;
 		}
 		const len = entry.entries.length;
 		for (let i = 0; i < len; ++i) {

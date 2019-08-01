@@ -13,10 +13,10 @@
 			"entries": [
 				"You can impose some debilitating condition or conditions on a target by making a close attack. You set the conditions your Affliction causes at each degree when you acquire it and they may not be changed. Higher degree conditions replace lower degree conditions and do not stack with them. See the possible conditions for each degree under the Affliction Resistance Check table. The target resists with Fortitude or Will defense (chosen when you take the effect):",
 				{
-					"type": "entries",
+					"type": "insetResistCheck",
 					"name": "Affliction Resistance Check",
+					"func": "Fortitude or Will vs. DC [Affliction rank + 10]",
 					"entries": [
-						"Fortitude or Will vs. DC [Affliction rank + 10]",
 						{
 							"type": "list",
 							"items": [
@@ -25,11 +25,11 @@
 								"{@b Failure (two degrees)}: The target is compelled, defenseless, disabled, exhausted, immobile, prone, or stunned (choose one). Potential descriptors include agonizing pain, confusion, ecstasy, momentary emotional or mental influence, paralysis, seizure, terror, or vomiting.",
 								"{@b Failure (three degrees)}: The target is asleep, controlled, incapacitated, paralyzed, transformed or unaware (choose one)."
 							]
-						},
-						"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
-						"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
+						}
 					]
-				}
+				},
+				"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
+				"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
 			],
 			"extras": [
 				{
@@ -542,10 +542,10 @@
 			"entries": [
 				"You can inflict damage on a target by making a close attack. The exact nature of your Damage is up to you, with the GM’s approval; it can be anything from a powerful impact to razor claws, energy fields, or some other damaging medium. The target resists with Toughness:",
 				{
-					"type": "entries",
+					"type": "insetResistCheck",
 					"name": "Damage Resistance Check",
+					"func": "Toughness vs. [Damage rank + 15]",
 					"entries": [
-						"Toughness vs. [Damage rank + 15]",
 						{
 							"type": "list",
 							"items": [
@@ -555,11 +555,11 @@
 								"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
 								"{@b Failure (four degrees)}: The target is incapacitated ."
 							]
-						},
-						"TThe circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
-						"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead."
+						}
 					]
 				},
+				"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
+				"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
 				{
 					"type": "inset",
 					"name": "Strength and Damage",
