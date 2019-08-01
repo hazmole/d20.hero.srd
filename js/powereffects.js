@@ -5,8 +5,8 @@ let list;
 
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
-	//DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
-	onJsonLoad(getFakeData());
+	DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
+	//onJsonLoad(getFakeData());
 };
 
 async function onJsonLoad (data) {
@@ -126,132 +126,112 @@ function getFakeData(){
 	return {
 	"powereffect": [
 		{
-			"name": "Insubstantial",
-			"type": "G",
+			"name": "Movement",
+			"type": "MOV",
 			"action": "F",
 			"range": "personal",
 			"duration": "sustained",
 			"cost": {
-				"value": 5,
+				"value": 2,
 				"type": "per"
 			},
 			"entries": [
-				"You can assume a less solid form, with each Insubstantial rank becoming progressively less solid. You do not gain the ability to assume lower-ranked Insubstantial forms at higher ranks, but you can acquire a lower-ranked form as an Alternate Effect of a higher-ranked one. You can switch between normal and Insubstantial form at will as a free action once per round. The default is that substantial is your “normal” form, but the GM may permit you to make Insubstantial your “normal” form, in which case remaining solid is a sustained duration for you!",
-				"Insubstantial offers four ranks of effect:",
+				"You have a special form of movement. For each rank in this effect, choose one of the following options:",
 				{
 					"type": "entries",
-					"name": "Rank 1 – Fluid",
+					"name": "Dimension Travel",
 					"entries": [
-						"You become a fluid mass. You can flow through any sort of opening, under (or around) doors, through keyholes and pipes, and so forth. You cannot pass through watertight seals. You can automatically flow out of any restraint—such as a snare or grab—that is not watertight. So you cannot flow out of a bubble completely enclosing you, for example, but anything less cannot hold you. You can exert your normal Strength and can still push or carry objects, although your manual dexterity may be limited (at the GM’s discretion).",
-						"A fluid character may attempt to catch a falling person or object, cushioning the fall with the character’s flexible form. This requires a move action, and reduces the falling damage by the cushioning character’s Toughness bonus (representing flexibility in this case). Both characters must make resistance checks against the remaining damage. Higher rank insubstantial forms—lacking physical Strength—cannot attempt this."
+						"You can move instantly from one dimension to another as a move action. For 1 rank, you can move between your home dimension and one other. For 2 ranks you can move between any of a related group of dimensions (mystical dimensions, alien dimensions, etc). For 3 ranks you can travel to any dimension. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you move. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rank 2 – Gaseous",
+					"name": "Environmental Adaptation",
 					"entries": [
-						"You become a cloud of gas or fine particles. You have no effective Strength in gaseous form, but have Immunity to Physical Damage. Energy and area attacks still affect you normally. You can flow through any opening that is not airtight. You can use your various other effects normally."
+						"You’re adapted to a particular environment, such as underwater, zero gravity, and so forth (see Environmental Hazards for details). You suffer none of the normal unfavorable circumstance or movement penalties associated with that environment, moving and acting normally. You are still affected by environmental hazards like suffocation, exposure, and so forth. You need the Immunity effect to ignore such things."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rank 3 – Energy",
+					"name": "Permeate",
 					"entries": [
-						"You become coherent energy. You have no effective Strength, but have Immunity to Physical Damage. Energy attacks (other than the energy making up your form, to which you have Immunity) damage you normally. You can pass through solid objects permeable to your type of energy, but energy resistant barriers, like heavy shielding or force fields, block your movement."
+						"You can pass through solid objects as if they weren’t there. For 1 rank, you can move at speed rank –2 through any physical object. For 2 ranks, you can move at speed rank –1 and for 3 ranks, you move at your normal speed through any obstacles. You cannot breathe while completely inside a solid object, so you either need Immunity to Suffocation or have to hold your breath. You may also need Penetrates Concealment Senses to know where you’re going, since you cannot see inside solid objects, either.",
+						"Permeate is often Limited to a particular substance like earth, ice, or metal, for example. Permeate provides no protection against attacks, although you do gain cover while inside an object (see Cover). For the ability to allow things (including attacks) to pass through you, see Insubstantial effect."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rank 4 – Incorporeal",
+					"name": "Safe fall",
 					"entries": [
-						"You become an incorporeal phantom. You can pass through solid matter at your normal speed and you have Immunity to Physical and Energy Damage. Sensory effects (other than tactile) and those targeting Will still work on you, as do effects with the Affects Insubstantial modifier. Choose one other reasonably common effect or descriptor that works on you while you are incorporeal. You have no effective Strength and cannot affect the physical world, except with effects with the Affects Corporeal modifier. Your sensory effects work normally.",
-						"Unless you have Immunity to Suffocation, you must hold your breath while passing through a solid object, and you can suffocate. If you revert to solid form while inside a solid object for any reason, you suffer damage equal to the object’s Toughness, resisted by your Fortitude. If not incapacitated by the damage, you’re immediately ejected from the object into the nearest open space. If you are incapacitated, you’re trapped inside the object and your condition worsens to dying on the following round (making it very difficult for aid to reach you)."
+						"So long as you are capable of action, you can fall any distance without harm. You can also stop your fall at any point along a distance so long as there is a handhold or projection for you to grab (such as a ledge, flagpole, branch, etc.). If you have the Wall-crawling power (later in Movement), any surface you can climb provides you with a handhold.",
+						"Safe Fall may be Limited to only when you are near a surface (such as the side of a building); you’re assumed to be using the surface to help slow your fall."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Insubstantial Descriptors",
+					"name": "Slithering",
 					"entries": [
-						"Note that the fluid, gaseous, etc., rank names are themselves essentially descriptors for the different Insubstantial effects. A character with Insubstantial 1 might instead be a stretchable, rubbery form rather than a liquid, for example, while one with Insubstantial 2 could transform into a swarm of insects rather than a gas."
+						"You can move while prone at your normal ground speed. You suffer no circumstance penalty for making attacks while prone."
 					]
-				}
-			],
-			"extras": [
-				{
-					"name": "Affects Corporeal",
-					"entries": ["This extra is required for any effect that works on corporeal targets while you are incorporeal. See the description of this extra for details and cost."],
 				},
 				{
-					"name": "Affects Others",
-					"entries": ["This modifier allows you to extend your Insubstantial effect to another character by touch, taking them Insubstantial with you. If you ever withdraw the effect while someone is inside a solid object, see the effect’s description for the unpleasant results."],
-					"cost": {
-						"value": {"min":0, "max":1}, "type": "per"
-					}
+					"type": "entries",
+					"name": "Space Travel",
+					"entries": [
+						"You can travel faster than the speed of light through the vacuum of space (but not in a planetary atmosphere). At rank 1 you can travel to other planets in a solar system. At rank 2, you can travel to other star systems, while at rank 3, you can visit distant star systems, perhaps even other galaxies! This effect does not provide protection from the rigors of outer space (for that, see Immunity effect)."
+					]
 				},
 				{
-					"name": "Attack",
-					"entries": ["Applied to Insubstantial, this extra makes it into a close range effect able to turn targets Insubstantial. You must be able to physically touch the target to make an Insubstantial Attack, meaning it must have the Affects Corporeal modifier to use it while you are incorporeal. This modifier is most effective for ranks 2 through 4, since the victim loses some or all ability to interact with the physical world. The default resistance for an Insubstantial Attack is Dodge, although it can be Fortitude or Will, as best suits the effect’s descriptors. You need to grab a target in order to drag them inside a solid object unless the target is already defenseless. You and the target are not insubstantial to each other. The cost is +0 per rank if it is an Insubstantial Attack only, +1 cost per rank if you can both be Insubstantial and make an attack to make others Insubstantial."],
-					"cost": {
-						"value": {"min":0, "max":1}, "type": "per"
-					}
+					"type": "entries",
+					"name": "Sure-footed",
+					"entries": [
+						"You’re better able to deal with obstacles and obstructions to movement. Reduce the speed penalty for moving through or around such obstacles by 1 for each rank of this effect. If you reduce the speed penalty to 0 or less, you are unaffected by that obstacle and move at full normal speed."
+					]
 				},
 				{
-					"name": "Continuous",
-					"entries": ["Extending the effect’s duration to continuous allows you to remain Insubstantial until you choose to return to your corporeal form."],
-					"cost": {
-						"value": 1, "type": "per"
-					}
+					"type": "entries",
+					"name": "Swinging",
+					"entries": [
+						"You can swing through the air at your normal ground speed rank, using a swing-line you provide or available lines and projections (tree limbs, flagpoles, vines, telephone- and powerlines, etc.)."
+					]
 				},
 				{
-					"name": "Innate",
-					"entries": ["Use this modifier if your character’s form is naturally or innately Insubstantial, particularly if the effect is permanent in duration."],
-					"cost": {
-						"value": 1, "type": "flat"
-					}
+					"type": "entries",
+					"name": "Time Travel",
+					"entries": [
+						"You can move through time! For 1 rank, you can move between the present and another fixed point in time (such as 100 years into the past, or 1,000 years into the future). For 2 ranks you can move to any point in the past or any point in the future (but not both). For 3 ranks, you can travel to any point in time. Reaching alternate timelines or parallel worlds requires at least 2 ranks of Dimension-Travel. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you time-travel. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+					]
 				},
 				{
-					"name": "Precise",
-					"entries": ["This modifier allows you to selectively make some portions of your body insubstantial while keeping others substantial (or vice versa). This allows you to do things like reach through a wall, solidify your hand to pick up an object or tap someone on the shoulder (or punch them in the face), and become incorporeal again to withdraw it on the following round."],
-					"cost": {
-						"value": 1, "type": "flat"
-					}
+					"type": "entries",
+					"name": "Trackless",
+					"entries": [
+						"You leave no trail and cannot be tracked using visual senses (although you can still be tracked using scent or other means). You can walk across the surface of soft sand or snow without leaving tracks and you have total concealment from tremorsense (see Concealment). Each additional rank renders you trackless to another sense type."
+					]
 				},
 				{
-					"name": "Progressive",
-					"entries": ["You can assume lower ranked forms of Insubstantial, but you must progress through them in order to reach the higher-ranked ones. For example if you have Progressive Insubstantial 3, you can assume fluid, gaseous, or energy forms, but to assume energy form, you must first progress through fluid and gaseous, becoming less and less substantial. Since you can only activate the effect once per turn, it takes you three turns to get there."],
-					"cost": {
-						"value": 0, "type": "per"
-					}
+					"type": "entries",
+					"name": "Wall-crawling",
+					"entries": [
+						"You can climb walls and ceilings at your ground speed rank –1 with no chance of falling and no need for an Athletics check. You are still vulnerable while climbing, however. An additional rank of this effect means you climb at your full speed rank and are not vulnerable while climbing."
+					]
 				},
 				{
-					"name": "Reaction",
-					"entries": ["Becoming Insubstantial is normally a free action, meaning you can’t switch to an Insubstantial form when surprised or otherwise unable to take action. At the GM’s option, applying the Action extra to use Insubstantial as a reaction allows you to switch forms “reflexively” in response to such hazards, even if it is not your turn."],
-					"cost": {
-						"value": 1, "type": "per"
-					}
+					"type": "entries",
+					"name": "Water-walking",
+					"entries": [
+						"You can stand or move at your normal ground speed on the surface of water, quicksand, and other liquids without sinking. If you fall prone for any reason, you sink into the liquid normally. With 2 ranks of this effect, you can also lie prone on a liquid surface without sinking; you only sink if you choose to."
+					]
 				},
 				{
-					"name": "Subtle",
-					"entries": ["This extra makes your Insubstantial nature less noticeable to observers. Rank 1 requires a Perception check (DC 20) to detect that you are Insubstantial, while 2 ranks mean you look entirely normal in Insubstantial form (which may cause opponents to waste effort on you, not knowing you are immune to their attacks, for example)."],
-					"cost": {
-						"value": {"min":1, "max":2}, "type": "flat"
-					}
-				}
-			],
-			"flaws": [
-				{
-					"name": "Absent Strength",
-					"entries": ["This flaw applies only to rank 1 Insubstantial and removes your effective Strength while in that form, leaving you with limited ability to affect the physical world like the higher ranks of the effect."],
-					"cost": {
-						"value": -1, "type": "flat"
-					}
-				},
-				{
-					"name": "Permanent",
-					"entries": ["You are always Insubstantial; you cannot assume solid form, although your Insubstantial effect can still be Nullified unless it is also Innate."],
-					"cost": {
-						"value": 0, "type": "per"
-					}
+					"type": "inset",
+					"name": "Under the Hood: Time, Space, And Dimension Travel",
+					"entries": [
+						"The Time, Space, and Dimension Travel effects of Movement are comparatively cheap considering what they do, primarily because such special movement capabilities are highly dependent on the plot and nature of the setting, and subject to a lot of Gamemaster oversight. Thus, they largely amount to supped-up Features, mainly allowing heroes to visit exotic locales.",
+						"Temporal mechanics and the effects of time travel are left entirely up to the GM, who may choose to make Time Travel Limited, Uncontrolled, or Unreliable for player characters, or disallow it altogether, treating it solely as a plot-device in the setting.",
+						"Space travel in the comic books rarely involves the laws of physics and tends to occur “at the speed of plot”. Characters and vehicles (such as alien starships) able to traverse the void of space do so primarily to facilitate adventures out among the stars. Exactly how fast characters travel through the void of space does not really matter; it is how long it takes them to get where they’re going that matters. So Space Travel is largely defined in terms of “how far can you go between scenes?” The same is true of the mechanism of travel, whether hyperspace, jump drive, faster-than-light “warp speed,” or what have you.",
+						"The Gamemaster likewise decides on the existence and nature of other dimensions in the setting, what they are like, and who can reach them. Like Time Travel, the GM may require Dimension Travel be Limited, Uncontrolled, or Unreliable for player characters, or treat it solely as a plot-device rather than a defined effect."
+					]
 				}
 			]
 		},

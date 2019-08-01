@@ -158,7 +158,7 @@
 					],
 					"colStyles": [
 						"col-3 text-align-center",
-						"col-9 text-align-center"
+						"col-9"
 					],
 					"rows": [
 						["1","Close range (within 100 feet)"],
@@ -1366,7 +1366,7 @@
 			"extras": [
 				{
 					"name": "Affects Corporeal",
-					"entries": ["This extra is required for any effect that works on corporeal targets while you are incorporeal. See the description of this extra for details and cost."],
+					"entries": ["This extra is required for any effect that works on corporeal targets while you are incorporeal. See the description of this extra for details and cost."]
 				},
 				{
 					"name": "Affects Others",
@@ -1439,6 +1439,505 @@
 					"cost": {
 						"value": 0, "type": "per"
 					}
+				}
+			]
+		},
+		{
+			"name": "Leaping",
+			"type": "MOV",
+			"action": "F",
+			"range": "personal",
+			"duration": "instant",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can make prodigious leaps, far more than even a skilled athlete. Your Leaping rank, minus 2, is the distance rank you cover in a single standing jump: so 15 feet at rank 1, 30 feet at rank 2, up to 1,000 miles at rank 20! You do not suffer any damage from landing after a jump, so long as it is within your maximum distance.",
+				"The speed rank of your leap maxes out at 7 (around 250 miles per hour), so leaps of greater than distance rank 7 take time equal to the distance rank minus 7. For example, a massive leap of 500 miles (distance rank 17) takes time rank 10 (17 – 7, or two hours) of time in the air! Because of this, leapers may choose to make shorter “hops” of just a couple miles, leaving them airborne for only a minute or so, to better control their direction."
+			],
+			"extras": [
+				{
+					"name": "Affects Others",
+					"entries": ["You can give someone you are touching the ability to leap like you do while the effect lasts. You do not need this extra to simply carry someone while you leap; you can carry what your Strength normally allows."],
+					"cost": {
+						"value": {"min":0, "max":1}, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Acrobatics Check Required",
+					"entries": ["In order to use Leaping, you must make an Acrobatics skill check (DC 10). Each point your check total exceeds the DC allows you to use 1 rank of Leaping, up to your total rank."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Full Power",
+					"entries": ["With this flaw, you can only leap your maximum distance; you can make shorter leaps only by not using your Leaping effect at all, just the normal jumping distance for your Strength. This may suit uncontrollable “leaping” effects like rocket boosters and the like."],
+					"cost": {
+						"value": -1, "type": "flat"
+					}
+				}
+			]
+		},
+		{
+			"name": "Luck Control",
+			"type": "CTL",
+			"action": "R",
+			"range": "perception",
+			"duration": "instant",
+			"cost": {
+				"value": 3,
+				"type": "per"
+			},
+			"entries": [
+				"You can use victory points or ranks of Luck to affect others in various ways (see victory points). For each rank you have in this effect, choose one of the following capabilities:",
+				{
+					"type": "list",
+					"items": [
+						"You can spend a victory point or use Luck on another character’s behalf, with the normal benefits.",
+						"You can bestow your victory point or use of Luck on others. You can use this only once on any given character in a round, but the recipient may use the bestowed point(s) normally.",
+						"You can spend one of your victory point or uses of the Luck advantage to negate someone else’s use of a victory point, use of their Luck advantage, or a Gamemaster-imposed complication (at the GM’s discretion). The latter also eliminates the complication, however, so no victory points are awarded for it.",
+						"You can spend a victory point or use Luck to force someone else to reroll a die roll and take the worse of the two rolls. The target of this last effect may spend a victory point or use Luck to avoid having to reroll."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Area",
+					"entries": ["Your Luck Control effect works equally on all targets in the affected area. You spend only one victory point, but the subjects are each affected individually. You must apply the same effect to all subjects at once."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Luck",
+					"entries": ["Each rank in this extra gives you the benefit of a rank in the Luck advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM. {@b Flat +1 point per rank of Luck.}"],
+					"cost": {
+						"value": 1, "type": "per", "hidden": true
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["This extra, applied to Area Luck Control, allows you to choose who in the area is or is not affected by it."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Action",
+					"entries": ["If the action required for Luck Control is increased beyond a reaction, it is only usable during your turn each round, which limits its usefulness in responding to the actions of others."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["Luck Control normally requires no attack check; if Ranged, it does."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Resistible",
+					"entries": ["Targets of your Luck Control get a resistance check—usually Dodge or Will—to avoid its effects."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Side Effect",
+					"entries": ["As a particular side effect of Luck Control, if your effort to alter luck fails, you suffer a setback without earning a victory point. Effectively the GM gains a “free” complication against you."],
+					"cost": {
+						"value": {"min":-1, "max":-2}, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Mind Reading",
+			"type": "SEN",
+			"action": "S",
+			"range": "perception",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can read another character’s mind. To use Mind Reading, make an opposed effect check against the result of the target’s Will check. The degree of success determines the degree of contact:",
+				{
+					"type": "insetResistCheck",
+					"entries": [
+						{
+							"type": "table",
+							"caption": "Mind Reading Resistance Check",
+							"colLabels": [
+								"Success",
+								"Degree of Contact"
+							],
+							"colStyles": [
+								"col-2 text-align-center",
+								"col-10"
+							],
+							"rows": [
+								["1","{@b Surface thoughts}: You can read what the target is presently thinking. Mind Reading transcends language; you comprehend the target’s thoughts whether or not you share a common language."],
+								["2","{@b Personal thoughts}: You can probe deeper into the target’s mind for information. You can essentially ask any one question and receive the answer from the target’s mind. If the target doesn’t know the answer, then you know that as well."],
+								["3","{@b Memory}: You can read the subject’s memories and recollections. This allows you to perceive them exactly as the target recalls them, one memory per round."],
+								["4","{@b Subconscious}: You can read memories from the target’s subconscious, things even the target does not consciously know. This might mean repressed or hidden memories, deep-seated psychological traumas, or even other personalities."]
+							]
+						}
+					]
+				},
+				"If you lose the opposed check, you cannot read the target’s mind. With two or more degrees of failure, any renewed attempt in that scene requires extra effort (see Extra Effort). If you desire a greater degree of contact, you must take another standard action and make a new opposed check.",
+				"The target gets a new Will check (DC 10 + Mind Reading rank) at the end of each turn to shut you out; success ends the effect.",
+				{
+					"type": "entries",
+					"name": "Mind Reading and Deception",
+					"entries": [
+						"If you can interact with your subject, a successful Deception check against the target’s Insight check causes the subject to consciously think about a particular piece of information you’re looking for, such as a password or name, allowing you to pluck it from the subject’s mind with surface thoughts contact."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Cumulative",
+					"entries": ["Your Mind Reading adds any further degrees of success to the existing degree on the target, rather than using just the result of the new opposed check. For example, if you have one degree of contact and make another Mind Reading check, getting one degree, you now have two degrees of contact."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Effortless",
+					"entries": ["Trying again after two or more degrees of failure does not require extra effort for you. You can retry a Mind Reading attempt an unlimited number of times."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Sensory Link",
+					"entries": ["You can “tap into” the senses of your subjects, perceiving what they perceive like a Remote Sensing effect (see Remote Sensing) so long as you have at least one degree of contact. Your own senses are inactive while you are using your sensory link and you can only perceive through the senses of one subject at a time."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Subtle",
+					"entries": ["As a mental sensory effect, Mind Reading has a degree of subtlety, only noticeable to the subject or to characters with an appropriate mental sense, such as Mental Awareness (see Senses effect). Subtle Mind Reading is less detectable, requiring a DC 20 Perception check for either type of character to sense it, while two ranks of the Subtle modifier makes your Mind Reading completely undetectable."],
+					"cost": {
+						"value": {"min":1, "max":2}, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Close",
+					"entries": ["Applied to Ranged Mind Reading, Close Mind Reading requires a close attack check to touch an unwilling target and physical contact throughout the effect’s duration; breaking contact ends the effect."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Feedback",
+					"entries": ["You suffer Feedback if a subject you are reading is harmed, using your Mind Reading rank as the resistance check bonus against the damage. Additionally, you may suffer Feedback at the GM’s discretion from reading or experiencing particularly traumatic or emotionally-charged thoughts of memories from the subject."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited by Language",
+					"entries": ["You can only understand the subject’s thoughts or memories if you share a common language."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited to Emotions",
+					"entries": ["You can only read or probe for emotions and emotional associations, not coherent thoughts or memories."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited to Sensory Link",
+					"entries": ["If you have the Sensory Link extra and this flaw, you can only tap into a subject’s senses, you cannot read their thoughts or memories."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited to Surface Thoughts",
+					"entries": ["You can only read surface thoughts and cannot achieve higher degrees of contact."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["Ranged Mind Reading requires a ranged attack check in addition to the effect’s normal resistance check."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Sense-Dependent",
+					"entries": ["Your Mind Reading is dependent on a sense other than just having to accurately sense the target, such as needing to see his expressions (Sight-Dependent), hear him speak (Hearing-Dependent), smell his changes in biochemistry (Scent-Dependent), and so forth. Alternately, it may be dependent on first being in Mental Communication with the target."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Morph",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 5,
+				"type": "per"
+			},
+			"entries": [
+				"You can alter your appearance. Your traits do not change; your new form is merely a cosmetic change. You gain a +20 bonus to Deception checks to disguise yourself as the form you assume (see Disguise guidelines for Deception).",
+				"Your Morph rank determines what form(s) you can assume: At rank 1 you can assume a single other appearance. At rank 2 you can assume any of a narrow group of forms, such as people of roughly your size and gender, a type of animal like birds or reptiles, and so forth. At rank 3 you can assume any of a broad group of forms like humanoids, animals, machines, and so forth. At rank 4 you can assume any form of the same mass as your own.",
+				"For the ability to change size as well as appearance see the Growth and Shrinking effects. To take on the other traits of forms you assume, see the Metamorph extra, following, or the Variable effect."
+			],
+			"extras": [
+				{
+					"name": "Attack",
+					"entries": ["A Morph Attack imposes a different appearance on the target creature. Unlike an Affliction that imposes the transformed condition, a Morph Attack is entirely cosmetic: you can’t change the target’s traits other than appearance."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Metamorph",
+					"entries": ["Morph only changes your appearance; you still have all the traits of your normal form. This modifier allows you to have an alternate set of traits, essentially a complete alternate character you change into, one set of traits per rank in Metamorph. You can switch between sets of traits at will, once per round, as a free action. Your other form(s) must have the same point total as you and are subject to the same power level limits. They must also have traits suitable to your Morph effect. For example, if you can only Morph into humanoid forms, then your alternate forms all have to be humanoid. All of your forms must have your full Morph effect as well; those character points cannot be reallocated. The GM may require certain additional common traits for all of your forms, particularly mental abilities and skills, if you retain them. Metamorph is best suited to characters with defined sets of alternate traits. For a character able to transform into a virtually unlimited number of forms with various traits, see the Variable effect. {@b Flat +1 point per rank of Metamorph.}"],
+					"cost": {
+						"value": 1, "type": "per", "hidden": true
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Resistible",
+					"entries": ["A Morph effect Resistible by Will is most likely a mental illusion of some sort. Observers who succeed on the Will resistance check see you as you truly are rather than in your Morph guise. This is in addition to the usual Perception check to penetrate your disguise. If you have the Metamorph extra, then targets that resist your effect treat you as if you had your normal traits, and not those granted by your Metamorph form."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Move Object",
+			"type": "CTL",
+			"action": "S",
+			"range": "ranged",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can move objects at a distance without touching them. Move Object has no action/reaction; a moving object cannot drag the character “holding on” to it, for example. This effect is also not considered “physical contact” or “touch” for effects requiring it.",
+				"Your effective Strength for lifting and moving objects with this effect is equal to your rank. By taking a move action to concentrate you can increase this by +1 Str, changing the effect’s duration to Concentration (see Duration). This is in addition to using extra effort to further increase your rank (see Extra Effort).",
+				"This effect can move objects, but cannot perform tasks of fine manipulation (like untying knots, typing, or manipulating controls) without the Precise modifier. Objects thrown into targets as attacks base their damage off your power rank as if it were your Strength rank.",
+				"Move Object cannot inflict damage directly; you can’t “punch” or “crush” objects with it. You can use it to make disarm, grab, and trip attacks. See Action & Adventure for details."
+			],
+			"extras": [
+				{
+					"name": "Continuous",
+					"entries": ["Move Object generally cannot have a continuous duration, since it is an active effect and requires at least a modicum of attention to maintain. The GM may allow Continuous Move Object as a variation that is not disrupted when you are unable to maintain it, but that still requires your conscious attention to do anything other than have the affected object hang in midair. There’s no change in the cost of the extra, this is just a limitation of the Move Object effect. You must make Move Object’s duration Sustained (+1 cost per rank) before you can make it Continuous."],
+					"cost": {
+						"value": 2, "type": "per"
+					}
+				},
+				{
+					"name": "Damaging",
+					"entries": ["Your effect can inflict damage, like an application of normal Strength with damage equal to its rank. This includes damaging targets in grabs and making ranged “strike” attacks."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Improvised Weapon or Throwing Mastery",
+					"entries": ["You are particularly adept at using objects as weapons with your power. Each rank of either advantage increases the damage of objects wielded or thrown using Move Object by 1. {@b Flat +1 point per rank of Improvised Weapon or Throwing Mastery.}"],
+					"cost": {
+						"value": 1, "type": "per", "hidden": true
+					}
+				},
+				{
+					"name": "Perception",
+					"entries": ["Perception Ranged Move Object can affect any object you can accurately perceive, with no need for an attack check."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Precise",
+					"entries": ["Move Object with this modifier can be used for tasks involving fine manipulation."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Subtle",
+					"entries": ["The default version of Move Object involves some noticeable manifestation like a “tractor beam,” a glow around your head or hands (along with a corresponding glow around the affected object), big glowing hands, blazing “energy talons,” a lasso, whip, or the like. Apply the Subtle modifier for a less noticeable Move Object effect, such as invisible “psychokinesis” (which is generally also Perception Range)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Sustained",
+					"entries": ["Sustained duration Move Object can hold an object in a static position (floating in midair, for example) with only a free action needed to maintain the effect. Grabbing or actively moving an object still requires a standard action, but you can “hold” multiple objects at once."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Close",
+					"entries": ["Since Move Object works on things at a distance by definition, it cannot generally be reduced to close ranged. At the GM’s discretion, a Close Ranged Move Object effect may represent “tactile telekinesis” or a supernatural influence over objects you are able to touch, but such things are usually better represented by the Enhanced Strength effect."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Concentration",
+					"entries": ["Concentration Move Object requires more attention to maintain. You cannot concentrate to increase your lifting capacity or to grab or move another object while you are still “holding” your first."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited Direction",
+					"entries": ["You can only move objects in a particular direction or path, such as only up and down (towards and away from the ground), only directly towards or away from you (attraction and repulsion), and so forth. This is useful for “gravitic” or “magnetic” versions of the effect."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited Material",
+					"entries": ["You can only move a particular type of object or material, such as only metals, plants, rock, water, and so forth. {@b –1 cost per rank} (The GM may allow a {@b –2 cost per rank} flaw for a particularly limited type of material, such as only precious metals, leaves, sand, or petroleum)."],
+					"cost": {
+						"value": {"min":-1, "max":-2}, "type": "per", "hidden": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Movement",
+			"type": "MOV",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You have a special form of movement. For each rank in this effect, choose one of the following options:",
+				{
+					"type": "entries",
+					"name": "Dimension Travel",
+					"entries": [
+						"You can move instantly from one dimension to another as a move action. For 1 rank, you can move between your home dimension and one other. For 2 ranks you can move between any of a related group of dimensions (mystical dimensions, alien dimensions, etc). For 3 ranks you can travel to any dimension. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you move. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Environmental Adaptation",
+					"entries": [
+						"You’re adapted to a particular environment, such as underwater, zero gravity, and so forth (see Environmental Hazards for details). You suffer none of the normal unfavorable circumstance or movement penalties associated with that environment, moving and acting normally. You are still affected by environmental hazards like suffocation, exposure, and so forth. You need the Immunity effect to ignore such things."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Permeate",
+					"entries": [
+						"You can pass through solid objects as if they weren’t there. For 1 rank, you can move at speed rank –2 through any physical object. For 2 ranks, you can move at speed rank –1 and for 3 ranks, you move at your normal speed through any obstacles. You cannot breathe while completely inside a solid object, so you either need Immunity to Suffocation or have to hold your breath. You may also need Penetrates Concealment Senses to know where you’re going, since you cannot see inside solid objects, either.",
+						"Permeate is often Limited to a particular substance like earth, ice, or metal, for example. Permeate provides no protection against attacks, although you do gain cover while inside an object (see Cover). For the ability to allow things (including attacks) to pass through you, see Insubstantial effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Safe fall",
+					"entries": [
+						"So long as you are capable of action, you can fall any distance without harm. You can also stop your fall at any point along a distance so long as there is a handhold or projection for you to grab (such as a ledge, flagpole, branch, etc.). If you have the Wall-crawling power (later in Movement), any surface you can climb provides you with a handhold.",
+						"Safe Fall may be Limited to only when you are near a surface (such as the side of a building); you’re assumed to be using the surface to help slow your fall."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slithering",
+					"entries": [
+						"You can move while prone at your normal ground speed. You suffer no circumstance penalty for making attacks while prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Space Travel",
+					"entries": [
+						"You can travel faster than the speed of light through the vacuum of space (but not in a planetary atmosphere). At rank 1 you can travel to other planets in a solar system. At rank 2, you can travel to other star systems, while at rank 3, you can visit distant star systems, perhaps even other galaxies! This effect does not provide protection from the rigors of outer space (for that, see Immunity effect)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sure-footed",
+					"entries": [
+						"You’re better able to deal with obstacles and obstructions to movement. Reduce the speed penalty for moving through or around such obstacles by 1 for each rank of this effect. If you reduce the speed penalty to 0 or less, you are unaffected by that obstacle and move at full normal speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swinging",
+					"entries": [
+						"You can swing through the air at your normal ground speed rank, using a swing-line you provide or available lines and projections (tree limbs, flagpoles, vines, telephone- and powerlines, etc.)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Time Travel",
+					"entries": [
+						"You can move through time! For 1 rank, you can move between the present and another fixed point in time (such as 100 years into the past, or 1,000 years into the future). For 2 ranks you can move to any point in the past or any point in the future (but not both). For 3 ranks, you can travel to any point in time. Reaching alternate timelines or parallel worlds requires at least 2 ranks of Dimension-Travel. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you time-travel. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trackless",
+					"entries": [
+						"You leave no trail and cannot be tracked using visual senses (although you can still be tracked using scent or other means). You can walk across the surface of soft sand or snow without leaving tracks and you have total concealment from tremorsense (see Concealment). Each additional rank renders you trackless to another sense type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wall-crawling",
+					"entries": [
+						"You can climb walls and ceilings at your ground speed rank –1 with no chance of falling and no need for an Athletics check. You are still vulnerable while climbing, however. An additional rank of this effect means you climb at your full speed rank and are not vulnerable while climbing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water-walking",
+					"entries": [
+						"You can stand or move at your normal ground speed on the surface of water, quicksand, and other liquids without sinking. If you fall prone for any reason, you sink into the liquid normally. With 2 ranks of this effect, you can also lie prone on a liquid surface without sinking; you only sink if you choose to."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Under the Hood: Time, Space, And Dimension Travel",
+					"entries": [
+						"The Time, Space, and Dimension Travel effects of Movement are comparatively cheap considering what they do, primarily because such special movement capabilities are highly dependent on the plot and nature of the setting, and subject to a lot of Gamemaster oversight. Thus, they largely amount to supped-up Features, mainly allowing heroes to visit exotic locales.",
+						"Temporal mechanics and the effects of time travel are left entirely up to the GM, who may choose to make Time Travel Limited, Uncontrolled, or Unreliable for player characters, or disallow it altogether, treating it solely as a plot-device in the setting.",
+						"Space travel in the comic books rarely involves the laws of physics and tends to occur “at the speed of plot”. Characters and vehicles (such as alien starships) able to traverse the void of space do so primarily to facilitate adventures out among the stars. Exactly how fast characters travel through the void of space does not really matter; it is how long it takes them to get where they’re going that matters. So Space Travel is largely defined in terms of “how far can you go between scenes?” The same is true of the mechanism of travel, whether hyperspace, jump drive, faster-than-light “warp speed,” or what have you.",
+						"The Gamemaster likewise decides on the existence and nature of other dimensions in the setting, what they are like, and who can reach them. Like Time Travel, the GM may require Dimension Travel be Limited, Uncontrolled, or Unreliable for player characters, or treat it solely as a plot-device rather than a defined effect."
+					]
 				}
 			]
 		},
