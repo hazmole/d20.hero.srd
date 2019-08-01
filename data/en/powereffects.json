@@ -1514,9 +1514,9 @@
 				},
 				{
 					"name": "Luck",
-					"entries": ["Each rank in this extra gives you the benefit of a rank in the Luck advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM. {@b Flat +1 point per rank of Luck.}"],
+					"entries": ["Each rank in this extra gives you the benefit of a rank in the Luck advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM."],
 					"cost": {
-						"value": 1, "type": "per", "hidden": true
+						"value": 1, "type": "flat_per",
 					}
 				},
 				{
@@ -1717,9 +1717,9 @@
 				},
 				{
 					"name": "Metamorph",
-					"entries": ["Morph only changes your appearance; you still have all the traits of your normal form. This modifier allows you to have an alternate set of traits, essentially a complete alternate character you change into, one set of traits per rank in Metamorph. You can switch between sets of traits at will, once per round, as a free action. Your other form(s) must have the same point total as you and are subject to the same power level limits. They must also have traits suitable to your Morph effect. For example, if you can only Morph into humanoid forms, then your alternate forms all have to be humanoid. All of your forms must have your full Morph effect as well; those character points cannot be reallocated. The GM may require certain additional common traits for all of your forms, particularly mental abilities and skills, if you retain them. Metamorph is best suited to characters with defined sets of alternate traits. For a character able to transform into a virtually unlimited number of forms with various traits, see the Variable effect. {@b Flat +1 point per rank of Metamorph.}"],
+					"entries": ["Morph only changes your appearance; you still have all the traits of your normal form. This modifier allows you to have an alternate set of traits, essentially a complete alternate character you change into, one set of traits per rank in Metamorph. You can switch between sets of traits at will, once per round, as a free action. Your other form(s) must have the same point total as you and are subject to the same power level limits. They must also have traits suitable to your Morph effect. For example, if you can only Morph into humanoid forms, then your alternate forms all have to be humanoid. All of your forms must have your full Morph effect as well; those character points cannot be reallocated. The GM may require certain additional common traits for all of your forms, particularly mental abilities and skills, if you retain them. Metamorph is best suited to characters with defined sets of alternate traits. For a character able to transform into a virtually unlimited number of forms with various traits, see the Variable effect."],
 					"cost": {
-						"value": 1, "type": "per", "hidden": true
+						"value": 1, "type": "flat_per"
 					}
 				}
 			],
@@ -1766,9 +1766,9 @@
 				},
 				{
 					"name": "Improvised Weapon or Throwing Mastery",
-					"entries": ["You are particularly adept at using objects as weapons with your power. Each rank of either advantage increases the damage of objects wielded or thrown using Move Object by 1. {@b Flat +1 point per rank of Improvised Weapon or Throwing Mastery.}"],
+					"entries": ["You are particularly adept at using objects as weapons with your power. Each rank of either advantage increases the damage of objects wielded or thrown using Move Object by 1."],
 					"cost": {
-						"value": 1, "type": "per", "hidden": true
+						"value": 1, "type": "flat_per"
 					}
 				},
 				{
@@ -1941,6 +1941,1076 @@
 				}
 			]
 		},
-		{}
+		{
+			"name": "Nullify",
+			"type": "ATK",
+			"action": "S",
+			"range": "ranged",
+			"duration": "instant",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"Nullify can counter particular effects of a particular descriptor, such as fire effects, magical effects, mental effects, and so forth (see Countering Effects). You can counter one effect of your chosen descriptor per use of Nullify. You can’t nullify innate effects (see the Innate modifier description).",
+				"Make a ranged attack check to hit the target. Then make an opposed check of your Nullify rank and the targeted effect’s rank or the target’s Will defense, whichever is higher. If you are targeting the subject of an effect rather than the effect’s user, make an opposed check of Nullify rank vs. effect rank. If you win, the targeted effect turns off, although the user can reactivate it normally. If you lose the opposed check, you do not Nullify the effect. With two or more degrees of failure, trying again against the same subject in the same scene requires extra effort."
+			],
+			"extras": [
+				{
+					"name": "Affects Insubstantial",
+					"entries": ["Nullify does not require this modifier to affect insubstantial targets, or the Insubstantial effect itself. You can attempt to nullify the effects of insubstantial targets normally."]
+				},
+				{
+					"name": "Alternate Resistance",
+					"entries": ["Nullify may require a Fortitude rather than a Will check to represent an effect resisted by health and stamina rather than strength of will."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Area",
+					"entries": ["An Area Nullify effect works on all targets in the area. Make a single power check and compare the result against the opposed checks of the targets. Targets lacking effects you can nullify are, naturally, unaffected. If your Area Nullify has a duration longer than instant, choose whether or not the effect remains in the chosen area (affecting anyone entering or leaving it) or moves with the targets hit with the initial effect. There is no difference in cost, but to be able to do both, take one Area Nullify as an Alternate Effect of the other."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Broad",
+					"entries": ["Broad Nullify can counter effects of a particularly broad descriptor like magical, mutant, or technological effects. This modifier is available only with the GameMaster’s permission and may depend on the effects available in the series."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Concentration",
+					"entries": ["Any countered effect is suppressed and cannot be reactivated while you concentrate. The user of the countered effect may use extra effort to gain another opposed Nullify check. If successful, the effect can be reactivated."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Simultaneous",
+					"entries": ["Simultaneous Nullify can counter all effects of a particular descriptor (such as fire or magic) at once."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Effortless",
+					"entries": ["Trying again after two or more degrees of failure does not require extra effort for you. You can retry a Nullify attempt an unlimited number of times."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Precise",
+					"entries": ["If you can Nullify multiple effects, this modifier allows you to choose which are nullified and which are not."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Randomize",
+					"entries": ["Rather than being countered, the effect(s) targeted by your Nullify acquire the Uncontrolled flaw and go out of control (as dictated by the GM)."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["If you have an Area Nullify effect, this extra allows you to choose who in the area is affected, nullifying some targets and not others."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Sustained",
+					"entries": ["If this modifier is applied to Concentration Nullify, keeping the countered effect(s) suppressed is only a free action for you each turn."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Side Effect",
+					"entries": ["If you fail to nullify an effect, you might suffer some kind of “backlash” or similar side effect"],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Protection",
+			"type": "DEF",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"Protection shields you against damage, giving you +1 to your Toughness defense per rank. So Protection 4 gives you +4 Toughness."
+			],
+			"flaws": [
+				{
+					"name": "Sustained",
+					"entries": ["Your Protection is a sustained effect, rather than permanent. The effect can be turned on and off and can be improved using extra effort, including using it to perform stunts (see Extra Effort). Sustained Protection might be a power like a personal force field, or the ability to consciously harden your skin and turn it into armor."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Quickness",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can perform routine tasks—anything that can be done as a routine check (see Routine Checks in The Basics)—fast, perhaps very fast. Subtract your effect rank from the normal time rank to perform a task to determine how long it takes you. So, for example, if you have Quickness 7, a routine task normally taking an hour (time rank 9) takes you (9 – 7 = time rank 2) 30 seconds. Non-routine checks are not affected by Quickness, nor is movement speed.",
+				"If you can perform a task in less than a second (time rank –2), the GM may choose to treat that task as a free action for you (although the GM can still limit the number of free actions you can accomplish in a turn as usual).",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Quickness",
+					"entries": [
+						"Quickness, like many power effects, is not especially realistic; it allows you to do things like disassemble an entire car as a free action at a high enough rank (around rank 13-14), but doesn’t have any effect on how many attacks you can make on your turn. Why? Two reasons: first because allowing any character potentially thousands of attacks per turn would slow down the game and be hugely unbalancing (to say the least). Second, and perhaps more important, it’s how superhuman quickness works in the comics: speedsters do routine things in the blink of an eye, but in fights they don’t really act more often than anyone else. See Super-Speed for some examples of the super-fast attacks speedsters might have, in addition to their Quickness."
+					]
+				}
+			],
+			"flaws": [
+				{
+					"name": "Limited to One Type",
+					"entries": ["Your Quickness applies to only physical or mental tasks, not both."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited to One Task",
+					"entries": ["Your Quickness applies to only one particular task, such as reading, mathematical calculations, and so forth."],
+					"cost": {
+						"value": -2, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Regeneration",
+			"type": "DEF",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You recover quickly from damage. Remove penalties to your Toughness checks due to damage equal to your Regeneration rank each minute. You then recover other damage conditions equal to your Regeneration rank each minute, starting from your most severe condition. Spread this recovery out evenly over a minute (10 action rounds). So with Regeneration 5, you remove a –1 Toughness penalty every other round (every round with Regeneration 10, and up to a –2 penalty per round with Regeneration 20).",
+				{
+					"type": "entries",
+					"name": "Regeneration Absent Stamina",
+					"entries": [
+						"Characters with no Stamina do not heal (see Absent Abilities in Abilities). One or more ranks of Regeneration overcome this. An absent Stamina character with Regeneration 1 recovers at a normal rate; additional Regeneration ranks speed up that rate."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Persistent",
+					"entries": ["You can regenerate even Incurable damage conditions (see the Incurable modifier)."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Source",
+					"entries": ["Your Regeneration only works when you have access to a particular source to replenish yourself, such as blood, electricity, sand, scrap metal, sunlight, and so forth."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Remote Sensing",
+			"type": "SEN",
+			"action": "F",
+			"range": "rank",
+			"duration": "sustained",
+			"cost": {
+				"value": {"min":1, "max":5},
+				"type": "per"
+			},
+			"entries": [
+				"You can displace one or more of your senses over a distance, perceiving as if you were at that location, up to 60 feet away. Each additional rank increases your range one distance rank, so rank 2 is 120 feet, rank 3 is 250 feet, and so on. Remote Sensing overrides your normal sense(s) while you are using it. Subjects observed via Remote Sensing can “feel” it with an Insight check (DC 10 + rank).",
+				"You can make Perception checks normally using your displaced senses, taking the normal action to do so. To search a large area for someone or something, use the search guidelines given in the description of the Investigation skill.",
+				"Remote Sensing costs 1 point per rank for one sense type, 2 points per rank for two sense types, 3 points per rank for three, and 4 points per rank for four, and 5 points per rank for all of your senses. Visual senses count as two sense types (so visual Remote Sensing is 2 points per rank). You can use perception range sensory effects via Remote Sensing if your effect applies to their sense type and an accurate sense (usually sight). Sensory effects targeted on the spot where you have displaced your senses affect you normally.",
+				"Because Remote Sensing overrides your normal senses, you are vulnerable (at half your normal active defenses) while using it, since you are less aware of your immediate surroundings."
+			],
+			"extras": [
+				{
+					"name": "Dimensional",
+					"entries": ["This modifier allows you to extend your Remote Sensing into other dimensions with range proximate to your location in that dimension. One rank of Dimensional allows you to sense into a single other dimension, two for a group of related dimensions, and three for any dimension in the setting suitable to your Remote Sensing descriptors. Dimensional Remote Sensing for an accurate sense is especially useful for targeting other Dimension effects."],
+					"cost": {
+						"value": 1, "type": "flat_per"
+					}
+				},
+				{
+					"name": "No Conduit",
+					"entries": ["Sensory effects targeted where you have displaced your senses do not affect you, but neither can you use perception ranged effects via your Remote Sensing. Despite the built-in limitation, this is an extra, since it allows you to use your Remote Sensing to observe subjects in relative safety."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Simultaneous",
+					"entries": ["You can use both Remote Sensing and your normal senses at the same time, perceiving two locales like “translucent” overlays of each other. This means you’re more capable of taking physical action while also using your Remote Sensing, although the effect still requires its normal duration to maintain. You are not vulnerable while using your Remote Sensing."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Subtle",
+					"entries": ["Remote Sensing already has a degree of subtlety. applying 1 rank of Subtle to Remote Sensing increases the DC to notice the effect to 20 + rank or makes it noticeable only to a particular unusual sense (with the usual DC 10 + rank perception check). Subtle 2 makes Remote Sensing completely unnoticeable, as usual."],
+					"cost": {
+						"value": 1, "type": "flat_per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Feedback",
+					"entries": ["With this flaw, damaging attacks directed at where you displaced your senses can affect you. Your sensory-point is considered to have partial cover from attacks and you use your Remote Sensing rank as your Toughness defense against any successful attack. The feedback may be psychosomatic in nature or due to some sort of disruption caused by an assault on the point where you have redirected your senses. Note that sensory effects already work on you via Remote Sensing and this flaw doesn’t apply to them."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Medium",
+					"entries": ["You require a medium for your Remote Sensing, such as shadows, flames, mirrors, open water, television screens, and so forth. You can only perceive locations where your chosen medium exists."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Noticeable",
+					"entries": ["Remote Sensing with this flaw has an easily noticeable display, like a glowing set of eyes or a phantom image of your face, head, or body at the location you are observing. This manifestation cannot be used for communication, however (for that, take the Communication effect)."],
+					"cost": {
+						"value": -1, "type": "flat"
+					}
+				},
+				{
+					"name": "Sense-Dependent",
+					"entries": ["Remote Sensing is already Sense-Dependent and cannot apply this flaw. Another effect might potentially have the flaw Remote-Sensing Dependent, such as an Affliction that targets only remote viewers observing a target or an area as a means of blocking or deterring them."]
+				}
+			]
+		},
+		{
+			"name": "Sense",
+			"type": "SEN",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"One or more of your senses are improved, or you have additional sensory abilities beyond the normal five senses. Allocate ranks in Senses to the following effects. Some options require more than one rank, noted in their descriptions. So if you have Senses 5, for example, you can have darkvision (2 ranks), direction sense (1 rank), distance sense (1 rank), and ultra-hearing (1 rank), or any other combination adding up to 5 ranks.",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Normal Senses",
+					"entries": [
+						"Senses are broken down into sense types, used as descriptors for sensory effects. Here are the traits of normal human senses, for use when modifying them with the options from Senses:",
+						{
+							"type": "entries",
+							"name": "Visual",
+							"entries": [
+								"Normal vision is ranged (with a –1/10 feet modifier), acute (able to distinguish fine details) and accurate (able to pinpoint the locations of things)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Auditory",
+							"entries": [
+								"Normal hearing is ranged (with a –1/10 feet modifier), acute (able to pick up details like differences in tone), and radius (able to pick up on sounds coming from any direction). Normal hearing is not accurate."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Olfactory",
+							"entries": [
+								"Normal human olfactory senses, which lump together smell and taste for descriptor purposes, are fairly limited. Ordinary human olfactory senses are neither acute nor accurate. The sense of smell is a radius sense, however, able to pick up on scents coming from any direction. Its “range” is quite limited, however, effectively only close, except for especially strong scents."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tactile",
+							"entries": [
+								"The normal sense of touch is, by definition, close range. It is accurate (in that you know the location of anything you can touch) and radius (in that you can feel things from any surface of your body)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mental",
+							"entries": [
+								"The “sixth sense” or mental sense type is fairly crude in normal humans, limited essentially to interactions with the Insight skill and awareness of mental effects used directly on you. Thus it is close range and has none of the Sense qualities."
+							]
+						}
+					]
+				},
+				"Like all sensory effects, Senses uses the sense types as descriptors.",
+				{
+					"type": "entries",
+					"name": "Accurate (2 or 4 Ranks)",
+					"entries": [
+						"An accurate sense can pinpoint something’s exact location. You can use an accurate sense to target something in combat. Visual and tactile senses are normally accurate for humans. Cost is 2 ranks for one sense, 4 for an entire sense type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Acute (1-2 Ranks)",
+					"entries": [
+						"You can sense fine details about anything you can detect with a particular sense, allowing you to distinguish between and identify different subjects. Visual and auditory senses are normally acute for humans. Cost is 1 rank for one sense, 2 for an entire sense type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Analytical (1-2 Ranks)",
+					"entries": [
+						"Beyond even acute, you can perceive specific details about anything you can detect with an analytical sense, such as chemical composition, exact dimensions or mass, frequency of sounds and energy wavelengths, and so forth. You can only apply this effect to an acute sense. normal senses are not analytical. Cost is 1 rank for one sense, 2 for an entire sense type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Awareness (1 Rank)",
+					"entries": [
+						"You can sense the use of effects of a particular descriptor with a successful Perception check (DC 10, with –1 to your check per 10 feet range). Examples include Cosmic Awareness, Divine Awareness, Magical Awareness, Mental Awareness, and so forth. You can apply other Sense effects to your Awareness to modify it. Choose the sense type for your Awareness; it is often a mental sense, but doesn’t have to be. Awareness counts as an “exotic sense” for noticing effects with the first rank of the Subtle modifier (see Subtle under Extras for details)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Communication Link (1 Rank)",
+					"entries": [
+						"You have a link with a particular individual, chosen when you acquire this option, who must also have this ability. The two of you can communicate over any distance like a use of the Communication effect. Choose a sense type as a communication medium when you select this option; mental is common for psychic or empathic links. If you apply the Dimensional modifier to your Communication Link, it extends to other dimensions as well (see Dimensional under Power Modifiers for details)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Counters Concealment (2 Ranks)",
+					"entries": [
+						"A sense type with this trait ignores the Concealment effect of a particular descriptor; you sense the subject of the effect normally, as if the Concealment wasn’t even there. So if you have vision that Counters Invisibility, for example, then invisible beings are visible to you. For 5 ranks, the sense type ignores all Concealment effects, regardless of descriptor. Concealed subjects seem slightly “off” to you, enough to know they are concealed to others. This trait does not affect concealment provided by opaque objects, for that, see Penetrates Concealment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Counters Illusion (2 Ranks)",
+					"entries": [
+						"A sense type with this trait ignores the Illusion effect; you automatically succeed on your resistance check against the illusion if it affects your sense type, realizing that it isn’t real."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Danger Sense (1 Rank)",
+					"entries": [
+						"When you would normally be surprised in combat, make a Perception check (DC 10): One degree of success means you’re not surprised, but can’t act during the surprise round (so you don’t suffer any conditions of being surprised), while two or more degrees of success means you are not surprised and may act during the surprise round (if any). Failure means you are surprised (although, if you have Uncanny Dodge, you are not vulnerable). The GM may raise the DC of the Danger Sense check in some circumstances. Choose a sense type for your Danger Sense. Sensory effects targeting that sense also affect your Danger Sense ability and may “blind” it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision (2 Ranks)",
+					"entries": [
+						"You can see in complete darkness as if it were normal daylight; darkness provides no concealment to your vision. This is essentially the same as Counters Concealment (Darkness)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Detect (1-2 Ranks)",
+					"entries": [
+						"You can sense a particular item or effect by touch with a Perception check. Detect has no range and only indicates the presence or absence of something (being neither acute nor accurate). Choose what sense type your Detect falls under (often mental). For 2 ranks you can detect things at range (with the normal –1 per 10 feet modifier to your Perception check)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Direction Sense (1 Rank)",
+					"entries": [
+						"You always know what direction north lies in and can retrace your steps through any place you’ve been."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distance Sense (1 Rank)",
+					"entries": [
+						"You can accurately and automatically judge distances."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Extended (1 Rank)",
+					"entries": [
+						"You have a sense that operates at greater than normal range. Your range with the sense—the distance used to determine penalties to your Perception check—is increased by a factor of 10. Each additional time you apply this option, your range increases by an additional factor of 10, so 1 rank means you have a –1 to Perception checks per 100 feet, 2 ranks makes it –1 per 1,000 feet, and so on. An extended sense may be limited by conditions like the horizon and physical barriers between you and the subject, unless it also Penetrates Concealment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infravision (1 Rank)",
+					"entries": [
+						"You can see in the infrared portion of the spectrum, allowing you to see heat patterns. Darkness does not provide concealment for objects differing in temperature from their surroundings. If you have the Track effect, you can track warm creatures by the faint heat trails they leave behind. The Gamemaster is the final judge on how long the trail remains visible."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Low-light Vision (1 Rank)",
+					"entries": [
+						"You ignore circumstance penalties to visual Perception checks for poor lighting, so long as it is not completely dark."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Microscopic vision (1-4 Ranks)",
+					"entries": [
+						"You can view extremely small things. You can make perception checks to see tiny things nearby. Cost is 1 rank for dust-sized objects, 2 ranks for cellular-sized, 3 ranks for DNA and complex molecules, 4 ranks for atomic-sized. The GM may require an Expertise skill check to understand and interpret what you see."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Penetrates Concealment (4 Ranks)",
+					"entries": [
+						"A sense with this trait is unaffected by concealment from obstacles (rather than Concealment effects). So vision that Penetrates Concealment sees right through opaque objects, for example, and hearing that Penetrates Concealment is unaffected by sound-proofing or intervening materials, and so forth."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Postcognition (4 Ranks)",
+					"entries": [
+						"Your senses extend into the past, allowing you to perceive events that took place previously. You can make Perception checks to pick up on past information in an area or from a subject. The Gamemaster sets the DC for these checks based on how obscure and distant in the past the information is, from DC 15 (for a vague vision that may or may not be accurate) to DC 30 (for near complete knowledge of a particular past event as if you were actually present). Your normal (present-day) senses don’t work while you’re using Postcognition; your awareness is focused on the past. Your postcognitive visions last for as long as you concentrate. Postcognition does not apply to sensory effects like Mind Reading or any other ability requiring interaction. Postcognition may be Limited to past events connected to your own “past lives” or ancestors, reducing cost to 2 ranks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Precognition (4 Ranks)",
+					"entries": [
+						"Your senses extend into the future, allowing you to perceive events that may happen. Your precognitive visions represent possible futures. If circumstances change, then the vision may not come to pass. When you use this ability, the Gamemaster chooses what information to impart. Your visions may be obscure and cryptic, open to interpretation. The Gamemaster may require appropriate Perception skill checks for you to pick up on particularly detailed information, with a DC ranging from 15 to 30 or more. The GM can also activate your Precognition to impart specific information to you as an adventure hook or plot device. Your normal (present-day) senses don’t work while you’re using Precognition; your awareness is focused on the future. Your precognitive visions last as long as you concentrate. Precognition does not apply to sensory effects like Mind Reading or any other ability requiring interaction."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Under the Hood: Precognition & Postcognition",
+					"entries": [
+						"Precognition and Postcognition can be problematic abilities, since they provide players with considerable information. Keep in mind precognitive and postcognitive information is often cryptic or unclear, and changes in circumstances may lead to changes in visions of the future. If players use either too often, feel free to have their visions become less and less clear as the timelines become tangled by so much constant surveillance and intervention.",
+						"Generally, Precognition is best treated as a plot device for the GM to provide information to the player as suits the adventure, similar to a free use of the inspiration ability of victory points. In fact, GMs looking to limit Precognition and Postcognition may wish to require extra effort or victory points to use them, or require the Uncontrolled modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radio (1 Ranks)",
+					"entries": [
+						"You can “hear” radio frequencies including AM, FM, television, cellular, police bands, and so forth. This allows you to pick up on Radio Communication (see the Communication effect). This is the base sense of the radio sense type. It’s ranged, radius, and acute by default."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radius (1-2 Ranks)",
+					"entries": [
+						"You can make Perception checks with a radius sense for any point around you. Subjects behind you cannot use Stealth to hide from you without some other concealment. Auditory, olfactory, and tactile senses are normally radius for humans. Cost is 1 rank for use with one sense, 2 ranks for one sense type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ranged (1 Rank)",
+					"entries": [
+						"You can use a sense that normally has no range (taste or touch in humans) to make Perception checks at range, with the normal –1 per 10 feet modifier. This can be enhanced with the Extended Sense effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rapid (1 Rank)",
+					"entries": [
+						"You can read or take in information from a sense faster than normal: each rank increases your perception speed by a factor of 10 (x10, x100, etc.) with a single sense, double cost for an entire sense type. You can use rapid vision to speed-read, pick up on rapid flickering between frames of a film, watch video replays in fast-forward speeds, and such, rapid hearing to listen to time-compressed audio “blips,” and so forth."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Time Sense (1 Rank)",
+					"entries": [
+						"You always know what time it is and can time events as if you had an accurate stopwatch."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tracking (1 Rank)",
+					"entries": [
+						"You can follow trails and track using a particular sense. Basic DC to follow a trail is 10, modified by circumstances, as the GM sees fit. You move at your speed rank –1 while tracking. For 2 ranks, you can move at full normal speed while tracking"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ultra-hearing (1 Rank)",
+					"entries": [
+						"You can hear very high and low frequency sounds, like dog whistles or ultrasonic signals, including those used by some remote controls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ultravision (1 Rank)",
+					"entries": [
+						"You can see ultraviolet light, allowing you to see normally at night by the light of the stars or other UV light sources."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Affects Others",
+					"entries": ["You can grant the benefits of one or more Senses to another character. Apply Affects Others only to the ranks of the chosen sense(s)."],
+					"cost": {
+						"value": {"min":0, "max":1}, "type": "per"
+					}
+				},
+				{
+					"name": "Area",
+					"entries": ["The Area modifier only applies to Senses that affect Others, and only to extend their benefits to everyone in an area. Apply the Selective modifier for the ability to choose who in the area does and does not benefit from the Senses. To affect the area of a sense itself, use the Extended and Radius traits of the Senses effect."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Dimensional",
+					"entries": ["This modifier allows you to extend your senses into other dimensions. It’s assumed to apply to all your senses, allowing you to sense your proximate location in the other dimension(s). For a more extended range, use Remote Sensing with this modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Innate",
+					"entries": ["Senses, particularly those of aliens or constructs like robots, may be Innate, although this does not prevent sensory effects like Concealment or Dazzle from disabling them."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["Likewise, the Ranged extra only applies to Senses that Affect Others, extending the distance at which you can grant their benefits. To extend the range of a sense itself, use the Extended, Radius, and Ranged options of the Senses effect."],
+					"cost": {
+						"value": {"min":1, "max":2}, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Limited",
+					"entries": ["Some Senses may be Limited to only sensing certain things or only under certain circumstances. As usual, the sense must lose about half its utility to qualify for this flaw, less than that is more likely a particular descriptor associated with the sense and may constitute a complication at the GM’s discretion when it comes up in play."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Noticeable",
+					"entries": ["Senses with this flaw are particularly noticeable in some way: your eyes may glow, for example, or you may emit a noticeable sound, vibration, energy, or the like for use as a sensor."],
+					"cost": {
+						"value": -1, "type": "flat"
+					}
+				},
+				{
+					"name": "Unreliable",
+					"entries": ["Some Senses may be unreliable; the GM makes checks for reliability when the sense is used. Two variations of this flaw may apply: in the first, the Senses effect is unreliable, when it doesn’t work, the character perceives nothing with that sense. In the second, the character’s perceptions are unreliable, the sense appears to work, but the character gets the wrong information. For this reason, the GM should make all reliability checks for Senses in secret, just informing the player of what the character does (or does not) notice."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Shrinking",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can temporarily decrease your size, becoming smaller, harder to see — and hit — at the cost of losing Strength and speed. Every 4 ranks of Shrinking reduces your size rank by 1 (normal humans are size rank –2 by default) and each reduction in size rank subtracts 1 from your Strength and every two reductions in size rank subtract 1 from your ground speed rank. Add half your Shrinking rank (rounded down) to your active defenses. Add your Shrinking rank as a bonus to Stealth checks, since you are harder to spot, but apply half your rank (rounded down) as a penalty to intimidation checks (hard to be imposing when you’re tiny). Shrinking modifiers are restricted by power level limits.",
+				"So at Shrinking 12, you are size rank –5 (about 6 inches tall), and have a +6 bonus to active defenses and +12 Stealth bonus, but –3 Strength, –1 speed, and –6 Intimidation penalties."
+			],
+			"extras": [
+				{
+					"name": "Atomic",
+					"entries": ["At Shrinking 20 (and size rank –7), you can shrink down to the molecular or even atomic level, allowing you to pass through solid objects by slipping between their atoms. It takes at least a full turn to do so, possibly longer for larger objects. You’re effectively immune to damage and many effects at this scale, since you are essentially shifted out of the ordinary universe. The GM decides if a particular effect can reach you at the atomic level. If you have this extra, you might also acquire a Dimensional Travel effect allowing you to shift into a sub-atomic “universe” or similar realm."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Normal Strength",
+					"entries": ["You retain your full Strength, Speed, and Intimidation while shrunk."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Speed",
+			"type": "MOV",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can move faster than normal. You have a ground speed rank equal to your effect rank. This also improves all forms of movement based on ground speed."
+			]
+		},
+		{
+			"name": "Summon",
+			"type": "CTL",
+			"action": "S",
+			"range": "close",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can call upon another creature—a minion—to aid you. This creature is created as an independent character with (effect rank x 15) character points. A summoned minion is limited to a Power Level equal to the rank of the Summon effect used to create it, is subject to the normal power level limits, and cannot have minions of its own, either from this effect or the Minions advantage.",
+				"You can summon your minion automatically as a standard action; it appears in the nearest open space beside you. Minions have their own initiative (see Initiative in the Action & Adventure) and act starting on the round after you summon them. Summoned minions are dazed, taking only a standard action each round. Directing a minion to do something is a move action for you, but minions generally do as they are told until a task is completed.",
+				"You always have the same minion unless you apply the Variable Type modifier, allowing you to summon different minions. Your minion automatically has a helpful attitude and does its best to aid you and obey your commands.",
+				"Incapacitated minions disappear. They recover normally and you cannot summon an incapacitated minion until it has completely recovered. Your summoned minions also vanish if your effect is not maintained, or is countered or nullified. For more information and rules regarding Minions.",
+				{
+					"type": "inset",
+					"name": "Minions as descriptors",
+					"entries": [
+						"Some effects might seem to be Summon, calling up minions to do things for the character, but are actually better treated as descriptors of other effects. Take for example a shaman able to “summon” various spirits to perform magical tasks. By calling on particular spirits of the winds, he can attack a foe with an Affliction that “steals” their breath. Is the “wind spirit” a minion? Technically, no, it’s just a personified effect, since it cannot be attacked, interacted with, or do anything other than create the Affliction effect. It can be Nullified, but so can any effect. The same is true of a character summoning a “minion” that acts as a shield, providing the Deflect or Protection effect, but doing nothing else.",
+						"Consider carefully whether or not the particular effect a player wants really needs Summon, or if the “minion” in question is just a descriptor for another effect, no different than “heat ray” is a descriptor for a Damage effect or “sticky webbing” is a descriptor for a hindering Affliction; in neither case does the character need Summon Heat Ray or Summon Webbing to create the desired powers!"
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Under the Hood: Summon",
+					"entries": [
+						"Summon is a useful effect; it doesn’t cost much to summon up a gang of minions, giving you a lot of effective actions per round! Gamemasters may wish to limit large numbers of minions (summoned or otherwise) to villains and non-player characters. Player character minions are subject to the series power level limits. There are also practical matters limiting just how much your minions can do at any one time.",
+						"First, directing your minions to do something is a move action. If you want to issue different commands to different minions, then it’s one move action per command. So it’s easier to tell all of your minions “attack!” than it is to issue complex commands to each one in the midst of combat.",
+						"Second, Gamemasters may wish to have groups of minions use team checks (see Team Checks in The Basics) rather than rolling their actions separately. For example, instead of making eight attacks for eight different minions, the GM has seven minions aid the eighth, giving that minion a +5 bonus. This makes groups of minions more effective and efficient overall, but keeps the number of die rolls to a minimum. GMs should keep in mind the limits on the number of opponents that can team up on a character at once.",
+						"Gamemasters may wish to limit the use of the Heroic extra for Summon. Treating minions the same as heroes can greatly slow down combat, especially if there are more than a couple of them, since it becomes that much harder to take them out of a fight."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Active",
+					"entries": ["Your minions are particularly independent and do not have the dazed condition, having a full set of actions each round."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Controlled",
+					"entries": ["Your minions all have the controlled condition (see Controlled in The Basics). They have no free will of their own and are completely under your direction."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Heroic",
+					"entries": ["The creatures you summon are not subject to the minion rules, but treated like normal non-player characters. Additionally, they do not have the dazed condition and take a full set of actions each round. Do not apply the Active modifier to Heroic minions, as this modifier already includes it. Gamemasters should be particularly cautious about allowing this extra for Summon effects used by player characters, especially ones summoning more than one minion."],
+					"cost": {
+						"value": 2, "type": "per"
+					}
+				},
+				{
+					"name": "Horde",
+					"entries": ["If you have Multiple Minions (see following) you may take a standard action to summon any number of minions up to your maximum amount. You are vulnerable (see the Distracting flaw) until the start of your next turn when summoning a horde."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Mental Link",
+					"entries": ["You have a mental link with your minions, allowing you to communicate with them and issue orders telepathically like the Communication Link effect (see Senses effects)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Multiple Minions",
+					"entries": ["You can summon more than one minion. Each application of this extra doubles your total number of minions. So, for example, with Summon 6, you summon a single 90-point minion. With Multiple Minions 1, you can summon two 90-point minions, with Multiple Minions 2, four minions, and so forth. It requires a standard action to summon each minion unless you also have the Horde extra (see previous)."],
+					"cost": {
+						"value": 2, "type": "per"
+					}
+				},
+				{
+					"name": "Sacrifice",
+					"entries": ["When you are hit with an effect requiring a resistance check, you can spend a victory point to shift it to one of your minions instead. The minion must be within range of the effect and a viable target. Needless to say, this is not a particularly heroic ability. In fact, the GM may wish to restrict it to villains or non-player characters (in which case a hero earns a victory point when a villain uses this extra to avoid an effect by sacrificing a minion)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Variable Type",
+					"entries": ["Minions are normally identical in terms of traits, although they may differ cosmetically. With this modifier you can summon different minions of a general type (like elementals, birds, fish, etc.), or even a broad type (like animals, demons, humanoids, etc.). {@b General Type: +1 cost per rank. Broad Type: +2 cost per rank.}"],
+					"cost": {
+						"value": {"min":1, "max":2}, "type": "per", "hidden": true
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Attitude",
+					"entries": ["Your summoned minions are less than cooperative: indifferent or even unfriendly. You can use interaction skills and other effects to get your summoned minions to cooperate, but success is by no means assured! {@b Indifferent: –1 cost per rank. Unfriendly: –2 cost per rank.}"],
+					"cost": {
+						"value": {"min":-1, "max":-2}, "type": "per", "hidden": true
+					}
+				},
+				{
+					"name": "Resistible",
+					"entries": ["Your minions get an appropriate resistance check (typically Will) against (DC 10 + Summon rank) to avoid being summoned. If they successfully resist, you cannot attempt to summon them again in that scene without using extra effort."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Swimming",
+			"type": "MOV",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can swim fast. You have a water speed equal to your Swimming rank –2, subject to the usual rules for swimming (see the Athletics skill description for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see Immunity)."
+			]
+		},
+		{
+			"name": "Teleport",
+			"type": "MOV",
+			"action": "M",
+			"range": "rank",
+			"duration": "instant",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can move instantly from place to place without crossing the distance in between. You can teleport yourself and up to 50 lbs. (mass rank 0) of additional mass a distance rank equal to your effect rank as a move action. Unwilling passengers get a Dodge resistance check to avoid being taken along.",
+				"You can only teleport to places you can accurately sense or know especially well (in the GM’s judgment). You retain your position and relative velocity when you teleport. So if you are falling when you teleport, you are still falling at the same speed when you arrive at your destination.",
+				"Teleport is meant for use on or around a planet. For things like traveling to distant planets or stars, apply the Space Travel effect of Movement as a “hyperjump” or similar power."
+			],
+			"extras": [
+				{
+					"name": "Accurate",
+					"entries": ["You don’t need to know or accurately sense your destination to teleport there, just be able to generally describe it, such as “inside the capitol building lobby” or “atop the Emerald Tower’s roof.” If the destination isn’t in your Teleport range, nothing happens."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Change Direction",
+					"entries": ["You can change your direction or orientation after a teleport."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Change Velocity",
+					"entries": ["You can teleport “at rest” to your destination. Among other things, this means you can teleport out of a fall and suffer no damage."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Easy",
+					"entries": ["You are not dazed or vulnerable when making extended teleports (following)."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Extended",
+					"entries": ["You can take two move actions to make an extended teleport with a distance rank equal to your effect rank +8. You are dazed and vulnerable for one round after an extended teleport."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Increased Mass",
+					"entries": ["You can carry additional mass when you teleport equal to your rank in this extra."],
+					"cost": {
+						"value": 1, "type": "flat_per"
+					}
+				},
+				{
+					"name": "Portal",
+					"entries": ["You open a portal or gateway between two points as a free action. The portal is five feet across. Anyone stepping through the portal (a move action) is transported. The portal remains open as long as you concentrate, taking a standard action each turn to maintain it."],
+					"cost": {
+						"value": 2, "type": "per"
+					}
+				},
+				{
+					"name": "Turnabout",
+					"entries": ["You can teleport, take a standard action, and teleport back to your starting point in a single round, so long as the total distance moved doesn’t exceed your Teleport range."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Limited to Extended",
+					"entries": ["You can only make extended teleports. You must have the Extended extra, and this flaw effectively makes it a +0 modifier."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Medium",
+					"entries": ["You require a medium for your teleportation, such as electrical or telephone wires, root structures, waterways, shadows, flames, mirrors, and so forth. You can only teleport from and to locations where your medium exists."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Transform",
+			"type": "CTL",
+			"action": "S",
+			"range": "close",
+			"duration": "sustained",
+			"cost": {
+				"value": {"min":2, "max":5},
+				"type": "per"
+			},
+			"entries": [
+				"You can change objects into other objects, altering their shape or material composition in the process. You must touch the chosen object, which requires a close attack check if the object is held or worn by another character.",
+				"What you can transform affects cost per rank:",
+				{
+					"type": "list",
+					"items": [
+						"{@b 2 points}: Transform one thing or substance into one other thing or substance, such as metal into wood, iron into glass, or broken objects into repaired ones.",
+						"{@b 3 points}: Transform a broad group of things into a single result (any metal into gold, for example) or a single target into any of a broad group (one type of metal, such as lead, into any other metal, water into other liquids, and so forth).",
+						"{@b 4 points}: Transform a broad group of targets into one of a broad group of results (solids into other solids, for example).",
+						"{@b 5 points}: Transform any material into anything else."
+					]
+				},
+				"Inanimate objects do not make resistance checks and transform automatically, so long as you can affect their total mass. You can transform (Transform rank –6) rank mass, so Transform 1 can affect up to 1.5 lbs (mass rank –5), then 3 lbs. at rank 2, and so forth, on up to rank 20, which affects 400 tons at once.",
+				"The transformation lasts as a sustained effect. When you stop maintaining it, the target reverts to normal. Continuous Transform is irreversible except by using another Transform effect to turn the target back into its previous form.",
+				"Transforming someone’s devices or equipment requires targeting them first: characters can make Dodge resistance checks for their held or worn items, with a +5 circumstance bonus for hand-held and similar sized objects. So transforming a hand-held weapon like a gun requires an attack check and permits the wielder a Dodge resistance check with a +5 bonus (for a hand-held item). Targeting a worn suit of armor requires an attack check and allows the wearer a Dodge resistance check (with no modifier for a large item).",
+				"Transform is generally just another way of “removing” a device or equipment, considered a part of their discount in cost, although transformed items should eventually be restored or replaced.",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Transform",
+					"entries": [
+						"Transform is a powerful effect, particularly in the hands of a cunning player. To a degree, Transform can duplicate certain other effects, such as trapping a target by transforming air into a solid material or turning oxygen into a suffocating gas (both Afflictions). This is perfectly allowable; use the rules for other effects as guidelines on how to handle these situations, using Transform rank to determine resistance DCs.",
+						"Keep in mind, however, that Transform has a sustained duration, which may affect how such “tricks” work (e.g., the trap disappears if the character is stunned, the suffocating gas dissipates unless the character concentrates each round to continue transforming it, etc.). As always, the GM should use common sense and good judgment.",
+						"You may wish to require characters using Transform to acquire money (gold, precious gems, etc.) or other permanent material goods to spend character points on ranks of the Benefit advantage to reflect this newfound wealth; otherwise, the goods fade or remain impermanent in some way. (Assuming things like wealth matter in your series in some way.)"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destructive Transformations",
+					"entries": [
+						"It is possible for Transform to effectively destroy objects: turning a steel door into water, air, or even rust certainly removes it as a barrier. However, keep in mind that Transform is normally sustained; the target isn’t truly destroyed unless the effect is continuous, and therefore irreversible. Even then, the destruction of targets tends to be all-or-nothing. For an effect capable of wearingdown and eventually destroying objects, use WeakenToughness instead."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transforming Beings",
+					"entries": [
+						"Transforming living or otherwise animate beings as opposed to inanimate matter requires an effect other than Transform. To alter a target’s outward appearance only, go with a Morph Attack. For a harmful effect that does something like turn the target to stone or into a mind-controlled zombie, see Affliction. When dealing with non-living creatures (those absent Stamina) capable of resistance checks (possessing Will) the GM may permit Transform to function like an Affliction against them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Variable",
+			"type": "G",
+			"action": "S",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 7,
+				"type": "per"
+			},
+			"entries": [
+				"You can gain or use potentially any effect of the appropriate type and descriptor! A Variable effect provides you with a set of (rank x 5) character points you can allocate to different effects. Take an action on your turn and choose where to allocate your Variable character points. It is a good idea to have a “menu” of commonly used options written down in advance to help speed up this process during play.",
+				"The effects you gain from your Variable effect are subject to the normal power level and series limits. So you cannot, for example, acquire Enhanced Trait as a Variable effect to improve a trait beyond its power level limit, or acquire effects or descriptors the Gamemaster has specifically banned from the series. The GM has final say as to whether or not a particular use of a Variable effect is appropriate and may veto your allocations, if necessary.",
+				"You must also place descriptors on your Variable effect limiting its scope. For example, a Variable effect that mimics other’s traits is limited to the traits its subject(s) possess; a Variable effect providing you with traits suitable to different shapes is limited by the form(s) you assume; a Variable effect providing adaptations is limited to the stimulus to which it adapts, and so forth. This descriptor does not reduce the effect’s cost unless it’s especially narrow or limiting, and the GM is the final arbiter of what constitutes a suitable descriptor and which descriptors are narrow enough to qualify for a Limited flaw.",
+				"The allocation of your Variable points is sustained, so if you stop maintaining your Variable effect for any reason, your allocated points “reset” to a “null” state: you lose any temporary traits and must take the action necessary to reallocate your Variable points again on your turn to regain them. Points in a Continuous Variable effect remain where you set them without maintenance, unless the Variable effect itself is countered or nullified. Variable effects cannot be permanent in duration by definition.",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Variable Effects",
+					"entries": [
+						"Powers based off the Variable effect are obviously very flexible, capable of duplicating a wide range of other effects. Responsibility for controlling Variable effects in the game is placed largely in the hands of both the Gamemaster and responsible players. To do otherwise would require weighing the effect down with numerous game-system limitations that would keep it from doing what it is supposed to do: create a wide range of effects.",
+						"Keep in mind a Variable effect is not supposed to be “any effect I want.” That kind of unlimited power doesn’t belong in the hands of player characters, and is better reserved as a plot device for NPCs. A Variable effect can be “any effect within a given set of parameters,” but it’s up to you and the GM to define those parameters. The limits of power flexibility are deliberately set by Variable effects, the use of extra effort, and victory points.",
+						"Many comic book heroes who appear to have the power to “do anything” are actually using one of these options in game terms. For example, a super-wizard can do practically anything with magic. However, generally speaking, these characters have certain abilities they use all the time (powers they have acquired with character points) and “stunts” they only do from time to time, essentially power stunts performed with extra effort (and possibly victory points). This is why the Magic power, for example, is not a Variable effect: most powers in the game have the potential to do “stunts” via extra effort, so the “variability” of Magic seen in the comics is already built-in to the system, with some costs to control it, without having to give players carte blanche to duplicate any effect in the game at will (which is just likely to slow things down and cause game balance issues).",
+						"Variable effects are better reserved for things where it is difficult to cost-out and define everything about a given power in advance. For example, the ability to shapechange into any animal could be an application of the Morph effect with a long list of Metamorph options, but listing out every single possible animal form, one at a time, would be tedious to say the least, especially when a good number of those forms would be superfluous. A Variable effect, with the descriptor “animal forms” is easier to manage. The player can prebuild certain commonly used animal forms for use during play, but also has the option to new configurations that fit into the power’s descriptors. See the Sample Powers section for some examples of Variable effects in practice.",
+						"In short, Variable effect is a “last resort” in power design, and the GM should treat it as such."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Action",
+					"entries": ["You can change the configuration of your effect faster, although only a Reaction Variable can change more often than once per turn, and then only in response to its triggering circumstances. Gamemasters should exercise caution with Variable effects that can be reconfigured as a free action or reaction: they not only grant tremendous flexibility, they can also slow down game play as the player considers virtually infinite possibilities for each action using the Variable effect. {@b Move Action: +1 cost per rank . Free Action: +2 cost per rank. Reaction: +3 cost per rank.}"],
+					"cost": {
+						"value": {"min":1, "max":3}, "type": "per", "hidden": true
+					}
+				},
+				{
+					"name": "Affects Others",
+					"entries": ["You can grant effects to someone else. The subject granted the use of the effect controls its configuration, if appropriate for its descriptors (although you retain the ability to withdraw use of the effect altogether whenever you wish). {@b Affects Others Only: +0 cost per rank. Affects Others or yourself: +1 cost per rank.}"],
+					"cost": {
+						"value": {"min":0, "max":1}, "type": "per", "hidden": true
+					}
+				},
+				{
+					"name": "Perception",
+					"entries": ["Applied to a Ranged Affects Others Variable, this extra allows you to grant the benefits of the effect to any target you can accurately perceive."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["A Variable effect with Affects Others may have the Ranged extra to improve the range at which you can grant the effect to another. This does not alter the ranges of the effect’s various configurations. To do so, apply the Range modifier to the effect(s) within a particular configuration."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Limited",
+					"entries": ["As noted in the description, a Variable effect must be limited by certain descriptors by default. To qualify for this flaw, the effect must be even more limited. This is highly situational and left to the Gamemaster’s judgment. An example is a Variable effect only able to provide Enhanced Skills; in most settings, this is Limited. However, in settings where powers are rare and most characters rely on skills, it might not be. Conversely, a Variable effect prohibited from providing Enhanced Skills, but able to provide a wide range of other effects, isn’t particularly Limited, just defined by its descriptors."],
+					"cost": {
+						"value": {"min":-1, "max":"more"}, "type": "per"
+					}
+				},
+				{
+					"name": "Slow",
+					"entries": ["You can only reconfigure your Variable effect outside of action time. You might need access to a lab, arsenal, spell-book, or other special equipment, or need to perform certain procedures or rituals. It takes at least a minute, possibly as long as an hour or more. The GM sets the specific time in cases where it matters, but it should be short enough that you can reconfigure between scenes in a game, but long enough that you effectively cannot do it during action time. The GM may allow you to spend a victory point to reconfigure your Variable effect during action time as a power stunt, if circumstances warrant it."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Weaken",
+			"type": "ATK",
+			"action": "S",
+			"range": "close",
+			"duration": "instant",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				{
+					"type": "insetResistCheck",
+					"name": "Weaken Resistance Check",
+					"func": "Fortitude or Will vs. DC [Weaken rank + 10]",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Success}: No effect.",
+								"{@b Failure}: The target loses character points from the affected trait equal to the difference between the check result and the DC, up to a maximum of the Weaken rank."
+							]
+						}
+					]
+				},
+				"Multiple failed resistance checks against a Weaken effect are cumulative, up to a maximum of the Weaken rank, at which point the effect cannot weaken the trait further. Lost points return at a rate of 1 per round at the end of each of the target’s turns. Inanimate objects do not recover weakened Toughness; they must be repaired. Objects may or may not recover other weakened traits, at the GM’s discretion and depending on the effect’s descriptors.",
+				{
+					"type": "entries",
+					"name": "Weakening Abilities",
+					"entries": [
+						"Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weakening Devices",
+					"entries": [
+						"Weaken with Affects Objects and the right descriptor(s) can lower the traits provided by a device (see the Removable flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like Nullify."
+					]
+				},
+			],
+			"extras": [
+				{
+					"name": "Affects Objects",
+					"entries": ["Weaken with this modifier works on inanimate objects, although the effect can still only affect traits the objects possess. This is most often applied to Weaken Toughness for an effect that can weaken both creatures and objects. {@b +1 cost per rank, +0 for Affects Only Objects.}"],
+					"cost": {
+						"value": {"min":0, "max":1}, "type": "per", "hidden": true
+					}
+				},
+				{
+					"name": "Broad",
+					"entries": ["You can Weaken any of a broad set of traits, one at a time suited to your effects descriptors. So you might be able to Weaken Abilities, for example, or Weaken Mental Effects. You choose which trait from the set is weakened when you use the effect."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Concentration",
+					"entries": ["Once you have hit with a Concentration Weaken , so long as you continue to take a standard action each turn to maintain the effect, the target must make a new resistance check against it, with no attack check required."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Incurable",
+					"entries": ["Weaken with this modifier cannot have its effects countered by another power (such as Restorative Healing) without the Persistent modifier; the target must recover from the Weaken normally."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Precise",
+					"entries": ["A Weaken effect capable of reducing more than one trait at once can have this modifier, allowing you to choose which traits are affected, while not affecting others. Note this differs from the Selective extra (following)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Progressive",
+					"entries": ["A Progressive Weaken effect reduces the affected traits each round until the target successfully resists. Make a new resistance check for the target at the end of each turn; failure weakens the affected trait(s) further, while success stops the Progressive Weaken , but the target must still recover ranks already lost (at the rate of 1 point per turn)."],
+					"cost": {
+						"value": 2, "type": "per"
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["This extra is applied to an Area Weaken so it only affects some targets and not others. Combined with Precise (previously), you can use an Area Weaken to selectively affect only certain traits of certain targets."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Simultaneous",
+					"entries": ["If applied to a Broad Weaken , this extra allows it to affect all of the traits in its set at the same time. Each trait loses the difference between the resistance check result and the DC in character points on a failed check. So a Simultaneous Weaken Fire Effects subtracts points from every fire effect the target possesses with a single attack. The effect must be Broad to apply this modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			]
+		}
 	]
 }

@@ -5,8 +5,8 @@ let list;
 
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
-	//DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
-	onJsonLoad(getFakeData());
+	DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
+	//onJsonLoad(getFakeData());
 };
 
 async function onJsonLoad (data) {
@@ -125,106 +125,7 @@ function loadsub (sub) {
 function getFakeData(){
 	return {
 	"powereffect": [
-		{
-			"name": "Weaken",
-			"type": "ATK",
-			"action": "S",
-			"range": "close",
-			"duration": "instant",
-			"cost": {
-				"value": 1,
-				"type": "per"
-			},
-			"entries": [
-				{
-					"type": "insetResistCheck",
-					"name": "Weaken Resistance Check",
-					"func": "Fortitude or Will vs. DC [Weaken rank + 10]",
-					"entries": [
-						{
-							"type": "list",
-							"items": [
-								"{@b Success}: No effect.",
-								"{@b Failure}: The target loses character points from the affected trait equal to the difference between the check result and the DC, up to a maximum of the Weaken rank."
-							]
-						}
-					]
-				},
-				"Multiple failed resistance checks against a Weaken effect are cumulative, up to a maximum of the Weaken rank, at which point the effect cannot weaken the trait further. Lost points return at a rate of 1 per round at the end of each of the target’s turns. Inanimate objects do not recover weakened Toughness; they must be repaired. Objects may or may not recover other weakened traits, at the GM’s discretion and depending on the effect’s descriptors.",
-				{
-					"type": "entries",
-					"name": "Weakening Abilities",
-					"entries": [
-						"Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Weakening Devices",
-					"entries": [
-						"Weaken with Affects Objects and the right descriptor(s) can lower the traits provided by a device (see the Removable flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like Nullify."
-					]
-				},
-			],
-			"extras": [
-				{
-					"name": "Affects Objects",
-					"entries": ["Weaken with this modifier works on inanimate objects, although the effect can still only affect traits the objects possess. This is most often applied to Weaken Toughness for an effect that can weaken both creatures and objects. {@b +1 cost per rank, +0 for Affects Only Objects.}"],
-					"cost": {
-						"value": {"min":0, "max":1}, "type": "per", "hidden": true
-					}
-				},
-				{
-					"name": "Broad",
-					"entries": ["You can Weaken any of a broad set of traits, one at a time suited to your effects descriptors. So you might be able to Weaken Abilities, for example, or Weaken Mental Effects. You choose which trait from the set is weakened when you use the effect."],
-					"cost": {
-						"value": 1, "type": "per"
-					}
-				},
-				{
-					"name": "Concentration",
-					"entries": ["Once you have hit with a Concentration Weaken , so long as you continue to take a standard action each turn to maintain the effect, the target must make a new resistance check against it, with no attack check required."],
-					"cost": {
-						"value": 1, "type": "per"
-					}
-				},
-				{
-					"name": "Incurable",
-					"entries": ["Weaken with this modifier cannot have its effects countered by another power (such as Restorative Healing) without the Persistent modifier; the target must recover from the Weaken normally."],
-					"cost": {
-						"value": 1, "type": "flat"
-					}
-				},
-				{
-					"name": "Precise",
-					"entries": ["A Weaken effect capable of reducing more than one trait at once can have this modifier, allowing you to choose which traits are affected, while not affecting others. Note this differs from the Selective extra (following)."],
-					"cost": {
-						"value": 1, "type": "flat"
-					}
-				},
-				{
-					"name": "Progressive",
-					"entries": ["A Progressive Weaken effect reduces the affected traits each round until the target successfully resists. Make a new resistance check for the target at the end of each turn; failure weakens the affected trait(s) further, while success stops the Progressive Weaken , but the target must still recover ranks already lost (at the rate of 1 point per turn)."],
-					"cost": {
-						"value": 2, "type": "per"
-					}
-				},
-				{
-					"name": "Selective",
-					"entries": ["This extra is applied to an Area Weaken so it only affects some targets and not others. Combined with Precise (previously), you can use an Area Weaken to selectively affect only certain traits of certain targets."],
-					"cost": {
-						"value": 1, "type": "per"
-					}
-				},
-				{
-					"name": "Simultaneous",
-					"entries": ["If applied to a Broad Weaken , this extra allows it to affect all of the traits in its set at the same time. Each trait loses the difference between the resistance check result and the DC in character points on a failed check. So a Simultaneous Weaken Fire Effects subtracts points from every fire effect the target possesses with a single attack. The effect must be Broad to apply this modifier."],
-					"cost": {
-						"value": 1, "type": "per"
-					}
-				}
-			]
-		}
+		{}
 	]
 };
 }
