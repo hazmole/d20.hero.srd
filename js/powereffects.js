@@ -5,8 +5,8 @@ let list;
 
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
-	//DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
-	onJsonLoad(getFakeData());
+	DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
+	//onJsonLoad(getFakeData());
 };
 
 async function onJsonLoad (data) {

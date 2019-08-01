@@ -26,7 +26,6 @@
 								"{@b Failure (three degrees)}: The target is asleep, controlled, incapacitated, paralyzed, transformed or unaware (choose one)."
 							]
 						},
-						
 						"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
 						"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
 					]
@@ -295,6 +294,776 @@
 					"entries": ["You can only comprehend a broad type of subject (only elves, canines, avians, or sea creatures, for example). For an additional flaw, you can only comprehend a narrow type of subject (dogs, falcons, or dolphins, for example). {@b Broad –1 cost per rank. Narrow –2 cost per rank.}"],
 					"cost": {
 						"value": {"min":-1, "max":-2}, "type": "per", "hidden": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Concealment",
+			"type": "SEN",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You gain total concealment from a particular sense while this effect is active, although you are still detectable to other senses (even other senses of the same sense type; so you could have full concealment against normal sight, but not infravision or any other sense in the sight sense type). Each additional rank gives you concealment from another sense; two ranks give you concealment for an entire sense type. See Concealment for full effects.",
+				"Concealment from visual senses costs double (2 ranks for one visual sense, 4 ranks for all visual senses). You cannot have concealment from tactile senses, since that requires being incorporeal (see Insubstantial effect). So with Concealment 5, you can have total concealment from all visual senses (4 ranks) and normal hearing (1 rank), for example. With Concealment 10 you have total concealment from all sense types other than tactile.",
+				{
+					"type": "inset",
+					"name": "Concealment and Perception Range",
+					"entries": [
+						"Perception range effects must accurately perceive a target in order to affect it. This generally means you cannot target subjects with total concealment from your accurate senses with perception range effects. Thus, foes with Visual Concealment (the most common accurate sense) can be quite effective against characters relying on perception range attacks, unless the attacker has an unusual accurate sense to circumvent the Concealment. This is one reason Visual Concealment costs extra.",
+						"At the Gamemaster’s discretion, a successful Perception check to accurately locate a target with an acute sense may allow you to use perception range effects on that target; however, the target still benefits from concealment, granting a +5 circumstance bonus to resistance against the effect."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Affects Others",
+					"entries": ["This modifier allows you to grant Concealment to others while you are touching them, or at range, if you also apply the Range modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Area",
+					"entries": ["Concealment with Affects Others (previously) or attack (immediately following) may have this extra, affecting everything in the area. To only affect some targets in the area, apply the Selective modifier as well."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Attack",
+					"entries": ["Use this extra for a Concealment effect you can impose on others (whether they want to be concealed or not). An invisibility ray, for example, is a Visual Concealment Attack, while a field of darkness is a Burst Area Visual Concealment Attack."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Precise",
+					"entries": ["You can vary your Concealment at will as a free action: going from total to partial to no concealment, concealing some parts and not others, or anywhere in-between. If your Concealment affects multiple senses, you can also choose to affect some of those senses and not others. Concealment is normally all-or-nothing: either you are concealed to the full amount of your effect, or you’re not."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Blending",
+					"entries": ["You “blend” into the background. Your Concealment only functions as long as you move no faster than your (ground speed rank –1), since your blending can’t adapt faster than that."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited",
+					"entries": ["Your Concealment only works under certain conditions, such as in fog, shadows, or in urban locales. One example is Limited to Machines, where your Concealment only fools senses with a technological descriptor."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Partial",
+					"entries": ["Your effect provides partial rather than total concealment (see Concealment)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Passive",
+					"entries": ["Your Concealment only lasts until you do something requiring an attack or effect check on your part, at which point it stops working until you reactivate it, which you may do on the following round."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Resistible",
+					"entries": ["Your Concealment offers a resistance check (chose a defense when the flaw is applied) for anyone aware of your presence and actively looking for you. Concealment Resistible by Will may represent some sort of mental illusion effect."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Create",
+			"type": "CTL",
+			"action": "S",
+			"range": "ranged",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can form solid objects essentially out of nowhere. They may be made of solidified energy, “hardened” water or air, transmuted bulk matter, ice, stone, or some other medium, depending on the effect’s descriptors.",
+				"You can form any simple geometric shape or common object (such as a cube, sphere, dome, hammer, lens, disk, etc.). The GM has final say on whether or not a particular object is too complex for this effect. Generally, your objects can’t have any moving parts more complex than a hinge. They can be solid or hollow, opaque or transparent, as you choose when you use the effect, limited by your descriptors and the Gamemaster’s judgment.",
+				"You can create an object with a maximum volume rank equal to your effect rank and Toughness equal to your effect rank. Created objects can be damaged or broken like ordinary objects. They also vanish if you stop maintaining them. You can repair any damage to a created object at will by using your effect again (essentially “re-creating” the object). Your created objects are stationary once you have created them, although other effects can move them. Assume a created object has a mass rank equal to its volume rank.",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Create vs. Summon",
+					"entries": [
+						"Create and Summon are similar effects: both “create” things out of nowhere. So when should a character have one and not the other?",
+						"Generally, Create makes inanimate objects, while Summon conjures creatures of some sort, capable of independent action (albeit limited in the case of mindless creatures like robots or zombies). So a character able to create “sculptures” of ice, for example: walls, slides, columns, and so forth, should have Create. A character able to call up animated snowmen, on the other hand, should have Summon, while a powerful “ice elemental” may very well have both effects!"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Created Objects, Cover, and Concealment",
+					"entries": [
+						"A created object can provide cover or concealment (if the object is opaque) just like a normal object. Cover provided by a created object can block incoming attacks, but blocks outgoing attacks as well. Attacks hitting the covering object damage it normally (see Damaging Objects). Indirect effects can bypass the cover a created object provides just like any other cover (see Indirect modifier). The Selective modifier allows you to vary the cover and concealment your objects provide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trapping with Objects",
+					"entries": [
+						"You can trap a target inside a large enough hollow object (a cage or bubble, for example). This requires both an attack check against the target’s Dodge and a Dodge resistance check against the effect’s rank. A trapped character can break out of the object normally. Imposing conditions on the target other than just trapping them requires a separate effect, such as Affliction (see Affliction), which you may wish to acquire as an Alternate Effect of Create (see Alternate Effect)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dropping Objects",
+					"entries": [
+						"Simply dropping a created object on a target is treated like an Area Effect attack based on the object’s size (see Area extra). The object inflicts damage equal to its Toughness, and targets get a Dodge check to evade the falling object. A successful check results in no damage (rather than the usual half damage).",
+						"While a created object can potentially be wielded as an improvised weapon, the effect cannot otherwise create attacks or other effects; you must acquire these effects separately (perhaps as Alternate Effects)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Supporting Weight",
+					"entries": [
+						"If a created object needs to support weight—created as a bridge or to support a weakened structure, for example—it has an effective Strength equal to its rank. You can “shore up” a created object by taking a standard action and concentrating, increasing its Strength by 1 until the start of your next round. You can also use extra effort to increase a created object’s Strength for one round, and these modifiers are cumulative."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Continuous",
+					"entries": ["Continuous Create makes objects that remain until they are destroyed, nullified, or you choose to dismiss them."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Impervious",
+					"entries": ["Applied to Create, this extra makes the objects’ Toughness Impervious."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Innate",
+					"entries": ["Continuous or Permanent Create with this modifier makes objects that cannot be nullified, they’re essentially “real” objects for all intents and purposes (although the user can “unmake” them at will unless the effect is also permanent)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Movable",
+					"entries": ["You can move your created objects around with a Move Object effect at your Create rank (see Move Object)."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Precise",
+					"entries": ["You can create more precise and detailed objects. The exact parameters of Precise Create are up to the GM, but generally, you can create objects with moving parts, and considerable detail."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["You can make your created objects selectively “transparent” to attacks, blocking some while allowing others (yours and your allies’, for example) to pass through them. You can also selectively make your objects solid to some creatures and incorporeal to others, such as allowing one person to walk through a created wall, while blocking another. It takes a free action to change the selective nature of an object; permanent created objects cannot have their selectivity changed once they are created."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Stationary",
+					"entries": ["Your created objects can hang immobile in the air. They resist being moved with a Strength rank equal to the modifier rank. Unless you have the Tether extra or the Movable extra, you cannot move a stationary created object once it’s placed any more than anyone else can."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Subtle",
+					"entries": ["This modifier either makes created objects not noticeable as constructs for 1 rank (they look just like real objects) or not noticeable at all for 2 ranks (such as objects composed of invisible force)."],
+					"cost": {
+						"value": {"min":1, "max":2}, "type": "flat"
+					}
+				},
+				{
+					"name": "Tether",
+					"entries": ["You have a connection to your created objects, allowing you to exert your own Strength to move them (provided you are strong enough to do so)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Feedback",
+					"entries": ["You may suffer damage when your created objects are damaged (see Feedback flaw for details)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Permanent",
+					"entries": ["Permanent created objects last until destroyed or nullified. Unlike Continuous Create, you cannot choose to dismiss such objects; they are truly permanent. You cannot repair permanent created objects or otherwise alter them once they’re created. {@b +0 cost per rank (for a Sustained effect).}"],
+					"cost": {
+						"value": 0, "type": "per", "hidden":true
+					}
+				},
+				{
+					"name": "Proportional",
+					"entries": ["Your created objects have a total volume rank plus Toughness rank equal to your Create rank, rather than both volume and Toughness up to your rank. So you can create an object with volume rank 0 and Toughness equal to your Create rank, vice versa, or anywhere in between, so long as the sum of the two ranks does not exceed your Create rank."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Damage",
+			"type": "ATK",
+			"action": "S",
+			"range": "close",
+			"duration": "instant",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can inflict damage on a target by making a close attack. The exact nature of your Damage is up to you, with the GM’s approval; it can be anything from a powerful impact to razor claws, energy fields, or some other damaging medium. The target resists with Toughness:",
+				{
+					"type": "entries",
+					"name": "Damage Resistance Check",
+					"entries": [
+						"Toughness vs. [Damage rank + 15]",
+						{
+							"type": "list",
+							"items": [
+								"{@b Success}: The damage has no effect.",
+								"{@b Failure (one degree)}: The target has a –1 circumstance penalty to further resistance checks against damage.",
+								"{@b Failure (two degrees)}: The target is dazed until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
+								"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
+								"{@b Failure (four degrees)}: The target is incapacitated ."
+							]
+						},
+						"TThe circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
+						"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Strength and Damage",
+					"entries": [
+						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the Alternate Effect modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
+						"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade or thuderbolt staff does the same damage whether you can exert your Strength with it or not."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damaging Objects",
+					"entries": [
+						"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
+						"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
+						"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
+						"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
+						{
+							"type": "quote",
+							"entries": [
+								"Example: Lady Justice, rescuing people from a tenement fire, is hemmed-in by collapsed debris. Her player decides to simply punch a path through. Since she’s going for maximum damage, she decides to make the attack check normally (rather than a routine check). Given her attack bonus, she’ll only miss on a natural 1 anyway. She succeeds and does her Strength in Damage, +5 for the automatic critical. The GM decides the brick, mortar, and heavy beams have Toughness 9 and makes a Toughness check, rolling a 7, against DC 30 (Lady Justice’s Damage + 15). A 15 result is three degrees of failure, so she easily smashes through the debris and clears the building, carrying people to safety!"
+							]
+						},
+						"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Recovery",
+					"entries": [
+						"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process. Lasting or more serious injuries are handled as complications (see Lasting Injuries in Recovery section of Action & Adventure).",
+						"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the Technology skill when repairing damaged objects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deflect",
+			"type": "DEF",
+			"action": "S",
+			"range": "ranged",
+			"duration": "instant",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can actively defend for characters other than yourself, deflecting or diverting attacks against them at a distance, and may be able to more effectively defend yourself, depending on your rank. See the Defend action in Action & Adventure for details. You use your Deflect rank in place of an active defense. You still add 10 to a Deflect die roll of 10 or less, for a minimum roll of 11. Deflect modifiers are limited by power level. Like a ranged attack, if you Deflect at medium range, you have a –2 circumstance modifier on your check. At long range, you have a –5 circumstance modifier. Range is Measured from you to the target of the attack you are deflecting.",
+				"Like the defend action, Deflect does not work against area effects or perception ranged attacks, nor versus attacks targeting defenses other than Dodge or Parry."
+			],
+			"extras": [
+				{
+					"name": "Action",
+					"entries": ["Because it requires the defend action, Deflect cannot take less than a standard action. To create a kind of “deflection field” or similar effect that automatically deflects attacks over a wide area, use an Enhanced Dodge and/or Enhanced Parry effect with modifiers like Area and Selective."]
+				},
+				{
+					"name": "Reflect",
+					"entries": ["You can reflect attacks back at the attacker as a free action. First, you must successfully deflect the attack, then make a normal attack check using your own attack modifier to hit with the reflected attack. It has its normal effect if it hits."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Redirect",
+					"entries": ["You can redirect attacks you successfully deflect at any target within the attack’s normal range, as Reflect, above. You must have the Reflect extra to take this one."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elongation",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You can elongate your body and/or limbs to extend your reach. Add your effect rank to your normal size rank to determine how far you can elongate; for a normalsized human (size rank –2) this is 15 feet at rank 1, 30 feet at rank 2, and so forth. Rank 20 Elongation can stretch 1,000 miles! “Snapping back” to your normal shape is a free action.",
+				"You can use Elongation to make “close” attacks at a greater distance by elongating your limbs. Once elongated, you can make melee attacks within your new reach as a standard action. If you can’t accurately sense your target (you’re elongating around a corner, for example), apply the rules for concealment (see Concealment in Action & Adventure). In addition, Elongation allows you to wrap up and entangle an opponent so it grants a +1 bonus to grab checks per rank (limited by PL)."
+			]
+		},
+		{
+			"name": "Enhanced Trait",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": "cost_as_base_trait",
+				"type": "special"
+			},
+			"entries": [
+				"You can temporarily improve one of your existing traits, chosen when you take this effect. While this effect is active, you increase the affected trait by its rank. So, for example, Enhanced Strength 5 increases your Strength by +5 while it is active. Your enhanced trait is still subject to power level limits, so your unenhanced rank must be below the limit by at least the amount of the enhancement to accommodate it.",
+				"The cost of Enhanced Trait is the same per rank as acquiring a rank in the affected trait. The key differences are that Enhanced Trait is a power effect, rather than a natural trait, and as an effect it can be combined with extra effort and other effects. See Extra Effort in The Basics and Enhanced Abilities in Abilities for more."
+			],
+			"flaws": [
+				{
+					"name": "Limited",
+					"entries": ["Enhanced Traits are often Limited in some fashion, such as Nighttime (or Daytime) Only, While Angry (or in another emotional state), Underwater (or in some other environment), and so forth. A limit that rarely comes into play—like losing your Enhanced Trait during a new moon—can be handled as a power loss complication. See Complications in The Basics for details."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Permanent",
+					"entries": ["At no change in cost, your Enhanced Trait may be a permanent improvement, rather than a sustained effect. The primary difference is that your permanent enhancement cannot be turned on and off and cannot be improved by extra effort, including using it to perform power stunts (see Extra Effort). There is no action to use a Permanent Enhanced Trait, as it is always active. +0 cost per rank."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Reduced Trait",
+					"entries": ["One or more of your traits is lowered while others are enhanced. This flaw is worth as many points as the reduction in the affected trait(s). So, for example, if you lose Intellect while you gain in Strength, treat the value of the lost Intellect ranks as the value of the flaw. As with all flaws, the effect must still cost at least 1 character point. {@b Flat –points equal to the lowered trait.}"],
+					"cost": {
+						"value": -1, "type": "flat", "hidden": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Environment",
+			"type": "CTL",
+			"action": "S",
+			"range": "rank",
+			"duration": "sustained",
+			"cost": {
+				"value": {"min":1, "max":2},
+				"type": "per"
+			},
+			"entries": [
+				"You can change the environment in an area: raising or lowering the temperature, creating light, causing rain, and so forth (see The Environment in Action & Adventure for details).",
+				"Your Environment affects a 30 foot radius around you at rank 1. Each additional rank moves the radius up one distance rank, for a reach of approximately 2,000 miles at rank 20, sufficient to alter the environment of an entire continent!",
+				"Each of the following is a separate Environment effect. If you have one you can acquire others as Alternate Effects, but you can then only use and maintain one at a time. To use or maintain multiple Environment effects simultaneously, add their costs together for the effect’s total cost per rank or apply the Selective modifier, allowing you to mix-and-match effects.",
+				{
+					"type": "entries",
+					"name": "Cold",
+					"entries": [
+						"You can lower the temperature in the area. For 1 point per rank, you create intense cold; for 2 points per rank, you create extreme cold."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heat",
+					"entries": [
+						"You can raise the temperature in the area. For 1 point per rank, you create intense heat, for 2 points per rank; you create extreme heat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impede Movement",
+					"entries": [
+						"You can impede movement through the area with high winds, icy or wet surfaces, or similar effects. For 1 point per rank, you reduce movement speed through the area by 1 rank; for 2 points per rank, you reduce it by 2 ranks. Depending on your descriptors, you may also apply circumstance modifiers to Acrobatics and Athletics checks for surface conditions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"You can raise the light level in the area, countering the concealment of darkness, but not other forms of concealment. For 1 point per rank, you can create enough light to reduce total concealment to partial and partial concealment to none. For 2 points per rank, you can shed light as bright as a sunlit day, eliminating all concealment provided by natural darkness. Power effects with the darkness descriptor may be countered with a successful power check (see Countering Effects)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Visibility",
+					"entries": [
+						"You impose a -2 modifier to Perception checks for 1 point per rank, and a -5 for 2 points per rank. For more significant obscuring of senses (via darkness, fog, etc.) use an Area Concealment Attack effect (see Concealment)."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Selective",
+					"entries": ["With this extra you can vary the environment within your affected area, affecting some while not affecting others, or even mixing and matching different environments (making part of the area cold and another hot, for example)."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			]
+		},
+				{
+			"name": "Extra Limbs",
+			"type": "G",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You have extra manipulative limbs, such as arms, tentacles, or even prehensile hair or a tail. Each rank in this effect grants you an extra limb.",
+				"Extra Limbs do not allow you to take additional actions in a round, although they do provide the benefits of the Improved Grab advantage—grabbing with some of your limbs and leaving others free. All additional limbs except your dominant limb are considered your “off-hand.” If you have the Benefit (Ambidexterity) advantage, you have no off-hand penalties with any of your limbs.",
+				"If you apply all of your limbs to a grab attempt (rather than taking the option to leave some of them free), you gain a +1 circumstance bonus per rank in Extra Limbs to a maximum of +5, much like a team check.",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Extra Limbs Not Extra Actions",
+					"entries": [
+						"As a default, Extra Limbs do not grant characters the ability to take extra actions in a round, simply because multiple actions—especially extra standard actions usable for attacks—tend to slow down and unbalance play.",
+						"As an option for including some combat benefits with Extra Limbs, consider allowing the application of the Multiattack extra to the Strength of a character with Extra Limbs, reflecting the ability to launch a flurry of attacks at a single opponent, or to “spread” those attacks among a number of nearby opponents. See Multiattack description under Extras for details."
+					]
+				}
+			],
+			"extras": [
+				{
+					"entries": ["In general, modifiers affecting attack effects (e.g. Affects Corporeal, Area, Penetrating, etc.) should apply to the Strength of a character with Extra Limbs rather than to the Extra Limbs effect itself. Such modifiers applied to Strength affect all of the character’s limbs."]
+				},
+				{
+					"name": "Continuous",
+					"entries": ["Continuous Extra Limbs are a power effect you can turn on and off at will, but that remain until you choose to deactivate them, even if you are stunned or incapacitated ."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Projection",
+					"entries": ["Your Extra Limbs are merely a projection of your power rather than an extension of your body. therefore, any harm directed specifically against your Extra Limb(s) has no effect. So, for example, one of your additional limbs could reach into a container of acid or a blast furnace to pull out an object without any harm to you. The GM may require Extra Limbs with this extra to modify their duration to continuous or sustained, but this is not essential. It’s likely Extra Limbs with this extra are not eligible for the Innate modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Sustained",
+					"entries": ["Sustained Extra Limbs can be turned on or off (growing or forming the additional limbs and then making them disappear just as easily), but the limbs disappear or stop working if you are unable to continue the effect."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Distracting",
+					"entries": ["Coordinating the actions of your multiple limbs is difficult, so you are vulnerable while applying any extra limbs to an action. This flaw should generally not apply to any creature with Innate Extra Limbs, especially if they are part of its natural physiology."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Feature",
+			"type": "G",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You have one or more minor features, effects granting you an occasionally useful ability, one per rank. This effect is essentially a version of the Benefit advantage but a power rather than a virtue of skill, talent, or social background. For example, diplomatic immunity or wealth are Benefits; fur, the ability to mimic sounds, or a hidden compartment in your hollow leg are Features.",
+				"It’s up to the GM what capabilities qualify as Features; generally, if something has no real game effect, it’s just a descriptor. If it has an actual game system benefit, it may be a Feature. There’s no need to define every possible Feature a character may have down to the last detail.",
+				"Some Features may be sustained duration rather than permanent with no change in cost. This suits active Features a character has to use and maintain rather than having them as passive traits requiring no effort whatsoever.",
+				{
+					"type": "inset",
+					"name": "Under the Hood: Feature",
+					"entries": [
+						"The Feature effect is intended to round out various minor traits and abilities characters might have, but it is entirely optional and not meant to burden character design with needless amounts of detail. It’s for traits with an actual game effect, not merely descriptors or background color (neither of which should cost any points). Ultimately, the Gamemaster decides what traits merit a rank (or more) of Feature and what Features are permitted for any given game or setting, using the examples given here.",
+						"If a “feature” is something likely to come up only occasionally, or even just once, then you are better off allowing it as an aspect of the inspiration and power stunt rules (see Characteristics), charging the player a victory point for the feature when it comes into play. The player can then choose whether or not to use earned character points to acquire the Feature as a regular part of the character’s traits later on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sample Features",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Insulating Fur}: You have a layer of fur that protects you from intense heat and cold, giving you immunity to those environments.",
+								"{@b Internal Compartment}: You can carry a portion of your carrying capacity inside your body! You have a pouch or compartment of some sort, able to hold objects with a size rank no greater than 3 less than your own (size -5 for a normal size rank -2 human).",
+								"{@b Iron Stomach}: You can eat anything that’s not toxic without ill effects, no matter how unpleasant it may be: spoiled or particularly gross or spicy food, for example.",
+								"{@b Mimicry}: You can imitate almost any sound you’ve heard, giving you a +10 bonus to Deception checks to convince others your mimicked sounds are real.",
+								"{@b Quick Change}: You can change clothes—such as into or out of your costume—as a free action. With 2 ranks, you can change into any outfit at will.",
+								"{@b Special Effect}: You have some special effect, like a gust of wind at the right dramatic moment, or ideal spotlighting, or personal theme music. The GM may give you a +2 bonus for favorable circumstances when your special effect is likely to impress people or otherwise aid you.",
+								"{@b Temporal Inertia}: You are somehow uniquely “anchored” in the space-time continuum, making you immune to changes in history. You recall the “true” version of historical events, even if no one else does."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flight",
+			"type": "MOV",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can fly through the air, including hovering in place. You have a flight speed rank equal to your effect rank."
+			],
+			"extras": [
+				{
+					"name": "Aquatic",
+					"entries": ["You can move underwater as easily as in the air. You have a water speed equal to your Flight rank, minus 2, subject to the usual rules for swimming (see Athletics for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see Immunity). This is the Swimming power as an Alternate Effect."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Continuous",
+					"entries": ["Continuous Flight operates even when the user is incapacitated or otherwise unable to sustain it. The user remains hanging in the air, maintaining relative position to the ground, if necessary. Alternately, the user might float safely down to the ground when unable to maintain Flight as a kind of “safety net,” your choice when you apply the modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Subtle",
+					"entries": ["The default Flight effect is noticeable, whether from the rush of air, the roar of jets, or a glowing contrail or aurora, for example. This modifier reduces, and then eliminates, these traces. If your Flight is completely Subtle, you do not need to make Stealth checks to move silently while flying (you do so automatically), although you may still need to do so to avoid being seen or otherwise detected."],
+					"cost": {
+						"value": {"min":1, "max":2}, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Concentration",
+					"entries": ["Flight requiring concentration means you can fly, but can’t do much else at the same time."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Distracting",
+					"entries": ["You are not very maneuverable and therefore vulnerable while flying (see Vulnerable condition)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Gliding",
+					"entries": ["You fly by gliding on wind currents. Your maximum gliding distance is limited to the vertical distance rank of your starting height, plus your flight speed rank. You may be able to gain altitude occasionally by catching thermal updrafts and winds at the GM’s discretion. Other-wise you must land at the end of your maximum distance."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Levitation",
+					"entries": ["You can only move vertically, straight up and down, and not side to side, although you can allow yourself to be carried along in the direction of the wind horizontally."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Platform",
+					"entries": ["Your Flight is reliant on some sort of platform on which you stand or sit. If you fail a resistance check while flying, or you are grabbed by someone standing on the ground, you’re knocked or pulled off your platform and cannot fly. You can regain the use of your flying platform by reactivating your Flight effect on your next turn."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Wings",
+					"entries": ["You have wings that allow you to fly, but they run the risk of being fouled or restrained, which prevents you from flying. If you are immobilized, restrained, or bound, you cannot fly. You can regain the use of your wings by reactivating your Flight effect once you are no longer affected by the aforementioned conditions."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Growth",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can temporarily increase your size, gaining Strength and Stamina at the cost of becoming a bigger, heavier, less agile target, unable to maneuver through small spaces. Growth modifiers are restricted by power level limits.",
+				"Each rank of Growth adds 1 rank to your Strength and Stamina (constructs add 1 rank to Strength and Toughness if they lack Stamina) and adds 1 rank to your mass. Every two ranks adds a +1 bonus to Intimidation. Every 8 ranks adds 1 to your Speed. Every rank of Growth subtracts 1 from your Stealth checks. Every 2 ranks (rounded up) subtracts 1 from your Dodge and Parry defenses. Every 4 ranks of Growth increases your size rank by 1 (ordinary humans start out at size rank –2, between 3 and 6 feet tall). So at Growth 8, you have +8 Strength and Stamina, +4 to Intimidation, +1 Speed, but -8 to Stealth, –4 Dodge and Parry, and you are size rank 0 (around 30 feet tall). Increases to your Strength and Stamina also improve related traits like your Strength Damage, Fortitude, and Toughness."
+			],
+			"extras": [
+				{
+					"name": "Permanent",
+					"entries": ["Permanent Growth, typically with innate, suits giant-sized characters and creatures that are a fixed larger size."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Healing",
+			"type": "G",
+			"action": "S",
+			"range": "close",
+			"duration": "instant",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can heal Damage conditions by touching a subject and taking a standard action to make a DC 10 Healing check. Each degree of success healing one Damage condition, starting with the subject’s worst condition, and working down, as if the subject were recovering rapidly. If the subject is dying, the highest degree of success stabilizes the subject, removing the dying condition. If the Healing check fails, you must wait one minute or use extra effort in order to try again.",
+				"You can also grant a subject a bonus equal to your Healing rank on resistance checks against effects with disease or poison descriptors. The bonus applies to the subject’s next resistance check against the effect.",
+				"You can use Healing on yourself, provided you are still capable of taking the standard action needed.",
+				"Healing does not work on subjects unable to recover on their own, such as creatures with no Stamina rank or inanimate objects."
+			],
+			"extras": [
+				{
+					"name": "Action",
+					"entries": ["This extra reduces the action required for you to use Healing. You cannot use Healing more than once per turn regardless. To heal multiple subjects at once, apply the Area modifier."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Affects Objects",
+					"entries": ["Your Healing can also “heal” damage to non-living subjects. You make a Healing check against the subject’s worst damage condition, as normal. "],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Area",
+					"entries": ["Healing with this extra grants the same benefit to all subjects in the affected area. Area Empathic Healing (see this power’s Flaws) is an unwise combination, as the healer takes on all of the damage conditions of the affected subjects at once!"],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Energizing",
+					"entries": ["You can heal the fatigued and exhausted conditions as well as damage conditions: DC 10, one degree of success for fatigued, two degrees of success for exhausted. However, you take on the removed conditions and cannot use Healing to eliminate your own fatigue (although you can still use victory points to recover from them). If the Healing check fails, you must wait the normal recovery time or use extra effort to try again."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Perception",
+					"entries": ["Applied to Ranged Healing (following), perception Ranged Healing does not require an attack check to “touch” the subject."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Persistent",
+					"entries": ["Your Healing can remove even Incurable effects (see the Incurable modifier)."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["Ranged Healing requires an attack check to “touch” the subject with the Healing effect. The GM may waive the check for a willing subject holding completely still, but the subject is defenseless that round, making it an unwise decision in the midst of combat."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Restorative",
+					"entries": ["Your Healing effect can restore character points removed by Weaken effects with the appropriate descriptors, such as injury, disease, or poison. You restore points equal to your rank to the affected trait(s)."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Resurrection",
+					"entries": ["You can restore life to the dead! If the subject has been dead for fewer minutes than your Healing rank, makes a DC 20 Healing check. If successful, the patient’s condition becomes incapacitated, as if just stabilized. If the check fails, you can only try again using extra effort."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["Area Healing may have this extra, allowing you to choose who in the area does and does not gain the benefits."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Stabilize",
+					"entries": ["You don’t need to make a Healing check to stabilize a dying character, your Healing effect does so automatically, although it still requires the normal standard action."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Empathic",
+					"entries": ["When you successfully cure someone else of a condition, you acquire the condition yourself and must recover from it normally. You can use Healing and Regeneration to cure your own conditions. You can have the Resurrection modifier for Healing, but if you successfully use it, you die! This may not be as bad as it seems if you have Immortality, allowing you to return to life (see the Immortality effect for details)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited",
+					"entries": ["Examples of ways in which Healing may be Limited include: One Type of Damage (such as energy or bludgeoning damage), Objects (in conjunction with Affects Objects), Others (you can’t use Healing on yourself), or Self (you can only use Healing on yourself)."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Temporary",
+					"entries": ["The benefits of your Healing are temporary, lasting for one hour. The subject then regains any damage conditions you healed. These conditions stack with others the subject acquired since the initial healing, which may result in more severe damage or even death."],
+					"cost": {
+						"value": -1, "type": "per"
 					}
 				}
 			]
