@@ -1815,7 +1815,7 @@ Renderer.hover = {
 
 	_addToCache: (page, source, hash, item) => {
 		page = page.toLowerCase();
-		source = source.toLowerCase();
+		source = source? source.toLowerCase(): SRC_KEY;
 		hash = hash.toLowerCase();
 
 		((Renderer.hover.linkCache[page] =
@@ -1825,7 +1825,7 @@ Renderer.hover = {
 
 	_getFromCache: (page, source, hash) => {
 		page = page.toLowerCase();
-		source = source.toLowerCase();
+		source = source? source.toLowerCase(): SRC_KEY;
 		hash = hash.toLowerCase();
 
 		return Renderer.hover.linkCache[page][source][hash];
@@ -1833,7 +1833,7 @@ Renderer.hover = {
 
 	_isCached: (page, source, hash) => {
 		page = page.toLowerCase();
-		source = source.toLowerCase();
+		source = source? source.toLowerCase(): SRC_KEY;
 		hash = hash.toLowerCase();
 
 		return Renderer.hover.linkCache[page] && Renderer.hover.linkCache[page][source] && Renderer.hover.linkCache[page][source][hash];
@@ -1856,12 +1856,12 @@ Renderer.hover = {
 		 */
 		function populate (data, listProp, itemModifier) {
 			data[listProp].forEach(it => {
-				const itHash = UrlUtil.URL_TO_HASH_BUILDER[page](it);
+				const itHash = UrlUtil.URL_TO_HASH_BUILDER(it);
 				if (itemModifier) itemModifier(listProp, it);
 				Renderer.hover._addToCache(page, it.source, itHash, it);
 
-				if(it.ENG_name){
-					const itEngHash = UrlUtil.encodeForHash([it.ENG_name, it.source]);
+				if(it.translate_name){
+					const itEngHash = UrlUtil.encodeForHash([it.translate_name, it.source]);
 					Renderer.hover._addToCache(page, it.source, itEngHash, it);
 				}
 			});
@@ -1895,20 +1895,6 @@ Renderer.hover = {
 			}
 		}
 
-		function _pLoadSingleBrew (listProps, itemModifier) {
-			return new Promise(resolve => {
-				BrewUtil.pAddBrewData()
-					.then((data) => {
-						listProps = listProps instanceof Array ? listProps : [listProps];
-						listProps.forEach(lp => {
-							if (data[lp]) populate(data, lp, itemModifier);
-						});
-						resolve();
-					})
-					.catch(BrewUtil.pPurgeBrew);
-			});
-		}
-
 		function _handleSingleData (data, listProps, itemModifier) {
 			if (listProps instanceof Array) listProps.forEach(p => populate(data, p, itemModifier));
 			else populate(data, listProps, itemModifier);
@@ -1917,8 +1903,7 @@ Renderer.hover = {
 
 		function loadSimple (page, jsonFile, listProps, itemModifier) {
 			if (!Renderer.hover._isCached(page, source, hash)) {
-				_pLoadSingleBrew(listProps, itemModifier)
-					.then(() => DataUtil.loadJSON(`${Renderer.get().baseUrl}data/${jsonFile}`))
+				DataUtil.loadJSON(`${Renderer.get().baseUrl}data/${languageParser.getActiveLanguage()}/${jsonFile}`)
 					.then((data) => _handleSingleData(data, listProps, itemModifier));
 			} else callbackFn();
 		}
@@ -1936,128 +1921,14 @@ Renderer.hover = {
 				callbackFn();
 				break;
 			}
-
-			case UrlUtil.PG_SPELLS: {
-				loadMultiSource(page, `data/spells/`, "spell");
-				break;
+			//===========
+			case UrlUtil.PG_ADVANTAGES: {
+				loadSimple(page, "advantages.json", "advantage");break;
 			}
-
-			case UrlUtil.PG_BESTIARY: {
-				loadMultiSource(page, `data/bestiary/`, "monster");
-				break;
+			case UrlUtil.PG_POWER_EFFECT: {
+				loadSimple(page, "powereffects.json", "powereffect");break;
 			}
-
-			case UrlUtil.PG_ITEMS: {
-				if (!Renderer.hover._isCached(page, source, hash)) {
-					Renderer.item.buildList((allItems) => {
-						// populate brew once the main item properties have been loaded
-						BrewUtil.pAddBrewData()
-							.then((data) => {
-								if (!data.item) return;
-								data.item.forEach(it => {
-									Renderer.item.enhanceItem(it);
-									const itHash = UrlUtil.URL_TO_HASH_BUILDER[page](it);
-									Renderer.hover._addToCache(page, it.source, itHash, it);
-									const revName = Renderer.item.modifierPostToPre(it);
-									if (revName) Renderer.hover._addToCache(page, it.source, UrlUtil.URL_TO_HASH_BUILDER[page](revName), it);
-								});
-							})
-							.catch(BrewUtil.pPurgeBrew)
-							.then(() => {
-								allItems.forEach(item => {
-									const itemHash = UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_ITEMS](item);
-									Renderer.hover._addToCache(page, item.source, itemHash, item);
-									if(item.ENG_name){
-										const itemEngHash = UrlUtil.encodeForHash([item.ENG_name, item.source]);
-										Renderer.hover._addToCache(page, item.source, itemEngHash, item);
-									}
-									const revName = Renderer.item.modifierPostToPre(item);
-									if (revName) Renderer.hover._addToCache(page, item.source, UrlUtil.URL_TO_HASH_BUILDER[page](revName), item);
-								});
-								callbackFn();
-							});
-					}, {}, true);
-				} else {
-					callbackFn();
-				}
-				break;
-			}
-
-			case UrlUtil.PG_BACKGROUNDS: {
-				loadSimple(page, "backgrounds.json", "background");
-				break;
-			}
-			case UrlUtil.PG_FEATS: {
-				loadSimple(page, "feats.json", "feat");
-				break;
-			}
-			case UrlUtil.PG_OPT_FEATURES: {
-				loadSimple(page, "optionalfeatures.json", "optionalfeature");
-				break;
-			}
-			case UrlUtil.PG_PSIONICS: {
-				loadSimple(page, "psionics.json", "psionic");
-				break;
-			}
-			case UrlUtil.PG_REWARDS: {
-				loadSimple(page, "rewards.json", "reward");
-				break;
-			}
-			case UrlUtil.PG_RACES: {
-				if (!Renderer.hover._isCached(page, source, hash)) {
-					BrewUtil.pAddBrewData()
-						.then((data) => {
-							if (!data.race) return;
-							populate(data, "race");
-						})
-						.catch(BrewUtil.pPurgeBrew)
-						.then(() => {
-							DataUtil.loadJSON(`${Renderer.get().baseUrl}data/races.json`).then((data) => {
-								const merged = Renderer.race.mergeSubraces(data.race);
-								merged.forEach(race => {
-									const raceHash = UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_RACES](race);
-									Renderer.hover._addToCache(page, race.source, raceHash, race)
-								});
-								callbackFn();
-							});
-						});
-				} else {
-					callbackFn();
-				}
-				break;
-			}
-			case UrlUtil.PG_DEITIES: {
-				loadCustom(page, "deities.json", "deity", null, "deity");
-				break;
-			}
-			case UrlUtil.PG_OBJECTS: {
-				loadSimple(page, "objects.json", "object");
-				break;
-			}
-			case UrlUtil.PG_TRAPS_HAZARDS: {
-				loadSimple(page, "trapshazards.json", ["trap", "hazard"]);
-				break;
-			}
-			case UrlUtil.PG_VARIATNRULES: {
-				loadSimple(page, "variantrules.json", "variantrule");
-				break;
-			}
-			case UrlUtil.PG_CULTS_BOONS: {
-				loadSimple(page, "cultsboons.json", ["cult", "boon"], (listProp, item) => item._type = listProp === "cult" ? "c" : "b");
-				break;
-			}
-			case UrlUtil.PG_CONDITIONS_DISEASES: {
-				loadSimple(page, "conditionsdiseases.json", ["condition", "disease"], (listProp, item) => item._type = listProp === "condition" ? "c" : "d");
-				break;
-			}
-			case UrlUtil.PG_TABLES: {
-				loadSimple(page, "generated/gendata-tables.json", ["table", "tableGroup"], (listProp, item) => item._type = listProp === "table" ? "t" : "g");
-				break;
-			}
-			case UrlUtil.PG_SHIPS: {
-				loadSimple(page, "ships.json", "ship");
-				break;
-			}
+			//===========
 			default:
 				throw new Error(`No load function defined for page ${page}`);
 		}
@@ -2469,44 +2340,13 @@ Renderer.hover = {
 	},
 
 	_pageToRenderFn (page) {
-		console.log(page);
 		switch (page) {
 			case "hover":
 				return Renderer.hover.getGenericCompactRenderedString;
-			case UrlUtil.PG_SPELLS:
-				return Renderer.spell.getCompactRenderedString;
-			case UrlUtil.PG_ITEMS:
-				return Renderer.item.getCompactRenderedString;
-			case UrlUtil.PG_BESTIARY:
-				return (it) => Renderer.monster.getCompactRenderedString(it, null, {showScaler: true, isScaled: it._originalCr != null});
-			case UrlUtil.PG_CONDITIONS_DISEASES:
-				return Renderer.condition.getCompactRenderedString;
-			case UrlUtil.PG_BACKGROUNDS:
-				return Renderer.background.getCompactRenderedString;
-			case UrlUtil.PG_FEATS:
-				return Renderer.feat.getCompactRenderedString;
-			case UrlUtil.PG_OPT_FEATURES:
-				return Renderer.optionalfeature.getCompactRenderedString;
-			case UrlUtil.PG_PSIONICS:
-				return Renderer.psionic.getCompactRenderedString;
-			case UrlUtil.PG_REWARDS:
-				return Renderer.reward.getCompactRenderedString;
-			case UrlUtil.PG_RACES:
-				return Renderer.race.getCompactRenderedString;
-			case UrlUtil.PG_DEITIES:
-				return Renderer.deity.getCompactRenderedString;
-			case UrlUtil.PG_OBJECTS:
-				return Renderer.object.getCompactRenderedString;
-			case UrlUtil.PG_TRAPS_HAZARDS:
-				return Renderer.traphazard.getCompactRenderedString;
-			case UrlUtil.PG_VARIATNRULES:
-				return Renderer.variantrule.getCompactRenderedString;
-			case UrlUtil.PG_CULTS_BOONS:
-				return Renderer.cultboon.getCompactRenderedString;
-			case UrlUtil.PG_TABLES:
-				return Renderer.table.getCompactRenderedString;
-			case UrlUtil.PG_SHIPS:
-				return Renderer.ship.getCompactRenderedString;
+			case UrlUtil.PG_ADVANTAGES:
+				return Renderer.advantage.getCompactRenderedString;
+			case UrlUtil.PG_POWER_EFFECT:
+				return Renderer.powereffect.getCompactRenderedString;
 			default:
 				return null;
 		}
@@ -2662,7 +2502,7 @@ Renderer.hover = {
 	bindPopoutButton (toList, handlerGenerator) {
 		const $btnPop = ListUtil.getOrTabRightButton(`btn-popout`, `new-window`)
 			.off("click")
-			.attr("title", "Popout Window (SHIFT for Source Data)");
+			.attr("title", FMT("util_popout"));
 
 		const popoutCodeId = Renderer.hover.__initOnMouseHoverEntry({});
 
@@ -4162,31 +4002,62 @@ if (typeof module !== "undefined") {
 
 //=================================
 Renderer.advantage = {
-	getRankTr: function (rank) {
-		if (rank == null) return "";
-		var content = "";
-		if((typeof rank)==='boolean')
-			content = FMT("ranked");
-		else if((typeof rank)==='string')
-			content = FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
-		else
-			content = FMT("ranked_max", rank);
+	getCompactRenderedString: function (entry) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 2});
 
-		return `<tr><td colspan="6">${content}</td></tr>`;
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			${Renderer.getTr(Renderer.getMaxRankText(entry.rank))}
+			<tr><td class="divider" colspan="6"><div></div></td></tr>
+			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+		`);
 	},
 
-	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); }
+	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
 };
 
 Renderer.powereffect = {
-	getInfoTr: function (entry) {
+	getCompactRenderedString: function (entry, isFull) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
+
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			${Renderer.powereffect.getInfoTr(entry, isFull)}
+			<tr><td class="divider" colspan="6"><div></div></td></tr>
+			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			${Renderer.powereffect.getModifierBlock(entry)}
+		`);
+	},
+
+	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
+	getCostText: function (cost){ return Renderer.getCostText(cost); },
+
+	//============
+	getInfoTr: function (entry, isFull) {
+		var action = this.getActionFullText(entry.action);
+		var range = this.getRangeText(entry.range);
+		var duration = this.getDurationText(entry.duration);
 		var cost_text = this.getCostText(entry.cost);
-		var content = (
-			`<tr><td colspan="6"><span class="bold">${FMT("list_action")}：</span>${this.getActionFullText(entry.action)}</td></tr>
-			<tr><td colspan="6"><span class="bold">${FMT("list_range")}：</span>${Renderer.powereffect.getRangeText(entry.range)}</td></tr>
-			<tr><td colspan="6"><span class="bold">${FMT("list_duration")}：</span>${Renderer.powereffect.getDurationText(entry.duration)}</td></tr>
-			<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
-		return content;
+		
+		if(isFull)
+			return (
+				`<tr><td colspan="6"><span class="bold">${FMT("list_action")}：</span>${action}</td></tr>
+				<tr><td colspan="6"><span class="bold">${FMT("list_range")}：</span>${range}</td></tr>
+				<tr><td colspan="6"><span class="bold">${FMT("list_duration")}：</span>${duration}</td></tr>
+				<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
+		else
+			return (
+				`<tr>
+					<td colspan="2"><span class="bold">${FMT("list_action")}：</span>${action}</td>
+					<td colspan="2"><span class="bold">${FMT("list_range")}：</span>${range}</td>
+				</tr><tr>
+					<td colspan="2"><span class="bold">${FMT("list_duration")}：</span>${duration}</td>
+					<td colspan="2"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td>
+				</tr>`);
 	},
 	getModifierBlock: function(entry) {
 		var new_renderer = Renderer.get();
@@ -4266,12 +4137,19 @@ Renderer.powereffect = {
 			case "permanent": return FMT("duration_permanent");
 			default: return FMT(duration);
 		};
-	},
-
-	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
-	getCostText: function (cost){ return Renderer.getCostText(cost); }
+	}
 };
 
+Renderer.getTr = function(content){
+	if(!content) return "";
+	else 		 return `<tr><td colspan="6">${content}</td></tr>`;
+}
+Renderer.getMaxRankText = function (rank) {
+	if (rank == null) return "";
+	if((typeof rank)==='boolean')		return FMT("ranked");
+	else if((typeof rank)==='string')	return FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
+	else 								return FMT("ranked_max", rank);
+};
 Renderer.getTypeFullText = function(type) {
 	switch(type){
 		case "C": return FMT("type_combat");

@@ -1,6 +1,8 @@
 
 STR_VOID_LINK = "javascript:void(0)";
+STR_NONE = FMT("none");
 FLTR_ID = "filterId";
+SRC_KEY = "basic";
 
 HASH_PART_SEP = ",";
 HASH_LIST_SEP = "_";
@@ -620,7 +622,7 @@ ListUtil = {
 				if (!ListUtil.isSublisted(History.lastLoadedId)) ListUtil.pDoSublistAdd(History.lastLoadedId, true);
 				else ListUtil.pDoSublistRemove(History.lastLoadedId);
 			})
-			.attr("title", "釘選(開/關)");
+			.attr("title", FMT("util_pin_toggle"));
 	},
 
 	genericAddButtonHandler (evt, options = {}) {
@@ -658,7 +660,7 @@ ListUtil = {
 					DataUtil.userDownload(ListUtil._getDownloadName(), JSON.stringify(ListUtil.getExportableSublist(), null, "\t"));
 				}
 			})
-			.attr("title", "下載列表（SHIFT for Link）");
+			.attr("title", `${FMT("util_downloadjson")} (${FMT("util_shift_link")})`);
 	},
 
 	doJsonLoad (json, additive, funcPreload) {
@@ -694,7 +696,7 @@ ListUtil = {
 				}).appendTo($(`body`));
 				$iptAdd.click();
 			})
-			.attr("title", "上傳列表(SHIFT for Add Only)");
+			.attr("title", `${FMT("util_uploadjson")} (${FMT("util_shift_add_only")})`);
 	},
 
 	setFromSubHashes: (subHashes, funcPreload) => {
@@ -932,8 +934,8 @@ ListUtil = {
 	},
 
 	initGenericPinnable: () => {
-		ListUtil.initContextMenu(ListUtil.handleGenericContextMenuClick, "彈出視窗", "釘選");
-		ListUtil.initSubContextMenu(ListUtil.handleGenericSubContextMenuClick, "彈出視窗", "解除釘選", "清除釘選", null, "試試手氣？", null, "Download JSON");
+		ListUtil.initContextMenu(ListUtil.handleGenericContextMenuClick, FMT("util_popout"), FMT("util_pin"));
+		ListUtil.initSubContextMenu(ListUtil.handleGenericSubContextMenuClick, FMT("util_popout"), FMT("util_unpin"), FMT("util_clearpins"), null, FMT("util_downloadjson"));
 	},
 
 	handleGenericContextMenuClick: (evt, ele, $invokedOn, $selectedMenu) => {
@@ -1007,9 +1009,6 @@ ListUtil = {
 				ListUtil.pDoSublistRemoveAll();
 				break;
 			case 3:
-				ListUtil._rollSubListed();
-				break;
-			case 4:
 				ListUtil._handleJsonDownload();
 				break;
 		}
@@ -1292,7 +1291,7 @@ UrlUtil = {
 	categoryToPage (category) {
 		return UrlUtil.CAT_TO_PAGE[category];
 	},
-
+	/*
 	bindLinkExportButton (filterBox) {
 		const $btn = ListUtil.getOrTabRightButton(`btn-link-export`, `magnet`);
 		$btn.addClass("btn-copy-effect")
@@ -1316,9 +1315,11 @@ UrlUtil = {
 				JqueryUtil.showCopiedEffect($btn);
 			})
 			.attr("title", "複製篩選器連結（SHIFT以加入列表）")
-	}
+	}*/
 };
 UrlUtil.URL_TO_HASH_BUILDER = (it) => UrlUtil.encodeForHash([it.name]);
+UrlUtil.PG_ADVANTAGES = "advantages.html";
+UrlUtil.PG_POWER_EFFECT = "powereffects.html";
 
 // TODO refactor other misc utils into this
 MiscUtil = {
@@ -1710,6 +1711,180 @@ JqueryUtil = {
 		JqueryUtil._activeToast.push($toast);
 	}
 };
+
+// STORAGE =============================================================================================================
+// Dependency: localforage
+StorageUtil = {
+	_init: false,
+	_initAsync: false,
+	_fakeStorage: {},
+	_fakeStorageAsync: {},
+
+	getSyncStorage: () => {
+		if (StorageUtil._init) {
+			if (StorageUtil.__fakeStorage) return StorageUtil._fakeStorage;
+			else return window.localStorage;
+		}
+
+		StorageUtil._init = true;
+
+		try {
+			return window.localStorage;
+		} catch (e) {
+			// if the user has disabled cookies, build a fake version
+			StorageUtil.__fakeStorage = true;
+			StorageUtil._fakeStorage = {
+				isSyncFake: true,
+				getItem: (k) => {
+					return StorageUtil.__fakeStorage[k];
+				},
+				removeItem: (k) => {
+					delete StorageUtil.__fakeStorage[k];
+				},
+				setItem: (k, v) => {
+					StorageUtil.__fakeStorage[k] = v;
+				}
+			};
+			return StorageUtil._fakeStorage;
+		}
+	},
+
+	async getAsyncStorage () {
+		if (StorageUtil._initAsync) {
+			if (StorageUtil.__fakeStorageAsync) return StorageUtil._fakeStorageAsync;
+			else return localforage;
+		}
+
+		StorageUtil._initAsync = true;
+
+		try {
+			await localforage.setItem("_storage_check", true);
+			return localforage;
+		} catch (e) {
+			StorageUtil.__fakeStorageAsync = true;
+			StorageUtil._fakeStorageAsync = {
+				pIsAsyncFake: true,
+				async setItem (k, v) {
+					StorageUtil.__fakeStorageAsync[k] = v;
+				},
+				async getItem (k) {
+					return StorageUtil.__fakeStorageAsync[k];
+				},
+				async remove (k) {
+					delete StorageUtil.__fakeStorageAsync[k];
+				}
+			};
+			return StorageUtil._fakeStorageAsync;
+		}
+	},
+
+	// SYNC METHODS ////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Synchronous localStorage access, which should only be used for small amounts of data (metadata, config, etc)
+	syncGet (key) {
+		const rawOut = StorageUtil.getSyncStorage().getItem(key);
+		if (rawOut && rawOut !== "undefined" && rawOut !== "null") return JSON.parse(rawOut);
+		return null;
+	},
+
+	syncGetForPage (key) {
+		return StorageUtil.syncGet(`${key}_${UrlUtil.getCurrentPage()}`);
+	},
+
+	syncSet (key, value) {
+		StorageUtil.getSyncStorage().setItem(key, JSON.stringify(value));
+		StorageUtil._syncTrackKey(key)
+	},
+
+	syncSetForPage (key, value) {
+		StorageUtil.syncSet(`${key}_${UrlUtil.getCurrentPage()}`, value);
+	},
+
+	syncRemove (key) {
+		StorageUtil.getSyncStorage().removeItem(key);
+		StorageUtil._syncTrackKey(key, true);
+	},
+
+	isSyncFake () {
+		return !!StorageUtil.getSyncStorage().isSyncFake
+	},
+
+	_syncTrackKey (key, isRemove) {
+		const meta = StorageUtil.syncGet(StorageUtil._META_KEY) || {};
+		if (isRemove) delete meta[key];
+		else meta[key] = 1;
+		StorageUtil.getSyncStorage().setItem(StorageUtil._META_KEY, JSON.stringify(meta));
+	},
+
+	syncGetDump () {
+		const out = {};
+		const meta = StorageUtil.syncGet(StorageUtil._META_KEY) || {};
+		Object.entries(meta).filter(([key, isPresent]) => isPresent).forEach(([key]) => out[key] = StorageUtil.syncGet(key));
+		return out;
+	},
+
+	syncSetFromDump (dump) {
+		Object.entries(dump).forEach(([k, v]) => StorageUtil.syncSet(k, v));
+	},
+	// END SYNC METHODS ////////////////////////////////////////////////////////////////////////////////////////////////
+
+	async pIsAsyncFake () {
+		const storage = await StorageUtil.getAsyncStorage();
+		return !!storage.pIsAsyncFake;
+	},
+
+	async pSetForPage (key, value) {
+		const storage = await StorageUtil.getAsyncStorage();
+		return storage.setItem(`${key}_${UrlUtil.getCurrentPage()}`, value);
+	},
+
+	async pSet (key, value) {
+		StorageUtil._pTrackKey(key);
+		const storage = await StorageUtil.getAsyncStorage();
+		return storage.setItem(key, value);
+	},
+
+	async pGetForPage (key) {
+		const storage = await StorageUtil.getAsyncStorage();
+		return storage.getItem(`${key}_${UrlUtil.getCurrentPage()}`);
+	},
+
+	async pGet (key) {
+		const storage = await StorageUtil.getAsyncStorage();
+		return storage.getItem(key);
+	},
+
+	async pRemoveForPage (key) {
+		const storage = await StorageUtil.getAsyncStorage();
+		return storage.removeItem(`${key}_${UrlUtil.getCurrentPage()}`);
+	},
+
+	async pRemove (key) {
+		StorageUtil._pTrackKey(key, true);
+		const storage = await StorageUtil.getAsyncStorage();
+		return storage.removeItem(key);
+	},
+
+	async _pTrackKey (key, isRemove) {
+		const storage = await StorageUtil.getAsyncStorage();
+		const meta = (await StorageUtil.pGet(StorageUtil._META_KEY)) || {};
+		if (isRemove) delete meta[key];
+		else meta[key] = 1;
+		storage.setItem(StorageUtil._META_KEY, meta);
+	},
+
+	async pGetDump () {
+		const out = {};
+		const meta = (await StorageUtil.pGet(StorageUtil._META_KEY)) || {};
+		await Promise.all(Object.entries(meta).filter(([key, isPresent]) => isPresent).map(async ([key]) => out[key] = await StorageUtil.pGet(key)));
+		return out;
+	},
+
+	async pSetFromDump (dump) {
+		return Promise.all(Object.entries(dump).map(([k, v]) => StorageUtil.pSet(k, v)));
+	}
+};
+StorageUtil._META_KEY = "_STORAGE_META_STORAGE";
+StorageUtil.getSyncStorage();
 
 // ROLLING =============================================================================================================
 RollerUtil = {

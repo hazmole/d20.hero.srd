@@ -1,6 +1,8 @@
 "use strict";
 
 const JSON_URL = "advantages.json";
+const CUSTOM_RENDERER = Renderer.advantage;
+const CUSTOM_TOKEN = "advantage";
 let list;
 
 window.onload = async function load () {
@@ -15,45 +17,33 @@ async function onJsonLoad (data) {
 	});
 
 	const subList = ListUtil.initSublist({
-		valueNames: ["name", "type", "id"],
+		valueNames: ["name", 'type', "rank", "id"],
 		listClass: "subadvantages",
 		getSublistRow: getSublistItem
 	});
 	ListUtil.initGenericPinnable();
 
-	addAdvantages(data);
+	addEntry(data);
+
+	await ListUtil.pLoadState();
 }
 
 let entryList = [];
 let Idx = 0;
-function addAdvantages (data) {
-	if (!data.advantage || !data.advantage.length) return;
+function addEntry (data) {
+	if (!data[CUSTOM_TOKEN] || !data[CUSTOM_TOKEN].length) return;
+	entryList = entryList.concat(data[CUSTOM_TOKEN]);
 
-	entryList = entryList.concat(data.advantage);
-
-	const advantageTable = $("ul.advantages");
+	// Add entries
 	let tempString = "";
 	for (; Idx < entryList.length; Idx++) {
-		const entry = entryList[Idx];
-		const name = entry.translate_name? entry.translate_name: entry.name;
-		const type = entry.type;
-		const rank = entry.rank;
-
-		tempString += `
-			<li class="row" ${FLTR_ID}="${Idx}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
-				<a id="${Idx}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
-					<span class="name col-7">${name}</span>
-					<span class="type col-3 text-align-center">${Renderer.advantage.getTypeFullText(type)}</span>
-					<span class="type col-2 text-align-center">${rank? "V": ""}</span>
-					
-					<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : Idx}</span>
-					<span class="eng_name hidden">${entry.name}</span>
-				</a>
-			</li>`;
-
+		var entry = entryList[Idx];
+		tempString += getListItem(entry, Idx);
 	}
 	const lastSearch = ListUtil.getSearchTermAndReset(list);
-	advantageTable.append(tempString);
+	
+	var entryTable = $("ul.advantages");
+	entryTable.append(tempString);
 
 	list.reIndex();
 	list.sort("type");
@@ -63,27 +53,47 @@ function addAdvantages (data) {
 		getSublistRow: getSublistItem,
 		primaryLists: [list]
 	});
-	//ListUtil.bindPinButton();
-	//Renderer.hover.bindPopoutButton(entryList);
-	//UrlUtil.bindLinkExportButton(filterBox);
-	//ListUtil.bindDownloadButton();
-	//ListUtil.bindUploadButton();
+
+	// Bind Quick Button
+	ListUtil.bindPinButton();
+	Renderer.hover.bindPopoutButton(entryList);
+	ListUtil.bindDownloadButton();
+	ListUtil.bindUploadButton();
 
 	History.init(true);
 }
 
-// filtering function
-function getSublistItem (feat, pinId) {
+// List item
+function getListItem (entry, id) {
+	var name = entry.translate_name? entry.translate_name: entry.name;
+	var type = CUSTOM_RENDERER.getTypeFullText(entry.type);
+	var rank = entry.rank;
+	return `
+		<li class="row" ${FLTR_ID}="${id}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
+			<a id="${id}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
+				<span class="name col-7">${name}</span>
+				<span class="type col-3 text-align-center">${type}</span>
+				<span class="rank col-2 text-align-center">${rank? "V": ""}</span>
+				
+				<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : id}</span>
+				<span class="eng_name hidden">${entry.name}</span>
+			</a>
+		</li>`;
+}
+function getSublistItem (entry, pinId) {
+	var name = entry.translate_name? entry.translate_name: entry.name;
+	var type = CUSTOM_RENDERER.getTypeFullText(entry.type);
+	var rank = entry.rank;
 	return `
 		<li class="row" ${FLTR_ID}="${pinId}" oncontextmenu="ListUtil.openSubContextMenu(event, this)">
-			<a href="#${UrlUtil.autoEncodeHash(feat)}" title="${feat.name}">
-				<span class="name col-4">${feat.name}</span>
-				<span class="ability col-4 ${feat._slAbility === STR_NONE ? "list-entry-none" : ""}">${feat._slAbility}</span>
-				<span class="prerequisite col-4 ${feat._slPrereq === STR_NONE ? "list-entry-none" : ""}">${feat._slPrereq}</span>
+			<a href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
+				<span class="name col-7">${name}</span>
+				<span class="type col-3 text-align-center">${type}</span>
+				<span class="rank col-2 text-align-center">${rank? "V": ""}</span>
+				
 				<span class="id hidden">${pinId}</span>
 			</a>
-		</li>
-	`;
+		</li>`;
 }
 
 const renderer = Renderer.get();
@@ -93,24 +103,14 @@ function loadhash (id) {
 	const $content = $("#pagecontent").empty();
 	const entry = entryList[id];
 
-	//const prerequisite = Renderer.feat.getPrerequisiteText(feat.prerequisite);
-	//Renderer.feat.mergeAbilityIncrease(feat);
-	const renderStack = [];
-	renderer.recursiveRender({entries: entry.entries}, renderStack, {depth: 2});
-
 	$content.append(`
 		${Renderer.utils.getBorderTr()}
-		${Renderer.utils.getNameTr(entry)}
-		${Renderer.advantage.getRankTr(entry.rank)}
-		<tr><td class="divider" colspan="6"><div></div></td></tr>
-		<tr class='text'><td colspan='6'>${renderStack.join("")}</td></tr>
+		${CUSTOM_RENDERER.getCompactRenderedString(entry)}
 		${Renderer.utils.getBorderTr()}
 	`);
 
 	ListUtil.updateSelected();
 }
-
 function loadsub (sub) {
-	//filterBox.setFromSubHashes(sub);
 	ListUtil.setFromSubHashes(sub);
 }

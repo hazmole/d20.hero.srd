@@ -55,6 +55,16 @@
 "list_duration": "持續",
 "list_cost": "花費",
 
+"util_popout": "彈出視窗",
+"util_pin": "釘選",
+"util_pin_toggle": "釘選(開/關)",
+"util_unpin": "解除釘選",
+"util_clearpins": "清除釘選",
+"util_downloadjson": "下載列表JSON",
+"util_uploadjson": "上傳列表JSON",
+"util_shift_link": "按住SHIFT以獲得列表連結",
+"util_shift_add_only": "按住SHIFT以追加列表",
+
 "search_reset": "重置",
 "search_placeholder": "尋找{0}...",
 "search_subtitle": "使用左側的名稱搜尋，點擊項目名稱以在右側顯示。",

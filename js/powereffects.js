@@ -1,12 +1,13 @@
 "use strict";
 
 const JSON_URL = "powereffects.json";
+const CUSTOM_RENDERER = Renderer.powereffect;
+const CUSTOM_TOKEN = "powereffect";
 let list;
 
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
 	DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);
-	//onJsonLoad(getFakeData());
 };
 
 async function onJsonLoad (data) {
@@ -16,46 +17,32 @@ async function onJsonLoad (data) {
 	});
 
 	const subList = ListUtil.initSublist({
-		valueNames: ["name", "type", "id"],
+		valueNames: ['name', 'type', "action", "range", "duration", "id"],
 		listClass: "subpowereffects",
 		getSublistRow: getSublistItem
 	});
 	ListUtil.initGenericPinnable();
 
-	addAdvantages(data);
+	addEntry(data);
+
+	await ListUtil.pLoadState();
 }
 
 let entryList = [];
 let Idx = 0;
-function addAdvantages (data) {
-	if (!data.powereffect || !data.powereffect.length) return;
+function addEntry (data) {
+	if (!data[CUSTOM_TOKEN] || !data[CUSTOM_TOKEN].length) return;
+	entryList = entryList.concat(data[CUSTOM_TOKEN]);
 
-	entryList = entryList.concat(data.powereffect);
-
-	const entryTable = $("ul.powereffects");
+	// Add entries
 	let tempString = "";
 	for (; Idx < entryList.length; Idx++) {
-		const entry = entryList[Idx];
-		const name = entry.translate_name? entry.translate_name: entry.name;
-		const type = entry.type;
-		const rank = entry.rank;
-
-		tempString += `
-			<li class="row" ${FLTR_ID}="${Idx}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
-				<a id="${Idx}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
-					<span class="name col-4">${name}</span>
-					<span class="type col-2 text-align-center">${Renderer.getTypeFullText(entry.type)}</span>
-					<span class="action col-2 text-align-center">${Renderer.powereffect.getActionText(entry.action)}</span>
-					<span class="range col-2 text-align-center">${Renderer.powereffect.getRangeText(entry.range)}</span>
-					<span class="duration col-2 text-align-center">${Renderer.powereffect.getDurationText(entry.duration)}</span>
-					
-					<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : Idx}</span>
-					<span class="eng_name hidden">${entry.name}</span>
-				</a>
-			</li>`;
-
+		var entry = entryList[Idx];
+		tempString += getListItem(entry, Idx);
 	}
 	const lastSearch = ListUtil.getSearchTermAndReset(list);
+	
+	var entryTable = $("ul.powereffects");
 	entryTable.append(tempString);
 
 	list.reIndex();
@@ -66,23 +53,52 @@ function addAdvantages (data) {
 		getSublistRow: getSublistItem,
 		primaryLists: [list]
 	});
-	//ListUtil.bindPinButton();
-	//Renderer.hover.bindPopoutButton(entryList);
-	//UrlUtil.bindLinkExportButton(filterBox);
-	//ListUtil.bindDownloadButton();
-	//ListUtil.bindUploadButton();
+	
+	// Bind Quick Button
+	ListUtil.bindPinButton();
+	Renderer.hover.bindPopoutButton(entryList);
+	ListUtil.bindDownloadButton();
+	ListUtil.bindUploadButton();
 
 	History.init(true);
 }
 
-// filtering function
-function getSublistItem (feat, pinId) {
+// List item
+function getListItem (entry, id) {
+	var name = entry.translate_name? entry.translate_name: entry.name;
+	var type = CUSTOM_RENDERER.getTypeFullText(entry.type);
+	var action = CUSTOM_RENDERER.getActionText(entry.action);
+	var range = CUSTOM_RENDERER.getRangeText(entry.range);
+	var duration = CUSTOM_RENDERER.getDurationText(entry.duration);
+	return `
+		<li class="row" ${FLTR_ID}="${id}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
+			<a id="${id}" href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
+				<span class="name col-4">${name}</span>
+				<span class="type col-2 text-align-center">${type}</span>
+				<span class="action col-2 text-align-center">${action}</span>
+				<span class="range col-2 text-align-center">${range}</span>
+				<span class="duration col-2 text-align-center">${duration}</span>
+
+				<span class="uniqueid hidden">${entry.uniqueId ? entry.uniqueId : id}</span>
+				<span class="eng_name hidden">${entry.name}</span>
+			</a>
+		</li>`;
+}
+function getSublistItem (entry, pinId) {
+	var name = entry.translate_name? entry.translate_name: entry.name;
+	var type = CUSTOM_RENDERER.getTypeFullText(entry.type);
+	var action = CUSTOM_RENDERER.getActionText(entry.action);
+	var range = CUSTOM_RENDERER.getRangeText(entry.range);
+	var duration = CUSTOM_RENDERER.getDurationText(entry.duration);
 	return `
 		<li class="row" ${FLTR_ID}="${pinId}" oncontextmenu="ListUtil.openSubContextMenu(event, this)">
-			<a href="#${UrlUtil.autoEncodeHash(feat)}" title="${feat.name}">
-				<span class="name col-4">${feat.name}</span>
-				<span class="ability col-4 ${feat._slAbility === STR_NONE ? "list-entry-none" : ""}">${feat._slAbility}</span>
-				<span class="prerequisite col-4 ${feat._slPrereq === STR_NONE ? "list-entry-none" : ""}">${feat._slPrereq}</span>
+			<a href="#${UrlUtil.autoEncodeHash(entry)}" title="${name}">
+				<span class="name col-4">${name}</span>
+				<span class="type col-2 text-align-center">${type}</span>
+				<span class="action col-2 text-align-center">${action}</span>
+				<span class="range col-2 text-align-center">${range}</span>
+				<span class="duration col-2 text-align-center">${duration}</span>
+
 				<span class="id hidden">${pinId}</span>
 			</a>
 		</li>
@@ -96,36 +112,14 @@ function loadhash (id) {
 	const $content = $("#pagecontent").empty();
 	const entry = entryList[id];
 
-	//const prerequisite = Renderer.feat.getPrerequisiteText(feat.prerequisite);
-	//Renderer.feat.mergeAbilityIncrease(feat);
-	const renderStack = [];
-	renderer.recursiveRender({entries: entry.entries}, renderStack, {depth: 0});
-
 	$content.append(`
 		${Renderer.utils.getBorderTr()}
-		${Renderer.utils.getNameTr(entry)}
-		${Renderer.powereffect.getInfoTr(entry)}
-		<tr><td class="divider" colspan="6"><div></div></td></tr>
-		<tr class='text'><td colspan='6'>${renderStack.join("")}</td></tr>
-		${Renderer.powereffect.getModifierBlock(entry)}
+		${CUSTOM_RENDERER.getCompactRenderedString(entry, true)}
 		${Renderer.utils.getBorderTr()}
 	`);
 
 	ListUtil.updateSelected();
 }
-
 function loadsub (sub) {
-	//filterBox.setFromSubHashes(sub);
 	ListUtil.setFromSubHashes(sub);
-}
-
-
-
-
-function getFakeData(){
-	return {
-	"powereffect": [
-		{}
-	]
-};
 }

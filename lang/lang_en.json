@@ -55,6 +55,16 @@
 "list_duration": "Duration",
 "list_cost": "Cost",
 
+"util_popout": "Popout",
+"util_pin": "Pin",
+"util_pin_toggle": "Pin (Toggle)",
+"util_unpin": "Unpin",
+"util_clearpins": "Clear Pins",
+"util_downloadjson": "Download List JSON",
+"util_uploadjson": "Upload List JSON",
+"util_shift_link": "SHIFT for link",
+"util_shift_add_only": "SHIFT for Add Only",
+
 "search_reset": "Reset",
 "search_placeholder": "search for {0}...",
 "search_subtitle": "search by name on the left, click entry name to display on the right.",
