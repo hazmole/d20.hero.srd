@@ -4224,7 +4224,7 @@ Renderer.powereffect = {
 			renderer.recursiveRender(modifier.entries[idx], outstack, {depth: 3});
 		}
 		if(modifier.cost && !modifier.cost.hidden)
-			outstack.push(` <b>${Renderer.getModifyCostText(modifier.cost)}.</b>`);
+			outstack.push(` <b>${Renderer.getModifyCostText(modifier)}.</b>`);
 		outstack.push('</div>');
 		return outstack.join("");
 	},
@@ -4298,21 +4298,24 @@ Renderer.getCostText = function (cost){
 		default: return "";
 	};
 };
-Renderer.getModifyCostText = function (cost){
+Renderer.getModifyCostText = function (modifier){
+	var cost = modifier.cost;
 	if(!cost) return "";
 	if(cost.hidden) return "";
-	var value = cost.value, value_pos;
+	var value = cost.value, value_pos, value_str;
 	if(typeof value == "object"){
 		value_pos = value.min>=0;
-		value = value.min + "~" + value.max;
+		value_str = value.min + ((value.max == "more")? FMT("or_more"): ("~"+value.max));
 	}
 	else{
 		value_pos = value>=0; 
+		value_str = value;
 	}
-	value = (value_pos? "+": "") + value;
+	value_str = (value_pos? "+": "") + value_str;
 	switch(cost.type){
-		case "per": return FMT("modcost_per", value);
-		case "flat": return FMT("modcost_flat", value);
+		case "per": return FMT("modcost_per", value_str);
+		case "flat": return FMT("modcost_flat", value_str);
+		case "flat_per": return FMT("modcost_flat_per", value_str, modifier.name);
 		default: return "";
 	};
 };

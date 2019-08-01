@@ -28,6 +28,8 @@
 "cost_as_base_trait": "與該屬性的花費相同",
 "modcost_per": "每級額外{0}點",
 "modcost_flat": "額外{0}點",
+"modcost_flat_per": "每級{1}額外{0}點",
+"or_more": "(或更多)",
 
 "action_suffix": "動作",
 "action_standard": "標準",

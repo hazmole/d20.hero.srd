@@ -28,7 +28,8 @@
 "cost_as_base_trait": "As base Trait",
 "modcost_per": "{0} cost per rank",
 "modcost_flat": "Flat {0} point",
-
+"modcost_flat_per": "Flat {0} point per rank of {1}",
+"or_more": " (or more)",
 
 "action_suffix": " action",
 "action_standard": "Standard",
