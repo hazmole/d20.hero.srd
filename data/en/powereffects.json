@@ -13,10 +13,10 @@
 			"entries": [
 				"You can impose some debilitating condition or conditions on a target by making a close attack. You set the conditions your Affliction causes at each degree when you acquire it and they may not be changed. Higher degree conditions replace lower degree conditions and do not stack with them. See the possible conditions for each degree under the Affliction Resistance Check table. The target resists with Fortitude or Will defense (chosen when you take the effect):",
 				{
-					"type": "entries",
+					"type": "insetResistCheck",
 					"name": "Affliction Resistance Check",
+					"func": "Fortitude or Will vs. DC [Affliction rank + 10]",
 					"entries": [
-						"Fortitude or Will vs. DC [Affliction rank + 10]",
 						{
 							"type": "list",
 							"items": [
@@ -25,11 +25,11 @@
 								"{@b Failure (two degrees)}: The target is compelled, defenseless, disabled, exhausted, immobile, prone, or stunned (choose one). Potential descriptors include agonizing pain, confusion, ecstasy, momentary emotional or mental influence, paralysis, seizure, terror, or vomiting.",
 								"{@b Failure (three degrees)}: The target is asleep, controlled, incapacitated, paralyzed, transformed or unaware (choose one)."
 							]
-						},
-						"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
-						"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
+						}
 					]
-				}
+				},
+				"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
+				"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
 			],
 			"extras": [
 				{
@@ -150,34 +150,28 @@
 				},
 				"Your rank determines you maximum Communication range:",
 				{
-					"type": "entries",
-					"name": "Range",
-					"entries": [
-						{
-							"type": "table",
-							"caption": "Communication Range",
-							"colLabels": [
-								"Rank",
-								"Distance"
-							],
-							"colStyles": [
-								"col-3 text-align-center",
-								"col-9 text-align-center"
-							],
-							"rows": [
-								["1","Close range (within 100 feet)"],
-								["2","Short range (within 1 mile)"],
-								["3","Long range (statewide or across a small nation)"],
-								["4","Worldwide (anywhere on Earth (or a similar-sized planet))"],
-								["5","Unlimited (effectively anywhere)"]
-							]
-						},
-						"Communication is instantaneous with any subject within your range.",
-						"The recipient of your communication must be within range and have a means of receiving your transmission (super-sense, or a receiver of some sort; conscious awareness is all that’s needed to “receive” Mental Communication). You can receive Communication of the same medium as your own. Receivers can choose to ignore your Communication, if they wish. Communication is language-dependent; you and the subject must share a common language (see Comprehend to communicate across language barriers). Your Communication is point-to-point (sent to a single receiver within your range).",
-						"Activating your Communication effect is a free action. Communicating, however, takes the normal amount of time. You can apply the Rapid modifier to speed things up, provided your recipient is capable of receiving communication at that speed.",
-						"Others with an acute sense able to detect your Communication medium can “tap into” your transmissions with a Perception check (DC 10 + your Communication rank). The eavesdropper must be within normal sensory range of you or the receiver. With two degrees of success on the check, the eavesdropped can also understand your transmissions. Effects like Concealment and Dazzle that target your Communication medium can “jam” or block your transmissions."
+					"type": "table",
+					"caption": "Communication Range",
+					"colLabels": [
+						"Rank",
+						"Distance"
+					],
+					"colStyles": [
+						"col-3 text-align-center",
+						"col-9 text-align-center"
+					],
+					"rows": [
+						["1","Close range (within 100 feet)"],
+						["2","Short range (within 1 mile)"],
+						["3","Long range (statewide or across a small nation)"],
+						["4","Worldwide (anywhere on Earth (or a similar-sized planet))"],
+						["5","Unlimited (effectively anywhere)"]
 					]
-				}
+				},
+				"Communication is instantaneous with any subject within your range.",
+				"The recipient of your communication must be within range and have a means of receiving your transmission (super-sense, or a receiver of some sort; conscious awareness is all that’s needed to “receive” Mental Communication). You can receive Communication of the same medium as your own. Receivers can choose to ignore your Communication, if they wish. Communication is language-dependent; you and the subject must share a common language (see Comprehend to communicate across language barriers). Your Communication is point-to-point (sent to a single receiver within your range).",
+				"Activating your Communication effect is a free action. Communicating, however, takes the normal amount of time. You can apply the Rapid modifier to speed things up, provided your recipient is capable of receiving communication at that speed.",
+				"Others with an acute sense able to detect your Communication medium can “tap into” your transmissions with a Perception check (DC 10 + your Communication rank). The eavesdropper must be within normal sensory range of you or the receiver. With two degrees of success on the check, the eavesdropped can also understand your transmissions. Effects like Concealment and Dazzle that target your Communication medium can “jam” or block your transmissions."
 			],
 			"extras": [
 				{
@@ -542,10 +536,10 @@
 			"entries": [
 				"You can inflict damage on a target by making a close attack. The exact nature of your Damage is up to you, with the GM’s approval; it can be anything from a powerful impact to razor claws, energy fields, or some other damaging medium. The target resists with Toughness:",
 				{
-					"type": "entries",
+					"type": "insetResistCheck",
 					"name": "Damage Resistance Check",
+					"func": "Toughness vs. [Damage rank + 15]",
 					"entries": [
-						"Toughness vs. [Damage rank + 15]",
 						{
 							"type": "list",
 							"items": [
@@ -555,16 +549,22 @@
 								"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
 								"{@b Failure (four degrees)}: The target is incapacitated ."
 							]
-						},
-						"TThe circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
-						"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead."
+						}
+					]
+				},
+				"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
+				"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
+				{
+					"type": "entries",
+					"name": "Strength and Damage",
+					"entries": [
+						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the Alternate Effect modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default."
 					]
 				},
 				{
-					"type": "inset",
-					"name": "Strength and Damage",
+					"type": "entries",
+					"name": "Strength-based Damage",
 					"entries": [
-						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the Alternate Effect modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
 						"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade or thuderbolt staff does the same damage whether you can exert your Strength with it or not."
 					]
 				},
@@ -606,7 +606,8 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can actively defend for characters other than yourself, deflecting or diverting attacks against them at a distance, and may be able to more effectively defend yourself, depending on your rank. See the Defend action in Action & Adventure for details. You use your Deflect rank in place of an active defense. You still add 10 to a Deflect die roll of 10 or less, for a minimum roll of 11. Deflect modifiers are limited by power level. Like a ranged attack, if you Deflect at medium range, you have a –2 circumstance modifier on your check. At long range, you have a –5 circumstance modifier. Range is Measured from you to the target of the attack you are deflecting.",
+				"You can actively defend for characters other than yourself, deflecting or diverting attacks against them at a distance, and may be able to more effectively defend yourself, depending on your rank. See the Defend action in Action & Adventure for details. You use your Deflect rank in place of an active defense. You still add 10 to a Deflect die roll of 10 or less, for a minimum roll of 11. Deflect modifiers are limited by power level.",
+				"Like a ranged attack, if you Deflect at medium range, you have a –2 circumstance modifier on your check. At long range, you have a –5 circumstance modifier. Range is Measured from you to the target of the attack you are deflecting.",
 				"Like the defend action, Deflect does not work against area effects or perception ranged attacks, nor versus attacks targeting defenses other than Dodge or Parry."
 			],
 			"extras": [
@@ -642,7 +643,8 @@
 			},
 			"entries": [
 				"You can elongate your body and/or limbs to extend your reach. Add your effect rank to your normal size rank to determine how far you can elongate; for a normalsized human (size rank –2) this is 15 feet at rank 1, 30 feet at rank 2, and so forth. Rank 20 Elongation can stretch 1,000 miles! “Snapping back” to your normal shape is a free action.",
-				"You can use Elongation to make “close” attacks at a greater distance by elongating your limbs. Once elongated, you can make melee attacks within your new reach as a standard action. If you can’t accurately sense your target (you’re elongating around a corner, for example), apply the rules for concealment (see Concealment in Action & Adventure). In addition, Elongation allows you to wrap up and entangle an opponent so it grants a +1 bonus to grab checks per rank (limited by PL)."
+				"You can use Elongation to make “close” attacks at a greater distance by elongating your limbs. Once elongated, you can make melee attacks within your new reach as a standard action. If you can’t accurately sense your target (you’re elongating around a corner, for example), apply the rules for concealment (see Concealment in Action & Adventure).",
+				"In addition, Elongation allows you to wrap up and entangle an opponent so it grants a +1 bonus to grab checks per rank (limited by PL)."
 			]
 		},
 		{
@@ -743,7 +745,7 @@
 				}
 			]
 		},
-				{
+		{
 			"name": "Extra Limbs",
 			"type": "G",
 			"action": "N",
@@ -1064,6 +1066,378 @@
 					"entries": ["The benefits of your Healing are temporary, lasting for one hour. The subject then regains any damage conditions you healed. These conditions stack with others the subject acquired since the initial healing, which may result in more severe damage or even death."],
 					"cost": {
 						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Illusion",
+			"type": "CTL",
+			"action": "S",
+			"range": "perception",
+			"duration": "sustained",
+			"cost": {
+				"value": {"min":1, "max":5},
+				"type": "per"
+			},
+			"entries": [
+				"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the Insight resistance check (10 + rank).",
+				{
+					"type": "entries",
+					"name": "Illusion Size",
+					"entries": [
+						"Your illusion occupies an area with a maximum volume rank equal to your effect rank. To increase the size of the illusion you can create, apply the Area extra; each application increases the area your illusion covers by 1 rank."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Illusionary Effects",
+					"entries": [
+						"Illusions have no substance and cannot have any real-world effect. So they cannot provide illumination, nutrition, warmth, or the like (although they can provide the sensations of these things). Likewise, an illusory wall only prevents people from moving through an area so long as they believe it’s real, and an illusory bridge or floor is revealed as false as soon as someone tries to walk across it, and falls through it!"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overcoming Illusions",
+					"entries": [
+						"Characters encountering an illusion do not receive checks to recognize it as illusory until they interact with it in some fashion. A successful Insight check against an illusion (DC 10 + Illusion rank) reveals it as false. A failed check means the character does not notice anything amiss. A character faced with clear proof an illusion isn’t real needs no Insight check. Senses with the Counters Illusion effect (see Senses) automatically detect illusions. If any viewer successfully uncovers an illusion and communicates this fact to others, they gain another Insight check with a +5 circumstance bonus. Circumstances may grant additional modifiers to the Insight check to uncover an illusion, depending on how convincing it is."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maintaining Illusions",
+					"entries": [
+						"Maintaining an active illusion (such as a fighting creature) requires a standard action each round, but maintaining a static illusion (one that doesn’t move or interact) is only a free action."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Under the Hood: Illusion",
+					"entries": [
+						"Illusion is a broad-ranging effect, usable for a number of different things. A few common considerations for Illusion include the following.",
+						{
+							"type": "entries",
+							"name": "Damaging Illusions",
+							"entries": [
+								"For illusions so realistic they are capable of inflicting damage, add a Linked Perception Range Damage effect. At the GM’s discretion, this effect can even be made into a Linked Array with a variety of alternate attack effects, allowing your illusionist to inflict conditions other than damage on targets. Keep in mind the attack effects all need to be perception range to match the range of Illusion."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Illusory Appearance",
+							"entries": [
+								"Illusion can alter a subject’s appearance, providing an essentially impenetrable disguise—at least until someone makes a successful check to see through the illusion. However, for just the ability to alter appearance, use the Morph effect, which is generally more effective than Illusion Limited to Appearance."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mental Illusions",
+							"entries": [
+								"The default Illusion effect is perceptible to anyone or anything (including machines) as if it were real. Some illusions exist solely in the mind, like projected psychic hallucinations. This type of Illusion has the Resistible by Will flaw and the Selective extra, since the illusionist can choose whether or not to project the illusion into a particular subject’s mind, and therefore decides who can or cannot perceive the illusion. This is a net +0 modifier, for the same base cost."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "My Ally, My Enemy",
+							"entries": [
+								"A common Illusion trick is to switch the appearances of an enemy and an ally, causing a foe’s teammate to attack that enemy by mistake. You can generally handle this with an opposed check of Illusion and Insight; if you win, the target is unaware of the switch and attacks the wrong target."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "I Disbelieve!",
+							"entries": [
+								"Keep in mind characters don’t get to make a resistance check to overcome an illusion unless they have reason to believe the illusion is not real. Given the rather fantastic things that can happen in different settings, an illusion generally has to provide some evidence of its true nature. Smart illusionists keep the true nature of their powers secret, and smart Gamemasters require players to come up with something a bit more comprehensive than “I disbelieve!” to figure out when there are illusions at hand.",
+								"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the Insight resistance check (10 + rank)."
+							]
+						}
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Independent",
+					"entries": ["Your active illusions only require a free action to maintain, rather than a standard action."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Selective",
+					"entries": ["You choose who perceives your Illusion and who doesn’t"],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Feedback",
+					"entries": ["Although Illusion does not have a physical “manifestation” per se, it can apply this flaw, in which case a successful damaging attack on one of your illusions causes you to suffer damage, using the guidelines given in the description of the Feedback flaw."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Limited to One Subject",
+					"entries": ["Only a single subject at a time can perceive your Illusion."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["It is left to the GM’s discretion whether or not Illusion’s range can be reduced at all, since being able to perceive the affected area is important in creating and directing the illusion. In order to solely alter your own appearance, see the Morph effect, possibly with the Resistible modifier."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				},
+				{
+					"name": "Resistible",
+					"entries": ["Illusions Resistible by Will are typically hallucinatory effects projected into the target’s mind. This flaw is commonly combined with Selective, so only the targets you choose perceive your illusions. Illusions Resistible by Fortitude may represent a hallucinatory drug or similar biochemical effect. As usual, targets immune to effects targeting the resistance are unaffected by the illusion as well. So Illusions Resistible by Fortitude or Will have no effect on non-living targets, for example. This resistance check is in addition to the usual Insight check; the first determines if the target can resist the effect creating the illusion, the Insight check determine if the target notices something wrong about the illusion, revealing it as false."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Immortality",
+			"type": "DEF",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 2,
+				"type": "per"
+			},
+			"entries": [
+				"You can recover from death! If your condition becomes dead, you return to life after a time. Subtract your Immortality rank from a time rank of 19 (one month) to determine how long it takes. So Immortality 11, for example, restores you to life in just 30 minutes (19 – 11 = time rank 8). At rank 20, you recover from death at the start of each action round! When you recover, all your damage conditions are removed, but you also lose all accumulated victory points, starting over with none."
+			],
+			"flaws": [
+				{
+					"name": "Limited",
+					"entries": ["You must specify a reasonably common effect (or set of uncommon effects) that keeps you from recovering from death, such as beheading, cremation, a stake through the heart, and so forth. Even then, if the effect is somehow removed or reversed (e.g. the stake is removed from your corpse) you may still be able to come back."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Immunity",
+			"type": "DEF",
+			"action": "N",
+			"range": "personal",
+			"duration": "permanent",
+			"cost": {
+				"value": 1,
+				"type": "per"
+			},
+			"entries": [
+				"You are immune to certain effects, automatically succeeding on any resistance check against them. You assign ranks of Immunity to various effects to gain immunity to them (with more extensive effects requiring more ranks). These assignments are permanent. Examples include the following:",
+				{
+					"type": "list",
+					"items": [
+						"{@b 1 rank}: aging, disease, poison, one environmental condition (cold, heat, high pressure, radiation, or vacuum), one type of suffocation (breathe normally underwater or in an alien atmosphere, for example), starvation and thirst, need for sleep, or a rare power descriptor (such as your own powers, a close sibling’s powers, etc.).",
+						"{@b 2 ranks}: critical hits, suffocation effects (no need to breathe at all), or an uncommon power descriptor (such as chemical, gravitic, necromantic, etc.).",
+						"{@b 5 ranks}: alteration effects, sensory Affliction effects, emotion effects, entrapment (grabbing, snares, or bonds), fatigue effects, interaction skills, or a particular Damage effect, descriptor (such as bullets, cold, electricity, falling, fire, magic, radiation, sonic, etc.)",
+						"{@b 10 ranks}: a common power descriptor (such as all effects with cold, electricity, fire, radiation, or weather descriptors, for example), life support (includes immunity to disease, poison, all environmental conditions, suffocation, and starvation and thirst).",
+						"{@b 20 ranks}: a very common power descriptor (bludgeoning or energy, for example).",
+						"{@b 30 ranks}: All effects resisted by Fortitude, All effects resisted by Will.",
+						"{@b 80 ranks}: All effects resisted by Toughness (the equivalent of 40 ranks of Impervious Toughness)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Degrees of Immunity",
+					"entries": [
+						"Some Immunity effects are a matter of degree. For example, “immunity to cold” can range from the environmental effects of cold (described under The Environment) to cold damage, to complete immunity to all effects with the “cold” descriptor. The first requires only 1 rank, and provides no resistance to other sorts of cold effects. The second requires 5 ranks and only provides immunity to cold Damage effects. The third requires 10 ranks and provides complete immunity to all effects with the “cold” descriptor whatever they may be."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Under the Hood: Immunity",
+					"entries": [
+						"There are characters in comic books flatly immune to certain things. Immunity is intended to provide this option in the game. It’s simpler at some point to say a character is immune to something than it is to bother rolling dice. Immunity also encourages creativity: if you can’t overcome a foe just by hitting him, what then? Encourage players to use tactics, cleverness, power stunts, and victory points to deal with foes immune to their more conventional attacks.",
+						"If you find Immunity—especially broad immunities at higher ranks—a problem in your game, feel free to restrict it (perhaps to no more than 10 ranks) or eliminate it altogether, replacing it with Protection and defense bonuses with appropriate power modifiers.",
+						"For a degree of immunity to Damage, see the Impervious extra in Modifiers."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Affects Others",
+					"entries": ["This extra allows you to grant the benefits of your Immunity to others by touch. It’s most commonly used with life support, such as the power to maintain a life support “bubble” around you."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Sustained",
+					"entries": ["Sustained duration Immunity may be suitable for certain types of powers, particularly force fields or similar protective abilities requiring a modicum of concentration. It is a net +0 modifier from Immunity’s base permanent duration."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Ranged",
+					"entries": ["Affects Others Immunity may have this extra, allowing it to grant its benefits at range."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Reflect",
+					"entries": ["You can reflect attacks to which you are immune back at the attacker as a free action. Make a normal attack check using your own attack modifier to hit with the reflected attack. It has its normal effect if it hits."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Redirect",
+					"entries": ["You can redirect attacks to which are you are immune at any other target within the attack’s normal range, as Reflect, above. You must have the Reflect extra to take this one."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Limited to Half Effect",
+					"entries": ["You suffer half the normal effect rather than being entirely immune to it. For environmental effects, you only make checks half as often. For other effects, halve the effect’s rank (round down) before determining its resistance check DC, including for things like Impervious."],
+					"cost": {
+						"value": -1, "type": "per"
+					}
+				}
+			]
+		},
+		{
+			"name": "Insubstantial",
+			"type": "G",
+			"action": "F",
+			"range": "personal",
+			"duration": "sustained",
+			"cost": {
+				"value": 5,
+				"type": "per"
+			},
+			"entries": [
+				"You can assume a less solid form, with each Insubstantial rank becoming progressively less solid. You do not gain the ability to assume lower-ranked Insubstantial forms at higher ranks, but you can acquire a lower-ranked form as an Alternate Effect of a higher-ranked one. You can switch between normal and Insubstantial form at will as a free action once per round. The default is that substantial is your “normal” form, but the GM may permit you to make Insubstantial your “normal” form, in which case remaining solid is a sustained duration for you!",
+				"Insubstantial offers four ranks of effect:",
+				{
+					"type": "entries",
+					"name": "Rank 1 – Fluid",
+					"entries": [
+						"You become a fluid mass. You can flow through any sort of opening, under (or around) doors, through keyholes and pipes, and so forth. You cannot pass through watertight seals. You can automatically flow out of any restraint—such as a snare or grab—that is not watertight. So you cannot flow out of a bubble completely enclosing you, for example, but anything less cannot hold you. You can exert your normal Strength and can still push or carry objects, although your manual dexterity may be limited (at the GM’s discretion).",
+						"A fluid character may attempt to catch a falling person or object, cushioning the fall with the character’s flexible form. This requires a move action, and reduces the falling damage by the cushioning character’s Toughness bonus (representing flexibility in this case). Both characters must make resistance checks against the remaining damage. Higher rank insubstantial forms—lacking physical Strength—cannot attempt this."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rank 2 – Gaseous",
+					"entries": [
+						"You become a cloud of gas or fine particles. You have no effective Strength in gaseous form, but have Immunity to Physical Damage. Energy and area attacks still affect you normally. You can flow through any opening that is not airtight. You can use your various other effects normally."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rank 3 – Energy",
+					"entries": [
+						"You become coherent energy. You have no effective Strength, but have Immunity to Physical Damage. Energy attacks (other than the energy making up your form, to which you have Immunity) damage you normally. You can pass through solid objects permeable to your type of energy, but energy resistant barriers, like heavy shielding or force fields, block your movement."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rank 4 – Incorporeal",
+					"entries": [
+						"You become an incorporeal phantom. You can pass through solid matter at your normal speed and you have Immunity to Physical and Energy Damage. Sensory effects (other than tactile) and those targeting Will still work on you, as do effects with the Affects Insubstantial modifier. Choose one other reasonably common effect or descriptor that works on you while you are incorporeal. You have no effective Strength and cannot affect the physical world, except with effects with the Affects Corporeal modifier. Your sensory effects work normally.",
+						"Unless you have Immunity to Suffocation, you must hold your breath while passing through a solid object, and you can suffocate. If you revert to solid form while inside a solid object for any reason, you suffer damage equal to the object’s Toughness, resisted by your Fortitude. If not incapacitated by the damage, you’re immediately ejected from the object into the nearest open space. If you are incapacitated, you’re trapped inside the object and your condition worsens to dying on the following round (making it very difficult for aid to reach you)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insubstantial Descriptors",
+					"entries": [
+						"Note that the fluid, gaseous, etc., rank names are themselves essentially descriptors for the different Insubstantial effects. A character with Insubstantial 1 might instead be a stretchable, rubbery form rather than a liquid, for example, while one with Insubstantial 2 could transform into a swarm of insects rather than a gas."
+					]
+				}
+			],
+			"extras": [
+				{
+					"name": "Affects Corporeal",
+					"entries": ["This extra is required for any effect that works on corporeal targets while you are incorporeal. See the description of this extra for details and cost."],
+				},
+				{
+					"name": "Affects Others",
+					"entries": ["This modifier allows you to extend your Insubstantial effect to another character by touch, taking them Insubstantial with you. If you ever withdraw the effect while someone is inside a solid object, see the effect’s description for the unpleasant results."],
+					"cost": {
+						"value": {"min":0, "max":1}, "type": "per"
+					}
+				},
+				{
+					"name": "Attack",
+					"entries": ["Applied to Insubstantial, this extra makes it into a close range effect able to turn targets Insubstantial. You must be able to physically touch the target to make an Insubstantial Attack, meaning it must have the Affects Corporeal modifier to use it while you are incorporeal. This modifier is most effective for ranks 2 through 4, since the victim loses some or all ability to interact with the physical world. The default resistance for an Insubstantial Attack is Dodge, although it can be Fortitude or Will, as best suits the effect’s descriptors. You need to grab a target in order to drag them inside a solid object unless the target is already defenseless. You and the target are not insubstantial to each other. The cost is +0 per rank if it is an Insubstantial Attack only, +1 cost per rank if you can both be Insubstantial and make an attack to make others Insubstantial."],
+					"cost": {
+						"value": {"min":0, "max":1}, "type": "per"
+					}
+				},
+				{
+					"name": "Continuous",
+					"entries": ["Extending the effect’s duration to continuous allows you to remain Insubstantial until you choose to return to your corporeal form."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Innate",
+					"entries": ["Use this modifier if your character’s form is naturally or innately Insubstantial, particularly if the effect is permanent in duration."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Precise",
+					"entries": ["This modifier allows you to selectively make some portions of your body insubstantial while keeping others substantial (or vice versa). This allows you to do things like reach through a wall, solidify your hand to pick up an object or tap someone on the shoulder (or punch them in the face), and become incorporeal again to withdraw it on the following round."],
+					"cost": {
+						"value": 1, "type": "flat"
+					}
+				},
+				{
+					"name": "Progressive",
+					"entries": ["You can assume lower ranked forms of Insubstantial, but you must progress through them in order to reach the higher-ranked ones. For example if you have Progressive Insubstantial 3, you can assume fluid, gaseous, or energy forms, but to assume energy form, you must first progress through fluid and gaseous, becoming less and less substantial. Since you can only activate the effect once per turn, it takes you three turns to get there."],
+					"cost": {
+						"value": 0, "type": "per"
+					}
+				},
+				{
+					"name": "Reaction",
+					"entries": ["Becoming Insubstantial is normally a free action, meaning you can’t switch to an Insubstantial form when surprised or otherwise unable to take action. At the GM’s option, applying the Action extra to use Insubstantial as a reaction allows you to switch forms “reflexively” in response to such hazards, even if it is not your turn."],
+					"cost": {
+						"value": 1, "type": "per"
+					}
+				},
+				{
+					"name": "Subtle",
+					"entries": ["This extra makes your Insubstantial nature less noticeable to observers. Rank 1 requires a Perception check (DC 20) to detect that you are Insubstantial, while 2 ranks mean you look entirely normal in Insubstantial form (which may cause opponents to waste effort on you, not knowing you are immune to their attacks, for example)."],
+					"cost": {
+						"value": {"min":1, "max":2}, "type": "flat"
+					}
+				}
+			],
+			"flaws": [
+				{
+					"name": "Absent Strength",
+					"entries": ["This flaw applies only to rank 1 Insubstantial and removes your effective Strength while in that form, leaving you with limited ability to affect the physical world like the higher ranks of the effect."],
+					"cost": {
+						"value": -1, "type": "flat"
+					}
+				},
+				{
+					"name": "Permanent",
+					"entries": ["You are always Insubstantial; you cannot assume solid form, although your Insubstantial effect can still be Nullified unless it is also Innate."],
+					"cost": {
+						"value": 0, "type": "per"
 					}
 				}
 			]
