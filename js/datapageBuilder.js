@@ -17,6 +17,8 @@ async function onJsonLoad (data) {
 		getSublistRow: getSublistItem
 	});
 
+	await Renderer.hover._doFillThenCall(UrlUtil.getCurrentPage(), null, "test", function(){});
+
 	ListUtil.initGenericPinnable();
 	addEntry(data);
 	await ListUtil.pLoadState();

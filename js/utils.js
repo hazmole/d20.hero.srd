@@ -1989,6 +1989,7 @@ UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
 	switch(page){
 		case "advantages.html": success_func(page, "advantages.json", "advantage"); break;
 		case "powereffects.html": success_func(page, "powereffects.json", "powereffect"); break;
+		case "conditions.html": success_func(page, "conditions.json", "condition"); break;
 		default: return 1; 
 	}
 	return 0;
@@ -1997,6 +1998,7 @@ UrlUtil.PG_TO_RENDER_FUNC = function (page){
 	switch(page){
 		case "advantages.html": return Renderer.advantage.getCompactRenderedString;
 		case "powereffects.html": return Renderer.powereffect.getCompactRenderedString;
+		case "conditions.html": return Renderer.condition.getCompactRenderedString;
 		default: return null; 
 	}
 };

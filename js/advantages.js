@@ -12,7 +12,7 @@ const IS_LOCAL_TEST = false;
 // List item
 function getGeneralListItem (entry) {
 	var name = entry.translate_name? entry.translate_name: entry.name;
-	var type = CUSTOM_RENDERER.getTypeFullText(entry.type);
+	var type = Renderer.general.getTypeFullText(entry.type);
 	var rank = entry.rank? "V": "";
 	return `
 			<span class="name col-7">${name}</span>

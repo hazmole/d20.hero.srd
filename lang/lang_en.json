@@ -5,14 +5,15 @@
 "nav_rules": "Rules",
 "nav_pl_opt": "Player Options",
 "nav_advantage": "Advantages",
-"nav_powereffect": "Power Effects",
 "nav_condition": "Conditions",
+"nav_powereffect": "Power Effects",
 "nav_settings": "Settings",
 "day_mode": "Day Mode",
 "night_mode": "Night Mode",
 "set_language": "Change Language",
 
 "title_advantage": "Advantages",
+"title_condition": "Conditions",
 "title_powereffect": "Power Effects",
 
 "type_combat": "Combat",
@@ -24,6 +25,8 @@
 "type_defense": "Defense",
 "type_movement": "Movement",
 "type_sensory": "Sensory",
+"type_basic": "Basic",
+"type_combine": "Combine",
 
 "cost_per": "{0} point per rank",
 "cost_as_base_trait": "As base Trait",
@@ -55,6 +58,7 @@
 "list_range": "Range",
 "list_duration": "Duration",
 "list_cost": "Cost",
+"list_contain": "Contain Cond.",
 
 "util_popout": "Popout",
 "util_pin": "Pin",
@@ -73,6 +77,7 @@
 "context_default_text": "Select a {0} from the list to view it here",
 
 "advantage": "advantage",
+"condition": "condition",
 "powereffect": "power effect",
 "ranked": "Ranked",
 "ranked_max": "Ranked [{0}]",

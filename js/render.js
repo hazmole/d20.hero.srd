@@ -614,7 +614,6 @@ function Renderer () {
 	};
 
 	this._renderModifier = function (entry, textStack, meta, options){
-		console.log(arguments)
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
 	}
 
@@ -1095,34 +1094,9 @@ function Renderer () {
 						break;
 					}
 
-					case "@deity": {
-						const [name, pantheon, source, displayText, ...others] = text.split("|");
-						const hash = `${name}${pantheon ? `${HASH_LIST_SEP}${pantheon}` : ""}${source ? `${HASH_LIST_SEP}${source}` : ""}`;
-
-						const fauxEntry = {
-							type: "link",
-							href: {
-								type: "internal",
-								hash
-							},
-							text: (displayText || name)
-						};
-
-						fauxEntry.href.path = "deities.html";
-						if (!pantheon) fauxEntry.href.hash += `${HASH_LIST_SEP}forgotten realms`;
-						if (!source) fauxEntry.href.hash += `${HASH_LIST_SEP}${SRC_PHB}`;
-						fauxEntry.href.hover = {
-							page: UrlUtil.PG_DEITIES,
-							source: source || SRC_PHB
-						};
-						this._recursiveRender(fauxEntry, textStack, meta);
-
-						break;
-					}
-
 					default: {
-						const [name, source, displayText, ...others] = text.split("|");
-						const hash = `${name}${source ? `${HASH_LIST_SEP}${source}` : ""}`;
+						const [name, displayText, ...others] = text.split("|");
+						const hash = name;
 
 						const fauxEntry = {
 							type: "link",
@@ -1133,187 +1107,14 @@ function Renderer () {
 							text: (displayText || name)
 						};
 						switch (tag) {
-							case "@spell":
-								fauxEntry.href.path = "spells.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_SPELLS,
-									source: source || SRC_PHB
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@item":
-								fauxEntry.href.path = "items.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_ITEMS,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@class": {
-								if (others.length) {
-									const scSource = others.length > 1 ? `~${others[1].trim()}` : "~phb";
-									fauxEntry.href.subhashes = [
-										{key: "sub", value: others[0].trim() + scSource},
-										{key: "sources", value: 2}
-									];
-									if (others.length > 2) {
-										fauxEntry.href.subhashes.push({key: CLSS_HASH_FEATURE_KEY, value: others[2].trim()})
-									}
-								}
-								fauxEntry.href.path = "classes.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							}
-							case "@creature":
-								fauxEntry.href.path = "bestiary.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_MM;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_BESTIARY,
-									source: source || SRC_MM
-								};
-								// ...|scaledCr}
-								if (others.length) {
-									const targetCrNum = Parser.crToNumber(others[0]);
-									fauxEntry.href.hover.prelodId = `${MON_HASH_SCALED}:${targetCrNum}`;
-									fauxEntry.href.subhashes = [
-										{key: MON_HASH_SCALED, value: targetCrNum}
-									];
-									fauxEntry.text = displayText || `${name} (CR ${others[0]})`;
-								}
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
 							case "@condition":
-								fauxEntry.href.path = "conditionsdiseases.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
+								fauxEntry.href.path = "conditions.html";
 								fauxEntry.href.hover = {
-									page: UrlUtil.PG_CONDITIONS_DISEASES,
-									source: source || SRC_PHB
+									page: "conditions.html"
 								};
 								this._recursiveRender(fauxEntry, textStack, meta);
 								break;
-							case "@disease":
-								fauxEntry.href.path = "conditionsdiseases.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_CONDITIONS_DISEASES,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@background":
-								fauxEntry.href.path = "backgrounds.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_BACKGROUNDS,
-									source: source || SRC_PHB
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@race":
-								fauxEntry.href.path = "races.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_RACES,
-									source: source || SRC_PHB
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@optfeature":
-								fauxEntry.href.path = "optionalfeatures.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_OPT_FEATURES,
-									source: source || SRC_PHB
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@reward":
-								fauxEntry.href.path = "rewards.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_REWARDS,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@feat":
-								fauxEntry.href.path = "feats.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_PHB;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_FEATS,
-									source: source || SRC_PHB
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@psionic":
-								fauxEntry.href.path = "psionics.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_UATMC;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_PSIONICS,
-									source: source || SRC_UATMC
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@object":
-								fauxEntry.href.path = "objects.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_OBJECTS,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@boon":
-							case "@cult":
-								fauxEntry.href.path = "cultsboons.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_MTF;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_CULTS_BOONS,
-									source: source || SRC_MTF
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@trap":
-							case "@hazard":
-								fauxEntry.href.path = "trapshazards.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_TRAPS_HAZARDS,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@variantrule":
-								fauxEntry.href.path = "variantrules.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_VARIATNRULES,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@table":
-								fauxEntry.href.path = "tables.html";
-								if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_TABLES,
-									source: source || SRC_DMG
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
-							case "@ship":
-								fauxEntry.href.path = UrlUtil.PG_SHIPS;
-								// enable this if/when there's a printed source with ships
-								// if (!source) fauxEntry.href.hash += HASH_LIST_SEP + SRC_DMG;
-								fauxEntry.href.hover = {
-									page: UrlUtil.PG_SHIPS,
-									source: source || "NONE" // || SRC_DMG // this too
-								};
-								this._recursiveRender(fauxEntry, textStack, meta);
-								break;
+						
 						}
 
 						break;
@@ -1815,28 +1616,23 @@ Renderer.hover = {
 
 	_addToCache: (page, source, hash, item) => {
 		page = page.toLowerCase();
-		source = source? source.toLowerCase(): SRC_KEY;
 		hash = hash.toLowerCase();
 
-		((Renderer.hover.linkCache[page] =
-			Renderer.hover.linkCache[page] || [])[source] =
-			Renderer.hover.linkCache[page][source] || [])[hash] = item;
+		(Renderer.hover.linkCache[page] = Renderer.hover.linkCache[page] || [])[hash] = item;
 	},
 
 	_getFromCache: (page, source, hash) => {
 		page = page.toLowerCase();
-		source = source? source.toLowerCase(): SRC_KEY;
 		hash = hash.toLowerCase();
 
-		return Renderer.hover.linkCache[page][source][hash];
+		return Renderer.hover.linkCache[page][hash];
 	},
 
 	_isCached: (page, source, hash) => {
 		page = page.toLowerCase();
-		source = source? source.toLowerCase(): SRC_KEY;
 		hash = hash.toLowerCase();
 
-		return Renderer.hover.linkCache[page] && Renderer.hover.linkCache[page][source] && Renderer.hover.linkCache[page][source][hash];
+		return Renderer.hover.linkCache[page] && Renderer.hover.linkCache[page][hash];
 	},
 
 	pCacheAndGet (page, source, hash) {
@@ -1856,13 +1652,12 @@ Renderer.hover = {
 		 */
 		function populate (data, listProp, itemModifier) {
 			data[listProp].forEach(it => {
-				const itHash = UrlUtil.URL_TO_HASH_BUILDER(it);
+				var itHash = UrlUtil.encodeForHash(it.name);
 				if (itemModifier) itemModifier(listProp, it);
-				Renderer.hover._addToCache(page, it.source, itHash, it);
-
+				Renderer.hover._addToCache(page, null, itHash, it);
 				if(it.translate_name){
-					const itEngHash = UrlUtil.encodeForHash([it.translate_name, it.source]);
-					Renderer.hover._addToCache(page, it.source, itEngHash, it);
+					var itEngHash = UrlUtil.encodeForHash(it.translate_name);
+					Renderer.hover._addToCache(page, null, itEngHash, it);
 				}
 			});
 		}
@@ -1950,7 +1745,7 @@ Renderer.hover = {
 		const ele = Renderer.hover._curHovering.ele;
 		let preLoaded = Renderer.hover._curHovering.preLoaded;
 		const page = Renderer.hover._curHovering.cPage;
-		const source = Renderer.hover._curHovering.cSource;
+		const source = null;
 		const hash = Renderer.hover._curHovering.cHash;
 		const permanent = Renderer.hover._curHovering.permanent;
 		const clientX = Renderer.hover._curHovering.clientX;
@@ -3991,6 +3786,44 @@ if (typeof module !== "undefined") {
 }
 
 //=================================
+Renderer.general = {
+	getTr: function(content){
+		if(!content) return "";
+		else 		 return `<tr><td colspan="6">${content}</td></tr>`;
+	},
+
+	getTypeFullText: function(type) {
+		switch(type){
+			case "C": return FMT("type_combat");
+			case "F": return FMT("type_fortune");
+			case "G": return FMT("type_general");
+			case "S": return FMT("type_skill");
+			case "ATK": return FMT("type_attack");
+			case "CTL": return FMT("type_control");
+			case "DEF": return FMT("type_defense");
+			case "MOV": return FMT("type_movement");
+			case "SEN": return FMT("type_sensory");
+			case "basic": return FMT("type_basic");
+			case "combine": return FMT("type_combine");
+			default: return "???";
+		}
+	},
+
+	getCostText: function (cost){
+		if(!cost) return "";
+		var value = cost.value;
+		if(typeof value == "object"){
+			value = value.min + "~" + value.max;
+		}
+		switch(cost.type){
+			case "per": return FMT("cost_per", value);
+			case "special": return FMT(value);
+			default: return "";
+		};
+	}
+}
+
+//=================================
 Renderer.advantage = {
 	getCompactRenderedString: function (entry) {
 		const renderer = Renderer.get();
@@ -3999,13 +3832,20 @@ Renderer.advantage = {
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
-			${Renderer.getTr(Renderer.getMaxRankText(entry.rank))}
+			${Renderer.general.getTr(Renderer.advantage.getMaxRankText(entry.rank))}
 			<tr><td class="divider" colspan="6"><div></div></td></tr>
 			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
 		`);
 	},
+	getTypeFullText: function (type) { return Renderer.general.getTypeFullText(type); },
 
-	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
+	// Additional functions
+	getMaxRankText: function (rank) {
+		if (rank == null) return "";
+		if((typeof rank)==='boolean')		return FMT("ranked");
+		else if((typeof rank)==='string')	return FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
+		else 								return FMT("ranked_max", rank);
+	}
 };
 
 Renderer.powereffect = {
@@ -4023,8 +3863,8 @@ Renderer.powereffect = {
 		`);
 	},
 
-	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
-	getCostText: function (cost){ return Renderer.getCostText(cost); },
+	getTypeFullText: function (type) { return Renderer.general.getTypeFullText(type); },
+	getCostText: function (cost){ return Renderer.general.getCostText(cost); },
 
 	//============
 	getInfoTr: function (entry, isFull) {
@@ -4076,7 +3916,8 @@ Renderer.powereffect = {
 		return outstack.join("");
 	},
 	renderModifier: function (modifier){
-		//console.log(modifier);
+		const renderer = Renderer.get();
+
 		var outstack = [];
 		outstack.push('<div class=" rd__b--3">');
 		if(modifier.name)
@@ -4085,7 +3926,7 @@ Renderer.powereffect = {
 			renderer.recursiveRender(modifier.entries[idx], outstack, {depth: 3});
 		}
 		if(modifier.cost && !modifier.cost.hidden)
-			outstack.push(` <b>${Renderer.getModifyCostText(modifier)}.</b>`);
+			outstack.push(` <b>${this.getModifierCostText(modifier)}.</b>`);
 		outstack.push('</div>');
 		return outstack.join("");
 	},
@@ -4127,6 +3968,27 @@ Renderer.powereffect = {
 			case "permanent": return FMT("duration_permanent");
 			default: return FMT(duration);
 		};
+	},
+	getModifierCostText: function (modifier){
+		var cost = modifier.cost;
+		if(!cost) return "";
+		if(cost.hidden) return "";
+		var value = cost.value, value_pos, value_str;
+		if(typeof value == "object"){
+			value_pos = value.min>=0;
+			value_str = value.min + ((value.max == "more")? FMT("or_more"): ("~"+value.max));
+		}
+		else{
+			value_pos = value>=0; 
+			value_str = value;
+		}
+		value_str = (value_pos? "+": "") + value_str;
+		switch(cost.type){
+			case "per": return FMT("modcost_per", value_str);
+			case "flat": return FMT("modcost_flat", value_str);
+			case "flat_per": return FMT("modcost_flat_per", value_str, modifier.name);
+			default: return "";
+		};
 	}
 };
 
@@ -4136,73 +3998,25 @@ Renderer.condition = {
 		var contentStack = [];
 		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 2});
 
+		var combine_stack = [];
+		
+		if(entry.contain && entry.contain.length>0){
+			var arr = entry.contain.map( condition_name => {
+				var cache_con = Renderer.hover._getFromCache(UrlUtil.getCurrentPage(), null, condition_name);
+				if(!cache_con) return "";
+				var display_name = cache_con.translate_name? cache_con.translate_name: cache_con.name;
+				return `{@condition ${display_name}}`;
+			});
+			combine_stack.push(" (");
+			renderer.recursiveRender(arr.join(", "), combine_stack);
+			combine_stack.push(")");
+		}
 		return (`
 			${Renderer.utils.getNameTr(entry)}
-			${Renderer.getTr(Renderer.getMaxRankText(entry.rank))}
+			${Renderer.general.getTr(Renderer.general.getTypeFullText(entry.type) + combine_stack.join(""))}
 			<tr><td class="divider" colspan="6"><div></div></td></tr>
 			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
 		`);
 	},
 
-	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
 };
-
-Renderer.getTr = function(content){
-	if(!content) return "";
-	else 		 return `<tr><td colspan="6">${content}</td></tr>`;
-}
-Renderer.getMaxRankText = function (rank) {
-	if (rank == null) return "";
-	if((typeof rank)==='boolean')		return FMT("ranked");
-	else if((typeof rank)==='string')	return FMT("ranked_max", rank.replace("PL", FMT("pl_num")));
-	else 								return FMT("ranked_max", rank);
-};
-Renderer.getTypeFullText = function(type) {
-	switch(type){
-		case "C": return FMT("type_combat");
-		case "F": return FMT("type_fortune");
-		case "G": return FMT("type_general");
-		case "S": return FMT("type_skill");
-		case "ATK": return FMT("type_attack");
-		case "CTL": return FMT("type_control");
-		case "DEF": return FMT("type_defense");
-		case "MOV": return FMT("type_movement");
-		case "SEN": return FMT("type_sensory");
-		default: return "???";
-	}
-};
-Renderer.getCostText = function (cost){
-	if(!cost) return "";
-	var value = cost.value;
-	if(typeof value == "object"){
-		value = value.min + "~" + value.max;
-	}
-	switch(cost.type){
-		case "per": return FMT("cost_per", value);
-		case "special": return FMT(value);
-		default: return "";
-	};
-};
-Renderer.getModifyCostText = function (modifier){
-	var cost = modifier.cost;
-	if(!cost) return "";
-	if(cost.hidden) return "";
-	var value = cost.value, value_pos, value_str;
-	if(typeof value == "object"){
-		value_pos = value.min>=0;
-		value_str = value.min + ((value.max == "more")? FMT("or_more"): ("~"+value.max));
-	}
-	else{
-		value_pos = value>=0; 
-		value_str = value;
-	}
-	value_str = (value_pos? "+": "") + value_str;
-	switch(cost.type){
-		case "per": return FMT("modcost_per", value_str);
-		case "flat": return FMT("modcost_flat", value_str);
-		case "flat_per": return FMT("modcost_flat_per", value_str, modifier.name);
-		default: return "";
-	};
-};
-
-//=================================

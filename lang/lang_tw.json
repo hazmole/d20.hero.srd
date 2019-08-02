@@ -5,14 +5,15 @@
 "nav_rules": "規則",
 "nav_pl_opt": "玩家選項",
 "nav_advantage": "優勢",
-"nav_powereffect": "超能力效果",
 "nav_condition": "異常狀態",
+"nav_powereffect": "超能力效果",
 "nav_settings": "設置",
 "day_mode": "白晝模式",
 "night_mode": "夜晚模式",
 "set_language": "更改語言",
 
 "title_advantage": "優勢",
+"title_condition": "異常狀態",
 "title_powereffect": "超能力效果",
 
 "type_combat": "戰鬥",
@@ -24,6 +25,8 @@
 "type_defense": "防禦",
 "type_movement": "移動",
 "type_sensory": "感知",
+"type_basic": "基本",
+"type_combine": "複合",
 
 "cost_per": "{0}點/每級",
 "cost_as_base_trait": "與該屬性的花費相同",
@@ -55,6 +58,7 @@
 "list_range": "射程",
 "list_duration": "持續",
 "list_cost": "花費",
+"list_contain": "包含狀態",
 
 "util_popout": "彈出視窗",
 "util_pin": "釘選",
@@ -73,6 +77,7 @@
 "context_default_text": "從列表中選擇一個{0}以在此處檢視",
 
 "advantage": "優勢",
+"condition": "異常狀態",
 "powereffect": "超能力效果",
 "ranked": "可重複提升等級",
 "ranked_max": "可重複提升等級，最高至［{0}］級",
