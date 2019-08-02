@@ -1921,16 +1921,10 @@ Renderer.hover = {
 				callbackFn();
 				break;
 			}
-			//===========
-			case UrlUtil.PG_ADVANTAGES: {
-				loadSimple(page, "advantages.json", "advantage");break;
-			}
-			case UrlUtil.PG_POWER_EFFECT: {
-				loadSimple(page, "powereffects.json", "powereffect");break;
-			}
-			//===========
+			//===========		
 			default:
-				throw new Error(`No load function defined for page ${page}`);
+				if( UrlUtil.PG_TO_RENDER_LOAD( page, loadSimple ) ) throw new Error(`No load function defined for page ${page}`);
+				else break;
 		}
 	},
 
@@ -2343,12 +2337,8 @@ Renderer.hover = {
 		switch (page) {
 			case "hover":
 				return Renderer.hover.getGenericCompactRenderedString;
-			case UrlUtil.PG_ADVANTAGES:
-				return Renderer.advantage.getCompactRenderedString;
-			case UrlUtil.PG_POWER_EFFECT:
-				return Renderer.powereffect.getCompactRenderedString;
 			default:
-				return null;
+				return UrlUtil.PG_TO_RENDER_FUNC(page);
 		}
 	},
 

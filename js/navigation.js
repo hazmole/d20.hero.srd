@@ -27,7 +27,11 @@ class NavBar {
 		//addLi(ulPower, "???.html", FMT("Modifiers"));
 		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
 		addLi(ulPlayer, "powereffects.html", FMT("nav_powereffect"));
+		addLi(ulPlayer, "conditions.html", FMT("nav_condition"));
 		//addLi(ulPlayer, "???.html", FMT("Gadgets & Gear"));
+
+		//const ulRef = addDropdown(navBar, FMT("nav_reference"));
+
 
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
 		addButton(

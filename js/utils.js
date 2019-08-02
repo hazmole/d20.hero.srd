@@ -1317,8 +1317,6 @@ UrlUtil = {
 	}*/
 };
 UrlUtil.URL_TO_HASH_BUILDER = (it) => UrlUtil.encodeForHash([it.name]);
-UrlUtil.PG_ADVANTAGES = "advantages.html";
-UrlUtil.PG_POWER_EFFECT = "powereffects.html";
 
 // TODO refactor other misc utils into this
 MiscUtil = {
@@ -1972,7 +1970,6 @@ RollerUtil.DICE_REGEX = new RegExp(RollerUtil._DICE_REGEX_STR, "g");
 RollerUtil.REGEX_DAMAGE_DICE = /(\d+)( \((?:{@dice |{@damage ))([-+0-9d ]*)(}\) [a-z]+( \([-a-zA-Z0-9 ]+\))?( or [a-z]+( \([-a-zA-Z0-9 ]+\))?)? damage)/gi;
 RollerUtil.REGEX_DAMAGE_FLAT = /(Hit: |{@h})([0-9]+)( [a-z]+( \([-a-zA-Z0-9 ]+\))?( or [a-z]+( \([-a-zA-Z0-9 ]+\))?)? damage)/gi;
 
-
 String.prototype.isNumeric = String.prototype.isNumeric ||
 	function () {
 		return !isNaN(parseFloat(this)) && isFinite(this);
@@ -1985,3 +1982,21 @@ String.prototype.last = String.prototype.last ||
 function noModifierKeys (e) {
 	return !e.ctrlKey && !e.altKey && !e.metaKey;
 }
+
+//======================
+// CUSTOM PAGE
+UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
+	switch(page){
+		case "advantages.html": success_func(page, "advantages.json", "advantage"); break;
+		case "powereffects.html": success_func(page, "powereffects.json", "powereffect"); break;
+		default: return 1; 
+	}
+	return 0;
+};
+UrlUtil.PG_TO_RENDER_FUNC = function (page){
+	switch(page){
+		case "advantages.html": return Renderer.advantage.getCompactRenderedString;
+		case "powereffects.html": return Renderer.powereffect.getCompactRenderedString;
+		default: return null; 
+	}
+};
