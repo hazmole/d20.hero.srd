@@ -68,6 +68,7 @@
 "search_reset": "重置",
 "search_placeholder": "尋找{0}...",
 "search_subtitle": "使用左側的名稱搜尋，點擊項目名稱以在右側顯示。",
+"search_jk_navigate": "按下J/K以巡覽列。",
 "context_default_text": "從列表中選擇一個{0}以在此處檢視",
 
 "advantage": "優勢",

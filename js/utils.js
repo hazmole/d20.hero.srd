@@ -312,13 +312,12 @@ ContextUtil = {
 };
 
 // LIST AND SEARCH =====================================================================================================
-SearchUtil = {
+/* SearchUtil = {
 	removeStemmer (elasticSearch) {
 		const stemmer = elasticlunr.Pipeline.getRegisteredFunction("stemmer");
 		elasticSearch.pipeline.remove(stemmer);
 	}
-};
-
+}; */
 ListUtil = {
 	SUB_HASH_PREFIX: "sublistselected",
 
@@ -363,7 +362,7 @@ ListUtil = {
 		if (ListUtil._first) {
 			ListUtil._first = false;
 			const $headDesc = $(`header div p`);
-			$headDesc.html(`${$headDesc.html()} 按下J/K以巡覽列。`);
+			$headDesc.html(`${$headDesc.html()} ${FMT("search_jk_navigate")}`);
 
 			const scrollTo = () => {
 				const toShow = History.getSelectedListElementWithIndex();

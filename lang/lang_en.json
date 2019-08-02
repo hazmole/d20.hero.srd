@@ -67,7 +67,8 @@
 
 "search_reset": "Reset",
 "search_placeholder": "search for {0}...",
-"search_subtitle": "search by name on the left, click entry name to display on the right.",
+"search_subtitle": "Search by name on the left, click entry name to display on the right.",
+"search_jk_navigate": "Press J/K to navigate rows.",
 "context_default_text": "Select a {0} from the list to view it here",
 
 "advantage": "advantage",
