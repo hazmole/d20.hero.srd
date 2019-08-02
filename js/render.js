@@ -4130,6 +4130,23 @@ Renderer.powereffect = {
 	}
 };
 
+Renderer.condition = {
+	getCompactRenderedString: function (entry) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 2});
+
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			${Renderer.getTr(Renderer.getMaxRankText(entry.rank))}
+			<tr><td class="divider" colspan="6"><div></div></td></tr>
+			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+		`);
+	},
+
+	getTypeFullText: function (type) { return Renderer.getTypeFullText(type); },
+};
+
 Renderer.getTr = function(content){
 	if(!content) return "";
 	else 		 return `<tr><td colspan="6">${content}</td></tr>`;
