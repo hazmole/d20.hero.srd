@@ -1693,7 +1693,7 @@
 			]
 		},
 		{
-			"name": "Morph",
+			"translate_name": "變形", "name": "Morph",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -2788,7 +2788,7 @@
 			]
 		},
 		{
-			"name": "Transform",
+			"translate_name": "轉化", "name": "Transform",
 			"type": "CTL",
 			"action": "S",
 			"range": "close",
@@ -2839,7 +2839,7 @@
 			]
 		},
 		{
-			"name": "Variable",
+			"translate_name": "變換", "name": "Variable",
 			"type": "G",
 			"action": "S",
 			"range": "personal",

@@ -16,7 +16,7 @@
 			"contain": ["compelled"]
 		},
 		{
-			"translate_name": "恍神", "name": "Dazed",
+			"translate_name": "目眩", "name": "Dazed",
 			"type": "basic",
 			"entries": [
 				"A dazed character is limited to free actions and a single standard action per turn, although the character may use that action to perform a move, as usual. Stunned supersedes dazed."
@@ -92,7 +92,7 @@
 			"contain": ["dazed"]
 		},
 		{
-			"translate_name": "變形", "name": "Transformed",
+			"translate_name": "被變化", "name": "Transformed",
 			"type": "basic",
 			"entries": [
 				"Transformed characters have some or all of their traits altered by an outside agency. This may range from a change in the character’s appearance to a complete change in trait ranks, even the removal of some traits and the addition of others! The primary limit on the transformed condition is the character’s character point total cannot increase, although it can effectively decrease for the duration of the transformation, such as when a powerful superhero is turned into an otherwise powerless mouse or frog (obviously based on considerably fewer character points)."
