@@ -1,0 +1,122 @@
+{
+	"reference": {
+		"name": "Basic Rules",
+		"id": "basic",
+		"contents": [
+			{
+				"name": "Introduction",
+				"headers": [
+					"Using this Site",
+					"What You Need to Play"
+				]
+			},
+			{
+				"name": "The Basics",
+				"headers": [
+					"The Core Mechanic",
+					"The Gamemaster",
+					"The Heros",
+					"Rank & Measures",
+					"Game Play"
+				]
+			},
+			{
+				"name": "The Heros",
+				"headers": [
+					"Hero Archetypes",
+					"Hero Design",
+					"Character Points",
+					"Complications",
+					"Background",
+					"Hero Advancement & Improvement",
+					"Character Archetypes"
+				]
+			},
+			{
+				"name": "Abilities",
+				"headers": [
+					"Ability Ranks",
+					"The Abilities",
+					"Altering Abilities",
+					"Defenses & Initiative"
+				]
+			},
+			{
+				"name": "Skills",
+				"headers": [
+					"Skill Basics",
+					"How Skills Work",
+					"Skill Descriptions"
+				]
+			},
+			{
+				"name": "Advantages",
+				"headers": [
+					"Acquiring Advantages",
+					"Advantage Descriptions"
+				]
+			},
+			{
+				"name": "Powers",
+				"headers": [
+					"Acquiring Powers",
+					"Effect Types",
+					"How Powers Work",
+					"Power Effects",
+					"Modifiers",
+					"Descriptors"
+				]
+			},
+			{
+				"name": "Gadgets & Gear",
+				"headers": [
+					"Devices",
+					"Equipment",
+					"General Equipment",
+					"Weapons",
+					"Armor",
+					"Vehicles",
+					"Headquarters",
+					"Constructs"
+				]
+			},
+			{
+				"name": "Action & Adventure",
+				"headers": [
+					"Action Rounds",
+					"Challenges",
+					"Conflicts",
+					"Actions",
+					"Maneuvers",
+					"Recovery"
+				]
+			},
+			{
+				"name": "Gamemastering",
+				"headers": [
+					"Running the Game",
+					"Creating Adventures",
+					"Creating a Series",
+					"Series Frameworks"
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"name": "Get Started",
+			"entries": [
+
+			]
+		},
+		{
+			"type": "section",
+			"name": "The Core Mechanic",
+			"entries": [
+				"D&D Adventurers' League is a living campaign, with public games available around the world. Further information on the League, and where you can join, can be found {@link on the official Dungeons and Dragons website|https://dnd.wizards.com/playevents/organized-play}."
+			]
+		}
+	]
+}

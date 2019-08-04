@@ -1970,6 +1970,67 @@ RollerUtil.DICE_REGEX = new RegExp(RollerUtil._DICE_REGEX_STR, "g");
 RollerUtil.REGEX_DAMAGE_DICE = /(\d+)( \((?:{@dice |{@damage ))([-+0-9d ]*)(}\) [a-z]+( \([-a-zA-Z0-9 ]+\))?( or [a-z]+( \([-a-zA-Z0-9 ]+\))?)? damage)/gi;
 RollerUtil.REGEX_DAMAGE_FLAT = /(Hit: |{@h})([0-9]+)( [a-z]+( \([-a-zA-Z0-9 ]+\))?( or [a-z]+( \([-a-zA-Z0-9 ]+\))?)? damage)/gi;
 
+
+// STRING ==============================================================================================================
+String.prototype.uppercaseFirst = String.prototype.uppercaseFirst ||
+	function () {
+		const str = this.toString();
+		if (str.length === 0) return str;
+		if (str.length === 1) return str.charAt(0).toUpperCase();
+		return str.charAt(0).toUpperCase() + str.slice(1);
+	};
+
+String.prototype.lowercaseFirst = String.prototype.lowercaseFirst ||
+	function () {
+		const str = this.toString();
+		if (str.length === 0) return str;
+		if (str.length === 1) return str.charAt(0).toLowerCase();
+		return str.charAt(0).toLowerCase() + str.slice(1);
+	};
+
+String.prototype.toTitleCase = String.prototype.toTitleCase ||
+	function () {
+		let str;
+		str = this.replace(/([^\W_]+[^\s-/]*) */g, function (txt) {
+			return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+		});
+
+		if (!StrUtil._TITLE_LOWER_WORDS_RE) {
+			StrUtil._TITLE_LOWER_WORDS_RE = StrUtil.TITLE_LOWER_WORDS.map(it => new RegExp(`\\s${it}\\s`, 'g'));
+		}
+
+		for (let i = 0; i < StrUtil.TITLE_LOWER_WORDS.length; i++) {
+			str = str.replace(
+				StrUtil._TITLE_LOWER_WORDS_RE[i],
+				(txt) => {
+					return txt.toLowerCase();
+				});
+		}
+
+		if (!StrUtil._TITLE_UPPER_WORDS_RE) {
+			StrUtil._TITLE_UPPER_WORDS_RE = StrUtil.TITLE_UPPER_WORDS.map(it => new RegExp(`\\b${it}\\b`, 'g'));
+		}
+
+		for (let i = 0; i < StrUtil.TITLE_UPPER_WORDS.length; i++) {
+			str = str.replace(
+				StrUtil._TITLE_UPPER_WORDS_RE[i],
+				StrUtil.TITLE_UPPER_WORDS[i].toUpperCase()
+			);
+		}
+
+		return str;
+	};
+
+String.prototype.escapeQuotes = String.prototype.escapeQuotes ||
+	function () {
+		return this.replace(/'/g, `&singlequot;`).replace(/"/g, `&quot;`);
+	};
+
+String.prototype.unescapeQuotes = String.prototype.unescapeQuotes ||
+	function () {
+		return this.replace(/&singlequot;/g, "\'").replace(/&quot;/g, "\"");
+	};
+
 String.prototype.isNumeric = String.prototype.isNumeric ||
 	function () {
 		return !isNaN(parseFloat(this)) && isFinite(this);

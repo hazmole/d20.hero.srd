@@ -3,6 +3,7 @@
 "site_desc": "d20英雄 的遊玩幫助工具",
 "nav_home": "首頁",
 "nav_rules": "規則",
+"nav_basic_rules": "基本規則",
 "nav_pl_opt": "玩家選項",
 "nav_advantage": "優勢",
 "nav_condition": "異常狀態",
@@ -75,6 +76,7 @@
 "search_subtitle": "使用左側的名稱搜尋，點擊項目名稱以在右側顯示。",
 "search_jk_navigate": "按下J/K以巡覽列。",
 "context_default_text": "從列表中選擇一個{0}以在此處檢視",
+"context_loading": "讀取中...",
 
 "advantage": "優勢",
 "condition": "異常狀態",

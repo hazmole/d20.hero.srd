@@ -19,6 +19,7 @@ class NavBar {
 		addLi(navBar, "index.html", FMT("nav_home"));
 
 		const ulRules = addDropdown(navBar, FMT("nav_rules"));
+		addLi(ulRules, "rules.html", FMT("nav_basic_rules"), true, "basic");
 		//addLi(ulRules, "???.html", FMT("Character Creation"));
 
 		const ulPlayer = addDropdown(navBar, FMT("nav_pl_opt"));
@@ -176,12 +177,12 @@ class NavBar {
 		if (!currentPage) currentPage = "index.html";
 
 		let isSecondLevel = false;
-		if (currentPage.toLowerCase() === "book.html" || currentPage.toLowerCase() === "adventure.html") {
+		if (currentPage.toLowerCase() === "rules.html") {
 			const hashPart = window.location.hash.split(",")[0];
-			if (currentPage.toLowerCase() === "adventure.html") isSecondLevel = true;
+			if (currentPage.toLowerCase() === "rules.html") isSecondLevel = true;
 			currentPage += hashPart.toLowerCase();
 		}
-		if (currentPage.toLowerCase() === "adventures.html") isSecondLevel = true;
+		if (currentPage.toLowerCase() === "rules.html") isSecondLevel = true;
 
 		try {
 			let current = document.querySelector(`li[data-page="${currentPage}"]`);
@@ -192,6 +193,8 @@ class NavBar {
 			}
 			current.parentNode.childNodes.forEach(n => n.classList && n.classList.remove("active"));
 			current.classList.add("active");
+
+
 
 			let closestLi = current.parentNode;
 			const setNearestParentActive = () => {
