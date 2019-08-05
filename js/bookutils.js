@@ -459,6 +459,7 @@ const BookUtil = {
 					tmpString += BookUtil.getContentsItem(i, book, {book, addOnclick: true});
 				}
 				BookUtil.contentObj.append(tmpString);
+				BookUtil.addHeaderHandles(true);
 			}
 			var allContents = $(`.contents-item`);
 			BookUtil.thisContents = allContents.filter(`[data-bookid="${UrlUtil.encodeForHash(bookId)}"]`);

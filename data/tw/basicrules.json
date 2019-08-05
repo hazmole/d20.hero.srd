@@ -6,8 +6,8 @@
 			{
 				"name": "Introduction",
 				"headers": [
-					"Using this Site",
-					"What You Need to Play"
+					"What You Need to Play",
+					"Using this Site"
 				]
 			},
 			{
@@ -21,7 +21,7 @@
 				]
 			},
 			{
-				"name": "The Heros",
+				"name": "Secret Origins",
 				"headers": [
 					"Hero Archetypes",
 					"Hero Design",
@@ -106,16 +106,312 @@
 	"data": [
 		{
 			"type": "section",
-			"name": "Get Started",
+			"name": "Introduction",
 			"entries": [
-
+				"In this game, you take on the role of a costumed superhero safeguarding the world from threats ranging from scheming super-criminals to alien invasions, hulking monsters, natural disasters, and would-be conquerors.",
+				"This site contains all the information you need to play the game. The Basics chapter starts you off with a quick overview of how the game works. After you read it, flip through the rest of the site and see the various options for creating heroes. Then you can read the following chapters thoroughly to see which options appeal to you the most.",
+				{
+					"type": "section",
+					"name": "What You Need to Play",
+					"entries": [
+						"Here’s what you need to start playing this game:",
+						{
+							"type": "list",
+							"items":[
+								"This website, which contains all of the rules necessary to create a hero and play the game.",
+								"A character sheet (available on the Hero Resources page or via {@link https://www.mutantsandmasterminds.com}.)",
+								"A pencil and some paper.",
+								"At least one twenty-sided die, available from any game or hobby retailer. You may want to have one die for each player, or you can share dice.",
+								"Optionally, you may wish to have printed copies of the many Mutants & Masterminds books available from Green Ronin Publishing (but they are not required in order to play or run a game.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Dice",
+							"entries": [
+								"This game uses a twenty-sided die to resolve actions during the game. References to “a die” or “the die” refer to a twenty-sided die unless stated otherwise. The die is often abbreviated “d20” (for twenty-sided die) or “1d20” (for one twenty-sided die). So a rule asking you to “roll d20” means, “roll a twenty-sided die.”",
+								{
+									"type": "entries",
+									"name": "Modifiers",
+									"entries": [
+										"Sometimes modifiers to the die roll are specified like this: “d20+2,” meaning “roll the twenty-sided die and add two to the number rolled.” An abbreviation of “d20–4” means, “roll the die and subtract four from the result.”"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Percentages",
+									"entries": [
+										"You can also use the die to roll a percent chance of something in increments of 5% – just multiply the value of the die by 5 to get a percentage from 5% (a 1) to 100% (a 20). So if there’s a 45% chance of something, that’s a roll of 9 or less on the die."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Using this Site",
+					"entries": [
+						"The best way to use this site depends on whether you plan to be a player or Gamemaster in your game. The Gamemaster creates the world in which the heroes live and controls all non-player characters (NPCs) such as thugs, cops, and supervillains, as well as the supporting cast. Each player controls a superhero he or she has created, interacting with other player characters as well as with the world and stories created by the Gamemaster.",
+						{
+							"type": "entries",
+							"name": "Players",
+							"entries": [
+								"If you’re creating a hero for this game, see Secret Origins for a basic overview. The following sections contain all the information you need to create your own hero. You may want to consult with your Gamemaster before creating a hero to find out what sort of series your GM is interested in running, and what types of heroes are appropriate."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gamemasters",
+							"entries": [
+								"If you plan to be a Gamemaster, you should familiarize yourself with this whole website. Start by looking over hero creation in the Secret Origins section. Then read through the Action & Adventure section, and familiarize yourself with how to do things in the game. You may want to run a few sample combats using the sample archetypes, just to get a feel for things."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Under the Hood",
+							"entries": [
+								"Throughout this website, you’ll find various Under the Hood boxes. They take a look “behind the scenes” at the logic underlying design decisions and rules, and offer advice on how to handle common problems or issues that might crop up. They give you an inside look at how the game works and how to ensure you and your group get the most out of it."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
 			"type": "section",
-			"name": "The Core Mechanic",
+			"name": "The Basic",
 			"entries": [
-				"D&D Adventurers' League is a living campaign, with public games available around the world. Further information on the League, and where you can join, can be found {@link on the official Dungeons and Dragons website|https://dnd.wizards.com/playevents/organized-play}."
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"This site provides a framework for your imagination. It has rules to help determine what happens in your stories and to resolve conflicts between characters and the challenges they face. With it, you can experience adventure as a hero fighting against the forces of evil! Any adventure you can imagine is possible.",
+						"Like all games, this one too has rules. This page looks at the basic rules of the game and how they work, giving you the foundation upon which the rest of the game is built.",
+						{
+							"type": "entries",
+							"name": "The Core Mechanic",
+							"entries": [
+								"This game uses a standard, or “core,” game mechanic to resolve actions. Whenever a character attempts an action with a chance of failure, do the following:",
+								{
+									"type": "list",
+									"items": [
+										"Roll a twenty-sided die (or d20).",
+										"Add any relevant modifiers (for game traits like abilities, skills, powers, or circumstances) to the number rolled.",
+										"Compare the total to a number called a {@b difficulty class} (abbreviated {@b DC})."
+									]
+								},
+								"If the result equals or exceeds the difficulty class (set by the GM based on the circumstances), the effort succeeds. If the result is lower than the difficulty class, it fails.",
+								"This simple mechanic is used for nearly everything in the game, with variations based on what modifiers are made to the roll, what determines the difficulty class, and the exact degree of success and failure.",
+								"Remember...",
+								{
+									"type": "abilityGeneric",
+									"text": "d20 + modifiers vs. difficulty class"
+								},
+								"... and you understand how to play most of the game!"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Gamemaster",
+							"entries": [
+								"One of the players in a game takes the role of Gamemaster (abbreviated GM). The Gamemaster is responsible for running the game—a combination of writer, director, and referee. The GM creates the adventures for the heroes, portrays the villains and supporting characters, describes the world to the players, and decides the outcome of the heroes’ actions based on the roll of the die and the guidelines given in the rules. It’s a big job, but also a rewarding one, since the Gamemaster gets to develop the world and all the characters in it, along with inventing fun and exciting stories.",
+								"If you’re going to be the Gamemaster, you should read through this whole website carefully. You should have a firm grasp of the rules, since you’re expected to interpret them for the players to help decide what happens in the game. You’ll also help the players develop their own heroes, making sure they fit into the world and have potential for exciting stories in their own right."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Heros",
+							"entries": [
+								"The other players in a game create heroes, the main characters of their own adventures, like an ongoing comic book or animated series. As a player, you create your hero following these guidelines and the guidance of your Gamemaster. There are several components to creating a hero, described in detail in the linked pages, and outlined briefly below.",
+								{}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rank & Measures",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Game Play",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Secret Origins",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Abilities",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Skills",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Advantages",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Powers",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Gadgets & Gear",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Action & Adventure",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Gamemastering",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
 			]
 		}
 	]
