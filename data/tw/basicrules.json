@@ -182,66 +182,102 @@
 			"type": "section",
 			"name": "The Basic",
 			"entries": [
-				"",
+				"This site provides a framework for your imagination. It has rules to help determine what happens in your stories and to resolve conflicts between characters and the challenges they face. With it, you can experience adventure as a hero fighting against the forces of evil! Any adventure you can imagine is possible.",
+				"Like all games, this one too has rules. This page looks at the basic rules of the game and how they work, giving you the foundation upon which the rest of the game is built.",
 				{
 					"type": "section",
-					"name": "",
+					"name": "The Core Mechanic",
 					"entries": [
-						"This site provides a framework for your imagination. It has rules to help determine what happens in your stories and to resolve conflicts between characters and the challenges they face. With it, you can experience adventure as a hero fighting against the forces of evil! Any adventure you can imagine is possible.",
-						"Like all games, this one too has rules. This page looks at the basic rules of the game and how they work, giving you the foundation upon which the rest of the game is built.",
+						"This game uses a standard, or “core,” game mechanic to resolve actions. Whenever a character attempts an action with a chance of failure, do the following:",
+						{
+							"type": "list",
+							"items": [
+								"Roll a twenty-sided die (or d20).",
+								"Add any relevant modifiers (for game traits like abilities, skills, powers, or circumstances) to the number rolled.",
+								"Compare the total to a number called a {@b difficulty class} (abbreviated {@b DC})."
+							]
+						},
+						"If the result equals or exceeds the difficulty class (set by the GM based on the circumstances), the effort succeeds. If the result is lower than the difficulty class, it fails.",
+						"This simple mechanic is used for nearly everything in the game, with variations based on what modifiers are made to the roll, what determines the difficulty class, and the exact degree of success and failure.",
+						"Remember...",
+						{
+							"type": "abilityGeneric",
+							"text": "d20 + modifiers vs. difficulty class"
+						},
+						"... and you understand how to play most of the game!"
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Gamemaster",
+					"entries": [
+						"One of the players in a game takes the role of Gamemaster (abbreviated GM). The Gamemaster is responsible for running the game—a combination of writer, director, and referee. The GM creates the adventures for the heroes, portrays the villains and supporting characters, describes the world to the players, and decides the outcome of the heroes’ actions based on the roll of the die and the guidelines given in the rules. It’s a big job, but also a rewarding one, since the Gamemaster gets to develop the world and all the characters in it, along with inventing fun and exciting stories.",
+						"If you’re going to be the Gamemaster, you should read through this whole website carefully. You should have a firm grasp of the rules, since you’re expected to interpret them for the players to help decide what happens in the game. You’ll also help the players develop their own heroes, making sure they fit into the world and have potential for exciting stories in their own right."
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Heros",
+					"entries": [
+						"The other players in a game create heroes, the main characters of their own adventures, like an ongoing comic book or animated series. As a player, you create your hero following these guidelines and the guidance of your Gamemaster. There are several components to creating a hero, described in detail in the linked pages, and outlined briefly below.",
 						{
 							"type": "entries",
-							"name": "The Core Mechanic",
+							"name": "Abilities",
 							"entries": [
-								"This game uses a standard, or “core,” game mechanic to resolve actions. Whenever a character attempts an action with a chance of failure, do the following:",
-								{
-									"type": "list",
-									"items": [
-										"Roll a twenty-sided die (or d20).",
-										"Add any relevant modifiers (for game traits like abilities, skills, powers, or circumstances) to the number rolled.",
-										"Compare the total to a number called a {@b difficulty class} (abbreviated {@b DC})."
-									]
-								},
-								"If the result equals or exceeds the difficulty class (set by the GM based on the circumstances), the effort succeeds. If the result is lower than the difficulty class, it fails.",
-								"This simple mechanic is used for nearly everything in the game, with variations based on what modifiers are made to the roll, what determines the difficulty class, and the exact degree of success and failure.",
-								"Remember...",
-								{
-									"type": "abilityGeneric",
-									"text": "d20 + modifiers vs. difficulty class"
-								},
-								"... and you understand how to play most of the game!"
+								"All characters in this game, from heroes and villains to the average person on the street, are defined by eight abilities, basic traits each character has to a greater or lesser extent. Abilities tell you how strong, smart, and aware a character is, among other things. The abilities are: Strength, Stamina, Agility, Dexterity, Fighting, Intellect, Awareness, and Presence, described in detail on the Abilities page.",
+								"Each ability is assigned a rank from -5 to 20, measuring its effectiveness. A rank of 0 is unremarkable or average, applying no modifier. Rank 2 is pretty well above average. A 5 is truly exceptional, while a 7 is about the most that can be expected from a “normal” human being. Beyond that is superhuman, and a rank of 20 is cosmic-level, far beyond the ability of mere mortals (and even most heroes). abilities can even have negative ranks, for those well below average, as low as –5.",
+								"For more about abilities, see the Abilities page."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "The Gamemaster",
+							"name": "Skills",
 							"entries": [
-								"One of the players in a game takes the role of Gamemaster (abbreviated GM). The Gamemaster is responsible for running the game—a combination of writer, director, and referee. The GM creates the adventures for the heroes, portrays the villains and supporting characters, describes the world to the players, and decides the outcome of the heroes’ actions based on the roll of the die and the guidelines given in the rules. It’s a big job, but also a rewarding one, since the Gamemaster gets to develop the world and all the characters in it, along with inventing fun and exciting stories.",
-								"If you’re going to be the Gamemaster, you should read through this whole website carefully. You should have a firm grasp of the rules, since you’re expected to interpret them for the players to help decide what happens in the game. You’ll also help the players develop their own heroes, making sure they fit into the world and have potential for exciting stories in their own right."
+								"Abilities describe a character’s raw potential or overall capabilities. Skills are a refinement of those basic abilities into specific areas of endeavor. For example, Agility defines how quick and agile your hero is, but the Acrobatics skill focuses on specific feats of agility like gymnastics, doing back flips, and so forth. Think of abilities as providing a certain baseline, while skills focus in on a particular area of expertise.",
+								"Characters are said to have training in a skill if they have a rank in that skill. A character not trained in a skill has no rank; only the character’s basic ability applies to checks involving the skill. Trained characters have a skill rank that adds to the basic ability when making checks. In the previous example, we said Acrobatics skill applies to specific feats of agility. If a hero has Agility 6 and is trained in Acrobatics (with a rank of 7) then the character’s bonus for checks involving feats of agility covered by Acrobatics is 13 (6 plus 7). Obviously, training in a skill makes characters more effective at checks involving that skill, often much more.",
+								"For details on what skills are available and what they do, see Skills."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "The Heros",
+							"name": "Advantages",
 							"entries": [
-								"The other players in a game create heroes, the main characters of their own adventures, like an ongoing comic book or animated series. As a player, you create your hero following these guidelines and the guidance of your Gamemaster. There are several components to creating a hero, described in detail in the linked pages, and outlined briefly below.",
-								{}
+								"Halfway between skills and powers, advantages are minor benefits characters have, allowing them to do things others cannot. They range from special combat maneuvers to things like financial resources, contacts, and so forth.",
+								"Many advantages have no rank, or rather just one rank; a character either has the advantage (and the benefits that it grants) or does not. Other advantages may have multiple ranks, like abilities and skills, measuring their effectiveness.",
+								"For details on the various advantages and what they provide, see Advantages."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Rank & Measures",
+							"name": "Powers",
 							"entries": [
-								""
+								"Powers are special abilities beyond those of ordinary human beings. They’re like advantages, only much more so. Whereas an advantage might give your hero a minor special ability, powers grant truly superhuman abilities.",
+								"Those abilities are based on effects, which describe what a power does in game terms. A power may have just one effect or several, and you can apply various modifiers to the effects to change how they work, customizing them to get just the right power.",
+								"Power effects have ranks like abilities do, on a scale from 1 to 20 (sometimes more). Unlike abilities, effects do not have ranks of less than 1, since the “average” is not having powers at all!",
+								"Some power effects require checks to use, while others operate automatically.For full descriptions of the various effects powers can have, see Powers."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Game Play",
+							"name": "Complications",
 							"entries": [
-								""
+								"Finally, heroes often have complications to overcome. Overcoming such challenges is part of what makes a real hero. Complications range from physical disabilities or personal issues to unusual vulnerabilities. You choose your hero’s complications, defining some of the challenges your hero must overcome in the game. The process of dealing with complications allows your character to be more heroic, discussed later in the rules. See Secret Origins for more on complications."
 							]
 						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Rank & Measures",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Game Play",
+					"entries": [
+						""
 					]
 				}
 			]
