@@ -1708,6 +1708,8 @@ JqueryUtil = {
 		JqueryUtil._activeToast.push($toast);
 	}
 };
+if (typeof window !== "undefined") window.addEventListener("load", JqueryUtil.initEnhancements);
+
 
 // STORAGE =============================================================================================================
 // Dependency: localforage

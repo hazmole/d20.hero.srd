@@ -270,14 +270,298 @@
 					"type": "section",
 					"name": "Rank & Measures",
 					"entries": [
-						""
+						"This game uses the term {@b rank} when talking about the value of a game trait. So you might say a hero has “rank 8 Strength” or simply “Strength 8” (which mean the same thing), or that an effect is rank 5, 9, 15, or what have you. Every quantifiable trait in this game has a rank assigned to it.",
+						"The game also uses a system of {@b measures}, real world values like pounds, seconds, minutes, hours, feet, yards, and miles, to name a few. There is a direct relationship between rank and measure, as shown on the {@b Measurements Table}.",
+						{
+							"type": "table",
+							"caption": "Measurements Table",
+							"colLabels": [
+								"Rank",
+								"Mass",
+								"Time",
+								"Distance",
+								"Volume"
+							],
+							"colStyles": [
+								"col-1 text-align-center",
+								"col-3 text-align-center",
+								"col-2 text-align-center",
+								"col-3 text-align-center",
+								"col-3 text-align-center"
+							],
+							"rows": [
+								[
+									"-5", "1.5 lbs", "1/8 second", "6 inches", "1/32 cft."
+								],
+								[
+									"-4", "3 lbs", "1/4 second", "1 foot", "1/16 cft."
+								],
+								[
+									"-3", "6 lbs", "1/2 second", "3 feet", "1/8 cft."
+								],
+								[
+									"-2", "12 lbs", "1 second", "6 feet", "1/4 cft."
+								],
+								[
+									"-1", "25 lbs", "3 second", "15 feet", "1/2 cft."
+								],
+								[
+									"0", "50 lbs", "6 second", "30 feet", "1 cubic ft. (cft.)"
+								],
+								[
+									"1", "100 lbs", "12 second", "60 feet", "2 cft."
+								],
+								[
+									"2", "200 lbs", "30 second", "120 feet", "4 cft."
+								],
+								[
+									"3", "400 lbs", "1 minute", "250 feet", "8 cft."
+								],
+								[
+									"4", "800 lbs", "2 minutes", "500 feet", "15 cft."
+								],
+								[
+									"5", "1,600 lbs", "4 minutes", "90 feet", "30 cft."
+								],
+								[
+									"6", "3,200 lbs", "8 minutes", "1,800 feet", "60 cft."
+								],
+								[
+									"7", "3 tons", "15 minutes", "1/2 mile", "125 cft."
+								],
+								[
+									"8", "6 tons", "30 minutes", "1 mile", "250 cft."
+								],
+								[
+									"9", "12 tons", "1 hour", "2 miles", "500 cft."
+								],
+								[
+									"10", "25 tons", "2 hours", "4 mile", "1,000 cft."
+								],
+								[
+									"11", "50 tons", "4 hours", "8 miles", "2,000 cft."
+								],
+								[
+									"12", "100 tons", "8 hours", "16 miles", "4,000 cft."
+								],
+								[
+									"13", "200 tons", "16 hours", "30 miles", "8,000 cft."
+								],
+								[
+									"14", "400 tons", "1 day", "60 miles", "15,000 cft."
+								],
+								[
+									"15", "800 tons", "2 days", "120 miles", "32,000 cft."
+								],
+								[
+									"16", "1,600 tons", "4 days", "250 miles", "65,000 cft."
+								],
+								[
+									"17", "3.2 ktons", "1 week", "500 miles", "125,000 cft."
+								],
+								[
+									"18", "6 ktons", "2 weeks", "1,000 miles", "250,000 cft."
+								],
+								[
+									"19", "12 ktons", "1 month", "2,000 miles", "500,000 cft."
+								],
+								[
+									"20", "25 ktons", "2 months", "4,000 miles", "1 million cft."
+								],
+								[
+									"21", "50 ktons", "4 months", "8,000 miles", "2 million cft."
+								],
+								[
+									"22", "100 ktons", "8 months", "16,000 miles", "4 million cft."
+								],
+								[
+									"23", "200 ktons", "1.5 years", "32,000 miles", "8 million cft."
+								],
+								[
+									"24", "400 ktons", "3 years", "64,000 miles", "15 million cft."
+								],
+								[
+									"25", "800 ktons", "6 years", "125,000 miles", "32 million cft."
+								],
+								[
+									"26", "1,600 ktons", "12 years", "250,000 miles", "65 million cft."
+								],
+								[
+									"27", "3,200 ktons", "25 years", "500,000 miles", "125 million cft."
+								],
+								[
+									"28", "6,400 ktons", "50 years", "1 million miles", "250 million cft."
+								],
+								[
+									"29", "12,500 ktons", "100 years", "2 million miles", "500 million cft."
+								],
+								[
+									"30", "25,000 ktons", "200 years", "4 million miles", "1 billion cft."
+								],
+								[
+									"+1", "x2", "x2", "x2", "x2"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Using the Measurements Table",
+							"entries": [
+								"The relationship between rank and measure has a number of uses in this game.",
+								"First, the capabilities of many traits are translated from their rank into a measurement. So the amount of weight a Strength rank of 3 can lift is determined by finding the equivalent weight measurement on the table, or 400 lbs. Similarly, the mass, distance, or time affected by various other traits, especially powers, is determined on the Measurements Table.",
+								"Also, because the measurements on the table operate at the same scale (roughly doubling every rank), it is possible to use it to quickly figure out relationships between things like mass, distance, speed, and time:",
+								{
+									"type": "abilityGeneric",
+									"text": "Distance Rank = Time Rank + Speed Rank"
+								},
+								"To determine the distance a hero covers in a given amount of time, add the rank of the time to the rank of the hero’s speed, with normal human ground speed being rank 0. So a normal person can cover 2 miles in an hour (time 9 + speed 0 = 9, the rank for 2 miles). In fact, with normal human speeds, you can just directly compare the time and distance columns of the table! As another example, a hero with Flight 12 can cover 8,000 miles in an hour! That’s 12 (speed) + 9 (time) = 21, the rank for 8,000 miles. The same character can go an amazing 16 miles in just 6 seconds (the time of one action round)!",
+								{
+									"type": "abilityGeneric",
+									"text": "Time Rank = Distance Rank – Speed Rank"
+								},
+								"Reversing the previous formula, we can also figure out how long it takes someone at a particular speed to cover a given distance, by subtracting the speed rank from the distance rank to get a time rank. So a normal human (speed 0) walking 30 miles (distance 13) takes about 16 hours. A hero with Speed 14 covers the same distance in (13 – 14 = –1) just 3 seconds!",
+								{
+									"type": "abilityGeneric",
+									"text": "Throwing Distance Rank = Strength Rank – Mass Rank"
+								},
+								"As another example, the distance rank a hero can throw something equals the hero’s Strength rank minus the mass rank of the object. So a hero with Strength 10 (able to lift 25 tons), picks up a 10-ton truck (mass rank 8). Since 10 – 8 = 2, the hero can then toss the truck rank 2 distance (120 feet)!"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Things to Know about Measurements",
+							"entries": [
+								"When using the Measurements Table, there are a few important things to keep in mind:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Each rank represents a range of measures.} Time rank 4 is actually all measures between 1 and 2 minutes, and time rank 16 is everything between 2 and 4 days! So if you’re looking for a measurement that’s not on the table, pick the next highest one that is; so 12 hours is a time rank of 13 (more than 8 hours, but less than 16), and 6 miles is a distance rank of 11 (more than 4 miles, but less than 8).",
+										"{@b Like abilities, measures can have negative ranks.} In the time rank example, the time it takes a Speed 14 hero to cover 30 miles is rank –1, or 3 seconds. You can extend the negative side the Measurement Table just like you can the positive side, with each lower rank halving the previous measurement. So rank –6 is half a pound, 1/16th of a second, and 3 inches, for example.",
+										"{@b Don’t directly add ranks.} Putting rank 4 distance together with rank 6 distance is not rank 10 distance! Rank 4 is a distance measurement of 500 feet. Rank 6 is 600 yards (1,800 feet). Adding the measurements, you get about 2,300 feet. If you directly added the ranks, you’d get rank 10 distance, or 4 miles! If you have different ranks, it is best to either handle them separately or convert them to measurements, add the measurements together, and convert them back to a rank. In the previous example, 2,300 feet is rank 7 distance (around half a mile).",
+										"{@b Measurements are approximate.} Especially at the higher end, where each rank represents a wide range of measurements, the Measurements Table isn’t intended to provide precise values; it’s just a ballpark estimate so you have an idea of how things work in the context of the game. Don’t focus too heavily on precise answers, just use the table for general guidelines."
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Game Play",
 					"entries": [
-						""
+						"A session of the this game resembles an issue of a comic book or an episode of an animated series. The Gamemaster and the players get together and tell a story through the process of playing the game. The length of the game session can vary, from just a couple hours to several hours or more. Some adventures may be completed in a single session while others may take multiple sessions, just as some comic book stories are told in one issue while others span multiple issues, forming a story arc or mini-series. The episodic nature of the game allows you to choose when to stop playing and allows you to start up again at any time you and your friends want.",
+						"Also like a comic book, a game consists of a series of interrelated scenes. Some scenes are fairly straightforward, with the heroes interacting with each other and the supporting cast. In these cases the GM generally just asks the players to describe what their heroes are doing and in turn describes how the other characters react and what they do. There may be some improvisational acting as everyone plays out the roles of their characters. When the action starts happening, such as when the heroes are staving off a disaster or fighting villains, time becomes more crucial and is broken down into action rounds, and the players generally have to make die rolls to see how their heroes do.",
+						{
+							"type": "entries",
+							"name": "Checks",
+							"entries": [
+								"Your hero stands perched on the rooftop, looking down through the skylight. In the abandoned warehouse below, the villain throws the switch that begins lowering your hero’s friends into the vat of boiling acid! You turn to the Gamemaster and say:",
+								{
+									"type": "quote",
+									"entries": [
+										"“I leap down, smashing through the skylight, swing over to the catwalk, kick the bad guy out of the way, then flip the switch to stop the lowering mechanism!”"
+									]
+								},
+								"How exactly do you do that in the game?",
+								"Whenever a character in a game attempts something where the outcome is in doubt, it requires a check of an appropriate trait: ability, skill, power, etc. (also known as a “trait check” or a “[fill-in trait name]” check, like a “Dexterity check,” for example).",
+								"Make a check by rolling the die, adding the appropriate rank, and comparing the result against a difficulty class (DC): if your result equals or exceeds the DC, you succeed. If it does not, then your attempt fails. Sometimes how much you exceed or fail to exceed the DC matters, but often it is simply whether you do or not that counts.",
+								{
+									"type": "abilityGeneric",
+									"text": "Check = d20 + ability vs. difficulty class"
+								},
+								"So in the previous example, how many checks are there? Let’s break things down and look at what the hero is doing:",
+								{
+									"type": "list",
+									"items": [
+										"“…leap down …” Jumping down is literally as easy as falling off a log, so there’s no need for a check here.",
+										"… smashing through the skylight …” Breaking something can require a check, but in this case—a body hurling through Plexiglas—the Gamemaster does not see a point in making one, so this is automatic, too. This is one of the ways the Gamemaster’s judgment and intervention is important in the flow of the game.",
+										"“…swing over to the catwalk …” This part of the action is a bit of a judgment call. If your hero has the Swinging movement effect (see Powers), then this is automatic. Otherwise, it might call for an Acrobatics skill check to pull it off; even then, if your hero is good enough at Acrobatics, the Gamemaster might call this a routine check and waive the need for a roll (see Routine Checks).",
+										"“…kick the bad guy out of the way …” Here’s the real crux of the hero’s action. You want to hit the villain who, naturally, wants to avoid being hit. This calls for a check of your hero’s Fighting ability (which Measures the ability to hit things close-up). If you decided to have your hero shoot or throw something at the villain that would be a check of Dexterity instead.",
+										"“…flip the switch back up …” Assuming the bad guy is out of the way, this is easy, no check required. If the hero’s attempt to hit the villain fails, then the hero still has to get past him in order to do this at all. So it all depends on the outcome of the Fighting check against the bad guy. If the mechanism was especially complex, the GM might ask for a check here, such as using the Technology skill to figure out how it works."
+									]
+								},
+								"As you can see, once you break it down, checks are actually fairly simple. All the Gamemaster has to say in response to the player’s declaration is: “Okay, roll a Fighting check to hit the villain,” letting the rest of the description stand as what happens. Whether or not the hero is successful in stopping the trap depends on the outcome of the attack against the bad guy.",
+								"Of course, if the villain is expecting the hero, there might be another trap, such as part of the catwalk rigged to fall away under him, leaving him dangling above the acid vat and at the villain’s mercy! In that case, the GM would respond to the player’s description: “You smash through the skylight and swing over to the catwalk, but when you do…” and go on to describe what follows. The rest of the hero’s intended action(s) are null and void, because things don’t always go as planned when you’re dealing with cunning supervillains!",
+								"Checks are used to resolve all outcomes so once you understand the basic concept, the rest is easy. For detailed examples of how to use checks in the game and their effects, see Action & Adventure.",
+								{
+									"type": "entries",
+									"name": "Critical Success",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Difficulty Class",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Routine Checks",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Opposed Checks",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Routine Opposition",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Comparison Checks",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Graded Checks",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Circumstance Modifiers",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Team Checks",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Attack Checks",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance Checks",
+									"entries": [
+										""
+									]
+								}
+							]
+						}
 					]
 				}
 			]
