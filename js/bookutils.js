@@ -89,7 +89,7 @@ const BookUtil = {
 		chapter.headers && chapter.headers.forEach(h => {
 			const headerText = BookUtil.getHeaderText(h);
 			const displayText = h.header ? `<span class="bk-contents__sub_spacer--1">\u2013</span>${h.header}` : h; // handle entries with depth
-			const clickFuncText = addOnclick ? (`onclick="BookUtil.scrollClick('${headerText.replace(/'/g, "\\'")}')"`) : "";
+			const clickFuncText = addOnclick ? ("onclick=\"BookUtil.scrollClick('"+headerText.replace(/'/g, "\\'")+"')\"") : "";
 			out += `
 				<li>
 					<a href="${addPrefix || ''}#${bookId},${chapterIndex},${UrlUtil.encodeForHash(headerText)}" data-book="${bookId}" data-chapter="${chapterIndex}" data-header="${headerText}" ${clickFuncText}>${displayText}</a>
@@ -459,12 +459,12 @@ const BookUtil = {
 					tmpString += BookUtil.getContentsItem(i, book, {book, addOnclick: true});
 				}
 				BookUtil.contentObj.append(tmpString);
-				BookUtil.addHeaderHandles(true);
+				BookUtil.addHeaderHandles(false);
 			}
 			var allContents = $(`.contents-item`);
 			BookUtil.thisContents = allContents.filter(`[data-bookid="${UrlUtil.encodeForHash(bookId)}"]`);
 			BookUtil.thisContents.show();
-			allContents.filter(`[data-bookid!="${UrlUtil.encodeForHash(bookId)}"]`).hide();
+			//allContents.filter(`[data-bookid!="${UrlUtil.encodeForHash(bookId)}"]`).hide();
 
 			// Handle Content
 			const fromIndex = BookUtil.bookIndex.find(bk => UrlUtil.encodeForHash(bk.id) === UrlUtil.encodeForHash(bookId));
