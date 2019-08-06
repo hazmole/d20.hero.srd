@@ -1,0 +1,1204 @@
+{
+	"reference": {
+		"name": "Basic Rules",
+		"id": "basic",
+		"contents": [
+			{
+				"name": "Introduction",
+				"headers": [
+					"What You Need to Play",
+					"Using this Site"
+				]
+			},
+			{
+				"name": "The Basics",
+				"headers": [
+					"The Core Mechanic",
+					"The Gamemaster",
+					"The Heros",
+					"Rank & Measures",
+					"Game Play",
+					"Checks",
+					"The Action Round",
+					"Conditions",
+					"Extra Effort",
+					"Victory Points"
+				]
+			},
+			{
+				"name": "Secret Origins",
+				"headers": [
+					"Hero Archetypes",
+					"Hero Design",
+					"Character Points",
+					"Complications",
+					"Background",
+					"Hero Advancement & Improvement",
+					"Character Archetypes"
+				]
+			},
+			{
+				"name": "Abilities",
+				"headers": [
+					"Ability Ranks",
+					"The Abilities",
+					"Altering Abilities",
+					"Defenses & Initiative"
+				]
+			},
+			{
+				"name": "Skills",
+				"headers": [
+					"Skill Basics",
+					"How Skills Work",
+					"Skill Descriptions"
+				]
+			},
+			{
+				"name": "Advantages",
+				"headers": [
+					"Acquiring Advantages",
+					"Advantage Descriptions"
+				]
+			},
+			{
+				"name": "Powers",
+				"headers": [
+					"Acquiring Powers",
+					"Effect Types",
+					"How Powers Work",
+					"Power Effects",
+					"Modifiers",
+					"Descriptors"
+				]
+			},
+			{
+				"name": "Gadgets & Gear",
+				"headers": [
+					"Devices",
+					"Equipment",
+					"General Equipment",
+					"Weapons",
+					"Armor",
+					"Vehicles",
+					"Headquarters",
+					"Constructs"
+				]
+			},
+			{
+				"name": "Action & Adventure",
+				"headers": [
+					"Action Rounds",
+					"Challenges",
+					"Conflicts",
+					"Actions",
+					"Maneuvers",
+					"Recovery"
+				]
+			},
+			{
+				"name": "Gamemastering",
+				"headers": [
+					"Running the Game",
+					"Creating Adventures",
+					"Creating a Series",
+					"Series Frameworks"
+				]
+			}
+		]
+	},
+
+	"data": [
+		{
+			"type": "section",
+			"name": "Introduction",
+			"entries": [
+				"In this game, you take on the role of a costumed superhero safeguarding the world from threats ranging from scheming super-criminals to alien invasions, hulking monsters, natural disasters, and would-be conquerors.",
+				"This site contains all the information you need to play the game. {@b The Basics} chapter starts you off with a quick overview of how the game works. After you read it, flip through the rest of the site and see the various options for creating heroes. Then you can read the following chapters thoroughly to see which options appeal to you the most.",
+				{
+					"type": "section",
+					"name": "What You Need to Play",
+					"entries": [
+						"Here’s what you need to start playing this game:",
+						{
+							"type": "list",
+							"items":[
+								"This website, which contains all of the rules necessary to create a hero and play the game.",
+								"A character sheet (available on the Hero Resources page or via {@link https://www.mutantsandmasterminds.com}.)",
+								"A pencil and some paper.",
+								"At least one twenty-sided die, available from any game or hobby retailer. You may want to have one die for each player, or you can share dice.",
+								"Optionally, you may wish to have printed copies of the many Mutants & Masterminds books available from Green Ronin Publishing (but they are not required in order to play or run a game.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Dice",
+							"entries": [
+								"This game uses a twenty-sided die to resolve actions during the game. References to “a die” or “the die” refer to a twenty-sided die unless stated otherwise. The die is often abbreviated “d20” (for twenty-sided die) or “1d20” (for one twenty-sided die). So a rule asking you to “roll d20” means, “roll a twenty-sided die.”",
+								{
+									"type": "entries",
+									"name": "Modifiers",
+									"entries": [
+										"Sometimes modifiers to the die roll are specified like this: “d20+2,” meaning “roll the twenty-sided die and add two to the number rolled.” An abbreviation of “d20–4” means, “roll the die and subtract four from the result.”"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Percentages",
+									"entries": [
+										"You can also use the die to roll a percent chance of something in increments of 5% – just multiply the value of the die by 5 to get a percentage from 5% (a 1) to 100% (a 20). So if there’s a 45% chance of something, that’s a roll of 9 or less on the die."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Using this Site",
+					"entries": [
+						"The best way to use this site depends on whether you plan to be a player or Gamemaster in your game. The Gamemaster creates the world in which the heroes live and controls all non-player characters (NPCs) such as thugs, cops, and supervillains, as well as the supporting cast. Each player controls a superhero he or she has created, interacting with other player characters as well as with the world and stories created by the Gamemaster.",
+						{
+							"type": "entries",
+							"name": "Players",
+							"entries": [
+								"If you’re creating a hero for this game, see {@b Secret Origins} for a basic overview. The following sections contain all the information you need to create your own hero. You may want to consult with your Gamemaster before creating a hero to find out what sort of series your GM is interested in running, and what types of heroes are appropriate."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gamemasters",
+							"entries": [
+								"If you plan to be a Gamemaster, you should familiarize yourself with this whole website. Start by looking over hero creation in the {@b Secret Origins} section. Then read through the {@b Action & Adventure} section, and familiarize yourself with how to do things in the game. You may want to run a few sample combats using the sample archetypes, just to get a feel for things."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Under the Hood",
+							"entries": [
+								"Throughout this website, you’ll find various Under the Hood boxes. They take a look “behind the scenes” at the logic underlying design decisions and rules, and offer advice on how to handle common problems or issues that might crop up. They give you an inside look at how the game works and how to ensure you and your group get the most out of it."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "The Basic",
+			"entries": [
+				"This site provides a framework for your imagination. It has rules to help determine what happens in your stories and to resolve conflicts between characters and the challenges they face. With it, you can experience adventure as a hero fighting against the forces of evil! Any adventure you can imagine is possible.",
+				"Like all games, this one too has rules. This page looks at the basic rules of the game and how they work, giving you the foundation upon which the rest of the game is built.",
+				{
+					"type": "section",
+					"name": "The Core Mechanic",
+					"entries": [
+						"This game uses a standard, or “core,” game mechanic to resolve actions. Whenever a character attempts an action with a chance of failure, do the following:",
+						{
+							"type": "list",
+							"items": [
+								"Roll a twenty-sided die (or d20).",
+								"Add any relevant modifiers (for game traits like abilities, skills, powers, or circumstances) to the number rolled.",
+								"Compare the total to a number called a {@b difficulty class} (abbreviated {@b DC})."
+							]
+						},
+						"If the result equals or exceeds the difficulty class (set by the GM based on the circumstances), the effort succeeds. If the result is lower than the difficulty class, it fails.",
+						"This simple mechanic is used for nearly everything in the game, with variations based on what modifiers are made to the roll, what determines the difficulty class, and the exact degree of success and failure.",
+						"Remember...",
+						{
+							"type": "middleEnhance",
+							"text": "d20 + modifiers vs. difficulty class"
+						},
+						"... and you understand how to play most of the game!"
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Gamemaster",
+					"entries": [
+						"One of the players in a game takes the role of {@b Gamemaster} (abbreviated {@b GM}). The Gamemaster is responsible for running the game—a combination of writer, director, and referee. The GM creates the adventures for the heroes, portrays the villains and supporting characters, describes the world to the players, and decides the outcome of the heroes’ actions based on the roll of the die and the guidelines given in the rules. It’s a big job, but also a rewarding one, since the Gamemaster gets to develop the world and all the characters in it, along with inventing fun and exciting stories.",
+						"If you’re going to be the Gamemaster, you should read through this whole website carefully. You should have a firm grasp of the rules, since you’re expected to interpret them for the players to help decide what happens in the game. You’ll also help the players develop their own heroes, making sure they fit into the world and have potential for exciting stories in their own right."
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Heros",
+					"entries": [
+						"The other players in a game create heroes, the main characters of their own adventures, like an ongoing comic book or animated series. As a player, you create your hero following these guidelines and the guidance of your Gamemaster. There are several components to creating a hero, described in detail in the linked pages, and outlined briefly below.",
+						{
+							"type": "entries",
+							"name": "Abilities",
+							"entries": [
+								"All characters in this game, from heroes and villains to the average person on the street, are defined by eight {@b abilities}, basic traits each character has to a greater or lesser extent. Abilities tell you how strong, smart, and aware a character is, among other things. The abilities are: Strength, Stamina, Agility, Dexterity, Fighting, Intellect, Awareness, and Presence, described in detail on the {@b Abilities} page.",
+								"Each ability is assigned a {@b rank} from -5 to 20, measuring its effectiveness. A rank of 0 is unremarkable or average, applying no modifier. Rank 2 is pretty well above average. A 5 is truly exceptional, while a 7 is about the most that can be expected from a “normal” human being. Beyond that is superhuman, and a rank of 20 is cosmic-level, far beyond the ability of mere mortals (and even most heroes). abilities can even have negative ranks, for those well below average, as low as –5.",
+								"For more about abilities, see the {@b Abilities} page."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Abilities describe a character’s raw potential or overall capabilities. {@b Skills} are a refinement of those basic abilities into specific areas of endeavor. For example, Agility defines how quick and agile your hero is, but the Acrobatics skill focuses on specific feats of agility like gymnastics, doing back flips, and so forth. Think of abilities as providing a certain baseline, while skills focus in on a particular area of expertise.",
+								"Characters are said to have {@b training} in a skill if they have a rank in that skill. A character not trained in a skill has no rank; only the character’s basic ability applies to checks involving the skill. Trained characters have a skill rank that adds to the basic ability when making checks. In the previous example, we said Acrobatics skill applies to specific feats of agility. If a hero has Agility 6 and is trained in Acrobatics (with a rank of 7) then the character’s bonus for checks involving feats of agility covered by Acrobatics is 13 (6 plus 7). Obviously, training in a skill makes characters more effective at checks involving that skill, often much more.",
+								"For details on what skills are available and what they do, see {@b Skills} page."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Advantages",
+							"entries": [
+								"Halfway between skills and powers, {@b advantages} are minor benefits characters have, allowing them to do things others cannot. They range from special combat maneuvers to things like financial resources, contacts, and so forth.",
+								"Many advantages have no rank, or rather just one rank; a character either has the advantage (and the benefits that it grants) or does not. Other advantages may have multiple ranks, like abilities and skills, measuring their effectiveness.",
+								"For details on the various advantages and what they provide, see {@b Advantages} page."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Powers",
+							"entries": [
+								"{@b Powers} are special abilities beyond those of ordinary human beings. They’re like advantages, only much more so. Whereas an advantage might give your hero a minor special ability, powers grant truly superhuman abilities.",
+								"Those abilities are based on {@b effects}, which describe what a power does in game terms. A power may have just one effect or several, and you can apply various {@b modifiers} to the effects to change how they work, customizing them to get just the right power.",
+								"Power effects have ranks like abilities do, on a scale from 1 to 20 (sometimes more). Unlike abilities, effects do not have ranks of less than 1, since the “average” is not having powers at all!",
+								"Some power effects require checks to use, while others operate automatically.For full descriptions of the various effects powers can have, see {@b Powers} page."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Complications",
+							"entries": [
+								"Finally, heroes often have {@b complications} to overcome. Overcoming such challenges is part of what makes a real hero. Complications range from physical disabilities or personal issues to unusual vulnerabilities. You choose your hero’s complications, defining some of the challenges your hero must overcome in the game. The process of dealing with complications allows your character to be more heroic, discussed later in the rules. See {@b Secret Origins} for more on complications."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Rank & Measures",
+					"entries": [
+						"This game uses the term {@b rank} when talking about the value of a game trait. So you might say a hero has “rank 8 Strength” or simply “Strength 8” (which mean the same thing), or that an effect is rank 5, 9, 15, or what have you. Every quantifiable trait in this game has a rank assigned to it.",
+						"The game also uses a system of {@b measures}, real world values like pounds, seconds, minutes, hours, feet, yards, and miles, to name a few. There is a direct relationship between rank and measure, as shown on the {@b Measurements Table}.",
+						{
+							"type": "table",
+							"caption": "Measurements Table",
+							"colLabels": [
+								"Rank",
+								"Mass",
+								"Time",
+								"Distance",
+								"Volume"
+							],
+							"colStyles": [
+								"col-1 text-align-center",
+								"col-3 text-align-center",
+								"col-2 text-align-center",
+								"col-3 text-align-center",
+								"col-3 text-align-center"
+							],
+							"rows": [
+								[
+									"-5", "1.5 lbs", "1/8 second", "6 inches", "1/32 cft."
+								],
+								[
+									"-4", "3 lbs", "1/4 second", "1 foot", "1/16 cft."
+								],
+								[
+									"-3", "6 lbs", "1/2 second", "3 feet", "1/8 cft."
+								],
+								[
+									"-2", "12 lbs", "1 second", "6 feet", "1/4 cft."
+								],
+								[
+									"-1", "25 lbs", "3 second", "15 feet", "1/2 cft."
+								],
+								[
+									"0", "50 lbs", "6 second", "30 feet", "1 cubic ft. (cft.)"
+								],
+								[
+									"1", "100 lbs", "12 second", "60 feet", "2 cft."
+								],
+								[
+									"2", "200 lbs", "30 second", "120 feet", "4 cft."
+								],
+								[
+									"3", "400 lbs", "1 minute", "250 feet", "8 cft."
+								],
+								[
+									"4", "800 lbs", "2 minutes", "500 feet", "15 cft."
+								],
+								[
+									"5", "1,600 lbs", "4 minutes", "90 feet", "30 cft."
+								],
+								[
+									"6", "3,200 lbs", "8 minutes", "1,800 feet", "60 cft."
+								],
+								[
+									"7", "3 tons", "15 minutes", "1/2 mile", "125 cft."
+								],
+								[
+									"8", "6 tons", "30 minutes", "1 mile", "250 cft."
+								],
+								[
+									"9", "12 tons", "1 hour", "2 miles", "500 cft."
+								],
+								[
+									"10", "25 tons", "2 hours", "4 mile", "1,000 cft."
+								],
+								[
+									"11", "50 tons", "4 hours", "8 miles", "2,000 cft."
+								],
+								[
+									"12", "100 tons", "8 hours", "16 miles", "4,000 cft."
+								],
+								[
+									"13", "200 tons", "16 hours", "30 miles", "8,000 cft."
+								],
+								[
+									"14", "400 tons", "1 day", "60 miles", "15,000 cft."
+								],
+								[
+									"15", "800 tons", "2 days", "120 miles", "32,000 cft."
+								],
+								[
+									"16", "1,600 tons", "4 days", "250 miles", "65,000 cft."
+								],
+								[
+									"17", "3.2 ktons", "1 week", "500 miles", "125,000 cft."
+								],
+								[
+									"18", "6 ktons", "2 weeks", "1,000 miles", "250,000 cft."
+								],
+								[
+									"19", "12 ktons", "1 month", "2,000 miles", "500,000 cft."
+								],
+								[
+									"20", "25 ktons", "2 months", "4,000 miles", "1 million cft."
+								],
+								[
+									"21", "50 ktons", "4 months", "8,000 miles", "2 million cft."
+								],
+								[
+									"22", "100 ktons", "8 months", "16,000 miles", "4 million cft."
+								],
+								[
+									"23", "200 ktons", "1.5 years", "32,000 miles", "8 million cft."
+								],
+								[
+									"24", "400 ktons", "3 years", "64,000 miles", "15 million cft."
+								],
+								[
+									"25", "800 ktons", "6 years", "125,000 miles", "32 million cft."
+								],
+								[
+									"26", "1,600 ktons", "12 years", "250,000 miles", "65 million cft."
+								],
+								[
+									"27", "3,200 ktons", "25 years", "500,000 miles", "125 million cft."
+								],
+								[
+									"28", "6,400 ktons", "50 years", "1 million miles", "250 million cft."
+								],
+								[
+									"29", "12,500 ktons", "100 years", "2 million miles", "500 million cft."
+								],
+								[
+									"30", "25,000 ktons", "200 years", "4 million miles", "1 billion cft."
+								],
+								[
+									"+1", "x2", "x2", "x2", "x2"
+								]
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Using the Measurements Table",
+							"entries": [
+								"The relationship between rank and measure has a number of uses in this game.",
+								"First, the capabilities of many traits are translated from their rank into a measurement. So the amount of weight a Strength rank of 3 can lift is determined by finding the equivalent weight measurement on the table, or 400 lbs. Similarly, the mass, distance, or time affected by various other traits, especially powers, is determined on the Measurements Table.",
+								"Also, because the measurements on the table operate at the same scale (roughly doubling every rank), it is possible to use it to quickly figure out relationships between things like mass, distance, speed, and time:",
+								{
+									"type": "middleEnhance",
+									"text": "Distance Rank = Time Rank + Speed Rank"
+								},
+								"To determine the distance a hero covers in a given amount of time, add the rank of the time to the rank of the hero’s speed, with normal human ground speed being rank 0. So a normal person can cover 2 miles in an hour (time 9 + speed 0 = 9, the rank for 2 miles). In fact, with normal human speeds, you can just directly compare the time and distance columns of the table! As another example, a hero with Flight 12 can cover 8,000 miles in an hour! That’s 12 (speed) + 9 (time) = 21, the rank for 8,000 miles. The same character can go an amazing 16 miles in just 6 seconds (the time of one action round)!",
+								{
+									"type": "middleEnhance",
+									"text": "Time Rank = Distance Rank – Speed Rank"
+								},
+								"Reversing the previous formula, we can also figure out how long it takes someone at a particular speed to cover a given distance, by subtracting the speed rank from the distance rank to get a time rank. So a normal human (speed 0) walking 30 miles (distance 13) takes about 16 hours. A hero with Speed 14 covers the same distance in (13 – 14 = –1) just 3 seconds!",
+								{
+									"type": "middleEnhance",
+									"text": "Throwing Distance Rank = Strength Rank – Mass Rank"
+								},
+								"As another example, the distance rank a hero can throw something equals the hero’s Strength rank minus the mass rank of the object. So a hero with Strength 10 (able to lift 25 tons), picks up a 10-ton truck (mass rank 8). Since 10 – 8 = 2, the hero can then toss the truck rank 2 distance (120 feet)!"
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Things to Know about Measurements",
+							"entries": [
+								"When using the Measurements Table, there are a few important things to keep in mind:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Each rank represents a range of measures.} Time rank 4 is actually all measures between 1 and 2 minutes, and time rank 16 is everything between 2 and 4 days! So if you’re looking for a measurement that’s not on the table, pick the next highest one that is; so 12 hours is a time rank of 13 (more than 8 hours, but less than 16), and 6 miles is a distance rank of 11 (more than 4 miles, but less than 8).",
+										"{@b Like abilities, measures can have negative ranks.} In the time rank example, the time it takes a Speed 14 hero to cover 30 miles is rank –1, or 3 seconds. You can extend the negative side the Measurement Table just like you can the positive side, with each lower rank halving the previous measurement. So rank –6 is half a pound, 1/16th of a second, and 3 inches, for example.",
+										"{@b Don’t directly add ranks.} Putting rank 4 distance together with rank 6 distance is not rank 10 distance! Rank 4 is a distance measurement of 500 feet. Rank 6 is 600 yards (1,800 feet). Adding the measurements, you get about 2,300 feet. If you directly added the ranks, you’d get rank 10 distance, or 4 miles! If you have different ranks, it is best to either handle them separately or convert them to measurements, add the measurements together, and convert them back to a rank. In the previous example, 2,300 feet is rank 7 distance (around half a mile).",
+										"{@b Measurements are approximate.} Especially at the higher end, where each rank represents a wide range of measurements, the Measurements Table isn’t intended to provide precise values; it’s just a ballpark estimate so you have an idea of how things work in the context of the game. Don’t focus too heavily on precise answers, just use the table for general guidelines."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Game Play",
+					"entries": [
+						"A session of the this game resembles an issue of a comic book or an episode of an animated series. The Gamemaster and the players get together and tell a story through the process of playing the game. The length of the game session can vary, from just a couple hours to several hours or more. Some adventures may be completed in a single session while others may take multiple sessions, just as some comic book stories are told in one issue while others span multiple issues, forming a story arc or mini-series. The episodic nature of the game allows you to choose when to stop playing and allows you to start up again at any time you and your friends want.",
+						"Also like a comic book, a game consists of a series of interrelated {@b scenes}. Some scenes are fairly straightforward, with the heroes interacting with each other and the supporting cast. In these cases the GM generally just asks the players to describe what their heroes are doing and in turn describes how the other characters react and what they do. There may be some improvisational acting as everyone plays out the roles of their characters. When the action starts happening, such as when the heroes are staving off a disaster or fighting villains, time becomes more crucial and is broken down into {@b action rounds}, and the players generally have to make die rolls to see how their heroes do.",
+						{
+							"type": "entries",
+							"name": "Checks",
+							"entries": [
+								"Your hero stands perched on the rooftop, looking down through the skylight. In the abandoned warehouse below, the villain throws the switch that begins lowering your hero’s friends into the vat of boiling acid! You turn to the Gamemaster and say:",
+								{
+									"type": "quote",
+									"entries": [
+										"“I leap down, smashing through the skylight, swing over to the catwalk, kick the bad guy out of the way, then flip the switch to stop the lowering mechanism!”"
+									]
+								},
+								"How exactly do you do that in the game?",
+								"Whenever a character in a game attempts something where the outcome is in doubt, it requires a {@b check} of an appropriate trait: ability, skill, power, etc. (also known as a “trait check” or a “[fill-in trait name]” check, like a “Dexterity check,” for example).",
+								"Make a check by rolling the die, adding the appropriate rank, and comparing the result against a {@b difficulty class} ({@b DC}): if your result equals or exceeds the DC, you succeed. If it does not, then your attempt fails. Sometimes how much you exceed or fail to exceed the DC matters, but often it is simply whether you do or not that counts.",
+								{
+									"type": "middleEnhance",
+									"text": "Check = d20 + ability vs. difficulty class"
+								},
+								"So in the previous example, how many checks are there? Let’s break things down and look at what the hero is doing:",
+								{
+									"type": "list",
+									"items": [
+										"“…leap down …” Jumping down is literally as easy as falling off a log, so there’s no need for a check here.",
+										"… smashing through the skylight …” Breaking something can require a check, but in this case—a body hurling through Plexiglas—the Gamemaster does not see a point in making one, so this is automatic, too. This is one of the ways the Gamemaster’s judgment and intervention is important in the flow of the game.",
+										"“…swing over to the catwalk …” This part of the action is a bit of a judgment call. If your hero has the Swinging movement effect (see {@b Powers}), then this is automatic. Otherwise, it might call for an Acrobatics skill check to pull it off; even then, if your hero is good enough at Acrobatics, the Gamemaster might call this a routine check and waive the need for a roll (see {@b Routine Checks}).",
+										"“…kick the bad guy out of the way …” Here’s the real crux of the hero’s action. You want to hit the villain who, naturally, wants to avoid being hit. This calls for a check of your hero’s Fighting ability (which Measures the ability to hit things close-up). If you decided to have your hero shoot or throw something at the villain that would be a check of Dexterity instead.",
+										"“…flip the switch back up …” Assuming the bad guy is out of the way, this is easy, no check required. If the hero’s attempt to hit the villain fails, then the hero still has to get past him in order to do this at all. So it all depends on the outcome of the Fighting check against the bad guy. If the mechanism was especially complex, the GM might ask for a check here, such as using the Technology skill to figure out how it works."
+									]
+								},
+								"As you can see, once you break it down, checks are actually fairly simple. All the Gamemaster has to say in response to the player’s declaration is: “Okay, roll a Fighting check to hit the villain,” letting the rest of the description stand as what happens. Whether or not the hero is successful in stopping the trap depends on the outcome of the attack against the bad guy.",
+								"Of course, if the villain is expecting the hero, there might be another trap, such as part of the catwalk rigged to fall away under him, leaving him dangling above the acid vat and at the villain’s mercy! In that case, the GM would respond to the player’s description: “You smash through the skylight and swing over to the catwalk, but when you do…” and go on to describe what follows. The rest of the hero’s intended action(s) are null and void, because things don’t always go as planned when you’re dealing with cunning supervillains!",
+								"Checks are used to resolve all outcomes so once you understand the basic concept, the rest is easy. For detailed examples of how to use checks in the game and their effects, see {@b Action & Adventure}.",
+								{
+									"type": "table",
+									"caption": "Check Examples",
+									"colLabels": [
+										"Task",
+										"Check Using..."
+									],
+									"colStyles": [
+										"col-5 text-align-center",
+										"col-7 text-align-center"
+									],
+									"rows": [
+										[
+											"Sock a villain in the jaw",
+											"Close Combat skill (or Fighting)"
+										],
+										[
+											"Climb the outside of a building",
+											"Athletics skill (or Strength)"
+										],
+										[
+											"Do a triple-back flip",
+											"Acrobatics skill (or Agility)"
+										],
+										[
+											"Find clues at a crime scene",
+											"Investigation skill (or Intellect)"
+										],
+										[
+											"Notice a ninja sneaking up on you",
+											"Perception skill (or Awareness)"
+										],
+										[
+											"Recall a particular fact",
+											"Expertise skill (or Intellect)"
+										],
+										[
+											"Fix a broken device",
+											"Technology skill"
+										],
+										[
+											"Convince someone of something",
+											"Deception skill (Persuasion skill, if it’s true, or Presence)"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Critical Success",
+									"entries": [
+										"If you roll a 20 on the die when making a check you’ve scored a {@b critical success}. Determine the degree of success normally and then increase it by one degree. This can turn a low-level success into something more significant, but more importantly, it can turn a failure into a full-fledged success! A critical success with an attack check is called a {@b critical hit}.",
+										"For more information regarding critical hits see {@b Action & Adventure}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Difficulty Class",
+									"entries": [
+										"Checks are made against a {@b difficulty class} or {@b DC}, a number set by the GM, which your check must equal or exceed to achieve success. So for a task with a DC of 15 you must roll a check total of 15 or greater to succeed. In some cases, the results of a check vary based on how much higher or lower the result is than the DC, known as its {@b degree} of success or failure.",
+										{
+											"type": "table",
+											"caption": "Difficulty Classes",
+											"colLabels": [
+												"Difficulty (DC)",
+												"Example (Skill Used)"
+											],
+											"colStyles": [
+												"col-5 text-align-center",
+												"col-7 text-align-center"
+											],
+											"rows": [
+												[
+													"Very easy (0)",
+													"Notice something in plain sight (Perception)"
+												],
+												[
+													"Easy (5)",
+													"Climb a knotted rope (Athletics)"
+												],
+												[
+													"Average (10)",
+													"Hear an approaching security guard (Perception)"
+												],
+												[
+													"Tough (15)",
+													"Disarm an explosive (Technology)"
+												],
+												[
+													"Challenging (20)",
+													"Swim against a strong current (Athletics)"
+												],
+												[
+													"Formidable (25)",
+													"Climb a wet, slippery rock-face (Athletics)"
+												],
+												[
+													"Heroic (30)",
+													"Overcome a sophisticated security system (Technology)"
+												],
+												[
+													"Super-heroic (35)",
+													"Convinces the guards, even though you’re not wearing an ID badge and aren’t on their list, they should let you into the building (Deception)"
+												],
+												[
+													"Nigh-impossible (40)",
+													"Track a trained commando through the jungle on a moonless night after 12 days of rainfall (Perception)"
+												]
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Degrees of Success and Failure",
+											"colLabels": [
+												"Check Result Equal or Greater than",
+												"Degree",
+												"Equal or Greater than ... (DC 20)"
+											],
+											"colStyles": [
+												"col-4 text-align-center",
+												"col-4 text-align-center",
+												"col-4 text-align-center"
+											],
+											"rows": [
+												[
+													"DC+15", "Four (Success)", "35"
+												],
+												[
+													"DC+10", "Three (Success)", "30"
+												],
+												[
+													"DC+5", "Two (Success)", "25"
+												],
+												[
+													"DC", "One (Success)", "20"
+												],
+												[
+													"DC-5", "One (Failure)", "15"
+												],
+												[
+													"DC-10", "Two (Failure)", "10"
+												],
+												[
+													"DC-15", "Three (Failure)", "5"
+												],
+												[
+													"DC-20", "Four (Failure)", "0"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Routine Checks",
+									"entries": [
+										"A check normally represents performing a task under a certain amount of pressure, in the midst of the furious action of super-heroic adventure. When the situation is less demanding, you can achieve more reliable results.",
+										"Under routine circumstances—when you are not under any pressure—instead of rolling the die for the check, calculate your result as if you had rolled a 10. This ensures success for average (DC 10) tasks with a modifier of +0 or more. More capable characters (with higher bonuses) can succeed on more difficult checks on a routine basis: a +10 bonus, for example, means a routine check total of 20, able to succeed at DC 20 tasks on a routine basis, and achieve three degrees of success on average (DC 10) tasks on a routine basis.",
+										"The GM decides when circumstances are suitable for performing a task as a routine check. Certain game traits also change what tasks or situations are considered “routine” for a character. Routine checks help speed-up game play and smooth-out some of the variability of die rolling in situations where a character would be expected to perform at a steady, reliable level.",
+										"If a character’s routine check result is not up to a task, the player still has the option to roll the die, since the task is by definition not routine for that character. The idea behind routine checks is to eliminate die-rolling (and possible failures) for things competent characters should be able to accomplish on a regular basis, while still having a good idea of the characters’ capabilities."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Opposed Checks",
+									"entries": [
+										"Some checks are {@b opposed}. They are made against another character’s check result as the DC. Whoever gets the higher result wins. An example is trying to bluff someone. You roll a Deception check, while the GM rolls an Insight check for your target. If you beat the target’s Insight check result, you succeed.",
+										"For ties on opposed checks, the character with the higher bonus wins. If the bonuses are the same, roll d20. On a 1–10, one character wins, and on an 11–20, victory goes to the other character; decide which character is “high” and which is “low” before rolling.",
+										{
+											"type": "table",
+											"caption": "Opposed Check Examples",
+											"colLabels": [
+												"Task",
+												"Skill",
+												"Opposed by"
+											],
+											"colStyles": [
+												"col-4 text-align-center",
+												"col-4 text-align-center",
+												"col-4 text-align-center"
+											],
+											"rows": [
+												[
+													"Sneak up on someone",
+													"Stealth", "Perception"
+												],
+												[
+													"Con someone",
+													"Deception", "Insight"
+												],
+												[
+													"Win a car race",
+													"Vehicles", "Vehicles"
+												],
+												[
+													"Pretend to be someone else",
+													"Deception", "Perception"
+												],
+												[
+													"Steal a key chain unnoticed",
+													"Sleight of Hand", "Perception"
+												],
+												[
+													"Win a trivia contest",
+													"Expertise", "Expertise"
+												],
+												[
+													"Break computer security",
+													"Technology", "Technology"
+												]
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Under the Hood: Using Opposed Checks",
+											"entries": [
+												"Opposed checks offer the Gamemaster a useful tool for comparing the efforts of two characters quickly and easily. This applies not only to skills, but also powers and, in some cases, abilities. If two or more characters compete at a particular task, you can resolve it with an opposed check. The character with the highest check result wins. Of course, you can play things out if you want, but sometimes it’s good to be able to resolve things with a quick opposed check and move on.",
+												"As Gamemaster, if you find yourself without a particular rule to resolve a conflict or contest between characters, the opposed check is your friend. Pick the appropriate skill, power, or ability, make checks for the characters and compare the results to see how they did."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Routine Opposition",
+									"entries": [
+										"In cases where two or more characters are actively opposing each other, both roll checks and compare the results. In some situations, however, one or more of the characters in an opposed check may not even be aware of it! For example, a guard standing watch and looking for intruders would make a Perception check to oppose any attempt at Stealth, but somebody just sitting in a park, not expecting anyone to sneak up on her, isn’t specifically looking. This is a case of {@b routine opposition}, in which case the DC for the active character’s check is the opposing character’s modifier +10, just like the result of a routine check (previously).",
+										"Active defenses in combat, where characters are focusing on other actions, are generally routine opposition, which is why attack checks are made against a DC of 10 + the appropriate defense. Active opposed checks in combat are an option when a character goes on the defensive.See {@b Defend} in {@b Action & Adventure} for further details."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Comparison Checks",
+									"entries": [
+										"In cases where a check is a simple test of one character’s capability against another, with no luck involved, both participants compare their appropriate ranks. The character with the higher rank wins. Just as you wouldn’t roll a “height check” to see who’s taller, you don’t need to make a Strength check to see who’s stronger; Strength rank already tells you that.",
+										"So when two characters arm wrestle, for example, the stronger character wins. If two flying characters race, the faster character wins, and so forth. Note this does not include the use of extra effort (see Extra Effort) to temporarily increase a character’s rank, which can affect the outcome of a comparison check, nor does it include things like maneuvers, tricks, or other ways of trying to affect the outcome. It assumes a straight-out comparison.",
+										"In the case of identical bonuses or ranks, each character has an equal chance of winning. Roll a die: on a 1–10, the first character wins, and on an 11–20, the second character does."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Graded Checks",
+									"entries": [
+										"Much of the time a check is a simple pass-fail, it either succeeds, or it does not. In other cases, it matters just how well the check succeeded, or how badly it failed. This gradation of results is called a {@b graded check} and involves a {@b degree} of success or failure.",
+										"Just rolling a success or failure counts as one degree. Every five full points a check result is over or under the difficulty class adds a degree. Fractions are ignored when determining degrees. So DC 10 check with a result of 13 is one degree of success, just as a result of 8 is one degree of failure.",
+										"There is no limit to the number of degrees a check may have, although more than two degrees of failure rarely matters, and some degrees of success may have no further effect beyond a certain point (once you have succeeded as well as is possible in a given situation). For example, failure on an Acrobatics check to balance means you wobble and spend that turn maintaining your balance, but don’t move. Two degrees of failure mean you lose your balance and fall! After that point, further degrees of failure don’t really matter.",
+										"In cases where a single degree of success or failure is sufficient, the rules simply specify “success” or “failure” without giving a degree.",
+										"Specific types of graded checks—notably skill and resistance checks—give specific results for degrees of success and failure in their descriptions."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Circumstance Modifiers",
+									"entries": [
+										"Some circumstances make checks easier or harder, resulting in a {@b bonus} or {@b penalty} to the check. Characters in a favorable situation are said to {@b have a circumstance bonus} for the check, while those in a disadvantageous situation are said to be {@b have a circumstance penalty}.",
+										"As a general rule, apply a modifier of plus or minus 2 if the character is at a minor bonus or minor penalty, and a modifier of plus or minus 5 if the character is at a major bonus or major penalty for the check:",
+										{
+											"type": "middleEnhance",
+											"text": "+/-2 for Bonus/Penalty"
+										},
+										{
+											"type": "middleEnhance",
+											"text": "+/-5 for Major Bonus/Penalty"
+										},
+										{
+											"type": "inset",
+											"name": "Circumstances and Difficulty",
+											"entries": [
+												"Technically, circumstance modifiers could apply to either the check result of the difficulty class of a check, affecting the character’s performance, or making the task itself easier or harder. If you want to differentiate between circumstance modifiers that affect performance versus those that modify the difficulty of a task, feel free to do so. This game applies circumstance modifiers directly to the check result because it is easier to deal with them consistently, and the game effect is the same: the chance of success changes."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Under the Hood: Circumstances",
+											"entries": [
+												"Circumstance modifiers are another useful Gamemaster tool for handling a lot of the variables that come up during game play. Specific examples are discussed throughout the rules for various types of checks. One example includes the following:",
+												{
+													"type": "entries",
+													"name": "Tools",
+													"entries": [
+														"Some tasks require tools. If tools are needed, the specific items are mentioned in the description of the task or skill. If you don’t have the appropriate tools, you may still be able to attempt the task, but at a major disadvantage, for a –5 circumstance penalty on your check, if the GM decides you can attempt the task at all.",
+														"A character may be able to put together makeshift tools in order to make the check. If the GM allows this, reduce the circumstance penalty to –2."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Team Checks",
+									"entries": [
+										"Sometimes characters work together and help each other out. In this case, one character (usually the one with the highest bonus) is considered the leader of the effort and makes the check normally, while each helper makes the same type of check using the same trait(s) against DC 10. The helpers’ individual degrees of success (and failure!) are added together to achieve the final outcome of the assistance.",
+										"Success grants the leader a +2 circumstance bonus. Three or more total degrees of success grant a +5 circumstance bonus. One degree of failure provides no modifier, but two or more impose a –2 circumstance penalty!",
+										"The GM sets the limit on how many characters can help as part of a team check. Regardless of the number of helpers, the leader’s bonus cannot be more than +5 (for three or more total degrees of success) nor the penalty greater than –2 (for two or more total degrees of failure).",
+										{
+											"type": "middleEnhance",
+											"text": "Team Check = +2 circumstance bonus for one total degree of success"
+										},
+										{
+											"type": "middleEnhance",
+											"text": "+5 circumstance bonus for three or more total degrees of success"
+										},
+										{
+											"type": "middleEnhance",
+											"text": "-2 circumstance penalty for two or more total degrees of failure"
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Attack Checks",
+									"entries": [
+										"An {@b attack check} determines whether or not you hit an opponent in combat with an attack. It is a d20 This is a d20. roll plus your bonus with that particular attack, usually based off of Fighting or Dexterity and appropriate modifiers, like the Close and Ranged Combat skills. The difficulty is your target’s defense class: Parry for close attacks, Dodge for ranged attacks. Certain attacks may target other defenses. If you equal or exceed your target’s defense class result, your attack hits. Otherwise, you miss.",
+										{
+											"type": "middleEnhance",
+											"text": "Attack Check = d20 + attack bonus + modifiers vs. defense class"
+										},
+										"A natural 20 on an attack check (where the die comes up 20) always hits and may be a {@b critical hit} (see {@b Critical Hits} in {@b Action & Adventure} for further information). A natural 1 on an attack check (where the die comes up 1) always misses, regardless of the check total. This differs from normal checks and reflects the variable and unpredictable nature of combat."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance Checks",
+									"entries": [
+										"A {@b resistance check} is an attempt to resist different effects, ranging from damage and injury to traps, poisons, and various power effects. A resistance check is a d20 roll + the appropriate defense (typically Dodge, Fortitude, Toughness, or Will).",
+										{
+											"type": "middleEnhance",
+											"text": "Resistance Check = d20 + defense bonus + modifiers vs. hazard’s DC (generally 10 + rank)"
+										},
+										"The difficulty class is based on the strength of the hazard, such as the rank of an effect or the strength of a disease or poison, typically that value plus 10 (like a routine check). Resistance checks may be graded, with different results at different degrees."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Action Round",
+							"entries": [
+								"When things really start happening in a game, time is broken down into six-second segments called {@b rounds} (sometimes “action rounds”). A round isn’t very much time. Think of it like a page in a comic book, just long enough to go around the table once, with each hero doing something. Each character’s portion of the round is called their {@b turn}.",
+								"The things you can do on your turn are broken up into {@b actions}. There are standard actions, move actions, free actions, and reactions. During a round you can take a standard and a move action (or substitute an additional move action for your standard action) along with as many free actions as you wish and as many reactions as are called for.",
+								{
+									"type": "entries",
+									"name": "Standard Actions",
+									"entries": [
+										"A {@b standard action} generally involves acting upon something, whether it’s an attack or using a power to affect something. You’re limited to one standard action each round."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Move Actions",
+									"entries": [
+										"A {@b move action}, like the name implies, usually involves moving. You can take your move action before or after your standard action, so you can attack then move, or move then attack. You cannot, however, normally split-up your move action before and after your standard action. Move actions also include things like drawing weapons, standing up, and picking up or manipulating objects."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Free Actions",
+									"entries": [
+										"A {@b free action} is something so comparatively minor it doesn’t take significant time, so you can perform as many free actions in a round as the GM considers reasonable. Free actions include things like talking (heroes and villains always find time to say a lot in the middle of a fight), dropping something, ending the use of a power, activating or maintaining some other powers, and so forth."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Reactions",
+									"entries": [
+										"A {@b reaction} is something you do in response to something else. A reaction doesn’t take any significant time, like a free action. The difference is you react in response to something else happening during the round, perhaps not even on your turn. Reactions don’t count against your normal allotment of actions and you can react as often as the circumstances dictate, but only when they dictate."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conditions",
+							"entries": [
+								"Heroes run into their share of difficulties in their work. One way this game measures this is with different {@b conditions}. They are shorthand for the different game modifiers imposed by things from power effects to injuries or fatigue. So, for example, “vulnerable” is a condition where a hero’s active defenses are reduced. An opponent grabbing them or an entangling mass of glue might make heroes vulnerable, or they might be made vulnerable by a foe’s cunning combat maneuver or being caught off-guard. The game effect is the same (the hero’s active defenses are reduced), so it is easier to just refer to the overall condition as “vulnerable” and describe the different situations that cause it",
+								"This section describes the different conditions that can affect characters in this game. If multiple conditions apply, use all of their effects. Some conditions supersede other, lesser, conditions, as given in their descriptions.",
+								{
+									"type": "entries",
+									"name": "Basic Conditions",
+									"entries": [
+										"Each basic condition describes a single game modifier. They are the “building blocks” of conditions, much as effects are the basic building blocks of powers. Indeed, many power effects reference these basic conditions in the descriptions of what they do. See the {@b Powers} chapter for details."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Combined Conditions",
+									"entries": [
+										"Combined conditions are sets of basic conditions tied to a common descriptor. They’re essentially a kind of “shorthand” for talking about a group of basic conditions that go together in a particular circumstance, much like a power is a collection of basic effects.",
+										"The individual conditions making up a combined condition can be resolved individually. For example, if an effect that removes the dazed condition is used on a staggered character (who is dazed and hindered), then the character is no longer dazed, only hindered. Similarly, if an effect imposes a condition that supersedes part of the combined condition, only that part changes. So an effect that stuns a staggered character means the character is now stunned (superseding dazed) and hindered. Similarly, an effect that immobilizes a staggered character leaves the target dazed and immobile (superseding the hindered element of the combined condition)."
+									]
+								},
+								"For each conditions descriptions, see {@5etools Conditions|conditions.html} page."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Extra Effort",
+							"entries": [
+								"Heroes are sometimes called upon to perform feats beyond even their amazing abilities. This calls for extra effort. Players can use extra effort to improve a hero’s abilities in exchange for the hero suffering some fatigue. The benefits of extra effort are not limited by power level due to their extraordinary nature.",
+								{
+									"type": "entries",
+									"name": "Using Extra Effort",
+									"entries": [
+										"Players can have their heroes use extra effort simply by declaring they are doing so. Extra effort is a free action and can be performed at any time during the hero’s turn (but is limited to once per turn). A hero using extra effort gains one of the following benefits:",
+										{
+											"type": "entries",
+											"name": "Action",
+											"entries": [
+												"Gain an additional standard action during your turn, which can be exchanged for a move or free action, as usual."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Bonus",
+											"entries": [
+												"Perform one check with a bonus (+2 circumstance bonus) or improve an existing bonus to a major bonus (+5 circumstance bonus). This bonus can also negate a penalty (–2 circumstance penalty), allowing you to perform the check with no modifier, or reduce a major penalty from a –5 penalty to a –2 penalty."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power",
+											"entries": [
+												"Increase one of your hero’s power effects by +1 rank until the start of the hero’s next turn. Permanent effects cannot be increased in this way."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power Stunt",
+											"entries": [
+												"Temporarily gain and use an Alternate Effect (see {@b Alternate Effect} in {@b Powers}). The Alternate Effect lasts until the end of the scene or until its duration expires, whichever comes first. Permanent effects cannot be used for power stunts."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Resistance",
+											"entries": [
+												"Gain an immediate additional resistance check against an ongoing effect. If you’re compelled or controlled, the fatigue from the extra effort doesn’t affect you until you’re free of the effect; this is so you can’t resist yourself to exhaustion as a way of avoiding being controlled!"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Retry",
+											"entries": [
+												"Certain effects (see the {@b Powers}) require extra effort to retry after a certain degree of failure. The extra effort merely permits another attempt to use the effect; it grants no other benefits."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Speed",
+											"entries": [
+												"Increase the hero’s speed rank by +1 until the start of the hero’s next turn."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Strength",
+											"entries": [
+												"Increase the hero’s Strength rank by +1 until the start of the hero’s next turn."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cost of Extra Effort",
+									"entries": [
+										"At the start of the turn immediately after using extra effort, the hero becomes fatigued. A fatigued hero who uses extra effort becomes exhausted and an exhausted hero who uses extra effort is incapacitated. If you spend a victory point at the start of the turn following the extra effort to remove the fatigue, the hero suffers no adverse effects. In essence, spending a victory point lets you use extra effort without suffering fatigue."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Victory Points",
+							"entries": [
+								"Whether it’s luck, talent, or sheer determination, heroes have something setting them apart from everyone else, allowing them to perform amazing feats under the most difficult circumstances. In this game that “something” is {@b Victory points}. Spending a Victory point can make the difference between success and failure in the game. When you’re entrusted with the safety of the world, that means a lot!",
+								"Victory points allow players to “edit” the plot of the adventure and the rules of the game to a degree. They give heroes the ability to do the amazing things heroes do in the comics, but with certain limits, and they encourage players to make the sort of choices heroes do in the comics, in order to get more Victory points.",
+								"Players start each game session with 1 Victory point. During the adventure they get opportunities to earn more Victory points. Players can use various tokens (poker chips, glass beads, etc.) to keep track of their Victory points, handing them over to the Gamemaster when they spend them. The Gamemaster can likewise give out tokens when awarding Victory points to the players.",
+								"Unspent Victory points don’t carry over to the next adventure; the heroes start out with 1 point again. Use them or lose them! Since Victory points are a finite resource, players need to manage them carefully, spending them at the most opportune times and taking chances to earn them through complications. Playing it “safe” tends to eliminate chances of getting more Victory points while taking risks, facing complications, and, in general, acting like a hero offers rewards that help them out later on.",
+								{
+									"type": "entries",
+									"name": "Using Victory Points",
+									"entries": [
+										"Unless otherwise noted, spending a Victory point is a reaction, taking no time, and you can spend as many Victory points as you have. You can spend Victory points for any of the following:",
+										{
+											"type": "entries",
+											"name": "Edit Scene",
+											"entries": [
+												"You can “edit” a scene to grant your hero an advantage by adding or changing certain details. For example, a hero is fighting a villain with plant-based powers in a scientific lab. You deduce the villain may be weakened by defoliants, so you ask the GM if there are any chemicals in the lab you can throw together to create a defoliant. The Gamemaster requires a Victory point to add that detail and says the right chemicals are close at hand. Now you just have to use them!",
+												"How much players are allowed to “edit” circumstances is up to the individual Gamemaster, but generally Victory points should not be allowed to change any event that has already occurred or any detail already explained in-game. For example, players cannot “edit” away damage or the effects of powers (Victory points already allow this to a limited degree, see the following). The GM may also veto uses of editing that ruin the adventure or make things too easy on the players. This option is intended to give the players more input into the story and allow their heroes chances to succeed, but it shouldn’t be used as a replacement for planning and cleverness, just a way to enhance them."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Heroic Feat",
+											"entries": [
+												"You can spend a Victory point to gain the benefits of one rank of a advantage you don’t already have until the end of your next turn (see {@b Advantages}). You must be capable of using the advantage and cannot gain the benefits of fortune advantages, only other types. If the advantage has any prerequisites, you must have them to gain the benefits of the advantage as a heroic feat."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Improve Roll",
+											"entries": [
+												"One Victory point allows you to re-roll any die roll you make and take the better of the two rolls. On a result of 1 through 10 on the second roll, add 10 to the result, an 11 or higher remains as-is (so the re-roll is always a result of 11-20). You must spend the Victory point to improve a roll before the GM announces the outcome of your initial roll. You cannot spend Victory points on die rolls made by the GM or other players without the Luck Control effect (see {@b Powers})."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Inspiration",
+											"entries": [
+												"You can spend a Victory point to get sudden inspiration in the form of a hint, clue, or bit of help from the GM. It might be a way out of the villain’s fiendish deathtrap, a vital clue for solving a mystery, or an idea about the villain’s weakness. It’s up to the GM exactly how much help the players get from inspiration and how it manifests, but since Victory points are a very limited resource, the help should be in some way significant."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Instant Counter",
+											"entries": [
+												"You can spend a Victory point to attempt to counter an effect used against you as a reaction. See {@b Countering Effects} in {@b Powers} for details."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Recover",
+											"entries": [
+												"You can spend a Victory point to recover faster. A Victory point allows you to immediately remove a dazed, fatigued, or stunned condition, without taking an action. Among other things, this option allows you to use extra effort (previously) without suffering any fatigue. Spending a Victory point to recover also lets you convert an exhausted condition into a fatigued condition."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Earning Victory Points",
+									"entries": [
+										"In comic book stories, heroes often confront the villain(s) and deal with various setbacks. Perhaps the villain defeats or outwits them in the first couple scenes. Maybe one or more of the heroes have to overcome a personal problem. The villain may have a secret the heroes need to discover, and so forth. By the end of the story, the heroes have overcome these challenges and they’re ready to take on the villain.",
+										"This game reflects this kind of story structure through the awarding of Victory points. The heroes gain additional Victory points as an adventure progresses. When the going gets tough, the heroes get tougher, because they get Victory points to help them overcome future challenges.",
+										"Heroes get Victory points from complications, acts of heroism, and roleplaying. See {@b Complications} in {@b Secret Origins}, for details."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Secret Origins",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Abilities",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Skills",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Advantages",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Powers",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Gadgets & Gear",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Action & Adventure",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Gamemastering",
+			"entries": [
+				"",
+				{
+					"type": "section",
+					"name": "",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								""
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
