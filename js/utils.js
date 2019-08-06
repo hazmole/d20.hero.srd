@@ -2042,6 +2042,10 @@ String.prototype.last = String.prototype.last ||
 		return this[this.length - 1];
 	};
 
+RegExp.escape = function (string) {
+	return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
+};
+
 function noModifierKeys (e) {
 	return !e.ctrlKey && !e.altKey && !e.metaKey;
 }

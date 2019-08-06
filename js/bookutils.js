@@ -89,15 +89,15 @@ const BookUtil = {
 		chapter.headers && chapter.headers.forEach(h => {
 			const headerText = BookUtil.getHeaderText(h);
 			const displayText = h.header ? `<span class="bk-contents__sub_spacer--1">\u2013</span>${h.header}` : h; // handle entries with depth
+			const clickFuncText = addOnclick ? (`onclick="BookUtil.scrollClick('${headerText.replace(/'/g, "\\'")}')"`) : "";
 			out += `
 				<li>
-					<a href="${addPrefix || ''}#${bookId},${chapterIndex},${UrlUtil.encodeForHash(headerText)}" data-book="${bookId}" data-chapter="${chapterIndex}" data-header="${headerText}">${displayText}</a>
+					<a href="${addPrefix || ''}#${bookId},${chapterIndex},${UrlUtil.encodeForHash(headerText)}" data-book="${bookId}" data-chapter="${chapterIndex}" data-header="${headerText}" ${clickFuncText}>${displayText}</a>
 				</li>
 			`;
-			// ${addOnclick ? `onclick="BookUtil.scrollClick('${headerText.replace(/'/g, "\\'")*/}')" : ""}
 		});
-		out +=
-			"</ul>";
+		out += "</ul>";
+
 		return out;
 	},
 
@@ -468,7 +468,6 @@ const BookUtil = {
 
 			// Handle Content
 			const fromIndex = BookUtil.bookIndex.find(bk => UrlUtil.encodeForHash(bk.id) === UrlUtil.encodeForHash(bookId));
-		
 			document.title = `${fromIndex.name}`+FMT("site_title");
 			$(`.book-head-header`).html(cleanName(fromIndex.name));
 			//$(`.book-head-message`).html("瀏覽內容。按下F以搜尋，按下G以前往指定頁數。");
@@ -498,7 +497,8 @@ const BookUtil = {
 
 	_renderer: new Renderer().setEnumerateTitlesRel(true),
 	async pLoadBook () { //fromIndex, bookId, hashParts) {
-		return await DataUtil.loadJSON(BookUtil.baseDataUrl);
+		if(!IS_LOCAL_TEST) return await DataUtil.loadJSON(BookUtil.baseDataUrl);
+		else return getFakeData();
 	},
 
 	handleReNav (ele) {

@@ -207,8 +207,7 @@ function Renderer () {
 				case "modifier": this._renderModifier(entry, textStack, meta, options); break;
 
 				// block
-				case "abilityDc": this._renderAbilityDc(entry, textStack, meta, options); break;
-				case "abilityAttackMod": this._renderAbilityAttackMod(entry, textStack, meta, options); break;
+				case "middleEnhance": this._renderMiddleEnhance(entry, textStack, meta, options); break;
 				case "abilityGeneric": this._renderAbilityGeneric(entry, textStack, meta, options); break;
 
 				// inline
@@ -617,15 +616,9 @@ function Renderer () {
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
 	}
 
-	this._renderAbilityDc = function (entry, textStack, meta, options) {
+	this._renderMiddleEnhance = function (entry, textStack, meta, options) {
 		this._renderPrefix(entry, textStack, meta, options);
-		textStack[0] += `<div class='text-align-center'><b>${entry.name}豁免DC</b> = 8 + 你的熟練加值 + 你的${Parser.attrChooseToFull(entry.attributes)}</div>`;
-		this._renderSuffix(entry, textStack, meta, options);
-	};
-
-	this._renderAbilityAttackMod = function (entry, textStack, meta, options) {
-		this._renderPrefix(entry, textStack, meta, options);
-		textStack[0] += `<div class='text-align-center'><b>${entry.name}攻擊調整值</b> = 你的熟練加值 + 你的${Parser.attrChooseToFull(entry.attributes)}</div>`;
+		textStack[0] += `<div class='text-align-center'><h4>${entry.text}</h3></div>`;
 		this._renderSuffix(entry, textStack, meta, options);
 	};
 

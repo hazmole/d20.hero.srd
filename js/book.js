@@ -26,3 +26,9 @@ window.onload = function load () {
 
 const HASH_TO_DATAFILE = {};
 HASH_TO_DATAFILE["basic"] = "basicrules.json";
+
+const IS_LOCAL_TEST = false;
+function getFakeData(){
+return {}
+
+}
