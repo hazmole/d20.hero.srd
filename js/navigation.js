@@ -26,6 +26,8 @@ class NavBar {
 		
 		//addLi(ulPower, "???.html", FMT("Descriptors"));
 		//addLi(ulPower, "???.html", FMT("Modifiers"));
+		addLi(ulPlayer, "", FMT("nav_archetype"));
+		addLi(ulPlayer, "", FMT("nav_skill"));
 		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
 		addLi(ulPlayer, "powereffects.html", FMT("nav_powereffect"));
 		addLi(ulPlayer, "conditions.html", FMT("nav_condition"));

@@ -1615,17 +1615,375 @@
 			"type": "section",
 			"name": "Abilities",
 			"entries": [
-				"",
+				"Everyone has certain basic {@b abilities}: how strong, fast, smart, and clever they are. These abilities influence most things your character does. Stronger characters can lift greater weights, more agile characters have better balance, tougher characters can soak up more damage, and so forth.",
+				"All characters have eight basic abilities: Strength (Str), Stamina (Sta), Dexterity (Dex), Agility (Agl), Fighting (Ftg), Intellect (Int), Awareness (Awe), and Presence (Pre). Strength, Dexterity, Agility and Stamina are {@b physical abilities}, whereas Fighting, Intellect, Awareness, and Presence are {@b mental abilities}. Each above-average ability provides a bonus on certain die rolls; while below average abilities apply a penalty.",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Ability ranks",
 					"entries": [
-						"",
+						"Each ability has a {@b rank} associated with it, based on how above or below average it is. Abilities start at rank 0, the baseline average for an adult human being. They can go as low as –5 (truly terrible) and as high as 20, with higher values reserved for truly cosmic beings and forces.",
+						"The ability rank is added to, or subtracted from, die rolls when your character does something related to that ability. For example, your Strength rank affects the amount of damage you do when punching someone. Your Intellect rank comes into play when you roll skills based on Intellect, and so forth. Sometimes your rank is used to calculate another value, such as when you use your Agility to determine how good you are at avoiding harm with your reflexes (your Dodge defense).",
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Buying Ability Ranks",
 							"entries": [
-								""
+								"You choose your hero’s ability ranks by spending character points on them. Increasing an ability rank by 1 costs 2 character points, so putting two points into Strength, for example, raises it from 0 to 1. Remember a rank of 0 is average, 2 is a fair amount of talent or natural ability, 3 is exceptional, 4 extraordinary, and so forth. (See the {@b Ability Benchmarks} table for guidelines.)",
+								{
+									"type": "table",
+									"caption": "Ability Benchmarks",
+									"colLabels": [
+										"Rank",
+										"Description"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["-5", "Completely inept or disabled"],
+										["-4", "Weak; infant"],
+										["-3", "Younger child"],
+										["-2", "Child, elderly, impaired"],
+										["-1", "Below average; teenager"],
+										["0", "Average adult"],
+										["1", "Above average"],
+										["2", "Well above average"],
+										["3", "Gifted"],
+										["4", "Highly gifted"],
+										["5", "Best in a nation"],
+										["6", "One of the best in the world"],
+										["7", "Best ever; peak of human achievement"],
+										["8", "Low superhuman"],
+										["10", "Moderate superhuman"],
+										["13", "High superhuman"],
+										["15", "Very high superhuman"],
+										["20", "Cosmic"]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Reducing Abilities",
+									"entries": [
+										"You can also lower one or more of your character’s ability ranks from the starting value of 0. Each rank you lower an ability gives you an additional two character points to spend elsewhere. You cannot lower an ability rank below –5, which is itself a serious deficiency.",
+										{
+											"type": "middleEnhance",
+											"text": "Ability Cost = 2 character points per +1 to an ability rank."
+										},
+										{
+											"type": "middleEnhance",
+											"text": "Gain 2 bonus character points per -1 to an ability rank."
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Beyond Human",
+							"entries": [
+								"Although a rank of 7 is defined as “the peak of human achievement” in an ability on the {@b Ability Benchmarks} table, a character with an ability rank greater than 7 isn’t necessarily “non-human,” merely superhuman in comparison to ordinary people. Many “normal human” characters in the comics have truly superhuman abilities, particularly mental abilities. A character can have a superhuman ability rank without necessarily being anything other than an amazingly talented, well-trained human being. The limits of what “normal” people can accomplish is up to the Gamemaster and depends very much on the style of the game."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Abilities",
+					"entries": [
+						"Here are descriptions of the eight abilities and what they represent.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Strength (Str)",
+									"entries": [
+										"Strength measures sheer muscle power and the ability to apply it. Your Strength rank applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Damage dealt by your unarmed and strength-based attacks.",
+												"How far you can jump (based on an Athletics skill check).",
+												"The amount of weight you can lift, carry, and throw.",
+												"Athletics skill checks."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Stamina (Sta)",
+									"entries": [
+										"Stamina is health, endurance, and overall physical resilience. Stamina is important because it affects a character’s ability to resist most forms of damage. Your Stamina modifier applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Toughness defense, for resisting damage.",
+												"Fortitude defense, for resisting effects targeting your character’s health.",
+												"Stamina checks to resist or recover from things affecting your character’s health when a specific defense doesn’t apply."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Agility (Agl)",
+									"entries": [
+										"Agility is balance, grace, speed, and overall physical coordination. Your Agility rank applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Dodge defense, for avoiding ranged attacks and other hazards.",
+												"Initiative bonus, for acting first in combat.",
+												"Acrobatics and Stealth skill checks.",
+												"Agility checks for feats of coordination, gross movement, and quickness when a specific skill doesn’t apply."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dexterity (Dex)",
+									"entries": [
+										"Dexterity is a measure of hand-eye coordination, precision, and manual dexterity. Your Dexterity rank applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Attack checks for ranged attacks.",
+												"Sleight of Hand and Vehicles skill checks.",
+												"Dexterity checks for feats of fine control and precision when a specific skill doesn’t apply."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fighting (Ftg)",
+									"entries": [
+										"Fighting measures your character’s ability in close combat, from hitting a target to ducking and weaving around any counter-attacks. Your Fighting rank applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Attack checks for close attacks.",
+												"Parry defense, for avoiding close attacks."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Intellect (Int)",
+									"entries": [
+										"Intellect covers reasoning ability and learning. A character with a high Intellect rank tends to be knowledgeable and well-educated. Your Intellect modifier applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Expertise, Investigation, Technology, and Treatment skill checks.",
+												"Intellect checks to solve problems using sheer brain-power when a specific skill doesn’t apply."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Awareness (Awe)",
+									"entries": [
+										"While Intellect covers reasoning, Awareness describes common sense and intuition, what some might call “wisdom.” A character with a high Intellect and a low Awareness may be an “absentminded professor” type, smart but not always aware of what’s going on. On the other hand, a not so bright (low Intellect) character may have great deal of common sense (high Awareness). Your Awareness modifier applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Will defense, for resisting attacks on your mind.",
+												"Insight and Perception skill checks.",
+												"Awareness checks to resolve matters of intuition when a specific skill doesn’t apply."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Presence (Pre)",
+									"entries": [
+										"Presence is force of personality, persuasiveness, leadership ability and (to a lesser degree) attractiveness. Presence is useful for heroes who intend to be leaders as well as those who strike fear into the hearts of criminals with their presence. Your Presence modifier applies to:",
+										{
+											"type": "list",
+											"items": [
+												"Deception, Intimidation, and Persuasion skill checks.",
+												"Presence checks to influence others through force of personality when a specific skill doesn’t apply."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enhanced Abilities",
+							"entries": [
+								"Some ability ranks—or portions of them—may be acquired as Enhanced Traits, as described in Powers. Enhanced Abilities are superhuman powers rather than natural. The key differences between Enhanced Abilities and normal ability ranks are Enhanced Abilities can be nullified (normal abilities cannot, see Nullify) and Enhanced Abilities can have power modifiers and be used for power stunts with extra effort (normal abilities cannot, see Extra Effort).",
+								"Enhanced Abilities and normal abilities have the same cost (2 character points per +1 ability rank). The player decides if a character’s ability rank is normal or enhanced and, if it is enhanced, how much of it is enhanced."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Altering Abilities",
+					"entries": [
+						"Over the course of play, your hero’s ability ranks may change for the following reasons:",
+						{
+							"type": "list",
+							"items": [
+								"Some power effects raise or lower ability ranks (see {@b Powers} chapter).",
+								"ou can improve ability ranks permanently by spending earned character points on them, but you cannot increase an ability rank above the limits set by the series’ power level (see {@b Power Level} chapter)."
+							]
+						},
+						"Whenever an ability rank changes, all traits associated with the ability change as well. So if you increase your character’s Agility, his Agility-based skills and Dodge defense also increase. Likewise, if the hero’s Agility bonus decreases, his Agility-based skills and Dodge suffer.",
+						{
+							"type": "entries",
+							"name": "Debilitated Abilities",
+							"entries": [
+								"If one of your hero’s ability ranks drops below –5 for any reason, that ability is said to be debilitated and the character suffers more serious effects than just a penalty to certain traits and rolls, as follows:",
+								{
+									"type": "list",
+									"items": [
+										"Debilitated Strength, Agility, or Dexterity means the hero collapses: {@condition defenseless}, {@condition immobilized}, and {@condition stunned} (although still conscious and aware).",
+										"Debilitated Stamina means the hero is {@condition dying}, and suffers a –5 modifier on Fortitude checks to avoid death on top of it.",
+										"Debilitated Fighting means the hero is {@condition dazed} and {@condition defenseless}, and cannot make close attacks.",
+										"Debilitated Intellect, Awareness, or Presence means the hero is {@condition unaware} and remains so until restored to at least a –5 rank in the ability."
+									]
+								},
+								"Debilitated ability ranks usually result from a power affecting your character. Ability ranks cannot be lowered any further once they are debilitated."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Absent Abilities",
+							"entries": [
+								"Rather than having a rank of –5 in a given ability, some things or creatures actually lack an ability altogether. These beings automatically fail any check requiring the absent ability. The additional effects of an absent ability are as follows:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Strength}: A creature with no Strength is incapable of exerting any physical force, either because it has no physical form (like an incorporeal ghost) or simply can’t move (like a tree).",
+										"{@b Stamina}: A creature with no Stamina has no physical body (like a ghost) or is not a living being (such as a robot or other construct). Creatures with no Stamina suffer and recover from damage like inanimate objects (see Damaging Objects under the Damage effect). They are immune to fatigued and exhausted conditions, but cannot exert extra effort. Creatures with no Stamina are often—but not necessarily—immune to many of the other things affecting living beings as well (see Immunity). They have no Fortitude defense.",
+										"{@b Dexterity}: A creature with no Dexterity cannot manipulate objects and hence cannot make physical attacks.",
+										"{@b Agility}: A creature with no Agility is unable to move its body under its own power and has no Dodge defense.",
+										"{@b Fighting}: A creature with no Fighting is incapable of making any sort of close attack (but may still be able to launch ranged attacks, if it has Dexterity).",
+										"{@b Intellect}: A creature with no Intellect is an automaton, lacking free will and operating entirely on simple instinct or preprogrammed instructions. Anything with no Intellect is immune to mental effects and interaction skills and has no Will defense.",
+										"{@b Awareness}: Anything with no Awareness is completely unaware and also has no Presence. It is an inanimate object, not a creature. Objects are immune to mental effects and interaction skills, and have no defenses apart from Toughness (and Fortitude, if they are alive).",
+										"{@b Presence}: Creatures without Presence are unable to interact and immune to interaction skills. They have no Will defense."
+									]
+								},
+								"Lacking an ability is –10 character points; that is, it gives the character an additional 10 character points to spend elsewhere, similar to having a –5 rank in an ability, but with different effects. Heroes in this system cannot be absent an ability without Gamemaster permission, as it can have significant effects on the character and the game.",
+								"Absent abilities cannot be weakened (see {@b Weaken} effect in the {@b Powers} chapter) or debilitated, since they are not present at all in the first place!",
+								"Inanimate objects have no abilities other than their Toughness. Animate, but nonliving, constructs such as robots or zombies have Strength, Agility, and Dexterity, and may have ranks of Awareness and Presence (if aware of their environment or capable of interaction), and Fighting (if able to make close attacks). They may have Intellect (if capable of independent thought), but have no Stamina (since they are not living things). See {@b Constructs} in the {@b Gadgets & Gear} chapter for more information."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Defenses & Initiative",
+					"entries": [
+						"Heroes face many hazards in their line of work, from attacks by villainous foes to traps and fiendish mind control. A hero’s {@b defenses} are abilities used to avoid such things, determining the difficulty to affect a hero with an attack, or to make resistance checks against them. Each defense is based on a particular ability, modified by the hero’s advantages and powers. For more on defenses in general and how you use them, see {@b Action & Adventure}.",
+						{
+							"type": "entries",
+							"name": "Defenses",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Dodge",
+											"entries": [
+												"Dodge defense is based on Agility rank. It includes reaction time, quickness, nimbleness, and overall coordination, used to avoid ranged attacks or other hazards where reflexes and speed are important."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fortitude",
+											"entries": [
+												"Fortitude defense is based on Stamina and measures health and resistance to threats like poison or disease. It incorporates constitution, ruggedness, metabolism, and immunity."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Parry",
+											"entries": [
+												"Parry defense is based on Fighting. It is the ability to counter, duck, or otherwise evade a foe’s attempts to strike you in close combat through superior fighting ability."
+											]
+										}
+										,
+										{
+											"type": "entries",
+											"name": "Toughness",
+											"entries": [
+												"Toughness defense is based on Stamina and is resistance to direct damage or harm, and overall durability."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Will",
+											"entries": [
+												"Will defense is based on Awareness rank. It measures mental stability, level-headedness, determination, self-confidence, self-awareness, and willpower, used to resist mental or spiritual attacks."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defense Rank",
+									"entries": [
+										"Your base defense ranks are equal to your ranks in their associated abilities. You can increase your defenses above the values granted by your ability ranks by spending character points: 1 character point grants you an additional rank in a defense, up to the limits imposed by power level (see {@b Power Level}).",
+										{
+											"type": "middleEnhance",
+											"text": "Defense Cost = 1 character point per +1 rank"
+										},
+										"With the Enhanced Trait effect (see {@b Powers} chapter) you can also improve your defenses with powers at the same cost, 1 point per rank.",
+										{
+											"type": "entries",
+											"name": "Toughness Rank",
+											"entries": [
+												"The exception is Toughness, which can only be increased above your base Stamina rank using advantages and powers, not by direct spending of character points. This reflects that greater-than-normal Toughness is virtually always some sort of special ability. See {@b Advantages} and {@b Powers} chapter for various options for improving Toughness, notably the defensive Roll advantage and the Protection effect."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Active Defenses",
+											"entries": [
+												"Dodge and Parry defenses require a measure of action to be fully effective. Limits on your mobility, focus, and reaction time adversely affect them. If you are vulnerable, your Dodge and Parry defense ranks are halved (divide their normal values by 2 and round up), and if you are {@condition defenseless}, they are both reduced to 0!"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defense Class",
+									"entries": [
+										"One use of defenses is determining a {@b defense class}, or the difficulty class to affect a target with a particular attack. This is the appropriate defense, plus 10, just like a routine check (indeed, it is essentially a measure of the character’s “routine” defense). So hitting a character with a ranged attack goes against Dodge defense, giving the attack a DC of (Dodge + 10). Similarly, affecting someone with a mental power goes against Will defense, with a DC of (Will + 10), and so forth. This is referred to as “targeting” a defense, such as “targets Dodge” or “targets Will”.",
+										"The main defense class traits are Dodge, Parry, and Will."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance Checks",
+									"entries": [
+										"Defenses are also used to measure the ability to overcome certain effects, involving a {@b resistance check} of the defense plus a die roll against a difficulty class determined by the effect or hazard. So you might make a Fortitude resistance check for your hero to overcome a toxin, for example, or a Dodge resistance check to avoid a trap just as it is triggered, and so on. This is referred to as “resisting,” such as “resisted by Fortitude” or “resisted by Dodge”.",
+										"The main resistance check traits are Dodge, Fortitude, Toughness, and Will."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Initiative",
+							"entries": [
+								"When things start happening quickly, characters use their {@b initiative} bonuses to determine who goes first. Each character involved in a conflict makes a check of d20 + initiative modifier, which is:",
+								{
+									"type": "middleEnhance",
+									"text": " Initiative Modifier = Agility + Advantages (Improved Initiative) + Power Modifiers"
+								},
+								"Characters then act in initiative order, from highest to lowest. For details see {@b Action & Adventure} chapter."
 							]
 						}
 					]
@@ -1636,17 +1994,251 @@
 			"type": "section",
 			"name": "Skills",
 			"entries": [
-				"",
+				"Heroes sneak into the closely guarded lairs of criminal masterminds, infiltrate alien computer systems, and build devices beyond the understanding of modern science. They can piece together obscure clues to a villain’s latest plot, run along tightropes, and pilot vehicles through obstacle courses, all in a day’s work. In Mutants & Masterminds, they do so through the use of various skills, described in this chapter",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Skill Basics",
 					"entries": [
-						"",
+						"Skills are learned abilities, a combination of training (the skill) and natural talent (an ability rank). Each skill has a rank, used as a bonus to the die roll when using the skill. To make a skill check, roll:",
+						{
+							"type": "middleEnhance",
+							"text": "d20 + skill rank + ability modifier + miscellaneous modifiers"
+						},
 						{
 							"type": "entries",
-							"name": "",
 							"entries": [
-								""
+								{
+									"type": "entries",
+									"name": "Skill Rank",
+									"entries": [
+										"Your rank in a skill, based on the points you have invested in that skill. If you have ranks in a skill you’re considered {@b trained} in that skill. You can use some skills even if you don’t have any ranks in them, known as using a skill {@b untrained}. Some skills may not be used untrained."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ability Modifier",
+									"entries": [
+										"Each skill has an {@b ability modifier} applied to the skill’s checks. Each skill’s ability modifier is noted in its description and on {@b Skills} table. If you use a skill untrained, the ability modifier still applies to the skill check."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Miscellaneous Modifiers",
+									"entries": [
+										"Miscellaneous modifiers to skill checks include modifiers for circumstances, and bonuses from advantages or powers, among others.",
+										"The higher the total, the better the result. You’re usually looking for a total that equals or exceeds a particular difficulty class (DC), which may be based on another character’s traits."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Critical Success",
+									"entries": [
+										"If you roll a 20 on the die when making a check you’ve scored a {@b critical success}. Determine the degree of success normally and then increase it by one degree. This can turn a low-level success into something more significant, but more importantly, it can turn a failure into a full-fledged success!"
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Skill Benchmarks",
+							"entries": [
+								"You can get a general idea of just how good a particular character’s skill bonus is using the general difficulty class guidelines given in The {@b Basics} along with the rules for routine checks (see {@b Routine Checks} in that chapter).",
+								"For example, a +5 total skill modifier means the character can routinely achieve a result of 15 (a tough task). Safe to say the character is a pro, able to routinely handle tasks that would prove too much for someone less skilled. A character with a +10 skill modifier achieve a DC 20 (challenging task) on a routine basis, a real level of expertise, while a +15 modifier can routinely complete DC 25 (formidable) tasks. At the high end, a +30 skill modifier can routinely accomplishing the nigh impossible (DC 40 tasks)!"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Acquiring Skills",
+							"entries": [
+								"Give your hero skill ranks by spending character points: 2 skill ranks per character point. Skill ranks do not all need to be assigned to the same skill. You can split them between different skills. Characters can perform some tasks without any training, using only raw talent (as defined by their ability ranks), but skilled characters are better at such things. Those with the right combinations of skills and advantages can even hold their own against super-powered opponents.",
+								{
+									"type": "middleEnhance",
+									"text": "Skill Cost = 1 character point per 2 skill ranks."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "How Skills Work",
+					"entries": [
+						"When you use a skill, make a skill check to see how you do. Based on the circumstances, your result must match or beat a particular number to use the skill successfully. The harder the task, the higher the number you need to roll. (See {@b Checks} for more information.)",
+						{
+							"type": "entries",
+							"name": "Untrained Skill Checks",
+							"entries": [
+								"Generally, if you attempt a task requiring a skill you don’t have, you make a skill check as normal. Skill rank doesn’t apply because you don’t have any ranks in the skill. You do get other modifiers, however, such as the skill’s ability modifier.",
+								"Many skills can only be used if you are trained in them. Skills that cannot be used untrained are marked with a “No” in the “Untrained” column on the {@b Skills} table and listed as “Trained Only” in their descriptions. Attempts to use these skills untrained automatically fail. In some cases, a skill may have both trained and untrained aspects; if you do not have any ranks in that skill, you can only use the untrained ones."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Interaction Skills",
+							"entries": [
+								"Certain skills, called {@b interaction skills}, are aimed at dealing with others through social interaction. Interaction skills allow you to influence the attitudes of others and get them to cooperate with you in one way or another. Since interaction skills are intended for dealing with others socially, they have certain requirements.",
+								"First, you must be able to interact with the subject(s) of the skill. They must be aware of you and able to understand you. If they can’t hear or understand you for some reason, you have a –5 circumstance penalty to your skill check (see {@b Circumstance Modifiers} in {@b The Basics}).",
+								"Interaction skills work best on intelligent subjects, ones with an Intellect rank of –4 or better. You can use them on creatures with Int –5, but again with a –5 circumstance penalty; they’re just too dumb to get the subtleties of your point. You can’t use interaction skills at all on subjects lacking one or more mental abilities. (Try convincing a rock to be your friend—or afraid of you—sometime.) The Immunity effect (see {@b Powers}) can also render characters immune to interaction skills.",
+								"You can use interaction skills on groups of subjects at once, but only to achieve the same result for everyone. So you can attempt to use Deception or Persuasion to convince a group of something, or Intimidation to cow a crowd, for example, but you can’t convince some individuals of one thing and the rest of another, or intimidate some and not others. The GM decides if a particular use of an interaction skill is effective against a group, and may apply modifiers depending on the situation. The general rules for interaction still apply: everyone in the group must be able to hear and understand you, for example, or you suffer a –5 on your skill check against them. Mindless subjects are unaffected, as usual."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Manipulation Skills",
+							"entries": [
+								"Some skills, called {@b manipulation skills}, require a degree of fine physical manipulation. You need prehensile limbs and a Strength rank or some suitable Precise power effect to use manipulation skills effectively. If your physical manipulation capabilities are impaired in some fashion (such as having your hands tied or full use of only one hand), the GM may impose a circumstance modifier based on the severity of the impairment. Characters lacking the ability to use manipulation skills can still have ranks in them and use them to oversee or assist the work of others (see {@b Team Checks})."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Skill Descriptions",
+					"entries": [
+						"This section describes the skills available to characters, including their common uses and modifiers. Characters may be able to use skills for tasks other than those given here. The GM sets the DC and decides the results in those cases. The format for skill descriptions is given here. Items that do not apply are omitted from the skill’s description.",
+						{
+							"type": "entries",
+							"name": "Skill Name",
+							"entries": [
+								"The skill name line and the line below it contain the following information:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Skill Name}: What the skill is called. GMs may feel free to change the names of some skills to better suit the style of their game, if desired.",
+										"{@b Ability}: The ability that applies a modifier to the skill check.",
+										"{@b Trained Only}: If “Trained Only” is included on the line below the skill’s name, you must have at least 1 rank in the skill in order to use it. If “Trained Only” is absent, untrained characters (those with 0 ranks in the skill) may use it. Some skills may have trained only aspects, in which case this notation is still listed, and the untrained aspects are called out in the skill description.",
+										"{@b Interaction}: If “Interaction” is included on the line below the skill’s name, it is an interaction skill.",
+										"{@b Manipulation}: If “Manipulation” is included on the line below the skill’s name, it is a manipulation skill.",
+										"{@b Requires Tools}: If “Requires Tools” is included on the line below the skill’s name, you need to have the proper tools to use the skill. Not having the proper tools is a –5 circumstance penalty to the skill check (see {@b Circumstance Modifiers})."
+									]
+								},
+								"The skill name line is followed by a description of the skill and how it is used."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Skills",
+							"colLabels": [
+								"Skill",
+								"Ability",
+								"Untrained?",
+								"Action"
+							],
+							"colStyles": [
+								"col-4 text-align-center",
+								"col-2 text-align-center",
+								"col-2 text-align-center",
+								"col-4 text-align-center"
+							],
+							"rows": [
+								[
+									"Acrobatics",
+									"Agl",
+									"No",
+									"move or free"
+								],
+								[
+									"Athletics",
+									"Str",
+									"Yes",
+									"move"
+								],
+								[
+									"Close Combat",
+									"Fgt",
+									"Yes",
+									"standard"
+								],
+								[
+									"Deception",
+									"Pre",
+									"Yes",
+									"standard"
+								],
+								[
+									"Expertise",
+									"Int",
+									"No*",
+									"—"
+								],
+								[
+									"Insight",
+									"Awe",
+									"Yes",
+									"free"
+								],
+								[
+									"Intimidation",
+									"Pre",
+									"Yes",
+									"standard"
+								],
+								[
+									"Investigation",
+									"Int",
+									"No",
+									"—"
+								],
+								[
+									"Perception",
+									"Awe",
+									"Yes",
+									"free"
+								],
+								[
+									"Persuasion",
+									"Pre",
+									"Yes",
+									"—"
+								],
+								[
+									"Ranged Combat",
+									"Dex",
+									"Yes",
+									"standard"
+								],
+								[
+									"Sleight of Hand",
+									"Dex",
+									"No",
+									"standard"
+								],
+								[
+									"Stealth",
+									"Agl",
+									"Yes",
+									"move"
+								],
+								[
+									"Technology",
+									"Int",
+									"No",
+									"standard"
+								],
+								[
+									"Treatment",
+									"Int",
+									"No",
+									"standard"
+								],
+								[
+									"Vehicles",
+									"Dex",
+									"No",
+									"move"
+								]
+							],
+							"footnotes": [
+								"A “—” entry in the Action column means using the skill typically takes longer than a standard action. See the skill description for details.",
+								"* Some areas of Expertise can be used Untrained. See the entry on Expertise for more information. "
+							]
+						},
+						"For each skill description, see {@5etools Skills|skills.html} page.",
+						{
+							"type": "inset",
+							"name": "Finding the Skill You Want",
+							"entries": [
+								"If you don’t find a particular skill on the list, like climbing, bluffing, or search, remember that each skill covers a lot of ground. So, you’ll find climbing isn’t its own skill, but is listed as part of Athletics, while bluffing and search are under Deception and Investigation, respectively. When in doubt, read through the skill you think is most similar to what you’re looking for."
 							]
 						}
 					]
