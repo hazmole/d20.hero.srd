@@ -1259,9 +1259,9 @@
 										"While the GM should keep the power level guidelines and suggested starting Character points of the series in mind while creating villains and members of the supporting cast, non-player characters are not restricted by the series power level and are built on as many Character points as the GM wants to give them. In other words, there is no need to add up the “cost” of a non-player character. Just assign the appropriate traits at the desired ranks.",
 										"Determine an NPC’s effective power level based on the character’s highest appropriate offensive and defensive trait(s). This power level is simply an approximation to show what level of challenge that NPC offers, and is not necessarily related to the NPC’s Character point total, which may be greater than or less than the recommended starting Character points for that power level.",
 										{
-											"type": "quote",
+											"type": "example",
 											"entries": [
-												"{@b Example:} The Gamemaster is creating a villain for a power level 10 series. The bad guy has a +8 total attack bonus with a primary attack doing 16 damage. Adding these together and dividing by 2 gives the GM a power level of 12 [(16 + 8)/2]. So long as none of the villain’s other traits exceed this, the GM notes the villain’s power level as 12, a reasonable challenge for a group of PL10 heroes."
+												"The Gamemaster is creating a villain for a power level 10 series. The bad guy has a +8 total attack bonus with a primary attack doing 16 damage. Adding these together and dividing by 2 gives the GM a power level of 12 [(16 + 8)/2]. So long as none of the villain’s other traits exceed this, the GM notes the villain’s power level as 12, a reasonable challenge for a group of PL10 heroes."
 											]
 										}
 									]
@@ -2249,17 +2249,45 @@
 			"type": "section",
 			"name": "Advantages",
 			"entries": [
-				"",
+				"Heroes are more than just skilled, they often have amazing advantages, beyond the abilities of ordinary people. In this game, advantages often allow heroes to “break the rules,” gaining access to and doing things most people cannot, or simply doing them better.",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Acquiring Advantages",
 					"entries": [
-						"",
+						"Advantages are rated in ranks and bought with Character points, just like abilities and skills. Advantages cost 1 Character point per rank. Some advantages have no ranks and are acquired only once, effectively at rank 1.",
+						{
+							"type": "middleEnhance",
+							"text": "Advantage Cost = 1 power point per advantage rank"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Advantage Descriptions",
+					"entries": [
+						"Each advantage’s description explains the benefit it provides. It also says if the advantage can be acquired in ranks and the effects of doing so. Such advantages are listed as “Ranked” alongside the advantage name. Ranks in a advantage are noted with a number after the advantage’s name, such as “Defensive Roll 2” (for a character who has taken two ranks in the Defensive Roll advantage), just like skill and power ranks. If there is a maximum number of ranks a character can take, it’s listed in parentheses after the word “Ranked” in the advantage’s heading.",
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Types of Advantages",
 							"entries": [
-								""
+								"Advantages are categorized as one of four types:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Combat Advantages} are useful in combat and often modify how various combat maneuvers are performed.",
+										"{@b Fortune Advantages} require and enhance the use of Victory points.",
+										"{@b General Advantages} provide special abilities or bonuses not covered by the other categories.",
+										"{@b Skill Advantages} offer bonuses or modifications to skill use."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Advantage Descriptions",
+							"entries": [
+								"Each advantage is listed by name, type, and if the advantage is available in multiple ranks, followed by a description of the advantage’s benefits. The effects of additional ranks of the advantage (if any) are noted in the text of each advantage. In some cases a advantage’s description mentions the normal conditions for characters who do not have the advantage for comparison.",
+								"For each advantage description, see {@5etools Advantages|advantages.html} page."
 							]
 						}
 					]
@@ -2270,17 +2298,479 @@
 			"type": "section",
 			"name": "Powers",
 			"entries": [
-				"",
+				"Although some heroes and villains rely solely on their skills and advantages, most are set apart by their superhuman powers. Characters can lift tanks, fly through the air, throw lightning from their hands, shoot lasers from their eyes, or any number of other amazing things. This page describes these and many other powers and how you can create your own.",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Acquiring Powers",
 					"entries": [
-						"",
+						"Players spend character points on various powers for their heroes, like acquiring skills or other traits. A power is made up of one or more {@b effects}, possibly with different {@b modifiers}, which increase or decrease the cost of the effects.",
+						"Effects can be used to create any number of different powers. A hero with the {@b Concealment} effect could use it to create a power called Blending, Blur, Cloak, Invisibility, Shadowmeld, or anything else appropriate to the character you wish to play. It’s all a matter of how powerful the effect is and what modifiers have been placed on it to increase or decrease its performance. Another way to think of it is that this book is filled with effects, but your character sheet is filled with powers.",
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Power Costs",
 							"entries": [
-								""
+								"Power effects are acquired in ranks, like ranks for other traits. The more ranks an effect has, the greater its effect. Each effect of a power has a standard cost per rank.",
+								{
+									"type": "entries",
+									"name": "Modifiers",
+									"entries": [
+										"{@b Modifiers} change how an effect works, making it more effective (an {@b extra}) or less effective (a {@b flaw}). Modifiers have ranks, just like other traits. Extras increase a power’s cost while flaws decrease it. Unless its description specifies otherwise, a modifier is a permanent change in how the effect works. That is, you do not have the option of using the modifier or not, it always applies. Some modifiers increase an effect’s cost per rank, others apply an unchanging cost to the power’s total; these are called {@b flat modifiers}. For more information see {@b Modifiers}.",
+										"The final cost of a power is determined by base effect costs, modified by extras and flaws, multiplied by the power’s rank, with flat modifiers applied to the total cost.",
+										{
+											"type": "middleEnhance",
+											"text": "Power Cost = ((base effect costs + extras - flaws) x rank) + flat modifiers"
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Power Descriptors",
+							"entries": [
+								"These rules in this chapter explain what the various powers do, that is, what their game effects are, but it is left up to the player and Gamemaster to apply {@b descriptors} to define exactly what a power is and what it looks (and sounds, and feels) like to observers beyond just a collection of game effects.",
+								"A power’s descriptors are primarily for color. It’s more interesting and clear to say a hero has a “Flame Blast” or “Lightning Bolt” power than a generic “Damage effect.” “Flame” and “lightning” are descriptors for the Damage effect. Descriptors do have some impact on the game since some effects work only on or with effects of a particular descriptor. A hero may be immune to fire and heat, for example, so any effect with the “fire” or “heat” descriptor doesn’t affect that character. The different sense types are descriptors pertaining to sensory effects.",
+								"Generally speaking, a descriptor is part of what a power is called beyond its game system name. For example, a weather-controlling heroine has the following effects: Damage, Concealment, and Environment. Her Damage effect is the power to throw lightning bolts, so it has the descriptor “lightning.” If a villain can absorb electricity, then his power works against the heroine’s Damage (since lightning is electrical in nature). Concealment creates thick banks of fog, giving it the “fog” or “mist” descriptor. So if an opponent transforms into mist, with the ability to regenerate in clouds or fog, he can regenerate inside the heroine’s Concealment area. Her Environment is the power to control the weather, giving it the descriptor “weather.” If the heroine’s power comes as a gift from the gods, it may also have the descriptor “divine” or “magical.” On the other hand, if it comes from her mutant genetic structure, then it has the descriptor “mutant.” A villain able to nullify mutant powers could potentially nullify all of the heroine’s powers!",
+								"The number of power descriptors is virtually limitless. The players and Gamemaster should cooperate to apply the appropriate descriptors to characters’ powers and use common sense when dealing with how the different descriptors interact. Just because one hero throws “lightning” and an opponent can absorb “electricity” doesn’t mean the villain’s absorption doesn’t work because it’s not the exact same descriptor. Lightning is a form of electricity. A certain amount of flexibility is built into descriptors, allowing them to cover the full range of possible powers. As in all things, the GM is the final arbitrator and should be consistent when ruling on whether or not a particular descriptor is appropriate and how all effects and descriptors interact in the series.",
+								"The powers in this chapter provide numerous examples of descriptors. Feel free to create your own as desired.",
+								{
+									"type": "inset",
+									"name": "Sample Descriptors",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Allegiances}: Anarchy, Balance, Chaos, Evil, Good, Justice, Law, Liberty, Tyranny",
+												"{@b Elements}: Air, Earth, Fire, Plant, Water, Weather",
+												"{@b Energy}: Acid, Chemical, Cold, Cosmic, Darkness, Electricity, Gravity, Heat, Kinetic, Light, Magnetic, Radiation, Sonic, Vibration",
+												"{@b Phenomena}: Colors, Dimensions, Dreams, Entropy, Ideas, Luck, Madness, Memes, Mind, Quantum Forces, Space, Thought, Time",
+												"{@b Sources}: Alien, Biological, Chi, Divine, Magic, Mystic, Mutant, Preternatural, Primal, Psionic, Psychic, Skill, Technology, Training"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Required Descriptors",
+									"entries": [
+										"In some settings, the Gamemaster may require certain descriptors for all powers. Usually, a required descriptor reflects some common element of the series. For example, if all characters with powers are mutants, then all powers have the “mutant” descriptor by definition, unless the player comes up with a good explanation why they should not. If all superhumans are psychic mutants, then all powers have both the “psychic” and “mutant” descriptors. The GM sets the rules as far as what descriptors are required (or restricted) in the series. A character who breaks this guideline—say the one alien in a setting where all powers are otherwise mutant in origin—might have a Benefit (unusual origin) or face certain complications, possibly both."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Noticing Power Effects",
+									"entries": [
+										"Effects with a duration of instant, concentration, or sustained must be noticeable in some way. For example, a Blast effect might have a visible beam or make a loud noise (ZAP!) or both. Some effects are quite obvious, such as Flight, Insubstantiality, Growth, or Shrinking. Effects with a continuous or permanent duration are not noticeable by default.",
+										"If an instant, concentration, or sustained effect’s base duration is changed using modifiers, the effect remains noticeable. A continuous or permanent effect made instant, concentration, or sustained also becomes noticeable. The Subtle modifier can make noticeable powers difficult or impossible to detect. Conversely, the Noticeable modifier makes a normally subtle effect noticeable."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Powers that Aren’t",
+									"entries": [
+										"“Powers” refer to all extraordinary traits other than abilities, skills, and advantages. Whether a character with powers is “superhuman” or not is largely a matter of opinion and the descriptors used. For example, there are lots of comic book characters with superhuman traits still considered “normal” humans. Their amazing effects come from talent, training, luck, self-discipline, devices, or some similar source, with appropriate descriptors. They’re still “powers” in game terms, but they don’t necessarily mean the character is something other than human.",
+										"Ultimately it’s up to the GM to decide if having certain effects makes a character something “other than human,” (and what, if anything, that means) depending on the nature of powers in the setting."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Effect Types",
+					"entries": [
+						"Power effects fall into certain categories or {@b effect types}. Effects of the same type follow similar rules and provide descriptors for certain other effects. This section discusses the different effect types and the rules governing them.",
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Attack",
+									"entries": [
+										"{@b Attack} effects are used offensively in combat. They require an attack check and damage, hinder, or otherwise harm their target in some way. Attack effects require a standard action to use. Their duration is usually instant although their results—whether damage or some other hindrance—may linger until the target recovers. Attack effects always allow for a resistance check."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Control",
+									"entries": [
+										"{@b Control} effects grant the user influence over something, from the environment to the ability to move objects or even create them out of thin air. Control effects require a standard action to initiate, but can then usually be sustained. Control effects used against unwilling targets usually require an attack check and allow a resistance check, the same for the hazards they are capable of causing, such as creating intense cold or dropping a heavy object on someone."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defense",
+									"entries": [
+										"{@b Defense} effects protect in various ways, typically offering a bonus to resistance checks, or granting outright immunity to particular effects or conditions. Most defense effects work only on the user and are subtle and permanent, functioning at all times. Some are activated and sustained as a free action, meaning they can switch on or off, but can potentially leave the user unprotected."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "General",
+									"entries": [
+										"{@b General} effects don’t fit into any other particular category. They’re not governed by any special rules other than those given in the effect’s description."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Movement",
+									"entries": [
+										"{@b Movement} effects allow characters to get around in various ways. Some provide a speed rank with a particular form of movement—such as ground, air, or water—while others offer different modes of movement, like walking on walls or slithering along the ground like a snake.",
+										"Although activating a movement effect is typically a free action, the character must still take a move action in order to actually move using the effect. So, for example, the action of the Flight effect is “free” and activating it grants the character a Flightspeed rank equal to the effect rank. Moving that speed rank still requires a move action, however."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sensory",
+									"entries": [
+										"{@b Sensory} effects enhance or alter the senses. Some sensory effects improve the user’s senses while others grant entirely new senses or fool the senses in some way. Sensory effects are typically a free action to activate and sustain, or are permanent and always in effect.",
+										{
+											"type": "entries",
+											"name": "Sense Types",
+											"entries": [
+												"Senses are grouped into sense types, descriptors for how different sensory effects work. The sense types, and some of the senses included in them, are:",
+												{
+													"type": "list",
+													"items": [
+														"{@b Visual}: normal sight, darkvision, infravision, low-light vision, microscopic vision, ultravision, X-Ray vision",
+														"{@b Auditory}: normal hearing, sonar (accurate ultrasonic), ultrasonic hearing",
+														"{@b Olfactory}: normal smell and taste, scent",
+														"{@b Tactile}: normal touch, tremorsense",
+														"{@b Radio}: radio, radar (accurate radio)",
+														"{@b Mental}: mental awareness, Mind Reading, Precognition, Postcognition",
+														"{@b Special}: This is the catchall for other sensory descriptors not given above, including unusual senses or exotic descriptors like cosmic, gravitic, magical, and so forth."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "How Powers Work",
+					"entries": [
+						"Using powers is a fairly simple matter. Some power effects work automatically. Others—particularly those affecting other people—require some effort to use, like an attack check or a effect check. Powers affecting others allow resistance checks against their effects.",
+						{
+							"type": "entries",
+							"name": "Effect Checks",
+							"entries": [
+								"In some cases, you may be required to make an {@b effect check} to determine how well an effect works. A power check is just like any other check: d20, plus the power’s rank, plus any applicable modifiers, against a difficulty class set by the Gamemaster. The results of various power checks are described below.",
+								{
+									"type": "middleEnhance",
+									"text": "Effect Check = d20 + rank + modifiers vs. difficulty class"
+								},
+								{
+									"type": "entries",
+									"name": "Routine Effect Checks",
+									"entries": [
+										"Many power effects allow for routine checks involving their use, generally specified in the effect’s description (see {@b Routine Checks} in {@b The Basics})."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Opposed Effect Checks",
+									"entries": [
+										"In some cases, usually when one effect is used directly against another, or against a particular trait like an ability or skill, an opposed check is called for (see {@b Opposed Checks} in {@b The Basics}). If a contest is entirely a matter of whose power is greater, a comparison check is called for; the character with the higher power rank wins automatically."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Effect Parameters",
+							"entries": [
+								"Each effect has certain {@b parameters} that describe the time needed to use the effect, the subject or target, the distance it works at, and so forth. The basic effect parameters are Action, Range, and Duration.",
+								{
+									"type": "entries",
+									"name": "Action",
+									"entries": [
+										"Using or activating an effect requires a particular amount of time. See Actions, for details about the different types of actions. Modifiers may change the action needed to use an effect.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Standard}: Using the effect requires a standard action.",
+												"{@b Move}: Using the effect requires a move action.",
+												"{@b Free}: It requires a free action to use or activate the effect. Once an effect is activated or deactivated, it remains so until your next turn. As with all free actions, the GM may limit the total number of effects a hero can turn on or off in a turn.",
+												"{@b Reaction}: It requires no action to use the effect. It operates automatically in response to something else, such as an attack.",
+												"{@b None}: It requires no action to use the effect. It is always active."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Range",
+									"entries": [
+										"Each effect has a default range, which may be changed by modifiers.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Personal}: The effect works only on you, the user.",
+												"{@b Close}: The effect can target anyone or anything you touch. Touching an unwilling subject requires an unarmed attack check against the subject’s Parry.",
+												"{@b Ranged}: The effect works at a distance, limited by perception and path and requiring a ranged attack check against the subject’s Dodge defense. A ranged effect has a short range of (rank x 25 feet), a medium range of (rank x 50 feet) and a long range of (rank x 100 feet). Ranged attack checks at medium range suffer a –2 circumstance penalty, while ranged attacks at long range suffer a –5 circumstance penalty. See {@b Action & Adventure} for details.",
+												"{@b Perception}: The effect works on any target you can perceive with an accurate sense, without any need for an attack check. If you cannot accurately perceive the target, you cannot affect it.",
+												"{@b Rank}: The effect’s range or area of effect is determined by its rank, as given in its description."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Duration",
+									"entries": [
+										"Each effect lasts for a particular amount of time, which may be changed by modifiers.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Instant}: When used, the effect occurs and ends in the same turn, although its results may linger.",
+												"{@b Concentration}: You can keep a concentration effect going by taking a standard action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
+												"{@b Sustained}: You can keep a sustained effect going by taking a free action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
+												"{@b Continuous}: The effect lasts as long as you wish, without any action required on your part. Once active, it stays that way until you choose to deactivate it (a free action).",
+												"{@b Permanent}: The effect is always active and cannot be deactivated, even if you want to. A permanent effect cannot be improved using extra effort."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance Check",
+									"entries": [
+										"Effects targeting other characters allow a resistance check. The defense used and the difficulty class depend on the effect and its modifiers.",
+										"Willing characters can forgo their resistance check against an effect, if they wish. This includes characters who think they’re receiving a beneficial effect, even if they’re not! You can’t forgo Toughness checks, but you may choose to discontinue the use of effects with a duration of Continuous or Sustained that grant a Toughness bonus in order to lower your resistance.",
+										"The Immunity effect allows characters to ignore certain effects altogether, removing the need for a resistance check."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Countering Effects",
+							"entries": [
+								"In some circumstances the effects of one power may counter another, negating it. Generally for two effects to counter each other they must have opposed descriptors. For example, light and darkness powers can counter each other as can heat and cold, water and fire, and so forth. In some cases, such as magical or mental effects, powers of the same descriptor can also counter each other. The GM is the final arbiter as to whether or not an effect with a particular descriptor can counter another. The Nullify effect can counter any effect of a particular descriptor!",
+								{
+									"type": "entries",
+									"name": "How Countering Works",
+									"entries": [
+										"To counter an effect, you must take the ready action. In doing so, you wait to complete your action until your opponent tries to use a power. You may still move, since ready is a standard action.",
+										"You must be able to use the readied effect as a standard action or less. Effects usable as a reaction do not require a ready action; you can use them to counter at any time. Effects requiring longer than a standard action cannot counter during action rounds (although they may be able to counter ongoing effects, see the following section).",
+										"If an opponent attempts to use a power you are able to counter, use your countering effect as your readied action. You and the opposing character make effect checks (d20 + rank). If you win, your two powers cancel each other out and there is no effect from either. If the opposing character wins, your attempt to counter is unsuccessful. The opposing effect works normally.",
+										{
+											"type": "example",
+											"entries": [
+												"Thetis, goddess of the seas, is fighting the Silver Knight. The hate-mongering villain hurls a blast of white-hot fire (a Ranged Damage effect). Having prepared an action, Thetis’s player says she wants to counter Silver Knight’s fire blast with her water powers. The GM agrees the two powers should be able to counter each other, so he asks Thetis’s player to make a Water Control effect check, while he makes a Fire Control effect check for Silver Knight. Thetis’s player rolls a result of 26 while the GM rolls a result of 19 for Silver Knight. Thetis successfully counters the flame blast, which fizzles out in a gout of steam."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Countering Ongoing Effects",
+									"entries": [
+										"You can also use one power to counter the ongoing effect of another, or other lingering results of an instant effect (like flames ignited by a fiery Damage effect). This requires a normal use of the countering effect and an opposed check, as above. If you are successful, you negate the effect (although the opposing character can attempt to reestablish it normally).",
+										{
+											"type": "example",
+											"entries": [
+												"Mindmaster has placed Johnny Comet under his mental control (an Affliction effect). Lady Justice has the power to break such bonds (the Nullify effect). She shines the light of liberty on her teammate and makes an effect check (d20 + her Nullify rank). The GM makes a check of d20 + Mindmaster’s Affliction rank. If Lady Justice wins, Johnny is free of Mindmaster’s control. If she fails, the Victory League will have to come up with another plan to neutralize their super-fast teammate without hurting him."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Instant Countering",
+									"entries": [
+										"You can spend a victory point to attempt to counter another power as a reaction, without the need to ready an action to do so. See {@b victory points} for details."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Power Effects",
+					"entries": [
+						"This section describes the various power effects available in this game.",
+						"For each Effect description, see {@5etools Power Effects|powereffects.html} page."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Modifiers",
+					"entries": [
+						"Modifiers enhance or limit effects in various ways, sometimes significantly changing how they work. Modifiers that enhance effects are called {@b extras}, while those limiting or weakening effects are called {@b flaws}",
+						"Unless its description specifies otherwise, a modifier is a permanent change in how the effect works. That is, you do not have the option of using the modifier or not, it always applies. For different versions of an effect with different modifiers—such as a regular Damage effect and one with the Area modifier—see the Alternate Effect modifier.",
+						{
+							"type": "entries",
+							"name": "Applying Modifiers",
+							"entries": [
+								"An extra increases an effect’s cost per rank by a set amount (usually 1 point) while a flaw decreases the effect’s cost per rank by a set amount (usually 1 point as well). To determine the effect’s final cost per rank, take the base cost, add up all the extras, and subtract all of the flaws.",
+								{
+									"type": "middleEnhance",
+									"text": "Modified Cost = base effect cost + extras - flaws"
+								},
+								{
+									"type": "entries",
+									"name": "Fractional Costs",
+									"entries": [
+										"If total flaws reduce an effect’s cost per rank to less than 1 character point, each additional –1 to cost per rank beyond that adds to the number of ranks of the effect you get by spending 1 character point on a 1-to-1 basis.",
+										"In essence, an effect’s cost can be expressed as the ratio of character points per rank (PP:R). So an effect costing 3 points per rank is 3:1. If that effect has a total of –2 in modifiers, it costs 1:1, or 1 character point per rank. Applying another –1 modifier adds to the second part of the ratio, making it 1:2, or 1 character point per two ranks, and so forth.",
+										"Continue the progression for further reductions. Gamemasters may wish to limit the final modified cost ratio of any effect in the series (to 1:1, 1:2, 1:4, or whatever figure is appropriate). As a general rule, 1:5 (five ranks per character point) should be the lowest modified cost for an effect, but the GM sets the limit (if any).",
+										{
+											"type": "example",
+											"entries": [
+												"A hero has Protection, which costs 1 point per rank. Protection has two modifiers; the first is the Imperious extra (a +1 point per rank modifier), and the second is the flaw Limited to Blunt Physical Attacks (a –3 points per rank modifier) for a total modifier of –2. Since Protection costs 1 point per rank, the –2 modifier increases the number of ranks per character point, so the final cost is 1 character point per 3 ranks of Impervious Protection Limited to Blunt physical Attacks."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Partial Modifiers",
+									"entries": [
+										"You can apply a modifier to only some of an effect’s ranks and not others to fine-tune the effect. A modifier must apply to at least one rank, and may apply to as many ranks as the effect has. The change in cost and effect applies only to the ranks with the modifier; the unmodified ranks have their normal cost and effect.",
+										{
+											"type": "example",
+											"entries": [
+												"Marksman’s micro-rockets are a Damage 7 effect. They also explode on impact, for a Burst Area Damage effect, but the Area Damage is only rank 4. So the first 4 ranks of the Marksman’s Damage effect have the Burst Area modifier, costing 1 point more (or 3 per rank). The remaining 3 ranks have their usual cost (2 per rank). Marksman makes a normal ranged attack check against the main target for his micro-rocket launcher; if he hits, the target has to resist Damage 7, and everyone within the area around the target resists Damage 4 (the Area Damage). Even if he misses, the main target has to resist the Area Damage 4, since the micro-rocket explodes close by! In Marksman’s business, it pays to cover your bases…"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Flat-value Modifiers",
+									"entries": [
+										"Some modifiers, rather than increasing or decreasing an effect’s cost per rank, have a flat value in character points, noted as {@b flat} in the modifier’s header. For example, the Subtle extra costs only 1 or 2 points, depending on how subtle the effect is. Likewise, the Activation flaw has a flat value of –1 or –2 points, depending on how long the power takes to activate.",
+										"Flat-value modifiers are applied to the final cost of an effect, after its cost per rank and total cost for its number of ranks is determined. So, for example, if an effect costs 2 points per rank, with +1 per rank for extras and –2 per rank for flaws. It has a final adjusted cost of (2 + 1 – 2) or 1 point per rank. With 8 ranks, it costs 8 character points. If the same effect also has a flat-value extra costing 2 points and a flat-value flaw worth –1 point, then you add 2 to the final cost and subtract 1, for a total of (8 points for the effect + 2 points for the flat extra – 1 point for the flat flaw) or 9 character points. ",
+										{
+											"type": "middleEnhance",
+											"text": "modified cost + flat extra value – flat flaw value"
+										},
+										"A flat-value flaw cannot reduce an effect or power’s final cost below 1 character point."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Extras & Flaws",
+							"entries": [
+								"The following section lists the available extras & flaws, starting with the name and cost per rank in power points, along with a description of what the modifier does in game terms.",
+								"A flat-value flaw cannot have more ranks than the effect itself.",
+								"For each Modifier information, see {@5etools Modifiers|modifiers.html} page."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Descriptors",
+					"entries": [
+						"Descriptors help to bring a collection of effects and modifiers to life, differentiating them from similar (or even identical) configurations and making them into distinct powers. Although descriptors don’t always have significant game effects, they’re perhaps the most important element in providing color and character to the powers of heroes and villains.",
+						"Descriptors do have some affect on game play. In particular, descriptors often govern how certain effects interact with each other, serving as convenient shorthand to help define an effect’s parameters. For example, Immunity and Nullify work against effects with specific descriptors; if they were limited solely to things like effect type, it would leave out a tremendous range of options, like “Immunity to Fire” or “Nullify Mutant Powers,” which are important to the source material.",
+						{
+							"type": "entries",
+							"name": "Types of Descriptors",
+							"entries": [
+								"Descriptors come in many different forms. The break-down in this section is inexact, and deliberately so; some descriptors fall into more than one category, while others might not fall into any of these categories, being unique to that particular character or power. Still, the following are the major types of descriptors, and things to consider when creating or choosing powers for a character.",
+								{
+									"type": "entries",
+									"name": "Origin",
+									"entries": [
+										"A descriptor may relate to the origin of a power, where it comes from or what granted it to the character. For example, did he gain Speed in a scientific accident or from years of focused meditation at a secret temple to the God of Speed? A power’s origin may determine how it interacts with other powers. Some powers with the same origin might be better suited to counter each other, for example, or to work in conjunction, combining their benefits. Examples of origin descriptors include:",
+										{
+											"type": "list",
+											"items": [
+												"{@b Accidental} powers are the result of random chance or accident: being struck by lightning, doused in chemicals, exposed to exotic radiation, and so forth. The circumstances of an accidental origin may or may not be something others can duplicate (although some are sure to try).",
+												"{@b Bestowed} powers are granted by an outside agency of some sort, such as a deity, a technology, an alien race, or another superhuman. The process that bestows the powers can be transitory or effectively permanent, barring some sort of plot device or GM-created setback.",
+												"{@b Invented} powers are designed and created by someone, either the inventor of a particular piece of technology or the designer of a technique or technology for bestowing powers on others.",
+												"{@b Mutant} powers are inborn, but not natural to the character’s race or species. They are the result of a genetic quirk or mutation of some sort, possibly due to environmental influences like chemical mutagens or radiation. Since they involve a change in the subject’s DNA, mutant powers—or at least the potential for them—are inheritable.",
+												"{@b Training} powers are gained from study and practice. While many training powers are “super-skills” or esoteric abilities learned from trained masters, this origin covers any power that is learned rather than acquired in another way. It’s not necessarily limited to “skill-based” powers or advantages. For example, magical or psionic powers might be acquired through training and study."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Source",
+									"entries": [
+										"A power’s source differs from its origin in that the origin is where the potential or ability to use the power comes from (where the character got the power in the first place), while source is where the power’s effect comes from, or where the power draws its energy.",
+										"Comic book style superpowers answer this question with vague descriptors, since the kind of real-world energy required for many powers is staggering, requiring all super-humans to be living fusion reactors! While this may well be the case in your own setting, the assumption is that power source is just another descriptor in most games.",
+										"Source descriptors influence the effects of certain powers, such as Nullify Magic Powers, which can counter powers with a magical source, whether or not their effects are magical. Examples of power sources include:",
+										{
+											"type": "list",
+											"items": [
+												"{@b Biological} powers come from the user’s own physiology, drawing power from stores of bio-chemical energy or perhaps from specialized organs or biological functions, like a squid’s ink or a skunk’s musk, which are generated biologically.",
+												"{@b Cosmic} powers draw upon the fabric of the universe itself or “cosmic” power sources like quasars, white holes, or the background radiation of the Big Bang. Cosmic powers are close to divine in many respects (see the following) in that they transcend earthly sources of power.",
+												"{@b Divine} powers come from a higher being, essentially a god or gods. Divine power is generally limited to the god(s) areas of influence and may be morally aligned, available only to wielders with an allegiance to that divinity.",
+												"{@b Extradimensional} powers originate outside the home dimension of the setting, from other planes or dimensions of existence. Some extradimensional powers are scientific while others are downright mystical, or even beyond into realms “man was not meant to know.”",
+												"{@b Magical} powers draw upon magical energies, however they might be defined in the setting. Typically, there is some sort of “magical energy” in existence that magicians and magical creatures draw upon for their powers and effects. Note that powers with a magical source are not necessarily “spells,” although they might be; a dragon’s breath might use magic to power it, or it might be biological, depending on the descriptors applied to it (in other words, how it’s defined in terms of the setting).",
+												"{@b Moral} powers come from an abstract morality or ideal, essentially from an allegiance to that ideal. Whether or not the moral power is aware and capable of interaction is up to the GM and the specifications of the setting; it’s the character’s belief in that ideal that matters so far as the power is concerned. “Good” and “evil” are common abstract moral sources of powers, but others may include chaos, law, an-archy, order, justice, balance, neutrality, reason, and so forth.",
+												"{@b Psionic} powers are powers of the mind, coming from the psyche of the wielder (or perhaps from the Collective Unconscious, which acts as a “wellspring” of psionic power). This power source is associated with classic “mental” powers like telepathy and telekinesis, although effects like Mind Reading and Move Object can also come from other sources.",
+												"{@b Technological} powers are the result of technology, machines and technological devices. Although technological power sources often involve Devices or Equipment, they don’t necessary have to; a technological power may be a permanent implant, for example, without the limitations of a Device, but still technological (and affected by things keyed to the technological descriptor)."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Medium",
+									"entries": [
+										"A power’s medium is what the power uses to accomplish its effect(s). Often, a power’s source and medium are one and the same: a psionic power uses psionic energy to power and accomplish its effects, likewise, a divine power often uses divine energy to power and accomplish its effects.",
+										"In some cases, however, source and medium may differ and the distinction may be significant. For example, the power to throw fireballs granted by the God of Fire is a bestowed origin with a divine source, using fire as the medium to cause its Damage effect.",
+										"Medium descriptors generally fall into either material or energy: material mediums are substances, ranging from things like air (or other gases), water (or other liquids), and earth (soil, rock, sand, etc.) through to biological materials like acids, blood, and so forth. Energy mediums are different forms of energy, from electromagnetic (electricity, light, radio, radiation, etc.) to gravity, kinetic energy, or an exotic source like divine, magical, psionic, or cosmic energy (given under Origin descriptors)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Result",
+									"entries": [
+										"Lastly, a power’s result is what happens when the power is used beyond just the game mechanics of its effect. For example, the rules of the Affliction effect describe the penalties suffered by the target, but they don’t describe the result, the nature of the Affliction itself. Is it glowing bonds of energy, sudden fever and dizziness, a curse of misfortune, a life-sapping vapor, or any number of other things?",
+										"Result descriptors tend to be fairly broad, given the potential range of results available to effects in the game. Some powers may not have or need result descriptors; after all, “Mind Control” is a pretty clear description of a result. However, “an induced trance where the human brain becomes capable of accepting neurolinguistic programming inputs” is also a valid descriptor for that same effect.",
+										"Like medium descriptors, result descriptors may or may not match others the power already has. Take a taserlike weapon able to stun the nervous system of its target: it has an invented origin (someone designed and built it), a technological source (it’s a technological device with a battery), uses a energy medium (an electrical shock), and results in an electrical overload of the target’s nervous system (the result descriptor for its Affliction effect). This tells us a lot about that particular power and ways it might interact with other effects."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Applying Descriptors",
+							"entries": [
+								"Applying descriptors to a power is as simple as describing what the power is and how it works: “The divinely-granted ability to heal through a laying-on of hands,” for example, “or the mutant power to control magnetic fields to move ferrous metal objects.” Considerably more evocative and descriptive than “Healing effect” or “Move Object, Limited to Ferrous Metals,” aren’t they?",
+								"Generally, you should feel free to apply whatever descriptors seem appropriate and necessary to describe your character’s powers, so long as they don’t significantly change how they work in game terms. This is the key element. While descriptors may imply certain interactions or minor benefits or drawbacks, they shouldn’t significantly change how an effect works, that’s the role of modifiers. So, for example, “area” is not a descriptor, it is an extra you apply to allow a power to affect an area rather than a single target.",
+								{
+									"type": "entries",
+									"name": "Applying Descriptors in Play",
+									"entries": [
+										"While descriptors are generally applied to powers when those powers are defined (that is, when a character is created), in some cases, certain descriptors may be left unspecified and defined during play. This can either be because nobody thought to define the descriptor in advance, or it was deliberately left vague, to be filled-in later.",
+										"So, for example, a particular heroine might not know the origin or source of her powers, and her player doesn’t want to know, leaving them a mystery for later development in the game. The GM agrees and so the heroine’s powers have no origin or source descriptors. Instead, the GM chooses them, which isn’t known until the heroine is subject to an anti-magical field and discovers her powers don’t work! The GM awards the player a victory point for the unexpected set-back and now the source of the heroine’s powers is known, although their origin still remains a mystery….",
+										"Applying descriptors in play gives you a lot of flexibility, letting you handle certain things “on the fly” rather than having to describe every aspect of a character in excruciating detail beforehand. The key tool for handling the application of descriptors in play is the use of victory points. If applying a new descriptor is a setback for the hero, then award the player a victory point, just like any other setback (see {@b Complications}). If the new descriptor is chosen by the player and gives the hero a minor advantage, you might ask the player to pay a victory point for the privilege, although you can balance this with an immediate victory point award for the clever idea, if you want (making the victory point a token expenditure). If it’s neither, then there’s no victory point cost, just apply the descriptor."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Creative Uses of Descriptors",
+									"entries": [
+										"In many instances, players come up with creative uses for their characters’ descriptors. This should be encouraged and, generally speaking, allowed freely so long as those uses don’t spoil the game. So if a fire-using character wants to use a tiny amount of his flame blast power to light some candles, or the electrical-controlling character wants to use some of his power output to act as a living battery to jump-start a car, go for it. In the latter case you might want to call for a Technology skill check to make sure the character gets the terminals and the voltage right, but most of the time it’s better to just let the trick go through and give the character a chance to shine.",
+										"Creative uses of descriptors with no real game effect are freebies: no extra effort or victory points needed. Situations where creative uses of descriptors have a significant game effect can be handled as power stunts: pick the effect that best suits the desired outcome and treat it as an Alternate Effect of the power the hero wants to use, with descriptors assigned as appropriate. If an electrical-controlling hero wants to use his power like a living defibrillator to save a heart-attack victim, for example, that can be a Healing power stunt. The hero uses extra effort (and possibly a victory point) and gets a one-shot use of Healing to stabilize the dying victim."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Changing Descriptors in Play",
+									"entries": [
+										"On some occasions, you or a player may wish to change a particular descriptor during the course of the game, removing an existing descriptor and possibly replacing it with another one.",
+										"Sometimes this takes the form of discovering that a descriptor the character thought applied actually does not, such as a hero discovering his “magical” powers are actually the mutant ability to manipulate reality in certain ways. So long as the change doesn’t contradict any previously introduced information, this is no different than applying a descriptor in play, and should be handled in the same way. On the other hand, if other effects previously worked on the hero as if his powers were magical, then some sort of explanation is required. The Gamemaster may wish to limit or ban “discovering” a descriptor that has already been established, although it might still be changed.",
+										"Changing descriptors is best handled as a plot device, much like reallocating character points and redesigning characters. If exposure to strange magical forces changes a character’s power source from biological to magical, for example, that’s something for the GM to decide in the context of the game. Like with defining descriptors in play, if a change in descriptors through GM Fiat constitutes a setback, the GM should award the player a victory point. Changes that provide an advantage don’t cost a victory point, however, since the GM chooses when and where they occur.",
+										"Temporarily changing a descriptor can be a use of extra effort, like any other power stunt. For example, a hero might change the result of an electrical Damage effect to a magnetic Move Object effect for one use. This is like any other power stunt and the changed or additional descriptors are an important part of the stunt. Sometimes a power stunt may change nothing but an effect’s descriptor(s), such as changing a Damage effect from laser-light to a gamma-ray “graser” or from heat to cold. The GM decides what constitutes a reasonable change in descriptors for a power stunt, based on the power’s existing descriptors and effects."
+									]
+								}
 							]
 						}
 					]

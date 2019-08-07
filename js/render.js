@@ -204,6 +204,7 @@ function Renderer () {
 				case "variant": this._renderVariant(entry, textStack, meta, options); break;
 				case "variantSub": this._renderVariantSub(entry, textStack, meta, options); break;
 				case "quote": this._renderQuote(entry, textStack, meta, options); break;
+				case "example": this._renderExample(entry, textStack, meta, options); break;
 				case "modifier": this._renderModifier(entry, textStack, meta, options); break;
 
 				// block
@@ -442,7 +443,8 @@ function Renderer () {
 
 		const headerClass = `rd__h--${meta.depth + 1}`; // adjust as the CSS is 0..4 rather than -1..3
 
-		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" book-idx="${entry.idx_name ? entry.idx_name : entry.name}">${this.render({type: "inline", entries: [entry.name]})}${entry.ENG_name ? (" <st style='font-size:80%;'>"+entry.ENG_name+"<st>") : ""}${isInlineTitle ? "." : ""}</span></span> ` : "";
+		const book_idx = (meta.depth<=0)? `book-idx="${entry.idx_name ? entry.idx_name : entry.name}"`: "";
+		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" ${book_idx}>${this.render({type: "inline", entries: [entry.name]})}${entry.ENG_name ? (" <st style='font-size:80%;'>"+entry.ENG_name+"<st>") : ""}${isInlineTitle ? "." : ""}</span></span> ` : "";
 
 		if (meta.depth === -1) {
 			if (!this._firstSection) textStack[0] += `<hr class="rd__hr rd__hr--section">`;
@@ -612,6 +614,16 @@ function Renderer () {
 		textStack[0] += `</p>`;
 	};
 
+	this._renderExample = function (entry, textStack, meta, options) {
+		textStack[0] += `<p style="margin-left:10px;"><i>${FMT("example")}: `;
+		const len = entry.entries.length;
+		for (let i = 0; i < len; ++i) {
+			this._recursiveRender(entry.entries[i], textStack, meta);
+			if (i !== entry.entries.length - 1) textStack[0] += `<br>`;
+			else textStack[0] += `</i>`;
+		}
+		textStack[0] += `</p>`;
+	};
 	this._renderModifier = function (entry, textStack, meta, options){
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
 	}

@@ -285,7 +285,22 @@
 			"name": "Ultimate Effort",
 			"type": "F",
 			"entries": [
-				"You can spend a Victory point on a particular check and treat the roll as a 20 (meaning you don’t need to roll the die at all, just apply a result of 20 to your modifier). This is not a natural 20, but is treated as a roll of 20 in all other respects. You choose the particular check the advantage applies to when you acquire it and the GM must approve it. You can take Ultimate Effort multiple times, each time, it applies to a different check. This advantage may not be used after you’ve rolled the die to determine if you succeed."
+				"You can spend a Victory point on a particular check and treat the roll as a 20 (meaning you don’t need to roll the die at all, just apply a result of 20 to your modifier). This is not a natural 20, but is treated as a roll of 20 in all other respects. You choose the particular check the advantage applies to when you acquire it and the GM must approve it. You can take Ultimate Effort multiple times, each time, it applies to a different check. This advantage may not be used after you’ve rolled the die to determine if you succeed.",
+				{
+					"type": "entries",
+					"name": "Sample Ultimate Efforts",
+					"entries": [
+						"The following are some potential Ultimate Efforts. The GM is free to add others suitable to the series.",
+						{
+							"type": "list",
+							"items": [
+								"Ultimate Aim: When you take a standard action to aim an attack (see Aim), you can spend a hero point to apply a 20 result to the attack check on the following round. Since the Ultimate Aim bonus is not a natural 20, it also does not qualify as an automatic or critical hit.",
+								"Ultimate Resistance: You can spend a hero point to apply a 20 result to a resistance check with one defense determined when you acquire this advantage.",
+								"Ultimate Skill: You can spend a hero point to apply a 20 result to checks with a particular skill."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -303,7 +318,26 @@
 			"rank": true,
 			"entries": [
 				"You have some significant perquisite or fringe benefit. The exact nature of the benefit is for you and the Gamemaster to determine. As a rule of thumb it should not exceed the benefits of any other advantage, or a power effect costing 1 point (see Feature in Powers). It should also be significant enough to cost at least 1 Character point. An example is Diplomatic Immunity (see Sample Benefits). A license to practice law or medicine, on the other hand, should not be considered a Benefit; it’s simply a part of having training in the appropriate Expertise skill and has no significant game effect.",
-				"Benefits may come in ranks for improved levels of the same benefit. The GM is the final arbiter as to what does and does not constitute a Benefit in the setting. Keep in mind some qualities may constitute Benefits in some series, but not in others, depending on whether or not they have any real impact on the game."
+				"Benefits may come in ranks for improved levels of the same benefit. The GM is the final arbiter as to what does and does not constitute a Benefit in the setting. Keep in mind some qualities may constitute Benefits in some series, but not in others, depending on whether or not they have any real impact on the game.",
+				{
+					"type": "entries",
+					"name": "Sample Benefits",
+					"entries": [
+						"The following are some potential Benefits. The GM is free to choose any suitable Benefit for the series.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Alternate Identity}: You have an alternate identity, complete with legal paperwork (driver’s license, birth certificate, etc.). This is different from a costumed identity, which doesn’t necessarily have any special legal status (but may in some settings).",
+								"{@b Ambidexterity}: You are equally adept using either hand, suffering no circumstance penalty for using your off-hand (as you don’t have one).",
+								"{@b Cipher}: Your true history is well hidden, making it difficult to dig up information about you. Investigation checks concerning you are made at a –5 circumstance penalty per rank in this benefit.",
+								"{@b Diplomatic Immunity}: By dint of your diplomatic status, you cannot be prosecuted for crimes in nations other than your own. All another nation can do is deport you to your home nation.",
+								"{@b Security Clearance}: You have access to classified government information, installations, and possibly equipment and personnel.",
+								"{@b Status}: By virtue of birth or achievement, you have special status. Examples include nobility, knighthood, aristocracy, and so forth.",
+								"{@b Wealth}: You have greater than average wealth or material resources, such as well-off (rank 1), independently wealthy (rank 2), a millionaire (rank 3), multimillionaire (rank 4), or billionaire (rank 5)."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -499,7 +533,21 @@
 			"rank": true,
 			"entries": [
 				"You can speak and understand additional languages. With one rank in this advantage, you know an additional language. For each additional rank, you double your additional known languages: two at rank 2, four at rank 3, eight at rank 4, etc. So a character with Languages 7 is fluent in 64 languages! Characters are assumed to be fluent in any languages they know, including being able to read and write in them.",
-				"For the ability to understand any language, see Comprehend effect in Powers."
+				"For the ability to understand any language, see Comprehend effect in Powers.",
+				{
+					"type": "inset",
+					"name": "Literacy",
+					"entries": [
+						"Characters are assumed to be literate in their native language and any other language they know. At the GM’s discretion, characters may have to spend an additional Languages rank to be literate in a language with a different alphabet or style of writing from the character’s native language (such as Arabic, Japanese kanji or Russian Cyrillic for an English speaker). Completely illiterate characters are faced with a potential Disability complication during the game."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "The Language Barrier",
+					"entries": [
+						"Generally speaking, languages are not terribly important in comic book superhero stories except as background color or occasional plot complications. Gamemasters should allow players with characters fluent in other languages the occasional opportunity to show them off or put them to good use. If you specifically set up the language barrier as an obstacle by confronting the heroes with a language they cannot possibly understand, that should count as a complication and be worth a hero point."
+					]
+				}
 			]
 		},
 		{
