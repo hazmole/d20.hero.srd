@@ -2802,17 +2802,218 @@
 			"type": "section",
 			"name": "Action & Adventure",
 			"entries": [
-				"",
+				"Like the comics, this game is about action, so this section looks at the flow of the game and how heroes accomplish their amazing feats, ranging from last-minute rescues and brilliant investigations to thrilling battles against the forces of evil.",
+				"The chapter starts out with a look at action rounds, used to measure time when seconds count, then moves on to the different challenges heroes face, followed by handling conflicts like super-powered battles. The section concludes with information on the potential consequences, including various conditions imposed on heroes and the hazards of the environment around them. This is followed by handling conflicts like super-powered battles, including special actions, consequences of damage, and recovery from it.",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Action Rounds",
+					"entries": [
+						"The {@b action round} (or simply {@b round}) is how this game breaks down time when things like who goes first and how much each character can accomplish are important. A round represents about six seconds of time in the game world.",
+						"During a round, each character involved takes a {@b turn}, which is that character’s opportunity to do something. A character has an allotment of {@b actions}, used during that character’s turn. Players decide what their characters do on their turns, while the GM handles everyone else’s turn.",
+						{
+							"type": "entries",
+							"name": "Initiative",
+							"entries": [
+								"The order in which characters take their turns is determined by {@b initiative}. Base initiative bonus is equal to the character’s Agility rank. Many characters have advantages or powers that modify their initiative, such as Improved Initiative. At the start of a conflict, roll an initiative check for each character:",
+								{
+									"type": "middleEnhance",
+									"text": "d20 + initiative modifier"
+								},
+								"The initiative check determines what order characters act in, counting down from highest check result to lowest. Usually, the GM writes the names of the characters down in initiative order to move quickly from one character to the next each round. You can also have all of the characters’ names listed on index cards you can reshuffle to fit the initiative order. If two characters have the same initiative result, they act in order of highest Dodge bonus first, then highest Agility and highest Awareness. If there is still a tie, each tied player should roll a die, with the highest roll going first. The GM may roll just once for an entire group of minions, giving them all the same initiative.",
+								"If characters enter a conflict after it’s begun, they roll initiative when they join-in and act when their turn comes up in the existing order.",
+								{
+									"type": "entries",
+									"name": "Surprise",
+									"entries": [
+										"Some conflicts begin with one or more characters caught unaware or {@b urprised}. This is typically because the character did not succeed on a Perception or other check and was therefore caught off-guard. Some characters on a side can be surprised while others are not.",
+										"If any characters in the conflict are surprised, then the action begins with a {@b surprise round}. Everyone involved in the conflict makes initiative checks as usual. Surprised characters do not act on the surprise round. They are stunned and vulnerable until the next round (see {@b Conditions} in {@b The Basics}). Other characters may act, but are limited to a standard action and free actions, although they may exchange their standard action for a move action, as usual."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Action Types",
+							"entries": [
+								"The four types of actions characters can take are standard, move, free, and reaction. In a normal round, you can perform a standard action and a move action, or two move actions. You can also perform as many free and reactions actions as your GM allows.",
+								"Some situations (like the surprise round) and conditions (like being dazed) limit the actions you can take during your turn.",
+								{
+									"type": "entries",
+									"name": "Standard Action",
+									"entries": [
+										"A standard action allows you to do something. You can make an attack, use a skill, advantage, or power, or perform other similar actions. During a combat round, you can take a standard action and a move action."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Move action",
+									"entries": [
+										"A move action allows you to move your speed or perform an action taking a similar amount of time, such as draw or stow a weapon or other object, stand up, pick up an object, or perform some equivalent action (see {@b the Actions in Combat Table}).",
+										"You can take a move action in place of a standard action. For example, rather than moving your speed and attacking you can stand up and move your speed (two move actions), draw a weapon and climb (two move actions), or pick up an object and stow it (two move actions). You can also make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Free action",
+									"entries": [
+										"Free actions consume very little time and, over the span of the round, their impact is so minor they are considered to take no real time at all. You can perform one or more free actions while taking another action. For instance, dropping an object, dropping to a prone position, speaking a sentence or two, and ceasing to concentrate on maintaining a power are all free actions."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Reaction",
+									"entries": [
+										"A reaction is something that happens in response to something else, like a reflex. Like free actions, reactions take so little time they’re considered free. The difference between the two is a free action is a conscious choice made on the character’s turn to act. A reaction can occur even when it’s not your turn to act. Some powers and other traits are usable as reactions."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "No Action",
+									"entries": [
+										"Finally, some things players are called upon to do—certain die rolls like resistance checks, for example—are not considered actions at all, as they involve no action on the part of the characters."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Taking your Turn",
+							"entries": [
+								"When it is your turn in the initiative order, you declare what actions your character will perform, and they are resolved in order.",
+								{
+									"type": "entries",
+									"name": "Starting your Turn",
+									"entries": [
+										"The Gamemaster informs you when it is your turn. When you start your turn, you should:",
+										{
+											"type": "list",
+											"items": [
+												"End effects that last “until the start of your next turn”."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Taking actions",
+									"entries": [
+										"You get a standard and a move action each turn. You can exchange your standard action for an additional move action, allowing you to perform two move actions. You can also perform as many free actions on your turn as you wish."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Order of Actions",
+									"entries": [
+										"You perform your actions in any order that you wish, but you cannot normally “split” your actions. So, for example, although you can move (move action) and then attack (standard action) or attack and then move, you cannot move half your distance, attack, and then move the other half unless you have some special trait that allows you to do so."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Extra Action",
+									"entries": [
+										"You can use extra effort in order to take an additional standard or move action on your turn (see {@b Extra Effort})."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ending your Turn",
+									"entries": [
+										"At the end of your turn, you should",
+										{
+											"type": "list",
+											"items": [
+												"End any effects that last “until the end of your turn”",
+												"Make any necessary resistance checks to recover from ongoing effects.",
+												"Inform the Gamemaster and other players that your turn is finished, allowing the next character in the initiative order to go."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Challenges",
 					"entries": [
 						"",
 						{
 							"type": "entries",
-							"name": "",
+							"entries": [
+								"",
+								{
+									"type": "entries",
+									"name": "Challenges and Initiative",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Challenge Sequences",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Challenges and Consequences",
+									"entries": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Environmental Hazards",
 							"entries": [
 								""
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Conflicts",
+					"entries": [
+						"",
+						{
+							"type": "entries",
+							"name": "Attacks",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Defenses",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Actions",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Maneuvers",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Recovery",
+							"entries": [
+								"As a result of conflict, characters often suffer adverse conditions (see {@b Conditions} in {@b The Basics}) from being knocked around and hit with different powers. The specific conditions are discussed in the effects defined in {@b Powers} chapter, particularly Affliction and Damage, the most common effects of conflicts.",
+								"Living targets remove one damage condition per minute of rest, starting from their most severe condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process.",
+								"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged object."
 							]
 						}
 					]

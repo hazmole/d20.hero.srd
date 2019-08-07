@@ -14,7 +14,7 @@ window.onload = function load () {
 	// Configure BookUtil settings
 	BookUtil.contentObj = $("ul.contents");
 	BookUtil.contentType = "document";
-	BookUtil.addHeaderHandles(false);
+	BookUtil.addHeaderHandles(true);
 	
 	if (window.location.hash.length) {
 		BookUtil.booksHashChange();
