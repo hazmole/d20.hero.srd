@@ -634,11 +634,11 @@ function Renderer () {
 		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; border-top: 2px solid; background-color: #652020">`;
 		if (entry.name != null) {
 			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span>`;
 			if (entry.subtitle != null){
 				textStack[0] += `<span style="font-size: 1.1em;color:#ececec;float: right;">${entry.subtitle}</span>`;
 			}
-			textStack[0] += `</${this.wrapperTag}>`;
+			textStack[0] += `</span></${this.wrapperTag}>`;
 			textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px;margin-top:0px; border: 1px solid #656565; border-bottom: 2px solid">`;
 		}
 		const len = entry.entries.length;
