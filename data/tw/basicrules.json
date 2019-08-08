@@ -1846,7 +1846,7 @@
 								{
 									"type": "list",
 									"items": [
-										"Debilitated Strength, Agility, or Dexterity means the hero collapses: {@condition defenseless}, {@condition immobilized}, and {@condition stunned} (although still conscious and aware).",
+										"Debilitated Strength, Agility, or Dexterity means the hero collapses: {@condition defenseless}, {@condition immobile|immobilized}, and {@condition stunned} (although still conscious and aware).",
 										"Debilitated Stamina means the hero is {@condition dying}, and suffers a –5 modifier on Fortitude checks to avoid death on top of it.",
 										"Debilitated Fighting means the hero is {@condition dazed} and {@condition defenseless}, and cannot make close attacks.",
 										"Debilitated Intellect, Awareness, or Presence means the hero is {@condition unaware} and remains so until restored to at least a –5 rank in the ability."
@@ -2863,14 +2863,93 @@
 							"type": "entries",
 							"name": "Inventing",
 							"entries": [
-								""
+								"Characters with the Inventor advantage can create inventions, temporary devices. To create an invention, the inventor defines its effects and its cost in Character points. This cost is used for the necessary skill checks, and determines the time required to create the invention. Inventions are subject to the same power level limits as other effects in the series.",
+								{
+									"type": "entries",
+									"name": "Design Check",
+									"entries": [
+										"First, the inventor must design the invention. This is a Technology skill check the GM should make in secret. The DC is 10 + the invention’s total Character point cost, including all modifiers except Removable, which does not apply to inventions, as they are temporary by nature.",
+										"Designing an invention requires an hour’s work per Character point of the invention’s cost. You can make a routine check to design an invention. You can reduce the rank of the design time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
+										{
+											"type": "middleEnhance",
+											"text": "Design Check = DC 10 + invention’s point cost"
+										},
+										"If the check is successful, you have a design for the invention. If the check fails, the design is flawed and you must start over. With three or more degrees of failure, the designer is not aware of the design flaw; the design seems correct, but the invention won’t function (or at least won’t function properly) when it’s used. For this reason, the GM should make the design check secretly and only inform the player whether or not the character appears to have succeeded."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Construction Check",
+									"entries": [
+										"Once the design is inhand, the character can construct the invention. This requires four hours of work per Character point of the invention’s cost, so an invention costing 10 points takes 40 hours (about a week’s work normally, or working two days straight without rest) to construct. When the construction time is complete, make a Technology skill check. The DC is 10 + the invention’s Character point cost and you can make it as a routine check. You can reduce the rank of the construction time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
+										{
+											"type": "middleEnhance",
+											"text": "Construction Check = DC 10 + invention’s point cost"
+										},
+										"Success means the invention is complete and functional. Failure means the invention doesn’t work. Three or more degrees of failure may result in a mishap, at the GM’s discretion."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Using the Invention",
+									"entries": [
+										"Once the invention is complete, it is good for use in one scene, after which it breaks down or runs out of power. If the character wishes to use the invention again, there are two options.",
+										"The first is to spend the necessary Character points to acquire the invention as a regular power, part of the character’s traits; in this case, the device qualifies for the Removable flaw and, once purchased, can be used again like any power.",
+										"The other option is to spend a Victory point to get another one-scene use out of the invention. Each use costs an additional Victory point, but doesn’t require any further skill checks.",
+										"Although it’s possible to prepare certain one-use devices in advance, the GM should require the player to spend a Victory point to have a particular previously constructed invention conveniently on-hand during an adventure.",
+										{
+											"type": "example",
+											"entries": [
+												"Your hero needs to whip up a mind-shielding device to confront the bad guy, who has seized control of his teammates. Immunity to Mind Control (a common Affliction effect) cost 5 Character points, so the Technology check is DC 15 (10 + 5) and takes 5 hours. Your hero’s skill bonus is +15, so he succeeds automatically. The construction check is also DC 15 (10 + the device’s cost). It takes 20 hours. Your hero again succeeds automatically on the check. However, that’s 25 hours total to build the mind-shield, and the bad guy plans to send his new “puppets” into action in just a few hours. Even taking a –15 check penalty to cut the time to one-eighth only takes it down to just over three hours. Your hero needs that device right now, so he’s going to need to speed things up…."	
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Jury-rigging Devices",
+									"entries": [
+										"An inventor can choose to spend a Victory point to jury-rig a device; ideal for when a particular device is needed right now. When jury-rigging a device, skip the design check and reduce the time of the construction check to one round per Character point of the device’s cost, but increase the DC of the check by +5. The inventor makes the check and, if successful, has use of the device for one scene before it burns out, falls apart, blows up, or otherwise fails. You can’t jury-rig an invention as a routine check, nor can you speed up the process any further by taking a check penalty. You can use a jury-rigged invention again by spending another Victory point.",
+										{
+											"type": "example",
+											"entries": [
+												"Needing to get the mind shield device ready right away, you decide to spend a Victory point to jury-rig it. You skip the design step altogether and reduce construction time to 5 rounds (just under a minute). The DC of the construction check increases to 20, but still well within your hero’s skill; you only needs to roll a 5 or better. You roll a 25 on the check and, a minute later, you have a makeshift mind-shield you hope will protect your hero from the bad guys power long enough to try and free his teammates from the villain’s influence."	
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Mishaps",
+									"entries": [
+										"At the GM’s discretion, three or more degrees of failure, or a natural roll of 1, on any required inventing skill check may result in some unexpected side-effect or mishap. Exactly what depends heavily on the invention. Inventing mishaps can become a source of adventure ideas and put the heroes in some difficult situations. They may also be setbacks, suitable for Victory point awards."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Magical Inventions",
+									"entries": [
+										"For magical, rather than technological, inventions, use the normal inventing rules, but substitute the Expertise: Magic skill for the Technology skill on the design and construction checks."
+									]
+								}
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Magical Rituals",
 							"entries": [
-								""
+								"Characters with the Ritualist advantage can perform magical rituals. They are similar to inventions: one-time powers requiring some time and effort to set up.",
+								"For rituals, substitute the Expertise: Magic skill for both the design and construction checks. The design portion of the ritual takes 4 hours per Character point of the ritual’s cost (pouring over ancient scrolls and grimoires, drawing diagrams, casting horoscopes, meditating, consulting spirit-guides, and so forth). The performance of the actual ritual takes 10 minutes per point of the ritual’s cost. So a ritual costing 10 Character points takes 40 hours to research and 100 minutes to perform. As with inventing, the ritual is good for one scene. Failing the research check means the ritual isn’t usable and three or more degrees of failure results in a mishap (at the GM’s discretion).",
+								"“Jury-rigging” a ritual has the same effects as for an invention. Spending a Victory point allows the ritualist to skip the design check and perform the ritual in a number of rounds equal to its cost. An Expertise: Magic check against a DC equal of (15 + the ritual’s cost) is needed to successfully perform the ritual. Failure means the ritual does not work and the time and effort is wasted."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "What Items do you Pay for?",
+							"entries": [
+								"Just because a character happens to own a cell phone, laptop computer, car, or a home does not mean the character is expected to have ranks in the Equipment advantage. Broadly speaking, characters are only expected to pay for adventuring equipment, which is to say items that have a direct impact on their roles as heroes. The rest is just background color, perhaps encompassed by ranks in the Benefit advantage for heroes with a lot of wealth and material resources.",
+								"So, for example, a hero pays no equipment points for the fact that, in his secret identity, he lives in a nice apartment or owns a computer and a cell phone. He does, on the other hand, pay equipment points for a hidden fortress or high-tech lair, where he keeps various dangerous items and trophies collected over his career. Likewise, a hero with Benefit ranks reflecting great personal wealth pays no equipment points for a sprawling mansion or penthouse apartment, nor for a collection of classic sports cars. She does pay equipment points for things like smoke bombs, boomerangs, and other weapons and crimefighting tools, as well as for a hidden base of operations or souped-up vehicles used in costume.",
+								"As with many cases, when in doubt, the Gamemaster can make a ruling whether or not a particular item should count as equipment. If it is something the character regularly uses as part of his or her heroic identity, then it probably should. If a player wants to bring some cost-free background element to bear on the adventure in an important way, the GM can assess a {@b Victory point} cost to do so. See Victory points for more information."
 							]
 						}
 					]

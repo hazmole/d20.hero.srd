@@ -89,7 +89,7 @@ const BookUtil = {
 		let out =
 			`<ul class="bk-headers" ${defaultHeadersHidden ? `style="display: none;"` : ""}>`;
 		chapter.headers && chapter.headers.forEach(h => {
-			const headerText = BookUtil.getHeaderText(h);
+			const headerText = BookUtil.getHeaderText(h).toLowerCase();
 			const displayText = BookUtil.getHeaderDisplayText(h);//h.header ? `<span class="bk-contents__sub_spacer--1">\u2013</span>${h.header}` : h; // handle entries with depth
 			const clickFuncText = addOnclick ? ("onclick=\"BookUtil.scrollClick('"+headerText.replace(/'/g, "\\'").toLowerCase()+"')\"") : "";
 			out += `

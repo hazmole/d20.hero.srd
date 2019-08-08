@@ -1742,7 +1742,6 @@ Renderer.hover = {
 			reset();
 			return;
 		}
-
 		const hoverId = Renderer.hover._curHovering.hoverId;
 		const ele = Renderer.hover._curHovering.ele;
 		let preLoaded = Renderer.hover._curHovering.preLoaded;
@@ -3679,7 +3678,7 @@ Renderer.stripTags = function (str) {
 					case "@trap":
 					case "@variantrule": {
 						const parts = text.split("|");
-						return parts.length >= 3 ? parts[2] : parts[0];
+						return parts.length >= 2 ? parts[1] : parts[0];
 					}
 
 					default: throw new Error(`Unhandled tag: "${tag}"`);
@@ -4000,7 +3999,7 @@ Renderer.condition = {
 		
 		if(entry.contain && entry.contain.length>0){
 			var arr = entry.contain.map( condition_name => {
-				var cache_con = Renderer.hover._getFromCache(UrlUtil.getCurrentPage(), null, condition_name);
+				var cache_con = Renderer.hover._getFromCache("conditions.html", null, condition_name);
 				if(!cache_con) return "";
 				var display_name = cache_con.translate_name? cache_con.translate_name: cache_con.name;
 				return `{@condition ${display_name}}`;
