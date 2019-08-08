@@ -6,103 +6,103 @@
 			{
 				"name": "Introduction",
 				"headers": [
-					"What You Need to Play",
-					"Using this Site"
+					{ "name": "What You Need to Play" },
+					{ "name": "Using this Site" }
 				]
 			},
 			{
 				"name": "The Basics",
 				"headers": [
-					"The Core Mechanic",
-					"The Gamemaster",
-					"The Heros",
-					"Rank & Measures",
-					"Game Play",
-					"Checks",
-					"The Action Round",
-					"Conditions",
-					"Extra Effort",
-					"Victory Points"
+					{ "name": "The Core Mechanic" },
+					{ "name": "The Gamemaster" },
+					{ "name": "The Heros" },
+					{ "name": "Rank & Measures" },
+					{ "name": "Game Play" },
+					{ "name": "Checks" },
+					{ "name": "The Action Round" },
+					{ "name": "Conditions" },
+					{ "name": "Extra Effort" },
+					{ "name": "Victory Points" }
 				]
 			},
 			{
 				"name": "Secret Origins",
 				"headers": [
-					"Hero Archetypes",
-					"Hero Design",
-					"Character Points",
-					"Complications",
-					"Background",
-					"Hero Advancement & Improvement",
-					"Character Archetypes"
+					{ "name": "Hero Archetypes" },
+					{ "name": "Hero Design" },
+					{ "name": "Character Points" },
+					{ "name": "Complications" },
+					{ "name": "Background" },
+					{ "name": "Hero Advancement & Improvement" },
+					{ "name": "Character Archetypes" }
 				]
 			},
 			{
 				"name": "Abilities",
 				"headers": [
-					"Ability Ranks",
-					"The Abilities",
-					"Altering Abilities",
-					"Defenses & Initiative"
+					{ "name": "Ability Ranks" },
+					{ "name": "The Abilities" },
+					{ "name": "Altering Abilities" },
+					{ "name": "Defenses & Initiative" }
 				]
 			},
 			{
 				"name": "Skills",
 				"headers": [
-					"Skill Basics",
-					"How Skills Work",
-					"Skill Descriptions"
+					{ "name": "Skill Basics" },
+					{ "name": "How Skills Work" },
+					{ "name": "Skill Descriptions" }
 				]
 			},
 			{
 				"name": "Advantages",
 				"headers": [
-					"Acquiring Advantages",
-					"Advantage Descriptions"
+					{ "name": "Acquiring Advantages" },
+					{ "name": "Advantage Descriptions" }
 				]
 			},
 			{
 				"name": "Powers",
 				"headers": [
-					"Acquiring Powers",
-					"Effect Types",
-					"How Powers Work",
-					"Power Effects",
-					"Modifiers",
-					"Descriptors"
+					{ "name": "Acquiring Powers" },
+					{ "name": "Effect Types" },
+					{ "name": "How Powers Work" },
+					{ "name": "Power Effects" },
+					{ "name": "Modifiers" },
+					{ "name": "Descriptors" }
 				]
 			},
 			{
 				"name": "Gadgets & Gear",
 				"headers": [
-					"Devices",
-					"Equipment",
-					"General Equipment",
-					"Weapons",
-					"Armor",
-					"Vehicles",
-					"Headquarters",
-					"Constructs"
+					{ "name": "Devices" },
+					{ "name": "Equipment" },
+					{ "name": "General Equipment" },
+					{ "name": "Weapons" },
+					{ "name": "Armor" },
+					{ "name": "Vehicles" },
+					{ "name": "Headquarters" },
+					{ "name": "Constructs" }
 				]
 			},
 			{
 				"name": "Action & Adventure",
 				"headers": [
-					"Action Rounds",
-					"Challenges",
-					"Conflicts",
-					"Actions",
-					"Maneuvers",
-					"Recovery"
+					{ "name": "Action Rounds" },
+					{ "name": "Challenges" },
+					{ "name": "Conflicts" },
+					{ "name": "Actions" },
+					{ "name": "Maneuvers" },
+					{ "name": "Recovery" }
 				]
 			},
 			{
 				"name": "Gamemastering",
 				"headers": [
-					"Running the Game",
-					"Creating Adventures",
-					"Creating a Series",
-					"Series Frameworks"
+					{ "name": "Running the Game" },
+					{ "name": "Creating Adventures" },
+					{ "name": "Creating a Series" },
+					{ "name": "Series Frameworks" }
 				]
 			}
 		]
@@ -114,7 +114,7 @@
 			"name": "Introduction",
 			"entries": [
 				"In this game, you take on the role of a costumed superhero safeguarding the world from threats ranging from scheming super-criminals to alien invasions, hulking monsters, natural disasters, and would-be conquerors.",
-				"This site contains all the information you need to play the game. {@b The Basics} chapter starts you off with a quick overview of how the game works. After you read it, flip through the rest of the site and see the various options for creating heroes. Then you can read the following chapters thoroughly to see which options appeal to you the most.",
+				"This site contains all the information you need to play the game. {@rule The Basics|basic|1} chapter starts you off with a quick overview of how the game works. After you read it, flip through the rest of the site and see the various options for creating heroes. Then you can read the following chapters thoroughly to see which options appeal to you the most.",
 				{
 					"type": "section",
 					"name": "What You Need to Play",
@@ -162,14 +162,14 @@
 							"type": "entries",
 							"name": "Players",
 							"entries": [
-								"If you’re creating a hero for this game, see {@b Secret Origins} for a basic overview. The following sections contain all the information you need to create your own hero. You may want to consult with your Gamemaster before creating a hero to find out what sort of series your GM is interested in running, and what types of heroes are appropriate."
+								"If you’re creating a hero for this game, see {@rule Secret Origins|basic|2} for a basic overview. The following sections contain all the information you need to create your own hero. You may want to consult with your Gamemaster before creating a hero to find out what sort of series your GM is interested in running, and what types of heroes are appropriate."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Gamemasters",
 							"entries": [
-								"If you plan to be a Gamemaster, you should familiarize yourself with this whole website. Start by looking over hero creation in the {@b Secret Origins} section. Then read through the {@b Action & Adventure} section, and familiarize yourself with how to do things in the game. You may want to run a few sample combats using the sample archetypes, just to get a feel for things."
+								"If you plan to be a Gamemaster, you should familiarize yourself with this whole website. Start by looking over hero creation in the {@rule Secret Origins|basic|2} section. Then read through the {@rule Action & Adventure|basic|8} section, and familiarize yourself with how to do things in the game. You may want to run a few sample combats using the sample archetypes, just to get a feel for things."
 							]
 						},
 						{
@@ -229,9 +229,9 @@
 							"type": "entries",
 							"name": "Abilities",
 							"entries": [
-								"All characters in this game, from heroes and villains to the average person on the street, are defined by eight {@b abilities}, basic traits each character has to a greater or lesser extent. Abilities tell you how strong, smart, and aware a character is, among other things. The abilities are: Strength, Stamina, Agility, Dexterity, Fighting, Intellect, Awareness, and Presence, described in detail on the {@b Abilities} page.",
+								"All characters in this game, from heroes and villains to the average person on the street, are defined by eight {@b abilities}, basic traits each character has to a greater or lesser extent. Abilities tell you how strong, smart, and aware a character is, among other things. The abilities are: Strength, Stamina, Agility, Dexterity, Fighting, Intellect, Awareness, and Presence, described in detail on the {@rule Abilities|basic|3} chapter.",
 								"Each ability is assigned a {@b rank} from -5 to 20, measuring its effectiveness. A rank of 0 is unremarkable or average, applying no modifier. Rank 2 is pretty well above average. A 5 is truly exceptional, while a 7 is about the most that can be expected from a “normal” human being. Beyond that is superhuman, and a rank of 20 is cosmic-level, far beyond the ability of mere mortals (and even most heroes). abilities can even have negative ranks, for those well below average, as low as –5.",
-								"For more about abilities, see the {@b Abilities} page."
+								"For more about abilities, see the {@rule Abilities|basic|3} chapter."
 							]
 						},
 						{
@@ -240,7 +240,7 @@
 							"entries": [
 								"Abilities describe a character’s raw potential or overall capabilities. {@b Skills} are a refinement of those basic abilities into specific areas of endeavor. For example, Agility defines how quick and agile your hero is, but the Acrobatics skill focuses on specific feats of agility like gymnastics, doing back flips, and so forth. Think of abilities as providing a certain baseline, while skills focus in on a particular area of expertise.",
 								"Characters are said to have {@b training} in a skill if they have a rank in that skill. A character not trained in a skill has no rank; only the character’s basic ability applies to checks involving the skill. Trained characters have a skill rank that adds to the basic ability when making checks. In the previous example, we said Acrobatics skill applies to specific feats of agility. If a hero has Agility 6 and is trained in Acrobatics (with a rank of 7) then the character’s bonus for checks involving feats of agility covered by Acrobatics is 13 (6 plus 7). Obviously, training in a skill makes characters more effective at checks involving that skill, often much more.",
-								"For details on what skills are available and what they do, see {@b Skills} page."
+								"For details on what skills are available and what they do, see {@rule Skills|basic|4} chapter."
 							]
 						},
 						{
@@ -249,7 +249,7 @@
 							"entries": [
 								"Halfway between skills and powers, {@b advantages} are minor benefits characters have, allowing them to do things others cannot. They range from special combat maneuvers to things like financial resources, contacts, and so forth.",
 								"Many advantages have no rank, or rather just one rank; a character either has the advantage (and the benefits that it grants) or does not. Other advantages may have multiple ranks, like abilities and skills, measuring their effectiveness.",
-								"For details on the various advantages and what they provide, see {@b Advantages} page."
+								"For details on the various advantages and what they provide, see {@rule Advantages|basic|5} chapter."
 							]
 						},
 						{
@@ -259,14 +259,14 @@
 								"{@b Powers} are special abilities beyond those of ordinary human beings. They’re like advantages, only much more so. Whereas an advantage might give your hero a minor special ability, powers grant truly superhuman abilities.",
 								"Those abilities are based on {@b effects}, which describe what a power does in game terms. A power may have just one effect or several, and you can apply various {@b modifiers} to the effects to change how they work, customizing them to get just the right power.",
 								"Power effects have ranks like abilities do, on a scale from 1 to 20 (sometimes more). Unlike abilities, effects do not have ranks of less than 1, since the “average” is not having powers at all!",
-								"Some power effects require checks to use, while others operate automatically.For full descriptions of the various effects powers can have, see {@b Powers} page."
+								"Some power effects require checks to use, while others operate automatically.For full descriptions of the various effects powers can have, see {@rule Powers|basic|6} chapter."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Complications",
 							"entries": [
-								"Finally, heroes often have {@b complications} to overcome. Overcoming such challenges is part of what makes a real hero. Complications range from physical disabilities or personal issues to unusual vulnerabilities. You choose your hero’s complications, defining some of the challenges your hero must overcome in the game. The process of dealing with complications allows your character to be more heroic, discussed later in the rules. See {@b Secret Origins} for more on complications."
+								"Finally, heroes often have {@b complications} to overcome. Overcoming such challenges is part of what makes a real hero. Complications range from physical disabilities or personal issues to unusual vulnerabilities. You choose your hero’s complications, defining some of the challenges your hero must overcome in the game. The process of dealing with complications allows your character to be more heroic, discussed later in the rules. See {@rule Complications|basic|2|complications} in {@b Secret Origins} for more on complications."
 							]
 						}
 					]
@@ -480,14 +480,14 @@
 									"items": [
 										"“…leap down …” Jumping down is literally as easy as falling off a log, so there’s no need for a check here.",
 										"… smashing through the skylight …” Breaking something can require a check, but in this case—a body hurling through Plexiglas—the Gamemaster does not see a point in making one, so this is automatic, too. This is one of the ways the Gamemaster’s judgment and intervention is important in the flow of the game.",
-										"“…swing over to the catwalk …” This part of the action is a bit of a judgment call. If your hero has the Swinging movement effect (see {@b Powers}), then this is automatic. Otherwise, it might call for an Acrobatics skill check to pull it off; even then, if your hero is good enough at Acrobatics, the Gamemaster might call this a routine check and waive the need for a roll (see {@b Routine Checks}).",
+										"“…swing over to the catwalk …” This part of the action is a bit of a judgment call. If your hero has the Swinging movement effect (see {@rule Powers|basic|6}), then this is automatic. Otherwise, it might call for an Acrobatics skill check to pull it off; even then, if your hero is good enough at Acrobatics, the Gamemaster might call this a routine check and waive the need for a roll (see {@rule Routine Checks|basic|1|Routine Checks}).",
 										"“…kick the bad guy out of the way …” Here’s the real crux of the hero’s action. You want to hit the villain who, naturally, wants to avoid being hit. This calls for a check of your hero’s Fighting ability (which Measures the ability to hit things close-up). If you decided to have your hero shoot or throw something at the villain that would be a check of Dexterity instead.",
 										"“…flip the switch back up …” Assuming the bad guy is out of the way, this is easy, no check required. If the hero’s attempt to hit the villain fails, then the hero still has to get past him in order to do this at all. So it all depends on the outcome of the Fighting check against the bad guy. If the mechanism was especially complex, the GM might ask for a check here, such as using the Technology skill to figure out how it works."
 									]
 								},
 								"As you can see, once you break it down, checks are actually fairly simple. All the Gamemaster has to say in response to the player’s declaration is: “Okay, roll a Fighting check to hit the villain,” letting the rest of the description stand as what happens. Whether or not the hero is successful in stopping the trap depends on the outcome of the attack against the bad guy.",
 								"Of course, if the villain is expecting the hero, there might be another trap, such as part of the catwalk rigged to fall away under him, leaving him dangling above the acid vat and at the villain’s mercy! In that case, the GM would respond to the player’s description: “You smash through the skylight and swing over to the catwalk, but when you do…” and go on to describe what follows. The rest of the hero’s intended action(s) are null and void, because things don’t always go as planned when you’re dealing with cunning supervillains!",
-								"Checks are used to resolve all outcomes so once you understand the basic concept, the rest is easy. For detailed examples of how to use checks in the game and their effects, see {@b Action & Adventure}.",
+								"Checks are used to resolve all outcomes so once you understand the basic concept, the rest is easy. For detailed examples of how to use checks in the game and their effects, see {@rule Action & Adventure|basic|8}.",
 								{
 									"type": "table",
 									"caption": "Check Examples",
@@ -539,7 +539,7 @@
 									"name": "Critical Success",
 									"entries": [
 										"If you roll a 20 on the die when making a check you’ve scored a {@b critical success}. Determine the degree of success normally and then increase it by one degree. This can turn a low-level success into something more significant, but more importantly, it can turn a failure into a full-fledged success! A critical success with an attack check is called a {@b critical hit}.",
-										"For more information regarding critical hits see {@b Action & Adventure}."
+										"For more information regarding critical hits see {@rule Action & Adventure|basic|8|critical hits}."
 									]
 								},
 								{
@@ -2784,16 +2784,58 @@
 				"",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Devices",
 					"entries": [
-						"",
-						{
-							"type": "entries",
-							"name": "",
-							"entries": [
-								""
-							]
-						}
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Equipment",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "General Equipment",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Weapons",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Armor",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Vehicles",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Headquarters",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Constructs",
+					"entries": [
+						""
 					]
 				}
 			]
@@ -2937,30 +2979,32 @@
 					"type": "section",
 					"name": "Challenges",
 					"entries": [
-						"",
+						"In game terms, a {@b challenge} is an action or series of actions where players are called upon to make checks of their characters’ traits, but which do not involve direct conflict, such as fighting. Some challenges are quick and involve only a single character, such as a hero making a daring leap or acrobatic maneuver, while others are more involved and require the efforts of a whole team, such as clearing all of the people out of a burning building or searching the entire city (or world!) for an escaped criminal.",
+						"The challenges given in this section are by no means the only possible ones. They simply cover the major “building blocks” Gamemasters can use to create challenges in their own games and offer examples. Feel free to come up with your own challenges to test the heroes’ abilities and give the players an opportunity to come up with clever plans of their own.",
 						{
 							"type": "entries",
 							"entries": [
-								"",
 								{
 									"type": "entries",
 									"name": "Challenges and Initiative",
 									"entries": [
-										""
+										"Challenges may or may not involve initiative checks, depending on the nature of the challenge.",
+										"If all of the characters get a turn and it does not particularly matter who goes first, then the Gamemaster can dispense with initiative for the challenge. For example, if the heroes all have to leap across a chasm, then it is a challenge they must all complete, and it does not particularly matter which of them goes first or last in doing so (since their actions are all virtually simultaneous).",
+										"With other challenges, it does matter who goes first, particular when the challenge is timed in some fashion. So, for example, if the GM determines that part of a burning building will collapse after the first round, initiative may be checked to see which heroes go before the collapse and who does not quite act fast enough. The same may be true of other traps or hazards, which can have initiative ranks of their own."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Challenge Sequences",
 									"entries": [
-										""
+										"A {@b challenge sequence} is made up of a series of checks rather than a simple set of one or two. It represents a more involved or detailed challenge for the heroes. So, whereas a simple challenge might involve breaking down a door or figuring out a lock, a challenge sequence could be a lengthy investigation, searching for someone who has gone missing, or convincing a non-player character of the heroes’ good intentions. It can involve several checks of the same trait, or multiple traits, such as a Persuasion check to get the heroes on good terms with the King of Atlantis, an Expertise check to explain the particular danger the kingdom faces, and an Insight check to realize the king’s advisor has something other than the best interests of the kingdom and royal family at heart. Similarly, heroes might make Perception checks to pick up on particular clues, Investigate checks to gather and analyze them, and Expertise checks to figure out the villain’s riddle behind them before it is too late."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Challenges and Consequences",
 									"entries": [
-										""
+										"Challenges typically have some reward for success (usually moving on to the next part of the adventure) and some consequence for failure. The latter might be missing a vital clue or otherwise being unable to stop a villain’s scheme. This may make later parts of the adventure more difficult for your heroes. Other consequences might include particular conditions (see {@rule Conditions|basic|1|conditions} in {@b The Basics}); for example, failing a wilderness survival challenge may result in the heroes suffering from fatigue or exhaustion. Failing a challenge to cross a chasm could mean the hero falls and suffers damage. Failing a challenge to overcome a trap could mean the heroes are even incapacitated, falling into the villain’s clutches! The GM decides the consequences of failing a particular challenge based on the challenge and the needs of the story."
 									]
 								}
 							]
@@ -2969,7 +3013,265 @@
 							"type": "entries",
 							"name": "Environmental Hazards",
 							"entries": [
-								""
+								"Not all of the hazards heroes face come from supervillains. Sometimes the environment itself can be a danger, particularly when villains try to use it to their advantage. Heroes end up in a lot of dangerous places and deal with less than ideal conditions. This section details some of the hazards heroes may face.",
+								{
+									"type": "entries",
+									"name": "Light and Darkness",
+									"entries": [
+										"Criminals often lurk in the darkness, and many crimes take place at night. Most cities are lit well enough, but sometimes heroes run into areas where it’s difficult to see. Poorly lit areas provide concealment. Characters with Counters Concealment (Darkness) Senses or other appropriate Senses effects can ignore concealment penalties for poor lighting."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heat and Cold",
+									"entries": [
+										"Intense heat and cold wear down characters, while prolonged exposure to the elements can be extremely dangerous.",
+										"Characters in hot or cold conditions must make Fortitude checks (DC 10, +1 per previous check) to avoid becoming fatigued. Fatigued characters who fail a check become exhausted, then incapacitated, at which point the character’s condition becomes dying after another failed Fortitude check.",
+										"How often characters have to make Fortitude checks depends on the conditions. Once an hour for uncomfortable heat or cold (a hot summer day or cold winter day), once per 10 minutes for intense heat or cold (a blazing desert or arctic conditions), once a minute for extreme heat or cold like the edge of a volcano or an arctic winter storm. Checks are made at the end of each period of exposure. Truly intense heat or cold—such as a blast furnace or touching liquid nitrogen—inflicts direct damage like an attack.",
+										"Characters with the appropriate Immunity do not need to make Fortitude checks for extreme temperatures."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Starvation and Thirst",
+									"entries": [
+										"Heroes can go without water for a day. After this, they need to make a Fortitude check (DC 10, +1 per previous check) each hour to avoid a level of fatigue. Heroes can go without food for three days. After this, they must make a Fortitude check (DC 10, +1 per previous check) each day to avoid fatigue. The character cannot recover until he gets water or food. Heroes with Immunity to Starvation can go an unlimited time without food or water."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Suffocation",
+									"entries": [
+										"Characters can hold their breath for ten rounds (one minute) plus a number of rounds equal to twice their Stamina. After that time they must make a Fortitude check (DC 10) each round to continue holding their breath. The DC increases by +1 for each previous success. Failure on the Fortitude check means the character becomes incapacitated . On the following round the character is dying. A dying character cannot stabilize until able to breathe again. Heroes with Immunity to Suffocation can go an unlimited time without air."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Falling",
+									"entries": [
+										"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. Characters with the Acrobatics skill can fall greater distances without risk of damage. Falling into or onto a dangerous surface may cause additional damage, at the GM’s discretion.",
+										"Catching a falling person or object requires a Dexterity check (DC 5). If you successfully catch a falling object, subtract your Strength rank from the falling damage rank. Both you and the object suffer any remaining damage. So if a character with Strength 6 catches someone falling for 12 damage, subtract 6 from 12, and both characters resist damage 6. If the catcher is using a power—such as Flight or Move Object—to catch the falling object, the power’s rank can be substituted for Strength at the GM’s discretion."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fire",
+									"entries": [
+										{
+											"type": "table",
+											"caption": "Sample Fire Rank",
+											"colLabels": [
+												"Rank",
+												"Fire Example"
+											],
+											"colStyles": [
+												"col-3 text-align-center",
+												"col-9"
+											],
+											"rows": [
+												[
+													"1",
+													"Torch"
+												],
+												[
+													"2",
+													"Campfire"
+												],
+												[
+													"4",
+													"Blowtorch"
+												],
+												[
+													"6",
+													"Flame thrower"
+												],
+												[
+													"8",
+													"Burning jet fuel, napalm"
+												],
+												[
+													"10+",
+													"Chemical accelerants and fire powers"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Poison",
+									"entries": [
+										"A deadly toxin introduced through a scratch, or even in the air, may be able to fell the strongest hero. Poisons generally have one of several effects particularly Affliction, Damage, or Weaken. Some poisons may even have multiple Linked effects. Heroes generally resist poisons with Fortitude.",
+										"Heroes with Immunity to Poison are completely unaffected by poisons. A Treatment skill check can provide a bonus on resistance checks against poison.",
+										{
+											"type": "table",
+											"caption": "Sample Poison Rank",
+											"colLabels": [
+												"Rank",
+												"Sample Poison"
+											],
+											"colStyles": [
+												"col-3 text-align-center",
+												"col-9"
+											],
+											"rows": [
+												[
+													"1",
+													"{@b Food poisoning}: Affliction conditions typically include impaired and disabled, perhaps also dazed and stunned for especially severe nausea."
+												],
+												[
+													"1",
+													"{@b Alcohol}: Impaired and disabled are the most common conditions, perhaps dazed and stunned for severe drunkenness, as for food poisoning."
+												],
+												[
+													"3",
+													"{@b Pesticides}: Common Affliction conditions include impaired and disabled, although a large enough dose or repeated exposure can also Weaken Stamina, even leading to death."
+												],
+												[
+													"4",
+													"{@b Chloroform}: Affliction with dazed, stunned, and incapacitated effects."
+												],
+												[
+													"7",
+													"{@b Cobra venom}: Typically a Weaken effect against Strength, Agility, or Stamina (sometimes more than one), with Weaken Stamina potentially lethal, if the victim’s Stamina drops below –5."
+												],
+												[
+													"8",
+													"{@b Mustard gas}: Affliction with impaired, disabled, and incapacitated effects, linked with a Damage effect resisted by Fortitude."
+												],
+												[
+													"9",
+													"{@b Poisonous mushrooms}: Typically a Fortitude Damage effect. Side-effects might include conditions like dazed, impaired, or hindered."
+												],
+												[
+													"11",
+													"{@b Chlorine gas}: Affliction with dazed, stunned, and incapacitated effects, linked with a Damage effect resisted by Fortitude."
+												],
+												[
+													"13",
+													"{@b Curare}: Affliction with dazed and hindered, stunned and immobilized, and incapacitated effects, linked with Weaken Stamina, as the poison can potentially stop the target’s heart."
+												],
+												[
+													"14",
+													"{@b Cyanide}: Fortitude Damage effect."
+												],
+												[
+													"15",
+													"{@b Nerve gas}: Affliction with dazed and impaired, stunned and disabled, and incapacitated effects, linked with Fortitude Damage."
+												],
+												[
+													"16+",
+													"{@b Alien, supernatural, or super-science toxins}"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Disease",
+									"entries": [
+										"When heroes come into contact with a disease they must make a Fortitude check (DC 10 + the disease’s rank) to avoid becoming infected. The method of infection depends on the disease: some are airborne while others require physical contact. Diseases are generally Affliction or Weaken effects. Some diseases may have multiple linked effects. Potentially fatal diseases usually Weaken Stamina, in addition to their other effects. If the disease goes untreated for long enough, the subject’s Stamina may drop below –5, in which case death occurs.",
+										"Heroes with Immunity to Disease are completely unaffected by disease. A Treatment skill check can provide a bonus on resistance checks against disease.",
+										{
+											"type": "table",
+											"caption": "Sample Disease Rank",
+											"colLabels": [
+												"Rank",
+												"Sample Disease"
+											],
+											"colStyles": [
+												"col-3 text-align-center",
+												"col-9"
+											],
+											"rows": [
+												[
+													"1-2",
+													"{@b Common colds}: Usually nothing more than an impaired condition."
+												],
+												[
+													"3-5",
+													"{@b Influenza (including bird flu, swine flu, etc.)}: Affliction with impaired, disabled, and incapacitated"
+												],
+												[
+													"4",
+													"{@b Malaria}: Affliction with impaired, disabled, and incapacitated."
+												],
+												[
+													"6",
+													"{@b Typhoid}: Affliction with dazed, stunned, and incapacitated."
+												],
+												[
+													"7",
+													"{@b Rabies}: Affliction with impaired, compelled (paranoid and violent behavior), and incapacitated."
+												],
+												[
+													"8",
+													"{@b Leprosy}: Affliction with impaired, disabled, and incapacitated."
+												],
+												[
+													"10",
+													"{@b AIDS}: Weaken Fortitude, leading to other opportunistic infections."
+												],
+												[
+													"11",
+													"{@b Smallpox}: Affliction with hindered and impaired, disabled, and incapacitated linked with Weaken Stamina."
+												],
+												[
+													"12-14",
+													"{@b Bubonic plague}: Affliction with dazed and hindered, stunned and immobilized, linked with Weaken Stamina."
+												],
+												[
+													"15",
+													"{@b Ebola virus}: Affliction with dazed, hindered, and impaired; stunned, immobilized, and disabled; and incapacitated, linked with Weaken Strength and Stamina."
+												],
+												[
+													"16+",
+													"{@b Engineered super-viruses}"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Radiation",
+									"entries": [
+										"Radiation in the comic books often causes mutations or triggers latent powers in those exposed to it rather than simply causing radiation sickness. Exposure to radiation (especially exotic or alien radiation) may be an excellent opportunity for a complication.",
+										"Otherwise the Gamemaster can treat radiation exposure like a disease: The victim makes an initial Fortitude check against (DC 10 + radiation’s rank) and an additional check each day. Radiation sickness is typically a Weaken Stamina effect, but may include other effects, including Damage resisted by Fortitude. At the GM’s discretion, radiation exposure can lead to other effects, such as damage to a hero’s power ranks (causing a temporary decrease in powers).",
+										{
+											"type": "table",
+											"caption": "Sample Radiation Rank",
+											"colLabels": [
+												"Rank",
+												"Radiation Example"
+											],
+											"colStyles": [
+												"col-3 text-align-center",
+												"col-9"
+											],
+											"rows": [
+												[ "1", "Lingering irradiation" ],
+												[ "2-5", "Nuclear fallout" ],
+												[ "5-10", "Exposure to radioactive materials" ],
+												[ "10-12", "Stellar radiation (deep space)" ],
+												[ "13-14", "Nuclear reactor" ],
+												[ "15+", "Nuclear blast" ]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Vacuum",
+									"entries": [
+										"The primary hazards of the vacuum of space are lack of air and exposure to unfiltered ionizing radiation.",
+										"On the third round of exposure to vacuum, a character must succeed on a Fortitude check (DC 20) each round or suffer from aeroembolism (“the bends”). A failed check means excruciating pain as small air bubbles form in the creature’s bloodstream; the creature is stunned and remains so until returned to normal atmospheric pressure. Two or more degrees of failure impose the incapacitated condition.",
+										"The real danger of vacuum comes from suffocation, though holding one’s breath in vacuum damages the lungs. A character who attempts to hold his breath must make a Fortitude check (DC 15) every round; the DC increases by 1 each round, and on a successful check the character loses a rank of Stamina (from the pressure on the linings of his lungs). If the check fails, or when the character simply stops holding his breath, he begins to suffocate: the next round, he becomes incapacitated . The following round, he’s dying and cannot stabilize until returned to a normal atmosphere.",
+										"Unfiltered radiation bombards any character trapped in the vacuum of space without protective gear, see {@b Radiation}, previously.",
+										"Heroes able to ignore the effects of deep space must have Immunity to suffocation, vacuum, and radiation, at a minimum. See the Immunity effect in Powers for details."
+									]
+								}
 							]
 						}
 					]
@@ -2978,33 +3280,499 @@
 					"type": "section",
 					"name": "Conflicts",
 					"entries": [
-						"",
+						"A {@b conflict} is when two or more characters go up against each other, typically in a fight of some sort. Conflict between heroes and villains is a prime part of the game and a big element of the fun, just like the colorful and spectacular fights in the superhero comic books.",
 						{
 							"type": "entries",
 							"name": "Attacks",
 							"entries": [
-								""
+								"An {@b attack check} represents an attempt to hit a target with an attack. When you make an attack check, roll the die and add your bonus with that attack. If your result equals or exceeds the target’s defense, your attack hits and may have some effect.",
+								{
+									"type": "middleEnhance",
+									"text": "Attack Check = d20 + attack bonus vs. defense class"
+								},
+								{
+									"type": "entries",
+									"name": "Critical Hits",
+									"entries": [
+										"When you make an attack check and get a natural 20 (the d20 actually shows 20), you automatically hit, regardless of your target’s defense, and you score a threat. The hit might also be a critical hit (sometimes called a “crit”). To find out if it’s a critical hit, determine if the attack check total is equal to or greater than the target’s defense. If so, it is a critical hit. If not, the attack still hits, but as a normal attack, not a critical.",
+										{
+											"type": "inset",
+											"name": "Increased Threat Range",
+											"entries": [
+												"Characters with the {@advantage Improved Critical} advantage can score a threat on a natural result less than 20, although they still automatically hit only on a natural 20. Any attack check that doesn’t result in a hit is not a threat."
+											]
+										},
+										"A critical hit can have one of the following three effects, chosen by the player when the critical hit is determined:",
+										{
+											"type": "list",
+											"items": [
+												"{@b Increased Effect}: The critical hit increases the difficulty to resist the attack’s effect by +5. Against a minion, this bypasses the resistance check entirely; the minion automatically receives the highest degree of the attack’s effect.",
+												"{@b Added Effect}: The critical hit adds another effect onto the attack, but its effective rank is 0, so the resistance DC is just the base value (10, or 15 for damage). The added effect can be anything the player can reasonably describe and justify as adjunct to the original effect: an Affliction (useful for all sorts of “gut checks,” blows to the head or vitals, etc.), Dazzle (blood in the eyes, boxing the ears, etc.), or Weaken, to name a few. The GM decides if the effect suits the circumstances of the attack. The target makes resistance checks against the attack’s initial and added effects separately.",
+												"{@b Alternate Effect}: The critical hit results in an alternate effect for the attack, like a use of extra effort for a power stunt (see {@rule Extra Effort|basic|1|extra effort} in The Basics), except the character suffers no fatigue as a result. This option can represent a “lucky” attack that does something completely different, like blinding a target, or imposing a condition such as those found under the Affliction effect."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Critical Misses",
+									"entries": [
+										"Conversely, a natural 1 (the d20 comes up 1) on an attack check is always a miss, regardless of your total result."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Damage",
+									"entries": [
+										"A successful attack with a Damage effect requires the target to make a Toughness resistance check.",
+										{
+											"type": "insetResistCheck",
+											"name": "Damage Resistance Check",
+											"func": "Toughness vs. [Damage rank + 15]",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@b Success}: The damage has no effect.",
+														"{@b Failure (one degree)}: The target has a –1 circumstance penalty to further resistance checks against damage.",
+														"{@b Failure (two degrees)}: The target is dazed until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
+														"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
+														"{@b Failure (four degrees)}: The target is incapacitated ."
+													]
+												}
+											]
+										},
+										"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
+										"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
+										{
+											"type": "entries",
+											"name": "Strength and Damage",
+											"entries": [
+												"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the {@b Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
+												"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your Damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade does the same damage whether you can exert your Strength with it or not."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Damaging Objects",
+											"entries": [
+												"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the {@b Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
+												"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your Damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade does the same damage whether you can exert your Strength with it or not.",
+												"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
+												"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
+												"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
+												"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
+												"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1).",
+												{
+													"type": "table",
+													"caption": "Material Toughness",
+													"colLabels": [
+														"Material",
+														"Toughness"
+													],
+													"colStyles": [
+														"col-7 text-align-center",
+														"col-5 text-align-center"
+													],
+													"rows": [
+														[ "Paper", "0" ],
+														[ "Soil", "0" ],
+														[ "Glass", "1" ],
+														[ "Ice", "1" ],
+														[ "Rope", "1" ],
+														[ "Wood", "3" ],
+														[ "Stone", "5" ],
+														[ "Iron", "7" ],
+														[ "Reinforced Concrete", "8" ],
+														[ "Steel", "9" ],
+														[ "Titanium", "15" ],
+														[ "Super-alloys", "20+" ]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Recovery",
+									"entries": [
+										"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process. Lasting or more serious injuries are handled as complications (see {@b Lasting Injuries}).",
+										"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged objects."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Range",
+									"entries": [
+										"An attack has one of three ranges: close, ranged, and perception. A {@b close} attack can only affect a target you can physically reach, by touch or wielding a melee weapon, for example. A {@b ranged} attack can affect a target at a distance, while a {@b Perception} attack can hit a target you are able to accurately perceive automatically without need for an attack check.",
+										"A ranged attack has a short range up to its rank x 25 feet, at which it has no penalties. At medium range (up to rank x 50 feet), the attack check has a –2 circumstance modifier. At long range (up to rank x 100 feet), the attack check has a –5 circumstance modifier. Ranged attacks cannot go beyond long range; a target further away is out of range and cannot be attacked.",
+										"These are generally the only significant distinctions in distance. At the basic level, the game system does not focus on tracking exact distances between combatants, apart from determining if they are adjacent (and therefore within close range) and whether or not they can perceive each other (and are therefore within perception range). The rest is left for the GM to describe and adjudicate as desired.",
+										{
+											"type": "entries",
+											"name": "Perception and Area Effects",
+											"entries": [
+												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@b Area} extra in  Powers). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Concealment",
+									"entries": [
+										"To attack a target, you first have to have some idea of where to aim your attack. If you can perceive something with an accurate sense (such as sight) then you can target it with an attack. If you cannot clearly perceive the target, then it has {@b concealment} from you.",
+										"{@b Partial Concealment} applies a –2 circumstance penalty to your attack check for not being able to clearly perceive your target. It includes conditions like dim lighting, foli-age, heavy precipitation, fog, smoke, and the like.",
+										"{@b Total Concealment} applies a –5 circumstance penalty to your attack check for not being able to perceive the target at all, presuming the attacker even knows (or guesses) the right area to target. It includes conditions like total darkness, heavy smoke or fog, and so forth."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Cover",
+									"entries": [
+										"Targets may also hide behind obstructions to gain {@b cover} against your attacks. Obstructions that do not physically block attacks but simply make the target harder to perceive—such as lighting, fog, or foliage—provide concealment rather than cover.",
+										"{@b Partial Cover} applies a –2 circumstance penalty to your attack check. It generally means about half of the target is behind cover, such as around a corner, behind a tree or pillar, or a low wall.",
+										"{@b Total Cover} applies a –5 circumstance penalty to your attack check, with three-quarters or more of the target behind cover, like a narrow window, or crouched behind a wall. If a target is completely behind cover, then you cannot attack that target (although you can attack the cover itself).",
+										"Cover also grants a circumstance bonus to Dodge resistance checks against area effects equal to its penalty to attack checks, so long as the target has cover with respect to the origin point of the effect. So someone behind total cover also gains a +5 to Dodge checks against area effects."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Minions",
+									"entries": [
+										"{@b Minions} are minor characters subject to special rules in combat, and generally easier to defeat than normal characters. Villains often employ hordes of minions against heroes. The following rules apply to minions:",
+										{
+											"type": "list",
+											"items": [
+												"Minions cannot score critical hits against non-minions.",
+												"Non-minions can make attack checks against minions as routine checks.",
+												"If a minion fails a resistance check, the minion suffers the worst degree of the effect. So a minion failing a Damage resistance check, for example, is incapacitated, regardless of the degree of failure.",
+												"Certain traits (like the Takedown advantage) are more effective against or specifically target minions."
+											]
+										}
+									]
+								}
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Defenses",
 							"entries": [
-								""
+								"Your {@b defenses} determine how difficult it is to hit you with various attacks. Most attacks target your active defenses, Dodge and Parry: close attacks target Parry while ranged attacks target Dodge.",
+								"You add your defense rank to a base value of 10 (like a routine check) to determine your Defense class against an attack, which is the DC of the attack check:",
+								{
+									"type": "middleEnhance",
+									"text": "Defense Class = defense + 10"
+								},
+								"So a hero with Parry 11 has a defense class of 21 (11 + 10) against close attacks. If the same hero has Dodge 9, that is a defense class of 19 (9 + 10) against ranged attacks.",
+								{
+									"type": "entries",
+									"name": "Vulnerable and Defenseless",
+									"entries": [
+										"Two conditions strongly affect your defenses. When you are {@condition vulnerable}, your active defense ranks are halved (round up fractions). So the aforementioned hero with Parry 11 and Dodge 9 would have ranks of Parry 6 and Dodge 5 while vulnerable.",
+										"When you are {@condition defenseless}, your active defense ranks are reduced to zero, meaning the base difficulty class to hit you is just 10! What’s more, attackers can make attack checks against defenseless targets as routine checks (see {@rule Routine Checks|basic|1|routine checks} in The Basics), meaning a hit is guaranteed with an attack bonus of 0 or more, unless there are other modifiers affecting the check."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"A successful attack has some {@b effect} on the target. Typically this is an effect from the {@rule Powers|basic|6}, such as damage or Affliction. The effect has a rank, used to determine a difficulty class for the target’s resistance check.",
+										{
+											"type": "middleEnhance",
+											"text": "Resistance Difficulty = effect rank + 10"
+										},
+										"The target of the attack makes a resistance check against the effect to determine what, if anything, happens.",
+										{
+											"type": "entries",
+											"name": "Ongoing Effects",
+											"entries": [
+												"Some effects are not resisted just once, but multiples times. The later resistance checks represent how fast the target is able to “shake off” the effect. Make a resistance check for the target of an ongoing effect at the end of each of the target’s turns. A successful check ends the effect and removes conditions imposed by it. A failure means the effect’s conditions persist, as given in the effect’s description.",
+												{
+													"type": "example",
+													"entries": [
+														"Your hero was hit by a Affliction effect, leaving him blinded. At the end of his turn, he makes a Fortitude resistance check against the effect’s DC to try and shake it off, but missed the check by 2. His next turn, still blind, he stumbles and tries to strike the foe taunting him. At the end of his turn, he makes another resistance check. success! He ends the Affliction effect and removes the blinded condition. Next turn, the villain had better watch out!"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conditions",
+									"entries": [
+										"A failed resistance check against an attack imposes one or more {@b conditions} on the target, depending on the type of effect and the degree of failure. See the effect description and the {@rule Conditions|basic|1|conditions} section of The Basics for more on the various conditions."
+									]
+								}
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Actions",
 							"entries": [
-								""
+								"The most common actions characters take during conflicts are listed and described here. The GM should use these as guidelines for dealing with unusual actions players may choose for their characters, basing them on the existing action descriptions.",
+								{
+									"type": "actionBlock",
+									"name": "Aid",
+									"subtitle": "Standard Action",
+									"entries": [
+										"If you are in position to attack an opponent, you can attempt to aid an ally engaged in melee with that opponent as a standard action. This is like a team check (see {@rule Team Checks|basic|1|team checks} in The Basics): You make an attack check against DC 10. If you succeed, you don’t actually hit or affect the opponent, but success grants your ally gains a +2 circumstance bonus on an attack check against that opponent or a +2 circumstance bonus to Defense against that opponent (your choice) until the end of your ally’s next turn. Three or more degrees of success grant a +5 bonus."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Aim",
+									"subtitle": "Standard Action",
+									"entries": [
+										"By taking a standard action to aim and line up an attack, you get a bonus to hit when you make the attack. If you’re making a close attack, or a ranged attack at close range, you get a +5 circumstance bonus on your attack check. If you’re making a ranged attack from a greater distance, you get a +2 circumstance bonus.",
+										"However, you are vulnerable while aiming and it requires a free action to maintain your aim before you make your attack. If you are unable to maintain it, you lose its benefit.",
+										"Once you aim, your next action must be to make the attack. Taking a different action spoils your aim and you lose the bonus."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Attack",
+									"subtitle": "Standard Action",
+									"entries": [
+										"With a standard action, you can make an attack check against any opponent within the attack’s range. If the attack is an area effect or perception range, no attack check is needed. It affects the area or target automatically."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Charge",
+									"subtitle": "Standard Action",
+									"entries": [
+										"You rush forward to attack. You move your speed rank in a mode of movement available to you in a relatively straight line towards your target. At the end of your movement, you perform a close attack against your opponent with a –2 circumstance penalty to the attack check.",
+										"You can combine a charge action with a move action, allowing you to move up to twice your speed (your speed rank as a move action, then your speed rank again when you charge)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Command",
+									"subtitle": "Move Action",
+									"entries": [
+										"Issuing a command to a character under your control—a minion or a thrall—requires a move action. If you want to issue different commands to different characters or groups, each one requires a move action (so you can issue two commands per round as two move actions)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Crawl",
+									"subtitle": "Move Action",
+									"entries": [
+										"While prone, you can only move by crawling. You crawl at your normal ground speed –1 rank (or half your normal speed).",
+										"Characters with the Slither effect of Movement crawl at their normal ground speed. See Movement in Powers for details."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Defend",
+									"subtitle": "Standard Action",
+									"entries": [
+										"Rather than attacking, you focus on defense. Make an opposed check of your appropriate active defense versus any attack made on you until the start of your next turn. Add 10 to any roll of 10 or less that you make on these checks, just as if you spent a victory point (thus ensuring a minimum roll of 11). The attacker must equal or exceed your opposed check result in order to hit you."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Delay",
+									"subtitle": "No Action",
+									"entries": [
+										"When you delay, you choose to take your turn later in the initiative order. You must delay your entire turn. You cannot delay if you have already taken an action on your turn, or if you are unable to take actions.",
+										"At any point after any other character in the conflict has acted, you can choose to take your turn. Your initiative moves into the new place in the order where you act, and you take your normal allocation of actions. If you do not act before your initiative comes up in the next round, your turn ends, you lose your delayed turn, and your initiative remains where it is.",
+										"Beneficial effects lasting until the end of your turn end when you choose to delay, but harmful effects that last until the end of your turn last until after you act. Like-wise, you do not make resistance checks until after you have taken your turn, so delaying can draw out some effects."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Disarm",
+									"subtitle": "Standard Action",
+									"entries": [
+										"You attempt to knock an item—such as a weapon or device—out of an opponent’s grasp. Make an attack check against the defender with a –2 penalty. If you attempt to disarm with a ranged attack, you are at –5 penalty. If your attack succeeds, make an opposed check of your attack’s damage against the defender’s Strength. If you win, the defender dropped the held object. If you made the disarm unarmed, you can grab the dropped object as a free action. If you make a disarm attempt with a melee weapon and lose the opposed check, the defender may immediately make an attempt to disarm you as a reaction; make another opposed damage vs. Strength check. If this disarm attempt fails, you do not, however, get an additional attempt to disarm the defender."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Drop an Item",
+									"subtitle": "Free Action",
+									"entries": [
+										"Dropping a held item is a free action (although dropping or throwing an item with the intention of hitting something with it is a standard attack action)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Drop Prone",
+									"subtitle": "Free Action",
+									"entries": [
+										"Dropping to a prone position is a free action, although getting up requires a move action (see Stand)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Escape",
+									"subtitle": "Move Action",
+									"entries": [
+										"You attempt to escape from a successful grab (see Grab). Make a check of your Athletics or Acrobatics against the routine check result of your opponent’s Strength or grab effect rank. If you succeed, you end the grab and can move away from your opponent, up to your normal ground speed minus one rank, if you choose. If you fail, you are still grabbed."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Grab",
+									"subtitle": "Standard Action",
+									"entries": [
+										"You attempt to grab a target. Make an attack check against the target. If successful, the target makes a resistance check against your Strength (or the rank of a grabbing effect) using the better of Strength or Dodge. If you win with one degree of success, the target is restrained (immobile and vulnerable). Two or more degrees leave your opponent bound (defenseless, immobile, and impaired). You can attempt to improve an existing hold with another grab action on a following turn. Any resulting degrees of success are cumulative, but if you lose, the target escapes.",
+										"You are hindered and vulnerable while grabbing and holding an opponent. You can maintain a successful grab as a free action each turn, but cannot perform other actions requiring the use of your grabbing limb(s) while doing so. Since maintaining a grab is a free action, you can take a standard action to inflict your Strength damage to a grabbed target on subsequent turns after the grab is established.",
+										"You can drag a restrained or bound target along with you when you move. The target gets a Strength resistance check against your Strength. If it fails, you move and the target moves along with you. If the target resists, you are immobilized that turn unless you release your hold on the target.",
+										"You can end a grab (releasing your target) as a free action. If you are unable to take the free action maintain the hold, the target is automatically released. A target can attempt to escape from a grab as a move action (see {@rule Escape|basic|8|escape})."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Move",
+									"subtitle": "Move Action",
+									"entries": [
+										"You can move up to your normal speed rank in any movement mode available to you as a move action. Normally this is rank 0 ground speed for most people (up to 30 feet). If you choose to move twice on your turn (taking two move actions) then you move your speed rank each time. You can make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Ready",
+									"subtitle": "Standard Action",
+									"entries": [
+										"Readying lets you prepare to take an action later, after you would normally act on your initiative, but before your initiative on your next turn. Readying is a standard action, so you can move as well.",
+										"You can ready a single standard, move, or free action. To do so, specify the action you will take and the circumstances under which you will take it. Then, any time before your next turn, you may take the readied action as a reaction to those circumstances. Your place in the initiative order then becomes the point where you took your readied action.",
+										"If you come to your next turn and have not yet performed your readied action, you don’t get to take the readied action, you just lose your previous turn. You can ready the same action again on your next turn, if you wish, continuing to wait for the right circumstances."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Recover",
+									"subtitle": "Standard Action",
+									"entries": [
+										"You take your entire turn to try and catch your breath and bounce back a bit. When you recover, you can remove your highest level of damage or fatigue. Alternately, rather than removing a level of damage or fatigue, you can choose to make a resistance check against an ongoing effect, in addition to the normal resistance check at the end of your turn.",
+										"You can only recover once per conflict. Once you have done so, you must recover from any remaining damage, fatigue, or effects normally (or with outside assistance).",
+										"When you recover, you gain +2 to your active defenses until the start of your next turn."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Smash",
+									"subtitle": "Standard Action",
+									"entries": [
+										"You attempt to damage or break an object held or worn by an opponent. Make an attack check against the defense of the character with the object, with a –5 circumstance penalty if you are attacking a held object. If your attack check succeeds, you inflict damage on the object rather than the character. See {@rule Damaging Objects|basic|8|damaging objects} for details on breaking things."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Stand",
+									"subtitle": "Move Action",
+									"entries": [
+										"You stand up from a prone position. You can go from prone to standing as a free action by making a DC 20 Acrobatics check. Characters with the Instant Up advantage can stand as a free action without a skill check."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Trip",
+									"subtitle": "Standard Action",
+									"entries": [
+										"You try to trip or throw your opponent to the ground. Make a close attack check against your opponent’s Parry with a –2 circumstance penalty on the check. If the attack succeeds, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics. Use whichever has the better bonus in each case.",
+										"If you win, the defender is prone in an area adjacent to you of your choice. If you lose, the defender immediately gets another opposed check to try and trip you. If it fails, the trip attempt ends."
+									]
+								}
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Maneuvers",
 							"entries": [
-								""
+								"A {@b maneuver} is a different way of performing a particular action. For example, a defensive attack is an attack action that improves your defenses at the cost of accuracy. maneuvers are optional, you choose which, if any, apply to your action(s) when you declare them. The GM decides if a particular maneuver is appropriate or prohibited by circumstances.",
+								"Certain advantages and effects may enhance or work in conjunction with certain maneuvers. See their descriptions for details.",
+								{
+									"type": "actionBlock",
+									"name": "Accurate Attack",
+									"entries": [
+										"When you make an attack, you can take a penalty of up to –2 on the effect modifier of the attack and add the same number (up to +2) to your attack bonus. Your effect modifier cannot be reduced below +0 and your attack bonus cannot more than double in this way. The changes are declared before you make the attack check and last until the start of your next turn."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "All-out Attack",
+									"entries": [
+										"When you make an attack you can take a penalty of up to –2 on your active defenses (Dodge and Parry) and add the same number (up to +2) to your attack bonus. Your defense bonuses cannot be reduced below +0 and your attack bonus cannot more than double. The changes to attack and defense bonus are declared before you make the attack check and last until the start of your next turn."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Defensive Attack",
+									"entries": [
+										"When you make an attack you can take a penalty of up to –2 on your attack bonus and add the same number (up to +2) to your active defenses (Dodge and Parry). Your attack bonus cannot be reduced below +0 and your defense bonuses cannot more than double. The changes to attack and defense bonus last until the start of your next turn. This maneuver does not apply to effects requiring no attack check or allowing no resistance check."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Demoralize",
+									"entries": [
+										"You can use Intimidation in combat as a standard action to undermine an opponent’s confidence. Make an Intimidation check as a standard action opposed by the better of your target’s Insight or Will defense. If your Intimidation check succeeds, your target is impaired (a –2 circumstance penalty on checks) until the end of your next round. With four or more degrees of success, the target is disabled (a –5 penalty) until the end of your next round."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Feint",
+									"entries": [
+										"You can use Deception as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s Deception or Insight. If your Deception check succeeds, the target is vulnerable against your next attack, until the end of your next round (see Vulnerable in the Conditions section of The Basics)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Finishing Attack",
+									"entries": [
+										"When you attack a defenseless target at close range, you can choose to make the attack as a routine check (see Routine Checks in The Basics). This generally means your attack hits automatically, since the target has no defense bonus, and the routine check overcomes the normal difficulty.",
+										"If you choose to make your attack check normally (against DC 10), then a successful hit is treated as a critical hit, with a +5 circumstance bonus to the attack’s resistance DC. Additionally, if you hit with a damaging attack with intent to kill, and the target’s resistance check has three or more degrees of failure, the target dies immediately."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Power Attack",
+									"entries": [
+										"When you make an attack you can take a penalty of up to –2 on your attack bonus and add the same number (up to +2) to the effect bonus of your attack. Your attack bonus cannot be reduced below +0 and the effect bonus cannot more than double. The changes to attack and effect are decided before you make your attack check and last until the start of your next turn. This maneuver does not apply to effects requiring no attack check or allowing no resistance check."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Slam attack",
+									"entries": [
+										"When you charge, you can charge right into your target, using your momentum to strengthen your attack, but potentially receiving some damage from the impact yourself. The damage rank for your attack equals your movement speed rank, or your normal damage rank, with a +1 circumstance bonus, whichever is higher. If you move your full speed before you charge, increase your damage by either means by an additional +1 circumstance bonus. The Gamemaster may limit your base slam attack damage (before applying circumstance modifiers) by the series power level.",
+										{
+											"type": "example",
+											"entries": [
+												"Your hero flies into a foe, moving at speed rank 10. His unarmed damage (Strength) rank is only 2, so he uses his speed rank of 10 for the damage. Since he also moved his full speed to build up momentum, he increases his damage by +1 for a total damage rank of 11. If a base damage rank of 10 is too high for the series, the GM may impose a lower limit on his slam attack damage, applying the +1 modifier for the full speed move to the lowered rank."
+											]
+										},
+										"You suffer some of the impact of slamming into a target; make a Toughness resistance check against half the damage rank of your attack (rounded down).",
+										{
+											"type": "example",
+											"entries": [
+												"Your hero hits his target, and must make his own Toughness resistance check against damage rank 5: his slam attack damage of 11, divided by 2, which equals 5.5, rounded down to 5. Fortunately, his helmet provides him with an invisible electromagnetic field for protection and the hero manages to avoid the damage, hoping his opponent won’t be so lucky!"
+											]
+										},
+										"Bonuses to Toughness protect against slam attack damage normally. Immunity to slam damage you inflict is a rank 2 Immunity effect, while Immunity to all slam damage is rank 5 (see Immunity in the Powers)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Surprise Attack",
+									"entries": [
+										"On occasions when your attack catches a target by surprise, the target is vulnerable to your attacks. Surprise attacks occur during the surprise round of a conflict (see Surprise) and may also occur as a result of stealth or concealment, allowing you to sneak up on a target. The GM can also grant you a surprise attack for an unusual maneuver that catches the target off-guard, such as an Indirect attack (see the Indirect modifier for more)."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Team Attack",
+									"entries": [
+										"Multiple attackers can attempt to combine their attacks in order to overwhelm an opponent’s resistance. The attacks to be combined must have the same effect and resistance and be within 5 ranks of each other. So attacks all doing Damage against Toughness can combine, but not with a Mental Blast, for example, which is a Damage effect, but resisted by Will rather than Toughness.",
+										"The attackers must all delay to the same point in the initiative order (that of the slowest attacker). Each attacker makes an attack check against the target’s defense. Effects not requiring an attack check may be used in a team attack; count the effect as having one degree of success, if it is not the main attack.",
+										"Take the largest effect rank of the attacks that hit and count the combined degrees of success for the other attacks: one degree provides a +2 circumstance bonus to the rank of the main attack, three or more provides a +5 circumstance bonus. Unlike a normal team check, degrees of failure do not reduce success; those attacks simply miss and have no effect. See Team Checks in The Basics for more."
+									]
+								}
 							]
 						},
 						{
@@ -3027,16 +3795,30 @@
 				"",
 				{
 					"type": "section",
-					"name": "",
+					"name": "Running the Game",
 					"entries": [
-						"",
-						{
-							"type": "entries",
-							"name": "",
-							"entries": [
-								""
-							]
-						}
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Creating Adventures",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Creating a Series",
+					"entries": [
+						""
+					]
+				},
+				{
+					"type": "section",
+					"name": "Supporting Characters",
+					"entries": [
+						""
 					]
 				}
 			]

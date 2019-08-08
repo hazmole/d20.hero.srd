@@ -206,6 +206,7 @@ function Renderer () {
 				case "quote": this._renderQuote(entry, textStack, meta, options); break;
 				case "example": this._renderExample(entry, textStack, meta, options); break;
 				case "modifier": this._renderModifier(entry, textStack, meta, options); break;
+				case "actionBlock": this._renderActionBlock(entry, textStack, meta, options); break;
 
 				// block
 				case "middleEnhance": this._renderMiddleEnhance(entry, textStack, meta, options); break;
@@ -443,8 +444,9 @@ function Renderer () {
 
 		const headerClass = `rd__h--${meta.depth + 1}`; // adjust as the CSS is 0..4 rather than -1..3
 
-		const book_idx = (meta.depth<=0)? `book-idx="${entry.idx_name ? entry.idx_name : entry.name}"`: "";
-		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" ${book_idx}>${this.render({type: "inline", entries: [entry.name]})}${entry.ENG_name ? (" <st style='font-size:80%;'>"+entry.ENG_name+"<st>") : ""}${isInlineTitle ? "." : ""}</span></span> ` : "";
+		const book_idx = `book-idx="${entry.idx_name ? entry.idx_name : entry.name}"`.toLowerCase();
+		const display_name = entry.translate_name? entry.translate_name: entry.name;
+		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" ${book_idx}>${this.render({type: "inline", entries: [display_name]})}${entry.translate_name ? (" <st style='font-size:80%;'>"+entry.name+"<st>") : ""}${isInlineTitle ? "." : ""}</span></span> ` : "";
 
 		if (meta.depth === -1) {
 			if (!this._firstSection) textStack[0] += `<hr class="rd__hr rd__hr--section">`;
@@ -626,6 +628,27 @@ function Renderer () {
 	};
 	this._renderModifier = function (entry, textStack, meta, options){
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
+	}
+
+	this._renderActionBlock = function (entry, textStack, meta, options){
+		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; border-top: 2px solid; background-color: #652020">`;
+		if (entry.name != null) {
+			this._handleTrackTitles(entry.name);
+			textStack[0] += `<span class="rd__h" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+			if (entry.subtitle != null){
+				textStack[0] += `<span style="font-size: 1.1em;color:#ececec;float: right;">${entry.subtitle}</span>`;
+			}
+			textStack[0] += `</${this.wrapperTag}>`;
+			textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px;margin-top:0px; border: 1px solid #656565; border-bottom: 2px solid">`;
+		}
+		const len = entry.entries.length;
+		for (let i = 0; i < len; ++i) {
+			const cacheDepth = meta.depth;
+			meta.depth = 2;
+			this._recursiveRender(entry.entries[i], textStack, meta, {prefix: "<p>", suffix: "</p>"});
+			meta.depth = cacheDepth;
+		}
+		textStack[0] += `</${this.wrapperTag}>`;
 	}
 
 	this._renderMiddleEnhance = function (entry, textStack, meta, options) {
@@ -829,12 +852,6 @@ function Renderer () {
 						textStack[0] += `<i class="text-muted">`;
 						this._recursiveRender(text, textStack, meta);
 						textStack[0] += `</i>`;
-						break;
-					case "@atk":
-						textStack[0] += `<i>${Renderer.attackTagToFull(text)}</i>`;
-						break;
-					case "@h":
-						textStack[0] += `<i>若命中：</i> `;
 						break;
 
 					// DICE ////////////////////////////////////////////////////////////////////////////////////////////
@@ -1078,10 +1095,9 @@ function Renderer () {
 					}
 
 					// CONTENT TAGS ////////////////////////////////////////////////////////////////////////////////////
-					case "@book":
-					case "@adventure": {
+					case "@rule": {
 						// format: {@tag Display Text|DMG< |chapter< |section >< |number > >}
-						const page = tag === "@book" ? "book.html" : "adventure.html";
+						const page = "rules.html";
 						const [displayText, book, chapter, section, number] = text.split("|");
 						const hash = `${book}${chapter ? `${HASH_PART_SEP}${chapter}${section ? `${HASH_PART_SEP}${UrlUtil.encodeForHash(section)}${number != null ? `${HASH_PART_SEP}${UrlUtil.encodeForHash(number)}` : ""}` : ""}` : ""}`;
 						const fauxEntry = {
@@ -1224,25 +1240,6 @@ Renderer.applyProperties = function (entry, object) {
 	return textStack;
 };
 Renderer.applyProperties._leadingAn = new Set(["a", "e", "i", "o", "u"]);
-
-Renderer.attackTagToFull = function (tagStr) {
-	function renderTag (tags) {
-		return `${tags.includes("m") ? "近戰" : tags.includes("r") ? "遠程" : tags.includes("a") ? "範圍" : ""}${tags.includes("w") ? "武器" : tags.includes("s") ? "法術" : ""}`;
-	}
-
-	const tagGroups = tagStr.toLowerCase().split(",").map(it => it.trim()).filter(it => it).map(it => it.split(""));
-	if (tagGroups.length > 1) {
-		const seen = new Set(tagGroups.last());
-		for (let i = tagGroups.length - 2; i >= 0; --i) {
-			tagGroups[i] = tagGroups[i].filter(it => {
-				const out = !seen.has(it);
-				seen.add(it);
-				return out;
-			});
-		}
-	}
-	return `${tagGroups.map(it => renderTag(it)).join(" 或 ")}攻擊：`;
-};
 
 Renderer.HOVER_TAG_TO_PAGE = {
 	"spell": UrlUtil.PG_SPELLS,
@@ -3605,10 +3602,6 @@ Renderer.stripTags = function (str) {
 					case "@s":
 					case "@strike":
 						return text.replace(/^{@(i|italic|b|bold|s|strike) (.*?)}$/, "$1");
-
-					case "@h": return "Hit: ";
-
-					case "@atk": return Renderer.attackTagToFull(text);
 
 					case "@chance":
 					case "@d20":

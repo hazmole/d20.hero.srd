@@ -2,17 +2,19 @@
 
 const BookUtil = {
 	getHeaderText (header) {
-		return header.header || header;
+		return header.name || header;
+	},
+	getHeaderDisplayText (header) {
+		return header.translate_name || header.name || header;
 	},
 
 	_getSelectors (scrollTo) {
 		return [
-			`.entry-title-inner[book-idx='${scrollTo}']`,
-			`.rd__h--0 > .entry-title-inner:textEquals("${scrollTo}")`,
-			`.rd__h--1 > .entry-title-inner:textEquals("${scrollTo}")`,
-			`.rd__h--2 > .entry-title-inner:textEquals("${scrollTo}")`,
-			`.rd__h--2-inset > .entry-title-inner:textEquals("${scrollTo}")`,
-			`.rd__h--3 > .entry-title-inner:textEquals("${scrollTo}.")`
+			`.rd__h--0 > .entry-title-inner[book-idx='${scrollTo}']`,
+			`.rd__h--1 > .entry-title-inner[book-idx='${scrollTo}']`,
+			`.rd__h--2 > .entry-title-inner[book-idx='${scrollTo}']`,
+			`.rd__h--2-inset > .entry-title-inner[book-idx='${scrollTo}']`,
+			`.rd__h--3 > .entry-title-inner[book-idx='${scrollTo}']`
 		];
 	},
 
@@ -72,7 +74,7 @@ const BookUtil = {
 			out +=
 				`<li>
 				<a href="${options.addPrefix || ""}#${UrlUtil.encodeForHash(options.book.id)},${i}" ${options.addOnclick ? `onclick="BookUtil.scrollPageTop(this)"` : ""}>
-					<span class="sect">${c.name}</span>
+					<span class="sect">${c.translate_name? c.translate_name: c.name}</span>
 				</a>
 			</li>`;
 			out += BookUtil.makeHeadersBlock(options.book.id, i, c, options.addPrefix, options.addOnclick, options.defaultHeadersHidden);
@@ -88,8 +90,8 @@ const BookUtil = {
 			`<ul class="bk-headers" ${defaultHeadersHidden ? `style="display: none;"` : ""}>`;
 		chapter.headers && chapter.headers.forEach(h => {
 			const headerText = BookUtil.getHeaderText(h);
-			const displayText = h.header ? `<span class="bk-contents__sub_spacer--1">\u2013</span>${h.header}` : h; // handle entries with depth
-			const clickFuncText = addOnclick ? ("onclick=\"BookUtil.scrollClick('"+headerText.replace(/'/g, "\\'")+"')\"") : "";
+			const displayText = BookUtil.getHeaderDisplayText(h);//h.header ? `<span class="bk-contents__sub_spacer--1">\u2013</span>${h.header}` : h; // handle entries with depth
+			const clickFuncText = addOnclick ? ("onclick=\"BookUtil.scrollClick('"+headerText.replace(/'/g, "\\'").toLowerCase()+"')\"") : "";
 			out += `
 				<li>
 					<a href="${addPrefix || ''}#${bookId},${chapterIndex},${UrlUtil.encodeForHash(headerText)}" data-book="${bookId}" data-chapter="${chapterIndex}" data-header="${headerText}" ${clickFuncText}>${displayText}</a>
@@ -456,10 +458,10 @@ const BookUtil = {
 				BookUtil.bookIndex = [data.reference];
 				for (let i = 0; i < BookUtil.bookIndex.length; i++) {
 					var book = BookUtil.bookIndex[i];
-					tmpString += BookUtil.getContentsItem(i, book, {book, addOnclick: true});
+					tmpString += BookUtil.getContentsItem(i, book, {book, addOnclick: true, defaultHeadersHidden: true});
 				}
 				BookUtil.contentObj.append(tmpString);
-				BookUtil.addHeaderHandles(false);
+				BookUtil.addHeaderHandles(true);
 			}
 			var allContents = $(`.contents-item`);
 			BookUtil.thisContents = allContents.filter(`[data-bookid="${UrlUtil.encodeForHash(bookId)}"]`);
@@ -762,8 +764,8 @@ const BookUtil = {
 	getContentsItem (ix, book, options) {
 		return `<li class="contents-item" data-bookid="${UrlUtil.encodeForHash(book.id)}" style="display: none;">
 			<div class="bk__contents-header">
-				<a id="${ix}" href="#${UrlUtil.encodeForHash(book.id)}" class="bk__contents_header_link" title="${book.name}">
-					<span class="name">${book.name}</span>
+				<a id="${ix}" href="#${UrlUtil.encodeForHash(book.id)}" class="bk__contents_header_link" title="${book.translate_name? book.translate_name: book.name}">
+					<span class="name">${book.translate_name? book.translate_name: book.name}</span>
 				</a>
 				<a href="#${UrlUtil.encodeForHash(book.id)},-1" class="bk__contents_show_all" title="View Entire ${BookUtil.contentType.uppercaseFirst()} (Warning: Slow)">
 					<span class="glyphicon glyphicon glyphicon-book" style="top: 0;"/>
