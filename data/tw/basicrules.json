@@ -2958,49 +2958,1968 @@
 					"type": "section",
 					"name": "Equipment",
 					"entries": [
-						""
+						"In addition to their amazing devices, characters often make use of various mundane equipment—ordinary things found in the real world—ranging from a simple set of tools to cell phones, laptop computers, and even common appliances. These items are known as equipment to differentiate them from devices.",
+						{
+							"type": "entries",
+							"name": "Equipment Cost",
+							"entries": [
+								"Equipment is acquired with points from the Equipment advantage. Each piece of equipment has a cost in points, just like other traits. The character pays the item’s cost out of the points from the Equipment advantage and can thereafter have and use that item.",
+								{
+									"type": "entries",
+									"name": "Equipment Effects and Features",
+									"entries": [
+										"An item’s cost is based on its effects and features, just like a power (see {@b Powers} for more information), so a ranged weapon has a cost based on its Ranged Damage rank. Equipment often provides the Features effect, including some specific equipment Features. Indeed, some items of equipment provide only Features."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Alternate Equipment",
+									"entries": [
+										"Just as with power effects, there is a diminishing value in having multiple items with a similar function, or a single piece of equipment with multiple functions, usable only one at a time. Equipment can have the Alternate Effect modifier (see Extras section of Powers), such as a weapon capable of different modes of operation, or a reconfigurable tool.",
+										"Characters can also have Alternate Equipment, an array of items usable only one at a time. This is typically a multi-function item, or a kit or collection of various smaller items. The classic example is the utility belt (see its description later in this section). Alternate Equipment can also include things like an arsenal of weapons the character can swap out, providing different sets of weapons, with only a limited number usable at once."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "On-hand Equipment",
+									"entries": [
+										"Characters may not necessarily carry all their equipment with them at all times. The GM may allow players to spend a Victory point in order to have a particular item of equipment “on-hand” at a particular time. This is essentially an equipment “power stunt”—a one-time use of the item for one scene—and the Gamemaster rules whether or not having a particular item on-hand is even possible. For example, a hero out for an evening in his secret identity might have something like a concealed weapon or other small item on-hand, but it’s unlikely the character is carrying a large weapon or item unless he has some means of concealing it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Restricted Equipment",
+									"entries": [
+										"The Gamemaster may rule some equipment is simply not available or that characters must pay for an additional Feature (or more) in order to have it. This may include certain kinds of weapons, vehicles, and anything else the GM feels should be restricted in the series."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Damaging Equipment",
+							"entries": [
+								"Most equipment can be damaged like other objects (see {@b Damaging Objects}), based on its Toughness. Equipment suffering damage loses some effectiveness. The item loses 1 Feature or suffers a –1 circumstance penalty on checks involving it each time it is damaged. These penalties are eliminated once the item is repaired."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Repairing and Replacing",
+							"entries": [
+								"Repairing an item requires a Technology check. You can also affect jury-rigged repairs to temporarily restore the item to normal (see {@b Technology} in Skills )",
+								"Replacing damaged or destroyed equipment requires only time and resources, although the GM has the final say as to how much time. It’s easy to replace a lost item when the store is right around the corner, harder when it’s the middle of the night or you’re out in the middle of nowhere, or the item is restricted in some fashion. Gamemasters can allow players to spend a Victory point to have a replacement for a piece of equipment as an on-hand item (see {@b On-Hand Equipment}, previously)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Limits of Equipment",
+							"entries": [
+								"While equipment is useful it does have its limits, particularly when compared to powers or devices. Equipment is less expensive—it’s cheaper to have a handgun than a Damage power or even a super-science blaster weapon—but equipment is also more limited. Keep the following limitations of equipment in mind.",
+								{
+									"type": "entries",
+									"name": "Technological Limits",
+									"entries": [
+										"Equipment includes only items and technology commonly available in the setting. The GM decides what is “commonly available,” but as a rule of thumb assume equipment only includes things from the real world, not battlesuits, anti-gravity devices, shrink rays, and so forth. Those are all devices (see {@b Devices})."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Availability",
+									"entries": [
+										"Ownership of some equipment is restricted and the GM decides what is available in the setting. For example, guns may require permits, licenses, waiting periods, and so forth. Also, equipment can be bulky and difficult to carry around. Gamemasters are encouraged to enforce the limitations of carrying a lot of equipment at once. Players who want to have an unusual item of equipment on-hand must either remember to bring it along or use the guidelines for on-hand equipment. Devices are not so limited and characters are assumed to have an easy means of carrying and transporting them."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bonus Stacking",
+									"entries": [
+										"Equipment bonuses are limited compared to the bonuses granted by other effects. Generally, they do not stack with each other or other types of bonuses, only the highest bonus applies. Thus a hero with a high Protection bonus doesn’t get much, if any, advantage from wearing a bulletproof vest. The only exception to this is Strength-based weapons, and there are limits on them as well (see {@b Melee Weapons})."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "No Extra Effort",
+									"entries": [
+										"Unlike devices, you do not have the choice of suffering the strain of extra effort when improving equipment, the equipment always takes the strain. You can push your equipment to the limit (eventually causing it to fail) but trying real hard on your part isn’t going to make your car go faster or your gun more effective. You also can’t use extra effort to perform power stunts with equipment. instead, you must spend a Victory point to do so. The GM can always disallow extra effort with equipment if the item is one that is not capable of exceeding its normal operating limits."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Damage and Loss",
+									"entries": [
+										"Equipment is subject to damage, malfunctions, and loss, even more so than devices with the Removable flaw (see the flaw description in {@b Powers}). Equipment may be lost or taken away from the character with impunity, and the GM may have equipment fail, run out of ammo or fuel, or otherwise malfunction as a complication."
+									]
+								}
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Under the Hood: Ammo, Batteries, And Charges",
+							"entries": [
+								"Lots of equipment has a limited lifespan: guns run out of ammo, cars run out of gas, SCUBA tanks run out of oxygen, and batteries run out of juice. However, it can be a hassle to keep track of the lifespan of every piece of equipment the heroes may have (to say nothing of all the villains and supporting characters). So these rules pay fairly little attention to equipment running out or breaking down except when the Gamemaster wants to make things interesting for the heroes with a complication or two. Thus equipment failure—either due to running out of fuel or simple malfunction—is a dramatic issue rather than a matter of cost-accounting and keeping track of things like ammo and how much gas is in the tank of the hero’s super-car.",
+								"The material in this book assumes equipment and devices have effectively unlimited use, except when the GM declares a complication, and that heroes properly maintain, charge, reload, and refuel their gear “off-panel” in between the scenes of an adventure, unless the Gamemaster dictates otherwise."
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "General Equipment",
 					"entries": [
-						""
+						"Most items of general equipment provide Features or other comparatively minor effects. Each of the following items is a rank 1 Feature, costing 1 point, unless specified otherwise.",
+						{
+							"type": "entries",
+							"name": "Electronics",
+							"entries": [
+								"Computers and electronics are common in the modern world. Gamemasters should note most of these devices are fairly delicate (Toughness 4 or less) and affected by electricity, radiation, and powerful magnetic fields, which can short them out entirely.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Camera}: A digital or film camera for taking still images. Most cameras have a capacity of 24 or 36 images and you can use one in conjunction with appropriate Expertise skills, such as photography.",
+										"{@b Cell Phone}: A small handheld or headset unit for communication. The battery lasts for approximately 24 hours before it needs to be recharged. For an extra point, a phone can have most of the capabilities of a computer, at least with regard to accessing the Internet and providing data.",
+										"{@b Comm-link}: A tiny button-sized device for radio communication with an effective range of about a mile (longer if patched into the cellular network or a similar network). Many hero (and villain) teams use comm-links.",
+										"{@b Computer}: A computer includes keyboard, mouse, monitor, printer, modem, and other standard peripherals, and may include things like a scanner at the GM’s discretion.",
+										"{@b Audio Recorder}: These tiny digital recorders (about the size of a deck of playing cards) can record up to eight hours of audio and can be connected to a computer to download the digital recording.",
+										"{@b Video Camera}: A hand-held camera that records video and audio on tape or digitally, with a capacity of about 6 hours of footage. Video cameras cost 2 points, since they effectively double as audio recorders as well."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Criminal Gear",
+							"entries": [
+								"This equipment is most often used by criminals or to catch criminals.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Handcuffs}: Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any medium or small humanoid. Handcuffs can only be placed on a defenseless or unresisting target. Steel cuffs have Toughness 9 and are DC 20 to escape using Sleight of Hand (or Technology to pick the lock).",
+										"{@b Lock Release Gun}: This small, pistol-like device automatically disables and opens cheap and average mechanical locks operated by standard keys as a routine check. It does not affect other locks.",
+										"{@b Restraints}: Similar to handcuffs are plastic restraints, used in cases where authorities need to restrain a large number of people and cuffs are impractical. They are generally Toughness 5 or so and DC 20 to escape with Sleight of Hand but cannot be removed except by cutting or breaking them."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Surveillance Gear",
+							"entries": [
+								"Heroes often use surveillance gear to keep tabs on criminals and their activities.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Binoculars}: Standard binoculars allow the user to make visual Perception checks at a greater distance, or with a reduced penalty for distance, effectively providing a +5 equipment bonus that overcomes some or all of the distance penalty.",
+										"{@b Concealable Microphone}: A tiny receiver usable as a listening device. It has a broadcast range of about a mile. It requires an Investigation or Perception check against the results of the Sleight of Hand check used to conceal the microphone to find it.",
+										"{@b Mini-Tracer}: A tiny radio transmitter with an adhesive backing. It requires a successful attack check to plant a tracer on a target (or a Sleight of Hand check to plant it outside of action time). Noticing the tracer is a DC 20 Perception check or the result of the character’s Sleight of Hand check, whichever is higher. The tracer has a transmission range of about 2 miles.",
+										"{@b Night Vision Goggles}: Night vision goggles use passive light gathering to improve vision in near-dark conditions. They grant the user darkvision—but because of the restricted field of view and lack of depth perception these goggles provide, they impose a –2 circumstance penalty on Perception checks made while wearing them. Night vision goggles must have at least a little light to operate. A cloudy night provides sufficient ambient light, but a pitch-black cave or a sealed room doesn’t. For situations of total darkness, the goggles come with an infrared illuminator that, when switched on, operates like a flashlight visible only to the wearer (or anyone else with IR vision).",
+										"{@b Parabolic Microphone}: This apparatus has a gunlike microphone with an attached set of headphones. A parabolic mike provides a +5 equipment bonus to listening perception checks that overcomes some or all of the penalty for listening to sounds at a distance, through walls, etc."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Survival Gear",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"{@b Camo Clothing}: Clothing in the right camouflage pattern for the environment grants a +5 equipment bonus on Stealth checks in that environment. Patterns include foliage, desert, urban, and arctic.",
+										"{@b Flash Goggles}: These tinted eye-coverings provide protection against blinding light, granting a +5 equipment bonus to resistance checks against visual Dazzle attacks involving bright light.",
+										"{@b Flashlight}: Flashlights negate penalties for darkness within their illuminated areas. The standard flashlight projects a beam 30 feet long and 15 feet across at its end.",
+										"{@b Fire Extinguisher}: This portable apparatus uses a chemical spray to extinguish small fires. The typical fire extinguisher ejects enough extinguishing chemicals to put out a fire in a 10-by-10-foot area as a move action. It contains enough material for two such uses.",
+										"{@b Gas Mask}: This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides immunity to eye and lung irritants. The filter canister lasts for 12 hours of use.",
+										"{@b GPS}: Global positioning system receivers use signals from GPS satellites to determine the receiver’s location to within a few dozen feet. A GPS receiver grants its user a +5 equipment bonus on checks to navigate, but it generally only works outdoors.",
+										"{@b Multi-tool}: This device contains several different screw-drivers, a knife blade or two, can opener, bottle opener, file, short ruler, scissors, tweezers, and wire cutters. The whole thing unfolds into a handy pair of pliers. A multi-tool can lessen the penalty for making skill checks without appropriate tools to –2 instead of the normal –5. The tool is useful for certain tasks, as determined by the GM, but may not be useful in all situations.",
+										"{@b Rebreather}: A small cylinder that fits over the mouth and provides two minutes (20 rounds) of oxygen, during which the character does not need to make suffocation checks.",
+										"{@b SCUBA Gear}: A back-mounted oxygen cylinder and face-mask, used for diving. SCUBA (Self-Contained Underwater Breathing Apparatus) gear provides two hours of oxygen, and characters using it do not need to make checks for suffocation unless the gear is damaged or disabled."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Utility Belt",
+							"entries": [
+								"A common piece of equipment for crime fighters and espionage agents is the utility belt (or bag, pouch, backpack, etc.): a collection of useful tools and equipment in a compact carrying case. A utility belt is an array of Alternate Equipment. Some characters may have a Removable array of devices instead, allowing for far more unusual effects than run-of-the-mill equipment.",
+								"Note that equipment with a cost of 1 equipment point doesn’t really need to be acquired as Alternate Equipment, since there’s no change in cost. Still, heroes often have 1-point items in their utility belts, like flashlights, rebreathers, and so forth.",
+								"By spending Victory points you can temporarily add Alternate Equipment to your utility belt, for those one-time items you may need in a pinch.",
+								{
+									"type": "entries",
+									"name": "Sample Utility Belt",
+									"entries": [
+										"Feel free to modify this example (adding or omitting items) to create your own customized utility belts. The tear gas, as the most expensive effect, has full cost. The other items cost 1 point each for Alternate Equipment, making the total equipment point cost of the utility belt 25 equipment points, or 5 Character points (for 5 ranks of the Equipment advantage).",
+										{
+											"type": "list",
+											"items": [
+												"{@b Tear Gas Pellets}: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 16 points.",
+												"{@b Bolas}: Snare 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized) • 1 point.",
+												"{@b Boomerangs}: Ranged Damage 1, Strength-based • 1 point.",
+												"{@b Explosives}: Ranged Burst Area Damage 5 • 1 point.",
+												"{@b Cutting Torch}: Damage 1 Linked to Weaken Toughness 1. • 1 point.",
+												"{@b Flash-Bangs}: Ranged Burst Area Dazzle 4 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware). • 1 point.",
+												"{@b Pepper Spray}: • 1 point.",
+												"{@b Power Knuckles}: Damage 4, Strength-based • 1 point.",
+												"{@b Sleep Gas Pellets}: Ranged Cloud Area Sleep 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep). • 1 point.",
+												"{@b Smoke Pellets}: Ranged Cloud Area Visual Concealment Attack • 1 point."
+											]
+										}
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Weapons",
 					"entries": [
-						""
+						"Weapons of various sorts are common for both heroes and villains. They range from melee weapons to ranged weapons like guns and bows and devices like shrink-rays, mind-control helmets and more. Characters who don’t have any offensive powers often rely on weapons to get the job done.",
+						{
+							"type": "entries",
+							"name": "Melee Weapons",
+							"entries": [
+								"Melee weapons are hand-held close combat weapons. They typically have a Strength-based Damage effect (see Damage effect in Powers), adding the wielder’s Strength rank to the weapon’s damage rank. Ordinary melee weapons are limited by their Toughness in terms of the amount of Strength they can add. If a wielder exerts Strength greater than the weapon’s Toughness (4 for wooden weapons, 7 or 8 for metal weapons), the weapon breaks when it is used. Melee weapons have the following traits:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Category}: Melee weapons are categorized as simple, archaic, and exotic.",
+										"{@b Effect}: The effect a hit with the weapon causes, typically Damage, although some modern melee weapons have other effects. The effect has the normal cost given in Powers. The effect may also have certain descriptors, such as bludgeoning or slashing, for defining things like resistance or vulnerability to certain effects.",
+										"{@b Critical}: The threat range for a critical hit with the weapon. Some weapons have a larger threat range than others. Increasing a weapon’s threat range by 1 costs 1 point, like the Improved Critical advantage.",
+										"{@b Cost}: This is the weapon’s cost in points. Characters pay this cost from their equipment points to have a weapon of this type as part of their regular equipment."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Melee Weapons",
+									"colLabels": [
+										"Weapon",
+										"Effect",
+										"Critical",
+										"Cost"
+									],
+									"colStyles": [
+										"col-3",
+										"col-5 text-align-center",
+										"col-2 text-align-center",
+										"col-2 text-align-center"
+									],
+									"rows": [
+										["{@i Simple Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Brass Knuckles",
+												"Damage 1, bludgeoning",
+												"20",
+												"1"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Club",
+												"Damage 2, bludgeoning",
+												"20",
+												"2"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Knife",
+												"Damage 1, piercing",
+												"19-20",
+												"2"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Pepper Spray",
+												"Close Visual Dazzle 4, chemical",
+												"20",
+												"2"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Stun Gun",
+												"Affliction 5, electrical",
+												"20",
+												"5"
+											]
+										},
+										["{@i Archaic Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Battleaxe",
+												"Damage 3, slashing",
+												"20",
+												"3"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Sword",
+												"Damage 3, slashing",
+												"19-20",
+												"4"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Spear",
+												"Damage 3, piercing",
+												"19-20",
+												"4"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Warhammer",
+												"Damage 3, bludgeoning",
+												"20",
+												"3"
+											]
+										},
+										["{@i Exotic Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Chain",
+												"Damage 2, Improved Grab, Improved Trip, Reach 2",
+												"20",
+												"6"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Chainsaw",
+												"Damage 6, slashing",
+												"20",
+												"6"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Nunchaku",
+												"Damage 2, bludgeoning",
+												"19-20",
+												"3"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Whip",
+												"Improved Grab, Improved Trip, Reach 3",
+												"20",
+												"5"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Simple Melee Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Brass Knuckles}: Pieces of molded metal fitting over the fingers, brass knuckles add +1 damage to your unarmed strikes. They include similar items like armored gauntlets.",
+												"{@b Club}: Any of a number of blunt weapons used to strike, including nightsticks, batons, light maces, quarterstaffs, and similar bludgeoning weapons. A particularly light club might be only Damage 1.",
+												"{@b Knife}: A bladed weapon with a length less than 18 inches or so. This includes daggers, stilettos, sais, switchblades, bowie knives, and hunting knives, among others.",
+												"{@b Pepper Spray}: A liquid sprayed in a target’s face at close range to blind them.",
+												"{@b Stun Gun}: A stun gun hits its target with a surge of electricity, an Affliction that can daze, stun, and potentially incapacitate."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Archaic Melee Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Battleaxe}: A heavy-bladed axe that can be wielded with one or two hands.",
+												"{@b Sword}: A blade between 18 and 30 or more inches in length, single or doublee-dged. It includes longswords, katanas, sabers, scimitars, and similar weapons.",
+												"{@b Spear}: A bladed pole-arm. Most spears can also be thrown as a ranged attack.",
+												"{@b Warhammer}: A heavy hammer or mace that can be wielded with one or two hands. Warhammers can also be thrown as a ranged attack."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Exotic Melee Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Chain}: A length of chain can strike targets up to 10 ft. away (Reach 2) and provides the benefits of the Improved Grab and Improved Trip advantages.",
+												"{@b Chainsaw}: A tool that sometimes sees use as a weapon, particularly against zombies and other slasher-flick monsters. Unlike most melee weapons, chainsaw damage is not Strength-based.",
+												"{@b Nunchaku}: A popular martial arts weapon, made of two wooden shafts connected by a short length or rope or chain.",
+												"{@b Whip}: A whip can strike targets up to 15 ft. away (Reach 3) and provides the benefits of the Improved Grab and Improved Trip advantages."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ranged Weapons",
+							"entries": [
+								"Ranged weapons include both thrown and projectile weapons. Thrown weapons are Strength-based, adding the wielder’s Strength rank to their Damage rank. Projectile weapons include bows, crossbows, and guns as well as energy weapons like lasers and blasters. Their Damage is generally not Strength-based.",
+								"Like melee weapons, ranged weapons have category, effect, critical, and cost traits. Ranged weapon categories are Projectile Weapons, Energy Weapons, Heavy Weapons, and Thrown Weapons.",
+								{
+									"type": "table",
+									"caption": "Ranged Weapons",
+									"colLabels": [
+										"Weapon",
+										"Effect",
+										"Critical",
+										"Cost"
+									],
+									"colStyles": [
+										"col-3",
+										"col-5 text-align-center",
+										"col-2 text-align-center",
+										"col-2 text-align-center"
+									],
+									"rows": [
+										["{@i Projectile Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Holdout pistol",
+												"Ranged Damage 2",
+												"20",
+												"4"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Light pistol",
+												"Ranged Damage 3",
+												"20",
+												"6"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Heavy pistol",
+												"Ranged Damage 4",
+												"20",
+												"8"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Machine pistol",
+												"Ranged Multiattack Damage 3",
+												"20",
+												"9"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Submachine gun",
+												"Ranged Multiattack Damage 4",
+												"20",
+												"12"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Shotgun",
+												"Ranged Damage 5*",
+												"20",
+												"10"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Assault rifle",
+												"Ranged Multiattack Damage 5",
+												"20",
+												"15"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Sniper rifle",
+												"Ranged Damage 5",
+												"19-20",
+												"11"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Bow",
+												"Ranged Damage 3",
+												"20",
+												"6"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Crossbow",
+												"Ranged Damage 3",
+												"19-20",
+												"7"
+											]
+										},
+										["{@i Energy Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Blaster pistol",
+												"Ranged Damage 5",
+												"20",
+												"10"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Blaster rifle",
+												"Ranged Damage 8",
+												"20",
+												"16"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Taser",
+												"Ranged Affliction 5*",
+												"20",
+												"10"
+											]
+										},
+										["{@i Heavy Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Flamethrower",
+												"Cone or Line Area Damage 6",
+												"－",
+												"13"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Grenade launcher",
+												"Burst Area Ranged Damage 5",
+												"－",
+												"15"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Rocket launcher",
+												"Ranged Damage 10, Burst Area 7",
+												"20",
+												"27"
+											]
+										},
+										["{@i Thrown Weapons}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Bolos",
+												"Ranged Snare 3",
+												"20",
+												"6"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Boomerang",
+												"Ranged Damage 1",
+												"20",
+												"2"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Javelin",
+												"Ranged Damage 2",
+												"20",
+												"4"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Shuriken",
+												"Ranged Multiattack Damage 1",
+												"20",
+												"3"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Projectile Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Holdout pistol}: A low-caliber, easily concealed pistol, typically used as a back-up or secondary weapon.",
+												"{@b Light pistol}: A common handgun, found in the hands of police officers and criminals alike.",
+												"{@b Heavy pistol}: A high-caliber handgun, usually used by those who want a lot of stopping power.",
+												"{@b Machine pistol}: A small automatic weapon, usable in one hand.",
+												"{@b Submachine gun}: Compact automatic weapons that fire pistol ammunition, submachine guns are common military weapons, also used by criminals with access to more serious firepower.",
+												"{@b Shotgun}: A shotgun can fire shot, which does Damage 5 with Accurate 1 due to the spread, but Limited to damage 3 against targets with Protection. It can also load solid slugs, which inflict the same damage, but without the Accurate bonus or the Limit on Damage.",
+												"{@b Assault rifle}: Rifles designed for military-use capable of both single-fire and automatic fire.",
+												"{@b Sniper rifle}: Rifles designed for long-range use, typically in conjunction with a powerful scope or targeting system.",
+												"{@b Bow}: Although outdated, some heroes and villains favor the bow as a weapon and it can be quite effective in the right hands. A bow-wielding character may have various “trick” ar-rows with different powers, typically handled as devices.",
+												"{@b Crossbow}: Similar to a bow, and used for the same reasons."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Energy Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Blaster pistol}: A pistol that fires a coherent bolt of energy.",
+												"{@b Blaster rifle}: A larger riflesized weapon that fires a more powerful bolt of energy.",
+												"{@b Taser}: A compressed-air weapon firing a pair of darts. On impact they release a powerful electrical charge, for an Affliction effect that can daze, stun, or incapacitate (Fortitude resistance, DC 15)."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavy Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Flamethrower}: A flamethrower shoots a stream or arc of fire Damage as Cone or Line Area and can switch between settings as an Alternate Effect.",
+												"{@b Grenade launcher}: A grenade launcher fires various types of grenades out a greater distance, generally fragmentation grenades.",
+												"{@b Rocket launcher}: A rocket-launcher is generally an anti-tank weapon, although they also make useful anti-super-hero weapons as well. The primary target hit by the rocket resists explosive Damage 10, while all other targets in the burst area resist Damage 7. Some “tank-killer” rockets are also Penetrating, to help overcome Impervious armor Protection, although the rocket’s Damage typically does most of that work. Most rocket launchers can fire only one or two shots before they must be reloaded (standard action, meaning the launcher cannot fire that turn)."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Other Ranged Weapons",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Bolos}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
+												"{@b Boomerang}: A common throwing weapon for heroes, a thrown boomerang returns to the thrower’s hand, ready to be thrown again on the next round (less a Feature and more a special descriptor). Boomerang wielders often use this property of the weapon to feint, allowing for an attack against a vulnerable target on the return arc on the attacker’s next turn.",
+												"{@b Javelin}: Light, flexible spears intended to be thrown. Javelins can also be used in melee combat.",
+												"{@b Shuriken}: Flat metal stars or spikes for throwing. Shuriken can be thrown in groups as a Multiattack. Although they are thrown weapons, shuriken are not Strength-based, being too light."
+											]
+										}
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Grenades and Explosives",
+									"colLabels": [
+										"Item",
+										"Effect",
+										"Dodge DC",
+										"Cost"
+									],
+									"colStyles": [
+										"col-3",
+										"col-5 text-align-center",
+										"col-2 text-align-center",
+										"col-2 text-align-center"
+									],
+									"rows": [
+										["{@i Grenades}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Fragmentation",
+												"Ranged Burst Area Damage 5",
+												"15",
+												"15"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Smoke",
+												"Ranged Cloud Area Concealment Attack 4",
+												"14",
+												"12"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Flash-bang",
+												"Ranged Burst Area Dazzle 4",
+												"14",
+												"16"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Sleep gas",
+												"Ranged Cloud Area Sleep 4*",
+												"14",
+												"12"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Tear gas",
+												"Ranged Cloud Area Affliction 4*",
+												"14",
+												"16"
+											]
+										},
+										["{@i Explosives}","","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Dynamite",
+												"Ranged Burst Area Damage 5",
+												"15",
+												"15"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Plastic explosive",
+												"Ranged Burst Area Damage 10",
+												"20",
+												"30"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Grenades and Explosives",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Fragmentation grenade}: A common military grenade that sprays shrapnel in all directions.",
+												"{@b Smoke grenade}: A smoke grenade fills an area with thick smoke (colored as desired) providing total concealment to all visual senses.",
+												"{@b Flash-bang grenade}: A flash-bang grenade gives off a bright flash and a loud bang that can render targets temporarily blind and deaf. A flash grenade affects only vision and costs 12 points.",
+												"{@b Sleep gas grenade}: This grenade releases a gas with an Affliction (Sleep) effect.",
+												"{@b Tear gas grenade}: This type of grenade releases a cloud of gas that irritates the eyes and lungs, causing temporarily blindness and nausea (an Affliction with dazed and visually impaired, stunned and visually disabled, and incapacitated effects).",
+												"{@b Dynamite}: A common explosive. The damage on the table is for a single stick of dynamite. Each doubling of the amount of explosive increases Damage rank by 1.",
+												"{@b Plastic explosive}: Another common explosive, which can be worked into different shapes. The damage listed is for a 1-lb block. Each doubling of the amount of explosive increases Damage rank by 1."
+											]
+										}
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Armor",
 					"entries": [
-						""
+						"With so many weapons and super-powered attacks around, characters may need armor to protect them. Some heroes are innately tough enough to stand up to a lot of punishment, while others rely on their high Dodge and Parry ranks. Others choose to wear armor, ranging from ancient metal armors to modern composites or ultra-modern battlesuits.",
+						"Armor provides a Protection effect, a bonus to Toughness. Like other equipment, armor bonuses do not stack with other armor or effect bonuses, only the highest bonus applies, one of the reasons why tough heroes rarely, if ever, wear armor. Toughness, even that granted by armor, is limited by your series’ power level.",
+						{
+							"type": "entries",
+							"name": "Armor Traits",
+							"entries": [
+								"Armor has the following traits:",
+								{
+									"type": "list",
+									"items": [
+										"{@b Category}: Armors are categorized as archaic (ancient styles of armor like chain- and plate-mail), modern (typically bulletproof composites and synthetics), and shields (requiring some active use to protect against attacks).",
+										"{@b Effect}: The effect of most armor is Protection, sometimes with the Impervious modifier. Shields provide a sort of mobile cover (see Cover in Action & Adventure), granting Enhanced Dodge and Parry defenses.",
+										"{@b Cost}: This is the armor’s cost in points. Characters pay this cost from their equipment points to have the armor of this type as part of their regular equipment."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Armor",
+									"colLabels": [
+										"Armor",
+										"Effect",
+										"Cost"
+									],
+									"colStyles": [
+										"col-4",
+										"col-6 text-align-center",
+										"col-2 text-align-center"
+									],
+									"rows": [
+										["{@i Archaic}","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Leather",
+												"Protection 1",
+												"1"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Chain-mail",
+												"Protection 3",
+												"3"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Plate-mail",
+												"Protection 5",
+												"5"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Full-plate",
+												"Protection 6",
+												"6"
+											]
+										},
+										["{@i Modern}","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Undercover shirt",
+												"Protection 2, Limited to Ballistic, Subtle",
+												"2"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Bulletproof vest",
+												"Protection 4, Limited to Ballistic, Subtle",
+												"3"
+											]
+										},
+										["{@i Shields}","",""],
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Small shield",
+												"+1 Active Defenses",
+												"2"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Medium shield",
+												"+2 Active Defenses",
+												"4"
+											]
+										},
+										{
+											"type": "row",
+											"style": "row-indent-first",
+											"row": [
+												"Large shield",
+												"+3 Active Defenses",
+												"6"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Archaic Armor",
+									"entries": [
+										"Some characters in superheroic settings still wear ancient or archaic armor, either because they are from a place or time where such armor is common or because it is tied to their motif or powers in some way.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Leather}: This can be archaic plates of boiled leather or a modern heavy leather jacket.",
+												"{@b Chain-mail}: A shirt of heavy metal chain, often with a coif (hood) to cover the wearer’s head.",
+												"{@b Plate-mail}: This is chain-mail augmented with a metal breastplate, greaves (leg-guards) and arm-guards.",
+												"{@b Full-plate}: A full (and heavy!) suit of articulated metal plates, like that worn by medieval knights."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Modern Armor",
+									"entries": [
+										"Modern body armor is common among superheroes and villains, but even more so among people like police officers, soldiers, criminal agents, and so forth.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Undercover shirt}: A thin shirt of ballistic armor that can be worn under street clothes.",
+												"{@b Bulletproof vest}: A heavier vest of ballistic armor worn by police officers and soldiers."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shields",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Small shield}: A small hand shield large enough to cover the wearer’s forearm.",
+												"{@b Medium shield}: A larger shield covering almost the entire arm, able to shield a large portion of the torso.",
+												"{@b Large shield}: A “kite” shield able to cover more than half of the wielder’s body."
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Under the Hood: Super-Shields",
+											"entries": [
+												"Just as power armor is a device version of otherwise ordinary equipment armor, some heroes (and, less often, villains) have shield devices providing them with greater benefits than an ordinary shield.",
+												"A shield device may provide Enhanced Dodge and Parry defenses like a mundane shield, or it can grant ranks of Protection (which do stack with other effects, since they’re not from equipment), perhaps even Impervious Protection for a “bulletproof” or “indestructible” shield. Such benefits are typically Sustained in duration, requiring some action on the shield-wielder’s part.",
+												"A super-shield might even be useful as a weapon, providing a Damage effect, probably Strength-based. This is best handled as an Alternate Effect of the shield, meaning you can’t use it both offensively and defensively at the same time! A hero able to hurl a shield at foes can even have a Ranged Damage effect with it."
+											]
+										}
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Vehicles",
 					"entries": [
-						""
+						"Not every hero can fly (or teleport, or run at super-speed…). Sometimes heroes make use of other means to get around. Vehicles are used primarily for transportation, although they may come with additional capabilities—including weapons—making them useful in other situations as well.",
+						{
+							"type": "entries",
+							"name": "Vehicle Traits",
+							"entries": [
+								"Vehicles have the following traits: Size, Strength, Speed, Defense, and Toughness. Like characters, each of a vehicle’s traits costs points to improve. The basic cost for a vehicle is its Speed, but other things, like the vehicle’s ability to haul cargo  or resist damage, cost points as well. Vehicles can even have power effects of their own. Equipment point costs are summarized on the Vehicle Trait Cost table.",
+								{
+									"type": "table",
+									"caption": "Vehicle Trait Cost",
+									"colLabels": [
+										"Trait",
+										"Cost"
+									],
+									"colStyles": [
+										"col-4 text-align-center",
+										"col-8 text-align-center"
+									],
+									"rows": [
+										["Size", "1 point per size category"],
+										["Strength", "1 point per +1 Strength"],
+										["Speed", "movement effect cost"],
+										["Toughness ", "1 point per +1 Toughness"],
+										["Defense", "1 point per +1 Defense"],
+										["Features", "1 point per feature"],
+										["Powers", "power cost (see Chapter 5)"]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Size",
+									"entries": [
+										"A vehicle’s size is measured in categories, as shown on the Vehicle Size Categories table. A vehicle’s size determines its base Strength, Toughness, and Defense values. Vehicles start out at medium size by default, and each increase in size category costs 1 power point."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Vehicle Size Categories",
+									"colLabels": [
+										"Vehicle Size (rank)",
+										"Examples",
+										"Strength",
+										"Toughness",
+										"Defense"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-3 text-align-center",
+										"col-2 text-align-center",
+										"col-2 text-align-center",
+										"col-2 text-align-center"
+									],
+									"rows": [
+										[
+											"Awesome",
+											"Space transport",
+											"20", "15", "-12"
+										],
+										[
+											"Colossal",
+											"Passenger jet",
+											"16", "13", "-8"
+										],
+										[
+											"Gargantuan",
+											"Semi, yacht, fighter jet",
+											"12", "11", "-4"
+										],
+										[
+											"Huge",
+											"Stretch limo, SUV, tank",
+											"8", "9", "-2"
+										],
+										[
+											"Large",
+											"Car, small truck",
+											"4", "7", "-1"
+										],
+										[
+											"Medium",
+											"Motorcycle",
+											"0", "5", "0"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Strength",
+									"entries": [
+										"A vehicle’s Strength, much like a character’s, determines its carrying capacity. You can increase a vehicle’s Strength over the base rank for its size for 1 equipment point per Strength rank."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Speed",
+									"entries": [
+										"A vehicle buys the appropriate movement effect(s) for its Speed, paying the normal cost. Vehicles with multiple modes of movement (air, ground, and water, for example) pay full cost for the most expensive and can acquire the others as Alternate Effects (see Alternate Effect modifier in Powers)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Defense",
+									"entries": [
+										"A vehicle’s size determines its base Defense, which is used to determine the Defense Class to hit the vehicle with attacks. For sizes larger than medium, this is a penalty, making it easier to target the vehicle, even to the point where attackers can hit it as a routine check. You can “buy off” the Defense penalty applied to a vehicle for 1 equipment point per –1 penalty removed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Toughness",
+									"entries": [
+										"Size category determines a vehicle’s base Toughness rank, used for Toughness resistance checks. You can increase a vehicle’s Toughness over the base rank for its size for 1 equipment point per Toughness rank."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"Certain things are considered “standard” on any vehicle. These include seating, safety harnesses or seat belts, heating and air-conditioning, radio receiver, headlights, and similar things with little or no impact on game play. Features are “optional extras” for vehicles and cost 1 point each. The GM can determine if other features are included in the vehicle or cost points. Some “features” are actually powers, described in the following section.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Alarm}: The vehicle has an alarm system that goes off when an unauthorized access or activation attempt is made. A Technology check (DC 20) can overcome the alarm. For each additional equipment point, the DC increases by 5.",
+												"{@b Caltrops}: A vehicle may be equipped with a dispenser for caltrops, spikes meant to damage tired. Activating the dispenser is a standard action. Caltrops automatically blow out the tires of ordinary vehicles that run over them (consider such vehicles “minions”). Heroes and villains can make DC 13 Toughness checks for their vehicles; tires are Toughness 3. One degree of failure slows the vehicle, while two degrees of failure immobilize it.",
+												"{@b Hidden Compartments}: The vehicle has hidden compartments or cargo areas holding up to a tenth of the vehicle’s medium load in cargo. A Perception check (DC 20) allows the searcher to find the hidden compartment. For each additional equipment point, the DC increases by 5.",
+												"{@b Navigation System}: The vehicle is equipped with a navigation system that grants a +5 circumstance bonus on skill checks related to navigation.",
+												"{@b Oil Slick}: The vehicle can release an oil slick, covering a 20-ft. by 20-ft. area and forcing the driver of a pursuing vehicle to make a Vehicles check (DC 15) to retain control of the vehicle. Releasing the oil slick is a standard action.",
+												"{@b Remote Control}: The vehicle’s owner can operate it remotely using a transmitter and control device. remotely controlling a vehicle requires the same kind of action (usually a move action) as if you were actually behind the wheel of the vehicle."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Powers",
+									"entries": [
+										"A vehicle can have power effects of its own, usually reflecting the vehicle’s systems. Attack effects are suitable for vehicle-mounted weapons, while defense effects protect the vehicle (and often the passengers) from harm. Vehicle powers have their normal cost for the vehicle (meaning they cost one-fifth the normal amount for the vehicle’s owner, since the effects are incorporated into the vehicle and cost equipment points rather than Character points).",
+										{
+											"type": "list",
+											"items": [
+												"{@b Armor}: Armor provides Protection for a vehicle in addition to its normal Toughness, possibly including Impervious Protection. Some vehicles may have Sustained Protection (such as force screens) instead of, or in addition to, Permanent Protection. 1 point per +1 Toughness.",
+												"{@b Cloaking Device}: A vehicle may have a “cloaking device” granting Concealment from visual senses. Some vehicles may also have Concealment from auditory senses or things such as radar, giving them a “stealth mode.” 4 points (normal vision or all of another sense type) or 8 points (all visual senses).",
+												"{@b Immunity}: Vehicles normally provide immunity to the normal hazards of environments they travel through—such as underwater or in space—at no additional cost. Additional Immunity effects are for unusual hazards or circumstances, such as a car that provides a sealed air system, granting immunity to suffocation and other atmospheric hazards.",
+												"{@b Instruments}: Instruments serve to control the vehicle’s other systems or provide information to its pilot and passengers. In particular, instruments often use the Senses effect for various sensors and scanning equipment. Probably the most common are radar (Accurate Radio, often with ranks of Extended) and sonar (Accurate Extended Ultra-Hearing).",
+												"{@b Smokescreen}: The vehicle can release a cloud of thick smoke or mist that provides an Area visual Concealment Attack to hide the vehicle or confuse pursuers. 12 points.",
+												"{@b Weapons}: Vehicle weapons are based on various attack effects, particularly Damage with various modifiers. Vehicles, especially military vehicles, may mount versions of some of the weapons listed elsewhere."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shared Vehicles",
+									"entries": [
+										"A team of heroes may share a vehicle used by the whole team, particularly useful for shuttling around team members who cannot fly or move at super-speed. The members of the team divide the equipment point cost of the vehicle among them as they see fit, devoting the necessary ranks of the Equipment advantage to covering the vehicle’s cost."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Alternate Vehicles",
+									"entries": [
+										"Just like Alternate Equipment, characters may have multiple vehicles. These are generally Alternate Equipment by definition, since it’s difficult to drive or pilot more than one vehicle at a time! So the character pays the full cost for the most expensive vehicle, and then 1 equipment point for each additional vehicle with the same or lesser cost.",
+										"So a hero with an array of vehicles, such as a plane, boat, and car pays full equipment point cost for the most expensive of the vehicles and just 1 equipment point for each of the others. The hero’s player can even spend a Victory point to pull out a motorcycle, submarine, jet-ski, or whatever other vehicle the hero might have stashed away waiting for the right occasion."
+									]
+								}
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Vehicles",
+							"colLabels": [
+								"Name",
+								"Size",
+								"Strength",
+								"Speed",
+								"Defense",
+								"Toughness",
+								"Cost"
+							],
+							"colStyles": [
+								"col-6",
+								"col-1 text-align-center",
+								"col-1 text-align-center",
+								"col-1 text-align-center",
+								"col-1 text-align-center",
+								"col-1 text-align-center",
+								"col-1 text-align-center"
+							],
+							"rows": [
+								["{@i Ground Vehicles}","","","","","",""],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Motorcycle",
+										"M","1","6","10","8","10"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Car",
+										"L","5","5","8","8","10"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Police Cruiser",
+										"L","6","6","8","9","11"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Limousine",
+										"H","8","5","6","9","6"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Truck",
+										"H","9","5","6","9","7"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Armored Car",
+										"H","8","5","6","12","8"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Tank*",
+										"H","10","4","6","12","65"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"APC*",
+										"H","12","4","6","12","35"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Bus",
+										"G","12","5","4","11","8"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Semi",
+										"G","13","5","4","11","9"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Train engine",
+										"H","10","5","6","10","10"
+									]
+								},
+								["{@i Water Vehicles}","","","","","",""],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Jet-Ski",
+										"M","1","5","10","7","8"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Speedboat",
+										"L","6","6","8","7","8"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Yacht",
+										"H","10","5","6","9","9"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Cutter*",
+										"G","13","5","4","12","27"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Destroyer*",
+										"C","16","5","2","14","38"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Cruise ship",
+										"A","20","5","0","15","10"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Battleship*",
+										"A","20","5","0","16","46"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Submarine*",
+										"C","16","5","2","13","30*"
+									]
+								},
+								["{@i Air Vehicles}","","","","","",""],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Helicopter",
+										"H","8","7","6","9","16"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Military copter*",
+										"H","8","8","6","11","45"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Private Jet",
+										"G","12","8","4","11","19"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Jumbo jet",
+										"C","16","7","2","13","18"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Fighter Jet*",
+										"H","10","12","6","10","66"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Bomber*",
+										"C","13","9","2","13","59"
+									]
+								},
+								["{@i Space Vehicles}","","","","","",""],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Space Shuttle*",
+										"C","16","12","2","13","28"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Space Fighter*",
+										"H","10","14","6","11","56"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Space Cruiser*",
+										"C","18","14","2","15","79"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Space Battleship*",
+										"A","22","16","0","18","93"
+									]
+								},
+								["{@i Exotic Vehicles}","","","","","",""],
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Dimension Hopper*",
+										"H","8","*","6","9","8"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Mole Machine*",
+										"H","11","4","6","12","10"
+									]
+								},
+								{
+									"type": "row",
+									"style": "row-indent-first",
+									"row": [
+										"Time Machine*",
+										"H","8","*","6","9","8"
+									]
+								}
+							],
+							"footnotes": [
+								"* = See individual descriptions for more information."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ground Vehicles",
+							"entries": [
+								"Most cars include such standard features as air conditioning, air bags, antilock brakes, cruise control, keyless entry, and an AM/FM radio with CD player. Luxury vehicles often also include extras such as power seats, leather upholstery, and a sunroof.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Cars} come in many different varieties. For variations on the base model, add +1 or +2 Str for larger, full-sized, cars, and +1 or even +2 Speed for sports and racing cars.",
+										"{@b Trucks} include pick-ups, sport utility vehicles (SUVs), vans, and similarly sized vehicles.",
+										"{@b Tanks} are heavily armed and armored vehicles. The standard tank has Impervious Toughness 12 and comes equipped with a cannon (Ranged Damage 10, Burst Area 6) and a heavy machine gun (Ranged Multiattack Damage 6). It takes a move action to get into or out of a tank, and another move action to start it up.",
+										"{@b APCs} or Armored Personnel Carriers, are designed for carrying troops. They come with a smaller cannon (Ranged Damage 6, Burst Area 4), Impervious Toughness 8, and are set up so soldiers on board can fire their personal weapons from behind the cover of the APC’s armor."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Water Vehicles",
+							"entries": [
+								"Water vehicles range from small boats and outboards to massive sea-going ships.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Cutters} are used by the Coast Guard and the Navy. They’re often equipped with light machine guns (Ranged Multiattack Damage 6).",
+										"{@b Destroyers} are main naval ships, carrying heavy guns (Ranged Damage 10, Burst Area 8).",
+										"{@b Battleships} have massive gun batteries (Ranged Damage 13, Burst Area 9) and heavy armor.",
+										"{@b Submarines} are equipped with torpedoes (Ranged damage 8, Burst Area 5) and often ballistic missiles (Ranged Burst Area Damage 15 or higher, not included in listed cost)."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Air Vehicles",
+							"entries": [
+								"Air vehicles are all capable of flight, some of them at very high speeds.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Military helicopters} are equipped with machine guns (Ranged Multiattack Damage 6) and rockets (Ranged Damage 9, Burst Area 6).",
+										"{@b Fighter jets} have machine guns (Ranged Multiattack Damage 6) and air-to-air missiles (Ranged Damage 11, Burst Area 8, Homing 6).",
+										"{@b Bombers} may have machine guns and missiles, but also have powerful bombs (Burst Area Damage 12 or higher) they can drop on targets."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Space Vehicles",
+							"entries": [
+								"Space vehicles are intended for use outside the atmosphere, some of them for interplanetary or even interstellar travel. Generally space vehicles are found in the possession of alien civilizations, although the GM may choose to allow some organizations and individuals on Earth to have space vehicles.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Space fighters} are armed with blaster cannons (Ranged Damage 10).",
+										"{@b Space cruisers} have larger beam weapons (Ranged damage 12) and often energy torpedoes (Ranged Damage 12, Burst Area 10, Homing 8).",
+										"{@b Space battleships} have the most massive weapons: blaster cannons (Ranged Damage 15) and high-powered energy torpedoes (Ranged Damage 15, Burst Area 12, Homing 8)."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Special Vehicles",
+							"entries": [
+								"These are unique vehicles, most likely found in the possession of supervillains, aliens, or eccentric inventors.",
+								{
+									"type": "list",
+									"items": [
+										"{@b Dimension hopper} is a vansized vehicle capable of moving between dimensions like a rank 3 Movement (Dimensional Travel) effect.",
+										"{@b Mole-machines} are classic weapons for underground villains, consisting of a metallic cylinder with treads and a rotating drill mounted on the front, allowing the machine to bore through the earth. Its speed is a Burrowing effect.",
+										"{@b Time machines} may be enclosed vehicles, from cubes to spheres or even pods on legs or police boxes, or they can simply be open platforms or projectors. They provide a Movement (Time Travel) effect, typically rank 2 or 3, although some time machines may transmit only to a fixed point in time."
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Headquarters",
 					"entries": [
-						""
+						"Whether it’s an underground cave, the top floors of a skyscraper, a satellite in orbit, or a base on the Moon, many heroes and villains maintain their own secret (or not so secret) headquarters. Teams may even pool their equipment points to have a headquarters they share, with the Gamemaster’s approval.",
+						"A character can even have multiple bases of operation (see Alternate Headquarters later in this section). This is more common for villains, who have back-up plans and secret bases they can retreat to when their plans are defeated. If a character’s headquarters is destroyed, the character can choose to rebuild it or build a new headquarters with different features using the same equipment points. Supervillains often go through a succession of different lairs.",
+						{
+							"type": "entries",
+							"name": "Headquarters Traits",
+							"entries": [
+								"Headquarters  have  two  main  traits—Size  and  Toughness—and a number of possible Features. Each of these costs equipment points.",
+								{
+									"type": "entries",
+									"name": "Size",
+									"entries": [
+										"A structure’s size is measured similarly to that of a vehicle, and gives a general idea of the overall space it occupies and how much space is available inside it. See the {@b Structure Size Categories} table for guidelines. A headquarters starts out at Small size for 0 points. Each increase in size category  costs  1  point,  each  decrease  in  size  category gives you an additional point to spend elsewhere on your headquarters, although you’re not going to have a lot of room for extras!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Toughness",
+									"entries": [
+										"A  headquarters’ Toughness  indicates  the  strength  of  its structural materials, particularly its outer structure (walls, ceiling, etc.). A structure starts out with Toughness 6 for 0 points. +2 Toughness costs 1 equipment point."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Power Level",
+									"entries": [
+										"Some  features  refer  to  a  headquarters’  power  level.  For player characters, this is the power level of the series overall. For non-player characters, particularly villains, this is the base-owner’s effective power level, or whatever power level the GM wishes to set, using the series power level as a guideline."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"A headquarters may have a number of features, chosen from the list below. A headquarters automatically has the basic structural amenities like doors and windows, power outlets, utilities, and so forth at no cost. Each feature costs 1  equipment  point.  You  can  invent  additional  features, basing them off the ones given here, with the permission of the Gamemaster.",
+										{
+											"type": "entries",
+											"name": "Combat Simulator",
+											"entries": [
+												"A combat simulator is a special room equipped with various devices intended to test characters’ powers and skills and allow them to train in realistic combat situations. Generally, a combat simulator has a suite of equipment that can simulate any appropriate attack effect at a rank up to the HQ power level. ",
+												"As an additional feature, the combat simulator can project realistic illusions, allowing it to recreate or simulate almost any environment. Combat simulators are useful for training and short “war games” (pitting the characters against each other or simulated opponents). Clever heroes also can try to lure intruders into the combat simulator or an intruder might override the simulator’s control systems and trap the heroes in it, turning it into a deathtrap."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Communications",
+											"entries": [
+												"The  communications  feature  allows  the  headquarters to receive and transmit on a wide range of radio and TV bands, monitor police and emergency channels, coordinate communications between members of a team, and so forth. It includes communications equipment, consoles, and monitors. The system’s access to restricted communication bands  depends on the clearance and skills of the user. Heroes often have access to special government channels, while a successful Technology skill check (DC 25) can grant a user illegal access to restricted systems."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Computer",
+											"entries": [
+												"A state-of-the-art computer system serves the entire headquarters. This allows characters to make full use of the Technology skill and the computer can be programmed to handle routine base functions (including monitoring communications channels and controlling defensive systems). An artificially intelligent computer system should be created as a Minion or Sidekick, perhaps with the cost shared among members of a team. See the Constructs section for more."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Concealed",
+											"entries": [
+												"The headquarters is hidden from the outside world in some way. It may be camouflaged behind a false façade, buried underground, or something similar. Note this is in addition to the Isolated feature, if any. An isolated headquarters is difficult to reach, while a concealed headquarters is difficult to find in the first place. Skill checks to locate the headquarters have their DC increased by +10. Each additional feature applied to this increases the DC +5, to a maximum of +30."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Defense System",
+											"entries": [
+												"A defense system consists of various weapon emplacements defending the  exterior and interior of the headquarters. A defense system can have any attack effect with a cost no greater than twice the HQ power level. Their attack bonus is equal to the power level."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Deathtraps",
+											"entries": [
+												"A villainous version of the Defense System feature is deathtraps: the villain’s lair has one or more fiendish traps suitable for disposing of those pesky heroes. Some deathtraps are designed as security systems to keep heroes out: concealed auto-guns, walls of flames, sealing rooms that fill with water or sand, and so forth. Others are intended for the slow elimination of captured heroes.",
+												"Note that not having this feature does not mean a villain cannot jury-rig a deathtrap within the lair—say, by chaining heroes beneath a rocket counting down to launch, or slowly lowering them into a volcano’s caldera. It just means there’s no part of the base specifically designed as a deathtrap.",
+												"Also note that, in spite of the name, not all “deathtraps” are necessarily lethal. Some may be intended to merely incapacitate and capture intruders (more along the lines of a nonlethal Defense System), allowing the villain to interrogate them...and then perhaps put them into a real deathtrap!"
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dimensional portal",
+											"entries": [
+												"The headquarters has a portal or gateway to another dimension or dimensions. This can range from an otherwise innocuous-looking door to a humming high-tech portal surrounded by support equipment and monitors. The portal provides two-way travel to and from the other dimension, and it may even reach a number of related dimensions.  At the GM’s discretion, an appropriate skill check—typically Expertise or Technology—may be required to operate the portal."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dock",
+											"entries": [
+												"A dock houses water vehicles and includes access to a nearby waterway, an airlock or lock system for moving vehicles in and out of the dock, and dry-dock facilities for repairing and maintaining water vehicles. The headquarters should be located within reasonable distance of a body of water to have this feature."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dual Size",
+											"entries": [
+												"The headquarters has two separate Size categories: its inside category (purchased normally), which determines the structure’s interior space, and an outside category, one or more size categories smaller. In essence, the headquarters is larger on the inside than on the outside! So a small house, for example, might contain the space of a huge castle on the inside. The GM may even allow size categories beyond Awesome, with each additional category doubling size; expensive HQs could be pocket universes! Pay the cost of the larger size, plus this feature, which lets you set the exterior size at any smaller category.",
+												"In general, the exterior dimensions of the HQ cannot be smaller than a miniscule structure, about the size of a closet or phone booth (or, say, a wardrobe or police box), large enough  for  an  adult  human  to  pass  through  whatever serves as the base’s entrance. Headquarters that have no “exterior” structure, such as an extra-dimensional fortress accessed by a magical talisman, do not have this feature, but instead have things like Dimensional Portal, Isolated, Sealed, and the like."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Effect",
+											"entries": [
+												"A headquarters can be given any appropriate power effect as a feature with the Gamemaster’s approval. The effect cannot have a total cost greater than twice the HQ power level and cannot exceed the power level limits. Effects are assumed to affect either the headquarters or its occupants, if they do both, apply the Affects Others modifier, or take them as separate features."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fire Prevention System",
+											"entries": [
+												"The headquarters is equipped with an automatic system for detecting and extinguishing fires. Any large open flame sets the system off (beware, fire-using heroes!). It functions as a Nullify Fire 5 effect. A computer-controlled fire prevention system can be programmed to ignore certain sources of fire or the system can be placed on manual control (requiring someone to throw a switch in order to activate it)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Garage",
+											"entries": [
+												"A garage houses ground vehicles and includes a ramp, elevator, or other access to move vehicles in and out, facilities for repairing and maintaining vehicles, and a sliding access door."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Grounds",
+											"entries": [
+												"In addition to the actual building(s) of the headquarters, it has a considerable area of land surrounding it. An HQ can have surrounding land of one size category larger than the structure at no cost, without having this feature. Having it allows for grounds up to three size categories larger than the structure, so a large mansion headquarters could have a colossal area of land.",
+												"If the headquarters has features like Defense System and Security System, they also extend over the grounds (with fences, sensors, weapon emplacements, and so forth)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Gym",
+											"entries": [
+												"A gym consists of weight-training and other exercise machines, space for working out, stretching, and similar exercises, and all the necessary amenities (lockers, showers, etc.). Some HQs may incorporate the gym feature into the combat simulator, for a multi-purpose training room. A gym may also include a pool (heated or unheated, good for aquatic characters), possibly even connected to an outside body of water, to the base’s dock, or both at no additional cost."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Hangar",
+											"entries": [
+												"A hangar houses air and space vehicles. It includes a hatch and/or runway for the vehicles to launch and facilities for repairing and maintaining flying vehicles. For some HQs the launch facilities of the hangar may require a long tunnel or other access to the outside."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Holding Cells",
+											"entries": [
+												"These are cells for holding prisoners, usually temporarily, although some headquarters might have more permanent holding facilities. The cells are equipped with Nullify devices (ranked at the HQ power level) or their basic Toughness is increased by 50%, which option should be agreed upon by both player and GM (both options for two features). Heroes use holding cells to contain captured villains until they can be turned over to the proper authorities while villains use them to keep heroes prisoner until they can dispose of them in their latest deathtrap."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Infirmary",
+											"entries": [
+												"An infirmary consists of hospital beds and equipment for the full use of the Treatment skill. An infirmary can provide treatment for a number of characters equal to the base’s power level at one time and it can be assumed to have the necessary facilities to handle any unusual physiology of the base’s owner(s)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Isolated",
+											"entries": [
+												"Headquarters with this feature are situated somewhere out of the way like the Antarctic, the bottom of the ocean, on top of a lonely mountain peak, even in orbit or on the Moon. The base’s owner doesn’t have to worry about things like door-to-door salesmen or other unwanted visitors but the headquarters is also far from civilization (which can be limiting for heroes unable to travel fast). The headquarters is assumed to provide all the necessary life-support for its location, but doesn’t provide characters with the means to get to the base or travel back. They need the appropriate powers, a vehicle, or a separate base feature."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Laboratory",
+											"entries": [
+												"A laboratory is a facility for performing scientific tests or experiments. It contains all the necessary scientific equipment, including dedicated computers, if the headquarters doesn’t have its  own computer system. Characters can use the laboratory to perform research, study unusual phenomena (including many super-powers), and so forth. A laboratory may be required for certain Expertise, Investigation, or Technology skill checks, or provide a circumstance bonus to those checks."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Library",
+											"entries": [
+												"A library allows for use of various Knowledge skills when doing  research. A library may consist of printed matter (books and periodicals), microfilm, digital files, or a combination of all three. A library may facilitate certain Expertise skill checks and provide a circumstance bonus for them."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Living Space",
+											"entries": [
+												"The headquarters includes all the necessary amenities for people to live there full-time. This is usually a number of residents equal to the HQ’s power level comfortably (possibly more, at the GM’s discretion). It includes bedrooms or private suites, kitchen facilities, dining area, and common living areas. Characters can live in a headquarters lacking this feature short-term, but they’re not likely to be very comfortable."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Personnel",
+											"entries": [
+												"The HQ has a staff of personnel commensurate with its size and facilities. The staff is made up of characters created and controlled by the GM and tasked with servicing the headquarters. As such, they shouldn’t be considered all-purpose Minions of the occupant(s). A base’s personnel may help defend it in case of attack, but they’re not going to go out on missions or otherwise assist outside of their duties. This feature simply ensures there’s someone taking care of the place while the owner isn’t at home.",
+												"Note that an HQ’s personnel do not have to be ordinary humans. They could be service robots, magical golems, animated skeletons, enslaved aliens, trained apes, or just about anything else the GM chooses to fit with the theme of the base and its owner(s)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Power System",
+											"entries": [
+												"A power system makes the headquarters completely independent of outside power. It has its own generators (which may be solar, geothermal, nuclear, cosmic, or anything else the designer wants). They provide the base’s entire power needs. The headquarters also has emergency back-up power should the generators fail. This generally lasts for a number of hours equal to the HQ’s power level."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Sealed",
+											"entries": [
+												"This is similar to the Isolated feature, except the lair is sealed off from the outside world rather than isolated by geographic location. It may be a structure with no doors, windows, or other outside access, or behind some sort of barrier. Only the lair’s owner and designated guests may enter, although the GM should determine means by which trespassers might do so, including effects like Dimensional Travel, Insubstantial, Permeate, and Teleport."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Secret",
+											"entries": [
+												"This is similar to the Concealed feature except the headquarters is not so much concealed as it is “hiding in plain sight,” its existence as a headquarters unknown. So, for example, people assume the abandoned house on the hill or the old, closed-down factory are just that. This feature increases the DCs of checks to discover the lair—typically starting at DC 10—by +10, with each additional application increasing them by +5 to a maximum of +30 (for truly “top-secret” locations)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Security System",
+											"entries": [
+												"Various locks and alarms protect the headquarters from unauthorized  access. A Technology check (DC 20) overcomes these systems. Each additional feature increases the DC by +5, to a maximum of DC 40. The security system may be tied into a defense system (if the headquarters is equipped with that feature), so triggering an alarm activates the defense system to disable or restrain the intruder(s)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Self-repairing",
+											"entries": [
+												"The structure of the headquarters “heals” any damage done to it over time. Essentially, it recovers like a character does. If this feature is taken twice, the structure will even rebuild itself in a week if it is destroyed! If it cannot rebuild in its original location, it reappears in the nearest suitable place."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Temporal Limbo",
+											"entries": [
+												"Time within the headquarters actually moves at a different rate than that of the world outside! Time within the structure is either slowed or sped up compared to the normal passage of time, passing at half or twice the normal rate. Each additional application of this feature doubles the ratio of time passage: one-quarter or four times, one-eighth or eight times, and so forth.",
+												"This time differential allows a character within an accelerated Temporal Limbo to spend additional time planning, building, or recovering while little or no time passes outside, for example. Conversely, it allows characters in a slowed Temporal Limbo to pass great amounts of time outside without aging, perhaps allowing for long periods of self-imposed exile or contemplation."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Workshop",
+											"entries": [
+												"A workshop has all the facilities for making various things. It includes tools, workbenches, supplies, and so forth. The Gamemaster may rule certain projects require a dedicated workshop of their own (which is an additional feature). For example, a workshop can easily handle woodworking, metalworking, and machining, but might not be suitable for creating magical inventions (see Inventing in this chapter), which require a separate dedicated workshop."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Shared headquarters",
+									"entries": [
+										"A team of heroes most often has a headquarters they all share. In this case, the team members may divide up the equipment  point  cost  of  the  HQ  among  them  however they wish, usually as evenly as possible. Given the equipment point costs of most HQs, team members rarely have to devote more than a single rank of the Equipment advantage to their headquarters, an any excess points may also cover things like team vehicles and equipment (commlinks, for example)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Alternate headquarters",
+									"entries": [
+										"In the event that a character has more than one headquarters, such as hidden bases scattered around the world, the others are treated as Alternate Equipment: the character pays the points for the most expensive HQ, then 1 equipment point for each additional HQ of the same or lesser cost. The extra headquarters are largely a convenience (for heroes visiting other areas) and insurance against the loss of any one HQ.",
+										"The only exception to the Alternate Headquarters guideline is a shared headquarters (previously), the characters sharing the HQ all contribute to its cost and pay for any personal headquarters separately."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sample Headquarters",
+							"entries": [
+								"Gamemasters can use the following sample headquarters as ready-made lairs for supervillains while players can use them as bases for their heroes.",
+								{
+									"type": "actionBlock",
+									"name": "Abandoned Warehouse",
+									"entries": [
+										"{@b Size}: Medium {@b Toughness}: 8",
+										"{@b Features}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System • 10 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Moon-base",
+									"entries": [
+										"{@b Size}: Awesome {@b Toughness}: 20",
+										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Orbiting satellite",
+									"entries": [
+										"{@b Size}: Colossal {@b Toughness}: 20",
+										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Sanctum Sanctorum",
+									"entries": [
+										"{@b Size}: Medium {@b Toughness}: 10",
+										"{@b Features}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Sea-base",
+									"entries": [
+										"{@b Size}: Gargantuan {@b Toughness}: 14",
+										"{@b Features}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Skyscraper (5 floors)",
+									"entries": [
+										"{@b Size}: Large {@b Toughness}: 10",
+										"{@b Features}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Stately Manor",
+									"entries": [
+										"{@b Size}: Huge {@b Toughness}: 10",
+										"{@b Features}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Underground Lair",
+									"entries": [
+										"{@b Size}: Huge {@b Toughness}: 14",
+										"{@b Features}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Urban Fortress",
+									"entries": [
+										"{@b Size}: Large {@b Toughness}: 12",
+										"{@b Features}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Constructs",
 					"entries": [
-						""
+						"Armored robots, humanlike androids, even magically-animated golems or zombies are all examples of constructs, non-living things capable of acting on their own to one degree or another, carrying out preprogrammed instructions, or even possessing independent thought in some cases.",
+						"Since they are capable of action on their own (rather than just improving their owner’s abilities), constructs are considered minions—full-fledged characters—rather than devices or equipment and are acquired using the Minions advantage or summoned or created by a Summon effect.",
+						{
+							"type": "entries",
+							"name": "Construct Creation",
+							"entries": [
+								"Constructs are created exactly like other characters, using the guidelines in Secret Origins, with a few exceptions, discussed in the following section.",
+								"Constructs are subject to the same power level limits as other characters and the Gamemaster should require constructs controlled by the players to observe these limits. Non-player character constructs have their power level determined the same as other NPCs.",
+								{
+									"type": "entries",
+									"name": "Abilities",
+									"entries": [
+										"Constructs have no Stamina, because they are not living beings. Constructs do not recover from damage; they must be repaired instead. Constructs are immune to effects permitting Fortitude resistance checks unless the effect works on objects. Constructs also have either no Intellect and Presence ranks or no Strength and Agility ranks.",
+										"These are the qualities of constructs: lacking three abilities (–30 points) and Immunity to Fortitude Effects (30 points) average out to 0 points.",
+										"Constructs without Intellect and Presence are automatons, operating on simple instinct or programmed instructions. They are immune to Will effects and interaction skills and automatically fail Intellect and Presence checks.",
+										"Constructs without Strength and Agility ranks are immobile intellects, like an artificially intelligent computer or a sentient magic item. They cannot undertake physical actions on their own, although they may be able to control other constructs. They cannot move or exert force, and automatically fail Strength and Agility checks. They can have Dexterity, used for manipulating remotes and such.",
+										"A construct can buy up one of its nonexistent ability ranks by spending Character points; +1 rank per 2 Character points, as usual, but starting at a rank of –5. This gives the construct the normal use of that ability. Note a construct with Intellect but no Presence is intelligent but non-sentient (not self-aware) and a construct needs a rank in both Strength and Agility to be able to move and act physically. Constructs cannot buy Stamina, since creatures with Stamina are, by definition, not constructs.",
+										"Like inanimate objects, constructs have a Toughness rank, which measures their ability to resist damage. A construct starts out at Toughness 0 and can increase its rank using the Protection effect. A mobile construct can even have the Defensive Roll advantage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Skills",
+									"entries": [
+										"Constructs can have skills just like characters at the same cost. However, constructs cannot have skills based on abilities they lack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Advantages",
+									"entries": [
+										"Constructs can have advantages at the same cost as other characters. Some advantages are less useful or even useless to constructs and, like skills, constructs cannot have advantages requiring abilities they lack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Powers",
+									"entries": [
+										"Constructs can have various power effects, like other characters. Some effects are less useful or even useless to constructs and the GM has final say as to whether or not a particular effect can be assigned to a construct. Power effects are often aspects of a construct’s makeup or design, such as built-in armor (Protection), weapons (Damage), or sensors (Sense)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Size",
+									"entries": [
+										"Constructs larger or smaller than medium must pay Character points for Innate and Permanent Growth or Shrinking."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Commanding Constructs",
+							"entries": [
+								"A construct’s owner can give it orders verbally or through any other means the construct understands. Commanding a construct is a move action. Constructs follow orders to the best of their ability. Non-intelligent constructs do exactly as they’re told, without creativity or initiative, while intelligent constructs have the ability to interpret and improvise. An owner can also give a construct a series of basic orders for it to fulfill, such as “stay and guard this place and attack anyone who comes here other than me.” In the absence of new orders, constructs follow the last order they were given."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Damaging and Repairing Constructs",
+							"entries": [
+								"Constructs suffer damage like inanimate objects (see Damage effect in  Powers for details). Constructs do not recover from damage. Instead, they must be repaired. See Technology skill description for guidelines on repairing damaged objects.",
+								"Constructs with Regeneration are self-repairing (see Regeneration effect in  Powers)."
+							]
+						}
 					]
 				}
 			]
@@ -3957,33 +5876,696 @@
 			"type": "section",
 			"name": "Gamemastering",
 			"entries": [
-				"",
+				"One player—the Gamemaster or “GM”—takes responsibility for running a Mutants & Masterminds game. The Gamemaster creates the adventure, runs the players through it, takes on the roles of the various other characters the heroes encounter, and handles any questions about the rules as they arise. The Gamemaster also adjudicates the process of character creation, deciding what traits, modifiers, and so forth are appropriate for the particular game, along with the best way to express certain concepts in game terms. While Gamemastering is a big responsibility, it’s not as hard as it might seem, and providing a fun and entertaining game for your friends can be quite rewarding.",
 				{
 					"type": "section",
 					"name": "Running the Game",
 					"entries": [
-						""
+						"While the players are responsible for keeping track of their characters and deciding on their actions, the Gamemaster is responsible for everything else that happens in the game. A good GM tries to make sure the game runs as smoothly as possible and is enjoyable for all of the players. Many components go into creating a good game. The following sections give you the basics, but experience is the best tool to help you become a better Gamemaster.",
+						{
+							"type": "entries",
+							"name": "Assigning Difficulties",
+							"entries": [
+								"This game can be broken down into a series of tasks the heroes must perform, from piecing together clues about a villain’s latest scheme to blasting said villain through a wall and disarming his doomsday device in the nick of time. It’s up to the Gamemaster to assign the difficulty of these and numerous other tasks in the game and to determine the outcome of the heroes’ efforts. This section offers some general guidelines on assigning the difficulty of a task.",
+								{
+									"type": "entries",
+									"name": "The 55% Rule",
+									"entries": [
+										"A good guideline to keep in mind is the chance of an average character (with a modifier of 0) succeeding at an average task (DC 10) is just over 50% (55% to be exact). So any time you have to have an average character do something, or want to set a difficulty you feel is average for a particular character, aim for around that chance of success. If you want to know what bonus is required to have a 55% chance of succeeding at a particular task, just subtract 10 from the DC. So a DC 25 action (a formidable task) requires a bonus of +15 in order to have a 55% chance of success (on a roll of 10 or higher).",
+										"Keep in mind that this chance of success on a task allows a character to automatically succeed at that task as a routine check (see Routine Checks, following, and in The Basics). This is intentional; the average character only really fails at an average task when hurried or under stress. A 55% chance also allows a player to spend a Victory point to automatically succeed, since a Victory point ensures a die roll of at least 11. (See Victory points.)"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Circumstance Modifiers",
+									"entries": [
+										"Circumstance modifiers (see their description in The Basics) are one of the GM’s best tools. Rather than having to memorize a lengthy list of special-case modifiers, just keep this guideline in mind: if the situation is in the character’s favor, that’s good for a +2 bonus on a check. If it’s against the character, that’s a –2 penalty. If things are particularly good or bad, up the circumstance modifier to +/–5.",
+										"It’s that simple. Note that, practically speaking, a major circumstance modifier effectively shifts a check up or down a degree of difficulty, as shown on the Difficulty Class Examples table. Likewise, a major modifier effectively changes the degree of a graded check by one (see Graded Checks)."
+									]
+								},
+								{
+									"type": "table",
+									"caption": "",
+									"colLabels": [
+										"Difficulty",
+										"DC",
+										"Example",
+										"Modifier Needed for 55%"
+									],
+									"colStyles": [
+										"col-2 text-align-center",
+										"col-1 text-align-center",
+										"col-5 text-align-center",
+										"col-4 text-align-center"
+									],
+									"rows": [
+										[
+											"Very easy",
+											"0",
+											"See something large in plain sight",
+											"None (automatic)"
+										],
+										[
+											"Easy",
+											"5",
+											"Climb a knotted rope",
+											"–5 (Athletics)"
+										],
+										[
+											"Average",
+											"10",
+											"Hear a group walking 30 feet away",
+											"+0 (Awareness)"
+										],
+										[
+											"Tough",
+											"15",
+											"Disarm an explosive",
+											"+5 (Technology)"
+										],
+										[
+											"Challenging",
+											"20",
+											"Walk a tightrope",
+											"+10 (Acrobatics)"
+										],
+										[
+											"Formidable",
+											"25",
+											"Break into a secure computer system",
+											"+15 (Technology)"
+										],
+										[
+											"Heroic",
+											"30",
+											"Overcome a sophisticated security system",
+											"+20 (Technology)"
+										],
+										[
+											"Super-Heroic",
+											"35",
+											"Bluff your way past wary and alert guards",
+											"+25 (Deception)"
+										],
+										[
+											"Nearly Impossible",
+											"40",
+											"Open an impossibly complex lock in 1 round",
+											"+30 (Technology)"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Routine Checks",
+									"entries": [
+										"Routine checks reflect that some tasks and situations are so trivial it is not worth having a player roll a check. It would be illogical for the character to have a real chance of failing at the task, since failure should be rare enough to constitute a complication in that situation. Examples include things like a competent driver handling a car under ordinary conditions or a trained professional performing the routine tasks of a job.",
+										"Routine checks save time, because you do not need to ask players for a check for every single thing their characters do, but they also provide valuable guidelines for when you should ask the players for a check while running the game. They set a threshold for the Difficulty of certain actions. When coming up with Difficulty Classes for your adventure, keep the routine check rule in mind. If the DC is low enough that anyone can succeed as a routine check, then it may be too low, or the action may not be worth assigning a check.",
+										"Take Perception, for example. If you decide it is a DC 10 Perception check to pick up on some clue or bit of information in the adventure, that Difficulty is low enough that anyone with an unimpaired (0 or higher) Awareness can succeed at the task as a routine check. Assuming the information is also important to the plot, you might be better off to simply tell the players their characters notice it without calling for a check. If there needs to be a chance of failure, then set a higher Difficulty for the check. Of course, If the situation is stressful—such as the midst of combat—then a routine check is not an option, and a lower DC can provide heroes with a reasonably high chance of success with just a small chance of failure for dramatic purposes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Secret Checks",
+									"entries": [
+										"Sometimes it’s a good idea to make checks secretly, so the players don’t necessarily know the result. This is usually the case for any sort of check where the characters don’t immediately know whether they’ve succeeded or failed. For example, Perception checks usually should be made secretly. If the check succeeds, the character notices something. If it fails, then the player doesn’t know whether it’s because the character failed to notice something or there wasn’t anything there to notice in the first place. The same is true for checks involving powers like Mind Reading or Precognition, and certain interaction checks, since the player doesn’t necessarily know the target’s initial attitude or exactly how much it has improved.",
+										"One easy way of making secret checks is to make a list of random d20 rolls in advance. When there’s a need for a secret check during the game, mark off one of the rolls from your list and use that for the check result."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Altering the Outcome of Die Rolls",
+									"entries": [
+										"On occasion the outcome of a particular die roll may seriously impact the game. For example, the heroes are walking into a trap and none of them make the necessary check to notice the danger in time. Or a hero gets in a lucky shot and the villain rolls a 1 on his Toughness check, resulting in a quick defeat. What do you do?",
+										"In some cases, you can just go with the outcome the dice give you. If none of the heroes spot the trap, have it go off. Odds are the heroes only end up captured and will have the opportunity to escape and thwart the villain later in the adventure anyway. Even if the results of the die roll are unexpected, so long as they don’t spoil the fun of the adventure, feel free to go with them. Unexpected twists and turns are part of the fun of an RPG, not only for the players, but also for you when you run the game.",
+										"On the other hand, some die rolls result in anticlimactic or just plain dumb outcomes. In these cases, feel free to change things to make the outcome more interesting or more in line with how the game should go. In the above example, you might decide the villain is only dazed or stunned rather than being knocked out, momentarily giving the heroes the upper hand, but not ending the climactic encounter prematurely.",
+										"Isn’t this cheating? Well, yes, in a manner of speaking it is, but it’s “cheating” in order to make the game more interesting and fun for everyone involved. So long as you don’t alter the outcome of die rolls unfairly or maliciously and you do it to help ensure the game is fun, interesting, and challenging, you shouldn’t have a problem. Besides, the complication system of the game provides you with the perfect excuse to “cheat” to help out the heroes’ adversaries from time to time, and to compensate the players in the process by awarding them Victory points, which they, in turn, can use to “cheat” the fickle die from time to time and ensure their heroes succeed."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "“TELL ME HOW IT HAPPENS…”",
+									"entries": [
+										"While the game rules provide general outcomes for character actions, in terms of relative success or failure, what the rules do not provide is the “flavor” of those actions, the descriptions and visuals of exactly how they happen. Those details are left up to you and your players to devise as part of your story.",
+										"Therefore a good habit to get into as a Gamemaster is asking your players to not only tell you the outcomes of their die rolls and tests, but to embellish and describe them in as much detail as they wish. For example, you inform a player: “You hit your foe hard enough to daze him.” Follow it up with: “What happens?”",
+										"The player might say, “I follow a couple quick jabs with a powerful uppercut that sends him stumbling back against the railing of the catwalk, then I press my advantage, so we’re both struggling up against it, high above the factory floor.” Alternately, the player might say, “He stumbles back a few steps and I take the opportunity to draw a concealed bolo from my utility belt, which I’m going to use to tie him up next turn.” Same game system outcome, very different descriptions.",
+										"Likewise, encourage players to embellish on their heroes’ failures; part of the fun of the game is for the heroes to deal with setbacks and challenges, and the players will often provide you with ideas in their descriptions. Maybe a hero’s near miss damages some part of the scenery, or endangers innocent bystanders. Perhaps a failed skill check shakes the hero’s confidence and brings up dramatic unresolved issues (a prime roleplaying opportunity).",
+										"Get your players involved in telling you how things happen for their heroes and you further involve them in the story and world of the game."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Faking it",
+									"entries": [
+										"Sometimes you’ll run into a situation the game rules don’t cover, or that you’re not sure how to handle. In these cases, feel free to just fake it. Come up with a check you feel suits the situation and go with it, so you can keep the game moving rather than getting bogged down in rules arguments. One of the great things about the system is pretty much everything can be resolved with a simple check. So when all else fails, just have a player make a check with the most appropriate trait (ability, skill, or power). If the check beats your estimation of the difficulty Class, it’s a success. Otherwise, it’s a failure.",
+										"You also can fake it when dealing with certain trivial situations in the game. If there’s an important piece of information you want the players to know, don’t bother seeing if they succeed at a Perception check. You can pretend to make the checks, then ignore the results and tell the players what their heroes find. Likewise, if a power level 10 hero is going to take out a PL 3 thug, you don’t have to make all the rolls. Just ask the player to describe how the hero defeats the hapless thug. It’s pretty much going to happen anyway, and there’s no reason why the hero shouldn’t look cool doing it."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Essentials of the Game",
+							"entries": [
+								"The essence of the this game system is actually quite simple. The vast majority of the rules expand upon the core mechanics of the system, providing special-case rules or situational modifiers. So long as you understand the essentials of the game, you can handle just about any situation that comes up.",
+								"Those interested in playing in a looser and more casual style should focus on these fundamentals and not worry about the special-case rules or more detailed guidelines. If you come up with an unexpected situation, just choose an appropriate type of check, a Difficulty Class, and make a roll to see if the character succeeds or not! It’s that simple.",
+								{
+									"type": "entries",
+									"name": "Rank",
+									"entries": [
+										"Every trait in this game —abilities, skills, powers, and so forth—has an associated rank, a value telling you how strong (or weak) that trait is. Ranks run from –5 (very weak) all the way up to 20 (incredibly strong) or more. You can rate virtually any trait by its rank. With the correspondence of rank and measure, you can rate virtually anything—distance, weight, time, and so forth—by rank."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Difficulty Class",
+									"entries": [
+										"Every task—from making an attack to avoiding harm to figuring out a gadget—has a Difficulty Class or DC, a value that tells you how hard that task is to perform. DCs range from 0 (automatic, so easy it’s not worth rolling) to 40 (nearly impossible)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Checks",
+									"entries": [
+										"Actions are all resolved through checks, a roll of a 20-sided die, plus a modifier. If the total of the check equals or exceeds the Difficulty Class, the action is a success. If it doesn’t, then it’s a failure."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Condition Modifiers",
+									"entries": [
+										"Beneficial conditions apply a +2 bonus on the check (+5 for very highly beneficial), adverse conditions impose a –2 penalty (–5 for highly adverse). This is true whether you’re trying to use a skill, make an attack, use a power, or what have you."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance Checks",
+									"entries": [
+										"Avoiding an effect is a resistance check, with a Difficulty Class of 10 + the effect’s modifier or rank. A successful resistance means you avoid the effect, a failed check means you suffer some (or all) of the effect."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "That’s it!",
+									"entries": [
+										"That’s the core of the game: roll d20 + rank and modifiers vs. a Difficulty Class. If you understand that, you can do pretty much anything in the game. The rest is just detail. When in doubt, or whenever you want to speed the game along, just have a player make a check of the appropriate trait rank against a DC based on how difficult the task is and you can’t really go wrong."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Maintaining Game Balance",
+							"entries": [
+								"Part of the Gamemaster’s job is to make sure the game is fair and balanced, so everyone can have a good time and all the heroes have an equal chance of doing somefun and exciting things in the course of the adventure. It can be tricky sometimes, but this game gives you tools for balancing the traits of the heroes against different challenges and handling problems that may come up.",
+								{
+									"type": "entries",
+									"name": "Rules Issues & House Rules",
+									"entries": [
+										"While this game presents a fairly complete and balanced game system for superhero roleplaying, no one game system is perfectly suited to every gaming group’s needs and tastes, and this one is no exception. Sooner or later, issues may arise over particular rules and how they are applied in your game. In some cases, it may be an unexpected situation not covered by the existing rules, requiring you to extrapolate and come up with a ruling. In other situations, a particular rule may be problematic, making the game less fun because it doesn’t suit your personal tastes or style of play.",
+										"In all situations, remember: If a rule doesn’t suit your gaming group, then by all means, change it! A corollary of this is: The Gamemaster overrules the rules. That is, if you decide to make up a particular “house rule” about how something works in your game, or to interpret something from the Hero’s Handbook in a particular way, then that’s the way it works in your game. Players should be respectful of the Gamemaster’s job to set up and regulate the rules of the game for everyone’s enjoyment. Any disputes should be discussed with an eye toward finding a solution everyone finds satisfactory, rather than trying to stick to the exact letter of the “rules as written.” The spirit of any game is to have fun. As long as you focus on that, you can’t be far off."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Unbalanced Heroes",
+									"entries": [
+										"The power level guidelines built into the rules help ensure characters of the same power level are at least in the same ballpark in terms of overall effectiveness. Still, there may be times when a particular combination of abilities and effects makes a character too powerful compared to the other heroes or to the villains in your series.",
+										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone as-is and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Saying No to Your Players",
+									"entries": [
+										"A big part of maintaining game balance is the ability to say “no” to your players, setting guidelines for characters and sticking to them. Some of those guidelines are already in place: the limits imposed by power level. They help ensure players can’t just put all their Character points into a single overwhelming combat trait (like a +50 attack bonus, or something similar).",
+										"Even with those limits in place, however, there may be times when a player comes up with a character concept or trait that just isn’t suited for the game and can be unbalancing. For example, it can be hard to run mysteries around a hero with a lot of ranks of Mind Reading. If you plan to have mystery stories, you may want to consider limiting Mind Reading, Postcognition, and similar effects, or finding innovative ways for villains to get around them. If you’re running a four-color game where going for the kill is rare and a player wants to run a blood-thirsty vigilante hero, you may just have to say no and ask the player to come up with another idea.",
+										"Note that the GM has the authority to say “no” to a particular power effect or other trait, even if it is perfectly “legal” in terms of the game rules and the power level of the series. It’s virtually impossible to present a “one-size-fits-all” system of game balancing characters as diverse as comic book heroes without heavily limiting potential concepts, so the game goes the route of presenting a wide range of available power effects (omitting some real game-breakers). The GM can—and should—choose to limit others on a case-by-case basis, as best suits the needs of the game.",
+										"Having standards for your series and sticking to them can save you a lot of trouble in the long run by heading off problems before they happen."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Saying Yes to Your Players",
+									"entries": [
+										"Many roleplaying games (even this one) spend a lot of space telling you how to say “no” to your players: how to tell them a power they want is unbalanced, how to tell them the character they have in mind doesn’t fit into the group, and so forth. Some might get the idea that it’s the Gamemaster’s job just to say “no” and frustrate the players. Nothing could be further from the truth! True, sometimes you must be firm and say “no” to something for the betterment of the game and to safeguard everyone’s enjoyment, but a Gamemaster who also learns to say “yes” to the players can ensure everyone has fun.",
+										"Players are a cunning lot, so it’s a virtual certainty that, sooner or later, they will come up with something for their heroes to do that’s not covered in the rules. It may be a particularly innovative maneuver, a new use for a skill or power, using the environment to their advantage in some way, or something you never would have considered before. When this happens, take a moment and ask yourself: “Would it be fun if what the player is proposing happened?” A good way to think about it is, if you saw something similar in a comic book or a superhero cartoon or movie, would it be good? If the answer is “yes” then you probably should let the player at least try it.",
+										"Gamemasters have three major tools to help them say “yes” to their players:",
+										{
+											"type": "list",
+											"items": [
+												"{@b Modifiers}: Remember the GM’s rule of thumb: if something generally aids or makes a task easier for a character, it’s worth a +2 bonus. If it makes the task harder or hinders the character, it’s worth a –2 penalty, +/–5 for major benefits or penalties. This allows you to assign modifiers for almost any situation on the fly, without having to look things up and slow down the game while puzzling out all the pluses and minuses.",
+												"{@b Extra Effort}: When players want their characters to pull off something outlandish, rather than saying “no” let them try but make them pay for it by counting it as extra effort (see Extra Effort). Extra effort already allows players to pull off all kinds of stunts, so there’s no reason you can’t expand the list. This works particularly well with innovative uses of powers. Since extra effort allows a character to perform power stunts, it can cover a lot of ground.",
+												"{@b Victory points}: Like extra effort, Victory points allow characters to pull off amazing stunts. If a player wants to do something that isn’t normally a part of the character’s abilities, require a Victory point to make the attempt. The Victory point doesn’t do anything but let the character try something outlandish, and players won’t be able to pull off such stunts all the time because they have a limited number of Victory points to spend. Still, it allows for those amazing, one-of-a-kind stunts that happen in the comic books."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Making Mistakes",
+									"entries": [
+										"Even Gamemasters are only human. Sooner or later, you’ll make a mistake, whether it’s forgetting a particular rule or overlooking something about a character or an element of the story. Don’t worry, it happens, and it doesn’t mean your game is ruined!",
+										"The best way to handle a mistake is to own up to it. Tell your players you screwed up and need to make a change in order to keep the game fair, and fun. For example, if you allow a new power into the game and it turns out it’s way more powerful and useful than you thought, and it’s ruining everyone else’s fun, that’s a problem. Tell your players you made a mistake letting that power into the game in the first place and you have to change the way it works in order to make the game fun and fair for everyone.",
+										"Be reasonable and straightforward in handling your mistakes and your players are much more likely to be cooperative and understanding about them when they (inevitably) happen."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lost in Translation",
+							"entries": [
+								"Some staples of the comic books, while enjoyable in the stories themselves, don’t always translate well to the medium of roleplaying games. You might want to take these “translation issues” into account when planning your adventures.",
+								{
+									"type": "entries",
+									"name": "Defeat and Capture",
+									"entries": [
+										"Heroes in the comics are frequently defeated early on in a story. The typical structure is: the heroes encounter the villain, suffer a defeat or reversal, and then come back from defeat to overcome the villain. In longer stories there may be several reversals: the villain beats the heroes and escapes, then beats the heroes and puts them in a death-trap, which they must escape to make their final confrontation with the bad guy.",
+										"This game encourages this kind of narrative structure by awarding Victory points for defeats, capture, and similar complications suffered by the heroes. Essentially, the more the heroes struggle early on in the game, the more resources (in this case, Victory points) they have to overcome the villain later.",
+										"Defeat in the comics isn’t a serious problem, since it usually just results in the heroes facing another obstacle, like a deathtrap, rather than ending the story. Some players, however, don’t care for the idea of defeat, even when there is some kind of reward for it. This may come from other RPGs, where defeat has much more serious consequences, up to and including the death of the heroes! It can also come from associating any kind of defeat or set-back with “losing the game.” These players may overreact to potential defeats in the game.",
+										"The best way of handling this is to discuss it with your players. Point out that an early defeat by the villain is not necessarily a “loss,” but a complication, and that they earn Victory points for complications, leading up to the point where they can use their earned points against the villain. If this doesn’t address the issue, you may need to give the heroes complications other than defeats, at least at first. When you do have the heroes defeated as a complication, make sure the players all know that there is no chance for their heroes to avoid this once you spring it on them, to minimize the opportunity for them to struggle and rail hopelessly against it."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Going for the Kill",
+									"entries": [
+										"The Damage effect makes it relatively difficult to kill someone outright; the target has to first be incapacitated, then further damage causes them to become dying and potentially die. If you want to up the level of lethality in your game, you can apply some or all of the following options:",
+										{
+											"type": "list",
+											"items": [
+												"Allow attackers to “go for the kill” when they attack. In this case, incapacitating the target also results in their condition becoming dying.",
+												"Use minion characters and have a “taken out” result against them equal the minion being killed rather than simply incapacitated.",
+												"Have certain kinds of attacks—such as guns, fire, or lasers—always count as “going for the kill” when they are used.",
+												"Add dying to the third degree conditions an Affliction effect may impose.",
+												"Have four or more degrees of failure on a resistance check against Damage (and Afflictions that cause the dying condition) result in immediate death. This is a particularly harsh option to impose, but heroes still gain the benefit of Victory points to help them avoid this fate.",
+												"Make conditions suffered from a killing attack slower to recover: one condition per hour or even per day. This emphasizes their seriousness. Also see Lasting Injuries sidebar."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Escaping Villains",
+									"entries": [
+										"Often, in the comics, the villain gets away. Usually it is during the initial encounters of a story: the heroes run into the villain, who escapes for the next encounter. In the comic books, it’s easy for a writer to engineer the villain’s escape. In a game, you may have to contend with players unwilling to let the villain go, so long as there’s any chance of snatching victory from the jaws of defeat. These players will try anything and everything before they give up, which can cause problems for the story and spoil the game for others. The main ways of dealing with this issue are: providing the villain with an effective escape plan, and proper application of Victory point awards, when those plans go into effect."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Guest Heroes",
+									"entries": [
+										"Comic books sometimes have “guest stars” in them and some guest heroes are more popular than the main characters! In an RPG, however, the “guest stars” means “non-player characters run by the GM,” so it’s not a good idea to let them dominate the action. This just makes the players feel upstaged and superfluous.",
+										"That’s not to say you can’t have guest heroes show up in your adventures. The trick is to make sure they don’t upstage the heroes. The only exception is when you want the players to dislike the “guests” as much as possible! For example, if you have a story wherein mind-controlled heroes try to upstage the player characters, then go right ahead and have the NPCs steal their thunder. You can be sure the players won’t like them one bit!",
+										"The rest of the time, it’s best if guest heroes play supporting roles. Have them be the ones defeated and captured by the villains, for example, and allow the player characters to rescue them (also dealing with the issue of captures, previously). Have NPCs come to the heroes for aid or advice. Retiring heroes can pass the torch to a younger generation, while younger, less experienced heroes can look to the player characters for inspiration and guidance.",
+										"Another option is to allow the players to run the guest stars instead of, or in addition to, their regular characters. As long as you’re not upstaging the players, it’s okay to allow them to upstage their own characters! For example, you can allow the players to run members of another hero team, meeting their regular characters as NPCs, or you can have two teams band together, mixing and matching characters from each and having each player run a regular hero and a guest hero. This can be a great way to include various heroes as guest characters in your games."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lethality",
+									"entries": [
+										"Comics have different levels of lethality and character death. It’s important to make the expectations of your series clear to the players, just so there’s no misunderstanding. A hero who refuses to kill under any circumstances might be an interesting oddity in a dark and gritty series full of militaristic super-agents, but a cold-blooded vigilante in a four-color world of merciful, law-abiding heroes can quickly become a problem (especially when the heroes feel honor-bound to see their “teammate” answer for his crimes). So it’s best to be sure everyone is on the same page to avoid unnecessary disagreements."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Loner Heroes",
+									"entries": [
+										"Another common element in the comics is the loner character: dressed in black, often trained in stealth, and preferring to work alone. That’s all well and good in a solo story, but difficult to include in a team of superheroes. You can get away with a loner who is a reluctant team member incharacter with players who understand and play along with the bit. Far worse is a team of loners, none of whom get along! You can accommodate some loner characters by giving them opportunities to show off their skills and requiring a minimum level of cooperation and willingness to work within the team. You’re better off discouraging entire groups of loners right from the beginning, since odds are they won’t work together for very long."
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Creating Adventures",
 					"entries": [
-						""
+						"Creating a game is a fairly simple process. First, define the threat around which the adventure revolves. Then sketch out the overall plot, and describe the encounters the heroes are likely to have during the adventure. You’ll also want to make sure you have statistics and character sheets for important supporting characters and villains. Present the players with the start of the adventure and you’re off and running. Will things go exactly the way you planned? Probably not, but that’s part of the fun and challenge of being a Gamemaster!",
+						{
+							"type": "entries",
+							"name": "Before you Begin",
+							"entries": [
+								"There are a number of things to consider when you begin planning an adventure, including the plot threads from previous adventures, complications, and the themes and events of past adventures.",
+								{
+									"type": "entries",
+									"name": "Fabulous First Issues",
+									"entries": [
+										"If this is your first adventure, you need to consider a few things, including how to get the heroes together as a team. They may already be a team when the adventure begins—especially if your players are using established heroes—or circumstances in the adventure might bring them together.",
+										"The key things for a first adventure are to introduce the players to the setting and the major supporting characters. So the first adventure should be typical of the sort of adventures you plan to run. Give the players a feel for how things work in the world so they can get into character and into the setting. So, for example, if you’re running a four-color game where character death is a rarity, it’s probably not a good idea to make the first villain a murderous madman who kills with impunity. Likewise, if you’re aiming for a gritty paramilitary style game, you probably don’t want your first adventure to be filled with wacky humor and Silver Age puns.",
+										"If this is your first adventure, you should also decide if the heroes are already together as a team or if they will have the opportunity to form a team during the adventure. Both approaches have their good points. Starting things with the team already assembled allows you to skip some exposition and get right into the action. It also avoids the problem of the heroes not getting together, which can happen. Allowing the players to roleplay the formation of the team, on the other hand, can be fun, and lets the players better define the nature of their team."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "When Last We Left Our Heroes...",
+									"entries": [
+										"If the adventure is not the first in your series, then the first thing to do is look over your last few adventures. Are there any dangling plot threads left over from those stories, ones the players might be interested in following?",
+										"Sometimes these dangling threads are placed deliberately, to give the players things to wonder about and look forward to in future adventures. In other cases, they crop up because certain things just didn’t get resolved in a previous adventure, and players might be wondering when (and if) they will be. As a general rule, try and leave a few plot threads open at any given time. They don’t always have to be the same ones. You can wrap up certain plots while opening up new ones to keep the series moving and maintain player interest. In fact, it’s best if you occasionally tie up existing plot threads before starting new ones, providing some closure and keeping things from getting stale."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Change of Pace",
+									"entries": [
+										"When you start creating an adventure, look over your notes from your last few adventures (if you’ve had a last few). Take a look at any trends in the adventures’ threats, villains, and so forth and decide if you need a change of pace. Running the same sort of adventure time after time can make your game predictable and dull. Sometimes you need to shake things up a bit and give the players something new to sink their teeth into.",
+										"Have your last few adventures all been crime-fighting? How about sending the heroes to another planet or dimension for an adventure or two? After a few adventures of fighting off an alien invasion, give the heroes a vacation on a tropical island where there’s a sinister cult, or to a mountain ski lodge menaced by a yeti. Try an adventure where the heroes are in their secret identities the whole time, or without their powers. Maybe an accident causes the heroes minds to switch bodies, or gives them different powers. The possibilities are endless. Just make sure your “change of pace” adventures are really a change of pace and not just random wackiness (unless that’s what your game is all about)."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Defining the Threat",
+							"entries": [
+								"Adventures usually focus on a particular threat or challenge. It might be anything from an alien invasion to a supervillain looking to conquer the world to something as simple as the heroes cracking down on a crime wave in the city or attending a parade in their honor. When the threat presents itself, the heroes must figure out how to overcome it.",
+								"Supervillains’ schemes are the forces that drive a series, since the main job of superheroes is stopping the villains from getting their way. Without these evil plots, there would be very little for heroes to do, apart from deal with petty crimes and natural disasters. So choosing a scheme is typically one of the first steps in creating a successful game.",
+								"If you need further ideas for possible threats, look no further than your local comic shop (or your own back-issue boxes) filled with inspirational comic books. You also can get ideas from television, movies, and even the news and major world events."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Outlining the Plot",
+							"entries": [
+								"Once you have an idea for a threat in mind, give some thought to how it will manifest. Outline a series of events that will take place. This gives you the overall plot of your adventure, a sort of roadmap you can follow while you’re running the game to know what is likely to happen next.",
+								"For example, you decide the threat in your adventure involves the crew of an alien ship stranded on Earth. Unable to speak any Earth languages and mistrustful of humans, the aliens need to acquire some advanced technology to repair their ship. They begin to track down and steal the things they need, using their own advanced technology and alien powers to overcome security and the conventional authorities. After they’ve made four thefts, they make the repairs to their ship and leave for home, smugly satisfied that humanity was no match for them.",
+								"Now, that’s what would happen if the heroes weren’t around. Odds are the players aren’t going to just allow the aliens to get away with their crimes. Perhaps the heroes are called in after the first robbery to begin an investigation, or maybe they are called in during the first robbery, giving them a chance to encounter the aliens and learn something about them (and probably fight them). The heroes can then begin investigating, trying to piece together who the aliens are, what they want, and what they’ll do next. They might figure things out and set a trap at one of the potential targets. They might try to track the aliens back to their hidden ship, or capture one of them for interrogation. The aliens may come back for a captured crewmember, and so forth. Exactly how things end up depends on what the players choose to do.",
+								"Try to focus your plot on the actions of the antagonists, letting the heroes react to things as they happen. It’s hard to base the plot on what the heroes will do because you don’t always know what that is. By focusing on the villains’ actions, you give the heroes the freedom to do whatever they want in response, and you can then change the villains’ plans accordingly."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Encounters",
+							"entries": [
+								"Your plot outline gives you a number of potential encounters the heroes may have during the adventure. An encounter is a single challenge, interaction, or activity, such as a fight with the villain, the investigation of a crime scene, a chase through the city, and so forth. Using your outline, you can get a good idea of the possible encounters during your adventure. In the previous example, the heroes may have encounters with the aliens at any of their four robbery sites. They also may investigate those sites and encounter the aliens at the crash site of their ship.",
+								"Outline the possible encounters and take note of the important details in each one. For example, if the heroes encounter the aliens during one of their robberies, you’ll want to know where the robbery takes place, what the place looks like, what time of day it is, and if anything in the environment could affect the outcome of the encounter. If the aliens steal radioactive isotopes from a nuclear power plant, a fight might risk damaging the reactor, causing a meltdown (a possible complication). That’s a different encounter than if the aliens steal parts from a high-tech robotics factory, where the fight could involve a robot assembly line (which offers the characters big, heavy things to chuck at each other).",
+								"The typical arrangement of encounters in the classic comic book story is: the heroes are alerted to the threat. They take action, but suffer a setback. They try to deal with the threat, facing various challenges along the way. Eventually, they overcome these challenges, face the threat directly, and overcome it. The difficulty and number of challenges in the middle determines how long the story is, from a single quick game session to an entire series (with each challenge in the middle being an entire adventure of its own).",
+								"The early encounters serve a few purposes. First, they introduce the players to the threat and allow them to find out more about it. If it’s a new villain, for example, the heroes learn the villain’s name, powers, agenda, and so forth. If it’s an existing villain, they find out the villain’s current plan (and perhaps how the villain escaped from prison or survived certain death from a previous story). If it’s a disaster, they see the first signs and get expert advice on what’s likely to happen, and so forth.",
+								"Initial encounters also provide opportunities for the heroes to earn Victory points. This means the early encounters in the adventure don’t have to go well for the heroes. In fact, it’s better for them in the long run if they don’t go well. The more setbacks the heroes face early on, the more Victory points they earn for use later in the adventure. In the classic comics story, the heroes encounter the threat and suffer a defeat of some sort. The villain may get away, their powers may prove inadequate to deal with the problem, their plan may not work, and so forth. The heroes then regroup, come up with a new plan, and try again.",
+								"Of course, not every encounter has to end in defeat for the heroes, otherwise the players may get frustrated. Keep in mind you can also put the heroes up against minions and minor challenges for them to overcome on the way to the big finale. You can award Victory points for complications, too, to give the players a sense of accomplishment along the way so their problems don’t seem quite as bad."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Grand Finale",
+							"entries": [
+								"Then there’s the big finish to the adventure, the grand finale. This is when the heroes confront the major threat of the adventure and have a real chance to deal with it. It may be a final showdown with the big villain, stopping the villain’s plans at the last moment, averting disaster, or confronting an alien invasion fleet on the edge of space. Whatever the case, it’s when events in the adventure come to a climax and it’s time for the heroes to step up and save the day.",
+								"The finale is the big payoff of the adventure, what the players have been working towards, so you need to make it as exciting and fun as possible. That means the finale should be challenging; encouraging the players to spend all those Victory points they’ve racked up during the adventure (remember, they can’t save them and spend them later!). On the other hand, the finale shouldn’t be so tough the heroes can’t win, or the adventure just ends in frustration. It’s best if things end in a decisive win for the heroes, although sometimes their victory may be a pyrrhic one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Wrap-up",
+							"entries": [
+								"The wrap-up or epilogue is where you finish up anything after the climax of the adventure. It’s where the heroes haul the villains off to jail, find out any remaining information, resolve the adventure’s mysteries, and so forth. There may still be some dangling threads left over at the end of the adventure (see When Last We Left Our Heroes..., previously) but generally things should be tied up and resolved by the end.",
+								"You can play out the wrap-up, allowing the players to describe what their heroes are doing, or just sum things up for them. For example, “After you capture Fallout and shut down the runaway reactor, the authorities move in to take the supervillain into custody and repair the damage to the nuclear plant. The city is safe once again.”"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Awards",
+							"entries": [
+								"While adventure and action might be a hero’s sole reward, RPG players prefer something a bit more tangible they can use to “keep score.” Even if there are no winners or losers in an RPG per se, there are still ways to reward good game play and provide players with encouragement to keep on playing your game.",
+								{
+									"type": "entries",
+									"name": "Awarding Victory Points",
+									"entries": [
+										"Part of the Gamemaster’s job is handing out Victory points to the players, which influences the flow of the adventure and helps the heroes accomplish important tasks later on. Essentially, you decide how easy or difficult a time the heroes have by how many Victory points you hand out, and by how many complications you make them face to earn those points. The key difference is the players decide when and how they spend their Victory points. So you’re not necessarily handing them an easy win, you’re just giving them resources they can use to potentially overcome challenges in the adventure.",
+										"As GM, you have discretionary power over Victory points. How often opportunities to earn Victory points crop up is up to you. Giving out more encourages players to spend them and makes for a more action-oriented and heroic game. Handing out fewer Victory points encourages players to save them until they really need them, most likely for the climactic encounter of the adventure.",
+										"A good guideline for awarding Victory points is at least one Victory point per scene in the adventure leading up to the final scene. For more difficult adventures, you can award more Victory points by bringing more complications into play. You should usually try to give the heroes’ complications “equal time” in the adventure (or, if not in that one adventure, over the course of two or three adventures) so they have the same “earning potential” in terms of Victory points."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Awarding Character Points",
+									"entries": [
+										"The Gamemaster awards heroes Character points over the course of a series. This represents the experience and confidence the heroes have gained, along with other factors contributing to an increase in their abilities, skills, and powers.",
+										"Generally, heroes each receive 1 Character point for a successfully completed adventure, lasting for one game session. If the heroes overcame especially powerful foes or difficult challenges, the GM can increase the Character point award to 2 points. For adventures lasting more than one game session, the heroes should get 1 additional Character point per session, plus a possible bonus of 1 or 2 Character points at the very end if they did particularly well.",
+										"Gamemasters may vary this rate of advancement by awarding more Character points per adventure, allowing heroes to increase in power faster, which may suit certain styles of game play. The Gamemaster also may choose not to award a Character point for an adventure in which the heroes did especially poorly, such as failing to defeat a villain’s major scheme or allowing many innocent people to suffer harm they could have prevented.",
+										"Players spend their heroes’ awarded Character points between adventures to improve the heroes’ traits, limited only by the series power level. They also can choose to save up unspent Character points, waiting until the series power level increases, in order to spend them to improve a trait already at its maximum rank."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Increasing Power Level",
+									"entries": [
+										"As heroes earn Character points through adventuring and spend them to improve their traits, they will eventually run into the limits imposed by the series power level (see Power Level). For a while, this can be a good thing, since the power level limits encourage players to diversify their heroes: acquiring new skills, advantages, and powers rather than simply pumping points into their existing traits to increase them to higher and higher ranks. However, sooner or later, you’re going to want to raise the series power level, giving heroes a bit more room for advancement and spending their earned Character points.",
+										"A good guideline is to follow the starting Character point totals when it comes to power level: When the heroes accumulate an additional 15 Character points from the start of the series or the last time the power level was raised, it’s probably time to consider raising the power level by one. So a power level 10 series starts out with 150-point heroes. When they have earned another 15 Character points (bringing their total up to 165), the GM should consider raising the series power level to 11, allowing the heroes to spend some of those points to increase traits currently at the maximum limit.",
+										"When you increase the series power level, you should also reevaluate the capabilities of the villains and other challenges the heroes face. While NPCs don’t “earn” Character points, and aren’t even subject to the same power level limits as the heroes, you should feel free to improve the traits of non-player characters in the series to keep pace with the heroes, ensuring those antagonists remain a suitable challenge. It’s also fine to have others lag behind, as the heroes outstrip some of their old foes, who no longer represent the kind of threat they did before, plus you can always introduce new villains and challenges suited to the series power level as things progress.",
+										"As the series progresses, you may want to slow the rate of increasing power level, stretching it out to even 20, 30, or more earned Character points. This allows opportunities for the players to further widen and deepen their heroes’ traits rather than focusing on a direct “upward” path of improvement. You may even choose to stop raising power level past a certain point. Some very experienced heroes may be as high as PL15, but have Character point totals well in excess of the recommended starting amount for that level. They’re good examples of how heroes can develop in a series where the power level has become “fixed” but the GM still provides Character point awards for advancement."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Rewards",
+							"entries": [
+								"Although good deeds are their own reward, heroes do sometimes receive other rewards in addition to Character points. The Gamemaster should feel free to award any of the following to heroes according to the outcome of the adventure and the needs of the series.",
+								{
+									"type": "entries",
+									"name": "Wealth",
+									"entries": [
+										"There may be rewards for the capture of certain wanted super-criminals and grateful governments or corporations might choose to reward helpful heroes financially. Heroes often use these rewards to help fund their own efforts (paying for their equipment, headquarters, etc.) or else donate it to charity. Other heroes are more mercenary and may even require a paying client before they’ll use their powers to help anyone! Altruistic heroes tend to look down on such opportunists, but the mercenaries counter that they’re risking their lives, why shouldn’t they be compensated for it?",
+										"Sometimes the monetary rewards of heroism come in the form of ongoing support from a wealthy patron, trust fund, corporation, or government agency. They can all offer financial backing to a hero or team of heroes and provide them with the resources they need.",
+										"Heroes who come into a sudden windfall can invest some earned Character points acquiring the Benefit advantage to represent their increased wealth. Otherwise the GM can simply award the heroes with an appropriate amount of money or access to a wealthy patron (although that access may come with some strings attached—potential future complications)."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Equipment",
+									"entries": [
+										"Heroes who overcome a supervillain may be able to keep some of the villain’s equipment. The authorities may want to impound super-devices as evidence or to have them examined by “top men,” but they may allow heroes to keep them in some cases (particularly if the heroes don’t tell anyone about them…).",
+										"Generally any device a player intends to become a regular part of a hero’s abilities should be paid for using earned Character points. The GM may require the hero to have enough Character points set aside for the device or that all of the hero’s future earned Character points go toward “paying off” the device’s cost. One-time use of a captured device may be allowed by having the player spend a Victory point, similar to a power stunt or invention.",
+										"Heroes also may receive equipment from grateful inventors, businesses, or the government, much like monetary rewards. A patron could provide a team of heroes with a headquarters, vehicles, and other equipment. Again, the GM decides what things require Character point expenditure and which are free—at least in terms of point cost."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Fame",
+									"entries": [
+										"Once you’ve saved the world a few times, people start to remember your name. Superheroes often become famous and Gamemasters can reward the heroes with increased fame and popularity. As the heroes become better known for their heroism and good deeds, the authorities become more cooperative, people start recognizing them everywhere, and fan mail starts arriving by the truckload.",
+										"Of course, fame has its drawbacks, which include persistent fans, greater public scrutiny, and things like constant offers for product endorsements and such. Famous heroes are more likely to be targeted by supervillains looking to make a name for themselves or novice heroes wanting to join an established team. While the heroes are most trusted by the authorities, they’re also more likely to be called upon in times of need.",
+										"On the other hand, heroes may also become infamous for their deeds, particularly if they’re known to be ruthless or mercenary. Infamy may dog heroes with bad publicity, whether or not they’re actually guilty of anything. After enough “Threat or Menace?” editorials, people start to wonder if the hero really is a good guy. Reversals in reputation and sudden infamy make for good complications."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Honors",
+									"entries": [
+										"In addition to fame and fortune, heroes may receive the gratitude of the people they help. They get awards from civic groups and organizations like the police and fire departments. The mayor gives them the key to the city or arranges for a parade in their honor (or both). The governor or President honors them on national television. Monuments may be erected in their honor and charitable institutions founded or dedicated in their names. A hero team’s trophy room can contain various plaques, medals, and other accolades right alongside captured criminal memorabilia.",
+										"An awards ceremony makes a good ending to an adventure or, perhaps, the beginning of one. After all, what villain can resist so public a target as a hated enemy receiving an award? And so you’re off creating your next adventure!"
+									]
+								}
+							]
+						}
 					]
 				},
 				{
 					"type": "section",
 					"name": "Creating a Series",
 					"entries": [
-						""
-					]
-				},
-				{
-					"type": "section",
-					"name": "Supporting Characters",
-					"entries": [
-						""
+						"Run a few games and, before you know, you will have an ongoing series, just like a comic series created by you and your players! While you can simply create and run adventures, it is often helpful to have a map of roughly where your series is going, much like the outline of an adventure’s various encounters. This section looks at creating your own series and, in effect, your very own universe! The primary elements of your series to consider are its scale, setting, and style.",
+						{
+							"type": "entries",
+							"name": "Scale",
+							"entries": [
+								"First, consider the scale of your series: will it focus primarily on adventures taking place in and around a single city, or will the heroes travel all around the region or the world? Will they deal more with local crime or global threats? Does the series even go beyond the boundaries of Earth, to distant solar systems, the far future, or parallel dimensions? The potential scale of a series tends to break down like this:",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Local",
+											"entries": [
+												"Limited to a large city like New York City or Seattle, or a particular region, like a state or small nation. Local heroes tend to focus on local issues and problems, leaving the “big picture” stuff to those better able to handle it. Some heroes particularly pride themselves on being locals; after all, sometimes focusing on the big problems makes it easy to ignore the small ones."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Regional",
+											"entries": [
+												"The series primarily takes place in a large region or country, like the United States, Canada, or Europe. The heroes might be a national team, sponsored by the government, or a branch of an international one that already exists in your setting."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Global",
+											"entries": [
+												"The heroes travel around the world, tackling global problems and big challenges. They are likely among the most powerful and influential heroes and have comparable resources, allowing them to get to distant places quickly to respond to emergencies. The heroes have to deal with global geopolitics and they are typically the first line of defense against serious threats."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Universal",
+											"entries": [
+												"At this scale, Earth is just one small part of the vast universe, and the heroes regularly travel among the stars. This is the scale for cosmic heroes such as an interstellar police force, or for far-future teams that patrol a solar system and beyond, where it’s handling a natural disaster on one planet, quickly followed by an invasion of another world in a different star system. Some form of Space Travel (see Movement) is required at this scale."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Multiversal",
+											"entries": [
+												"Earth? Which Earth? A multiversal series spans diverse universes and dimensions, from parallel worlds to mystic realms and realities almost defying description. This sort of game requires the Gamemaster to define the game world or multiverse, but a good setting can result in a very memorable series. Some form of Dimensional Travel (see Movement) is required at this scale.",
+												"The smaller the scale, the more detail you can put into your series. It is easier for players to get to know one city or region especially well than it is for a series that takes them to a new planet or dimension every adventure.",
+												"Larger scale series, on the other hand, tend to be grander. There is a majesty to the vastness of space or an infinity of other realities that’s hard to match. Similarly, the wider scale opens up larger potential threats. You can destroy entire worlds at these levels to demonstrate what the heroes are up against, whereas such a threat would wipe out an entire smaller scale setting."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Setting",
+							"entries": [
+								"The setting is where and when the series takes place. Is it the modern-day, medieval times, the wild west, or the far future solar system? Each of the following settings has its positives and negatives, and each is suited to particular types of games.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Modern",
+											"entries": [
+												"Most of the time, a series is set in a version of our modern world. This approach is the easiest one by far, since there isn’t as much you have to make up. You don’t have to explain to your players where New York City is, for example.",
+												"If your game is set in the modern-day world, you may want to choose a particular city or area as the heroes’ home base. Even a truly global team needs some place to call home, such as an orbiting satellite or the top floors of a skyscraper.",
+												"A fun option can be to use your home city (or one nearby) as the setting for your series. It offers a familiar locale along with the fun of having superheroes and villains duke it out around your local landmarks!",
+												"Many comics and series feature heroes that live in fictional cities, places that don’t exist in the real world but are often remarkably similar to various real world cities. You can do something similar in your own series, perhaps based on the place where you live.",
+												"Of course, your modern setting is not necessarily the modern universe: with parallel Earths, yours could be like the real world, but with whatever changes you want."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Historical",
+											"entries": [
+												"The Golden Age of comics began in the 1930s and this game can easily be set any time in the past seventy-five years. Players can take the roles of “mystery men” and the first superheroes, fighting against gangsters and the forces of the Axis in World War II. They can be government agents or patriotic heroes during the Cold War with Russia, or counter-culture rebels during the 1960s.",
+												"But nothing says you can’t go farther back in history if you want. Comic books have told stories about heroes from nearly every time period. There’s World War I and the American Revolutionary War. The Wild West offers cowboy heroes, Native American shaman, and steam-tech weird science. Medieval heroes could face evil wizards, goblins, and monsters. You can go all the way back to the mythic ages of ancient Greece and Egypt with gods and heroes as potential characters, or even the chronicles of ancient Atlantis."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Futuristic",
+											"entries": [
+												"More than a few comic books speculate about the future. There are science fiction comics aplenty, along with super-hero stories set at different points in Earth’s future.",
+												"A near future setting may be quite similar to the modern-day, with the addition of some new technology and the new problems that come with it. For example there may be flying cars, cybernetic and genetic modifications, and advances in computer technology along with increases in crime and urban decay. Heroes can stalk the streets of dark, towering cities trying to protect the innocent where a corrupt legal system has failed.",
+												"Some future comic stories are set following a terrible catastrophe that has all but destroyed civilization. In a setting like this the heroes may be the last survivors of ordinary humanity, or super-powered mutants, trained super-soldiers (perhaps intended as weapons in the Last War), or even cyborgs or aliens. Their adventures tend to revolve around protecting pockets of civilization from marauding mutants and keeping ambitious warlords from conquering the world or destroying innocent people.",
+												"Far future settings feature faster-than-light space travel, allowing heroes to visit (or come from) any of dozens or even hundreds of different worlds. A team made up of heroes from these different worlds could band together to protect the interstellar government from hostile alien invaders while also dealing with disasters, space pirates, and criminal cartels. Or a group can explore the unknown reaches of space on board a starship, encountering would-be conquerors, despots, raiders, and other villains along the way."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Style",
+							"entries": [
+								"Just as comics themselves span the stylistic gamut from lighthearted adventure to intricately plotted, grim morality plays, so can a series vary in style. Once a style of play is established, it’s up to the GM to maintain it. That means creating adventures and encounters suited to that style and encouraging the players to get into the style’s mindset and run their characters accordingly. Styles run along a spectrum from light to dark:",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"name": "Light",
+											"entries": [
+												"The light style is simple and straightforward. The heroes are the good guys and the villains are usually bad through and through (with a few misunderstood souls in need of help). Problem solving is a matter of either combat or clever thinking, and roleplaying is an opportunity for players to deliver moralistic speeches and clever catchphrases or exchange witty banter with the villains and each other.",
+												"A light style is one where reality is largely what you make of it. Light stories tend to be full of fantastic characters and ideas. Heroes might face an alien invasion from another dimension one adventure and explore a lost world full of dinosaurs and cavemen the next. Realism isn’t as important as telling a fun and exciting story. On the other hand, the lighter comics were often inconsistent and sometimes veered off into the extremely fantastic or even silly. GMs may want to rein-in some of the wilder elements of the light style in their games. Or they may not."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Dark",
+											"entries": [
+												"The dark style presents opportunities for greater depth and realism. The dividing line between heroes and villains is blurred, and may be practically nonexistent. The players have greater responsibility for deciding their characters’ actions and may have a greater impact on the world. Heroes are often faced with intense moral dilemmas and conflicts, such as supporting a corrupt government that provides order and stability against the rebels who would bring it down, or going outside the law to deal with vile criminals the justice system can’t reach.",
+												"The dark style allows players considerable freedom, since the heroes could, and often do, use any means available to accomplish their goals. On the other hand, it’s often difficult to distinguish the heroes from the villains in this play style, since both use similar cynical or even bloodthirsty methods. The authorities are less likely to trust dark heroes, unless they happen to be working as a “black ops” or enforcement arm of a government agency. Even then there’s considerable distrust of anyone in a costume or displaying powers, since bystanders often take the brunt of conflict between the heroes and their opponents."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Grayscale",
+											"entries": [
+												"Finally, your game’s style may be somewhere in between the two extremes. You may go for a mostly light style with a slightly modern “edge” to it, a dark style that doesn’t get quite so grim but holds on to some light values, tempered with realism and an air of danger, or any other combo you can imagine. Comics have experimented with a lot of different styles over the years and you can draw upon any of them for your own series, or create your own unique style.",
+												"Whatever you choose, try to make the style of your series clear to the players so they know what to expect in advance and can create heroes suited to the game. A grim vigilante who kills opponents in cold blood may not be suited to a mostly light game. Likewise, a heroic “Boy Scout” may look ridiculous in a dark game of grim and gritty realism. If you feel a particular player’s concept isn’t suited for your game’s style, you’re better off telling the player in advance and asking for a different character than having trouble later on when it turns out the player isn’t enjoying the game."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Series Frameworks",
+							"entries": [
+								"The follow series frameworks provide the Gamemaster with some ideas and models for running a series in a variety of different styles, from high-powered heroes safeguarding the world to people with no powers but a lot of determination working to try and make their corner of the world a better place. Each framework has a summary of what the series is about, what sort of characters are suited to it, and some ideas to get you going.",
+								{
+									"type": "actionBlock",
+									"name": "Legacies",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Power Level}: 8–10",
+												"{@b Scale}: Local",
+												"{@b Setting}: Modern",
+												"{@b Style}: Grayscale"
+											]
+										},
+										"You’ve known each other all your lives, played together as kids, were always visiting each other’s homes with your parents, and had pretty good lives together. Now you’ve discovered each of you has… exceptional abilities and have decided, either independently, or as a group, to become heroes! Do you have what it takes to work as a team? What do you do when all of your parents disappear at the same time? How do you deal with learning they’re actually longtime heroes… or villains?"
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Home-front Heroes",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Power Level}: 7–9",
+												"{@b Scale}: Regional",
+												"{@b Setting}: Historical",
+												"{@b Style}: Light"
+											]
+										},
+										"America is threatened by the growing threat of the Axis powers. President Roosevelt sends a number of the well-known heroes across the globe to save American soldiers and perform special operations. Wisely, he also asks a number of rookie heroes to handle some important jobs, on the home-front and abroad, but also behind the scenes. Does your two-fisted hero have the guts to pass up the glory of answering the President’s call to serve a higher cause?"
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Answering the Call",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Power Level}: 10–12",
+												"{@b Scale}: Global",
+												"{@b Setting}: Modern",
+												"{@b Style}: Grayscale"
+											]
+										},
+										"The local big-league super-team has disbanded; they might even be missing and presumed dead after another titanic battle to save the city. But the city needs its heroes, so it’s up to a new group of heroes to take up the mantle and the responsibility to defend the city from threats too great for any one of them to handle. Rebuilding the team is no small task, nor is winning the trust of the city, and you can bet the old team’s foes will waste no time in taking advantage of the situation. Do your heroes have what it takes to create a team of their own? What happens if they do and the previous team returns?"
+									]
+								},
+								{
+									"type": "actionBlock",
+									"name": "Across the Multiverse",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"{@b Power Level}: 12–15",
+												"{@b Scale}: Multiversal",
+												"{@b Setting}: The multiverse",
+												"{@b Style}: Grayscale"
+											]
+										},
+										"In the wake of multiversal threats, including the machinations of powerful extradimensional beings, a mysterious organization has instituted a program of recruiting agents from across the various worlds. They take only the most capable, forming a powerful alliance to protect the multiverse from terrible threats and keep their timeline untangled. The characters come from many alternate worlds, but team up to keep all worlds safe, assuming the organization they work for is being entirely truthful with them…."
+									]
+								}
+							]
+						}
 					]
 				}
 			]
