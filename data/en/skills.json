@@ -1,0 +1,995 @@
+{
+	"skill": [
+		{
+			"name": "Acrobatics",
+			"ability": "Agl",
+			"untrain": false,
+			"action": [
+				"M", "F"
+			],
+			"entries": [
+				"Use Acrobatics to flip, dive, roll, tumble, and perform other acrobatic maneuvers, as well as keeping your balance under difficult circumstances.",
+				{
+					"type": "entries",
+					"name": "Balancing",
+					"entries": [
+						"You can keep your balance and move along a precarious surface at your ground speed minus 1 rank with a successful Acrobatics check against the surface’s DC. A degree of failure indicates you spend your move action just maintaining your balance and do not actually move, while two or more degrees of failure means you lose your balance and fall.",
+						"You are {@condition vulnerable} while balancing. If you accept a +5 increase to the Acrobatics DC, you are not {@condition vulnerable}.",
+						"If you fail a resistance check while balancing, make another immediate Acrobatics check against the original DC to avoid falling.",
+						{
+							"type": "table",
+							"caption": "Balancing Difficulties",
+							"colLabels": [
+								"DC",
+								"Example Surface"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["0", "A yard or more wide"],
+								["5", "Wide ledge (1-3 ft.)"],
+								["10", "Narrow ledge (less than 1 ft.)"],
+								["15", "Balance beam"],
+								["20", "Tightrope"]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Circumstance modifiers",
+							"colLabels": [
+								"DC",
+								"Example Surface"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["+2", "Surface slightly slippery"],
+								["+5", "Surface very slippery"],
+								["+2", "Surface slightly uneven"],
+								["+5", "Surface very uneven or angled"],
+								["+5", "Move at your normal speed rank"],
+								["+5", "Not vulnerable while balancing"]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maneuvering",
+					"entries": [
+						"You can make Acrobatics checks for various acrobatic stunts or maneuvers, from back flips to jumping over an opponent (to get behind them), flipping up onto a ledge, tumbling through obstacles, and so forth. The GM sets the DC. Success means you accomplish the maneuver, while failure means you do not, and two or more degrees of failure usually means you slip and end up prone (and may suffer additional effects, depending on the stunt). A successful acrobatic maneuver may provide you a circumstance bonus on certain follow-up actions, if the GM sees fit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing",
+					"entries": [
+						"You can make a DC 20 Acrobatics check to go from {@condition prone} to standing as a free action rather than a move action. A failed check means you remain {@condition prone}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tumbling",
+					"entries": [
+						"You can make an Acrobatics check (DC 5) to lessen damage from a fall, reducing the damage by 1 per degree. A fall reduced to rank 0 damage does no damage and you quickly roll to your feet as a free action. Otherwise, you are {@condition prone} at the end of a fall."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Acrobatics Difficulties",
+					"colLabels": [
+						"DC",
+						"Task"
+					],
+					"colStyles": [
+						"col-3 text-align-center",
+						"col-9"
+					],
+					"rows": [
+						["5", "Lessen damage from a fall (–1 per degree)"],
+						["15", "Acrobatic maneuver"],
+						["20", "Move from prone to standing as a free action"],
+						["30", "Contort to fit through a tight space"]
+					]
+				}
+			]
+		},
+		{
+			"name": "Athletics",
+			"ability": "Str",
+			"untrain": true,
+			"action": "M",
+			"entries": [
+				"Use Athletics for physical feats like climbing, jumping, riding animal mounts, and swimming.",
+				{
+					"type": "entries",
+					"name": "Climbing",
+					"entries": [
+						"With a successful Athletics check, you can climb along a slope, wall, or other steep incline at your ground speed rank minus 2 as a move action. A perfectly smooth, flat, vertical surface can’t be climbed without the Wall-crawling effect of {@effect Movement}.",
+						"A failed Athletics check indicates you make no progress, and two or more degrees of failure means you fall from whatever height you attained (unless you are secured with a safety harness or other equipment). Make an Athletics check to catch yourself (DC equal to the initial check + 10). Someone else within arm’s reach can also make an Athletics check to catch you with the same DC. If your attempt to catch someone else gets more than one degree of failure, you fall as well.",
+						"Since you can’t easily move to avoid attacks, you are {@condition vulnerable} while climbing unless you accept a +5 increase in the DC. Any time you fail a resistance check while climbing, make an immediate Athletics check against the DC of the climb. Failure means you fall.",
+						"At the GM’s discretion, certain kinds of climbing attempts might require tools like ropes, pitons, harness, and so forth. Attempting such a climb without tools incurs a –5 circumstance penalty.",
+						{
+							"type": "entries",
+							"name": "Falling",
+							"entries": [
+								"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. A fall with a damage rank of 0 or less, such as a fall of 6 feet or less, inflicts no damage. You are {@condition prone} at the end of a fall. You can use {@skill Acrobatics} to lessen the damage from a fall."
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Climbing Difficulties",
+							"colLabels": [
+								"DC",
+								"Example Surface"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["0", "A ladder"],
+								["5", "A knotted rope"],
+								["10", "A rope"],
+								["15", "An uneven surface, like a rock-face"],
+								["20", "A rough surface, like a brick wall"]
+							]
+						},
+						{
+							"type": "table",
+							"caption": "Circumstance modifiers",
+							"colLabels": [
+								"DC",
+								"Example Surface"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["–10", "An air duct, chimney, or other area where you can brace against two  opposite walls"],
+								["–5", "A corner where you can brace against perpendicular walls"],
+								["–5", "Climb of less than 10 feet total"],
+								["+2", "Surface slightly slippery"],
+								["+5", "Surface very slippery"],
+								["+5", "+1 speed rank (up to your full speed)"],
+								["+5", "Not vulnerable while climbing"]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Jumping",
+					"entries": [
+						"The result of an Athletics check is the distance (in feet) you can clear in a running long-jump. If you make a standing jump, divide the distance in half. If you make a vertical jump (straight up) divide the distance by 5, and if you make a standing vertical jump, divide it by 10.",
+						"Your Athletics bonus + 10 is the base distance you can jump under routine circumstances. So a hero with a +10 Athletics bonus can make a routine long-jump of 20 feet, a standing long-jump of 10 feet, a vertical jump of 4 feet, and a standing vertical jump of 2 feet on a routine basis.",
+						{
+							"type": "table",
+							"caption": "Jumping Distance",
+							"colLabels": [
+								"Type of Jump",
+								"Distance (in feet)"
+							],
+							"colStyles": [
+								"col-6 text-align-center",
+								"col-6 text-align-center"
+							],
+							"rows": [
+								["Running Long-Jump", "Athletics check result"],
+								["Standing Long-Jump", "Athletics check result, divided by 2"],
+								["Running Vertical Jump", "Athletics check result, divided by 5"],
+								["Standing Vertical Jump", "Athletics check result, divided by 10"]
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Super Jumping",
+							"entries": [
+								"If you want your hero to jump tens, hundreds, thousands of feet, or even miles, see {@effect Leaping} effect."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Running",
+					"entries": [
+						"You can make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swimming",
+					"entries": [
+						"A successful DC 10 Athletics check allows you to swim your ground speed rank minus 2 as a move action. If the check fails, you make no progress through the water during the action. With more than one degree of failure, you go under. If underwater, you must hold your breath to avoid drowning (see {@rule Suffocation|basic|8|suffocation}).",
+						{
+							"type": "table",
+							"caption": "Swimming difficulties",
+							"colLabels": [
+								"DC",
+								"Modifiers"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["+5", "Rescuing another character who cannot swim"],
+								["+5", "Rough or choppy water"],
+								["+5", "+1 speed rank (up to your full ground speed)"],
+								["+10", "Stormy or turbulent water"]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Close Combat",
+			"ability": "Fgt",
+			"untrain": true,
+			"action": "S",
+			"entries": [
+				"You’re trained with a particular type of close attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each close attack is a separate Close Combat skill with its own rank, and encompasses a single weapon or power, although an array may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers).",
+				"So a hero might have Close Combat: Swords, but Close Combat: Melee Weapons is too broad. Close Combat: unarmed is an option, meaning skill with unarmed strikes like punches and kicks. However, this bonus does not apply to other forms of unarmed combat maneuvers, including, but not limited to, grabbing or tripping.",
+				"The bonus from a Close Combat skill applies only to attack checks with the particular attack, not to defenses. For a broader bonus to attack checks that is less than simply raising Fighting rank, see {@advantage Close Attack} advantage in the Advantages."
+			]
+		},
+		{
+			"name": "Deception",
+			"ability": "Pre",
+			"untrain": true,
+			"interaction": true,
+			"action": "S",
+			"entries": [
+				"Deception is the skill of getting others to believe what you want them to believe. It covers things like acting, bluffing, fast-talk, trickery, and subterfuge.",
+				"Deception takes as long as it takes to spin-out your story. Uses of Deception in action rounds are generally standard actions, although you can attempt to deceive as a move action by taking a –5 penalty to your check.",
+				{
+					"type": "table",
+					"caption": "Deception Modifiers",
+					"colLabels": [
+						"Resistance circumstance",
+						"Modifier"
+					],
+					"colStyles": [
+						"col-7 text-align-center",
+						"col-5 text-align-center"
+					],
+					"rows": [
+						["The target wants to believe you.", "–5"],
+						["The deception is believable and doesn’t affect the target much either way.", "+0"],
+						["The deception is a little hard to believe or puts the target at some kind of risk.", "+5"],
+						["The deception is difficult to believe or entails a serious risk.", "+10"],
+						["The deception is way out there, almost too incredible to consider.", "+20"]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bluffing",
+					"entries": [
+						"Make a Deception check to tell a believable lie or get someone do go along with you.",
+						"A bluff is usually opposed by the target’s Deception or {@skill Insight} check. Favorable and unfavorable circumstances weigh heavily on the outcome. Two circumstances can work against you: the deception is hard to believe, or what you ask goes against the target’s self-interest, nature, or personality.",
+						"If it’s important, you can distinguish between a deception that fails because the target doesn’t believe it and one that fails because it asks too much. For instance, if the target gets a +10 bonus to resistance because the deception demands serious risk, and the resistance check succeeds by 10 or less, then the target doesn’t so much see through the deception as prove reluctant to go along with it. If the target’s Insight check succeeds by 11 or more, he has seen through the deception, and would have refused even if it had not placed unusual demands on him (that is, even without the +10 modifier)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disguise",
+					"entries": [
+						"You can use makeup, costumes, and other props to change your appearance. Your Deception check result determines the effectiveness of the disguise, opposed by others’ perception check results. The GM makes the Deception check secretly so you are not sure exactly how well your disguise holds up under scrutiny.",
+						"Disguise is heavily dependent on circumstances: favorable ones include appropriate costuming and a subject resembling your normal appearance, while unfavorable circumstances include disguising yourself as a member of a different race or sex, or not having sufficient props (which can be up to a –5 modifier). If you are impersonating a particular individual, anyone who knows that individual gets a circumstance bonus to the {@skill Perception} check: regular associates get a +2, while friends get a +5 and intimate loved ones a +10.",
+						"Successfully acting like who you appear to be may also require a Deception check with a DC equal to the observer’s {@skill Insight} check, modified by familiarity if the observer knows the subject well, as mentioned previously.",
+						"A disguise normally requires at least 10 minutes of preparation. The GM makes {@skill Perception} checks for those who encounter you immediately upon meeting you and each hour or day thereafter, depending on circumstances."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feinting",
+					"entries": [
+						"You can use Deception as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s Deception or {@skill Insight}. If your Deception check succeeds, the target is {@condition vulnerable} against your next attack, until the end of your next round."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innuendo",
+					"entries": [
+						"You can use Deception to send covert messages using word-play and double-meanings while apparently talking about other things. The DC for a basic message is 10. Complex messages or messages trying to communicate new information have DCs of 15 or 20, respectively. The recipient of the message must make a {@skill Insight} check against the same DC to understand it.",
+						"Anyone listening in on your innuendo can attempt a insight check against the message DC. If successful, the eavesdropper notices a message hidden in your conversation. If the eavesdropper gets at least two degrees of success, he also understands the message. Whether trying to send or pick up on a message, more than one degree of failure on the check means the receiver misinterprets the message in some fashion.",
+						{
+							"type": "table",
+							"caption": "Innuendo Difficulties",
+							"colLabels": [
+								"DC",
+								"Task"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["10", "Basic message"],
+								["15", "Complex message"],
+								["20", "Message containing new or detailed information"]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tricking",
+					"entries": [
+						"You can use Deception to mislead an opponent into taking a potentially unwise action, such as trying to hit you while standing in front of an electrical junction box or at the edge of a precipice. If your Deception check opposed by Deception or {@skill Insight} succeeds, your opponent is heedless of the potential danger and may hit the junction box or lose his balance and fall, if his attack against you fails. (On the other hand, if the attack succeeds, it might slam you into the junction box or send you flying off the edge. You’re taking a risk.)",
+						"More than one degree of failure on the Deception check means you put yourself in a bad position; you are vulnerable against the target’s attacks until the start of your next round!"
+					]
+				}
+			]
+		},
+		{
+			"name": "Expertise",
+			"ability": "Int",
+			"untrain": false,
+			"entries": [
+				"Expertise is a broad skill encompassing knowledge and training in a variety of specialized fields, particularly professional disciplines and scholarship. Each is considered a separate skill and training in each is acquired separately, so a former police officer turned district attorney might have Expertise: Police Officer and Expertise: Law, each with their own ranks, for example.",
+				"If you are trained in an Expertise, you can practice and make a living at it. You know how to use the tools of that trade, perform the profession’s daily tasks, supervise untrained helpers, and handle common problems. For example, someone trained in Expertise: Sailor knows how to tie basic knots, tend and repair sails, and stand a deck watch at sea. The GM sets DCs for specific tasks using the guidelines provided in The Basics under {@rule Checks|basic|1|checks}, keeping in mind that most job-related checks should be considered routine (see {@rule Routine Checks|basic|1|routine checks}).",
+				"You can also make Expertise checks to see if your character knows the answer to a particular question related to the area of expertise, such as a scientist confronted with a technical issue, or a lawyer considering a legal question. The DC is 10 for easy questions, 15 for basic questions, and 20 or higher for difficult questions. You can usually answer questions as a routine check, and the GM may make a check for you in secret, so you won’t know whether or not your character’s skill is entirely up to the task.",
+				"Expertise covers all areas except those tasks specifically covered by other skills. So, for example, a police detective is going to be trained in {@skill Investigation} (and probably {@skill Insight} and {@skill Perception}) in addition to Expertise: Police Officer, the same for an intrepid reporter with Expertise: Journalism. A scientist might be trained in {@skill Technology} alongside Expertise: Science, a doctor needs training in {@skill Treatment} along with Expertise: Physician, and a trial lawyer is going to want skill in {@skill Insight} and {@skill Persuasion} (and possibly {@skill Deception}) along with the training in the law that comes with Expertise: Lawyer.",
+				"The ability modifier for Expertise is typically Intellect, but some areas of expertise may call for different abilities, perhaps depending on the task involved. For example, a technical expert might rely on Intellect to answer questions and handle day-to-day procedures, but need Dexterity to perform the actual functions of the job. Performance skills, such as acting or music, may rely on Presence. The GM sets the ability modifier as needed for the specific Expertise check.",
+				"Characters with expertise in a profession are also assumed to be licensed or certified to practice it, if necessary. Problems like licensing issues, professional rivalries, and so forth can be handled as complications (see {@rule Complications|basic|2|complications}).",
+				"The GM may allow some Expertise checks to be made untrained, especially for “unskilled” areas, measuring broad general knowledge and life experience, but even then an untrained Expertise check cannot be routine, and the character can only handle easy or basic tasks or questions (DC 10-15).",
+				{
+					"type": "inset",
+					"name": "Sample Areas of Expertise",
+					"entries": [
+						"The following are examples of suitable areas of Expertise. This list is by no means exhaustive, the GM should feel free to add to or modify this list as needed to suit the game and the characters in it.",
+						{
+							"type": "quote",
+							"entries": ["Art, Business, Carpentry, Cooking, Criminal, Current Events, Dance, History, Journalism, Law, Law Enforcement, Medicine, Military, Music, Magic, Philosophy, Politics, Popular Culture, Psychiatry, Science, Sociology, Streetwise, Theology"]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Defaulting to Related Areas of Expertise",
+					"entries": [
+						"On occasion, the GM may decide that training in an Expertise skill provides some ability to deal with tasks covered by other, related, skills with a circumstance penalty to the skill check.",
+						{
+							"type": "example",
+							"entries": ["Figuring out a particular clue involving a government conspiracy requires an investigation or expertise: Politics check. However, the GM allows a hero to substitute an Expertise: Law check with a –2 circumstance penalty, as the knowledge is related, but outside the character’s specific field. Expertise: Journalism might suffer a –5 penalty, but could still be useful (especially if the character works a legal or political beat as a reporter), while Expertise: Cooking is no help at all, and cannot be used for the check (unless the player comes up with a very clever explanation!)"]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Under the Hood: Character Expertise vs. Player Expertise",
+					"entries": [
+						"Expertise skills measure what your character knows about various things, whether you know anything about them or not. It’s fairly easy to measure what a hero knows by making the appropriate skill check or looking at the routine check value of (bonus +10).",
+						"However, players may know things their characters do not, either because of the player’s life experience or knowledge of the game and its rules (and source material). In this case the Gamemaster may prefer players limit themselves to only what Expertise skills their heroes have rather than what they may or may not know about a given situation. The GM may bend this rule by allowing a player to spend a victory point to have a character act upon something he or she would have no way of knowing, calling it a “hunch” or a “lucky guess” (a version of the inspiration rule). See {@rule Victory Points|basic|1|victory points}.",
+						"If there’s a question as to how to handle an issue of player versus character expertise in the game, consult your Gamemaster."
+					]
+				}
+			]
+		},
+		{
+			"name": "Insight",
+			"ability": "Awe",
+			"untrain": true,
+			"action": "F",
+			"entries": [
+				"You can tell someone’s true intentions and feelings by paying attention to things like body language, inflection, and your own intuition.",
+				"A successful Insight check allows you to resist the effects of some interaction skills, becoming aware of the other person’s true intent. You can also use the skill to tell when someone is behaving oddly or for assessing trustworthiness.",
+				{
+					"type": "entries",
+					"name": "Detect Illusion",
+					"entries": [
+						"The GM makes a secret Insight check to determine if your hero senses the true nature of an illusion (DC 10 + Illusion rank). Success means you pick up on a flaw in the illusion, sensing it is not real. See {@effect Illusion} effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Detect Influence",
+					"entries": [
+						"You can make a Insight check to notice someone acting under outside influence. The DC is 10 + the rank of the effect or skill affecting the subject. If you succeed, you notice the subject is not acting entirely of his or her own will. Three or more degrees give you a general idea of what is influencing them (and perhaps even whom, depending on the situation and the Gamemaster’s judgment)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evaluate",
+					"entries": [
+						"With an Insight check, opposed by {@skill Deception}, you can tell if someone is trustworthy and honorable (or not) upon meeting them. You can also make an Insight check (DC 20) to evaluate a social situation, getting a feel for the overall mood and prevailing attitudes. Two or more degrees of failure on either check mean you misinterpret the signs, so the GM may make these checks for you in secret."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innuendo",
+					"entries": [
+						"You can use Insight to pick up on hidden messages sent via the {@skill Deception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resist Influence",
+					"entries": [
+						"Make an Insight check when called to do so to resist or overcome the effects of certain interaction skills, such as {@skill Deception} or {@skill Intimidation}. If the result of your check exceeds your opponent’s, you are unaffected by their attempt to influence you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Intimidation",
+			"ability": "Pre",
+			"untrain": true,
+			"interaction": true,
+			"action": "S",
+			"entries": [
+				"You know how to use threats (both real and implied) to get others to do what you want.",
+				{
+					"type": "entries",
+					"name": "Coercing",
+					"entries": [
+						"Make an Intimidation check, opposed by the target’s insight or Will defense (whichever has the highest bonus). If your check succeeds, you may treat the target as friendly, but only for actions taken in your presence. That is, the target retains his normal attitude, but will talk, advise, offer limited help, or advocate on your behalf while intimidated. The target cooperates, but won’t necessarily obey your every whim or do anything that would directly endanger him.",
+						"If you perform some action that makes you more imposing, you gain a circumstance bonus on your Intimidation check. If your target clearly has a superior position, you suffer a circumstance penalty.",
+						"With more than one degree of failure on your check, the target may actually do the opposite of what you want! Succeed or fail, a target’s true attitude towards you generally becomes hostile after you attempt an Intimidation check, even if they go along with you for the moment."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Demoralizing",
+					"entries": [
+						"You can use Intimidation in combat as a standard action to undermine an opponent’s confidence. Make an Intimidation check as a standard action. If it succeeds, your target is {@condition impaired} (a –2 circumstance penalty on checks) until the end of your next round. With four or more degrees of success, the target is {@condition disabled} (a –5 penalty) until the end of your next round."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intimidating Minions",
+					"entries": [
+						"You can intimidate a whole group of minions—who can all see and hear you—with a single check. If the group has you at a disadvantage, you suffer the usual circumstance penalty on your check. Compare your check result against a single resistance check made by the GM for the entire group. Your Intimidation check must have the same effect on every member of the group (that is, you cannot demoralize some and coerce others, for example).",
+						{
+							"type": "example",
+							"entries": [
+								"The Rock is facing down Packrat in one of his many bolt holes around Capital City when the big rat commands a pack of his street thieves to keep The Rock from following him. The gang of kids steps forward to get in The Rock’s way. The Rock has no interest in hurting a bunch of kids, so he bellows, “Get outta the way or I’ll knock your blocks off!” and his player decides to use The Rock’s routine Intimidation check of 18 to attempt to coerce the entire group of minions into moving out of his way. The street kids are all Thugs, so they have a resistance rank of 0 (their Insight and Will ranks are tied). Since Rocky is attempting the same effect on every member of the group, he makes a single opposed check. Unfortunately, the GM rolls a 13, which isn’t enough to beat The Rock’s 18. The street kids know The Rock won’t actually hurt them, but they dive out of the way anyway as The Rock bulls past.”"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Investigation",
+			"ability": "Int",
+			"untrain": false,
+			"entries": [
+				"You know how to search for and study clues, gather information through interviews and surveillance, and analyze evidence to help solve crimes. The GM may make investigation checks for you in secret, so you do not know exactly what you have found, or if you may have missed something.",
+				{
+					"type": "entries",
+					"name": "Search",
+					"entries": [
+						"You can search an area for clues, hidden items, traps, and other details. {@skill Perception} allows you to immediately notice things, while an Investigation check allows you to pick up on details with some effort.",
+						"To determine how long it takes to search a given area, take the total area measurement (in square feet, yards, or miles), find the time measurement for that distance, and add 2. So searching 60 square feet (roughly an 8 ft. by 8 ft. room) takes the time rank of 60 feet (rank 1), plus 2, or 1 minute (time rank 3). Searching a square mile takes the time rank of 1 mile (rank 8), plus 2, or two hours (time rank 10).",
+						"The DC for an Investigation check to find a concealed object is usually opposed by the {@skill Stealth} or {@skill Sleight of Hand} check of the character who hid it.",
+						{
+							"type": "table",
+							"caption": "Search Difficulties",
+							"colLabels": [
+								"DC",
+								"Sample Search"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["10", "Ransack an area to find a certain object."],
+								["20", "Notice a secret compartment, simple trap, or an obscure clue."],
+								["25+", "Find a well-hidden secret compartment or trap, or an extremely obscure clue."]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gather Evidence",
+					"entries": [
+						"To collect a piece of evidence for analysis, make an Investigation check (DC 15). If the check succeeds, the evidence can be analyzed (see Analyze Evidence.) If the check fails, an analysis can be done, but with a –5 penalty for highly unfavorable circumstances. With more than one degree of failure, the evidence is ruined and no analysis can be done. On the other hand, two or more degrees of success provide a +2 circumstance bonus to later analysis."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Analyze Evidence",
+					"entries": [
+						"You can make an Investigation check to apply forensic knowledge to evidence. This function of Investigation does not give you clues where none exist. It simply allows you to extract useful information from evidence and clues you have found.",
+						"The base DC 15, modified by the time elapsed since the evidence was left, and whether or not the scene was disturbed. Success gives you information based on the clue (and determined by the GM). Two or more degrees of failure may provide misleading or confusing evidence, also at the GM’s discretion.",
+						{
+							"type": "table",
+							"caption": "Evidence Difficulties",
+							"colLabels": [
+								"DC",
+								"Task"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["15", "Analyze Evidence"],
+								["15", "Gather Evidence"]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"Modifiers", ""
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["+2", "Every day since event (max modifier +10)"],
+								["+5", "Crime scene is outdoors"],
+								["+2", "Crime scene disturbed"],
+								["+5", "Crime scene highly disturbed"]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gather Information",
+					"entries": [
+						"You know how to make contacts, collect gossip and rumors, question informants, and otherwise get information from people.",
+						"By succeeding at a DC 10 Investigation check taking at least an hour, you get a feel for the major news and rumors in an area. This assumes no obvious reasons exist why information would be withheld. The degree of the check result determines the completeness and detail of the information. Information ranges from general to protected, and the DC increases accordingly for the type of information, as given on the table.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Degree of Success",
+								"Type of Information"
+							],
+							"colStyles": [
+								"col-5 text-align-center",
+								"col-7 text-align-center"
+							],
+							"rows": [
+								["One", "General"],
+								["Two", "Specific"],
+								["Three", "Restricted"],
+								["Four", "Protected"]
+							]
+						},
+						{
+							"type": "list",
+							"items": [
+								"General information concerns local happenings, rumors, gossip, and the like.",
+								"Specific information usually relates to a particular question.",
+								"Restricted information isn’t generally known and requires you to locate someone with access to the information.",
+								"Protected information is even harder to come by and might involve some danger, either for the one asking the questions or the one providing the answers."
+							]
+						},
+						"Failure on the Investigation check means you waste time turning up nothing of value. An additional degree of failure means you also alert someone who may be interested in your inquiries, perhaps even someone you are investigating!"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Surveillance",
+					"entries": [
+						"You can set up surveillance of a particular area, watching from a stationary location. The DC of the subject’s {@skill Stealth} check to evade your notice is equal to the result of your Investigation check. For actively following a subject, see {@b Tailing} in the {@skill Stealth} skill."
+					]
+				}
+			]
+		},
+		{
+			"name": "Perception",
+			"ability": "Awe",
+			"untrain": true,
+			"action": "F",
+			"entries": [
+				"Use this skill to notice and pick up on things. Discerning details—such as clearly hearing conversation or reading fine text—requires at least three degrees of success on the Perception check.",
+				"In general, you have a –1 circumstance penalty to Perception checks for every 10 feet between you and what you are trying to perceive. So hearing a noise from 50 feet away is a –5 modifier to your Perception check, for example.",
+				"The GM usually makes Perception checks secretly so you don’t know whether there was nothing to notice or you simply failed to notice it. The common sorts of Perception checks are:",
+				{
+					"type": "entries",
+					"name": "Hearing",
+					"entries": [
+						"Make a check against a DC based on how loud the noise is or against an opposed {@skill Stealth} check. Normal conversation is DC 0, a soft noise DC 10. Listening through a door is +5 DC, +15 for a solid wall. While you’re asleep, hearing something well enough to wake up is +10 DC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seeing",
+					"entries": [
+						"Make a check against a DC based on how visible the object is or against an opposed {@skill Stealth} check. Something in plain sight is DC 0, while something subtle or easily over-looked may be DC 5, 10 or more. Visual perception is also used to detect someone in disguise (see the {@skill Deception} skill) or to notice a concealed object (see the {@skill Sleight of Hand} skill)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Other Senses",
+					"entries": [
+						"You can make Perception checks involving other sense types as well (see {@rule Powers|basic|6|sensory} for more on sense types). Noticing something obvious to a sense is DC 0. Less obvious things are DC 10 or so, hidden things DC 20 or more, and discerning details requires at least three degrees of success, as usual.",
+						"You can make a Perception check every time you have the opportunity to notice something new. As a move action, you can attempt to notice something you failed (or believe you failed) to notice previously.",
+						"Various sensory effects provide modifiers on Perception checks (see {@rule Powers|basic|6})."
+					]
+				}
+			]
+		},
+		{
+			"name": "Persuasion",
+			"ability": "Pre",
+			"untrain": true,
+			"interaction": true,
+			"entries": [
+				"You’re skilled in dealing with people, from etiquette and social graces to a way with words and public speaking, all of which helps to get your point across, make a good impression, negotiate, and generally win people over to your way of seeing things.",
+				"In negotiations, all participants roll Persuasion checks to see who gains the advantage. Opposed checks also resolve cases where two advocates plead opposing cases before a third party.",
+				"Non-player characters each have an initial attitude towards you or your cause. The GM chooses the character’s initial attitude based on circumstances. Most of the time, people are favorable or indifferent toward heroes, but a specific circumstance or complication may call for a different attitude.",
+				"You can improve others’ attitudes with a DC 15 Persuasion check. Success improves the subject’s attitude by one step, while every two additional degrees of success improve it by another step (so two steps at three degrees, three steps at five degrees, and so forth). Failure means no change, and more than a degree of failure worsens the subject’s attitude by one step! In the case of a hostile subject, they may outright attack or otherwise interfere with you if their attitude worsens.",
+				{
+					"type": "table",
+					"caption": "Attitudes",
+					"colLabels": [
+						"Attitude",
+						"Effect"
+					],
+					"colStyles": [
+						"col-4 text-align-center",
+						"col-8"
+					],
+					"rows": [
+						["Hostile", "Will take risks to attack or interfere with you."],
+						["Unfavorable", "Will insult, mislead, or otherwise cause you trouble."],
+						["Indifferent", "Acts as socially expected towards you."],
+						["Favorable", "Will chat, advise, and offer limited help."],
+						["Helpful", "Will take risks to help or protect you."]
+					]
+				},
+				"Persuading someone is at least a standard action, usually quite a bit longer. The GM decides if you can persuade at all once a conflict has broken out! Even if the initial check succeeds, the other character can only be persuaded so far; you can try again in the same scene, but you check against the subject’s initial attitude, and may end up worsening it rather than improving it!",
+				{
+					"type": "example",
+					"entries": [
+						"The heroes must convince the imperious King of Atlantis that the surface world is not responsible for recent attacks against his kingdom in order to avert a war. The king’s attitude is unfavorable towards these surface-world interlopers to begin with. The team’s spokesperson makes a Persuasion attempt and gets a check result of 22, a success with two degrees total. That shifts the king’s attitude one step, to indifferent. He’s inclined to continue negotiating with the heroes and willing to place the assault on the surface world on-hold for the time-being. The heroes try to convince the king further, but any additional checks need at least the same degree of success as the first to get his attitude to favorable, where he is willing to call off the attack, and more than one degree of failure on any check moves his attitude to hostile, where he orders the intruders arrested and the attack to begin at once!"
+					]
+				},
+				"If a Persuasion check fails, trying again is futile; the subject is too set against your arguments. At the GM’s discretion, you can try again when the situation changes in some way: you find a new approach to your argument, new evidence appears, and so forth. The GM may consider you at a disadvantage in further negotiations, imposing a circumstance penalty as well."
+			]
+		},
+		{
+			"name": "Ranged Combat",
+			"ability": "Dex",
+			"untrain": true,
+			"action": "S",
+			"entries": [
+				"You’re trained with a particular type of ranged attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each ranged attack is a separate Ranged Combat skill with its own rank, and encompasses a single weapon or power, although an array may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers for more information).",
+				"So a hero might have Ranged Combat: Guns or Ranged Combat: Fire Control, but Ranged Combat: Powers is too broad. Ranged Combat: Throwing is an option and includes both thrown weapons and objects a character simply picks up and throws.",
+				"The bonus from a Ranged Combat skill applies only to attack checks with the particular attack, not to defenses. For a broader bonus to attack checks that is less than simply raising Dexterity rank, see {@advantage Ranged Attack} advantage in Advantages."
+			]
+		},
+		{
+			"name": "Sleight of Hand",
+			"ability": "Dex",
+			"untrain": false,
+			"manipulation": true,
+			"action": "S",
+			"entries": [
+				"You can perform dexterous feats of legerdemain such as palming small objects, picking pockets, slipping out of restraints, and so forth. Stage magicians use Sleight of Hand legitimately as a performance skill, but it is most commonly known for its criminal applications.",
+				{
+					"type": "entries",
+					"name": "Concealing",
+					"entries": [
+						"You can use Sleight of Hand to conceal a small item on your person, making your check result the DC of an {@skill Investigation} or {@skill Perception} check to find it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contorting",
+					"entries": [
+						"You can use Slight of Hand to contort your body. Make a DC 30 Sleight of Hand check to fit through a tight space wide enough for your head but too narrow for the width of your shoulders, or to reach through an opening wide enough for your hand, but too narrow for your arm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Escaping",
+					"entries": [
+						"Make a Sleight of Hand check to slip out of various restraints. This takes at least a minute per check.",
+						"Escaping from a grab is an {@skill Acrobatics} or {@skill Athletics} check. See {@rule Grab|basic|8|grab} in Conflict and Contorting, previously, for details.",
+						{
+							"type": "table",
+							"caption": "Escaping Difficulties",
+							"colLabels": [
+								"DC",
+								"Sample Restraint"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["15", "Ropes"],
+								["20", "Handcuffs"],
+								["25", "Straightjacket"],
+								["15+rank", "Power Effect"]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Legerdemain",
+					"entries": [
+						"Minor feats of sleight of hand, such as making a coin or playing card “vanish,” have a DC of 10 unless an observer is focused on noticing what you are doing. When you perform this skill under observation, your check is opposed by the observer’s Perception check to see if they notice the trick."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stealing",
+					"entries": [
+						"To covertly take something from another person make a Sleight of Hand check (DC 20). Your target makes a perception check and notices the attempt if his check result beats yours, whether you succeed in taking the object or not.",
+						{
+							"type": "example",
+							"entries": [
+								"The Elastibandit is robbing a museum of some of its valuables when a security guard passes by while making his rounds. The bouncing Bandit has no fear of the rent-a-cop, so he decides to have some fun. He has Skill Mastery for his Stealth and, unsurprisingly, the guard doesn’t notice him slither closer, but then Elastibandit decides to try and steal the guard’s gun without being noticed. Bandit has Sleight of Hand +12 and adds that to the roll of a die. A whopping 19 plus 12 for a total of 31! The guard, with a Perception skill of only +5, doesn’t have a prayer of noticing his gun being eased out of its holster, but the GM rolls anyway and gets a total of 20. A good roll, but no enough."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stealth",
+			"ability": "Agl",
+			"untrain": true,
+			"action": "M",
+			"entries": [
+				"You’re skilled in going unnoticed. While using Stealth, you can move at your speed rank minus 1 with no penalty. Faster than that, up to your full speed, you take a –5 circumstance penalty to your Stealth checks.",
+				{
+					"type": "entries",
+					"name": "Hiding",
+					"entries": [
+						"If you have cover or concealment, make a Stealth check, opposed by an observer’s {@skill Perception} check, to hide and go unnoticed.",
+						"If others are aware of your presence, you can’t use Stealth to remain undetected. You can run around a corner so you are out of sight and then use Stealth, but others know which way you went. You can’t hide at all if you have absolutely no cover or concealment, since that means you are standing out in plain sight. Of course, if someone isn’t looking directly at you (you’re sneaking up from behind, for example), then you have concealment relative to that person.",
+						"A successful {@skill Deception} or {@skill Intimidation} check can give you the momentary distraction needed to make a Stealth check while people are aware of you. When others turn their attention from you, make a Stealth check if you can reach cover or concealment of some kind. (As a general guideline, any such cover has to be within 1 foot for every rank you have in Stealth.) This check, however, is at a –5 penalty because you have to move quickly."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tailing",
+					"entries": [
+						"You can use Stealth to tail someone at your normal speed. This assumes you have some cover or concealment (crowds of people, shadows, fog, etc.). If the subject is worried about being followed, he can make a Perception check (opposed by your Stealth check) every time he changes course (goes around a street corner, exits a building, and so on). If he is unsuspecting, he only gets one Perception check for the scene. If the subject notices you, make a {@skill Deception} check, opposed by Insight. If you succeed, you manage to pass off your presence as coincidence and can continue tailing. A failed Deception check, or being noticed a second time, means the subject knows something is up and reacts accordingly."
+					]
+				}
+			]
+		},
+		{
+			"name": "Technology",
+			"ability": "Int",
+			"untrain": false,
+			"manipulation": true,
+			"tools": true,
+			"action": "S",
+			"entries": [
+				"Technology covers operating, building, repairing, and generally working with technological devices and equipment. Without the proper tools or equipment, you take a –5 penalty to Technology checks for highly unfavorable circumstances.",
+				{
+					"type": "entries",
+					"name": "Operating",
+					"entries": [
+						"Most routine operations of technological equipment don’t require a skill check and can be done untrained. Using an unfamiliar device does require a check, with the DC determined by how foreign or unusual the device is, from simple (DC 10) to highly advanced (DC 25 or more)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Building",
+					"entries": [
+						"The difficulty and time required to make an item depends on its complexity, as shown on the Building Items table. If your Technology check succeeds, you have made the item after the necessary time. If the check fails, you did not produce a usable end result, and any time and materials are wasted. More than one degree of failure on the check may produce an accident or other unfortunate side-effect at the GM’s discretion.",
+						{
+							"type": "table",
+							"caption": "Building Items",
+							"colLabels": [
+								"DC",
+								"Complexity",
+								"Time Rank",
+								"Examples"
+							],
+							"colStyles": [
+								"col-1 text-align-center",
+								"col-2 text-align-center",
+								"col-2 text-align-center",
+								"col-7"
+							],
+							"rows": [
+								[
+									"15","Simple","10 (2 hours)",
+									"electronic timer or detonator, tripwire trap"
+								],
+								[
+									"20","Moderate","12 (8 hours)",
+									"radio direction finder, lock, engine component"
+								],
+								[
+									"25","Complex","14 (24 hours)",
+									"cell phone, combustion engine"
+								],
+								[
+									"30","Advanced","16 (4 days)",
+									"computer, vehicle"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repairing",
+					"entries": [
+						"You can also use Technology to repair damaged items, with a –5 to the DC to build the item and –2 to the time rank required. So you can perform repairs on a complex item in eight hours (time rank 12) with a DC of 20. Failure on the check means you spend the time, but make no progress. Two or more degrees of failure may indicate further damage to the item or an accident similar to building it.",
+						"You can reduce the time rank to build or repair an item by 1 by taking a –5 penalty to your skill check.",
+						{
+							"type": "entries",
+							"name": "Jury-rigging",
+							"entries": [
+								"You can also attempt jury-rigged, or temporary, repairs. Doing this reduces the repair DC by an additional 5 (for a total of –10 to the DC to build the item), and allows you to make the Technology check as a standard action. However, a jury-rigged repair can only fix a single problem, and the repair only lasts until the end of the scene. The jury-rigged item must be fully repaired thereafter, and cannot be jury-rigged again until it is fully repaired."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Demolitions",
+					"entries": [
+						"Careful placement of an explosive against a fixed structure can maximize damage by exploiting vulnerabilities in the structure. This requires at least a minute and a DC 10 Technology check. The GM makes the check, so you don’t know exactly how well you have done until the explosive goes off. For every two full degrees of success, the explosive deals +5 damage to the structure. Failure means the explosive does not go off as planned, while more than one degree of failure means the charge goes off while you are setting it! In all cases, the explosive deals normal damage to all other targets.",
+						"You can make an explosive device more difficult to disarm. To do so, choose a disarm difficulty class before making your check to set the detonator. Your DC to set the detonator is the desired disarm DC. Failure means the explosive fails to go off as planned. Two or more degrees of failure mean the explosive goes off as the detonator is being installed!",
+						"Disarming an explosive also requires a Technology check. The DC is usually 10, unless the person who set the detonator chose a higher disarm DC (previously). If you fail the check, you do not disarm the explosive. With more than a degree of failure, the explosive goes off. Setting or disarming a detonator is a standard action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inventing",
+					"entries": [
+						"If you have the {@advantage Inventor} advantage (see Advantages), you can use Technology to create inventions, temporary devices. See {@rule Inventing|basic|7|inventing} for details."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Security",
+					"entries": [
+						"You can use Technology to disarm or sabotage various security devices, including locks, traps, and sensors. This takes at least a minute, possibly longer, at the GM’s discretion. The GM makes your Technology check secretly so you don’t necessarily know right away if you have succeeded. The Gamemaster sets the DC of the check based on the level of security:",
+						{
+							"type": "table",
+							"caption": "Security Levels",
+							"colLabels": [
+								"DC",
+								"Security Example"
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["10", "Simple lock or home alarm system"],
+								["15", "Quality lock or home alarm system"],
+								["20", "Business and corporate security"],
+								["25", "High security: branch bank vault, museum"],
+								["30", "Very high security: bank headquarters vault, medium prison"],
+								["35", "Maximum security: highly secure prison"],
+								["40", "Super-max security: super-prison"]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"Modifiers", ""
+							],
+							"colStyles": [
+								"col-3 text-align-center",
+								"col-9"
+							],
+							"rows": [
+								["+5", "Preventing your tampering from being noticed."]
+							]
+						},
+						"Failure on your skill check means nothing happens, but you can keep trying. More than one degree of failure sets off the security or trap, if it is possible to do so."
+					]
+				}
+			]
+		},
+		{
+			"name": "Treatment",
+			"ability": "Int",
+			"untrain": false,
+			"manipulation": true,
+			"tools": true,
+			"action": "S",
+			"entries": [
+				"You’re trained in treating injuries and ailments. The check DC and effect of Treatment depend on the task:",
+				{
+					"type": "table",
+					"caption": "Treatment Difficulties",
+					"colLabels": [
+						"DC",
+						"Task"
+					],
+					"colStyles": [
+						"col-3 text-align-center",
+						"col-9"
+					],
+					"rows": [
+						["10", "Diagnose injuries and ailments."],
+						["15", "Provide long-term care."],
+						["15", "Revive dazed or stunned characters."],
+						["15", "Stabilize dying character."],
+						["15", "Treat diseases or poisons."]
+					]
+				},
+				"If you do not have the appropriate medical equipment and supplies, you take a –5 circumstance penalty on your check. If your subject has a particularly unusual biology (an alien, for example) you may also suffer a circumstance penalty.",
+				"You can use the Treatment skill on yourself, but only to diagnose, provide care, or treat disease or poison. You take a –5 circumstance penalty on checks when treating yourself.",
+				{
+					"type": "entries",
+					"name": "Diagnosis",
+					"entries": [
+						"You can diagnose injuries and ailments with an eye toward further treatment. This takes at least a minute. At the GM’s discretion, a successful diagnosis provides a +2 bonus for favorable circumstances on further Treatment checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Provide Care",
+					"entries": [
+						"Providing care means treating an injured patient for a day or more. If successful, the patient further reduces the recovery time by 1 rank (see {@rule Recovery|basic|8|recovery} in Action & Adventure). You can provide care for up to your Treatment rank in patients at one time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Revive",
+					"entries": [
+						"You can remove the {@condition dazed} or {@condition stunned} conditions from a subject. The check to revive is a standard action. A successful check removes the condition. Other conditions the patient may have remain, so reviving someone {@condition incapacitated} due to fatigue still leaves the patient {@condition exhausted}, for example, while awakening someone {@condition incapacitated} due to damage still leaves the patient {@condition staggered}. You can’t awaken a {@condition dying} character without stabilizing him first (see the following)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stabilize",
+					"entries": [
+						"As a standard action, a successful Treatment check stabilizes a {@condition dying} character."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Treat Disease and Poison",
+					"entries": [
+						"You can treat a character afflicted with a disease or poison. Each time the character makes a resistance check against the ailment, you make a Treatment check. One degree of success provides the patient with a +2 circumstance bonus to the resistance check, three or more degrees of success provides a +5 circumstance bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vehicles",
+			"ability": "Dex",
+			"untrain": false,
+			"manipulation": true,
+			"action": "M",
+			"entries": [
+				"Use this skill to operate vehicles, from ground vehicles like cars to boats, planes, or even spaceships! See {@rule Vehicles|basic|7|vehicles} in Gadgets & Gear for details.",
+				"Routine tasks, such as ordinary operation of known vehicles, don’t require a check and may even be done untrained for some vehicles, particularly common ones like cars. Make a check only when operating the vehicle in a stressful or dramatic situation like being chased or attacked, or trying to reach a destination in a limited amount of time.",
+				"You can also make Vehicle checks to perform various maneuvers with a vehicle:",
+				{
+					"type": "table",
+					"caption": "Vehicles Difficulties",
+					"colLabels": [
+						"DC",
+						"Maneuver"
+					],
+					"colStyles": [
+						"col-3 text-align-center",
+						"col-9"
+					],
+					"rows": [
+						["5", "Easy (low-speed turn)"],
+						["10", "Average (sudden reverse, dodging obstacles)"],
+						["15", "Difficult (tight turns)"],
+						["20", "Challenging (bootlegger reverse, loop, barrel roll)"],
+						["25", "Formidable (high-speed maneuvers, jumping or flying around obstacles)"]
+					]
+				},
+				"Note that the Vehicles skill does not cover riding animal mounts. For that, use the {@skill Expertise|Expertise: Riding} skill, based on Agility, with the same guidelines as given for Vehicles skill checks. At the Gamemaster’s discretion, skills like Athletics can serve for riding mounts (perhaps with a circumstance penalty), especially if riding is a fairly uncommon skill, as it is in the modern world."
+			]
+		}
+	]
+}

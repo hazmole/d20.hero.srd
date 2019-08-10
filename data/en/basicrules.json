@@ -2240,6 +2240,34 @@
 							"entries": [
 								"If you don’t find a particular skill on the list, like climbing, bluffing, or search, remember that each skill covers a lot of ground. So, you’ll find climbing isn’t its own skill, but is listed as part of Athletics, while bluffing and search are under Deception and Investigation, respectively. When in doubt, read through the skill you think is most similar to what you’re looking for."
 							]
+						},
+						{
+							"type": "inset",
+							"name": "Under the Hood: Choosing Skills",
+							"entries": [
+								"There are a number of factors to consider when choosing skills for your character.",
+								{
+									"type": "entries",
+									"name": "Training vs. Talent",
+									"entries": [
+										"In game terms there’s no difference between a character who has ranks in a skill because of extensive training and another whose skill ranks represent a natural talent or aptitude for the skill. Both are considered “trained” in the skill in game terms. For example, one character might have a high Persuasion skill based on the character’s extensive training in negotiation, debate, and management. Another character’s Persuasion skill may stem more from personal attractiveness or a knack for getting others to cooperate, while a third character may have a combination of the two. Feel free to decide for yourself what mix of training and talent your character’s skill ranks represent."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Life Skills",
+									"entries": [
+										"When allocating skill ranks for your character consider not just the character’s role as a hero but also the various other skills the character may have picked up in day-to-day life. For example, most adults have some sort of Expertise skill as their occupation with at least 3 to 5 ranks (more if they’re especially good at their job). Some people pick up ranks in Perception, although most get by using the skill untrained. Characters working with technology may have the Technology skill even if it doesn’t apply to their powers. A particularly well-educated person may have various Expertise skills for jobs they don’t even hold. These additional skills help round out a character and provide some background color and—who knows?—they may turn out to be useful in an adventure at some point!"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Adventuring Skills",
+									"entries": [
+										"Also give some thought to the skills your character needs to be effective in game play. Some are obvious, especially if they’re part of your character concept. A scientist is likely to have ranks in Technology. A pilot should have Vehicles, while a doctor should have Treatment in addition to Expertise: Physician. Beyond the obvious and life skills of your character consider “utility skills” like Insight, Perception, and Stealth, which many characters find useful. A few ranks in such skills may be a smart investment."
+									]
+								}
+							]
 						}
 					]
 				}

@@ -1,6 +1,7 @@
 // Build Page Functions (Do not change)
 //=========================
 let list;
+var IS_LOCAL_TEST = false;
 window.onload = async function load () {
 	SortUtil.initHandleFilterButtonClicks();
 	if(!IS_LOCAL_TEST) DataUtil.loadJSON(`data/${languageParser.getActiveLanguage()}/`+JSON_URL).then(onJsonLoad);

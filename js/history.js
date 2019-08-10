@@ -16,6 +16,7 @@ class History {
 				blankFilterLoad = true;
 			} else {
 				const $el = History._getListElem(link);
+
 				if ($el === undefined) {
 					if (typeof handleUnknownHash === "function" && window.location.hash.length) {
 						handleUnknownHash(link, sub);
@@ -31,7 +32,7 @@ class History {
 					const id = $el.attr("id");
 					History.lastLoadedId = id;
 					loadhash(id);
-					document.title = decodeURIComponent($el.attr("title")) + " - 5etools";
+					document.title = decodeURIComponent($el.attr("title")) + " - " + FMT("site_title");
 				}
 			}
 		}
@@ -75,7 +76,7 @@ class History {
 	}
 
 	static _getListElem (link, getIndex) {
-		const toFind = `a[href="#${link.toLowerCase()}"]`;
+		const toFind = `a[href="#${link.toLowerCase()}"], a[title="${decodeURIComponent(link.toLowerCase())}"]`;
 		const listWrapper = $("#listcontainer");
 		if (listWrapper.data("lists")) {
 			for (let x = 0; x < listWrapper.data("lists").length; ++x) {

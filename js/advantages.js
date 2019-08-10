@@ -7,7 +7,7 @@ const DATA_LIST_ITEM_ARR = ['name', 'type', "rank"];
 const DEFAULT_SORT = "type";
 const PAGE_LIST_CLASS = "advantages";
 const PAGE_SUBLIST_CLASS = "subadvantages";
-const IS_LOCAL_TEST = false;
+IS_LOCAL_TEST = false;
 
 // List item
 function getGeneralListItem (entry) {

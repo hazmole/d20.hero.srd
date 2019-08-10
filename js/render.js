@@ -634,7 +634,7 @@ function Renderer () {
 		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; border-top: 2px solid; background-color: #652020">`;
 		if (entry.name != null) {
 			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span>`;
+			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner" book-idx="${entry.name.toLowerCase()}">${entry.name}</span>`;
 			if (entry.subtitle != null){
 				textStack[0] += `<span style="font-size: 1.1em;color:#ececec;float: right;">${entry.subtitle}</span>`;
 			}
@@ -819,7 +819,7 @@ function Renderer () {
 		return outList.join(" ");
 	};
 
-	this._renderString = function (entry, textStack, meta, options) {
+	this._renderString = async function (entry, textStack, meta, options) {
 		const tagSplit = Renderer.splitByTags(entry);
 		const len = tagSplit.length;
 		for (let i = 0; i < len; ++i) {
@@ -1063,12 +1063,10 @@ function Renderer () {
 
 						break;
 					}
-					case "@skill":
 					case "@action":
 					case "@sense": {
 						const expander = (() => {
 							switch (tag) {
-								case "@skill": return Parser.skillToExplanation;
 								case "@action": return Parser.actionToExplanation;
 								case "@sense": return Parser.senseToExplanation;
 							}
@@ -1128,6 +1126,13 @@ function Renderer () {
 							text: (displayText || name)
 						};
 						switch (tag) {
+							case "@advantage":
+								fauxEntry.href.path = "advantages.html";
+								fauxEntry.href.hover = {
+									page: "advantages.html"
+								};
+								this._recursiveRender(fauxEntry, textStack, meta);
+								break;
 							case "@condition":
 								fauxEntry.href.path = "conditions.html";
 								fauxEntry.href.hover = {
@@ -1135,7 +1140,20 @@ function Renderer () {
 								};
 								this._recursiveRender(fauxEntry, textStack, meta);
 								break;
-						
+							case "@effect":
+								fauxEntry.href.path = "powereffects.html";
+								fauxEntry.href.hover = {
+									page: "powereffects.html"
+								};
+								this._recursiveRender(fauxEntry, textStack, meta);
+								break;
+							case "@skill":
+								fauxEntry.href.path = "skills.html";
+								fauxEntry.href.hover = {
+									page: "skills.html"
+								};
+								this._recursiveRender(fauxEntry, textStack, meta);
+								break;
 						}
 
 						break;
@@ -1167,14 +1185,6 @@ function Renderer () {
 			}
 		} else if (entry.href.type === "external") {
 			href = entry.href.url;
-		}
-		// overwrite href if there's an available Roll20 handout/character
-		if (entry.href.hover && this._roll20Ids) {
-			const procHash = UrlUtil.encodeForHash(entry.href.hash);
-			const id = this._roll20Ids[procHash];
-			if (id) {
-				href = `http://journal.roll20.net/${id.type}/${id.roll20Id}`;
-			}
 		}
 
 		textStack[0] += `<a href="${href}" ${entry.href.type === "internal" ? "" : `target="_blank" rel="noopener"`} ${this._renderLink_getHoverString(entry)}>${this.render(entry.text)}</a>`;
@@ -1240,25 +1250,6 @@ Renderer.applyProperties = function (entry, object) {
 	return textStack;
 };
 Renderer.applyProperties._leadingAn = new Set(["a", "e", "i", "o", "u"]);
-
-Renderer.HOVER_TAG_TO_PAGE = {
-	"spell": UrlUtil.PG_SPELLS,
-	"item": UrlUtil.PG_ITEMS,
-	"creature": UrlUtil.PG_BESTIARY,
-	"condition": UrlUtil.PG_CONDITIONS_DISEASES,
-	"disease": UrlUtil.PG_CONDITIONS_DISEASES,
-	"background": UrlUtil.PG_BACKGROUNDS,
-	"race": UrlUtil.PG_RACES,
-	"optfeature": UrlUtil.PG_OPT_FEATURES,
-	"feat": UrlUtil.PG_FEATS,
-	"reward": UrlUtil.PG_REWARDS,
-	"psionic": UrlUtil.PG_PSIONICS,
-	"object": UrlUtil.PG_OBJECTS,
-	"cult": UrlUtil.PG_CULTS_BOONS,
-	"boon": UrlUtil.PG_CULTS_BOONS,
-	"trap": UrlUtil.PG_TRAPS_HAZARDS,
-	"hazard": UrlUtil.PG_TRAPS_HAZARDS
-};
 
 Renderer.splitFirstSpace = function (string) {
 	const firstIndex = string.indexOf(" ");
@@ -3656,27 +3647,11 @@ Renderer.stripTags = function (str) {
 						return parts[0];
 					}
 
-					case "@area":
-					case "@background":
-					case "@boon":
-					case "@class":
+					case "@advantage":
 					case "@condition":
-					case "@creature":
-					case "@cult":
-					case "@disease":
-					case "@feat":
-					case "@hazard":
-					case "@item":
-					case "@object":
-					case "@optfeature":
-					case "@psionic":
-					case "@race":
-					case "@reward":
-					case "@ship":
-					case "@spell":
-					case "@table":
-					case "@trap":
-					case "@variantrule": {
+					case "@skill":
+					case "@effect":
+					case "@modifier": {
 						const parts = text.split("|");
 						return parts.length >= 2 ? parts[1] : parts[0];
 					}
@@ -3817,7 +3792,48 @@ Renderer.general = {
 			case "special": return FMT(value);
 			default: return "";
 		};
+	},
+
+	getActionText: function (actions, isFullText){
+		if(typeof actions === "object")
+			return actions.map(action => isFullText? this._getActionFullText(action): this._getActionText(action)) .join(", ");
+		else{
+			return isFullText? this._getActionFullText(actions): this._getActionText(actions);
+		}
+	},
+	_getActionFullText: function (action){
+		switch(action){
+			case "S":
+			case "M":
+			case "F": return this._getActionText(action)+FMT("action_suffix");
+			default: return this._getActionText(action);
+		};
+	},
+	_getActionText: function (action){
+		switch(action){
+			case "S": return FMT("action_standard");
+			case "M": return FMT("action_move");
+			case "F": return FMT("action_free");
+			case "R": return FMT("action_reaction");
+			case "N": return FMT("none");
+			default: return "－";
+		};
+	},
+
+	getAbilityText: function(ability, isFull){
+		switch(ability){
+			case "Str": return isFull? FMT("ability_strength"): FMT("ability_str");
+			case "Sta": return isFull? FMT("ability_stamina"): FMT("ability_sta");
+			case "Agl": return isFull? FMT("ability_agility"): FMT("ability_agl");
+			case "Dex": return isFull? FMT("ability_dexterity"): FMT("ability_dex");
+			case "Fgt": return isFull? FMT("ability_fighting"): FMT("ability_ftg");
+			case "Int": return isFull? FMT("ability_intellect"): FMT("ability_int");
+			case "Awe": return isFull? FMT("ability_awareness"): FMT("ability_awe");
+			case "Pre": return isFull? FMT("ability_presence"): FMT("ability_pre");
+			default: return "－";
+		};
 	}
+
 }
 
 //=================================
@@ -3862,7 +3878,8 @@ Renderer.powereffect = {
 
 	getTypeFullText: function (type) { return Renderer.general.getTypeFullText(type); },
 	getCostText: function (cost){ return Renderer.general.getCostText(cost); },
-
+	getActionText: function (action){ return Renderer.general.getActionText(action); },
+	getActionFullText: function (action){ return Renderer.general.getActionText(action, true); },
 	//============
 	getInfoTr: function (entry, isFull) {
 		var action = this.getActionFullText(entry.action);
@@ -3928,24 +3945,6 @@ Renderer.powereffect = {
 		return outstack.join("");
 	},
 	
-	getActionText: function (action){
-		switch(action){
-			case "S": return FMT("action_standard");
-			case "M": return FMT("action_move");
-			case "F": return FMT("action_free");
-			case "R": return FMT("action_reaction");
-			case "N": return FMT("none");
-			default: return "－";
-		};
-	},
-	getActionFullText: function (action){
-		switch(action){
-			case "S":
-			case "M":
-			case "F": return this.getActionText(action)+FMT("action_suffix");
-			default: return this.getActionText(action);
-		};
-	},
 	getRangeText: function (range){
 		switch(range){
 			case "personal": return FMT("range_personal");
@@ -4015,5 +4014,30 @@ Renderer.condition = {
 			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
 		`);
 	},
+};
 
+Renderer.skill = {
+	getCompactRenderedString: function (entry) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
+
+		var subtitle_stack = [];
+		subtitle_stack.push(Renderer.skill.getAbilityText(entry.ability, true));
+		if(!entry.untrain) subtitle_stack.push(FMT("skill_trained_only"));
+		if(entry.interaction) subtitle_stack.push(FMT("skill_interaction"));
+		if(entry.manipulation) subtitle_stack.push(FMT("skill_manipulation"));
+		if(entry.tools) subtitle_stack.push(FMT("skill_requires_tools"));
+		
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			${Renderer.general.getTr( subtitle_stack.join(" • ") )}
+			<tr><td class="divider" colspan="6"><div></div></td></tr>
+			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+		`);
+	},
+
+	getActionText: function (action){ return Renderer.general.getActionText(action); },
+	getActionFullText: function (action){ return Renderer.general.getActionText(action, true); },
+	getAbilityText: function(abi, isFull){ return Renderer.general.getAbilityText(abi, isFull); }
 };

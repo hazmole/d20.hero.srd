@@ -7,7 +7,7 @@ const DATA_LIST_ITEM_ARR = ['name', 'type', "action", "range", "duration"];
 const DEFAULT_SORT = "type";
 const PAGE_LIST_CLASS = "powereffects";
 const PAGE_SUBLIST_CLASS = "subpowereffects";
-const IS_LOCAL_TEST = false;
+IS_LOCAL_TEST = false;
 
 // List item
 function getGeneralListItem (entry) {

@@ -2046,6 +2046,45 @@ RegExp.escape = function (string) {
 	return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
+Array.prototype.last = Array.prototype.last ||
+	function () {
+		return this[this.length - 1];
+	};
+
+Array.prototype.filterIndex = Array.prototype.filterIndex ||
+	function (fnCheck) {
+		const out = [];
+		this.forEach((it, i) => {
+			if (fnCheck(it)) out.push(i);
+		});
+		return out;
+	};
+
+Array.prototype.equals = Array.prototype.equals ||
+	function (that) {
+		if (!that) return false;
+		const len = this.length;
+		if (len !== that.length) return false;
+		for (let i = 0; i < len; ++i) {
+			if (this[i] !== that[i]) return false;
+		}
+		return true;
+	};
+
+Array.prototype.partition = Array.prototype.partition ||
+	function (fnIsValid) {
+		return this.reduce(([pass, fail], elem) => fnIsValid(elem) ? [[...pass, elem], fail] : [pass, [...fail, elem]], [[], []]);
+	};
+
+// FIXME remove polyfill after ~March 2019
+Array.prototype.flat = Array.prototype.flat ||
+	function () {
+		function flattenDeep (arr) {
+			return arr.reduce((acc, val) => Array.isArray(val) ? acc.concat(flattenDeep(val)) : acc.concat(val), []);
+		}
+		return flattenDeep(this);
+	};
+
 function noModifierKeys (e) {
 	return !e.ctrlKey && !e.altKey && !e.metaKey;
 }
@@ -2057,6 +2096,7 @@ UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
 		case "advantages.html": success_func(page, "advantages.json", "advantage"); break;
 		case "powereffects.html": success_func(page, "powereffects.json", "powereffect"); break;
 		case "conditions.html": success_func(page, "conditions.json", "condition"); break;
+		case "skills.html": success_func(page, "skills.json", "skill"); break;
 		default: return 1; 
 	}
 	return 0;
@@ -2066,6 +2106,7 @@ UrlUtil.PG_TO_RENDER_FUNC = function (page){
 		case "advantages.html": return Renderer.advantage.getCompactRenderedString;
 		case "powereffects.html": return Renderer.powereffect.getCompactRenderedString;
 		case "conditions.html": return Renderer.condition.getCompactRenderedString;
+		case "skills.html": return Renderer.skill.getCompactRenderedString;
 		default: return null; 
 	}
 };

@@ -7,7 +7,7 @@ const DATA_LIST_ITEM_ARR = ['name', 'type', "contain"];
 const DEFAULT_SORT = "type";
 const PAGE_LIST_CLASS = "conditions";
 const PAGE_SUBLIST_CLASS = "subconditions";
-const IS_LOCAL_TEST = false;
+IS_LOCAL_TEST = false;
 
 // List item
 function getGeneralListItem (entry) {
