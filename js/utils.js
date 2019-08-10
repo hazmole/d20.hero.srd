@@ -2037,10 +2037,10 @@ String.prototype.isNumeric = String.prototype.isNumeric ||
 	function () {
 		return !isNaN(parseFloat(this)) && isFinite(this);
 	};
-String.prototype.last = String.prototype.last ||
+/*String.prototype.last = String.prototype.last ||
 	function () {
 		return this[this.length - 1];
-	};
+	};*/
 
 RegExp.escape = function (string) {
 	return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
