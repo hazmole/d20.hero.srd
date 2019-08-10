@@ -2046,8 +2046,7 @@ RegExp.escape = function (string) {
 	return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
-Array.prototype.last = Array.prototype.last ||
-	function () {
+Array.prototype.last = function () {
 		return this[this.length - 1];
 	};
 
