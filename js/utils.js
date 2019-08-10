@@ -2051,31 +2051,6 @@ Array.prototype.last = Array.prototype.last ||
 		return this[this.length - 1];
 	};
 
-Array.prototype.filterIndex = Array.prototype.filterIndex ||
-	function (fnCheck) {
-		const out = [];
-		this.forEach((it, i) => {
-			if (fnCheck(it)) out.push(i);
-		});
-		return out;
-	};
-
-Array.prototype.equals = Array.prototype.equals ||
-	function (that) {
-		if (!that) return false;
-		const len = this.length;
-		if (len !== that.length) return false;
-		for (let i = 0; i < len; ++i) {
-			if (this[i] !== that[i]) return false;
-		}
-		return true;
-	};
-
-Array.prototype.partition = Array.prototype.partition ||
-	function (fnIsValid) {
-		return this.reduce(([pass, fail], elem) => fnIsValid(elem) ? [[...pass, elem], fail] : [pass, [...fail, elem]], [[], []]);
-	};
-
 // FIXME remove polyfill after ~March 2019
 Array.prototype.flat = Array.prototype.flat ||
 	function () {
