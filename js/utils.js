@@ -2045,11 +2045,11 @@ String.prototype.last = String.prototype.last ||
 RegExp.escape = function (string) {
 	return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
-
+/*
 Array.prototype.last = function () {
 		return this[this.length - 1];
 	};
-
+*/
 // FIXME remove polyfill after ~March 2019
 Array.prototype.flat = Array.prototype.flat ||
 	function () {
