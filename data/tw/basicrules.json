@@ -1,17 +1,17 @@
 {
 	"reference": {
-		"name": "Basic Rules",
+		"translate_name": "基本規則", "name": "Basic Rules",
 		"id": "basic",
 		"contents": [
 			{
-				"name": "Introduction",
+				"translate_name": "介紹", "name": "Introduction",
 				"headers": [
-					{ "name": "What You Need to Play" },
-					{ "name": "Using this Site" }
+					{ "translate_name": "遊玩所需的事物", "name": "What You Need to Play" },
+					{ "translate_name": "使用本站", "name": "Using this Site" }
 				]
 			},
 			{
-				"name": "The Basics",
+				"_translate_name": "基本規則", "name": "The Basics",
 				"headers": [
 					{ "name": "The Core Mechanic" },
 					{ "name": "The Gamemaster" },
@@ -26,7 +26,7 @@
 				]
 			},
 			{
-				"name": "Secret Origins",
+				"_translate_name": "秘密起源", "name": "Secret Origins",
 				"headers": [
 					{ "name": "Hero Archetypes" },
 					{ "name": "Hero Design" },
@@ -38,7 +38,7 @@
 				]
 			},
 			{
-				"name": "Abilities",
+				"_translate_name": "屬性", "name": "Abilities",
 				"headers": [
 					{ "name": "Ability Ranks" },
 					{ "name": "The Abilities" },
@@ -47,7 +47,7 @@
 				]
 			},
 			{
-				"name": "Skills",
+				"_name": "Skills",
 				"headers": [
 					{ "name": "Skill Basics" },
 					{ "name": "How Skills Work" },
@@ -55,14 +55,14 @@
 				]
 			},
 			{
-				"name": "Advantages",
+				"_translate_name": "優勢", "name": "Advantages",
 				"headers": [
 					{ "name": "Acquiring Advantages" },
 					{ "name": "Advantage Descriptions" }
 				]
 			},
 			{
-				"name": "Powers",
+				"_translate_name": "超能力", "name": "Powers",
 				"headers": [
 					{ "name": "Acquiring Powers" },
 					{ "name": "Effect Types" },
@@ -73,7 +73,7 @@
 				]
 			},
 			{
-				"name": "Gadgets & Gear",
+				"_translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 				"headers": [
 					{ "name": "Devices" },
 					{ "name": "Equipment" },
@@ -86,7 +86,7 @@
 				]
 			},
 			{
-				"name": "Action & Adventure",
+				"_translate_name": "動作＆冒險", "name": "Action & Adventure",
 				"headers": [
 					{ "name": "Action Rounds" },
 					{ "name": "Challenges" },
@@ -97,7 +97,7 @@
 				]
 			},
 			{
-				"name": "Gamemastering",
+				"_translate_name": "主持遊戲", "name": "Gamemastering",
 				"headers": [
 					{ "name": "Running the Game" },
 					{ "name": "Creating Adventures" },
@@ -111,42 +111,42 @@
 	"data": [
 		{
 			"type": "section",
-			"name": "Introduction",
+			"translate_name": "介紹", "name": "Introduction",
 			"entries": [
-				"In this game, you take on the role of a costumed superhero safeguarding the world from threats ranging from scheming super-criminals to alien invasions, hulking monsters, natural disasters, and would-be conquerors.",
-				"This site contains all the information you need to play the game. {@rule The Basics|basic|1} chapter starts you off with a quick overview of how the game works. After you read it, flip through the rest of the site and see the various options for creating heroes. Then you can read the following chapters thoroughly to see which options appeal to you the most.",
+				"在這個遊戲中，你將扮演造型獨特的超級英雄，挺身而出，保護世界免受各種各樣的威脅：從超級罪犯、外星入侵、魁梧巨獸、天然災害、到野心勃勃的潛在征服者。",
+				"這個網站記載了所有遊玩這個遊戲所需要的資料。從{@rule 基本規則|basic|1}章節開始，這個章節將以快速概要簡單說明遊戲運作的方式。在閱讀該章節之後，你可以翻閱這個網站中的其餘部分，看看創建英雄時可用的各種選項。接著，你可以仔細閱讀其餘章節，看看哪個選項最能勾起你的興趣。",
 				{
 					"type": "section",
-					"name": "What You Need to Play",
+					"translate_name": "遊玩所需的事物", "name": "What You Need to Play",
 					"entries": [
-						"Here’s what you need to start playing this game:",
+						"以下是你開始遊玩此遊戲所需要的事物：",
 						{
 							"type": "list",
 							"items":[
-								"This website, which contains all of the rules necessary to create a hero and play the game.",
-								"A character sheet (available on the Hero Resources page or via {@link https://www.mutantsandmasterminds.com}.)",
-								"A pencil and some paper.",
-								"At least one twenty-sided die, available from any game or hobby retailer. You may want to have one die for each player, or you can share dice.",
-								"Optionally, you may wish to have printed copies of the many Mutants & Masterminds books available from Green Ronin Publishing (but they are not required in order to play or run a game.)"
+								"這個網站，記載了你創建英雄和遊玩遊戲所需要的所有規則。",
+								"角色卡（可以在{@link https://www.mutantsandmasterminds.com}下載）。",
+								"一枝筆和幾張紙。",
+								"至少一個二十面骰，可以在桌遊店等商店中購買。你可能會希望讓每個玩家都有一個骰子，或者你們也可以共用一個。",
+								"可選，你可能會希望有幾本Green Ronin Publishing出版的《Mutants & Masterminds》規則書（但它們並非遊玩此遊戲所必須準備的事物）。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "The Dice",
+							"translate_name": "骰子", "name": "The Dice",
 							"entries": [
-								"This game uses a twenty-sided die to resolve actions during the game. References to “a die” or “the die” refer to a twenty-sided die unless stated otherwise. The die is often abbreviated “d20” (for twenty-sided die) or “1d20” (for one twenty-sided die). So a rule asking you to “roll d20” means, “roll a twenty-sided die.”",
+								"這個遊戲使用二十面骰以處理遊戲期間的各種行動。當提及「骰子」，除非另有說明，否則其都是指二十面骰。骰子通常會被簡寫成「d20」(代表二十面骰)或「1d20」(代表一顆二十面骰)。因此當規則要你「骰d20」時，意思就是「骰一顆二十面骰」。",
 								{
 									"type": "entries",
-									"name": "Modifiers",
+									"translate_name": "修正值", "name": "Modifiers",
 									"entries": [
-										"Sometimes modifiers to the die roll are specified like this: “d20+2,” meaning “roll the twenty-sided die and add two to the number rolled.” An abbreviation of “d20–4” means, “roll the die and subtract four from the result.”"
+										"有時候，加入擲骰檢定的修正值會被寫成像「d20+2」，意味著「骰二十面骰，並將擲骰結果加上二」。至於「d20-4」的簡寫，則代表著「擲骰並將結果減去四」。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Percentages",
+									"translate_name": "百分比機率", "name": "Percentages",
 									"entries": [
-										"You can also use the die to roll a percent chance of something in increments of 5% – just multiply the value of the die by 5 to get a percentage from 5% (a 1) to 100% (a 20). So if there’s a 45% chance of something, that’s a roll of 9 or less on the die."
+										"你也可以使用二十面骰模擬事件的百分比機率，以5%的幅度遞增──將擲骰的結果乘以5，便可以換算從5%（擲骰結果為1）到100%（擲骰結果為20）的機率。因此，若某件事有45%的機率，就代表著擲骰結果為9或更小的情況。"
 									]
 								}
 							]
@@ -155,28 +155,28 @@
 				},
 				{
 					"type": "section",
-					"name": "Using this Site",
+					"translate_name": "使用本站", "name": "Using this Site",
 					"entries": [
-						"The best way to use this site depends on whether you plan to be a player or Gamemaster in your game. The Gamemaster creates the world in which the heroes live and controls all non-player characters (NPCs) such as thugs, cops, and supervillains, as well as the supporting cast. Each player controls a superhero he or she has created, interacting with other player characters as well as with the world and stories created by the Gamemaster.",
+						"這個網站的最佳利用方式取決於你在遊戲中是要擔當玩家還是遊戲主持人。遊戲主持人負責創造英雄們所生活的世界，並控制所有的非玩家角色（NPCs），像是惡棍、警察、超級反派，以及其他配角。每個玩家則負責操控她或他所創建的超級英雄，與其他玩家角色、以及遊戲主持人所創造的世界和故事彼此互動。",
 						{
 							"type": "entries",
-							"name": "Players",
+							"translate_name": "玩家", "name": "Players",
 							"entries": [
-								"If you’re creating a hero for this game, see {@rule Secret Origins|basic|2} for a basic overview. The following sections contain all the information you need to create your own hero. You may want to consult with your Gamemaster before creating a hero to find out what sort of series your GM is interested in running, and what types of heroes are appropriate."
+								"若你正打算為這個遊戲創建一名英雄，參閱{@rule 秘密起源|basic|2}以查看基本概述。以下章節將囊括所有你創建屬於你自己的英雄所需要的資料。在創建英雄前，你可能會需要諮詢你的遊戲主持人以得知關於GM感興趣的遊戲調性，以及什麼類型的英雄較為適合。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Gamemasters",
+							"translate_name": "遊戲主持人", "name": "Gamemasters",
 							"entries": [
-								"If you plan to be a Gamemaster, you should familiarize yourself with this whole website. Start by looking over hero creation in the {@rule Secret Origins|basic|2} section. Then read through the {@rule Action & Adventure|basic|8} section, and familiarize yourself with how to do things in the game. You may want to run a few sample combats using the sample archetypes, just to get a feel for things."
+								"若你打算成為一名遊戲主持人，你將需要熟悉整個網站的內容。從關於英雄創建的{@rule 秘密起源|basic|2}章節開始閱讀，接著仔細閱讀{@rule 動作＆冒險|basic|8}章節，並讓自己熟悉要如何在遊戲中行事。你可能會需要使用範例的英雄範型運行幾場範例戰鬥，以親身體會規則的運行方式。"
 							]
 						},
 						{
 							"type": "inset",
-							"name": "Under the Hood",
+							"name": "幕後花絮",
 							"entries": [
-								"Throughout this website, you’ll find various Under the Hood boxes. They take a look “behind the scenes” at the logic underlying design decisions and rules, and offer advice on how to handle common problems or issues that might crop up. They give you an inside look at how the game works and how to ensure you and your group get the most out of it."
+								"在本站中，你會發現許多的「幕後花絮」邊攔。它們將會帶你一探這些規則和設計抉擇背後的邏輯，並提供一些如何處理常見問題和突發情況的建議。它們將使你能夠透析整個遊戲內部的運作原理，並教導你如何確保你和你的玩家們從中享有最大的樂趣。"
 							]
 						}
 					]
@@ -191,7 +191,7 @@
 				"Like all games, this one too has rules. This page looks at the basic rules of the game and how they work, giving you the foundation upon which the rest of the game is built.",
 				{
 					"type": "section",
-					"name": "The Core Mechanic",
+					"translate_name": "核心機制", "name": "The Core Mechanic",
 					"entries": [
 						"This game uses a standard, or “core,” game mechanic to resolve actions. Whenever a character attempts an action with a chance of failure, do the following:",
 						{
@@ -227,7 +227,7 @@
 						"The other players in a game create heroes, the main characters of their own adventures, like an ongoing comic book or animated series. As a player, you create your hero following these guidelines and the guidance of your Gamemaster. There are several components to creating a hero, described in detail in the linked pages, and outlined briefly below.",
 						{
 							"type": "entries",
-							"name": "Abilities",
+							"translate_name": "屬性", "name": "Abilities",
 							"entries": [
 								"All characters in this game, from heroes and villains to the average person on the street, are defined by eight {@b abilities}, basic traits each character has to a greater or lesser extent. Abilities tell you how strong, smart, and aware a character is, among other things. The abilities are: Strength, Stamina, Agility, Dexterity, Fighting, Intellect, Awareness, and Presence, described in detail on the {@rule Abilities|basic|3} chapter.",
 								"Each ability is assigned a {@b rank} from -5 to 20, measuring its effectiveness. A rank of 0 is unremarkable or average, applying no modifier. Rank 2 is pretty well above average. A 5 is truly exceptional, while a 7 is about the most that can be expected from a “normal” human being. Beyond that is superhuman, and a rank of 20 is cosmic-level, far beyond the ability of mere mortals (and even most heroes). abilities can even have negative ranks, for those well below average, as low as –5.",
@@ -236,7 +236,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Skills",
+							"translate_name": "技能", "name": "Skills",
 							"entries": [
 								"Abilities describe a character’s raw potential or overall capabilities. {@b Skills} are a refinement of those basic abilities into specific areas of endeavor. For example, Agility defines how quick and agile your hero is, but the Acrobatics skill focuses on specific feats of agility like gymnastics, doing back flips, and so forth. Think of abilities as providing a certain baseline, while skills focus in on a particular area of expertise.",
 								"Characters are said to have {@b training} in a skill if they have a rank in that skill. A character not trained in a skill has no rank; only the character’s basic ability applies to checks involving the skill. Trained characters have a skill rank that adds to the basic ability when making checks. In the previous example, we said Acrobatics skill applies to specific feats of agility. If a hero has Agility 6 and is trained in Acrobatics (with a rank of 7) then the character’s bonus for checks involving feats of agility covered by Acrobatics is 13 (6 plus 7). Obviously, training in a skill makes characters more effective at checks involving that skill, often much more.",
@@ -245,7 +245,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Advantages",
+							"translate_name": "優勢", "name": "Advantages",
 							"entries": [
 								"Halfway between skills and powers, {@b advantages} are minor benefits characters have, allowing them to do things others cannot. They range from special combat maneuvers to things like financial resources, contacts, and so forth.",
 								"Many advantages have no rank, or rather just one rank; a character either has the advantage (and the benefits that it grants) or does not. Other advantages may have multiple ranks, like abilities and skills, measuring their effectiveness.",
@@ -254,7 +254,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Powers",
+							"translate_name": "超能力", "name": "Powers",
 							"entries": [
 								"{@b Powers} are special abilities beyond those of ordinary human beings. They’re like advantages, only much more so. Whereas an advantage might give your hero a minor special ability, powers grant truly superhuman abilities.",
 								"Those abilities are based on {@b effects}, which describe what a power does in game terms. A power may have just one effect or several, and you can apply various {@b modifiers} to the effects to change how they work, customizing them to get just the right power.",
@@ -458,7 +458,7 @@
 						"Also like a comic book, a game consists of a series of interrelated {@b scenes}. Some scenes are fairly straightforward, with the heroes interacting with each other and the supporting cast. In these cases the GM generally just asks the players to describe what their heroes are doing and in turn describes how the other characters react and what they do. There may be some improvisational acting as everyone plays out the roles of their characters. When the action starts happening, such as when the heroes are staving off a disaster or fighting villains, time becomes more crucial and is broken down into {@b action rounds}, and the players generally have to make die rolls to see how their heroes do.",
 						{
 							"type": "entries",
-							"name": "Checks",
+							"translate_name": "檢定", "name": "Checks",
 							"entries": [
 								"Your hero stands perched on the rooftop, looking down through the skylight. In the abandoned warehouse below, the villain throws the switch that begins lowering your hero’s friends into the vat of boiling acid! You turn to the Gamemaster and say:",
 								{
@@ -536,7 +536,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Critical Success",
+									"translate_name": "大成功", "name": "Critical Success",
 									"entries": [
 										"If you roll a 20 on the die when making a check you’ve scored a {@b critical success}. Determine the degree of success normally and then increase it by one degree. This can turn a low-level success into something more significant, but more importantly, it can turn a failure into a full-fledged success! A critical success with an attack check is called a {@b critical hit}.",
 										"For more information regarding critical hits see {@rule Action & Adventure|basic|8|critical hits}."
@@ -544,15 +544,15 @@
 								},
 								{
 									"type": "entries",
-									"name": "Difficulty Class",
+									"translate_name": "難度等級", "name": "Difficulty Class",
 									"entries": [
 										"Checks are made against a {@b difficulty class} or {@b DC}, a number set by the GM, which your check must equal or exceed to achieve success. So for a task with a DC of 15 you must roll a check total of 15 or greater to succeed. In some cases, the results of a check vary based on how much higher or lower the result is than the DC, known as its {@b degree} of success or failure.",
 										{
 											"type": "table",
-											"caption": "Difficulty Classes",
+											"caption": "難度等級",
 											"colLabels": [
-												"Difficulty (DC)",
-												"Example (Skill Used)"
+												"難度(DC)",
+												"範例(使用技能)"
 											],
 											"colStyles": [
 												"col-5 text-align-center",
@@ -560,39 +560,39 @@
 											],
 											"rows": [
 												[
-													"Very easy (0)",
+													"非常容易 (0)",
 													"Notice something in plain sight (Perception)"
 												],
 												[
-													"Easy (5)",
+													"容易 (5)",
 													"Climb a knotted rope (Athletics)"
 												],
 												[
-													"Average (10)",
+													"平均 (10)",
 													"Hear an approaching security guard (Perception)"
 												],
 												[
-													"Tough (15)",
+													"困難 (15)",
 													"Disarm an explosive (Technology)"
 												],
 												[
-													"Challenging (20)",
+													"有挑戰性 (20)",
 													"Swim against a strong current (Athletics)"
 												],
 												[
-													"Formidable (25)",
+													"令人敬畏 (25)",
 													"Climb a wet, slippery rock-face (Athletics)"
 												],
 												[
-													"Heroic (30)",
+													"英雄 (30)",
 													"Overcome a sophisticated security system (Technology)"
 												],
 												[
-													"Super-heroic (35)",
+													"超級英雄 (35)",
 													"Convinces the guards, even though you’re not wearing an ID badge and aren’t on their list, they should let you into the building (Deception)"
 												],
 												[
-													"Nigh-impossible (40)",
+													"接近不可能 (40)",
 													"Track a trained commando through the jungle on a moonless night after 12 days of rainfall (Perception)"
 												]
 											]

@@ -269,8 +269,8 @@ const BookUtil = {
 			BookUtil.curRender.chapter = chapter;
 			BookUtil.renderArea.html("");
 
-			const chapterTitle = (fromIndex.contents[chapter] || {}).name;
-			document.title = `${chapterTitle ? `${chapterTitle} - ` : ""}${fromIndex.name} - 5etools`;
+			const chapterTitle = (fromIndex.contents[chapter] || {}).translate_name || (fromIndex.contents[chapter] || {}).name;
+			document.title = `${chapterTitle ? `${chapterTitle} - ` : ""}${fromIndex.translate_name? fromIndex.translate_name: fromIndex.name} - ${FMT("site_title")}`;
 
 			const goToPage = (mod) => {
 				const changeChapter = () => {
@@ -303,7 +303,7 @@ const BookUtil = {
 
 				const showPrev = ~chapter && chapter > 0;
 				(BookUtil.curRender.controls.$btnsPrv = BookUtil.curRender.controls.$btnsPrv || [])
-					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item"><span class="glyphicon glyphicon-chevron-left"></span>Previous</button>`)
+					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item"><span class="glyphicon glyphicon-chevron-left"></span>${FMT("book_prev")}</button>`)
 						.click(() => goToPage(-1))
 						.toggle(showPrev)
 						.appendTo($wrpControls));
@@ -313,14 +313,14 @@ const BookUtil = {
 						.appendTo($wrpControls));
 
 				if (isTop) {
-					$(`<button class="btn btn-xs btn-default ${~BookUtil.curRender.chapter ? "" : "active"}" title="Warning: Slow">View Entire ${BookUtil.contentType.uppercaseFirst()}</button>`).click(() => {
+					$(`<button class="btn btn-xs btn-default ${~BookUtil.curRender.chapter ? "" : "active"}" title="Warning: Slow">${FMT("book_view_entire")}</button>`).click(() => {
 						window.location.href = (~BookUtil.curRender.chapter ? BookUtil.thisContents.find(`.bk__contents_show_all`) : BookUtil.thisContents.find(`.bk__contents_header_link`)).attr("href");
 					}).appendTo($wrpControls);
-				} else $(`<button class="btn btn-xs btn-default">Back to Top</button>`).click(() => MiscUtil.scrollPageTop()).appendTo($wrpControls);
+				} else $(`<button class="btn btn-xs btn-default">${FMT("book_back_to_top")}</button>`).click(() => MiscUtil.scrollPageTop()).appendTo($wrpControls);
 
 				const showNxt = ~chapter && chapter < data.length - 1;
 				(BookUtil.curRender.controls.$btnsNxt = BookUtil.curRender.controls.$btnsNxt || [])
-					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item">Next<span class="glyphicon glyphicon-chevron-right"></span></button>`)
+					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item">${FMT("book_next")}<span class="glyphicon glyphicon-chevron-right"></span></button>`)
 						.click(() => goToPage(1))
 						.toggle(showNxt)
 						.appendTo($wrpControls));
@@ -470,9 +470,8 @@ const BookUtil = {
 
 			// Handle Content
 			const fromIndex = BookUtil.bookIndex.find(bk => UrlUtil.encodeForHash(bk.id) === UrlUtil.encodeForHash(bookId));
-			document.title = `${fromIndex.name}`+FMT("site_title");
+			document.title = `${fromIndex.translate_name? fromIndex.translate_name: fromIndex.name} - `+FMT("site_title");
 			$(`.book-head-header`).html(cleanName(fromIndex.name));
-			//$(`.book-head-message`).html("瀏覽內容。按下F以搜尋，按下G以前往指定頁數。");
 			BookUtil.showBookContent(data.data, fromIndex, bookId, hashParts);
 
 			//NavBar.highlightCurrentPage();

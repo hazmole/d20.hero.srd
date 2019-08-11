@@ -101,6 +101,10 @@
 "search_jk_navigate": "Press J/K to navigate rows.",
 "context_default_text": "Select a {0} from the list to view it here",
 "context_loading": "Loading...",
+"book_view_entire": "View Entire Document",
+"book_prev": "Previous",
+"book_next": "Next",
+"book_back_to_top": "Back to Top",
 
 "advantage": "advantage",
 "condition": "condition",

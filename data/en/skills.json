@@ -61,7 +61,7 @@
 					"type": "entries",
 					"name": "Maneuvering",
 					"entries": [
-						"You can make Acrobatics checks for various acrobatic stunts or maneuvers, from back flips to jumping over an opponent (to get behind them), flipping up onto a ledge, tumbling through obstacles, and so forth. The GM sets the DC. Success means you accomplish the maneuver, while failure means you do not, and two or more degrees of failure usually means you slip and end up prone (and may suffer additional effects, depending on the stunt). A successful acrobatic maneuver may provide you a circumstance bonus on certain follow-up actions, if the GM sees fit."
+						"You can make Acrobatics checks for various acrobatic stunts or maneuvers, from back flips to jumping over an opponent (to get behind them), flipping up onto a ledge, tumbling through obstacles, and so forth. The GM sets the DC. Success means you accomplish the maneuver, while failure means you do not, and two or more degrees of failure usually means you slip and end up {@condition prone} (and may suffer additional effects, depending on the stunt). A successful acrobatic maneuver may provide you a circumstance bonus on certain follow-up actions, if the GM sees fit."
 					]
 				},
 				{

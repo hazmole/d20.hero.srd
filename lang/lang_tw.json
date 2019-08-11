@@ -101,6 +101,10 @@
 "search_jk_navigate": "按下J/K以巡覽列。",
 "context_default_text": "從列表中選擇一個{0}以在此處檢視",
 "context_loading": "讀取中...",
+"book_view_entire": "檢視完整文件",
+"book_prev": "上一頁",
+"book_next": "下一頁",
+"book_back_to_top": "回到最頂",
 
 "advantage": "優勢",
 "condition": "異常狀態",

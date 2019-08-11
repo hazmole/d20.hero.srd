@@ -1,131 +1,131 @@
 {
 	"skill": [
 		{
-			"name": "Acrobatics",
+			"translate_name": "雜技", "name": "Acrobatics",
 			"ability": "Agl",
 			"untrain": false,
 			"action": [
 				"M", "F"
 			],
 			"entries": [
-				"Use Acrobatics to flip, dive, roll, tumble, and perform other acrobatic maneuvers, as well as keeping your balance under difficult circumstances.",
+				"使用雜技以進行空翻、俯衝、滾動、翻滾、展現其他雜技花招，以及在困難環境下保持你的平衡。",
 				{
 					"type": "entries",
-					"name": "Balancing",
+					"name": "平衡",
 					"entries": [
-						"You can keep your balance and move along a precarious surface at your ground speed minus 1 rank with a successful Acrobatics check against the surface’s DC. A degree of failure indicates you spend your move action just maintaining your balance and do not actually move, while two or more degrees of failure means you lose your balance and fall.",
-						"You are {@condition vulnerable} while balancing. If you accept a +5 increase to the Acrobatics DC, you are not {@condition vulnerable}.",
-						"If you fail a resistance check while balancing, make another immediate Acrobatics check against the original DC to avoid falling.",
+						"藉由成功通過一次對抗不穩固地面DC的雜技檢定，你可以保持平衡並以你地面速度-1級的速度沿著該表面移動。一個失敗度代表你將你的移動動作全數花費在維持你的平衡而不是實際的移動上，而二個或以上的失敗度則代表著你失去平衡並墜落。",
+						"你在保持平衡時處於{@condition 脆弱}狀態。若你接受在進行雜技檢定時使雜技的DC額外提升5點，則你不會因此陷入{@condition 脆弱}狀態。",
+						"若你在保持平衡時於一次抵抗檢定中失敗，則你必須立即進行一次對抗原本DC的雜技檢定以避免摔落。",
 						{
 							"type": "table",
-							"caption": "Balancing Difficulties",
+							"caption": "平衡難度",
 							"colLabels": [
 								"DC",
-								"Example Surface"
+								"範例地面"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["0", "A yard or more wide"],
-								["5", "Wide ledge (1-3 ft.)"],
-								["10", "Narrow ledge (less than 1 ft.)"],
-								["15", "Balance beam"],
-								["20", "Tightrope"]
+								["0", "一碼或更寬的地面"],
+								["5", "寬敞的壁架 (1-3 呎)"],
+								["10", "狹窄的壁架 (少於1 呎)"],
+								["15", "平衡木"],
+								["20", "繃緊的繩索"]
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Circumstance modifiers",
+							"caption": "環境修正值",
 							"colLabels": [
 								"DC",
-								"Example Surface"
+								"範例地面"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["+2", "Surface slightly slippery"],
-								["+5", "Surface very slippery"],
-								["+2", "Surface slightly uneven"],
-								["+5", "Surface very uneven or angled"],
-								["+5", "Move at your normal speed rank"],
-								["+5", "Not vulnerable while balancing"]
+								["+2", "略為滑溜的表面"],
+								["+5", "非常滑溜的表面"],
+								["+2", "略為崎嶇的表面"],
+								["+5", "非常崎嶇或有角度的表面"],
+								["+5", "以你正常的速度階級移動"],
+								["+5", "避免在保持平衡時因此陷入脆弱狀態"]
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Maneuvering",
+					"name": "雜技花招",
 					"entries": [
-						"You can make Acrobatics checks for various acrobatic stunts or maneuvers, from back flips to jumping over an opponent (to get behind them), flipping up onto a ledge, tumbling through obstacles, and so forth. The GM sets the DC. Success means you accomplish the maneuver, while failure means you do not, and two or more degrees of failure usually means you slip and end up prone (and may suffer additional effects, depending on the stunt). A successful acrobatic maneuver may provide you a circumstance bonus on certain follow-up actions, if the GM sees fit."
+						"你可以為了展現各種雜技花招以進行雜技檢定，從後空翻、到飛身躍過對手（以欺近他們身後）、翻身上梁、滾越障礙等等。GM將設定其DC。檢定成功代表你成功達成特技，檢定失敗則代表你沒能做到，而二個或以上的失敗度代表你失足並{@condition 臥倒}在地（且根據花招的內容，可能會因此承受額外的效果）。若GM覺得合適，一次成功的雜技花招可能會使你在接下來的某些行動中獲得環境加值。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Standing",
+					"name": "起身",
 					"entries": [
-						"You can make a DC 20 Acrobatics check to go from {@condition prone} to standing as a free action rather than a move action. A failed check means you remain {@condition prone}."
+						"你可以進行一次DC 20的雜技檢定，以透過一個自由動作而非移動動作來使自己從{@condition 臥倒}狀態中起身。檢定失敗代表著你仍維持{@condition 臥倒}。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tumbling",
+					"name": "翻滾",
 					"entries": [
-						"You can make an Acrobatics check (DC 5) to lessen damage from a fall, reducing the damage by 1 per degree. A fall reduced to rank 0 damage does no damage and you quickly roll to your feet as a free action. Otherwise, you are {@condition prone} at the end of a fall."
+						"你可以進行一次雜技檢定(DC 5)以減輕來自墜落的傷害，每一個成功度都可以減少1點傷害。被減輕至0級傷害的墜落將不會造成任何傷害，且你能夠以一個自由動作快速翻滾並以你的雙腳著地。除此之外的狀況，你將在墜落結束時陷入{@condition 臥倒}狀態。"
 					]
 				},
 				{
 					"type": "table",
-					"caption": "Acrobatics Difficulties",
+					"caption": "雜技難度",
 					"colLabels": [
 						"DC",
-						"Task"
+						"行動"
 					],
 					"colStyles": [
 						"col-3 text-align-center",
 						"col-9"
 					],
 					"rows": [
-						["5", "Lessen damage from a fall (–1 per degree)"],
-						["15", "Acrobatic maneuver"],
-						["20", "Move from prone to standing as a free action"],
-						["30", "Contort to fit through a tight space"]
+						["5", "減輕墜落傷害 (每一個成功度–1傷害)"],
+						["15", "雜技花招"],
+						["20", "以自由動作從臥倒狀態中起身"],
+						["30", "扭身以穿過狹窄的空間"]
 					]
 				}
 			]
 		},
 		{
-			"name": "Athletics",
+			"translate_name": "運動", "name": "Athletics",
 			"ability": "Str",
 			"untrain": true,
 			"action": "M",
 			"entries": [
-				"Use Athletics for physical feats like climbing, jumping, riding animal mounts, and swimming.",
+				"使用運動以進行體能特技，像是攀爬、跳躍、騎乘動物、和游泳。",
 				{
 					"type": "entries",
-					"name": "Climbing",
+					"name": "攀爬",
 					"entries": [
-						"With a successful Athletics check, you can climb along a slope, wall, or other steep incline at your ground speed rank minus 2 as a move action. A perfectly smooth, flat, vertical surface can’t be climbed without the Wall-crawling effect of {@effect Movement}.",
-						"A failed Athletics check indicates you make no progress, and two or more degrees of failure means you fall from whatever height you attained (unless you are secured with a safety harness or other equipment). Make an Athletics check to catch yourself (DC equal to the initial check + 10). Someone else within arm’s reach can also make an Athletics check to catch you with the same DC. If your attempt to catch someone else gets more than one degree of failure, you fall as well.",
-						"Since you can’t easily move to avoid attacks, you are {@condition vulnerable} while climbing unless you accept a +5 increase in the DC. Any time you fail a resistance check while climbing, make an immediate Athletics check against the DC of the climb. Failure means you fall.",
-						"At the GM’s discretion, certain kinds of climbing attempts might require tools like ropes, pitons, harness, and so forth. Attempting such a climb without tools incurs a –5 circumstance penalty.",
+						"透過一次成功的運動檢定，你能夠以一個移動動作並使用你地面速度-2級的速度沿著斜坡、牆壁、或其他傾斜表面移動。除非透過{@effect Movement}效果的攀牆效果，否則一個完全光滑平坦的垂直表面將無法被攀爬。",
+						"一次失敗的運動檢定代表你沒有任何進展，而二個或以上的失敗度則代表著你從當下所在的高度摔落（除非你受到安全索或其他裝備保護）。進行一次運動檢定以嘗試攀住表面以避免自己墜落（DC等同於一開始檢定的DC+10）。其他處於觸及範圍內的人也可以進行一次相同DC的運動檢定以嘗試抓住你。若你在嘗試抓住其他人的檢定中得到了超過一個失敗度，則你也將跟著一起摔落。",
+						"由於你將無法輕易移動以避開攻擊，除非你接受在進行運動檢定時使DC額外提升5點，否則你在攀爬期間將處於{@condition 脆弱}狀態。當你在攀爬期間於一次抵抗檢定中失敗，則你必須立即進行一次對抗攀爬DC的運動檢定。該檢定失敗代表著你將因此摔落。",
+						"根據GM的裁斷，某些類型的攀爬需要利用像是繩索、岩釘、和安全索之類的工具。在缺乏工具的情況下嘗試進行這類攀爬將會導致-5的環境罰值。",
 						{
 							"type": "entries",
-							"name": "Falling",
+							"name": "墜落",
 							"entries": [
 								"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. A fall with a damage rank of 0 or less, such as a fall of 6 feet or less, inflicts no damage. You are {@condition prone} at the end of a fall. You can use {@skill Acrobatics} to lessen the damage from a fall."
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Climbing Difficulties",
+							"caption": "攀爬難度",
 							"colLabels": [
 								"DC",
-								"Example Surface"
+								"範例表面"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
