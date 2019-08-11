@@ -22,7 +22,7 @@ class History {
 						handleUnknownHash(link, sub);
 						return;
 					} else {
-						History._freshLoad();
+						History._freshLoad(link);
 						return;
 					}
 				}
@@ -76,7 +76,7 @@ class History {
 	}
 
 	static _getListElem (link, getIndex) {
-		const toFind = `a[href="#${link.toLowerCase()}"], a[title="${decodeURIComponent(link.toLowerCase())}"]`;
+		const toFind = `a[href="#${link.toLowerCase()}"]`;
 		const listWrapper = $("#listcontainer");
 		if (listWrapper.data("lists")) {
 			for (let x = 0; x < listWrapper.data("lists").length; ++x) {
@@ -94,10 +94,37 @@ class History {
 		return undefined;
 	}
 
-	static _freshLoad () {
+	static _getListElemByTrans (link, getIndex) {
+		const toFind = `a[title="${decodeURIComponent(link.toLowerCase())}"]`;
+		const listWrapper = $("#listcontainer");
+		if (listWrapper.data("lists")) {
+			for (let x = 0; x < listWrapper.data("lists").length; ++x) {
+				const list = listWrapper.data("lists")[x];
+				for (let y = 0; y < list.items.length; ++y) {
+					const item = list.items[y];
+					const $elm = $(item.elm).find(toFind);
+					if ($elm[0]) {
+						if (getIndex) return {$el: $elm, x: x, y: y};
+						return $elm
+					}
+				}
+			}
+		}
+		return undefined;
+	}
+
+	static _freshLoad (link) {
 		// defer this, in case the list needs to filter first
 		setTimeout(() => {
-			const goTo = $("#listcontainer").find(".list a").attr('href');
+			const $em = History._getListElemByTrans(link);
+			var goTo;
+			if($em){
+				goTo = $em.attr('href');
+			}
+			else{
+				goTo = $("#listcontainer").find(".list a").attr('href');
+			}
+			
 			if (goTo) {
 				const parts = location.hash.split(HASH_PART_SEP);
 				const fullHash = `${goTo}${parts.length > 1 ? `${HASH_PART_SEP}${parts.slice(1).join(HASH_PART_SEP)}` : ""}`;
