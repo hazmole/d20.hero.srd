@@ -2027,30 +2027,25 @@ String.prototype.escapeQuotes = String.prototype.escapeQuotes ||
 	function () {
 		return this.replace(/'/g, `&singlequot;`).replace(/"/g, `&quot;`);
 	};
-
 String.prototype.unescapeQuotes = String.prototype.unescapeQuotes ||
 	function () {
 		return this.replace(/&singlequot;/g, "\'").replace(/&quot;/g, "\"");
 	};
-
 String.prototype.isNumeric = String.prototype.isNumeric ||
 	function () {
 		return !isNaN(parseFloat(this)) && isFinite(this);
 	};
-/*String.prototype.last = String.prototype.last ||
+String.prototype.last = String.prototype.last ||
 	function () {
 		return this[this.length - 1];
-	};*/
+	};
 
 RegExp.escape = function (string) {
 	return string.replace(/[-/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
-/*
 Array.prototype.last = function () {
 		return this[this.length - 1];
 	};
-*/
-// FIXME remove polyfill after ~March 2019
 Array.prototype.flat = Array.prototype.flat ||
 	function () {
 		function flattenDeep (arr) {

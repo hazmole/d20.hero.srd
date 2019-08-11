@@ -4,21 +4,21 @@
 			"name": "Accurate Attack",
 			"type": "C",
 			"entries": [
-				"When you make an accurate attack (see Maneuvers) you can take a penalty of up to –5 on the effect modifier of the attack and add the same number (up to +5) to your attack bonus."
+				"When you make an {@rule accurate attack|basic|8|accurate attack} (see Maneuvers) you can take a penalty of up to –5 on the effect modifier of the attack and add the same number (up to +5) to your attack bonus."
 			]
 		},
 		{
 			"name": "All-out Attack",
 			"type": "C",
 			"entries": [
-				"When you make an all-out attack (see Maneuvers) you can take a penalty of up to –5 on your active defenses (Dodge and Parry) and add the same number (up to +5) to your attack bonus."
+				"When you make an {@rule all-out attack|basic|8|all-out attack} (see Maneuvers) you can take a penalty of up to –5 on your active defenses (Dodge and Parry) and add the same number (up to +5) to your attack bonus."
 			]
 		},
 		{
 			"name": "Chokehold",
 			"type": "C",
 			"entries": [
-				"If you successfully grab and restrain an opponent (see Grab), you can apply a chokehold, causing your opponent to begin suffocating for as long as you continue to restrain your target (see Suffocation)."
+				"If you successfully grab and restrain an opponent (see {@rule Grab|basic|8|grab}), you can apply a chokehold, causing your opponent to begin suffocating for as long as you continue to restrain your target (see {@rule Suffocation|basic|8|suffocation})."
 			]
 		},
 		{
@@ -33,7 +33,7 @@
 			"name": "Defensive Attack",
 			"type": "C",
 			"entries": [
-				"When you make a defensive attack (see Maneuvers), you can take a penalty of up to –5 on your attack bonus and add the same number (up to +5) to both your active defenses (Dodge and Parry)."
+				"When you make a {@rule defensive attack|basic|8|defensive attack} (see Maneuvers), you can take a penalty of up to –5 on your attack bonus and add the same number (up to +5) to both your active defenses (Dodge and Parry)."
 			]
 		},
 		{
@@ -50,14 +50,14 @@
 			"type": "C",
 			"rank": 2,
 			"entries": [
-				"You have a +2 circumstance bonus to Dodge resistance checks to avoid area effects (see Area extra in Powers). If you have 2 ranks in this advantage, your circumstance bonus increases to +5."
+				"You have a +2 circumstance bonus to Dodge resistance checks to avoid area effects (see {@modifier Area} extra in Powers). If you have 2 ranks in this advantage, your circumstance bonus increases to +5."
 			]
 		},
 		{
 			"name": "Fast Grab",
 			"type": "C",
 			"entries": [
-				"When you hit with an unarmed attack you can immediately make a grab check against that opponent as a free action (see Grab). Your unarmed attack inflicts its normal damage and counts as the initial attack check required to grab your opponent."
+				"When you hit with an unarmed attack you can immediately make a grab check against that opponent as a free action (see {@rule Grab|basic|8|grab}). Your unarmed attack inflicts its normal damage and counts as the initial attack check required to grab your opponent."
 			]
 		},
 		{
@@ -71,14 +71,14 @@
 			"name": "Grabbing Finesse",
 			"type": "C",
 			"entries": [
-				"You can use your Dexterity bonus, rather than your Strength bonus, to make grab attacks. You are not vulnerable while grabbing. See Grab, for details. This is a good advantage for skilled unarmed combatants focused more on speed than strength."
+				"You can use your Dexterity bonus, rather than your Strength bonus, to make grab attacks. You are not {@condition vulnerable} while grabbing. See {@rule Grab|basic|8|grab}, for details. This is a good advantage for skilled unarmed combatants focused more on speed than strength."
 			]
 		},
 		{
 			"name": "Improved Aim",
 			"type": "C",
 			"entries": [
-				"You have an even keener eye when it comes to ranged combat. When you take a standard action to aim, you gain double the normal circumstance bonus: +10 for a close attack or ranged attack adjacent to the target, +5 for a ranged attack at a greater distance. See Aim for details."
+				"You have an even keener eye when it comes to ranged combat. When you take a standard action to aim, you gain double the normal circumstance bonus: +10 for a close attack or ranged attack adjacent to the target, +5 for a ranged attack at a greater distance. See {@rule Aim|basic|8|aim} for details."
 			]
 		},
 		{
@@ -93,21 +93,21 @@
 			"name": "Improved Defense",
 			"type": "C",
 			"entries": [
-				"When you take the defend action in combat (see Defend in Action & Adventure) you gain a +2 circumstance bonus to your active defense checks for the round."
+				"When you take the {@rule defend|basic|8|defend} action in combat you gain a +2 circumstance bonus to your active defense checks for the round."
 			]
 		},
 		{
 			"name": "Improved Disarm",
 			"type": "C",
 			"entries": [
-				"You have no penalty to your attack check when attempting to disarm an opponent and they do not get the opportunity to disarm you (see Disarm in Action & Adventure)."
+				"You have no penalty to your attack check when attempting to disarm an opponent and they do not get the opportunity to disarm you (see {@rule Disarm|basic|8|disarm})."
 			]
 		},
 		{
 			"name": "Improved Grab",
 			"type": "C",
 			"entries": [
-				"You can make grab attacks with only one arm, leaving the other free. You can also maintain the grab while using your other hand to perform actions. You are not vulnerable while grabbing (see Grabbing in Action & Adventure)."
+				"You can make grab attacks with only one arm, leaving the other free. You can also maintain the grab while using your other hand to perform actions. You are not {@condition vulnerable} while grabbing (see {@rule Grabbing|basic|8|grab})."
 			]
 		},
 		{
@@ -129,14 +129,14 @@
 			"name": "Improved Smash",
 			"type": "C",
 			"entries": [
-				"You have no penalty to attack checks to hit an object held by another character (see Smash in Action & Adventure)."
+				"You have no penalty to attack checks to hit an object held by another character (see {@rule Smash|basic|8|smash})."
 			]
 		},
 		{
 			"name": "Improved Trip",
 			"type": "C",
 			"entries": [
-				"You have no penalty to your attack check to trip an opponent and they do not get the opportunity to trip you. When making a trip attack, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics, you choose which your opponent uses to defend, rather than the target choosing (see Trip in Action & Adventure). This is a good martial arts advantage for unarmed fighters."
+				"You have no penalty to your attack check to trip an opponent and they do not get the opportunity to trip you. When making a trip attack, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics, you choose which your opponent uses to defend, rather than the target choosing (see {@rule Trip|basic|8|trip}). This is a good martial arts advantage for unarmed fighters."
 			]
 		},
 		{
@@ -158,7 +158,7 @@
 			"name": "Power Attack",
 			"type": "C",
 			"entries": [
-				"When you make a power attack (see Maneuvers) you can take a penalty of up to –5 on your attack bonus and add the same number (up to +5) to the effect bonus of your attack."
+				"When you make a {@rule power attack|basic|8|power attack} (see Maneuvers) you can take a penalty of up to –5 on your attack bonus and add the same number (up to +5) to the effect bonus of your attack."
 			]
 		},
 		{
@@ -173,7 +173,7 @@
 			"name": "Prone Fighting",
 			"type": "C",
 			"entries": [
-				"You suffer no circumstance penalty to attack checks for being prone, and adjacent opponents do not gain the usual circumstance bonus for close attacks against you."
+				"You suffer no circumstance penalty to attack checks for being {@condition prone}, and adjacent opponents do not gain the usual circumstance bonus for close attacks against you."
 			]
 		},
 		{
@@ -195,7 +195,7 @@
 			"name": "Redirect",
 			"type": "C",
 			"entries": [
-				"If you successfully trick an opponent (see Trick under Deception in Skills), you can redirect a missed attack against you from that opponent at another target as a reaction. The new target must be adjacent to you and within range of the attack. The attacker makes a new attack check with the same modifiers as the first against the new target."
+				"If you successfully trick an opponent (see Trick under {@skill Deception} in Skills), you can redirect a missed attack against you from that opponent at another target as a reaction. The new target must be adjacent to you and within range of the attack. The attacker makes a new attack check with the same modifiers as the first against the new target."
 			]
 		},
 		{
@@ -203,7 +203,7 @@
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You can transfer the benefits of a successful combat use of an interaction skill to your teammate(s). For example, you can feint and have your target vulnerable against one or more allies next attack(s), rather than yours. Each rank in the advantage lets you transfer the benefit to one ally. The interaction skill check requires its normal action, and the affected allies must be capable of interacting with you (or at least seeing the set-up) to benefit from it."
+				"You can transfer the benefits of a successful combat use of an interaction skill to your teammate(s). For example, you can {@rule feint|basic|8|feint} and have your target {@condition vulnerable} against one or more allies next attack(s), rather than yours. Each rank in the advantage lets you transfer the benefit to one ally. The interaction skill check requires its normal action, and the affected allies must be capable of interacting with you (or at least seeing the set-up) to benefit from it."
 			]
 		},
 		{
@@ -211,7 +211,7 @@
 			"type": "C",
 			"rank": 2,
 			"entries": [
-				"If you render a minion incapacitated with an attack, you get an immediate extra attack as a free action against another minion within range and adjacent to the previous target’s location. The extra attack is with the same attack and bonus as the first. You can continue using this advantage until you miss or there are no more minions within range of your attack or your last target.",
+				"If you render a minion {@condition incapacitated} with an attack, you get an immediate extra attack as a free action against another minion within range and adjacent to the previous target’s location. The extra attack is with the same attack and bonus as the first. You can continue using this advantage until you miss or there are no more minions within range of your attack or your last target.",
 				"A second rank in this advantage allows you to attack non-adjacent minion targets, moving between attacks if necessary to do so. You cannot move more than your total speed in the round, regardless of the number of attacks you make. You stop attacking once you miss, run out of movement, or there are no more minions within range of your attack."
 			]
 		},
@@ -220,28 +220,28 @@
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You have a +1 damage bonus with thrown weapons per rank in this advantage. You can also throw normally harmless objects—playing cards, pens, paper clips, and so forth—as weapons with a damage bonus equal to your advantage rank and range based on the higher of your advantage rank or Strength (see Ranged in Powers). Your maximum damage bonus with any given weapon or attack is still limited by power level."
+				"You have a +1 damage bonus with thrown weapons per rank in this advantage. You can also throw normally harmless objects—playing cards, pens, paper clips, and so forth—as weapons with a damage bonus equal to your advantage rank and range based on the higher of your advantage rank or Strength (see {@effect Ranged} in Powers). Your maximum damage bonus with any given weapon or attack is still limited by power level."
 			]
 		},
 		{
 			"name": "Uncanny Dodge",
 			"type": "C",
 			"entries": [
-				"You are especially attuned to danger. You are not vulnerable when surprised or otherwise caught off-guard. You are still made vulnerable by effects that limit your mobility."
+				"You are especially attuned to danger. You are not {@condition vulnerable} when {@condition surprised} or otherwise caught off-guard. You are still made {@condition vulnerable} by effects that limit your mobility."
 			]
 		},
 		{
 			"name": "Weapon Bind",
 			"type": "C",
 			"entries": [
-				"If you take the defend action (see Defend in Action & Adventure) and successfully defend against a close weapon attack, you can make a disarm attempt against the attacker immediately as a reaction. The disarm attempt is carried out normally, including the attacker getting the opportunity to disarm you."
+				"If you take the {@rule defend|basic|8|defend} action and successfully defend against a close weapon attack, you can make a {@rule disarm|basic|8|disarm} attempt against the attacker immediately as a reaction. The disarm attempt is carried out normally, including the attacker getting the opportunity to disarm you."
 			]
 		},
 		{
 			"name": "Weapon Break",
 			"type": "C",
 			"entries": [
-				"If you take the defend action (see Defend in Action & Adventure) and successfully defend against a close weapon attack, you can make an attack against the attacker’s weapon immediately as a reaction. This requires an attack check and inflicts normal damage to the weapon if it hits (see Smash in Action & Adventure)."
+				"If you take the {@rule defend|basic|8|defend} action and successfully defend against a close weapon attack, you can make an attack against the attacker’s weapon immediately as a reaction. This requires an attack check and inflicts normal damage to the weapon if it hits (see {@rule Smash|basic|8|smash} in Action & Adventure)."
 			]
 		},
 		{
@@ -263,7 +263,7 @@
 			"name": "Leadership",
 			"type": "F",
 			"entries": [
-				"Your presence reassures and lends courage to your allies. As a standard action, you can spend a Victory point to remove one of the following conditions from an ally with whom you can interact: dazed, fatigued, or stunned."
+				"Your presence reassures and lends courage to your allies. As a standard action, you can spend a Victory point to remove one of the following conditions from an ally with whom you can interact: {@condition dazed}, {@condition fatigued}, or {@condition stunned}."
 			]
 		},
 		{
@@ -294,9 +294,9 @@
 						{
 							"type": "list",
 							"items": [
-								"Ultimate Aim: When you take a standard action to aim an attack (see Aim), you can spend a hero point to apply a 20 result to the attack check on the following round. Since the Ultimate Aim bonus is not a natural 20, it also does not qualify as an automatic or critical hit.",
-								"Ultimate Resistance: You can spend a hero point to apply a 20 result to a resistance check with one defense determined when you acquire this advantage.",
-								"Ultimate Skill: You can spend a hero point to apply a 20 result to checks with a particular skill."
+								"{@b Ultimate Aim}: When you take a standard action to aim an attack (see Aim), you can spend a hero point to apply a 20 result to the attack check on the following round. Since the Ultimate Aim bonus is not a natural 20, it also does not qualify as an automatic or critical hit.",
+								"{@b Ultimate Resistance}: You can spend a hero point to apply a 20 result to a resistance check with one defense determined when you acquire this advantage.",
+								"{@b Ultimate Skill}: You can spend a hero point to apply a 20 result to checks with a particular skill."
 							]
 						}
 					]
@@ -317,7 +317,7 @@
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have some significant perquisite or fringe benefit. The exact nature of the benefit is for you and the Gamemaster to determine. As a rule of thumb it should not exceed the benefits of any other advantage, or a power effect costing 1 point (see Feature in Powers). It should also be significant enough to cost at least 1 Character point. An example is Diplomatic Immunity (see Sample Benefits). A license to practice law or medicine, on the other hand, should not be considered a Benefit; it’s simply a part of having training in the appropriate Expertise skill and has no significant game effect.",
+				"You have some significant perquisite or fringe benefit. The exact nature of the benefit is for you and the Gamemaster to determine. As a rule of thumb it should not exceed the benefits of any other advantage, or a power effect costing 1 point (see {@effect Feature} in Powers). It should also be significant enough to cost at least 1 Character point. An example is Diplomatic Immunity (see Sample Benefits). A license to practice law or medicine, on the other hand, should not be considered a Benefit; it’s simply a part of having training in the appropriate Expertise skill and has no significant game effect.",
 				"Benefits may come in ranks for improved levels of the same benefit. The GM is the final arbiter as to what does and does not constitute a Benefit in the setting. Keep in mind some qualities may constitute Benefits in some series, but not in others, depending on whether or not they have any real impact on the game.",
 				{
 					"type": "entries",
@@ -344,7 +344,7 @@
 			"name": "Diehard",
 			"type": "G",
 			"entries": [
-				"When your condition becomes dying (see Conditions in Action & Adventure) you automatically stabilize on the following round without any need for a Stamina check, although further damage—such as a finishing attack—can still kill you."
+				"When your condition becomes {@condition dying} you automatically stabilize on the following round without any need for a Stamina check, although further damage—such as a finishing attack—can still kill you."
 			]
 		},
 		{
@@ -359,28 +359,28 @@
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have 5 points per rank in this advantage to spend on equipment. This includes vehicles and headquarters. See Gadgets & Gear for details on equipment and its costs. Many heroes rely almost solely on Equipment in conjunction with their skills and other advantages."
+				"You have 5 points per rank in this advantage to spend on equipment. This includes vehicles and headquarters. See {@rule Gadgets & Gear|basic|7} for details on equipment and its costs. Many heroes rely almost solely on Equipment in conjunction with their skills and other advantages."
 			]
 		},
 		{
 			"name": "Extraordinary Effort",
 			"type": "G",
 			"entries": [
-				"When using extra effort (see Extra Effort in The Basics), you can gain two of the listed benefits, even stacking two of the same type of benefit. However, you also double the cost of the effort; you’re exhausted starting the turn after your extraordinary effort. If you are already fatigued, you are incapacitated. If you are already exhausted, you cannot use extraordinary effort. Spending a Victory point at the start of your next turn reduces the cost of your extraordinary effort to merely fatigued, the same as a regular extra effort."
+				"When using extra effort (see {@rule Extra Effort|basic|1|extra effort}  in The Basics), you can gain two of the listed benefits, even stacking two of the same type of benefit. However, you also double the cost of the effort; you’re exhausted starting the turn after your extraordinary effort. If you are already fatigued, you are incapacitated. If you are already exhausted, you cannot use extraordinary effort. Spending a Victory point at the start of your next turn reduces the cost of your extraordinary effort to merely fatigued, the same as a regular extra effort."
 			]
 		},
 		{
 			"name": "Fearless",
 			"type": "G",
 			"entries": [
-				"You are immune to fear effects of all sorts, essentially the same as an Immunity to Fear effect (see Immunity in Powers)."
+				"You are immune to fear effects of all sorts, essentially the same as an Immunity to Fear effect (see {@effect Immunity} in Powers)."
 			]
 		},
 		{
 			"name": "Instant Up",
 			"type": "G",
 			"entries": [
-				"You can go from prone to standing as a free action without the need for an Acrobatics skill check."
+				"You can go from {@condition prone} to standing as a free action without the need for an Acrobatics skill check."
 			]
 		},
 		{
@@ -395,7 +395,7 @@
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have a follower or minion. This minion is an independent character with a Character point total of (advantage rank x 15). Minions are subject to the normal power level limits, and cannot have minions themselves. Your minions (if capable of independent thought) automatically have a helpful attitude toward you. They are subject to the normal rules for minions (see Minions).",
+				"You have a follower or minion. This minion is an independent character with a Character point total of (advantage rank x 15). Minions are subject to the normal power level limits, and cannot have minions themselves. Your minions (if capable of independent thought) automatically have a helpful attitude toward you. They are subject to the normal rules for minions (see {@rule Minions|basic|8|minions}).",
 				"Minions do not earn Character points. Instead, you must spend earned Character points to increase your rank in this advantage to improve the minion’s Character point total and traits. Minions also do not have Victory points. Any lost minions are replaced in between adventures with other followers with similar abilities at the Gamemaster’s discretion."
 			]
 		},
@@ -420,21 +420,21 @@
 			"name": "Teamwork",
 			"type": "G",
 			"entries": [
-				"You’re effective at helping out your friends. When you support a team check (see Team Checks in The Basics) you have a +5 circumstance bonus to your check. This bonus also applies to the Aid action and Team Attacks."
+				"You’re effective at helping out your friends. When you support a team check (see {@rule Team Checks|basic|1|team checks} in The Basics) you have a +5 circumstance bonus to your check. This bonus also applies to the {@rule Aid|basic|8|aid} action and {@rule Team Attacks|basic|team attack}."
 			]
 		},
 		{
 			"name": "Trance",
 			"type": "G",
 			"entries": [
-				"Through breathing and bodily control, you can slip into a deep trance. This takes a minute of uninterrupted meditation and a DC 15 Awareness check. While in the trance you add your Awareness rank to your Stamina rank to determine how long you can hold your breath and you use the higher of your Fortitude or Will defenses for resistance checks against suffocation (see Suffocation). Poison and disease effects are suspended for the duration of the trance. It requires a Perception check with a DC equal to your Awareness check result to determine you’re not dead because your bodily functions are so slow. You are aware of your surroundings while in trance and can come out of it at any time at will. You cannot take any actions while in the trance, but your GM may allow mental communication while in a trance."
+				"Through breathing and bodily control, you can slip into a deep trance. This takes a minute of uninterrupted meditation and a DC 15 Awareness check. While in the trance you add your Awareness rank to your Stamina rank to determine how long you can hold your breath and you use the higher of your Fortitude or Will defenses for resistance checks against suffocation (see {@rule Suffocation|basic|8|suffocation}). Poison and disease effects are suspended for the duration of the trance. It requires a Perception check with a DC equal to your Awareness check result to determine you’re not dead because your bodily functions are so slow. You are aware of your surroundings while in trance and can come out of it at any time at will. You cannot take any actions while in the trance, but your GM may allow mental communication while in a trance."
 			]
 		},
 		{
 			"name": "Agile Feint",
 			"type": "S",
 			"entries": [
-				"You can use your Acrobatics bonus or movement speed rank in place of Deception to feint and trick in combat as if your skill bonus or speed rank were your Deception bonus (see the Deception skill description). Your opponent opposes the attempt with Acrobatics or Insight (whichever is better)."
+				"You can use your {@skill Acrobatics} bonus or movement speed rank in place of {@skill Deception} to feint and trick in combat as if your skill bonus or speed rank were your Deception bonus (see the Deception skill description). Your opponent opposes the attempt with Acrobatics or Insight (whichever is better)."
 			]
 		},
 		{
@@ -448,7 +448,7 @@
 			"name": "Artificer",
 			"type": "S",
 			"entries": [
-				"You can use the Expertise (Magic) skill to create temporary magical devices. See Inventing, page 146, for details."
+				"You can use the Expertise (Magic) skill to create temporary magical devices. See {@rule Inventing|basic|7|inventing} for details."
 			]
 		},
 		{
@@ -479,7 +479,7 @@
 			"type": "S",
 			"rank": 2,
 			"entries": [
-				"You can make a Deception or Intimidation check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, Insight, or Will defense, whichever has the highest bonus). If you win, your target is dazed (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
+				"You can make a Deception or Intimidation check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, Insight, or Will defense, whichever has the highest bonus). If you win, your target is {@condtion dazed} (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
 			]
 		},
 		{
@@ -488,7 +488,7 @@
 			"rank": true,
 			"entries": [
 				"One of your interaction skills is so effective you can capture and hold other’s attention with it. Choose Deception, Intimidation, or Persuasion when you acquire this advantage. You can also use Fascinate with an appropriate Expertise skill, like musician or singer, at the GM’s discretion.",
-				"You are subject to the normal guidelines for interaction skills, and combat or other immediate danger makes this advantage ineffective. Take a standard action and make an interaction skill check against your target’s opposing check (Insight or Will defense). If you succeed, the target is entranced. You can maintain the effect with a standard action each round, giving the target a new resistance check. The effect ends when you stop performing, the target successfully resists, or any immediate danger presents itself. Like all interaction skills, you can use Fascinate on a group, but you must affect everyone in the group in the same way.",
+				"You are subject to the normal guidelines for interaction skills, and combat or other immediate danger makes this advantage ineffective. Take a standard action and make an interaction skill check against your target’s opposing check (Insight or Will defense). If you succeed, the target is {@condition entranced}. You can maintain the effect with a standard action each round, giving the target a new resistance check. The effect ends when you stop performing, the target successfully resists, or any immediate danger presents itself. Like all interaction skills, you can use Fascinate on a group, but you must affect everyone in the group in the same way.",
 				"You may take this advantage more than once. Each time, it applies to a different skill."
 			]
 		},
@@ -503,7 +503,7 @@
 			"name": "Hide in Plain Sight",
 			"type": "S",
 			"entries": [
-				"You can hide (see Hiding under Stealth in Skills) without any need for a Deception or Intimidation check or any sort of diversion, and without penalty to your Stealth check. You’re literally there one moment, and gone the next. You must still have some form of cover or concealment within range of your normal movement speed in order to hide."
+				"You can hide (see Hiding under {@skill Stealth} in Skills) without any need for a Deception or Intimidation check or any sort of diversion, and without penalty to your Stealth check. You’re literally there one moment, and gone the next. You must still have some form of cover or concealment within range of your normal movement speed in order to hide."
 			]
 		},
 		{
@@ -517,7 +517,7 @@
 			"name": "Inventor",
 			"type": "S",
 			"entries": [
-				"You can use the Technology skill to create inventions. See Inventing for details."
+				"You can use the Technology skill to create inventions. See {@rule Inventing|basic|7|inventing} for details."
 			]
 		},
 		{
@@ -533,7 +533,7 @@
 			"rank": true,
 			"entries": [
 				"You can speak and understand additional languages. With one rank in this advantage, you know an additional language. For each additional rank, you double your additional known languages: two at rank 2, four at rank 3, eight at rank 4, etc. So a character with Languages 7 is fluent in 64 languages! Characters are assumed to be fluent in any languages they know, including being able to read and write in them.",
-				"For the ability to understand any language, see Comprehend effect in Powers.",
+				"For the ability to understand any language, see {@effect Comprehend} effect in Powers.",
 				{
 					"type": "inset",
 					"name": "Literacy",
@@ -554,35 +554,35 @@
 			"name": "Ritualist",
 			"type": "S",
 			"entries": [
-				"You can use the Expertise: Magic skill to create and cast magical rituals (see Magic Rituals). This advantage is often a back-up or secondary magical power for superhuman sorcerers, and may be the only form of magic available to some “dabbler” types."
+				"You can use the Expertise: Magic skill to create and cast magical rituals (see {@rule Magic Rituals|basic|7|magical rituals}). This advantage is often a back-up or secondary magical power for superhuman sorcerers, and may be the only form of magic available to some “dabbler” types."
 			]
 		},
 		{
 			"name": "Skill Mastery",
 			"type": "S",
 			"entries": [
-				"Choose a skill. You can make routine checks with that skill even when under pressure (see Routine Checks in The Basics). This advantage does not allow you to make routine checks with skills that do not normally allow you to do so. You can take this advantage multiple times for different skills."
+				"Choose a skill. You can make routine checks with that skill even when under pressure (see {@rule Routine Checks|basic|1|routine checks} in The Basics). This advantage does not allow you to make routine checks with skills that do not normally allow you to do so. You can take this advantage multiple times for different skills."
 			]
 		},
 		{
 			"name": "Startle",
 			"type": "S",
 			"entries": [
-				"You can use Intimidation rather than Deception to feint in combat (see Feint under the Deception Skill description). Targets resist with Insight, Intimidation, or Will defense."
+				"You can use Intimidation rather than Deception to feint in combat (see Feint under the {@skill Deception} Skill description). Targets resist with Insight, Intimidation, or Will defense."
 			]
 		},
 		{
 			"name": "Taunt",
 			"type": "S",
 			"entries": [
-				"You can demoralize an opponent with Deception rather than Intimidation (see Demoralize use of Intimidation Skill), disparaging and undermining confidence rather than threatening. Targets resist using Deception, Insight, or Will defense."
+				"You can demoralize an opponent with Deception rather than Intimidation (see Demoralize use of {@skill Intimidation} Skill), disparaging and undermining confidence rather than threatening. Targets resist using Deception, Insight, or Will defense."
 			]
 		},
 		{
 			"name": "Tracking",
 			"type": "S",
 			"entries": [
-				"You can use the Perception skill to visually follow tracks like the Tracking Senses effect (see Powers)."
+				"You can use the Perception skill to visually follow tracks like the {@effect Sense|Tracking Senses} effect (see Powers)."
 			]
 		},
 		{

@@ -95,6 +95,7 @@ class History {
 	}
 
 	static _getListElemByTrans (link, getIndex) {
+		if(!link) return undefined;
 		const toFind = `a[title="${decodeURIComponent(link.toLowerCase())}"]`;
 		const listWrapper = $("#listcontainer");
 		if (listWrapper.data("lists")) {

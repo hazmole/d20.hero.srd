@@ -154,6 +154,7 @@ function Renderer () {
 	 */
 	this.recursiveRender = function (entry, textStack, meta) {
 		// respect the API of the original, but set up for using string concatenations
+		if (typeof entry === 'function') return ;
 		if (textStack.length === 0) textStack[0] = "";
 		else textStack.reverse();
 
