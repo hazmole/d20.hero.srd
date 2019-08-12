@@ -1,7 +1,7 @@
 {
 	"powereffect": [
 		{
-			"name": "Affliction",
+			"translate_name": "詛咒", "name": "Affliction",
 			"type": "ATK",
 			"action": "S",
 			"range": "close",
@@ -11,58 +11,58 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can impose some debilitating condition or conditions on a target by making a close attack. You set the conditions your Affliction causes at each degree when you acquire it and they may not be changed. Higher degree conditions replace lower degree conditions and do not stack with them. See the possible conditions for each degree under the Affliction Resistance Check table. The target resists with Fortitude or Will defense (chosen when you take the effect):",
+				"你可以透過進行一次近戰攻擊將一個或多個使人衰弱的狀態強加在一個目標身上。你在獲得這個效果時，設定你的詛咒效果每一個程度所將造成的狀態。高程度的狀態將會取代低程度的狀態，且不會彼此疊加。參見下方的詛咒抵抗檢定表以查看每個程度各自所能造成的狀態。目標將使用韌性或意志防禦進行抵抗（當你在獲得這個效果時選擇要用何者抵抗）：",
 				{
 					"type": "insetResistCheck",
-					"name": "Affliction Resistance Check",
-					"func": "Fortitude or Will vs. DC [Affliction rank + 10]",
+					"name": "詛咒抵抗檢定",
+					"func": "韌性 或 意志 vs. DC [詛咒等級 + 10]",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"{@b Success}: No effect.",
-								"{@b Failure (one degree)}: The target is dazed, entranced, fatigued, hindered, impaired, or vulnerable (choose one). Potential descriptors include coughing or sneezing, creeping mental influence, drowsiness, euphoria, fear, itchiness, lethargy, nausea, pain, or tipsiness.",
-								"{@b Failure (two degrees)}: The target is compelled, defenseless, disabled, exhausted, immobile, prone, or stunned (choose one). Potential descriptors include agonizing pain, confusion, ecstasy, momentary emotional or mental influence, paralysis, seizure, terror, or vomiting.",
-								"{@b Failure (three degrees)}: The target is asleep, controlled, incapacitated, paralyzed, transformed or unaware (choose one)."
+								"{@b 成功}: 沒有任何效果。",
+								"{@b 失敗(程度一)}: 目標陷入{@condition 目眩}、{@condition 魅惑}、{@condition 疲勞}、{@condition 移動受阻}、{@condition 行動乏能}、或{@condition 脆弱}狀態（擇一）。一些可能的描述符包括了咳嗽或噴嚏、緩慢的心靈影響、昏昏欲睡、興奮、恐懼、發癢、無精打采、噁心、痛苦、或醺醉。",
+								"{@b 失敗(程度二)}: 目標陷入{@condition 受迫}、{@condition 無防備}、{@condition 行動障礙}、{@condition 力竭}、{@condition 無法移動}、{@condition 臥倒}、或{@condition 暈眩}狀態（擇一）。一些可能的描述符包括了極度的痛苦、困惑、出神、暫時性的情緒或心靈影響、癱瘓、奪佔、驚懼、或嘔吐。",
+								"{@b 失敗(程度三)}: 目標陷入{@condition 沉睡}、{@condition 受控}、{@condition 失能}、{@condition 麻痺}、{@condition 被變化}、或{@condition 感官喪失}狀態（擇一）。"
 							]
 						}
 					]
 				},
-				"The target of an Affliction makes a resistance check at the end of each of his turns to remove first and second degree conditions. Third degree conditions require a minute of recovery time or outside aid, such as the Treatment skill or Healing effect (DC 10 + rank).",
-				"The exact nature and descriptors of the Affliction are up to you, chosen when you acquire the effect, with the GM’s approval; some examples are provided, but feel free to make up your own."
+				"詛咒效果的目標可以在它的每個回合結束時進行一次抵抗檢定，以嘗試解除程度一和程度二的狀態。程度三的狀態需要花費一分鐘的回復時間或仰賴外在的協助，像是{@skill 治療}技能或是{@effect Healing}效果（DC等同10 + 詛咒等級）。",
+				"這個詛咒的本質和描述符由你決定，且必須在你獲得這個效果時於GM的同意下決定；上面提供了一些範例，但你仍可以自由決定屬於你自己的描述符。"
 			],
 			"extras": [
 				{
-					"name": "Alternate Resistance",
-					"entries": ["Some Afflictions may be initially resisted by Dodge, representing the need for quick reaction time or reflexes to avoid the effect. In this case, the later resistance checks to remove the Affliction’s conditions are typically still based on Fortitude or Will. For example, a target might make a Dodge check to avoid a blinding light or spray of liquid, but a Fortitude check to eliminate the effect if the initial Dodge fails."],
+					"name": "替換抵抗",
+					"entries": ["有些詛咒效果一開始可能會透過閃避來抵抗，代表可以透過迅捷反應或反射神經以避免其效果。在這種情況下，之後用以解除詛咒造成的狀態時所進行的抵抗檢定仍是基於韌性或意志。舉例來說，目標可能會進行一次閃避檢定以躲避一陣致盲射線或噴濺毒液，但若他在一開始的閃避檢定中失敗，那麼他仍需要透過韌性檢定才能消除這個效果的影響。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "Concentration",
-					"entries": ["Once you have hit with a Concentration Affliction, so long as you continue to take a standard action each turn to maintain the effect, the target must make a new resistance check against it, with no attack check required."],
+					"name": "專注",
+					"entries": ["一旦你使用專注詛咒命中目標，則只要你持續在每個回合採取一個標準動作以維持這個效果，你將不需要再進行攻擊檢定，就可以讓目標必須再進行一次新的抵抗檢定以對抗這個效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Cumulative",
-					"entries": ["Normally, an Affliction does not have a cumulative effect on the same target, so getting two results of one degree, one after the other, has no more or less effect than a single one degree result; you have to get a higher degree with a later attack, which replaces the initial result. A Cumulative Affliction adds any further degrees to the existing degrees on the target. For example, if you hit a target and impose a vulnerable condition (one degree), then attack again and get one degree on the effect, you impose the Affliction’s second degree condition."],
+					"name": "累積",
+					"entries": ["原本，一個詛咒不會對同一個目標造成可累積的效果，因此連續對同一個目標造成兩次程度一的結果，並不會導致比一次程度一結果更多的效用；你必須在之後的攻擊中造成更高程度的結果，才能夠取代一開始造成的結果。然而，累積詛咒可以使目標標身上的詛咒程度得以累加。舉例來說，若你命中一個目標並造成{@condition 脆弱}狀態（程度一），接著，再次攻擊並再次得到程度一的結果，則你將對目標強加該詛咒程度二的狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Extra Condition",
+					"name": "額外狀態",
 					"entries": ["Your Affliction imposes an additional condition per degree of success. So with one application of this extra, your Affliction imposes two conditions—such as dazed and hindered, or impaired and vulnerable—rather than just one. With two applications, it imposes three conditions, and so forth. Since mutually incompatible conditions are largely wasted, Afflictions with this extra often have the Limited Degree flaw as well."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Progressive",
-					"entries": ["This modifier causes an Affliction to increase incrementally without any effort from you. If the target fails a resistance check to end the Affliction, it not only persists, but increases in effect by one degree! So a target affected by the first degree of a Progressive Affliction who fails to resist progresses to the second degree of the effect at the start of his next round. A successful resistance check still ends the Affliction, as usual."],
+					"name": "惡化",
+					"entries": ["這個修飾符將使你不需要再額外做什麼，就能讓詛咒逐步惡化。若目標在用以解除詛咒效果的抵抗檢定中失敗，則其效果不僅將持續存在，還將再增加一個程度！因次，被程度一的惡化詛咒所影響的目標若在抵抗檢定時失敗，將在他的下一輪開始時改為承受程度二的惡化詛咒。一次成功的抵抗檢定仍然會如往常一樣結束這個詛咒效果。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
@@ -70,15 +70,15 @@
 			],
 			"flaws": [
 				{
-					"name": "Instant Recovery",
-					"entries": ["Similar to the Reversible extra, the target of an Affliction effect with this modifier recovers automatically, no check required, at the end of the round in which the duration ends. So, for example, an instant duration Affliction only lasts one round, while a sustained duration Affliction lasts until no longer sustained."],
+					"name": "立即康復",
+					"entries": ["與{@modifier Reversible}強化相似，應用了這個修飾符的詛咒效果的目標將會在其持續時間結束的該輪結束時自動康復，而無須進行任何檢定。因此，舉例來說，一個持續時間為即效的詛咒只會持續一輪，而持續時間為維持的詛咒將會在其不再被維持時終止。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited Degree",
-					"entries": ["Your Affliction is limited to no more than two degrees of effect. With two applications of this modifier, it is limited to no more than one degree of effect."],
+					"name": "限定程度",
+					"entries": ["你的詛咒被限定只能造成不超過程度二的效果。若應用這個修飾符二次，則你的詛咒將被限定只能造成不超過程度一的效果。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}

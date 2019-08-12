@@ -21,9 +21,9 @@
 							"type": "list",
 							"items": [
 								"{@b Success}: No effect.",
-								"{@b Failure (one degree)}: The target is dazed, entranced, fatigued, hindered, impaired, or vulnerable (choose one). Potential descriptors include coughing or sneezing, creeping mental influence, drowsiness, euphoria, fear, itchiness, lethargy, nausea, pain, or tipsiness.",
-								"{@b Failure (two degrees)}: The target is compelled, defenseless, disabled, exhausted, immobile, prone, or stunned (choose one). Potential descriptors include agonizing pain, confusion, ecstasy, momentary emotional or mental influence, paralysis, seizure, terror, or vomiting.",
-								"{@b Failure (three degrees)}: The target is asleep, controlled, incapacitated, paralyzed, transformed or unaware (choose one)."
+								"{@b Failure (one degree)}: The target is {@condition dazed}, {@condition entranced}, {@condition fatigued}, {@condition hindered}, {@condition impaired}, or {@condition vulnerable} (choose one). Potential descriptors include coughing or sneezing, creeping mental influence, drowsiness, euphoria, fear, itchiness, lethargy, nausea, pain, or tipsiness.",
+								"{@b Failure (two degrees)}: The target is {@condition compelled}, {@condition defenseless}, {@condition disabled}, {@condition exhausted}, {@condition immobile}, {@condition prone}, or {@condition stunned} (choose one). Potential descriptors include agonizing pain, confusion, ecstasy, momentary emotional or mental influence, paralysis, seizure, terror, or vomiting.",
+								"{@b Failure (three degrees)}: The target is {@condition asleep}, {@condition controlled}, {@condition incapacitated}, {@condition paralyzed}, {@condition transformed} or {@condition unaware} (choose one)."
 							]
 						}
 					]
