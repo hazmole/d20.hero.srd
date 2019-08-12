@@ -55,7 +55,7 @@
 				},
 				{
 					"name": "Extra Condition",
-					"entries": ["Your Affliction imposes an additional condition per degree of success. So with one application of this extra, your Affliction imposes two conditions—such as dazed and hindered, or impaired and vulnerable—rather than just one. With two applications, it imposes three conditions, and so forth. Since mutually incompatible conditions are largely wasted, Afflictions with this extra often have the Limited Degree flaw as well."],
+					"entries": ["Your Affliction imposes an additional condition per degree of success. So with one application of this extra, your Affliction imposes two conditions—such as {@condition dazed} and {@condition hindered}, or {@condition impaired} and {@condition vulnerable}—rather than just one. With two applications, it imposes three conditions, and so forth. Since mutually incompatible conditions are largely wasted, Afflictions with this extra often have the Limited Degree flaw as well."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
