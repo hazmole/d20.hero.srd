@@ -13,7 +13,7 @@
 			{
 				"_translate_name": "基本規則", "name": "The Basics",
 				"headers": [
-					{ "name": "The Core Mechanic" },
+					{ "translate_name": "核心機制", "name": "The Core Mechanic" },
 					{ "name": "The Gamemaster" },
 					{ "name": "The Heros" },
 					{ "name": "Rank & Measures" },
@@ -47,7 +47,7 @@
 				]
 			},
 			{
-				"_name": "Skills",
+				"_translate_name": "技能", "name": "Skills",
 				"headers": [
 					{ "name": "Skill Basics" },
 					{ "name": "How Skills Work" },
@@ -134,7 +134,7 @@
 							"type": "entries",
 							"translate_name": "骰子", "name": "The Dice",
 							"entries": [
-								"這個遊戲使用二十面骰以處理遊戲期間的各種行動。當提及「骰子」，除非另有說明，否則其都是指二十面骰。骰子通常會被簡寫成「d20」(代表二十面骰)或「1d20」(代表一顆二十面骰)。因此當規則要你「骰d20」時，意思就是「骰一顆二十面骰」。",
+								"這個遊戲使用二十面骰以處理遊戲期間的各種行動。當提及「骰子」，除非另有說明，否則都是指二十面骰。骰子通常會被簡寫成「d20」(代表二十面骰)或「1d20」(代表一顆二十面骰)。因此當規則要你「骰d20」時，意思就是「骰一顆二十面骰」。",
 								{
 									"type": "entries",
 									"translate_name": "修正值", "name": "Modifiers",
@@ -193,23 +193,23 @@
 					"type": "section",
 					"translate_name": "核心機制", "name": "The Core Mechanic",
 					"entries": [
-						"This game uses a standard, or “core,” game mechanic to resolve actions. Whenever a character attempts an action with a chance of failure, do the following:",
+						"這個遊戲使用一套標準，或被稱作「核心」的遊戲機制以處理遊戲中的各種行動。每當一名角色嘗試進行一項有機率失敗的行動時，按照下列步驟進行：",
 						{
 							"type": "list",
 							"items": [
-								"Roll a twenty-sided die (or d20).",
-								"Add any relevant modifiers (for game traits like abilities, skills, powers, or circumstances) to the number rolled.",
-								"Compare the total to a number called a {@b difficulty class} (abbreviated {@b DC})."
+								"骰一顆二十面骰（或寫作d20）。",
+								"將任何相關的修正值（像是屬性、技能、超能力、或情境加值等遊戲數值）加入擲骰結果。",
+								"將總和值與一個被稱作{@b 難度等級}(簡寫作{@b DC})的數值相比較。"
 							]
 						},
-						"If the result equals or exceeds the difficulty class (set by the GM based on the circumstances), the effort succeeds. If the result is lower than the difficulty class, it fails.",
-						"This simple mechanic is used for nearly everything in the game, with variations based on what modifiers are made to the roll, what determines the difficulty class, and the exact degree of success and failure.",
-						"Remember...",
+						"若檢定結果等於或超過難度等級（由GM根據當下情境設定難度），則角色嘗試進行的行動成功。若結果低於難度等級，則行動失敗。",
+						"這套簡單的機制幾乎被使用於遊戲中的所有內容，根據擲骰時適用的修正值、如何決定難度等級、以及成功和失敗的確切程度而有所變化。",
+						"記住……",
 						{
 							"type": "middleEnhance",
-							"text": "d20 + modifiers vs. difficulty class"
+							"text": "d20 + 修正值 vs. 難度等級"
 						},
-						"... and you understand how to play most of the game!"
+						"……現在，你已經明白了如何進行這個遊戲中大部分的內容！"
 					]
 				},
 				{
@@ -281,11 +281,11 @@
 							"type": "table",
 							"caption": "Measurements Table",
 							"colLabels": [
-								"Rank",
-								"Mass",
-								"Time",
-								"Distance",
-								"Volume"
+								"等級",
+								"質量",
+								"時間",
+								"距離",
+								"體積"
 							],
 							"colStyles": [
 								"col-1 text-align-center",
@@ -296,112 +296,112 @@
 							],
 							"rows": [
 								[
-									"-5", "1.5 lbs", "1/8 second", "6 inches", "1/32 cft."
+									"-5", "1.5 磅", "1/8 秒", "6 吋", "1/32 立方呎"
 								],
 								[
-									"-4", "3 lbs", "1/4 second", "1 foot", "1/16 cft."
+									"-4", "3 磅", "1/4 秒", "1 呎", "1/16 立方呎"
 								],
 								[
-									"-3", "6 lbs", "1/2 second", "3 feet", "1/8 cft."
+									"-3", "6 磅", "1/2 秒", "3 呎", "1/8 立方呎"
 								],
 								[
-									"-2", "12 lbs", "1 second", "6 feet", "1/4 cft."
+									"-2", "12 磅", "1 秒", "6 呎", "1/4 立方呎"
 								],
 								[
-									"-1", "25 lbs", "3 second", "15 feet", "1/2 cft."
+									"-1", "25 磅", "3 秒", "15 呎", "1/2 立方呎"
 								],
 								[
-									"0", "50 lbs", "6 second", "30 feet", "1 cubic ft. (cft.)"
+									"0", "50 磅", "6 秒", "30 呎", "1 立方呎"
 								],
 								[
-									"1", "100 lbs", "12 second", "60 feet", "2 cft."
+									"1", "100 磅", "12 秒", "60 呎", "2 立方呎"
 								],
 								[
-									"2", "200 lbs", "30 second", "120 feet", "4 cft."
+									"2", "200 磅", "30 秒", "120 呎", "4 立方呎"
 								],
 								[
-									"3", "400 lbs", "1 minute", "250 feet", "8 cft."
+									"3", "400 磅", "1 分鐘", "250 呎", "8 立方呎"
 								],
 								[
-									"4", "800 lbs", "2 minutes", "500 feet", "15 cft."
+									"4", "800 磅", "2 分鐘", "500 呎", "15 立方呎"
 								],
 								[
-									"5", "1,600 lbs", "4 minutes", "90 feet", "30 cft."
+									"5", "1,600 磅", "4 分鐘", "90 呎", "30 立方呎"
 								],
 								[
-									"6", "3,200 lbs", "8 minutes", "1,800 feet", "60 cft."
+									"6", "3,200 磅", "8 分鐘", "1,800 呎", "60 立方呎"
 								],
 								[
-									"7", "3 tons", "15 minutes", "1/2 mile", "125 cft."
+									"7", "3 噸", "15 分鐘", "1/2 哩", "125 立方呎"
 								],
 								[
-									"8", "6 tons", "30 minutes", "1 mile", "250 cft."
+									"8", "6 噸", "30 分鐘", "1 哩", "250 立方呎"
 								],
 								[
-									"9", "12 tons", "1 hour", "2 miles", "500 cft."
+									"9", "12 噸", "1 小時", "2 哩", "500 立方呎"
 								],
 								[
-									"10", "25 tons", "2 hours", "4 mile", "1,000 cft."
+									"10", "25 噸", "2 小時", "4 哩", "1,000 立方呎"
 								],
 								[
-									"11", "50 tons", "4 hours", "8 miles", "2,000 cft."
+									"11", "50 噸", "4 小時", "8 哩", "2,000 立方呎"
 								],
 								[
-									"12", "100 tons", "8 hours", "16 miles", "4,000 cft."
+									"12", "100 噸", "8 小時", "16 哩", "4,000 立方呎"
 								],
 								[
-									"13", "200 tons", "16 hours", "30 miles", "8,000 cft."
+									"13", "200 噸", "16 小時", "30 哩", "8,000 立方呎"
 								],
 								[
-									"14", "400 tons", "1 day", "60 miles", "15,000 cft."
+									"14", "400 噸", "1 日", "60 哩", "15,000 立方呎"
 								],
 								[
-									"15", "800 tons", "2 days", "120 miles", "32,000 cft."
+									"15", "800 噸", "2 日", "120 哩", "32,000 立方呎"
 								],
 								[
-									"16", "1,600 tons", "4 days", "250 miles", "65,000 cft."
+									"16", "1,600 噸", "4 日", "250 哩", "65,000 立方呎"
 								],
 								[
-									"17", "3.2 ktons", "1 week", "500 miles", "125,000 cft."
+									"17", "3.2 千噸", "1 週", "500 哩", "125,000 立方呎"
 								],
 								[
-									"18", "6 ktons", "2 weeks", "1,000 miles", "250,000 cft."
+									"18", "6 千噸", "2 週", "1,000 哩", "250,000 立方呎"
 								],
 								[
-									"19", "12 ktons", "1 month", "2,000 miles", "500,000 cft."
+									"19", "12 千噸", "1 月", "2,000 哩", "500,000 立方呎"
 								],
 								[
-									"20", "25 ktons", "2 months", "4,000 miles", "1 million cft."
+									"20", "25 千噸", "2 月", "4,000 哩", "1 百萬立方呎"
 								],
 								[
-									"21", "50 ktons", "4 months", "8,000 miles", "2 million cft."
+									"21", "50 千噸", "4 月", "8,000 哩", "2 百萬立方呎"
 								],
 								[
-									"22", "100 ktons", "8 months", "16,000 miles", "4 million cft."
+									"22", "100 千噸", "8 月", "16,000 哩", "4 百萬立方呎"
 								],
 								[
-									"23", "200 ktons", "1.5 years", "32,000 miles", "8 million cft."
+									"23", "200 千噸", "1.5 年", "32,000 哩", "8 百萬立方呎"
 								],
 								[
-									"24", "400 ktons", "3 years", "64,000 miles", "15 million cft."
+									"24", "400 千噸", "3 年", "64,000 哩", "15 百萬立方呎"
 								],
 								[
-									"25", "800 ktons", "6 years", "125,000 miles", "32 million cft."
+									"25", "800 千噸", "6 年", "125,000 哩", "32 百萬立方呎"
 								],
 								[
-									"26", "1,600 ktons", "12 years", "250,000 miles", "65 million cft."
+									"26", "1,600 千噸", "12 年", "250,000 哩", "65 百萬立方呎"
 								],
 								[
-									"27", "3,200 ktons", "25 years", "500,000 miles", "125 million cft."
+									"27", "3,200 千噸", "25 年", "500,000 哩", "125 百萬立方呎"
 								],
 								[
-									"28", "6,400 ktons", "50 years", "1 million miles", "250 million cft."
+									"28", "6,400 千噸", "50 年", "1 百萬哩", "250 百萬立方呎"
 								],
 								[
-									"29", "12,500 ktons", "100 years", "2 million miles", "500 million cft."
+									"29", "12,500 千噸", "100 年", "2 百萬哩", "500 百萬立方呎"
 								],
 								[
-									"30", "25,000 ktons", "200 years", "4 million miles", "1 billion cft."
+									"30", "25,000 千噸", "200 年", "4 百萬哩", "1 百億立方呎"
 								],
 								[
 									"+1", "x2", "x2", "x2", "x2"
@@ -460,29 +460,29 @@
 							"type": "entries",
 							"translate_name": "檢定", "name": "Checks",
 							"entries": [
-								"Your hero stands perched on the rooftop, looking down through the skylight. In the abandoned warehouse below, the villain throws the switch that begins lowering your hero’s friends into the vat of boiling acid! You turn to the Gamemaster and say:",
+								"你的英雄站在屋頂，透過天窗俯瞰。在他腳下那被遺棄的倉庫中，反派拉下了開關，讓英雄那被懸吊的朋友開始緩緩下降，很快就要被沉入底下那沸騰的強酸池！就在這時，你看向遊戲主持人，並說：",
 								{
 									"type": "quote",
 									"entries": [
-										"“I leap down, smashing through the skylight, swing over to the catwalk, kick the bad guy out of the way, then flip the switch to stop the lowering mechanism!”"
+										"「我一躍而下，打破天窗，盪過鷹架，將壞蛋一腳踢開之後，將開關重新拉上以阻止那將我朋友降下的機關！」"
 									]
 								},
-								"How exactly do you do that in the game?",
-								"Whenever a character in a game attempts something where the outcome is in doubt, it requires a {@b check} of an appropriate trait: ability, skill, power, etc. (also known as a “trait check” or a “[fill-in trait name]” check, like a “Dexterity check,” for example).",
-								"Make a check by rolling the die, adding the appropriate rank, and comparing the result against a {@b difficulty class} ({@b DC}): if your result equals or exceeds the DC, you succeed. If it does not, then your attempt fails. Sometimes how much you exceed or fail to exceed the DC matters, but often it is simply whether you do or not that counts.",
+								"確切來說，你在遊戲中要怎麼做呢？",
+								"每當遊戲中的一名角色嘗試進行某件不能確定結果的行為時，他將需要進行一次相符特性的{@b 檢定}：屬性、技能、超能力等等（這也被稱作「特性檢定」，或者「（填入特性名稱）檢定」，像是「精準檢定」）。",
+								"進行檢定時，需要擲一顆骰子，加上適用的修正值，並將結果與{@b 難度等級}({@b DC})進行比較：若你的檢定結果等於或超過DC，則檢定成功。反之，你的嘗試將以失敗告終。有時候，你的檢定結果超過或低於DC的程度也會有所影響，但通常來說只會考慮你檢定是成功還是失敗。",
 								{
 									"type": "middleEnhance",
-									"text": "Check = d20 + ability vs. difficulty class"
+									"text": "檢定 = d20 + 屬性 vs. 難度等級"
 								},
-								"So in the previous example, how many checks are there? Let’s break things down and look at what the hero is doing:",
+								"因此，在前述的例子中會有多少個檢定呢？讓我們將事情分拆來看，並看看英雄做了些什麼：",
 								{
 									"type": "list",
 									"items": [
-										"“…leap down …” Jumping down is literally as easy as falling off a log, so there’s no need for a check here.",
-										"… smashing through the skylight …” Breaking something can require a check, but in this case—a body hurling through Plexiglas—the Gamemaster does not see a point in making one, so this is automatic, too. This is one of the ways the Gamemaster’s judgment and intervention is important in the flow of the game.",
-										"“…swing over to the catwalk …” This part of the action is a bit of a judgment call. If your hero has the Swinging movement effect (see {@rule Powers|basic|6}), then this is automatic. Otherwise, it might call for an Acrobatics skill check to pull it off; even then, if your hero is good enough at Acrobatics, the Gamemaster might call this a routine check and waive the need for a roll (see {@rule Routine Checks|basic|1|Routine Checks}).",
-										"“…kick the bad guy out of the way …” Here’s the real crux of the hero’s action. You want to hit the villain who, naturally, wants to avoid being hit. This calls for a check of your hero’s Fighting ability (which Measures the ability to hit things close-up). If you decided to have your hero shoot or throw something at the villain that would be a check of Dexterity instead.",
-										"“…flip the switch back up …” Assuming the bad guy is out of the way, this is easy, no check required. If the hero’s attempt to hit the villain fails, then the hero still has to get past him in order to do this at all. So it all depends on the outcome of the Fighting check against the bad guy. If the mechanism was especially complex, the GM might ask for a check here, such as using the Technology skill to figure out how it works."
+										"「……一躍而下……」，跳下來的動作就跟從樹上摔落一樣容易，因此這裡並不需要任何檢定。",
+										"「……打破天窗……」，打破某個東西可能會需要一次檢定，但在這個例子中──以血肉之軀撞穿有機玻璃──遊戲主持人並不覺得有必要進行檢定，因此這個行動也將自動成功。這也是遊戲主持人裁斷和介入遊戲流程一種非常重要的方式。",
+										"「……盪過鷹架……」，這個部分的動作就有些涉及主觀判斷。若你的英雄擁有Swinging的{@effect Movement}效果（參見{@rule 超能力|basic|6}），則這將會是自動成功。除此之外的情況，這個動作可能會需要通過一次雜技檢定才能圓滿達成；即使如此，若你的英雄相當擅長於雜技技能，遊戲主持人可能會將其視作一次例行檢定，並免除擲骰檢定的需求（參見{@rule Routine Checks|basic|1|Routine Checks}）。",
+										"「……將壞蛋一腳踢開……」，這個才是英雄動作的真正重點。你想要打中這名反派，而他通常來說，也會想要避開攻擊。這將會要求你的英雄使用格鬥屬性（這個屬性用以衡量你在近身距離內命中事物的能力）進行一次檢定。若你決定讓你的英雄向著反派射擊或投擲某些道具，則這個檢定可能會改為使用精準屬性。",
+										"「……將開關重新拉上……」，假設那名壞蛋已經被踢開，則這個動作相當容易，且不需要任何檢定。但若英雄嘗試命中反派的行動以失敗告終，則英雄仍然需要通過反派才能做到這件事。因此，這一切都取決於對抗壞蛋的格鬥檢定結果。若這個開關的機制特別複雜，則GM也可能會在這裡要求進行一次檢定，像是使用科技技能以搞懂機關的運作模式。"
 									]
 								},
 								"As you can see, once you break it down, checks are actually fairly simple. All the Gamemaster has to say in response to the player’s declaration is: “Okay, roll a Fighting check to hit the villain,” letting the rest of the description stand as what happens. Whether or not the hero is successful in stopping the trap depends on the outcome of the attack against the bad guy.",
@@ -592,7 +592,7 @@
 													"Convinces the guards, even though you’re not wearing an ID badge and aren’t on their list, they should let you into the building (Deception)"
 												],
 												[
-													"接近不可能 (40)",
+													"幾乎不可能 (40)",
 													"Track a trained commando through the jungle on a moonless night after 12 days of rainfall (Perception)"
 												]
 											]
@@ -1613,13 +1613,13 @@
 		},
 		{
 			"type": "section",
-			"name": "Abilities",
+			"translate_name": "屬性", "name": "Abilities",
 			"entries": [
 				"Everyone has certain basic {@b abilities}: how strong, fast, smart, and clever they are. These abilities influence most things your character does. Stronger characters can lift greater weights, more agile characters have better balance, tougher characters can soak up more damage, and so forth.",
 				"All characters have eight basic abilities: Strength (Str), Stamina (Sta), Dexterity (Dex), Agility (Agl), Fighting (Ftg), Intellect (Int), Awareness (Awe), and Presence (Pre). Strength, Dexterity, Agility and Stamina are {@b physical abilities}, whereas Fighting, Intellect, Awareness, and Presence are {@b mental abilities}. Each above-average ability provides a bonus on certain die rolls; while below average abilities apply a penalty.",
 				{
 					"type": "section",
-					"name": "Ability ranks",
+					"translate_name": "屬性等級", "name": "Ability ranks",
 					"entries": [
 						"Each ability has a {@b rank} associated with it, based on how above or below average it is. Abilities start at rank 0, the baseline average for an adult human being. They can go as low as –5 (truly terrible) and as high as 20, with higher values reserved for truly cosmic beings and forces.",
 						"The ability rank is added to, or subtracted from, die rolls when your character does something related to that ability. For example, your Strength rank affects the amount of damage you do when punching someone. Your Intellect rank comes into play when you roll skills based on Intellect, and so forth. Sometimes your rank is used to calculate another value, such as when you use your Agility to determine how good you are at avoiding harm with your reflexes (your Dodge defense).",
@@ -1632,8 +1632,8 @@
 									"type": "table",
 									"caption": "Ability Benchmarks",
 									"colLabels": [
-										"Rank",
-										"Description"
+										"等級",
+										"描述"
 									],
 									"colStyles": [
 										"col-3 text-align-center",
@@ -1688,15 +1688,15 @@
 				},
 				{
 					"type": "section",
-					"name": "The Abilities",
+					"translate_name": "屬性", "name": "The Abilities",
 					"entries": [
-						"Here are descriptions of the eight abilities and what they represent.",
+						"這裡記載著八個屬性的描述，以及它們各自代表的面向。",
 						{
 							"type": "entries",
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Strength (Str)",
+									"translate_name": "力量 (Str)", "name": "Strength (Str)",
 									"entries": [
 										"Strength measures sheer muscle power and the ability to apply it. Your Strength rank applies to:",
 										{
@@ -1712,7 +1712,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Stamina (Sta)",
+									"translate_name": "體質 (Sta)", "name": "Stamina (Sta)",
 									"entries": [
 										"Stamina is health, endurance, and overall physical resilience. Stamina is important because it affects a character’s ability to resist most forms of damage. Your Stamina modifier applies to:",
 										{
@@ -1727,7 +1727,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Agility (Agl)",
+									"translate_name": "靈敏 (Agl)", "name": "Agility (Agl)",
 									"entries": [
 										"Agility is balance, grace, speed, and overall physical coordination. Your Agility rank applies to:",
 										{
@@ -1743,7 +1743,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Dexterity (Dex)",
+									"translate_name": "精準 (Dex)", "name": "Dexterity (Dex)",
 									"entries": [
 										"Dexterity is a measure of hand-eye coordination, precision, and manual dexterity. Your Dexterity rank applies to:",
 										{
@@ -1758,7 +1758,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Fighting (Ftg)",
+									"translate_name": "格鬥 (Ftg)", "name": "Fighting (Ftg)",
 									"entries": [
 										"Fighting measures your character’s ability in close combat, from hitting a target to ducking and weaving around any counter-attacks. Your Fighting rank applies to:",
 										{
@@ -1772,7 +1772,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Intellect (Int)",
+									"translate_name": "智力 (Int)", "name": "Intellect (Int)",
 									"entries": [
 										"Intellect covers reasoning ability and learning. A character with a high Intellect rank tends to be knowledgeable and well-educated. Your Intellect modifier applies to:",
 										{
@@ -1786,7 +1786,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Awareness (Awe)",
+									"translate_name": "警覺 (Awe)", "name": "Awareness (Awe)",
 									"entries": [
 										"While Intellect covers reasoning, Awareness describes common sense and intuition, what some might call “wisdom.” A character with a high Intellect and a low Awareness may be an “absentminded professor” type, smart but not always aware of what’s going on. On the other hand, a not so bright (low Intellect) character may have great deal of common sense (high Awareness). Your Awareness modifier applies to:",
 										{
@@ -1801,7 +1801,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Presence (Pre)",
+									"translate_name": "表現 (Pre)", "name": "Presence (Pre)",
 									"entries": [
 										"Presence is force of personality, persuasiveness, leadership ability and (to a lesser degree) attractiveness. Presence is useful for heroes who intend to be leaders as well as those who strike fear into the hearts of criminals with their presence. Your Presence modifier applies to:",
 										{

@@ -11,7 +11,7 @@
 			"translate_name": "受控", "name": "Controlled",
 			"type": "basic",
 			"entries": [
-				"A controlled character has no free will; the character’s actions each turn are dictated by another, controlling, character."
+				"受控的角色將失去自由意志；該角色每回合的行動將由其控制者決定。"
 			],
 			"contain": ["compelled"]
 		},
@@ -50,7 +50,7 @@
 			"translate_name": "疲勞", "name": "Fatigued",
 			"type": "basic",
 			"entries": [
-				"Fatigued characters are {@condition hindered}. Characters recover from a fatigued condition after an hour of rest."
+				"陷入疲勞狀態的角色將同時處於{@condition 移動受阻}狀態。角色將在一小時的休息之後從疲勞狀態中回復。"
 			],
 			"contain": ["hindered"]
 		},
@@ -58,7 +58,7 @@
 			"translate_name": "移動受阻", "name": "Hindered",
 			"type": "basic",
 			"entries": [
-				"A hindered character moves at half normal speed (–1 speed rank). Immobile supersedes hindered."
+				"陷入移動受阻狀態的角色只能以他原本速度的一半（-1速度等級）進行移動。{@condition 無法移動}是移動受阻的進階狀態。"
 			]
 		},
 		{

@@ -230,7 +230,7 @@
 			]
 		},
 		{
-			"name": "Close Combat",
+			"translate_name": "近身戰鬥", "name": "Close Combat",
 			"ability": "Fgt",
 			"untrain": true,
 			"action": "S",
@@ -241,7 +241,7 @@
 			]
 		},
 		{
-			"name": "Deception",
+			"translate_name": "欺瞞", "name": "Deception",
 			"ability": "Pre",
 			"untrain": true,
 			"interaction": true,
@@ -330,7 +330,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"translate_name": "專業", "name": "Expertise",
 			"ability": "Int",
 			"untrain": false,
 			"entries": [
@@ -375,7 +375,7 @@
 			]
 		},
 		{
-			"name": "Insight",
+			"translate_name": "洞見", "name": "Insight",
 			"ability": "Awe",
 			"untrain": true,
 			"action": "F",
@@ -420,7 +420,7 @@
 			]
 		},
 		{
-			"name": "Intimidation",
+			"translate_name": "威嚇", "name": "Intimidation",
 			"ability": "Pre",
 			"untrain": true,
 			"interaction": true,
@@ -459,7 +459,7 @@
 			]
 		},
 		{
-			"name": "Investigation",
+			"translate_name": "調查", "name": "Investigation",
 			"ability": "Int",
 			"untrain": false,
 			"entries": [
@@ -582,7 +582,7 @@
 			]
 		},
 		{
-			"name": "Perception",
+			"translate_name": "感知", "name": "Perception",
 			"ability": "Awe",
 			"untrain": true,
 			"action": "F",
@@ -616,7 +616,7 @@
 			]
 		},
 		{
-			"name": "Persuasion",
+			"translate_name": "說服", "name": "Persuasion",
 			"ability": "Pre",
 			"untrain": true,
 			"interaction": true,
@@ -655,7 +655,7 @@
 			]
 		},
 		{
-			"name": "Ranged Combat",
+			"translate_name": "遠程戰鬥", "name": "Ranged Combat",
 			"ability": "Dex",
 			"untrain": true,
 			"action": "S",
@@ -666,7 +666,7 @@
 			]
 		},
 		{
-			"name": "Sleight of Hand",
+			"translate_name": "手上把戲", "name": "Sleight of Hand",
 			"ability": "Dex",
 			"untrain": false,
 			"manipulation": true,
@@ -736,7 +736,7 @@
 			]
 		},
 		{
-			"name": "Stealth",
+			"translate_name": "潛行", "name": "Stealth",
 			"ability": "Agl",
 			"untrain": true,
 			"action": "M",
@@ -761,7 +761,7 @@
 			]
 		},
 		{
-			"name": "Technology",
+			"translate_name": "科技", "name": "Technology",
 			"ability": "Int",
 			"untrain": false,
 			"manipulation": true,
@@ -893,7 +893,7 @@
 			]
 		},
 		{
-			"name": "Treatment",
+			"translate_name": "治療", "name": "Treatment",
 			"ability": "Int",
 			"untrain": false,
 			"manipulation": true,
@@ -960,7 +960,7 @@
 			]
 		},
 		{
-			"name": "Vehicles",
+			"translate_name": "駕駛", "name": "Vehicles",
 			"ability": "Dex",
 			"untrain": false,
 			"manipulation": true,

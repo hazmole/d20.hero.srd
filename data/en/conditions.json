@@ -53,7 +53,7 @@
 			"name": "Hindered",
 			"type": "basic",
 			"entries": [
-				"A hindered character moves at half normal speed (–1 speed rank). Immobile supersedes hindered."
+				"A hindered character moves at half normal speed (–1 speed rank). {@condition Immobile} supersedes hindered."
 			]
 		},
 		{
