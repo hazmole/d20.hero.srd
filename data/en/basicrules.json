@@ -1705,7 +1705,7 @@
 												"Damage dealt by your unarmed and strength-based attacks.",
 												"How far you can jump (based on an Athletics skill check).",
 												"The amount of weight you can lift, carry, and throw.",
-												"Athletics skill checks."
+												"{@skill Athletics} skill checks."
 											]
 										}
 									]
@@ -1735,7 +1735,7 @@
 											"items": [
 												"Dodge defense, for avoiding ranged attacks and other hazards.",
 												"Initiative bonus, for acting first in combat.",
-												"Acrobatics and Stealth skill checks.",
+												"{@skill Acrobatics} and {@skill Stealth} skill checks.",
 												"Agility checks for feats of coordination, gross movement, and quickness when a specific skill doesn’t apply."
 											]
 										}
@@ -1750,7 +1750,7 @@
 											"type": "list",
 											"items": [
 												"Attack checks for ranged attacks.",
-												"Sleight of Hand and Vehicles skill checks.",
+												"{@skill Sleight of Hand} and {@skill Vehicles} skill checks.",
 												"Dexterity checks for feats of fine control and precision when a specific skill doesn’t apply."
 											]
 										}
@@ -1778,7 +1778,7 @@
 										{
 											"type": "list",
 											"items": [
-												"Expertise, Investigation, Technology, and Treatment skill checks.",
+												"{@skill Expertise}, {@skill Investigation}, {@skill Technology}, and {@skill Treatment} skill checks.",
 												"Intellect checks to solve problems using sheer brain-power when a specific skill doesn’t apply."
 											]
 										}
@@ -1793,7 +1793,7 @@
 											"type": "list",
 											"items": [
 												"Will defense, for resisting attacks on your mind.",
-												"Insight and Perception skill checks.",
+												"{@skill Insight} and {@skill Perception} skill checks.",
 												"Awareness checks to resolve matters of intuition when a specific skill doesn’t apply."
 											]
 										}
@@ -1807,7 +1807,7 @@
 										{
 											"type": "list",
 											"items": [
-												"Deception, Intimidation, and Persuasion skill checks.",
+												"{@skill Deception}, {@skill Intimidation}, and {@skill Persuasion} skill checks.",
 												"Presence checks to influence others through force of personality when a specific skill doesn’t apply."
 											]
 										}

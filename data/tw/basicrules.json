@@ -41,9 +41,9 @@
 				"_translate_name": "屬性", "name": "Abilities",
 				"headers": [
 					{ "name": "Ability Ranks" },
-					{ "name": "The Abilities" },
+					{ "translate_name": "屬性值", "name": "The Abilities" },
 					{ "name": "Altering Abilities" },
-					{ "name": "Defenses & Initiative" }
+					{ "translate_name": "防禦＆先攻", "name": "Defenses & Initiative" }
 				]
 			},
 			{
@@ -127,7 +127,7 @@
 								"角色卡（可以在{@link https://www.mutantsandmasterminds.com}下載）。",
 								"一枝筆和幾張紙。",
 								"至少一個二十面骰，可以在桌遊店等商店中購買。你可能會希望讓每個玩家都有一個骰子，或者你們也可以共用一個。",
-								"可選，你可能會希望有幾本Green Ronin Publishing出版的《Mutants & Masterminds》規則書（但它們並非遊玩此遊戲所必須準備的事物）。"
+								"可選，你可能會希望有幾本「綠浪人出版社」所出版的《超人類＆超級罪犯》規則書複印本（但它們並非遊玩此遊戲所必須準備的事物）。"
 							]
 						},
 						{
@@ -176,7 +176,7 @@
 							"type": "inset",
 							"name": "幕後花絮",
 							"entries": [
-								"在本站中，你會發現許多的「幕後花絮」邊攔。它們將會帶你一探這些規則和設計抉擇背後的邏輯，並提供一些如何處理常見問題和突發情況的建議。它們將使你能夠透析整個遊戲內部的運作原理，並教導你如何確保你和你的玩家們從中享有最大的樂趣。"
+								"在本站中，你會發現許多的「幕後花絮」邊欄。它們將會帶你一探這些規則和設計抉擇背後的邏輯，並提供一些如何處理常見問題和突發情況的建議。它們將使你能夠透析整個遊戲內部的運作原理，並教導你如何確保你和你的玩家們從中享有最大的樂趣。"
 							]
 						}
 					]
@@ -464,7 +464,7 @@
 								{
 									"type": "quote",
 									"entries": [
-										"「我一躍而下，打破天窗，盪過鷹架，將壞蛋一腳踢開之後，將開關重新拉上以阻止那將我朋友降下的機關！」"
+										"「我一躍而下，打破天窗，盪到狹長走道上，將壞蛋一腳踢開之後，將開關重新拉上以阻止那將我朋友降下的機關！」"
 									]
 								},
 								"確切來說，你在遊戲中要怎麼做呢？",
@@ -480,20 +480,20 @@
 									"items": [
 										"「……一躍而下……」，跳下來的動作就跟從樹上摔落一樣容易，因此這裡並不需要任何檢定。",
 										"「……打破天窗……」，打破某個東西可能會需要一次檢定，但在這個例子中──以血肉之軀撞穿有機玻璃──遊戲主持人並不覺得有必要進行檢定，因此這個行動也將自動成功。這也是遊戲主持人裁斷和介入遊戲流程一種非常重要的方式。",
-										"「……盪過鷹架……」，這個部分的動作就有些涉及主觀判斷。若你的英雄擁有Swinging的{@effect Movement}效果（參見{@rule 超能力|basic|6}），則這將會是自動成功。除此之外的情況，這個動作可能會需要通過一次雜技檢定才能圓滿達成；即使如此，若你的英雄相當擅長於雜技技能，遊戲主持人可能會將其視作一次例行檢定，並免除擲骰檢定的需求（參見{@rule Routine Checks|basic|1|Routine Checks}）。",
+										"「……盪到狹長走道上……」，這個部分的動作就有些涉及主觀判斷。若你的英雄擁有Swinging {@effect Movement}的能力效果（參見{@rule 超能力|basic|6}），則這將會是自動成功。除此之外的情況，這個動作可能會需要通過一次雜技檢定才能圓滿達成；即使如此，若你的英雄相當擅長於雜技技能，遊戲主持人可能會將其視作一次例行檢定，並免除擲骰檢定的需求（參見{@rule 例行檢定|basic|1|Routine Checks}）。",
 										"「……將壞蛋一腳踢開……」，這個才是英雄動作的真正重點。你想要打中這名反派，而他通常來說，也會想要避開攻擊。這將會要求你的英雄使用格鬥屬性（這個屬性用以衡量你在近身距離內命中事物的能力）進行一次檢定。若你決定讓你的英雄向著反派射擊或投擲某些道具，則這個檢定可能會改為使用精準屬性。",
 										"「……將開關重新拉上……」，假設那名壞蛋已經被踢開，則這個動作相當容易，且不需要任何檢定。但若英雄嘗試命中反派的行動以失敗告終，則英雄仍然需要通過反派才能做到這件事。因此，這一切都取決於對抗壞蛋的格鬥檢定結果。若這個開關的機制特別複雜，則GM也可能會在這裡要求進行一次檢定，像是使用科技技能以搞懂機關的運作模式。"
 									]
 								},
-								"As you can see, once you break it down, checks are actually fairly simple. All the Gamemaster has to say in response to the player’s declaration is: “Okay, roll a Fighting check to hit the villain,” letting the rest of the description stand as what happens. Whether or not the hero is successful in stopping the trap depends on the outcome of the attack against the bad guy.",
-								"Of course, if the villain is expecting the hero, there might be another trap, such as part of the catwalk rigged to fall away under him, leaving him dangling above the acid vat and at the villain’s mercy! In that case, the GM would respond to the player’s description: “You smash through the skylight and swing over to the catwalk, but when you do…” and go on to describe what follows. The rest of the hero’s intended action(s) are null and void, because things don’t always go as planned when you’re dealing with cunning supervillains!",
-								"Checks are used to resolve all outcomes so once you understand the basic concept, the rest is easy. For detailed examples of how to use checks in the game and their effects, see {@rule Action & Adventure|basic|8}.",
+								"如你所見，一旦你將它分拆來看，檢定其實是件相當簡單的事。遊戲主持人在回應玩家敘述時所需說的，就只有：「好的，進行一次格鬥檢定，來看看你能不能打中反派。」，並將其餘的描述當作實際發生的事情。英雄是否能夠成功阻止這個機關，都將取決於他對壞蛋展開攻擊的結果。",
+								"當然，若反派對於英雄的到來早有預期，那麼他可能會準備其他陷阱：比如說狹長走道的一部份區塊被設計成會在英雄踩上時脫鉤摔落，讓英雄懸吊在強酸池上，任憑反派擺布！在這個情況下，GM可能會這樣回應玩家的敘述：「你打破了天窗並盪到狹長走道上，但當你這麼做時……」並接著描述接下來發生的事。英雄原本打算做的其餘行動將被取消，因為當與狡猾的超級反派打交道時，事情的發展往往無法按照計畫進行！",
+								"檢定被使用於處理所有行事結果，因此一旦你理解其基本概念，剩下的就簡單了。關於在遊戲中運用檢定的方式和效果，請參閱{@rule 動作＆冒險|basic|8}章節以獲得更詳細的範例。",
 								{
 									"type": "table",
-									"caption": "Check Examples",
+									"caption": "檢定範例",
 									"colLabels": [
-										"Task",
-										"Check Using..."
+										"事項",
+										"檢定使用……"
 									],
 									"colStyles": [
 										"col-5 text-align-center",
@@ -501,36 +501,36 @@
 									],
 									"rows": [
 										[
-											"Sock a villain in the jaw",
-											"Close Combat skill (or Fighting)"
+											"狠狠毆打反派的下巴",
+											"近身戰鬥技能（或格鬥）"
 										],
 										[
-											"Climb the outside of a building",
-											"Athletics skill (or Strength)"
+											"攀爬建築物的外側",
+											"運動技能（或力量）"
 										],
 										[
-											"Do a triple-back flip",
-											"Acrobatics skill (or Agility)"
+											"做一個三重後空翻",
+											"雜技技能（或靈敏）"
 										],
 										[
-											"Find clues at a crime scene",
-											"Investigation skill (or Intellect)"
+											"在犯罪現場尋找線索",
+											"調查技能（或智力）"
 										],
 										[
-											"Notice a ninja sneaking up on you",
-											"Perception skill (or Awareness)"
+											"發現一名忍者正悄悄跟蹤你",
+											"感知技能（或警覺）"
 										],
 										[
-											"Recall a particular fact",
-											"Expertise skill (or Intellect)"
+											"回想起一個特定事實",
+											"專業技能（或智力）"
 										],
 										[
-											"Fix a broken device",
-											"Technology skill"
+											"修復一個損毀的裝置",
+											"科技技能"
 										],
 										[
-											"Convince someone of something",
-											"Deception skill (Persuasion skill, if it’s true, or Presence)"
+											"說服某人相信某事",
+											"欺瞞技能（若該事為真，則為說服技能、或表現）"
 										]
 									]
 								},
@@ -538,15 +538,15 @@
 									"type": "entries",
 									"translate_name": "大成功", "name": "Critical Success",
 									"entries": [
-										"If you roll a 20 on the die when making a check you’ve scored a {@b critical success}. Determine the degree of success normally and then increase it by one degree. This can turn a low-level success into something more significant, but more importantly, it can turn a failure into a full-fledged success! A critical success with an attack check is called a {@b critical hit}.",
-										"For more information regarding critical hits see {@rule Action & Adventure|basic|8|critical hits}."
+										"若你在進行擲骰檢定時骰出了20，你便骰出了{@b 大成功}。你如常決定其成功度，並接著額外增加一個成功度。這不僅可以讓較低等級的成功變得更加顯著，最重要的是，它可以讓原本失敗的行動變為完全的成功！在攻擊檢定骰出的大成功將被稱作{@b 暴擊}。",
+										"更多關於暴擊的規則情報，請參閱{@rule 動作＆冒險|basic|8|critical hits}章節。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "難度等級", "name": "Difficulty Class",
 									"entries": [
-										"Checks are made against a {@b difficulty class} or {@b DC}, a number set by the GM, which your check must equal or exceed to achieve success. So for a task with a DC of 15 you must roll a check total of 15 or greater to succeed. In some cases, the results of a check vary based on how much higher or lower the result is than the DC, known as its {@b degree} of success or failure.",
+										"檢定結果將被用以對抗一個{@b 難度等級}，或稱為{@b DC}。難度等級是一個由GM設定的數值，且你的檢定結果必須等於或超過這個數值才能夠讓你的檢定成功。因此，當進行一個DC為15的任務時，你必須在檢定中骰出總合為15或以上的結果才算成功。在某些情況下，檢定的結果會根據你超過或低於DC的程度而有所不同，這個程度被稱作{@b 成功度}或{@b 失敗度}。",
 										{
 											"type": "table",
 											"caption": "難度等級",
@@ -561,49 +561,49 @@
 											"rows": [
 												[
 													"非常容易 (0)",
-													"Notice something in plain sight (Perception)"
+													"在顯眼處發現某個事物 (感知)"
 												],
 												[
 													"容易 (5)",
-													"Climb a knotted rope (Athletics)"
+													"攀爬一條有結攀繩 (運動)"
 												],
 												[
 													"平均 (10)",
-													"Hear an approaching security guard (Perception)"
+													"聽見一名接近中的警衛 (感知)"
 												],
 												[
 													"困難 (15)",
-													"Disarm an explosive (Technology)"
+													"解除一個爆裂物 (科技)"
 												],
 												[
 													"有挑戰性 (20)",
-													"Swim against a strong current (Athletics)"
+													"在強勁的水流中逆游而上 (運動)"
 												],
 												[
 													"令人敬畏 (25)",
-													"Climb a wet, slippery rock-face (Athletics)"
+													"攀爬一面濕滑的岩壁 (運動)"
 												],
 												[
 													"英雄 (30)",
-													"Overcome a sophisticated security system (Technology)"
+													"攻克一套複雜的警備系統 (科技)"
 												],
 												[
 													"超級英雄 (35)",
-													"Convinces the guards, even though you’re not wearing an ID badge and aren’t on their list, they should let you into the building (Deception)"
+													"說服守衛們相信，即使你沒有配戴ID卡，且不在他們的名單中，他們也應該放你進入建築內部 (欺瞞)"
 												],
 												[
 													"幾乎不可能 (40)",
-													"Track a trained commando through the jungle on a moonless night after 12 days of rainfall (Perception)"
+													"在12天的豪雨之後，於無月之夜追蹤一名訓練有素的突擊隊員穿過叢林的蹤跡 (感知)"
 												]
 											]
 										},
 										{
 											"type": "table",
-											"caption": "Degrees of Success and Failure",
+											"caption": "成功和失敗程度",
 											"colLabels": [
-												"Check Result Equal or Greater than",
-												"Degree",
-												"Equal or Greater than ... (DC 20)"
+												"檢定結果等於或超過……",
+												"程度",
+												"等於或超過…… (DC 20的情況)"
 											],
 											"colStyles": [
 												"col-4 text-align-center",
@@ -612,28 +612,28 @@
 											],
 											"rows": [
 												[
-													"DC+15", "Four (Success)", "35"
+													"DC+15", "四個成功度", "35"
 												],
 												[
-													"DC+10", "Three (Success)", "30"
+													"DC+10", "三個成功度", "30"
 												],
 												[
-													"DC+5", "Two (Success)", "25"
+													"DC+5", "二個成功度", "25"
 												],
 												[
-													"DC", "One (Success)", "20"
+													"DC", "一個成功度", "20"
 												],
 												[
-													"DC-5", "One (Failure)", "15"
+													"DC-5", "一個失敗度", "15"
 												],
 												[
-													"DC-10", "Two (Failure)", "10"
+													"DC-10", "二個失敗度", "10"
 												],
 												[
-													"DC-15", "Three (Failure)", "5"
+													"DC-15", "三個失敗度", "5"
 												],
 												[
-													"DC-20", "Four (Failure)", "0"
+													"DC-20", "四個失敗度", "0"
 												]
 											]
 										}
@@ -641,7 +641,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Routine Checks",
+									"translate_name": "例行檢定", "name": "Routine Checks",
 									"entries": [
 										"A check normally represents performing a task under a certain amount of pressure, in the midst of the furious action of super-heroic adventure. When the situation is less demanding, you can achieve more reliable results.",
 										"Under routine circumstances—when you are not under any pressure—instead of rolling the die for the check, calculate your result as if you had rolled a 10. This ensures success for average (DC 10) tasks with a modifier of +0 or more. More capable characters (with higher bonuses) can succeed on more difficult checks on a routine basis: a +10 bonus, for example, means a routine check total of 20, able to succeed at DC 20 tasks on a routine basis, and achieve three degrees of success on average (DC 10) tasks on a routine basis.",
@@ -651,7 +651,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Opposed Checks",
+									"translate_name": "對抗檢定", "name": "Opposed Checks",
 									"entries": [
 										"Some checks are {@b opposed}. They are made against another character’s check result as the DC. Whoever gets the higher result wins. An example is trying to bluff someone. You roll a Deception check, while the GM rolls an Insight check for your target. If you beat the target’s Insight check result, you succeed.",
 										"For ties on opposed checks, the character with the higher bonus wins. If the bonuses are the same, roll d20. On a 1–10, one character wins, and on an 11–20, victory goes to the other character; decide which character is “high” and which is “low” before rolling.",
@@ -711,7 +711,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Routine Opposition",
+									"translate_name": "例行對抗", "name": "Routine Opposition",
 									"entries": [
 										"In cases where two or more characters are actively opposing each other, both roll checks and compare the results. In some situations, however, one or more of the characters in an opposed check may not even be aware of it! For example, a guard standing watch and looking for intruders would make a Perception check to oppose any attempt at Stealth, but somebody just sitting in a park, not expecting anyone to sneak up on her, isn’t specifically looking. This is a case of {@b routine opposition}, in which case the DC for the active character’s check is the opposing character’s modifier +10, just like the result of a routine check (previously).",
 										"Active defenses in combat, where characters are focusing on other actions, are generally routine opposition, which is why attack checks are made against a DC of 10 + the appropriate defense. Active opposed checks in combat are an option when a character goes on the defensive.See {@b Defend} in {@b Action & Adventure} for further details."
@@ -719,7 +719,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Comparison Checks",
+									"translate_name": "較量檢定", "name": "Comparison Checks",
 									"entries": [
 										"In cases where a check is a simple test of one character’s capability against another, with no luck involved, both participants compare their appropriate ranks. The character with the higher rank wins. Just as you wouldn’t roll a “height check” to see who’s taller, you don’t need to make a Strength check to see who’s stronger; Strength rank already tells you that.",
 										"So when two characters arm wrestle, for example, the stronger character wins. If two flying characters race, the faster character wins, and so forth. Note this does not include the use of extra effort (see Extra Effort) to temporarily increase a character’s rank, which can affect the outcome of a comparison check, nor does it include things like maneuvers, tricks, or other ways of trying to affect the outcome. It assumes a straight-out comparison.",
@@ -728,7 +728,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Graded Checks",
+									"translate_name": "程度檢定", "name": "Graded Checks",
 									"entries": [
 										"Much of the time a check is a simple pass-fail, it either succeeds, or it does not. In other cases, it matters just how well the check succeeded, or how badly it failed. This gradation of results is called a {@b graded check} and involves a {@b degree} of success or failure.",
 										"Just rolling a success or failure counts as one degree. Every five full points a check result is over or under the difficulty class adds a degree. Fractions are ignored when determining degrees. So DC 10 check with a result of 13 is one degree of success, just as a result of 8 is one degree of failure.",
@@ -739,7 +739,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Circumstance Modifiers",
+									"translate_name": "情境修正值", "name": "Circumstance Modifiers",
 									"entries": [
 										"Some circumstances make checks easier or harder, resulting in a {@b bonus} or {@b penalty} to the check. Characters in a favorable situation are said to {@b have a circumstance bonus} for the check, while those in a disadvantageous situation are said to be {@b have a circumstance penalty}.",
 										"As a general rule, apply a modifier of plus or minus 2 if the character is at a minor bonus or minor penalty, and a modifier of plus or minus 5 if the character is at a major bonus or major penalty for the check:",
@@ -1688,7 +1688,7 @@
 				},
 				{
 					"type": "section",
-					"translate_name": "屬性", "name": "The Abilities",
+					"translate_name": "屬性值", "name": "The Abilities",
 					"entries": [
 						"這裡記載著八個屬性的描述，以及它們各自代表的面向。",
 						{
@@ -1698,14 +1698,14 @@
 									"type": "entries",
 									"translate_name": "力量 (Str)", "name": "Strength (Str)",
 									"entries": [
-										"Strength measures sheer muscle power and the ability to apply it. Your Strength rank applies to:",
+										"力量用以衡量純粹的肌肉力量、以及運用它的能力。你的力量等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Damage dealt by your unarmed and strength-based attacks.",
-												"How far you can jump (based on an Athletics skill check).",
-												"The amount of weight you can lift, carry, and throw.",
-												"Athletics skill checks."
+												"你透過徒手打擊和基於力量的攻擊所造成的傷害。",
+												"你跳遠的距離（基於運動技能檢定）。",
+												"你所能抬舉、攜帶、和投擲的重量。",
+												"{@skill 運動}技能檢定。"
 											]
 										}
 									]
@@ -1714,13 +1714,13 @@
 									"type": "entries",
 									"translate_name": "體質 (Sta)", "name": "Stamina (Sta)",
 									"entries": [
-										"Stamina is health, endurance, and overall physical resilience. Stamina is important because it affects a character’s ability to resist most forms of damage. Your Stamina modifier applies to:",
+										"體質代表著生命力、耐力、以及整體的身體韌性。由於體質會影響角色對於大部分類型傷害的抵抗能力，因此這個屬性相當重要。你的體質等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Toughness defense, for resisting damage.",
-												"Fortitude defense, for resisting effects targeting your character’s health.",
-												"Stamina checks to resist or recover from things affecting your character’s health when a specific defense doesn’t apply."
+												"堅實防禦，用以抵抗傷害。",
+												"韌性防禦，用以對抗影響你角色健康的效果。",
+												"當情況不適用特定防禦時，為了抵抗影響你角色健康的事物或從中恢復時所進行的體質檢定。"
 											]
 										}
 									]
@@ -1729,14 +1729,14 @@
 									"type": "entries",
 									"translate_name": "靈敏 (Agl)", "name": "Agility (Agl)",
 									"entries": [
-										"Agility is balance, grace, speed, and overall physical coordination. Your Agility rank applies to:",
+										"靈敏代表著平衡、優雅、速度、和整體的身體協調性。你的靈敏等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Dodge defense, for avoiding ranged attacks and other hazards.",
-												"Initiative bonus, for acting first in combat.",
-												"Acrobatics and Stealth skill checks.",
-												"Agility checks for feats of coordination, gross movement, and quickness when a specific skill doesn’t apply."
+												"閃避防禦，用以躲避遠程攻擊和其他危害。",
+												"先攻加值，用以在戰鬥中搶先行動。",
+												"{@skill 雜技}和{@skill 潛行}技能檢定。",
+												"當情況不適用特定技能時，執行涉及協調性、整體運動、和迅捷性的舉動時所進行的靈敏檢定。"
 											]
 										}
 									]
@@ -1745,13 +1745,13 @@
 									"type": "entries",
 									"translate_name": "精準 (Dex)", "name": "Dexterity (Dex)",
 									"entries": [
-										"Dexterity is a measure of hand-eye coordination, precision, and manual dexterity. Your Dexterity rank applies to:",
+										"精準用以衡量手眼協調能力、準確度、和雙手的靈巧度。你的精準等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Attack checks for ranged attacks.",
-												"Sleight of Hand and Vehicles skill checks.",
-												"Dexterity checks for feats of fine control and precision when a specific skill doesn’t apply."
+												"遠程攻擊的攻擊檢定。",
+												"{@skill 手上把戲}和{@skill 駕駛}技能檢定。",
+												"當情況不適用特定技能時，執行涉及精密控制和準確度的舉動時所進行的精準檢定。"
 											]
 										}
 									]
@@ -1760,12 +1760,12 @@
 									"type": "entries",
 									"translate_name": "格鬥 (Ftg)", "name": "Fighting (Ftg)",
 									"entries": [
-										"Fighting measures your character’s ability in close combat, from hitting a target to ducking and weaving around any counter-attacks. Your Fighting rank applies to:",
+										"格鬥用以衡量你角色近身戰鬥的能力，從擊中目標、到矮身躲避、甚至伺機展開任何反擊的技巧。你的格鬥等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Attack checks for close attacks.",
-												"Parry defense, for avoiding close attacks."
+												"近身攻擊的攻擊檢定。",
+												"格擋防禦，用以躲避近身攻擊。"
 											]
 										}
 									]
@@ -1774,12 +1774,12 @@
 									"type": "entries",
 									"translate_name": "智力 (Int)", "name": "Intellect (Int)",
 									"entries": [
-										"Intellect covers reasoning ability and learning. A character with a high Intellect rank tends to be knowledgeable and well-educated. Your Intellect modifier applies to:",
+										"智力涵蓋了推理和學習能力。一名高智力等級的角色通常博學多聞且受過良好教育。你的智力等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Expertise, Investigation, Technology, and Treatment skill checks.",
-												"Intellect checks to solve problems using sheer brain-power when a specific skill doesn’t apply."
+												"{@skill 專業}、{@skill 調查}、{@skill 科技}、和{@skill 治療}技能檢定。",
+												"當情況不適用特定技能時，使用純粹智商以解決問題時所進行的智力檢定。"
 											]
 										}
 									]
@@ -1788,13 +1788,13 @@
 									"type": "entries",
 									"translate_name": "警覺 (Awe)", "name": "Awareness (Awe)",
 									"entries": [
-										"While Intellect covers reasoning, Awareness describes common sense and intuition, what some might call “wisdom.” A character with a high Intellect and a low Awareness may be an “absentminded professor” type, smart but not always aware of what’s going on. On the other hand, a not so bright (low Intellect) character may have great deal of common sense (high Awareness). Your Awareness modifier applies to:",
+										"While Intellect covers reasoning, Awareness describes common sense and intuition, what some might call “wisdom.” A character with a high Intellect and a low Awareness may be an “absentminded professor” type, smart but not always aware of what’s going on. On the other hand, a not so bright (low Intellect) character may have great deal of common sense (high Awareness). 你的警覺等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Will defense, for resisting attacks on your mind.",
-												"Insight and Perception skill checks.",
-												"Awareness checks to resolve matters of intuition when a specific skill doesn’t apply."
+												"意志防禦，用以抵抗對你心靈的攻擊。",
+												"{@skill 洞見}和{@skill 感知}技能檢定。",
+												"當情況不適用特定技能時，處理直覺相關問題時所進行的警覺檢定。"
 											]
 										}
 									]
@@ -1803,12 +1803,12 @@
 									"type": "entries",
 									"translate_name": "表現 (Pre)", "name": "Presence (Pre)",
 									"entries": [
-										"Presence is force of personality, persuasiveness, leadership ability and (to a lesser degree) attractiveness. Presence is useful for heroes who intend to be leaders as well as those who strike fear into the hearts of criminals with their presence. Your Presence modifier applies to:",
+										"Presence is force of personality, persuasiveness, leadership ability and (to a lesser degree) attractiveness. Presence is useful for heroes who intend to be leaders as well as those who strike fear into the hearts of criminals with their presence. 你的表現等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
-												"Deception, Intimidation, and Persuasion skill checks.",
-												"Presence checks to influence others through force of personality when a specific skill doesn’t apply."
+												"{@skill 欺瞞}、{@skill 威嚇}、和{@skill 說服}技能檢定。",
+												"當情況不適用特定技能時，透過人格力量以影響他人時所進行的表現檢定。"
 											]
 										}
 									]
@@ -1882,50 +1882,50 @@
 				},
 				{
 					"type": "section",
-					"name": "Defenses & Initiative",
+					"translate_name": "防禦＆先攻", "name": "Defenses & Initiative",
 					"entries": [
 						"Heroes face many hazards in their line of work, from attacks by villainous foes to traps and fiendish mind control. A hero’s {@b defenses} are abilities used to avoid such things, determining the difficulty to affect a hero with an attack, or to make resistance checks against them. Each defense is based on a particular ability, modified by the hero’s advantages and powers. For more on defenses in general and how you use them, see {@b Action & Adventure}.",
 						{
 							"type": "entries",
-							"name": "Defenses",
+							"translate_name": "防禦", "name": "Defenses",
 							"entries": [
 								{
 									"type": "entries",
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Dodge",
+											"translate_name": "閃避", "name": "Dodge",
 											"entries": [
-												"Dodge defense is based on Agility rank. It includes reaction time, quickness, nimbleness, and overall coordination, used to avoid ranged attacks or other hazards where reflexes and speed are important."
+												"閃避防禦基於靈敏屬性。它包括了反應時間、迅捷、靈活性、和整體的協調性，並用以躲避遠程攻擊和其他看重反射神經和速度的危險。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Fortitude",
+											"translate_name": "韌性", "name": "Fortitude",
 											"entries": [
-												"Fortitude defense is based on Stamina and measures health and resistance to threats like poison or disease. It incorporates constitution, ruggedness, metabolism, and immunity."
+												"韌性防禦基於體質屬性，且用以衡量生命力、和對於像是毒素或疾病等威脅的抵抗能力。它包括了體魄、耐受力、新陳代謝、和免疫力。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Parry",
+											"translate_name": "格擋", "name": "Parry",
 											"entries": [
-												"Parry defense is based on Fighting. It is the ability to counter, duck, or otherwise evade a foe’s attempts to strike you in close combat through superior fighting ability."
+												"格擋防禦基於格鬥屬性。它反映了利用高超格鬥技巧以在近身戰鬥中反擊、矮身躲避、或其他手段以避免敵人擊中你的能力。"
 											]
 										}
 										,
 										{
 											"type": "entries",
-											"name": "Toughness",
+											"translate_name": "堅實", "name": "Toughness",
 											"entries": [
-												"Toughness defense is based on Stamina and is resistance to direct damage or harm, and overall durability."
+												"堅實防禦基於體質屬性，代表著對於直接傷害的抵抗能力、以及整體的耐久度。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Will",
+											"translate_name": "意志", "name": "Will",
 											"entries": [
-												"Will defense is based on Awareness rank. It measures mental stability, level-headedness, determination, self-confidence, self-awareness, and willpower, used to resist mental or spiritual attacks."
+												"意志防禦基於警覺屬性。它衡量著精神安定性、清晰思路、決心、自信、自我意識、以及意志力，且被用以對抗心智或精神攻擊。"
 											]
 										}
 									]
