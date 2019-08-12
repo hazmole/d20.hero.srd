@@ -1788,7 +1788,7 @@
 									"type": "entries",
 									"translate_name": "警覺 (Awe)", "name": "Awareness (Awe)",
 									"entries": [
-										"While Intellect covers reasoning, Awareness describes common sense and intuition, what some might call “wisdom.” A character with a high Intellect and a low Awareness may be an “absentminded professor” type, smart but not always aware of what’s going on. On the other hand, a not so bright (low Intellect) character may have great deal of common sense (high Awareness). 你的警覺等級可以適用於：",
+										"智力涵蓋了邏輯推理，而警覺則負責了常識和直覺的部分，這有時候也被稱做「智慧」。高智力而低警覺的角色可能會屬於「心不在焉的學者」類型，聰穎過人，但往往不會注意到周遭發生的事情。相反的，不怎麼聰穎（低智力）的角色仍可能會擁有大量的常識（高警覺）。你的警覺等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
@@ -1803,7 +1803,7 @@
 									"type": "entries",
 									"translate_name": "表現 (Pre)", "name": "Presence (Pre)",
 									"entries": [
-										"Presence is force of personality, persuasiveness, leadership ability and (to a lesser degree) attractiveness. Presence is useful for heroes who intend to be leaders as well as those who strike fear into the hearts of criminals with their presence. 你的表現等級可以適用於：",
+										"表現代表著人格力量、說服力、領導能力、和（程度較低）的吸引力。對於傾向成為領導者的英雄、以及那些試圖以他們的存在於罪犯心中值入恐懼的英雄而言，表現都是一個相當實用的屬性。你的表現等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
