@@ -1944,7 +1944,7 @@
 											"type": "entries",
 											"name": "Toughness Rank",
 											"entries": [
-												"The exception is Toughness, which can only be increased above your base Stamina rank using advantages and powers, not by direct spending of character points. This reflects that greater-than-normal Toughness is virtually always some sort of special ability. See {@5etools Advantages|advantages.html} and {@b Powers|powereffects.html} for various options for improving Toughness, notably the {@advantage defensive Roll} advantage and the {@effect Protection} effect."
+												"The exception is Toughness, which can only be increased above your base Stamina rank using advantages and powers, not by direct spending of character points. This reflects that greater-than-normal Toughness is virtually always some sort of special ability. See {@5etools Advantages|advantages.html} and {@5etools Powers|powereffects.html} for various options for improving Toughness, notably the {@advantage Defensive Roll} advantage and the {@effect Protection} effect."
 											]
 										},
 										{
@@ -1981,7 +1981,7 @@
 								"When things start happening quickly, characters use their {@b initiative} bonuses to determine who goes first. Each character involved in a conflict makes a check of d20 + initiative modifier, which is:",
 								{
 									"type": "middleEnhance",
-									"text": " Initiative Modifier = Agility + Advantages ({@advantage Improved Initiative}) + Power Modifiers"
+									"text": " Initiative Modifier = Agility + Advantages (Improved Initiative) + Power Modifiers"
 								},
 								"Characters then act in initiative order, from highest to lowest. For details see {@rule Action & Adventure|basic|8} chapter."
 							]

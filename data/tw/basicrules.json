@@ -643,10 +643,10 @@
 									"type": "entries",
 									"translate_name": "例行檢定", "name": "Routine Checks",
 									"entries": [
-										"A check normally represents performing a task under a certain amount of pressure, in the midst of the furious action of super-heroic adventure. When the situation is less demanding, you can achieve more reliable results.",
-										"Under routine circumstances—when you are not under any pressure—instead of rolling the die for the check, calculate your result as if you had rolled a 10. This ensures success for average (DC 10) tasks with a modifier of +0 or more. More capable characters (with higher bonuses) can succeed on more difficult checks on a routine basis: a +10 bonus, for example, means a routine check total of 20, able to succeed at DC 20 tasks on a routine basis, and achieve three degrees of success on average (DC 10) tasks on a routine basis.",
-										"The GM decides when circumstances are suitable for performing a task as a routine check. Certain game traits also change what tasks or situations are considered “routine” for a character. Routine checks help speed-up game play and smooth-out some of the variability of die rolling in situations where a character would be expected to perform at a steady, reliable level.",
-										"If a character’s routine check result is not up to a task, the player still has the option to roll the die, since the task is by definition not routine for that character. The idea behind routine checks is to eliminate die-rolling (and possible failures) for things competent characters should be able to accomplish on a regular basis, while still having a good idea of the characters’ capabilities."
+										"檢定通常代表著在一定程度的壓力下，於超級英雄冒險的種種激烈動作中執行一項任務。然而當情況並沒有那麼急迫時，你通常能夠達成更可靠的結果。",
+										"在例行常規情況下──當你未承受任何壓力時──你可以不為該檢定進行擲骰，而是視同你骰出了10來計算你的檢定結果。這能夠確保你在修正值為+0或以上的條件下成功執行一項平均難度(DC 10)的任務。更有能的角色（有著更高加值）則可以在例行檢定中達成更困難的檢定：舉例來說，+10加值意味著總和為20的例行檢定結果，並能夠在例行檢定的基礎下成功通過DC 20的任務，或在平均難度(DC 10)的任務中得到程度三的成功。",
+										"由GM決定什麼情況下適合以例行檢定來處理行動。有些遊戲特性也會改變某些行動或情境，使其對該角色而言被視為「例行」行動。例行檢定能協助加速遊戲的進行，並在角色被預期展現出穩妥可靠行動的場景中緩和擲骰帶來的變數。",
+										"若一名角色的例行檢定結果不足以達成任務，則玩家仍然可以選擇進行擲骰，畢竟根據定義，這項任務對於該角色而言就不再是例行行動。例行檢定背後的概念，是當角色在執行某項常規情況下能夠正常達成的行動時，能夠同時消除擲骰以及失敗的可能性，並仍掌握角色能力的程度。"
 									]
 								},
 								{
@@ -1671,7 +1671,7 @@
 										},
 										{
 											"type": "middleEnhance",
-											"text": "每-1屬性等級，獲得2點額外角色點。"
+											"text": "額外獲得2點角色點／每-1屬性等級"
 										}
 									]
 								}
@@ -1944,7 +1944,7 @@
 											"type": "entries",
 											"translate_name": "堅實等級", "name": "Toughness Rank",
 											"entries": [
-												"唯一的例外是堅實防禦，它只能夠藉由優勢和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 優勢|advantages.html}和{@b 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage defensive Roll}優勢和{@effect Protection}效果。"
+												"唯一的例外是堅實防禦，它只能夠藉由優勢和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 優勢|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage Defensive Roll}優勢和{@effect Protection}效果。"
 											]
 										},
 										{
@@ -1960,7 +1960,7 @@
 									"type": "entries",
 									"translate_name": "防禦層級", "name": "Defense Class",
 									"entries": [
-										"防禦屬性的其中一種用法是那來決定{@b 防禦層級}，亦即使用特定攻擊影響目標的難度層級。就如同例行檢定一樣，防禦層級的數值等同於適用的防禦屬性加上10（事實上，這本質上就是一種衡量角色「例行防禦能力」的方式）。因此，嘗試命中一名角色的遠程攻擊將必須對抗該角色的閃避防禦，該攻擊的DC將會是(該角色的閃避 + 10)。同樣的，試圖影響角色的心靈力量將必須對抗該角色的意志防禦，DC為(該角色的意志 + 10)，諸如此類。這也被稱為「對抗防禦」，例如「對抗閃避」或「對抗意志」。",
+										"防禦屬性的其中一種用法是那來決定{@b 防禦層級}，亦即使用特定攻擊影響目標的難度層級。就如同例行檢定一樣，防禦層級的數值等同於適用的防禦屬性加上10（事實上，這本質上就是一種衡量角色「例行防禦能力」的方式）。因此，嘗試命中一名角色的遠程攻擊將必須對抗該角色的閃避防禦，該攻擊的DC將會是(該角色的閃避 + 10)。同樣的，試圖影響角色的心靈力量將必須對抗該角色的意志防禦，DC為(該角色的意志 + 10)，諸如此類。這也被稱為「對抗防禦DC」，例如「對抗閃避DC」或「對抗意志DC」。",
 										"主要的防禦層級屬性為閃避、格擋、和意志。"
 									]
 								},
@@ -1981,7 +1981,7 @@
 								"當事件的步調開始急迫，角色們將使用他們的{@b 先攻}加值以決定誰先行動。每個參與衝突的角色都進行一次d20 + 先攻修正值的檢定。先攻修正值如下：",
 								{
 									"type": "middleEnhance",
-									"text": "先攻修正值 = 靈敏 + 優勢({@advantage Improved Initiative}) + 超能力修正值"
+									"text": "先攻修正值 = 靈敏 + 優勢(Improved Initiative) + 超能力修正值"
 								},
 								"角色們接著將按照先攻順序依序行動，由高到低。更多細節請參見{@rule 動作＆冒險|basic|8}章節。"
 							]

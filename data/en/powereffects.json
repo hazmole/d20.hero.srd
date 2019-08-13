@@ -2057,7 +2057,7 @@
 			"flaws": [
 				{
 					"name": "Sustained",
-					"entries": ["Your Protection is a sustained effect, rather than permanent. The effect can be turned on and off and can be improved using extra effort, including using it to perform stunts (see Extra Effort). Sustained Protection might be a power like a personal force field, or the ability to consciously harden your skin and turn it into armor."],
+					"entries": ["Your Protection is a sustained effect, rather than permanent. The effect can be turned on and off and can be improved using extra effort, including using it to perform stunts (see {@rule Extra Effort|basic|1|extra effort}). Sustained Protection might be a power like a personal force field, or the ability to consciously harden your skin and turn it into armor."],
 					"cost": {
 						"value": 0, "type": "per"
 					}

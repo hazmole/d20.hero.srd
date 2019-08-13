@@ -96,7 +96,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"你可以掘穿地表，並選擇是否在身後留下一條隧道。你能夠以等同你掘地等級減5的速度等級移動穿過土壤或沙子。因此舉例來說，8級的掘地效果能夠讓你以3級的速度（大約16哩/小時）在地表中穿梭。掘穿堅硬的黏土和結實的土壤會使速度額外降低一級。你所留下的隧道要嘛是永久存在，要嘛是會在你身後立即崩塌（你在挖掘每條新通道時決定）。",
+				"你可以掘穿地表，並選擇是否在身後留下一條隧道。你能夠以等同你掘地等級減5的速度等級移動穿過土壤或沙子。因此舉例來說，8級的掘地效果能夠讓你以3級的速度（大約16哩/小時）在地表中穿梭。掘穿堅硬的黏土和結實的土壤會使速度額外降低一級。你所留下的隧道可以是永久存在，也可以立即在你身後崩塌（你在挖掘每條新通道時決定）。",
 				"注意掘地效果與Permeate {@effect Movement}效果不同，後者讓你得以如同在地面上以你原本的速度移動穿透障礙物，而不至於干涉到障礙物本身（參見{@effect Movement}）。"
 			],
 			"extras": [
@@ -2042,7 +2042,7 @@
 			]
 		},
 		{
-			"name": "Protection",
+			"translate_name": "保護", "name": "Protection",
 			"type": "DEF",
 			"action": "N",
 			"range": "personal",
@@ -2052,12 +2052,12 @@
 				"type": "per"
 			},
 			"entries": [
-				"Protection shields you against damage, giving you +1 to your Toughness defense per rank. So Protection 4 gives you +4 Toughness."
+				"保護效果將保護你不受傷害。每等級的保護效果都將使你的堅實防禦屬性+1。因此，4級的保護效果會賦予你+4堅實防禦。"
 			],
 			"flaws": [
 				{
-					"name": "Sustained",
-					"entries": ["Your Protection is a sustained effect, rather than permanent. The effect can be turned on and off and can be improved using extra effort, including using it to perform stunts (see Extra Effort). Sustained Protection might be a power like a personal force field, or the ability to consciously harden your skin and turn it into armor."],
+					"name": "維持",
+					"entries": ["你的保護效果的持續時間將變為維持，而非永駐。這個效果將能夠被開關，且可以透過extra effort而被強化，包括用其施展stunts(參見{@rule Extra Effort|basic|1|extra effort})。維持保護可能會是一種類似於個人防護力場、或使肌膚硬化並轉變為鎧甲的能力。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
