@@ -199,15 +199,15 @@
 							"items": [
 								"骰一顆二十面骰（或寫作d20）。",
 								"將任何相關的修正值（像是屬性、技能、超能力、或情境加值等遊戲數值）加入擲骰結果。",
-								"將總和值與一個被稱作{@b 難度等級}(簡寫作{@b DC})的數值相比較。"
+								"將總和值與一個被稱作{@b 難度層級}(簡寫作{@b DC})的數值相比較。"
 							]
 						},
-						"若檢定結果等於或超過難度等級（由GM根據當下情境設定難度），則角色嘗試進行的行動成功。若結果低於難度等級，則行動失敗。",
-						"這套簡單的機制幾乎被使用於遊戲中的所有內容，根據擲骰時適用的修正值、如何決定難度等級、以及成功和失敗的確切程度而有所變化。",
+						"若檢定結果等於或超過難度層級（由GM根據當下情境設定難度），則角色嘗試進行的行動成功。若結果低於難度層級，則行動失敗。",
+						"這套簡單的機制幾乎被使用於遊戲中的所有內容，根據擲骰時適用的修正值、如何決定難度層級、以及成功和失敗的確切程度而有所變化。",
 						"記住……",
 						{
 							"type": "middleEnhance",
-							"text": "d20 + 修正值 vs. 難度等級"
+							"text": "d20 + 修正值 vs. 難度層級"
 						},
 						"……現在，你已經明白了如何進行這個遊戲中大部分的內容！"
 					]
@@ -469,10 +469,10 @@
 								},
 								"確切來說，你在遊戲中要怎麼做呢？",
 								"每當遊戲中的一名角色嘗試進行某件不能確定結果的行為時，他將需要進行一次相符特性的{@b 檢定}：屬性、技能、超能力等等（這也被稱作「特性檢定」，或者「（填入特性名稱）檢定」，像是「精準檢定」）。",
-								"進行檢定時，需要擲一顆骰子，加上適用的修正值，並將結果與{@b 難度等級}({@b DC})進行比較：若你的檢定結果等於或超過DC，則檢定成功。反之，你的嘗試將以失敗告終。有時候，你的檢定結果超過或低於DC的程度也會有所影響，但通常來說只會考慮你檢定是成功還是失敗。",
+								"進行檢定時，需要擲一顆骰子，加上適用的修正值，並將結果與{@b 難度層級}({@b DC})進行比較：若你的檢定結果等於或超過DC，則檢定成功。反之，你的嘗試將以失敗告終。有時候，你的檢定結果超過或低於DC的程度也會有所影響，但通常來說只會考慮你檢定是成功還是失敗。",
 								{
 									"type": "middleEnhance",
-									"text": "檢定 = d20 + 屬性 vs. 難度等級"
+									"text": "檢定 = d20 + 屬性 vs. 難度層級"
 								},
 								"因此，在前述的例子中會有多少個檢定呢？讓我們將事情分拆來看，並看看英雄做了些什麼：",
 								{
@@ -544,12 +544,12 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "難度等級", "name": "Difficulty Class",
+									"translate_name": "難度層級", "name": "Difficulty Class",
 									"entries": [
-										"檢定結果將被用以對抗一個{@b 難度等級}，或稱為{@b DC}。難度等級是一個由GM設定的數值，且你的檢定結果必須等於或超過這個數值才能夠讓你的檢定成功。因此，當進行一個DC為15的任務時，你必須在檢定中骰出總合為15或以上的結果才算成功。在某些情況下，檢定的結果會根據你超過或低於DC的程度而有所不同，這個程度被稱作{@b 成功度}或{@b 失敗度}。",
+										"檢定結果將被用以對抗一個{@b 難度層級}，或稱為{@b DC}。難度層級是一個由GM設定的數值，且你的檢定結果必須等於或超過這個數值才能夠讓你的檢定成功。因此，當進行一個DC為15的任務時，你必須在檢定中骰出總合為15或以上的結果才算成功。在某些情況下，檢定的結果會根據你超過或低於DC的程度而有所不同，這個程度被稱作{@b 成功度}或{@b 失敗度}。",
 										{
 											"type": "table",
-											"caption": "難度等級",
+											"caption": "難度層級",
 											"colLabels": [
 												"難度(DC)",
 												"範例(使用技能)"
@@ -612,28 +612,28 @@
 											],
 											"rows": [
 												[
-													"DC+15", "四個成功度", "35"
+													"DC+15", "程度四(成功)", "35"
 												],
 												[
-													"DC+10", "三個成功度", "30"
+													"DC+10", "程度三(成功)", "30"
 												],
 												[
-													"DC+5", "二個成功度", "25"
+													"DC+5", "程度二(成功)", "25"
 												],
 												[
-													"DC", "一個成功度", "20"
+													"DC", "程度一(成功)", "20"
 												],
 												[
-													"DC-5", "一個失敗度", "15"
+													"DC-5", "程度一(失敗)", "15"
 												],
 												[
-													"DC-10", "二個失敗度", "10"
+													"DC-10", "程度二(失敗)", "10"
 												],
 												[
-													"DC-15", "三個失敗度", "5"
+													"DC-15", "程度三(失敗)", "5"
 												],
 												[
-													"DC-20", "四個失敗度", "0"
+													"DC-20", "程度四(失敗)", "0"
 												]
 											]
 										}
@@ -1667,11 +1667,11 @@
 										"You can also lower one or more of your character’s ability ranks from the starting value of 0. Each rank you lower an ability gives you an additional two character points to spend elsewhere. You cannot lower an ability rank below –5, which is itself a serious deficiency.",
 										{
 											"type": "middleEnhance",
-											"text": "Ability Cost = 2 character points per +1 to an ability rank."
+											"text": "屬性花費 = 2點角色點／每+1屬性等級"
 										},
 										{
 											"type": "middleEnhance",
-											"text": "Gain 2 bonus character points per -1 to an ability rank."
+											"text": "每-1屬性等級，獲得2點額外角色點。"
 										}
 									]
 								}
@@ -1884,7 +1884,7 @@
 					"type": "section",
 					"translate_name": "防禦＆先攻", "name": "Defenses & Initiative",
 					"entries": [
-						"Heroes face many hazards in their line of work, from attacks by villainous foes to traps and fiendish mind control. A hero’s {@b defenses} are abilities used to avoid such things, determining the difficulty to affect a hero with an attack, or to make resistance checks against them. Each defense is based on a particular ability, modified by the hero’s advantages and powers. For more on defenses in general and how you use them, see {@b Action & Adventure}.",
+						"英雄們在他們的事業中將會面對許多危險，從邪惡敵人的攻擊、到致命陷阱以及邪佞的心靈控制。英雄的{@b 防禦}正是用以避免這些事情的屬性，這些屬性決定了這些攻擊影響英雄的難度、以及英雄面對這些效果所進行的抵抗檢定。每種防禦都是基於一個特定的屬性，並根據英雄的優勢和超能力進行調整。關於更多防禦的通則與運用它們的方式，請參閱{@rule 動作&冒險|basic|8}章節。",
 						{
 							"type": "entries",
 							"translate_name": "防禦", "name": "Defenses",
@@ -1932,58 +1932,58 @@
 								},
 								{
 									"type": "entries",
-									"name": "Defense Rank",
+									"translate_name": "防禦等級", "name": "Defense Rank",
 									"entries": [
-										"Your base defense ranks are equal to your ranks in their associated abilities. You can increase your defenses above the values granted by your ability ranks by spending character points: 1 character point grants you an additional rank in a defense, up to the limits imposed by power level (see {@b Power Level}).",
+										"你的基本防禦等級等同於你相應屬性各自的等級。你可以藉由花費角色點來進一步增加你的防禦等級：1點角色點可以使你的其中一種防禦提升1級，最高提升至超能力等級所設下的限制（參見{@rule 超能力等級|basic|2|power level}）。",
 										{
 											"type": "middleEnhance",
-											"text": "Defense Cost = 1 character point per +1 rank"
+											"text": "防禦花費 = 1點角色點／每+1等級"
 										},
-										"With the Enhanced Trait effect (see {@b Powers} chapter) you can also improve your defenses with powers at the same cost, 1 point per rank.",
+										"With the {@effect Enhanced Trait} effect you can also improve your defenses with powers at the same cost, 1 point per rank.",
 										{
 											"type": "entries",
-											"name": "Toughness Rank",
+											"translate_name": "堅實等級", "name": "Toughness Rank",
 											"entries": [
-												"The exception is Toughness, which can only be increased above your base Stamina rank using advantages and powers, not by direct spending of character points. This reflects that greater-than-normal Toughness is virtually always some sort of special ability. See {@b Advantages} and {@b Powers} chapter for various options for improving Toughness, notably the defensive Roll advantage and the Protection effect."
+												"唯一的例外是堅實防禦，它只能夠藉由優勢和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 優勢|advantages.html}和{@b 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage defensive Roll}優勢和{@effect Protection}效果。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Active Defenses",
+											"translate_name": "主動防禦", "name": "Active Defenses",
 											"entries": [
-												"Dodge and Parry defenses require a measure of action to be fully effective. Limits on your mobility, focus, and reaction time adversely affect them. If you are vulnerable, your Dodge and Parry defense ranks are halved (divide their normal values by 2 and round up), and if you are {@condition defenseless}, they are both reduced to 0!"
+												"閃避和格擋防禦需要角色得以採取一定程度的行動才能夠發揮完整作用。當你的行動能力、注意力、和反應時間受到限制，這兩種防禦也將受到負面影響。若你陷入{@condition 脆弱}狀態，你的閃避和格擋防禦等級將變為一半（將它們原本的數值除以2，向上取整）；若你陷入{@condition 無防備}狀態，則它們都將被降至0！"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Defense Class",
+									"translate_name": "防禦層級", "name": "Defense Class",
 									"entries": [
-										"One use of defenses is determining a {@b defense class}, or the difficulty class to affect a target with a particular attack. This is the appropriate defense, plus 10, just like a routine check (indeed, it is essentially a measure of the character’s “routine” defense). So hitting a character with a ranged attack goes against Dodge defense, giving the attack a DC of (Dodge + 10). Similarly, affecting someone with a mental power goes against Will defense, with a DC of (Will + 10), and so forth. This is referred to as “targeting” a defense, such as “targets Dodge” or “targets Will”.",
-										"The main defense class traits are Dodge, Parry, and Will."
+										"防禦屬性的其中一種用法是那來決定{@b 防禦層級}，亦即使用特定攻擊影響目標的難度層級。就如同例行檢定一樣，防禦層級的數值等同於適用的防禦屬性加上10（事實上，這本質上就是一種衡量角色「例行防禦能力」的方式）。因此，嘗試命中一名角色的遠程攻擊將必須對抗該角色的閃避防禦，該攻擊的DC將會是(該角色的閃避 + 10)。同樣的，試圖影響角色的心靈力量將必須對抗該角色的意志防禦，DC為(該角色的意志 + 10)，諸如此類。這也被稱為「對抗防禦」，例如「對抗閃避」或「對抗意志」。",
+										"主要的防禦層級屬性為閃避、格擋、和意志。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Resistance Checks",
+									"translate_name": "抵抗檢定", "name": "Resistance Checks",
 									"entries": [
-										"Defenses are also used to measure the ability to overcome certain effects, involving a {@b resistance check} of the defense plus a die roll against a difficulty class determined by the effect or hazard. So you might make a Fortitude resistance check for your hero to overcome a toxin, for example, or a Dodge resistance check to avoid a trap just as it is triggered, and so on. This is referred to as “resisting,” such as “resisted by Fortitude” or “resisted by Dodge”.",
-										"The main resistance check traits are Dodge, Fortitude, Toughness, and Will."
+										"防禦屬性也被當作衡量克服特定效果的能力，並會涉及一次{@b 抵抗檢定}，使用該防禦屬性加上擲骰結果以對抗特定效果或危害的難度層級。舉例來說，你可能會在你的英雄嘗試克服毒素時進行一次韌性抵抗檢定，或在躲避被觸發的陷阱時進行一次閃避抵抗檢定，諸如此類。這也被簡稱為「以防禦抵抗」，像是「以韌性抵抗」或「以閃避抵抗」。",
+										"主要的抵抗檢定屬性為閃避、韌性、堅實、和意志。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Initiative",
+							"translate_name": "先攻", "name": "Initiative",
 							"entries": [
-								"When things start happening quickly, characters use their {@b initiative} bonuses to determine who goes first. Each character involved in a conflict makes a check of d20 + initiative modifier, which is:",
+								"當事件的步調開始急迫，角色們將使用他們的{@b 先攻}加值以決定誰先行動。每個參與衝突的角色都進行一次d20 + 先攻修正值的檢定。先攻修正值如下：",
 								{
 									"type": "middleEnhance",
-									"text": " Initiative Modifier = Agility + Advantages (Improved Initiative) + Power Modifiers"
+									"text": "先攻修正值 = 靈敏 + 優勢({@advantage Improved Initiative}) + 超能力修正值"
 								},
-								"Characters then act in initiative order, from highest to lowest. For details see {@b Action & Adventure} chapter."
+								"角色們接著將按照先攻順序依序行動，由高到低。更多細節請參見{@rule 動作＆冒險|basic|8}章節。"
 							]
 						}
 					]

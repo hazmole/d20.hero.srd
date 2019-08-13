@@ -1884,7 +1884,7 @@
 					"type": "section",
 					"name": "Defenses & Initiative",
 					"entries": [
-						"Heroes face many hazards in their line of work, from attacks by villainous foes to traps and fiendish mind control. A hero’s {@b defenses} are abilities used to avoid such things, determining the difficulty to affect a hero with an attack, or to make resistance checks against them. Each defense is based on a particular ability, modified by the hero’s advantages and powers. For more on defenses in general and how you use them, see {@b Action & Adventure}.",
+						"Heroes face many hazards in their line of work, from attacks by villainous foes to traps and fiendish mind control. A hero’s {@b defenses} are abilities used to avoid such things, determining the difficulty to affect a hero with an attack, or to make resistance checks against them. Each defense is based on a particular ability, modified by the hero’s advantages and powers. For more on defenses in general and how you use them, see {@rule Action & Adventure|basic|8}.",
 						{
 							"type": "entries",
 							"name": "Defenses",
@@ -1934,24 +1934,24 @@
 									"type": "entries",
 									"name": "Defense Rank",
 									"entries": [
-										"Your base defense ranks are equal to your ranks in their associated abilities. You can increase your defenses above the values granted by your ability ranks by spending character points: 1 character point grants you an additional rank in a defense, up to the limits imposed by power level (see {@b Power Level}).",
+										"Your base defense ranks are equal to your ranks in their associated abilities. You can increase your defenses above the values granted by your ability ranks by spending character points: 1 character point grants you an additional rank in a defense, up to the limits imposed by power level (see {@rule Power Level|basic|2|power level}).",
 										{
 											"type": "middleEnhance",
 											"text": "Defense Cost = 1 character point per +1 rank"
 										},
-										"With the Enhanced Trait effect (see {@b Powers} chapter) you can also improve your defenses with powers at the same cost, 1 point per rank.",
+										"With the {@effect Enhanced Trait} effect you can also improve your defenses with powers at the same cost, 1 point per rank.",
 										{
 											"type": "entries",
 											"name": "Toughness Rank",
 											"entries": [
-												"The exception is Toughness, which can only be increased above your base Stamina rank using advantages and powers, not by direct spending of character points. This reflects that greater-than-normal Toughness is virtually always some sort of special ability. See {@b Advantages} and {@b Powers} chapter for various options for improving Toughness, notably the defensive Roll advantage and the Protection effect."
+												"The exception is Toughness, which can only be increased above your base Stamina rank using advantages and powers, not by direct spending of character points. This reflects that greater-than-normal Toughness is virtually always some sort of special ability. See {@5etools Advantages|advantages.html} and {@b Powers|powereffects.html} for various options for improving Toughness, notably the {@advantage defensive Roll} advantage and the {@effect Protection} effect."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Active Defenses",
 											"entries": [
-												"Dodge and Parry defenses require a measure of action to be fully effective. Limits on your mobility, focus, and reaction time adversely affect them. If you are vulnerable, your Dodge and Parry defense ranks are halved (divide their normal values by 2 and round up), and if you are {@condition defenseless}, they are both reduced to 0!"
+												"Dodge and Parry defenses require a measure of action to be fully effective. Limits on your mobility, focus, and reaction time adversely affect them. If you are {@condition vulnerable}, your Dodge and Parry defense ranks are halved (divide their normal values by 2 and round up), and if you are {@condition defenseless}, they are both reduced to 0!"
 											]
 										}
 									]
@@ -1981,9 +1981,9 @@
 								"When things start happening quickly, characters use their {@b initiative} bonuses to determine who goes first. Each character involved in a conflict makes a check of d20 + initiative modifier, which is:",
 								{
 									"type": "middleEnhance",
-									"text": " Initiative Modifier = Agility + Advantages (Improved Initiative) + Power Modifiers"
+									"text": " Initiative Modifier = Agility + Advantages ({@advantage Improved Initiative}) + Power Modifiers"
 								},
-								"Characters then act in initiative order, from highest to lowest. For details see {@b Action & Adventure} chapter."
+								"Characters then act in initiative order, from highest to lowest. For details see {@rule Action & Adventure|basic|8} chapter."
 							]
 						}
 					]
