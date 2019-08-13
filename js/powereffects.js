@@ -5,8 +5,6 @@ const CUSTOM_RENDERER = Renderer.powereffect;
 const CUSTOM_TOKEN = "powereffect";
 const DATA_LIST_ITEM_ARR = ['name', 'type', "action", "range", "duration"];
 const DEFAULT_SORT = "type";
-const PAGE_LIST_CLASS = "powereffects";
-const PAGE_SUBLIST_CLASS = "subpowereffects";
 IS_LOCAL_TEST = false;
 
 // List item

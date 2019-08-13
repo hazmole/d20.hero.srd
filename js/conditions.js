@@ -5,8 +5,6 @@ const CUSTOM_RENDERER = Renderer.condition;
 const CUSTOM_TOKEN = "condition";
 const DATA_LIST_ITEM_ARR = ['name', 'type', "contain"];
 const DEFAULT_SORT = "type";
-const PAGE_LIST_CLASS = "conditions";
-const PAGE_SUBLIST_CLASS = "subconditions";
 IS_LOCAL_TEST = false;
 
 // List item

@@ -10,11 +10,11 @@ window.onload = async function load () {
 async function onJsonLoad (data) {
 	list = ListUtil.search({
 		valueNames: DATA_LIST_ITEM_ARR.concat(["uniqueid", "eng_name"]),
-		listClass: PAGE_LIST_CLASS
+		listClass: "entries"
 	});
 	const subList = ListUtil.initSublist({
 		valueNames: DATA_LIST_ITEM_ARR.concat(["id"]),
-		listClass: PAGE_SUBLIST_CLASS,
+		listClass: "subentries",
 		getSublistRow: getSublistItem
 	});
 
@@ -34,7 +34,7 @@ function addEntry (data) {
 		var entry = entryList[Idx];
 		tempString += getListItem(entry, Idx);
 	}
-	$("ul."+PAGE_LIST_CLASS).append(tempString);
+	$("ul.entries").append(tempString);
 	// Sort List
 	list.reIndex();
 	list.sort(DEFAULT_SORT);

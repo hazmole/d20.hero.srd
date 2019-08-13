@@ -5,8 +5,6 @@ const CUSTOM_RENDERER = Renderer.skill;
 const CUSTOM_TOKEN = "skill";
 const DATA_LIST_ITEM_ARR = ['name', 'ability', "untrain", "action"];
 const DEFAULT_SORT = "name";
-const PAGE_LIST_CLASS = "skills";
-const PAGE_SUBLIST_CLASS = "subskills";
 IS_LOCAL_TEST = false;
 
 // List item

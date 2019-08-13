@@ -653,15 +653,15 @@
 									"type": "entries",
 									"translate_name": "對抗檢定", "name": "Opposed Checks",
 									"entries": [
-										"Some checks are {@b opposed}. They are made against another character’s check result as the DC. Whoever gets the higher result wins. An example is trying to bluff someone. You roll a Deception check, while the GM rolls an Insight check for your target. If you beat the target’s Insight check result, you succeed.",
-										"For ties on opposed checks, the character with the higher bonus wins. If the bonuses are the same, roll d20. On a 1–10, one character wins, and on an 11–20, victory goes to the other character; decide which character is “high” and which is “low” before rolling.",
+										"有些檢定會彼此{@b 對抗}。它們將以角色們彼此的檢定結果作為對方的DC，並由檢定結果較高者獲勝。一個例子是當你嘗試唬騙某人，你進行欺瞞檢定，而GM則為你的目標進行一次洞見檢定。若你擊敗目標的洞見檢定結果，那麼你唬騙成功。",
+										"若對抗檢定平手，則具有較高加值的角色獲勝。若加值相同，那麼骰一顆d20。若擲骰結果為1-10，其中一名角色獲勝；若結果為11-20，則另一名角色獲勝。在擲骰前決定哪一方會在較高的擲骰結果獲勝。",
 										{
 											"type": "table",
-											"caption": "Opposed Check Examples",
+											"caption": "對抗檢定範例",
 											"colLabels": [
-												"Task",
-												"Skill",
-												"Opposed by"
+												"事項",
+												"技能",
+												"由……對抗"
 											],
 											"colStyles": [
 												"col-4 text-align-center",
@@ -670,41 +670,41 @@
 											],
 											"rows": [
 												[
-													"Sneak up on someone",
-													"Stealth", "Perception"
+													"悄悄接近某人",
+													"潛行", "感知"
 												],
 												[
-													"Con someone",
-													"Deception", "Insight"
+													"哄騙某人",
+													"欺瞞", "洞見"
 												],
 												[
-													"Win a car race",
-													"Vehicles", "Vehicles"
+													"贏得賽車比賽",
+													"駕駛", "駕駛"
 												],
 												[
-													"Pretend to be someone else",
-													"Deception", "Perception"
+													"假裝成別人",
+													"欺瞞", "感知"
 												],
 												[
-													"Steal a key chain unnoticed",
-													"Sleight of Hand", "Perception"
+													"悄悄偷走鑰匙串",
+													"手上把戲", "感知"
 												],
 												[
-													"Win a trivia contest",
-													"Expertise", "Expertise"
+													"贏得知識競賽",
+													"專業", "專業"
 												],
 												[
-													"Break computer security",
-													"Technology", "Technology"
+													"突破電腦資安防護",
+													"科技", "科技"
 												]
 											]
 										},
 										{
 											"type": "inset",
-											"name": "Under the Hood: Using Opposed Checks",
+											"name": "幕後花絮：使用對抗檢定",
 											"entries": [
-												"Opposed checks offer the Gamemaster a useful tool for comparing the efforts of two characters quickly and easily. This applies not only to skills, but also powers and, in some cases, abilities. If two or more characters compete at a particular task, you can resolve it with an opposed check. The character with the highest check result wins. Of course, you can play things out if you want, but sometimes it’s good to be able to resolve things with a quick opposed check and move on.",
-												"As Gamemaster, if you find yourself without a particular rule to resolve a conflict or contest between characters, the opposed check is your friend. Pick the appropriate skill, power, or ability, make checks for the characters and compare the results to see how they did."
+												"對抗檢定為遊戲主持人提供了一個快速而容易的實用工具，用以比較兩名角色之間的行動成效。這不只能夠應用在技能上，也能套用在超能力、或甚至屬性本身。若兩名或更多的角色在一個特定任務上競爭，則你能夠透過一個對抗檢定處理之。檢定結果最高的角色將從這場競爭中勝出。當然，如果你希望的話，你也可以用其他方式處理，但有時候快速地以對抗檢定處理競爭並繼續遊戲總是件好事。",
+												"做為遊戲主持人，若你發現自己找不到合適的規則以處理角色之間的衝突或競爭時，對抗檢定永遠是你的好朋友。選擇合適的技能、超能力、或屬性，讓每名角色進行檢定，比較彼此的檢定結果以判斷他們行動的成效。"
 											]
 										}
 									]
@@ -798,26 +798,26 @@
 								},
 								{
 									"type": "entries",
-									"name": "Attack Checks",
+									"translate_name": "攻擊檢定", "name": "Attack Checks",
 									"entries": [
 										"An {@b attack check} determines whether or not you hit an opponent in combat with an attack. It is a d20 This is a d20. roll plus your bonus with that particular attack, usually based off of Fighting or Dexterity and appropriate modifiers, like the Close and Ranged Combat skills. The difficulty is your target’s defense class: Parry for close attacks, Dodge for ranged attacks. Certain attacks may target other defenses. If you equal or exceed your target’s defense class result, your attack hits. Otherwise, you miss.",
 										{
 											"type": "middleEnhance",
-											"text": "Attack Check = d20 + attack bonus + modifiers vs. defense class"
+											"text": "攻擊檢定 = d20 + 攻擊加值 + 修正值 vs. 防禦層級"
 										},
 										"A natural 20 on an attack check (where the die comes up 20) always hits and may be a {@b critical hit} (see {@b Critical Hits} in {@b Action & Adventure} for further information). A natural 1 on an attack check (where the die comes up 1) always misses, regardless of the check total. This differs from normal checks and reflects the variable and unpredictable nature of combat."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Resistance Checks",
+									"translate_name": "抵抗檢定", "name": "Resistance Checks",
 									"entries": [
-										"A {@b resistance check} is an attempt to resist different effects, ranging from damage and injury to traps, poisons, and various power effects. A resistance check is a d20 roll + the appropriate defense (typically Dodge, Fortitude, Toughness, or Will).",
+										"{@b 抵抗檢定}是在嘗試抵抗不同效果時所做的檢定，從傷害和創傷，到陷阱、毒素、和各式各樣的超能力效果。進行抵抗檢定時，骰一顆d20 + 適當的防禦屬性（通常為閃避、韌性、堅實、或意志）。",
 										{
 											"type": "middleEnhance",
-											"text": "Resistance Check = d20 + defense bonus + modifiers vs. hazard’s DC (generally 10 + rank)"
+											"text": "抵抗檢定 = d20 + 防禦加值 + 修正值 vs. 危害的DC (通常為10 + 等級)"
 										},
-										"The difficulty class is based on the strength of the hazard, such as the rank of an effect or the strength of a disease or poison, typically that value plus 10 (like a routine check). Resistance checks may be graded, with different results at different degrees."
+										"抵抗檢定的難度層級取決於危害的強度，像是超能力效果的等級、或是疾病或毒素的強度，通常為其數值加上10（如同例行檢定）。抵抗檢定同時也可能會是程度檢定，隨著檢定結果的程度不同而有不同的後果。"
 									]
 								}
 							]

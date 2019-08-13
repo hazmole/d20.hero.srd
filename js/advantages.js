@@ -5,8 +5,6 @@ const CUSTOM_RENDERER = Renderer.advantage;
 const CUSTOM_TOKEN = "advantage";
 const DATA_LIST_ITEM_ARR = ['name', 'type', "rank"];
 const DEFAULT_SORT = "type";
-const PAGE_LIST_CLASS = "advantages";
-const PAGE_SUBLIST_CLASS = "subadvantages";
 IS_LOCAL_TEST = false;
 
 // List item
