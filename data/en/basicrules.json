@@ -714,7 +714,7 @@
 									"name": "Routine Opposition",
 									"entries": [
 										"In cases where two or more characters are actively opposing each other, both roll checks and compare the results. In some situations, however, one or more of the characters in an opposed check may not even be aware of it! For example, a guard standing watch and looking for intruders would make a Perception check to oppose any attempt at Stealth, but somebody just sitting in a park, not expecting anyone to sneak up on her, isn’t specifically looking. This is a case of {@b routine opposition}, in which case the DC for the active character’s check is the opposing character’s modifier +10, just like the result of a routine check (previously).",
-										"Active defenses in combat, where characters are focusing on other actions, are generally routine opposition, which is why attack checks are made against a DC of 10 + the appropriate defense. Active opposed checks in combat are an option when a character goes on the defensive.See {@b Defend} in {@b Action & Adventure} for further details."
+										"Active defenses in combat, where characters are focusing on other actions, are generally routine opposition, which is why attack checks are made against a DC of 10 + the appropriate defense. Active opposed checks in combat are an option when a character goes on the defensive. See {@rule Defend|basic|8|defend} for further details."
 									]
 								},
 								{
@@ -722,7 +722,7 @@
 									"name": "Comparison Checks",
 									"entries": [
 										"In cases where a check is a simple test of one character’s capability against another, with no luck involved, both participants compare their appropriate ranks. The character with the higher rank wins. Just as you wouldn’t roll a “height check” to see who’s taller, you don’t need to make a Strength check to see who’s stronger; Strength rank already tells you that.",
-										"So when two characters arm wrestle, for example, the stronger character wins. If two flying characters race, the faster character wins, and so forth. Note this does not include the use of extra effort (see Extra Effort) to temporarily increase a character’s rank, which can affect the outcome of a comparison check, nor does it include things like maneuvers, tricks, or other ways of trying to affect the outcome. It assumes a straight-out comparison.",
+										"So when two characters arm wrestle, for example, the stronger character wins. If two flying characters race, the faster character wins, and so forth. Note this does not include the use of extra effort (see {@rule Extra Effort|basic|1|extra effort}) to temporarily increase a character’s rank, which can affect the outcome of a comparison check, nor does it include things like maneuvers, tricks, or other ways of trying to affect the outcome. It assumes a straight-out comparison.",
 										"In the case of identical bonuses or ranks, each character has an equal chance of winning. Roll a die: on a 1–10, the first character wins, and on an 11–20, the second character does."
 									]
 								},
@@ -800,12 +800,12 @@
 									"type": "entries",
 									"name": "Attack Checks",
 									"entries": [
-										"An {@b attack check} determines whether or not you hit an opponent in combat with an attack. It is a d20 This is a d20. roll plus your bonus with that particular attack, usually based off of Fighting or Dexterity and appropriate modifiers, like the Close and Ranged Combat skills. The difficulty is your target’s defense class: Parry for close attacks, Dodge for ranged attacks. Certain attacks may target other defenses. If you equal or exceed your target’s defense class result, your attack hits. Otherwise, you miss.",
+										"An {@b attack check} determines whether or not you hit an opponent in combat with an attack. It is a d20 roll plus your bonus with that particular attack, usually based off of Fighting or Dexterity and appropriate modifiers, like the Close and Ranged Combat skills. The difficulty is your target’s defense class: Parry for close attacks, Dodge for ranged attacks. Certain attacks may target other defenses. If you equal or exceed your target’s defense class result, your attack hits. Otherwise, you miss.",
 										{
 											"type": "middleEnhance",
 											"text": "Attack Check = d20 + attack bonus + modifiers vs. defense class"
 										},
-										"A natural 20 on an attack check (where the die comes up 20) always hits and may be a {@b critical hit} (see {@b Critical Hits} in {@b Action & Adventure} for further information). A natural 1 on an attack check (where the die comes up 1) always misses, regardless of the check total. This differs from normal checks and reflects the variable and unpredictable nature of combat."
+										"A natural 20 on an attack check (where the die comes up 20) always hits and may be a {@b critical hit} (see {@rule Critical Hits|basic|8|critical hits}} for further information). A natural 1 on an attack check (where the die comes up 1) always misses, regardless of the check total. This differs from normal checks and reflects the variable and unpredictable nature of combat."
 									]
 								},
 								{
@@ -886,7 +886,7 @@
 							"type": "entries",
 							"name": "Extra Effort",
 							"entries": [
-								"Heroes are sometimes called upon to perform feats beyond even their amazing abilities. This calls for extra effort. Players can use extra effort to improve a hero’s abilities in exchange for the hero suffering some fatigue. The benefits of extra effort are not limited by power level due to their extraordinary nature.",
+								"Heroes are sometimes called upon to perform feats beyond even their amazing abilities. This calls for {@b extra effort} Players can use extra effort to improve a hero’s abilities in exchange for the hero suffering some {@condition fatigue}. The benefits of extra effort are not limited by power level due to their extraordinary nature.",
 								{
 									"type": "entries",
 									"name": "Using Extra Effort",
@@ -917,21 +917,21 @@
 											"type": "entries",
 											"name": "Power Stunt",
 											"entries": [
-												"Temporarily gain and use an Alternate Effect (see {@b Alternate Effect} in {@b Powers}). The Alternate Effect lasts until the end of the scene or until its duration expires, whichever comes first. Permanent effects cannot be used for power stunts."
+												"Temporarily gain and use an {@modifier Alternate Effect}. The Alternate Effect lasts until the end of the scene or until its duration expires, whichever comes first. Permanent effects cannot be used for power stunts."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Resistance",
 											"entries": [
-												"Gain an immediate additional resistance check against an ongoing effect. If you’re compelled or controlled, the fatigue from the extra effort doesn’t affect you until you’re free of the effect; this is so you can’t resist yourself to exhaustion as a way of avoiding being controlled!"
+												"Gain an immediate additional resistance check against an ongoing effect. If you’re {@condition compelled} or {@condition controlled}, the {@condition fatigue} from the extra effort doesn’t affect you until you’re free of the effect; this is so you can’t resist yourself to {@condition Exhausted|exhaustion} as a way of avoiding being {@condition controlled}!"
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Retry",
 											"entries": [
-												"Certain effects (see the {@b Powers}) require extra effort to retry after a certain degree of failure. The extra effort merely permits another attempt to use the effect; it grants no other benefits."
+												"Certain effects (see the {@5etools Powers|powereffects.html}) require extra effort to retry after a certain degree of failure. The extra effort merely permits another attempt to use the effect; it grants no other benefits."
 											]
 										},
 										{
@@ -954,7 +954,7 @@
 									"type": "entries",
 									"name": "Cost of Extra Effort",
 									"entries": [
-										"At the start of the turn immediately after using extra effort, the hero becomes fatigued. A fatigued hero who uses extra effort becomes exhausted and an exhausted hero who uses extra effort is incapacitated. If you spend a victory point at the start of the turn following the extra effort to remove the fatigue, the hero suffers no adverse effects. In essence, spending a victory point lets you use extra effort without suffering fatigue."
+										"At the start of the turn immediately after using extra effort, the hero becomes {@condition fatigued}. A fatigued hero who uses extra effort becomes {@condition exhausted} and an exhausted hero who uses extra effort is {@condition incapacitated}. If you spend a victory point at the start of the turn following the extra effort to remove the fatigue, the hero suffers no adverse effects. In essence, spending a victory point lets you use extra effort without suffering fatigue."
 									]
 								}
 							]

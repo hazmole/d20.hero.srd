@@ -14,14 +14,14 @@
 				"_translate_name": "基本規則", "name": "The Basics",
 				"headers": [
 					{ "translate_name": "核心機制", "name": "The Core Mechanic" },
-					{ "name": "The Gamemaster" },
+					{ "translate_name": "遊戲主持人", "name": "The Gamemaster" },
 					{ "name": "The Heros" },
 					{ "name": "Rank & Measures" },
 					{ "name": "Game Play" },
-					{ "name": "Checks" },
+					{ "translate_name": "檢定", "name": "Checks" },
 					{ "name": "The Action Round" },
 					{ "name": "Conditions" },
-					{ "name": "Extra Effort" },
+					{ "translate_name": "奮力一搏", "name": "Extra Effort" },
 					{ "name": "Victory Points" }
 				]
 			},
@@ -214,10 +214,10 @@
 				},
 				{
 					"type": "section",
-					"name": "The Gamemaster",
+					"translate_name": "遊戲主持人", "name": "The Gamemaster",
 					"entries": [
-						"One of the players in a game takes the role of {@b Gamemaster} (abbreviated {@b GM}). The Gamemaster is responsible for running the game—a combination of writer, director, and referee. The GM creates the adventures for the heroes, portrays the villains and supporting characters, describes the world to the players, and decides the outcome of the heroes’ actions based on the roll of the die and the guidelines given in the rules. It’s a big job, but also a rewarding one, since the Gamemaster gets to develop the world and all the characters in it, along with inventing fun and exciting stories.",
-						"If you’re going to be the Gamemaster, you should read through this whole website carefully. You should have a firm grasp of the rules, since you’re expected to interpret them for the players to help decide what happens in the game. You’ll also help the players develop their own heroes, making sure they fit into the world and have potential for exciting stories in their own right."
+						"遊戲中的其中一名玩家將擔任{@b 遊戲主持人}(簡稱為{@b GM})的角色。遊戲主持人負責運行整個遊戲──它的身分結合了作家、導演、和裁判的職責。GM將為英雄們創造精采的冒險，描繪反派和配角，向玩家們述說整個世界的樣貌，並基於擲骰結果和規則所訂下指南來決定英雄們行動的結果。這是件艱鉅的工作，但它也有著相當的回報。GM能夠盡情發展整個世界和所有生活在其中的角色，並創造出一個又一個有趣而令人興奮不已的故事。",
+						"若你準備擔任遊戲主持人，你得謹慎地詳讀這整個網站。由於你被預期要為玩家們解釋整個規則並決定遊戲中發生的所有事情，你必須要牢牢地掌握整個規則。你也將幫助玩家們開發他們自己的英雄，確保他們融入世界觀，並具備著創造屬於他們自己振奮那人心故事的潛力。"
 					]
 				},
 				{
@@ -713,17 +713,17 @@
 									"type": "entries",
 									"translate_name": "例行對抗", "name": "Routine Opposition",
 									"entries": [
-										"In cases where two or more characters are actively opposing each other, both roll checks and compare the results. In some situations, however, one or more of the characters in an opposed check may not even be aware of it! For example, a guard standing watch and looking for intruders would make a Perception check to oppose any attempt at Stealth, but somebody just sitting in a park, not expecting anyone to sneak up on her, isn’t specifically looking. This is a case of {@b routine opposition}, in which case the DC for the active character’s check is the opposing character’s modifier +10, just like the result of a routine check (previously).",
-										"Active defenses in combat, where characters are focusing on other actions, are generally routine opposition, which is why attack checks are made against a DC of 10 + the appropriate defense. Active opposed checks in combat are an option when a character goes on the defensive.See {@b Defend} in {@b Action & Adventure} for further details."
+										"在兩名或更多角色主動對抗彼此的情況下，雙方都會擲骰檢定並比較檢定結果。然而，在某些情況下，對抗檢定中的其中一方（或多方）可能甚至不會意識到對抗的存在！舉例來說，一名正在站哨並警戒入侵者的守衛可能會進行一次感知檢定以對抗任何嘗試潛行檢定的目標，但是一名正坐在公園中，不預期有任何人會悄悄接近他的某人，可能就不會特別張望警戒。這就是{@b 例行對抗}的情況，在這種情況下，主動進行檢定的角色所對抗的DC將會是對抗角色的修正值+10，就如同前述例行檢定的結果。",
+										"在戰鬥中，由於角色們正專注於其他相關動作，因此主動防禦通常仍屬於例行對抗，這也是為什麼對角色進行的攻擊檢定所需對抗的DC是10 + 適當的防禦屬性。戰鬥中的主動對抗檢定，是角色處於守勢時的其中一個選項。更多詳情請參閱{@rule 防守|basic|8|defend}。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "較量檢定", "name": "Comparison Checks",
 									"entries": [
-										"In cases where a check is a simple test of one character’s capability against another, with no luck involved, both participants compare their appropriate ranks. The character with the higher rank wins. Just as you wouldn’t roll a “height check” to see who’s taller, you don’t need to make a Strength check to see who’s stronger; Strength rank already tells you that.",
-										"So when two characters arm wrestle, for example, the stronger character wins. If two flying characters race, the faster character wins, and so forth. Note this does not include the use of extra effort (see Extra Effort) to temporarily increase a character’s rank, which can affect the outcome of a comparison check, nor does it include things like maneuvers, tricks, or other ways of trying to affect the outcome. It assumes a straight-out comparison.",
-										"In the case of identical bonuses or ranks, each character has an equal chance of winning. Roll a die: on a 1–10, the first character wins, and on an 11–20, the second character does."
+										"在特定情況下，當某個檢定的內容僅僅是角色們要較量彼此的能力，而不涉及任何運氣成分時，參與者雙方只需比較他們合適的特性等級即可。擁有較高等級的角色勝出。這種情況就好比你不會為了看誰比較高而進行「身高檢定」一樣，你也不會為了比較誰較強壯而進行力量檢定；力量等級本身便已經說明了一切。",
+										"因此舉例來說，當兩名角色正在比腕力，則較為強壯的角色獲勝。若兩名飛行中的角色正在競速，則速度較快的角色獲勝，諸如此類。然而，注意這並不包括使用奮力一搏暫時性提升角色屬性等級（參見{@rule 奮力一搏|basic|1|extra effort}）、或其他利用戰技、花招、或其他手段嘗試影響結果的情況。較量檢定僅僅考慮了直接單純的較量。",
+										"在等級或加值相同的情況下，雙方角色都有相同的機會獲勝。骰一顆骰子：若結果為1-10，則第一位角色獲勝；若結果為11-20，則第二位角色勝出。"
 									]
 								},
 								{
@@ -800,12 +800,12 @@
 									"type": "entries",
 									"translate_name": "攻擊檢定", "name": "Attack Checks",
 									"entries": [
-										"An {@b attack check} determines whether or not you hit an opponent in combat with an attack. It is a d20 This is a d20. roll plus your bonus with that particular attack, usually based off of Fighting or Dexterity and appropriate modifiers, like the Close and Ranged Combat skills. The difficulty is your target’s defense class: Parry for close attacks, Dodge for ranged attacks. Certain attacks may target other defenses. If you equal or exceed your target’s defense class result, your attack hits. Otherwise, you miss.",
+										"{@b 攻擊檢定}決定了你在戰鬥中的攻擊是否成功命中對手。骰一顆d20並加上適當的攻擊加值，這個加值通常是基於格鬥或敏捷屬性和合適的修正值，像是近身戰鬥或遠程戰鬥技能。攻擊檢定的難度取決於你目標的防禦層級：近身攻擊的話則為格擋，遠程攻擊的話則為閃避。某些其他攻擊則可能會對抗其他的防禦屬性。若你的攻擊檢定結果等於或超過目標的防禦層級，則你的攻擊命中。反之，你的攻擊失手。",
 										{
 											"type": "middleEnhance",
 											"text": "攻擊檢定 = d20 + 攻擊加值 + 修正值 vs. 防禦層級"
 										},
-										"A natural 20 on an attack check (where the die comes up 20) always hits and may be a {@b critical hit} (see {@b Critical Hits} in {@b Action & Adventure} for further information). A natural 1 on an attack check (where the die comes up 1) always misses, regardless of the check total. This differs from normal checks and reflects the variable and unpredictable nature of combat."
+										"在攻擊檢定中骰出天然20（代表骰子的骰面為20）永遠代表你的攻擊命中，且可能會造成{@b 暴擊}（參見{@rule 暴擊|basic|8|critical hits}以查閱更多資訊）。在攻擊檢定中骰出天然1（代表骰子的骰面為1）則代表無論你的檢定結果如何，你的攻擊仍必定失手。這個差異與尋常檢定不同，並反映了戰鬥那多變而難以預料的本質。"
 									]
 								},
 								{
@@ -884,77 +884,77 @@
 						},
 						{
 							"type": "entries",
-							"name": "Extra Effort",
+							"translate_name": "奮力一搏", "name": "Extra Effort",
 							"entries": [
-								"Heroes are sometimes called upon to perform feats beyond even their amazing abilities. This calls for extra effort. Players can use extra effort to improve a hero’s abilities in exchange for the hero suffering some fatigue. The benefits of extra effort are not limited by power level due to their extraordinary nature.",
+								"英雄們有時候會被要求展現出遠超過他們驚人能力的壯舉。這被稱作{@b 奮力一搏}﹐玩家可以藉由使用奮力一搏來提升英雄的屬性，並承受一些{@condition 疲勞}作為代價。由於奮力一搏的非凡性質，它們所帶來的助益並不會受到超能力等級的限制。",
 								{
 									"type": "entries",
-									"name": "Using Extra Effort",
+									"translate_name": "使用奮力一搏", "name": "Using Extra Effort",
 									"entries": [
-										"Players can have their heroes use extra effort simply by declaring they are doing so. Extra effort is a free action and can be performed at any time during the hero’s turn (but is limited to once per turn). A hero using extra effort gains one of the following benefits:",
+										"玩家可以透過簡單的宣告，讓他們的英雄使用奮力一搏。使用奮力一搏是一個自由動作，且可以在該英雄回合期間的任何時候被使用（但限制每回合只能使用一次）。進行奮力一搏的英雄將能夠獲得下列其中一個助益：",
 										{
 											"type": "entries",
-											"name": "Action",
+											"translate_name": "額外動作", "name": "Action",
 											"entries": [
-												"Gain an additional standard action during your turn, which can be exchanged for a move or free action, as usual."
+												"在你的回合期間獲得一個額外的標準動作。如同往常，這可以被替換成一個移動動作或自由動作。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Bonus",
+											"translate_name": "加值", "name": "Bonus",
 											"entries": [
-												"Perform one check with a bonus (+2 circumstance bonus) or improve an existing bonus to a major bonus (+5 circumstance bonus). This bonus can also negate a penalty (–2 circumstance penalty), allowing you to perform the check with no modifier, or reduce a major penalty from a –5 penalty to a –2 penalty."
+												"在進行一次檢定時獲得一個加值（+2情境加值），或使已經存在的加值升級成重大加值（+5情境加值）。這個加值也可以用來抵銷一個罰值（-2情境罰值），讓你得以不帶修正值而進行檢定。或者，它也可以將重大罰值從-5罰值減輕至-2罰值。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Power",
+											"translate_name": "超能力", "name": "Power",
 											"entries": [
-												"Increase one of your hero’s power effects by +1 rank until the start of the hero’s next turn. Permanent effects cannot be increased in this way."
+												"使你的英雄的其中一個超能力效果提升1級，持續直到該英雄的下個回合開始。持續時間為永駐的效果不能透過這個方式提升。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Power Stunt",
+											"translate_name": "超能力絕技", "name": "Power Stunt",
 											"entries": [
-												"Temporarily gain and use an Alternate Effect (see {@b Alternate Effect} in {@b Powers}). The Alternate Effect lasts until the end of the scene or until its duration expires, whichever comes first. Permanent effects cannot be used for power stunts."
+												"暫時獲得並使用一項{@modifier Alternate Effect}。這個Alternate Effect將持續直到該場景結束，或直到該效果的持續時間終止，看何者先發生。持續時間為永駐的效果不能透過這個方式強化。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Resistance",
+											"translate_name": "抵抗", "name": "Resistance",
 											"entries": [
-												"Gain an immediate additional resistance check against an ongoing effect. If you’re compelled or controlled, the fatigue from the extra effort doesn’t affect you until you’re free of the effect; this is so you can’t resist yourself to exhaustion as a way of avoiding being controlled!"
+												"立刻對一項持續中的效果進行一次額外的抵抗檢定。若你正處於{@condition 受迫}或{@condition 受控}狀態，則直到你從該狀態效果中解脫之前，你都不會受到奮力一搏導致的{@condition 疲勞}狀態影響。這代表你不能藉由重複抵抗到陷入{@condition 力竭}狀態的方式來避免{@condition 受控}！"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Retry",
+											"translate_name": "重試", "name": "Retry",
 											"entries": [
-												"Certain effects (see the {@b Powers}) require extra effort to retry after a certain degree of failure. The extra effort merely permits another attempt to use the effect; it grants no other benefits."
+												"某些超能力效果（參見{@5etools 超能力效果|powereffects.html}）能夠在達成特定程度的失敗後利用奮力一搏以重新嘗試。這個奮力一搏的效用僅僅是讓英雄得以再次嘗試使用另一個效果，它本身並不會帶來其它助益。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Speed",
+											"translate_name": "速度", "name": "Speed",
 											"entries": [
-												"Increase the hero’s speed rank by +1 until the start of the hero’s next turn."
+												"使英雄的速度等級增加1級，持續直到該英雄的下個回合開始。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Strength",
+											"translate_name": "力量", "name": "Strength",
 											"entries": [
-												"Increase the hero’s Strength rank by +1 until the start of the hero’s next turn."
+												"使英雄的力量等級增加1級，持續直到該英雄的下個回合開始。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Cost of Extra Effort",
+									"translate_name": "奮力一搏的代價", "name": "Cost of Extra Effort",
 									"entries": [
-										"At the start of the turn immediately after using extra effort, the hero becomes fatigued. A fatigued hero who uses extra effort becomes exhausted and an exhausted hero who uses extra effort is incapacitated. If you spend a victory point at the start of the turn following the extra effort to remove the fatigue, the hero suffers no adverse effects. In essence, spending a victory point lets you use extra effort without suffering fatigue."
+										"緊接在使用奮力一搏後的下個回合開始，該英雄將陷入{@condition 疲勞}狀態。若一名已經處於{@condition 疲勞}狀態的英雄使用奮力一搏，則他將陷入{@condition 力竭}狀態；而若已經陷入{@condition 力竭}狀態的英雄使用奮力一搏，則他將陷入{@condition 失能}狀態。若你在使用奮力一搏之後的回合開始時消耗一點勝利點以解除{@condition 疲勞}狀態，則該英雄將不會承受任何負面影響。換句話說，消耗勝利點讓你能夠不用承受{@condition 疲勞}狀態而使用奮力一搏。"
 									]
 								}
 							]
