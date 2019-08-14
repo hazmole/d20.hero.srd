@@ -19,7 +19,7 @@
 			"translate_name": "目眩", "name": "Dazed",
 			"type": "basic",
 			"entries": [
-				"A dazed character is limited to free actions and a single standard action per turn, although the character may use that action to perform a move, as usual. Stunned supersedes dazed."
+				"陷入目眩的角色每回合被限制只能採取自由動作和一個標準動作，然而該角色仍可以與平常一樣使用其動作進行移動。{@condition 暈眩}是目眩的進階狀態。"
 			]
 		},
 		{
@@ -50,7 +50,7 @@
 			"translate_name": "疲勞", "name": "Fatigued",
 			"type": "basic",
 			"entries": [
-				"陷入疲勞狀態的角色將同時處於{@condition 移動受阻}狀態。角色將在一小時的休息之後從疲勞狀態中回復。"
+				"陷入疲勞狀態的角色將處於{@condition 移動受阻}狀態。角色將在一小時的休息之後從疲勞狀態中回復。"
 			],
 			"contain": ["hindered"]
 		},
@@ -87,7 +87,7 @@
 			"translate_name": "暈眩", "name": "Stunned",
 			"type": "basic",
 			"entries": [
-				"Stunned characters cannot take any actions, including free actions"
+				"陷入暈眩的角色無法採取任何動作，包括自由動作。"
 			],
 			"contain": ["dazed"]
 		},
@@ -131,7 +131,7 @@
 			"translate_name": "目盲", "name": "Blind",
 			"type": "combine",
 			"entries": [
-				"The character cannot see. Everything effectively has full visual concealment from him. He is hindered, visually unaware, and vulnerable, and may be impaired or disabled for activities where vision is a factor."
+				"陷入目盲的角色將無法視物。The character cannot see. Everything effectively has full visual concealment from him. He is hindered, visually unaware, and vulnerable, and may be impaired or disabled for activities where vision is a factor."
 			],
 			"contain": ["hindered","unaware","vulnerable"]
 		},
@@ -139,7 +139,7 @@
 			"translate_name": "受制", "name": "Bound",
 			"type": "combine",
 			"entries": [
-				"A bound character is defenseless, immobile, and impaired."
+				"受制的角色將處於{@condition 無防備}、{@condition 無法移動}、和{@condition 行動乏能}狀態。"
 			],
 			"contain": ["defenseless","immobile","impaired"]
 		},
@@ -210,7 +210,7 @@
 			"translate_name": "蹣跚", "name": "Staggered",
 			"type": "combine",
 			"entries": [
-				"A staggered character is dazed and hindered."
+				"陷入蹣跚的角色將處於{@condition 目眩}和{@condition 移動受阻}狀態。"
 			],
 			"contain": ["dazed","hindered"]
 		},
@@ -218,7 +218,7 @@
 			"translate_name": "被突襲", "name": "Surprised",
 			"type": "combine",
 			"entries": [
-				"A surprised character is stunned and vulnerable, caught off-guard and therefore unable to act, and less able to avoid attacks."
+				"被突襲的角色將處於{@condition 暈眩}和{@condition 脆弱}狀態，因為措手不及而無法採取行動，也更難以躲避攻擊。"
 			],
 			"contain": ["stunned","vulnerable"]
 		}
