@@ -730,11 +730,11 @@
 									"type": "entries",
 									"translate_name": "程度檢定", "name": "Graded Checks",
 									"entries": [
-										"Much of the time a check is a simple pass-fail, it either succeeds, or it does not. In other cases, it matters just how well the check succeeded, or how badly it failed. This gradation of results is called a {@b graded check} and involves a {@b degree} of success or failure.",
-										"Just rolling a success or failure counts as one degree. Every five full points a check result is over or under the difficulty class adds a degree. Fractions are ignored when determining degrees. So DC 10 check with a result of 13 is one degree of success, just as a result of 8 is one degree of failure.",
-										"There is no limit to the number of degrees a check may have, although more than two degrees of failure rarely matters, and some degrees of success may have no further effect beyond a certain point (once you have succeeded as well as is possible in a given situation). For example, failure on an Acrobatics check to balance means you wobble and spend that turn maintaining your balance, but don’t move. Two degrees of failure mean you lose your balance and fall! After that point, further degrees of failure don’t really matter.",
-										"In cases where a single degree of success or failure is sufficient, the rules simply specify “success” or “failure” without giving a degree.",
-										"Specific types of graded checks—notably skill and resistance checks—give specific results for degrees of success and failure in their descriptions."
+										"大部分的時候，檢定的結果就只是單純的決定成功與否。但在某些情況下，你的檢定有多麼成功或多麼失敗就變得很重要。這種檢定的程度分級被稱為{@b 程度檢定}，並會涉及成功或失敗的{@b 程度}。",
+										"單純的檢定成功或失敗被視作一個程度。當檢定結果每超過或低於難度層級滿5點時，便會使檢定結果增加一個程度。餘數將在決定檢定的程度時被忽略。因此13的檢定結果在DC 10的情況下將被視為一個程度的成功，而8的檢定結果將被視為一個程度的失敗。",
+										"一次檢定可能達到的程度數並沒有上限，然而二個程度以上的失敗很少會有重要影響，而超過一定數量以上程度的成功也不會有進一步的效用。舉例來說，在為了保持平衡而進行的特技檢定中失敗，代表你將在原地不穩晃動，並在該回合勉強維持平衡而無法移動。二個程度的失敗意味著你失去平衡並墜落！在這之上程度的失敗，在這種情況下就不會再有額外的影響。",
+										"在一個程度的成功或失敗就足夠的情況下，規則僅會簡單地指定「成功」或「失敗」，而不會給出程度的字眼。",
+										"特定種類的程度檢定──尤其是技能和抵抗檢定──會在它們的說明文字中給出在特定程度的成功或失敗發生時所會導致的結果。"
 									]
 								},
 								{
@@ -745,15 +745,15 @@
 										"As a general rule, apply a modifier of plus or minus 2 if the character is at a minor bonus or minor penalty, and a modifier of plus or minus 5 if the character is at a major bonus or major penalty for the check:",
 										{
 											"type": "middleEnhance",
-											"text": "+/-2 for Bonus/Penalty"
+											"text": "+/-2 加值/罰值"
 										},
 										{
 											"type": "middleEnhance",
-											"text": "+/-5 for Major Bonus/Penalty"
+											"text": "+/-5 重大加值/罰值"
 										},
 										{
 											"type": "inset",
-											"name": "Circumstances and Difficulty",
+											"translate_name": "情境和難度", "name": "Circumstances and Difficulty",
 											"entries": [
 												"Technically, circumstance modifiers could apply to either the check result of the difficulty class of a check, affecting the character’s performance, or making the task itself easier or harder. If you want to differentiate between circumstance modifiers that affect performance versus those that modify the difficulty of a task, feel free to do so. This game applies circumstance modifiers directly to the check result because it is easier to deal with them consistently, and the game effect is the same: the chance of success changes."
 											]
@@ -777,22 +777,22 @@
 								},
 								{
 									"type": "entries",
-									"name": "Team Checks",
+									"translate_name": "團隊檢定", "name": "Team Checks",
 									"entries": [
 										"Sometimes characters work together and help each other out. In this case, one character (usually the one with the highest bonus) is considered the leader of the effort and makes the check normally, while each helper makes the same type of check using the same trait(s) against DC 10. The helpers’ individual degrees of success (and failure!) are added together to achieve the final outcome of the assistance.",
 										"Success grants the leader a +2 circumstance bonus. Three or more total degrees of success grant a +5 circumstance bonus. One degree of failure provides no modifier, but two or more impose a –2 circumstance penalty!",
 										"The GM sets the limit on how many characters can help as part of a team check. Regardless of the number of helpers, the leader’s bonus cannot be more than +5 (for three or more total degrees of success) nor the penalty greater than –2 (for two or more total degrees of failure).",
 										{
 											"type": "middleEnhance",
-											"text": "Team Check = +2 circumstance bonus for one total degree of success"
+											"text": "團隊檢定 = 總共一個程度的成功，則為 +2 情境加值"
 										},
 										{
 											"type": "middleEnhance",
-											"text": "+5 circumstance bonus for three or more total degrees of success"
+											"text": "總共三個或以上程度的成功，則為 +5 情境加值"
 										},
 										{
 											"type": "middleEnhance",
-											"text": "-2 circumstance penalty for two or more total degrees of failure"
+											"text": "總共二個或以上程度的失敗，則為 -2 情境罰值"
 										}
 									]
 								},
