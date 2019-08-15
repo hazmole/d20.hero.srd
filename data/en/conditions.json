@@ -12,8 +12,7 @@
 			"type": "basic",
 			"entries": [
 				"A controlled character has no free will; the character’s actions each turn are dictated by another, controlling, character."
-			],
-			"contain": ["compelled"]
+			]
 		},
 		{
 			"name": "Dazed",
@@ -27,32 +26,28 @@
 			"type": "basic",
 			"entries": [
 				"The character has one or more abilities lowered below –5. (See {@rule Debilitated Abilities|basic|3|debilitated abilities} for further details.)"
-			],
-			"contain": ["weakened", "disabled"]
+			]
 		},
 		{
 			"name": "Defenseless",
 			"type": "basic",
 			"entries": [
 				"A defenseless character has active defense bonuses of 0. Attackers can make attacks on defenseless opponents as routine checks (see {@rule Routine Checks|basic|1|routine checks}). If the attacker chooses to forgo the routine check and make a normal attack check, any hit is treated as a critical hit (see {@rule Critical Hits|basic|8|critical hits}). Defenseless characters are often {@condition prone}, providing opponents with an additional bonus to attack checks."
-			],
-			"contain": ["vulnerable"]
+			]
 		},
 		{
 			"name": "Disabled",
 			"type": "basic",
 			"entries": [
 				"A disabled character is at a –5 circumstance penalty on checks. If the penalty applies to specific checks, they are added to the name of the condition, such as Attack Disabled, Fighting Disabled, Perception Disabled, and so forth. Debilitated, if it applies to the same trait(s), supersedes disabled."
-			],
-			"contain": ["impaired"]
+			]
 		},
 		{
 			"name": "Fatigued",
 			"type": "basic",
 			"entries": [
 				"Fatigued characters are {@condition hindered}. Characters recover from a fatigued condition after an hour of rest."
-			],
-			"contain": ["hindered"]
+			]
 		},
 		{
 			"name": "Hindered",
@@ -66,8 +61,7 @@
 			"type": "basic",
 			"entries": [
 				"Immobile characters have no movement speed and cannot move from the spot they occupy, although they are still capable of taking actions unless prohibited by another condition."
-			],
-			"contain": ["hindered"]
+			]
 		},
 		{
 			"name": "Impaired",
@@ -88,8 +82,7 @@
 			"type": "basic",
 			"entries": [
 				"Stunned characters cannot take any actions, including free actions"
-			],
-			"contain": ["dazed"]
+			]
 		},
 		{
 			"name": "Transformed",

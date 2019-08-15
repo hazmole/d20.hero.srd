@@ -12,8 +12,7 @@
 			"type": "basic",
 			"entries": [
 				"受控的角色將失去自由意志；該角色每回合的行動將由其控制者決定。"
-			],
-			"contain": ["compelled"]
+			]
 		},
 		{
 			"translate_name": "目眩", "name": "Dazed",
@@ -27,32 +26,28 @@
 			"type": "basic",
 			"entries": [
 				"角色的其中一個或多個屬性的等級被降至-5以下（參見{@rule Debilitated Abilities|basic|3|debilitated abilities}以獲得更多細節）。"
-			],
-			"contain": ["weakened", "disabled"]
+			]
 		},
 		{
 			"translate_name": "無防備", "name": "Defenseless",
 			"type": "basic",
 			"entries": [
 				"陷入無防備狀態的角色的主動防禦加值將變為0。攻擊者能夠以例行檢定（參見{@rule 例行檢定|basic|1|routine checks}）的方式攻擊無防備的對手。若攻擊者選擇不使用例行檢定而是進行正常的攻擊檢定，則若該攻擊命中，將被視為暴擊（參見{@rule 暴擊|basic|8|critical hits}）。無防備的角色經常會同時陷入{@condition 臥倒}狀態，這將使攻擊者獲得額外的攻擊加值。"
-			],
-			"contain": ["vulnerable"]
+			]
 		},
 		{
 			"translate_name": "行動障礙", "name": "Disabled",
 			"type": "basic",
 			"entries": [
 				"陷入行動障礙狀態的角色將在檢定中承受-5的情境罰值。若這個行動乏能狀態僅適用於特定檢定，則它會將該檢定的名稱標註在狀態上，例如攻擊行動障礙、格鬥行動障礙、感知行動障礙等等。{@condition 屬性衰竭}狀態將會取代相同適用範圍的行動障礙狀態。"
-			],
-			"contain": ["impaired"]
+			]
 		},
 		{
 			"translate_name": "疲勞", "name": "Fatigued",
 			"type": "basic",
 			"entries": [
 				"陷入疲勞狀態的角色將處於{@condition 移動受阻}狀態。角色將在一小時的休息之後從疲勞狀態中回復。"
-			],
-			"contain": ["hindered"]
+			]
 		},
 		{
 			"translate_name": "移動受阻", "name": "Hindered",
@@ -66,8 +61,7 @@
 			"type": "basic",
 			"entries": [
 				"陷入無法移動狀態的角色將不具備任何移動速度，且無法從他所佔據的位置移動。然而除非有其他狀態加以限制，否則該角色仍然能夠採取動作。"
-			],
-			"contain": ["hindered"]
+			]
 		},
 		{
 			"translate_name": "行動乏能", "name": "Impaired",
@@ -88,8 +82,7 @@
 			"type": "basic",
 			"entries": [
 				"陷入暈眩的角色無法採取任何動作，包括自由動作。"
-			],
-			"contain": ["dazed"]
+			]
 		},
 		{
 			"translate_name": "被變化", "name": "Transformed",
