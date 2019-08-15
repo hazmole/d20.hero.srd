@@ -4,7 +4,7 @@
 			"translate_name": "受迫", "name": "Compelled",
 			"type": "basic",
 			"entries": [
-				"A compelled character is directed by an outside force, but struggling against it; the character is limited to free actions and a single standard action per turn, chosen by another, controlling, character. As usual, this standard action can be traded for a move or even free action. Controlled supersedes compelled."
+				"受迫的角色將被外在力量所支配，但仍頑強抵抗著；該角色每回合被限制只能採取自由動作和一個標準動作，且其行動將由其控制者決定。這個標準動作仍可以與平常一樣被替換成移動動作或甚至自由動作。{@condition 受控}狀態會取代受迫狀態。"
 			]
 		},
 		{
@@ -19,14 +19,14 @@
 			"translate_name": "目眩", "name": "Dazed",
 			"type": "basic",
 			"entries": [
-				"陷入目眩的角色每回合被限制只能採取自由動作和一個標準動作，然而該角色仍可以與平常一樣使用其動作進行移動。{@condition 暈眩}是目眩的進階狀態。"
+				"陷入目眩的角色每回合被限制只能採取自由動作和一個標準動作，然而該角色仍可以與平常一樣使用其動作進行移動。{@condition 暈眩}狀態會取代目眩狀態。"
 			]
 		},
 		{
 			"translate_name": "屬性衰竭", "name": "Debilitated",
 			"type": "basic",
 			"entries": [
-				"The character has one or more abilities lowered below –5. (See {@rule Debilitated Abilities|basic|3|debilitated abilities} for further details.)"
+				"角色的其中一個或多個屬性的等級被降至-5以下（參見{@rule Debilitated Abilities|basic|3|debilitated abilities}以獲得更多細節）。"
 			],
 			"contain": ["weakened", "disabled"]
 		},
@@ -34,7 +34,7 @@
 			"translate_name": "無防備", "name": "Defenseless",
 			"type": "basic",
 			"entries": [
-				"A defenseless character has active defense bonuses of 0. Attackers can make attacks on defenseless opponents as routine checks (see {@rule Routine Checks|basic|1|routine checks}). If the attacker chooses to forgo the routine check and make a normal attack check, any hit is treated as a critical hit (see {@rule Critical Hits|basic|8|critical hits}). Defenseless characters are often {@condition prone}, providing opponents with an additional bonus to attack checks."
+				"陷入無防備狀態的角色的主動防禦加值將變為0。攻擊者能夠以例行檢定（參見{@rule 例行檢定|basic|1|routine checks}）的方式攻擊無防備的對手。若攻擊者選擇不使用例行檢定而是進行正常的攻擊檢定，則若該攻擊命中，將被視為暴擊（參見{@rule 暴擊|basic|8|critical hits}）。無防備的角色經常會同時陷入{@condition 臥倒}狀態，這將使攻擊者獲得額外的攻擊加值。"
 			],
 			"contain": ["vulnerable"]
 		},
@@ -42,7 +42,7 @@
 			"translate_name": "行動障礙", "name": "Disabled",
 			"type": "basic",
 			"entries": [
-				"A disabled character is at a –5 circumstance penalty on checks. If the penalty applies to specific checks, they are added to the name of the condition, such as Attack Disabled, Fighting Disabled, Perception Disabled, and so forth. Debilitated, if it applies to the same trait(s), supersedes disabled."
+				"陷入行動障礙狀態的角色將在檢定中承受-5的情境罰值。若這個行動乏能狀態僅適用於特定檢定，則它會將該檢定的名稱標註在狀態上，例如攻擊行動障礙、格鬥行動障礙、感知行動障礙等等。{@condition 屬性衰竭}狀態將會取代相同適用範圍的行動障礙狀態。"
 			],
 			"contain": ["impaired"]
 		},
@@ -58,14 +58,14 @@
 			"translate_name": "移動受阻", "name": "Hindered",
 			"type": "basic",
 			"entries": [
-				"陷入移動受阻狀態的角色只能以他原本速度的一半（-1速度等級）進行移動。{@condition 無法移動}是移動受阻的進階狀態。"
+				"陷入移動受阻狀態的角色只能以他原本速度的一半（-1速度等級）進行移動。{@condition 無法移動}狀態會取代移動受阻狀態。"
 			]
 		},
 		{
 			"translate_name": "無法移動", "name": "Immobile",
 			"type": "basic",
 			"entries": [
-				"Immobile characters have no movement speed and cannot move from the spot they occupy, although they are still capable of taking actions unless prohibited by another condition."
+				"陷入無法移動狀態的角色將不具備任何移動速度，且無法從他所佔據的位置移動。然而除非有其他狀態加以限制，否則該角色仍然能夠採取動作。"
 			],
 			"contain": ["hindered"]
 		},
@@ -73,14 +73,14 @@
 			"translate_name": "行動乏能", "name": "Impaired",
 			"type": "basic",
 			"entries": [
-				"An impaired character is at a –2 circumstance penalty on checks. If the impairment applies to specific checks, they are added to the name of the condition, such as Attack Impaired, Fighting Impaired, Perception Impaired, and so forth. If it applies to the same trait(s), disabled supersedes impaired."
+				"陷入行動乏能狀態的角色將在檢定中承受-2的情境罰值。若這個行動乏能狀態僅適用於特定檢定，則它會將該檢定的名稱標註在狀態上，例如攻擊行動乏能、格鬥行動乏能、感知行動乏能等等。{@condition 行動障礙}狀態會取代相同適用範圍的行動乏能狀態。"
 			]
 		},
 		{
 			"translate_name": "正常", "name": "Normal",
 			"type": "basic",
 			"entries": [
-				"The character is unharmed and unaffected by other conditions, acting normally."
+				"該角色未受傷害，且未被任何狀態影響，並得以正常行動。"
 			]
 		},
 		{
@@ -95,35 +95,35 @@
 			"translate_name": "被變化", "name": "Transformed",
 			"type": "basic",
 			"entries": [
-				"Transformed characters have some or all of their traits altered by an outside agency. This may range from a change in the character’s appearance to a complete change in trait ranks, even the removal of some traits and the addition of others! The primary limit on the transformed condition is the character’s character point total cannot increase, although it can effectively decrease for the duration of the transformation, such as when a powerful superhero is turned into an otherwise powerless mouse or frog (obviously based on considerably fewer character points)."
+				"被變化的角色的一部份或全部特性都將被外在因素改變。可能範圍包括角色的外表變化、或完全改變其特性等級，甚至是移除或增加某些特性。被變化狀態的主要限制是，該角色的角色點在變化的持續期間內不能夠因此而增加，但可以被減少。舉例來說，一名強大的超級英雄可能會在變化期間被變成一隻弱小的老鼠或青蛙（後者顯然具有較少的角色點）。"
 			]
 		},
 		{
 			"translate_name": "感官喪失", "name": "Unaware",
 			"type": "basic",
 			"entries": [
-				"The character is completely unaware of his surroundings, unable to make interaction or Perception checks or perform any action based on them. If the condition applies to a specific sense or senses, they are added to the name of the condition, such as visually unaware, tactilely unaware (or numb), and so forth. Subjects have full concealment from all of a character’s unaware senses."
+				"感官喪失的角色將完全無法查覺到他的周遭環境，使其無法互動、進行感知檢定、或進行任何基於該感官的動作。若這個狀態僅適用於特定感官，則它會把該感官的名稱標註在狀態上，例如視覺感官喪失、觸覺感官喪失等等。目標對該角色所有喪失的感官具有完全遮蔽。"
 			]
 		},
 		{
 			"translate_name": "脆弱", "name": "Vulnerable",
 			"type": "basic",
 			"entries": [
-				"Vulnerable characters are limited in their ability to defend themselves, halving their active defenses (round up the final value). Defenseless supersedes vulnerable."
+				"陷入脆弱狀態的角色防禦自己的能力將被限制，並因此使他們的主動防禦減半（向上取整）。{@condition 無防備}狀態會取代脆弱狀態。"
 			]
 		},
 		{
 			"translate_name": "弱化", "name": "Weakened",
 			"type": "basic",
 			"entries": [
-				"The character has temporarily lost character points in a trait. See {@effect Weaken} effect in Powers for more information. Debilitated supersedes weakened."
+				"陷入弱化狀態的角色將暫時失去某個特性上的角色點。參見{@effect Weaken}效果以查看更多資訊。{@condition 屬性衰竭}狀態會取代弱化狀態。"
 			]
 		},
 		{
 			"translate_name": "沉睡", "name": "Asleep",
 			"type": "combine",
 			"entries": [
-				"While asleep, a character is defenseless, stunned, and unaware. A hearing Perception check with three or more degrees of success wakes the character and removes all these conditions, as does any sudden movement (such as shaking the sleeping character) or any effect allowing a resistance check."
+				"當陷入沉睡，角色將處於{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}狀態。一次成功度三或更高的聽覺感知檢定將能夠喚醒該角色並解除所有上述狀態，任何突然的移動（像是搖晃睡著的角色）或任何允許進行抵抗檢定的效果也能達到相同的結果。"
 			],
 			"contain": ["defenseless","stunned","unaware"]
 		},
@@ -131,7 +131,7 @@
 			"translate_name": "目盲", "name": "Blind",
 			"type": "combine",
 			"entries": [
-				"陷入目盲的角色將無法視物。The character cannot see. Everything effectively has full visual concealment from him. He is hindered, visually unaware, and vulnerable, and may be impaired or disabled for activities where vision is a factor."
+				"陷入目盲狀態的角色將無法視物。所有事物對他而言都視作被視覺遮蔽。他將陷入{@condition 移動受阻}、視覺{@condition 感官喪失}、和{@condition 脆弱}狀態，且可能會在視覺影響重大的行動中處於{@condition 行動乏能}或{@condition 行動障礙}狀態。"
 			],
 			"contain": ["hindered","unaware","vulnerable"]
 		},
@@ -147,14 +147,14 @@
 			"translate_name": "耳聾", "name": "Deaf",
 			"type": "combine",
 			"entries": [
-				"The character cannot hear, giving everything total auditory concealment from him. This may allow for surprise attacks on the unaware character (see {@rule Surprise Attack|basic|8|surprise attack} in Action & Adventure for more information.) Interaction with other characters is limited to sign-language and lip-reading (see {@rule Interaction Skills|basic|4|interaction skills} in Abilities for more information)."
+				"陷入耳聾狀態的角色將無法聽見聲音，並使所有事物對他而言都視作被聽覺遮蔽。這可能會使聽覺感官喪失的角色得以被突襲攻擊（參見{@rule 突襲攻擊|basic|8|surprise attack}以查閱更多資訊）。耳聾狀態的角色只能透過手語和讀唇語的方式與其他角色進行交流（參見{@rule 交流技能|basic|4|interaction skills}以查閱更多資訊）。"
 			]
 		},
 		{
 			"translate_name": "瀕死", "name": "Dying",
 			"type": "combine",
 			"entries": [
-				"A dying character is incapacitated (defenseless, stunned, and unaware) and near death. When the character gains this condition, immediately make a Fortitude check (DC 15). If the check succeeds, nothing happens. With two degrees of success, the character stabilizes, removing this condition. If the check fails, the character remains dying. Three or more total degrees of failure mean the character dies: so three failed Fortitude checks or one or two checks adding up to three degrees. Dying characters make a Fortitude check each round until they either die or stabilize. Another character can stabilize a dying character with a successful Treatment check (DC 15) or use of a {@effect Healing} effect (see Powers)."
+				"陷入瀕死的角色將處於{@condition 失能}狀態（{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}）且瀕臨死亡。當角色陷入這個狀態時，他必須立刻進行一次韌性檢定（DC 15）。若檢定成功，則什麼事也不會發生。若檢定結果為程度二或以上的成功，則該角色的傷勢轉為穩定並解除這個狀態。若該檢定失敗，則該角色將維持瀕死。若累積了總共三個或以上程度的失敗，則該角色死亡：因此三次失敗的韌性檢定或一次二次的韌性檢定都可能累積到程度三的失敗。陷入瀕死的角色必須在每輪重複進行一次韌性檢定，直到他死亡或傷勢轉為穩定。其他角色可以藉由一次成功的{@skill 治療}檢定（DC 15）、或使用{@effect Healing}效果以穩定一個瀕死角色的傷勢。"
 			],
 			"contain": ["incapacitated"]
 		},
@@ -162,7 +162,7 @@
 			"translate_name": "魅惑", "name": "Entranced",
 			"type": "combine",
 			"entries": [
-				"An entranced character is stunned, taking no actions other than paying attention to the entrancing effect. Any obvious threat automatically breaks the trance. An ally can also shake a character free of the condition with an interaction skill check (DC 10 + effect rank)."
+				"陷入魅惑狀態的角色將處於{@condition 暈眩}狀態，除了留神注意魅惑著他的效果之外無法採取任何行動。任何明顯的威脅都將自動中斷這個魅惑狀態。一名盟友可以藉由成功通過一次交流技能檢定（DC 10+效果等級）以使被魅惑的角色從魅惑中清醒。"
 			],
 			"contain": ["stunned"]
 		},
@@ -170,7 +170,7 @@
 			"translate_name": "力竭", "name": "Exhausted",
 			"type": "combine",
 			"entries": [
-				"Exhausted characters are near collapse. They are impaired and hindered. Characters recover from an exhausted condition after an hour of rest in comfortable surroundings."
+				"陷入力竭狀態的角色已經瀕臨崩潰。他將處於{@condition 行動乏能}和{@condition 移動受阻}狀態。角色可以藉由在舒適環境中休息一個小時之後從力竭狀態中回復。"
 			],
 			"contain": ["impaired","hindered"]
 		},
@@ -178,7 +178,7 @@
 			"translate_name": "失能", "name": "Incapacitated",
 			"type": "combine",
 			"entries": [
-				"An incapacitated character is defenseless, stunned, and unaware. Incapacitated characters generally also fall prone, unless some outside force or aid keeps them standing."
+				"陷入失能狀態的角色將處於{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}狀態。陷入失能的角色通常也會陷入{@condition 臥倒}狀態，除非有其他外在力量或援助使他保持站立。"
 			],
 			"contain": ["defenseless","stunned","unaware"]
 		},
@@ -186,7 +186,7 @@
 			"translate_name": "麻痺", "name": "Paralyzed",
 			"type": "combine",
 			"entries": [
-				"A paralyzed character is defenseless, immobile, and physically stunned, frozen in place and unable to move, but still aware and able to take purely mental actions, involving no physical movement whatsoever."
+				"陷入麻痺狀態的角色將處於{@condition 無防備}、{@condition 無法移動}、和身體性的{@condition 暈眩}狀態。該角色僵在原地而無法移動，但仍可以意識到周遭環境並能夠採取完全心靈性的動作，包括任何不涉及身體移動的動作。"
 			],
 			"contain": ["defenseless","immobile","stunned"]
 		},
@@ -194,7 +194,7 @@
 			"translate_name": "臥倒", "name": "Prone",
 			"type": "combine",
 			"entries": [
-				"A prone character is lying on the ground, receiving a –5 circumstance penalty on close attack checks. Opponents receive a +5 circumstance bonus to close attack checks but a –5 penalty to ranged attack checks (effectively giving the prone character total cover against ranged attacks). Prone characters are hindered. Standing up from a prone position is a move action."
+				"陷入臥倒狀態的角色將躺臥在地，並在近身攻擊檢定中承受-5情境罰值。對該角色進行的近身攻擊檢定將獲得+5情境加值，但對其進行的遠程攻擊檢定將承受-5情境罰值（實際上這將使臥倒角色對於遠程攻擊具有全掩護）。陷入臥倒狀態的角色將處於{@condition 移動受阻}狀態。從臥倒姿勢中起身需要一個移動動作。"
 			],
 			"contain": ["hindered"]
 		},
@@ -202,7 +202,7 @@
 			"translate_name": "束縛", "name": "Restrained",
 			"type": "combine",
 			"entries": [
-				"A restrained character is hindered and vulnerable. If the restraints are anchored to an immobile object, the character is immobile rather than hindered. If restrained by another character, the restrained character is immobile but may be moved by the restraining character."
+				"陷入束縛狀態的角色將處於{@condition 移動受阻}和{@condition 脆弱}狀態。若這道束縛被固定在一個固定不動的物體上，則該角色將處於{@condition 無法移動}狀態，而非{@condition 移動受阻}。若該角色是被另一名角色束縛，則被束縛的角色將處於{@condition 無法移動}狀態，帶可以被束縛他的角色給強迫移動。"
 			],
 			"contain": ["hindered","vulnerable","immobile"]
 		},
@@ -210,7 +210,7 @@
 			"translate_name": "蹣跚", "name": "Staggered",
 			"type": "combine",
 			"entries": [
-				"陷入蹣跚的角色將處於{@condition 目眩}和{@condition 移動受阻}狀態。"
+				"陷入蹣跚狀態的角色將處於{@condition 目眩}和{@condition 移動受阻}狀態。"
 			],
 			"contain": ["dazed","hindered"]
 		},
