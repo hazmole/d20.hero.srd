@@ -526,8 +526,9 @@ function Renderer () {
 	this._renderInset = function (entry, textStack, meta, options) {
 		textStack[0] += `<${this.wrapperTag} class="rd__b-inset">`;
 		if (entry.name != null) {
-			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+			var name = entry.translate_name? entry.translate_name: entry.name;
+			this._handleTrackTitles(name);
+			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(name)}><span class="entry-title-inner">${name}</span></span>`;
 		}
 		const len = entry.entries.length;
 		for (let i = 0; i < len; ++i) {
@@ -542,8 +543,9 @@ function Renderer () {
 	this._renderInsetResistCheck = function (entry, textStack, meta, options) {
 		textStack[0] += `<${this.wrapperTag} class="rd__b-inset rd__b-inset--readaloud">`;
 		if (entry.name != null) {
-			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h rd__h--2" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+			var name = entry.translate_name? entry.translate_name: entry.name;
+			this._handleTrackTitles(name);
+			textStack[0] += `<span class="rd__h rd__h--2" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(name)}><span class="entry-title-inner">${name}</span></span>`;
 		}
 		if (entry.func != null) {
 			textStack[0] += `<span class="rd__h rd__h--2-inset"><span class="entry-title-inner">${entry.func}</span></span>`;
@@ -561,8 +563,9 @@ function Renderer () {
 	this._renderInsetReadaloud = function (entry, textStack, meta, options) {
 		textStack[0] += `<${this.wrapperTag} class="rd__b-inset rd__b-inset--readaloud">`;
 		if (entry.name != null) {
-			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">${entry.name}</span></span>`;
+			var name = entry.translate_name? entry.translate_name: entry.name;
+			this._handleTrackTitles(name);
+			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(name)}><span class="entry-title-inner">${name}</span></span>`;
 		}
 		const len = entry.entries.length;
 		for (let i = 0; i < len; ++i) {
