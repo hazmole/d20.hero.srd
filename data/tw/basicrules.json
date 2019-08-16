@@ -19,8 +19,8 @@
 					{ "name": "Rank & Measures" },
 					{ "name": "Game Play" },
 					{ "translate_name": "檢定", "name": "Checks" },
-					{ "name": "The Action Round" },
-					{ "name": "Conditions" },
+					{ "translate_name": "行動輪", "name": "The Action Round" },
+					{ "translate_name": "狀態", "name": "Conditions" },
 					{ "translate_name": "奮力一搏", "name": "Extra Effort" },
 					{ "name": "Victory Points" }
 				]
@@ -824,62 +824,62 @@
 						},
 						{
 							"type": "entries",
-							"name": "The Action Round",
+							"translate_name": "行動輪", "name": "The Action Round",
 							"entries": [
-								"When things really start happening in a game, time is broken down into six-second segments called {@b rounds} (sometimes “action rounds”). A round isn’t very much time. Think of it like a page in a comic book, just long enough to go around the table once, with each hero doing something. Each character’s portion of the round is called their {@b turn}.",
-								"The things you can do on your turn are broken up into {@b actions}. There are standard actions, move actions, free actions, and reactions. During a round you can take a standard and a move action (or substitute an additional move action for your standard action) along with as many free actions as you wish and as many reactions as are called for.",
+								"當急迫的事件在遊戲中發生時，時間將被切分成一個個被稱作{@b 輪}（或有時稱作「行動輪」）的六秒區間。一輪的時間非常短暫。可以把它想像成漫畫中的一頁，其時間剛好足夠讓每個玩家所操控的英雄做出某些行動。每個角色在一輪中所分到的部分被稱作他們的{@b 回合}。",
+								"你在你的回合中所能做的事情被切分成了各種{@b 動作}。這些動作有標準動作、移動動作、自由動作、和反應。在一輪中，你可以採取一個標準動作和一個移動動作（或者將你的標準動作替換成一個額外的移動動作），以及任意數量的自由動作和任何數量個你能夠進行的反應。",
 								{
 									"type": "entries",
-									"name": "Standard Actions",
+									"translate_name": "標準動作", "name": "Standard Actions",
 									"entries": [
-										"A {@b standard action} generally involves acting upon something, whether it’s an attack or using a power to affect something. You’re limited to one standard action each round."
+										"一個{@b 標準動作}通常涉及對某個事物所採取的行動，包括攻擊、或使用超能力以影響某物。你每輪只能採取一個標準動作。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Move Actions",
+									"translate_name": "移動動作", "name": "Move Actions",
 									"entries": [
-										"A {@b move action}, like the name implies, usually involves moving. You can take your move action before or after your standard action, so you can attack then move, or move then attack. You cannot, however, normally split-up your move action before and after your standard action. Move actions also include things like drawing weapons, standing up, and picking up or manipulating objects."
+										"一個{@b 移動動作}，正如它的名字所示，通常涉及了移動。你可以在你進行標準動作之前或之後採取你的移動動作，因此你可以在攻擊之後移動，或在移動之後攻擊。然而，通常來說你不能夠將你的移動動作拆分到你的標準動作前後。移動動作也包括了像是拔出武器、起身、撿起或操縱物件等行為。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Free Actions",
+									"translate_name": "自由動作", "name": "Free Actions",
 									"entries": [
-										"A {@b free action} is something so comparatively minor it doesn’t take significant time, so you can perform as many free actions in a round as the GM considers reasonable. Free actions include things like talking (heroes and villains always find time to say a lot in the middle of a fight), dropping something, ending the use of a power, activating or maintaining some other powers, and so forth."
+										"一個{@b 自由動作}是一些較為枝微末節，並不會花上多少時間的小事，因此只要GM覺得合理，你將可以在一輪中執行任意數量的自由動作。自由動作包括了像是說話（英雄和反派總是能在戰鬥中抓到機會侃侃而談），丟下東西、中止超能力的使用、啟動或維持某些超能力等行為。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Reactions",
+									"translate_name": "反應", "name": "Reactions",
 									"entries": [
-										"A {@b reaction} is something you do in response to something else. A reaction doesn’t take any significant time, like a free action. The difference is you react in response to something else happening during the round, perhaps not even on your turn. Reactions don’t count against your normal allotment of actions and you can react as often as the circumstances dictate, but only when they dictate."
+										"一個{@b 反應}是某個你用於回應其它事件而採取的行為。如同自由動作，採取反應並不會花費多少時間。它們之間的差異在於你所採取的反應通常是為了回應某個在該輪中，且可能不是在你的回合中所發生的事件。反應並不會計入你原本的動作配額，因此每當某個反應所指定的特定情況發生時，你都可以採取該反應。然而，你也只能在其指定的特定情況下採取該反應。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Conditions",
+							"translate_name": "狀態", "name": "Conditions",
 							"entries": [
 								"Heroes run into their share of difficulties in their work. One way this game measures this is with different {@b conditions}. They are shorthand for the different game modifiers imposed by things from power effects to injuries or fatigue. So, for example, “vulnerable” is a condition where a hero’s active defenses are reduced. An opponent grabbing them or an entangling mass of glue might make heroes vulnerable, or they might be made vulnerable by a foe’s cunning combat maneuver or being caught off-guard. The game effect is the same (the hero’s active defenses are reduced), so it is easier to just refer to the overall condition as “vulnerable” and describe the different situations that cause it",
 								"This section describes the different conditions that can affect characters in this game. If multiple conditions apply, use all of their effects. Some conditions supersede other, lesser, conditions, as given in their descriptions.",
 								{
 									"type": "entries",
-									"name": "Basic Conditions",
+									"translate_name": "基本狀態", "name": "Basic Conditions",
 									"entries": [
 										"Each basic condition describes a single game modifier. They are the “building blocks” of conditions, much as effects are the basic building blocks of powers. Indeed, many power effects reference these basic conditions in the descriptions of what they do. See the {@b Powers} chapter for details."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Combined Conditions",
+									"translate_name": "複合狀態", "name": "Combined Conditions",
 									"entries": [
 										"Combined conditions are sets of basic conditions tied to a common descriptor. They’re essentially a kind of “shorthand” for talking about a group of basic conditions that go together in a particular circumstance, much like a power is a collection of basic effects.",
 										"The individual conditions making up a combined condition can be resolved individually. For example, if an effect that removes the dazed condition is used on a staggered character (who is dazed and hindered), then the character is no longer dazed, only hindered. Similarly, if an effect imposes a condition that supersedes part of the combined condition, only that part changes. So an effect that stuns a staggered character means the character is now stunned (superseding dazed) and hindered. Similarly, an effect that immobilizes a staggered character leaves the target dazed and immobile (superseding the hindered element of the combined condition)."
 									]
 								},
-								"For each conditions descriptions, see {@5etools Conditions|conditions.html} page."
+								"關於每個狀態的完整說明，請參閱{@5etools 狀態|conditions.html}頁面。"
 							]
 						},
 						{

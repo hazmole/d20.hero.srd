@@ -6,7 +6,7 @@
 "nav_basic_rules": "基本規則",
 "nav_pl_opt": "玩家選項",
 "nav_advantage": "優勢",
-"nav_condition": "異常狀態",
+"nav_condition": "狀態",
 "nav_skill": "技能",
 "nav_powereffect": "超能力效果",
 "nav_settings": "設置",
@@ -15,7 +15,7 @@
 "set_language": "更改語言",
 
 "title_advantage": "優勢",
-"title_condition": "異常狀態",
+"title_condition": "狀態",
 "title_skill": "技能",
 "title_powereffect": "超能力效果",
 
