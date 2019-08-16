@@ -868,7 +868,7 @@
 									"type": "entries",
 									"name": "Basic Conditions",
 									"entries": [
-										"Each basic condition describes a single game modifier. They are the “building blocks” of conditions, much as effects are the basic building blocks of powers. Indeed, many power effects reference these basic conditions in the descriptions of what they do. See the {@b Powers} chapter for details."
+										"Each basic condition describes a single game modifier. They are the “building blocks” of conditions, much as effects are the basic building blocks of powers. Indeed, many power effects reference these basic conditions in the descriptions of what they do. See the {@rule Powers|basic|6} chapter for details."
 									]
 								},
 								{
@@ -876,7 +876,7 @@
 									"name": "Combined Conditions",
 									"entries": [
 										"Combined conditions are sets of basic conditions tied to a common descriptor. They’re essentially a kind of “shorthand” for talking about a group of basic conditions that go together in a particular circumstance, much like a power is a collection of basic effects.",
-										"The individual conditions making up a combined condition can be resolved individually. For example, if an effect that removes the dazed condition is used on a staggered character (who is dazed and hindered), then the character is no longer dazed, only hindered. Similarly, if an effect imposes a condition that supersedes part of the combined condition, only that part changes. So an effect that stuns a staggered character means the character is now stunned (superseding dazed) and hindered. Similarly, an effect that immobilizes a staggered character leaves the target dazed and immobile (superseding the hindered element of the combined condition)."
+										"The individual conditions making up a combined condition can be resolved individually. For example, if an effect that removes the {@condition dazed} condition is used on a {@condition staggered} character (who is {@condition dazed} and {@condition hindered}), then the character is no longer {@condition dazed}, only {@condition hindered}. Similarly, if an effect imposes a condition that supersedes part of the combined condition, only that part changes. So an effect that stuns a {@condition staggered} character means the character is now {@condition stunned} (superseding {@condition dazed}) and {@condition hindered}. Similarly, an effect that immobilizes a {@condition staggered} character leaves the target {@condition dazed} and {@condition immobile} (superseding the {@condition hindered} element of the combined condition)."
 									]
 								},
 								"For each conditions descriptions, see {@5etools Conditions|conditions.html} page."

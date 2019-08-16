@@ -862,21 +862,21 @@
 							"type": "entries",
 							"translate_name": "狀態", "name": "Conditions",
 							"entries": [
-								"Heroes run into their share of difficulties in their work. One way this game measures this is with different {@b conditions}. They are shorthand for the different game modifiers imposed by things from power effects to injuries or fatigue. So, for example, “vulnerable” is a condition where a hero’s active defenses are reduced. An opponent grabbing them or an entangling mass of glue might make heroes vulnerable, or they might be made vulnerable by a foe’s cunning combat maneuver or being caught off-guard. The game effect is the same (the hero’s active defenses are reduced), so it is easier to just refer to the overall condition as “vulnerable” and describe the different situations that cause it",
-								"This section describes the different conditions that can affect characters in this game. If multiple conditions apply, use all of their effects. Some conditions supersede other, lesser, conditions, as given in their descriptions.",
+								"英雄們經常會在他們的事業中遭遇到類似的艱難處境。這個遊戲中用以橫量這種處境的其中一個方式，便是透過不同的{@b 狀態}來表示。它們是一種用以快速表示不同遊戲修正值的速記，許多事物包括超能力效果、重傷、或疲勞都會導致狀態的發生。被敵人擒抱、或是被一大團強力黏膠糾纏，可能會使英雄陷入{@condition 脆弱}狀態，或者，英雄們可能也會因為敵人狡猾的戰技花招或猝不及防而導致陷入{@condition 脆弱}狀態。這些狀況所導致的遊戲效果完全相同（英雄的主動防禦屬性被降低），因此將整個狀態稱作「脆弱」狀態，在個別描述導致它發生的不同情境，在遊戲的處理上會更加輕鬆。",
+								"這個章節將會說明在遊戲中影響著角色們的各種不同狀態。若同時複數個狀態被賦予在角色身上，則它們全部的效果都會發揮作用。某些狀態會取代其它相似而較為弱小的狀態，這些狀態會在其說明文字中被指定。",
 								{
 									"type": "entries",
 									"translate_name": "基本狀態", "name": "Basic Conditions",
 									"entries": [
-										"Each basic condition describes a single game modifier. They are the “building blocks” of conditions, much as effects are the basic building blocks of powers. Indeed, many power effects reference these basic conditions in the descriptions of what they do. See the {@b Powers} chapter for details."
+										"每個基本狀態都描述了一個單一的遊戲效果。它們是狀態的「基本建構單元」，就好像超能力效果是超能力的基本建構單元一樣。事實上，許多超能力效果都會在其說明文字中提及這些基本狀態。參見{@rule 超能力|basic|6}頁面以查閱更多細節。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "複合狀態", "name": "Combined Conditions",
 									"entries": [
-										"Combined conditions are sets of basic conditions tied to a common descriptor. They’re essentially a kind of “shorthand” for talking about a group of basic conditions that go together in a particular circumstance, much like a power is a collection of basic effects.",
-										"The individual conditions making up a combined condition can be resolved individually. For example, if an effect that removes the dazed condition is used on a staggered character (who is dazed and hindered), then the character is no longer dazed, only hindered. Similarly, if an effect imposes a condition that supersedes part of the combined condition, only that part changes. So an effect that stuns a staggered character means the character is now stunned (superseding dazed) and hindered. Similarly, an effect that immobilizes a staggered character leaves the target dazed and immobile (superseding the hindered element of the combined condition)."
+										"複合狀態就是一組基本狀態，綁定著一個通用描述符。它們在本質上便是一種「簡稱」，用來描述一組在特定情況下發生的基本狀態，就如同超能力在本質上便是眾多基本超能力效果的集合。",
+										"每個構成複合狀態的狀態都可以被個別處理。舉例來說，若某個能夠解除{@condition 目眩}狀態的效果被用於一名處於{@condition 蹣跚}狀態（{@condition 目眩}且{@condition 移動受阻}）角色，則該角色將不再處於{@condition 目眩}狀態，而僅僅陷入{@condition 移動受阻}狀態。同樣的，若某個效果所造成的狀態會取代複合狀態中的一部份狀態，則只有該部分的狀態會被改變。因此當某個效果使一名處於{@condition 蹣跚}狀態的角色陷入{@condition 暈眩}，則該角色接下來將會處於{@condition 暈眩}（取代{@condition 目眩}狀態）和{@condition 移動受阻}。同樣的，某個使{@condition 蹣跚}狀態角色再也無法動彈的效果將會使目標陷入{@condition 目眩}和{@condition 無法移動}狀態（取代複合效果中的{@condition 移動受阻}狀態）。"
 									]
 								},
 								"關於每個狀態的完整說明，請參閱{@5etools 狀態|conditions.html}頁面。"

@@ -20,23 +20,18 @@ class NavBar {
 
 		const ulRules = addDropdown(navBar, FMT("nav_rules"));
 		addLi(ulRules, "rules.html", FMT("nav_basic_rules"), true, "basic");
-		//addLi(ulRules, "???.html", FMT("Character Creation"));
-
+		
 		const ulPlayer = addDropdown(navBar, FMT("nav_pl_opt"));
 		
-		//addLi(ulPower, "???.html", FMT("Descriptors"));
-		//addLi(ulPower, "???.html", FMT("Modifiers"));
-		addLi(ulPlayer, "", FMT("nav_archetype"));
 		addLi(ulPlayer, "skills.html", FMT("nav_skill"));
 		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
 		addLi(ulPlayer, "powereffects.html", FMT("nav_powereffect"));
 		addLi(ulPlayer, "", FMT("nav_modifier"));
 		addLi(ulPlayer, "conditions.html", FMT("nav_condition"));
-		//addLi(ulPlayer, "???.html", FMT("Gadgets & Gear"));
-
-		//const ulRef = addDropdown(navBar, FMT("nav_reference"));
-
-
+		addDivider(ulPlayer);
+		addLi(ulPlayer, "", FMT("nav_archetype"));
+		
+		
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
 		addButton(
 			ulSettings,

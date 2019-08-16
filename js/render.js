@@ -1158,6 +1158,13 @@ function Renderer () {
 								};
 								this._recursiveRender(fauxEntry, textStack, meta);
 								break;
+							case "@modifier":
+								fauxEntry.href.path = "modifiers.html";
+								fauxEntry.href.hover = {
+									page: "modifiers.html"
+								};
+								this._recursiveRender(fauxEntry, textStack, meta);
+								break;
 						}
 
 						break;

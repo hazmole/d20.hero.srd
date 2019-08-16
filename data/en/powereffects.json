@@ -545,20 +545,20 @@
 							"items": [
 								"{@b Success}: The damage has no effect.",
 								"{@b Failure (one degree)}: The target has a –1 circumstance penalty to further resistance checks against damage.",
-								"{@b Failure (two degrees)}: The target is dazed until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
-								"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
-								"{@b Failure (four degrees)}: The target is incapacitated ."
+								"{@b Failure (two degrees)}: The target is {@condition dazed} until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
+								"{@b Failure (three degrees)}: The target is {@condition staggered} and has a -1 circumstance penalty to further checks against damage. If the target is {@condition staggered} again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The {@condition staggered} condition remains until the target recovers (see Recovery, following).",
+								"{@b Failure (four degrees)}: The target is {@condition incapacitated} ."
 							]
 						}
 					]
 				},
 				"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
-				"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
+				"If an {@condition incapacitated} target fails a resistance check against Damage, the target’s condition shifts to {@condition dying}. A {@condition dying} target who fails a resistance check against Damage is dead.",
 				{
 					"type": "entries",
 					"name": "Strength and Damage",
 					"entries": [
-						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the Alternate Effect modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default."
+						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it {@modifier Penetrating} or even an {@modifier Area effect}! You can also have {@modifier Alternate Effects} for your Strength Damage; see the {@modifier Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default."
 					]
 				},
 				{

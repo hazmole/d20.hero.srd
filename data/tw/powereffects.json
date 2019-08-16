@@ -524,7 +524,7 @@
 			]
 		},
 		{
-			"name": "Damage",
+			"_translate_name": "傷害", "name": "Damage",
 			"type": "ATK",
 			"action": "S",
 			"range": "close",
@@ -534,31 +534,31 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can inflict damage on a target by making a close attack. The exact nature of your Damage is up to you, with the GM’s approval; it can be anything from a powerful impact to razor claws, energy fields, or some other damaging medium. The target resists with Toughness:",
+				"你可以藉由進行一次近身攻擊以對一個目標造成傷害。在GM的同意下，你的傷害效果的本質由你決定；它可以是任何型態，包括強力衝擊、鋒利尖爪、能量力場、或其他傷害性介質。目標將使用堅實防禦進行抵抗：",
 				{
 					"type": "insetResistCheck",
-					"name": "Damage Resistance Check",
-					"func": "Toughness vs. [Damage rank + 15]",
+					"name": "傷害抵抗檢定",
+					"func": "堅實 vs. [傷害等級 + 15]",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"{@b Success}: The damage has no effect.",
-								"{@b Failure (one degree)}: The target has a –1 circumstance penalty to further resistance checks against damage.",
-								"{@b Failure (two degrees)}: The target is dazed until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
-								"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
-								"{@b Failure (four degrees)}: The target is incapacitated ."
+								"{@b 成功}: 這個傷害沒有任何效果。",
+								"{@b 失敗(程度一)}: 目標將在往後對傷害的抵抗檢定中承受-1的情境罰值。",
+								"{@b 失敗(程度二)}: 目標陷入{@condition 目眩}狀態，持續直到他的下個回合結束。且目標將在往後對傷害的抵抗檢定中承受-1的情境罰值。",
+								"{@b 失敗(程度三)}: 目標陷入{@condition 蹣跚}狀態，且將在往後對傷害的抵抗檢定中承受-1的情境罰值。若目標再次陷入{@condition 蹣跚}狀態（於傷害抵抗檢定中得到程度三的失敗），則改為適用程度四的結果。這個{@condition 蹣跚}狀態將持續直到目標從中康復（參見後述的康復條目）。",
+								"{@b 失敗(程度四)}: 目標陷入{@condition 失能}狀態。"
 							]
 						}
 					]
 				},
-				"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
-				"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
+				"上述適用於堅實檢定的情境罰值會累積，因此在對抗傷害效果的抵抗檢定中失敗三次（每次皆為程度一的失敗）的目標，將會承受總共-3的情境罰值。",
+				"若陷入{@condition 失能}狀態的目標在對抗傷害效果的抵抗檢定中失敗,則目標的狀態將變更為{@condition 瀕死}。若陷入{@condition 瀕死}狀態的目標在對抗傷害效果的抵抗檢定中失敗,則目標將會死亡。",
 				{
 					"type": "entries",
-					"name": "Strength and Damage",
+					"translate_name": "力量與傷害", "name": "Strength and Damage",
 					"entries": [
-						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the Alternate Effect modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default."
+						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier Penetrating}或甚至{@modifier Area}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effects}修飾符；參見{@modifier Alternate Effects}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
 					]
 				},
 				{
