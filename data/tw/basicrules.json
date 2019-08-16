@@ -741,8 +741,8 @@
 									"type": "entries",
 									"translate_name": "情境修正值", "name": "Circumstance Modifiers",
 									"entries": [
-										"Some circumstances make checks easier or harder, resulting in a {@b bonus} or {@b penalty} to the check. Characters in a favorable situation are said to {@b have a circumstance bonus} for the check, while those in a disadvantageous situation are said to be {@b have a circumstance penalty}.",
-										"As a general rule, apply a modifier of plus or minus 2 if the character is at a minor bonus or minor penalty, and a modifier of plus or minus 5 if the character is at a major bonus or major penalty for the check:",
+										"有些情境的影響會使檢定變的更加容易或困難，導致{@b 加值}或{@b 罰值}被加入該檢定中。角色在有利的情境下將在檢定中{@b 獲得情境加值}，而在劣勢情況下則會{@b 獲得情境罰值}。",
+										"作為通用規則，當角色在該情境下將獲得較微小的加值或罰值，則為其檢定適用加2或減2的修正值；而若該角色在該檢定中將獲得重大的加值或罰值，則適用加5或減5的修正值：",
 										{
 											"type": "middleEnhance",
 											"text": "+/-2 加值/罰值"
@@ -755,20 +755,20 @@
 											"type": "inset",
 											"translate_name": "情境和難度", "name": "Circumstances and Difficulty",
 											"entries": [
-												"Technically, circumstance modifiers could apply to either the check result of the difficulty class of a check, affecting the character’s performance, or making the task itself easier or harder. If you want to differentiate between circumstance modifiers that affect performance versus those that modify the difficulty of a task, feel free to do so. This game applies circumstance modifiers directly to the check result because it is easier to deal with them consistently, and the game effect is the same: the chance of success changes."
+												"技術上來說，情境加值可以應用在檢定結果，也可以應用在該檢定的難度層級上，藉此影響角色的表現、或使要執行的任務本身變得更容易或困難。為了一致性的考量，這個遊戲中的情境加值都將被直接加在檢定結果上。你可以自由決定是否要明確區別影響角色表現以及調整任務難度的兩種情境加值，畢竟這兩種處理方式在遊戲中的效果並沒有差別：它們都會影響檢定成功的機率。"
 											]
 										},
 										{
 											"type": "inset",
-											"name": "Under the Hood: Circumstances",
+											"name": "幕後花絮：情境修正值",
 											"entries": [
-												"Circumstance modifiers are another useful Gamemaster tool for handling a lot of the variables that come up during game play. Specific examples are discussed throughout the rules for various types of checks. One example includes the following:",
+												"情境修正值是另一種遊戲主持人用以處理遊戲過程中各樣變數的實用工具。整個規則將會為各種檢定各自討論其具體範例。其中一個範例如下：",
 												{
 													"type": "entries",
-													"name": "Tools",
+													"translate_name": "工具", "name": "Tools",
 													"entries": [
-														"Some tasks require tools. If tools are needed, the specific items are mentioned in the description of the task or skill. If you don’t have the appropriate tools, you may still be able to attempt the task, but at a major disadvantage, for a –5 circumstance penalty on your check, if the GM decides you can attempt the task at all.",
-														"A character may be able to put together makeshift tools in order to make the check. If the GM allows this, reduce the circumstance penalty to –2."
+														"在執行有些任務時會需要使用工具。若某項任務需要使用工具，則具體工具將會被描述於該任務或技能的描述中。若你不具備合適的工具，且GM認為你仍然可以嘗試進行該任務得話，則你可以在承受重大的劣勢的情況下這麼做，你的檢定將會因此承受-5的情境罰值。",
+														"角色可能會有辦法弄出臨時工具以進行該檢定。若GM允許，那麼可以將這個情境罰值減輕到-2。"
 													]
 												}
 											]
@@ -779,9 +779,9 @@
 									"type": "entries",
 									"translate_name": "團隊檢定", "name": "Team Checks",
 									"entries": [
-										"Sometimes characters work together and help each other out. In this case, one character (usually the one with the highest bonus) is considered the leader of the effort and makes the check normally, while each helper makes the same type of check using the same trait(s) against DC 10. The helpers’ individual degrees of success (and failure!) are added together to achieve the final outcome of the assistance.",
-										"Success grants the leader a +2 circumstance bonus. Three or more total degrees of success grant a +5 circumstance bonus. One degree of failure provides no modifier, but two or more impose a –2 circumstance penalty!",
-										"The GM sets the limit on how many characters can help as part of a team check. Regardless of the number of helpers, the leader’s bonus cannot be more than +5 (for three or more total degrees of success) nor the penalty greater than –2 (for two or more total degrees of failure).",
+										"有時候，角色們會同心協力，彼此幫助以完成一項任務。在這種情況下，其中一名角色（通常是有著最高加值的角色）將被視為這項行動的領袖，並如常進行檢定。而其他的每個協助者都將使用相同的特性進行DC為10的同類檢定。每個協助者的成功程度（或失敗程度！）將會加總在一起，決定團隊協助的結果如何。",
+										"若協助者們的總和程度為成功，將會使領袖獲得+2的情境加值。三個或以上程度的成功則會使他獲得+5的情境加值。一個程度的失敗並不會帶來任何修正值，但總和二個或以上程度的失敗反而會導致-2的情境罰值！",
+										"GM會決定最多有多少角色可以參與到團隊檢定中。無論協助者的人數有多少，團隊檢定的領袖從中所能得到的加值最多不能超過+5（總共三個或以上程度的成功），而罰值最多也不能超過-2（二個或以上程度的失敗）。",
 										{
 											"type": "middleEnhance",
 											"text": "團隊檢定 = 總共一個程度的成功，則為 +2 情境加值"
