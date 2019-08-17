@@ -984,14 +984,14 @@
 											"type": "entries",
 											"name": "Heroic Feat",
 											"entries": [
-												"You can spend a Victory point to gain the benefits of one rank of a advantage you don’t already have until the end of your next turn (see {@b Advantages}). You must be capable of using the advantage and cannot gain the benefits of fortune advantages, only other types. If the advantage has any prerequisites, you must have them to gain the benefits of the advantage as a heroic feat."
+												"You can spend a Victory point to gain the benefits of one rank of a advantage you don’t already have until the end of your next turn (see {@5etools Advantages|advantages.html}). You must be capable of using the advantage and cannot gain the benefits of fortune advantages, only other types. If the advantage has any prerequisites, you must have them to gain the benefits of the advantage as a heroic feat."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Improve Roll",
 											"entries": [
-												"One Victory point allows you to re-roll any die roll you make and take the better of the two rolls. On a result of 1 through 10 on the second roll, add 10 to the result, an 11 or higher remains as-is (so the re-roll is always a result of 11-20). You must spend the Victory point to improve a roll before the GM announces the outcome of your initial roll. You cannot spend Victory points on die rolls made by the GM or other players without the Luck Control effect (see {@b Powers})."
+												"One Victory point allows you to re-roll any die roll you make and take the better of the two rolls. On a result of 1 through 10 on the second roll, add 10 to the result, an 11 or higher remains as-is (so the re-roll is always a result of 11-20). You must spend the Victory point to improve a roll before the GM announces the outcome of your initial roll. You cannot spend Victory points on die rolls made by the GM or other players without the {@effect Luck Control} effect."
 											]
 										},
 										{
@@ -1005,14 +1005,14 @@
 											"type": "entries",
 											"name": "Instant Counter",
 											"entries": [
-												"You can spend a Victory point to attempt to counter an effect used against you as a reaction. See {@b Countering Effects} in {@b Powers} for details."
+												"You can spend a Victory point to attempt to counter an effect used against you as a reaction. See {@rule Countering Effects|basic|6|countering effects} in {@b Powers} for details."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Recover",
 											"entries": [
-												"You can spend a Victory point to recover faster. A Victory point allows you to immediately remove a dazed, fatigued, or stunned condition, without taking an action. Among other things, this option allows you to use extra effort (previously) without suffering any fatigue. Spending a Victory point to recover also lets you convert an exhausted condition into a fatigued condition."
+												"You can spend a Victory point to recover faster. A Victory point allows you to immediately remove a {@condition dazed}, {@condition fatigued}, or {@condition stunned} condition, without taking an action. Among other things, this option allows you to use extra effort (previously) without suffering any fatigue. Spending a Victory point to recover also lets you convert an {@condition exhausted} condition into a {@condition fatigued} condition."
 											]
 										}
 									]
@@ -1023,7 +1023,7 @@
 									"entries": [
 										"In comic book stories, heroes often confront the villain(s) and deal with various setbacks. Perhaps the villain defeats or outwits them in the first couple scenes. Maybe one or more of the heroes have to overcome a personal problem. The villain may have a secret the heroes need to discover, and so forth. By the end of the story, the heroes have overcome these challenges and they’re ready to take on the villain.",
 										"This game reflects this kind of story structure through the awarding of Victory points. The heroes gain additional Victory points as an adventure progresses. When the going gets tough, the heroes get tougher, because they get Victory points to help them overcome future challenges.",
-										"Heroes get Victory points from complications, acts of heroism, and roleplaying. See {@b Complications} in {@b Secret Origins}, for details."
+										"Heroes get Victory points from complications, acts of heroism, and roleplaying. See {@rule Complications|basic|2|complications} in {@b Secret Origins}, for details."
 									]
 								}
 							]

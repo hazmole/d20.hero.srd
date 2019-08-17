@@ -11,18 +11,18 @@
 				]
 			},
 			{
-				"_translate_name": "基本規則", "name": "The Basics",
+				"translate_name": "基本規則", "name": "The Basics",
 				"headers": [
 					{ "translate_name": "核心機制", "name": "The Core Mechanic" },
 					{ "translate_name": "遊戲主持人", "name": "The Gamemaster" },
 					{ "name": "The Heros" },
-					{ "name": "Rank & Measures" },
-					{ "name": "Game Play" },
+					{ "translate_name": "等級＆度量標準", "name": "Rank & Measures" },
+					{ "translate_name": "進行遊戲", "name": "Game Play" },
 					{ "translate_name": "檢定", "name": "Checks" },
 					{ "translate_name": "行動輪", "name": "The Action Round" },
 					{ "translate_name": "狀態", "name": "Conditions" },
 					{ "translate_name": "奮力一搏", "name": "Extra Effort" },
-					{ "name": "Victory Points" }
+					{ "translate_name": "勝利點", "name": "Victory Points" }
 				]
 			},
 			{
@@ -55,7 +55,7 @@
 				]
 			},
 			{
-				"_translate_name": "優勢", "name": "Advantages",
+				"_translate_name": "特長", "name": "Advantages",
 				"headers": [
 					{ "name": "Acquiring Advantages" },
 					{ "name": "Advantage Descriptions" }
@@ -245,7 +245,7 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "優勢", "name": "Advantages",
+							"translate_name": "特長", "name": "Advantages",
 							"entries": [
 								"Halfway between skills and powers, {@b advantages} are minor benefits characters have, allowing them to do things others cannot. They range from special combat maneuvers to things like financial resources, contacts, and so forth.",
 								"Many advantages have no rank, or rather just one rank; a character either has the advantage (and the benefits that it grants) or does not. Other advantages may have multiple ranks, like abilities and skills, measuring their effectiveness.",
@@ -264,7 +264,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Complications",
+							"translate_name": "糾葛難題", "name": "Complications",
 							"entries": [
 								"Finally, heroes often have {@b complications} to overcome. Overcoming such challenges is part of what makes a real hero. Complications range from physical disabilities or personal issues to unusual vulnerabilities. You choose your hero’s complications, defining some of the challenges your hero must overcome in the game. The process of dealing with complications allows your character to be more heroic, discussed later in the rules. See {@rule Complications|basic|2|complications} in {@b Secret Origins} for more on complications."
 							]
@@ -273,13 +273,13 @@
 				},
 				{
 					"type": "section",
-					"name": "Rank & Measures",
+					"translate_name": "等級＆度量標準", "name": "Rank & Measures",
 					"entries": [
-						"This game uses the term {@b rank} when talking about the value of a game trait. So you might say a hero has “rank 8 Strength” or simply “Strength 8” (which mean the same thing), or that an effect is rank 5, 9, 15, or what have you. Every quantifiable trait in this game has a rank assigned to it.",
-						"The game also uses a system of {@b measures}, real world values like pounds, seconds, minutes, hours, feet, yards, and miles, to name a few. There is a direct relationship between rank and measure, as shown on the {@b Measurements Table}.",
+						"這個遊戲使用{@b 等級}這個詞以描述所有遊戲數據的數值。因此你可能會說一名英雄具有「等級8的力量」或簡寫成「力量8」（兩者的意思相同）、或說某個超能力效果為等級5、9、15、或任意數值。遊戲中所有可量化的特性數據都具有等級。",
+						"這個遊戲同時使用了一套{@b 度量系統}，用以表示現實世界的各種單位如磅、秒、分鐘、呎、碼、哩，等等。等級和度量單位之間有著一套能夠直接換算的關係，如下列{@b 度量標準表}所示。",
 						{
 							"type": "table",
-							"caption": "Measurements Table",
+							"caption": "度量標準表",
 							"colLabels": [
 								"等級",
 								"質量",
@@ -410,40 +410,40 @@
 						},
 						{
 							"type": "entries",
-							"name": "Using the Measurements Table",
+							"translate_name": "使用度量標準表", "name": "Using the Measurements Table",
 							"entries": [
-								"The relationship between rank and measure has a number of uses in this game.",
-								"First, the capabilities of many traits are translated from their rank into a measurement. So the amount of weight a Strength rank of 3 can lift is determined by finding the equivalent weight measurement on the table, or 400 lbs. Similarly, the mass, distance, or time affected by various other traits, especially powers, is determined on the Measurements Table.",
-								"Also, because the measurements on the table operate at the same scale (roughly doubling every rank), it is possible to use it to quickly figure out relationships between things like mass, distance, speed, and time:",
+								"等級和度量標準之間的關係在這個遊戲中有著許多用途。",
+								"首先，許多遊戲數值都需要將其等級換算成度量單位，以表現它們的能力程度。舉例來說，透過查詢度量標準表並對照該等級所對應的重量標準，便可以判斷等級3的力量所能舉起的重量為400磅。同樣的，其他各種數據特性（特別是超能力效果）所能影響的質量、距離、或時間，都將透過這個度量標準表來決定。",
+								"此外，由於度量標準表上的數據換算都遵循著相同的比例（大致上皆為每等級兩倍），因此你也可以利用它來快速計算出各個單位之間的關係，例如質量、距離、速度、和時間：",
 								{
 									"type": "middleEnhance",
-									"text": "Distance Rank = Time Rank + Speed Rank"
+									"text": "距離等級 = 時間等級 + 速度等級"
 								},
-								"To determine the distance a hero covers in a given amount of time, add the rank of the time to the rank of the hero’s speed, with normal human ground speed being rank 0. So a normal person can cover 2 miles in an hour (time 9 + speed 0 = 9, the rank for 2 miles). In fact, with normal human speeds, you can just directly compare the time and distance columns of the table! As another example, a hero with Flight 12 can cover 8,000 miles in an hour! That’s 12 (speed) + 9 (time) = 21, the rank for 8,000 miles. The same character can go an amazing 16 miles in just 6 seconds (the time of one action round)!",
+								"要決定一名英雄在給定時間內所能移動的距離，將時間等級加上該英雄的速度等級（正常人類的地面速度為等級0）。因此一名正常人類可以在一小時內橫跨2哩的距離（時間9級 + 速度0級 = 距離9級，亦即2哩）。事實上，若以正常人類的速度為標準，你甚至可以直接將移動時間換算成同級的距離！舉另一個例子，一名具有12級飛行能力的英雄能夠在一小時內飛越8,000哩的距離！這是因為12（飛行速度等級） + 9（時間等級） = 21，亦即8,000哩所對應的距離等級。而同樣這名角色，能夠在僅僅6秒的時間內（一個行動輪的時間）驚人地移動16哩的距離！",
 								{
 									"type": "middleEnhance",
-									"text": "Time Rank = Distance Rank – Speed Rank"
+									"text": "時間等級 = 距離等級 – 速度等級"
 								},
-								"Reversing the previous formula, we can also figure out how long it takes someone at a particular speed to cover a given distance, by subtracting the speed rank from the distance rank to get a time rank. So a normal human (speed 0) walking 30 miles (distance 13) takes about 16 hours. A hero with Speed 14 covers the same distance in (13 – 14 = –1) just 3 seconds!",
+								"將先前的公式反轉，我們也可以計算出某人在特定速度下跨越一定距離所需花費的時間：將距離等級減去速度等級即可得到所需的時間等級。因此一名正常人類（速度等級0）步行30哩（距離等級13）將需要花費大約16小時。而一名速度等級14的英雄則能夠在僅僅3秒的時間（13 - 14 = -1）跨越相同的距離！",
 								{
 									"type": "middleEnhance",
-									"text": "Throwing Distance Rank = Strength Rank – Mass Rank"
+									"text": "投擲距離等級 = 力量等級 – 質量等級"
 								},
-								"As another example, the distance rank a hero can throw something equals the hero’s Strength rank minus the mass rank of the object. So a hero with Strength 10 (able to lift 25 tons), picks up a 10-ton truck (mass rank 8). Since 10 – 8 = 2, the hero can then toss the truck rank 2 distance (120 feet)!"
+								"舉另一個例子，一名英雄投擲東西的距離等同於該英雄的力量等級減去該物體的質量等級。因此一名力量10級的英雄（能夠舉起25噸的重量），能夠舉起一輛10噸重的貨車（質量等級8）。由於 10 - 8 = 2，因此這名英雄能夠將這輛貨車丟出2級的距離（亦即120呎）！"
 							]
 						},
 						{
 							"type": "inset",
-							"name": "Things to Know about Measurements",
+							"translate_name": "度量標準的使用須知", "name": "Things to Know about Measurements",
 							"entries": [
-								"When using the Measurements Table, there are a few important things to keep in mind:",
+								"在使用度量標準表時，記住下列幾項重點：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Each rank represents a range of measures.} Time rank 4 is actually all measures between 1 and 2 minutes, and time rank 16 is everything between 2 and 4 days! So if you’re looking for a measurement that’s not on the table, pick the next highest one that is; so 12 hours is a time rank of 13 (more than 8 hours, but less than 16), and 6 miles is a distance rank of 11 (more than 4 miles, but less than 8).",
-										"{@b Like abilities, measures can have negative ranks.} In the time rank example, the time it takes a Speed 14 hero to cover 30 miles is rank –1, or 3 seconds. You can extend the negative side the Measurement Table just like you can the positive side, with each lower rank halving the previous measurement. So rank –6 is half a pound, 1/16th of a second, and 3 inches, for example.",
-										"{@b Don’t directly add ranks.} Putting rank 4 distance together with rank 6 distance is not rank 10 distance! Rank 4 is a distance measurement of 500 feet. Rank 6 is 600 yards (1,800 feet). Adding the measurements, you get about 2,300 feet. If you directly added the ranks, you’d get rank 10 distance, or 4 miles! If you have different ranks, it is best to either handle them separately or convert them to measurements, add the measurements together, and convert them back to a rank. In the previous example, 2,300 feet is rank 7 distance (around half a mile).",
-										"{@b Measurements are approximate.} Especially at the higher end, where each rank represents a wide range of measurements, the Measurements Table isn’t intended to provide precise values; it’s just a ballpark estimate so you have an idea of how things work in the context of the game. Don’t focus too heavily on precise answers, just use the table for general guidelines."
+										"{@b 每個等級都代表著一個度量標準的範圍。} 4級的時間等級實際上代表著所有介於1分鐘到2分鐘的時間，而16級的時間則代表所有2天到4天之間的時間長度！因此若你要找的度量標準並不在表上，則挑選最接近該數值且較高的那個度量標準；因此12小時的時間等級為13（超過8小時，但少於16小時），6哩的距離單位為11（超過4哩，但少於8哩）。",
+										"{@b 跟屬性一樣，度量標準的等級可以是負數。} 以時間等級為例，速度為14級的英雄跨越30哩距離所需花費的時間等級為-1，亦即3秒。你可以如同計算度量標準表中超過30級的對應數值一樣，延伸計算其負數等級的那一側，每降低一級，便將上一個對應的度量標準減半。舉例來說，等級-6所對應的度量標準分別是半磅，1/16秒，以及3吋。",
+										"{@b 不要直接將等級相加。} 將4級距離與6級距離相加，並不會得到10級距離的結果！等級4所對應的距離是500呎，距離6級則是600碼（1,800呎）。將兩者相加，你會得到大約2,300呎，但若你直接將它們的等級相加，10級距離所對應的卻是4哩！若你需要處理不同等級的度量標準，最好的手段是各自處理它們，或將它們換算成對應的度量數值，加總後，再將它們換算回對應的等級。在先前的例子中，2,300呎將會換算回等級7的距離（大約半哩）。",
+										"{@b 度量標準僅代表近似值。} 特別是在高等級的時候，每個等級所代表的將會是一段範圍相當寬廣的度量標準。度量標準表並不打算提供精準的數值，它僅僅是一個大致的估計，讓你能夠掌握事物在遊戲環境中是如何運作的。不要過度執著於精確的數值結果，將這個表格當作一個大致的準則即可。"
 									]
 								}
 							]
@@ -452,10 +452,10 @@
 				},
 				{
 					"type": "section",
-					"name": "Game Play",
+					"translate_name": "進行遊戲", "name": "Game Play",
 					"entries": [
-						"A session of the this game resembles an issue of a comic book or an episode of an animated series. The Gamemaster and the players get together and tell a story through the process of playing the game. The length of the game session can vary, from just a couple hours to several hours or more. Some adventures may be completed in a single session while others may take multiple sessions, just as some comic book stories are told in one issue while others span multiple issues, forming a story arc or mini-series. The episodic nature of the game allows you to choose when to stop playing and allows you to start up again at any time you and your friends want.",
-						"Also like a comic book, a game consists of a series of interrelated {@b scenes}. Some scenes are fairly straightforward, with the heroes interacting with each other and the supporting cast. In these cases the GM generally just asks the players to describe what their heroes are doing and in turn describes how the other characters react and what they do. There may be some improvisational acting as everyone plays out the roles of their characters. When the action starts happening, such as when the heroes are staving off a disaster or fighting villains, time becomes more crucial and is broken down into {@b action rounds}, and the players generally have to make die rolls to see how their heroes do.",
+						"這個遊戲中的聚會內容與一期漫畫或一集動畫影劇相當類似。遊戲主持人和玩家們將聚在一起，並藉由遊玩這個遊戲的過程共同講述一個精采的故事。一場遊戲聚會的時間可長可短，從寥寥幾小時到好幾個小時或更久都有可能。有些冒險故事僅需要一次聚會便可完結，而有些則會需要花上好幾次的遊戲聚會以達到故事尾聲。就跟漫畫一樣，有些故事會在一期完結，而有些則會橫跨好幾期以塑造一條精彩的故事線或迷你系列。這個遊戲的劇集式本質讓你可以選擇在何時暫停劇情，並在你和你的朋友們希望的時候繼續下去。",
+						"就像漫畫一樣，一場遊戲是由一系列互相關聯的{@b 場景}所構成。有些場景相當單純，英雄們將與彼此、以及其他配角們互動。在這些場景中，GM通常會要求玩家們描述他們的英雄做了什麼，並接著描述其他角色如何反應，以及他們又做了些什麼。在扮演自己的角色時，玩家們也可能會有一些即興演出。而當事情開始變得急迫，例如當英雄們要躲避災難、或是迎戰反派時，時間便變得相當重要，並會被拆分成一個個{@b 行動輪}。這時候，玩家們通常得各自擲骰檢定以決定英雄們的行動順序。",
 						{
 							"type": "entries",
 							"translate_name": "檢定", "name": "Checks",
@@ -961,69 +961,69 @@
 						},
 						{
 							"type": "entries",
-							"name": "Victory Points",
+							"translate_name": "勝利點", "name": "Victory Points",
 							"entries": [
-								"Whether it’s luck, talent, or sheer determination, heroes have something setting them apart from everyone else, allowing them to perform amazing feats under the most difficult circumstances. In this game that “something” is {@b Victory points}. Spending a Victory point can make the difference between success and failure in the game. When you’re entrusted with the safety of the world, that means a lot!",
-								"Victory points allow players to “edit” the plot of the adventure and the rules of the game to a degree. They give heroes the ability to do the amazing things heroes do in the comics, but with certain limits, and they encourage players to make the sort of choices heroes do in the comics, in order to get more Victory points.",
-								"Players start each game session with 1 Victory point. During the adventure they get opportunities to earn more Victory points. Players can use various tokens (poker chips, glass beads, etc.) to keep track of their Victory points, handing them over to the Gamemaster when they spend them. The Gamemaster can likewise give out tokens when awarding Victory points to the players.",
-								"Unspent Victory points don’t carry over to the next adventure; the heroes start out with 1 point again. Use them or lose them! Since Victory points are a finite resource, players need to manage them carefully, spending them at the most opportune times and taking chances to earn them through complications. Playing it “safe” tends to eliminate chances of getting more Victory points while taking risks, facing complications, and, in general, acting like a hero offers rewards that help them out later on.",
+								"無論是因為幸運、天賦、還是純粹的決心，英雄們身懷的某種事物使他們立於芸芸眾生之中，讓他們得以在特別艱困的情境下展現出驚人的壯舉。在這個遊戲中，這個「某種事物」正是{@b 勝利點}。在遊戲中，勝利點的使用可以左右成敗，而當你身負維護整個世界的安危的責任時，這對你而言可說意義重大！",
+								"勝利點讓玩家們得以在某種程度上「修改」冒險劇情以及遊戲中的規則。勝利點賦予英雄們表現出如漫畫英雄那般的驚人壯舉，儘管這仍受到某些限制。這個機制也鼓勵玩家們做出如英雄漫畫中的重大抉擇，以從中獲得更多的勝利點。",
+								"玩家們在每場遊戲聚會開始時都將擁有1點勝利點。在冒險進行中，他們將有機會獲得更多的勝利點。玩家們可以使用各種不同的指示物（像是代幣、玻璃珠等等）來記錄他們所擁有的勝利點，並在消耗勝利點時將指示物交給遊戲主持人。同樣的，遊戲主持人也可以在要獎勵玩家勝利點時，將這些指示物交給玩家。",
+								"未消耗的勝利點並不會被帶到下一場冒險；英雄們會以擁有1點勝利點的情況開始下一場冒險。因此不用白不用！由於勝利點屬於有限資源，玩家們將需要謹慎的對待它們：在最需要它們的時機使用勝利點，並抓住每一個透過糾葛難題以贏取勝利點的機會。「謹慎行事」往往會讓你遠離獲得更多勝利點的機會，而主動承擔風險、面對難題、以及通常來說，採取如英雄般的行為將會回報，並在之後為你帶來幫助。",
 								{
 									"type": "entries",
-									"name": "Using Victory Points",
+									"translate_name": "使用勝利點", "name": "Using Victory Points",
 									"entries": [
-										"Unless otherwise noted, spending a Victory point is a reaction, taking no time, and you can spend as many Victory points as you have. You can spend Victory points for any of the following:",
+										"除非特別註明，否則消耗勝利點都將使用一個反應，不會花費任何時間，且你可以消耗你所擁有的任意數量個勝利點。你可以消耗勝利點以獲得下列任意一個效果：",
 										{
 											"type": "entries",
-											"name": "Edit Scene",
+											"translate_name": "編輯場景", "name": "Edit Scene",
 											"entries": [
-												"You can “edit” a scene to grant your hero an advantage by adding or changing certain details. For example, a hero is fighting a villain with plant-based powers in a scientific lab. You deduce the villain may be weakened by defoliants, so you ask the GM if there are any chemicals in the lab you can throw together to create a defoliant. The Gamemaster requires a Victory point to add that detail and says the right chemicals are close at hand. Now you just have to use them!",
-												"How much players are allowed to “edit” circumstances is up to the individual Gamemaster, but generally Victory points should not be allowed to change any event that has already occurred or any detail already explained in-game. For example, players cannot “edit” away damage or the effects of powers (Victory points already allow this to a limited degree, see the following). The GM may also veto uses of editing that ruin the adventure or make things too easy on the players. This option is intended to give the players more input into the story and allow their heroes chances to succeed, but it shouldn’t be used as a replacement for planning and cleverness, just a way to enhance them."
+												"你可以「編輯」場景，透過增加或修改某些細節以賦予你的英雄某些優勢。舉例來說，一名英雄正在科學實驗室與一位有著植物超能力的反派戰鬥。你推斷這名反派可能會受到落葉劑的影響而衰弱，因此你詢問GM在這實驗室內是否有任何化學藥劑能夠讓你混合成落葉劑。遊戲主持人認為這添加這個細節需要一點勝利點，並在向你收取一點勝利點後宣言你所需的化學藥劑就在你的附近。於是現在，你就能利用它們了！",
+												"玩家們被允許「編輯」場景的程度取決於遊戲主持人，但通常來說，勝利點不能夠改變任何已經發生的事件或已經被遊戲機制給描述的細節。舉例來說，玩家並不能夠將已經受到的傷害或超能力效果給「編輯」消去（然而，勝利點已經允許在有限程度上做到這點，參見後述）。GM也可能否決會把整個冒險故事搞砸、或使情況變得對玩家而言太過容易的編輯。這個選項的目的是為了讓玩家能夠更多的投入故事，並讓他們的英雄更有機會成功。它不應該被用來取代計畫和智慧，而僅是強化它們的一種手段。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Heroic Feat",
+											"translate_name": "英勇特長", "name": "Heroic Feat",
 											"entries": [
-												"You can spend a Victory point to gain the benefits of one rank of a advantage you don’t already have until the end of your next turn (see {@b Advantages}). You must be capable of using the advantage and cannot gain the benefits of fortune advantages, only other types. If the advantage has any prerequisites, you must have them to gain the benefits of the advantage as a heroic feat."
+												"你可以消耗一點勝利點以獲得一個你尚未擁有，一個等級的特長的助益，持續直到你的下個回合結束（參見{@5etools 特長|advantages.html}）。你必須要能夠使用該特長，且你無法因此獲得運氣類別特長的助益。若該特長擁有任何先決條件，則你必須要滿足該條件才能夠透過英勇特長選項而獲得該特長帶來的助益。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Improve Roll",
+											"translate_name": "改善擲骰", "name": "Improve Roll",
 											"entries": [
-												"One Victory point allows you to re-roll any die roll you make and take the better of the two rolls. On a result of 1 through 10 on the second roll, add 10 to the result, an 11 or higher remains as-is (so the re-roll is always a result of 11-20). You must spend the Victory point to improve a roll before the GM announces the outcome of your initial roll. You cannot spend Victory points on die rolls made by the GM or other players without the Luck Control effect (see {@b Powers})."
+												"消耗一點勝利點讓你得以重骰任何你擲出的骰子，並選擇兩次擲骰中較好的結果。若第二次擲骰的結果為1到10，則將其檢定結果加上10，而11或更高的擲骰結果將維持原樣（因此重骰的結果永遠會是11~20）。你必須在GM宣告你第一次擲骰的行動結果之前消耗勝利點。若你不具備{@effect Luck Control}效果，則你不能對GM或其他玩家的擲骰消耗勝利點重骰。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Inspiration",
+											"translate_name": "靈光一閃", "name": "Inspiration",
 											"entries": [
-												"You can spend a Victory point to get sudden inspiration in the form of a hint, clue, or bit of help from the GM. It might be a way out of the villain’s fiendish deathtrap, a vital clue for solving a mystery, or an idea about the villain’s weakness. It’s up to the GM exactly how much help the players get from inspiration and how it manifests, but since Victory points are a very limited resource, the help should be in some way significant."
+												"你可以消耗一點勝利點以獲得突然的靈感，從GM那裡得到某種形式的暗示、線索、或一點幫助。這可能會是逃脫反派致命陷阱的手段、解決謎題的重大線索、或是關於反派弱點的見解。由GM決定這道靈光所呈現的方式，以及玩家們能從中獲得多少幫助。然而由於勝利點是種非常有限的資源，因此它給玩家的協助在某方面上應當相當顯著。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Instant Counter",
+											"translate_name": "瞬間反制", "name": "Instant Counter",
 											"entries": [
-												"You can spend a Victory point to attempt to counter an effect used against you as a reaction. See {@b Countering Effects} in {@b Powers} for details."
+												"你可以消耗一點勝利點，以一個反應嘗試反制一個超能力效果。參見{@b 超能力}章節中的{@rule 反制超能力效果|basic|6|countering effects}以查閱更多細節。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Recover",
+											"translate_name": "回復", "name": "Recover",
 											"entries": [
-												"You can spend a Victory point to recover faster. A Victory point allows you to immediately remove a dazed, fatigued, or stunned condition, without taking an action. Among other things, this option allows you to use extra effort (previously) without suffering any fatigue. Spending a Victory point to recover also lets you convert an exhausted condition into a fatigued condition."
+												"你可以消耗一點勝利點以更快地回復。一點勝利點讓你得以立即解除{@condition 目眩}、{@condition 疲勞}、或{@condition 暈眩}狀態，而無須採取任何動作。除了上述效果之外，這個選項也能讓你使用奮力一搏（如前述），而無須承受疲勞。消耗一點勝利點回復的選項也能讓你將{@condition 力竭}狀態減輕為{@condition 疲勞}狀態。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Earning Victory Points",
+									"translate_name": "獲得勝利點", "name": "Earning Victory Points",
 									"entries": [
-										"In comic book stories, heroes often confront the villain(s) and deal with various setbacks. Perhaps the villain defeats or outwits them in the first couple scenes. Maybe one or more of the heroes have to overcome a personal problem. The villain may have a secret the heroes need to discover, and so forth. By the end of the story, the heroes have overcome these challenges and they’re ready to take on the villain.",
-										"This game reflects this kind of story structure through the awarding of Victory points. The heroes gain additional Victory points as an adventure progresses. When the going gets tough, the heroes get tougher, because they get Victory points to help them overcome future challenges.",
-										"Heroes get Victory points from complications, acts of heroism, and roleplaying. See {@b Complications} in {@b Secret Origins}, for details."
+										"在漫畫故事中，英雄們經常必須面對反派，並經歷各種不同的挫折。也許反派會在前幾次的場景中得以擊敗或智取英雄們、或許其中幾位英雄將必須克服他們的個人難題、反派也可能藏有一個必須被英雄們發掘的秘密……諸如此類。而在故事的終幕，英雄們將會克服這些難關，並準備好將反派狠狠擊潰。",
+										"這個遊戲藉由給予玩家們勝利點，來反映這一類的故事結構。英雄們會隨著冒險的進行獲得額外的勝利點。當情況變得艱困，英雄們也將益發堅強──因為他們將因此得到勝利點以幫助他們克服未來的挑戰。",
+										"英雄們能夠從他們的糾葛難題、英雄般的行為、以及優秀的角色扮演來獲得勝利點。參見{@b 秘密起源}章節中的{@rule 糾葛難題|basic|2|complications}以查閱更多細節。"
 									]
 								}
 							]
@@ -1884,7 +1884,7 @@
 					"type": "section",
 					"translate_name": "防禦＆先攻", "name": "Defenses & Initiative",
 					"entries": [
-						"英雄們在他們的事業中將會面對許多危險，從邪惡敵人的攻擊、到致命陷阱以及邪佞的心靈控制。英雄的{@b 防禦}正是用以避免這些事情的屬性，這些屬性決定了這些攻擊影響英雄的難度、以及英雄面對這些效果所進行的抵抗檢定。每種防禦都是基於一個特定的屬性，並根據英雄的優勢和超能力進行調整。關於更多防禦的通則與運用它們的方式，請參閱{@rule 動作&冒險|basic|8}章節。",
+						"英雄們在他們的事業中將會面對許多危險，從邪惡敵人的攻擊、到致命陷阱以及邪佞的心靈控制。英雄的{@b 防禦}正是用以避免這些事情的屬性，這些屬性決定了這些攻擊影響英雄的難度、以及英雄面對這些效果所進行的抵抗檢定。每種防禦都是基於一個特定的屬性，並根據英雄的特長和超能力進行調整。關於更多防禦的通則與運用它們的方式，請參閱{@rule 動作&冒險|basic|8}章節。",
 						{
 							"type": "entries",
 							"translate_name": "防禦", "name": "Defenses",
@@ -1944,7 +1944,7 @@
 											"type": "entries",
 											"translate_name": "堅實等級", "name": "Toughness Rank",
 											"entries": [
-												"唯一的例外是堅實防禦，它只能夠藉由優勢和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 優勢|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage Defensive Roll}優勢和{@effect Protection}效果。"
+												"唯一的例外是堅實防禦，它只能夠藉由特長和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 特長|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage Defensive Roll}特長和{@effect Protection}效果。"
 											]
 										},
 										{
@@ -1981,7 +1981,7 @@
 								"當事件的步調開始急迫，角色們將使用他們的{@b 先攻}加值以決定誰先行動。每個參與衝突的角色都進行一次d20 + 先攻修正值的檢定。先攻修正值如下：",
 								{
 									"type": "middleEnhance",
-									"text": "先攻修正值 = 靈敏 + 優勢(Improved Initiative) + 超能力修正值"
+									"text": "先攻修正值 = 靈敏 + 特長(Improved Initiative) + 超能力修正值"
 								},
 								"角色們接著將按照先攻順序依序行動，由高到低。更多細節請參見{@rule 動作＆冒險|basic|8}章節。"
 							]

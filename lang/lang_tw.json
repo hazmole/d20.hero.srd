@@ -5,7 +5,7 @@
 "nav_rules": "規則",
 "nav_basic_rules": "基本規則",
 "nav_pl_opt": "玩家選項",
-"nav_advantage": "優勢",
+"nav_advantage": "特長",
 "nav_condition": "狀態",
 "nav_skill": "技能",
 "nav_modifier": "修飾符",
@@ -15,7 +15,7 @@
 "night_mode": "夜晚模式",
 "set_language": "更改語言",
 
-"title_advantage": "優勢",
+"title_advantage": "特長",
 "title_condition": "狀態",
 "title_skill": "技能",
 "title_modifier": "修飾符",
@@ -110,7 +110,7 @@
 "book_next": "下一頁",
 "book_back_to_top": "回到最頂",
 
-"advantage": "優勢",
+"advantage": "特長",
 "condition": "異常狀態",
 "skill": "技能",
 "modifier": "修飾符",

@@ -4063,7 +4063,7 @@ Renderer.modifier = {
 		var contentStack = [];
 		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
 
-		var cost_text = this.getModifierCostText(entry);
+		var cost_text = Renderer.general.getModifierCostText(entry);
 		
 		return (`
 			${Renderer.utils.getNameTr(entry)}
@@ -4071,7 +4071,5 @@ Renderer.modifier = {
 			<tr><td class="divider" colspan="6"><div></div></td></tr>
 			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
 		`);
-	},
-
-	getModifierCostText: function (modifier){ return Renderer.general.getModifierCostText(modifier); },
+	}
 };
