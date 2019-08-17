@@ -3788,6 +3788,8 @@ Renderer.general = {
 			case "SEN": return FMT("type_sensory");
 			case "basic": return FMT("type_basic");
 			case "combine": return FMT("type_combine");
+			case "extra": return FMT("type_extra");
+			case "flaw": return FMT("type_flaw");
 			default: return "???";
 		}
 	},
@@ -3801,6 +3803,28 @@ Renderer.general = {
 		switch(cost.type){
 			case "per": return FMT("cost_per", value);
 			case "special": return FMT(value);
+			default: return "";
+		};
+	},
+	getModifierCostText: function (modifier, isList){
+		var cost = modifier.cost;
+		if(!cost) return "";
+		if(cost.hidden) return "";
+		var value = cost.value, value_pos, value_str;
+		if(typeof value == "object"){
+			value_pos = value.min>=0;
+			value_str = value.min + ((value.max == "more")? FMT("or_more"): ("~"+value.max));
+		}
+		else{
+			value_pos = value>=0; 
+			value_str = value;
+		}
+		value_str = (value_pos? "+": "") + value_str;
+		switch(cost.type){
+			case "per": return FMT("modcost_per", value_str);
+			case "flat": return FMT("modcost_flat", value_str);
+			case "flat_per": return isList? FMT("modcost_flat_per", value_str, ""): FMT("modcost_flat_per", value_str, modifier.name);
+			case "special": return isList? FMT("special"): FMT(value);
 			default: return "";
 		};
 	},
@@ -3889,6 +3913,7 @@ Renderer.powereffect = {
 
 	getTypeFullText: function (type) { return Renderer.general.getTypeFullText(type); },
 	getCostText: function (cost){ return Renderer.general.getCostText(cost); },
+	getModifierCostText: function (modifier){ return Renderer.general.getModifierCostText(modifier); },
 	getActionText: function (action){ return Renderer.general.getActionText(action); },
 	getActionFullText: function (action){ return Renderer.general.getActionText(action, true); },
 	//============
@@ -3975,27 +4000,6 @@ Renderer.powereffect = {
 			case "permanent": return FMT("duration_permanent");
 			default: return FMT(duration);
 		};
-	},
-	getModifierCostText: function (modifier){
-		var cost = modifier.cost;
-		if(!cost) return "";
-		if(cost.hidden) return "";
-		var value = cost.value, value_pos, value_str;
-		if(typeof value == "object"){
-			value_pos = value.min>=0;
-			value_str = value.min + ((value.max == "more")? FMT("or_more"): ("~"+value.max));
-		}
-		else{
-			value_pos = value>=0; 
-			value_str = value;
-		}
-		value_str = (value_pos? "+": "") + value_str;
-		switch(cost.type){
-			case "per": return FMT("modcost_per", value_str);
-			case "flat": return FMT("modcost_flat", value_str);
-			case "flat_per": return FMT("modcost_flat_per", value_str, modifier.name);
-			default: return "";
-		};
 	}
 };
 
@@ -4051,4 +4055,23 @@ Renderer.skill = {
 	getActionText: function (action){ return Renderer.general.getActionText(action); },
 	getActionFullText: function (action){ return Renderer.general.getActionText(action, true); },
 	getAbilityText: function(abi, isFull){ return Renderer.general.getAbilityText(abi, isFull); }
+};
+
+Renderer.modifier = {
+	getCompactRenderedString: function (entry) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
+
+		var cost_text = this.getModifierCostText(entry);
+		
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>
+			<tr><td class="divider" colspan="6"><div></div></td></tr>
+			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+		`);
+	},
+
+	getModifierCostText: function (modifier){ return Renderer.general.getModifierCostText(modifier); },
 };

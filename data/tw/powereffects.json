@@ -1832,7 +1832,7 @@
 			]
 		},
 		{
-			"name": "Movement",
+			"translate_name": "移動", "name": "Movement",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -1842,32 +1842,32 @@
 				"type": "per"
 			},
 			"entries": [
-				"You have a special form of movement. For each rank in this effect, choose one of the following options:",
+				"你擁有一種特殊的移動方式。為這個效果的每個等級選擇下列其中一個選項：",
 				{
 					"type": "entries",
-					"name": "Dimension Travel",
+					"translate_name": "次元穿梭", "name": "Dimension Travel",
 					"entries": [
-						"You can move instantly from one dimension to another as a move action. For 1 rank, you can move between your home dimension and one other. For 2 ranks you can move between any of a related group of dimensions (mystical dimensions, alien dimensions, etc). For 3 ranks you can travel to any dimension. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you move. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+						"你能夠以一個移動動作立即移動到另一個次元。若這個移動方式的等級為1，你可以在你的原生次元和另一個次元之間往返穿梭。若等級為2，你可在任意關聯類群的次元間往返移動（祕法次元、外星次元、諸如此類）。若等級為3，你可以在任意次元之間穿梭。當你在次元間穿梭時，你可以攜帶最多50磅（質量等級0）的額外物質與你一起移動。若你應用了{@modifier Increased Mass}修飾符，則你可以再額外攜帶最多等同於你該修飾符等級的質量。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Environmental Adaptation",
+					"translate_name": "環境適應", "name": "Environmental Adaptation",
 					"entries": [
-						"You’re adapted to a particular environment, such as underwater, zero gravity, and so forth (see Environmental Hazards for details). You suffer none of the normal unfavorable circumstance or movement penalties associated with that environment, moving and acting normally. You are still affected by environmental hazards like suffocation, exposure, and so forth. You need the Immunity effect to ignore such things."
+						"你適應於一種特定的環境，例如水中、零重力等等（參見{@rule Environmental Hazards|basic|8|environmental hazards}以查閱更多細節）。你不會承受任何該環境所導致的不利情境罰值或移動懲罰，並能正常地移動和動作。你仍會被其環境危害所影響，像是窒息、暴露於嚴酷環境下等等。你需要{@effect Immunity}效果才能忽視這些危害。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Permeate",
+					"translate_name": "穿透", "name": "Permeate",
 					"entries": [
-						"You can pass through solid objects as if they weren’t there. For 1 rank, you can move at speed rank –2 through any physical object. For 2 ranks, you can move at speed rank –1 and for 3 ranks, you move at your normal speed through any obstacles. You cannot breathe while completely inside a solid object, so you either need Immunity to Suffocation or have to hold your breath. You may also need Penetrates Concealment Senses to know where you’re going, since you cannot see inside solid objects, either.",
-						"Permeate is often Limited to a particular substance like earth, ice, or metal, for example. Permeate provides no protection against attacks, although you do gain cover while inside an object (see Cover). For the ability to allow things (including attacks) to pass through you, see Insubstantial effect."
+						"你可以如同固態物體不存在一般穿透它們。若這個移動方式的等級為1，你能夠以你速度等級-2的速度穿透任何物理性物體。若等級為2，你能夠以你速度等級-2的速度穿透物體移動，而若等級為3，你能夠以你正常的速度穿透任何障礙物。你無法在完全浸入固態物體的時候呼吸，因此必須具備對窒息的{@effect Immunity}效果，或在穿透期間屏住氣息。由於你無法在處於固態物體內時視物，因此你可能也會需要Penetrates Concealment的{@effect Sense}效果以知曉自己正往哪裡移動。.",
+						"穿透效果通常會限定於特定物質，例如土地、冰、或金屬。儘管在面對攻擊時，穿透效果並不會提供任何保護作用，但當你處於固態物體內時，你仍能因此獲得掩護（參見{@rule Cover|basic|8|cover}）。若希望擁有能夠讓其他東西（包括攻擊在內）穿透你的能力，經查看{@effect Insubstantial}效果。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Safe fall",
+					"translate_name": "安全墜落", "name": "Safe fall",
 					"entries": [
 						"So long as you are capable of action, you can fall any distance without harm. You can also stop your fall at any point along a distance so long as there is a handhold or projection for you to grab (such as a ledge, flagpole, branch, etc.). If you have the Wall-crawling power (later in Movement), any surface you can climb provides you with a handhold.",
 						"Safe Fall may be Limited to only when you are near a surface (such as the side of a building); you’re assumed to be using the surface to help slow your fall."
@@ -1875,56 +1875,56 @@
 				},
 				{
 					"type": "entries",
-					"name": "Slithering",
+					"translate_name": "匍匐蛇行", "name": "Slithering",
 					"entries": [
-						"You can move while prone at your normal ground speed. You suffer no circumstance penalty for making attacks while prone."
+						"你可以在處於{@condition 臥倒}狀態時以你正常的地面速度移動。此外，你在處於{@condition 臥倒}狀態時進行攻擊並不會因此承受任何的情境罰值。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Space Travel",
+					"translate_name": "宇宙傳旅", "name": "Space Travel",
 					"entries": [
 						"You can travel faster than the speed of light through the vacuum of space (but not in a planetary atmosphere). At rank 1 you can travel to other planets in a solar system. At rank 2, you can travel to other star systems, while at rank 3, you can visit distant star systems, perhaps even other galaxies! This effect does not provide protection from the rigors of outer space (for that, see Immunity effect)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sure-footed",
+					"translate_name": "穩健步伐", "name": "Sure-footed",
 					"entries": [
 						"You’re better able to deal with obstacles and obstructions to movement. Reduce the speed penalty for moving through or around such obstacles by 1 for each rank of this effect. If you reduce the speed penalty to 0 or less, you are unaffected by that obstacle and move at full normal speed."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Swinging",
+					"translate_name": "擺盪", "name": "Swinging",
 					"entries": [
-						"You can swing through the air at your normal ground speed rank, using a swing-line you provide or available lines and projections (tree limbs, flagpoles, vines, telephone- and powerlines, etc.)."
+						"利用你所準備的擺索、或者環境中可用的索帶和凸出物（樹枝、旗桿、藤蔓電話線和電纜等），你能夠以你的正常的地面速度等級在空中擺盪穿梭。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Time Travel",
+					"translate_name": "時間旅行", "name": "Time Travel",
 					"entries": [
 						"You can move through time! For 1 rank, you can move between the present and another fixed point in time (such as 100 years into the past, or 1,000 years into the future). For 2 ranks you can move to any point in the past or any point in the future (but not both). For 3 ranks, you can travel to any point in time. Reaching alternate timelines or parallel worlds requires at least 2 ranks of Dimension-Travel. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you time-travel. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Trackless",
+					"translate_name": "行蹤無跡", "name": "Trackless",
 					"entries": [
 						"You leave no trail and cannot be tracked using visual senses (although you can still be tracked using scent or other means). You can walk across the surface of soft sand or snow without leaving tracks and you have total concealment from tremorsense (see Concealment). Each additional rank renders you trackless to another sense type."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Wall-crawling",
+					"translate_name": "攀牆", "name": "Wall-crawling",
 					"entries": [
 						"You can climb walls and ceilings at your ground speed rank –1 with no chance of falling and no need for an Athletics check. You are still vulnerable while climbing, however. An additional rank of this effect means you climb at your full speed rank and are not vulnerable while climbing."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Water-walking",
+					"translate_name": "水面行走", "name": "Water-walking",
 					"entries": [
 						"You can stand or move at your normal ground speed on the surface of water, quicksand, and other liquids without sinking. If you fall prone for any reason, you sink into the liquid normally. With 2 ranks of this effect, you can also lie prone on a liquid surface without sinking; you only sink if you choose to."
 					]

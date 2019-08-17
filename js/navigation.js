@@ -26,7 +26,7 @@ class NavBar {
 		addLi(ulPlayer, "skills.html", FMT("nav_skill"));
 		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
 		addLi(ulPlayer, "powereffects.html", FMT("nav_powereffect"));
-		addLi(ulPlayer, "", FMT("nav_modifier"));
+		addLi(ulPlayer, "modifiers.html", FMT("nav_modifier"));
 		addLi(ulPlayer, "conditions.html", FMT("nav_condition"));
 		addDivider(ulPlayer);
 		addLi(ulPlayer, "", FMT("nav_archetype"));

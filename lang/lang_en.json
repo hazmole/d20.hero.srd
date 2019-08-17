@@ -8,6 +8,7 @@
 "nav_advantage": "Advantages",
 "nav_condition": "Conditions",
 "nav_skill": "Skills",
+"nav_modifier": "Modifiers",
 "nav_powereffect": "Power Effects",
 "nav_settings": "Settings",
 "day_mode": "Day Mode",
@@ -17,6 +18,7 @@
 "title_advantage": "Advantages",
 "title_condition": "Conditions",
 "title_skill": "Skills",
+"title_modifier": "Modifiers",
 "title_powereffect": "Power Effects",
 
 "type_combat": "Combat",
@@ -30,6 +32,8 @@
 "type_sensory": "Sensory",
 "type_basic": "Basic",
 "type_combine": "Combine",
+"type_extra": "Extra",
+"type_flaw": "Flaw",
 
 "cost_per": "{0} point per rank",
 "cost_as_base_trait": "As base Trait",
@@ -109,11 +113,13 @@
 "advantage": "advantage",
 "condition": "condition",
 "skill": "skill",
+"modifier": "modifier",
 "powereffect": "power effect",
 "ranked": "Ranked",
 "ranked_max": "Ranked [{0}]",
 "extras": "Extras",
 "flaws": "Flaws",
+"special": "Special",
 "pl_num": "PL",
 
 

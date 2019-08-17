@@ -1847,22 +1847,22 @@
 					"type": "entries",
 					"name": "Dimension Travel",
 					"entries": [
-						"You can move instantly from one dimension to another as a move action. For 1 rank, you can move between your home dimension and one other. For 2 ranks you can move between any of a related group of dimensions (mystical dimensions, alien dimensions, etc). For 3 ranks you can travel to any dimension. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you move. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+						"You can move instantly from one dimension to another as a move action. For 1 rank, you can move between your home dimension and one other. For 2 ranks you can move between any of a related group of dimensions (mystical dimensions, alien dimensions, etc). For 3 ranks you can travel to any dimension. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you move. If you apply the {@modifier Increased Mass} modifier, you can carry additional mass up to your modifier rank."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Environmental Adaptation",
 					"entries": [
-						"You’re adapted to a particular environment, such as underwater, zero gravity, and so forth (see Environmental Hazards for details). You suffer none of the normal unfavorable circumstance or movement penalties associated with that environment, moving and acting normally. You are still affected by environmental hazards like suffocation, exposure, and so forth. You need the Immunity effect to ignore such things."
+						"You’re adapted to a particular environment, such as underwater, zero gravity, and so forth (see {@rule Environmental Hazards|basic|8|environmental hazards} for details). You suffer none of the normal unfavorable circumstance or movement penalties associated with that environment, moving and acting normally. You are still affected by environmental hazards like suffocation, exposure, and so forth. You need the {@effect Immunity} effect to ignore such things."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Permeate",
 					"entries": [
-						"You can pass through solid objects as if they weren’t there. For 1 rank, you can move at speed rank –2 through any physical object. For 2 ranks, you can move at speed rank –1 and for 3 ranks, you move at your normal speed through any obstacles. You cannot breathe while completely inside a solid object, so you either need Immunity to Suffocation or have to hold your breath. You may also need Penetrates Concealment Senses to know where you’re going, since you cannot see inside solid objects, either.",
-						"Permeate is often Limited to a particular substance like earth, ice, or metal, for example. Permeate provides no protection against attacks, although you do gain cover while inside an object (see Cover). For the ability to allow things (including attacks) to pass through you, see Insubstantial effect."
+						"You can pass through solid objects as if they weren’t there. For 1 rank, you can move at speed rank –2 through any physical object. For 2 ranks, you can move at speed rank –1 and for 3 ranks, you move at your normal speed through any obstacles. You cannot breathe while completely inside a solid object, so you either need {@effect Immunity} to Suffocation or have to hold your breath. You may also need Penetrates Concealment {@effect Sense|Senses} to know where you’re going, since you cannot see inside solid objects, either.",
+						"Permeate is often Limited to a particular substance like earth, ice, or metal, for example. Permeate provides no protection against attacks, although you do gain cover while inside an object (see {@rule Cover|basic|8|cover}). For the ability to allow things (including attacks) to pass through you, see {@effect Insubstantial} effect."
 					]
 				},
 				{
@@ -1877,7 +1877,7 @@
 					"type": "entries",
 					"name": "Slithering",
 					"entries": [
-						"You can move while prone at your normal ground speed. You suffer no circumstance penalty for making attacks while prone."
+						"You can move while {@condition prone} at your normal ground speed. You suffer no circumstance penalty for making attacks while {@condition prone}."
 					]
 				},
 				{
