@@ -15,7 +15,7 @@
 				"headers": [
 					{ "translate_name": "核心機制", "name": "The Core Mechanic" },
 					{ "translate_name": "遊戲主持人", "name": "The Gamemaster" },
-					{ "name": "The Heros" },
+					{ "translate_name": "英雄", "name": "The Heros" },
 					{ "translate_name": "等級＆度量標準", "name": "Rank & Measures" },
 					{ "translate_name": "進行遊戲", "name": "Game Play" },
 					{ "translate_name": "檢定", "name": "Checks" },
@@ -185,10 +185,10 @@
 		},
 		{
 			"type": "section",
-			"name": "The Basic",
+			"translate_name": "基本規則", "name": "The Basic",
 			"entries": [
-				"This site provides a framework for your imagination. It has rules to help determine what happens in your stories and to resolve conflicts between characters and the challenges they face. With it, you can experience adventure as a hero fighting against the forces of evil! Any adventure you can imagine is possible.",
-				"Like all games, this one too has rules. This page looks at the basic rules of the game and how they work, giving you the foundation upon which the rest of the game is built.",
+				"這個網站將提供一個框架，讓你的想像力得以在其中盡情馳騁。這裡所記載的規則能夠協助判斷你的遊戲中發生了什麼事、如何處理角色之間的衝突，以及他們所面對的挑戰。透過這套遊戲規則，你可以做為一名打擊邪惡犯罪的英雄，經歷一場身歷其境的壯闊冒險！任何你所能想像的冒險故事，在這個遊戲中都有可能實現！",
+				"就跟所有遊戲一樣，這個遊戲同樣具有規則。本章節將會著重於這個遊戲的基本規則，以及它們運作的方式，讓你對整個遊戲有一個基礎的認知。這個遊戲的其餘要素都將建基於這項基礎之上。",
 				{
 					"type": "section",
 					"translate_name": "核心機制", "name": "The Core Mechanic",
@@ -222,51 +222,51 @@
 				},
 				{
 					"type": "section",
-					"name": "The Heros",
+					"translate_name": "英雄", "name": "The Heros",
 					"entries": [
-						"The other players in a game create heroes, the main characters of their own adventures, like an ongoing comic book or animated series. As a player, you create your hero following these guidelines and the guidance of your Gamemaster. There are several components to creating a hero, described in detail in the linked pages, and outlined briefly below.",
+						"遊戲中的其他玩家將創建如同漫畫或動畫劇集的英雄，作為他們參與冒險故事的主要角色。做為一名玩家，你將在下列指南以及GM的引導下創造出屬於你自己的英雄。英雄的創建是由許多要件所組成，其細節都將在關聯頁面中說明，以下僅列出大致簡述。",
 						{
 							"type": "entries",
 							"translate_name": "屬性", "name": "Abilities",
 							"entries": [
-								"All characters in this game, from heroes and villains to the average person on the street, are defined by eight {@b abilities}, basic traits each character has to a greater or lesser extent. Abilities tell you how strong, smart, and aware a character is, among other things. The abilities are: Strength, Stamina, Agility, Dexterity, Fighting, Intellect, Awareness, and Presence, described in detail on the {@rule Abilities|basic|3} chapter.",
-								"Each ability is assigned a {@b rank} from -5 to 20, measuring its effectiveness. A rank of 0 is unremarkable or average, applying no modifier. Rank 2 is pretty well above average. A 5 is truly exceptional, while a 7 is about the most that can be expected from a “normal” human being. Beyond that is superhuman, and a rank of 20 is cosmic-level, far beyond the ability of mere mortals (and even most heroes). abilities can even have negative ranks, for those well below average, as low as –5.",
-								"For more about abilities, see the {@rule Abilities|basic|3} chapter."
+								"在這個遊戲中的所有角色，從英雄、反派、甚至到街道上的尋常人們，都有著八個{@b 屬性}以定義他們的能力，這些屬性是每個角色都或多或少擁有的基本數值。屬性說明了你有多麼強壯、多麼聰明、以及對周遭環境的覺察程度。這八個屬性如下：力量、體質、靈敏、精準、格鬥、智力、覺察、和表現。其各自的細節將在{@rule 屬性|basic|3}章節做進一步的說明。",
+								"每個屬性都會被賦予一個從-5到20之間的{@b 等級}，用以衡量該屬性的效力。0級意味著平均值或毫無特色，且不會為相關檢定帶來任何修正值。5級代表超乎凡響的卓越，而7級則大約是「正常人類」所能及的最高等級。在這之上的等級將踏入超人類的領域，而20級的屬性則已經邁入了宇宙等級，遠遠超越了凡人（或甚至英雄們）所能及的程度。屬性也可以有著負數等級，代表著低於平均的水平，等級最低為-5。",
+								"關於更多屬性的細節說明，請參閱{@rule 屬性|basic|3}章節。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "技能", "name": "Skills",
 							"entries": [
-								"Abilities describe a character’s raw potential or overall capabilities. {@b Skills} are a refinement of those basic abilities into specific areas of endeavor. For example, Agility defines how quick and agile your hero is, but the Acrobatics skill focuses on specific feats of agility like gymnastics, doing back flips, and so forth. Think of abilities as providing a certain baseline, while skills focus in on a particular area of expertise.",
-								"Characters are said to have {@b training} in a skill if they have a rank in that skill. A character not trained in a skill has no rank; only the character’s basic ability applies to checks involving the skill. Trained characters have a skill rank that adds to the basic ability when making checks. In the previous example, we said Acrobatics skill applies to specific feats of agility. If a hero has Agility 6 and is trained in Acrobatics (with a rank of 7) then the character’s bonus for checks involving feats of agility covered by Acrobatics is 13 (6 plus 7). Obviously, training in a skill makes characters more effective at checks involving that skill, often much more.",
-								"For details on what skills are available and what they do, see {@rule Skills|basic|4} chapter."
+								"若說屬性是用以描述角色的天生潛能或整體能力，那麼{@b 技能}便是將這些基本屬性細分成特定的行為領域。舉例來說，靈敏屬性定義了英雄的行動有多麼迅速和機敏，而雜技技能則專注於特定的靈敏相關特技，例如體操、後空翻等等。你可以想成屬性提供了一定程度的基準線，而技能以此為基礎，進一步專注於特定的專業領域。",
+								"若角色擁有某個技能的等級，則他將被視作{@b 受訓}於該技能。未受訓於某項技能的角色在該技能上並不會擁有任何等級；他在進行涉及該技能的檢定時，只會使用其基本屬性的修正值。相反的，受訓於該技能的角色將會在進行相關檢定時將基本屬性以及其技能等級一併加入檢定結果中。在前述的例子中，我們提到雜技技能可以適用於特定的靈敏相關特技中。若一名英雄擁有6級靈敏，且受訓於雜技技能（且該技能的等級為7），則當該角色在執行涉及雜技所涵蓋的靈敏相關特技時，其所進行的檢定將會獲得13的加值（6加上7）。顯然，受訓於特定技能將使角色在進行涉及該技能的檢定時有更加卓越的表現。",
+								"關於更多技能的細節說明，以及各技能所涵蓋的範圍，請參閱{@rule 技能|basic|4}章節。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "特長", "name": "Advantages",
 							"entries": [
-								"Halfway between skills and powers, {@b advantages} are minor benefits characters have, allowing them to do things others cannot. They range from special combat maneuvers to things like financial resources, contacts, and so forth.",
-								"Many advantages have no rank, or rather just one rank; a character either has the advantage (and the benefits that it grants) or does not. Other advantages may have multiple ranks, like abilities and skills, measuring their effectiveness.",
-								"For details on the various advantages and what they provide, see {@rule Advantages|basic|5} chapter."
+								"介於技能與超能力之間，{@b 特長}是角色所具有的，較為次要的優勢能力，這讓他們得以做到他人無法辦到的行為。這些特長涵蓋了特殊戰技、經濟資源、人脈等等。",
+								"許多特長不具備任何等級，或僅僅只會有一級；角色要嘛擁有該特長（並受益於它給予的好處），要嘛沒有。其他特長則可能會擁有複數等級，就如同屬性和技能，這些等級將用以衡量該特長的有效程度。",
+								"關於更多特長的細節說明以及它們所提供的助益，請參閱{@rule 特長|basic|5}章節。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "超能力", "name": "Powers",
 							"entries": [
-								"{@b Powers} are special abilities beyond those of ordinary human beings. They’re like advantages, only much more so. Whereas an advantage might give your hero a minor special ability, powers grant truly superhuman abilities.",
-								"Those abilities are based on {@b effects}, which describe what a power does in game terms. A power may have just one effect or several, and you can apply various {@b modifiers} to the effects to change how they work, customizing them to get just the right power.",
-								"Power effects have ranks like abilities do, on a scale from 1 to 20 (sometimes more). Unlike abilities, effects do not have ranks of less than 1, since the “average” is not having powers at all!",
-								"Some power effects require checks to use, while others operate automatically.For full descriptions of the various effects powers can have, see {@rule Powers|basic|6} chapter."
+								"{@b 超能力}是超凡的特殊能力。它們與特長有些相像，但遠不止於此。特長僅僅讓你的英雄得以使用較為弱小的特殊能力，而至於超能力，則會給予你真真正正的超級英雄能力。",
+								"這些超級能力的構成是基於所謂的{@b 超能力效果}，用以將超能力所能辦到的事情透過遊戲術語表達。一個超能力可能會具有一個或多個超能力效果，且你可能會為每個超能力效果再添加各種不同的{@b 修飾符}以改變它們運作的方式，將超能力量身打造成你所想要的樣子。",
+								"超能力效果，就如同屬性一樣，擁有一個分布自1到20之間的{@b 等級}。與屬性不同之處在於，由於所謂的「平均值」便是沒有任何超能力，因此超能力效果的等級並不會出現低於1的情況。",
+								"有些超能力效果會要求角色進行檢定才能使用，而有些則會自動發揮它們的效果。關於超能力所能具備的種種效果以及它們的完整說明，請參閱{@rule 超能力|basic|6}章節。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "糾葛難題", "name": "Complications",
 							"entries": [
-								"Finally, heroes often have {@b complications} to overcome. Overcoming such challenges is part of what makes a real hero. Complications range from physical disabilities or personal issues to unusual vulnerabilities. You choose your hero’s complications, defining some of the challenges your hero must overcome in the game. The process of dealing with complications allows your character to be more heroic, discussed later in the rules. See {@rule Complications|basic|2|complications} in {@b Secret Origins} for more on complications."
+								"最後，英雄們通常都會懷有需要克服的{@b 糾葛難題}。克服這類的挑戰是每個真正英雄都必經的過程。糾葛難題包括身裡上的殘缺、個人難題、以及不尋常的弱點等等。由你決定你的英雄所具備的糾葛難題，定下你的英雄在遊戲中所必須克服的挑戰。處理糾葛難題的過程將會使你的角色心中的英雄特質益發純熟，並得以展現更加英勇的行動。關於更多糾葛難題的細節說明以及其相關的規則，請參閱{@b 秘密起源}章節中的{@rule 糾葛難題|basic|2|complications}段落。"
 							]
 						}
 					]
@@ -518,7 +518,7 @@
 										],
 										[
 											"發現一名忍者正悄悄跟蹤你",
-											"感知技能（或警覺）"
+											"感知技能（或覺察）"
 										],
 										[
 											"回想起一個特定事實",
@@ -1786,15 +1786,15 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "警覺 (Awe)", "name": "Awareness (Awe)",
+									"translate_name": "覺察 (Awe)", "name": "Awareness (Awe)",
 									"entries": [
-										"智力涵蓋了邏輯推理，而警覺則負責了常識和直覺的部分，這有時候也被稱做「智慧」。高智力而低警覺的角色可能會屬於「心不在焉的學者」類型，聰穎過人，但往往不會注意到周遭發生的事情。相反的，不怎麼聰穎（低智力）的角色仍可能會擁有大量的常識（高警覺）。你的警覺等級可以適用於：",
+										"智力涵蓋了邏輯推理，而覺察則負責了常識和直覺的部分，這有時候也被稱做「智慧」。高智力而低覺察的角色可能會屬於「心不在焉的學者」類型，聰穎過人，但往往不會注意到周遭發生的事情。相反的，不怎麼聰穎（低智力）的角色仍可能會擁有大量的常識（高覺察）。你的覺察等級可以適用於：",
 										{
 											"type": "list",
 											"items": [
 												"意志防禦，用以抵抗對你心靈的攻擊。",
 												"{@skill 洞見}和{@skill 感知}技能檢定。",
-												"當情況不適用特定技能時，處理直覺相關問題時所進行的警覺檢定。"
+												"當情況不適用特定技能時，處理直覺相關問題時所進行的覺察檢定。"
 											]
 										}
 									]
@@ -1925,7 +1925,7 @@
 											"type": "entries",
 											"translate_name": "意志", "name": "Will",
 											"entries": [
-												"意志防禦基於警覺屬性。它衡量著精神安定性、清晰思路、決心、自信、自我意識、以及意志力，且被用以對抗心智或精神攻擊。"
+												"意志防禦基於覺察屬性。它衡量著精神安定性、清晰思路、決心、自信、自我意識、以及意志力，且被用以對抗心智或精神攻擊。"
 											]
 										}
 									]
