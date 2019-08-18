@@ -637,8 +637,9 @@ function Renderer () {
 	this._renderActionBlock = function (entry, textStack, meta, options){
 		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; border-top: 2px solid; background-color: #652020">`;
 		if (entry.name != null) {
+			var name = entry.translate_name? entry.translate_name: entry.name;
 			this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner" book-idx="${entry.name.toLowerCase()}">${entry.name}</span>`;
+			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner" book-idx="${entry.name.toLowerCase()}">${name}</span>`;
 			if (entry.subtitle != null){
 				textStack[0] += `<span style="font-size: 1.1em;color:#ececec;float: right;">${entry.subtitle}</span>`;
 			}

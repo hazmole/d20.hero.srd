@@ -5621,39 +5621,39 @@
 						},
 						{
 							"type": "entries",
-							"name": "Actions",
+							"translate_name": "動作", "name": "Actions",
 							"entries": [
-								"The most common actions characters take during conflicts are listed and described here. The GM should use these as guidelines for dealing with unusual actions players may choose for their characters, basing them on the existing action descriptions.",
+								"這個段落列出了角色們在衝突期間最常採取的動作，並各別說明其產生的效果。有時候玩家角色們可能會採取其他不常見的動作，這時，GM可以把下列既存的動作說明當作標準，協助判斷如何處理這些不常見的行動。",
 								{
 									"type": "actionBlock",
-									"name": "Aid",
-									"subtitle": "Standard Action",
+									"translate_name": "協助", "name": "Aid",
+									"subtitle": "標準動作",
 									"entries": [
-										"If you are in position to attack an opponent, you can attempt to aid an ally engaged in melee with that opponent as a standard action. This is like a team check (see {@rule Team Checks|basic|1|team checks} in The Basics): You make an attack check against DC 10. If you succeed, you don’t actually hit or affect the opponent, but success grants your ally gains a +2 circumstance bonus on an attack check against that opponent or a +2 circumstance bonus to Defense against that opponent (your choice) until the end of your ally’s next turn. Three or more degrees of success grant a +5 bonus."
+										"若你正位於能夠攻擊一名敵人的位置，你可以嘗試以一個標準動作以援助一名正與該敵人近身肉搏中的隊友。這就像是團隊檢定（參見基本規則中的{@rule 團隊檢定|basic|1|team checks}）：你進行一次DC 10的攻擊檢定。若檢定成功，你並不會直接傷害或影響該敵人，而是成功使你的隊友在對該敵人進行的攻擊檢定中獲得+2的情境加值、或者使該隊友在針對該敵人的所有防禦都獲得+2的環境加值（由你決定），這個加值將持續直到你隊友的下個回合結束。三個或以上程度的成功將會使改為使該隊友獲得+5加值。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Aim",
-									"subtitle": "Standard Action",
+									"translate_name": "瞄準", "name": "Aim",
+									"subtitle": "標準動作",
 									"entries": [
-										"By taking a standard action to aim and line up an attack, you get a bonus to hit when you make the attack. If you’re making a close attack, or a ranged attack at close range, you get a +5 circumstance bonus on your attack check. If you’re making a ranged attack from a greater distance, you get a +2 circumstance bonus.",
-										"However, you are vulnerable while aiming and it requires a free action to maintain your aim before you make your attack. If you are unable to maintain it, you lose its benefit.",
-										"Once you aim, your next action must be to make the attack. Taking a different action spoils your aim and you lose the bonus."
+										"藉由採取一個標準動作以瞄準，你將在接下來的攻擊中獲得命中的加值。若你接下來進行的是近身攻擊，或在近身範圍內進行遠程攻擊，則你將在你的攻擊檢定中獲得+5的情境加值。若你在更遠的距離外進行遠程攻擊，則你獲得+2的情境加值。",
+										"然而，你在瞄準期間將處於{@condition 脆弱}狀態，且在你發動攻擊前，你每回合都需要採取一個自由動作以維持瞄準。若你無法維持瞄準，則你將失去瞄準帶來的好處。",
+										"一旦你瞄準之後，你的下一個動作必須被用來進行攻擊。採取其他的動作將會中斷你的瞄準並讓你失去這個加值。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Attack",
-									"subtitle": "Standard Action",
+									"translate_name": "攻擊", "name": "Attack",
+									"subtitle": "標準動作",
 									"entries": [
-										"With a standard action, you can make an attack check against any opponent within the attack’s range. If the attack is an area effect or perception range, no attack check is needed. It affects the area or target automatically."
+										"以一個標準動作，你可以對任何處於攻擊範圍內的對手進行一次攻擊檢定。若該攻擊為範圍效果或射程為感知距離，則你不需要進行任何攻擊檢定，該攻擊將自動影響該範圍或目標。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Charge",
-									"subtitle": "Standard Action",
+									"translate_name": "衝鋒", "name": "Charge",
+									"subtitle": "標準動作",
 									"entries": [
 										"You rush forward to attack. You move your speed rank in a mode of movement available to you in a relatively straight line towards your target. At the end of your movement, you perform a close attack against your opponent with a –2 circumstance penalty to the attack check.",
 										"You can combine a charge action with a move action, allowing you to move up to twice your speed (your speed rank as a move action, then your speed rank again when you charge)."
@@ -5661,16 +5661,16 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Command",
-									"subtitle": "Move Action",
+									"translate_name": "命令", "name": "Command",
+									"subtitle": "移動動作",
 									"entries": [
 										"Issuing a command to a character under your control—a minion or a thrall—requires a move action. If you want to issue different commands to different characters or groups, each one requires a move action (so you can issue two commands per round as two move actions)."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Crawl",
-									"subtitle": "Move Action",
+									"translate_name": "匍匐", "name": "Crawl",
+									"subtitle": "移動動作",
 									"entries": [
 										"While prone, you can only move by crawling. You crawl at your normal ground speed –1 rank (or half your normal speed).",
 										"Characters with the Slither effect of Movement crawl at their normal ground speed. See Movement in Powers for details."
@@ -5678,15 +5678,15 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Defend",
-									"subtitle": "Standard Action",
+									"translate_name": "防守", "name": "Defend",
+									"subtitle": "標準動作",
 									"entries": [
-										"Rather than attacking, you focus on defense. Make an opposed check of your appropriate active defense versus any attack made on you until the start of your next turn. Add 10 to any roll of 10 or less that you make on these checks, just as if you spent a victory point (thus ensuring a minimum roll of 11). The attacker must equal or exceed your opposed check result in order to hit you."
+										"你不進行攻擊，而是專注於防守。直到你的下個回合開始前，對於每個對你進行的攻擊，你使用合適的主動防禦與其進行對抗檢定。若你在進行這些檢定時骰出了10或以下的結果，將檢定結果加上10，就如同你消耗了一點勝利點一樣（確保你骰出的結果最低為11）。攻擊者所進行的攻擊檢定必須等於或超過你對抗檢定的結果才能夠命中你。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Delay",
+									"translate_name": "延後", "name": "Delay",
 									"subtitle": "No Action",
 									"entries": [
 										"When you delay, you choose to take your turn later in the initiative order. You must delay your entire turn. You cannot delay if you have already taken an action on your turn, or if you are unable to take actions.",
@@ -5696,40 +5696,40 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Disarm",
-									"subtitle": "Standard Action",
+									"translate_name": "繳械", "name": "Disarm",
+									"subtitle": "標準動作",
 									"entries": [
 										"You attempt to knock an item—such as a weapon or device—out of an opponent’s grasp. Make an attack check against the defender with a –2 penalty. If you attempt to disarm with a ranged attack, you are at –5 penalty. If your attack succeeds, make an opposed check of your attack’s damage against the defender’s Strength. If you win, the defender dropped the held object. If you made the disarm unarmed, you can grab the dropped object as a free action. If you make a disarm attempt with a melee weapon and lose the opposed check, the defender may immediately make an attempt to disarm you as a reaction; make another opposed damage vs. Strength check. If this disarm attempt fails, you do not, however, get an additional attempt to disarm the defender."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Drop an Item",
-									"subtitle": "Free Action",
+									"translate_name": "丟棄一個物品", "name": "Drop an Item",
+									"subtitle": "自由動作",
 									"entries": [
 										"Dropping a held item is a free action (although dropping or throwing an item with the intention of hitting something with it is a standard attack action)."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Drop Prone",
-									"subtitle": "Free Action",
+									"translate_name": "臥倒在地", "name": "Drop Prone",
+									"subtitle": "自由動作",
 									"entries": [
-										"Dropping to a prone position is a free action, although getting up requires a move action (see Stand)."
+										"伏地進入{@condition 臥倒}姿態需要一個自由動作，然而從臥倒狀態起身將會需要一個移動動作（參見{@rule 起身|basic|8|Stand}）。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Escape",
-									"subtitle": "Move Action",
+									"translate_name": "掙脫", "name": "Escape",
+									"subtitle": "移動動作",
 									"entries": [
 										"You attempt to escape from a successful grab (see Grab). Make a check of your Athletics or Acrobatics against the routine check result of your opponent’s Strength or grab effect rank. If you succeed, you end the grab and can move away from your opponent, up to your normal ground speed minus one rank, if you choose. If you fail, you are still grabbed."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Grab",
-									"subtitle": "Standard Action",
+									"translate_name": "擒抱", "name": "Grab",
+									"subtitle": "標準動作",
 									"entries": [
 										"You attempt to grab a target. Make an attack check against the target. If successful, the target makes a resistance check against your Strength (or the rank of a grabbing effect) using the better of Strength or Dodge. If you win with one degree of success, the target is restrained (immobile and vulnerable). Two or more degrees leave your opponent bound (defenseless, immobile, and impaired). You can attempt to improve an existing hold with another grab action on a following turn. Any resulting degrees of success are cumulative, but if you lose, the target escapes.",
 										"You are hindered and vulnerable while grabbing and holding an opponent. You can maintain a successful grab as a free action each turn, but cannot perform other actions requiring the use of your grabbing limb(s) while doing so. Since maintaining a grab is a free action, you can take a standard action to inflict your Strength damage to a grabbed target on subsequent turns after the grab is established.",
@@ -5739,16 +5739,16 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Move",
-									"subtitle": "Move Action",
+									"translate_name": "移動", "name": "Move",
+									"subtitle": "移動動作",
 									"entries": [
 										"You can move up to your normal speed rank in any movement mode available to you as a move action. Normally this is rank 0 ground speed for most people (up to 30 feet). If you choose to move twice on your turn (taking two move actions) then you move your speed rank each time. You can make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Ready",
-									"subtitle": "Standard Action",
+									"translate_name": "預備", "name": "Ready",
+									"subtitle": "標準動作",
 									"entries": [
 										"Readying lets you prepare to take an action later, after you would normally act on your initiative, but before your initiative on your next turn. Readying is a standard action, so you can move as well.",
 										"You can ready a single standard, move, or free action. To do so, specify the action you will take and the circumstances under which you will take it. Then, any time before your next turn, you may take the readied action as a reaction to those circumstances. Your place in the initiative order then becomes the point where you took your readied action.",
@@ -5757,8 +5757,8 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Recover",
-									"subtitle": "Standard Action",
+									"translate_name": "回復", "name": "Recover",
+									"subtitle": "標準動作",
 									"entries": [
 										"You take your entire turn to try and catch your breath and bounce back a bit. When you recover, you can remove your highest level of damage or fatigue. Alternately, rather than removing a level of damage or fatigue, you can choose to make a resistance check against an ongoing effect, in addition to the normal resistance check at the end of your turn.",
 										"You can only recover once per conflict. Once you have done so, you must recover from any remaining damage, fatigue, or effects normally (or with outside assistance).",
@@ -5767,24 +5767,24 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Smash",
-									"subtitle": "Standard Action",
+									"translate_name": "砸毀", "name": "Smash",
+									"subtitle": "標準動作",
 									"entries": [
 										"You attempt to damage or break an object held or worn by an opponent. Make an attack check against the defense of the character with the object, with a –5 circumstance penalty if you are attacking a held object. If your attack check succeeds, you inflict damage on the object rather than the character. See {@rule Damaging Objects|basic|8|damaging objects} for details on breaking things."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Stand",
-									"subtitle": "Move Action",
+									"translate_name": "起身", "name": "Stand",
+									"subtitle": "移動動作",
 									"entries": [
 										"You stand up from a prone position. You can go from prone to standing as a free action by making a DC 20 Acrobatics check. Characters with the Instant Up advantage can stand as a free action without a skill check."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Trip",
-									"subtitle": "Standard Action",
+									"translate_name": "絆摔", "name": "Trip",
+									"subtitle": "標準動作",
 									"entries": [
 										"You try to trip or throw your opponent to the ground. Make a close attack check against your opponent’s Parry with a –2 circumstance penalty on the check. If the attack succeeds, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics. Use whichever has the better bonus in each case.",
 										"If you win, the defender is prone in an area adjacent to you of your choice. If you lose, the defender immediately gets another opposed check to try and trip you. If it fails, the trip attempt ends."
