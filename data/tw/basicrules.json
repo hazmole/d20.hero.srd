@@ -38,7 +38,7 @@
 				]
 			},
 			{
-				"_translate_name": "屬性", "name": "Abilities",
+				"translate_name": "屬性", "name": "Abilities",
 				"headers": [
 					{ "name": "Ability Ranks" },
 					{ "translate_name": "屬性值", "name": "The Abilities" },
@@ -86,12 +86,12 @@
 				]
 			},
 			{
-				"_translate_name": "動作＆冒險", "name": "Action & Adventure",
+				"translate_name": "動作＆冒險", "name": "Action & Adventure",
 				"headers": [
 					{ "name": "Action Rounds" },
 					{ "name": "Challenges" },
 					{ "name": "Conflicts" },
-					{ "name": "Actions" },
+					{ "translate_name": "動作", "name": "Actions" },
 					{ "name": "Maneuvers" },
 					{ "name": "Recovery" }
 				]
@@ -5655,8 +5655,8 @@
 									"translate_name": "衝鋒", "name": "Charge",
 									"subtitle": "標準動作",
 									"entries": [
-										"You rush forward to attack. You move your speed rank in a mode of movement available to you in a relatively straight line towards your target. At the end of your movement, you perform a close attack against your opponent with a –2 circumstance penalty to the attack check.",
-										"You can combine a charge action with a move action, allowing you to move up to twice your speed (your speed rank as a move action, then your speed rank again when you charge)."
+										"你向前衝刺以發動攻擊。你使用一種可用的移動方式並以其速度等級，向著你的目標直線移動。在你的移動結束時，你對你的目標進行一次近身攻擊，並在該攻擊檢定中承受-2的情境罰值。",
+										"你可以將一個衝鋒動作與移動動作結合，讓你得以移動最多等同於你速度兩倍的距離（一個移動動作將使你得以移動等同於速度等級的距離，衝鋒則能夠讓你再移動同樣的距離）。"
 									]
 								},
 								{
@@ -5664,7 +5664,7 @@
 									"translate_name": "命令", "name": "Command",
 									"subtitle": "移動動作",
 									"entries": [
-										"Issuing a command to a character under your control—a minion or a thrall—requires a move action. If you want to issue different commands to different characters or groups, each one requires a move action (so you can issue two commands per round as two move actions)."
+										"對一名處於你控制之下的角色（隨從或奴僕）下達一個命令需要花費一個移動動作。若你想要對不同的角色或團體下達不同的命令，則每個命令都需要花費一個移動動作（因此你每輪可以花費二個移動動作以下達兩個命令）。"
 									]
 								},
 								{
@@ -5672,8 +5672,8 @@
 									"translate_name": "匍匐", "name": "Crawl",
 									"subtitle": "移動動作",
 									"entries": [
-										"While prone, you can only move by crawling. You crawl at your normal ground speed –1 rank (or half your normal speed).",
-										"Characters with the Slither effect of Movement crawl at their normal ground speed. See Movement in Powers for details."
+										"當你處於{@condition 臥倒}狀態時，你只能夠透過匍匐的方式移動。你在匍匐移動時的速度等同於你正常地面速度等級-1（或你原本速度的一半）。",
+										"具有匍匐蛇行{@effect 移動}效果的角色可以在匍匐時以他的正常地面速度移動。參見超能力章節的{@effect 移動}效果以查閱更多細節。"
 									]
 								},
 								{
@@ -5689,9 +5689,9 @@
 									"translate_name": "延後", "name": "Delay",
 									"subtitle": "No Action",
 									"entries": [
-										"When you delay, you choose to take your turn later in the initiative order. You must delay your entire turn. You cannot delay if you have already taken an action on your turn, or if you are unable to take actions.",
-										"At any point after any other character in the conflict has acted, you can choose to take your turn. Your initiative moves into the new place in the order where you act, and you take your normal allocation of actions. If you do not act before your initiative comes up in the next round, your turn ends, you lose your delayed turn, and your initiative remains where it is.",
-										"Beneficial effects lasting until the end of your turn end when you choose to delay, but harmful effects that last until the end of your turn last until after you act. Like-wise, you do not make resistance checks until after you have taken your turn, so delaying can draw out some effects."
+										"當你採取延後，你可以選擇在輪到稍後的先攻順序時才進行你的回合。你必須延後你的整個回合。若你在你的回合已經採取了任何動作、或若你無法採取任何動作，則你不能進行延後。",
+										"你可以在這場衝突中的任何其他角色結束回合之後，選擇採取你的回合。你的先攻順序將變更為你採取行動時的先攻順序位置，且你將接著正常地進行你的回合。若你在輪到你下一輪的先攻順序之前都沒有採取任何行動，則你將失去你延後的回合，且你的先攻順序將維持原樣。",
+										"持續直到你回合結束的正面效果將會在你選擇延後的時機終止，但持續直到你回合結束的負面效果則會在你行動之後才終止。同樣的，直到你在你的回合採取完行動之前，你都不能進行進行抵抗檢定，因此貿然延後可能會導致某些負面效果的持續時間跟著延長。"
 									]
 								},
 								{
@@ -5699,7 +5699,7 @@
 									"translate_name": "繳械", "name": "Disarm",
 									"subtitle": "標準動作",
 									"entries": [
-										"You attempt to knock an item—such as a weapon or device—out of an opponent’s grasp. Make an attack check against the defender with a –2 penalty. If you attempt to disarm with a ranged attack, you are at –5 penalty. If your attack succeeds, make an opposed check of your attack’s damage against the defender’s Strength. If you win, the defender dropped the held object. If you made the disarm unarmed, you can grab the dropped object as a free action. If you make a disarm attempt with a melee weapon and lose the opposed check, the defender may immediately make an attempt to disarm you as a reaction; make another opposed damage vs. Strength check. If this disarm attempt fails, you do not, however, get an additional attempt to disarm the defender."
+										"你嘗試將一樣物品──像是一把武器或一個裝置──從敵人的手中打落。對防禦者進行一次承受-2罰值的攻擊檢定。若你嘗試以遠程攻擊進行繳械，則你承受-5罰值。若你的攻擊成功，使用你攻擊的傷害與防禦者的力量進行一次對抗檢定。若你勝出，則防禦者持握的該物品將會掉落在地。若你是以徒手進行繳械，則你可以立刻以一個自由動作抓住該物體。若你使用一把近戰武器嘗試進行繳械，並在對抗檢定中落敗，則防禦者將可以立即以一個反應對你進行繳械；進行另一次傷害對力量的對抗檢定。然而，若對方在這次的繳械中失敗，你不能再嘗試對防禦者進行繳械。"
 									]
 								},
 								{
@@ -5707,7 +5707,7 @@
 									"translate_name": "丟棄一個物品", "name": "Drop an Item",
 									"subtitle": "自由動作",
 									"entries": [
-										"Dropping a held item is a free action (although dropping or throwing an item with the intention of hitting something with it is a standard attack action)."
+										"將一個你所持握的物品丟棄在地是一個自由動作（然而嘗試藉由丟棄或投擲物品的方式以擊中某物則是一個標準攻擊動作）。"
 									]
 								},
 								{
@@ -5715,7 +5715,7 @@
 									"translate_name": "臥倒在地", "name": "Drop Prone",
 									"subtitle": "自由動作",
 									"entries": [
-										"伏地進入{@condition 臥倒}姿態需要一個自由動作，然而從臥倒狀態起身將會需要一個移動動作（參見{@rule 起身|basic|8|Stand}）。"
+										"伏地進入{@condition 臥倒}姿態需要一個自由動作，然而從臥倒狀態起身將會需要一個移動動作（參見{@rule 起身|basic|8|Stand}動作）。"
 									]
 								},
 								{
@@ -5723,7 +5723,7 @@
 									"translate_name": "掙脫", "name": "Escape",
 									"subtitle": "移動動作",
 									"entries": [
-										"You attempt to escape from a successful grab (see Grab). Make a check of your Athletics or Acrobatics against the routine check result of your opponent’s Strength or grab effect rank. If you succeed, you end the grab and can move away from your opponent, up to your normal ground speed minus one rank, if you choose. If you fail, you are still grabbed."
+										"你嘗試從一個已經成功的擒抱（參見{@rule 擒抱|basic|8|Grab}動作）中掙脫。使用你的{@skill 運動}或{@skill 雜技}與你對手的力量或擒抱效果等級的例行檢定結果進行對抗檢定。若你勝出，則你將終止該擒抱並能夠從你的對手身邊遠離最多等同於你正常地面速度-1級的距離。若你失敗，則你仍維持被擒抱的狀態。"
 									]
 								},
 								{
@@ -5731,10 +5731,10 @@
 									"translate_name": "擒抱", "name": "Grab",
 									"subtitle": "標準動作",
 									"entries": [
-										"You attempt to grab a target. Make an attack check against the target. If successful, the target makes a resistance check against your Strength (or the rank of a grabbing effect) using the better of Strength or Dodge. If you win with one degree of success, the target is restrained (immobile and vulnerable). Two or more degrees leave your opponent bound (defenseless, immobile, and impaired). You can attempt to improve an existing hold with another grab action on a following turn. Any resulting degrees of success are cumulative, but if you lose, the target escapes.",
-										"You are hindered and vulnerable while grabbing and holding an opponent. You can maintain a successful grab as a free action each turn, but cannot perform other actions requiring the use of your grabbing limb(s) while doing so. Since maintaining a grab is a free action, you can take a standard action to inflict your Strength damage to a grabbed target on subsequent turns after the grab is established.",
-										"You can drag a restrained or bound target along with you when you move. The target gets a Strength resistance check against your Strength. If it fails, you move and the target moves along with you. If the target resists, you are immobilized that turn unless you release your hold on the target.",
-										"You can end a grab (releasing your target) as a free action. If you are unable to take the free action maintain the hold, the target is automatically released. A target can attempt to escape from a grab as a move action (see {@rule Escape|basic|8|escape})."
+										"你嘗試擒抱一個目標。對該目標進行一次攻擊檢定。若攻擊成功，目標必須使用力量或閃避（看何者較高）與你的力量（或擒抱效果的等級）進行一次對抗檢定。若你在該檢定中獲得一個程度的成功，則目標將陷入{@condition 束縛}狀態（{@condition 無法移動}且{@condition 脆弱}）。二個或以上程度的成功將使你的對手陷入{@condition 受制}狀態（{@condition 無防備}、{@condition 無法移動}、且{@condition 行動乏能}）。你可以在接下來的回合中透過採取另一個擒抱動作以嘗試增強你擒抱的箝制。任何程度的成功都將累積，但若你擒抱失敗，則目標將從中掙脫。",
+										"你在擒抱制住對手的期間將處於{@condition 移動受阻}和{@condition 脆弱}狀態。你每回合能夠以一個自由動作維持一個已經成功的擒抱。然而在擒抱期間，你不能執行任何需要用到你用以擒抱的雙臂的行動。由於維持擒抱僅需要一個自由動作，因此你在成功擒抱之後，可以在後續回合採取一個標準動作以你的力量對擒抱中的目標造成傷害。",
+										"你可以在你移動時拖著一名陷入{@condition 束縛}或{@condition 受制}狀態的目標跟著你一起移動。目標必須使用力量進行一次對抗你力量的抵抗檢定。若目標抵抗失敗，則你可以讓目標跟著你一起移動。若目標抵抗成功，則除非你釋放目標，否則你在該回合將因此而無法移動。",
+										"你能夠以一個自由動作結束擒抱（釋放你的目標）。若你無法採取自由動作以維持擒抱，則目標將自動被釋放。目標也能夠以一個移動動作嘗試從擒抱中掙脫（參見{@rule 掙脫|basic|8|escape}動作）。"
 									]
 								},
 								{
@@ -5742,7 +5742,7 @@
 									"translate_name": "移動", "name": "Move",
 									"subtitle": "移動動作",
 									"entries": [
-										"You can move up to your normal speed rank in any movement mode available to you as a move action. Normally this is rank 0 ground speed for most people (up to 30 feet). If you choose to move twice on your turn (taking two move actions) then you move your speed rank each time. You can make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+										"以一個移動動作，你可以使用你可用的任意移動方式移動最多等同於你正常速度等級的距離。對大部分人們來說，這通常是等級0的地面速度（最多30呎）。若你選擇在你的回合移動二次（採取二個移動動作），則你每次移動時都可以移動等同於你速度等級的距離。你也能夠以一個自由動作進行一次DC 15的{@skill 運動}檢定以嘗試跑得更快：一個或以上程度的成功將使你在該輪間的地面速度等級+1。"
 									]
 								},
 								{
@@ -5750,9 +5750,9 @@
 									"translate_name": "預備", "name": "Ready",
 									"subtitle": "標準動作",
 									"entries": [
-										"Readying lets you prepare to take an action later, after you would normally act on your initiative, but before your initiative on your next turn. Readying is a standard action, so you can move as well.",
-										"You can ready a single standard, move, or free action. To do so, specify the action you will take and the circumstances under which you will take it. Then, any time before your next turn, you may take the readied action as a reaction to those circumstances. Your place in the initiative order then becomes the point where you took your readied action.",
-										"If you come to your next turn and have not yet performed your readied action, you don’t get to take the readied action, you just lose your previous turn. You can ready the same action again on your next turn, if you wish, continuing to wait for the right circumstances."
+										"預備動作讓你能夠準備好在稍後採取一個動作，這個動作將會在你於自己的先攻順序正常行動之後，但在輪到你下個回合的先攻順序之前發生。預備是一個標準動作，所以你仍然能夠移動。",
+										"你可以預備一個標準、移動、或自由動作。若要這麼做，你需要指定你將執行的動作，以及你將在什麼情況下執行該動作。接著，在你下個回合前的任何時候，當指定的情況發生時，你將能夠以一個反應採取被預備的動作。你的先攻順序將被變更至你採取被預備的動作的時間點。",
+										"若你在尚未執行你被預備動作的情況下輪到你的下個回合，則你將浪費掉你上個回合所預備的動作。若你希望，你仍可以在該回合再次預備相同的動作，持續等待恰當的時機。"
 									]
 								},
 								{
@@ -5760,9 +5760,9 @@
 									"translate_name": "回復", "name": "Recover",
 									"subtitle": "標準動作",
 									"entries": [
-										"You take your entire turn to try and catch your breath and bounce back a bit. When you recover, you can remove your highest level of damage or fatigue. Alternately, rather than removing a level of damage or fatigue, you can choose to make a resistance check against an ongoing effect, in addition to the normal resistance check at the end of your turn.",
-										"You can only recover once per conflict. Once you have done so, you must recover from any remaining damage, fatigue, or effects normally (or with outside assistance).",
-										"When you recover, you gain +2 to your active defenses until the start of your next turn."
+										"你花費了你的整個回合以嘗試喘口氣並恢復一點精力。當你進行回復時，你解除一個等級最高的傷害或疲勞狀態。或者，你可以選擇不解除傷害或疲勞狀態，而是對其中一個正在作用的效果進行一次抵抗檢定（你仍可以在回合結束時進行另一個抵抗檢定）。",
+										"你每場衝突只能進行一次回覆動作。一旦你這麼做之後，你就只能透過原本的其他方式從傷害、疲勞、或效果中回復（或借助外在協助）。",
+										"當你進行回復時，你的主動防禦將獲得+2加值，持續直到你的下個回合開始。"
 									]
 								},
 								{
@@ -5770,7 +5770,7 @@
 									"translate_name": "砸毀", "name": "Smash",
 									"subtitle": "標準動作",
 									"entries": [
-										"You attempt to damage or break an object held or worn by an opponent. Make an attack check against the defense of the character with the object, with a –5 circumstance penalty if you are attacking a held object. If your attack check succeeds, you inflict damage on the object rather than the character. See {@rule Damaging Objects|basic|8|damaging objects} for details on breaking things."
+										"你嘗試傷害或破壞一個由對手所持握或穿戴的物體。進行一次攻擊檢定以對抗攜帶該物品的角色的防禦，若你攻擊的是一個被持握的物品，則你的攻擊檢定將承受-5的情境罰值。若你的攻擊檢定成功，則你將對該物體造成傷害，而非該角色。參見{@rule 傷害物體|basic|8|damaging objects}以查閱關於破壞物體的細節。"
 									]
 								},
 								{
@@ -5778,7 +5778,7 @@
 									"translate_name": "起身", "name": "Stand",
 									"subtitle": "移動動作",
 									"entries": [
-										"You stand up from a prone position. You can go from prone to standing as a free action by making a DC 20 Acrobatics check. Characters with the Instant Up advantage can stand as a free action without a skill check."
+										"你從{@condition 臥倒}狀態中起身。你可以藉由進行一次DC 20的雜技檢定，成功則以一個自由動作從{@condition 臥倒}狀態中起身。擁有{@advantage Instant Up}特長的角色可以不進行技能檢定而直接以一個自由動作從{@condition 臥倒}狀態中起身。"
 									]
 								},
 								{
@@ -5786,8 +5786,8 @@
 									"translate_name": "絆摔", "name": "Trip",
 									"subtitle": "標準動作",
 									"entries": [
-										"You try to trip or throw your opponent to the ground. Make a close attack check against your opponent’s Parry with a –2 circumstance penalty on the check. If the attack succeeds, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics. Use whichever has the better bonus in each case.",
-										"If you win, the defender is prone in an area adjacent to you of your choice. If you lose, the defender immediately gets another opposed check to try and trip you. If it fails, the trip attempt ends."
+										"你嘗試絆倒或將你的對手摔倒在地。進行一次承受-2情境罰值的近身攻擊檢定以對抗你對手的格擋防禦。若該攻擊成功，則使用你的{@skill 運動}或{@skill 雜技}與對手的{@skill 運動}或{@skill 雜技}進行一次對抗檢定（各自使用加值較高的技能）。",
+										"若你勝出，則對手將在你所選擇的鄰近區域中陷入{@condition 臥倒}狀態。若你落敗，則對手可以立即進行另一次對抗檢定以嘗試對你進行絆摔，若對方在這次的絆摔中失敗，你不能再嘗試對他進行絆摔。"
 									]
 								}
 							]

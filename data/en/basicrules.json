@@ -5672,8 +5672,8 @@
 									"name": "Crawl",
 									"subtitle": "Move Action",
 									"entries": [
-										"While prone, you can only move by crawling. You crawl at your normal ground speed –1 rank (or half your normal speed).",
-										"Characters with the Slither effect of Movement crawl at their normal ground speed. See Movement in Powers for details."
+										"While {@condition prone}, you can only move by crawling. You crawl at your normal ground speed –1 rank (or half your normal speed).",
+										"Characters with the Slither effect of Movement crawl at their normal ground speed. See {@effect Movement} in Powers for details."
 									]
 								},
 								{
@@ -5723,7 +5723,7 @@
 									"name": "Escape",
 									"subtitle": "Move Action",
 									"entries": [
-										"You attempt to escape from a successful grab (see Grab). Make a check of your Athletics or Acrobatics against the routine check result of your opponent’s Strength or grab effect rank. If you succeed, you end the grab and can move away from your opponent, up to your normal ground speed minus one rank, if you choose. If you fail, you are still grabbed."
+										"You attempt to escape from a successful grab (see {@rule Grab|basic|8|Grab}). Make a check of your {@skill Athletics} or {@skill Acrobatics} against the routine check result of your opponent’s Strength or grab effect rank. If you succeed, you end the grab and can move away from your opponent, up to your normal ground speed minus one rank, if you choose. If you fail, you are still grabbed."
 									]
 								},
 								{
@@ -5731,9 +5731,9 @@
 									"name": "Grab",
 									"subtitle": "Standard Action",
 									"entries": [
-										"You attempt to grab a target. Make an attack check against the target. If successful, the target makes a resistance check against your Strength (or the rank of a grabbing effect) using the better of Strength or Dodge. If you win with one degree of success, the target is restrained (immobile and vulnerable). Two or more degrees leave your opponent bound (defenseless, immobile, and impaired). You can attempt to improve an existing hold with another grab action on a following turn. Any resulting degrees of success are cumulative, but if you lose, the target escapes.",
-										"You are hindered and vulnerable while grabbing and holding an opponent. You can maintain a successful grab as a free action each turn, but cannot perform other actions requiring the use of your grabbing limb(s) while doing so. Since maintaining a grab is a free action, you can take a standard action to inflict your Strength damage to a grabbed target on subsequent turns after the grab is established.",
-										"You can drag a restrained or bound target along with you when you move. The target gets a Strength resistance check against your Strength. If it fails, you move and the target moves along with you. If the target resists, you are immobilized that turn unless you release your hold on the target.",
+										"You attempt to grab a target. Make an attack check against the target. If successful, the target makes a resistance check against your Strength (or the rank of a grabbing effect) using the better of Strength or Dodge. If you win with one degree of success, the target is {@condition restrained} ({@condition immobile} and {@condition vulnerable}). Two or more degrees leave your opponent {@condition bound} ({@condition defenseless}, {@condition immobile}, and {@condition impaired}). You can attempt to improve an existing hold with another grab action on a following turn. Any resulting degrees of success are cumulative, but if you lose, the target escapes.",
+										"You are {@condition hindered} and {@condition vulnerable} while grabbing and holding an opponent. You can maintain a successful grab as a free action each turn, but cannot perform other actions requiring the use of your grabbing limb(s) while doing so. Since maintaining a grab is a free action, you can take a standard action to inflict your Strength damage to a grabbed target on subsequent turns after the grab is established.",
+										"You can drag a {@condition restrained} or {@condition bound} target along with you when you move. The target gets a Strength resistance check against your Strength. If it fails, you move and the target moves along with you. If the target resists, you are immobilized that turn unless you release your hold on the target.",
 										"You can end a grab (releasing your target) as a free action. If you are unable to take the free action maintain the hold, the target is automatically released. A target can attempt to escape from a grab as a move action (see {@rule Escape|basic|8|escape})."
 									]
 								},
@@ -5742,7 +5742,7 @@
 									"name": "Move",
 									"subtitle": "Move Action",
 									"entries": [
-										"You can move up to your normal speed rank in any movement mode available to you as a move action. Normally this is rank 0 ground speed for most people (up to 30 feet). If you choose to move twice on your turn (taking two move actions) then you move your speed rank each time. You can make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+										"You can move up to your normal speed rank in any movement mode available to you as a move action. Normally this is rank 0 ground speed for most people (up to 30 feet). If you choose to move twice on your turn (taking two move actions) then you move your speed rank each time. You can make a DC 15 {@skill Athletics} check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
 									]
 								},
 								{
@@ -5778,7 +5778,7 @@
 									"name": "Stand",
 									"subtitle": "Move Action",
 									"entries": [
-										"You stand up from a prone position. You can go from prone to standing as a free action by making a DC 20 Acrobatics check. Characters with the Instant Up advantage can stand as a free action without a skill check."
+										"You stand up from a {@condition prone} position. You can go from prone to standing as a free action by making a DC 20 Acrobatics check. Characters with the {@advantage Instant Up} advantage can stand as a free action without a skill check."
 									]
 								},
 								{
@@ -5786,8 +5786,8 @@
 									"name": "Trip",
 									"subtitle": "Standard Action",
 									"entries": [
-										"You try to trip or throw your opponent to the ground. Make a close attack check against your opponent’s Parry with a –2 circumstance penalty on the check. If the attack succeeds, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics. Use whichever has the better bonus in each case.",
-										"If you win, the defender is prone in an area adjacent to you of your choice. If you lose, the defender immediately gets another opposed check to try and trip you. If it fails, the trip attempt ends."
+										"You try to trip or throw your opponent to the ground. Make a close attack check against your opponent’s Parry with a –2 circumstance penalty on the check. If the attack succeeds, make an opposed check of your {@skill Acrobatics} or {@skill Athletics} against your opponent’s {@skill Acrobatics} or {@skill Athletics}. Use whichever has the better bonus in each case.",
+										"If you win, the defender is {@condition prone} in an area adjacent to you of your choice. If you lose, the defender immediately gets another opposed check to try and trip you. If it fails, the trip attempt ends."
 									]
 								}
 							]
