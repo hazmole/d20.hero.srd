@@ -962,7 +962,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can heal Damage conditions by touching a subject and taking a standard action to make a DC 10 Healing check. Each degree of success healing one Damage condition, starting with the subject’s worst condition, and working down, as if the subject were recovering rapidly. If the subject is dying, the highest degree of success stabilizes the subject, removing the dying condition. If the Healing check fails, you must wait one minute or use extra effort in order to try again.",
+				"You can heal Damage conditions by touching a subject and taking a standard action to make a DC 10 Healing check. Each degree of success healing one Damage condition, starting with the subject’s worst condition, and working down, as if the subject were recovering rapidly. If the subject is {@condition dying}, the highest degree of success stabilizes the subject, removing the {@condition dying} condition. If the Healing check fails, you must wait one minute or use {@rule extra effort|basic|1|extra effort} in order to try again.",
 				"You can also grant a subject a bonus equal to your Healing rank on resistance checks against effects with disease or poison descriptors. The bonus applies to the subject’s next resistance check against the effect.",
 				"You can use Healing on yourself, provided you are still capable of taking the standard action needed.",
 				"Healing does not work on subjects unable to recover on their own, such as creatures with no Stamina rank or inanimate objects."
@@ -970,7 +970,7 @@
 			"extras": [
 				{
 					"name": "Action",
-					"entries": ["This extra reduces the action required for you to use Healing. You cannot use Healing more than once per turn regardless. To heal multiple subjects at once, apply the Area modifier."],
+					"entries": ["This extra reduces the action required for you to use Healing. You cannot use Healing more than once per turn regardless. To heal multiple subjects at once, apply the {@modifier Area} modifier."],
 					"cost": {
 						"value": 1, "type": "per"
 					}

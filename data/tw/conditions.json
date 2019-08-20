@@ -4,14 +4,14 @@
 			"translate_name": "受迫", "name": "Compelled",
 			"type": "basic",
 			"entries": [
-				"受迫的角色將被外在力量所支配，但仍頑強抵抗著；該角色每回合被限制只能採取自由動作和一個標準動作，且其行動將由其控制者決定。這個標準動作仍可以與平常一樣被替換成移動動作或甚至自由動作。{@condition 受控}狀態會取代受迫狀態。"
+				"受迫的角色被外在力量所支配，但仍頑強抵抗著；該角色每回合被限制只能採取自由動作和一個標準動作，且其行動將由其控制者決定。這個標準動作仍可以與平常一樣被替換成移動動作或甚至自由動作。{@condition 受控}狀態會取代受迫狀態。"
 			]
 		},
 		{
 			"translate_name": "受控", "name": "Controlled",
 			"type": "basic",
 			"entries": [
-				"受控的角色將失去自由意志；該角色每回合的行動將由其控制者決定。"
+				"受控的角色失去自由意志；該角色每回合的行動將由其控制者決定。"
 			]
 		},
 		{
@@ -32,7 +32,7 @@
 			"translate_name": "無防備", "name": "Defenseless",
 			"type": "basic",
 			"entries": [
-				"陷入無防備狀態的角色的主動防禦加值將變為0。攻擊者能夠以例行檢定（參見{@rule 例行檢定|basic|1|routine checks}）的方式攻擊無防備的對手。若攻擊者選擇不使用例行檢定而是進行正常的攻擊檢定，則若該攻擊命中，將被視為暴擊（參見{@rule 暴擊|basic|8|critical hits}）。無防備的角色經常會同時陷入{@condition 臥倒}狀態，這將使攻擊者獲得額外的攻擊加值。"
+				"陷入無防備狀態的角色的主動防禦加值將變為0。攻擊者能夠以例行檢定（參見{@rule 例行檢定|basic|1|routine checks}）的方式攻擊無防備的對手。若攻擊者選擇不使用例行檢定，而是正常進行攻擊檢定並命中，則該攻擊將被視為暴擊（參見{@rule 暴擊|basic|8|critical hits}）。無防備的角色經常會同時陷入{@condition 臥倒}狀態，這將使攻擊者獲得額外的攻擊加值。"
 			]
 		},
 		{
@@ -46,7 +46,7 @@
 			"translate_name": "疲勞", "name": "Fatigued",
 			"type": "basic",
 			"entries": [
-				"陷入疲勞狀態的角色將處於{@condition 移動受阻}狀態。角色將在一小時的休息之後從疲勞狀態中回復。"
+				"陷入疲勞狀態的角色處於{@condition 移動受阻}狀態。角色將在一小時的休息之後從疲勞狀態中回復。"
 			]
 		},
 		{
@@ -60,7 +60,7 @@
 			"translate_name": "無法移動", "name": "Immobile",
 			"type": "basic",
 			"entries": [
-				"陷入無法移動狀態的角色將不具備任何移動速度，且無法從他所佔據的位置移動。然而除非有其他狀態加以限制，否則該角色仍然能夠採取動作。"
+				"陷入無法移動狀態的角色不具備任何移動速度，且無法從他所佔據的位置移動。然而，除非被其他狀態加以限制，否則該角色仍然能夠採取動作。"
 			]
 		},
 		{
@@ -95,28 +95,28 @@
 			"translate_name": "感官喪失", "name": "Unaware",
 			"type": "basic",
 			"entries": [
-				"感官喪失的角色將完全無法查覺到他的周遭環境，使其無法互動、進行感知檢定、或進行任何基於該感官的動作。若這個狀態僅適用於特定感官，則它會把該感官的名稱標註在狀態上，例如視覺感官喪失、觸覺感官喪失等等。目標對該角色所有喪失的感官具有完全遮蔽。"
+				"感官喪失的角色完全無法查覺到他的周遭環境，使其無法互動、進行感知檢定、或進行任何基於該感官的動作。若這個狀態僅適用於特定感官，則它會把該感官的名稱標註在狀態上，例如視覺感官喪失、觸覺感官喪失等等。目標對該角色所有喪失的感官具有完全遮蔽。"
 			]
 		},
 		{
 			"translate_name": "脆弱", "name": "Vulnerable",
 			"type": "basic",
 			"entries": [
-				"陷入脆弱狀態的角色防禦自己的能力將被限制，並因此使他們的主動防禦減半（向上取整）。{@condition 無防備}狀態會取代脆弱狀態。"
+				"陷入脆弱狀態的角色防禦自己的能力被受到限制，該角色的主動防禦因此被減半（向上取整）。{@condition 無防備}狀態會取代脆弱狀態。"
 			]
 		},
 		{
 			"translate_name": "弱化", "name": "Weakened",
 			"type": "basic",
 			"entries": [
-				"陷入弱化狀態的角色將暫時失去某個特性上的角色點。參見{@effect Weaken}效果以查看更多資訊。{@condition 屬性衰竭}狀態會取代弱化狀態。"
+				"陷入弱化狀態的角色暫時失去某個遊戲數值上分配的角色點。參見{@effect Weaken}效果以查看更多資訊。{@condition 屬性衰竭}狀態會取代弱化狀態。"
 			]
 		},
 		{
 			"translate_name": "沉睡", "name": "Asleep",
 			"type": "combine",
 			"entries": [
-				"當陷入沉睡，角色將處於{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}狀態。一次成功度三或更高的聽覺感知檢定將能夠喚醒該角色並解除所有上述狀態，任何突然的移動（像是搖晃睡著的角色）或任何允許進行抵抗檢定的效果也能達到相同的結果。"
+				"當陷入沉睡，角色處於{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}狀態。一次成功度三或更高的聽覺感知檢定能夠喚醒該角色並解除所有上述狀態，任何突然的移動（像是搖晃睡著的角色）或任何允許進行抵抗檢定的效果也能達到相同的結果。"
 			],
 			"contain": ["defenseless","stunned","unaware"]
 		},
@@ -124,7 +124,7 @@
 			"translate_name": "目盲", "name": "Blind",
 			"type": "combine",
 			"entries": [
-				"陷入目盲狀態的角色將無法視物。所有事物對他而言都視作被視覺遮蔽。他將陷入{@condition 移動受阻}、視覺{@condition 感官喪失}、和{@condition 脆弱}狀態，且可能會在視覺影響重大的行動中處於{@condition 行動乏能}或{@condition 行動障礙}狀態。"
+				"陷入目盲狀態的角色無法視物。所有事物對他而言都視作被視覺遮蔽。他將陷入{@condition 移動受阻}、視覺{@condition 感官喪失}、和{@condition 脆弱}狀態，且可能會在視覺影響重大的行動中處於{@condition 行動乏能}或{@condition 行動障礙}狀態。"
 			],
 			"contain": ["hindered","unaware","vulnerable"]
 		},
@@ -132,7 +132,7 @@
 			"translate_name": "受制", "name": "Bound",
 			"type": "combine",
 			"entries": [
-				"受制的角色將處於{@condition 無防備}、{@condition 無法移動}、和{@condition 行動乏能}狀態。"
+				"受制的角色處於{@condition 無防備}、{@condition 無法移動}、和{@condition 行動乏能}狀態。"
 			],
 			"contain": ["defenseless","immobile","impaired"]
 		},
@@ -140,14 +140,14 @@
 			"translate_name": "耳聾", "name": "Deaf",
 			"type": "combine",
 			"entries": [
-				"陷入耳聾狀態的角色將無法聽見聲音，並使所有事物對他而言都視作被聽覺遮蔽。這可能會使聽覺感官喪失的角色得以被突襲攻擊（參見{@rule 突襲攻擊|basic|8|surprise attack}以查閱更多資訊）。耳聾狀態的角色只能透過手語和讀唇語的方式與其他角色進行交流（參見{@rule 交流技能|basic|4|interaction skills}以查閱更多資訊）。"
+				"陷入耳聾狀態的角色無法聽見聲音，並使所有事物對他而言都視作被聽覺遮蔽。這可能會使聽覺感官喪失的角色得以被突襲攻擊（參見{@rule 突襲攻擊|basic|8|surprise attack}以查閱更多資訊）。耳聾狀態的角色只能透過手語和讀唇語的方式與其他角色進行交流（參見{@rule 交流技能|basic|4|interaction skills}以查閱更多資訊）。"
 			]
 		},
 		{
 			"translate_name": "瀕死", "name": "Dying",
 			"type": "combine",
 			"entries": [
-				"陷入瀕死的角色將處於{@condition 失能}狀態（{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}）且瀕臨死亡。當角色陷入這個狀態時，他必須立刻進行一次韌性檢定（DC 15）。若檢定成功，則什麼事也不會發生。若檢定結果為程度二或以上的成功，則該角色的傷勢轉為穩定並解除這個狀態。若該檢定失敗，則該角色將維持瀕死。若累積了總共三個或以上程度的失敗，則該角色死亡：因此三次失敗的韌性檢定或一次二次的韌性檢定都可能累積到程度三的失敗。陷入瀕死的角色必須在每輪重複進行一次韌性檢定，直到他死亡或傷勢轉為穩定。其他角色可以藉由一次成功的{@skill 治療}檢定（DC 15）、或使用{@effect Healing}效果以穩定一個瀕死角色的傷勢。"
+				"陷入瀕死的角色處於{@condition 失能}狀態（{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}）且瀕臨死亡。當角色陷入這個狀態時，他必須立刻進行一次韌性檢定（DC 15）。若檢定成功，則什麼事也不會發生。若檢定結果為程度二或以上的成功，則該角色的傷勢轉為穩定並解除這個狀態。若該檢定失敗，則該角色將維持瀕死。若累積了總共三個或以上程度的失敗，則該角色死亡：因此三次失敗的韌性檢定或一次二次的韌性檢定都可能累積到程度三的失敗。陷入瀕死的角色必須在每輪重複進行一次韌性檢定，直到他死亡或傷勢轉為穩定。其他角色可以藉由一次成功的{@skill 治療}檢定（DC 15）、或使用{@effect Healing}效果以穩定一個瀕死角色的傷勢。"
 			],
 			"contain": ["incapacitated"]
 		},
@@ -155,7 +155,7 @@
 			"translate_name": "魅惑", "name": "Entranced",
 			"type": "combine",
 			"entries": [
-				"陷入魅惑狀態的角色將處於{@condition 暈眩}狀態，除了留神注意魅惑著他的效果之外無法採取任何行動。任何明顯的威脅都將自動中斷這個魅惑狀態。一名盟友可以藉由成功通過一次交流技能檢定（DC 10+效果等級）以使被魅惑的角色從魅惑中清醒。"
+				"陷入魅惑狀態的角色處於{@condition 暈眩}狀態，除了留神注意魅惑著他的效果之外無法採取任何行動。任何明顯的威脅都將自動中斷這個魅惑狀態。一名盟友可以藉由成功通過一次交流技能檢定（DC 10+效果等級）以使被魅惑的角色從魅惑中清醒。"
 			],
 			"contain": ["stunned"]
 		},
@@ -163,7 +163,7 @@
 			"translate_name": "力竭", "name": "Exhausted",
 			"type": "combine",
 			"entries": [
-				"陷入力竭狀態的角色已經瀕臨崩潰。他將處於{@condition 行動乏能}和{@condition 移動受阻}狀態。角色可以藉由在舒適環境中休息一個小時之後從力竭狀態中回復。"
+				"陷入力竭狀態的角色已經瀕臨崩潰。他處於{@condition 行動乏能}和{@condition 移動受阻}狀態。角色可以藉由在舒適環境中休息一個小時之後從力竭狀態中回復。"
 			],
 			"contain": ["impaired","hindered"]
 		},
@@ -171,7 +171,7 @@
 			"translate_name": "失能", "name": "Incapacitated",
 			"type": "combine",
 			"entries": [
-				"陷入失能狀態的角色將處於{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}狀態。陷入失能的角色通常也會陷入{@condition 臥倒}狀態，除非有其他外在力量或援助使他保持站立。"
+				"陷入失能狀態的角色處於{@condition 無防備}、{@condition 暈眩}、和{@condition 感官喪失}狀態。陷入失能的角色通常也會陷入{@condition 臥倒}狀態，除非有其他外在力量或援助使他保持站立。"
 			],
 			"contain": ["defenseless","stunned","unaware"]
 		},
@@ -179,7 +179,7 @@
 			"translate_name": "麻痺", "name": "Paralyzed",
 			"type": "combine",
 			"entries": [
-				"陷入麻痺狀態的角色將處於{@condition 無防備}、{@condition 無法移動}、和身體性的{@condition 暈眩}狀態。該角色僵在原地而無法移動，但仍可以意識到周遭環境並能夠採取完全心靈性的動作，包括任何不涉及身體移動的動作。"
+				"陷入麻痺狀態的角色處於{@condition 無防備}、{@condition 無法移動}、和身體性的{@condition 暈眩}狀態。該角色僵在原地而無法移動，但仍可以意識到周遭環境並能夠採取完全心靈性的動作，包括任何不涉及身體移動的動作。"
 			],
 			"contain": ["defenseless","immobile","stunned"]
 		},
@@ -187,7 +187,7 @@
 			"translate_name": "臥倒", "name": "Prone",
 			"type": "combine",
 			"entries": [
-				"陷入臥倒狀態的角色將躺臥在地，並在近身攻擊檢定中承受-5情境罰值。對該角色進行的近身攻擊檢定將獲得+5情境加值，但對其進行的遠程攻擊檢定將承受-5情境罰值（實際上這將使臥倒角色對於遠程攻擊具有全掩護）。陷入臥倒狀態的角色將處於{@condition 移動受阻}狀態。從臥倒姿勢中起身需要一個移動動作。"
+				"陷入臥倒狀態的角色躺臥在地，並在近身攻擊檢定中承受-5情境罰值。對該角色進行的近身攻擊檢定將獲得+5情境加值，但對其進行的遠程攻擊檢定將承受-5情境罰值（實際上這將使臥倒角色對於遠程攻擊具有全掩護）。陷入臥倒狀態的角色將處於{@condition 移動受阻}狀態。從臥倒姿勢中起身需要一個移動動作。"
 			],
 			"contain": ["hindered"]
 		},
@@ -195,7 +195,7 @@
 			"translate_name": "束縛", "name": "Restrained",
 			"type": "combine",
 			"entries": [
-				"陷入束縛狀態的角色將處於{@condition 移動受阻}和{@condition 脆弱}狀態。若這道束縛被固定在一個固定不動的物體上，則該角色將處於{@condition 無法移動}狀態，而非{@condition 移動受阻}。若該角色是被另一名角色束縛，則被束縛的角色將處於{@condition 無法移動}狀態，帶可以被束縛他的角色給強迫移動。"
+				"陷入束縛狀態的角色處於{@condition 移動受阻}和{@condition 脆弱}狀態。若這道束縛被固定在一個固定不動的物體上，則該角色將處於{@condition 無法移動}狀態，而非{@condition 移動受阻}。若該角色是被另一名角色束縛，則被束縛的角色將處於{@condition 無法移動}狀態，帶可以被束縛他的角色給強迫移動。"
 			],
 			"contain": ["hindered","vulnerable","immobile"]
 		},
@@ -203,7 +203,7 @@
 			"translate_name": "蹣跚", "name": "Staggered",
 			"type": "combine",
 			"entries": [
-				"陷入蹣跚狀態的角色將處於{@condition 目眩}和{@condition 移動受阻}狀態。"
+				"陷入蹣跚狀態的角色處於{@condition 目眩}和{@condition 移動受阻}狀態。"
 			],
 			"contain": ["dazed","hindered"]
 		},
@@ -211,7 +211,7 @@
 			"translate_name": "被突襲", "name": "Surprised",
 			"type": "combine",
 			"entries": [
-				"被突襲的角色將處於{@condition 暈眩}和{@condition 脆弱}狀態，因為措手不及而無法採取行動，也更難以躲避攻擊。"
+				"被突襲的角色處於{@condition 暈眩}和{@condition 脆弱}狀態，因為措手不及而無法採取行動，也更難以躲避攻擊。"
 			],
 			"contain": ["stunned","vulnerable"]
 		}

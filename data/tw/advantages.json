@@ -4,103 +4,103 @@
 			"translate_name": "精準攻擊", "name": "Accurate Attack",
 			"type": "C",
 			"entries": [
-				"當你進行「{@rule 精準攻擊|basic|8|accurate attack}」（參見戰技）時，你可以使該攻擊的效果修正值承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
+				"當你進行「{@rule 精準攻擊|basic|8|accurate attack}」戰技時，你可以使該攻擊的效果修正值承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{
 			"translate_name": "全力攻擊", "name": "All-out Attack",
 			"type": "C",
 			"entries": [
-				"當你進行「{@rule 全力攻擊|basic|8|all-out attack}」（參見戰技）時，你可以使你的主動防禦（閃避或格擋）承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
+				"當你進行「{@rule 全力攻擊|basic|8|all-out attack}」戰技時，你可以使你的主動防禦（閃避或格擋）承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{
-			"name": "Chokehold",
+			"translate_name": "鎖喉", "name": "Chokehold",
 			"type": "C",
 			"entries": [
-				"If you successfully grab and restrain an opponent (see {@rule Grab|basic|8|grab}), you can apply a chokehold, causing your opponent to begin suffocating for as long as you continue to restrain your target (see {@rule Suffocation|basic|8|suffocation})."
+				"若你成功地擒抱並束縛一名對手（參見{@rule 擒抱|basic|8|grab}動作），你可以對其鎖喉。只要你仍持續束縛你的目標，他便會開始窒息（參見 {@rule 窒息|basic|8|suffocation}）。"
 			]
 		},
 		{
-			"name": "Close Attack",
-			"type": "C",
-			"rank": true,
-			"entries": [
-				"You have a +1 bonus to close attacks checks per rank in this advantage. Your total attack bonus is still limited by power level. This advantage best suits characters with a level of overall close combat skill (armed and unarmed). For capability with a particular type of attack, use the Close Combat skill."
-			]
-		},
-		{
-			"name": "Defensive Attack",
-			"type": "C",
-			"entries": [
-				"When you make a {@rule defensive attack|basic|8|defensive attack} (see Maneuvers), you can take a penalty of up to –5 on your attack bonus and add the same number (up to +5) to both your active defenses (Dodge and Parry)."
-			]
-		},
-		{
-			"name": "Defensive Roll",
+			"translate_name": "近距離戰鬥", "name": "Close Attack",
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You can avoid damage through agility and “rolling” with an attack. You receive a bonus to your Toughness equal to your advantage rank, but it is considered an active defense similar to Dodge and Parry (see Active Defenses in Abilities), so you lose this bonus whenever you are vulnerable or defenseless. Your total Toughness, including this advantage, is still limited by power level.",
-				"This advantage is common for heroes who lack either superhuman speed or toughness, relying on their agility and training to avoid harm."
+				"這個特長的每一級都會使你的近身攻擊檢定獲得+1加值。你的總攻擊加值仍受限於超能力階級。這個特長最為適合那些掌握了整體近戰技巧（無論有無武裝）的角色。對於特定類型的近身攻擊，請使用{@skill 近身戰鬥}技能。"
 			]
 		},
 		{
-			"name": "Evasion",
+			"translate_name": "防禦性攻擊", "name": "Defensive Attack",
+			"type": "C",
+			"entries": [
+				"當你進行「{@rule 防禦性攻擊|basic|8|defensive attack}」戰技時，你可以使你的攻擊加值承受最多-5的減值，以使你的兩個主動防禦屬性（閃避或格擋）獲得同等數值（最多+5）的加值。"
+			]
+		},
+		{
+			"translate_name": "受身", "name": "Defensive Roll",
+			"type": "C",
+			"rank": true,
+			"entries": [
+				"你可以利用高敏捷並順著攻擊「翻滾」以避免受到傷害。你的堅實防禦將獲得等同於這個特長的等級的加值，但這個加值將被視為與閃避和格擋類似的主動防禦（參見{@rule 主動防禦|basic|3|Active Defenses}），因此當你陷入{@condition 脆弱}或{@condition 無防備}狀態時，你將失去這個特長帶來的加值。你堅實防禦的總值（包括這個特長的加值）仍受限於超能力階級。",
+				"這個特長對於那些缺乏超人般速度或堅實程度的英雄們而言相當常見，他們必須依賴敏捷和訓練成果才能避開重傷。"
+			]
+		},
+		{
+			"translate_name": "範圍躲閃", "name": "Evasion",
 			"type": "C",
 			"rank": 2,
 			"entries": [
-				"You have a +2 circumstance bonus to Dodge resistance checks to avoid area effects (see {@modifier Area} extra in Powers). If you have 2 ranks in this advantage, your circumstance bonus increases to +5."
+				"你在迴避範圍效果（參見{@modifier Area}修飾符）時所進行的閃避抵抗檢定中獲得+2的情境加值。若你具有2等級的此特長，則你的情境加值將增加至+5。"
 			]
 		},
 		{
-			"name": "Fast Grab",
+			"translate_name": "迅速擒抱", "name": "Fast Grab",
 			"type": "C",
 			"entries": [
-				"When you hit with an unarmed attack you can immediately make a grab check against that opponent as a free action (see {@rule Grab|basic|8|grab}). Your unarmed attack inflicts its normal damage and counts as the initial attack check required to grab your opponent."
+				"當你以徒手攻擊命中對手時，你能夠以一個自由動作立即對他進行一次擒抱檢定（參見{@rule 擒抱|basic|8|grab}動作）。你的徒手攻擊將會造成它原本的傷害，並同時被視作擒抱對手所需進行的攻擊檢定。"
 			]
 		},
 		{
-			"name": "Favored Environment",
+			"translate_name": "偏好環境", "name": "Favored Environment",
 			"type": "C",
 			"entries": [
-				"You have an environment you’re especially suited for fighting in. Examples include in the air, underwater, in space, in extreme heat or cold, in jungles or woodlands, and so forth. While you are in your favored environment, you gain a +2 circumstance bonus to attack checks or your active defenses. Choose at the start of the round whether the bonus applies to attack or defense. The choice remains until the start of your next round. This circumstance bonus is not affected by power level."
+				"你熟悉於一個特別適合你戰鬥的環境。這個環境的例子包括空中、水下、太空、極端酷熱或嚴寒、叢林或森林等等。當你處於你的偏好環境時，你的攻擊檢定或主動防禦將獲得+2的情境加值。在每輪開始時決定這個加值要應用在攻擊還是防禦上，且這個選擇會持續直到你的下一輪開始。這個情境加值並不會受到超能力階級的限制影響。"
 			]
 		},
 		{
-			"name": "Grabbing Finesse",
+			"translate_name": "技巧擒抱", "name": "Grabbing Finesse",
 			"type": "C",
 			"entries": [
-				"You can use your Dexterity bonus, rather than your Strength bonus, to make grab attacks. You are not {@condition vulnerable} while grabbing. See {@rule Grab|basic|8|grab}, for details. This is a good advantage for skilled unarmed combatants focused more on speed than strength."
+				"你可以使用你的精準屬性，而非力量屬性來進行擒抱攻擊。你在擒抱期間不會因此處於{@condition 脆弱}狀態。參見{@rule 擒抱|basic|8|grab}動作以查閱更多細節。這對於比起力量，更著重於速度的徒手格鬥專家而言是個非常優秀的特長。"
 			]
 		},
 		{
-			"name": "Improved Aim",
+			"translate_name": "專精瞄準", "name": "Improved Aim",
 			"type": "C",
 			"entries": [
-				"You have an even keener eye when it comes to ranged combat. When you take a standard action to aim, you gain double the normal circumstance bonus: +10 for a close attack or ranged attack adjacent to the target, +5 for a ranged attack at a greater distance. See {@rule Aim|basic|8|aim} for details."
+				"你擁有一雙異常銳利的雙眼，讓你在遠程戰鬥中無往不利。當你採取一個標準動作以進行瞄準時，你將獲得雙倍的情境加值：你在近身攻擊或對鄰近目標進行遠程攻擊時獲得+10的情近加值，在更遠的距離進行遠程攻擊時獲得+5的情境加值。參見{@rule 瞄準|basic|8|aim}動作以查閱更多細節。"
 			]
 		},
 		{
-			"name": "Improved Critical",
+			"translate_name": "專精暴擊", "name": "Improved Critical",
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"Increase your critical threat range with a particular attack (chosen when you acquire this advantage) by 1, allowing you to score a critical hit on a natural 19 or 20. Only a natural 20 is an automatic hit, however, and an attack that misses is not a critical. Each additional rank applies to a different attack or increases your threat range with an existing attack by one more, to a maximum threat range of 16-20 with 4 ranks."
+				"你使你在進行特定攻擊（在你獲得這個特長時選擇）時的暴擊威脅範圍增加1點，使你能在骰出天然19或20時造成暴擊。然而，你只有在骰出天然20時才會自動命中，且未命中的攻擊並不會被視作暴擊。此特長的每個額外等級可以適用於不同的攻擊方式，或適用於你既有的攻擊方式，使其暴擊威脅範圍再增加1點，暴擊威脅範圍最多在4級時被增加至16-20。"
 			]
 		},
 		{
-			"name": "Improved Defense",
+			"translate_name": "專精防守", "name": "Improved Defense",
 			"type": "C",
 			"entries": [
-				"When you take the {@rule defend|basic|8|defend} action in combat you gain a +2 circumstance bonus to your active defense checks for the round."
+				"當你在戰鬥中採取{@rule 防守|basic|8|defend}動作時，你在該輪間的主動防禦檢定獲得+2的情境加值。"
 			]
 		},
 		{
-			"name": "Improved Disarm",
+			"translate_name": "專精繳械", "name": "Improved Disarm",
 			"type": "C",
 			"entries": [
-				"You have no penalty to your attack check when attempting to disarm an opponent and they do not get the opportunity to disarm you (see {@rule Disarm|basic|8|disarm})."
+				"你在嘗試繳械對手時所進行的攻擊檢定並不會承受罰值，且對手不會得到反過來繳械你的機會（參見{@rule 繳械|basic|8|disarm}動作）。"
 			]
 		},
 		{
@@ -377,10 +377,17 @@
 			]
 		},
 		{
-			"name": "Instant Up",
+			"name": "Great Endurance",
 			"type": "G",
 			"entries": [
-				"You can go from {@condition prone} to standing as a free action without the need for an Acrobatics skill check."
+				"You have a +5 bonus on checks to avoid becoming fatigued and checks to hold your breath, avoid damage from starvation or thirst, avoid damage from hot or cold environments, and to resist suffocation and  drowning. See {@rule Environmental Hazards|basic|8|Environmental Hazards} in the Action & Adventure chapter for details on these checks."
+			]
+		},
+		{
+			"translate_name": "瞬間起身", "name": "Instant Up",
+			"type": "G",
+			"entries": [
+				"你能夠以一個自由動作從{@condition 臥倒}狀態中起身，而無須進行{@skill 雜技}技能檢定。"
 			]
 		},
 		{

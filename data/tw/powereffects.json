@@ -11,7 +11,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"藉由進行一次近戰攻擊，你可以使一個目標承受一個或多個負面狀態。當你獲得這個效果時，為你詛咒效果的每一個程度設定其能夠造成的狀態，一旦設定，這些狀態就不能再被改變。高程度的狀態將會取代低程度的狀態，且它們不會疊加。參見下方的詛咒抵抗檢定表以查看每個程度各自所能造成的狀態。目標將使用韌性或意志防禦進行抵抗（當你獲得這個效果時選擇）：",
+				"藉由進行一次近戰攻擊，你可以使一個目標承受一個或多個負面狀態。當你獲得這個效果時，設定你詛咒效果在每一個程度時所能造成的狀態，一旦設定完成，這些狀態就不能再被改變。高程度的狀態將會取代低程度的狀態，且它們不會疊加。參見下方的詛咒抵抗檢定表以查看每個程度各自所能造成的狀態。目標將使用韌性或意志防禦進行抵抗（當你獲得這個效果時選擇）：",
 				{
 					"type": "insetResistCheck",
 					"name": "詛咒抵抗檢定",
@@ -28,13 +28,13 @@
 						}
 					]
 				},
-				"詛咒效果的目標可以在它的每個回合結束時進行一次抵抗檢定，以嘗試解除程度一和程度二的狀態。程度三的狀態需要花費一分鐘的回復時間或仰賴外在的協助才能解除，例如{@skill 治療}技能或是{@effect Healing}效果（DC等同10 + 詛咒等級）。",
+				"被詛咒效果影響的目標可以在它的每個回合結束時進行一次抵抗檢定，以嘗試解除程度一和程度二的狀態。程度三的狀態需要花費一分鐘的回復時間或仰賴外在的協助才能解除，例如{@skill 治療}技能或是{@effect Healing}效果（DC等同10 + 詛咒等級）。",
 				"這個詛咒的本質和描述符由你決定，且必須經過GM的同意，你必須在獲得這個效果時決定它的本質；上面提供了一些範例，但你仍可以自由決定屬於你自己的描述符。"
 			],
 			"extras": [
 				{
 					"name": "替換抵抗",
-					"entries": ["有些詛咒效果一開始可能會使用閃避來抵抗，代表目標可以透過迅捷反應或反射神經以避免其效果。在這種情況下，目標之後為了解除詛咒效果所造成的狀態時所進行的抵抗檢定仍會使用韌性或意志。舉例來說，目標可能會進行一次閃避檢定以躲避一道致盲射線或噴濺毒液，但若他在一開始的閃避檢定中失敗，那麼他仍需要透過韌性檢定才能消除這個效果的影響。"],
+					"entries": ["有些詛咒效果一開始可能需要使用閃避來抵抗，這代表目標可以透過迅捷的反應或反射神經以避免其效果。在這種情況下，目標之後為了解除詛咒效果所造成狀態時所進行的抵抗檢定仍會使用韌性或意志。舉例來說，目標可能會進行一次閃避檢定以躲避一道致盲射線或噴濺毒液，但若他在一開始的閃避檢定中失敗，那麼他仍需要透過韌性檢定才能消除這個效果的影響。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
@@ -563,9 +563,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Strength-based Damage",
+					"translate_name": "基於力量屬性的傷害", "name": "Strength-based Damage",
 					"entries": [
-						"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade or thuderbolt staff does the same damage whether you can exert your Strength with it or not."
+						"你可以選擇讓一個傷害效果建基於力量屬性──例如一把近戰武器──讓你得以將你的力量傷害加入其中。當要決定該攻擊的傷害等級時，將你的力量屬性和傷害等級加在一起。若你的力量能夠受益於你應用於傷害效果的修飾符，則這些修飾符也都必須應用於你的力量等級。然而，當你的力量屬性被降低，你能加入傷害中的數值也會隨之減少，等級為負數的力量屬性甚至會減少你的傷害等級！同樣的，任何妨礙你發揮力量的事物也會使你無法使用基於力量屬性的傷害效果。舉例來說，若你無法揮舞拳頭，你也同樣無法揮舞利劍。另一方面，無論你是否能夠發揮你的力量屬性，都不會妨礙你使用能造成相同傷害的雷射槍或閃電法杖。"
 					]
 				},
 				{
@@ -952,7 +952,7 @@
 			]
 		},
 		{
-			"name": "Healing",
+			"translate_name": "治癒", "name": "Healing",
 			"type": "G",
 			"action": "S",
 			"range": "close",
@@ -962,29 +962,29 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can heal Damage conditions by touching a subject and taking a standard action to make a DC 10 Healing check. Each degree of success healing one Damage condition, starting with the subject’s worst condition, and working down, as if the subject were recovering rapidly. If the subject is dying, the highest degree of success stabilizes the subject, removing the dying condition. If the Healing check fails, you must wait one minute or use extra effort in order to try again.",
-				"You can also grant a subject a bonus equal to your Healing rank on resistance checks against effects with disease or poison descriptors. The bonus applies to the subject’s next resistance check against the effect.",
-				"You can use Healing on yourself, provided you are still capable of taking the standard action needed.",
-				"Healing does not work on subjects unable to recover on their own, such as creatures with no Stamina rank or inanimate objects."
+				"藉由觸碰一名目標，並採取一個標準動作以進行一次DC 10的治癒檢定，你可以治療傷害效果所造成的狀態。每個程度的成功都將治癒一個傷害類狀態，從目標身上最嚴重的狀態開始解除，依序往下，就彷彿目標以猛烈的速度正常回復一般。舉例來說，若目標陷入{@condition 瀕死}狀態，則最高程度的成功將會先使目標的傷勢穩定，解除{@condition 瀕死}狀態。若治癒檢定失敗，則你必須等待一分鐘或使用{@rule 奮力一搏|basic|1|extra effort}才能夠再次嘗試。",
+				"你也可以使目標在面對具有疾病或毒素描述符的效果時所進行的抵抗檢定中獲得等同於你治癒等級的加值。這個加值將會加入目標下一次對抗該效果時所進行的抵抗檢定中。",
+				"只要你仍能夠採取標準動作，你就可以對自己使用治癒效果。",
+				"治癒效果對無法自己回復的目標不起作用，像是不具備體質等級的生物、或無生命的物體。"
 			],
 			"extras": [
 				{
-					"name": "Action",
-					"entries": ["This extra reduces the action required for you to use Healing. You cannot use Healing more than once per turn regardless. To heal multiple subjects at once, apply the Area modifier."],
+					"name": "無須動作",
+					"entries": ["這個強化讓你在使用治癒效果時不再需要花費動作。儘管如此，你每回合仍舊不能使用治癒效果超過一次。要同時治癒複數目標，請應用{@modifier Area}修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Affects Objects",
-					"entries": ["Your Healing can also “heal” damage to non-living subjects. You make a Healing check against the subject’s worst damage condition, as normal. "],
+					"name": "影響物體",
+					"entries": ["你的治癒效果現在能夠「治癒」非活物目標的傷害。如同原本那樣，你進行一次治癒檢定以解除目標最嚴重的傷害狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Area",
-					"entries": ["Healing with this extra grants the same benefit to all subjects in the affected area. Area Empathic Healing (see this power’s Flaws) is an unwise combination, as the healer takes on all of the damage conditions of the affected subjects at once!"],
+					"name": "範圍",
+					"entries": ["應用了這個強化的治癒效果將使所有處於影響範圍內的目標得益於相同的好處。要注意的是，範圍Empathic治癒效果（參見本效果的缺陷）絕不是個明智的組合，因為治癒者將會一口氣承受所有目標的傷害狀態！"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1869,8 +1869,8 @@
 					"type": "entries",
 					"translate_name": "安全墜落", "name": "Safe fall",
 					"entries": [
-						"So long as you are capable of action, you can fall any distance without harm. You can also stop your fall at any point along a distance so long as there is a handhold or projection for you to grab (such as a ledge, flagpole, branch, etc.). If you have the Wall-crawling power (later in Movement), any surface you can climb provides you with a handhold.",
-						"Safe Fall may be Limited to only when you are near a surface (such as the side of a building); you’re assumed to be using the surface to help slow your fall."
+						"只要你仍能夠行動，你就可以從任意高度墜落而不至於因此受到傷害。此外，你也可以在落下任意距離後停止墜落，只要該處有能供你抓握的握柄或凸起物即可（像是窗台、旗桿、樹枝等）。若你具有攀牆移動的超能力效果（在移動效果的稍後提及），則任何你所能攀爬的表面對你而言都將被視為可抓握的凸起物。",
+						"安全墜落效果可能會被限定只能在你鄰近於某個表面時才能發揮效果（像是建築的牆面）；這代表你可能是利用該表面以協助你減緩墜落的影響。"
 					]
 				},
 				{

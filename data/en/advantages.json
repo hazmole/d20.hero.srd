@@ -26,7 +26,7 @@
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You have a +1 bonus to close attacks checks per rank in this advantage. Your total attack bonus is still limited by power level. This advantage best suits characters with a level of overall close combat skill (armed and unarmed). For capability with a particular type of attack, use the Close Combat skill."
+				"You have a +1 bonus to close attacks checks per rank in this advantage. Your total attack bonus is still limited by power level. This advantage best suits characters with a level of overall close combat skill (armed and unarmed). For capability with a particular type of attack, use the {@skillClose Combat} skill."
 			]
 		},
 		{
@@ -41,7 +41,7 @@
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You can avoid damage through agility and “rolling” with an attack. You receive a bonus to your Toughness equal to your advantage rank, but it is considered an active defense similar to Dodge and Parry (see Active Defenses in Abilities), so you lose this bonus whenever you are vulnerable or defenseless. Your total Toughness, including this advantage, is still limited by power level.",
+				"You can avoid damage through agility and “rolling” with an attack. You receive a bonus to your Toughness equal to your advantage rank, but it is considered an active defense similar to Dodge and Parry (see {@rule Active Defenses|basic|3|Active Defenses} in Abilities), so you lose this bonus whenever you are {@condition vulnerable} or {@condition defenseless}. Your total Toughness, including this advantage, is still limited by power level.",
 				"This advantage is common for heroes who lack either superhuman speed or toughness, relying on their agility and training to avoid harm."
 			]
 		},
@@ -50,7 +50,7 @@
 			"type": "C",
 			"rank": 2,
 			"entries": [
-				"You have a +2 circumstance bonus to Dodge resistance checks to avoid area effects (see {@modifier Area} extra in Powers). If you have 2 ranks in this advantage, your circumstance bonus increases to +5."
+				"You have a +2 circumstance bonus to Dodge resistance checks to avoid area effects (see {@modifier Area} extra). If you have 2 ranks in this advantage, your circumstance bonus increases to +5."
 			]
 		},
 		{
@@ -374,6 +374,13 @@
 			"type": "G",
 			"entries": [
 				"You are immune to fear effects of all sorts, essentially the same as an Immunity to Fear effect (see {@effect Immunity} in Powers)."
+			]
+		},
+		{
+			"name": "Great Endurance",
+			"type": "G",
+			"entries": [
+				"You have a +5 bonus on checks to avoid becoming fatigued and checks to hold your breath, avoid damage from starvation or thirst, avoid damage from hot or cold environments, and to resist suffocation and  drowning. See {@rule Environmental Hazards|basic|8|Environmental Hazards} in the Action & Adventure chapter for details on these checks."
 			]
 		},
 		{
