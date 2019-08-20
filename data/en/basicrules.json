@@ -5154,7 +5154,7 @@
 									"type": "entries",
 									"name": "Suffocation",
 									"entries": [
-										"Characters can hold their breath for ten rounds (one minute) plus a number of rounds equal to twice their Stamina. After that time they must make a Fortitude check (DC 10) each round to continue holding their breath. The DC increases by +1 for each previous success. Failure on the Fortitude check means the character becomes incapacitated . On the following round the character is dying. A dying character cannot stabilize until able to breathe again. Heroes with Immunity to Suffocation can go an unlimited time without air."
+										"Characters can hold their breath for ten rounds (one minute) plus a number of rounds equal to twice their Stamina. After that time they must make a Fortitude check (DC 10) each round to continue holding their breath. The DC increases by +1 for each previous success. Failure on the Fortitude check means the character becomes {@condition incapacitated} . On the following round the character is {@condition dying}. A dying character cannot stabilize until able to breathe again. Heroes with {@effect Immunity} to Suffocation can go an unlimited time without air."
 									]
 								},
 								{

@@ -4,14 +4,14 @@
 			"translate_name": "精準攻擊", "name": "Accurate Attack",
 			"type": "C",
 			"entries": [
-				"當你進行「{@rule 精準攻擊|basic|8|accurate attack}」戰技時，你可以使該攻擊的效果修正值承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
+				"當你使用「{@rule 精準攻擊|basic|8|accurate attack}」戰技時，你可以使該攻擊的效果修正值承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{
 			"translate_name": "全力攻擊", "name": "All-out Attack",
 			"type": "C",
 			"entries": [
-				"當你進行「{@rule 全力攻擊|basic|8|all-out attack}」戰技時，你可以使你的主動防禦（閃避或格擋）承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
+				"當你使用「{@rule 全力攻擊|basic|8|all-out attack}」戰技時，你可以使你的主動防禦（閃避或格擋）承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{
@@ -26,14 +26,14 @@
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"這個特長的每一級都會使你的近身攻擊檢定獲得+1加值。你的總攻擊加值仍受限於超能力階級。這個特長最為適合那些掌握了整體近戰技巧（無論有無武裝）的角色。對於特定類型的近身攻擊，請使用{@skill 近身戰鬥}技能。"
+				"這個特長的每個等級都會使你的近身攻擊檢定獲得+1加值。你的總攻擊加值仍受限於超能力階級。這個特長最為適合那些掌握了整體近戰技巧（無論有無武器）的角色。對於特定類型的近身攻擊，請使用{@skill 近身戰鬥}技能。"
 			]
 		},
 		{
 			"translate_name": "防禦性攻擊", "name": "Defensive Attack",
 			"type": "C",
 			"entries": [
-				"當你進行「{@rule 防禦性攻擊|basic|8|defensive attack}」戰技時，你可以使你的攻擊加值承受最多-5的減值，以使你的兩個主動防禦屬性（閃避或格擋）獲得同等數值（最多+5）的加值。"
+				"當你使用「{@rule 防禦性攻擊|basic|8|defensive attack}」戰技時，你可以使你的攻擊加值承受最多-5的減值，以使你的兩個主動防禦屬性（閃避或格擋）獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{
@@ -68,7 +68,7 @@
 			]
 		},
 		{
-			"translate_name": "技巧擒抱", "name": "Grabbing Finesse",
+			"translate_name": "精巧擒抱", "name": "Grabbing Finesse",
 			"type": "C",
 			"entries": [
 				"你可以使用你的精準屬性，而非力量屬性來進行擒抱攻擊。你在擒抱期間不會因此處於{@condition 脆弱}狀態。參見{@rule 擒抱|basic|8|grab}動作以查閱更多細節。這對於比起力量，更著重於速度的徒手格鬥專家而言是個非常優秀的特長。"
@@ -104,91 +104,91 @@
 			]
 		},
 		{
-			"name": "Improved Grab",
+			"translate_name": "專精擒抱", "name": "Improved Grab",
 			"type": "C",
 			"entries": [
-				"You can make grab attacks with only one arm, leaving the other free. You can also maintain the grab while using your other hand to perform actions. You are not {@condition vulnerable} while grabbing (see {@rule Grabbing|basic|8|grab})."
+				"你可以只用單手進行擒抱攻擊，空出另一隻手。你可以在另一隻手執行其他動作時維持擒抱。你在擒抱期間不會因此處於{@condition 脆弱}狀態（參見{@rule 擒抱|basic|8|grab}動作）。"
 			]
 		},
 		{
-			"name": "Improved Hold",
+			"translate_name": "專精制伏", "name": "Improved Hold",
 			"type": "C",
 			"entries": [
-				"Your grab attacks are particularly difficult to escape. Opponents you grab suffer a –5 circumstance penalty on checks to escape."
+				"你的擒抱特別難以掙脫。你所擒抱的對手在從擒抱中掙脫的檢定中承受-5的情境罰值。"
 			]
 		},
 		{
-			"name": "Improved Initiative",
-			"type": "C",
-			"rank": true,
-			"entries": [
-				"You have a +4 bonus to your initiative checks per rank in this advantage."
-			]
-		},
-		{
-			"name": "Improved Smash",
-			"type": "C",
-			"entries": [
-				"You have no penalty to attack checks to hit an object held by another character (see {@rule Smash|basic|8|smash})."
-			]
-		},
-		{
-			"name": "Improved Trip",
-			"type": "C",
-			"entries": [
-				"You have no penalty to your attack check to trip an opponent and they do not get the opportunity to trip you. When making a trip attack, make an opposed check of your Acrobatics or Athletics against your opponent’s Acrobatics or Athletics, you choose which your opponent uses to defend, rather than the target choosing (see {@rule Trip|basic|8|trip}). This is a good martial arts advantage for unarmed fighters."
-			]
-		},
-		{
-			"name": "Improvised Weapon",
+			"translate_name": "專精先攻", "name": "Improved Initiative",
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"When wielding an improvised close combat weapon—anything from a chair to a telephone pole or entire car—you use your Close Combat: Unarmed skill bonus for attack checks with the “weapon” rather than relying on your general Close Combat skill bonus. Additional ranks in this advantage give you a +1 bonus to Damage with improvised weapons per rank. Your maximum Damage bonus is still limited by power level, as usual."
+				"這個特長的每個等級都會使你的先攻檢定獲得+4的加值。"
 			]
 		},
 		{
-			"name": "Move-by Action",
+			"translate_name": "專精粉碎", "name": "Improved Smash",
 			"type": "C",
 			"entries": [
-				"When taking a standard action and a move action you can move both before and after your standard action, provided the total distance moved isn’t greater than your normal movement speed."
+				"你在嘗試命中另一個角色所持握的物品時所進行的攻擊檢定並不會承受罰值（參見{@rule 粉碎|basic|8|smash}動作）。"
 			]
 		},
 		{
-			"name": "Power Attack",
+			"translate_name": "專精絆摔", "name": "Improved Trip",
 			"type": "C",
 			"entries": [
-				"When you make a {@rule power attack|basic|8|power attack} (see Maneuvers) you can take a penalty of up to –5 on your attack bonus and add the same number (up to +5) to the effect bonus of your attack."
+				"你在嘗試絆摔對手時所進行的攻擊檢定並不會承受罰值，且對手不會得到反過來絆摔你的機會。當攻擊檢定成功後，你要使用你的{@skill 運動}或{@skill 雜技}與對手的{@skill 運動}或{@skill 雜技}進行對抗檢定時，由你選擇你的對手要使用哪個技能進行對抗，而非由對手選擇（參見{@rule 絆摔|basic|8|trip}動作）。這對於徒手格鬥家而言是個優秀的武術特長。"
 			]
 		},
 		{
-			"name": "Precise Attack",
+			"translate_name": "臨時武器", "name": "Improvised Weapon",
+			"type": "C",
+			"rank": true,
+			"entries": [
+				"當使用一把臨時近戰武器時──這把武器可以是椅子、電線桿、甚至是一整台車──你以該「武器」所進行的攻擊檢定將使用{@skill 近身戰鬥|近身戰鬥：徒手}技能的加值。這個特長的每個額外等級加值都將使你臨時武器的傷害獲得+1加值。你的最大傷害加值仍然如常受限於超能力階級。"
+			]
+		},
+		{
+			"translate_name": "移動中行動", "name": "Move-by Action",
+			"type": "C",
+			"entries": [
+				"當你採取一個標準動作和一個移動動作，你就可以在進行標準動作之前和之後都進行移動。然而你所移動的總距離不能超過你正常的移動速度。"
+			]
+		},
+		{
+			"translate_name": "強力攻擊", "name": "Power Attack",
+			"type": "C",
+			"entries": [
+				"當你使用「{@rule 強力攻擊|basic|8|power attack}」戰技時，你可以使你的攻擊檢定承受最多-5的減值，以使你攻擊的效果加值獲得同等數值（最多+5）的加值。"
+			]
+		},
+		{
+			"translate_name": "準確攻擊", "name": "Precise Attack",
 			"type": "C",
 			"rank": 4,
 			"entries": [
-				"When you make close or ranged attacks (choose one) you ignore attack check penalties for cover or concealment (choose one), although total cover still prevents you from making attacks. Each additional rank in this advantage lets you choose an additional option, so with Precise Attack 4, all your attacks (both close and ranged) ignore penalties for both cover and concealment."
+				"當你進行近身或遠程攻擊（擇一）時，你忽略掩護和遮蔽（擇一）對攻擊檢定所造成的罰值，儘管全掩護仍然會防止你對目標進行攻擊。這個特長的每個等級都可以讓你選擇一個額外的選項，因此擁有4級的準確攻擊特長將能讓你所有的攻擊（近身和遠程）忽略掩護和遮蔽所造成的罰值。"
 			]
 		},
 		{
-			"name": "Prone Fighting",
+			"translate_name": "臥倒戰術", "name": "Prone Fighting",
 			"type": "C",
 			"entries": [
-				"You suffer no circumstance penalty to attack checks for being {@condition prone}, and adjacent opponents do not gain the usual circumstance bonus for close attacks against you."
+				"你的攻擊檢定並不會因為你處於{@condition 臥倒}狀態而承受罰值，且鄰近敵人對你進行的近身攻擊也不會獲得原本{@condition 臥倒}狀態所給予的情境加值。"
 			]
 		},
 		{
-			"name": "Quick Draw",
+			"translate_name": "快速備戰", "name": "Quick Draw",
 			"type": "C",
 			"entries": [
-				"You can draw a weapon from a holster or sheath as a free action, rather than a move action."
+				"你能夠以一個自由動作從槍套或劍鞘中拔出一把武器，而非移動動作。"
 			]
 		},
 		{
-			"name": "Ranged Attack",
+			"translate_name": "遠距離戰鬥", "name": "Ranged Attack",
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You have a +1 bonus to ranged attacks checks per rank in this advantage. Your total attack bonus is still limited by power level."
+				"這個特長的每個等級都會使你的遠程攻擊檢定獲得+1加值。你的總攻擊加值仍受限於超能力階級。"
 			]
 		},
 		{

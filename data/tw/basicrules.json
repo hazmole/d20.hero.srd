@@ -5152,9 +5152,9 @@
 								},
 								{
 									"type": "entries",
-									"name": "Suffocation",
+									"translate_name": "窒息", "name": "Suffocation",
 									"entries": [
-										"Characters can hold their breath for ten rounds (one minute) plus a number of rounds equal to twice their Stamina. After that time they must make a Fortitude check (DC 10) each round to continue holding their breath. The DC increases by +1 for each previous success. Failure on the Fortitude check means the character becomes incapacitated . On the following round the character is dying. A dying character cannot stabilize until able to breathe again. Heroes with Immunity to Suffocation can go an unlimited time without air."
+										"角色可以屏住氣息長達10輪（1分鐘）加上等同於他體質二倍的輪數。在這段時間後，他每輪都必須進行一次韌性檢定（DC 10）才能夠繼續屏住氣息。這個檢定每成功一次都會使下一次的DC增加1點。這個韌性檢定失敗代表著該角色將陷入{@condition 失能}狀態，且該角色將接著在下一輪陷入{@condition 瀕死}狀態。因此而陷入瀕死的角色直到再次呼吸之前都無法使傷勢穩定。具有{@effect Immunity}窒息效果的英雄可以即使在缺乏空氣的情況下仍可以持續正常活動。"
 									]
 								},
 								{
@@ -5767,7 +5767,7 @@
 								},
 								{
 									"type": "actionBlock",
-									"translate_name": "砸毀", "name": "Smash",
+									"translate_name": "粉碎", "name": "Smash",
 									"subtitle": "標準動作",
 									"entries": [
 										"你嘗試傷害或破壞一個由對手所持握或穿戴的物體。進行一次攻擊檢定以對抗攜帶該物品的角色的防禦，若你攻擊的是一個被持握的物品，則你的攻擊檢定將承受-5的情境罰值。若你的攻擊檢定成功，則你將對該物體造成傷害，而非該角色。參見{@rule 傷害物體|basic|8|damaging objects}以查閱關於破壞物體的細節。"
@@ -5845,7 +5845,7 @@
 									"type": "actionBlock",
 									"translate_name": "強力攻擊", "name": "Power Attack",
 									"entries": [
-										"當你進行一次攻擊時，你可以使你的攻擊加值承受最多-2的罰值，以使你的效果加值獲得相同數值（最多+2）的加值。你的攻擊加值不能透過這個方式被降至低於+0，且你的效果加值不能因此超過原本的兩倍。這個對攻擊和效果加值的變化必須在你進行攻擊之前宣言，且會持續直到你的下個回合開始。這個戰技不能應用於不需要攻擊檢定或可以不進行抵抗檢定的效果。"
+										"當你進行一次攻擊時，你可以使你的攻擊加值承受最多-2的罰值，以使你攻擊的效果加值獲得相同數值（最多+2）的加值。你的攻擊加值不能透過這個方式被降至低於+0，且你的效果加值不能因此超過原本的兩倍。這個對攻擊和效果加值的變化必須在你進行攻擊之前宣言，且會持續直到你的下個回合開始。這個戰技不能應用於不需要攻擊檢定或可以不進行抵抗檢定的效果。"
 									]
 								},
 								{

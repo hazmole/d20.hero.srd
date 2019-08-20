@@ -1245,7 +1245,7 @@
 						"{@b 10 ranks}: a common power descriptor (such as all effects with cold, electricity, fire, radiation, or weather descriptors, for example), life support (includes immunity to disease, poison, all environmental conditions, suffocation, and starvation and thirst).",
 						"{@b 20 ranks}: a very common power descriptor (bludgeoning or energy, for example).",
 						"{@b 30 ranks}: All effects resisted by Fortitude, All effects resisted by Will.",
-						"{@b 80 ranks}: All effects resisted by Toughness (the equivalent of 40 ranks of Impervious Toughness)."
+						"{@b 80 ranks}: All effects resisted by Toughness (the equivalent of 40 ranks of {@modifier Impervious} Toughness)."
 					]
 				},
 				{

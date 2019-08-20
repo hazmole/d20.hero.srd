@@ -1225,7 +1225,7 @@
 			]
 		},
 		{
-			"name": "Immunity",
+			"translate_name": "免疫", "name": "Immunity",
 			"type": "DEF",
 			"action": "N",
 			"range": "personal",
@@ -1235,29 +1235,29 @@
 				"type": "per"
 			},
 			"entries": [
-				"You are immune to certain effects, automatically succeeding on any resistance check against them. You assign ranks of Immunity to various effects to gain immunity to them (with more extensive effects requiring more ranks). These assignments are permanent. Examples include the following:",
+				"你免疫於特定效果，並在對抗這些效果的任何抵抗檢定中自動成功。將你免疫效果的等級分配給各種不同的效果以獲得對它們的免疫能力（越廣泛的效果需要更高的等級）。這些分配是永久的，一旦分配就不能再更改。免疫的範例如下：",
 				{
 					"type": "list",
 					"items": [
-						"{@b 1 rank}: aging, disease, poison, one environmental condition (cold, heat, high pressure, radiation, or vacuum), one type of suffocation (breathe normally underwater or in an alien atmosphere, for example), starvation and thirst, need for sleep, or a rare power descriptor (such as your own powers, a close sibling’s powers, etc.).",
-						"{@b 2 ranks}: critical hits, suffocation effects (no need to breathe at all), or an uncommon power descriptor (such as chemical, gravitic, necromantic, etc.).",
-						"{@b 5 ranks}: alteration effects, sensory Affliction effects, emotion effects, entrapment (grabbing, snares, or bonds), fatigue effects, interaction skills, or a particular Damage effect, descriptor (such as bullets, cold, electricity, falling, fire, magic, radiation, sonic, etc.)",
-						"{@b 10 ranks}: a common power descriptor (such as all effects with cold, electricity, fire, radiation, or weather descriptors, for example), life support (includes immunity to disease, poison, all environmental conditions, suffocation, and starvation and thirst).",
-						"{@b 20 ranks}: a very common power descriptor (bludgeoning or energy, for example).",
-						"{@b 30 ranks}: All effects resisted by Fortitude, All effects resisted by Will.",
-						"{@b 80 ranks}: All effects resisted by Toughness (the equivalent of 40 ranks of Impervious Toughness)."
+						"{@b 1級}：衰老、疾病、毒素、一種環境狀態（寒冷、炎熱、高壓、輻射、或真空）、一種窒息環境（例如使你能在水中正常呼吸、或在外太空）、飢餓或口渴、睡眠需求、或一種稀少的超能力描述符（例如你自己的超能力、近親的超能力等等）。",
+						"{@b 2級}：暴擊、窒息效果（完全不需呼吸）、一種不常見的超能力描述符（像是化學、重力、死靈等等）。",
+						"{@b 5級}：變化效果、感官{@effect 詛咒}效果、情緒效果、鎖縛效果（擒抱、捕捉陷阱、或束縛）、疲勞效果、交流技能、或特定的傷害描述符（例如子彈、寒冷、電流、墜落、火焰、魔法、輻射、音波等等）。",
+						"{@b 10級}：一種常見的超能力描述符（像是所有寒冷、電流、火焰、輻射、或天氣的描述符）、維生需求（包括免疫疾病、毒素、所有環境狀態、窒息、以及飢餓和口渴）。",
+						"{@b 20級}：一種非常普遍的超能力描述符（例如打擊或能量）。",
+						"{@b 30級}：所有以韌性抵抗的效果、所有以意志抵抗的效果。",
+						"{@b 80級}：所有以堅實抵抗的效果（等同於40級的{@modifier Impervious}堅實）。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Degrees of Immunity",
+					"translate_name": "免疫的程度", "name": "Degrees of Immunity",
 					"entries": [
-						"Some Immunity effects are a matter of degree. For example, “immunity to cold” can range from the environmental effects of cold (described under The Environment) to cold damage, to complete immunity to all effects with the “cold” descriptor. The first requires only 1 rank, and provides no resistance to other sorts of cold effects. The second requires 5 ranks and only provides immunity to cold Damage effects. The third requires 10 ranks and provides complete immunity to all effects with the “cold” descriptor whatever they may be."
+						"某些免疫效果隱含著程度的差異性。舉例來說，「寒冷免疫」代表的可能會是免疫於酷寒環境的影響（參見{@rule Environment|basic|8|Environment}的說明）、免疫寒冷傷害、或甚至是免疫所有帶有「寒冷」描述符的效果。第一種免疫效果只需要1級，且不會使你在抵抗其他種類的寒冷效果時提供其他助益。第二種免疫效果需要5級，且只會提供對寒冷傷害效果的免疫能力。第三種則需要10級，並會使你完全免疫於任何帶有「寒冷」描述符的效果。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Immunity",
+					"translate_name": "幕後花絮：免疫", "name": "Under the Hood: Immunity",
 					"entries": [
 						"There are characters in comic books flatly immune to certain things. Immunity is intended to provide this option in the game. It’s simpler at some point to say a character is immune to something than it is to bother rolling dice. Immunity also encourages creativity: if you can’t overcome a foe just by hitting him, what then? Encourage players to use tactics, cleverness, power stunts, and victory points to deal with foes immune to their more conventional attacks.",
 						"If you find Immunity—especially broad immunities at higher ranks—a problem in your game, feel free to restrict it (perhaps to no more than 10 ranks) or eliminate it altogether, replacing it with Protection and defense bonuses with appropriate power modifiers.",
