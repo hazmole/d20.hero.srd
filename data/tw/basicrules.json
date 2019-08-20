@@ -92,7 +92,7 @@
 					{ "name": "Challenges" },
 					{ "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
-					{ "name": "Maneuvers" },
+					{ "translate_name": "戰技", "name": "Maneuvers" },
 					{ "name": "Recovery" }
 				]
 			},
@@ -5794,95 +5794,95 @@
 						},
 						{
 							"type": "entries",
-							"name": "Maneuvers",
+							"translate_name": "戰技", "name": "Maneuvers",
 							"entries": [
-								"A {@b maneuver} is a different way of performing a particular action. For example, a defensive attack is an attack action that improves your defenses at the cost of accuracy. maneuvers are optional, you choose which, if any, apply to your action(s) when you declare them. The GM decides if a particular maneuver is appropriate or prohibited by circumstances.",
-								"Certain advantages and effects may enhance or work in conjunction with certain maneuvers. See their descriptions for details.",
+								"{@b 戰技}是一種以略為不同的方式執行動作的手段。舉例而言，防禦性攻擊屬於一種攻擊動作，但犧牲了準確度以換取防禦的提升。戰技是可選的，你可以在宣告行動時，選擇任意一個適用於你動作的戰技並使用之。GM將會裁斷某些戰技在特定情況下是否適用或無法進行。",
+								"某些特長或超能力效果可能會強化特定戰技、或與特定戰技結合。參見它們各自的說明以查閱更多細節。",
 								{
 									"type": "actionBlock",
-									"name": "Accurate Attack",
+									"translate_name": "精準攻擊", "name": "Accurate Attack",
 									"entries": [
-										"When you make an attack, you can take a penalty of up to –2 on the effect modifier of the attack and add the same number (up to +2) to your attack bonus. Your effect modifier cannot be reduced below +0 and your attack bonus cannot more than double in this way. The changes are declared before you make the attack check and last until the start of your next turn."
+										"當你進行一次攻擊時，你可以使該攻擊的效果修正值承受最多-2的罰值，以使你的攻擊加值獲得相同數值（最多+2）的加值。你的效果修正值不能透過這個方式被降至低於+0。這個變化必須在你進行攻擊之前宣言，且會持續直到你的下個回合開始。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "All-out Attack",
+									"translate_name": "全力攻擊", "name": "All-out Attack",
 									"entries": [
-										"When you make an attack you can take a penalty of up to –2 on your active defenses (Dodge and Parry) and add the same number (up to +2) to your attack bonus. Your defense bonuses cannot be reduced below +0 and your attack bonus cannot more than double. The changes to attack and defense bonus are declared before you make the attack check and last until the start of your next turn."
+										"當你進行一次攻擊時，你可以使你的主動防禦（閃避和格擋）承受最多-2的罰值，以使你的攻擊加值獲得相同數值（最多+2）的加值。你的防禦加值不能透過這個方式被降至低於+0，且你的攻擊加值不能因此超過原本的兩倍。這個變化必須在你進行攻擊之前宣言，且會持續直到你的下個回合開始。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Defensive Attack",
+									"translate_name": "防禦性攻擊", "name": "Defensive Attack",
 									"entries": [
-										"When you make an attack you can take a penalty of up to –2 on your attack bonus and add the same number (up to +2) to your active defenses (Dodge and Parry). Your attack bonus cannot be reduced below +0 and your defense bonuses cannot more than double. The changes to attack and defense bonus last until the start of your next turn. This maneuver does not apply to effects requiring no attack check or allowing no resistance check."
+										"當你進行一次攻擊時，你可以使你的攻擊加值承受最多-2的罰值，以使你的主動防禦（閃避和格擋）獲得相同數值（最多+2）的加值。你的攻擊加值不能透過這個方式被降至低於+0，且你的主動防禦不能因此超過原本的兩倍。這個對攻擊和防禦加值的變化會持續直到你的下個回合開始。這個戰技不能應用於不需要攻擊檢定或可以不進行抵抗檢定的效果。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Demoralize",
+									"translate_name": "挫敗士氣", "name": "Demoralize",
 									"entries": [
-										"You can use Intimidation in combat as a standard action to undermine an opponent’s confidence. Make an Intimidation check as a standard action opposed by the better of your target’s Insight or Will defense. If your Intimidation check succeeds, your target is impaired (a –2 circumstance penalty on checks) until the end of your next round. With four or more degrees of success, the target is disabled (a –5 penalty) until the end of your next round."
+										"你可以在戰鬥中以一個標準動作使用{@skill 威嚇}技能以挫敗一名敵人的自信。以一個標準動作，使用威嚇與你目標的{@skill 洞見}或意志防禦（看何者較高）進行一次對抗檢定。若你的威嚇檢定成功，則你的目標將陷入{@condition 行動乏能}狀態（在所有檢定上承受-2情境罰值），持續直到你的下個回合結束。若你在該檢定中獲得了程度四或以上的成功，則目標將改為陷入{@condition 行動障礙}狀態（-5情境罰值）並持續直到你的下個回合結束。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Feint",
+									"translate_name": "佯攻", "name": "Feint",
 									"entries": [
-										"You can use Deception as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s Deception or Insight. If your Deception check succeeds, the target is vulnerable against your next attack, until the end of your next round (see Vulnerable in the Conditions section of The Basics)."
+										"你可以在戰鬥中以一個標準動作使用{@skill 欺瞞}技能以誤導一名敵人的判斷。以一個標準動作，使用你的欺瞞與你目標的{@skill 欺瞞}或{@skill 洞見}（看何者較高）進行一次對抗檢定。若你的欺瞞檢定成功，則目標對你的下一次攻擊而言將被視為{@condition 脆弱}狀態，持續直到你的下一輪結束。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Finishing Attack",
+									"translate_name": "終結攻擊", "name": "Finishing Attack",
 									"entries": [
-										"When you attack a defenseless target at close range, you can choose to make the attack as a routine check (see Routine Checks in The Basics). This generally means your attack hits automatically, since the target has no defense bonus, and the routine check overcomes the normal difficulty.",
-										"If you choose to make your attack check normally (against DC 10), then a successful hit is treated as a critical hit, with a +5 circumstance bonus to the attack’s resistance DC. Additionally, if you hit with a damaging attack with intent to kill, and the target’s resistance check has three or more degrees of failure, the target dies immediately."
+										"當你攻擊一名位於你近身範圍內，且陷入{@condition 無防備}狀態的目標，你可以選擇以例行檢定的方式對他進行攻擊（參見基本規則中的{@rule 例行檢定|basic|1|Routine Checks}）。由於目標失去了防禦加值，且例行檢定的結果通常都能夠在正常難度下成功，因此這通常會使你的攻擊自動命中目標。",
+										"但若你選擇如常進行攻擊檢定（DC 10）並且成功命中,則這次攻擊將被視為暴擊，且使該攻擊的抵抗DC獲得+5的情境加值。此外，若你意圖殺死目標並命中他，且目標在抵抗檢定中獲得程度三或以上的失敗，則目標將立即死亡。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Power Attack",
+									"translate_name": "強力攻擊", "name": "Power Attack",
 									"entries": [
-										"When you make an attack you can take a penalty of up to –2 on your attack bonus and add the same number (up to +2) to the effect bonus of your attack. Your attack bonus cannot be reduced below +0 and the effect bonus cannot more than double. The changes to attack and effect are decided before you make your attack check and last until the start of your next turn. This maneuver does not apply to effects requiring no attack check or allowing no resistance check."
+										"當你進行一次攻擊時，你可以使你的攻擊加值承受最多-2的罰值，以使你的效果加值獲得相同數值（最多+2）的加值。你的攻擊加值不能透過這個方式被降至低於+0，且你的效果加值不能因此超過原本的兩倍。這個對攻擊和效果加值的變化必須在你進行攻擊之前宣言，且會持續直到你的下個回合開始。這個戰技不能應用於不需要攻擊檢定或可以不進行抵抗檢定的效果。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Slam attack",
+									"translate_name": "猛撞攻擊", "name": "Slam attack",
 									"entries": [
-										"When you charge, you can charge right into your target, using your momentum to strengthen your attack, but potentially receiving some damage from the impact yourself. The damage rank for your attack equals your movement speed rank, or your normal damage rank, with a +1 circumstance bonus, whichever is higher. If you move your full speed before you charge, increase your damage by either means by an additional +1 circumstance bonus. The Gamemaster may limit your base slam attack damage (before applying circumstance modifiers) by the series power level.",
+										"當你進行衝鋒時，你可以衝鋒撞上你的目標，並利用你的動能以增強你的攻擊，然而這可能會導致你承受衝擊所反饋的一部份傷害。你攻擊所造成的傷害等級將等同於你的移動速度等級、或你原本的傷害等級+1級情境加值，看何者較高。若你在攻擊前以你完整的移動速度衝鋒，則你所造成的傷害等級將再獲得額外的+1情境加值。遊戲主持人可能會使你猛撞攻擊的基本傷害（加上情境加值之前的傷害等級）受限於劇集的超能力等級。",
 										{
 											"type": "example",
 											"entries": [
-												"Your hero flies into a foe, moving at speed rank 10. His unarmed damage (Strength) rank is only 2, so he uses his speed rank of 10 for the damage. Since he also moved his full speed to build up momentum, he increases his damage by +1 for a total damage rank of 11. If a base damage rank of 10 is too high for the series, the GM may impose a lower limit on his slam attack damage, applying the +1 modifier for the full speed move to the lowered rank."
+												"你的英雄飛向一名敵人，並以等級10的飛行速度移動。他的徒手傷害（力量）等級僅有2級，因此他選擇使用他10級的移動速度作為猛撞攻擊的傷害等級。由於他以他完整的移動速度衝鋒以累積動能，因此他的傷害等級將額外+1，該傷害等級的總合為11級。若10級的基本傷害等級對於該劇集來說過高，則GM可能會限制他的猛撞攻擊傷害到一個較低的數值，然後再讓該數值加上因完整速度移動而獲得的+1級情境加值。"
 											]
 										},
-										"You suffer some of the impact of slamming into a target; make a Toughness resistance check against half the damage rank of your attack (rounded down).",
+										"你會承受因撞上目標而反饋的部份衝擊；進行一次堅實抵抗檢定以對抗你攻擊傷害等級的一半（向下取整）。",
 										{
 											"type": "example",
 											"entries": [
-												"Your hero hits his target, and must make his own Toughness resistance check against damage rank 5: his slam attack damage of 11, divided by 2, which equals 5.5, rounded down to 5. Fortunately, his helmet provides him with an invisible electromagnetic field for protection and the hero manages to avoid the damage, hoping his opponent won’t be so lucky!"
+												"你的英雄命中了他的目標，且它自己將必須進行一次堅實抵抗檢定以對抗5級的傷害等級：他的猛撞攻擊傷害為11，除與2將得到5.5，向下取整為5。幸運的是，他的頭盔為他製造了一道隱形的電磁力場以避免他受到反饋的衝擊傷害──但他的對手恐怕就沒那麼幸運了！"
 											]
 										},
-										"Bonuses to Toughness protect against slam attack damage normally. Immunity to slam damage you inflict is a rank 2 Immunity effect, while Immunity to all slam damage is rank 5 (see Immunity in the Powers)."
+										"在對抗猛撞攻擊的傷害時，堅實防禦所獲得的加值將如常運作。免疫你自己所造成的猛撞傷害是一個2級的{@effect 免疫}效果，而免疫所有的猛撞傷害則需要5級。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Surprise Attack",
+									"translate_name": "突襲攻擊", "name": "Surprise Attack",
 									"entries": [
-										"On occasions when your attack catches a target by surprise, the target is vulnerable to your attacks. Surprise attacks occur during the surprise round of a conflict (see Surprise) and may also occur as a result of stealth or concealment, allowing you to sneak up on a target. The GM can also grant you a surprise attack for an unusual maneuver that catches the target off-guard, such as an Indirect attack (see the Indirect modifier for more)."
+										"有時候，當你的攻擊藉著突襲而逮著目標的破綻，目標對你的攻擊而言將被視為處於{@condition 脆弱}狀態。突襲攻擊會發生在衝突中的突襲輪期間（參見{@rule 突襲|basic|8|Surprise}），也可能會是因為潛行或遮蔽所導致的結果，讓你能夠悄悄接近目標並發起突襲。GM也可以在你成功展現一項不凡絕技以使目標措手不及時給你進行突襲攻擊的機會，像是Indirect attack（參見{@modifier Indirect}修飾符）。"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Team Attack",
+									"translate_name": "團隊攻擊", "name": "Team Attack",
 									"entries": [
-										"Multiple attackers can attempt to combine their attacks in order to overwhelm an opponent’s resistance. The attacks to be combined must have the same effect and resistance and be within 5 ranks of each other. So attacks all doing Damage against Toughness can combine, but not with a Mental Blast, for example, which is a Damage effect, but resisted by Will rather than Toughness.",
-										"The attackers must all delay to the same point in the initiative order (that of the slowest attacker). Each attacker makes an attack check against the target’s defense. Effects not requiring an attack check may be used in a team attack; count the effect as having one degree of success, if it is not the main attack.",
-										"Take the largest effect rank of the attacks that hit and count the combined degrees of success for the other attacks: one degree provides a +2 circumstance bonus to the rank of the main attack, three or more provides a +5 circumstance bonus. Unlike a normal team check, degrees of failure do not reduce success; those attacks simply miss and have no effect. See Team Checks in The Basics for more."
+										"複數攻擊者可以嘗試聯合他們的攻擊以壓倒一名對手的抵抗能力。這陣聯合攻擊必須具有相同的效果和抵抗項，且彼此的差異必須在5級之內。舉例來說，同樣具有以堅實防禦抵抗的{@effect 傷害}效果可以聯合起來，但不能與心靈爆破聯合（具有傷害效果，但是以意志防禦抵抗，而非堅實防禦）。",
+										"所有攻擊者都必須延後至相同先攻順序的時間點（亦即最慢的攻擊者的先攻順序位置）。每個攻擊者都進行一次對抗目標防禦的攻擊檢定。不需要進行攻擊檢定的效果也可以被聯合起來進行團隊攻擊；若該效果並非主要攻擊，則將該效果視作得到一個程度成功的檢定結果。",
+										"從成功命中目標的攻擊中選擇效果等級最大的攻擊作為主要攻擊，並將其他攻擊的成功程度總和在一起：一個程度的成功將使主要攻擊獲得+2的情境加值，三個或以上程度的成功將使主要攻擊獲得+5的情境加值。與原本的團隊檢定不同，失敗的檢定結果並不會降低成功的程度；這些攻擊僅僅是單純的失手，且不會造成任何效果。參見基本規則中的{@rule 團隊檢定|basic|1|Team Checks}以查閱更多說明。"
 									]
 								}
 							]

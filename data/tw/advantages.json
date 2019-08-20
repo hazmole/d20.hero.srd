@@ -4,7 +4,7 @@
 			"translate_name": "精準攻擊", "name": "Accurate Attack",
 			"type": "C",
 			"entries": [
-				"當你進行「{@rule 精準攻擊|basic|8|accurate attack}」（參見戰技）時，你可以使該攻擊的效果強度承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
+				"當你進行「{@rule 精準攻擊|basic|8|accurate attack}」（參見戰技）時，你可以使該攻擊的效果修正值承受最多-5的減值，以使你的攻擊加值獲得同等數值（最多+5）的加值。"
 			]
 		},
 		{

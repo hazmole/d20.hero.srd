@@ -5823,21 +5823,21 @@
 									"type": "actionBlock",
 									"name": "Demoralize",
 									"entries": [
-										"You can use Intimidation in combat as a standard action to undermine an opponent’s confidence. Make an Intimidation check as a standard action opposed by the better of your target’s Insight or Will defense. If your Intimidation check succeeds, your target is impaired (a –2 circumstance penalty on checks) until the end of your next round. With four or more degrees of success, the target is disabled (a –5 penalty) until the end of your next round."
+										"You can use {@skill Intimidation} in combat as a standard action to undermine an opponent’s confidence. Make an Intimidation check as a standard action opposed by the better of your target’s {@skill Insight} or Will defense. If your Intimidation check succeeds, your target is {@condition impaired} (a –2 circumstance penalty on checks) until the end of your next round. With four or more degrees of success, the target is {@condition disabled} (a –5 penalty) until the end of your next round."
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Feint",
 									"entries": [
-										"You can use Deception as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s Deception or Insight. If your Deception check succeeds, the target is vulnerable against your next attack, until the end of your next round (see Vulnerable in the Conditions section of The Basics)."
+										"You can use {@skill Deception} as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s {@skill Deception} or {@skill Insight}. If your Deception check succeeds, the target is {@condition vulnerable} against your next attack, until the end of your next round."
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Finishing Attack",
 									"entries": [
-										"When you attack a defenseless target at close range, you can choose to make the attack as a routine check (see Routine Checks in The Basics). This generally means your attack hits automatically, since the target has no defense bonus, and the routine check overcomes the normal difficulty.",
+										"When you attack a {@condition defenseless} target at close range, you can choose to make the attack as a routine check (see {@rule Routine Checks|basic|1|Routine Checks} in The Basics). This generally means your attack hits automatically, since the target has no defense bonus, and the routine check overcomes the normal difficulty.",
 										"If you choose to make your attack check normally (against DC 10), then a successful hit is treated as a critical hit, with a +5 circumstance bonus to the attack’s resistance DC. Additionally, if you hit with a damaging attack with intent to kill, and the target’s resistance check has three or more degrees of failure, the target dies immediately."
 									]
 								},
@@ -5866,23 +5866,23 @@
 												"Your hero hits his target, and must make his own Toughness resistance check against damage rank 5: his slam attack damage of 11, divided by 2, which equals 5.5, rounded down to 5. Fortunately, his helmet provides him with an invisible electromagnetic field for protection and the hero manages to avoid the damage, hoping his opponent won’t be so lucky!"
 											]
 										},
-										"Bonuses to Toughness protect against slam attack damage normally. Immunity to slam damage you inflict is a rank 2 Immunity effect, while Immunity to all slam damage is rank 5 (see Immunity in the Powers)."
+										"Bonuses to Toughness protect against slam attack damage normally. Immunity to slam damage you inflict is a rank 2 {@effect Immunity} effect, while Immunity to all slam damage is rank 5."
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Surprise Attack",
 									"entries": [
-										"On occasions when your attack catches a target by surprise, the target is vulnerable to your attacks. Surprise attacks occur during the surprise round of a conflict (see Surprise) and may also occur as a result of stealth or concealment, allowing you to sneak up on a target. The GM can also grant you a surprise attack for an unusual maneuver that catches the target off-guard, such as an Indirect attack (see the Indirect modifier for more)."
+										"On occasions when your attack catches a target by surprise, the target is {@condition vulnerable} to your attacks. Surprise attacks occur during the surprise round of a conflict (see {@rule Surprise|basic|8|Surprise}) and may also occur as a result of stealth or concealment, allowing you to sneak up on a target. The GM can also grant you a surprise attack for an unusual maneuver that catches the target off-guard, such as an Indirect attack (see the {@modifier Indirect} modifier for more)."
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Team Attack",
 									"entries": [
-										"Multiple attackers can attempt to combine their attacks in order to overwhelm an opponent’s resistance. The attacks to be combined must have the same effect and resistance and be within 5 ranks of each other. So attacks all doing Damage against Toughness can combine, but not with a Mental Blast, for example, which is a Damage effect, but resisted by Will rather than Toughness.",
+										"Multiple attackers can attempt to combine their attacks in order to overwhelm an opponent’s resistance. The attacks to be combined must have the same effect and resistance and be within 5 ranks of each other. So attacks all doing {@effect Damage} against Toughness can combine, but not with a Mental Blast, for example, which is a Damage effect, but resisted by Will rather than Toughness.",
 										"The attackers must all delay to the same point in the initiative order (that of the slowest attacker). Each attacker makes an attack check against the target’s defense. Effects not requiring an attack check may be used in a team attack; count the effect as having one degree of success, if it is not the main attack.",
-										"Take the largest effect rank of the attacks that hit and count the combined degrees of success for the other attacks: one degree provides a +2 circumstance bonus to the rank of the main attack, three or more provides a +5 circumstance bonus. Unlike a normal team check, degrees of failure do not reduce success; those attacks simply miss and have no effect. See Team Checks in The Basics for more."
+										"Take the largest effect rank of the attacks that hit and count the combined degrees of success for the other attacks: one degree provides a +2 circumstance bonus to the rank of the main attack, three or more provides a +5 circumstance bonus. Unlike a normal team check, degrees of failure do not reduce success; those attacks simply miss and have no effect. See @rule Team Checks|basic|1|Team Checks} in The Basics for more."
 									]
 								}
 							]
