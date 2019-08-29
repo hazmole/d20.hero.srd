@@ -1,13 +1,13 @@
 {
 	"modifier": [
 		{
-			"name": "Accurate",
+			"translate_name": "準確", "name": "Accurate",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"An effect with this extra is especially accurate; you get +2 per Accurate rank to attack checks made with it. The power level limits maximum attack bonus with any given effect."
+				"應用了這個強化的效果會變得特別準確；你在以該效果進行攻擊檢定時將會獲得每準確等級+2的加值。超能力階級仍會限制任何效果的最大攻擊加值。"
 			]
 		},
 		{
