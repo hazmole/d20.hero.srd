@@ -1833,8 +1833,8 @@
 						{
 							"type": "list",
 							"items": [
-								"Some power effects raise or lower ability ranks (see {@b Powers} chapter).",
-								"ou can improve ability ranks permanently by spending earned character points on them, but you cannot increase an ability rank above the limits set by the series’ power level (see {@b Power Level} chapter)."
+								"Some power effects raise or lower ability ranks (see {@5etools Powers|powereffects.html} chapter).",
+								"You can improve ability ranks permanently by spending earned character points on them, but you cannot increase an ability rank above the limits set by the series’ power level (see {@rule Power Level|basic|2|Power level} chapter)."
 							]
 						},
 						"Whenever an ability rank changes, all traits associated with the ability change as well. So if you increase your character’s Agility, his Agility-based skills and Dodge defense also increase. Likewise, if the hero’s Agility bonus decreases, his Agility-based skills and Dodge suffer.",

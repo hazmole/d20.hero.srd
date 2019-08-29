@@ -28,21 +28,21 @@
 			{
 				"_translate_name": "秘密起源", "name": "Secret Origins",
 				"headers": [
-					{ "name": "Hero Archetypes" },
-					{ "name": "Hero Design" },
-					{ "name": "Character Points" },
-					{ "name": "Complications" },
-					{ "name": "Background" },
-					{ "name": "Hero Advancement & Improvement" },
-					{ "name": "Character Archetypes" }
+					{ "_translate_name": "英雄範型", "name": "Hero Archetypes" },
+					{ "_translate_name": "英雄設計", "name": "Hero Design" },
+					{ "_translate_name": "角色點", "name": "Character Points" },
+					{ "_translate_name": "糾葛難題", "name": "Complications" },
+					{ "_translate_name": "背景", "name": "Background" },
+					{ "_translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement" },
+					{ "_translate_name": "角色範型", "name": "Character Archetypes" }
 				]
 			},
 			{
 				"translate_name": "屬性", "name": "Abilities",
 				"headers": [
-					{ "name": "Ability Ranks" },
+					{ "translate_name": "屬性等級", "name": "Ability Ranks" },
 					{ "translate_name": "屬性值", "name": "The Abilities" },
-					{ "name": "Altering Abilities" },
+					{ "translate_name": "改變屬性值", "name": "Altering Abilities" },
 					{ "translate_name": "防禦＆先攻", "name": "Defenses & Initiative" }
 				]
 			},
@@ -1034,12 +1034,12 @@
 		},
 		{
 			"type": "section",
-			"name": "Secret Origins",
+			"translate_name": "秘密起源", "name": "Secret Origins",
 			"entries": [
 				"This game allows you to create any sort of hero you want by choosing your character’s abilities, skills, powers, and other traits. You have a “budget” of {@b Character Points} with which to build your hero. There are also certain limits and guidelines imposed by the game’s {@b power level}, chosen by the Gamemaster, but within those limits you can build a wide range of characters.",
 				{
 					"type": "section",
-					"name": "Hero Archetypes",
+					"translate_name": "進行遊戲", "name": "Hero Archetypes",
 					"entries": [
 						"The quickest and easiest way to create your own hero is to look through the various pre-made {@b hero archetypes}, choose one that fits the type of hero you want to play, and customize it to match your ideas. With just a few quick choices, you have a new hero, complete and ready for the game!",
 						"Each archetype offers a complete, ready-to-play power level 10 hero, the recommended starting power level. Some archetypes offer a few simple choices in terms of skills, advantages, or sets of powers to fit different themes. For example, many archetypes offer a choice of an Expertise skill to round out the character’s background and interests outside of superheroism.",
@@ -1625,12 +1625,12 @@
 						"The ability rank is added to, or subtracted from, die rolls when your character does something related to that ability. For example, your Strength rank affects the amount of damage you do when punching someone. Your Intellect rank comes into play when you roll skills based on Intellect, and so forth. Sometimes your rank is used to calculate another value, such as when you use your Agility to determine how good you are at avoiding harm with your reflexes (your Dodge defense).",
 						{
 							"type": "entries",
-							"name": "Buying Ability Ranks",
+							"translate_name": "購買屬性等級", "name": "Buying Ability Ranks",
 							"entries": [
-								"You choose your hero’s ability ranks by spending character points on them. Increasing an ability rank by 1 costs 2 character points, so putting two points into Strength, for example, raises it from 0 to 1. Remember a rank of 0 is average, 2 is a fair amount of talent or natural ability, 3 is exceptional, 4 extraordinary, and so forth. (See the {@b Ability Benchmarks} table for guidelines.)",
+								"透過花費角色點，你可以決定你英雄的屬性等級。每提升一個屬性1級都需要花費2點角色點，因此，舉例來說，在力量上花費2點角色點可以使它從0提升到1。要記住等級0代表的是平均水準，2級已經代表著相當程度的天賦，3級是傑出，4級不同凡響。（參見{@b 屬性值基準}表以查閱其準則。）",
 								{
 									"type": "table",
-									"caption": "Ability Benchmarks",
+									"caption": "屬性值基準",
 									"colLabels": [
 										"等級",
 										"描述"
@@ -1640,31 +1640,31 @@
 										"col-9"
 									],
 									"rows": [
-										["-5", "Completely inept or disabled"],
-										["-4", "Weak; infant"],
-										["-3", "Younger child"],
-										["-2", "Child, elderly, impaired"],
-										["-1", "Below average; teenager"],
-										["0", "Average adult"],
-										["1", "Above average"],
-										["2", "Well above average"],
-										["3", "Gifted"],
-										["4", "Highly gifted"],
-										["5", "Best in a nation"],
-										["6", "One of the best in the world"],
-										["7", "Best ever; peak of human achievement"],
-										["8", "Low superhuman"],
-										["10", "Moderate superhuman"],
-										["13", "High superhuman"],
-										["15", "Very high superhuman"],
-										["20", "Cosmic"]
+										["-5", "完全無或殘疾"],
+										["-4", "虛弱；嬰兒"],
+										["-3", "幼童"],
+										["-2", "孩童、老人、受傷者"],
+										["-1", "低於平均；青少年"],
+										["0", "平均成年人"],
+										["1", "高於平均"],
+										["2", "遠高於平均"],
+										["3", "有天賦"],
+										["4", "天賦異稟"],
+										["5", "國家頂級"],
+										["6", "世界頂級之一"],
+										["7", "有史以來最好的；人類成就的巔峰"],
+										["8", "低超人類級"],
+										["10", "中等超人類級"],
+										["13", "高等超人類級"],
+										["15", "極高等超人類級"],
+										["20", "宇宙級"]
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Reducing Abilities",
+									"translate_name": "降低屬性等級", "name": "Reducing Abilities",
 									"entries": [
-										"You can also lower one or more of your character’s ability ranks from the starting value of 0. Each rank you lower an ability gives you an additional two character points to spend elsewhere. You cannot lower an ability rank below –5, which is itself a serious deficiency.",
+										"你也可以將你角色的其中一個或多個屬性等級從其0級起始值向下降低。你每降低屬性等級1級，你就能額外獲得二點角色點。你不能將屬性等級降低至-5以下，-5的屬性值本身就代表著一向嚴重的殘缺。",
 										{
 											"type": "middleEnhance",
 											"text": "屬性花費 = 2點角色點／每+1屬性等級"
@@ -1679,9 +1679,9 @@
 						},
 						{
 							"type": "inset",
-							"name": "Beyond Human",
+							"translate_name": "超越人類", "name": "Beyond Human",
 							"entries": [
-								"Although a rank of 7 is defined as “the peak of human achievement” in an ability on the {@b Ability Benchmarks} table, a character with an ability rank greater than 7 isn’t necessarily “non-human,” merely superhuman in comparison to ordinary people. Many “normal human” characters in the comics have truly superhuman abilities, particularly mental abilities. A character can have a superhuman ability rank without necessarily being anything other than an amazingly talented, well-trained human being. The limits of what “normal” people can accomplish is up to the Gamemaster and depends very much on the style of the game."
+								"儘管{@b 屬性值基準}表中將等級7定義為「人類成就的巔峰」，但一名屬性等級高於7級的角色並不需要因此必須是「非人」，而僅僅是跟尋常人類相比有著超人般的能力而已。漫畫中有許多「正常人類」角色都擁有超人般的屬性，特別是心智方面的屬性。角色可以單純因為天賦異稟，或是受過嚴格訓練而具有超人般的能力屬性。「正常人類」所能達成的限制全由遊戲主持人決定，且會根據遊戲風格不同而有很大的變化。"
 							]
 						}
 					]
@@ -1827,17 +1827,17 @@
 				},
 				{
 					"type": "section",
-					"name": "Altering Abilities",
+					"translate_name": "改變屬性值", "name": "Altering Abilities",
 					"entries": [
-						"Over the course of play, your hero’s ability ranks may change for the following reasons:",
+						"在遊戲的過程中，你英雄的屬性等級可能會因下列因素而被改變：",
 						{
 							"type": "list",
 							"items": [
-								"Some power effects raise or lower ability ranks (see {@b Powers} chapter).",
-								"ou can improve ability ranks permanently by spending earned character points on them, but you cannot increase an ability rank above the limits set by the series’ power level (see {@b Power Level} chapter)."
+								"某些能夠提升或下降屬性等級的超能力效果（參見{@5etools 超能力|powereffects.html}章節）。",
+								"你可以藉由花費獲得的角色點來提升屬性等級，但你不能使屬性等級提升至超過劇集超能力階級所設下的限制（參見{@rule Power Level|basic|2|Power level}段落）。"
 							]
 						},
-						"Whenever an ability rank changes, all traits associated with the ability change as well. So if you increase your character’s Agility, his Agility-based skills and Dodge defense also increase. Likewise, if the hero’s Agility bonus decreases, his Agility-based skills and Dodge suffer.",
+						"每當一個屬性的等級被改變，所有與該屬性關聯的數據也都會被改變。因此若你提升了你角色的敏捷，則他基於敏捷的技能以及閃避防禦也都將跟著提升。同樣的，若該英雄的敏捷被降低，則他基於敏捷的技能以及閃避防禦也都將受到影響。",
 						{
 							"type": "entries",
 							"name": "Debilitated Abilities",

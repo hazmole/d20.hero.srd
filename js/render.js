@@ -3821,10 +3821,11 @@ Renderer.general = {
 			value_str = value;
 		}
 		value_str = (value_pos? "+": "") + value_str;
+		var name = modifier.translate_name? modifier.translate_name: modifier.name;
 		switch(cost.type){
 			case "per": return FMT("modcost_per", value_str);
 			case "flat": return FMT("modcost_flat", value_str);
-			case "flat_per": return isList? FMT("modcost_flat_per", value_str, ""): FMT("modcost_flat_per", value_str, modifier.name);
+			case "flat_per": return isList? FMT("modcost_flat_per", value_str, ""): FMT("modcost_flat_per", value_str, name);
 			case "special": return isList? FMT("special"): FMT(value);
 			default: return "";
 		};
