@@ -1078,35 +1078,35 @@
 							"type": "entries",
 							"name": "4. Abilities",
 							"entries": [
-								"Choose the ability ranks you want your character to have and pay 2 Character points for each rank. Choose defense bonuses for your character, paying 1 Character point per +1 defense over the base rank provided by your hero’s abilities. To improve your hero’s Toughness, see {@b Advantages} and {@b Power], following. See the {@b Abilities} chapter for details."
+								"Choose the ability ranks you want your character to have and pay 2 Character points for each rank. Choose defense bonuses for your character, paying 1 Character point per +1 defense over the base rank provided by your hero’s abilities. To improve your hero’s Toughness, see {@rule Advantages|basic|5} and {@rule Powers|basic|6}, following. See the {@rule Abilities|basic|3} chapter for details."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "5. Skills",
 							"entries": [
-								"Choose the skill ranks you want your character to have and pay 1 Character point per 2 total skill ranks. See the {@b Skills} chapter for details."
+								"Choose the skill ranks you want your character to have and pay 1 Character point per 2 total skill ranks. See the {@rule Skills|basic|4} chapter for details."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "6. Advantages",
 							"entries": [
-								"Choose the advantages you want your character to have and pay 1 Character point per advantage or rank in a advantage. See the {@b Advantages} chapter for details."
+								"Choose the advantages you want your character to have and pay 1 Character point per advantage or rank in a advantage. See the {@rule Advantages|basic|5} chapter for details."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "7. Powers",
 							"entries": [
-								"Create your hero’s powers by choosing their desired effects and paying the effects’ base cost, adjusted for any modifiers, and multiplied by the number of ranks. See the {@b Powers} chapter for details."
+								"Create your hero’s powers by choosing their desired effects and paying the effects’ base cost, adjusted for any modifiers, and multiplied by the number of ranks. See the {@rule Powers|basic|6} chapter for details."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "8. Complications",
 							"entries": [
-								"Choose at least two complications for your hero. You can have more, if you want, and the more complications your hero faces, the greater your chances for earning victory points during the game. See the {@b Complications} chapter for details."
+								"Choose at least two complications for your hero. You can have more, if you want, and the more complications your hero faces, the greater your chances for earning victory points during the game. See the {@rule Complications|basic|2|complications} chapter for details."
 							]
 						},
 						{
