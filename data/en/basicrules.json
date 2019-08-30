@@ -1071,7 +1071,7 @@
 							"type": "entries",
 							"name": "3. Power Level",
 							"entries": [
-								"Your GM sets the starting power level for the series. Generally, this is level 10, but it may range anywhere from level 5 to level 20 or more. The power level determines the player characters’ starting Character points and exactly where you can spend them. See {@b Power Level} later in this chapter for details."
+								"Your GM sets the starting power level for the series. Generally, this is level 10, but it may range anywhere from level 5 to level 20 or more. The power level determines the player characters’ starting Character points and exactly where you can spend them. See {@rule Power Level|basic|2|Power Level} later in this chapter for details."
 							]
 						},
 						{

@@ -1064,14 +1064,14 @@
 							"type": "entries",
 							"translate_name": "2. 遊戲主持人準則", "name": "2. Gamemaster Guidelines",
 							"entries": [
-								"Your GM may have particular guidelines for characters in the game, such as not allowing certain powers or concepts or requiring particular descriptors. If there are no aliens in the setting, for example, then you obviously can’t play an alien hero. Likewise, if your Gamemaster bans mental powers from the series, then a psychic isn’t appropriate. Run your hero concept by your Gamemaster before you start working on it! You might also want to consult with your fellow players so you can design your characters together and ensure they’ll make a good team."
+								"你的GM可能會對於遊戲中的角色們設下某些必須遵守的準則，像是不允許某些類型的超能力、概念、或要求特定的描述符。舉例來說，若故事設定中不存在外星人，那麼你顯然不能扮演一名外星英雄。同樣的，若你的遊戲主持人禁止了心靈超能力出現在劇集中，那麼心靈超能力者也就不那麼合適。在你開始之前，先跟你的遊戲主持人談談你的英雄構想！你也可能會想要跟你的其他玩家夥伴們討論，一同設計角色並確保他們能夠組成最棒的團隊。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "3. 超能力階級", "name": "3. Power Level",
 							"entries": [
-								"Your GM sets the starting power level for the series. Generally, this is level 10, but it may range anywhere from level 5 to level 20 or more. The power level determines the player characters’ starting Character points and exactly where you can spend them. See {@b Power Level} later in this chapter for details."
+								"你的GM會為整個劇集設定起始的超能力階級。通常來說，這個階級會是10，但它也可以從5級到甚至超過20的數字。這個超能力階級將決定玩家角色們的起始角色點數，以及你可以花費它們時所能達到的程度限制。參見本章節稍後將提及的{@rule 超能力階級|basic|2|Power Level}以查閱更多細節。"
 							]
 						},
 						{
@@ -1139,12 +1139,12 @@
 								"The game’s power level provides a guideline for how many Character points you get initially to design your character, as shown on the {@b Starting Character points} table. The Gamemaster can vary the starting Character points as desired to suit the series.",
 								{
 									"type": "table",
-									"caption": "Starting Character Points",
+									"caption": "起始角色點數",
 									"colLabels": [
-										"Power level",
-										"Starting Character Points",
-										"Power level",
-										"Starting Character Points"
+										"超能力階級",
+										"起始角色點數",
+										"超能力階級",
+										"起始角色點數"
 									],
 									"colStyles": [
 										"col-2 text-align-center",
@@ -1840,37 +1840,37 @@
 						"每當一個屬性的等級被改變，所有與該屬性關聯的數據也都會被改變。因此若你提升了你角色的敏捷，則他基於敏捷的技能以及閃避防禦也都將跟著提升。同樣的，若該英雄的敏捷被降低，則他基於敏捷的技能以及閃避防禦也都將受到影響。",
 						{
 							"type": "entries",
-							"name": "Debilitated Abilities",
+							"translate_name": "衰竭的屬性", "name": "Debilitated Abilities",
 							"entries": [
-								"If one of your hero’s ability ranks drops below –5 for any reason, that ability is said to be debilitated and the character suffers more serious effects than just a penalty to certain traits and rolls, as follows:",
+								"若你英雄的其中一個屬性等級因為任何理由而被降至-5以下，則該屬性被稱作「衰竭」，且該角色除了在某些數據和檢定上承受罰值之外，還將承受更加嚴重的後果，如下所示：",
 								{
 									"type": "list",
 									"items": [
-										"Debilitated Strength, Agility, or Dexterity means the hero collapses: {@condition defenseless}, {@condition immobile|immobilized}, and {@condition stunned} (although still conscious and aware).",
-										"Debilitated Stamina means the hero is {@condition dying}, and suffers a –5 modifier on Fortitude checks to avoid death on top of it.",
-										"Debilitated Fighting means the hero is {@condition dazed} and {@condition defenseless}, and cannot make close attacks.",
-										"Debilitated Intellect, Awareness, or Presence means the hero is {@condition unaware} and remains so until restored to at least a –5 rank in the ability."
+										"力量、敏捷、或靈巧衰竭，代表著英雄因體力不支而崩潰：該角色陷入{@condition 無防備}、{@condition 無法移動}、和{@condition 暈眩}狀態（然而他仍保有意識和察覺能力）。",
+										"體質衰竭，代表著英雄陷入{@condition 瀕死}，且在避免死亡所作的韌性檢定中將承受-5的修正值。",
+										"格鬥衰竭，代表著英雄陷入{@condition 目眩}和{@condition 無防備}狀態，且無法進行近身攻擊。",
+										"智力、覺察、或表現衰竭，代表著英雄陷入{@condition 感官喪失}狀態，且直到該屬性回復至最少-5級之前都將維持該狀態。"
 									]
 								},
-								"Debilitated ability ranks usually result from a power affecting your character. Ability ranks cannot be lowered any further once they are debilitated."
+								"屬性衰竭的發生通常是源自那些正影響著你角色的超能力。屬性一旦衰竭，其屬性等級就不會再被降低。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Absent Abilities",
+							"translate_name": "缺乏的屬性", "name": "Absent Abilities",
 							"entries": [
 								"Rather than having a rank of –5 in a given ability, some things or creatures actually lack an ability altogether. These beings automatically fail any check requiring the absent ability. The additional effects of an absent ability are as follows:",
 								{
 									"type": "list",
 									"items": [
-										"{@b Strength}: A creature with no Strength is incapable of exerting any physical force, either because it has no physical form (like an incorporeal ghost) or simply can’t move (like a tree).",
-										"{@b Stamina}: A creature with no Stamina has no physical body (like a ghost) or is not a living being (such as a robot or other construct). Creatures with no Stamina suffer and recover from damage like inanimate objects (see Damaging Objects under the Damage effect). They are immune to fatigued and exhausted conditions, but cannot exert extra effort. Creatures with no Stamina are often—but not necessarily—immune to many of the other things affecting living beings as well (see Immunity). They have no Fortitude defense.",
-										"{@b Dexterity}: A creature with no Dexterity cannot manipulate objects and hence cannot make physical attacks.",
-										"{@b Agility}: A creature with no Agility is unable to move its body under its own power and has no Dodge defense.",
-										"{@b Fighting}: A creature with no Fighting is incapable of making any sort of close attack (but may still be able to launch ranged attacks, if it has Dexterity).",
-										"{@b Intellect}: A creature with no Intellect is an automaton, lacking free will and operating entirely on simple instinct or preprogrammed instructions. Anything with no Intellect is immune to mental effects and interaction skills and has no Will defense.",
-										"{@b Awareness}: Anything with no Awareness is completely unaware and also has no Presence. It is an inanimate object, not a creature. Objects are immune to mental effects and interaction skills, and have no defenses apart from Toughness (and Fortitude, if they are alive).",
-										"{@b Presence}: Creatures without Presence are unable to interact and immune to interaction skills. They have no Will defense."
+										"{@b 力量}: A creature with no Strength is incapable of exerting any physical force, either because it has no physical form (like an incorporeal ghost) or simply can’t move (like a tree).",
+										"{@b 體質}: A creature with no Stamina has no physical body (like a ghost) or is not a living being (such as a robot or other construct). Creatures with no Stamina suffer and recover from damage like inanimate objects (see Damaging Objects under the Damage effect). They are immune to fatigued and exhausted conditions, but cannot exert extra effort. Creatures with no Stamina are often—but not necessarily—immune to many of the other things affecting living beings as well (see Immunity). They have no Fortitude defense.",
+										"{@b 靈巧}: A creature with no Dexterity cannot manipulate objects and hence cannot make physical attacks.",
+										"{@b 敏捷}: A creature with no Agility is unable to move its body under its own power and has no Dodge defense.",
+										"{@b 格鬥}: A creature with no Fighting is incapable of making any sort of close attack (but may still be able to launch ranged attacks, if it has Dexterity).",
+										"{@b 智力}: A creature with no Intellect is an automaton, lacking free will and operating entirely on simple instinct or preprogrammed instructions. Anything with no Intellect is immune to mental effects and interaction skills and has no Will defense.",
+										"{@b 覺察}: Anything with no Awareness is completely unaware and also has no Presence. It is an inanimate object, not a creature. Objects are immune to mental effects and interaction skills, and have no defenses apart from Toughness (and Fortitude, if they are alive).",
+										"{@b 表現}: Creatures without Presence are unable to interact and immune to interaction skills. They have no Will defense."
 									]
 								},
 								"Lacking an ability is –10 character points; that is, it gives the character an additional 10 character points to spend elsewhere, similar to having a –5 rank in an ability, but with different effects. Heroes in this system cannot be absent an ability without Gamemaster permission, as it can have significant effects on the character and the game.",

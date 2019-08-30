@@ -1898,7 +1898,7 @@
 					"type": "entries",
 					"translate_name": "擺盪", "name": "Swinging",
 					"entries": [
-						"利用你所準備的擺索、或者環境中可用的索帶和凸出物（樹枝、旗桿、藤蔓電話線和電纜等），你能夠以你的正常的地面速度等級在空中擺盪穿梭。"
+						"利用你所準備的擺索、或者環境中可用的索帶和凸出物（樹枝、旗桿、藤蔓、電話線、和電纜等），你能夠以你的正常的地面速度等級在空中擺盪穿梭。"
 					]
 				},
 				{
@@ -2561,7 +2561,7 @@
 			]
 		},
 		{
-			"name": "Speed",
+			"translate_name": "速度", "name": "Speed",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -2571,7 +2571,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can move faster than normal. You have a ground speed rank equal to your effect rank. This also improves all forms of movement based on ground speed."
+				"你可以移動的比原本還快。你擁有等同於此效果等級的地面速度等級。所有基於地面速度的移動方式也都將因此而受益。"
 			]
 		},
 		{

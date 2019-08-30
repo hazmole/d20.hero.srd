@@ -68,21 +68,21 @@
 			]
 		},
 		{
-			"translate_name": "精巧擒抱", "name": "Grabbing Finesse",
+			"translate_name": "擒抱巧勁", "name": "Grabbing Finesse",
 			"type": "C",
 			"entries": [
 				"你可以使用你的靈巧屬性，而非力量屬性來進行擒抱攻擊。你在擒抱期間不會因此處於{@condition 脆弱}狀態。參見{@rule 擒抱|basic|8|grab}動作以查閱更多細節。這對於比起力量，更著重於速度的徒手格鬥專家而言是個非常優秀的特長。"
 			]
 		},
 		{
-			"translate_name": "專精瞄準", "name": "Improved Aim",
+			"translate_name": "精通瞄準", "name": "Improved Aim",
 			"type": "C",
 			"entries": [
 				"你擁有一雙異常銳利的雙眼，讓你在遠程戰鬥中無往不利。當你採取一個標準動作以進行瞄準時，你將獲得雙倍的情境加值：你在近身攻擊或對鄰近目標進行遠程攻擊時獲得+10的情近加值，在更遠的距離進行遠程攻擊時獲得+5的情境加值。參見{@rule 瞄準|basic|8|aim}動作以查閱更多細節。"
 			]
 		},
 		{
-			"translate_name": "專精暴擊", "name": "Improved Critical",
+			"translate_name": "精通暴擊", "name": "Improved Critical",
 			"type": "C",
 			"rank": true,
 			"entries": [
@@ -90,35 +90,35 @@
 			]
 		},
 		{
-			"translate_name": "專精防守", "name": "Improved Defense",
+			"translate_name": "精通防守", "name": "Improved Defense",
 			"type": "C",
 			"entries": [
 				"當你在戰鬥中採取{@rule 防守|basic|8|defend}動作時，你在該輪間的主動防禦檢定獲得+2的情境加值。"
 			]
 		},
 		{
-			"translate_name": "專精繳械", "name": "Improved Disarm",
+			"translate_name": "精通繳械", "name": "Improved Disarm",
 			"type": "C",
 			"entries": [
 				"你在嘗試繳械對手時所進行的攻擊檢定並不會承受罰值，且對手不會得到反過來繳械你的機會（參見{@rule 繳械|basic|8|disarm}動作）。"
 			]
 		},
 		{
-			"translate_name": "專精擒抱", "name": "Improved Grab",
+			"translate_name": "精通擒抱", "name": "Improved Grab",
 			"type": "C",
 			"entries": [
 				"你可以只用單手進行擒抱攻擊，空出另一隻手。你可以在另一隻手執行其他動作時維持擒抱。你在擒抱期間不會因此處於{@condition 脆弱}狀態（參見{@rule 擒抱|basic|8|grab}動作）。"
 			]
 		},
 		{
-			"translate_name": "專精制伏", "name": "Improved Hold",
+			"translate_name": "精通制伏", "name": "Improved Hold",
 			"type": "C",
 			"entries": [
 				"你的擒抱特別難以掙脫。你所擒抱的對手在從擒抱中掙脫的檢定中承受-5的情境罰值。"
 			]
 		},
 		{
-			"translate_name": "專精先攻", "name": "Improved Initiative",
+			"translate_name": "精通先攻", "name": "Improved Initiative",
 			"type": "C",
 			"rank": true,
 			"entries": [
@@ -126,14 +126,14 @@
 			]
 		},
 		{
-			"translate_name": "專精粉碎", "name": "Improved Smash",
+			"translate_name": "精通粉碎", "name": "Improved Smash",
 			"type": "C",
 			"entries": [
 				"你在嘗試命中另一個角色所持握的物品時所進行的攻擊檢定並不會承受罰值（參見{@rule 粉碎|basic|8|smash}動作）。"
 			]
 		},
 		{
-			"translate_name": "專精絆摔", "name": "Improved Trip",
+			"translate_name": "精通絆摔", "name": "Improved Trip",
 			"type": "C",
 			"entries": [
 				"你在嘗試絆摔對手時所進行的攻擊檢定並不會承受罰值，且對手不會得到反過來絆摔你的機會。當攻擊檢定成功後，你要使用你的{@skill 運動}或{@skill 雜技}與對手的{@skill 運動}或{@skill 雜技}進行對抗檢定時，由你選擇你的對手要使用哪個技能進行對抗，而非由對手選擇（參見{@rule 絆摔|basic|8|trip}動作）。這對於徒手格鬥家而言是個優秀的武術特長。"
