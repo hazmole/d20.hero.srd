@@ -31,25 +31,25 @@
 			]
 		},
 		{
-			"name": "Affects Objects",
+			"translate_name": "影響物體", "name": "Affects Objects",
 			"type": "extra",
 			"cost": {
 				"value": {"min":0, "max":1}, "type": "per"
 			},
 			"entries": [
-				"This modifier allows effects normally resisted by Fortitude to work on non-living objects (those with no Stamina). Generally, this extra applies to effects like Heal or Weaken, allowing them to work on objects in the same way as they do living creatures. If the effect {@b Affects Only Objects}, working on objects but not on living creatures, it has a net modifier of +0.",
-				"Objects do not get resistance checks; the effect works on the targeted object at its maximum degree of success. At the GM’s discretion, someone holding, carrying, or wearing an object can make a Dodge resistance check against the effect, representing pulling the object out of the way at the last moment."
+				"這個修飾符能讓那些原本是以韌性防禦抵抗的效果得以作用於非活物的物體上（沒有體質屬性的對象）。通常來說，這個強化會應用於像是{@effect 治癒}或{@effect Weaken}的效果，使它們能如同作用於活體生物一樣在物體上發揮相同的效用。若此修飾符會使該效果{@b 只能影響物體}，僅能作用於物體上而非活體生物，則這個修飾符的花費為+0。",
+				"物體並不會進行抵抗檢定；作用於目標物體的該效果將發揮其最大程度的成功的效用。根據GM的裁斷，持握、攜帶或穿戴目標物體的某人可以進行一次閃避抵抗檢定以對抗該效果，代表目標物體在最後一刻擺脫了影響它的效果。"
 			]
 		},
 		{
-			"name": "Affects Others",
+			"translate_name": "影響他人", "name": "Affects Others",
 			"type": "extra",
 			"cost": {
 				"value": {"min":0, "max":1}, "type": "per"
 			},
 			"entries": [
-				"This extra allows you to give someone else use of a personal effect. You must touch the subject as a standard action, and they have control over their use of the effect, although you can withdraw it when you wish as a free action. If you are unable to maintain the effect, it stops working, even if someone else is using it. Both you and your subject(s) can use the effect simultaneously.",
-				"If the effect {@b Affects Only Others}, and not you, it has a net modifier of +0."
+				"這個修飾符能讓你使其他人得以使用一個射程為個人的效果。你必須以一個標準動作觸碰目標，對方將能夠自己控制對該效果的使用（儘管你可以在你想要的時候以一個自由動作收回該效果的使用權）。若你無法維持該效果，那麼即使其他人正在使用該效果，該效果燈將停止作用。你和你的目標（們）可以同時使用該效果。",
+				"若此修飾符會使該效果{@b 只能影響他人}，而自己不能使用，則這個修飾符的花費為+0。"
 			]
 		},
 		{
@@ -281,13 +281,13 @@
 			]
 		},
 		{
-			"name": "Incurable",
+			"translate_name": "無法治癒", "name": "Incurable",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"Effects such as Healing and Regeneration cannot heal the damage caused by an effect with this modifier; the target must recover at the normal rate. Effects with the Persistent extra can heal Incurable damage."
+				"{@effect 治癒}和{@effect Regeneration}這類效果無法治療應用了這個修飾符的效果所造成的狀態；目標必須以正常速度的回復。然而，應用了{@b 堅持}強化修飾符的效果仍然可以治療無法治癒的傷害。"
 			]
 		},
 		{
@@ -392,13 +392,13 @@
 			]
 		},
 		{
-			"name": "Precise",
+			"translate_name": "精確", "name": "Precise",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"You can use a Precise effect to perform tasks requiring delicacy and fine control, such as using Precise Damage to spot-weld or carve your initials, Precise Move Object to type or pick a lock, Precise Environment to match a particular temperature exactly, and so forth. The GM has final say as to what tasks can be performed with a Precise effect and may require an ability, skill, or power check to determine the degree of precision with any given task."
+				"你可以使用具備精確修飾符的效果來執行需要細緻與精密控制的行為，像是使用精確{@effect Damage}效果來點焊金屬或刻下你的名號縮寫、使用精確{@effect Move Object}效果以打字或開鎖、使用精確{@effect Environment}效果以精準調整特定的溫度等等。關於應用了精確修飾符的效果能做到什麼樣的程度，GM具有最終的決定權，且可能會要求一次屬性、技能、或超能力檢定來決定這些行為的精確程度。"
 			]
 		},
 		{
@@ -431,13 +431,13 @@
 			]
 		},
 		{
-			"name": "Reversible",
+			"translate_name": "可逆", "name": "Reversible",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"You can remove conditions caused by a Reversible effect at will as a free action, so long as the subject is within the effect’s range. Examples include removing the damage conditions caused by a Damage effect, repairing damage done by Weaken Toughness, or removing an Affliction instantly. normally, you have no control over the results of such effects."
+				"只要目標還處於應用了可逆修飾符的效果的射程內，你就能夠以一個自由動作隨意解除該效果所造成的狀態。範例包括解除{@effect Damage}效果所造成的傷害狀態、修復{@effect Weaken}堅實所導致的損傷、或立即解除{@effect 詛咒}效果。通常來說，你並不能控制這類效果已經造成的結果。"
 			]
 		},
 		{
@@ -462,23 +462,23 @@
 			]
 		},
 		{
-			"name": "Selective",
+			"translate_name": "可選擇", "name": "Selective",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"A resistible effect with this extra is discriminating, allowing you to decide who is and is not affected by it. This is most useful for area effects (see the Area extra). You must be able to accurately perceive a target in order to decide whether or not to affect it. For a degree of selectivity with non-resistible effects, use the Precise modifier."
+				"一個應用了這個修飾符的可抵抗效果將具備敵我辨識能力，讓你得以決定誰會被影響、誰不會被影響。這個修飾符對於範圍效果（參見{@modifier 範圍化}修飾符）相當有幫助。你必須能夠準確地認知到目標才能夠決定對方是否會被影響。若要使非抵抗型效果具備一定程度的可選擇性，請使用{@modifier 精確}修飾符。"
 			]
 		},
 		{
-			"name": "Sleep",
+			"translate_name": "入眠", "name": "Sleep",
 			"type": "extra",
 			"cost": {
 				"value": 0, "type": "per"
 			},
 			"entries": [
-				"When this modifier is applied to an effect that causes the incapacitated condition, the effect leaves them asleep whenever it would normally render them incapacitated. See the description of asleep under Conditions."
+				"當這個修飾符被應用於一個會導致目標陷入{@condition 失能}狀態的效果，則每當該效果要使目標陷入{@condition 失能}狀態時，將改為使對方陷入{@condition 沉睡}。參見{@condition 沉睡}狀態的說明。"
 			]
 		},
 		{
@@ -694,7 +694,7 @@
 			]
 		},
 		{
-			"name": "Limited",
+			"_translate_name": "限定條件", "name": "Limited",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"

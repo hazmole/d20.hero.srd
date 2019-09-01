@@ -28,7 +28,7 @@
 						}
 					]
 				},
-				"被詛咒效果影響的目標可以在它的每個回合結束時進行一次抵抗檢定，以嘗試解除程度一和程度二的狀態。程度三的狀態需要花費一分鐘的回復時間或仰賴外在的協助才能解除，例如{@skill 治療}技能或是{@effect Healing}效果（DC等同10 + 詛咒等級）。",
+				"被詛咒效果影響的目標可以在它的每個回合結束時進行一次抵抗檢定，以嘗試解除程度一和程度二的狀態。程度三的狀態需要花費一分鐘的回復時間或仰賴外在的協助才能解除，例如{@skill 診療}技能或是{@effect 治癒}效果（DC等同10 + 詛咒等級）。",
 				"這個詛咒的本質和描述符由你決定，且必須經過GM的同意，你必須在獲得這個效果時決定它的本質；上面提供了一些範例，但你仍可以自由決定屬於你自己的描述符。"
 			],
 			"extras": [
@@ -71,7 +71,7 @@
 			"flaws": [
 				{
 					"name": "立即康復",
-					"entries": ["與{@modifier Reversible}強化相似，應用了這個修飾符的詛咒效果的目標將會在其持續時間結束的該輪結束時自動康復，而無須進行任何檢定。因此，舉例來說，一個持續時間為即效的詛咒只會持續一輪，而持續時間為維持的詛咒將會在其不再被維持時終止。"],
+					"entries": ["與{@modifier 可逆}修飾符相似，應用了這個修飾符的詛咒效果的目標將會在其持續時間結束的該輪結束時自動康復，而無須進行任何檢定。因此，舉例來說，一個持續時間為即效的詛咒只會持續一輪，而持續時間為維持的詛咒將會在其不再被維持時終止。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -108,8 +108,8 @@
 					}
 				},
 				{
-					"name": "遠程",
-					"entries": ["這個追加強化能讓你得以在一段距離之外創造一條隧道（無須在隧道形成時處於隧道的端點），或者，若與{@modifier Affects others}的修飾符組合，則能讓你得以將掘地效果賦予其他處於一段距離外的某人。若要獲得上述兩者的效果，你必須要應用這個追加強化二次。"],
+					"name": "遠距",
+					"entries": ["這個追加強化能讓你得以在一段距離之外創造一條隧道（無須在隧道形成時處於隧道的端點），或者，若與{@modifier 影響他人}修飾符組合，則能讓你得以將掘地效果賦予其他處於一段距離外的某人。若要獲得上述兩者的效果，你必須要應用這個追加強化二次。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "per"
 					}
@@ -984,63 +984,63 @@
 				},
 				{
 					"name": "範圍化",
-					"entries": ["應用了這個強化的治癒效果將使所有處於影響範圍內的目標得益於相同的好處。要注意的是，範圍化Empathic治癒效果（參見本效果的缺陷）絕不是個明智的組合，因為治癒者將會一口氣承受所有目標的傷害狀態！"],
+					"entries": ["應用了這個強化的治癒效果將使所有處於影響範圍內的目標得益於相同的好處。要注意的是，範圍化共感治癒效果（參見本效果的缺陷）絕不是個明智的組合，因為治癒者將會一口氣承受所有目標的傷害狀態！"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Energizing",
-					"entries": ["You can heal the fatigued and exhausted conditions as well as damage conditions: DC 10, one degree of success for fatigued, two degrees of success for exhausted. However, you take on the removed conditions and cannot use Healing to eliminate your own fatigue (although you can still use victory points to recover from them). If the Healing check fails, you must wait the normal recovery time or use extra effort to try again."],
+					"name": "激發活力",
+					"entries": ["除了傷害狀態外，你也可以治癒{@condition 疲勞}和{@condition 力竭}狀態：DC 10，程度一的成功可以治癒疲勞，程度二的成功則可以治癒力竭狀態。然而，你將會承受被解除的狀態，且無法使用治癒效果以解除你自己身上的疲勞和力竭狀態（然而你仍然可以使用勝利點以從中回復）。若該治癒檢定失敗，你仍必須等待的原本的一分鐘回復時間或使用奮力一搏以再次嘗試。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Perception",
-					"entries": ["Applied to Ranged Healing (following), perception Ranged Healing does not require an attack check to “touch” the subject."],
+					"name": "感知距離",
+					"entries": ["這個強化應用於遠距治癒效果（見下述）。感知距離遠距治癒效果並不需要進行攻擊檢定以「觸碰」到目標。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Persistent",
-					"entries": ["Your Healing can remove even Incurable effects (see the Incurable modifier)."],
+					"name": "堅持",
+					"entries": ["你的治癒效果可以解除甚至是應用了{@modifier 無法治癒}修飾符的效果所造成的狀態。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Ranged",
-					"entries": ["Ranged Healing requires an attack check to “touch” the subject with the Healing effect. The GM may waive the check for a willing subject holding completely still, but the subject is defenseless that round, making it an unwise decision in the midst of combat."],
+					"name": "遠距",
+					"entries": ["遠距治癒效果要求你進行一次攻擊檢定以讓治癒效果「觸碰」到目標。若一名自願目標處於完全靜止，GM可能會捨去該檢定的進行，但目標將在該輪間處於{@condition 無防備}狀態。因此在戰鬥期間這麼做可能就不是個明智的選擇。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Restorative",
-					"entries": ["Your Healing effect can restore character points removed by Weaken effects with the appropriate descriptors, such as injury, disease, or poison. You restore points equal to your rank to the affected trait(s)."],
+					"name": "恢復",
+					"entries": ["你的治癒效果可以恢復被{@effect Weaken}效果所移除的角色點，只要該效果帶有適當的描述符，像是創傷、疾病、或毒素。你將使受影響的數據恢復等同於你治癒效果等級的角色點。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Resurrection",
-					"entries": ["You can restore life to the dead! If the subject has been dead for fewer minutes than your Healing rank, makes a DC 20 Healing check. If successful, the patient’s condition becomes incapacitated, as if just stabilized. If the check fails, you can only try again using extra effort."],
+					"name": "復活",
+					"entries": ["你可以讓死者起死回生！若目標死亡時間的分鐘數少於你治癒效果的等級，進行一次DC 20的治癒檢定。若檢定成功，目標的狀態將變為{@condition 失能}，就如同被穩定傷勢一樣。若該檢定失敗，則你只能夠使用奮力一搏再次嘗試。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Selective",
-					"entries": ["Area Healing may have this extra, allowing you to choose who in the area does and does not gain the benefits."],
+					"name": "可選擇",
+					"entries": ["範圍化治癒效果可能會具有這個強化修飾符，讓你得以選擇範圍內的目標各自是否會得益於治癒效果的好處。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Stabilize",
-					"entries": ["You don’t need to make a Healing check to stabilize a dying character, your Healing effect does so automatically, although it still requires the normal standard action."],
+					"name": "穩定性",
+					"entries": ["你在穩定一名{@condition 瀕死}角色的傷勢時不需要進行治癒檢定，你的治癒效果將會自動使其傷勢穩定。然而這麼做仍然需要採取標準動作。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
@@ -1048,22 +1048,22 @@
 			],
 			"flaws": [
 				{
-					"name": "Empathic",
-					"entries": ["When you successfully cure someone else of a condition, you acquire the condition yourself and must recover from it normally. You can use Healing and Regeneration to cure your own conditions. You can have the Resurrection modifier for Healing, but if you successfully use it, you die! This may not be as bad as it seems if you have Immortality, allowing you to return to life (see the Immortality effect for details)."],
+					"name": "共感",
+					"entries": ["當你成功治療他人的狀態時，你自己將承受該狀態，且必須正常地從中回復。你可以使用治癒和{@effect Regeneration}效果以治療你自己的狀態。你可以同時將復活修飾符與這個修飾符一起應用於治療效果，但若你成功使用該效果，你將會因此死亡！但若你具有{@effect Immortality}的能力效果使你能夠死裡復活（參見{@effect Immortality}以查閱更多細節），這也許就不像看上去那麼糟糕。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited",
-					"entries": ["Examples of ways in which Healing may be Limited include: One Type of Damage (such as energy or bludgeoning damage), Objects (in conjunction with Affects Objects), Others (you can’t use Healing on yourself), or Self (you can only use Healing on yourself)."],
+					"name": "限定條件",
+					"entries": ["治癒效果受到限定條件的可能例子包括：一種傷害類型（像是能量或打擊傷害）、物體（與{@modifier 影響物體}一同使用）、他人（你不能對自己使用治癒效果）、或自身（你只能對你自己使用治癒效果）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Temporary",
-					"entries": ["The benefits of your Healing are temporary, lasting for one hour. The subject then regains any damage conditions you healed. These conditions stack with others the subject acquired since the initial healing, which may result in more severe damage or even death."],
+					"name": "暫時性",
+					"entries": ["你治癒效果的好處是暫時性的，僅僅持續一個小時。目標將在之後重新承受你所治療的任何傷害狀態。這些狀態將會與目標自從初次治療以來所承受的其他狀態疊加，並可能會因此導致更嚴重的傷害或甚至死亡。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1845,9 +1845,9 @@
 				"你擁有一種特殊的移動方式。為這個效果的每個等級選擇下列其中一個選項：",
 				{
 					"type": "entries",
-					"translate_name": "次元穿梭", "name": "Dimension Travel",
+					"translate_name": "維度穿梭", "name": "Dimension Travel",
 					"entries": [
-						"你能夠以一個移動動作立即移動到另一個次元。若這個移動方式的等級為1，你可以在你的原生次元和另一個次元之間往返穿梭。若等級為2，你可在任意關聯類群的次元間往返移動（祕法次元、外星次元、諸如此類）。若等級為3，你可以在任意次元之間穿梭。當你在次元間穿梭時，你可以攜帶最多50磅（質量等級0）的額外物質與你一起移動。若你應用了{@modifier Increased Mass}修飾符，則你可以再額外攜帶最多等同於你該修飾符等級的質量。"
+						"你能夠以一個移動動作立即移動到另一個維度。若這個移動方式的等級為1，你可以在你的原生維度和另一個維度之間往返穿梭。若等級為2，你可在任意關聯類群的維度間往返移動（祕法維度、外星維度、諸如此類）。若等級為3，你可以在任意維度之間穿梭。當你在維度間穿梭時，你可以攜帶最多50磅（質量等級0）的額外物質與你一起移動。若你應用了{@modifier Increased Mass}修飾符，則你可以再額外攜帶最多等同於你該修飾符等級的質量。"
 					]
 				},
 				{
@@ -2124,8 +2124,8 @@
 			],
 			"extras": [
 				{
-					"name": "Persistent",
-					"entries": ["You can regenerate even Incurable damage conditions (see the Incurable modifier)."],
+					"name": "堅持",
+					"entries": ["你可以透過再生解除甚至是{@modifier 無法治癒}的傷害狀態（參見{@modifier 無法治癒}修飾符）。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

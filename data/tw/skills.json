@@ -893,7 +893,7 @@
 			]
 		},
 		{
-			"translate_name": "治療", "name": "Treatment",
+			"translate_name": "診療", "name": "Treatment",
 			"ability": "Int",
 			"untrain": false,
 			"manipulation": true,

@@ -991,7 +991,7 @@
 				},
 				{
 					"name": "Energizing",
-					"entries": ["You can heal the fatigued and exhausted conditions as well as damage conditions: DC 10, one degree of success for fatigued, two degrees of success for exhausted. However, you take on the removed conditions and cannot use Healing to eliminate your own fatigue (although you can still use victory points to recover from them). If the Healing check fails, you must wait the normal recovery time or use extra effort to try again."],
+					"entries": ["You can heal the {@condition fatigued} and {@condition exhausted} conditions as well as damage conditions: DC 10, one degree of success for fatigued, two degrees of success for exhausted. However, you take on the removed conditions and cannot use Healing to eliminate your own fatigue (although you can still use victory points to recover from them). If the Healing check fails, you must wait the normal recovery time or use extra effort to try again."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1005,14 +1005,14 @@
 				},
 				{
 					"name": "Persistent",
-					"entries": ["Your Healing can remove even Incurable effects (see the Incurable modifier)."],
+					"entries": ["Your Healing can remove even {@modifier Incurable} effects (see the Incurable modifier)."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"name": "Ranged",
-					"entries": ["Ranged Healing requires an attack check to “touch” the subject with the Healing effect. The GM may waive the check for a willing subject holding completely still, but the subject is defenseless that round, making it an unwise decision in the midst of combat."],
+					"entries": ["Ranged Healing requires an attack check to “touch” the subject with the Healing effect. The GM may waive the check for a willing subject holding completely still, but the subject is {@condition defenseless} that round, making it an unwise decision in the midst of combat."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1026,7 +1026,7 @@
 				},
 				{
 					"name": "Resurrection",
-					"entries": ["You can restore life to the dead! If the subject has been dead for fewer minutes than your Healing rank, makes a DC 20 Healing check. If successful, the patient’s condition becomes incapacitated, as if just stabilized. If the check fails, you can only try again using extra effort."],
+					"entries": ["You can restore life to the dead! If the subject has been dead for fewer minutes than your Healing rank, makes a DC 20 Healing check. If successful, the patient’s condition becomes {@condition incapacitated}, as if just stabilized. If the check fails, you can only try again using extra effort."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1040,7 +1040,7 @@
 				},
 				{
 					"name": "Stabilize",
-					"entries": ["You don’t need to make a Healing check to stabilize a dying character, your Healing effect does so automatically, although it still requires the normal standard action."],
+					"entries": ["You don’t need to make a Healing check to stabilize a {@condition dying} character, your Healing effect does so automatically, although it still requires the normal standard action."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
@@ -1049,14 +1049,14 @@
 			"flaws": [
 				{
 					"name": "Empathic",
-					"entries": ["When you successfully cure someone else of a condition, you acquire the condition yourself and must recover from it normally. You can use Healing and Regeneration to cure your own conditions. You can have the Resurrection modifier for Healing, but if you successfully use it, you die! This may not be as bad as it seems if you have Immortality, allowing you to return to life (see the Immortality effect for details)."],
+					"entries": ["When you successfully cure someone else of a condition, you acquire the condition yourself and must recover from it normally. You can use Healing and {@effect Regeneration} to cure your own conditions. You can have the Resurrection modifier for Healing, but if you successfully use it, you die! This may not be as bad as it seems if you have {@effect Immortality}, allowing you to return to life (see the {@effect Immortality} effect for details)."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"name": "Limited",
-					"entries": ["Examples of ways in which Healing may be Limited include: One Type of Damage (such as energy or bludgeoning damage), Objects (in conjunction with Affects Objects), Others (you can’t use Healing on yourself), or Self (you can only use Healing on yourself)."],
+					"entries": ["Examples of ways in which Healing may be Limited include: One Type of Damage (such as energy or bludgeoning damage), Objects (in conjunction with {@modifier Affects Objects}), Others (you can’t use Healing on yourself), or Self (you can only use Healing on yourself)."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2125,7 +2125,7 @@
 			"extras": [
 				{
 					"name": "Persistent",
-					"entries": ["You can regenerate even Incurable damage conditions (see the Incurable modifier)."],
+					"entries": ["You can regenerate even {@modifier Incurable} damage conditions (see the {@modifier Incurable} modifier)."],
 					"cost": {
 						"value": 1, "type": "per"
 					}

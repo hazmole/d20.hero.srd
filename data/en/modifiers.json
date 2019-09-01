@@ -37,7 +37,7 @@
 				"value": {"min":0, "max":1}, "type": "per"
 			},
 			"entries": [
-				"This modifier allows effects normally resisted by Fortitude to work on non-living objects (those with no Stamina). Generally, this extra applies to effects like Heal or Weaken, allowing them to work on objects in the same way as they do living creatures. If the effect {@b Affects Only Objects}, working on objects but not on living creatures, it has a net modifier of +0.",
+				"This modifier allows effects normally resisted by Fortitude to work on non-living objects (those with no Stamina). Generally, this extra applies to effects like {@effect Healing} or {@effect Weaken}, allowing them to work on objects in the same way as they do living creatures. If the effect {@b Affects Only Objects}, working on objects but not on living creatures, it has a net modifier of +0.",
 				"Objects do not get resistance checks; the effect works on the targeted object at its maximum degree of success. At the GM’s discretion, someone holding, carrying, or wearing an object can make a Dodge resistance check against the effect, representing pulling the object out of the way at the last moment."
 			]
 		},
@@ -287,7 +287,7 @@
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"Effects such as Healing and Regeneration cannot heal the damage caused by an effect with this modifier; the target must recover at the normal rate. Effects with the Persistent extra can heal Incurable damage."
+				"Effects such as {@effect Healing} and {@effect Regeneration} cannot heal the damage caused by an effect with this modifier; the target must recover at the normal rate. Effects with the {@b Persistent} extra can heal Incurable damage."
 			]
 		},
 		{
@@ -468,7 +468,7 @@
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"A resistible effect with this extra is discriminating, allowing you to decide who is and is not affected by it. This is most useful for area effects (see the Area extra). You must be able to accurately perceive a target in order to decide whether or not to affect it. For a degree of selectivity with non-resistible effects, use the Precise modifier."
+				"A resistible effect with this extra is discriminating, allowing you to decide who is and is not affected by it. This is most useful for area effects (see the {@modifier Area} extra). You must be able to accurately perceive a target in order to decide whether or not to affect it. For a degree of selectivity with non-resistible effects, use the Precise modifier."
 			]
 		},
 		{
@@ -478,7 +478,7 @@
 				"value": 0, "type": "per"
 			},
 			"entries": [
-				"When this modifier is applied to an effect that causes the incapacitated condition, the effect leaves them asleep whenever it would normally render them incapacitated. See the description of asleep under Conditions."
+				"When this modifier is applied to an effect that causes the {@condition incapacitated} condition, the effect leaves them {@condition asleep} whenever it would normally render them {@condition incapacitated}. See the description of {@condition asleep} under Conditions."
 			]
 		},
 		{
