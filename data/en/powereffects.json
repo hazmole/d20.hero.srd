@@ -1910,7 +1910,7 @@
 					"type": "entries",
 					"name": "Space Travel",
 					"entries": [
-						"You can travel faster than the speed of light through the vacuum of space (but not in a planetary atmosphere). At rank 1 you can travel to other planets in a solar system. At rank 2, you can travel to other star systems, while at rank 3, you can visit distant star systems, perhaps even other galaxies! This effect does not provide protection from the rigors of outer space (for that, see Immunity effect)."
+						"You can travel faster than the speed of light through the vacuum of space (but not in a planetary atmosphere). At rank 1 you can travel to other planets in a solar system. At rank 2, you can travel to other star systems, while at rank 3, you can visit distant star systems, perhaps even other galaxies! This effect does not provide protection from the rigors of outer space (for that, see {@effect Immunity} effect)."
 					]
 				},
 				{
@@ -1931,28 +1931,28 @@
 					"type": "entries",
 					"name": "Time Travel",
 					"entries": [
-						"You can move through time! For 1 rank, you can move between the present and another fixed point in time (such as 100 years into the past, or 1,000 years into the future). For 2 ranks you can move to any point in the past or any point in the future (but not both). For 3 ranks, you can travel to any point in time. Reaching alternate timelines or parallel worlds requires at least 2 ranks of Dimension-Travel. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you time-travel. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+						"You can move through time! For 1 rank, you can move between the present and another fixed point in time (such as 100 years into the past, or 1,000 years into the future). For 2 ranks you can move to any point in the past or any point in the future (but not both). For 3 ranks, you can travel to any point in time. Reaching alternate timelines or parallel worlds requires at least 2 ranks of Dimension-Travel. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you time-travel. If you apply the {@modifier Increased Mass} modifier, you can carry additional mass up to your modifier rank."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Trackless",
 					"entries": [
-						"You leave no trail and cannot be tracked using visual senses (although you can still be tracked using scent or other means). You can walk across the surface of soft sand or snow without leaving tracks and you have total concealment from tremorsense (see Concealment). Each additional rank renders you trackless to another sense type."
+						"You leave no trail and cannot be tracked using visual senses (although you can still be tracked using scent or other means). You can walk across the surface of soft sand or snow without leaving tracks and you have total concealment from tremorsense (see {@rule Concealment|basic|8|Concealment}). Each additional rank renders you trackless to another sense type."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Wall-crawling",
 					"entries": [
-						"You can climb walls and ceilings at your ground speed rank –1 with no chance of falling and no need for an Athletics check. You are still vulnerable while climbing, however. An additional rank of this effect means you climb at your full speed rank and are not vulnerable while climbing."
+						"You can climb walls and ceilings at your ground speed rank –1 with no chance of falling and no need for an {@skill Athletics} check. You are still {@condition vulnerable} while climbing, however. An additional rank of this effect means you climb at your full speed rank and are not {@condition vulnerable} while climbing."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Water-walking",
 					"entries": [
-						"You can stand or move at your normal ground speed on the surface of water, quicksand, and other liquids without sinking. If you fall prone for any reason, you sink into the liquid normally. With 2 ranks of this effect, you can also lie prone on a liquid surface without sinking; you only sink if you choose to."
+						"You can stand or move at your normal ground speed on the surface of water, quicksand, and other liquids without sinking. If you fall {@condition prone} for any reason, you sink into the liquid normally. With 2 ranks of this effect, you can also lie prone on a liquid surface without sinking; you only sink if you choose to."
 					]
 				},
 				{
