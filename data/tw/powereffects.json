@@ -1245,7 +1245,7 @@
 						"{@b 10級}：一種常見的超能力描述符（像是所有寒冷、電流、火焰、輻射、或天氣的描述符）、維生需求（包括免疫疾病、毒素、所有環境狀態、窒息、以及飢餓和口渴）。",
 						"{@b 20級}：一種非常普遍的超能力描述符（例如打擊或能量）。",
 						"{@b 30級}：所有以韌性抵抗的效果、所有以意志抵抗的效果。",
-						"{@b 80級}：所有以堅實抵抗的效果（等同於40級的{@modifier Impervious}堅實）。"
+						"{@b 80級}：所有以堅實抵抗的效果（等同於40級的{@modifier 強抗}堅實）。"
 					]
 				},
 				{
@@ -1259,44 +1259,44 @@
 					"type": "inset",
 					"translate_name": "幕後花絮：免疫", "name": "Under the Hood: Immunity",
 					"entries": [
-						"There are characters in comic books flatly immune to certain things. Immunity is intended to provide this option in the game. It’s simpler at some point to say a character is immune to something than it is to bother rolling dice. Immunity also encourages creativity: if you can’t overcome a foe just by hitting him, what then? Encourage players to use tactics, cleverness, power stunts, and victory points to deal with foes immune to their more conventional attacks.",
-						"If you find Immunity—especially broad immunities at higher ranks—a problem in your game, feel free to restrict it (perhaps to no more than 10 ranks) or eliminate it altogether, replacing it with Protection and defense bonuses with appropriate power modifiers.",
-						"For a degree of immunity to Damage, see the Impervious extra in Modifiers."
+						"在漫畫中有許多角色直接了當地免疫於對於某些事物。免疫效果就是為了在遊戲中提供這些選項供角色使用。在某種程度上，直接說一名角色免疫於某物，要比費心去擲骰要來得單純許多。免疫效果同時鼓勵玩家們發揮創意：如果你沒辦法單純藉由攻擊敵人來戰勝他們，那麼你該怎麼辦？鼓勵玩家使用戰術、小聰明、超能力絕技、和勝利點以和這類免疫於玩家尋常攻擊的敵人斡旋。",
+						"若你發現免疫效果──特別是高等級的廣泛免疫能力──會對你的遊戲帶來麻煩，你可以選擇對它作出限制（像是不能超過10級），或乾脆將整個免疫效果取消，並以應用了適當超能力修飾符的{@effect 保護}效果和防禦屬性來取代它。",
+						"若要獲得免疫於一定程度的{@effect Damage}效果的能力，請參閱{@modifier 強抗}修飾符。"
 					]
 				}
 			],
 			"extras": [
 				{
-					"name": "Affects Others",
-					"entries": ["This extra allows you to grant the benefits of your Immunity to others by touch. It’s most commonly used with life support, such as the power to maintain a life support “bubble” around you."],
+					"name": "影響他人",
+					"entries": ["這個強化讓你得以藉由觸碰將你免疫效果的好處賦予其他人。這個強化最常被用於維生需求，例如一個用以創造維持一個包圍你周圍的維生「泡泡」的超能力。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Sustained",
-					"entries": ["Sustained duration Immunity may be suitable for certain types of powers, particularly force fields or similar protective abilities requiring a modicum of concentration. It is a net +0 modifier from Immunity’s base permanent duration."],
+					"name": "維持",
+					"entries": ["持續時間為維持的免疫效果可能會適合某些類型的超能力，特別是力場類或其他需要少許專注的防護性能力。對於基本持續時間為永駐的免疫效果來說，這個修飾符的花費為+0。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "Ranged",
-					"entries": ["Affects Others Immunity may have this extra, allowing it to grant its benefits at range."],
+					"name": "遠距",
+					"entries": ["影響他人免疫效果可能會應用這個強化，讓它得以從遠距離賦予他人這個效果的好處。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Reflect",
-					"entries": ["You can reflect attacks to which you are immune back at the attacker as a free action. Make a normal attack check using your own attack modifier to hit with the reflected attack. It has its normal effect if it hits."],
+					"name": "反射",
+					"entries": ["你可以將你免疫的攻擊以一個自由動作反射到攻擊者身上。使用你自己的攻擊修正值進行一次正常的攻擊檢定以利用被反射的攻擊命中對方。若該攻擊命中，則它將造成其原本的效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Redirect",
-					"entries": ["You can redirect attacks to which are you are immune at any other target within the attack’s normal range, as Reflect, above. You must have the Reflect extra to take this one."],
+					"name": "轉向",
+					"entries": ["你可以將你免疫的攻擊重新導向任何處於該攻擊正常射程內的其他目標，作用如同上述的反射修飾符。你必須先應用反射修飾符，才能再應用這個修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1304,8 +1304,8 @@
 			],
 			"flaws": [
 				{
-					"name": "Limited to Half Effect",
-					"entries": ["You suffer half the normal effect rather than being entirely immune to it. For environmental effects, you only make checks half as often. For other effects, halve the effect’s rank (round down) before determining its resistance check DC, including for things like Impervious."],
+					"name": "限定減半效果",
+					"entries": ["你承受其原本效果的一半，而非對其完全免疫。對於環境效果，你僅會以減半的頻率進行相關檢定。對於其他效果，你將在決定該效果的抵抗檢定DC（包括決定是否會被{@modifier 強抗}所影響）之前，將該效果的等級減半（尾數捨去）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}

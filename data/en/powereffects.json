@@ -1260,8 +1260,8 @@
 					"name": "Under the Hood: Immunity",
 					"entries": [
 						"There are characters in comic books flatly immune to certain things. Immunity is intended to provide this option in the game. It’s simpler at some point to say a character is immune to something than it is to bother rolling dice. Immunity also encourages creativity: if you can’t overcome a foe just by hitting him, what then? Encourage players to use tactics, cleverness, power stunts, and victory points to deal with foes immune to their more conventional attacks.",
-						"If you find Immunity—especially broad immunities at higher ranks—a problem in your game, feel free to restrict it (perhaps to no more than 10 ranks) or eliminate it altogether, replacing it with Protection and defense bonuses with appropriate power modifiers.",
-						"For a degree of immunity to Damage, see the Impervious extra in Modifiers."
+						"If you find Immunity—especially broad immunities at higher ranks—a problem in your game, feel free to restrict it (perhaps to no more than 10 ranks) or eliminate it altogether, replacing it with {@effect Protection} and defense bonuses with appropriate power modifiers.",
+						"For a degree of immunity to {@effect Damage}, see the {@modifier Impervious} extra in Modifiers."
 					]
 				}
 			],

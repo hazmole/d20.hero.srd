@@ -232,7 +232,7 @@
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"A defense with this modifier is highly resistant. Any effect with a resistance difficulty modifier equal to or less than half the Impervious rank (rounded up) has no effect. So, for example, Impervious Toughness 9 ignores any Damage with a rank of 5 or less. Penetrating effects can overcome Impervious Resistance (see the {@modifier Penetrating} extra description).",
+				"A defense with this modifier is highly resistant. Any effect with a resistance difficulty modifier equal to or less than half the Impervious rank (rounded up) has no effect. So, for example, Impervious Toughness 9 ignores any {@effect Damage} with a rank of 5 or less. {@modifier Penetrating} effects can overcome Impervious Resistance.",
 				"Impervious is primarily intended for Toughness resistance checks, to handle characters immune to a certain threshold of damage, but it can be applied to other defenses with the GM’s permission, to reflect characters with certain reliable capabilities in terms of resisting particular effects or hazards."
 			]
 		},
