@@ -2144,7 +2144,7 @@
 					"type": "entries",
 					"name": "Regeneration Absent Stamina",
 					"entries": [
-						"Characters with no Stamina do not heal (see Absent Abilities in Abilities). One or more ranks of Regeneration overcome this. An absent Stamina character with Regeneration 1 recovers at a normal rate; additional Regeneration ranks speed up that rate."
+						"Characters with no Stamina do not heal (see {@rule Absent Abilities|basic|3|absent abilities} in Abilities). One or more ranks of Regeneration overcome this. An absent Stamina character with Regeneration 1 recovers at a normal rate; additional Regeneration ranks speed up that rate."
 					]
 				}
 			],

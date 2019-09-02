@@ -1840,7 +1840,7 @@
 						"每當一個屬性的等級被改變，所有與該屬性關聯的數據也都會被改變。因此若你提升了你角色的敏捷，則他基於敏捷的技能以及閃避防禦也都將跟著提升。同樣的，若該英雄的敏捷被降低，則他基於敏捷的技能以及閃避防禦也都將受到影響。",
 						{
 							"type": "entries",
-							"translate_name": "衰竭的屬性", "name": "Debilitated Abilities",
+							"translate_name": "衰竭屬性", "name": "Debilitated Abilities",
 							"entries": [
 								"若你英雄的其中一個屬性等級因為任何理由而被降至-5以下，則該屬性被稱作「衰竭」，且該角色除了在某些數據和檢定上承受罰值之外，還將承受更加嚴重的後果，如下所示：",
 								{
@@ -1857,7 +1857,7 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "缺乏的屬性", "name": "Absent Abilities",
+							"translate_name": "缺乏屬性", "name": "Absent Abilities",
 							"entries": [
 								"Rather than having a rank of –5 in a given ability, some things or creatures actually lack an ability altogether. These beings automatically fail any check requiring the absent ability. The additional effects of an absent ability are as follows:",
 								{

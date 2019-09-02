@@ -615,8 +615,8 @@
 					"type": "entries",
 					"translate_name": "回復", "name": "Recovery",
 					"entries": [
-						"有生命的目標每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect Regeneration}效果可以加速這個過程。長久性或更嚴重的創傷將被做為糾葛難題處理（參見{@rule Lasting Injuries|basic|8|Lasting Injuries}段落的說明）。",
-						"除非物體具有像是{@effect Regeneration}的效果，否則不具備體質屬性的物體並不會回復傷害。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。"
+						"有生命的目標每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect 再生}效果可以加速這個過程。長久性或更嚴重的創傷將被做為糾葛難題處理（參見{@rule Lasting Injuries|basic|8|Lasting Injuries}段落的說明）。",
+						"除非物體具有像是{@effect 再生}的效果，否則不具備體質屬性的物體並不會回復傷害。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。"
 					]
 				}
 			]
@@ -1075,7 +1075,7 @@
 			"flaws": [
 				{
 					"name": "共感",
-					"entries": ["當你成功治療他人的狀態時，你自己將承受該狀態，且必須正常地從中回復。你可以使用治癒和{@effect Regeneration}效果以治療你自己的狀態。你可以同時將復活修飾符與這個修飾符一起應用於治療效果，但若你成功使用該效果，你將會因此死亡！但若你具有{@effect Immortality}的能力效果使你能夠死裡復活（參見{@effect Immortality}以查閱更多細節），這也許就不像看上去那麼糟糕。"],
+					"entries": ["當你成功治療他人的狀態時，你自己將承受該狀態，且必須正常地從中回復。你可以使用治癒和{@effect 再生}效果以治療你自己的狀態。你可以同時將復活修飾符與這個修飾符一起應用於治療效果，但若你成功使用該效果，你將會因此死亡！但若你具有{@effect Immortality}的能力效果使你能夠死裡復活（參見{@effect Immortality}以查閱更多細節），這也許就不像看上去那麼糟糕。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2129,7 +2129,7 @@
 			]
 		},
 		{
-			"name": "Regeneration",
+			"translate_name": "再生", "name": "Regeneration",
 			"type": "DEF",
 			"action": "N",
 			"range": "personal",
@@ -2139,12 +2139,12 @@
 				"type": "per"
 			},
 			"entries": [
-				"You recover quickly from damage. Remove penalties to your Toughness checks due to damage equal to your Regeneration rank each minute. You then recover other damage conditions equal to your Regeneration rank each minute, starting from your most severe condition. Spread this recovery out evenly over a minute (10 action rounds). So with Regeneration 5, you remove a –1 Toughness penalty every other round (every round with Regeneration 10, and up to a –2 penalty per round with Regeneration 20).",
+				"你能快速地從傷害中回復。你每分鐘都可以解除等同於你再生等級的堅實檢定罰值。之後，你每分鐘再解除等同於你再生等級數量的其他傷害狀態，從最嚴重的狀態開始回復。在一分鐘期間（10個行動輪）平均展開這個回復過程。因此若再生等級為5級，你每隔一輪就可以解除一個-1堅實罰值（再生10級的話則每輪都可以解除一個-1罰值，最多到20級再生以每輪解除-2罰值）。",
 				{
 					"type": "entries",
-					"name": "Regeneration Absent Stamina",
+					"translate_name": "缺乏體質屬性的再生", "name": "Regeneration Absent Stamina",
 					"entries": [
-						"Characters with no Stamina do not heal (see Absent Abilities in Abilities). One or more ranks of Regeneration overcome this. An absent Stamina character with Regeneration 1 recovers at a normal rate; additional Regeneration ranks speed up that rate."
+						"不具備體質屬性的角色不會痊癒（參見屬性章節的{@rule 缺乏屬性|basic|3|absent abilities}）。一級或以上的再生可以克服這個限制。一名缺乏體質屬性的角色若具有1級再生效果，則它將以正常的速度回復；其他額外的再生等級將會再加快這個速度。"
 					]
 				}
 			],
@@ -2159,8 +2159,8 @@
 			],
 			"flaws": [
 				{
-					"name": "Source",
-					"entries": ["Your Regeneration only works when you have access to a particular source to replenish yourself, such as blood, electricity, sand, scrap metal, sunlight, and so forth."],
+					"name": "來源",
+					"entries": ["你的再生效果只會在你接觸到特定來源以補足你自己的時候才能發揮作用，像是鮮血、電力、沙、廢金屬、陽光等等。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
