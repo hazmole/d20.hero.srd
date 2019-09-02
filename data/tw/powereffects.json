@@ -1228,7 +1228,7 @@
 			]
 		},
 		{
-			"name": "Immortality",
+			"translate_name": "永生", "name": "Immortality",
 			"type": "DEF",
 			"action": "N",
 			"range": "personal",
@@ -1238,12 +1238,12 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can recover from death! If your condition becomes dead, you return to life after a time. Subtract your Immortality rank from a time rank of 19 (one month) to determine how long it takes. So Immortality 11, for example, restores you to life in just 30 minutes (19 – 11 = time rank 8). At rank 20, you recover from death at the start of each action round! When you recover, all your damage conditions are removed, but you also lose all accumulated victory points, starting over with none."
+				"你可以從死裡復活！若你陷入死亡，你將在經過一段時間之後重新復活。將你的永生等級拿去減掉19級的時間等級（一個月）以決定這段時間的長度。因此舉例來說，11級的永生可以讓你在僅僅30分鐘之後就重新復活（19 - 11 = 8級時間）。甚至20級的永生可以讓你在每個行動輪的開始時從死裡復活！當你復活時，你所有的傷害狀態都將被解除，但你也將失去所有累績的勝利點，從零開始。"
 			],
 			"flaws": [
 				{
-					"name": "Limited",
-					"entries": ["You must specify a reasonably common effect (or set of uncommon effects) that keeps you from recovering from death, such as beheading, cremation, a stake through the heart, and so forth. Even then, if the effect is somehow removed or reversed (e.g. the stake is removed from your corpse) you may still be able to come back."],
+					"name": "限定條件",
+					"entries": ["你必須指定一個合理的常見效果（或一系列不常見的效果）以防止你從死裡復活，例如斬首、火化、或是木樁穿心等等。即使如此，若這些效果被某種方式逆轉或解除（例如木樁被從你的屍體卸除），則你仍可以再從死裡復活。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1888,7 +1888,7 @@
 					"translate_name": "穿透", "name": "Permeate",
 					"entries": [
 						"你可以如同固態物體不存在一般穿透它們。若這個移動方式的等級為1，你能夠以你速度等級-2的速度穿透任何物理性物體。若等級為2，你能夠以你速度等級-2的速度穿透物體移動，而若等級為3，你能夠以你正常的速度穿透任何障礙物。你無法在完全浸入固態物體的時候呼吸，因此必須具備對窒息的{@effect Immunity}效果，或在穿透期間屏住氣息。由於你無法在處於固態物體內時視物，因此你可能也會需要Penetrates Concealment的{@effect Sense}效果以知曉自己正往哪裡移動。.",
-						"穿透效果通常會限定於特定物質，例如土地、冰、或金屬。儘管在面對攻擊時，穿透效果並不會提供任何保護作用，但當你處於固態物體內時，你仍能因此獲得掩護（參見{@rule Cover|basic|8|cover}）。若希望擁有能夠讓其他東西（包括攻擊在內）穿透你的能力，經查看{@effect Insubstantial}效果。"
+						"穿透效果通常會限定於特定物質，例如土地、冰、或金屬。儘管在面對攻擊時，穿透效果並不會提供任何保護作用，但當你處於固態物體內時，你仍能因此獲得掩護（參見{@rule Cover|basic|8|cover}）。若希望擁有能夠讓其他東西（包括攻擊在內）穿透你的能力，請查看{@effect Insubstantial}效果。"
 					]
 				},
 				{
