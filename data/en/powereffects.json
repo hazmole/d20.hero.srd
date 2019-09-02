@@ -572,25 +572,51 @@
 					"type": "entries",
 					"name": "Damaging Objects",
 					"entries": [
-						"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
-						"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
+						"Objects (targets lacking a Stamina rank) take damage similar to other targets. {@condition Dazed} and {@condition staggered} results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are {@condition dazed} and {@condition staggered} normally (see {@rule Constructs|basic|7|constructs}).",
+						"Inanimate objects are {@condition defenseless} by definition and therefore subject to finishing attacks (see {@rule Finishing Attack|basic|8|finishing attack} in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
 						"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
 						"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
 						{
-							"type": "quote",
+							"type": "example",
 							"entries": [
-								"Example: Lady Justice, rescuing people from a tenement fire, is hemmed-in by collapsed debris. Her player decides to simply punch a path through. Since she’s going for maximum damage, she decides to make the attack check normally (rather than a routine check). Given her attack bonus, she’ll only miss on a natural 1 anyway. She succeeds and does her Strength in Damage, +5 for the automatic critical. The GM decides the brick, mortar, and heavy beams have Toughness 9 and makes a Toughness check, rolling a 7, against DC 30 (Lady Justice’s Damage + 15). A 15 result is three degrees of failure, so she easily smashes through the debris and clears the building, carrying people to safety!"
+								"Lady Justice, rescuing people from a tenement fire, is hemmed-in by collapsed debris. Her player decides to simply punch a path through. Since she’s going for maximum damage, she decides to make the attack check normally (rather than a routine check). Given her attack bonus, she’ll only miss on a natural 1 anyway. She succeeds and does her Strength in Damage, +5 for the automatic critical. The GM decides the brick, mortar, and heavy beams have Toughness 9 and makes a Toughness check, rolling a 7, against DC 30 (Lady Justice’s Damage + 15). A 15 result is three degrees of failure, so she easily smashes through the debris and clears the building, carrying people to safety!"
 							]
 						},
-						"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1)."
+						"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1).",
+						{
+							"type": "table",
+							"caption": "Material Toughness",
+							"colLabels": [
+								"Material",
+								"Toughness"
+							],
+							"colStyles": [
+								"col-7 text-align-center",
+								"col-5 text-align-center"
+							],
+							"rows": [
+								[ "Paper", "0" ],
+								[ "Soil", "0" ],
+								[ "Glass", "1" ],
+								[ "Ice", "1" ],
+								[ "Rope", "1" ],
+								[ "Wood", "3" ],
+								[ "Stone", "5" ],
+								[ "Iron", "7" ],
+								[ "Reinforced Concrete", "8" ],
+								[ "Steel", "9" ],
+								[ "Titanium", "15" ],
+								[ "Super-alloys", "20+" ]
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Recovery",
 					"entries": [
-						"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process. Lasting or more serious injuries are handled as complications (see Lasting Injuries in Recovery section of Action & Adventure).",
-						"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the Technology skill when repairing damaged objects."
+						"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being {@condition incapacitated}, then {@condition staggered}, {@condition dazed}, and finally removes a –1 Toughness check penalty per minute until fully recovered. The {@effect Healing} and {@effect Regeneration} effects can speed this process. Lasting or more serious injuries are handled as complications (see {@rule Lasting Injuries|basic|8|Lasting Injuries} in Recovery section).",
+						"Objects, having no Stamina, do not recover from damage unless they have an effect like {@effect Regeneration}. Instead, they must be repaired. See the guidelines under the {@skill Technology} skill when repairing damaged objects."
 					]
 				}
 			]
@@ -1252,7 +1278,7 @@
 					"type": "entries",
 					"name": "Degrees of Immunity",
 					"entries": [
-						"Some Immunity effects are a matter of degree. For example, “immunity to cold” can range from the environmental effects of cold (described under The Environment) to cold damage, to complete immunity to all effects with the “cold” descriptor. The first requires only 1 rank, and provides no resistance to other sorts of cold effects. The second requires 5 ranks and only provides immunity to cold Damage effects. The third requires 10 ranks and provides complete immunity to all effects with the “cold” descriptor whatever they may be."
+						"Some Immunity effects are a matter of degree. For example, “immunity to cold” can range from the environmental effects of cold (described under The {@rule Environment|basic|8|Environmental Hazards}) to cold damage, to complete immunity to all effects with the “cold” descriptor. The first requires only 1 rank, and provides no resistance to other sorts of cold effects. The second requires 5 ranks and only provides immunity to cold Damage effects. The third requires 10 ranks and provides complete immunity to all effects with the “cold” descriptor whatever they may be."
 					]
 				},
 				{

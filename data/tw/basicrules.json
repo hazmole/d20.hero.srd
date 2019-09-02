@@ -1944,7 +1944,7 @@
 											"type": "entries",
 											"translate_name": "堅實等級", "name": "Toughness Rank",
 											"entries": [
-												"唯一的例外是堅實防禦，它只能夠藉由特長和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 特長|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage Defensive Roll}特長和{@effect Protection}效果。"
+												"唯一的例外是堅實防禦，它只能夠藉由特長和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 特長|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage 受身}特長和{@effect 保護}效果。"
 											]
 										},
 										{
@@ -1981,7 +1981,7 @@
 								"當事件的步調開始急迫，角色們將使用他們的{@b 先攻}加值以決定誰先行動。每個參與衝突的角色都進行一次d20 + 先攻修正值的檢定。先攻修正值如下：",
 								{
 									"type": "middleEnhance",
-									"text": "先攻修正值 = 敏捷 + 特長(Improved Initiative) + 超能力修正值"
+									"text": "先攻修正值 = 敏捷 + 特長(精通先攻) + 超能力修正值"
 								},
 								"角色們接著將按照先攻順序依序行動，由高到低。更多細節請參見{@rule 動作＆冒險|basic|8}章節。"
 							]
@@ -5468,8 +5468,6 @@
 											"type": "entries",
 											"name": "Damaging Objects",
 											"entries": [
-												"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the {@b Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
-												"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your Damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade does the same damage whether you can exert your Strength with it or not.",
 												"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
 												"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
 												"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
@@ -5893,7 +5891,24 @@
 							"entries": [
 								"As a result of conflict, characters often suffer adverse conditions (see {@b Conditions} in {@b The Basics}) from being knocked around and hit with different powers. The specific conditions are discussed in the effects defined in {@b Powers} chapter, particularly Affliction and Damage, the most common effects of conflicts.",
 								"Living targets remove one damage condition per minute of rest, starting from their most severe condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process.",
-								"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged object."
+								"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged object.",
+								{
+									"type": "inset",
+									"name": "Lasting Injuries",
+									"entries": [
+										"This game is designed to emulate the superhero comic books, so characters generally bounce back pretty fast from taking serious beatings, and there is little differentiation between getting punched through a brick wall and shot-up with a .45 caliber (or, for that matter, set on fire or electrocuted). Realistically, any or all of these things should result in severe injuries that take a considerable amount of time to heal; in the comics, most characters just shake it off and are all better by the next scene",
+										"If you want to include lasting or more serious injuries in your game, or just in a particular story, they are better handled as complications (see the {@b Complications} section in The Basics chapter for details). This is largely how the comics handle them; most of the time, heroes bounce back from the effects of combat but, occasionally, a character suffers a serious and significant injury—such as a broken arm or head trauma—that plays a role in the story later on. Handle this like any other GM-imposed complication: award the player a hero point when it comes into play, and apply the effects of the complication to the story. Use the conditions defined in {@b The Basics} chapter as an idea of the complications facing an injured character."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Death",
+									"entries": [
+										"Character death is a relatively rare happenstance in the comic books. Technically, it’s not so much rare as it is temporary. The tendency of comic book characters to return from the dead has become so commonplace it is cliché, with various stories and characters poking fun at it.",
+										"This game rules make character death a similarly rare occurrence. Characters generally only acquire the dying condition after being incapacitated and suffering further harm, which usually means someone is actively trying to kill them. Even then, dying characters have opportunities to stabilize and stave off death. It takes a second active effort to kill a dying character outright, so accidental death due to a single bad die roll is all but impossible for the major characters in a series.",
+										"Note that none of this applies to minions, who can be killed simply with a successful attack and a declaration of intent to do so. While heroes in a four-color or mainstream style game generally refrain from killing, minions can get mowed down by the dozens in gritty Iron Age style games. The Gamemaster can also kill off supporting characters as desired to suit the story. The greater “resilience” of main characters is not because they are physically any different or tougher, just that they are literally more important to the story of the game."
+									]
+								}
 							]
 						}
 					]

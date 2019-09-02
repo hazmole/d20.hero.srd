@@ -524,7 +524,7 @@
 			]
 		},
 		{
-			"_translate_name": "傷害", "name": "Damage",
+			"translate_name": "傷害", "name": "Damage",
 			"type": "ATK",
 			"action": "S",
 			"range": "close",
@@ -570,27 +570,53 @@
 				},
 				{
 					"type": "entries",
-					"name": "Damaging Objects",
+					"translate_name": "傷害物體", "name": "Damaging Objects",
 					"entries": [
-						"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
-						"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
-						"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
-						"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
+						"物體（亦即缺乏體質等級的目標）會如同其他目標一樣承受傷害，然而{@condition 目眩}和{@condition 蹣跚}狀態對於無生命目標並不會有實質效用，因為它們並不能採取任何動作。至於能夠採取動作的構裝體，{@condition 目眩}和{@condition 蹣跚}狀態仍將如常作用（參見{@rule Constructs|basic|7|constructs}）。",
+						"根據定義，無生命目標處於{@condition 無防備}狀態，且可以被做為終結攻擊的對象（參見戰技中的{@rule 終結攻擊|basic|8|finishing attack}）：這代表你可以選擇以例行檢定對物體進行攻擊，或者，若你選擇如常進行攻擊檢定，則你將在命中時自動造成暴擊，並使該效果獲得+5的情境加值。",
+						"攻擊一個被其他角色持握或穿戴的物體將會是一次粉碎動作（參見{@rule 粉碎|basic|8|smash}動作）。",
+						"若攻擊者的目的是折彎、損壞、或摧毀一個物體，則若該物體的堅實檢定得到二個程度的失敗，則會導致該物體被折彎或損壞（像是被打穿一個洞），而三個程度或以上的失敗代表著該物體被完全摧毀（四分五裂、粉碎等等）。",
 						{
-							"type": "quote",
+							"type": "example",
 							"entries": [
-								"Example: Lady Justice, rescuing people from a tenement fire, is hemmed-in by collapsed debris. Her player decides to simply punch a path through. Since she’s going for maximum damage, she decides to make the attack check normally (rather than a routine check). Given her attack bonus, she’ll only miss on a natural 1 anyway. She succeeds and does her Strength in Damage, +5 for the automatic critical. The GM decides the brick, mortar, and heavy beams have Toughness 9 and makes a Toughness check, rolling a 7, against DC 30 (Lady Justice’s Damage + 15). A 15 result is three degrees of failure, so she easily smashes through the debris and clears the building, carrying people to safety!"
+								"在一場公寓大火中，正在拯救陷入火場的民眾們的正義女士，如今正被坍方的廢墟殘骸給環繞，難以逃出。操控她的玩家決定要簡單暴力的打出一條通道。由於她希望打出最大傷害，因此她決定如常進行攻擊檢定（而非使用例行檢定）。考慮到她的攻擊加值，她只有在骰出天然1的時候才會失手。於是，當她檢定成功，她將使用力量做為傷害等級，並因為自動暴擊而再獲得額外+5。GM認為這些磚瓦、砂石和重粱所構成的殘骸具有9級的堅實等級，並接著為其進行一次堅實檢定，骰出了7，對抗DC 30（正義女士的傷害+15）。由於16的擲骰結果對抗DC 30將會是三個程度的失敗，因此正義女士輕易地打穿瓦礫堆，淨空建築物，將人們帶到了安全的地方！"
 							]
 						},
-						"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1)."
+						"下列的材質堅實表中列出了一些常見材質的堅實等級。表中列出等級代表著大約一吋厚（-7級距離）的該材質：該材質的厚度每增加一倍，將其堅實等級+1，減半則等級-1。因此一呎厚的石頭具有8級的堅實。裝備的堅實等級同樣基於其材質。而裝置的堅實等級則等同於該裝置上分配的點數總和除以5（尾數捨去，最小為1）。",
+						{
+							"type": "table",
+							"caption": "材質堅實表",
+							"colLabels": [
+								"材質",
+								"堅實等級"
+							],
+							"colStyles": [
+								"col-7 text-align-center",
+								"col-5 text-align-center"
+							],
+							"rows": [
+								[ "紙", "0" ],
+								[ "土壤", "0" ],
+								[ "玻璃", "1" ],
+								[ "冰", "1" ],
+								[ "繩索", "1" ],
+								[ "木", "3" ],
+								[ "石", "5" ],
+								[ "鐵", "7" ],
+								[ "鋼筋混凝土", "8" ],
+								[ "鋼鐵", "9" ],
+								[ "鈦", "15" ],
+								[ "超級合金", "20+" ]
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Recovery",
+					"translate_name": "回復", "name": "Recovery",
 					"entries": [
-						"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process. Lasting or more serious injuries are handled as complications (see Lasting Injuries in Recovery section of Action & Adventure).",
-						"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the Technology skill when repairing damaged objects."
+						"有生命的目標每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect Regeneration}效果可以加速這個過程。長久性或更嚴重的創傷將被做為糾葛難題處理（參見{@rule Lasting Injuries|basic|8|Lasting Injuries}段落的說明）。",
+						"除非物體具有像是{@effect Regeneration}的效果，否則不具備體質屬性的物體並不會回復傷害。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。"
 					]
 				}
 			]
@@ -970,7 +996,7 @@
 			"extras": [
 				{
 					"name": "無須動作",
-					"entries": ["這個強化讓你在使用治癒效果時不再需要花費動作。儘管如此，你每回合仍舊不能使用治癒效果超過一次。要同時治癒複數目標，請應用{@modifier Area}修飾符。"],
+					"entries": ["這個強化讓你在使用治癒效果時不再需要花費動作。儘管如此，你每回合仍舊不能使用治癒效果超過一次。要同時治癒複數目標，請應用{@modifier 範圍化}修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1252,7 +1278,7 @@
 					"type": "entries",
 					"translate_name": "免疫的程度", "name": "Degrees of Immunity",
 					"entries": [
-						"某些免疫效果隱含著程度的差異性。舉例來說，「寒冷免疫」代表的可能會是免疫於酷寒環境的影響（參見{@rule Environment|basic|8|Environment}的說明）、免疫寒冷傷害、或甚至是免疫所有帶有「寒冷」描述符的效果。第一種免疫效果只需要1級，且不會在你抵抗其他種類的寒冷效果時提供其他助益。第二種免疫效果需要5級，且只會提供對寒冷傷害效果的免疫能力。第三種則需要10級，並會使你完全免疫於任何帶有「寒冷」描述符的效果。"
+						"某些免疫效果隱含著程度的差異性。舉例來說，「寒冷免疫」代表的可能會是免疫於酷寒環境的影響（參見{@rule Environment|basic|8|Environmental Hazards}的說明）、免疫寒冷傷害、或甚至是免疫所有帶有「寒冷」描述符的效果。第一種免疫效果只需要1級，且不會在你抵抗其他種類的寒冷效果時提供其他助益。第二種免疫效果需要5級，且只會提供對寒冷傷害效果的免疫能力。第三種則需要10級，並會使你完全免疫於任何帶有「寒冷」描述符的效果。"
 					]
 				},
 				{
@@ -1261,7 +1287,7 @@
 					"entries": [
 						"在漫畫中有許多角色直接了當地免疫於對於某些事物。免疫效果就是為了在遊戲中提供這些選項供角色使用。在某種程度上，直接說一名角色免疫於某物，要比費心去擲骰要來得單純許多。免疫效果同時鼓勵玩家們發揮創意：如果你沒辦法單純藉由攻擊敵人來戰勝他們，那麼你該怎麼辦？鼓勵玩家使用戰術、小聰明、超能力絕技、和勝利點以和這類免疫於玩家尋常攻擊的敵人斡旋。",
 						"若你發現免疫效果──特別是高等級的廣泛免疫能力──會對你的遊戲帶來麻煩，你可以選擇對它作出限制（像是不能超過10級），或乾脆將整個免疫效果取消，並以應用了適當超能力修飾符的{@effect 保護}效果和防禦屬性來取代它。",
-						"若要獲得免疫於一定程度的{@effect Damage}效果的能力，請參閱{@modifier 強抗}修飾符。"
+						"若要獲得免疫於一定程度{@effect 傷害}效果的能力，請參閱{@modifier 強抗}修飾符。"
 					]
 				}
 			],
