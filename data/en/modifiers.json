@@ -260,7 +260,7 @@
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"This modifier may apply to an effect that allows you to carry or affect a set amount of mass, typically a movement effect like Dimensional Travel or Teleport. Each rank of this extra increases the mass rank you can carry or move with the effect by 1. So Increased Mass 3 on Teleport allows you to carry up to 400 lbs. of extra mass with you when you teleport, for example."
+				"This modifier may apply to an effect that allows you to carry or affect a set amount of mass, typically a movement effect like {@effect Movement|Dimensional Travel} or {@effect Teleport}. Each rank of this extra increases the mass rank you can carry or move with the effect by 1. So Increased Mass 3 on Teleport allows you to carry up to 400 lbs. of extra mass with you when you teleport, for example."
 			]
 		},
 		{

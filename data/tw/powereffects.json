@@ -97,7 +97,7 @@
 			},
 			"entries": [
 				"你可以掘穿地表，並選擇是否在身後留下一條隧道。你能夠以等同你掘地等級減5的速度等級移動穿過土壤或沙子。因此舉例來說，8級的掘地效果能夠讓你以3級的速度（大約16哩/小時）在地表中穿梭。掘穿堅硬的黏土和結實的土壤會使速度額外降低一級。你所留下的隧道可以是永久存在，也可以立即在你身後崩塌（你在挖掘每條新通道時決定）。",
-				"注意掘地效果與Permeate {@effect Movement}效果不同，後者讓你得以如同在地面上以你原本的速度移動穿透障礙物，而不至於干涉到障礙物本身（參見{@effect Movement}）。"
+				"注意掘地效果與{@effect Movement|穿透移動}效果不同，後者讓你得以如同在地面上以你原本的速度移動穿透障礙物，而不至於干涉到障礙物本身（參見{@effect 移動}效果）。"
 			],
 			"extras": [
 				{
@@ -1075,7 +1075,7 @@
 			"flaws": [
 				{
 					"name": "共感",
-					"entries": ["當你成功治療他人的狀態時，你自己將承受該狀態，且必須正常地從中回復。你可以使用治癒和{@effect 再生}效果以治療你自己的狀態。你可以同時將復活修飾符與這個修飾符一起應用於治療效果，但若你成功使用該效果，你將會因此死亡！但若你具有{@effect Immortality}的能力效果使你能夠死裡復活（參見{@effect Immortality}以查閱更多細節），這也許就不像看上去那麼糟糕。"],
+					"entries": ["當你成功治療他人的狀態時，你自己將承受該狀態，且必須正常地從中回復。你可以使用治癒和{@effect 再生}效果以治療你自己的狀態。你可以同時將復活修飾符與這個修飾符一起應用於治療效果，但若你成功使用該效果，你將會因此死亡！但若你具有{@effect 永生}的能力效果使你能夠死裡復活（參見{@effect 永生}以查閱更多細節），這也許就不像看上去那麼糟糕。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1873,21 +1873,21 @@
 					"type": "entries",
 					"translate_name": "維度穿梭", "name": "Dimension Travel",
 					"entries": [
-						"你能夠以一個移動動作立即移動到另一個維度。若這個移動方式的等級為1，你可以在你的原生維度和另一個維度之間往返穿梭。若等級為2，你可在任意關聯類群的維度間往返移動（祕法維度、外星維度、諸如此類）。若等級為3，你可以在任意維度之間穿梭。當你在維度間穿梭時，你可以攜帶最多50磅（質量等級0）的額外物質與你一起移動。若你應用了{@modifier Increased Mass}修飾符，則你可以再額外攜帶最多等同於你該修飾符等級的質量。"
+						"你能夠以一個移動動作立即移動到另一個維度。若這個移動方式的等級為1級，你可以在你的原生維度和另一個維度之間往返穿梭。若等級為2級，你可在任意關聯類群的維度間往返移動（祕法維度、外星維度、諸如此類）。若等級為3級，你可以在任意維度之間穿梭。當你在維度間穿梭時，你可以攜帶最多50磅（質量等級0）的額外物質與你一起移動。若你應用了{@modifier 增加質量}修飾符，則你可以再額外攜帶最多等同於你該修飾符等級的質量。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "環境適應", "name": "Environmental Adaptation",
 					"entries": [
-						"你適應於一種特定的環境，例如水中、零重力等等（參見{@rule Environmental Hazards|basic|8|environmental hazards}以查閱更多細節）。你不會承受任何該環境所導致的不利情境罰值或移動懲罰，並能正常地移動和動作。你仍會被其環境危害所影響，像是窒息、暴露於嚴酷環境下等等。你需要{@effect Immunity}效果才能忽視這些危害。"
+						"你適應於一種特定的環境，例如水中、零重力等等（參見{@rule Environmental Hazards|basic|8|environmental hazards}以查閱更多細節）。你不會承受任何該環境所導致的不利情境罰值或移動懲罰，並能正常地移動和動作。你仍會被其環境危害所影響，像是窒息、暴露於嚴酷環境下等等。你需要{@effect 免疫}效果才能忽視這些危害。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "穿透", "name": "Permeate",
 					"entries": [
-						"你可以如同固態物體不存在一般穿透它們。若這個移動方式的等級為1，你能夠以你速度等級-2的速度穿透任何物理性物體。若等級為2，你能夠以你速度等級-2的速度穿透物體移動，而若等級為3，你能夠以你正常的速度穿透任何障礙物。你無法在完全浸入固態物體的時候呼吸，因此必須具備對窒息的{@effect Immunity}效果，或在穿透期間屏住氣息。由於你無法在處於固態物體內時視物，因此你可能也會需要Penetrates Concealment的{@effect Sense}效果以知曉自己正往哪裡移動。.",
+						"你可以如同固態物體不存在一般穿透它們。若這個移動方式的等級為1級，你能夠以你速度等級-2的速度穿透任何物理性物體。若等級為2級，你能夠以你速度等級-2的速度穿透物體移動，而若等級為3級，你能夠以你正常的速度穿透任何障礙物。你無法在完全浸入固態物體的時候呼吸，因此必須具備對窒息的{@effect 免疫}效果，或在穿透期間屏住氣息。由於你無法在處於固態物體內時視物，因此你可能也會需要Penetrates Concealment的{@effect Sense}效果以知曉自己正往哪裡移動。.",
 						"穿透效果通常會限定於特定物質，例如土地、冰、或金屬。儘管在面對攻擊時，穿透效果並不會提供任何保護作用，但當你處於固態物體內時，你仍能因此獲得掩護（參見{@rule Cover|basic|8|cover}）。若希望擁有能夠讓其他東西（包括攻擊在內）穿透你的能力，請查看{@effect Insubstantial}效果。"
 					]
 				},
@@ -1910,14 +1910,14 @@
 					"type": "entries",
 					"translate_name": "宇宙傳旅", "name": "Space Travel",
 					"entries": [
-						"You can travel faster than the speed of light through the vacuum of space (but not in a planetary atmosphere). At rank 1 you can travel to other planets in a solar system. At rank 2, you can travel to other star systems, while at rank 3, you can visit distant star systems, perhaps even other galaxies! This effect does not provide protection from the rigors of outer space (for that, see Immunity effect)."
+						"你能夠以超越光速的速度穿梭在外太空的真空環境中（但在行星大氣層無法以這種高速移動）。若這個移動方式的等級為1級，你可以傳旅至太陽系的其他行星。若等級為2級，你可以傳旅至其他恆星星系。若等級為3級，則你可以移動至遙遠的恆星星系，或甚至其他銀河系！這個效果並不會使你得以不受外太空的嚴酷環境影響（為此，請參見{@effect 免疫}效果）。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "穩健步伐", "name": "Sure-footed",
 					"entries": [
-						"You’re better able to deal with obstacles and obstructions to movement. Reduce the speed penalty for moving through or around such obstacles by 1 for each rank of this effect. If you reduce the speed penalty to 0 or less, you are unaffected by that obstacle and move at full normal speed."
+						"你比其他人更擅於在移動中應付障礙物和阻礙。這個效果的每一級都能使移動穿過或繞過這類障礙物導致的速度罰值降低1級。若你將該速度罰值降為0或更低，則你將不受障礙物影響而能以原本的全速移動。"
 					]
 				},
 				{
@@ -1931,33 +1931,33 @@
 					"type": "entries",
 					"translate_name": "時間旅行", "name": "Time Travel",
 					"entries": [
-						"You can move through time! For 1 rank, you can move between the present and another fixed point in time (such as 100 years into the past, or 1,000 years into the future). For 2 ranks you can move to any point in the past or any point in the future (but not both). For 3 ranks, you can travel to any point in time. Reaching alternate timelines or parallel worlds requires at least 2 ranks of Dimension-Travel. You can carry up to 50 lbs. (mass rank 0) of additional material with you when you time-travel. If you apply the Increased Mass modifier, you can carry additional mass up to your modifier rank."
+						"你可以穿梭時間！若這個移動方式的等級為1級，你可以在現在和一個固定的時間點之間來回穿梭（像是過去的1,000年前、或未來1,000年後）。若等級為2級，你可以移動到過去的任意時間點或未來的任意時間點（但只能選擇其中一種）。若等級為3，你可以移動到任意的時間點。移動到不同的時間線或平行世界需要至少2級的維度穿梭移動。你可以在時間旅行時攜帶最多50磅（質量等級0）的額外物質與你一起移動。若你應用了{@modifier 增加質量}修飾符，則你可以再額外攜帶最多等同於你該修飾符等級的質量。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "行蹤無跡", "name": "Trackless",
 					"entries": [
-						"You leave no trail and cannot be tracked using visual senses (although you can still be tracked using scent or other means). You can walk across the surface of soft sand or snow without leaving tracks and you have total concealment from tremorsense (see Concealment). Each additional rank renders you trackless to another sense type."
+						"你不會留下蹤跡，且無法被視覺感官所追蹤（儘管你仍會被嗅覺或其他手段給追蹤）。你可以走過軟沙或雪地的表面而不會留下任何腳蹤，且你對震顫感知而言具有全遮蔽（參見{@rule Concealment|basic|8|Concealment}）。這個移動方式的每一級額外等級都能讓你不會留下另一種感官類型的蹤跡。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "攀牆", "name": "Wall-crawling",
 					"entries": [
-						"You can climb walls and ceilings at your ground speed rank –1 with no chance of falling and no need for an Athletics check. You are still vulnerable while climbing, however. An additional rank of this effect means you climb at your full speed rank and are not vulnerable while climbing."
+						"你可以在牆面或天花板上以你地面速度等級-1攀爬移動，你不會從該表面墜落，也無須為此進行{@skill 運動}檢定。然而，你在攀爬時仍然會因此處於{@condition 脆弱}狀態。若這個移動方式的等級為2級，意味著你能夠以你正常的速度等級攀爬移動，且不會在攀爬時因此陷入{@condition 脆弱}狀態。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "水面行走", "name": "Water-walking",
 					"entries": [
-						"You can stand or move at your normal ground speed on the surface of water, quicksand, and other liquids without sinking. If you fall prone for any reason, you sink into the liquid normally. With 2 ranks of this effect, you can also lie prone on a liquid surface without sinking; you only sink if you choose to."
+						"你能夠以你正常的地面速度在水、流沙、或其他液體的表面上移動或站立而不至於沉沒。若你因為任何理由陷入{@condition 臥倒}狀態，則你將如常沉入該液體之中。若這個移動方式的等級為2級，則你可以在液體表面上{@condition 臥倒}而不至於沉沒；你只會在你選擇這麼做時沉入其中。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Time, Space, And Dimension Travel",
+					"translate_name": "幕後花絮：時間、宇宙、和維度傳旅", "name": "Under the Hood: Time, Space, And Dimension Travel",
 					"entries": [
 						"The Time, Space, and Dimension Travel effects of Movement are comparatively cheap considering what they do, primarily because such special movement capabilities are highly dependent on the plot and nature of the setting, and subject to a lot of Gamemaster oversight. Thus, they largely amount to supped-up Features, mainly allowing heroes to visit exotic locales.",
 						"Temporal mechanics and the effects of time travel are left entirely up to the GM, who may choose to make Time Travel Limited, Uncontrolled, or Unreliable for player characters, or disallow it altogether, treating it solely as a plot-device in the setting.",

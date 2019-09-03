@@ -255,13 +255,13 @@
 			]
 		},
 		{
-			"name": "Increased Mass",
+			"translate_name": "增加質量", "name": "Increased Mass",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"This modifier may apply to an effect that allows you to carry or affect a set amount of mass, typically a movement effect like Dimensional Travel or Teleport. Each rank of this extra increases the mass rank you can carry or move with the effect by 1. So Increased Mass 3 on Teleport allows you to carry up to 400 lbs. of extra mass with you when you teleport, for example."
+				"這個修飾符可以應用於那些讓你得以攜帶或影響一定質量的能力效果，像是{@effect 移動|維度穿梭移動}或{@effect Teleport}效果。這個修飾符的每一級都可以讓你以該效果攜帶或影響的質量等級額外增加1級。因此，舉例來說，應用於{@effect Teleport}效果的3級增加質量，可以讓你在傳送時攜帶最多400磅的質量。"
 			]
 		},
 		{
