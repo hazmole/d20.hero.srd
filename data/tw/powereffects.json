@@ -1887,7 +1887,7 @@
 					"type": "entries",
 					"translate_name": "穿透", "name": "Permeate",
 					"entries": [
-						"你可以如同固態物體不存在一般穿透它們。若這個移動方式的等級為1級，你能夠以你速度等級-2的速度穿透任何物理性物體。若等級為2級，你能夠以你速度等級-2的速度穿透物體移動，而若等級為3級，你能夠以你正常的速度穿透任何障礙物。你無法在完全浸入固態物體的時候呼吸，因此必須具備對窒息的{@effect 免疫}效果，或在穿透期間屏住氣息。由於你無法在處於固態物體內時視物，因此你可能也會需要Penetrates Concealment的{@effect Sense}效果以知曉自己正往哪裡移動。.",
+						"你可以如同固態物體不存在一般穿透它們。若這個移動方式的等級為1級，你能夠以你速度等級-2的速度穿透任何物理性物體。若等級為2級，你能夠以你速度等級-1的速度穿透物體移動，而若等級為3級，你能夠以你正常的速度穿透任何障礙物。你無法在完全浸入固態物體的時候呼吸，因此必須具備對窒息的{@effect 免疫}效果，或在穿透期間屏住氣息。由於你無法在處於固態物體內時視物，因此你可能也會需要Penetrates Concealment的{@effect Sense}效果以知曉自己正往哪裡移動。.",
 						"穿透效果通常會限定於特定物質，例如土地、冰、或金屬。儘管在面對攻擊時，穿透效果並不會提供任何保護作用，但當你處於固態物體內時，你仍能因此獲得掩護（參見{@rule Cover|basic|8|cover}）。若希望擁有能夠讓其他東西（包括攻擊在內）穿透你的能力，請查看{@effect Insubstantial}效果。"
 					]
 				},
@@ -2724,7 +2724,7 @@
 			]
 		},
 		{
-			"name": "Teleport",
+			"translate_name": "傳送", "name": "Teleport",
 			"type": "MOV",
 			"action": "M",
 			"range": "rank",
@@ -2734,62 +2734,62 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can move instantly from place to place without crossing the distance in between. You can teleport yourself and up to 50 lbs. (mass rank 0) of additional mass a distance rank equal to your effect rank as a move action. Unwilling passengers get a Dodge resistance check to avoid being taken along.",
-				"You can only teleport to places you can accurately sense or know especially well (in the GM’s judgment). You retain your position and relative velocity when you teleport. So if you are falling when you teleport, you are still falling at the same speed when you arrive at your destination.",
-				"Teleport is meant for use on or around a planet. For things like traveling to distant planets or stars, apply the Space Travel effect of Movement as a “hyperjump” or similar power."
+				"你可以從一處瞬間移動到另一處而不用跨越兩者之間的距離。以一個移動動作，你可以讓最多50磅（質量等級0）的額外物質與你一起傳送。非自願的同行者可以進行一次閃避抵抗檢定以避免被你帶著移動。",
+				"你只能傳送到你可以準確感知到、或你特別熟悉的場所（由GM裁斷）。你在傳送後將保持你當下的姿勢和相對速度。因此若你在墜落時傳送，你在抵達目的地時仍將以相同的速度墜落。",
+				"傳送只能在行星上或行星周遭被使用。若想要瞬間傳旅至遙遠行星或星系，請使用{@effect Movement|宇宙傳旅移動}效果作為「超時空跳躍」或類似的超能力。"
 			],
 			"extras": [
 				{
-					"name": "Accurate",
-					"entries": ["You don’t need to know or accurately sense your destination to teleport there, just be able to generally describe it, such as “inside the capitol building lobby” or “atop the Emerald Tower’s roof.” If the destination isn’t in your Teleport range, nothing happens."],
+					"name": "準確",
+					"entries": ["你不需要知道或精準地感知到你的目的地就可以傳送到該處，你只需要能夠大致的描述它即可，像是「國會大樓的大廳內」或「翡翠塔的屋頂上方」。若該目的地不在你傳送效果的範圍內，則什麼事都不會發生。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Change Direction",
-					"entries": ["You can change your direction or orientation after a teleport."],
+					"name": "改變方向",
+					"entries": ["你可以改變你在傳送之後的方向或面向。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Change Velocity",
-					"entries": ["You can teleport “at rest” to your destination. Among other things, this means you can teleport out of a fall and suffer no damage."],
+					"name": "改變速率",
+					"entries": ["你能夠以「靜止狀態」傳送到你的目的地。這代表著你可以在墜落中傳送到其他地方而不至於承受墜落傷害。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Easy",
-					"entries": ["You are not dazed or vulnerable when making extended teleports (following)."],
+					"name": "輕易",
+					"entries": ["你在進行延長距離傳送（見後述）之後不會因此陷入{@condition 目眩}和{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Extended",
-					"entries": ["You can take two move actions to make an extended teleport with a distance rank equal to your effect rank +8. You are dazed and vulnerable for one round after an extended teleport."],
+					"name": "延長距離",
+					"entries": ["你可以採取二個移動動作以進行一次延長距離傳送，傳送至最多等同於你傳送效果等級+8的距離等級。你在進行延長距離傳送後，將在接下來的一輪間處於{@condition 目眩}和{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Increased Mass",
+					"name": "增加質量",
 					"entries": ["You can carry additional mass when you teleport equal to your rank in this extra."],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
 				},
 				{
-					"name": "Portal",
+					"name": "傳送門",
 					"entries": ["You open a portal or gateway between two points as a free action. The portal is five feet across. Anyone stepping through the portal (a move action) is transported. The portal remains open as long as you concentrate, taking a standard action each turn to maintain it."],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
-					"name": "Turnabout",
+					"name": "迴轉",
 					"entries": ["You can teleport, take a standard action, and teleport back to your starting point in a single round, so long as the total distance moved doesn’t exceed your Teleport range."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -2798,15 +2798,15 @@
 			],
 			"flaws": [
 				{
-					"name": "Limited to Extended",
-					"entries": ["You can only make extended teleports. You must have the Extended extra, and this flaw effectively makes it a +0 modifier."],
+					"name": "限定延長距離",
+					"entries": ["你只能進行延長距離傳送。你必須應用延長距離修飾符，且這個缺陷將使其花費實質上等同+0的修飾符。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Medium",
-					"entries": ["You require a medium for your teleportation, such as electrical or telephone wires, root structures, waterways, shadows, flames, mirrors, and so forth. You can only teleport from and to locations where your medium exists."],
+					"name": "媒介",
+					"entries": ["你需要透過媒介以讓你進行傳送，像是電線或電話線、根狀結構、水路、陰影、火焰、鏡子等等。你只能從你選定媒介存在處傳送，也只能傳送至你選定媒介的存在處。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}

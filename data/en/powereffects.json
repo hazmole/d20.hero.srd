@@ -2736,7 +2736,7 @@
 			"entries": [
 				"You can move instantly from place to place without crossing the distance in between. You can teleport yourself and up to 50 lbs. (mass rank 0) of additional mass a distance rank equal to your effect rank as a move action. Unwilling passengers get a Dodge resistance check to avoid being taken along.",
 				"You can only teleport to places you can accurately sense or know especially well (in the GM’s judgment). You retain your position and relative velocity when you teleport. So if you are falling when you teleport, you are still falling at the same speed when you arrive at your destination.",
-				"Teleport is meant for use on or around a planet. For things like traveling to distant planets or stars, apply the Space Travel effect of Movement as a “hyperjump” or similar power."
+				"Teleport is meant for use on or around a planet. For things like traveling to distant planets or stars, apply the Space Travel effect of {@effect Movement} as a “hyperjump” or similar power."
 			],
 			"extras": [
 				{
@@ -2762,14 +2762,14 @@
 				},
 				{
 					"name": "Easy",
-					"entries": ["You are not dazed or vulnerable when making extended teleports (following)."],
+					"entries": ["You are not {@condition dazed} or {@condition vulnerable} when making extended teleports (following)."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Extended",
-					"entries": ["You can take two move actions to make an extended teleport with a distance rank equal to your effect rank +8. You are dazed and vulnerable for one round after an extended teleport."],
+					"entries": ["You can take two move actions to make an extended teleport with a distance rank equal to your effect rank +8. You are {@condition dazed} and {@condition vulnerable} for one round after an extended teleport."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
