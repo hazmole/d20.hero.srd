@@ -558,7 +558,7 @@
 					"type": "entries",
 					"translate_name": "力量與傷害", "name": "Strength and Damage",
 					"entries": [
-						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier Penetrating}或甚至{@modifier Area}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effects}修飾符；參見{@modifier Alternate Effects}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
+						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier 穿透強抗}或甚至{@modifier 範圍化}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effects}修飾符；參見{@modifier Alternate Effects}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
 					]
 				},
 				{
@@ -622,7 +622,7 @@
 			]
 		},
 		{
-			"name": "Deflect",
+			"translate_name": "偏轉", "name": "Deflect",
 			"type": "DEF",
 			"action": "S",
 			"range": "ranged",
@@ -632,25 +632,25 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can actively defend for characters other than yourself, deflecting or diverting attacks against them at a distance, and may be able to more effectively defend yourself, depending on your rank. See the Defend action in Action & Adventure for details. You use your Deflect rank in place of an active defense. You still add 10 to a Deflect die roll of 10 or less, for a minimum roll of 11. Deflect modifiers are limited by power level.",
-				"Like a ranged attack, if you Deflect at medium range, you have a –2 circumstance modifier on your check. At long range, you have a –5 circumstance modifier. Range is Measured from you to the target of the attack you are deflecting.",
-				"Like the defend action, Deflect does not work against area effects or perception ranged attacks, nor versus attacks targeting defenses other than Dodge or Parry."
+				"你可以主動為除了你以外的角色進行防守。取決於你在這個效果的等級，你可以在一段距離外使對他們做出的攻擊產生偏斜或轉向，或更有效率地保護你自己。參見{@rule 防守d|basic|8|defend}動作以查閱更多細節。你使用你的偏轉效果等級代替其主動防禦屬性。你仍可以在骰出10或以下時將其對抗檢定地結果加上10，使你骰出的結果最低為11。偏轉效果的修正值仍受限於超能力階級的限制。",
+				"如同遠程攻擊，若你在中程距離使用你的偏轉效果，則你將在你的檢定中承受-2的情境罰值。在長程距離，則你承受-5的情境罰值。這個距離是以你和你所偏轉攻擊的目標之間的距離來決定。",
+				"如同防守動作，偏轉效果對於範圍效果或感知距離遠程攻擊並不會產生效果，它對於對抗閃避或格擋以外防禦屬性的攻擊也不會產生效果。"
 			],
 			"extras": [
 				{
-					"name": "Action",
-					"entries": ["Because it requires the defend action, Deflect cannot take less than a standard action. To create a kind of “deflection field” or similar effect that automatically deflects attacks over a wide area, use an Enhanced Dodge and/or Enhanced Parry effect with modifiers like Area and Selective."]
+					"name": "動作",
+					"entries": ["由於這個效果需要採取防守動作，因此偏轉效果無法被做為標準動作以外的動作使用。要創造出類似「偏轉領域」或其他能夠在一個範圍區域內自動偏轉攻擊的效果，請使用{@effect Enhanced Trait|增強閃避}和/或{@effect Enhanced Trait|增強格擋}效果，並應用像是{@modifier 範圍化}和{@modifier 可選擇}之類的修飾符。"]
 				},
 				{
-					"name": "Reflect",
-					"entries": ["You can reflect attacks back at the attacker as a free action. First, you must successfully deflect the attack, then make a normal attack check using your own attack modifier to hit with the reflected attack. It has its normal effect if it hits."],
+					"name": "反射",
+					"entries": ["你可以將攻擊以一個自由動作反射到其攻擊者身上。首先，你必須成功地偏轉該攻擊，接著使用你自己的攻擊修正值進行一次正常的攻擊檢定以利用被反射的攻擊命中對方。若該攻擊命中，則它將造成其原本的效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Redirect",
-					"entries": ["You can redirect attacks you successfully deflect at any target within the attack’s normal range, as Reflect, above. You must have the Reflect extra to take this one."],
+					"name": "轉向",
+					"entries": ["你可以將你成功偏轉的攻擊重新導向任何處於該攻擊正常射程內的其他目標，作用如同上述的反射修飾符。你必須先應用反射修飾符，才能再應用這個修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

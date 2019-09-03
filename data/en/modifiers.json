@@ -388,7 +388,7 @@
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"Your effect overcomes Impervious Resistance to a degree; the target must make a resistance check against an effect rank equal to your Penetrating rank. So, if a rank 4 (Penetrating 2) effect hits a target with Impervious 9, the target must resist a rank 2 effect (equal to the Penetrating rank). If the effect were rank 6, the target would have to resist the full effect anyway, since its rank is greater than half the Impervious rank. You cannot have a Penetrating rank greater than your effect rank."
+				"Your effect overcomes {@modifier Impervious} Resistance to a degree; the target must make a resistance check against an effect rank equal to your Penetrating rank. So, if a rank 4 (Penetrating 2) effect hits a target with {@modifier Impervious} 9, the target must resist a rank 2 effect (equal to the Penetrating rank). If the effect were rank 6, the target would have to resist the full effect anyway, since its rank is greater than half the Impervious rank. You cannot have a Penetrating rank greater than your effect rank."
 			]
 		},
 		{

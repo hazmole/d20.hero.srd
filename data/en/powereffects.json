@@ -632,14 +632,14 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can actively defend for characters other than yourself, deflecting or diverting attacks against them at a distance, and may be able to more effectively defend yourself, depending on your rank. See the Defend action in Action & Adventure for details. You use your Deflect rank in place of an active defense. You still add 10 to a Deflect die roll of 10 or less, for a minimum roll of 11. Deflect modifiers are limited by power level.",
+				"You can actively defend for characters other than yourself, deflecting or diverting attacks against them at a distance, and may be able to more effectively defend yourself, depending on your rank. See the {@rule Defend|basic|8|defend} action in Action & Adventure for details. You use your Deflect rank in place of an active defense. You still add 10 to a Deflect die roll of 10 or less, for a minimum roll of 11. Deflect modifiers are limited by power level.",
 				"Like a ranged attack, if you Deflect at medium range, you have a –2 circumstance modifier on your check. At long range, you have a –5 circumstance modifier. Range is Measured from you to the target of the attack you are deflecting.",
 				"Like the defend action, Deflect does not work against area effects or perception ranged attacks, nor versus attacks targeting defenses other than Dodge or Parry."
 			],
 			"extras": [
 				{
 					"name": "Action",
-					"entries": ["Because it requires the defend action, Deflect cannot take less than a standard action. To create a kind of “deflection field” or similar effect that automatically deflects attacks over a wide area, use an Enhanced Dodge and/or Enhanced Parry effect with modifiers like Area and Selective."]
+					"entries": ["Because it requires the defend action, Deflect cannot take less than a standard action. To create a kind of “deflection field” or similar effect that automatically deflects attacks over a wide area, use an {@effect Enhanced Trait|Enhanced Dodge} and/or {@effect Enhanced Trait|Enhanced Parry} effect with modifiers like {@modifier Area} and {@modifier Selective}."]
 				},
 				{
 					"name": "Reflect",
