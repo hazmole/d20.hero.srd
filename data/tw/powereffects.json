@@ -873,7 +873,7 @@
 			]
 		},
 		{
-			"name": "Flight",
+			"_translate_name": "飛行", "name": "Flight",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -883,7 +883,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can fly through the air, including hovering in place. You have a flight speed rank equal to your effect rank."
+				"你可以在空中飛翔，甚至浮滯於空中。你具有等同於你飛行效果等級的飛行速度等級。"
 			],
 			"extras": [
 				{
@@ -1469,7 +1469,7 @@
 			]
 		},
 		{
-			"name": "Leaping",
+			"translate_name": "跳躍", "name": "Leaping",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -1479,13 +1479,13 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can make prodigious leaps, far more than even a skilled athlete. Your Leaping rank, minus 2, is the distance rank you cover in a single standing jump: so 15 feet at rank 1, 30 feet at rank 2, up to 1,000 miles at rank 20! You do not suffer any damage from landing after a jump, so long as it is within your maximum distance.",
-				"The speed rank of your leap maxes out at 7 (around 250 miles per hour), so leaps of greater than distance rank 7 take time equal to the distance rank minus 7. For example, a massive leap of 500 miles (distance rank 17) takes time rank 10 (17 – 7, or two hours) of time in the air! Because of this, leapers may choose to make shorter “hops” of just a couple miles, leaving them airborne for only a minute or so, to better control their direction."
+				"你可以做出驚人的跳躍，遠超過受訓運動員所能及的程度。你的跳躍效果等級-2即為你單次跳躍所能跨越的最大距離等級：因此若這個效果的等級為1級，你可以跳躍最多15呎，2級時30呎，到最多在20級時跳躍1,000哩的距離！只要你單次跳躍距離不超過你的最大跳躍距離，你就不會承受任何跳躍之後因著陸而導致的傷害。",
+				"你跳躍時的速度等級最大為7級（大約每小時250哩），因此因此跳躍距離超過7級的單次跳躍將會花費等同距離等級-7的時間等級。舉例來說，一次跨越500哩距離（17級距離）的超長跳躍將會在空中滯留長達10級的時間（17 - 7，亦即二小時）！也因此，跳躍者通常會選擇進行好幾次僅有數哩的短跳，讓他們只會在空中滯留幾分鐘的時間，並因此更容易的控制他們的行進方向。"
 			],
 			"extras": [
 				{
-					"name": "Affects Others",
-					"entries": ["You can give someone you are touching the ability to leap like you do while the effect lasts. You do not need this extra to simply carry someone while you leap; you can carry what your Strength normally allows."],
+					"name": "影響他人",
+					"entries": ["你可以藉由碰觸來使他人在這個效果持續期間獲得像你一樣跳躍的能力。你不需要這個修飾符也能帶著他人一起跳躍；你可以攜帶你的力量正常所能負荷的重量。"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per"
 					}
@@ -1493,15 +1493,15 @@
 			],
 			"flaws": [
 				{
-					"name": "Acrobatics Check Required",
-					"entries": ["In order to use Leaping, you must make an Acrobatics skill check (DC 10). Each point your check total exceeds the DC allows you to use 1 rank of Leaping, up to your total rank."],
+					"name": "需要雜技檢定",
+					"entries": ["要使用跳躍效果，你必須先進行一次{@skill 雜技}技能檢定（DC 10）。你的檢定結果每超過DC一點，你就能使用跳躍效果等級中的1級，最多到你跳躍效果等級的程度。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Full Power",
-					"entries": ["With this flaw, you can only leap your maximum distance; you can make shorter leaps only by not using your Leaping effect at all, just the normal jumping distance for your Strength. This may suit uncontrollable “leaping” effects like rocket boosters and the like."],
+					"name": "最大功率",
+					"entries": ["若應用這個缺陷，你就只能跳躍至你的最大跳躍距離；你只能在完全不使用這個跳躍效果時進行較短距離的跳躍（亦即你力量屬性所決定的正常跳躍距離）。這個缺陷可能會適合用於一些像是火箭推進器之類的，無法控制的「跳躍」效果。"],
 					"cost": {
 						"value": -1, "type": "flat"
 					}

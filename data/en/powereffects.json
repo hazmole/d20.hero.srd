@@ -1494,7 +1494,7 @@
 			"flaws": [
 				{
 					"name": "Acrobatics Check Required",
-					"entries": ["In order to use Leaping, you must make an Acrobatics skill check (DC 10). Each point your check total exceeds the DC allows you to use 1 rank of Leaping, up to your total rank."],
+					"entries": ["In order to use Leaping, you must make an {@skill Acrobatics} skill check (DC 10). Each point your check total exceeds the DC allows you to use 1 rank of Leaping, up to your total rank."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
