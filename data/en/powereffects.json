@@ -2720,7 +2720,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can swim fast. You have a water speed equal to your Swimming rank –2, subject to the usual rules for swimming (see the Athletics skill description for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see Immunity)."
+				"You can swim fast. You have a water speed equal to your Swimming rank –2, subject to the usual rules for swimming (see the {@skill Athletics} skill description for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see {@effect Immunity})."
 			]
 		},
 		{

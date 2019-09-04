@@ -2710,7 +2710,7 @@
 			]
 		},
 		{
-			"name": "Swimming",
+			"translate_name": "游泳", "name": "Swimming",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -2720,7 +2720,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can swim fast. You have a water speed equal to your Swimming rank –2, subject to the usual rules for swimming (see the Athletics skill description for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see Immunity)."
+				"你可以快速地游泳。你具有等同於你游泳效果等級-2的水中移動速度，並遵守一般的游泳規則（參見{@skill 運動}技能的描述以查閱更多細節）。你可以在游泳時以例行檢定進行運動檢定。這個超能力效果不會讓你獲得水下呼吸的能力（為此，請參見{@effect 免疫}效果）。"
 			]
 		},
 		{
@@ -2776,21 +2776,21 @@
 				},
 				{
 					"name": "增加質量",
-					"entries": ["You can carry additional mass when you teleport equal to your rank in this extra."],
+					"entries": ["你可以在傳送時再額外攜帶最多等同於這個修飾符等級的質量。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
 				},
 				{
 					"name": "傳送門",
-					"entries": ["You open a portal or gateway between two points as a free action. The portal is five feet across. Anyone stepping through the portal (a move action) is transported. The portal remains open as long as you concentrate, taking a standard action each turn to maintain it."],
+					"entries": ["你能夠以一個自由動作打開一道連接兩點的傳送門。這個傳送門的寬度為5呎。任何跨入這個傳送門（需要一個移動動作）的角色都將被傳送到另一處。只要你在每個回合採取一個標準動作以維持專注，這個傳送門就會保持開啟的狀態。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
 					"name": "迴轉",
-					"entries": ["You can teleport, take a standard action, and teleport back to your starting point in a single round, so long as the total distance moved doesn’t exceed your Teleport range."],
+					"entries": ["你可以傳送，採取一個標準動作，然後再傳送回你在該輪的起始位置，只要其總傳送距離不超過你的傳送射程即可。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
