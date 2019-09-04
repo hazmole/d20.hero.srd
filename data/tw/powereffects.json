@@ -117,7 +117,7 @@
 			],
 			"flaws": [
 				{
-					"name": "限定",
+					"name": "限定條件",
 					"entries": ["掘地效果可能會被限定於某種特定的環境或材質，例如僅能作用於鬆散的細沙或土壤（角色將無法掘穿密實的黏土或堅岩），或僅能作用於雪或冰（使角色完全無法掘穿泥石或土壤）。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -2939,7 +2939,7 @@
 			]
 		},
 		{
-			"name": "Weaken",
+			"_translate_name": "弱化", "name": "Weaken",
 			"type": "ATK",
 			"action": "S",
 			"range": "close",
@@ -2951,14 +2951,14 @@
 			"entries": [
 				{
 					"type": "insetResistCheck",
-					"name": "Weaken Resistance Check",
-					"func": "Fortitude or Will vs. DC [Weaken rank + 10]",
+					"name": "弱化抵抗檢定",
+					"func": "韌性 或 意志 vs. DC [弱化等級 + 10]",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"{@b Success}: No effect.",
-								"{@b Failure}: The target loses character points from the affected trait equal to the difference between the check result and the DC, up to a maximum of the Weaken rank."
+								"{@b 成功}: 沒有任何效果。",
+								"{@b 失敗}: 目標受影響的屬性數據將會失去等同於檢定結果與DC差值的角色點，最多失去等同於弱化等級的數量。"
 							]
 						}
 					]
@@ -2966,14 +2966,14 @@
 				"Multiple failed resistance checks against a Weaken effect are cumulative, up to a maximum of the Weaken rank, at which point the effect cannot weaken the trait further. Lost points return at a rate of 1 per round at the end of each of the target’s turns. Inanimate objects do not recover weakened Toughness; they must be repaired. Objects may or may not recover other weakened traits, at the GM’s discretion and depending on the effect’s descriptors.",
 				{
 					"type": "entries",
-					"name": "Weakening Abilities",
+					"translate_name": "弱化屬性", "name": "Weakening Abilities",
 					"entries": [
 						"Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Weakening Devices",
+					"translate_name": "弱化裝置", "name": "Weakening Devices",
 					"entries": [
 						"Weaken with Affects Objects and the right descriptor(s) can lower the traits provided by a device (see the Removable flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like Nullify."
 					]
@@ -2981,56 +2981,56 @@
 			],
 			"extras": [
 				{
-					"name": "Affects Objects",
+					"translate_name": "影響物體", "name": "Affects Objects",
 					"entries": ["Weaken with this modifier works on inanimate objects, although the effect can still only affect traits the objects possess. This is most often applied to Weaken Toughness for an effect that can weaken both creatures and objects. {@b +1 cost per rank, +0 for Affects Only Objects.}"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per", "hidden": true
 					}
 				},
 				{
-					"name": "Broad",
+					"translate_name": "廣泛", "name": "Broad",
 					"entries": ["You can Weaken any of a broad set of traits, one at a time suited to your effects descriptors. So you might be able to Weaken Abilities, for example, or Weaken Mental Effects. You choose which trait from the set is weakened when you use the effect."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Concentration",
+					"translate_name": "專注", "name": "Concentration",
 					"entries": ["Once you have hit with a Concentration Weaken , so long as you continue to take a standard action each turn to maintain the effect, the target must make a new resistance check against it, with no attack check required."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Incurable",
+					"translate_name": "無法治癒", "name": "Incurable",
 					"entries": ["Weaken with this modifier cannot have its effects countered by another power (such as Restorative Healing) without the Persistent modifier; the target must recover from the Weaken normally."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Precise",
+					"translate_name": "精確", "name": "Precise",
 					"entries": ["A Weaken effect capable of reducing more than one trait at once can have this modifier, allowing you to choose which traits are affected, while not affecting others. Note this differs from the Selective extra (following)."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Progressive",
+					"translate_name": "惡化", "name": "Progressive",
 					"entries": ["A Progressive Weaken effect reduces the affected traits each round until the target successfully resists. Make a new resistance check for the target at the end of each turn; failure weakens the affected trait(s) further, while success stops the Progressive Weaken , but the target must still recover ranks already lost (at the rate of 1 point per turn)."],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
-					"name": "Selective",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["This extra is applied to an Area Weaken so it only affects some targets and not others. Combined with Precise (previously), you can use an Area Weaken to selectively affect only certain traits of certain targets."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Simultaneous",
+					"translate_name": "同時", "name": "Simultaneous",
 					"entries": ["If applied to a Broad Weaken , this extra allows it to affect all of the traits in its set at the same time. Each trait loses the difference between the resistance check result and the DC in character points on a failed check. So a Simultaneous Weaken Fire Effects subtracts points from every fire effect the target possesses with a single attack. The effect must be Broad to apply this modifier."],
 					"cost": {
 						"value": 1, "type": "per"
