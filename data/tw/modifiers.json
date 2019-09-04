@@ -238,18 +238,18 @@
 			]
 		},
 		{
-			"name": "Increased Duration",
+			"translate_name": "增加持續時間", "name": "Increased Duration",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"Effects have a standard duration: instant, sustained, continuous, or permanent. See Duration for details. This modifier increases an effect’s duration. Choose one of the following options:",
+				"每個效果都具有其基本的持續時間：即效、維持、常續、或永駐。參見{@rule 持續時間|basic|6|duration}以查閱更多細節。這個修飾符將增加效果的持續時間。選擇下列其中一個選項：",
 				{
 					"type": "list",
 					"items": [
-						"{@b Concentration}: When applied to an instant duration effect, this modifier makes it maintainable with concentration, taking a standard action each turn to do so. If the effect requires an initial attack check, no additional attack check is needed to maintain it on a target, but subsequent rounds of effect also do not benefit from critical hits. The target is affected on each of the effect user’s turns, making a normal resistance check (if any). Once the user stops concentrating for any reason, the effect ends and the target recovers normally, including resistance checks to remove ongoing effects.",
-						"{@b Continuous}: When applied to a sustained duration effect, this modifier makes it continuous."
+						"{@b 專注}：當應用於一個持續時間為「即效」的效果時，這個修飾符將使其能夠透過專注來維持其效果，這需要使用者在每個回合都採取一個標準動作以專注其效果。若該效果一開始需要進行一次攻擊檢定，則對目標維持其效果並不需要再進行額外的攻擊檢定，但後續回合的效果將不會受益於暴擊帶來的好處。目標將在該效果使用者的每個回合受其影響，並如常進行抵抗檢定（若有）。一旦效果使用者因為任何原因而停止專注，則該效果將終止，且目標將如常從中回復（包括進行抵抗檢定以解除持續性的效應）。",
+						"{@b 常續}：當應用於一個持續時間為「維持」的效果時，這個修飾符將使其持續時間變為「常續」。"
 					]
 				}
 			]
@@ -494,13 +494,13 @@
 			]
 		},
 		{
-			"name": "Subtle",
+			"translate_name": "隱密使用", "name": "Subtle",
 			"type": "extra",
 			"cost": {
 				"value": {"min":1, "max":2}, "type": "flat"
 			},
 			"entries": [
-				"Subtle effects are not as noticeable. A subtle effect may be used to catch a target unaware and may in some cases qualify for a surprise attack. Rank 1 makes an effect difficult to notice; a DC 20 Perception check is required, or the effect is noticeable only to certain exotic senses (at the GM’s discretion). Rank 2 makes the effect completely undetectable."
+				"應用了隱密使用的效果將變得不那麼明顯。一個隱密使用的效果可以在目標不知情的情況下發揮作用，或在某些情況下造成{@rule 突襲攻擊|basic|8|surprise attack}。1級的隱密使用可以使效果難以被察覺；其他人需要進行一次DC 20的感知技能檢定才能察覺、或者該效果只能藉由特定罕見感官才能被察覺到（由GM裁斷）。2級的隱密使用則可以使該效果完全無法被察覺。"
 			]
 		},
 		{
@@ -608,13 +608,13 @@
 			]
 		},
 		{
-			"name": "Concentration",
+			"translate_name": "專注", "name": "Concentration",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"Applied to a sustained duration effect, this modifier makes it concentration duration, requiring a standard action, rather than a free action, each turn to maintain. See Duration for details."
+				"應用於持續時間為維持的效果，這個修飾符將使該效果的持續時間變為「專注」，使其在每個回合都需要採取一個標準動作，而非自由動作來維持其效果。詳情參見{@rule 持續時間|basic|6|duration}。"
 			]
 		},
 		{
@@ -628,13 +628,13 @@
 			]
 		},
 		{
-			"name": "Distracting",
+			"translate_name": "分神", "name": "Distracting",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"Using a Distracting effect requires more concentration than usual, causing you become vulnerable when you use the effect, until the start of your next turn."
+				"使用具有分神修飾符的效果時需要非比尋常的專注力，而這也將導致你在使用該效果時處於{@condition 脆弱}狀態，持續直到你的下個回合開始。"
 			]
 		},
 		{

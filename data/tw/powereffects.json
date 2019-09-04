@@ -558,7 +558,7 @@
 					"type": "entries",
 					"translate_name": "力量與傷害", "name": "Strength and Damage",
 					"entries": [
-						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier 穿透強抗}或甚至{@modifier 範圍化}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effects}修飾符；參見{@modifier Alternate Effects}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
+						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier 穿透強抗}或甚至{@modifier 範圍化}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effect|Alternate Effects}修飾符；參見{@modifier Alternate Effect}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
 					]
 				},
 				{
@@ -873,7 +873,7 @@
 			]
 		},
 		{
-			"_translate_name": "飛行", "name": "Flight",
+			"translate_name": "飛行", "name": "Flight",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -887,22 +887,22 @@
 			],
 			"extras": [
 				{
-					"name": "Aquatic",
-					"entries": ["You can move underwater as easily as in the air. You have a water speed equal to your Flight rank, minus 2, subject to the usual rules for swimming (see Athletics for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see Immunity). This is the Swimming power as an Alternate Effect."],
+					"name": "水行",
+					"entries": ["你可以如同在空中一樣輕易地在水中移動。你具有等同於你飛行效果等級-2的水中移動速度，並遵守一般的游泳規則（參見{@skill 運動}技能的描述以查閱更多細節）。你可以在游泳時以例行檢定進行運動檢定。這個超能力效果不會讓你獲得水下呼吸的能力（為此，請參見{@effect 免疫}效果）。這個強化等同於做為{@modifier Alternate Effect}的{@effect 游泳}超能力效果。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Continuous",
-					"entries": ["Continuous Flight operates even when the user is incapacitated or otherwise unable to sustain it. The user remains hanging in the air, maintaining relative position to the ground, if necessary. Alternately, the user might float safely down to the ground when unable to maintain Flight as a kind of “safety net,” your choice when you apply the modifier."],
+					"name": "常續",
+					"entries": ["常續飛行效果即使在使用者陷入{@condition 失能}狀態或無法維持效果時仍能發揮作用。使用者將保持懸浮於空中，並在必要時維持在其相對地面的高度位置。或者，使用者可以在無法維持飛行效果時安全地飄落至地表，做為一種安全保障。你在應用這個修飾符時選擇要使用哪一種效用。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Subtle",
-					"entries": ["The default Flight effect is noticeable, whether from the rush of air, the roar of jets, or a glowing contrail or aurora, for example. This modifier reduces, and then eliminates, these traces. If your Flight is completely Subtle, you do not need to make Stealth checks to move silently while flying (you do so automatically), although you may still need to do so to avoid being seen or otherwise detected."],
+					"name": "隱密使用",
+					"entries": ["預設上，飛行效果是顯而易見的，舉例來說，無論是激起的氣流、噴射的轟鳴聲、閃耀的軌跡或極光都會讓飛行效果變得極為明顯。這個修飾符可以降低，或甚至消除這些痕跡。若你的飛行效果應用了2級的隱密使用而使其完全隱密，則你在飛行時不需要進行潛行技能檢定就能夠無聲移動（你將會自動這麼做），然而你仍需要進行該檢定以避免被看見或被其他方式察覺。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
 					}
@@ -910,43 +910,43 @@
 			],
 			"flaws": [
 				{
-					"name": "Concentration",
-					"entries": ["Flight requiring concentration means you can fly, but can’t do much else at the same time."],
+					"name": "專注",
+					"entries": ["需要專注的飛行效果，意味著你在飛行的同時將不能進行其它需要標準動作的行為。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Distracting",
-					"entries": ["You are not very maneuverable and therefore vulnerable while flying (see Vulnerable condition)."],
+					"name": "分神",
+					"entries": ["你飛行的機動性並不怎麼優秀，因此你在飛行期間將處於{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Gliding",
-					"entries": ["You fly by gliding on wind currents. Your maximum gliding distance is limited to the vertical distance rank of your starting height, plus your flight speed rank. You may be able to gain altitude occasionally by catching thermal updrafts and winds at the GM’s discretion. Other-wise you must land at the end of your maximum distance."],
+					"name": "滑翔",
+					"entries": ["你藉由順風滑翔來飛行。你的最大滑翔距離受限於你起始高度的垂直距離等級加上你的飛行速度等級。在GM的裁斷下，你也許能夠藉由上升氣流來偶爾提升你的高度。除此之外的場合，你必須在你達到你的最大滑翔距離時著陸。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Levitation",
-					"entries": ["You can only move vertically, straight up and down, and not side to side, although you can allow yourself to be carried along in the direction of the wind horizontally."],
+					"name": "浮空",
+					"entries": ["你只能垂直移動，直上和直下，而不能橫向飛行。然而你可以讓自己藉由風的方向水平移動。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Platform",
-					"entries": ["Your Flight is reliant on some sort of platform on which you stand or sit. If you fail a resistance check while flying, or you are grabbed by someone standing on the ground, you’re knocked or pulled off your platform and cannot fly. You can regain the use of your flying platform by reactivating your Flight effect on your next turn."],
+					"name": "平台",
+					"entries": ["你的飛行能力依賴於某種你所站立或乘坐的平台。若你在飛行期間在一次抵抗檢定中失敗、或你被某個站在地面上的角色給擒抱，則你將從該平台上被擊落或拖離，並因此無法飛行。你可以在你的下個回合再次啟動你的飛行效果以使用你的飛行平台。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Wings",
-					"entries": ["You have wings that allow you to fly, but they run the risk of being fouled or restrained, which prevents you from flying. If you are immobilized, restrained, or bound, you cannot fly. You can regain the use of your wings by reactivating your Flight effect once you are no longer affected by the aforementioned conditions."],
+					"name": "翅膀",
+					"entries": ["你擁有讓你得以飛行的翅膀，但它們將隱含被纏住或束縛的風險，並使你因此無法飛行。若你陷入{@condition 無法移動}、{@condition 束縛}、或{@condition 受制}狀態時，你將無法飛行。一旦你不再被上述狀態影響，你就可以再次啟動你的飛行效果以使用你的翅膀。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}

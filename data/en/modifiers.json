@@ -243,7 +243,7 @@
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"Effects have a standard duration: instant, sustained, continuous, or permanent. See Duration for details. This modifier increases an effect’s duration. Choose one of the following options:",
+				"Effects have a standard duration: instant, sustained, continuous, or permanent. See {@rule Duration|basic|6|duration} for details. This modifier increases an effect’s duration. Choose one of the following options:",
 				{
 					"type": "list",
 					"items": [
@@ -499,7 +499,7 @@
 				"value": {"min":1, "max":2}, "type": "flat"
 			},
 			"entries": [
-				"Subtle effects are not as noticeable. A subtle effect may be used to catch a target unaware and may in some cases qualify for a surprise attack. Rank 1 makes an effect difficult to notice; a DC 20 Perception check is required, or the effect is noticeable only to certain exotic senses (at the GM’s discretion). Rank 2 makes the effect completely undetectable."
+				"Subtle effects are not as noticeable. A subtle effect may be used to catch a target unaware and may in some cases qualify for a {@rule surprise attack|basic|8|surprise attack}. Rank 1 makes an effect difficult to notice; a DC 20 Perception check is required, or the effect is noticeable only to certain exotic senses (at the GM’s discretion). Rank 2 makes the effect completely undetectable."
 			]
 		},
 		{
@@ -613,7 +613,7 @@
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"Applied to a sustained duration effect, this modifier makes it concentration duration, requiring a standard action, rather than a free action, each turn to maintain. See Duration for details."
+				"Applied to a sustained duration effect, this modifier makes it concentration duration, requiring a standard action, rather than a free action, each turn to maintain. See {@rule Duration|basic|6|duration} for details."
 			]
 		},
 		{
@@ -633,7 +633,7 @@
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"Using a Distracting effect requires more concentration than usual, causing you become vulnerable when you use the effect, until the start of your next turn."
+				"Using a Distracting effect requires more concentration than usual, causing you become {@condition vulnerable} when you use the effect, until the start of your next turn."
 			]
 		},
 		{

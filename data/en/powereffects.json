@@ -558,7 +558,7 @@
 					"type": "entries",
 					"name": "Strength and Damage",
 					"entries": [
-						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it {@modifier Penetrating} or even an {@modifier Area effect}! You can also have {@modifier Alternate Effects} for your Strength Damage; see the {@modifier Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default."
+						"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it {@modifier Penetrating} or even an {@modifier Area} effect! You can also have {@modifier Alternate Effect|Alternate Effects} for your Strength Damage; see the {@modifier Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default."
 					]
 				},
 				{
@@ -888,14 +888,14 @@
 			"extras": [
 				{
 					"name": "Aquatic",
-					"entries": ["You can move underwater as easily as in the air. You have a water speed equal to your Flight rank, minus 2, subject to the usual rules for swimming (see Athletics for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see Immunity). This is the Swimming power as an Alternate Effect."],
+					"entries": ["You can move underwater as easily as in the air. You have a water speed equal to your Flight rank, minus 2, subject to the usual rules for swimming (see {@skill Athletics} for details). You can make Athletics checks to swim as routine checks. This power does not allow you to breathe underwater (for that see {@effect Immunity}). This is the {@effect Swimming} power as an {@modifier Alternate Effect}."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"name": "Continuous",
-					"entries": ["Continuous Flight operates even when the user is incapacitated or otherwise unable to sustain it. The user remains hanging in the air, maintaining relative position to the ground, if necessary. Alternately, the user might float safely down to the ground when unable to maintain Flight as a kind of “safety net,” your choice when you apply the modifier."],
+					"entries": ["Continuous Flight operates even when the user is {@condition incapacitated} or otherwise unable to sustain it. The user remains hanging in the air, maintaining relative position to the ground, if necessary. Alternately, the user might float safely down to the ground when unable to maintain Flight as a kind of “safety net,” your choice when you apply the modifier."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -918,7 +918,7 @@
 				},
 				{
 					"name": "Distracting",
-					"entries": ["You are not very maneuverable and therefore vulnerable while flying (see Vulnerable condition)."],
+					"entries": ["You are not very maneuverable and therefore {@condition vulnerable} while flying."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -946,7 +946,7 @@
 				},
 				{
 					"name": "Wings",
-					"entries": ["You have wings that allow you to fly, but they run the risk of being fouled or restrained, which prevents you from flying. If you are immobilized, restrained, or bound, you cannot fly. You can regain the use of your wings by reactivating your Flight effect once you are no longer affected by the aforementioned conditions."],
+					"entries": ["You have wings that allow you to fly, but they run the risk of being fouled or restrained, which prevents you from flying. If you are {@condition immobile|immobilized}, {@condition restrained}, or {@condition bound}, you cannot fly. You can regain the use of your wings by reactivating your Flight effect once you are no longer affected by the aforementioned conditions."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
