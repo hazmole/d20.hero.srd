@@ -3969,11 +3969,12 @@ Renderer.powereffect = {
 	},
 	renderModifier: function (modifier){
 		const renderer = Renderer.get();
+		var name = modifier.translate_name? modifier.translate_name: modifier.name;
 
 		var outstack = [];
 		outstack.push('<div class=" rd__b--3">');
 		if(modifier.name)
-			outstack.push(`<span class="rd__h rd__h--3" data-title-index="2"><span class="entry-title-inner">${modifier.name}: </span></span>`);
+			outstack.push(`<span class="rd__h rd__h--3" data-title-index="2"><span class="entry-title-inner">${name}: </span></span>`);
 		for(var idx in modifier.entries){
 			renderer.recursiveRender(modifier.entries[idx], outstack, {depth: 3});
 		}
