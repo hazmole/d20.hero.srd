@@ -33,35 +33,35 @@
 			],
 			"extras": [
 				{
-					"name": "替換抵抗",
+					"translate_name": "替換抵抗", "name": "Alternate Resistance",
 					"entries": ["有些詛咒效果一開始可能需要使用閃避來抵抗，這代表目標可以透過迅捷的反應或反射神經以避免其效果。在這種情況下，目標之後為了解除詛咒效果所造成狀態時所進行的抵抗檢定仍會使用韌性或意志。舉例來說，目標可能會進行一次閃避檢定以躲避一道致盲射線或噴濺毒液，但若他在一開始的閃避檢定中失敗，那麼他仍需要透過韌性檢定才能消除這個效果的影響。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "專注",
+					"translate_name": "專注", "name": "Concentration",
 					"entries": ["一旦你使用專注詛咒命中目標，只要你繼續在每個回合採取一個標準動作以維持這個效果，你將不需要再進行攻擊檢定，就可以迫使目標再進行一次新的抵抗檢定以對抗這個效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "累積",
+					"translate_name": "累積", "name": "Cumulative",
 					"entries": ["原本一個詛咒效果不會對同一個目標造成可累積的效果，因此先後對同一個目標造成兩次程度一的結果，與對目標造成一次程度一的結果並沒有什麼不同；你必須在之後的攻擊中造成更高程度的結果，才能夠取代一開始造成的結果。然而，累積詛咒可以使目標身上的詛咒程度得以累加。舉例來說，若你命中一個目標並造成{@condition 脆弱}狀態（程度一），接著再次攻擊並得到程度一的結果，則你將使目標承受該詛咒的程度二的結果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "額外狀態",
+					"translate_name": "額外狀態", "name": "Extra Condition",
 					"entries": ["你的詛咒每個程度都能夠造成一個額外的狀態。因此，若應用這個修飾符一次，你的詛咒將能造成二個狀態──例如{@condition 目眩}和{@condition 移動受阻}、或{@condition 行動乏能}和{@condition 脆弱}──而非僅造成一個。若應用這個修飾符二次，則它將能造成三個狀態，如此這般。由於同時造成相互排斥的複數狀態會導致浪費，因此應用了這個追加強化的詛咒通常也會伴隨著限定程度的追加缺點。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "惡化",
+					"translate_name": "惡化", "name": "Progressive",
 					"entries": ["這個修飾符將使你不需要再額外做什麼，就能讓詛咒逐步惡化。若目標在用以解除詛咒效果的抵抗檢定中失敗，則其效果不僅將持續存在，還將再增加一個程度！因此，被程度一的惡化詛咒所影響的目標若在抵抗檢定時失敗，將在他的下一輪開始時改為承受程度二的惡化詛咒。一次成功的抵抗檢定仍然會如往常一樣結束這個詛咒效果。"],
 					"cost": {
 						"value": 2, "type": "per"
@@ -70,14 +70,14 @@
 			],
 			"flaws": [
 				{
-					"name": "立即康復",
+					"translate_name": "立即康復", "name": "Instant Recovery",
 					"entries": ["與{@modifier 可逆}修飾符相似，應用了這個修飾符的詛咒效果的目標將會在其持續時間結束的該輪結束時自動康復，而無須進行任何檢定。因此，舉例來說，一個持續時間為即效的詛咒只會持續一輪，而持續時間為維持的詛咒將會在其不再被維持時終止。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "限定程度",
+					"translate_name": "限定程度", "name": "Limited Degree",
 					"entries": ["你的詛咒被限定只能造成不超過程度二的效果。若應用這個修飾符二次，則你的詛咒將被限定只能造成不超過程度一的效果。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -101,14 +101,14 @@
 			],
 			"extras": [
 				{
-					"name": "貫穿",
+					"translate_name": "貫穿", "name": "Penetrating",
 					"entries": ["通常來說，地表的堅硬程度只會影響你掘地的速度。但在GM的裁斷下，某些超級堅硬的材質可能會無法被掘地效果影響，而這個追加強化將讓你得以掘穿它們。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "遠距",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["這個追加強化能讓你得以在一段距離之外創造一條隧道（無須在隧道形成時處於隧道的端點），或者，若與{@modifier 影響他人}修飾符組合，則能讓你得以將掘地效果賦予其他處於一段距離外的某人。若要獲得上述兩者的效果，你必須要應用這個追加強化二次。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "per"
@@ -117,7 +117,7 @@
 			],
 			"flaws": [
 				{
-					"name": "限定條件",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["掘地效果可能會被限定於某種特定的環境或材質，例如僅能作用於鬆散的細沙或土壤（角色將無法掘穿密實的黏土或堅岩），或僅能作用於雪或冰（使角色完全無法掘穿泥石或土壤）。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -175,7 +175,7 @@
 			],
 			"extras": [
 				{
-					"name": "Area",
+					"translate_name": "範圍化", "name": "Area",
 					"entries": ["You can broadcast omni-directionally to every receiver within your maximum Communication range at once. Note this extra is only strictly necessary to communicate with everyone over a wide area all at once; since using and maintaining Communication are free actions, the GM may allow a communicator to establish and maintain contact with multiple discrete receivers—such as the members of the same team—all in the same round."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -212,7 +212,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Limited",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["Communication may be limited to only members of a particular group, such as a species, family, members of an organization, and so forth. This is in addition to limitations imposed by medium (that is, requiring subjects to have a means of picking up on the Communication)."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -316,14 +316,14 @@
 			],
 			"extras": [
 				{
-					"name": "Affects Others",
+					"translate_name": "影響他人", "name": "Affects Others",
 					"entries": ["This modifier allows you to grant Concealment to others while you are touching them, or at range, if you also apply the Range modifier."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Area",
+					"translate_name": "範圍化", "name": "Area",
 					"entries": ["Concealment with Affects Others (previously) or attack (immediately following) may have this extra, affecting everything in the area. To only affect some targets in the area, apply the Selective modifier as well."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -353,7 +353,7 @@
 					}
 				},
 				{
-					"name": "Limited",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["Your Concealment only works under certain conditions, such as in fog, shadows, or in urban locales. One example is Limited to Machines, where your Concealment only fools senses with a technological descriptor."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -558,7 +558,7 @@
 					"type": "entries",
 					"translate_name": "力量與傷害", "name": "Strength and Damage",
 					"entries": [
-						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier 穿透強抗}或甚至{@modifier 範圍化}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effect|Alternate Effects}修飾符；參見{@modifier Alternate Effect}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
+						"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符適用於你力量屬性所造成的傷害，使其具備{@modifier 貫穿強抗}或甚至{@modifier 範圍化}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effect|Alternate Effects}修飾符；參見{@modifier Alternate Effect}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。"
 					]
 				},
 				{
@@ -638,18 +638,18 @@
 			],
 			"extras": [
 				{
-					"name": "動作",
+					"translate_name": "動作", "name": "Action",
 					"entries": ["由於這個效果需要採取防守動作，因此偏轉效果無法被做為標準動作以外的動作使用。要創造出類似「偏轉領域」或其他能夠在一個範圍區域內自動偏轉攻擊的效果，請使用{@effect Enhanced Trait|增強閃避}和/或{@effect Enhanced Trait|增強格擋}效果，並應用像是{@modifier 範圍化}和{@modifier 可選擇}之類的修飾符。"]
 				},
 				{
-					"name": "反射",
+					"translate_name": "反射", "name": "Reflect",
 					"entries": ["你可以將攻擊以一個自由動作反射到其攻擊者身上。首先，你必須成功地偏轉該攻擊，接著使用你自己的攻擊修正值進行一次正常的攻擊檢定以利用被反射的攻擊命中對方。若該攻擊命中，則它將造成其原本的效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "轉向",
+					"translate_name": "轉向", "name": "Redirect",
 					"entries": ["你可以將你成功偏轉的攻擊重新導向任何處於該攻擊正常射程內的其他目標，作用如同上述的反射修飾符。你必須先應用反射修飾符，才能再應用這個修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
@@ -689,7 +689,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Limited",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["Enhanced Traits are often Limited in some fashion, such as Nighttime (or Daytime) Only, While Angry (or in another emotional state), Underwater (or in some other environment), and so forth. A limit that rarely comes into play—like losing your Enhanced Trait during a new moon—can be handled as a power loss complication. See Complications in The Basics for details."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -887,21 +887,21 @@
 			],
 			"extras": [
 				{
-					"name": "水行",
+					"translate_name": "水行", "name": "Aquatic",
 					"entries": ["你可以如同在空中一樣輕易地在水中移動。你具有等同於你飛行效果等級-2的水中移動速度，並遵守一般的游泳規則（參見{@skill 運動}技能的描述以查閱更多細節）。你可以在游泳時以例行檢定進行運動檢定。這個超能力效果不會讓你獲得水下呼吸的能力（為此，請參見{@effect 免疫}效果）。這個強化等同於做為{@modifier Alternate Effect}的{@effect 游泳}超能力效果。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "常續",
+					"translate_name": "常續", "name": "Continuous",
 					"entries": ["常續飛行效果即使在使用者陷入{@condition 失能}狀態或無法維持效果時仍能發揮作用。使用者將保持懸浮於空中，並在必要時維持在其相對地面的高度位置。或者，使用者可以在無法維持飛行效果時安全地飄落至地表，做為一種安全保障。你在應用這個修飾符時選擇要使用哪一種效用。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "隱密使用",
+					"translate_name": "隱密使用", "name": "Subtle",
 					"entries": ["預設上，飛行效果是顯而易見的，舉例來說，無論是激起的氣流、噴射的轟鳴聲、閃耀的軌跡或極光都會讓飛行效果變得極為明顯。這個修飾符可以降低，或甚至消除這些痕跡。若你的飛行效果應用了2級的隱密使用而使其完全隱密，則你在飛行時不需要進行潛行技能檢定就能夠無聲移動（你將會自動這麼做），然而你仍需要進行該檢定以避免被看見或被其他方式察覺。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
@@ -910,42 +910,42 @@
 			],
 			"flaws": [
 				{
-					"name": "專注",
+					"translate_name": "專注", "name": "Concentration",
 					"entries": ["需要專注的飛行效果，意味著你在飛行的同時將不能進行其它需要標準動作的行為。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "分神",
+					"translate_name": "分神", "name": "Distracting",
 					"entries": ["你飛行的機動性並不怎麼優秀，因此你在飛行期間將處於{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "滑翔",
+					"translate_name": "滑翔", "name": "Gliding",
 					"entries": ["你藉由順風滑翔來飛行。你的最大滑翔距離受限於你起始高度的垂直距離等級加上你的飛行速度等級。在GM的裁斷下，你也許能夠藉由上升氣流來偶爾提升你的高度。除此之外的場合，你必須在你達到你的最大滑翔距離時著陸。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "浮空",
+					"translate_name": "浮空", "name": "Levitation",
 					"entries": ["你只能垂直移動，直上和直下，而不能橫向飛行。然而你可以讓自己藉由風的方向水平移動。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "平台",
+					"translate_name": "平台", "name": "Platform",
 					"entries": ["你的飛行能力依賴於某種你所站立或乘坐的平台。若你在飛行期間在一次抵抗檢定中失敗、或你被某個站在地面上的角色給擒抱，則你將從該平台上被擊落或拖離，並因此無法飛行。你可以在你的下個回合再次啟動你的飛行效果以使用你的飛行平台。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "翅膀",
+					"translate_name": "翅膀", "name": "Wings",
 					"entries": ["你擁有讓你得以飛行的翅膀，但它們將隱含被纏住或束縛的風險，並使你因此無法飛行。若你陷入{@condition 無法移動}、{@condition 束縛}、或{@condition 受制}狀態時，你將無法飛行。一旦你不再被上述狀態影響，你就可以再次啟動你的飛行效果以使用你的翅膀。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -995,77 +995,77 @@
 			],
 			"extras": [
 				{
-					"name": "無須動作",
+					"translate_name": "無須動作", "name": "Action",
 					"entries": ["這個強化讓你在使用治癒效果時不再需要花費動作。儘管如此，你每回合仍舊不能使用治癒效果超過一次。要同時治癒複數目標，請應用{@modifier 範圍化}修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "影響物體",
+					"translate_name": "影響物體", "name": "Affects Objects",
 					"entries": ["你的治癒效果現在能夠「治癒」非活物目標的傷害。如同原本那樣，你進行一次治癒檢定以解除目標最嚴重的傷害狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "範圍化",
+					"translate_name": "範圍化", "name": "Area",
 					"entries": ["應用了這個強化的治癒效果將使所有處於影響範圍內的目標得益於相同的好處。要注意的是，範圍化共感治癒效果（參見本效果的缺陷）絕不是個明智的組合，因為治癒者將會一口氣承受所有目標的傷害狀態！"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "激發活力",
+					"translate_name": "激發活力", "name": "Energizing",
 					"entries": ["除了傷害狀態外，你也可以治癒{@condition 疲勞}和{@condition 力竭}狀態：DC 10，程度一的成功可以治癒疲勞，程度二的成功則可以治癒力竭狀態。然而，你將會承受被解除的狀態，且無法使用治癒效果以解除你自己身上的疲勞和力竭狀態（然而你仍然可以使用勝利點以從中回復）。若該治癒檢定失敗，你仍必須等待的原本的一分鐘回復時間或使用奮力一搏以再次嘗試。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "感知距離",
+					"translate_name": "感知距離", "name": "Perception",
 					"entries": ["這個強化應用於遠距治癒效果（見下述）。感知距離遠距治癒效果並不需要進行攻擊檢定以「觸碰」到目標。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "堅持",
+					"translate_name": "堅持", "name": "Persistent",
 					"entries": ["你的治癒效果可以解除甚至是應用了{@modifier 無法治癒}修飾符的效果所造成的狀態。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "遠距",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["遠距治癒效果要求你進行一次攻擊檢定以讓治癒效果「觸碰」到目標。若一名自願目標處於完全靜止，GM可能會捨去該檢定的進行，但目標將在該輪間處於{@condition 無防備}狀態。因此在戰鬥期間這麼做可能就不是個明智的選擇。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "恢復",
+					"translate_name": "恢復", "name": "Restorative",
 					"entries": ["你的治癒效果可以恢復被{@effect Weaken}效果所移除的角色點，只要該效果帶有適當的描述符，像是創傷、疾病、或毒素。你將使受影響的數據恢復等同於你治癒效果等級的角色點。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "復活",
+					"translate_name": "復活", "name": "Resurrection",
 					"entries": ["你可以讓死者起死回生！若目標死亡時間的分鐘數少於你治癒效果的等級，進行一次DC 20的治癒檢定。若檢定成功，目標的狀態將變為{@condition 失能}，就如同被穩定傷勢一樣。若該檢定失敗，則你只能夠使用奮力一搏再次嘗試。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "可選擇",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["範圍化治癒效果可能會具有這個強化修飾符，讓你得以選擇範圍內的目標各自是否會得益於治癒效果的好處。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "穩定性",
+					"translate_name": "穩定性", "name": "Stabilize",
 					"entries": ["你在穩定一名{@condition 瀕死}角色的傷勢時不需要進行治癒檢定，你的治癒效果將會自動使其傷勢穩定。然而這麼做仍然需要採取標準動作。"],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -1074,21 +1074,21 @@
 			],
 			"flaws": [
 				{
-					"name": "共感",
+					"translate_name": "共感", "name": "Empathic",
 					"entries": ["當你成功治療他人的狀態時，你自己將承受該狀態，且必須正常地從中回復。你可以使用治癒和{@effect 再生}效果以治療你自己的狀態。你可以同時將復活修飾符與這個修飾符一起應用於治療效果，但若你成功使用該效果，你將會因此死亡！但若你具有{@effect 永生}的能力效果使你能夠死裡復活（參見{@effect 永生}以查閱更多細節），這也許就不像看上去那麼糟糕。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "限定條件",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["治癒效果受到限定條件的可能例子包括：一種傷害類型（像是能量或打擊傷害）、物體（與{@modifier 影響物體}一同使用）、他人（你不能對自己使用治癒效果）、或自身（你只能對你自己使用治癒效果）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "暫時性",
+					"translate_name": "暫時性", "name": "Temporary",
 					"entries": ["你治癒效果的好處是暫時性的，僅僅持續一個小時。目標將在之後重新承受你所治療的任何傷害狀態。這些狀態將會與目標自從初次治療以來所承受的其他狀態疊加，並可能會因此導致更嚴重的傷害或甚至死亡。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1242,7 +1242,7 @@
 			],
 			"flaws": [
 				{
-					"name": "限定條件",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["你必須指定一個合理的常見效果（或一系列不常見的效果）以防止你從死裡復活，例如斬首、火化、或是木樁穿心等等。即使如此，若這些效果被某種方式逆轉或解除（例如木樁被從你的屍體卸除），則你仍可以再從死裡復活。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1293,35 +1293,35 @@
 			],
 			"extras": [
 				{
-					"name": "影響他人",
+					"translate_name": "影響他人", "name": "Affects Others",
 					"entries": ["這個強化讓你得以藉由觸碰將你免疫效果的好處賦予其他人。這個強化最常被用於維生需求，例如一個用以創造維持一個包圍你周圍的維生「泡泡」的超能力。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "維持",
+					"translate_name": "維持", "name": "Sustained",
 					"entries": ["持續時間為維持的免疫效果可能會適合某些類型的超能力，特別是力場類或其他需要少許專注的防護性能力。對於基本持續時間為永駐的免疫效果來說，這個修飾符的花費為+0。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "遠距",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["影響他人免疫效果可能會應用這個強化，讓它得以從遠距離賦予他人這個效果的好處。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "反射",
+					"translate_name": "反射", "name": "Reflect",
 					"entries": ["你可以將你免疫的攻擊以一個自由動作反射到攻擊者身上。使用你自己的攻擊修正值進行一次正常的攻擊檢定以利用被反射的攻擊命中對方。若該攻擊命中，則它將造成其原本的效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "轉向",
+					"translate_name": "轉向", "name": "Redirect",
 					"entries": ["你可以將你免疫的攻擊重新導向任何處於該攻擊正常射程內的其他目標，作用如同上述的反射修飾符。你必須先應用反射修飾符，才能再應用這個修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
@@ -1330,7 +1330,7 @@
 			],
 			"flaws": [
 				{
-					"name": "限定減半效果",
+					"translate_name": "限定減半效果", "name": "Limited to Half Effect",
 					"entries": ["你承受其原本效果的一半，而非對其完全免疫。對於環境效果，你僅會以減半的頻率進行相關檢定。對於其他效果，你將在決定該效果的抵抗檢定DC（包括決定是否會被{@modifier 強抗}所影響）之前，將該效果的等級減半（尾數捨去）。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1395,7 +1395,7 @@
 					"entries": ["This extra is required for any effect that works on corporeal targets while you are incorporeal. See the description of this extra for details and cost."]
 				},
 				{
-					"name": "Affects Others",
+					"translate_name": "影響他人", "name": "Affects Others",
 					"entries": ["This modifier allows you to extend your Insubstantial effect to another character by touch, taking them Insubstantial with you. If you ever withdraw the effect while someone is inside a solid object, see the effect’s description for the unpleasant results."],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per"
@@ -1484,7 +1484,7 @@
 			],
 			"extras": [
 				{
-					"name": "影響他人",
+					"translate_name": "影響他人", "name": "Affects Others",
 					"entries": ["你可以藉由碰觸來使他人在這個效果持續期間獲得像你一樣跳躍的能力。你不需要這個修飾符也能帶著他人一起跳躍；你可以攜帶你的力量正常所能負荷的重量。"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per"
@@ -1493,14 +1493,14 @@
 			],
 			"flaws": [
 				{
-					"name": "需要雜技檢定",
+					"translate_name": "需要雜技檢定", "name": "Acrobatics Check Required",
 					"entries": ["要使用跳躍效果，你必須先進行一次{@skill 雜技}技能檢定（DC 10）。你的檢定結果每超過DC一點，你就能使用跳躍效果等級中的1級，最多到你跳躍效果等級的程度。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "最大功率",
+					"translate_name": "最大功率", "name": "Full Power",
 					"entries": ["若應用這個缺陷，你就只能跳躍至你的最大跳躍距離；你只能在完全不使用這個跳躍效果時進行較短距離的跳躍（亦即你力量屬性所決定的正常跳躍距離）。這個缺陷可能會適合用於一些像是火箭推進器之類的，無法控制的「跳躍」效果。"],
 					"cost": {
 						"value": -1, "type": "flat"
@@ -1532,7 +1532,7 @@
 			],
 			"extras": [
 				{
-					"name": "Area",
+					"translate_name": "範圍化", "name": "Area",
 					"entries": ["Your Luck Control effect works equally on all targets in the affected area. You spend only one victory point, but the subjects are each affected individually. You must apply the same effect to all subjects at once."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -1835,7 +1835,7 @@
 					}
 				},
 				{
-					"name": "Concentration",
+					"translate_name": "專注", "name": "Concentration",
 					"entries": ["Concentration Move Object requires more attention to maintain. You cannot concentrate to increase your lifting capacity or to grab or move another object while you are still “holding” your first."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1994,7 +1994,7 @@
 					}
 				},
 				{
-					"name": "Area",
+					"translate_name": "範圍化", "name": "Area",
 					"entries": ["An Area Nullify effect works on all targets in the area. Make a single power check and compare the result against the opposed checks of the targets. Targets lacking effects you can nullify are, naturally, unaffected. If your Area Nullify has a duration longer than instant, choose whether or not the effect remains in the chosen area (affecting anyone entering or leaving it) or moves with the targets hit with the initial effect. There is no difference in cost, but to be able to do both, take one Area Nullify as an Alternate Effect of the other."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -2008,7 +2008,7 @@
 					}
 				},
 				{
-					"name": "Concentration",
+					"translate_name": "專注", "name": "Concentration",
 					"entries": ["Any countered effect is suppressed and cannot be reactivated while you concentrate. The user of the countered effect may use extra effort to gain another opposed Nullify check. If successful, the effect can be reactivated."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -2082,7 +2082,7 @@
 			],
 			"flaws": [
 				{
-					"name": "維持",
+					"translate_name": "維持", "name": "Sustained",
 					"entries": ["你的保護效果的持續時間將變為維持，而非永駐。這個效果將能夠被隨意啟動和關閉，且可以透過奮力一搏而被強化，包括用其施展超能力絕技(參見{@rule 奮力一搏|basic|1|extra effort})。維持保護可能會是一種類似於個人防護力場、或使肌膚硬化並轉變為鎧甲的能力。"],
 					"cost": {
 						"value": 0, "type": "per"
@@ -2150,7 +2150,7 @@
 			],
 			"extras": [
 				{
-					"name": "堅持",
+					"translate_name": "堅持", "name": "Persistent",
 					"entries": ["你可以透過再生解除甚至是{@modifier 無法治癒}的傷害狀態（參見{@modifier 無法治癒}修飾符）。"],
 					"cost": {
 						"value": 1, "type": "per"
@@ -2159,7 +2159,7 @@
 			],
 			"flaws": [
 				{
-					"name": "來源",
+					"translate_name": "來源", "name": "Source",
 					"entries": ["你的再生效果只會在你接觸到特定來源以補足你自己的時候才能發揮作用，像是鮮血、電力、沙、廢金屬、陽光等等。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -2496,14 +2496,14 @@
 			],
 			"extras": [
 				{
-					"name": "Affects Others",
+					"translate_name": "影響他人", "name": "Affects Others",
 					"entries": ["You can grant the benefits of one or more Senses to another character. Apply Affects Others only to the ranks of the chosen sense(s)."],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per"
 					}
 				},
 				{
-					"name": "Area",
+					"translate_name": "範圍化", "name": "Area",
 					"entries": ["The Area modifier only applies to Senses that affect Others, and only to extend their benefits to everyone in an area. Apply the Selective modifier for the ability to choose who in the area does and does not benefit from the Senses. To affect the area of a sense itself, use the Extended and Radius traits of the Senses effect."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -2533,7 +2533,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Limited",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["Some Senses may be Limited to only sensing certain things or only under certain circumstances. As usual, the sense must lose about half its utility to qualify for this flaw, less than that is more likely a particular descriptor associated with the sense and may constitute a complication at the GM’s discretion when it comes up in play."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -2740,56 +2740,56 @@
 			],
 			"extras": [
 				{
-					"name": "準確",
+					"translate_name": "準確", "name": "Accurate",
 					"entries": ["你不需要知道或精準地感知到你的目的地就可以傳送到該處，你只需要能夠大致的描述它即可，像是「國會大樓的大廳內」或「翡翠塔的屋頂上方」。若該目的地不在你傳送效果的範圍內，則什麼事都不會發生。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "改變方向",
+					"translate_name": "改變方向", "name": "Change Direction",
 					"entries": ["你可以改變你在傳送之後的方向或面向。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "改變速率",
+					"translate_name": "改變速率", "name": "Change Velocity",
 					"entries": ["你能夠以「靜止狀態」傳送到你的目的地。這代表著你可以在墜落中傳送到其他地方而不至於承受墜落傷害。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "輕易",
+					"translate_name": "輕易", "name": "Easy",
 					"entries": ["你在進行延長距離傳送（見後述）之後不會因此陷入{@condition 目眩}和{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "延長距離",
+					"translate_name": "延長距離", "name": "Extended",
 					"entries": ["你可以採取二個移動動作以進行一次延長距離傳送，傳送至最多等同於你傳送效果等級+8的距離等級。你在進行延長距離傳送後，將在接下來的一輪間處於{@condition 目眩}和{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "增加質量",
+					"translate_name": "增加質量", "name": "Increased Mass",
 					"entries": ["你可以在傳送時再額外攜帶最多等同於這個修飾符等級的質量。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
 				},
 				{
-					"name": "傳送門",
+					"translate_name": "傳送門", "name": "Portal",
 					"entries": ["你能夠以一個自由動作打開一道連接兩點的傳送門。這個傳送門的寬度為5呎。任何跨入這個傳送門（需要一個移動動作）的角色都將被傳送到另一處。只要你在每個回合採取一個標準動作以維持專注，這個傳送門就會保持開啟的狀態。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
-					"name": "迴轉",
+					"translate_name": "迴轉", "name": "Turnabout",
 					"entries": ["你可以傳送，採取一個標準動作，然後再傳送回你在該輪的起始位置，只要其總傳送距離不超過你的傳送射程即可。"],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -2798,14 +2798,14 @@
 			],
 			"flaws": [
 				{
-					"name": "限定延長距離",
+					"name": "限定延長距離", "name": "Limited to Extended",
 					"entries": ["你只能進行延長距離傳送。你必須應用延長距離修飾符，且這個缺陷將使其花費實質上等同+0的修飾符。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "媒介",
+					"name": "媒介", "name": "Medium",
 					"entries": ["你需要透過媒介以讓你進行傳送，像是電線或電話線、根狀結構、水路、陰影、火焰、鏡子等等。你只能從你選定媒介存在處傳送，也只能傳送至你選定媒介的存在處。"],
 					"cost": {
 						"value": -1, "type": "per"
@@ -2900,7 +2900,7 @@
 					}
 				},
 				{
-					"name": "Affects Others",
+					"translate_name": "影響他人", "name": "Affects Others",
 					"entries": ["You can grant effects to someone else. The subject granted the use of the effect controls its configuration, if appropriate for its descriptors (although you retain the ability to withdraw use of the effect altogether whenever you wish). {@b Affects Others Only: +0 cost per rank. Affects Others or yourself: +1 cost per rank.}"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per", "hidden": true
@@ -2923,7 +2923,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Limited",
+					"translate_name": "限定條件", "name": "Limited",
 					"entries": ["As noted in the description, a Variable effect must be limited by certain descriptors by default. To qualify for this flaw, the effect must be even more limited. This is highly situational and left to the Gamemaster’s judgment. An example is a Variable effect only able to provide Enhanced Skills; in most settings, this is Limited. However, in settings where powers are rare and most characters rely on skills, it might not be. Conversely, a Variable effect prohibited from providing Enhanced Skills, but able to provide a wide range of other effects, isn’t particularly Limited, just defined by its descriptors."],
 					"cost": {
 						"value": {"min":-1, "max":"more"}, "type": "per"
@@ -2963,12 +2963,12 @@
 						}
 					]
 				},
-				"Multiple failed resistance checks against a Weaken effect are cumulative, up to a maximum of the Weaken rank, at which point the effect cannot weaken the trait further. Lost points return at a rate of 1 per round at the end of each of the target’s turns. Inanimate objects do not recover weakened Toughness; they must be repaired. Objects may or may not recover other weakened traits, at the GM’s discretion and depending on the effect’s descriptors.",
+				"在抵抗弱化效果時所做的抵抗檢定的複數次失敗結果會累積，最多失去等同於弱化效果等級的角色點，當失去的角色點達到其上限時，該屬性就不會再被更進一步弱化。因為弱化而失去的角色點會在目標每回合結束以每輪1點的速度回復。無生命的物體無法回復被弱化的堅實屬性；它們必須被維修才能從中回復。根據GM的裁斷並取決於該效果的描述符，物體可能可以或無法回復其他被弱化的屬性數據。",
 				{
 					"type": "entries",
 					"translate_name": "弱化屬性", "name": "Weakening Abilities",
 					"entries": [
-						"Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
+						"被弱化而導致等級低於-5的屬性將會衰竭。參見{@rule }Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
 					]
 				},
 				{
