@@ -2939,7 +2939,7 @@
 			]
 		},
 		{
-			"_translate_name": "弱化", "name": "Weaken",
+			"translate_name": "弱化", "name": "Weaken",
 			"type": "ATK",
 			"action": "S",
 			"range": "close",
@@ -2958,80 +2958,80 @@
 							"type": "list",
 							"items": [
 								"{@b 成功}: 沒有任何效果。",
-								"{@b 失敗}: 目標受影響的屬性數據將會失去等同於檢定結果與DC差值的角色點，最多失去等同於弱化等級的數量。"
+								"{@b 失敗}: 目標受影響的數據將會失去等同於檢定結果與DC差值的角色點，最多失去等同於弱化等級的數量。"
 							]
 						}
 					]
 				},
-				"在抵抗弱化效果時所做的抵抗檢定的複數次失敗結果會累積，最多失去等同於弱化效果等級的角色點，當失去的角色點達到其上限時，該屬性就不會再被更進一步弱化。因為弱化而失去的角色點會在目標每回合結束以每輪1點的速度回復。無生命的物體無法回復被弱化的堅實屬性；它們必須被維修才能從中回復。根據GM的裁斷並取決於該效果的描述符，物體可能可以或無法回復其他被弱化的屬性數據。",
+				"在抵抗弱化效果時所做的抵抗檢定的複數次失敗結果會累積，最多失去等同於弱化效果等級的角色點，當失去的角色點達到其上限時，該數據就不會再被更進一步弱化。因為弱化而失去的角色點會在目標每回合結束以每輪1點的速度回復。無生命的物體無法回復被弱化的堅實屬性；它們必須被維修才能從中回復。根據GM的裁斷和該效果的描述符，物體可能可以或無法回復其他被弱化的數據。",
 				{
 					"type": "entries",
 					"translate_name": "弱化屬性", "name": "Weakening Abilities",
 					"entries": [
-						"被弱化而導致等級低於-5的屬性將會衰竭。參見{@rule }Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
+						"被弱化而導致等級低於-5的屬性將會衰竭。詳情參見{@rule 衰竭屬性|basic|3|debilitated abilities}以查閱特定屬性衰竭的情況。已經衰竭的屬性將無法再被弱化。直到該屬性的等級回復到至少-5級前，任何對該屬性進行的弱化將不會發揮任何作用。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "弱化裝置", "name": "Weakening Devices",
 					"entries": [
-						"Weaken with Affects Objects and the right descriptor(s) can lower the traits provided by a device (see the Removable flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like Nullify."
+						"應用了{@modifier 影響物體}修飾符以及適當描述符的弱化效果可以降低裝置所提供的屬性數據（參見{@modifier Removable}缺陷）。舉例來說，弱化魔法效果也許能夠汲取魔法裝置以及魔法使用者自己的魔法能量。同樣的，弱化電力也可能影響電子裝置，諸如此類。這類效果同樣也能作用於裝備，儘管裝備能被弱化的數據通常會比較少。GM可以駁回任何不合理的弱化效果。舉例來說，儘管弱化傷害效果是可行的，並不代表角色可以因此使槍枝造成較低的傷害；這類效果通常會以像是{@effect Nullify}這類影響整體的效果來處理。"
 					]
 				}
 			],
 			"extras": [
 				{
 					"translate_name": "影響物體", "name": "Affects Objects",
-					"entries": ["Weaken with this modifier works on inanimate objects, although the effect can still only affect traits the objects possess. This is most often applied to Weaken Toughness for an effect that can weaken both creatures and objects. {@b +1 cost per rank, +0 for Affects Only Objects.}"],
+					"entries": ["應用了這個修飾符的弱化效果可以作用於無生命物體上，然而這個效果仍然只能影響該物體所具有的屬性數據。這個修飾符最常被應用於弱化堅實效果，讓其能夠同時弱化生物和物體。 {@b 每級+1點，若只能影響物體則為每級+0點.}"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per", "hidden": true
 					}
 				},
 				{
 					"translate_name": "廣泛", "name": "Broad",
-					"entries": ["You can Weaken any of a broad set of traits, one at a time suited to your effects descriptors. So you might be able to Weaken Abilities, for example, or Weaken Mental Effects. You choose which trait from the set is weakened when you use the effect."],
+					"entries": ["你可以弱化一組廣泛類別中的任意一個數據，一次選擇一個符合你效果描述符的數據。舉例來說，你可能會能夠弱化屬性、或弱化心靈效果。你在使用這個效果時選擇要弱化類別中的哪一個數據。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "專注", "name": "Concentration",
-					"entries": ["Once you have hit with a Concentration Weaken , so long as you continue to take a standard action each turn to maintain the effect, the target must make a new resistance check against it, with no attack check required."],
+					"entries": ["一旦你使用專注弱化命中目標，只要你繼續在每個回合採取一個標準動作以維持這個效果，你將不需要再進行攻擊檢定，就可以迫使目標再進行一次新的抵抗檢定以對抗這個效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "無法治癒", "name": "Incurable",
-					"entries": ["Weaken with this modifier cannot have its effects countered by another power (such as Restorative Healing) without the Persistent modifier; the target must recover from the Weaken normally."],
+					"entries": ["應用了這個修飾符的弱化效果無法被其他沒有{@b 堅持}修飾符的超能力效果（例如{@effect Healing|恢復治癒}）給反制；目標必須以正常速度從弱化效果中回復。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "精確", "name": "Precise",
-					"entries": ["A Weaken effect capable of reducing more than one trait at once can have this modifier, allowing you to choose which traits are affected, while not affecting others. Note this differs from the Selective extra (following)."],
+					"entries": ["這個修飾符可以應用於能夠同時影響複數數據的弱化效果，讓你可以選擇其中有哪些數據會被影響，而哪些數據不會。要注意的是這個修飾符與下述的{@modifier 可選擇}修飾符不同。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "惡化", "name": "Progressive",
-					"entries": ["A Progressive Weaken effect reduces the affected traits each round until the target successfully resists. Make a new resistance check for the target at the end of each turn; failure weakens the affected trait(s) further, while success stops the Progressive Weaken , but the target must still recover ranks already lost (at the rate of 1 point per turn)."],
+					"entries": ["直到目標成功抵抗之前，惡化弱化效果將在每輪降低目標受影響的數據。目標必須在他的每個回合結束時進行一次新的抵抗檢定；若該檢定失敗，則該數據將會進一步被弱化；若該檢定成功則該弱化效果的惡化將會被終止，但目標仍然得以正常速度回復他已經失去的角色點（每回合回復1點）。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["This extra is applied to an Area Weaken so it only affects some targets and not others. Combined with Precise (previously), you can use an Area Weaken to selectively affect only certain traits of certain targets."],
+					"entries": ["這個修飾符可以應用於{@modifier 範圍化}弱化效果，讓其可以只影響範圍內的某些目標，而不影響他人。若與前述的{@modifier 精確}修飾符結合，你將可以使用範圍化弱化效果選擇性地只影響特定目標的特定數據。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "同時", "name": "Simultaneous",
-					"entries": ["If applied to a Broad Weaken , this extra allows it to affect all of the traits in its set at the same time. Each trait loses the difference between the resistance check result and the DC in character points on a failed check. So a Simultaneous Weaken Fire Effects subtracts points from every fire effect the target possesses with a single attack. The effect must be Broad to apply this modifier."],
+					"entries": ["若應用於廣泛弱化效果，這個修飾符將能使該類別中的所有數據都同時被弱化影響。當目標抵抗檢定失敗時，該類別中的每個數據都將各自同時失去等同於抵抗檢定結果和DC之間差值的角色點。因此，同時弱化火焰效果將會以一次攻擊就減少目標所擁有的每個火焰效果上所投資的角色點。該效果必須先應用了廣泛修飾符才能應用這個修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

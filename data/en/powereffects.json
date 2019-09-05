@@ -2968,14 +2968,14 @@
 					"type": "entries",
 					"name": "Weakening Abilities",
 					"entries": [
-						"Abilities weakened below a rank of –5 become debilitated. See Debilitated Abilities for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
+						"Abilities weakened below a rank of –5 become debilitated. See {@rule Debilitated Abilities|basic|3|debilitated abilities} for details of specific abilities at this point. It is not possible to weaken an ability past the point of debilitation. Any further uses of Weaken on the subject have no effect until the ability recovers to a rank of at least –5."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weakening Devices",
 					"entries": [
-						"Weaken with Affects Objects and the right descriptor(s) can lower the traits provided by a device (see the Removable flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like Nullify."
+						"Weaken with {@modifier Affects Objects} and the right descriptor(s) can lower the traits provided by a device (see the {@modifier Removable} flaw in Gadgets & Gear). For example, Weaken Magic could potentially drain the powers of a magical device as well as a target’s own magical powers. Likewise Weaken Electricity could affect an electrical device, and so on. This also applies to equipment, although it tends to have fewer traits to weaken, and the GM should feel free to disallow any Weaken effects that don’t make reasonable sense. For example, just because a Weaken Damage effect is possible doesn’t mean a character should be able to cause guns to do less damage; this sort of thing is better handled by an all-or-nothing effect like {@effect Nullify}."
 					]
 				}
 			],
@@ -3003,14 +3003,14 @@
 				},
 				{
 					"name": "Incurable",
-					"entries": ["Weaken with this modifier cannot have its effects countered by another power (such as Restorative Healing) without the Persistent modifier; the target must recover from the Weaken normally."],
+					"entries": ["Weaken with this modifier cannot have its effects countered by another power (such as Restorative Healing) without the {@b Persistent} modifier; the target must recover from the Weaken normally."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"name": "Precise",
-					"entries": ["A Weaken effect capable of reducing more than one trait at once can have this modifier, allowing you to choose which traits are affected, while not affecting others. Note this differs from the Selective extra (following)."],
+					"entries": ["A Weaken effect capable of reducing more than one trait at once can have this modifier, allowing you to choose which traits are affected, while not affecting others. Note this differs from the {@modifier Selective} extra (following)."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
@@ -3024,7 +3024,7 @@
 				},
 				{
 					"name": "Selective",
-					"entries": ["This extra is applied to an Area Weaken so it only affects some targets and not others. Combined with Precise (previously), you can use an Area Weaken to selectively affect only certain traits of certain targets."],
+					"entries": ["This extra is applied to an {@modifier Area} Weaken so it only affects some targets and not others. Combined with {@modifier Precise} (previously), you can use an Area Weaken to selectively affect only certain traits of certain targets."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
