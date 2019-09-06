@@ -1045,7 +1045,7 @@
 				},
 				{
 					"translate_name": "恢復", "name": "Restorative",
-					"entries": ["你的治癒效果可以恢復被{@effect Weaken}效果所移除的角色點，只要該效果帶有適當的描述符，像是創傷、疾病、或毒素。你將使受影響的數據恢復等同於你治癒效果等級的角色點。"],
+					"entries": ["你的治癒效果可以恢復被{@effect 弱化}效果所移除的角色點，只要該效果帶有適當的描述符，像是創傷、疾病、或毒素。你將使受影響的數據恢復等同於你治癒效果等級的角色點。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2587,7 +2587,7 @@
 			]
 		},
 		{
-			"translate_name": "速度", "name": "Speed",
+			"translate_name": "高速", "name": "Speed",
 			"type": "MOV",
 			"action": "F",
 			"range": "personal",
@@ -2798,14 +2798,14 @@
 			],
 			"flaws": [
 				{
-					"name": "限定延長距離", "name": "Limited to Extended",
+					"translate_name": "限定延長距離", "name": "Limited to Extended",
 					"entries": ["你只能進行延長距離傳送。你必須應用延長距離修飾符，且這個缺陷將使其花費實質上等同+0的修飾符。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "媒介", "name": "Medium",
+					"translate_name": "媒介", "name": "Medium",
 					"entries": ["你需要透過媒介以讓你進行傳送，像是電線或電話線、根狀結構、水路、陰影、火焰、鏡子等等。你只能從你選定媒介存在處傳送，也只能傳送至你選定媒介的存在處。"],
 					"cost": {
 						"value": -1, "type": "per"
