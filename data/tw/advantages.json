@@ -22,7 +22,7 @@
 			]
 		},
 		{
-			"translate_name": "近距離戰鬥", "name": "Close Attack",
+			"translate_name": "近距離攻擊", "name": "Close Attack",
 			"type": "C",
 			"rank": true,
 			"entries": [
@@ -184,7 +184,7 @@
 			]
 		},
 		{
-			"translate_name": "遠距離戰鬥", "name": "Ranged Attack",
+			"translate_name": "遠距離攻擊", "name": "Ranged Attack",
 			"type": "C",
 			"rank": true,
 			"entries": [

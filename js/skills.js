@@ -4,7 +4,7 @@ const JSON_URL = "skills.json";
 const CUSTOM_RENDERER = Renderer.skill;
 const CUSTOM_TOKEN = "skill";
 const DATA_LIST_ITEM_ARR = ['name', 'ability', "untrain", "action"];
-const DEFAULT_SORT = "name";
+const DEFAULT_SORT = "ability";
 IS_LOCAL_TEST = false;
 
 // List item

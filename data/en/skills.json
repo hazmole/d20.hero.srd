@@ -235,8 +235,8 @@
 			"untrain": true,
 			"action": "S",
 			"entries": [
-				"You’re trained with a particular type of close attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each close attack is a separate Close Combat skill with its own rank, and encompasses a single weapon or power, although an array may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers).",
-				"So a hero might have Close Combat: Swords, but Close Combat: Melee Weapons is too broad. Close Combat: unarmed is an option, meaning skill with unarmed strikes like punches and kicks. However, this bonus does not apply to other forms of unarmed combat maneuvers, including, but not limited to, grabbing or tripping.",
+				"You’re trained with a particular type of close attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each close attack is a separate Close Combat skill with its own rank, and encompasses a single weapon or power, although an {@modifier Alternate Effect|array} may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers).",
+				"So a hero might have Close Combat: Swords, but Close Combat: Melee Weapons is too broad. Close Combat: unarmed is an option, meaning skill with unarmed strikes like punches and kicks. However, this bonus does not apply to other forms of unarmed combat maneuvers, including, but not limited to, {@rule grabbing|basic|8|grab} or {@rule tripping或|basic|8|trip}.",
 				"The bonus from a Close Combat skill applies only to attack checks with the particular attack, not to defenses. For a broader bonus to attack checks that is less than simply raising Fighting rank, see {@advantage Close Attack} advantage in the Advantages."
 			]
 		},

@@ -11,7 +11,7 @@
 				"使用雜技以進行空翻、俯衝、滾動、翻滾、展現其他雜技花招，以及在困難環境下保持你的平衡。",
 				{
 					"type": "entries",
-					"name": "平衡",
+					"translate_name": "平衡", "name": "Balancing",
 					"entries": [
 						"藉由成功通過一次對抗不穩固地面DC的雜技檢定，你可以保持平衡並以你地面速度-1級的速度沿著該表面移動。一個程度的失敗代表你將你的移動動作全數花費在維持你的平衡而不是實際的移動上，而二個或以上程度的失敗則代表著你失去平衡並墜落。",
 						"你在保持平衡時處於{@condition 脆弱}狀態。若你接受在進行雜技檢定時使雜技的DC額外提升5點，則你不會因此陷入{@condition 脆弱}狀態。",
@@ -59,21 +59,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "雜技花招",
+					"translate_name": "雜技花招", "name": "Maneuvering",
 					"entries": [
 						"你可以為了展現各種雜技花招以進行雜技檢定，從後空翻、到飛身躍過對手（以欺近他們身後）、翻身上梁、滾越障礙等等。GM將設定其DC。檢定成功代表你成功達成特技，檢定失敗則代表你沒能做到，而二個或以上程度的失敗代表你失足並{@condition 臥倒}在地（且根據花招的內容，可能會因此承受額外的效果）。若GM覺得合適，一次成功的雜技花招可能會使你在接下來的某些行動中獲得情境加值。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "起身",
+					"translate_name": "起身", "name": "Standing",
 					"entries": [
 						"你可以進行一次DC 20的雜技檢定，以透過一個自由動作而非移動動作來使自己從{@condition 臥倒}狀態中起身。檢定失敗代表著你仍維持{@condition 臥倒}。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "翻滾",
+					"translate_name": "翻滾", "name": "Tumbling",
 					"entries": [
 						"你可以進行一次雜技檢定(DC 5)以減輕來自墜落的傷害，每一個程度的成功都可以減少1點傷害。被減輕至0級傷害的墜落將不會造成任何傷害，且你能夠以一個自由動作快速翻滾並以你的雙腳著地。除此之外的狀況，你將在墜落結束時陷入{@condition 臥倒}狀態。"
 					]
@@ -107,7 +107,7 @@
 				"使用運動以進行體能特技，像是攀爬、跳躍、騎乘動物、和游泳。",
 				{
 					"type": "entries",
-					"name": "攀爬",
+					"translate_name": "攀爬", "name": "Climbing",
 					"entries": [
 						"透過一次成功的運動檢定，你能夠以一個移動動作並使用你地面速度-2級的速度沿著斜坡、牆壁、或其他傾斜表面移動。除非透過{@effect Movement|攀牆移動}的能力效果，否則你無法攀爬一個完全光滑平坦的垂直表面。",
 						"一次失敗的運動檢定代表你沒有任何進展，而二個或以上程度的失敗則代表著你從當下所在的高度摔落（除非你受到安全索或其他裝備保護）。進行一次運動檢定以嘗試攀住表面以避免自己墜落（DC等同於一開始檢定的DC+10）。其他處於觸及範圍內的人也可以進行一次相同DC的運動檢定以嘗試抓住你。若你在嘗試抓住其他人的檢定中得到了超過一個程度的失敗，則你也將跟著一起摔落。",
@@ -115,9 +115,9 @@
 						"根據GM的裁斷，某些類型的攀爬需要利用像是繩索、岩釘、和安全索之類的工具。在缺乏工具的情況下嘗試進行這類攀爬將會導致-5的情境罰值。",
 						{
 							"type": "entries",
-							"name": "墜落",
+							"translate_name": "墜落", "name": "Falling",
 							"entries": [
-								"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. A fall with a damage rank of 0 or less, such as a fall of 6 feet or less, inflicts no damage. You are {@condition prone} at the end of a fall. You can use {@skill Acrobatics} to lessen the damage from a fall."
+								"墜落會造成4+墜落距離等級二倍等級的傷害，最高造成16級的傷害。若墜落所造成傷害等級為0或更低，例如墜落距離為6呎或以下，則該次墜落將不會造成任何傷害。你在墜落之後將會呈現{@condition 臥倒}狀態。你可以使用{@skill 雜技}技能以減輕來自墜落的傷害。"
 							]
 						},
 						{
@@ -132,97 +132,97 @@
 								"col-9"
 							],
 							"rows": [
-								["0", "A ladder"],
-								["5", "A knotted rope"],
-								["10", "A rope"],
-								["15", "An uneven surface, like a rock-face"],
-								["20", "A rough surface, like a brick wall"]
+								["0", "一架梯子"],
+								["5", "一條有結攀繩"],
+								["10", "一條繩索"],
+								["15", "一個崎嶇不平的垂直表面，像是岩壁"],
+								["20", "一個粗糙的垂直表面，像是磚牆"]
 							]
 						},
 						{
 							"type": "table",
-							"caption": "Circumstance modifiers",
+							"caption": "情境修正值",
 							"colLabels": [
 								"DC",
-								"Example Surface"
+								"範例表面"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["–10", "An air duct, chimney, or other area where you can brace against two  opposite walls"],
-								["–5", "A corner where you can brace against perpendicular walls"],
-								["–5", "Climb of less than 10 feet total"],
-								["+2", "Surface slightly slippery"],
-								["+5", "Surface very slippery"],
-								["+5", "+1 speed rank (up to your full speed)"],
-								["+5", "Not vulnerable while climbing"]
+								["–10", "通風管、煙囪、或其他讓你可以靠在相對的兩面牆之間撐起身體的區域"],
+								["–5", "可以讓你靠在垂直牆面之間撐起身體的角落"],
+								["–5", "攀爬的總距離少於10呎"],
+								["+2", "表面略為滑溜"],
+								["+5", "表面非常滑溜"],
+								["+5", "+1速度等級（最高至你正常的速度等級）"],
+								["+5", "避免在攀爬時因此陷入脆弱狀態"]
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Jumping",
+					"translate_name": "跳躍", "name": "Jumping",
 					"entries": [
-						"The result of an Athletics check is the distance (in feet) you can clear in a running long-jump. If you make a standing jump, divide the distance in half. If you make a vertical jump (straight up) divide the distance by 5, and if you make a standing vertical jump, divide it by 10.",
-						"Your Athletics bonus + 10 is the base distance you can jump under routine circumstances. So a hero with a +10 Athletics bonus can make a routine long-jump of 20 feet, a standing long-jump of 10 feet, a vertical jump of 4 feet, and a standing vertical jump of 2 feet on a routine basis.",
+						"你進行運動檢定的結果便是你在進行助跑跳遠時所能跨越的距離（單位為呎）。若你進行的是立定跳遠，則將該距離減半。若你進行的是助跑跳高（垂直往上），則將該距離除以5，且若你進行的是立定跳高，則將該距離除以10。",
+						"你的運動技能加值+10便是你在例行情境下跳躍時的基本距離。因此一名運動技能加值為+10的英雄可以例行性的進行20呎的助跑跳遠，10呎的立定跳遠，4呎的助跑跳高，以及2呎的立定跳高。",
 						{
 							"type": "table",
-							"caption": "Jumping Distance",
+							"caption": "跳躍距離",
 							"colLabels": [
-								"Type of Jump",
-								"Distance (in feet)"
+								"跳躍類型",
+								"距離（單位為呎）"
 							],
 							"colStyles": [
 								"col-6 text-align-center",
 								"col-6 text-align-center"
 							],
 							"rows": [
-								["Running Long-Jump", "Athletics check result"],
-								["Standing Long-Jump", "Athletics check result, divided by 2"],
-								["Running Vertical Jump", "Athletics check result, divided by 5"],
-								["Standing Vertical Jump", "Athletics check result, divided by 10"]
+								["助跑跳遠", "運動技能檢定結果"],
+								["立定跳遠", "運動技能檢定結果，除以2"],
+								["助跑跳高", "運動技能檢定結果，除以5"],
+								["立定跳高", "運動技能檢定結果，除以10"]
 							]
 						},
 						{
 							"type": "inset",
-							"name": "Super Jumping",
+							"translate_name": "超級跳躍", "name": "Super Jumping",
 							"entries": [
-								"If you want your hero to jump tens, hundreds, thousands of feet, or even miles, see {@effect Leaping} effect."
+								"若你希望讓你的英雄能夠跳躍數十呎、數百呎、數千呎、或甚至數哩的距離，請參見{@effect 跳躍}超能力效果。"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Running",
+					"translate_name": "奔跑", "name": "Running",
 					"entries": [
-						"You can make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+						"你能夠以一個自由動作進行一次DC 15的運動檢定以嘗試跑得更快：一個或以上程度的成功將使你在該輪間的地面速度等級+1級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Swimming",
+					"translate_name": "游泳", "name": "Swimming",
 					"entries": [
-						"A successful DC 10 Athletics check allows you to swim your ground speed rank minus 2 as a move action. If the check fails, you make no progress through the water during the action. With more than one degree of failure, you go under. If underwater, you must hold your breath to avoid drowning (see {@rule Suffocation|basic|8|suffocation}).",
+						"藉由成功通過一次DC 10的運動檢定，將使你能夠以一個移動動作，以你地面速度等級-2的速度在水中游泳。若該檢定失敗，則你在進行該動作的期間將沒能在水中取得任何進展。二個或以上程度的失敗代表你沉入水中。若沉入水中，則你必須屏住氣息以避免溺水（參見{@rule 窒息|basic|8|suffocation}規則）。",
 						{
 							"type": "table",
-							"caption": "Swimming difficulties",
+							"caption": "游泳難度",
 							"colLabels": [
 								"DC",
-								"Modifiers"
+								"修正值"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["+5", "Rescuing another character who cannot swim"],
-								["+5", "Rough or choppy water"],
-								["+5", "+1 speed rank (up to your full ground speed)"],
-								["+10", "Stormy or turbulent water"]
+								["+5", "救援另一個不會游泳的角色"],
+								["+5", "波濤起伏的水流"],
+								["+5", "+1速度等級（最高至你正常的地面速度等級）"],
+								["+10", "暴雨或湍急猛烈的水流"]
 							]
 						}
 					]
@@ -235,9 +235,9 @@
 			"untrain": true,
 			"action": "S",
 			"entries": [
-				"You’re trained with a particular type of close attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each close attack is a separate Close Combat skill with its own rank, and encompasses a single weapon or power, although an array may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers).",
-				"So a hero might have Close Combat: Swords, but Close Combat: Melee Weapons is too broad. Close Combat: unarmed is an option, meaning skill with unarmed strikes like punches and kicks. However, this bonus does not apply to other forms of unarmed combat maneuvers, including, but not limited to, grabbing or tripping.",
-				"The bonus from a Close Combat skill applies only to attack checks with the particular attack, not to defenses. For a broader bonus to attack checks that is less than simply raising Fighting rank, see {@advantage Close Attack} advantage in the Advantages."
+				"你受過一種特定類型的近身戰鬥訓練，使你在以該方式進行攻擊檢定時獲得等同於你技能等級的加值（參見{@rule 攻擊檢定|basic|8|attacks}規則）。每種近戰攻擊手段的近身戰鬥技能等級都各自獨立，並涵蓋了一種武器或超能力的使用。儘管一個{@modifier Alternate Effect|陣列}會被視作一種超能力，但它們是否共用一種近身戰鬥技能仍取決於遊戲主持人的裁斷。",
+				"因此，英雄可能可以擁有「近身戰鬥：刀劍」技能，但「近身戰鬥：近戰武器」的涵括範圍就可能太過廣泛。「近身戰鬥：徒手打擊」是一個可行的選項，代表著使用像是拳擊或踢腿等肉搏打擊方式。然而，這個加值並不能適用於其他形式的徒手打擊戰技之中，包括但不限於{@rule 擒抱|basic|8|grab}或{@rule 絆摔|basic|8|trip}。",
+				"近身戰鬥技能的加值只能夠應用於以特定攻擊手段進行的攻擊檢定中，而不能用於防禦上。若要為攻擊檢定提供更廣泛的加值，除了提升格鬥屬性的等級之外，也可以參見{@advantage 近距離攻擊}特長。"
 			]
 		},
 		{
