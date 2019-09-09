@@ -741,21 +741,21 @@
 			"untrain": true,
 			"action": "M",
 			"entries": [
-				"You’re skilled in going unnoticed. While using Stealth, you can move at your speed rank minus 1 with no penalty. Faster than that, up to your full speed, you take a –5 circumstance penalty to your Stealth checks.",
+				"你熟練於不引起他人注意的方式。當使用潛行技能時，你能夠以你速度等級-1的速度移動而不會承受任何罰值。若想要更快速地移動（最快至你的全速），則你將在潛行技能檢定中承受-5的情境罰值。",
 				{
 					"type": "entries",
-					"name": "Hiding",
+					"translate_name": "躲藏", "name": "Hiding",
 					"entries": [
-						"If you have cover or concealment, make a Stealth check, opposed by an observer’s {@skill Perception} check, to hide and go unnoticed.",
-						"If others are aware of your presence, you can’t use Stealth to remain undetected. You can run around a corner so you are out of sight and then use Stealth, but others know which way you went. You can’t hide at all if you have absolutely no cover or concealment, since that means you are standing out in plain sight. Of course, if someone isn’t looking directly at you (you’re sneaking up from behind, for example), then you have concealment relative to that person.",
-						"A successful {@skill Deception} or {@skill Intimidation} check can give you the momentary distraction needed to make a Stealth check while people are aware of you. When others turn their attention from you, make a Stealth check if you can reach cover or concealment of some kind. (As a general guideline, any such cover has to be within 1 foot for every rank you have in Stealth.) This check, however, is at a –5 penalty because you have to move quickly."
+						"若你處於掩護或遮蔽之下，則你可以進行一次潛行檢定以對抗觀察者的{@skill 感知}檢定，嘗試躲藏且不被注意。",
+						"若他人意識到了你的存在，則你將無法使用潛行技能以保持不被察覺。你可以繞過轉角以離開他人的視線，並接著再使用潛行技能，然而對方仍會知道你在躲藏前向著何處移動。若你沒有任何的掩護或遮蔽，這代表你將站在眾人視線之內，並因此完全不能進行躲藏。當然，若某人並未直接看向你（舉例來說，你從他身後悄悄接近），則你相對他來說仍具有遮蔽。",
+						"當他人注意到你的期間，一個成功的{@skill 欺瞞}或{@skill 威嚇}檢定可以使他們暫時性地被分神，並使你獲得你所需要的短暫時機以進行潛行檢定。當他人對你的注意力被轉移時，若你能夠到達某種掩護或遮蔽後方，則你將可以進行潛行檢定（做為通用準則，任何這類掩護與你之間的距離都必須在「你的潛行等級」呎之內）。然而，由於你必須快速移動才能躲到掩護後，因此這個檢定將承受-5的情境罰值。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Tailing",
+					"translate_name": "跟蹤", "name": "Tailing",
 					"entries": [
-						"You can use Stealth to tail someone at your normal speed. This assumes you have some cover or concealment (crowds of people, shadows, fog, etc.). If the subject is worried about being followed, he can make a Perception check (opposed by your Stealth check) every time he changes course (goes around a street corner, exits a building, and so on). If he is unsuspecting, he only gets one Perception check for the scene. If the subject notices you, make a {@skill Deception} check, opposed by Insight. If you succeed, you manage to pass off your presence as coincidence and can continue tailing. A failed Deception check, or being noticed a second time, means the subject knows something is up and reacts accordingly."
+						"你可以使用潛行技能，以你正常的速度跟蹤某人。這個行動假定你已經處於某些掩護或遮蔽之下（人群、陰影、濃霧等等）。若目標警戒著不被跟蹤，則他可以在他每次改變路線時（繞過街道轉角、離開建築物等）進行一次{@skill 感知}檢定（對抗你的潛行檢定）。若目標毫無戒心，則他將只能為該場景進行一次{@skill 感知}檢定。若目標注意到你的存在，進行一次{@skill 欺瞞}檢定以對抗目標的{@skill 洞見}檢定。若你檢定成功，則你將能夠把你的跟蹤行為假裝成是一次偶然的相遇，並在這之後繼續跟蹤對方。若該{@skill 欺瞞}檢定失敗，或你被注意到第二次，則目標將會注意到事情不太對勁，並依此作出反應。"
 					]
 				}
 			]

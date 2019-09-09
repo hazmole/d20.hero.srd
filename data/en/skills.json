@@ -755,7 +755,7 @@
 					"type": "entries",
 					"name": "Tailing",
 					"entries": [
-						"You can use Stealth to tail someone at your normal speed. This assumes you have some cover or concealment (crowds of people, shadows, fog, etc.). If the subject is worried about being followed, he can make a Perception check (opposed by your Stealth check) every time he changes course (goes around a street corner, exits a building, and so on). If he is unsuspecting, he only gets one Perception check for the scene. If the subject notices you, make a {@skill Deception} check, opposed by Insight. If you succeed, you manage to pass off your presence as coincidence and can continue tailing. A failed Deception check, or being noticed a second time, means the subject knows something is up and reacts accordingly."
+						"You can use Stealth to tail someone at your normal speed. This assumes you have some cover or concealment (crowds of people, shadows, fog, etc.). If the subject is worried about being followed, he can make a {@skill Perception} check (opposed by your Stealth check) every time he changes course (goes around a street corner, exits a building, and so on). If he is unsuspecting, he only gets one Perception check for the scene. If the subject notices you, make a {@skill Deception} check, opposed by {@skill Insight}. If you succeed, you manage to pass off your presence as coincidence and can continue tailing. A failed {@skill Deception} check, or being noticed a second time, means the subject knows something is up and reacts accordingly."
 					]
 				}
 			]
