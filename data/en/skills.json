@@ -717,14 +717,14 @@
 					"type": "entries",
 					"name": "Legerdemain",
 					"entries": [
-						"Minor feats of sleight of hand, such as making a coin or playing card “vanish,” have a DC of 10 unless an observer is focused on noticing what you are doing. When you perform this skill under observation, your check is opposed by the observer’s Perception check to see if they notice the trick."
+						"Minor feats of sleight of hand, such as making a coin or playing card “vanish,” have a DC of 10 unless an observer is focused on noticing what you are doing. When you perform this skill under observation, your check is opposed by the observer’s {@skill Perception} check to see if they notice the trick."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stealing",
 					"entries": [
-						"To covertly take something from another person make a Sleight of Hand check (DC 20). Your target makes a perception check and notices the attempt if his check result beats yours, whether you succeed in taking the object or not.",
+						"To covertly take something from another person make a Sleight of Hand check (DC 20). Your target makes a {@skill Perception} check and notices the attempt if his check result beats yours, whether you succeed in taking the object or not.",
 						{
 							"type": "example",
 							"entries": [

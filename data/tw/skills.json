@@ -672,63 +672,63 @@
 			"manipulation": true,
 			"action": "S",
 			"entries": [
-				"You can perform dexterous feats of legerdemain such as palming small objects, picking pockets, slipping out of restraints, and so forth. Stage magicians use Sleight of Hand legitimately as a performance skill, but it is most commonly known for its criminal applications.",
+				"你可以展現出靈巧的特技戲法，例如將小物藏在掌心、扒竊、從束縛中掙脫等等。舞台魔術師會將手上把戲戲法作為表演技能使用，但這個技能最常被用於犯罪用途。",
 				{
 					"type": "entries",
-					"name": "Concealing",
+					"translate_name": "藏匿", "name": "Concealing",
 					"entries": [
-						"You can use Sleight of Hand to conceal a small item on your person, making your check result the DC of an {@skill Investigation} or {@skill Perception} check to find it."
+						"你可以使用手上把戲以將小型物品藏匿在你身上，你手上把戲檢定的結果將作為尋找該物品的{@skill 調查}或{@skill 感知}檢定的DC。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Contorting",
+					"translate_name": "扭身擠縮", "name": "Contorting",
 					"entries": [
-						"You can use Slight of Hand to contort your body. Make a DC 30 Sleight of Hand check to fit through a tight space wide enough for your head but too narrow for the width of your shoulders, or to reach through an opening wide enough for your hand, but too narrow for your arm."
+						"你可以使用手上把戲以扭曲你的身體。進行一次DC 30的手上把戲檢定，以將自己塞進寬度足以容納你頭部，但不足以容納你肩寬的狹窄空間、或者將手伸進寬度足以容納你手掌，但不足以容納你手臂的狹窄開口。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Escaping",
+					"translate_name": "掙脫", "name": "Escaping",
 					"entries": [
-						"Make a Sleight of Hand check to slip out of various restraints. This takes at least a minute per check.",
-						"Escaping from a grab is an {@skill Acrobatics} or {@skill Athletics} check. See {@rule Grab|basic|8|grab} in Conflict and Contorting, previously, for details.",
+						"進行一次手上把戲檢定以從各種束縛中掙脫溜出。這個檢定每次都需要花費至少1分鐘的時間。",
+						"若要從擒抱中掙脫，請進行{@skill 雜技}或{@skill 運動}檢定。參見{@rule 擒抱|basic|8|grab}規則與此技能前述的扭身擠縮以查閱更多細節。",
 						{
 							"type": "table",
-							"caption": "Escaping Difficulties",
+							"caption": "掙脫難度",
 							"colLabels": [
 								"DC",
-								"Sample Restraint"
+								"範例束縛"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["15", "Ropes"],
-								["20", "Handcuffs"],
-								["25", "Straightjacket"],
-								["15+rank", "Power Effect"]
+								["15", "繩索"],
+								["20", "手銬"],
+								["25", "拘束衣"],
+								["15+等級", "超能力效果"]
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Legerdemain",
+					"translate_name": "巧手戲法", "name": "Legerdemain",
 					"entries": [
-						"Minor feats of sleight of hand, such as making a coin or playing card “vanish,” have a DC of 10 unless an observer is focused on noticing what you are doing. When you perform this skill under observation, your check is opposed by the observer’s Perception check to see if they notice the trick."
+						"表演一些手上把戲的小特技（像是變出硬幣或使紙牌「消失」）的DC為10，除非觀察者相當專注於觀察你的所作所為。當你在注目下表演這項技巧時，使用你的手上把戲檢定以對抗觀察者的{@skill 感知}檢定，以決定對方是否能注意到這個把戲的手法。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Stealing",
+					"translate_name": "偷竊", "name": "Stealing",
 					"entries": [
-						"To covertly take something from another person make a Sleight of Hand check (DC 20). Your target makes a perception check and notices the attempt if his check result beats yours, whether you succeed in taking the object or not.",
+						"若要偷偷地從其他人身上摸走某個東西，進行一次手上把戲檢定（DC 20）。你的目標進行一次{@skill 感知}檢定，若他的檢定結果勝過了你的手上把戲檢定結果，則無論你是否成功偷走該物品，他都將注意到你的偷竊行動。",
 						{
 							"type": "example",
 							"entries": [
-								"The Elastibandit is robbing a museum of some of its valuables when a security guard passes by while making his rounds. The bouncing Bandit has no fear of the rent-a-cop, so he decides to have some fun. He has Skill Mastery for his Stealth and, unsurprisingly, the guard doesn’t notice him slither closer, but then Elastibandit decides to try and steal the guard’s gun without being noticed. Bandit has Sleight of Hand +12 and adds that to the roll of a die. A whopping 19 plus 12 for a total of 31! The guard, with a Perception skill of only +5, doesn’t have a prayer of noticing his gun being eased out of its holster, but the GM rolls anyway and gets a total of 20. A good roll, but no enough."
+								"彈力劫匪正在搶劫一座博物館內的值錢展示品，在他嘗試行竊時，警衛正好經過。這名大膽的劫匪完全無懼於警衛的存在，並決定藉機找點樂子。他擁有專精於潛行技能的{@advantage Skill Mastery}特長，並且毫不意外的，警衛完全沒有注意到他悄悄接近。接著，彈力劫匪決定嘗試悄悄偷走警衛身上的配槍。劫匪具有加值為+12的手上把戲技能，並將之加入他的擲骰中：一次驚人的19，+12後的總合為31！至於警衛，他的感知技能僅有+5的加值，完全沒有任何注意到配槍被從槍袋中摸走的可能性，儘管GM仍然嘗試擲骰，並得到了20的檢定結果。這是個很不錯的結果，但還是不夠。"
 							]
 						}
 					]
