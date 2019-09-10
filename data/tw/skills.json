@@ -235,7 +235,7 @@
 			"untrain": true,
 			"action": "S",
 			"entries": [
-				"你受過一種特定類型的近身戰鬥訓練，使你在以該方式進行攻擊檢定時獲得等同於你技能等級的加值（參見{@rule 攻擊檢定|basic|8|attacks}規則）。每種近戰攻擊手段的近身戰鬥技能等級都各自獨立，並涵蓋了一種武器或超能力的使用。儘管一個{@modifier Alternate Effect|陣列}會被視作一種超能力，但它們是否共用一種近身戰鬥技能仍取決於遊戲主持人的裁斷。",
+				"你受過一種特定類型的近身戰鬥訓練，使你在以該方式進行攻擊檢定時獲得等同於你技能等級的加值（參見{@rule 攻擊檢定|basic|8|attacks}規則）。每種近身攻擊手段的近身戰鬥技能等級都各自獨立，並涵蓋了一種武器或超能力的使用。儘管一個{@modifier Alternate Effect|陣列}會被視作一種超能力，但它們是否共用一種近身戰鬥技能仍取決於遊戲主持人的裁斷。",
 				"因此，英雄可能可以擁有「近身戰鬥：刀劍」技能，但「近身戰鬥：近戰武器」的涵括範圍就可能太過廣泛。「近身戰鬥：徒手打擊」是一個可行的選項，代表著使用像是拳擊或踢腿等肉搏打擊方式。然而，這個加值並不能適用於其他形式的徒手打擊戰技之中，包括但不限於{@rule 擒抱|basic|8|grab}或{@rule 絆摔|basic|8|trip}。",
 				"近身戰鬥技能的加值只能夠應用於以特定攻擊手段進行的攻擊檢定中，而不能用於防禦上。若要為攻擊檢定提供更廣泛的加值，除了提升格鬥屬性的等級之外，也可以參見{@advantage 近距離攻擊}特長。"
 			]
@@ -660,9 +660,9 @@
 			"untrain": true,
 			"action": "S",
 			"entries": [
-				"You’re trained with a particular type of ranged attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each ranged attack is a separate Ranged Combat skill with its own rank, and encompasses a single weapon or power, although an array may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers for more information).",
-				"So a hero might have Ranged Combat: Guns or Ranged Combat: Fire Control, but Ranged Combat: Powers is too broad. Ranged Combat: Throwing is an option and includes both thrown weapons and objects a character simply picks up and throws.",
-				"The bonus from a Ranged Combat skill applies only to attack checks with the particular attack, not to defenses. For a broader bonus to attack checks that is less than simply raising Dexterity rank, see {@advantage Ranged Attack} advantage in Advantages."
+				"你受過一種特定類型的遠程戰鬥訓練，使你在以該方式進行攻擊檢定時獲得等同於你技能等級的加值（參見{@rule 攻擊檢定|basic|8|attacks}規則）。每種遠程攻擊手段的遠程戰鬥技能等級都各自獨立，並涵蓋了一種武器或超能力的使用。儘管一個{@modifier Alternate Effect|陣列}會被視作一種超能力，但它們是否共用一種遠程戰鬥技能仍取決於遊戲主持人的裁斷。",
+				"因此，英雄可能可以擁有「遠程戰鬥：槍械」或「遠程戰鬥：火焰控制」技能，但「遠程戰鬥：超能力」的涵括範圍就可能太過廣泛。「遠程戰鬥：投擲」是一個可行的選項，並包括了使用投擲武器和任何角色可以撿起並投擲出去的物品。",
+				"遠程戰鬥技能的加值只能夠應用於以特定攻擊手段進行的攻擊檢定中，而不能用於防禦上。若要為攻擊檢定提供更廣泛的加值，除了提升靈巧屬性的等級之外，也可以參見{@advantage 遠距離攻擊}特長。"
 			]
 		},
 		{
@@ -966,29 +966,29 @@
 			"manipulation": true,
 			"action": "M",
 			"entries": [
-				"Use this skill to operate vehicles, from ground vehicles like cars to boats, planes, or even spaceships! See {@rule Vehicles|basic|7|vehicles} in Gadgets & Gear for details.",
-				"Routine tasks, such as ordinary operation of known vehicles, don’t require a check and may even be done untrained for some vehicles, particularly common ones like cars. Make a check only when operating the vehicle in a stressful or dramatic situation like being chased or attacked, or trying to reach a destination in a limited amount of time.",
-				"You can also make Vehicle checks to perform various maneuvers with a vehicle:",
+				"使用這個技能以操作載具，這些載具包括了地面載具（如車輛）、船隻、飛機、到甚至太空船！詳情請參見{@rule 載具|basic|7|vehicles}規則。",
+				"常規的例行事務，像是普通地駕駛熟悉載具，並不需要進行檢定，且對於某些載具而言（特別是像汽車等尋常載具）甚至可以在未受訓的情況下駕駛。你只有在緊張或戲劇性的情況下需要在駕駛載具時進行檢定，像是被追逐、被襲擊、或嘗試在時限內趕到目的地等等。",
+				"你也可以進行駕駛檢定以展現各種使用載具進行的特技花招：",
 				{
 					"type": "table",
-					"caption": "Vehicles Difficulties",
+					"caption": "駕駛難度",
 					"colLabels": [
 						"DC",
-						"Maneuver"
+						"特技花招"
 					],
 					"colStyles": [
 						"col-3 text-align-center",
 						"col-9"
 					],
 					"rows": [
-						["5", "Easy (low-speed turn)"],
-						["10", "Average (sudden reverse, dodging obstacles)"],
-						["15", "Difficult (tight turns)"],
-						["20", "Challenging (bootlegger reverse, loop, barrel roll)"],
-						["25", "Formidable (high-speed maneuvers, jumping or flying around obstacles)"]
+						["5", "容易（低速過彎）"],
+						["10", "平均（突然迴轉、躲避障礙物）"],
+						["15", "困難（急轉彎）"],
+						["20", "有挑戰性（急煞迴轉、迴旋、翻滾）"],
+						["25", "令人敬畏（高速特技、跳過或飛越障礙物）"]
 					]
 				},
-				"Note that the Vehicles skill does not cover riding animal mounts. For that, use the {@skill Expertise|Expertise: Riding} skill, based on Agility, with the same guidelines as given for Vehicles skill checks. At the Gamemaster’s discretion, skills like Athletics can serve for riding mounts (perhaps with a circumstance penalty), especially if riding is a fairly uncommon skill, as it is in the modern world."
+				"注意，駕駛技能並不包括騎乘動物坐騎。為此，請使用基於敏捷屬性的{@skill Expertise|專業：騎乘}技能，並使用與駕駛技能檢定相同地判斷準則。在遊戲主持人的裁斷下，若騎乘是一種相當不常見的技能（比如說在現代世界），則像{@skill 運動}這類的技能也可以被用以騎乘坐騎（但可能會承受一定的情境罰值）。"
 			]
 		}
 	]

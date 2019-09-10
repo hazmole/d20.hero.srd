@@ -660,7 +660,7 @@
 			"untrain": true,
 			"action": "S",
 			"entries": [
-				"You’re trained with a particular type of ranged attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each ranged attack is a separate Ranged Combat skill with its own rank, and encompasses a single weapon or power, although an array may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers for more information).",
+				"You’re trained with a particular type of ranged attack, giving you a bonus to your attack checks with it equal to your skill rank (see {@rule Attack Check|basic|8|attacks}). Each ranged attack is a separate Ranged Combat skill with its own rank, and encompasses a single weapon or power, although an {@modifier Alternate Effect|array} may be considered one power, at the Gamemaster’s discretion (see Arrays in Powers for more information).",
 				"So a hero might have Ranged Combat: Guns or Ranged Combat: Fire Control, but Ranged Combat: Powers is too broad. Ranged Combat: Throwing is an option and includes both thrown weapons and objects a character simply picks up and throws.",
 				"The bonus from a Ranged Combat skill applies only to attack checks with the particular attack, not to defenses. For a broader bonus to attack checks that is less than simply raising Dexterity rank, see {@advantage Ranged Attack} advantage in Advantages."
 			]
@@ -988,7 +988,7 @@
 						["25", "Formidable (high-speed maneuvers, jumping or flying around obstacles)"]
 					]
 				},
-				"Note that the Vehicles skill does not cover riding animal mounts. For that, use the {@skill Expertise|Expertise: Riding} skill, based on Agility, with the same guidelines as given for Vehicles skill checks. At the Gamemaster’s discretion, skills like Athletics can serve for riding mounts (perhaps with a circumstance penalty), especially if riding is a fairly uncommon skill, as it is in the modern world."
+				"Note that the Vehicles skill does not cover riding animal mounts. For that, use the {@skill Expertise|Expertise: Riding} skill, based on Agility, with the same guidelines as given for Vehicles skill checks. At the Gamemaster’s discretion, skills like {@skill Athletics} can serve for riding mounts (perhaps with a circumstance penalty), especially if riding is a fairly uncommon skill, as it is in the modern world."
 			]
 		}
 	]
