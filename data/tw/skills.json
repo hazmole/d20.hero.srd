@@ -270,7 +270,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Bluffing",
+					"translate_name": "唬騙", "name": "Bluffing",
 					"entries": [
 						"Make a Deception check to tell a believable lie or get someone do go along with you.",
 						"A bluff is usually opposed by the target’s Deception or {@skill Insight} check. Favorable and unfavorable circumstances weigh heavily on the outcome. Two circumstances can work against you: the deception is hard to believe, or what you ask goes against the target’s self-interest, nature, or personality.",
@@ -279,7 +279,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Disguise",
+					"translate_name": "易容", "name": "Disguise",
 					"entries": [
 						"You can use makeup, costumes, and other props to change your appearance. Your Deception check result determines the effectiveness of the disguise, opposed by others’ perception check results. The GM makes the Deception check secretly so you are not sure exactly how well your disguise holds up under scrutiny.",
 						"Disguise is heavily dependent on circumstances: favorable ones include appropriate costuming and a subject resembling your normal appearance, while unfavorable circumstances include disguising yourself as a member of a different race or sex, or not having sufficient props (which can be up to a –5 modifier). If you are impersonating a particular individual, anyone who knows that individual gets a circumstance bonus to the {@skill Perception} check: regular associates get a +2, while friends get a +5 and intimate loved ones a +10.",
@@ -289,14 +289,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Feinting",
+					"translate_name": "佯攻", "name": "Feinting",
 					"entries": [
 						"You can use Deception as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s Deception or {@skill Insight}. If your Deception check succeeds, the target is {@condition vulnerable} against your next attack, until the end of your next round."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Innuendo",
+					"translate_name": "暗話", "name": "Innuendo",
 					"entries": [
 						"You can use Deception to send covert messages using word-play and double-meanings while apparently talking about other things. The DC for a basic message is 10. Complex messages or messages trying to communicate new information have DCs of 15 or 20, respectively. The recipient of the message must make a {@skill Insight} check against the same DC to understand it.",
 						"Anyone listening in on your innuendo can attempt a insight check against the message DC. If successful, the eavesdropper notices a message hidden in your conversation. If the eavesdropper gets at least two degrees of success, he also understands the message. Whether trying to send or pick up on a message, more than one degree of failure on the check means the receiver misinterprets the message in some fashion.",
@@ -321,7 +321,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tricking",
+					"translate_name": "愚弄", "name": "Tricking",
 					"entries": [
 						"You can use Deception to mislead an opponent into taking a potentially unwise action, such as trying to hit you while standing in front of an electrical junction box or at the edge of a precipice. If your Deception check opposed by Deception or {@skill Insight} succeeds, your opponent is heedless of the potential danger and may hit the junction box or lose his balance and fall, if his attack against you fails. (On the other hand, if the attack succeeds, it might slam you into the junction box or send you flying off the edge. You’re taking a risk.)",
 						"More than one degree of failure on the Deception check means you put yourself in a bad position; you are vulnerable against the target’s attacks until the start of your next round!"
@@ -380,41 +380,41 @@
 			"untrain": true,
 			"action": "F",
 			"entries": [
-				"You can tell someone’s true intentions and feelings by paying attention to things like body language, inflection, and your own intuition.",
-				"A successful Insight check allows you to resist the effects of some interaction skills, becoming aware of the other person’s true intent. You can also use the skill to tell when someone is behaving oddly or for assessing trustworthiness.",
+				"你可以藉由注意身體語言、音調變化、和你的直覺來辨別出某人的真正意圖和感受。",
+				"一個成功的洞見檢定可以讓你抵抗某些交流技能的影響，並使你意識到他人的真正意圖。你也可以使用這個技能來辨別某人的行為是否古怪、或評估他是否值得信賴。",
 				{
 					"type": "entries",
-					"name": "Detect Illusion",
+					"translate_name": "察覺幻象", "name": "Detect Illusion",
 					"entries": [
-						"The GM makes a secret Insight check to determine if your hero senses the true nature of an illusion (DC 10 + Illusion rank). Success means you pick up on a flaw in the illusion, sensing it is not real. See {@effect Illusion} effect."
+						"GM會為你的英雄秘密地進行洞見檢定以決定他是否能注意到幻象的本質（DC 10 + 幻象等級）。檢定成功代表你發覺了幻象的破綻，並查覺到它並非真實的。參見{@effect Illusion}效果。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Detect Influence",
+					"translate_name": "察覺影響", "name": "Detect Influence",
 					"entries": [
-						"You can make a Insight check to notice someone acting under outside influence. The DC is 10 + the rank of the effect or skill affecting the subject. If you succeed, you notice the subject is not acting entirely of his or her own will. Three or more degrees give you a general idea of what is influencing them (and perhaps even whom, depending on the situation and the Gamemaster’s judgment)."
+						"你可以進行一次洞見檢定以察覺某人的是否因為外在的影響而行動。這個檢定的DC等同於10 + 影響目標的效果或技能等級。若你檢定成功，則你將注意到目標並不是完全依照他自己的意願行動。三個或以上程度的成功將讓你大致理解是什麼在影響他們（取決於遊戲主持人的判決和情境，你可能甚至能知道是誰在影響他們）。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Evaluate",
+					"translate_name": "評價", "name": "Evaluate",
 					"entries": [
-						"With an Insight check, opposed by {@skill Deception}, you can tell if someone is trustworthy and honorable (or not) upon meeting them. You can also make an Insight check (DC 20) to evaluate a social situation, getting a feel for the overall mood and prevailing attitudes. Two or more degrees of failure on either check mean you misinterpret the signs, so the GM may make these checks for you in secret."
+						"藉由一次洞見檢定（對抗目標的{@skill 欺瞞}檢定），你可以在與他人會面時辨別對方是否值得信賴和尊敬。你也可以進行一次洞見檢定（DC 20）以評估當下的社會情境，理解其整體氛圍和主流態度。若在上述檢定中得到二個或以上程度的失敗則代表著你誤解了這些情報，因此GM可能會為你秘密地進行這些檢定。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Innuendo",
+					"translate_name": "察覺暗話", "name": "Innuendo",
 					"entries": [
-						"You can use Insight to pick up on hidden messages sent via the {@skill Deception} skill."
+						"你可以使用洞見技能以理解藉由{@skill 欺瞞}技能所傳送的隱藏訊息。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Resist Influence",
+					"translate_name": "抵抗影響", "name": "Resist Influence",
 					"entries": [
-						"Make an Insight check when called to do so to resist or overcome the effects of certain interaction skills, such as {@skill Deception} or {@skill Intimidation}. If the result of your check exceeds your opponent’s, you are unaffected by their attempt to influence you."
+						"你有時會被要求進行一次洞見檢定以抵抗或克服特定交流技能的影響，例如{@skill 欺瞞}或{@skill 威嚇}。若你的檢定結果高於你的對手，則他們嘗試影響你的行為將不會產生任何作用。"
 					]
 				}
 			]
