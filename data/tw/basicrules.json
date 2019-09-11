@@ -26,10 +26,10 @@
 				]
 			},
 			{
-				"_translate_name": "秘密起源", "name": "Secret Origins",
+				"translate_name": "秘密起源", "name": "Secret Origins",
 				"headers": [
 					{ "_translate_name": "英雄範型", "name": "Hero Archetypes" },
-					{ "_translate_name": "英雄設計", "name": "Hero Design" },
+					{ "translate_name": "英雄設計", "name": "Hero Design" },
 					{ "_translate_name": "角色點", "name": "Character Points" },
 					{ "_translate_name": "糾葛難題", "name": "Complications" },
 					{ "_translate_name": "背景", "name": "Background" },
@@ -47,7 +47,7 @@
 				]
 			},
 			{
-				"_translate_name": "技能", "name": "Skills",
+				"translate_name": "技能", "name": "Skills",
 				"headers": [
 					{ "name": "Skill Basics" },
 					{ "name": "How Skills Work" },
@@ -55,14 +55,14 @@
 				]
 			},
 			{
-				"_translate_name": "特長", "name": "Advantages",
+				"translate_name": "特長", "name": "Advantages",
 				"headers": [
 					{ "name": "Acquiring Advantages" },
 					{ "name": "Advantage Descriptions" }
 				]
 			},
 			{
-				"_translate_name": "超能力", "name": "Powers",
+				"translate_name": "超能力", "name": "Powers",
 				"headers": [
 					{ "name": "Acquiring Powers" },
 					{ "name": "Effect Types" },
@@ -73,7 +73,7 @@
 				]
 			},
 			{
-				"_translate_name": "器具＆裝備", "name": "Gadgets & Gear",
+				"translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 				"headers": [
 					{ "name": "Devices" },
 					{ "name": "Equipment" },
@@ -97,7 +97,7 @@
 				]
 			},
 			{
-				"_translate_name": "主持遊戲", "name": "Gamemastering",
+				"translate_name": "主持遊戲", "name": "Gamemastering",
 				"headers": [
 					{ "name": "Running the Game" },
 					{ "name": "Creating Adventures" },
@@ -1052,7 +1052,7 @@
 					"type": "section",
 					"translate_name": "英雄設計", "name": "Hero Design",
 					"entries": [
-						"Designing a hero from scratch follows a series of simple steps, using the information presented in the other pages of this site. You’ll need a copy of the character sheet found in the back of the book (and also available online) and some scratch paper to design your character.",
+						"從頭開始設計一個英雄需要依照一系列簡單的步驟，並使用本站其它頁面所提供的資訊。你將會需要一張規則書背後的角色卡影本（或網路上的空白角色卡），以及幾張便條紙以協助設計你的角色。",
 						{
 							"type": "entries",
 							"translate_name": "1. 概念", "name": "1. Concept",
@@ -1078,7 +1078,7 @@
 							"type": "entries",
 							"translate_name": "4. 屬性", "name": "4. Abilities",
 							"entries": [
-								"Choose the ability ranks you want your character to have and pay 2 Character points for each rank. Choose defense bonuses for your character, paying 1 Character point per +1 defense over the base rank provided by your hero’s abilities. To improve your hero’s Toughness, see {@rule Advantages|basic|5} and {@rule Powers|basic|6}, following. 參見{@rule 屬性|basic|3}章節以查閱更多細節。"
+								"決定你想要你角色所擁有的屬性等級，每支付2點角色點便可以提升1級的屬性等級。決定你的角色所擁有的防禦加值，你防禦屬性的基本等級由你英雄的屬性決定，且每支付1點角色點便可以使你一個防禦屬性（除了堅實防禦以外）再提升1級。若要提升英雄的堅實防禦等級，請參見後述的{@rule 特長|basic|5}和{@rule 超能力|basic|6}。參見{@rule 屬性|basic|3}章節以查閱更多細節。"
 							]
 						},
 						{
@@ -1099,30 +1099,30 @@
 							"type": "entries",
 							"translate_name": "7. 超能力", "name": "7. Powers",
 							"entries": [
-								"Create your hero’s powers by choosing their desired effects and paying the effects’ base cost, adjusted for any modifiers, and multiplied by the number of ranks. 參見{@rule 超能力|basic|6}章節以查閱更多細節。"
+								"透過選擇想要的超能力效果以決定你角色的超能力。超能力的花費等同於：該效果的基本花費，加上任何修飾符的花費調整，再乘上該效果的等級。參見{@rule 超能力|basic|6}章節以查閱更多細節。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "8. 糾葛難題", "name": "8. Complications",
 							"entries": [
-								"Choose at least two complications for your hero. You can have more, if you want, and the more complications your hero faces, the greater your chances for earning victory points during the game. See the {@rule Complications|basic|2|complications} chapter for details."
+								"為你的英雄選擇至少二個糾葛難題。若你想要的話，你也可以選擇更多的糾葛難題。你的英雄所要面對的糾葛難題越多，你在遊戲中獲得勝利點的機會也就越多。參見{@rule 糾葛難題|basic|2|complications}章節以查閱更多細節。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "9. 其他細節", "name": "9. Details",
 							"entries": [
-								"Go through the limits listed under {@b Power Level} and make sure your hero’s traits all fit within them. If not, adjust the traits accordingly until they do.",
-								"Go back through and add up the costs of your hero’s abilities, defenses, skills, advantages, and powers. You should end up with a figure equal to the starting Character points shown on Table: {@b Starting Character Points}. If not, double-check your math and either remove or add traits to your character to reach the starting Character point total.",
-								"Figure out things like your hero’s name, appearance, origin, background, and motivation. If you can, consider creating a sketch or detailed description of your hero’s costume."
+								"檢查列在{@rule 超能力階級|basic|2|power level}中的限制，並確保你英雄的各項數據都符合其規定。若否，則根據其限制進行調整直到所有數據都符合超能力階級的限制。",
+								"回頭檢查並將你英雄的屬性、防禦、技能、特長、和超能力的花費加總在一起。這個總合應該會等同於{@rule 起始角色點數表|basic|2|starting character points}中所列出的起始角色點。若不相等，則請再次確認你的計算，並移除或增加你角色的數據以使其花費總和符合對應的起始角色點數。",
+								"接下來，決定其它像是你英雄的名稱、外貌、起源、背景、和動機。若可以的話，你也能考慮詳細或大致描述你英雄的服裝。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "10. 遊戲主持人的核准", "name": "10. Gamemaster Approval",
 							"entries": [
-								"Show your new hero to the Gamemaster for approval. The GM should check again to make sure your Character points are spent and added up correctly, your hero follows the power level guidelines and any other guidelines set for the series, and that the character is generally complete and suited to the overall game. Once your GM has approved, your new hero is ready for play!"
+								"將你剛出爐的英雄給遊戲主持人看過以獲得核准。GM會再次檢查並確保你正確地花費了你的角色點、你的英雄遵循著超能力階級的限制和其他遊戲劇集的準則、且該角色已經完整，並適合參與到整個遊戲之中。一旦你通過GM的核准，你的新英雄就準備好了！"
 							]
 						}
 					]

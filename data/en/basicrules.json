@@ -1113,8 +1113,8 @@
 							"type": "entries",
 							"name": "9. Details",
 							"entries": [
-								"Go through the limits listed under {@b Power Level} and make sure your hero’s traits all fit within them. If not, adjust the traits accordingly until they do.",
-								"Go back through and add up the costs of your hero’s abilities, defenses, skills, advantages, and powers. You should end up with a figure equal to the starting Character points shown on Table: {@b Starting Character Points}. If not, double-check your math and either remove or add traits to your character to reach the starting Character point total.",
+								"Go through the limits listed under {@rule Power Level|basic|2|power level} and make sure your hero’s traits all fit within them. If not, adjust the traits accordingly until they do.",
+								"Go back through and add up the costs of your hero’s abilities, defenses, skills, advantages, and powers. You should end up with a figure equal to the starting Character points shown on {@rule Table: Starting Character Points|basic|2|starting character points}. If not, double-check your math and either remove or add traits to your character to reach the starting Character point total.",
 								"Figure out things like your hero’s name, appearance, origin, background, and motivation. If you can, consider creating a sketch or detailed description of your hero’s costume."
 							]
 						},
