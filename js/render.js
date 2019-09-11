@@ -4076,3 +4076,19 @@ Renderer.modifier = {
 		`);
 	}
 };
+
+Renderer.archetype = {
+	getCompactRenderedString: function (entry) {
+		const renderer = Renderer.get();
+		var contentStack = [];
+		//renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
+
+		//var cost_text = Renderer.general.getModifierCostText(entry);
+		
+		return (`
+			${Renderer.utils.getNameTr(entry)}
+			<tr><td class="divider" colspan="6"><div></div></td></tr>
+			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+		`);
+	}
+};

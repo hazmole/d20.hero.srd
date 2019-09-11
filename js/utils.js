@@ -2063,6 +2063,7 @@ function noModifierKeys (e) {
 UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
 	switch(page){
 		case "advantages.html": success_func(page, "advantages.json", "advantage"); break;
+		case "archetypes.html": success_func(page, "archetypes.json", "archetype"); break;
 		case "powereffects.html": success_func(page, "powereffects.json", "powereffect"); break;
 		case "conditions.html": success_func(page, "conditions.json", "condition"); break;
 		case "skills.html": success_func(page, "skills.json", "skill"); break;
@@ -2074,6 +2075,7 @@ UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
 UrlUtil.PG_TO_RENDER_FUNC = function (page){
 	switch(page){
 		case "advantages.html": return Renderer.advantage.getCompactRenderedString;
+		case "archetypes.html": return Renderer.archetype.getCompactRenderedString;
 		case "powereffects.html": return Renderer.powereffect.getCompactRenderedString;
 		case "conditions.html": return Renderer.condition.getCompactRenderedString;
 		case "skills.html": return Renderer.skill.getCompactRenderedString;
