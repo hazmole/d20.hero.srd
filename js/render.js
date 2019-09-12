@@ -632,7 +632,7 @@ function Renderer () {
 	};
 	this._renderModifier = function (entry, textStack, meta, options){
 		this._renderEntriesSubtypes(entry, textStack, meta, options, false);
-	}
+	};
 
 	this._renderActionBlock = function (entry, textStack, meta, options){
 		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; border-top: 2px solid; background-color: #652020">`;
@@ -654,7 +654,7 @@ function Renderer () {
 			meta.depth = cacheDepth;
 		}
 		textStack[0] += `</${this.wrapperTag}>`;
-	}
+	};
 
 	this._renderMiddleEnhance = function (entry, textStack, meta, options) {
 		this._renderPrefix(entry, textStack, meta, options);
@@ -1350,12 +1350,20 @@ Renderer.getEntryDice = function (entry, name) {
 };
 
 Renderer.utils = {
+	getTr: (content, style) => {
+		return (content)? `<tr><td colspan="8" ${style? ("style=\""+style+"\""): ""}>${content}</td></tr>`: "";
+	},
+
+	getTextTr: (content) => {
+		return (content)? `<tr class='text'><td colspan="8">${content}</td></tr>`: "";
+	},
+
 	getBorderTr: (optText) => {
-		return `<tr><th class="border" colspan="6">${optText || ""}</th></tr>`;
+		return `<tr><th class="border" colspan="8">${optText || ""}</th></tr>`;
 	},
 
 	getDividerTr: () => {
-		return `<tr><td class="divider" colspan="6"><div></div></td></tr>`;
+		return `<tr><td class="divider" colspan="8"><div></div></td></tr>`;
 	},
 
 	getSourceSubText (it) {
@@ -1364,12 +1372,16 @@ Renderer.utils = {
 
 	getNameTr: (it, addPageNum, prefix, suffix) => {
 		return `<tr>
-					<th class="rnd-name name" colspan="6">
+					<th class="rnd-name name" colspan="8">
 						<div class="name-inner">
 							<span><b class="stats-name copyable" onmousedown="event.preventDefault()" onclick="Renderer.utils._pHandleNameClick(this, null)">${prefix || ""}${it.translate_name? it.translate_name: it.name}${suffix || ""}</b>${it.translate_name? " <st style='font-size:80%;'>"+it.name+"<st>": ""}</span>
 						</div>
 					</th>
 				</tr>`;
+	},
+
+	getEntryTitle: (title) => {
+		return `<tr><td colspan="8" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${title}</span></td></tr>`;
 	},
 
 	async _pHandleNameClick (ele) {
@@ -3773,7 +3785,11 @@ if (typeof module !== "undefined") {
 Renderer.general = {
 	getTr: function(content){
 		if(!content) return "";
-		else 		 return `<tr><td colspan="6">${content}</td></tr>`;
+		else 		 return `<tr><td colspan="8">${content}</td></tr>`;
+	},
+
+	getSignedNumber: function(number) {
+	    return (number>=0? "+": "") + number;
 	},
 
 	getTypeFullText: function(type) {
@@ -3794,7 +3810,6 @@ Renderer.general = {
 			default: return "???";
 		}
 	},
-
 	getCostText: function (cost){
 		if(!cost) return "";
 		var value = cost.value;
@@ -3830,15 +3845,14 @@ Renderer.general = {
 			default: return "";
 		};
 	},
-
-	getActionText: function (actions, isFullText){
+	getActionText: function(actions, isFullText){
 		if(typeof actions === "object")
 			return actions.map(action => isFullText? this._getActionFullText(action): this._getActionText(action)) .join(", ");
 		else{
 			return isFullText? this._getActionFullText(actions): this._getActionText(actions);
 		}
 	},
-	_getActionFullText: function (action){
+	_getActionFullText: function(action){
 		switch(action){
 			case "S":
 			case "M":
@@ -3846,7 +3860,7 @@ Renderer.general = {
 			default: return this._getActionText(action);
 		};
 	},
-	_getActionText: function (action){
+	_getActionText: function(action){
 		switch(action){
 			case "S": return FMT("action_standard");
 			case "M": return FMT("action_move");
@@ -3856,20 +3870,108 @@ Renderer.general = {
 			default: return "－";
 		};
 	},
-
 	getAbilityText: function(ability, isFull){
-		switch(ability){
-			case "Str": return isFull? FMT("ability_strength"): FMT("ability_str");
-			case "Sta": return isFull? FMT("ability_stamina"): FMT("ability_sta");
-			case "Agl": return isFull? FMT("ability_agility"): FMT("ability_agl");
-			case "Dex": return isFull? FMT("ability_dexterity"): FMT("ability_dex");
-			case "Fgt": return isFull? FMT("ability_fighting"): FMT("ability_ftg");
-			case "Int": return isFull? FMT("ability_intellect"): FMT("ability_int");
-			case "Awe": return isFull? FMT("ability_awareness"): FMT("ability_awe");
-			case "Pre": return isFull? FMT("ability_presence"): FMT("ability_pre");
+		switch(ability.toLowerCase()){
+			case "str": return isFull? FMT("ability_strength"): FMT("ability_str");
+			case "sta": return isFull? FMT("ability_stamina"): FMT("ability_sta");
+			case "agl": return isFull? FMT("ability_agility"): FMT("ability_agl");
+			case "dex": return isFull? FMT("ability_dexterity"): FMT("ability_dex");
+			case "fgt": return isFull? FMT("ability_fighting"): FMT("ability_ftg");
+			case "int": return isFull? FMT("ability_intellect"): FMT("ability_int");
+			case "awe": return isFull? FMT("ability_awareness"): FMT("ability_awe");
+			case "pre": return isFull? FMT("ability_presence"): FMT("ability_pre");
 			default: return "－";
 		};
-	}
+	},
+	getDefenseText: function(defense){
+        switch(defense.toLowerCase()){
+            case "dodge": return FMT("defense_dodge");
+            case "fortitude": return FMT("defense_fortitude");
+            case "parry": return FMT("defense_parry");
+            case "toughness": return FMT("defense_toughness");
+            case "will": return FMT("defense_will");
+            default: return "－";
+        };
+    },
+	getRangeText: function(range){
+		switch(range.toLowerCase()){
+			case "personal": return FMT("range_personal");
+			case "close": return FMT("range_close");
+			case "ranged": return FMT("range_ranged");
+			case "perception": return FMT("range_perception");
+			case "rank": return FMT("range_rank");
+			default: return FMT(range);
+		};
+	},
+	getSkillText: function(skill){
+	    return FMT("skill_"+skill.toLowerCase());
+	},
+
+	getAbilityRow: function(abilities, isFull){
+		const ability_key = ["str", "sta", "agl", "dex", "fgt", "int", "awe", "pre"];
+		var text = [], abilities_title, abilities_value;
+		abilities_title = [], abilities_value = [];
+		for(let i=0; i<8; i+=1){
+			abilities_title.push(`<th>${this.getAbilityText(ability_key[i], isFull)}</th>`);
+			abilities_value.push(`<td>${abilities[ability_key[i]]}</td>`);
+		}
+		text.push(`<tr class="mon__ability-names">${abilities_title.join("")}</tr>`);
+		text.push(`<tr class="mon__ability-scores">${abilities_value.join("")}</tr>`);
+		return text.join("");
+	},
+
+	getDefenseRow: function(defenses){
+        const defense_key = ["dodge", "fortitude", "parry", "toughness", "will"];
+        var text = [];
+        for(let i=0; i<5; i++){
+            text.push( (`　${this.getDefenseText(defense_key[i])}：${defenses[defense_key[i]]}`));
+        }
+        return Renderer.utils.getTr( text.join("") );
+    },
+
+    getOffenseEntry: function(offense){
+        const renderer = Renderer.get();
+        var name = offense.translate_name? offense.translate_name: offense.name;
+        var hit = FMT("hit")+this.getSignedNumber(offense.bonus);
+        var range = this.getRangeText(offense.range);
+        var effectStack = [];
+        renderer.recursiveRender(offense.effect, effectStack, null);
+        var entryString = `　${name}：${hit}, ${range}, ${effectStack}`;
+
+        return Renderer.utils.getTr(entryString);
+    },
+
+    getSkillRow: function(skills, abilities){
+        const renderer = Renderer.get();
+        var entryStack=[];
+        for(let i=0; i<skills.length; i++){
+            var skill = skills[i];
+            var display_name = this.getSkillText(skill.name) + (skill.suboption? (":"+skill.suboption): "");
+            var total_rank = abilities[CustomUtil.getSkillBaseAbility(skill.name)] + skill.rank;
+            var string = `{@skill ${skill.name}|${display_name} ${skill.rank}} (${this.getSignedNumber(total_rank)})`;
+
+            var textStack = [];
+            renderer.recursiveRender(string, textStack, null);
+            entryStack.push(`<span style="border:1px solid #afaeae;border-radius:3px;background:#484848;padding:2px;white-space:nowrap;margin:1px">${textStack.join("")}</span>`);
+        }
+        return Renderer.utils.getTr(entryStack.join(""), "line-height:2;");
+    },
+
+    getAdvantageRow: function(advantages){
+        const renderer = Renderer.get();
+        var entryStack=[];
+        for(let i=0; i<advantages.length; i++){
+            var advantage = advantages[i];
+            var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
+            var display_name = advantage.name + (advantage.suboption? (":"+advantage.suboption): "");
+            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
+
+            var textStack = [];
+            renderer.recursiveRender(string, textStack, null);
+            entryStack.push(`<span style="border:1px solid #afaeae;border-radius:3px;background:#484848;padding:2px;white-space:nowrap;margin:1px">${textStack.join("")}</span>`);
+        }
+        return Renderer.utils.getTr(entryStack.join(""), "line-height:2;");
+    }
 
 }
 
@@ -3883,8 +3985,8 @@ Renderer.advantage = {
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.general.getTr(Renderer.advantage.getMaxRankText(entry.rank))}
-			<tr><td class="divider" colspan="6"><div></div></td></tr>
-			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			${Renderer.utils.getDividerTr()}
+			${Renderer.utils.getTextTr(contentStack.join(""))}
 		`);
 	},
 	getTypeFullText: function (type) { return Renderer.general.getTypeFullText(type); },
@@ -3907,8 +4009,8 @@ Renderer.powereffect = {
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.powereffect.getInfoTr(entry, isFull)}
-			<tr><td class="divider" colspan="6"><div></div></td></tr>
-			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			${Renderer.utils.getDividerTr()}
+			${Renderer.utils.getTextTr(contentStack.join(""))}
 			${Renderer.powereffect.getModifierBlock(entry)}
 		`);
 	},
@@ -3921,16 +4023,16 @@ Renderer.powereffect = {
 	//============
 	getInfoTr: function (entry, isFull) {
 		var action = this.getActionFullText(entry.action);
-		var range = this.getRangeText(entry.range);
+		var range = Renderer.general.getRangeText(entry.range);
 		var duration = this.getDurationText(entry.duration);
 		var cost_text = this.getCostText(entry.cost);
 		
 		if(isFull)
 			return (
-				`<tr><td colspan="6"><span class="bold">${FMT("list_action")}：</span>${action}</td></tr>
-				<tr><td colspan="6"><span class="bold">${FMT("list_range")}：</span>${range}</td></tr>
-				<tr><td colspan="6"><span class="bold">${FMT("list_duration")}：</span>${duration}</td></tr>
-				<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
+				`<tr><td colspan="8"><span class="bold">${FMT("list_action")}：</span>${action}</td></tr>
+				<tr><td colspan="8"><span class="bold">${FMT("list_range")}：</span>${range}</td></tr>
+				<tr><td colspan="8"><span class="bold">${FMT("list_duration")}：</span>${duration}</td></tr>
+				<tr><td colspan="8"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
 		else
 			return (
 				`<tr>
@@ -3946,12 +4048,12 @@ Renderer.powereffect = {
 
 		var outstack = [];
 		if(entry.extras && entry.extras.length>0 ){
-			outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("extras")}</span></td></tr>`);
+			outstack.push(Renderer.utils.getEntryTitle(FMT("extras")));
 			outstack.push(this.renderModifiers(entry.extras));
 		}
 
 		if(entry.flaws && entry.flaws.length>0 ){
-			outstack.push(`<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">${FMT("flaws")}</span></td></tr>`);
+			outstack.push(Renderer.utils.getEntryTitle(FMT("flaws")));
 			outstack.push(this.renderModifiers(entry.flaws));
 			
 		}
@@ -3960,7 +4062,7 @@ Renderer.powereffect = {
 
 	renderModifiers: function (modifiers){
 		var outstack = [];
-		outstack.push('<tr><td colspan="6">');
+		outstack.push('<tr><td colspan="8">');
 		for(var idx in modifiers){
 			outstack.push(this.renderModifier(modifiers[idx]));
 		}
@@ -3983,17 +4085,7 @@ Renderer.powereffect = {
 		outstack.push('</div>');
 		return outstack.join("");
 	},
-	
-	getRangeText: function (range){
-		switch(range){
-			case "personal": return FMT("range_personal");
-			case "close": return FMT("range_close");
-			case "ranged": return FMT("range_ranged");
-			case "perception": return FMT("range_perception");
-			case "rank": return FMT("range_rank");
-			default: return FMT(range);
-		};
-	},
+
 	getDurationText: function (duration){
 		switch(duration){
 			case "instant": return FMT("duration_instant");
@@ -4028,8 +4120,8 @@ Renderer.condition = {
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.general.getTr(Renderer.general.getTypeFullText(entry.type) + combine_stack.join(""))}
-			<tr><td class="divider" colspan="6"><div></div></td></tr>
-			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			${Renderer.utils.getDividerTr()}
+			${Renderer.utils.getTextTr(contentStack.join(""))}
 		`);
 	},
 };
@@ -4050,8 +4142,8 @@ Renderer.skill = {
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.general.getTr( subtitle_stack.join(" • ") )}
-			<tr><td class="divider" colspan="6"><div></div></td></tr>
-			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			${Renderer.utils.getDividerTr()}
+			${Renderer.utils.getTextTr(contentStack.join(""))}
 		`);
 	},
 
@@ -4070,9 +4162,9 @@ Renderer.modifier = {
 		
 		return (`
 			${Renderer.utils.getNameTr(entry)}
-			<tr><td colspan="6"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>
-			<tr><td class="divider" colspan="6"><div></div></td></tr>
-			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			<tr><td colspan="8"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>
+			${Renderer.utils.getDividerTr()}
+			${Renderer.utils.getTextTr(contentStack.join(""))}
 		`);
 	}
 };
@@ -4081,14 +4173,44 @@ Renderer.archetype = {
 	getCompactRenderedString: function (entry) {
 		const renderer = Renderer.get();
 		var contentStack = [];
-		//renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
-
-		//var cost_text = Renderer.general.getModifierCostText(entry);
 		
+		contentStack.push(Renderer.utils.getTr(`<span class="bold">${FMT("initiative")}：</span>${Renderer.general.getSignedNumber(entry.init)}`));
+		contentStack.push(Renderer.utils.getTr(`<span class="bold">${FMT("offense")}：</span>`));
+		for(let i=0; i<entry.offense.length; i++){
+			contentStack.push(Renderer.general.getOffenseEntry(entry.offense[i]));
+		}
+		contentStack.push(Renderer.utils.getTr(`<span class="bold">${FMT("defense")}：</span>`));
+		contentStack.push(Renderer.general.getDefenseRow(entry.defense));
+
+		var skillString="";
+		if(entry.skills){
+			skillString += Renderer.utils.getEntryTitle(FMT("title_skill"));
+			skillString += Renderer.general.getSkillRow(entry.skills, entry.attributes);
+		}
+
+		var advantageString="";
+		if(entry.advantages){
+			advantageString += Renderer.utils.getEntryTitle(FMT("title_advantage"));
+			advantageString += Renderer.general.getAdvantageRow(entry.advantages)
+		}
+
+		var powerString="", powerStack=[];
+		if(entry.powers){
+			renderer.recursiveRender(entry.powers, powerStack, {"depth":2});
+			powerString += Renderer.utils.getEntryTitle(FMT("title_power"));
+			powerString += Renderer.utils.getTr(powerStack.join(""));
+		}
+
 		return (`
 			${Renderer.utils.getNameTr(entry)}
-			<tr><td class="divider" colspan="6"><div></div></td></tr>
-			<tr class='text'><td colspan='6'>${contentStack.join("")}</td></tr>
+			${Renderer.utils.getTr("<i>"+FMT("pl_num")+" 10</i>")}
+			${Renderer.utils.getDividerTr()}
+			${Renderer.general.getAbilityRow(entry.attributes, true)}
+			${Renderer.utils.getDividerTr()}
+			${contentStack.join("")}
+			${skillString}
+			${advantageString}
+			${powerString}
 		`);
 	}
 };

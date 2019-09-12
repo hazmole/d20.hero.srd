@@ -2083,3 +2083,32 @@ UrlUtil.PG_TO_RENDER_FUNC = function (page){
 		default: return null; 
 	}
 };
+
+CustomUtil = function(){};
+CustomUtil.getSkillBaseAbility = function(skill_name){
+	switch(skill_name.toLowerCase()){
+		case "acrobatics":
+		case "stealth":
+			return "agl";
+		case "insight":
+		case "perception":
+			return "awe";
+		case "ranged combat":
+		case "sleight of hand":
+		case "vehicles":
+			return "dex";
+		case "close combat":
+			return "ftg";
+		case "expertise":
+		case "investigation":
+		case "technology":
+		case "treatment":
+			return "int";
+		case "deception":
+		case "intimidation":
+		case "persuasion":
+			return "pre";
+		case "athletics":
+			return "str";
+	}
+}

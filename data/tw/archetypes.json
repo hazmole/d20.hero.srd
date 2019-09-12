@@ -1,0 +1,116 @@
+{
+	"archetype": [
+		{
+			"name": "Battlesuit",
+			"attributes": {
+				"str": 12,
+				"sta": 1,
+				"agl": 1,
+				"dex": 2,
+				"fgt": 8,
+				"int": 5,
+				"awe": 2,
+				"pre": 0
+			},
+			"defense": {
+				"dodge": 8,
+				"fortitude": 6,
+				"parry": 8,
+				"toughness": 12,
+				"will": 8
+			},
+			"init": 1,
+			"skills": [
+				{
+					"name": "Expertise",
+					"suboption": "(Choose one of Business, Engineering, or Science)",
+					"rank": 5
+				},
+				{
+					"name": "Insight",
+					"rank": 4
+				},
+				{
+					"name": "Perception",
+					"rank": 5
+				},
+				{
+					"name": "Persuasion",
+					"rank": 4
+				},
+				{
+					"name": "Technology",
+					"rank": 8
+				}
+			],
+			"advantages": [
+				{
+					"name": "Accurate Attack"
+				},
+				{
+					"name": "Improvised Tools"
+				},
+				{
+					"name": "Inventor"
+				},
+				{
+					"name": "Ranged Attack",
+					"rank": 4
+				},
+				{
+					"name": "(Enhanced) Ranged Attack",
+					"ref_name": "Ranged Attack",
+					"rank": 2
+				},
+				{
+					"name": "Second Chance",
+					"suboption": "Technology checks"
+				}
+			],
+			"powers": {
+				"type": "entries",
+				"entries": [
+					"{@b Battlesuit}: {@modifier Removable|Removable 21} [-21 points]",
+					{
+						"type": "list",
+						"items": [
+							"{@b Armor}: {@effect Protection|Protection 11}, {@modifier Impervious} [22 points]",
+							"{@b Boot Jets}: {@effect Flight|Flight 8} (500 MPH) [16 points]",
+							"{@b Comm System}: {@effect Communication|Radio Communication 2} [8 points]",
+							"{@b Life Support System}: {@effect Immunity|Immunity 10} [10 points]",
+							"{@b Sensors}: {@effect Senses|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 points]",
+							{
+								"type": "entries",
+								"entries": [
+									"Array [24+1 points]",
+									{
+										"type": "list",
+										"items": [
+											"{@b Servo Motors}: {@effect Enhanced Trait|Enhanced Strength 12} [24 points]",
+											"{@b Force Beams}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 12} [1 point]"
+										]
+									}
+								]
+							},
+							"{@b Tactical Computer}: {@effect Enhanced Trait|Enhanced Dodge 2}, {@effect Enhanced Trait|Enhanced Fighting 4}, {@effect Enhanced Trait|Enhanced Ranged Attack 2} [12 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Force Beam",
+					"bonus": 8,
+					"range": "ranged",
+					"effect": "{@effect Damage} 12"
+				},
+				{
+					"name": "Unarmed",
+					"bonus": 8,
+					"range": "close",
+					"effect": "{@effect Damage} 12"
+				}
+			]
+		}
+	]
+}
