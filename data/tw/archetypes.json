@@ -19,6 +19,13 @@
 				"toughness": 12,
 				"will": 8
 			},
+			"spent": {
+				"ability": 30,
+				"defense": 16,
+				"skill": 12,
+				"advantage": 8,
+				"power": 84
+			},
 			"init": 1,
 			"skills": [
 				{
@@ -78,7 +85,7 @@
 							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
 							"{@b 溝通系統}: {@effect Communication|Radio Communication 2} [8 點]",
 							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
-							"{@b 感測器}: {@effect Senses|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 點]",
+							"{@b 感測器}: {@effect Sense|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 點]",
 							{
 								"type": "entries",
 								"entries": [

@@ -19,6 +19,13 @@
 				"toughness": 12,
 				"will": 8
 			},
+			"spent": {
+				"ability": 30,
+				"defense": 16,
+				"skill": 12,
+				"advantage": 8,
+				"power": 84
+			},
 			"init": 1,
 			"skills": [
 				{
@@ -78,7 +85,7 @@
 							"{@b Boot Jets}: {@effect Flight|Flight 8} (500 MPH) [16 points]",
 							"{@b Comm System}: {@effect Communication|Radio Communication 2} [8 points]",
 							"{@b Life Support System}: {@effect Immunity|Immunity 10} [10 points]",
-							"{@b Sensors}: {@effect Senses|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 points]",
+							"{@b Sensors}: {@effect Sense|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 points]",
 							{
 								"type": "entries",
 								"entries": [

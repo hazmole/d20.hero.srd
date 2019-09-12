@@ -4211,6 +4211,7 @@ Renderer.archetype = {
 			${skillString}
 			${advantageString}
 			${powerString}
+			${Renderer.utils.getDividerTr()}
 		`);
 	}
 };
