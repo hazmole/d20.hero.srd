@@ -23,13 +23,13 @@ class NavBar {
 		
 		const ulPlayer = addDropdown(navBar, FMT("nav_pl_opt"));
 		
-		addLi(ulPlayer, "skills.html", FMT("nav_skill"));
-		addLi(ulPlayer, "advantages.html", FMT("nav_advantage"));
-		addLi(ulPlayer, "powereffects.html", FMT("nav_powereffect"));
-		addLi(ulPlayer, "modifiers.html", FMT("nav_modifier"));
-		addLi(ulPlayer, "conditions.html", FMT("nav_condition"));
+		addLi(ulPlayer, "skills.html", FMT("title_skill"));
+		addLi(ulPlayer, "advantages.html", FMT("title_advantage"));
+		addLi(ulPlayer, "powereffects.html", FMT("title_powereffect"));
+		addLi(ulPlayer, "modifiers.html", FMT("title_modifier"));
+		addLi(ulPlayer, "conditions.html", FMT("title_condition"));
 		addDivider(ulPlayer);
-		addLi(ulPlayer, "", FMT("nav_archetype"));
+		addLi(ulPlayer, "archetypes.html", FMT("title_archetype"));
 		
 		
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
