@@ -3936,7 +3936,7 @@ Renderer.general = {
         var range = this.getRangeText(offense.range);
         var effectStack = [];
         renderer.recursiveRender(offense.effect, effectStack, null);
-        var entryString = `　${name}：${hit}, ${range}, ${effectStack}`;
+        var entryString = `　<b>${name}</b>：${hit}, ${range}, ${effectStack}`;
 
         return Renderer.utils.getTr(entryString);
     },
@@ -3946,7 +3946,7 @@ Renderer.general = {
         var entryStack=[];
         for(let i=0; i<skills.length; i++){
             var skill = skills[i];
-            var display_name = this.getSkillText(skill.name) + (skill.suboption? (":"+skill.suboption): "");
+            var display_name = this.getSkillText(skill.name) + (skill.suboption? (": "+skill.suboption): "");
             var total_rank = abilities[CustomUtil.getSkillBaseAbility(skill.name)] + skill.rank;
             var string = `{@skill ${skill.name}|${display_name} ${skill.rank}} (${this.getSignedNumber(total_rank)})`;
 
@@ -3963,7 +3963,7 @@ Renderer.general = {
         for(let i=0; i<advantages.length; i++){
             var advantage = advantages[i];
             var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
-            var display_name = advantage.name + (advantage.suboption? (":"+advantage.suboption): "");
+            var display_name = (advantage.translate_name? advantage.translate_name: advantage.name) + (advantage.suboption? (": "+advantage.suboption): "");
             var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
 
             var textStack = [];

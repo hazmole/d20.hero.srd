@@ -23,7 +23,7 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "(Choose one of Business, Engineering, or Science)",
+					"suboption": "(從商業、工程、或科學中擇一)",
 					"rank": 5
 				},
 				{
@@ -45,7 +45,7 @@
 			],
 			"advantages": [
 				{
-					"name": "Accurate Attack"
+					"translate_name": "準確攻擊", "name": "Accurate Attack"
 				},
 				{
 					"name": "Improvised Tools"
@@ -54,11 +54,11 @@
 					"name": "Inventor"
 				},
 				{
-					"name": "Ranged Attack",
+					"translate_name": "遠距離攻擊", "name": "Ranged Attack",
 					"rank": 4
 				},
 				{
-					"name": "(Enhanced) Ranged Attack",
+					"translate_name": "(強化)遠距離攻擊", "name": "(Enhanced) Ranged Attack",
 					"ref_name": "Ranged Attack",
 					"rank": 2
 				},
@@ -70,45 +70,45 @@
 			"powers": {
 				"type": "entries",
 				"entries": [
-					"{@b Battlesuit}: {@modifier Removable|Removable 21} [-21 points]",
+					"{@b 戰鬥裝甲服}: {@modifier Removable|Removable 21} [-21 點]",
 					{
 						"type": "list",
 						"items": [
-							"{@b Armor}: {@effect Protection|Protection 11}, {@modifier Impervious} [22 points]",
-							"{@b Boot Jets}: {@effect Flight|Flight 8} (500 MPH) [16 points]",
-							"{@b Comm System}: {@effect Communication|Radio Communication 2} [8 points]",
-							"{@b Life Support System}: {@effect Immunity|Immunity 10} [10 points]",
-							"{@b Sensors}: {@effect Senses|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 points]",
+							"{@b 裝甲}: {@effect Protection|保護 11}, {@modifier 強抗} [22 點]",
+							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
+							"{@b 溝通系統}: {@effect Communication|Radio Communication 2} [8 點]",
+							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
+							"{@b 感測器}: {@effect Senses|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 點]",
 							{
 								"type": "entries",
 								"entries": [
-									"Array [24+1 points]",
+									"Array [24+1 點]",
 									{
 										"type": "list",
 										"items": [
-											"{@b Servo Motors}: {@effect Enhanced Trait|Enhanced Strength 12} [24 points]",
-											"{@b Force Beams}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 12} [1 point]"
+											"{@b 伺服馬達}: {@effect Enhanced Trait|Enhanced Strength 12} [24 點]",
+											"{@b 力場光炮}: {@modifier Increased Range|遠距} {@effect Damage|傷害 12} [1 點]"
 										]
 									}
 								]
 							},
-							"{@b Tactical Computer}: {@effect Enhanced Trait|Enhanced Dodge 2}, {@effect Enhanced Trait|Enhanced Fighting 4}, {@effect Enhanced Trait|Enhanced Ranged Attack 2} [12 points]"
+							"{@b 戰術輔助電腦}: {@effect Enhanced Trait|Enhanced Dodge 2}, {@effect Enhanced Trait|Enhanced Fighting 4}, {@effect Enhanced Trait|Enhanced Ranged Attack 2} [12 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Force Beam",
+					"translate_name": "力場光炮", "name": "Force Beam",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage} 12"
+					"effect": "{@effect 傷害} 12"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 8,
 					"range": "close",
-					"effect": "{@effect Damage} 12"
+					"effect": "{@effect 傷害} 12"
 				}
 			]
 		}
