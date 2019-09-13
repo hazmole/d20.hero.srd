@@ -4201,6 +4201,14 @@ Renderer.archetype = {
 			powerString += Renderer.utils.getTr(powerStack.join(""));
 		}
 
+		var spentPoint=[];
+		spentPoint.push(`<span>${FMT("title_abilities")}:${entry.spent.ability} ${FMT("point")}</span>`);
+		spentPoint.push(`<span>${FMT("title_defenses")}:${entry.spent.defense} ${FMT("point")}</span>`);
+		spentPoint.push(`<span>${FMT("title_skill")}:${entry.spent.skill} ${FMT("point")}</span>`);
+		spentPoint.push(`<span>${FMT("title_advantage")}:${entry.spent.advantage} ${FMT("point")}</span>`);
+		spentPoint.push(`<span>${FMT("title_power")}:${entry.spent.power} ${FMT("point")}</span>`);
+		spentPoint.push(`<span>${FMT("total")}:${150} ${FMT("point")}</span>`);
+		
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.utils.getTr("<i>"+FMT("pl_num")+" 10</i>")}
@@ -4212,6 +4220,7 @@ Renderer.archetype = {
 			${advantageString}
 			${powerString}
 			${Renderer.utils.getDividerTr()}
+			${Renderer.utils.getTr("<center>"+spentPoint.join("　")+"</center>")}
 		`);
 	}
 };
