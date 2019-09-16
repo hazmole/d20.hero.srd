@@ -1041,10 +1041,10 @@
 					"type": "section",
 					"translate_name": "英雄範型", "name": "Hero Archetypes",
 					"entries": [
-						"要創建屬於你自己的角色，最快也最簡單的方式就是從各種預先做好的{@b 英雄範型}中找到最符合你想扮演的英雄類型，再根據你的想法稍做修改。僅僅需要做幾個選擇，你就能擁有一個嶄新，完好，且隨時能夠上陣的英雄！",
+						"要創建屬於你自己的角色，最快也最簡單的方式就是從各種預先做好的{@5etools 英雄範型|archetypes.html}中找到最符合你想扮演的英雄類型，再根據你的想法稍做修改。僅僅需要做幾個選擇，你就能擁有一個嶄新，完好，且隨時能夠上陣的英雄！",
 						"每個範型都提供了一個超能力階級為10級（這也是最推薦的起始階級），完整可用的英雄類型。有些範型會依照技能、特長、或超能力提供你幾個簡單的選擇，讓你更能融入不同的主題。舉例來說，許多範型會讓你選擇一個{@skill 專業}技能以完善角色的背景，或做為超級英雄行動之外的興趣。",
-						"Some archetypes also offer an {@b Options} section, where you can change some of the preexisting trait choices to create a different kind of hero. For example, the Crime Fighter archetype has options for a hero with less equipment, but super-human senses, or a special vehicle of some type. Other archetypes offer similar options.",
-						"Even if the archetype does not have an {@b Options} section that does not mean you cannot customize the archetype to suit the type of hero you want to play! The archetypes are just starting points: if you are more familiar with character design feel free to change any or all of your chosen archetype’s traits. So long as you stay within the bounds of available Character points, series power level, and your Gamemaster’s approval, you’re fine.",
+						"有些範型會提供{@b 選項}，讓你能夠從幾個預先創建的數據選項中選擇，並創造出不同類型的英雄。舉例而言，{@archetype Crime Fighter}範型提供了幾個選項，讓英雄能以擁有較少裝備作為代價，換取超人類的感官能力或特殊的載具。其他範型也會提供類似的選項。",
+						"然而，即使該範型並未提供選項，也不代表你不能修改該範型的數據以符合你想要扮演的英雄類型！Even if the archetype does not have an {@b Options} section that does not mean you cannot customize the archetype to suit the type of hero you want to play! The archetypes are just starting points: if you are more familiar with character design feel free to change any or all of your chosen archetype’s traits. So long as you stay within the bounds of available Character points, series power level, and your Gamemaster’s approval, you’re fine.",
 						"Please note, the sample characters using archetypes include some advantages in italicized print. Those advantages are from an {@b Enhanced Advantage} effect listed in their powers."
 					]
 				},

@@ -299,7 +299,7 @@ const BookUtil = {
 
 			const renderNavButtons = (isTop) => {
 				const tdStlye = `padding-${isTop ? "top" : "bottom"}: 6px; padding-left: 9px; padding-right: 9px;`;
-				const $wrpControls = $(`<div class="split"/>`).appendTo($(`<td colspan="6" style="${tdStlye}"/>`).appendTo($(`<tr/>`).appendTo(BookUtil.renderArea)));
+				const $wrpControls = $(`<div class="split"/>`).appendTo($(`<td colspan="8" style="${tdStlye}"/>`).appendTo($(`<tr/>`).appendTo(BookUtil.renderArea)));
 
 				const showPrev = ~chapter && chapter > 0;
 				(BookUtil.curRender.controls.$btnsPrv = BookUtil.curRender.controls.$btnsPrv || [])
@@ -339,7 +339,7 @@ const BookUtil = {
 			BookUtil._renderer.resetHeaderIndex();
 			if (chapter === -1) data.forEach(d => BookUtil._renderer.recursiveRender(d, textStack));
 			else BookUtil._renderer.recursiveRender(data[chapter], textStack);
-			BookUtil.renderArea.append(`<tr class="text"><td colspan="6">${textStack.join("")}</td></tr>`);
+			BookUtil.renderArea.append(`<tr class="text"><td colspan="8">${textStack.join("")}</td></tr>`);
 			Renderer.initLazyImageLoaders();
 			BookUtil._renderer.setLazyImages(false);
 			renderNavButtons();

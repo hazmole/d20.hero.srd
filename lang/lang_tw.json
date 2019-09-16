@@ -35,7 +35,7 @@
 "type_flaw": "缺陷",
 
 "cost_per": "{0}點/每級",
-"cost_as_base_trait": "與該屬性的花費相同",
+"cost_as_base_trait": "與該數據的花費相同",
 "modcost_per": "每級{0}點",
 "modcost_flat": "額外{0}點",
 "modcost_flat_per": "每級{1}額外{0}點",

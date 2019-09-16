@@ -1390,7 +1390,7 @@ Renderer.utils = {
 	},
 
 	getPageTr: (it) => {
-		return `<td colspan=6>${Renderer.utils._getPageTrText(it)}</td>`;
+		return `<td colspan=8>${Renderer.utils._getPageTrText(it)}</td>`;
 	},
 
 	getAbilityRoller (statblock, ability) {
@@ -1520,7 +1520,7 @@ Renderer.utils = {
 		$content.append(Renderer.utils.getNameTr(record));
 		const $tr = $(`<tr class="text"/>`);
 		$content.append($tr);
-		const $td = $(`<td colspan="6" class="text"/>`).appendTo($tr);
+		const $td = $(`<td colspan="8" class="text"/>`).appendTo($tr);
 		$content.append(Renderer.utils.getBorderTr());
 
 		function renderFluff (data) {
@@ -2138,7 +2138,7 @@ Renderer.hover = {
 
 	getGenericCompactRenderedString (entry) {
 		return `
-			<tr class="text homebrew-hover"><td colspan="6">
+			<tr class="text homebrew-hover"><td colspan="8">
 			${Renderer.get().setFirstSection(true).render(entry)}
 			</td></tr>
 		`;

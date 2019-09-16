@@ -109,13 +109,13 @@
 					"name": "Force Beam",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage} 12"
+					"effect": "{@effect Damage|Damage 12}"
 				},
 				{
 					"name": "Unarmed",
 					"bonus": 8,
 					"range": "close",
-					"effect": "{@effect Damage} 12"
+					"effect": "{@effect Damage|Damage 12}"
 				}
 			]
 		},
@@ -204,13 +204,13 @@
 					"name": "Ranged",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage} * (depends on option chosen under Powers)"
+					"effect": "{@effect Damage|Damage *} (depends on option chosen under Powers)"
 				},
 				{
 					"name": "Unarmed",
 					"bonus": 9,
 					"range": "close",
-					"effect": "{@effect Damage} 11"
+					"effect": "{@effect Damage|Damage 11}"
 				}
 			]
 		}

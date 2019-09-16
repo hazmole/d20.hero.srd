@@ -508,7 +508,7 @@
 					}
 				},
 				{
-					"name": "Permanent",
+					"translate_name": "永駐", "name": "Permanent",
 					"entries": ["Permanent created objects last until destroyed or nullified. Unlike Continuous Create, you cannot choose to dismiss such objects; they are truly permanent. You cannot repair permanent created objects or otherwise alter them once they’re created. {@b +0 cost per rank (for a Sustained effect).}"],
 					"cost": {
 						"value": 0, "type": "per", "hidden":true
@@ -674,7 +674,7 @@
 			]
 		},
 		{
-			"name": "Enhanced Trait",
+			"translate_name": "增強數據", "name": "Enhanced Trait",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -684,27 +684,27 @@
 				"type": "special"
 			},
 			"entries": [
-				"You can temporarily improve one of your existing traits, chosen when you take this effect. While this effect is active, you increase the affected trait by its rank. So, for example, Enhanced Strength 5 increases your Strength by +5 while it is active. Your enhanced trait is still subject to power level limits, so your unenhanced rank must be below the limit by at least the amount of the enhancement to accommodate it.",
-				"The cost of Enhanced Trait is the same per rank as acquiring a rank in the affected trait. The key differences are that Enhanced Trait is a power effect, rather than a natural trait, and as an effect it can be combined with extra effort and other effects. See Extra Effort in The Basics and Enhanced Abilities in Abilities for more."
+				"你可以暫時地提升你其中一個既有的數據，在你獲得這個效果時選擇該數據。當這個效果被啟動時，你被影響數據的等級將會提升等同於此效果等級的數值。因此舉例來說，增強力量5級可以在其發揮作用期間使你的力量屬性+5。你增強的數據仍然會受限於超能力階級的限制，因此你被影響數據在未被增強時的等級，必須至少低於該限制減去此效果等級的數值。",
+				"增強數據效果每級所需的花費等同於被影響數據每級所需的花費。兩者之間最關鍵的差異在於增強數據是超能力效果，而非天生的數據能力，因此該效果將可以與{@rule 奮力一搏|basic|1|extra effort}或其他效果組合使用。參見基本規則中的{@rule 奮力一搏|basic|1|extra effort}和屬性章節中的{@rule 增強屬性|basic|1|Enhanced Abilities}以查閱更多細節。"
 			],
 			"flaws": [
 				{
 					"translate_name": "限定條件", "name": "Limited",
-					"entries": ["Enhanced Traits are often Limited in some fashion, such as Nighttime (or Daytime) Only, While Angry (or in another emotional state), Underwater (or in some other environment), and so forth. A limit that rarely comes into play—like losing your Enhanced Trait during a new moon—can be handled as a power loss complication. See Complications in The Basics for details."],
+					"entries": ["增強數據效果經常會受到某種程度的限制，例如限定在夜晚（或白天）、必須處於憤怒（或其他情緒狀態）中、在水中（或其他環境）等等。若這個限定條件在遊戲中相當罕見──例如你會在新月期間失去你的增強數據效果──則可以被做為超能力喪失的鳩葛難題來處理。參見基本規則中的{@rule 鳩葛難題|basic|1|Complications}章節以查閱更多細節。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Permanent",
-					"entries": ["At no change in cost, your Enhanced Trait may be a permanent improvement, rather than a sustained effect. The primary difference is that your permanent enhancement cannot be turned on and off and cannot be improved by extra effort, including using it to perform power stunts (see Extra Effort). There is no action to use a Permanent Enhanced Trait, as it is always active. +0 cost per rank."],
+					"translate_name": "永駐", "name": "Permanent",
+					"entries": ["在不改變花費的狀況下，你的增強數據效果的持續時間將變為永駐，而非維持。最主要的差異在於永駐型的增強效果將無法被開啟或關閉，且無法利用奮力一搏來強化，包括施展超能力絕技（參見{@rule 奮力一搏|basic|1|extra effort}）。由於永駐增強數據永遠處於啟動狀態，因此它並不需要採取任何動作以使用。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "Reduced Trait",
-					"entries": ["One or more of your traits is lowered while others are enhanced. This flaw is worth as many points as the reduction in the affected trait(s). So, for example, if you lose Intellect while you gain in Strength, treat the value of the lost Intellect ranks as the value of the flaw. As with all flaws, the effect must still cost at least 1 character point. {@b Flat –points equal to the lowered trait.}"],
+					"translate_name": "降低數據", "name": "Reduced Trait",
+					"entries": ["在你的數據被增強期間，你一個或以上的其他數據將會被降低。這個缺陷的價值等同於你降低受影響數據時所能獲得的角色點。因此舉例來說，若你在提升力量屬性時降低你的智力屬性，則這個缺陷的價值將等同於你所失去智力屬性等級的角色點花費。和所有的缺陷一樣，這個效果仍必須至少花費1點角色點。 {@b 額外-等同於降低數據的花費.}"],
 					"cost": {
 						"value": -1, "type": "flat", "hidden": true
 					}
@@ -969,7 +969,7 @@
 			],
 			"extras": [
 				{
-					"name": "Permanent",
+					"translate_name": "永駐", "name": "Permanent",
 					"entries": ["Permanent Growth, typically with innate, suits giant-sized characters and creatures that are a fixed larger size."],
 					"cost": {
 						"value": 0, "type": "per"
@@ -1460,7 +1460,7 @@
 					}
 				},
 				{
-					"name": "Permanent",
+					"translate_name": "永駐", "name": "Permanent",
 					"entries": ["You are always Insubstantial; you cannot assume solid form, although your Insubstantial effect can still be Nullified unless it is also Innate."],
 					"cost": {
 						"value": 0, "type": "per"
