@@ -118,6 +118,101 @@
 					"effect": "{@effect Damage} 12"
 				}
 			]
+		},
+		{
+			"name": "Construct",
+			"attributes": {
+				"str": 11,
+				"sta": "-",
+				"agl": 3,
+				"dex": 3,
+				"fgt": 9,
+				"int": 5,
+				"awe": 1,
+				"pre": 0
+			},
+			"defense": {
+				"dodge": 9,
+				"fortitude": "immune",
+				"parry": 9,
+				"toughness": 11,
+				"will": 9
+			},
+			"spent": {
+				"ability": 54,
+				"defense": 14,
+				"skill": 9,
+				"advantage": 6,
+				"power": 67
+			},
+			"init": 3,
+			"skills": [
+				{
+					"name": "Investigation",
+					"rank": 2
+				},
+				{
+					"name": "Perception",
+					"rank": 5
+				},
+				{
+					"name": "Persuasion",
+					"rank": 4
+				},
+				{
+					"name": "Technology",
+					"rank": 5
+				},
+				{
+					"name": "Vehicles",
+					"rank": 2
+				}
+			],
+			"advantages": [
+				{
+					"name": "Eidetic Memory"
+				},
+				{
+					"name": "Ranged Attack",
+					"rank": 5
+				}
+			],
+			"powers": {
+				"type": "list",
+				"items": [
+					"{@b Armored}: {@effect Protection|Protection 11}, {@modifier Impervious|Impervious 6} [17 points]",
+					"{@b Unliving}: {@effect Immunity|Immunity 30} to Fortitude Effects [30 points]",
+					{
+						"type": "entries",
+						"entries": [
+							"{@b Options}: Choose one of the following [20 points]",
+							{
+								"type": "list",
+								"items": [
+									"{@b Elemental}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 10} (See Elemental Control)",
+									"{@b Soldier}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 10} (built-in weapon)",
+									"{@b Undead Revenant}: {@effect Immortality|Immortality 5}, {@effect Regeneration|Regeneration 10}",
+									"{@b Wraith}: {@effect Insubstantial|Insubstantial 4}"
+								]
+							}
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Ranged",
+					"bonus": 8,
+					"range": "ranged",
+					"effect": "{@effect Damage} * (depends on option chosen under Powers)"
+				},
+				{
+					"name": "Unarmed",
+					"bonus": 9,
+					"range": "close",
+					"effect": "{@effect Damage} 11"
+				}
+			]
 		}
 	]
 }
