@@ -65,7 +65,7 @@
 					"rank": 4
 				},
 				{
-					"translate_name": "(強化)遠距離攻擊", "name": "(Enhanced) Ranged Attack",
+					"translate_name": "(增強)遠距離攻擊", "name": "(Enhanced) Ranged Attack",
 					"ref_name": "Ranged Attack",
 					"rank": 2
 				},
@@ -93,13 +93,13 @@
 									{
 										"type": "list",
 										"items": [
-											"{@b 伺服馬達}: {@effect Enhanced Trait|Enhanced Strength 12} [24 點]",
+											"{@b 伺服馬達}: {@effect Enhanced Trait|增強力量 12} [24 點]",
 											"{@b 力場光炮}: {@modifier Increased Range|遠距} {@effect Damage|傷害 12} [1 點]"
 										]
 									}
 								]
 							},
-							"{@b 戰術輔助電腦}: {@effect Enhanced Trait|Enhanced Dodge 2}, {@effect Enhanced Trait|Enhanced Fighting 4}, {@effect Enhanced Trait|Enhanced Ranged Attack 2} [12 點]"
+							"{@b 戰術輔助電腦}: {@effect Enhanced Trait|增強閃避 2}, {@effect Enhanced Trait|增強格鬥 4}, {@effect Enhanced Trait|增強遠距離攻擊 2} [12 點]"
 						]
 					}
 				]

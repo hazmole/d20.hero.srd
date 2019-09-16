@@ -28,7 +28,7 @@
 			{
 				"translate_name": "秘密起源", "name": "Secret Origins",
 				"headers": [
-					{ "_translate_name": "英雄範型", "name": "Hero Archetypes" },
+					{ "translate_name": "英雄範型", "name": "Hero Archetypes" },
 					{ "translate_name": "英雄設計", "name": "Hero Design" },
 					{ "_translate_name": "角色點", "name": "Character Points" },
 					{ "_translate_name": "糾葛難題", "name": "Complications" },
@@ -1044,8 +1044,8 @@
 						"要創建屬於你自己的角色，最快也最簡單的方式就是從各種預先做好的{@5etools 英雄範型|archetypes.html}中找到最符合你想扮演的英雄類型，再根據你的想法稍做修改。僅僅需要做幾個選擇，你就能擁有一個嶄新，完好，且隨時能夠上陣的英雄！",
 						"每個範型都提供了一個超能力階級為10級（這也是最推薦的起始階級），完整可用的英雄類型。有些範型會依照技能、特長、或超能力提供你幾個簡單的選擇，讓你更能融入不同的主題。舉例來說，許多範型會讓你選擇一個{@skill 專業}技能以完善角色的背景，或做為超級英雄行動之外的興趣。",
 						"有些範型會提供{@b 選項}，讓你能夠從幾個預先創建的數據選項中選擇，並創造出不同類型的英雄。舉例而言，{@archetype Crime Fighter}範型提供了幾個選項，讓英雄能以擁有較少裝備作為代價，換取超人類的感官能力或特殊的載具。其他範型也會提供類似的選項。",
-						"然而，即使該範型並未提供選項，也不代表你不能修改該範型的數據以符合你想要扮演的英雄類型！Even if the archetype does not have an {@b Options} section that does not mean you cannot customize the archetype to suit the type of hero you want to play! The archetypes are just starting points: if you are more familiar with character design feel free to change any or all of your chosen archetype’s traits. So long as you stay within the bounds of available Character points, series power level, and your Gamemaster’s approval, you’re fine.",
-						"Please note, the sample characters using archetypes include some advantages in italicized print. Those advantages are from an {@b Enhanced Advantage} effect listed in their powers."
+						"然而，即使該範型並未提供{@b 選項}，也不代表你不能修改該範型的數據以符合你想要扮演的英雄類型！英雄範型僅僅是一個起點：若你變得較為熟悉角色設計的方式，你可以自由修改你所選範型的部分或甚至所有數據。只要你仍遵守可用角色點、劇集超能力階級的限制，並得到你遊戲主持人的核准，就沒有任何問題！",
+						"請注意，使用範型的範例角色中會擁有一些前方標駐著(增強)的特長，這些特長是來自他們超能力中的{@effect Enhanced Trait|增強特長}效果。"
 					]
 				},
 				{
@@ -1129,12 +1129,12 @@
 				},
 				{
 					"type": "section",
-					"name": "Character Points",
+					"translate_name": "角色點", "name": "Character Points",
 					"entries": [
 						"You design a hero by spending {@b Character Points} on various traits. Each ability, skill, advantage, power, and other trait has an associated Character point cost.",
 						{
 							"type": "entries",
-							"name": "Starting Character Points",
+							"translate_name": "起始角色點", "name": "Starting Character Points",
 							"entries": [
 								"The game’s power level provides a guideline for how many Character points you get initially to design your character, as shown on the {@b Starting Character points} table. The Gamemaster can vary the starting Character points as desired to suit the series.",
 								{
@@ -1189,15 +1189,15 @@
 						},
 						{
 							"type": "entries",
-							"name": "Spending Character Points",
+							"translate_name": "花費角色點", "name": "Spending Character Points",
 							"entries": [
 								"Each trait costs a certain number of Character points. You “spend” or allocate your points to give your character different traits. Once spent, Character points cannot be reallocated without the use of a particular power or the Gamemaster’s permission. The basic costs of traits are given on the {@b Basic Trait Costs} table, with specific costs for powers given in {@b Powers} chapter.",
 								{
 									"type": "table",
-									"caption": "Basic Trait Costs",
+									"caption": "基本數據花費",
 									"colLabels": [
-										"Trait",
-										"Cost in Power Points"
+										"數據",
+										"角色點花費"
 									],
 									"colStyles": [
 										"col-4 text-align-center",
@@ -1205,24 +1205,24 @@
 									],
 									"rows": [
 										[
-											"Ability",
-											"2 per ability rank"
+											"屬性",
+											"2點／每屬性等級"
 										],
 										[
-											"Defense",
-											"1 per defense rank"
+											"防禦",
+											"1點／每防禦等級"
 										],
 										[
-											"Skill",
-											"1 per 2 skill ranks"
+											"技能",
+											"1點／每2級技能等級"
 										],
 										[
-											"Advantage",
-											"1 per advantage or advantage rank"
+											"特長",
+											"1點／每特長或特長等級"
 										],
 										[
-											"Power",
-											"((base effect cost + extras – flaws) x rank) + flat modifiers"
+											"超能力",
+											"((基本效果花費 + 強化 – 缺陷) x 效果等級) + 額外修正值"
 										]
 									]
 								}
@@ -1230,18 +1230,18 @@
 						},
 						{
 							"type": "entries",
-							"name": "Power level",
+							"translate_name": "超能力階級", "name": "Power level",
 							"entries": [
 								"{@b Power level} is an overall measure of effectiveness and power, primarily combat ability, but also generally what sort of tasks a character can be expected to accomplish on a routine basis (see {@b Routine Checks} in The {@b Basics} chapter).",
 								"Power level is a value set by the Gamemaster for the series as a whole. It places certain limits on where and how players can spend Character points when creating or improving their heroes. Power level imposes the following limits:",
 								{
 									"type": "list",
 									"items": [
-										"{@b Skill Modifier}: Your hero’s total modifier with any skill (ability rank + skill rank + advantage modifiers) cannot exceed the series power level +10. This includes untrained skill modifiers using only ability rank, and so sets an effective limit on all abilities associated with skills.",
-										"{@b Attack & Effect}: The total of your hero’s attack bonus and effect rank with that attack cannot exceed twice the series power level. If an effect allows a resistance check, but does not require an attack check, its effect rank cannot exceed the series power level.",
-										"{@b Dodge & Toughness}: The total of your hero’s Dodge and Toughness defenses cannot exceed twice the series power level.",
-										"{@b Parry & Toughness}: The total of your hero’s Parry and Toughness defenses cannot exceed twice the series power level.",
-										"{@b Fortitude & Will}: The total of your hero’s Fortitude and Will defenses cannot exceed twice the series power level."
+										"{@b 技能修正值}：你英雄的每個技能的修正值總合（屬性等級 + 技能等級 + 特長修正值）不能超過劇集超能力階級+10。這包括了只使用屬性等級做為修正值的未受訓技能,因此，這限制了關聯於技能的所有屬性所能發揮的實際成效。",
+										"{@b 攻擊＆效果等級}：你英雄所進行攻擊的攻擊加值和效果等級的總和，不能超過劇集超能力階級的二倍。若一個效果要求進行抵抗檢定，而不要求進行攻擊檢定，則該效果等級不能超過劇集超能力階級。",
+										"{@b 閃避＆堅實防禦}：你英雄的閃避和堅實防禦總合，不能超過劇集超能力階級的二倍。",
+										"{@b 格擋＆堅實防禦}：你英雄的格擋和堅實防禦總合，不能超過劇集超能力階級的二倍。",
+										"{@b 韌性＆意志防禦}：你英雄的韌性和意志防禦總合，不能超過劇集超能力階級的二倍。"
 									]
 								},
 								{
@@ -1817,10 +1817,10 @@
 						},
 						{
 							"type": "entries",
-							"name": "Enhanced Abilities",
+							"translate_name": "增強屬性", "name": "Enhanced Abilities",
 							"entries": [
-								"Some ability ranks—or portions of them—may be acquired as Enhanced Traits, as described in Powers. Enhanced Abilities are superhuman powers rather than natural. The key differences between Enhanced Abilities and normal ability ranks are Enhanced Abilities can be nullified (normal abilities cannot, see Nullify) and Enhanced Abilities can have power modifiers and be used for power stunts with extra effort (normal abilities cannot, see Extra Effort).",
-								"Enhanced Abilities and normal abilities have the same cost (2 character points per +1 ability rank). The player decides if a character’s ability rank is normal or enhanced and, if it is enhanced, how much of it is enhanced."
+								"有些屬性等級（或其中一部分的等級）是藉由{@effect Enhanced Trait}效果而獲得的。增強屬性屬於超能力，而非天生的屬性能力。尋常屬性等級和增強屬性之間最關鍵的差異，在於增強屬性可以被無效化（參見{@effect Nullify}效果），且增強屬性可以應用超能力修飾符，並利用奮力一搏而被做為超能力絕技使用（參見{@rule 奮力一搏|basic|1|extra effort}）。",
+								"增強屬性和尋常屬性都具有相同的花費（2點角色點／每+1屬性等級）。玩家可以自由決定角色的屬性等級是增強或尋常屬性，以及若其為增強屬性，則有多少等級是透過增強而獲得的。"
 							]
 						}
 					]
@@ -1939,12 +1939,12 @@
 											"type": "middleEnhance",
 											"text": "防禦花費 = 1點角色點／每+1等級"
 										},
-										"With the {@effect Enhanced Trait} effect you can also improve your defenses with powers at the same cost, 1 point per rank.",
+										"利用{@effect 增強數據}效果，你能夠以相同的花費藉由超能力來提升你的防禦屬性，每級1點角色點。",
 										{
 											"type": "entries",
 											"translate_name": "堅實等級", "name": "Toughness Rank",
 											"entries": [
-												"唯一的例外是堅實防禦，它只能夠藉由特長和超能力，而不能透過消耗角色點來提升。這反映了超乎尋常的堅實程度基本上永遠是緣自於某種特殊能力。參見{@5etools 特長|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage 受身}特長和{@effect 保護}效果。"
+												"堅實防禦是唯一的例外，它的等級不能透過消耗角色點來提升，而只能夠藉由特長和超能力來提升。這反映了超乎尋常的堅實程度基本上永遠是源自於某種特殊能力。參見{@5etools 特長|advantages.html}和{@5etools 超能力效果|powereffects.html}頁面以查閱各種增強堅實防禦的選項，特別是{@advantage 受身}特長和{@effect 保護}效果。"
 											]
 										},
 										{

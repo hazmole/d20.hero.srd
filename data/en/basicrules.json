@@ -1045,7 +1045,7 @@
 						"Each archetype offers a complete, ready-to-play power level 10 hero, the recommended starting power level. Some archetypes offer a few simple choices in terms of skills, advantages, or sets of powers to fit different themes. For example, many archetypes offer a choice of an {@skill Expertise} skill to round out the character’s background and interests outside of superheroism.",
 						"Some archetypes also offer an {@b Options} section, where you can change some of the pre-existing trait choices to create a different kind of hero. For example, the {@archetype Crime Fighter} archetype has options for a hero with less equipment, but super-human senses, or a special vehicle of some type. Other archetypes offer similar options.",
 						"Even if the archetype does not have an {@b Options} section that does not mean you cannot customize the archetype to suit the type of hero you want to play! The archetypes are just starting points: if you are more familiar with character design feel free to change any or all of your chosen archetype’s traits. So long as you stay within the bounds of available Character points, series power level, and your Gamemaster’s approval, you’re fine.",
-						"Please note, the sample characters using archetypes include some advantages in italicized print. Those advantages are from an {@b Enhanced Advantage} effect listed in their powers."
+						"Please note, the sample characters using archetypes include some advantages in italicized print. Those advantages are from an {@effect Enhanced Trait|Enhanced Advantage} effect listed in their powers."
 					]
 				},
 				{
@@ -1197,7 +1197,7 @@
 									"caption": "Basic Trait Costs",
 									"colLabels": [
 										"Trait",
-										"Cost in Power Points"
+										"Cost in Character Points"
 									],
 									"colStyles": [
 										"col-4 text-align-center",
@@ -1819,7 +1819,7 @@
 							"type": "entries",
 							"name": "Enhanced Abilities",
 							"entries": [
-								"Some ability ranks—or portions of them—may be acquired as Enhanced Traits, as described in Powers. Enhanced Abilities are superhuman powers rather than natural. The key differences between Enhanced Abilities and normal ability ranks are Enhanced Abilities can be nullified (normal abilities cannot, see Nullify) and Enhanced Abilities can have power modifiers and be used for power stunts with extra effort (normal abilities cannot, see Extra Effort).",
+								"Some ability ranks—or portions of them—may be acquired as {@effect Enhanced Trait|Enhanced Traits}, as described in Powers. Enhanced Abilities are superhuman powers rather than natural. The key differences between Enhanced Abilities and normal ability ranks are Enhanced Abilities can be nullified (normal abilities cannot, see {@effect Nullify}) and Enhanced Abilities can have power modifiers and be used for power stunts with extra effort (normal abilities cannot, see {@rule Extra Effort|basic|1|extra effort}).",
 								"Enhanced Abilities and normal abilities have the same cost (2 character points per +1 ability rank). The player decides if a character’s ability rank is normal or enhanced and, if it is enhanced, how much of it is enhanced."
 							]
 						}
