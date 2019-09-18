@@ -2321,7 +2321,7 @@
 					"type": "entries",
 					"name": "Awareness (1 Rank)",
 					"entries": [
-						"You can sense the use of effects of a particular descriptor with a successful Perception check (DC 10, with –1 to your check per 10 feet range). Examples include Cosmic Awareness, Divine Awareness, Magical Awareness, Mental Awareness, and so forth. You can apply other Sense effects to your Awareness to modify it. Choose the sense type for your Awareness; it is often a mental sense, but doesn’t have to be. Awareness counts as an “exotic sense” for noticing effects with the first rank of the Subtle modifier (see Subtle under Extras for details)."
+						"You can sense the use of effects of a particular descriptor with a successful Perception check (DC 10, with –1 to your check per 10 feet range). Examples include Cosmic Awareness, Divine Awareness, Magical Awareness, Mental Awareness, and so forth. You can apply other Sense effects to your Awareness to modify it. Choose the sense type for your Awareness; it is often a mental sense, but doesn’t have to be. Awareness counts as an “exotic sense” for noticing effects with the first rank of the {@modifier Subtle} modifier."
 					]
 				},
 				{

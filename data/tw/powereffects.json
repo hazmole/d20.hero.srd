@@ -2295,33 +2295,33 @@
 						}
 					]
 				},
-				"Like all sensory effects, Senses uses the sense types as descriptors.",
+				"與其他感知類型的效果相同，感官效果使用感官種類作為描述符。",
 				{
 					"type": "entries",
 					"translate_name": "準確（2或4級）", "name": "Accurate (2 or 4 Ranks)",
 					"entries": [
-						"An accurate sense can pinpoint something’s exact location. You can use an accurate sense to target something in combat. Visual and tactile senses are normally accurate for humans. Cost is 2 ranks for one sense, 4 for an entire sense type."
+						"準確感官可以確切地掌握某物實際所在的位置。你可以藉由準確感官在戰鬥中瞄準某個東西做為目標。對人類而言，視覺和觸覺通常都屬於準確感官。這個選項若應用於一種感官，則其為2級；若應用於一種感官種類的所有感官，則其為4級。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "敏銳（1-2級）", "name": "Acute (1-2 Ranks)",
 					"entries": [
-						"You can sense fine details about anything you can detect with a particular sense, allowing you to distinguish between and identify different subjects. Visual and auditory senses are normally acute for humans. Cost is 1 rank for one sense, 2 for an entire sense type."
+						"你可以偵測出任何你使用特定感官所能察覺的微小細節，讓你得以辨別出不同事物的差異。對人類而言，視覺和聽覺通常都屬於敏銳感官。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Analytical (1-2 Ranks)",
+					"translate_name": "分析（1-2級）", "name": "Analytical (1-2 Ranks)",
 					"entries": [
-						"Beyond even acute, you can perceive specific details about anything you can detect with an analytical sense, such as chemical composition, exact dimensions or mass, frequency of sounds and energy wavelengths, and so forth. You can only apply this effect to an acute sense. normal senses are not analytical. Cost is 1 rank for one sense, 2 for an entire sense type."
+						"你的感官變得更加敏銳，你可以知曉任何你使用分析感官所能察覺的特定細節，像是化學組成、確切的尺寸或質量、聲音的頻率和能量的波長等等。你只能將這個選項應用於敏銳感官。尋常感官並不具備分析效果。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Awareness (1 Rank)",
+					"translate_name": "覺察（1級）", "name": "Awareness (1 Rank)",
 					"entries": [
-						"You can sense the use of effects of a particular descriptor with a successful Perception check (DC 10, with –1 to your check per 10 feet range). Examples include Cosmic Awareness, Divine Awareness, Magical Awareness, Mental Awareness, and so forth. You can apply other Sense effects to your Awareness to modify it. Choose the sense type for your Awareness; it is often a mental sense, but doesn’t have to be. Awareness counts as an “exotic sense” for noticing effects with the first rank of the Subtle modifier (see Subtle under Extras for details)."
+						"你可以透過一個成功的{@skill 感知}技能檢定（DC 10，每10呎距離承受-1罰值）以察覺到是否有人在使用帶有特定描述符的效果。範例包括宇宙能力覺察、神聖覺察、魔法覺察、心靈能力覺察等等。你可以將其他感官效果選項應用於覺察選項上以進行調整。為你的覺察選擇一種感官種類；它通常會是第六感，但並不一定要是。對於應用了1級{@modifier 隱密使用}修飾符的效果而言，覺察感知被視作有機會注意到該效果的「特定罕見感官」。"
 					]
 				},
 				{
@@ -2333,21 +2333,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Counters Concealment (2 Ranks)",
+					"translate_name": "反制遮蔽（2級）", "name": "Counters Concealment (2 Ranks)",
 					"entries": [
 						"A sense type with this trait ignores the Concealment effect of a particular descriptor; you sense the subject of the effect normally, as if the Concealment wasn’t even there. So if you have vision that Counters Invisibility, for example, then invisible beings are visible to you. For 5 ranks, the sense type ignores all Concealment effects, regardless of descriptor. Concealed subjects seem slightly “off” to you, enough to know they are concealed to others. This trait does not affect concealment provided by opaque objects, for that, see Penetrates Concealment."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Counters Illusion (2 Ranks)",
+					"translate_name": "反制幻象（2級）", "name": "Counters Illusion (2 Ranks)",
 					"entries": [
 						"A sense type with this trait ignores the Illusion effect; you automatically succeed on your resistance check against the illusion if it affects your sense type, realizing that it isn’t real."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Danger Sense (1 Rank)",
+					"translate_name": "危險感知（1級）", "name": "Danger Sense (1 Rank)",
 					"entries": [
 						"When you would normally be surprised in combat, make a Perception check (DC 10): One degree of success means you’re not surprised, but can’t act during the surprise round (so you don’t suffer any conditions of being surprised), while two or more degrees of success means you are not surprised and may act during the surprise round (if any). Failure means you are surprised (although, if you have Uncanny Dodge, you are not vulnerable). The GM may raise the DC of the Danger Sense check in some circumstances. Choose a sense type for your Danger Sense. Sensory effects targeting that sense also affect your Danger Sense ability and may “blind” it."
 					]
@@ -2356,12 +2356,12 @@
 					"type": "entries",
 					"translate_name": "黑暗視覺（2級）", "name": "Darkvision (2 Ranks)",
 					"entries": [
-						"你可以在完全黑暗的環境中視物，就如同處於正常的日照下一樣；黑暗並不會對你的視覺造成遮蔽效果。這個效果實質上等同於反制遮蔽（黑暗）。"
+						"你可以在完全黑暗的環境中視物，就如同處於正常的日照下一樣；黑暗並不會對你的視覺造成遮蔽效果。這個效果實質上等同於反制遮蔽（黑暗）選項。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Detect (1-2 Ranks)",
+					"translate_name": "探查（1-2級）", "name": "Detect (1-2 Ranks)",
 					"entries": [
 						"You can sense a particular item or effect by touch with a Perception check. Detect has no range and only indicates the presence or absence of something (being neither acute nor accurate). Choose what sense type your Detect falls under (often mental). For 2 ranks you can detect things at range (with the normal –1 per 10 feet modifier to your Perception check)."
 					]
@@ -2396,7 +2396,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Low-light Vision (1 Rank)",
+					"translate_name": "微光視覺（1級）", "name": "Low-light Vision (1 Rank)",
 					"entries": [
 						"You ignore circumstance penalties to visual Perception checks for poor lighting, so long as it is not completely dark."
 					]
@@ -2488,9 +2488,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ultravision (1 Rank)",
+					"translate_name": "超視覺（1級）", "name": "Ultravision (1 Rank)",
 					"entries": [
-						"You can see ultraviolet light, allowing you to see normally at night by the light of the stars or other UV light sources."
+						"你可以看見紫外線，這讓你能在星空或其他有紫外線光源的黑暗環境中正常視物。"
 					]
 				}
 			],
