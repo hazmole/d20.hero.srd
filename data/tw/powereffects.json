@@ -2242,7 +2242,7 @@
 			]
 		},
 		{
-			"name": "Sense",
+			"_translate_name": "感官", "name": "Sense",
 			"type": "SEN",
 			"action": "N",
 			"range": "personal",
@@ -2252,43 +2252,43 @@
 				"type": "per"
 			},
 			"entries": [
-				"One or more of your senses are improved, or you have additional sensory abilities beyond the normal five senses. Allocate ranks in Senses to the following effects. Some options require more than one rank, noted in their descriptions. So if you have Senses 5, for example, you can have darkvision (2 ranks), direction sense (1 rank), distance sense (1 rank), and ultra-hearing (1 rank), or any other combination adding up to 5 ranks.",
+				"你的其中一種或多種感官得到強化，或者你擁有除了原本五種感官以外的特殊感知能力。將你感知效果的等級分配給下列選項。其中某些選項會需要1級以上的等級（註記於其名稱後）。因此舉例來說，若你擁有5級的感知效果，則你可以將其分配給黑暗視覺（2級）、方位感知（1級）、距離感知（1級）、和超聽覺（1級），或任意總合為5級的組合。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Normal Senses",
+					"translate_name": "幕後花絮：尋常感官", "name": "Under the Hood: Normal Senses",
 					"entries": [
 						"Senses are broken down into sense types, used as descriptors for sensory effects. Here are the traits of normal human senses, for use when modifying them with the options from Senses:",
 						{
 							"type": "entries",
-							"name": "Visual",
+							"translate_name": "視覺", "name": "Visual",
 							"entries": [
 								"Normal vision is ranged (with a –1/10 feet modifier), acute (able to distinguish fine details) and accurate (able to pinpoint the locations of things)."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Auditory",
+							"translate_name": "聽覺", "name": "Auditory",
 							"entries": [
 								"Normal hearing is ranged (with a –1/10 feet modifier), acute (able to pick up details like differences in tone), and radius (able to pick up on sounds coming from any direction). Normal hearing is not accurate."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Olfactory",
+							"translate_name": "嗅覺", "name": "Olfactory",
 							"entries": [
 								"Normal human olfactory senses, which lump together smell and taste for descriptor purposes, are fairly limited. Ordinary human olfactory senses are neither acute nor accurate. The sense of smell is a radius sense, however, able to pick up on scents coming from any direction. Its “range” is quite limited, however, effectively only close, except for especially strong scents."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Tactile",
+							"translate_name": "觸覺", "name": "Tactile",
 							"entries": [
 								"The normal sense of touch is, by definition, close range. It is accurate (in that you know the location of anything you can touch) and radius (in that you can feel things from any surface of your body)."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Mental",
+							"translate_name": "第六感", "name": "Mental",
 							"entries": [
 								"The “sixth sense” or mental sense type is fairly crude in normal humans, limited essentially to interactions with the Insight skill and awareness of mental effects used directly on you. Thus it is close range and has none of the Sense qualities."
 							]
@@ -2298,14 +2298,14 @@
 				"Like all sensory effects, Senses uses the sense types as descriptors.",
 				{
 					"type": "entries",
-					"name": "Accurate (2 or 4 Ranks)",
+					"translate_name": "準確（2或4級）", "name": "Accurate (2 or 4 Ranks)",
 					"entries": [
 						"An accurate sense can pinpoint something’s exact location. You can use an accurate sense to target something in combat. Visual and tactile senses are normally accurate for humans. Cost is 2 ranks for one sense, 4 for an entire sense type."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Acute (1-2 Ranks)",
+					"translate_name": "敏銳（1-2級）", "name": "Acute (1-2 Ranks)",
 					"entries": [
 						"You can sense fine details about anything you can detect with a particular sense, allowing you to distinguish between and identify different subjects. Visual and auditory senses are normally acute for humans. Cost is 1 rank for one sense, 2 for an entire sense type."
 					]
@@ -2354,9 +2354,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision (2 Ranks)",
+					"translate_name": "黑暗視覺（2級）", "name": "Darkvision (2 Ranks)",
 					"entries": [
-						"You can see in complete darkness as if it were normal daylight; darkness provides no concealment to your vision. This is essentially the same as Counters Concealment (Darkness)."
+						"你可以在完全黑暗的環境中視物，就如同處於正常的日照下一樣；黑暗並不會對你的視覺造成遮蔽效果。這個效果實質上等同於反制遮蔽（黑暗）。"
 					]
 				},
 				{
@@ -2368,16 +2368,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Direction Sense (1 Rank)",
+					"translate_name": "方位感知（1級）", "name": "Direction Sense (1 Rank)",
 					"entries": [
-						"You always know what direction north lies in and can retrace your steps through any place you’ve been."
+						"你永遠知曉北方所在的方位，且可以追溯回到你曾到過的任何地方。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Distance Sense (1 Rank)",
+					"translate_name": "距離感知（1級）", "name": "Distance Sense (1 Rank)",
 					"entries": [
-						"You can accurately and automatically judge distances."
+						"你可以準確且自動地判斷距離。"
 					]
 				},
 				{
@@ -2467,9 +2467,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Time Sense (1 Rank)",
+					"translate_name": "時間感知（1級）", "name": "Time Sense (1 Rank)",
 					"entries": [
-						"You always know what time it is and can time events as if you had an accurate stopwatch."
+						"你永遠知曉現在的時間，且可以如同你有一個精準的碼表一樣為發生的事件計時。"
 					]
 				},
 				{
@@ -2481,9 +2481,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Ultra-hearing (1 Rank)",
+					"translate_name": "超聽覺（1級）", "name": "Ultra-hearing (1 Rank)",
 					"entries": [
-						"You can hear very high and low frequency sounds, like dog whistles or ultrasonic signals, including those used by some remote controls."
+						"你可以聽見更高和更低頻率的聲音，像是狗哨聲或超音波信號（包括那些用於遠端遙控的聲波）。"
 					]
 				},
 				{
