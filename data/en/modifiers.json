@@ -189,7 +189,7 @@
 			"entries": [
 				"This modifier allows an effect to work on targets in other dimensions (if any exist in the series). You affect your proximate location in the other dimension as if you were actually there, figuring range modifiers from that point.",
 				"One rank in Dimensional can affect a single other dimension. Two ranks can affect any of a related group of dimensions (mythic dimensions, mystic dimensions, fiendish planes, and so forth). Three ranks can reach into any other dimension in the setting.",
-				"For many effects, you may need a Dimensional Remote Sensing effect to target them. Targets in other dimensions you cannot sense have total concealment from you."
+				"For many effects, you may need a Dimensional {@effect Remote Sensing} effect to target them. Targets in other dimensions you cannot sense have total concealment from you."
 			]
 		},
 		{

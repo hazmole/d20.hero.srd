@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"name": "Dimensional",
+					"translate_name": "跨維度", "name": "Dimensional",
 					"entries": ["Communication with this modifier can bridge dimensional barriers, reaching into other dimensions and planes of existence. The Communication effect still has its proximate range, and the GM may rule certain subjects “out of range” of the effect, depending on their relative positions in the other dimension."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -2185,7 +2185,7 @@
 			],
 			"extras": [
 				{
-					"name": "Dimensional",
+					"translate_name": "跨維度", "name": "Dimensional",
 					"entries": ["This modifier allows you to extend your Remote Sensing into other dimensions with range proximate to your location in that dimension. One rank of Dimensional allows you to sense into a single other dimension, two for a group of related dimensions, and three for any dimension in the setting suitable to your Remote Sensing descriptors. Dimensional Remote Sensing for an accurate sense is especially useful for targeting other Dimension effects."],
 					"cost": {
 						"value": 1, "type": "flat_per"
@@ -2257,40 +2257,40 @@
 					"type": "inset",
 					"translate_name": "幕後花絮：尋常感官", "name": "Under the Hood: Normal Senses",
 					"entries": [
-						"Senses are broken down into sense types, used as descriptors for sensory effects. Here are the traits of normal human senses, for use when modifying them with the options from Senses:",
+						"各種感官被區分成了數個感官種類，並被做為感知類型效果的描述符使用。下列為尋常人類感官所具備的感官效果選項，你可以使用感官效果的其他選項對其進行調整：",
 						{
 							"type": "entries",
 							"translate_name": "視覺", "name": "Visual",
 							"entries": [
-								"Normal vision is ranged (with a –1/10 feet modifier), acute (able to distinguish fine details) and accurate (able to pinpoint the locations of things)."
+								"尋常視覺具備：遠程（-1修正/每十呎距離）、敏銳（能夠辨別細節）、和準確（能夠知曉事物的確切位置）。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "聽覺", "name": "Auditory",
 							"entries": [
-								"Normal hearing is ranged (with a –1/10 feet modifier), acute (able to pick up details like differences in tone), and radius (able to pick up on sounds coming from any direction). Normal hearing is not accurate."
+								"尋常聽覺具備：遠程（-1修正/每十呎距離）、敏銳（能夠辨別像是音調差異等細節）、和方圓（能夠聽見來自四面八方的聲音）。尋常聽覺並不具備準確特性。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "嗅覺", "name": "Olfactory",
+							"translate_name": "味覺", "name": "Olfactory",
 							"entries": [
-								"Normal human olfactory senses, which lump together smell and taste for descriptor purposes, are fairly limited. Ordinary human olfactory senses are neither acute nor accurate. The sense of smell is a radius sense, however, able to pick up on scents coming from any direction. Its “range” is quite limited, however, effectively only close, except for especially strong scents."
+								"尋常人類的味道感官（將嗅覺和舌頭味覺整合做一種描述符）相當有限。尋常人類的味覺既不準確，亦不敏銳。然而，嗅覺感官通常具備方圓特性，能夠辨別來自任何方位的氣味。儘管如此，它的「射程」仍極為有限，除了特別強烈的氣味之外，嗅覺實際上只能察覺到近距離的氣味。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "觸覺", "name": "Tactile",
 							"entries": [
-								"The normal sense of touch is, by definition, close range. It is accurate (in that you know the location of anything you can touch) and radius (in that you can feel things from any surface of your body)."
+								"如同其定義，尋常的觸覺感官僅為近距離。它具備準確（你能知曉你所碰觸事物的確切位置）、和方圓（你可以透過你身體的任意體表來感覺其他事物）。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "第六感", "name": "Mental",
+							"translate_name": "靈感", "name": "Mental",
 							"entries": [
-								"The “sixth sense” or mental sense type is fairly crude in normal humans, limited essentially to interactions with the Insight skill and awareness of mental effects used directly on you. Thus it is close range and has none of the Sense qualities."
+								"靈感或所謂的「第六感」對尋常人類而言是個相當粗糙的感官，且本質上只能與{@skill 洞見}技能互動、以及用以察覺直接作用於你的心靈效果。因此它僅為近距離，且不具備任何感官選項特性。"
 							]
 						}
 					]
@@ -2314,21 +2314,21 @@
 					"type": "entries",
 					"translate_name": "分析（1-2級）", "name": "Analytical (1-2 Ranks)",
 					"entries": [
-						"你的感官變得更加敏銳，你可以知曉任何你使用分析感官所能察覺的特定細節，像是化學組成、確切的尺寸或質量、聲音的頻率和能量的波長等等。你只能將這個選項應用於敏銳感官。尋常感官並不具備分析效果。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
+						"你的感官變得更加敏銳，你可以知曉任何你使用分析感官所能察覺的特定細節，像是化學組成、確切的尺寸或質量、聲音的頻率和能量的波長等等。你只能將這個選項應用於敏銳感官。尋常感官並不具備分析特性。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "覺察（1級）", "name": "Awareness (1 Rank)",
 					"entries": [
-						"你可以透過一個成功的{@skill 感知}技能檢定（DC 10，每10呎距離承受-1罰值）以察覺到是否有人在使用帶有特定描述符的效果。範例包括宇宙能力覺察、神聖覺察、魔法覺察、心靈能力覺察等等。你可以將其他感官效果選項應用於覺察選項上以進行調整。為你的覺察選擇一種感官種類；它通常會是第六感，但並不一定要是。對於應用了1級{@modifier 隱密使用}修飾符的效果而言，覺察感知被視作有機會注意到該效果的「特定罕見感官」。"
+						"你可以透過一個成功的{@skill 感知}技能檢定（DC 10，每10呎距離承受-1罰值）以察覺到是否有人在使用帶有特定描述符的效果。範例包括宇宙能力覺察、神聖覺察、魔法覺察、心靈能力覺察等等。你可以將其他感官效果選項應用於覺察選項上以進行調整。為你的覺察選擇一種感官種類；它通常會是靈感，但並不一定要是。對於應用了1級{@modifier 隱密使用}修飾符的效果而言，覺察感知被視作有機會注意到該效果的「特定罕見感官」。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Communication Link (1 Rank)",
+					"translate_name": "溝通鏈結（1級）", "name": "Communication Link (1 Rank)",
 					"entries": [
-						"You have a link with a particular individual, chosen when you acquire this option, who must also have this ability. The two of you can communicate over any distance like a use of the Communication effect. Choose a sense type as a communication medium when you select this option; mental is common for psychic or empathic links. If you apply the Dimensional modifier to your Communication Link, it extends to other dimensions as well (see Dimensional under Power Modifiers for details)."
+						"你和一個特定個體之間有著一道鏈結，在你獲得這個感官選項時選擇該個體，該個體也必須要擁有這個能力。無論你們之間的距離有多遠，你們都可以彼此溝通，就如同使用了{@effect Communication}效果一樣。當你獲得這個選項時，選擇一種感官種類作為溝通媒介；對於精神或心靈鏈結而言，通常會使用靈感做為其溝通媒介。若你將{@modifier 跨維度}修飾符應用於你的溝通鏈結選項，則這個效果也將擴展至其他維度。"
 					]
 				},
 				{
@@ -2340,9 +2340,9 @@
 				},
 				{
 					"type": "entries",
-					"translate_name": "反制幻象（2級）", "name": "Counters Illusion (2 Ranks)",
+					"translate_name": "反制幻覺（2級）", "name": "Counters Illusion (2 Ranks)",
 					"entries": [
-						"A sense type with this trait ignores the Illusion effect; you automatically succeed on your resistance check against the illusion if it affects your sense type, realizing that it isn’t real."
+						"應用了這個選項的感官種類將能夠無視{@effect Illusion}效果；若該幻覺影響你所應用的感官種類，則你在對抗該幻覺的抵抗檢定中將自動成功，並意識到它並不是真實的。"
 					]
 				},
 				{
@@ -2382,9 +2382,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Extended (1 Rank)",
+					"translate_name": "延展（1級）", "name": "Extended (1 Rank)",
 					"entries": [
-						"You have a sense that operates at greater than normal range. Your range with the sense—the distance used to determine penalties to your Perception check—is increased by a factor of 10. Each additional time you apply this option, your range increases by an additional factor of 10, so 1 rank means you have a –1 to Perception checks per 100 feet, 2 ranks makes it –1 per 1,000 feet, and so on. An extended sense may be limited by conditions like the horizon and physical barriers between you and the subject, unless it also Penetrates Concealment."
+						"你的一個感官能夠作用於比平常更遠的距離。你該感官的射程（用於決定感知檢定所承受罰值的距離）變為原來的10倍。且每再應用這個選項一級，都將再使你該感官的射程再乘上10。因此1級的延展代表你的感知檢定每距離目標100呎才會承受-1罰值，2級的延展則代表每距離1000呎才會承受-1罰值，以此類推。一個延展感官通常會被一些情況限制，比如說，除非該感官同時具有穿透遮蔽選項，否則地平線或你和目標之間的物理障礙便會妨礙你觀察到目標。"
 					]
 				},
 				{
@@ -2446,23 +2446,23 @@
 				},
 				{
 					"type": "entries",
-					"name": "Radius (1-2 Ranks)",
+					"translate_name": "方圓（1-2級）", "name": "Radius (1-2 Ranks)",
 					"entries": [
-						"You can make Perception checks with a radius sense for any point around you. Subjects behind you cannot use Stealth to hide from you without some other concealment. Auditory, olfactory, and tactile senses are normally radius for humans. Cost is 1 rank for use with one sense, 2 ranks for one sense type."
+						"你可以對來自你周圍任意位置的目標以方圓感官進行感知檢定。在你身後的目標若沒有其他遮蔽，則它將無法使用{@skill 潛行}技能以從你的感官中躲藏起來。人類的聽覺、味覺、和觸覺通常都具有方圓特性。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Ranged (1 Rank)",
+					"translate_name": "遠程（1級）", "name": "Ranged (1 Rank)",
 					"entries": [
-						"You can use a sense that normally has no range (taste or touch in humans) to make Perception checks at range, with the normal –1 per 10 feet modifier. This can be enhanced with the Extended Sense effect."
+						"你可以使用一個通常不具備射程範圍的感官（例如人類的味覺和觸覺）以在一段距離外進行感知檢定，每10呎距離承受-1罰值。這個距離可以透過延展感官選項進一步強化。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rapid (1 Rank)",
+					"translate_name": "急速（1級）", "name": "Rapid (1 Rank)",
 					"entries": [
-						"You can read or take in information from a sense faster than normal: each rank increases your perception speed by a factor of 10 (x10, x100, etc.) with a single sense, double cost for an entire sense type. You can use rapid vision to speed-read, pick up on rapid flickering between frames of a film, watch video replays in fast-forward speeds, and such, rapid hearing to listen to time-compressed audio “blips,” and so forth."
+						"你能夠以超乎尋常的速度透過一種感官接收資訊：這個選項每一級都將使你其中一種感官的感知速度乘上10倍（x10, x100, 以此類推），若要使其應用於一種感官種類的所有感官，則其花費變為兩倍。你可以使用急速視覺進行速讀、捕捉動畫影格之間的閃動、以快轉的速度觀賞影片，或使用急速聽覺以聆聽經過時間壓縮處理的短音，諸如此類。"
 					]
 				},
 				{
@@ -2474,9 +2474,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tracking (1 Rank)",
+					"translate_name": "追蹤（1級）", "name": "Tracking (1 Rank)",
 					"entries": [
-						"You can follow trails and track using a particular sense. Basic DC to follow a trail is 10, modified by circumstances, as the GM sees fit. You move at your speed rank –1 while tracking. For 2 ranks, you can move at full normal speed while tracking"
+						"你可以使用特定感官來追隨蹤跡和軌跡。追隨蹤跡的基本DC為10，並根據GM的裁斷依據情境進行調整。你在追蹤時將以你速度等級-1的速度移動。若這個選項應用了2級，則你可以在追蹤時以你的全速移動。"
 					]
 				},
 				{
@@ -2497,21 +2497,21 @@
 			"extras": [
 				{
 					"translate_name": "影響他人", "name": "Affects Others",
-					"entries": ["You can grant the benefits of one or more Senses to another character. Apply Affects Others only to the ranks of the chosen sense(s)."],
+					"entries": ["你可以將一個或多個感官的好處賦予另一個角色。影響他人修飾符僅會應用於所選感官的等級。"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per"
 					}
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["The Area modifier only applies to Senses that affect Others, and only to extend their benefits to everyone in an area. Apply the Selective modifier for the ability to choose who in the area does and does not benefit from the Senses. To affect the area of a sense itself, use the Extended and Radius traits of the Senses effect."],
+					"entries": ["範圍化修飾符只能應用於能夠影響他人的感官，且只能將這些感官的好處賦予範圍內的所有人。若想要決定範圍內有誰能夠獲得來自感官的好處，請再應用{@modifier 可選擇}修飾符。若想改變感官本身所能夠影響的範圍，請使用感官效果中的Extended和Radius選項。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Dimensional",
-					"entries": ["This modifier allows you to extend your senses into other dimensions. It’s assumed to apply to all your senses, allowing you to sense your proximate location in the other dimension(s). For a more extended range, use Remote Sensing with this modifier."],
+					"translate_name": "跨維度", "name": "Dimensional",
+					"entries": ["這個修飾符讓你得以將你的感官延展到另一個維度。它將被應用於你的所有感官，讓你得以感知你在其他位面的對應位置。若要感知更遠的距離，請使用應用了此修飾符的{@effect Remote Sensing}效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

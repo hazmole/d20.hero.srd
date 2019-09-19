@@ -2290,7 +2290,7 @@
 							"type": "entries",
 							"name": "Mental",
 							"entries": [
-								"The “sixth sense” or mental sense type is fairly crude in normal humans, limited essentially to interactions with the Insight skill and awareness of mental effects used directly on you. Thus it is close range and has none of the Sense qualities."
+								"The “sixth sense” or mental sense type is fairly crude in normal humans, limited essentially to interactions with the {@skill Insight} skill and awareness of mental effects used directly on you. Thus it is close range and has none of the Sense qualities."
 							]
 						}
 					]
@@ -2328,7 +2328,7 @@
 					"type": "entries",
 					"name": "Communication Link (1 Rank)",
 					"entries": [
-						"You have a link with a particular individual, chosen when you acquire this option, who must also have this ability. The two of you can communicate over any distance like a use of the Communication effect. Choose a sense type as a communication medium when you select this option; mental is common for psychic or empathic links. If you apply the Dimensional modifier to your Communication Link, it extends to other dimensions as well (see Dimensional under Power Modifiers for details)."
+						"You have a link with a particular individual, chosen when you acquire this option, who must also have this ability. The two of you can communicate over any distance like a use of the {@effect Communication} effect. Choose a sense type as a communication medium when you select this option; mental is common for psychic or empathic links. If you apply the {@modifier Dimensional} modifier to your Communication Link, it extends to other dimensions as well."
 					]
 				},
 				{
@@ -2448,7 +2448,7 @@
 					"type": "entries",
 					"name": "Radius (1-2 Ranks)",
 					"entries": [
-						"You can make Perception checks with a radius sense for any point around you. Subjects behind you cannot use Stealth to hide from you without some other concealment. Auditory, olfactory, and tactile senses are normally radius for humans. Cost is 1 rank for use with one sense, 2 ranks for one sense type."
+						"You can make Perception checks with a radius sense for any point around you. Subjects behind you cannot use {@skill Stealth} to hide from you without some other concealment. Auditory, olfactory, and tactile senses are normally radius for humans. Cost is 1 rank for use with one sense, 2 ranks for one sense type."
 					]
 				},
 				{
@@ -2504,14 +2504,14 @@
 				},
 				{
 					"name": "Area",
-					"entries": ["The Area modifier only applies to Senses that affect Others, and only to extend their benefits to everyone in an area. Apply the Selective modifier for the ability to choose who in the area does and does not benefit from the Senses. To affect the area of a sense itself, use the Extended and Radius traits of the Senses effect."],
+					"entries": ["The Area modifier only applies to Senses that affect Others, and only to extend their benefits to everyone in an area. Apply the {@modifier Selective} modifier for the ability to choose who in the area does and does not benefit from the Senses. To affect the area of a sense itself, use the Extended and Radius traits of the Senses effect."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Dimensional",
-					"entries": ["This modifier allows you to extend your senses into other dimensions. It’s assumed to apply to all your senses, allowing you to sense your proximate location in the other dimension(s). For a more extended range, use Remote Sensing with this modifier."],
+					"entries": ["This modifier allows you to extend your senses into other dimensions. It’s assumed to apply to all your senses, allowing you to sense your proximate location in the other dimension(s). For a more extended range, use {@effect Remote Sensing} with this modifier."],
 					"cost": {
 						"value": 1, "type": "per"
 					}

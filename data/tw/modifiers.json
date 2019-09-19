@@ -181,15 +181,15 @@
 			]
 		},
 		{
-			"name": "Dimensional",
+			"translate_name": "跨維度", "name": "Dimensional",
 			"type": "extra",
 			"cost": {
 				"value": {"min":1, "max":3}, "type": "flat"
 			},
 			"entries": [
-				"This modifier allows an effect to work on targets in other dimensions (if any exist in the series). You affect your proximate location in the other dimension as if you were actually there, figuring range modifiers from that point.",
-				"One rank in Dimensional can affect a single other dimension. Two ranks can affect any of a related group of dimensions (mythic dimensions, mystic dimensions, fiendish planes, and so forth). Three ranks can reach into any other dimension in the setting.",
-				"For many effects, you may need a Dimensional Remote Sensing effect to target them. Targets in other dimensions you cannot sense have total concealment from you."
+				"這個修飾符能讓一個效果作用於一個位於其他維度的目標（若該劇集存在任何其他維度）。你將如同你處於該維度的對應位置使用該效果，並從該點計算該效果的射程影響。",
+				"1級的跨維度可以影響一個其他維度。2級的跨維度可以影響屬於一種關聯類群的任意維度（神話維度、祕法維度、邪惡維度、諸如此類）。3級的跨維度則可以影響任何世界設定中存在的其他維度。",
+				"對於許多效果而言，你會需要透過跨維度{@effect Remote Sensing}效果才能夠指定你在其他維度的目標。若你無法感知到位於其他維度的目標，則他們對你而言將具有全遮蔽。"
 			]
 		},
 		{
