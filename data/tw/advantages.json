@@ -192,18 +192,18 @@
 			]
 		},
 		{
-			"name": "Redirect",
+			"translate_name": "攻擊誘導", "name": "Redirect",
 			"type": "C",
 			"entries": [
-				"If you successfully trick an opponent (see Trick under {@skill Deception} in Skills), you can redirect a missed attack against you from that opponent at another target as a reaction. The new target must be adjacent to you and within range of the attack. The attacker makes a new attack check with the same modifiers as the first against the new target."
+				"若你成功誘騙一個敵人（參見{@skill 欺瞞}技能下的誘騙段落），你可以將該敵人對你進行且失手的攻擊以一個反應誘導至另一個目標身上。這個新的目標必須與你相鄰，且同樣處於該攻擊的攻擊範圍內。攻擊者將使用與第一次攻擊相同的修正值，以對新的目標進行一次新的攻擊檢定。"
 			]
 		},
 		{
-			"name": "Set-up",
+			"translate_name": "戰術計畫", "name": "Set-up",
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You can transfer the benefits of a successful combat use of an interaction skill to your teammate(s). For example, you can {@rule feint|basic|8|feint} and have your target {@condition vulnerable} against one or more allies next attack(s), rather than yours. Each rank in the advantage lets you transfer the benefit to one ally. The interaction skill check requires its normal action, and the affected allies must be capable of interacting with you (or at least seeing the set-up) to benefit from it."
+				"你可以將在戰鬥中成功使用交涉技能所帶來的好處轉移給你的隊友。舉例來說，你可以採取{@rule 佯攻|basic|8|feint}，並讓該目標在面對你一個或多個隊友的下一次攻擊時被視作處於{@condition 脆弱}狀態。這個特長的每個等級都可以讓你將其好處轉移給一個隊友。該交涉技能的檢定仍須要使用它原本的行動，且受影響的隊友必須要能夠與你交流（或至少能看見這個計畫）才能從中受益。"
 			]
 		},
 		{
