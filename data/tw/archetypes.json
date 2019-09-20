@@ -71,7 +71,7 @@
 				},
 				{
 					"name": "Second Chance",
-					"suboption": "Technology checks"
+					"suboption": "科技檢定"
 				}
 			],
 			"powers": {
@@ -85,11 +85,11 @@
 							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
 							"{@b 溝通系統}: {@effect Communication|Radio Communication 2} [8 點]",
 							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
-							"{@b 感測器}: {@effect Sense|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 點]",
+							"{@b 感測器}: {@effect Sense|Senses 12} (準確 無線電波 延展3 [雷達], 黑暗視覺, 方位感知, 距離感知, Infravision, 時間感知, 超聽覺) [12 點]",
 							{
 								"type": "entries",
 								"entries": [
-									"Array [24+1 點]",
+									"陣列 [24+1 點]",
 									{
 										"type": "list",
 										"items": [

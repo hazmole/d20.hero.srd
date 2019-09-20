@@ -2389,16 +2389,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Infravision (1 Rank)",
+					"translate_name": "紅外線視覺（1級）", "name": "Infravision (1 Rank)",
 					"entries": [
-						"You can see in the infrared portion of the spectrum, allowing you to see heat patterns. Darkness does not provide concealment for objects differing in temperature from their surroundings. If you have the Track effect, you can track warm creatures by the faint heat trails they leave behind. The Gamemaster is the final judge on how long the trail remains visible."
+						"你可以看見光譜頻帶中紅外光的部分，這讓你得以看見熱成象。對你而言，黑暗並不會為那些溫度與周遭環境不同的物體提供遮蔽效果。若你同時具有追蹤選項，你將可以藉由溫體生物留下的餘熱來追蹤它們。遊戲主持人具有最終解釋權，決定餘熱蹤跡可以留存多久的時間。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "微光視覺（1級）", "name": "Low-light Vision (1 Rank)",
 					"entries": [
-						"You ignore circumstance penalties to visual Perception checks for poor lighting, so long as it is not completely dark."
+						"只要環境並非是完全的黑暗，你就能無視照明不足對於視覺感知檢定所造成的情境罰值。"
 					]
 				},
 				{
@@ -2439,9 +2439,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Radio (1 Ranks)",
+					"translate_name": "無線電波（1級）", "name": "Radio (1 Ranks)",
 					"entries": [
-						"You can “hear” radio frequencies including AM, FM, television, cellular, police bands, and so forth. This allows you to pick up on Radio Communication (see the Communication effect). This is the base sense of the radio sense type. It’s ranged, radius, and acute by default."
+						"你可以「聽見」無線電的頻率，包括調幅廣播(AM)、調頻廣播(FM)、電視、手機、或警用頻帶等等。這個選項讓你得以聽見{@effect Communication|Radio Communication}的內容。這個選項即為無線電波感官種類中的基礎感官。它預設具備遠程、方圓、和敏銳特性。"
 					]
 				},
 				{
@@ -2488,7 +2488,7 @@
 				},
 				{
 					"type": "entries",
-					"translate_name": "超視覺（1級）", "name": "Ultravision (1 Rank)",
+					"translate_name": "紫外線視覺（1級）", "name": "Ultravision (1 Rank)",
 					"entries": [
 						"你可以看見紫外線，這讓你能在星空或其他有紫外線光源的黑暗環境中正常視物。"
 					]

@@ -373,7 +373,7 @@
 			"name": "Fearless",
 			"type": "G",
 			"entries": [
-				"You are immune to fear effects of all sorts, essentially the same as an Immunity to Fear effect (see {@effect Immunity} in Powers)."
+				"You are immune to fear effects of all sorts, essentially the same as an {@effect Immunity|Immunity to Fear} effect."
 			]
 		},
 		{

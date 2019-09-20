@@ -224,24 +224,24 @@
 			]
 		},
 		{
-			"name": "Uncanny Dodge",
+			"translate_name": "奇襲閃避", "name": "Uncanny Dodge",
 			"type": "C",
 			"entries": [
-				"You are especially attuned to danger. You are not {@condition vulnerable} when {@condition surprised} or otherwise caught off-guard. You are still made {@condition vulnerable} by effects that limit your mobility."
+				"你對危險特別的敏銳。你在{@condition 被突襲}或其他措手不及的情況下並不會因此陷入{@condition 脆弱}狀態。你仍會因為限制你機動性的效果而陷入{@condition 脆弱}狀態。"
 			]
 		},
 		{
-			"name": "Weapon Bind",
+			"translate_name": "武器奪取", "name": "Weapon Bind",
 			"type": "C",
 			"entries": [
-				"If you take the {@rule defend|basic|8|defend} action and successfully defend against a close weapon attack, you can make a {@rule disarm|basic|8|disarm} attempt against the attacker immediately as a reaction. The disarm attempt is carried out normally, including the attacker getting the opportunity to disarm you."
+				"若你採取{@rule 防守|basic|8|defend}動作，並成功地防禦住一次近身武器攻擊，則你可以立即以一個反應對該攻擊者嘗試進行一次{@rule 繳械|basic|8|disarm}動作。這個繳械動作將如常處理（包括攻擊者在對抗成功時將獲得反過來繳械你的機會）。"
 			]
 		},
 		{
-			"name": "Weapon Break",
+			"translate_name": "武器破壞", "name": "Weapon Break",
 			"type": "C",
 			"entries": [
-				"If you take the {@rule defend|basic|8|defend} action and successfully defend against a close weapon attack, you can make an attack against the attacker’s weapon immediately as a reaction. This requires an attack check and inflicts normal damage to the weapon if it hits (see {@rule Smash|basic|8|smash} in Action & Adventure)."
+				"若你採取{@rule 防守|basic|8|defend}動作，並成功地防禦住一次近身武器攻擊，則你可以立即以一個反應對該攻擊者的武器進行一次攻擊。進行一次攻擊檢定，且若命中則如常對該武器造成傷害（參見動作＆冒險的{@rule 粉碎|basic|8|smash}動作）。"
 			]
 		},
 		{
@@ -370,10 +370,10 @@
 			]
 		},
 		{
-			"name": "Fearless",
+			"translate_name": "無懼", "name": "Fearless",
 			"type": "G",
 			"entries": [
-				"You are immune to fear effects of all sorts, essentially the same as an Immunity to Fear effect (see {@effect Immunity} in Powers)."
+				"你免疫於所有會導致恐懼效果的影響，這個特長本質上等同於{@effect Immunity|免疫恐懼}效果。"
 			]
 		},
 		{
