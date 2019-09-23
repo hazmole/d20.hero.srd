@@ -2335,7 +2335,7 @@
 					"type": "entries",
 					"translate_name": "反制隱蔽（2級）", "name": "Counters Concealment (2 Ranks)",
 					"entries": [
-						"A sense type with this trait ignores the Concealment effect of a particular descriptor; you sense the subject of the effect normally, as if the Concealment wasn’t even there. So if you have vision that Counters Invisibility, for example, then invisible beings are visible to you. For 5 ranks, the sense type ignores all Concealment effects, regardless of descriptor. Concealed subjects seem slightly “off” to you, enough to know they are concealed to others. This trait does not affect concealment provided by opaque objects, for that, see Penetrates Concealment."
+						"應用了這個選項的感官種類將能夠無視帶有特定描述符的{@effect Concealment}效果；你能夠如常感知到該效果的目標，就如同隱蔽不存在一樣。舉例來說，若你具有能夠反制隱形的視覺感官，則你將能夠看見隱形的事物。若這個選項為5級，則無論隱蔽效果的描述符為何，該感官種類都將無視所有的隱蔽效果。被隱蔽的事物對你而言將會呈現些微的「抽離」，足以讓你意識到他們對其他人而言仍處於隱蔽之下。這個選項無法作用於不透明物體所提供的隱蔽，若要影響其隱避，請參見穿透遮蔽的選項。"
 					]
 				},
 				{
@@ -2349,7 +2349,7 @@
 					"type": "entries",
 					"translate_name": "危險感知（1級）", "name": "Danger Sense (1 Rank)",
 					"entries": [
-						"When you would normally be surprised in combat, make a Perception check (DC 10): One degree of success means you’re not surprised, but can’t act during the surprise round (so you don’t suffer any conditions of being surprised), while two or more degrees of success means you are not surprised and may act during the surprise round (if any). Failure means you are surprised (although, if you have Uncanny Dodge, you are not vulnerable). The GM may raise the DC of the Danger Sense check in some circumstances. Choose a sense type for your Danger Sense. Sensory effects targeting that sense also affect your Danger Sense ability and may “blind” it."
+						"當你在戰鬥中原本將要被突襲時，進行一次{@skill 感知}檢定（DC 10）：一個程度的成功代表你不會被突襲，但在突襲輪中仍無法採取動作（因此你不會承受任何{@condition 被突襲}狀態所帶來的狀態）；而二個或以上程度的成功則代表你不會被突襲，且能在突襲輪（若有）中正常行動。檢定失敗則代表你被突襲（然而若你擁有{@advantage 奇襲閃避}特長，則你不會因為被突襲而陷入{@condition 脆弱}狀態）。GM可能會在某些情境下提升危險感知的DC。為你的危險感知選擇一種感官種類。以該感官種類為目標的感知類型效果也同樣會影響你的危險感知能力，且可能會因此使它失去效果。"
 					]
 				},
 				{
@@ -2363,7 +2363,7 @@
 					"type": "entries",
 					"translate_name": "探查（1-2級）", "name": "Detect (1-2 Ranks)",
 					"entries": [
-						"You can sense a particular item or effect by touch with a Perception check. Detect has no range and only indicates the presence or absence of something (being neither acute nor accurate). Choose what sense type your Detect falls under (often mental). For 2 ranks you can detect things at range (with the normal –1 per 10 feet modifier to your Perception check)."
+						"你可以藉由觸碰並進行一次{@skill 感知}檢定以探查到特定的物品或效果。探查並不具備射程，且只能透過其理解某樣事物的存在與否（因此它不具備準確和敏銳特性）。選擇你的探查特性屬於哪一種感官種類（通常為靈感）。若這個選項為2級，則你可以探查位於遠距離的事物（你的感知檢定每10呎距離承受-1罰值）。"
 					]
 				},
 				{
@@ -2403,35 +2403,35 @@
 				},
 				{
 					"type": "entries",
-					"name": "Microscopic vision (1-4 Ranks)",
+					"translate_name": "顯微視覺（1-4級）", "name": "Microscopic vision (1-4 Ranks)",
 					"entries": [
-						"You can view extremely small things. You can make perception checks to see tiny things nearby. Cost is 1 rank for dust-sized objects, 2 ranks for cellular-sized, 3 ranks for DNA and complex molecules, 4 ranks for atomic-sized. The GM may require an Expertise skill check to understand and interpret what you see."
+						"你可以看見極為微小的事物。你可以進行{@skill 感知}檢定以查看附近的微小事物。1級的這個選項可以看見微塵大小的物體；2級可以看見細胞大小的物體；3級可以看見DNA和複雜分子；4級則可以看見原子大小的事物。GM可能會要求你進行一次{@skill 專業}技能檢定以理解並說明你所看到的東西。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Penetrates Concealment (4 Ranks)",
+					"translate_name": "穿透遮蔽（4級）", "name": "Penetrates Concealment (4 Ranks)",
 					"entries": [
-						"A sense with this trait is unaffected by concealment from obstacles (rather than Concealment effects). So vision that Penetrates Concealment sees right through opaque objects, for example, and hearing that Penetrates Concealment is unaffected by sound-proofing or intervening materials, and so forth."
+						"應用了這個選項的感官種類將不受障礙物（而非{@effect Concealment}效果）帶來的隱蔽影響。因此舉例來說，具備穿透遮蔽特性的視覺能夠看穿不透光物體，而具備穿透遮蔽特性的聽覺則不會受到隔音或干預性材質的影響，諸如此類。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Postcognition (4 Ranks)",
+					"translate_name": "過去視（4級）", "name": "Postcognition (4 Ranks)",
 					"entries": [
-						"Your senses extend into the past, allowing you to perceive events that took place previously. You can make Perception checks to pick up on past information in an area or from a subject. The Gamemaster sets the DC for these checks based on how obscure and distant in the past the information is, from DC 15 (for a vague vision that may or may not be accurate) to DC 30 (for near complete knowledge of a particular past event as if you were actually present). Your normal (present-day) senses don’t work while you’re using Postcognition; your awareness is focused on the past. Your postcognitive visions last for as long as you concentrate. Postcognition does not apply to sensory effects like Mind Reading or any other ability requiring interaction. Postcognition may be Limited to past events connected to your own “past lives” or ancestors, reducing cost to 2 ranks."
+						"你的感官能夠延伸自過去的時空，讓你得以認知到過去發生的事件。你可以進行{@skill 感知}檢定以接收一個區域內、或來自目標的過往資訊。遊戲主持人將會根據這些過往資訊的含糊和時間遙遠程度，為這些檢定設置DC：從DC 15（一個可能會不太準確的模糊情景）到DC 30（一段關於過往事件的近乎完整理解，就如同你當時處於該處一般）。你（當下）原本的感官在你使用過去視時並不會發揮作用；你的意識將完全集中於過去。只要你仍維持專注，你的過去視便能持續作用。過去視並不能應用於像是{@effect Mind Reading}的感知類型效果、或其他需要互動的能力。過去視的限制條件可能會限縮於你的「前世」或先祖所經歷的過往事件，這種限制條件將會使這個選項的花費降低至2級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Precognition (4 Ranks)",
+					"translate_name": "未來視（4級）", "name": "Precognition (4 Ranks)",
 					"entries": [
-						"Your senses extend into the future, allowing you to perceive events that may happen. Your precognitive visions represent possible futures. If circumstances change, then the vision may not come to pass. When you use this ability, the Gamemaster chooses what information to impart. Your visions may be obscure and cryptic, open to interpretation. The Gamemaster may require appropriate Perception skill checks for you to pick up on particularly detailed information, with a DC ranging from 15 to 30 or more. The GM can also activate your Precognition to impart specific information to you as an adventure hook or plot device. Your normal (present-day) senses don’t work while you’re using Precognition; your awareness is focused on the future. Your precognitive visions last as long as you concentrate. Precognition does not apply to sensory effects like Mind Reading or any other ability requiring interaction."
+						"你的感官能夠延伸自未來，讓你得以認知到將來可能發生的事件。你的未來視將顯現出可能的未來情境。若情況有變，則未來視所顯現的未來有可能就不會發生。當你使用這個能力時，由遊戲主持人選擇要透漏什麼信息。你所看見情境可能會晦澀難懂、並可以有不同的解釋。遊戲主持人可能會要求你進行適當的{@skill 感知}檢定以看見特定的細節資訊，這個檢定的DC介於15到30之間，或甚至更高。GM也可以主動啟動你的未來視，告訴你特定的情報以做為冒險引鉤或劇情設計。你（當下）原本的感官在你使用未來視時並不會發揮作用；你的意識將完全集中於未來。只要你仍維持專注，你的未來視便能持續作用。未來視並不能應用於像是{@effect Mind Reading}的感知類型效果、或其他需要互動的能力。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Precognition & Postcognition",
+					"translate_name": "幕後花絮：過去視＆未來視", "name": "Under the Hood: Precognition & Postcognition",
 					"entries": [
 						"Precognition and Postcognition can be problematic abilities, since they provide players with considerable information. Keep in mind precognitive and postcognitive information is often cryptic or unclear, and changes in circumstances may lead to changes in visions of the future. If players use either too often, feel free to have their visions become less and less clear as the timelines become tangled by so much constant surveillance and intervention.",
 						"Generally, Precognition is best treated as a plot device for the GM to provide information to the player as suits the adventure, similar to a free use of the inspiration ability of victory points. In fact, GMs looking to limit Precognition and Postcognition may wish to require extra effort or victory points to use them, or require the Uncontrolled modifier."
