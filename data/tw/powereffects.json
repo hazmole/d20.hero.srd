@@ -1938,7 +1938,7 @@
 					"type": "entries",
 					"translate_name": "行蹤無跡", "name": "Trackless",
 					"entries": [
-						"你不會留下蹤跡，且無法被視覺感官所追蹤（儘管你仍會被嗅覺或其他手段給追蹤）。你可以走過軟沙或雪地的表面而不會留下任何腳蹤，且你對震顫感知而言具有全遮蔽（參見{@rule Concealment|basic|8|Concealment}）。這個移動方式的每一級額外等級都能讓你不會留下另一種感官類型的蹤跡。"
+						"你不會留下蹤跡，且無法被視覺感官所追蹤（儘管你仍會被嗅覺或其他手段給追蹤）。你可以走過軟沙或雪地的表面而不會留下任何腳蹤，且你對震顫感知而言具有全隱蔽（參見{@rule Concealment|basic|8|Concealment}）。這個移動方式的每一級額外等級都能讓你不會留下另一種感官類型的蹤跡。"
 					]
 				},
 				{
@@ -2333,7 +2333,7 @@
 				},
 				{
 					"type": "entries",
-					"translate_name": "反制遮蔽（2級）", "name": "Counters Concealment (2 Ranks)",
+					"translate_name": "反制隱蔽（2級）", "name": "Counters Concealment (2 Ranks)",
 					"entries": [
 						"A sense type with this trait ignores the Concealment effect of a particular descriptor; you sense the subject of the effect normally, as if the Concealment wasn’t even there. So if you have vision that Counters Invisibility, for example, then invisible beings are visible to you. For 5 ranks, the sense type ignores all Concealment effects, regardless of descriptor. Concealed subjects seem slightly “off” to you, enough to know they are concealed to others. This trait does not affect concealment provided by opaque objects, for that, see Penetrates Concealment."
 					]
@@ -2356,7 +2356,7 @@
 					"type": "entries",
 					"translate_name": "黑暗視覺（2級）", "name": "Darkvision (2 Ranks)",
 					"entries": [
-						"你可以在完全黑暗的環境中視物，就如同處於正常的日照下一樣；黑暗並不會對你的視覺造成遮蔽效果。這個效果實質上等同於反制遮蔽（黑暗）選項。"
+						"你可以在完全黑暗的環境中視物，就如同處於正常的日照下一樣；黑暗並不會對你的視覺造成隱蔽效果。這個效果實質上等同於反制隱蔽（黑暗）選項。"
 					]
 				},
 				{
@@ -2384,14 +2384,14 @@
 					"type": "entries",
 					"translate_name": "延展（1級）", "name": "Extended (1 Rank)",
 					"entries": [
-						"你的一個感官能夠作用於比平常更遠的距離。你該感官的射程（用於決定感知檢定所承受罰值的距離）變為原來的10倍。且每再應用這個選項一級，都將再使你該感官的射程再乘上10。因此1級的延展代表你的感知檢定每距離目標100呎才會承受-1罰值，2級的延展則代表每距離1000呎才會承受-1罰值，以此類推。一個延展感官通常會被一些情況限制，比如說，除非該感官同時具有穿透遮蔽選項，否則地平線或你和目標之間的物理障礙便會妨礙你觀察到目標。"
+						"你的一個感官能夠作用於比平常更遠的距離。你該感官的射程（用於決定感知檢定所承受罰值的距離）變為原來的10倍。且每再應用這個選項一級，都將再使你該感官的射程再乘上10。因此1級的延展代表你的感知檢定每距離目標100呎才會承受-1罰值，2級的延展則代表每距離1000呎才會承受-1罰值，以此類推。一個延展感官通常會被一些情況限制，比如說，除非該感官同時具有穿透隱蔽選項，否則地平線或你和目標之間的物理障礙便會妨礙你觀察到目標。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "紅外線視覺（1級）", "name": "Infravision (1 Rank)",
 					"entries": [
-						"你可以看見光譜頻帶中紅外光的部分，這讓你得以看見熱成象。對你而言，黑暗並不會為那些溫度與周遭環境不同的物體提供遮蔽效果。若你同時具有追蹤選項，你將可以藉由溫體生物留下的餘熱來追蹤它們。遊戲主持人具有最終解釋權，決定餘熱蹤跡可以留存多久的時間。"
+						"你可以看見光譜頻帶中紅外光的部分，這讓你得以看見熱成象。對你而言，黑暗並不會為那些溫度與周遭環境不同的物體提供隱蔽效果。若你同時具有追蹤選項，你將可以藉由溫體生物留下的餘熱來追蹤它們。遊戲主持人具有最終解釋權，決定餘熱蹤跡可以留存多久的時間。"
 					]
 				},
 				{
@@ -2448,7 +2448,7 @@
 					"type": "entries",
 					"translate_name": "方圓（1-2級）", "name": "Radius (1-2 Ranks)",
 					"entries": [
-						"你可以對來自你周圍任意位置的目標以方圓感官進行感知檢定。在你身後的目標若沒有其他遮蔽，則它將無法使用{@skill 潛行}技能以從你的感官中躲藏起來。人類的聽覺、味覺、和觸覺通常都具有方圓特性。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
+						"你可以對來自你周圍任意位置的目標以方圓感官進行感知檢定。在你身後的目標若沒有其他隱蔽手段，則它將無法使用{@skill 潛行}技能以從你的感官中躲藏起來。人類的聽覺、味覺、和觸覺通常都具有方圓特性。這個選項若應用於一種感官，則其為1級；若應用於一種感官種類的所有感官，則其為2級。"
 					]
 				},
 				{
@@ -2504,7 +2504,7 @@
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["範圍化修飾符只能應用於能夠影響他人的感官，且只能將這些感官的好處賦予範圍內的所有人。若想要決定範圍內有誰能夠獲得來自感官的好處，請再應用{@modifier 可選擇}修飾符。若想改變感官本身所能夠影響的範圍，請使用感官效果中的Extended和Radius選項。"],
+					"entries": ["範圍化修飾符只能應用於能夠影響他人的感官，且只能將這些感官的好處賦予範圍內的所有人。若想要決定範圍內有誰能夠獲得來自感官的好處，請再應用{@modifier 可選擇}修飾符。若想改變感官本身所能夠影響的範圍，請使用感官效果中的延展和方圓選項。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

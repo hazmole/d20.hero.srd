@@ -5871,7 +5871,7 @@
 									"type": "actionBlock",
 									"translate_name": "突襲攻擊", "name": "Surprise Attack",
 									"entries": [
-										"有時候，當你的攻擊藉著突襲而逮著目標的破綻，目標對你的攻擊而言將被視為處於{@condition 脆弱}狀態。突襲攻擊會發生在衝突中的突襲輪期間（參見{@rule 突襲|basic|8|Surprise}），也可能會是因為潛行或遮蔽所導致的結果，讓你能夠悄悄接近目標並發起突襲。GM也可以在你成功展現一項不凡絕技以使目標措手不及時給你進行突襲攻擊的機會，像是Indirect attack（參見{@modifier Indirect}修飾符）。"
+										"有時候，當你的攻擊藉著突襲而逮著目標的破綻，目標對你的攻擊而言將被視為處於{@condition 脆弱}狀態。突襲攻擊會發生在衝突中的突襲輪期間（參見{@rule 突襲|basic|8|Surprise}），也可能會是因為潛行或隱蔽所導致的結果，讓你能夠悄悄接近目標並發起突襲。GM也可以在你成功展現一項不凡絕技以使目標措手不及時給你進行突襲攻擊的機會，像是Indirect attack（參見{@modifier Indirect}修飾符）。"
 									]
 								},
 								{
