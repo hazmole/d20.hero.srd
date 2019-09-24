@@ -1036,7 +1036,7 @@
 			"type": "section",
 			"translate_name": "秘密起源", "name": "Secret Origins",
 			"entries": [
-				"This game allows you to create any sort of hero you want by choosing your character’s abilities, skills, powers, and other traits. You have a “budget” of {@b Character Points} with which to build your hero. There are also certain limits and guidelines imposed by the game’s {@b power level}, chosen by the Gamemaster, but within those limits you can build a wide range of characters.",
+				"這個遊戲讓你得以透過決定角色的屬性、技能、超能力以及其他數據，來創造出你所想要的任何種類的英雄。你將獲得一定數量的{@b 角色點}做為你創建英雄的預算。除此之外，該遊戲的{@b 超能力階級}（由遊戲主持人決定）也會對創建過程設下某些限制和準則。儘管有所限制，你仍能夠創建出各式各樣的英雄角色。",
 				{
 					"type": "section",
 					"translate_name": "英雄範型", "name": "Hero Archetypes",
@@ -1131,15 +1131,15 @@
 					"type": "section",
 					"translate_name": "角色點", "name": "Character Points",
 					"entries": [
-						"You design a hero by spending {@b Character Points} on various traits. Each ability, skill, advantage, power, and other trait has an associated Character point cost.",
+						"你將藉由花費{@b 角色點}購買各種各樣的數據來設計你的英雄角色。每個屬性、技能、特長、超能力、和其他數據都有著各自不同的角色點花費。",
 						{
 							"type": "entries",
 							"translate_name": "起始角色點", "name": "Starting Character Points",
 							"entries": [
-								"The game’s power level provides a guideline for how many Character points you get initially to design your character, as shown on the {@b Starting Character points} table. The Gamemaster can vary the starting Character points as desired to suit the series.",
+								"這個遊戲的超能力階級提供了一個標準，用以決定你用以設計角色時所能使用的起始角色點數量，如下列{@b 起始角色點表}所示。遊戲主持人可以按照需求修改起始角色點的數量，使其符合劇集的需求。",
 								{
 									"type": "table",
-									"caption": "起始角色點數",
+									"caption": "起始角色點",
 									"colLabels": [
 										"超能力階級",
 										"起始角色點數",
@@ -1191,7 +1191,7 @@
 							"type": "entries",
 							"translate_name": "花費角色點", "name": "Spending Character Points",
 							"entries": [
-								"Each trait costs a certain number of Character points. You “spend” or allocate your points to give your character different traits. Once spent, Character points cannot be reallocated without the use of a particular power or the Gamemaster’s permission. The basic costs of traits are given on the {@b Basic Trait Costs} table, with specific costs for powers given in {@b Powers} chapter.",
+								"每個數據都會花費特定數量的角色點。你藉由「花費」（或說分配）你的角色點以使你的角色獲得各種不同的數據。角色點一旦被花費，除非透過特定超能力或遊戲主持人的准許，否則將不能再被更改。每種數據的基本花費參見下列的{@b 基本數據花費}表，超能力效果的確切花費則記載於{@rule 超能力|basic|6|Powers}章節。",
 								{
 									"type": "table",
 									"caption": "基本數據花費",
