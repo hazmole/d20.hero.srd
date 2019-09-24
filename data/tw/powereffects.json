@@ -450,7 +450,7 @@
 					}
 				},
 				{
-					"name": "Innate",
+					"translate_name": "天生", "name": "Innate",
 					"entries": ["Continuous or Permanent Create with this modifier makes objects that cannot be nullified, they’re essentially “real” objects for all intents and purposes (although the user can “unmake” them at will unless the effect is also permanent)."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -1212,7 +1212,7 @@
 					}
 				},
 				{
-					"name": "Ranged",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["It is left to the GM’s discretion whether or not Illusion’s range can be reduced at all, since being able to perceive the affected area is important in creating and directing the illusion. In order to solely alter your own appearance, see the Morph effect, possibly with the Resistible modifier."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1416,7 +1416,7 @@
 					}
 				},
 				{
-					"name": "Innate",
+					"translate_name": "天生", "name": "Innate",
 					"entries": ["Use this modifier if your character’s form is naturally or innately Insubstantial, particularly if the effect is permanent in duration."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -1562,7 +1562,7 @@
 					}
 				},
 				{
-					"name": "Ranged",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["Luck Control normally requires no attack check; if Ranged, it does."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1703,7 +1703,7 @@
 					}
 				},
 				{
-					"name": "Ranged",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["Ranged Mind Reading requires a ranged attack check in addition to the effect’s normal resistance check."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -2229,7 +2229,7 @@
 					}
 				},
 				{
-					"name": "Noticeable",
+					"translate_name": "顯而易見", "name": "Noticeable",
 					"entries": ["Remote Sensing with this flaw has an easily noticeable display, like a glowing set of eyes or a phantom image of your face, head, or body at the location you are observing. This manifestation cannot be used for communication, however (for that, take the Communication effect)."],
 					"cost": {
 						"value": -1, "type": "flat"
@@ -2242,7 +2242,7 @@
 			]
 		},
 		{
-			"_translate_name": "感官", "name": "Sense",
+			"translate_name": "感官", "name": "Sense",
 			"type": "SEN",
 			"action": "N",
 			"range": "personal",
@@ -2426,7 +2426,7 @@
 					"type": "entries",
 					"translate_name": "未來視（4級）", "name": "Precognition (4 Ranks)",
 					"entries": [
-						"你的感官能夠延伸自未來，讓你得以認知到將來可能發生的事件。你的未來視將顯現出可能的未來情境。若情況有變，則未來視所顯現的未來有可能就不會發生。當你使用這個能力時，由遊戲主持人選擇要透漏什麼信息。你所看見情境可能會晦澀難懂、並可以有不同的解釋。遊戲主持人可能會要求你進行適當的{@skill 感知}檢定以看見特定的細節資訊，這個檢定的DC介於15到30之間，或甚至更高。GM也可以主動啟動你的未來視，告訴你特定的情報以做為冒險引鉤或劇情設計。你（當下）原本的感官在你使用未來視時並不會發揮作用；你的意識將完全集中於未來。只要你仍維持專注，你的未來視便能持續作用。未來視並不能應用於像是{@effect Mind Reading}的感知類型效果、或其他需要互動的能力。"
+						"你的感官能夠延伸自未來，讓你得以認知到將來可能發生的事件。你的未來視將顯現出可能的未來情境。若情況有變，則未來視所顯現的未來有可能就不會發生。當你使用這個能力時，由遊戲主持人選擇要透漏什麼信息。你所看見情境可能會晦澀難懂、並可以有不同的解釋。遊戲主持人可能會要求你進行適當的{@skill 感知}檢定以看見特定的細節資訊，這個檢定的DC介於15到30之間，或甚至更高。GM也可以主動啟動你的未來視，告訴你特定的情報以做為冒險引鉤或劇情工具。你（當下）原本的感官在你使用未來視時並不會發揮作用；你的意識將完全集中於未來。只要你仍維持專注，你的未來視便能持續作用。未來視並不能應用於像是{@effect Mind Reading}的感知類型效果、或其他需要互動的能力。"
 					]
 				},
 				{
@@ -2504,7 +2504,7 @@
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["範圍化修飾符只能應用於能夠影響他人的感官，且只能將這些感官的好處賦予範圍內的所有人。若想要決定範圍內有誰能夠獲得來自感官的好處，請再應用{@modifier 可選擇}修飾符。若想改變感官本身所能夠影響的範圍，請使用感官效果中的延展和方圓選項。"],
+					"entries": ["範圍化修飾符只能應用於已經應用了影響他人修飾符的感官效果，且只能將這些感官的好處賦予範圍內的所有人。若想要決定範圍內有誰能夠獲得來自感官的好處，請再應用{@modifier 可選擇}修飾符。若想改變感官本身所能夠影響的範圍，請使用感官效果中的延展和方圓選項。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2517,15 +2517,15 @@
 					}
 				},
 				{
-					"name": "Innate",
-					"entries": ["Senses, particularly those of aliens or constructs like robots, may be Innate, although this does not prevent sensory effects like Concealment or Dazzle from disabling them."],
+					"translate_name": "天生", "name": "Innate",
+					"entries": ["感官（特別是外星種族或機器人等構裝生物）可能具備天生的修飾符，然而這個修飾符並不能防止{@effect Concealment}或{@effect Dazzle}等感知類效果使感官失去作用。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Ranged",
-					"entries": ["Likewise, the Ranged extra only applies to Senses that Affect Others, extending the distance at which you can grant their benefits. To extend the range of a sense itself, use the Extended, Radius, and Ranged options of the Senses effect."],
+					"translate_name": "遠距", "name": "Ranged",
+					"entries": ["同樣的，遠距修飾符只能應用於已經應用了影響他人修飾符的感官效果，增加你和被賦予好處對象之間的最大距離。若想要增加感官本身的距離範圍，請使用感官效果中的延展、方圓、和遠程選項。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "per"
 					}
@@ -2534,21 +2534,21 @@
 			"flaws": [
 				{
 					"translate_name": "限定條件", "name": "Limited",
-					"entries": ["Some Senses may be Limited to only sensing certain things or only under certain circumstances. As usual, the sense must lose about half its utility to qualify for this flaw, less than that is more likely a particular descriptor associated with the sense and may constitute a complication at the GM’s discretion when it comes up in play."],
+					"entries": ["有些感官效果可能會受限於感測特定事物、或限定只能在特定情境下發揮作用。如同往常，該感官必須因此喪失大約原本一半的功能才能夠符合這個缺陷的應用，其他較輕微的限定條件可能會做為特定的描述符、或在GM的裁斷下做為糾葛難題存在。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Noticeable",
-					"entries": ["Senses with this flaw are particularly noticeable in some way: your eyes may glow, for example, or you may emit a noticeable sound, vibration, energy, or the like for use as a sensor."],
+					"translate_name": "顯而易見", "name": "Noticeable",
+					"entries": ["應用了這個缺陷的感官效果將在某種程度上特別顯眼：舉例來說，你的雙眼將發出光芒、或你可以會發出明顯的聲音、震動、能量、或其他類似的東西以做為感測器使用。"],
 					"cost": {
 						"value": -1, "type": "flat"
 					}
 				},
 				{
-					"name": "Unreliable",
-					"entries": ["Some Senses may be unreliable; the GM makes checks for reliability when the sense is used. Two variations of this flaw may apply: in the first, the Senses effect is unreliable, when it doesn’t work, the character perceives nothing with that sense. In the second, the character’s perceptions are unreliable, the sense appears to work, but the character gets the wrong information. For this reason, the GM should make all reliability checks for Senses in secret, just informing the player of what the character does (or does not) notice."],
+					"translate_name": "不可靠", "name": "Unreliable",
+					"entries": ["有些感官可能會不太可靠；當這些感官被使用時，GM會要求你進行檢定以確認它是否能可靠地運作。這個缺陷有兩種變化可以應用：第一種代表該感官效果並不可靠，當它沒能發揮作用時，該角色將無法從該感官接收到任何事物。至於第二種則代表該角色的感知能力並不可靠，該感官看起來仍在作用，但角色將獲得錯誤的情報。因此，GM必須秘密的為這些感官進行所有可靠性檢定，並僅僅告知該角色透過該感官認知到的事物（或者什麼都沒看到）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2914,7 +2914,7 @@
 					}
 				},
 				{
-					"name": "Ranged",
+					"translate_name": "遠距", "name": "Ranged",
 					"entries": ["A Variable effect with Affects Others may have the Ranged extra to improve the range at which you can grant the effect to another. This does not alter the ranges of the effect’s various configurations. To do so, apply the Range modifier to the effect(s) within a particular configuration."],
 					"cost": {
 						"value": 1, "type": "per"

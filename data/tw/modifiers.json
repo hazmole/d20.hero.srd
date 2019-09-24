@@ -311,13 +311,13 @@
 			]
 		},
 		{
-			"name": "Innate",
+			"translate_name": "天生", "name": "Innate",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"An effect with this modifier is an innate part of your nature and unaffected by Nullify (see the Nullify effect). Gamemasters should exercise caution in allowing the application of Innate; the effect must be a truly inborn or essential trait, such as an elephant’s size or a ghost’s incorporeal nature. If the effect is not something normal to the character’s species or type, it probably isn’t innate."
+				"應用了這個修飾符的效果屬於你先天性質的一部份，且不會被{@effect Nullify}效果所影響。在核准此修飾符的應用時，遊戲主持人必須謹慎處理；該效果必須真的是其與生俱來或本質上的特性，像是大象的體型、或是幽靈的虛體特性。若該效果對於該角色的種族或類型而言並不正常，則它便可能不屬於天生能力。"
 			]
 		},
 		{
@@ -712,13 +712,13 @@
 			]
 		},
 		{
-			"name": "Noticeable",
+			"translate_name": "顯而易見", "name": "Noticeable",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "flat"
 			},
 			"entries": [
-				"A continuous or permanent effect with this modifier is noticeable in some sort of way (see Noticing Power Effects). Choose a noticeable display for the effect. For example Noticeable Protection may take the form of armored plates or a tough, leathery-looking hide, making it clear the character is tougher than normal."
+				"一個持續時間為常續或永駐的效果，在應用了這個修飾符後將在某種程度上變得顯而易見（參見{@rule 注意到超能力效果|basic|6|noticing power effects}）。為該效果選擇一種顯而易見的展示形式。舉例來說，顯而易見{@effect 保護}效果可能會以裝甲鋼板、或者革質生皮甲的形式呈現，清楚地顯示出該角色比原本更加堅韌的事實。"
 			]
 		},
 		{
@@ -861,7 +861,7 @@
 			]
 		},
 		{
-			"name": "Unreliable",
+			"_translate_name": "不可靠", "name": "Unreliable",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"

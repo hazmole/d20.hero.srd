@@ -316,7 +316,7 @@
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"An effect with this modifier is an innate part of your nature and unaffected by Nullify (see the Nullify effect). Gamemasters should exercise caution in allowing the application of Innate; the effect must be a truly inborn or essential trait, such as an elephant’s size or a ghost’s incorporeal nature. If the effect is not something normal to the character’s species or type, it probably isn’t innate."
+				"An effect with this modifier is an innate part of your nature and unaffected by {@effect Nullify}. Gamemasters should exercise caution in allowing the application of Innate; the effect must be a truly inborn or essential trait, such as an elephant’s size or a ghost’s incorporeal nature. If the effect is not something normal to the character’s species or type, it probably isn’t innate."
 			]
 		},
 		{
@@ -717,7 +717,7 @@
 				"value": -1, "type": "flat"
 			},
 			"entries": [
-				"A continuous or permanent effect with this modifier is noticeable in some sort of way (see Noticing Power Effects). Choose a noticeable display for the effect. For example Noticeable Protection may take the form of armored plates or a tough, leathery-looking hide, making it clear the character is tougher than normal."
+				"A continuous or permanent effect with this modifier is noticeable in some sort of way (see {@rule Noticing Power Effects|basic|6|noticing power effects}). Choose a noticeable display for the effect. For example Noticeable {@effect Protection} may take the form of armored plates or a tough, leathery-looking hide, making it clear the character is tougher than normal."
 			]
 		},
 		{
