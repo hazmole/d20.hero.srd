@@ -1978,7 +1978,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"Nullify can counter particular effects of a particular descriptor, such as fire effects, magical effects, mental effects, and so forth (see Countering Effects). You can counter one effect of your chosen descriptor per use of Nullify. You can’t nullify innate effects (see the Innate modifier description).",
+				"Nullify can counter particular effects of a particular descriptor, such as fire effects, magical effects, mental effects, and so forth (see {@rule Countering Effects|basic|6|Countering Effects}). You can counter one effect of your chosen descriptor per use of Nullify. You can’t nullify {@modifier innate} effects.",
 				"Make a ranged attack check to hit the target. Then make an opposed check of your Nullify rank and the targeted effect’s rank or the target’s Will defense, whichever is higher. If you are targeting the subject of an effect rather than the effect’s user, make an opposed check of Nullify rank vs. effect rank. If you win, the targeted effect turns off, although the user can reactivate it normally. If you lose the opposed check, you do not Nullify the effect. With two or more degrees of failure, trying again against the same subject in the same scene requires extra effort."
 			],
 			"extras": [
@@ -1995,7 +1995,7 @@
 				},
 				{
 					"name": "Area",
-					"entries": ["An Area Nullify effect works on all targets in the area. Make a single power check and compare the result against the opposed checks of the targets. Targets lacking effects you can nullify are, naturally, unaffected. If your Area Nullify has a duration longer than instant, choose whether or not the effect remains in the chosen area (affecting anyone entering or leaving it) or moves with the targets hit with the initial effect. There is no difference in cost, but to be able to do both, take one Area Nullify as an Alternate Effect of the other."],
+					"entries": ["An Area Nullify effect works on all targets in the area. Make a single power check and compare the result against the opposed checks of the targets. Targets lacking effects you can nullify are, naturally, unaffected. If your Area Nullify has a duration longer than instant, choose whether or not the effect remains in the chosen area (affecting anyone entering or leaving it) or moves with the targets hit with the initial effect. There is no difference in cost, but to be able to do both, take one Area Nullify as an {@modifier Alternate Effect} of the other."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2037,7 +2037,7 @@
 				},
 				{
 					"name": "Randomize",
-					"entries": ["Rather than being countered, the effect(s) targeted by your Nullify acquire the Uncontrolled flaw and go out of control (as dictated by the GM)."],
+					"entries": ["Rather than being countered, the effect(s) targeted by your Nullify acquire the {@modifier Uncontrolled} flaw and go out of control (as dictated by the GM)."],
 					"cost": {
 						"value": 0, "type": "per"
 					}

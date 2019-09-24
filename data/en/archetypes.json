@@ -85,7 +85,24 @@
 							"{@b Boot Jets}: {@effect Flight|Flight 8} (500 MPH) [16 points]",
 							"{@b Comm System}: {@effect Communication|Radio Communication 2} [8 points]",
 							"{@b Life Support System}: {@effect Immunity|Immunity 10} [10 points]",
-							"{@b Sensors}: {@effect Sense|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Infravision, Time Sense, Ultra-Hearing) [12 points]",
+							{
+								"type": "entries",
+								"entries": [
+									"{@b Sensors}: [12 points]",
+									{
+										"type": "list",
+										"items": [
+											"{@effect Sense|Senses 5} (Accurate Radio Extended 3 [radar]) [5 points]",
+											"{@effect Sense|Senses 2} (Darkvision) [1 point]",
+											"{@effect Sense|Senses 1} (Direction Sense) [1 point]",
+											"{@effect Sense|Senses 1} (Distance Sense) [1 point]",
+											"{@effect Sense|Senses 1} (Time Sense) [1 point]",
+											"{@effect Sense|Senses 1} (Infravision) [1 point]",
+											"{@effect Sense|Senses 1} (Ultra-Hearing) [1 point]",
+										]
+									}
+								]
+							},
 							{
 								"type": "entries",
 								"entries": [

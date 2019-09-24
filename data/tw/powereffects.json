@@ -196,7 +196,7 @@
 					}
 				},
 				{
-					"name": "Selective",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["If you have the Area extra, you can choose which receiver(s) within range get your Communication, excluding everyone else. This allows you to go from a single receiver (point-to-point) to all potential receivers in range (omni-directional) or anywhere in between."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -337,7 +337,7 @@
 					}
 				},
 				{
-					"name": "Precise",
+					"translate_name": "精確", "name": "Precise",
 					"entries": ["You can vary your Concealment at will as a free action: going from total to partial to no concealment, concealing some parts and not others, or anywhere in-between. If your Concealment affects multiple senses, you can also choose to affect some of those senses and not others. Concealment is normally all-or-nothing: either you are concealed to the full amount of your effect, or you’re not."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -464,14 +464,14 @@
 					}
 				},
 				{
-					"name": "Precise",
+					"translate_name": "精確", "name": "Precise",
 					"entries": ["You can create more precise and detailed objects. The exact parameters of Precise Create are up to the GM, but generally, you can create objects with moving parts, and considerable detail."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Selective",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["You can make your created objects selectively “transparent” to attacks, blocking some while allowing others (yours and your allies’, for example) to pass through them. You can also selectively make your objects solid to some creatures and incorporeal to others, such as allowing one person to walk through a created wall, while blocking another. It takes a free action to change the selective nature of an object; permanent created objects cannot have their selectivity changed once they are created."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -763,7 +763,7 @@
 			],
 			"extras": [
 				{
-					"name": "Selective",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["With this extra you can vary the environment within your affected area, affecting some while not affecting others, or even mixing and matching different environments (making part of the area cold and another hot, for example)."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -813,7 +813,7 @@
 					}
 				},
 				{
-					"name": "Sustained",
+					"translate_name": "維持", "name": "Sustained",
 					"entries": ["Sustained Extra Limbs can be turned on or off (growing or forming the additional limbs and then making them disappear just as easily), but the limbs disappear or stop working if you are unable to continue the effect."],
 					"cost": {
 						"value": 0, "type": "per"
@@ -1189,7 +1189,7 @@
 					}
 				},
 				{
-					"name": "Selective",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["You choose who perceives your Illusion and who doesn’t"],
 					"cost": {
 						"value": 1, "type": "per"
@@ -1423,7 +1423,7 @@
 					}
 				},
 				{
-					"name": "Precise",
+					"translate_name": "精確", "name": "Precise",
 					"entries": ["This modifier allows you to selectively make some portions of your body insubstantial while keeping others substantial (or vice versa). This allows you to do things like reach through a wall, solidify your hand to pick up an object or tap someone on the shoulder (or punch them in the face), and become incorporeal again to withdraw it on the following round."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -1546,7 +1546,7 @@
 					}
 				},
 				{
-					"name": "Selective",
+					"translate_name": "可選擇", "name": "Selective",
 					"entries": ["This extra, applied to Area Luck Control, allows you to choose who in the area is or is not affected by it."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -1576,7 +1576,7 @@
 					}
 				},
 				{
-					"name": "Side Effect",
+					"translate_name": "副作用", "name": "Side Effect",
 					"entries": ["As a particular side effect of Luck Control, if your effort to alter luck fails, you suffer a setback without earning a victory point. Effectively the GM gains a “free” complication against you."],
 					"cost": {
 						"value": {"min":-1, "max":-2}, "type": "per"
@@ -1805,7 +1805,7 @@
 					}
 				},
 				{
-					"name": "Precise",
+					"translate_name": "精確", "name": "Precise",
 					"entries": ["Move Object with this modifier can be used for tasks involving fine manipulation."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -1819,7 +1819,7 @@
 					}
 				},
 				{
-					"name": "Sustained",
+					"translate_name": "維持", "name": "Sustained",
 					"entries": ["Sustained duration Move Object can hold an object in a static position (floating in midair, for example) with only a free action needed to maintain the effect. Grabbing or actively moving an object still requires a standard action, but you can “hold” multiple objects at once."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -1968,7 +1968,7 @@
 			]
 		},
 		{
-			"name": "Nullify",
+			"translate_name": "無效化", "name": "Nullify",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -1978,80 +1978,80 @@
 				"type": "per"
 			},
 			"entries": [
-				"Nullify can counter particular effects of a particular descriptor, such as fire effects, magical effects, mental effects, and so forth (see Countering Effects). You can counter one effect of your chosen descriptor per use of Nullify. You can’t nullify innate effects (see the Innate modifier description).",
-				"Make a ranged attack check to hit the target. Then make an opposed check of your Nullify rank and the targeted effect’s rank or the target’s Will defense, whichever is higher. If you are targeting the subject of an effect rather than the effect’s user, make an opposed check of Nullify rank vs. effect rank. If you win, the targeted effect turns off, although the user can reactivate it normally. If you lose the opposed check, you do not Nullify the effect. With two or more degrees of failure, trying again against the same subject in the same scene requires extra effort."
+				"無效化可以反制帶有特定描述符的特定效果，例如火焰效果、魔法效果、心靈效果等等（參見{@rule 反制效果|basic|6|Countering Effects}）。你每次使用無效化效果時，都可以反制帶有你所選描述符的一個效果。然而，你無法無效化帶有{@modifier 天生}修飾符的效果。",
+				"進行一次遠程攻擊以嘗試命中目標，若命中，則接著進行一次對抗檢定，使用你的無效化效果等級，對抗目標的效果等級或目標的意志防禦（兩者取高）。若你瞄準的是該效果的目標，而非該效果的使用者，則該對抗檢定將使用你的無效化效果等級對抗該效果的等級。若你獲勝，則被你做為目標的效果將會被關閉，而該效果的使用者仍能在之後如常再次啟動它。若你在該對抗檢定中落敗，則你沒能使該效果無效化。若你以二個或以上的程度失敗，則你需要使用奮力一搏才能在該場景中再次嘗試對同個目標使用無效化。"
 			],
 			"extras": [
 				{
-					"name": "Affects Insubstantial",
-					"entries": ["Nullify does not require this modifier to affect insubstantial targets, or the Insubstantial effect itself. You can attempt to nullify the effects of insubstantial targets normally."]
+					"translate_name": "影響虛體", "name": "Affects Insubstantial",
+					"entries": ["無效化並不需要應用這個修飾符就能夠影響非實體目標、或非實體效果本身。你可以正常地嘗試無效化作用於虛體目標身上的效果。"]
 				},
 				{
-					"name": "Alternate Resistance",
-					"entries": ["Nullify may require a Fortitude rather than a Will check to represent an effect resisted by health and stamina rather than strength of will."],
+					"translate_name": "替換抵抗", "name": "Alternate Resistance",
+					"entries": ["無效化可能會要求目標進行韌性防禦的檢定，而非意志防禦檢定，以呈現那些不是透過意志力，而是藉由健康體魄來對抗的效果。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["An Area Nullify effect works on all targets in the area. Make a single power check and compare the result against the opposed checks of the targets. Targets lacking effects you can nullify are, naturally, unaffected. If your Area Nullify has a duration longer than instant, choose whether or not the effect remains in the chosen area (affecting anyone entering or leaving it) or moves with the targets hit with the initial effect. There is no difference in cost, but to be able to do both, take one Area Nullify as an Alternate Effect of the other."],
+					"entries": ["範圍化無效化效果將會作用於範圍內所有的目標。進行一次超能力檢定並將其結果與各個目標的對抗檢定比較。你原本不能無效化的效果的目標不會受到任何影響。若你的範圍化無效化的持續時間比即效更長，則你必須選擇是要讓這個效果在指定範圍內持續作用（影響任何進入該範圍的目標）、或持續作用於被無效化效果命中的各個目標身上。這兩者之間的花費影響並無不同，但若你希望你的無效化效果能夠達成上述兩者，請使用{@modifier Alternate Effect}以獲得另一種範圍化無效化效果的持續方式。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Broad",
-					"entries": ["Broad Nullify can counter effects of a particularly broad descriptor like magical, mutant, or technological effects. This modifier is available only with the GameMaster’s permission and may depend on the effects available in the series."],
+					"translate_name": "廣泛", "name": "Broad",
+					"entries": ["廣泛無效化可以反制那些符合一種廣泛描述符的效果，像是魔法系效果、變種人效果、科技效果。這個修飾符只能在遊戲主持人的核准下被應用，且GM可能會根據劇集中可用的效果決定它是否能被應用。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "專注", "name": "Concentration",
-					"entries": ["Any countered effect is suppressed and cannot be reactivated while you concentrate. The user of the countered effect may use extra effort to gain another opposed Nullify check. If successful, the effect can be reactivated."],
+					"entries": ["任何被反制的效果都將被壓制，且在你專注期間將無法被再次啟動。效果被反制的使用者可以使用奮力一搏以再次進行一次對抗無效化效果的對抗檢定。若他檢定成功，則該效果將可以被再次啟動。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Simultaneous",
-					"entries": ["Simultaneous Nullify can counter all effects of a particular descriptor (such as fire or magic) at once."],
+					"translate_name": "同時", "name": "Simultaneous",
+					"entries": ["同時無效化效果可以一次反制所有帶有特定描述符的效果（像是火焰、或魔法）。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Effortless",
-					"entries": ["Trying again after two or more degrees of failure does not require extra effort for you. You can retry a Nullify attempt an unlimited number of times."],
+					"translate_name": "無須費力", "name": "Effortless",
+					"entries": ["當你在無效化的對抗檢定中得到二個或以上程度的失敗後，你不需要使用奮力一搏就可以再次嘗試無效化該效果。你可以不限次數的嘗試無效化該效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Precise",
-					"entries": ["If you can Nullify multiple effects, this modifier allows you to choose which are nullified and which are not."],
+					"translate_name": "精確", "name": "Precise",
+					"entries": ["若你能夠同時無效化多種效果，則這個修飾符將讓你得以選擇要無效化哪些效果，而哪些效果不被影響。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Randomize",
-					"entries": ["Rather than being countered, the effect(s) targeted by your Nullify acquire the Uncontrolled flaw and go out of control (as dictated by the GM)."],
+					"translate_name": "隨機化", "name": "Randomize",
+					"entries": ["被你無效化效果所作用的效果將不會被反制，而是獲得{@modifier Uncontrolled}缺陷，並失去控制（由GM的決定如何失控）。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "Selective",
-					"entries": ["If you have an Area Nullify effect, this extra allows you to choose who in the area is affected, nullifying some targets and not others."],
+					"translate_name": "可選擇", "name": "Selective",
+					"entries": ["若你具有範圍化無效化效果，則這個修飾符能讓你得以選擇範圍內有誰會受到影響，只無效化其中一些目標，而不影響其他人。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Sustained",
-					"entries": ["If this modifier is applied to Concentration Nullify, keeping the countered effect(s) suppressed is only a free action for you each turn."],
+					"translate_name": "維持", "name": "Sustained",
+					"entries": ["若這個修飾符被應用於專注無效化效果上，則在你的回合你只需要以一個自由動作就可以專注於持續壓制被反制效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2059,8 +2059,8 @@
 			],
 			"flaws": [
 				{
-					"name": "Side Effect",
-					"entries": ["If you fail to nullify an effect, you might suffer some kind of “backlash” or similar side effect"],
+					"translate_name": "副作用", "name": "Side Effect",
+					"entries": ["若你在無效化一個效果的嘗試中失敗，你可能會因此承受某種「反衝」或其他類似的副作用。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2199,7 +2199,7 @@
 					}
 				},
 				{
-					"name": "Simultaneous",
+					"translate_name": "同時", "name": "Simultaneous",
 					"entries": ["You can use both Remote Sensing and your normal senses at the same time, perceiving two locales like “translucent” overlays of each other. This means you’re more capable of taking physical action while also using your Remote Sensing, although the effect still requires its normal duration to maintain. You are not vulnerable while using your Remote Sensing."],
 					"cost": {
 						"value": 1, "type": "per"

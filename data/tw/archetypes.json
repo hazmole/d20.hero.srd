@@ -85,7 +85,24 @@
 							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
 							"{@b 溝通系統}: {@effect Communication|Radio Communication 2} [8 點]",
 							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
-							"{@b 感測器}: {@effect Sense|Senses 12} (準確 無線電波 延展3 [雷達], 黑暗視覺, 方位感知, 距離感知, Infravision, 時間感知, 超聽覺) [12 點]",
+							{
+								"type": "entries",
+								"entries": [
+									"{@b 感測器}: [12 點]",
+									{
+										"type": "list",
+										"items": [
+											"{@effect Sense|感官 5} (準確 無線電波 延展3 [雷達]) [5 點]",
+											"{@effect Sense|感官 2} (黑暗視覺) [2 點]",
+											"{@effect Sense|感官 1} (方位感知) [1 點]",
+											"{@effect Sense|感官 1} (距離感知) [1 點]",
+											"{@effect Sense|感官 1} (時間感知) [1 點]",
+											"{@effect Sense|感官 1} (紅外線視覺) [1 點]",
+											"{@effect Sense|感官 1} (超聽覺) [1 點]",
+										]
+									}
+								]
+							},
 							{
 								"type": "entries",
 								"entries": [
@@ -133,7 +150,7 @@
 			},
 			"defense": {
 				"dodge": 9,
-				"fortitude": "immune",
+				"fortitude": "免疫",
 				"parry": 9,
 				"toughness": 11,
 				"will": 9
@@ -173,26 +190,26 @@
 					"name": "Eidetic Memory"
 				},
 				{
-					"name": "Ranged Attack",
+					"translate_name": "遠距離攻擊", "name": "Ranged Attack",
 					"rank": 5
 				}
 			],
 			"powers": {
 				"type": "list",
 				"items": [
-					"{@b Armored}: {@effect Protection|Protection 11}, {@modifier Impervious|Impervious 6} [17 points]",
-					"{@b Unliving}: {@effect Immunity|Immunity 30} to Fortitude Effects [30 points]",
+					"{@b 裝甲}: {@effect Protection|保護 11}, {@modifier Impervious|強抗 6} [17 點]",
+					"{@b 無生命體}: {@effect Immunity|免疫 30}於韌性效果 [30 點]",
 					{
 						"type": "entries",
 						"entries": [
-							"{@b Options}: Choose one of the following [20 points]",
+							"{@b Options}: Choose one of the following [20 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Elemental}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 10} (See Elemental Control)",
-									"{@b Soldier}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 10} (built-in weapon)",
-									"{@b Undead Revenant}: {@effect Immortality|Immortality 5}, {@effect Regeneration|Regeneration 10}",
-									"{@b Wraith}: {@effect Insubstantial|Insubstantial 4}"
+									"{@b 元素}: {@modifier Increased Range|遠距} {@effect Damage|傷害 10} (See Elemental Control)",
+									"{@b 衛兵}: {@modifier Increased Range|遠距} {@effect Damage|傷害 10} (內建武器)",
+									"{@b 不死回歸者}: {@effect Immortality|永生 5}, {@effect Regeneration|再生 10}",
+									"{@b 亡靈}: {@effect Insubstantial|Insubstantial 4}"
 								]
 							}
 						]
@@ -201,16 +218,16 @@
 			},
 			"offense": [
 				{
-					"name": "Ranged",
+					"translate_name": "遠程", "name": "Ranged",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage *} (depends on option chosen under Powers)"
+					"effect": "{@effect Damage|傷害 *} (取決於超能力的選項)"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 9,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 11}"
+					"effect": "{@effect Damage|傷害11}"
 				}
 			]
 		}

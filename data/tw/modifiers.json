@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"name": "Affects Corporeal",
+			"_translate_name": "影響實體", "name": "Affects Corporeal",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
@@ -21,7 +21,7 @@
 			]
 		},
 		{
-			"name": "Affects Insubstantial",
+			"_translate_name": "影響虛體", "name": "Affects Insubstantial",
 			"type": "extra",
 			"cost": {
 				"value": {"min":1, "max":2}, "type": "flat"
