@@ -343,12 +343,12 @@
 				"The GM may allow some Expertise checks to be made untrained, especially for “unskilled” areas, measuring broad general knowledge and life experience, but even then an untrained Expertise check cannot be routine, and the character can only handle easy or basic tasks or questions (DC 10-15).",
 				{
 					"type": "inset",
-					"name": "Sample Areas of Expertise",
+					"translate_name": "專業技能的範例領域", "name": "Sample Areas of Expertise",
 					"entries": [
 						"The following are examples of suitable areas of Expertise. This list is by no means exhaustive, the GM should feel free to add to or modify this list as needed to suit the game and the characters in it.",
 						{
 							"type": "quote",
-							"entries": ["Art, Business, Carpentry, Cooking, Criminal, Current Events, Dance, History, Journalism, Law, Law Enforcement, Medicine, Military, Music, Magic, Philosophy, Politics, Popular Culture, Psychiatry, Science, Sociology, Streetwise, Theology"]
+							"entries": ["藝術、商業、木工、烹飪、犯罪、時事、舞蹈、歷史、新聞、法律、執法、醫學、軍事、音樂、魔法、哲學、政治、流行文化、精神病學、科學、社會學、街頭世態、神學"]
 						}
 					]
 				},
