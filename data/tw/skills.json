@@ -247,74 +247,74 @@
 			"interaction": true,
 			"action": "S",
 			"entries": [
-				"Deception is the skill of getting others to believe what you want them to believe. It covers things like acting, bluffing, fast-talk, trickery, and subterfuge.",
-				"Deception takes as long as it takes to spin-out your story. Uses of Deception in action rounds are generally standard actions, although you can attempt to deceive as a move action by taking a –5 penalty to your check.",
+				"欺瞞技能被用以讓他人相信你希望他們相信的事物。它涵蓋了包括演技、唬騙、話術、和詭計花招。",
+				"欺瞞所花費的時間等同於你講述謊言的時間。在動作輪中使用欺瞞技能通常會需要一個標準動作，然而你也可以藉由在檢定中承受-5罰值，以一個移動動作來嘗試進行欺瞞。",
 				{
 					"type": "table",
-					"caption": "Deception Modifiers",
+					"caption": "欺瞞修正值",
 					"colLabels": [
-						"Resistance circumstance",
-						"Modifier"
+						"抵抗情境",
+						"修正值"
 					],
 					"colStyles": [
 						"col-7 text-align-center",
 						"col-5 text-align-center"
 					],
 					"rows": [
-						["The target wants to believe you.", "–5"],
-						["The deception is believable and doesn’t affect the target much either way.", "+0"],
-						["The deception is a little hard to believe or puts the target at some kind of risk.", "+5"],
-						["The deception is difficult to believe or entails a serious risk.", "+10"],
-						["The deception is way out there, almost too incredible to consider.", "+20"]
+						["目標想要相信你。", "–5"],
+						["這個騙局相當可信，且並不會對目標造成太大的影響。", "+0"],
+						["這個騙局有點難以令人相信，或會使目標承擔某些風險。", "+5"],
+						["這個騙局難以置信，或會帶來嚴重的風險。", "+10"],
+						["這個騙局太過離譜，幾乎讓人難以想像。", "+20"]
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "唬騙", "name": "Bluffing",
 					"entries": [
-						"Make a Deception check to tell a believable lie or get someone do go along with you.",
-						"A bluff is usually opposed by the target’s Deception or {@skill Insight} check. Favorable and unfavorable circumstances weigh heavily on the outcome. Two circumstances can work against you: the deception is hard to believe, or what you ask goes against the target’s self-interest, nature, or personality.",
-						"If it’s important, you can distinguish between a deception that fails because the target doesn’t believe it and one that fails because it asks too much. For instance, if the target gets a +10 bonus to resistance because the deception demands serious risk, and the resistance check succeeds by 10 or less, then the target doesn’t so much see through the deception as prove reluctant to go along with it. If the target’s Insight check succeeds by 11 or more, he has seen through the deception, and would have refused even if it had not placed unusual demands on him (that is, even without the +10 modifier)."
+						"進行一次欺瞞檢定以說出可信的謊言，或使某人配合你的行為。",
+						"目標通常會使用欺瞞或{@skill 洞見}檢定以對抗唬騙。當下情境的有利與否對於唬騙的結果會產生很大的影響。有二種情境可能會對你不利：這個謊言難以置信、或者你的要求違背了目標的個人利益、本質、或個性。",
+						"如果你覺得這很重要，那麼你可以區別這個唬騙失敗的原因是因為目標不相信它、還是因為它要求的太多。舉例來說，若唬騙的內容會為目標帶來嚴重風險，而使目標在對抗檢定中獲得了+10的加值，且目標在對抗檢定中以10或更少的差值勝出，則代表目標並沒有識破謊言，但仍不願意配合。若目標的洞見檢定以11或更高的差值勝出（意味著他即使沒有+10的加值也能成功抵抗），則代表他識破了謊言，且即使你沒有做出過分的要求也仍然會拒絕你。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "易容", "name": "Disguise",
 					"entries": [
-						"You can use makeup, costumes, and other props to change your appearance. Your Deception check result determines the effectiveness of the disguise, opposed by others’ perception check results. The GM makes the Deception check secretly so you are not sure exactly how well your disguise holds up under scrutiny.",
-						"Disguise is heavily dependent on circumstances: favorable ones include appropriate costuming and a subject resembling your normal appearance, while unfavorable circumstances include disguising yourself as a member of a different race or sex, or not having sufficient props (which can be up to a –5 modifier). If you are impersonating a particular individual, anyone who knows that individual gets a circumstance bonus to the {@skill Perception} check: regular associates get a +2, while friends get a +5 and intimate loved ones a +10.",
-						"Successfully acting like who you appear to be may also require a Deception check with a DC equal to the observer’s {@skill Insight} check, modified by familiarity if the observer knows the subject well, as mentioned previously.",
-						"A disguise normally requires at least 10 minutes of preparation. The GM makes {@skill Perception} checks for those who encounter you immediately upon meeting you and each hour or day thereafter, depending on circumstances."
+						"你可以利用化妝、服裝、和其他小道具以改變你的外貌。你的欺瞞檢定結果將會決定你易容偽裝的成效，並以該結果對抗他人{@skill 感知}檢定的結果。GM會為你秘密地進行欺瞞檢定，因此你將無法確定你的偽裝在仔細審查之下會有多可靠。",
+						"易容偽裝的結果在很大程度上取決於情境：有利情境包括了適當的服裝，以及偽裝對象與你的外貌相似等等；而不利的情境則包括將你自己易容成不同的種族或性別、或未持有足夠的小道具（這最多可能會導致-5的修正值）。若你正冒充一個特定的個體，則任何知曉該個體的人都將在對抗易容的{@skill 感知}檢定中獲得情境加值：尋常同事的話+2、朋友的話+5、而親密愛人則可以獲得+10的加值。",
+						"要假扮成你所冒充的對象，也可能會需要進行一次欺瞞檢定以對抗觀察者的{@skill 洞見}檢定，並根據觀察者與冒充對象的熟識度如同前述加值進行修正。",
+						"進行易容通常會需要至少10分鐘的準備時間。根據情境，GM會在他人遇見你時立刻為他們進行{@skill 感知}檢定，以及在這之後每經過一小時再進行一次檢定。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "佯攻", "name": "Feinting",
 					"entries": [
-						"You can use Deception as a standard action to mislead an opponent in combat. Make a Deception check as a standard action opposed by the better of your target’s Deception or {@skill Insight}. If your Deception check succeeds, the target is {@condition vulnerable} against your next attack, until the end of your next round."
+						"你能夠以一個標準動作使用欺瞞技能以在戰鬥中誤導一個對手。以一個標準動作進行一次欺瞞檢定，對抗目標的欺瞞或{@skill 洞見}檢定（兩者取高）。若你的欺瞞檢定勝出，則目標對你的下次攻擊而言將被視作處於{@condition 脆弱}狀態，持續直到你的下一輪結束。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "暗話", "name": "Innuendo",
 					"entries": [
-						"You can use Deception to send covert messages using word-play and double-meanings while apparently talking about other things. The DC for a basic message is 10. Complex messages or messages trying to communicate new information have DCs of 15 or 20, respectively. The recipient of the message must make a {@skill Insight} check against the same DC to understand it.",
-						"Anyone listening in on your innuendo can attempt a insight check against the message DC. If successful, the eavesdropper notices a message hidden in your conversation. If the eavesdropper gets at least two degrees of success, he also understands the message. Whether trying to send or pick up on a message, more than one degree of failure on the check means the receiver misinterprets the message in some fashion.",
+						"你可以使用欺瞞技能，在明顯講述另一件事時藉由文字遊戲和雙關傳達一段隱蔽的訊息。透過這個方式傳達基礎訊息的DC為10。複雜訊息或嘗試傳達新情報的訊息的DC則分別為15和20。聽到該訊息的接收對象必須進行一次對抗該DC的{@skill 洞見}檢定才能夠理解其傳達的含義。",
+						"任何其他聽見你暗話的人都可以嘗試進行一次對抗該訊息DC的{@skill 洞見}檢定。若檢定成功，則偷聽者將會注意到你的話話中藏有其他訊息。若偷聽者在該檢定中獲得了至少二個程度或以上的成功，則他將理解該訊息的含義。無論是嘗試傳達或接收該訊息，超過一個程度的失敗都意味著接收者將以某種方式誤解了這段訊息的含義。",
 						{
 							"type": "table",
-							"caption": "Innuendo Difficulties",
+							"caption": "暗話難度",
 							"colLabels": [
 								"DC",
-								"Task"
+								"事項"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["10", "Basic message"],
-								["15", "Complex message"],
-								["20", "Message containing new or detailed information"]
+								["10", "基礎訊息"],
+								["15", "複雜訊息"],
+								["20", "包含了新情報或詳細情報的訊息"]
 							]
 						}
 					]
@@ -323,8 +323,8 @@
 					"type": "entries",
 					"translate_name": "誘騙", "name": "Tricking",
 					"entries": [
-						"You can use Deception to mislead an opponent into taking a potentially unwise action, such as trying to hit you while standing in front of an electrical junction box or at the edge of a precipice. If your Deception check opposed by Deception or {@skill Insight} succeeds, your opponent is heedless of the potential danger and may hit the junction box or lose his balance and fall, if his attack against you fails. (On the other hand, if the attack succeeds, it might slam you into the junction box or send you flying off the edge. You’re taking a risk.)",
-						"More than one degree of failure on the Deception check means you put yourself in a bad position; you are vulnerable against the target’s attacks until the start of your next round!"
+						"你可以使用欺瞞技能以誘導一個對手採取一個可能不太明智的行動，像是在他站在電接合箱前或懸崖邊時嘗試攻擊你。若你的欺瞞檢定在與目標的欺瞞或{@skill 洞見}檢定的對抗中勝出，則你的對手將會不顧潛在的危險並嘗試攻擊你，若他的攻擊失手，則他將可能會命中電接合箱、或因為失去平衡而摔落懸崖。（另一方面，若該攻擊成功，則他可能會將你打進接合箱內、或使你從懸崖邊被擊落。你也承擔了同樣的風險。）",
+						"若你在該欺瞞檢定中獲得超過一個程度的失敗結果，則代表你使自己陷入了險境；你對目標的攻擊而言將處於{@condition 脆弱}狀態，持續直到你的下一輪開始！"
 					]
 				}
 			]

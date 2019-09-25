@@ -281,7 +281,7 @@
 					"type": "entries",
 					"name": "Disguise",
 					"entries": [
-						"You can use makeup, costumes, and other props to change your appearance. Your Deception check result determines the effectiveness of the disguise, opposed by others’ perception check results. The GM makes the Deception check secretly so you are not sure exactly how well your disguise holds up under scrutiny.",
+						"You can use makeup, costumes, and other props to change your appearance. Your Deception check result determines the effectiveness of the disguise, opposed by others’ {@skill perception} check results. The GM makes the Deception check secretly so you are not sure exactly how well your disguise holds up under scrutiny.",
 						"Disguise is heavily dependent on circumstances: favorable ones include appropriate costuming and a subject resembling your normal appearance, while unfavorable circumstances include disguising yourself as a member of a different race or sex, or not having sufficient props (which can be up to a –5 modifier). If you are impersonating a particular individual, anyone who knows that individual gets a circumstance bonus to the {@skill Perception} check: regular associates get a +2, while friends get a +5 and intimate loved ones a +10.",
 						"Successfully acting like who you appear to be may also require a Deception check with a DC equal to the observer’s {@skill Insight} check, modified by familiarity if the observer knows the subject well, as mentioned previously.",
 						"A disguise normally requires at least 10 minutes of preparation. The GM makes {@skill Perception} checks for those who encounter you immediately upon meeting you and each hour or day thereafter, depending on circumstances."
@@ -324,7 +324,7 @@
 					"name": "Tricking",
 					"entries": [
 						"You can use Deception to mislead an opponent into taking a potentially unwise action, such as trying to hit you while standing in front of an electrical junction box or at the edge of a precipice. If your Deception check opposed by Deception or {@skill Insight} succeeds, your opponent is heedless of the potential danger and may hit the junction box or lose his balance and fall, if his attack against you fails. (On the other hand, if the attack succeeds, it might slam you into the junction box or send you flying off the edge. You’re taking a risk.)",
-						"More than one degree of failure on the Deception check means you put yourself in a bad position; you are vulnerable against the target’s attacks until the start of your next round!"
+						"More than one degree of failure on the Deception check means you put yourself in a bad position; you are {@condition vulnerable} against the target’s attacks until the start of your next round!"
 					]
 				}
 			]
