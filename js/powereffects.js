@@ -29,7 +29,7 @@ function getClassByType(type){
 		case "CTL": return "school_T";
 		case "DEF": return "school_I";
 		case "MOV": return "school_D";
-		case "SEN": return "school_A";
+		case "SEN": return "school_E";
 		case "C": return "school_C";
 		case "F": return "school_T";
 		case "G": return "school_A";
