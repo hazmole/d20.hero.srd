@@ -334,18 +334,18 @@
 			"ability": "Int",
 			"untrain": false,
 			"entries": [
-				"Expertise is a broad skill encompassing knowledge and training in a variety of specialized fields, particularly professional disciplines and scholarship. Each is considered a separate skill and training in each is acquired separately, so a former police officer turned district attorney might have Expertise: Police Officer and Expertise: Law, each with their own ranks, for example.",
-				"If you are trained in an Expertise, you can practice and make a living at it. You know how to use the tools of that trade, perform the profession’s daily tasks, supervise untrained helpers, and handle common problems. For example, someone trained in Expertise: Sailor knows how to tie basic knots, tend and repair sails, and stand a deck watch at sea. The GM sets DCs for specific tasks using the guidelines provided in The Basics under {@rule Checks|basic|1|checks}, keeping in mind that most job-related checks should be considered routine (see {@rule Routine Checks|basic|1|routine checks}).",
-				"You can also make Expertise checks to see if your character knows the answer to a particular question related to the area of expertise, such as a scientist confronted with a technical issue, or a lawyer considering a legal question. The DC is 10 for easy questions, 15 for basic questions, and 20 or higher for difficult questions. You can usually answer questions as a routine check, and the GM may make a check for you in secret, so you won’t know whether or not your character’s skill is entirely up to the task.",
-				"Expertise covers all areas except those tasks specifically covered by other skills. So, for example, a police detective is going to be trained in {@skill Investigation} (and probably {@skill Insight} and {@skill Perception}) in addition to Expertise: Police Officer, the same for an intrepid reporter with Expertise: Journalism. A scientist might be trained in {@skill Technology} alongside Expertise: Science, a doctor needs training in {@skill Treatment} along with Expertise: Physician, and a trial lawyer is going to want skill in {@skill Insight} and {@skill Persuasion} (and possibly {@skill Deception}) along with the training in the law that comes with Expertise: Lawyer.",
-				"The ability modifier for Expertise is typically Intellect, but some areas of expertise may call for different abilities, perhaps depending on the task involved. For example, a technical expert might rely on Intellect to answer questions and handle day-to-day procedures, but need Dexterity to perform the actual functions of the job. Performance skills, such as acting or music, may rely on Presence. The GM sets the ability modifier as needed for the specific Expertise check.",
-				"Characters with expertise in a profession are also assumed to be licensed or certified to practice it, if necessary. Problems like licensing issues, professional rivalries, and so forth can be handled as complications (see {@rule Complications|basic|2|complications}).",
-				"The GM may allow some Expertise checks to be made untrained, especially for “unskilled” areas, measuring broad general knowledge and life experience, but even then an untrained Expertise check cannot be routine, and the character can only handle easy or basic tasks or questions (DC 10-15).",
+				"專業是一個涵蓋範圍廣泛的技能，包括了各種特定領域（特別是專業技術和學術領域）的知識和訓練。每個專業技能都被視作一個獨立的技能，且每個專業技能也需各自受訓。因此舉例來說，一名轉職為地方檢察官的前警察可能會擁有「專業：警察」和「專業：法律」技能，且兩個技能擁有其獨立的等級。",
+				"若你受訓於一個專業技能，則你可以利用該技能來謀生。你知道如何使用該行業所需的工具、執行該專業的日常工作、監督未受訓的協助者、並處理常見的問題。舉例來說，受訓於「專業：水手」技能的角色將知曉如何打好基本繩結、保養和維修船帆、以及在甲板上站崗。GM將使用基本規則中{@rule 檢定|basic|1|checks}章節的準則為各種工作事項設定DC，謹記大部分與工作有關的檢定都將被視作例行檢定（參見{@rule 例行檢定|basic|1|routine checks}）。",
+				"你也可以進行專業技能檢定，以確認你的角色是否會知道某個關聯於該專業領域的問題的答案，例如遇到技術問題的科學家、或是考慮法律問題的律師。這種檢定的DC對於簡單的問題而言為10、基礎問題的話DC為15、困難問題則為20或更高。你通常可以藉由例行檢定來回答這些問題，而GM也可能會秘密地為你進行檢定，因此你將不會知道你的專業技能是否能完全勝任於該任務。",
+				"專業涵蓋了所有其他技能涵蓋範疇之外的領域。因此，舉例來說，一名警探除了「專業：警察」之外，也會受訓於{@skill 調查}技能（且可能還會受訓於{@skill 洞見}和{@skill 感知}技能），一名勇敢記者除了「專業：新聞」之外，也可能會受訓於前述的技能。一名科學家可能會受訓於{@skill 科技}技能以及「專業：科學」；醫生則會需要受訓於{@skill 診療}技能以及「專業：內科醫生」；而出庭律師則會需要{@skill 洞見}和{@skill 說服}技能（且可能會需要{@skill 欺瞞}技能）以及體現他法律培訓結果的「專業：律師」技能。",
+				"專業技能所使用的屬性修正值通常為智力，但某些專業領域可能會根據涉及的工作內容而要求不同的屬性。舉例來說，技術專業可能會需要智力以回答問題並處理日常程序，但會需要使用靈巧以執行該工作的實際功能。表演類的專業技能，像是演戲或音樂，則可能會需要使用表現屬性。GM將在必要時為特定的專業技能檢定決定其使用的屬性修正值。",
+				"若有需要，專精於某項專業的角色將被視為已經取得了相關的執業執照或許可。至於像是執照爭議、職業競爭等問題，則可以被做為糾葛難題處理（參見{@rule 糾葛難題|basic|2|complications}）。",
+				"GM可能會允許某些專業檢定在未受訓的情況下進行（特別是在面對那些「非技術」領域），以衡量廣泛的一般知識和生活經驗。但即使如此，未受訓的專業檢定也不能以例行檢定的方式進行，且該角色將只能處理簡單或基礎的工作或問題（DC 10~15）。",
 				{
 					"type": "inset",
 					"translate_name": "專業技能的範例領域", "name": "Sample Areas of Expertise",
 					"entries": [
-						"The following are examples of suitable areas of Expertise. This list is by no means exhaustive, the GM should feel free to add to or modify this list as needed to suit the game and the characters in it.",
+						"以下範例列出了一些適合用於專業技能的領域。這個清單並不詳盡，GM可以自由增加或修改這張清單，以使其符合遊戲和其中角色的需求。",
 						{
 							"type": "quote",
 							"entries": ["藝術、商業、木工、烹飪、犯罪、時事、舞蹈、歷史、新聞、法律、執法、醫學、軍事、音樂、魔法、哲學、政治、流行文化、精神病學、科學、社會學、街頭世態、神學"]
@@ -354,12 +354,12 @@
 				},
 				{
 					"type": "inset",
-					"name": "Defaulting to Related Areas of Expertise",
+					"translate_name": "不同專業的相關領域", "name": "Defaulting to Related Areas of Expertise",
 					"entries": [
-						"On occasion, the GM may decide that training in an Expertise skill provides some ability to deal with tasks covered by other, related, skills with a circumstance penalty to the skill check.",
+						"偶爾，GM可能會決定你在某個專業技能上的訓練，能夠部分適用於其他相關專業領域所涵括的事項，承受情境罰值以使用該專業技能進行技能檢定。",
 						{
 							"type": "example",
-							"entries": ["Figuring out a particular clue involving a government conspiracy requires an investigation or expertise: Politics check. However, the GM allows a hero to substitute an Expertise: Law check with a –2 circumstance penalty, as the knowledge is related, but outside the character’s specific field. Expertise: Journalism might suffer a –5 penalty, but could still be useful (especially if the character works a legal or political beat as a reporter), while Expertise: Cooking is no help at all, and cannot be used for the check (unless the player comes up with a very clever explanation!)"]
+							"entries": ["在搜查涉及政府陰謀的特定線索時，會需要{@skill 調查}或「專業：政治」技能檢定。然而，GM也允許擁有英雄以承受-2情境罰值的「專業：法律」檢定來代替。因為這兩者之間的知識有所關連，但超出了該領域的範疇。「專業：新文」則可能會需要承受-5情境罰值，但仍能派上用場（特別是若該角色是一名從事法律或政治方面工作的記者）。然而，「專業：烹飪」在這時就完全派不上用場，且無法被用於該檢定中（除非玩家想出了個絕妙的解釋！）"]
 						}
 					]
 				},
