@@ -965,12 +965,12 @@
 			},
 			"entries": [
 				"You can temporarily increase your size, gaining Strength and Stamina at the cost of becoming a bigger, heavier, less agile target, unable to maneuver through small spaces. Growth modifiers are restricted by power level limits.",
-				"Each rank of Growth adds 1 rank to your Strength and Stamina (constructs add 1 rank to Strength and Toughness if they lack Stamina) and adds 1 rank to your mass. Every two ranks adds a +1 bonus to Intimidation. Every 8 ranks adds 1 to your Speed. Every rank of Growth subtracts 1 from your Stealth checks. Every 2 ranks (rounded up) subtracts 1 from your Dodge and Parry defenses. Every 4 ranks of Growth increases your size rank by 1 (ordinary humans start out at size rank –2, between 3 and 6 feet tall). So at Growth 8, you have +8 Strength and Stamina, +4 to Intimidation, +1 Speed, but -8 to Stealth, –4 Dodge and Parry, and you are size rank 0 (around 30 feet tall). Increases to your Strength and Stamina also improve related traits like your Strength Damage, Fortitude, and Toughness."
+				"Each rank of Growth adds 1 rank to your Strength and Stamina (constructs add 1 rank to Strength and Toughness if they lack Stamina) and adds 1 rank to your mass. Every two ranks adds a +1 bonus to {@skill Intimidation}. Every 8 ranks adds 1 to your Speed. Every rank of Growth subtracts 1 from your {@skill Stealth} checks. Every 2 ranks (rounded up) subtracts 1 from your Dodge and Parry defenses. Every 4 ranks of Growth increases your size rank by 1 (ordinary humans start out at size rank –2, between 3 and 6 feet tall). So at Growth 8, you have +8 Strength and Stamina, +4 to Intimidation, +1 Speed, but -8 to Stealth, –4 Dodge and Parry, and you are size rank 0 (around 30 feet tall). Increases to your Strength and Stamina also improve related traits like your Strength Damage, Fortitude, and Toughness."
 			],
 			"extras": [
 				{
 					"name": "Permanent",
-					"entries": ["Permanent Growth, typically with innate, suits giant-sized characters and creatures that are a fixed larger size."],
+					"entries": ["Permanent Growth, typically with {@modifier innate}, suits giant-sized characters and creatures that are a fixed larger size."],
 					"cost": {
 						"value": 0, "type": "per"
 					}
@@ -2101,7 +2101,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can perform routine tasks—anything that can be done as a routine check (see Routine Checks in The Basics)—fast, perhaps very fast. Subtract your effect rank from the normal time rank to perform a task to determine how long it takes you. So, for example, if you have Quickness 7, a routine task normally taking an hour (time rank 9) takes you (9 – 7 = time rank 2) 30 seconds. Non-routine checks are not affected by Quickness, nor is movement speed.",
+				"You can perform routine tasks—anything that can be done as a routine check (see {@rule Routine Checks|basic|1|Routine Checks} in The Basics)—fast, perhaps very fast. Subtract your effect rank from the normal time rank to perform a task to determine how long it takes you. So, for example, if you have Quickness 7, a routine task normally taking an hour (time rank 9) takes you (9 – 7 = time rank 2) 30 seconds. Non-routine checks are not affected by Quickness, nor is movement speed.",
 				"If you can perform a task in less than a second (time rank –2), the GM may choose to treat that task as a free action for you (although the GM can still limit the number of free actions you can accomplish in a turn as usual).",
 				{
 					"type": "inset",

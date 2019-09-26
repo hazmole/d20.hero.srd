@@ -954,7 +954,7 @@
 			]
 		},
 		{
-			"name": "Growth",
+			"translate_name": "成長", "name": "Growth",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -964,13 +964,13 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can temporarily increase your size, gaining Strength and Stamina at the cost of becoming a bigger, heavier, less agile target, unable to maneuver through small spaces. Growth modifiers are restricted by power level limits.",
-				"Each rank of Growth adds 1 rank to your Strength and Stamina (constructs add 1 rank to Strength and Toughness if they lack Stamina) and adds 1 rank to your mass. Every two ranks adds a +1 bonus to Intimidation. Every 8 ranks adds 1 to your Speed. Every rank of Growth subtracts 1 from your Stealth checks. Every 2 ranks (rounded up) subtracts 1 from your Dodge and Parry defenses. Every 4 ranks of Growth increases your size rank by 1 (ordinary humans start out at size rank –2, between 3 and 6 feet tall). So at Growth 8, you have +8 Strength and Stamina, +4 to Intimidation, +1 Speed, but -8 to Stealth, –4 Dodge and Parry, and you are size rank 0 (around 30 feet tall). Increases to your Strength and Stamina also improve related traits like your Strength Damage, Fortitude, and Toughness."
+				"你可以暫時地增大你的體型，以成為更大、更重、更遲鈍且無法穿過狹小空間的目標為代價，換取更強大的力量和體質。成長所帶來的修正值仍會受限於超能力階級的限制。",
+				"每級的成長效果都會使你的力量和體質增加1級（若為缺乏體質屬性的構裝生物，則增加1級力量和堅實防禦），且使你的質量等級增加1級。每二級的成長效果會使你的{@skill 威嚇}技能獲得+1加值。每8級的成長效果將使你的移動速度增加1級。然而，每級的成長效果也將使你的{@skill 潛行}檢定承受-1罰值。每二級（尾數進位）的成長效果使你的閃避和格擋防禦減少1級。每4級的成長效果也將使你的體型等級增加1級（尋常人類的體型等級為-2，介於3到6呎高）。因此若你具有8級的成長，你將獲得+8力量和體質，+4威嚇，+1速度，但同時承受-8潛行，-4閃避和格擋防禦，且你的體型等級為0（大約30呎高）。你在力量和體質屬性上的提升也會連帶影響其他關連數據，像是你的力量傷害、韌性防禦、和堅實防禦。"
 			],
 			"extras": [
 				{
 					"translate_name": "永駐", "name": "Permanent",
-					"entries": ["Permanent Growth, typically with innate, suits giant-sized characters and creatures that are a fixed larger size."],
+					"entries": ["永駐成長，通常帶有{@modifier 天生}修飾符，適合那些固定體型的巨型角色或生物。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
@@ -2091,7 +2091,7 @@
 			]
 		},
 		{
-			"name": "Quickness",
+			"translate_name": "迅捷", "name": "Quickness",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -2101,27 +2101,27 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can perform routine tasks—anything that can be done as a routine check (see Routine Checks in The Basics)—fast, perhaps very fast. Subtract your effect rank from the normal time rank to perform a task to determine how long it takes you. So, for example, if you have Quickness 7, a routine task normally taking an hour (time rank 9) takes you (9 – 7 = time rank 2) 30 seconds. Non-routine checks are not affected by Quickness, nor is movement speed.",
-				"If you can perform a task in less than a second (time rank –2), the GM may choose to treat that task as a free action for you (although the GM can still limit the number of free actions you can accomplish in a turn as usual).",
+				"你可以快速地，或非常非常快速地執行任何例行事項，亦即任何你能夠以例行檢定完成的工作（參見{@rule 例行檢定|basic|1|Routine Checks}規則）。將你原本執行該事項所需花費的時間等級減去你的迅捷效果等級，以決定你執行該事項所需花費的時間。因此舉例來說，若你具有7級迅捷，則一個原本會花費你1小時（9級時間）的工作僅僅會佔用你（9 - 7 = 2級時間）30秒的時間。非例行檢定的事項以及移動速度都不會受到迅捷效果影響。",
+				"若你能夠以少於1秒（-2級時間）的時間完成一項工作，則GM可能會選擇讓執行該工作對你而言視作一個自由動作（然而GM仍然可以如往常限制你在一回合所能進行的自由動作的數量）。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Quickness",
+					"translate_name": "幕後花絮：迅捷", "name": "Under the Hood: Quickness",
 					"entries": [
-						"Quickness, like many power effects, is not especially realistic; it allows you to do things like disassemble an entire car as a free action at a high enough rank (around rank 13-14), but doesn’t have any effect on how many attacks you can make on your turn. Why? Two reasons: first because allowing any character potentially thousands of attacks per turn would slow down the game and be hugely unbalancing (to say the least). Second, and perhaps more important, it’s how superhuman quickness works in the comics: speedsters do routine things in the blink of an eye, but in fights they don’t really act more often than anyone else. See Super-Speed for some examples of the super-fast attacks speedsters might have, in addition to their Quickness."
+						"就跟許多其他超能力效果一樣，迅捷並不怎麼符合現實；他讓你得以做到許多不可思議的事情，像是在等級夠高（大約13~14級）時以一個自由動作拆解一整輛車子，但卻完全不會影響你在你回合中所能進行的攻擊次數。這是為什麼呢？有兩個原因：首先，讓角色在每回合進行數千次的攻擊會大幅減緩遊戲步調，且會導致嚴重的不平衡。第二，且可能是最重要的原因，是這就是超級英雄們的迅捷能力在漫畫中作用的方式：神速超人可以在一眨眼之間完成常規工作，但在戰鬥中，他們卻不會比其他人有更頻繁的行動。參見{@effect Super-Speed}以查看神速超人除了迅捷之外，還可能會具有的能力範例。"
 					]
 				}
 			],
 			"flaws": [
 				{
-					"name": "Limited to One Type",
-					"entries": ["Your Quickness applies to only physical or mental tasks, not both."],
+					"translate_name": "限定單一種類", "name": "Limited to One Type",
+					"entries": ["你的迅捷效果只能適用於身體或精神方面的工作事項，而非兩者皆能適用。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited to One Task",
-					"entries": ["Your Quickness applies to only one particular task, such as reading, mathematical calculations, and so forth."],
+					"translate_name": "限定單一工作", "name": "Limited to One Task",
+					"entries": ["你的迅截效果只能適用於一種特定的工作事項，像是閱讀、算數等等。"],
 					"cost": {
 						"value": -2, "type": "per"
 					}
