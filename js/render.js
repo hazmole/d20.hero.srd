@@ -3971,7 +3971,22 @@ Renderer.general = {
             entryStack.push(`<span style="border:1px solid #afaeae;border-radius:3px;background:#484848;padding:2px;white-space:nowrap;margin:1px">${textStack.join("")}</span>`);
         }
         return Renderer.utils.getTr(entryStack.join(""), "line-height:2;");
-    }
+    },
+
+	getClassByType: function(type){
+		switch(type){
+			case "ATK": return "school_C";
+			case "CTL": return "school_T";
+			case "DEF": return "school_I";
+			case "MOV": return "school_D";
+			case "SEN": return "school_E";
+			case "C": return "school_C";
+			case "F": return "school_T";
+			case "G": return "school_A";
+			case "S": return "school_D";
+			default: return "";
+		}
+	}
 
 }
 
