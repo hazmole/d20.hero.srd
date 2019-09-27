@@ -220,7 +220,7 @@
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You have a +1 damage bonus with thrown weapons per rank in this advantage. You can also throw normally harmless objects—playing cards, pens, paper clips, and so forth—as weapons with a damage bonus equal to your advantage rank and range based on the higher of your advantage rank or Strength (see {@effect Ranged} in Powers). Your maximum damage bonus with any given weapon or attack is still limited by power level."
+				"You have a +1 damage bonus with thrown weapons per rank in this advantage. You can also throw normally harmless objects—playing cards, pens, paper clips, and so forth—as weapons with a damage bonus equal to your advantage rank and range based on the higher of your advantage rank or Strength (see {@rule Ranged|basic|6|Range} in Powers). Your maximum damage bonus with any given weapon or attack is still limited by power level."
 			]
 		},
 		{

@@ -50,7 +50,7 @@
 			"type": "C",
 			"rank": 2,
 			"entries": [
-				"你在迴避範圍效果（參見{@modifier Area}修飾符）時所進行的閃避抵抗檢定中獲得+2的情境加值。若你具有2等級的此特長，則你的情境加值將增加至+5。"
+				"你在迴避範圍效果（參見{@modifier 範圍化}修飾符）時所進行的閃避抵抗檢定中獲得+2的情境加值。若你具有2等級的此特長，則你的情境加值將增加至+5。"
 			]
 		},
 		{
@@ -216,11 +216,11 @@
 			]
 		},
 		{
-			"name": "Throwing Mastery",
+			"translate_name": "投擲精通", "name": "Throwing Mastery",
 			"type": "C",
 			"rank": true,
 			"entries": [
-				"You have a +1 damage bonus with thrown weapons per rank in this advantage. You can also throw normally harmless objects—playing cards, pens, paper clips, and so forth—as weapons with a damage bonus equal to your advantage rank and range based on the higher of your advantage rank or Strength (see {@effect Ranged} in Powers). Your maximum damage bonus with any given weapon or attack is still limited by power level."
+				"這個特長的每個等級都會使你投擲武器的傷害獲得+1加值。你也可以將一些原本無害的物體（像是撲克牌、筆、迴紋針等）做為武器投擲出去，其傷害加值等同於這個特長的等級，且投擲距離將取決於你這個特長的等級或你的力量，看何者較高（參見超能力章節的{@rule 遠距|basic|6|Range}射程）。你所使用的任何武器或攻擊所造成的最大傷害加值仍然受限於超能力階級的限制。"
 			]
 		},
 		{
@@ -245,10 +245,10 @@
 			]
 		},
 		{
-			"name": "Beginner’s Luck",
+			"translate_name": "新手好運", "name": "Beginner’s Luck",
 			"type": "F",
 			"entries": [
-				"By spending a Victory point, you gain an effective 5 ranks in one skill of your choice you currently have at 4 or fewer ranks, including skills you have no ranks in, even if they can’t be used untrained. These temporary skill ranks last for the duration of the scene and grant you their normal benefits."
+				"藉由消耗一點勝利點，你所擁有的其中一個等級為4或更低的技能將暫時提升5級，這個技能可以是你尚未受訓的技能，且即使該技能不能在未受訓的狀況下使用也一樣。這個暫時的技能等級將持續直到該廠景結束，並會使你獲得它原本所能帶來的好處。"
 			]
 		},
 		{
