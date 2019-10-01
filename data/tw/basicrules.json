@@ -5548,7 +5548,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Minions",
+									"translate_name": "嘍囉", "name": "Minions",
 									"entries": [
 										"{@b Minions} are minor characters subject to special rules in combat, and generally easier to defeat than normal characters. Villains often employ hordes of minions against heroes. The following rules apply to minions:",
 										{

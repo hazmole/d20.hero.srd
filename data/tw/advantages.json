@@ -207,12 +207,12 @@
 			]
 		},
 		{
-			"name": "Takedown",
+			"translate_name": "擊倒", "name": "Takedown",
 			"type": "C",
 			"rank": 2,
 			"entries": [
-				"If you render a minion incapacitated with an attack, you get an immediate extra attack as a free action against another minion within range and adjacent to the previous target’s location. The extra attack is with the same attack and bonus as the first. You can continue using this advantage until you miss or there are no more minions within range of your attack or your last target.",
-				"A second rank in this advantage allows you to attack non-adjacent minion targets, moving between attacks if necessary to do so. You cannot move more than your total speed in the round, regardless of the number of attacks you make. You stop attacking once you miss, run out of movement, or there are no more minions within range of your attack."
+				"若你以一次攻擊使一名嘍囉陷入{@condition 失能}狀態，則你能夠以一個自由動作立刻對另一名處於射程內，且鄰近於前一個目標的嘍囉再進行一次額外攻擊。這個額外攻擊將使用與第一次攻擊相同的攻擊手段與加值。你可以繼續使用這個特長直到你攻擊失手、或你的攻擊射程內不再有其他鄰近上一個目標的嘍囉存在。",
+				"2級的此特長將使你得以攻擊非鄰近的嘍囉目標，且必要時可以在攻擊間移動以對其他嘍囉展開攻擊。無論你進行了多少次攻擊，你在該輪間所移動的距離總和都不能超過你的最大移動速度。一旦你攻擊失手、耗盡移動力、或射程內不再有其他嘍囉時，你就使用此特長所進行的攻擊便會結束。"
 			]
 		},
 		{
@@ -252,51 +252,51 @@
 			]
 		},
 		{
-			"name": "Inspire",
+			"translate_name": "激勵", "name": "Inspire",
 			"type": "F",
 			"rank": 5,
 			"entries": [
-				"You can inspire your allies to greatness. Once per scene, by taking a standard action and spending a Victory point, allies able to interact with you gain a +1 circumstance bonus per Inspire rank on all checks until the start of your next round, with a maximum bonus of +5. You do not gain the bonus, only your allies do. The inspiration bonus ignores power level limits, like other uses of Victory points. Multiple uses of Inspire do not stack, only the highest bonus applies."
+				"你可以激勵你的隊友，使其成就非凡之事。每個場景一次，藉由採取一個標準動作並消耗一點勝利點，所有能夠與你互動的隊友在所有檢定中都將獲得每級激勵等級+1的情境加值，最多+5加值，且持續直到你的下一輪開始。你並不會獲得這個加值，只有你的隊友能夠從中受益。就跟其他使用勝利點的手段相同，這個激勵加值將無視超能力階級的限制。多次使用激勵特長並不會使其效果累積，而只會適用最高的加值。"
 			]
 		},
 		{
-			"name": "Leadership",
+			"translate_name": "領導力", "name": "Leadership",
 			"type": "F",
 			"entries": [
-				"Your presence reassures and lends courage to your allies. As a standard action, you can spend a Victory point to remove one of the following conditions from an ally with whom you can interact: {@condition dazed}, {@condition fatigued}, or {@condition stunned}."
+				"你的威儀將為你的隊友帶來安慰和勇氣。以一個標準動作，你可以消耗一點勝利點以解除一名可以與你互動的隊友身上的下列其中一個狀態：{@condition 目眩}、{@condition 疲勞}、或{@condition 暈眩}。"
 			]
 		},
 		{
-			"name": "Luck",
+			"translate_name": "好運", "name": "Luck",
 			"type": "F",
 			"rank": "1/2 PL",
 			"entries": [
-				"Once per round, you can choose to reroll a die roll, like spending a Victory point (see Victory points), including adding 10 to rerolls of 10 or less. You can do this a number of times per game session equal to your Luck rank, with a maximum rank of half the series power level (rounded down). Your Luck ranks refresh when your Victory points “reset” at the start of an adventure. The GM may choose to set a different limit on ranks in this advantage, depending on the series."
+				"每輪一次，你可以選擇重骰一次擲骰結果，就如同你消耗了一點勝利點一樣（參見{@rule 勝利點|basic|1|Victory points}），這也包括了將10或以下的擲骰結果加上10的效果。在每次遊戲聚會中，你可以使用這個特長的次數等同於這個特長的等級，且這個特長的等級最高為劇集超能力階級的一半（尾數捨去）。你好運特長的使用次數將在冒險開始時與你的勝利點一起重置。根據劇集風格，GM可能會選擇為這個特長設定一些其他不同的限制。"
 			]
 		},
 		{
-			"name": "Seize Initiative",
+			"translate_name": "掌握先機", "name": "Seize Initiative",
 			"type": "F",
 			"entries": [
-				"You can spend a Victory point to automatically go first in the initiative order. You may only do so at the start of combat, when you would normally make your initiative check. If more than one character uses this advantage, they all make initiative checks normally and act in order of their initiative result, followed by all the other characters who do not have this advantage."
+				"你可以消耗一點勝利點以自動在先攻順序中第一個行動。你只能在戰鬥開始時，在你進行先攻檢定前使用這個特長。若超過一名角色使用了這個特長，則他們將如常進行先攻檢定以決定他們之間的順序，接著才會輪到那些未使用這個特長的其他角色。"
 			]
 		},
 		{
-			"name": "Ultimate Effort",
+			"translate_name": "終極之力", "name": "Ultimate Effort",
 			"type": "F",
 			"entries": [
-				"You can spend a Victory point on a particular check and treat the roll as a 20 (meaning you don’t need to roll the die at all, just apply a result of 20 to your modifier). This is not a natural 20, but is treated as a roll of 20 in all other respects. You choose the particular check the advantage applies to when you acquire it and the GM must approve it. You can take Ultimate Effort multiple times, each time, it applies to a different check. This advantage may not be used after you’ve rolled the die to determine if you succeed.",
+				"你可以為特定檢定消耗一點勝利點以將該次檢定的擲骰結果視為骰出了20（這代表你不需要實際擲骰，只需要將其他修正值適用於你20的擲骰結果）。這個結果並非是天然20，但除此之外，它在任何其他方面都被視為骰出了20的結果。你在獲得這個特長時選擇這個特長所能適用的特定檢定，且這個選擇必須得到GM的核准。你可以多次獲得這個特長，每次選擇不同的檢定。這個特長不能在你擲骰決定成功與否之後使用。",
 				{
 					"type": "entries",
-					"name": "Sample Ultimate Efforts",
+					"translate_name": "終極之力的範例", "name": "Sample Ultimate Efforts",
 					"entries": [
-						"The following are some potential Ultimate Efforts. The GM is free to add others suitable to the series.",
+						"下列是一些終極之力的可能例子。GM可以自由加入其他適合劇集的選項。",
 						{
 							"type": "list",
 							"items": [
-								"{@b Ultimate Aim}: When you take a standard action to aim an attack (see Aim), you can spend a hero point to apply a 20 result to the attack check on the following round. Since the Ultimate Aim bonus is not a natural 20, it also does not qualify as an automatic or critical hit.",
-								"{@b Ultimate Resistance}: You can spend a hero point to apply a 20 result to a resistance check with one defense determined when you acquire this advantage.",
-								"{@b Ultimate Skill}: You can spend a hero point to apply a 20 result to checks with a particular skill."
+								"{@b 終極瞄準}：當你採取一個標準動作以瞄準目標準備攻擊時（參見{@rule 瞄準|basic|8|Aim}動作），你可以花費一點勝利點以讓下輪的攻擊檢定得到20的擲骰結果。由於終極瞄準並不會導致天然20，因此這並不會產生自動命中或暴擊的結果。",
+								"{@b 終極抵抗}：你可以花費一點勝利點，在使用一個你獲得此特長時選擇的防禦所進行的抵抗檢定中得到20的擲骰結果。",
+								"{@b 終極技能}：你可以花費一點勝利點，在使用一個特定技能所進行的檢定中得到20的擲骰結果。"
 							]
 						}
 					]

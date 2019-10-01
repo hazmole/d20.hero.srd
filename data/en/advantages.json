@@ -271,7 +271,7 @@
 			"type": "F",
 			"rank": "1/2 PL",
 			"entries": [
-				"Once per round, you can choose to reroll a die roll, like spending a Victory point (see Victory points), including adding 10 to rerolls of 10 or less. You can do this a number of times per game session equal to your Luck rank, with a maximum rank of half the series power level (rounded down). Your Luck ranks refresh when your Victory points “reset” at the start of an adventure. The GM may choose to set a different limit on ranks in this advantage, depending on the series."
+				"Once per round, you can choose to reroll a die roll, like spending a Victory point (see {@rule Victory points|basic|1|Victory points}), including adding 10 to rerolls of 10 or less. You can do this a number of times per game session equal to your Luck rank, with a maximum rank of half the series power level (rounded down). Your Luck ranks refresh when your Victory points “reset” at the start of an adventure. The GM may choose to set a different limit on ranks in this advantage, depending on the series."
 			]
 		},
 		{
@@ -294,9 +294,9 @@
 						{
 							"type": "list",
 							"items": [
-								"{@b Ultimate Aim}: When you take a standard action to aim an attack (see Aim), you can spend a hero point to apply a 20 result to the attack check on the following round. Since the Ultimate Aim bonus is not a natural 20, it also does not qualify as an automatic or critical hit.",
-								"{@b Ultimate Resistance}: You can spend a hero point to apply a 20 result to a resistance check with one defense determined when you acquire this advantage.",
-								"{@b Ultimate Skill}: You can spend a hero point to apply a 20 result to checks with a particular skill."
+								"{@b Ultimate Aim}: When you take a standard action to aim an attack (see {@rule Aim|basic|8|Aim}), you can spend a Victory point to apply a 20 result to the attack check on the following round. Since the Ultimate Aim bonus is not a natural 20, it also does not qualify as an automatic or critical hit.",
+								"{@b Ultimate Resistance}: You can spend a Victory point to apply a 20 result to a resistance check with one defense determined when you acquire this advantage.",
+								"{@b Ultimate Skill}: You can spend a Victory point to apply a 20 result to checks with a particular skill."
 							]
 						}
 					]
