@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "Communication",
+			"translate_name": "溝通", "name": "Communication",
 			"type": "SEN",
 			"action": "F",
 			"range": "rank",
@@ -136,42 +136,42 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can communicate over a distance using a medium other than your normal voice. Choose a sense type as your Communication medium (see the list of examples). You may also use a special sense type (like neutrinos, gravitons, magical sendings, and so forth) noticeable only to an appropriate form of the Detect effect (see Senses), at the GM’s discretion.",
+				"你可以透過除了你原本聲音以外的媒介在一段距離外與他人溝通。選擇一種感官種類做為你的溝通媒介（參見下列範例）。在GM的裁斷下，你也可以使用一種只能藉由適當{@effect Sense|探查感官}效果才能注意到的特殊感官種類（例如微中子、重力子、魔法傳訊等）。",
 				{
 					"type": "list",
 					"items": [
-						"{@b Visual}: laser or fiber optic link",
-						"{@b Auditory}: ultrasonic or infrasonic beam, “ventriloquism”",
-						"{@b Olfactory}: pheromones or chemical markers",
-						"{@b Tactile}: vibratory carrier wave",
-						"{@b Radio}: AM, FM, and short-wave radio bands, micro-waves",
-						"{@b Mental}: telepathic transmission, psychic link, mystical sending"
+						"{@b 視覺}: 雷射或光纖網路",
+						"{@b 聽覺}: 超音波或亞聲波束、「腹語術」",
+						"{@b 味覺}: 費洛蒙或化學標記",
+						"{@b 觸覺}: 振動載波",
+						"{@b 無線電波}: 調幅廣播(AM)、調頻廣播(FM)、短波無線電頻帶、微波",
+						"{@b 靈感}: 心靈感應傳送、精神聯繫、秘法傳訊"
 					]
 				},
-				"Your rank determines you maximum Communication range:",
+				"你的溝通等級將決定你的最大溝通範圍：",
 				{
 					"type": "table",
-					"caption": "Communication Range",
+					"caption": "溝通範圍",
 					"colLabels": [
-						"Rank",
-						"Distance"
+						"等級",
+						"距離"
 					],
 					"colStyles": [
 						"col-3 text-align-center",
 						"col-9"
 					],
 					"rows": [
-						["1","Close range (within 100 feet)"],
-						["2","Short range (within 1 mile)"],
-						["3","Long range (statewide or across a small nation)"],
-						["4","Worldwide (anywhere on Earth (or a similar-sized planet))"],
-						["5","Unlimited (effectively anywhere)"]
+						["1","近程 (100呎內)"],
+						["2","短程 (1哩內)"],
+						["3","長程 (洲際 或 橫跨整個小國家)"],
+						["4","世界級 (地球上(或類似大小的行星上)的任何一處)"],
+						["5","無限 (可以與位於任意場所的對象溝通)"]
 					]
 				},
-				"Communication is instantaneous with any subject within your range.",
-				"The recipient of your communication must be within range and have a means of receiving your transmission (super-sense, or a receiver of some sort; conscious awareness is all that’s needed to “receive” Mental Communication). You can receive Communication of the same medium as your own. Receivers can choose to ignore your Communication, if they wish. Communication is language-dependent; you and the subject must share a common language (see Comprehend to communicate across language barriers). Your Communication is point-to-point (sent to a single receiver within your range).",
-				"Activating your Communication effect is a free action. Communicating, however, takes the normal amount of time. You can apply the Rapid modifier to speed things up, provided your recipient is capable of receiving communication at that speed.",
-				"Others with an acute sense able to detect your Communication medium can “tap into” your transmissions with a Perception check (DC 10 + your Communication rank). The eavesdropper must be within normal sensory range of you or the receiver. With two degrees of success on the check, the eavesdropped can also understand your transmissions. Effects like Concealment and Dazzle that target your Communication medium can “jam” or block your transmissions."
+				"你與任何處於射程內的目標所進行的溝通，其作用都是極效。",
+				"你溝通訊息的接收者必須處於你的溝通範圍內，且必須擁有能夠接收傳訊的手段（像是超感官、或某種接收器；對於靈感溝通而言，要接收傳訊只需要維持意識清醒）。你可以接收與你溝通媒介相同的通訊。若接收者希望，他們可以選擇無視你的溝通訊息。溝通效果依賴於語言，因此你和接收者必須理解同一種語言才能夠彼此溝通（若要跨越語言隔閡彼此溝通，請參見{@effect Comprehend}效果）。你的溝通傳訊是點對點的（向位於你射程內的一名接收者發送訊息）。",
+				"啟動你的溝通效果需要一個自由動作。然而，溝通本身將會花費其原本所需的時間。你可以應用急速修飾符以加速溝通的速度，但前題是你的接收者要能夠以同樣的速度接收該溝通訊息。",
+				"其他人若擁有能夠探查你溝通媒介的{@effect Sense|敏銳感官}，則他們將能夠藉由一次{@skill 感知}檢定（DC 10 + 你的溝通等級）嘗試「接收」到你的傳訊。監聽者必須處於你或接收者的正常感知範圍內。若該檢定獲得兩個程度或以上的成功，則監聽者將能夠理解你的傳訊。{@effect Concealment}和{@effect Dazzle}這類效果若以你的溝通媒介為目標，將會導致你的溝通傳訊被「堵塞」或屏蔽。"
 			],
 			"extras": [
 				{
@@ -189,7 +189,7 @@
 					}
 				},
 				{
-					"name": "Rapid",
+					"translate_name": "急速", "name": "Rapid",
 					"entries": ["Your communication occurs 10 times faster than normal speech. Each additional rank increases communication speed by a factor of 10. This is useful for high-speed computer links, “deep sharing” psychic rapports, and so forth."],
 					"cost": {
 						"value": 1, "type": "flat"
