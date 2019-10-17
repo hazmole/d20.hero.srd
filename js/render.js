@@ -3910,7 +3910,7 @@ Renderer.general = {
 			case "ranged": return FMT("range_ranged");
 			case "perception": return FMT("range_perception");
 			case "rank": return FMT("range_rank");
-			case "VAR": return FMT("varies");
+			case "var": return FMT("varies");
 			default: return FMT(range);
 		};
 	},
@@ -4120,6 +4120,7 @@ Renderer.powereffect = {
 			case "continuous": return FMT("duration_continuous");
 			case "permanent": return FMT("duration_permanent");
 			case "VAR": return FMT("varies");
+			case "combine": return FMT("type_combine");
 			default: return FMT(duration);
 		};
 	}

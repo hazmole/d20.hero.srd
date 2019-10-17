@@ -171,7 +171,7 @@
 				"Communication is instantaneous with any subject within your range.",
 				"The recipient of your communication must be within range and have a means of receiving your transmission (super-sense, or a receiver of some sort; conscious awareness is all that’s needed to “receive” Mental Communication). You can receive Communication of the same medium as your own. Receivers can choose to ignore your Communication, if they wish. Communication is language-dependent; you and the subject must share a common language (see {@effect Comprehend} to communicate across language barriers). Your Communication is point-to-point (sent to a single receiver within your range).",
 				"Activating your Communication effect is a free action. Communicating, however, takes the normal amount of time. You can apply the Rapid modifier to speed things up, provided your recipient is capable of receiving communication at that speed.",
-				"Others with an acute sense able to detect your Communication medium can “tap into” your transmissions with a Perception check (DC 10 + your Communication rank). The eavesdropper must be within normal sensory range of you or the receiver. With two degrees of success on the check, the eavesdropped can also understand your transmissions. Effects like {@effect Concealment} and {@sampleeffect Dazzle} that target your Communication medium can “jam” or block your transmissions."
+				"Others with an acute sense able to detect your Communication medium can “tap into” your transmissions with a Perception check (DC 10 + your Communication rank). The eavesdropper must be within normal sensory range of you or the receiver. With two degrees of success on the check, the eavesdropped can also understand your transmissions. Effects like {@effect Concealment} and {@samplepower Dazzle} that target your Communication medium can “jam” or block your transmissions."
 			],
 			"extras": [
 				{
@@ -2518,7 +2518,7 @@
 				},
 				{
 					"name": "Innate",
-					"entries": ["Senses, particularly those of aliens or constructs like robots, may be Innate, although this does not prevent sensory effects like {@effect Concealment} or {@sampleeffect Dazzle} from disabling them."],
+					"entries": ["Senses, particularly those of aliens or constructs like robots, may be Innate, although this does not prevent sensory effects like {@effect Concealment} or {@samplepower Dazzle} from disabling them."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}

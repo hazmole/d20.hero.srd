@@ -30,7 +30,7 @@ class NavBar {
 		addLi(ulPlayer, "conditions.html", FMT("title_condition"));
 		addDivider(ulPlayer);
 		addLi(ulPlayer, "archetypes.html", FMT("title_archetype"));
-		
+		addLi(ulPlayer, "samplepowers.html", FMT("title_samplepower"));
 		
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
 		addButton(
