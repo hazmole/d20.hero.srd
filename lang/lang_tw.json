@@ -15,6 +15,7 @@
 "title_skill": "技能",
 "title_modifier": "修飾符",
 "title_power": "超能力",
+"title_samplepower": "範例超能力",
 "title_powereffect": "超能力效果",
 "title_archetype": "英雄範型",
 "title_abilities": "屬性",
@@ -136,6 +137,7 @@
 "skill": "技能",
 "modifier": "修飾符",
 "powereffect": "超能力效果",
+"samplepower": "範例超能力",
 "ranked": "可重複提升等級",
 "ranked_max": "可重複提升等級，最高至［{0}］級",
 "extras": "追加強化",
@@ -152,5 +154,7 @@
 "example": "範例",
 "index_intro": "這個網站提供了由Green Ronin Publishing所出版，《超人類與超級罪犯》三版中屬於Open Game Content的部分內容。這意味著這個網站中囊括了其所有的內容，但「英雄點」和「能力點數」這兩個詞（以及其相關機制）將會在本站中分別被「勝利點」和「角色點數」所替代。這個網站將提供所有你遊玩本遊戲所需的資料。",
 
+"see_description": "參見描述",
+"varies": "不定",
 "none": "無"
 }

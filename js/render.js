@@ -1152,6 +1152,13 @@ function Renderer () {
 								};
 								this._recursiveRender(fauxEntry, textStack, meta);
 								break;
+							case "@sampleeffect":
+								fauxEntry.href.path = "samplepowers.html";
+								fauxEntry.href.hover = {
+									page: "samplepowers.html"
+								};
+								this._recursiveRender(fauxEntry, textStack, meta);
+								break;
 							case "@skill":
 								fauxEntry.href.path = "skills.html";
 								fauxEntry.href.hover = {
@@ -3807,6 +3814,7 @@ Renderer.general = {
 			case "combine": return FMT("type_combine");
 			case "extra": return FMT("type_extra");
 			case "flaw": return FMT("type_flaw");
+			case "VAR": return FMT("varies");
 			default: return "???";
 		}
 	},
@@ -3867,6 +3875,7 @@ Renderer.general = {
 			case "F": return FMT("action_free");
 			case "R": return FMT("action_reaction");
 			case "N": return FMT("none");
+			case "VAR": return FMT("varies");
 			default: return "－";
 		};
 	},
@@ -3900,6 +3909,7 @@ Renderer.general = {
 			case "ranged": return FMT("range_ranged");
 			case "perception": return FMT("range_perception");
 			case "rank": return FMT("range_rank");
+			case "VAR": return FMT("varies");
 			default: return FMT(range);
 		};
 	},
@@ -4108,6 +4118,7 @@ Renderer.powereffect = {
 			case "sustained": return FMT("duration_sustained");
 			case "continuous": return FMT("duration_continuous");
 			case "permanent": return FMT("duration_permanent");
+			case "VAR": return FMT("varies");
 			default: return FMT(duration);
 		};
 	}
