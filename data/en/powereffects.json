@@ -220,7 +220,7 @@
 				},
 				{
 					"name": "Sense-Dependent",
-					"entries": ["Communication itself is already sense-dependent (in that the subject(s) must be able to sense your communication medium to pick up your transmissions) and so cannot have this flaw. However, other perception range effects can be Communication-Dependent, meaning you must be in communication with your subject for them to work (using your Communication medium as a “carrier” for the other effect). If your Communication is blocked in any way, the other effect doesn’t work."],
+					"entries": ["Communication itself is already {@modifier sense-dependent} (in that the subject(s) must be able to sense your communication medium to pick up your transmissions) and so cannot have this flaw. However, other perception range effects can be Communication-Dependent, meaning you must be in communication with your subject for them to work (using your Communication medium as a “carrier” for the other effect). If your Communication is blocked in any way, the other effect doesn’t work."],
 					"cost": {
 						"value": -1, "type": "per"
 					}

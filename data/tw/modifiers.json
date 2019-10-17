@@ -815,7 +815,7 @@
 			]
 		},
 		{
-			"name": "Sense-Dependent",
+			"translate_name": "感官依賴", "name": "Sense-Dependent",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"

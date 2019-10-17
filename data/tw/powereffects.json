@@ -136,7 +136,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"你可以透過除了你原本聲音以外的媒介在一段距離外與他人溝通。選擇一種感官種類做為你的溝通媒介（參見下列範例）。在GM的裁斷下，你也可以使用一種只能藉由適當{@effect Sense|探查感官}效果才能注意到的特殊感官種類（例如微中子、重力子、魔法傳訊等）。",
+				"你可以透過除了你原本聲音以外的媒介在一段距離外與他人溝通。選擇一種感官種類做為你的溝通媒介（參見下列範例）。在GM的裁斷下，你也可以使用一種只能藉由適當{@effect Sense|探查感官}效果才能注意到的特殊感官種類（例如中微子通訊、重力波、魔法傳訊等）。",
 				{
 					"type": "list",
 					"items": [
@@ -168,7 +168,7 @@
 						["5","無限 (可以與位於任意場所的對象溝通)"]
 					]
 				},
-				"你與任何處於射程內的目標所進行的溝通，其作用都是極效。",
+				"你與任何處於射程內的目標所進行的溝通，其作用都是即效。",
 				"你溝通訊息的接收者必須處於你的溝通範圍內，且必須擁有能夠接收傳訊的手段（像是超感官、或某種接收器；對於靈感溝通而言，要接收傳訊只需要維持意識清醒）。你可以接收與你溝通媒介相同的通訊。若接收者希望，他們可以選擇無視你的溝通訊息。溝通效果依賴於語言，因此你和接收者必須理解同一種語言才能夠彼此溝通（若要跨越語言隔閡彼此溝通，請參見{@effect Comprehend}效果）。你的溝通傳訊是點對點的（向位於你射程內的一名接收者發送訊息）。",
 				"啟動你的溝通效果需要一個自由動作。然而，溝通本身將會花費其原本所需的時間。你可以應用急速修飾符以加速溝通的速度，但前題是你的接收者要能夠以同樣的速度接收該溝通訊息。",
 				"其他人若擁有能夠探查你溝通媒介的{@effect Sense|敏銳感官}，則他們將能夠藉由一次{@skill 感知}檢定（DC 10 + 你的溝通等級）嘗試「接收」到你的傳訊。監聽者必須處於你或接收者的正常感知範圍內。若該檢定獲得兩個程度或以上的成功，則監聽者將能夠理解你的傳訊。{@effect Concealment}和{@effect Dazzle}這類效果若以你的溝通媒介為目標，將會導致你的溝通傳訊被「堵塞」或屏蔽。"
@@ -176,35 +176,35 @@
 			"extras": [
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["You can broadcast omni-directionally to every receiver within your maximum Communication range at once. Note this extra is only strictly necessary to communicate with everyone over a wide area all at once; since using and maintaining Communication are free actions, the GM may allow a communicator to establish and maintain contact with multiple discrete receivers—such as the members of the same team—all in the same round."],
+					"entries": ["你可以同時向你溝通能力最大射程的所有接收者進行全方位的廣播。要注意的是，這個強化符只有在你想要同時對整片區域內的所有人進行溝通時才會是必要的；由於使用並維持溝通本身是一項自由動作，GM可能會允許溝通者在同一輪中對複數名不同接收者（例如同個隊伍的成員）反覆建立並保持聯繫。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "跨維度", "name": "Dimensional",
-					"entries": ["Communication with this modifier can bridge dimensional barriers, reaching into other dimensions and planes of existence. The Communication effect still has its proximate range, and the GM may rule certain subjects “out of range” of the effect, depending on their relative positions in the other dimension."],
+					"entries": ["應用了這個修飾符的溝通能力將能夠突破維度的藩籬，與另一個維度或位面的存在進行溝通。溝通效果仍然擁有其近似的射程範圍，且根據目標在其他維度的對應座標，GM可能會裁定目標位於該效果的射程之外。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "急速", "name": "Rapid",
-					"entries": ["Your communication occurs 10 times faster than normal speech. Each additional rank increases communication speed by a factor of 10. This is useful for high-speed computer links, “deep sharing” psychic rapports, and so forth."],
+					"entries": ["你的溝通速度比原本說話的速度要快上10倍。這個選項每額外提升一級都將使你的溝通速度再乘以10倍。這個選項在處理高速電子連線、「深度共享」的精神感應等溝通方式而言相當有用。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["If you have the Area extra, you can choose which receiver(s) within range get your Communication, excluding everyone else. This allows you to go from a single receiver (point-to-point) to all potential receivers in range (omni-directional) or anywhere in between."],
+					"entries": ["若你應用了範圍化修飾符，你可以指定射程範圍內的特定接收者接獲你的傳訊，而排除掉範圍內的其他目標。這讓你得以調整你溝通效果的目標，對單一目標（點對點）、對所有範圍內的潛在接收者（全方位廣播）、或是介於這兩者之間。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Subtle",
-					"entries": ["Your Communication cannot be “overheard” (it is encrypted, scrambled, or otherwise protected). With 2 ranks, your Communication cannot even be detected (that is, no one can even tell you are transmitting, much less what you’re saying)."],
+					"translate_name": "隱密使用", "name": "Subtle",
+					"entries": ["你的溝通訊息將無法被「監聽」（它將被加密、或透過其他手段保護）。若你的溝通效果應用了2級的隱密使用，則你的溝通效果甚至將無法被察覺到（這代表其他人將無法分辨你正在傳送訊息，更別說知道你傳送的內容了）。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
 					}
@@ -213,14 +213,14 @@
 			"flaws": [
 				{
 					"translate_name": "限定條件", "name": "Limited",
-					"entries": ["Communication may be limited to only members of a particular group, such as a species, family, members of an organization, and so forth. This is in addition to limitations imposed by medium (that is, requiring subjects to have a means of picking up on the Communication)."],
+					"entries": ["溝通效果的作用對象可能會受限於特定團體的成員，比如說特定物種、家族、或組織的成員等等。這個修飾符是在溝通媒介所施加的限制基礎上追加的限制條件（這代表你所限定的目標仍必須具有接收到溝通訊息的媒介手段）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Sense-Dependent",
-					"entries": ["Communication itself is already sense-dependent (in that the subject(s) must be able to sense your communication medium to pick up your transmissions) and so cannot have this flaw. However, other perception range effects can be Communication-Dependent, meaning you must be in communication with your subject for them to work (using your Communication medium as a “carrier” for the other effect). If your Communication is blocked in any way, the other effect doesn’t work."],
+					"translate_name": "感官依賴", "name": "Sense-Dependent",
+					"entries": ["溝通效果本身就已經具備了{@modifier 感官依賴}的性質（目標必須能夠感知你所使用的溝通媒介才能接收到你的傳訊），且因此不能適用再這個缺陷。然而，其他射程為感知距離的效果可以具備「溝通效果依賴」的性質，這代表你必須要先能與你的目標溝通，才能使效果作用於他們身上（使用你的溝通媒介作為其他效果的「載體」）。若你的溝通效果被任何手段給阻擋，則其他依賴於溝通效果的效果也將無法發揮作用。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -228,7 +228,7 @@
 			]
 		},
 		{
-			"name": "Comprehend",
+			"translate_name": "理解", "name": "Comprehend",
 			"type": "SEN",
 			"action": "N",
 			"range": "personal",
