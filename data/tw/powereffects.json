@@ -238,45 +238,45 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can comprehend different sorts of communication. Each rank in this effect allows you to choose one of the following options:",
+				"你可以理解不同種類的交流溝通。這個效果的每個等級都可以讓你從下列選項中選擇一個種類：",
 				{
 					"type": "entries",
-					"name": "Animals",
+					"translate_name": "動物", "name": "Animals",
 					"entries": [
-						"You can either speak to or comprehend animals. You can ask questions and receive answers, although animals are not any more friendly or cooperative than normal. furthermore, wary and cunning animals are likely to be terse and evasive, while especially stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you. For 2 ranks you can both speak to and understand the “speech” of animals."
+						"你可以對動物說話、或者是理解牠們所表達的含意。你可以向牠們提問並接收到相應的回答，儘管動物並不會因為這個效果而表現得比原本更友善或配合。除此之外，機警或狡猾的動物的用詞可能會傾向簡潔而閃爍，而特別愚笨的動物則可能會做出空泛的評論。若動物對你友善，則牠可能會為你提供一些協助。若這個選項為2級，則你既可以向動物說話，也可以理解牠們所使用的「語言」。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Languages",
+					"translate_name": "語言", "name": "Languages",
 					"entries": [
-						"You can either speak or understand the language of any intelligent creature. You can speak only one language at a time, although you can comprehend multiple languages at once. This effect does not enable you to speak with creatures that don’t possess a language. For 2 ranks you can both speak and understand all languages. For 3 ranks anyone able to hear you can understand what you’re saying, regardless of language. Being able to also read any language you comprehend requires 1 additional rank."
+						"你可以使用、或者是理解任何智能生物的語言。你一次只能使用一種語言，但你可以同時理解複數種語言。這個效果並不能讓你跟不具有語言概念的生物說話。若這個選項為2級，則你可以使用和理解所有的語言。若這個選項為3級，則無論你使用的語言為何，任何能夠聽見你的人都能夠理解你所說的話。若要能夠閱讀任何你理解的語言，則需要再額外提升這個選項1級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Machines",
+					"translate_name": "電子機械", "name": "Machines",
 					"entries": [
 						"You can communicate with electronic devices, making inquiries and understanding their replies. This requires two Comprehend ranks. Most are limited by their programming and peripherals in terms of what they “know,” and may not be able to answer some inquiries with anything other than an “unknown” or “not found.” At the GM’s discretion, you can use the Technology skill as an interaction skill when communicating with machines."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Objects",
+					"translate_name": "物體", "name": "Objects",
 					"entries": [
 						"You can communicate with inanimate objects, granting them the ability to speak to you or simply “reading” impressions from them. This requires two Comprehend ranks. Objects only “know” about events directly affecting them or occurring in their immediate area. Gamemasters can apply the guidelines for Postcognition to this effect."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Plants",
+					"translate_name": "植物", "name": "Plants",
 					"entries": [
 						"You can communicate with plants, both normal plants and plant creatures. This requires two Comprehend ranks. A plant’s sense of its surroundings is limited, so it won’t be able to give (or recognize) detailed descriptions or answer questions about events outside its immediate vicinity."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Spirits",
+					"translate_name": "精魂", "name": "Spirits",
 					"entries": [
 						"You can communicate with incorporeal and normally invisible and inaudible spirit beings, such as ghosts or certain extradimensional entities, depending on the context of the setting. Rank 1 essentially allows you to function as a “medium” of sorts, able to perceive spirits and relay what you see and hear. Rank 2 allows you to be clearly under-stood by denizens of the spirit world, as well. At the GM’s discretion, this effect may extend to undead creatures, demons, or other supernatural entities, depending on the setting."
 					]
