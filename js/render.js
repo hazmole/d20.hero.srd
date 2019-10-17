@@ -1152,7 +1152,7 @@ function Renderer () {
 								};
 								this._recursiveRender(fauxEntry, textStack, meta);
 								break;
-							case "@sampleeffect":
+							case "@samplepower":
 								fauxEntry.href.path = "samplepowers.html";
 								fauxEntry.href.hover = {
 									page: "samplepowers.html"
@@ -3682,6 +3682,7 @@ Renderer.stripTags = function (str) {
 					case "@condition":
 					case "@skill":
 					case "@effect":
+					case "@samplepower":
 					case "@modifier": {
 						const parts = text.split("|");
 						return parts.length >= 2 ? parts[1] : parts[0];
