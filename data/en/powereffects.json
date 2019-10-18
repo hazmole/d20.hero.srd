@@ -257,14 +257,14 @@
 					"type": "entries",
 					"name": "Machines",
 					"entries": [
-						"You can communicate with electronic devices, making inquiries and understanding their replies. This requires two Comprehend ranks. Most are limited by their programming and peripherals in terms of what they “know,” and may not be able to answer some inquiries with anything other than an “unknown” or “not found.” At the GM’s discretion, you can use the Technology skill as an interaction skill when communicating with machines."
+						"You can communicate with electronic devices, making inquiries and understanding their replies. This requires two Comprehend ranks. Most are limited by their programming and peripherals in terms of what they “know,” and may not be able to answer some inquiries with anything other than an “unknown” or “not found.” At the GM’s discretion, you can use the {@skill Technology} skill as an interaction skill when communicating with machines."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Objects",
 					"entries": [
-						"You can communicate with inanimate objects, granting them the ability to speak to you or simply “reading” impressions from them. This requires two Comprehend ranks. Objects only “know” about events directly affecting them or occurring in their immediate area. Gamemasters can apply the guidelines for Postcognition to this effect."
+						"You can communicate with inanimate objects, granting them the ability to speak to you or simply “reading” impressions from them. This requires two Comprehend ranks. Objects only “know” about events directly affecting them or occurring in their immediate area. Gamemasters can apply the guidelines for {@effect sense|Postcognition} to this effect."
 					]
 				},
 				{
@@ -278,7 +278,7 @@
 					"type": "entries",
 					"name": "Spirits",
 					"entries": [
-						"You can communicate with incorporeal and normally invisible and inaudible spirit beings, such as ghosts or certain extradimensional entities, depending on the context of the setting. Rank 1 essentially allows you to function as a “medium” of sorts, able to perceive spirits and relay what you see and hear. Rank 2 allows you to be clearly under-stood by denizens of the spirit world, as well. At the GM’s discretion, this effect may extend to undead creatures, demons, or other supernatural entities, depending on the setting."
+						"You can communicate with incorporeal and normally invisible and inaudible spirit beings, such as ghosts or certain extradimensional entities, depending on the context of the setting. Rank 1 essentially allows you to function as a “medium” of sorts, able to perceive spirits and relay what you see and hear. Rank 2 allows you to be clearly understood by denizens of the spirit world, as well. At the GM’s discretion, this effect may extend to undead creatures, demons, or other supernatural entities, depending on the setting."
 					]
 				}
 			],
@@ -303,35 +303,35 @@
 				"type": "per"
 			},
 			"entries": [
-				"You gain total concealment from a particular sense while this effect is active, although you are still detectable to other senses (even other senses of the same sense type; so you could have full concealment against normal sight, but not infravision or any other sense in the sight sense type). Each additional rank gives you concealment from another sense; two ranks give you concealment for an entire sense type. See Concealment for full effects.",
-				"Concealment from visual senses costs double (2 ranks for one visual sense, 4 ranks for all visual senses). You cannot have concealment from tactile senses, since that requires being incorporeal (see Insubstantial effect). So with Concealment 5, you can have total concealment from all visual senses (4 ranks) and normal hearing (1 rank), for example. With Concealment 10 you have total concealment from all sense types other than tactile.",
+				"You gain total concealment from a particular sense while this effect is active, although you are still detectable to other senses (even other senses of the same sense type; so you could have full concealment against normal sight, but not infravision or any other sense in the sight sense type). Each additional rank gives you concealment from another sense; two ranks give you concealment for an entire sense type. See {@rule Concealment|basic|8|Concealment} for full effects.",
+				"Concealment from visual senses costs double (2 ranks for one visual sense, 4 ranks for all visual senses). You cannot have concealment from tactile senses, since that requires being incorporeal (see {@effect Insubstantial} effect). So with Concealment 5, you can have total concealment from all visual senses (4 ranks) and normal hearing (1 rank), for example. With Concealment 10 you have total concealment from all sense types other than tactile.",
 				{
 					"type": "inset",
 					"name": "Concealment and Perception Range",
 					"entries": [
 						"Perception range effects must accurately perceive a target in order to affect it. This generally means you cannot target subjects with total concealment from your accurate senses with perception range effects. Thus, foes with Visual Concealment (the most common accurate sense) can be quite effective against characters relying on perception range attacks, unless the attacker has an unusual accurate sense to circumvent the Concealment. This is one reason Visual Concealment costs extra.",
-						"At the Gamemaster’s discretion, a successful Perception check to accurately locate a target with an acute sense may allow you to use perception range effects on that target; however, the target still benefits from concealment, granting a +5 circumstance bonus to resistance against the effect."
+						"At the Gamemaster’s discretion, a successful {@skill Perception} check to accurately locate a target with an acute sense may allow you to use perception range effects on that target; however, the target still benefits from concealment, granting a +5 circumstance bonus to resistance against the effect."
 					]
 				}
 			],
 			"extras": [
 				{
 					"name": "Affects Others",
-					"entries": ["This modifier allows you to grant Concealment to others while you are touching them, or at range, if you also apply the Range modifier."],
+					"entries": ["This modifier allows you to grant Concealment to others while you are touching them, or at range, if you also apply the {@modifier Increased Range|Ranged} modifier."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Area",
-					"entries": ["Concealment with Affects Others (previously) or attack (immediately following) may have this extra, affecting everything in the area. To only affect some targets in the area, apply the Selective modifier as well."],
+					"entries": ["Concealment with {@modifier Affects Others} (previously) or {@modifier Attack} (immediately following) may have this extra, affecting everything in the area. To only affect some targets in the area, apply the {@modifier Selective} modifier as well."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Attack",
-					"entries": ["Use this extra for a Concealment effect you can impose on others (whether they want to be concealed or not). An invisibility ray, for example, is a Visual Concealment Attack, while a field of darkness is a Burst Area Visual Concealment Attack."],
+					"entries": ["Use this extra for a Concealment effect you can impose on others (whether they want to be concealed or not). An invisibility ray, for example, is a Visual Concealment Attack, while a field of darkness is a {@modifier Area|Burst Area} Visual Concealment Attack."],
 					"cost": {
 						"value": 0, "type": "per"
 					}
@@ -361,7 +361,7 @@
 				},
 				{
 					"name": "Partial",
-					"entries": ["Your effect provides partial rather than total concealment (see Concealment)."],
+					"entries": ["Your effect provides partial rather than total concealment (see {@rule Concealment|basic|8|Concealment})."],
 					"cost": {
 						"value": -1, "type": "per"
 					}

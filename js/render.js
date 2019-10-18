@@ -4031,10 +4031,15 @@ Renderer.powereffect = {
 		const renderer = Renderer.get();
 		var contentStack = [];
 		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
+		var effectStack = [];
+		if(entry.effects)
+			renderer.recursiveRender({entries: entry.effects}, effectStack, {depth: 0});
+
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.powereffect.getInfoTr(entry, isFull)}
+			${(entry.effects)? Renderer.utils.getTextTr(contentStack.join("")): ""}
 			${Renderer.utils.getDividerTr()}
 			${Renderer.utils.getTextTr(contentStack.join(""))}
 			${Renderer.powereffect.getModifierBlock(entry)}

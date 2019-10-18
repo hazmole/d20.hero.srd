@@ -243,7 +243,7 @@
 					"type": "entries",
 					"translate_name": "動物", "name": "Animals",
 					"entries": [
-						"你可以對動物說話、或者是理解牠們所表達的含意。你可以向牠們提問並接收到相應的回答，儘管動物並不會因為這個效果而表現得比原本更友善或配合。除此之外，機警或狡猾的動物的用詞可能會傾向簡潔而閃爍，而特別愚笨的動物則可能會做出空泛的評論。若動物對你友善，則牠可能會為你提供一些協助。若這個選項為2級，則你既可以向動物說話，也可以理解牠們所使用的「語言」。"
+						"你可以對動物說話、或者是理解牠們所表達的含意。你可以向牠們提問並得到相應的回答，儘管動物並不會因為這個效果而表現得比原本更友善或配合。除此之外，機警或狡猾的動物的用詞可能會傾向簡潔而閃爍，而特別愚笨的動物則可能會做出空泛的評論。若動物對你友善，則牠可能會為你提供一些協助。若這個選項為2級，則你既可以向動物說話，也可以理解牠們所使用的「語言」。"
 					]
 				},
 				{
@@ -257,35 +257,35 @@
 					"type": "entries",
 					"translate_name": "電子機械", "name": "Machines",
 					"entries": [
-						"You can communicate with electronic devices, making inquiries and understanding their replies. This requires two Comprehend ranks. Most are limited by their programming and peripherals in terms of what they “know,” and may not be able to answer some inquiries with anything other than an “unknown” or “not found.” At the GM’s discretion, you can use the Technology skill as an interaction skill when communicating with machines."
+						"你可以和電子裝置溝通，詢問並理解它們的答覆。這個選項需要分配2級的理解等級才能夠選擇。大部分的電子裝置所「知道」的事物都受限於它們的程序和周邊設備，且可能會因此無法做出除了「不明」或「查無結果」以外的答覆。在GM的裁斷下，你在與電子機械溝通時可以使用{@skill 科技}技能做為交涉技能。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "物體", "name": "Objects",
 					"entries": [
-						"You can communicate with inanimate objects, granting them the ability to speak to you or simply “reading” impressions from them. This requires two Comprehend ranks. Objects only “know” about events directly affecting them or occurring in their immediate area. Gamemasters can apply the guidelines for Postcognition to this effect."
+						"你可以和無生命的物體溝通，賦予它們對你說話的能力、或嘗試簡單地「讀取」它們的意念。這個選項需要分配2級的理解等級才能夠選擇。無生命物體僅能夠「認知」到直接影響它們、或發生在它們鄰近地區的事件。對於這個選項的效果，遊戲主持人可以遵循{@effect sense|過去視}的準則進行處理。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "植物", "name": "Plants",
 					"entries": [
-						"You can communicate with plants, both normal plants and plant creatures. This requires two Comprehend ranks. A plant’s sense of its surroundings is limited, so it won’t be able to give (or recognize) detailed descriptions or answer questions about events outside its immediate vicinity."
+						"你可以與植物溝通，包括尋常植物和植物生命體。這個選項需要分配2級的理解等級才能夠選擇。植物對於它周遭環境的感知相當有限，因此它可能無法給出（或辨識出）細節情報、或無法回答與發生在它鄰近區域外的事件有關的問題。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "精魂", "name": "Spirits",
 					"entries": [
-						"You can communicate with incorporeal and normally invisible and inaudible spirit beings, such as ghosts or certain extradimensional entities, depending on the context of the setting. Rank 1 essentially allows you to function as a “medium” of sorts, able to perceive spirits and relay what you see and hear. Rank 2 allows you to be clearly under-stood by denizens of the spirit world, as well. At the GM’s discretion, this effect may extend to undead creatures, demons, or other supernatural entities, depending on the setting."
+						"你可以和非物質且通常無法被看見或聽見的靈體存在溝通，根據劇集設定的內容，這可能會是幽靈、或某種異維度存在。1級的這個選項可以使你做為某種「媒介」，讓你得以感知到靈體，並傳達你看見和聽見的事物。2級的這個選項則讓你也能夠清楚地被靈界存在所理解。在GM的裁斷下，根據劇集的設定，這個效果可能可以延伸適用於不死生物、惡魔、或其他超自然存在。"
 					]
 				}
 			],
 			"flaws": [
 				{
-					"name": "Type",
-					"entries": ["You can only comprehend a broad type of subject (only elves, canines, avians, or sea creatures, for example). For an additional flaw, you can only comprehend a narrow type of subject (dogs, falcons, or dolphins, for example). {@b Broad –1 cost per rank. Narrow –2 cost per rank.}"],
+					"translate_name": "種類", "name": "Type",
+					"entries": ["你只能理解屬於一種廣泛種類的目標（例如精靈、犬科、鳥類、或海洋生物）。若要使這個缺陷更嚴重，則你改為只能理解屬於一種狹隘種類的目標（例如狗、猛禽、或海豚）。{@b 廣泛種類每級-1點. 狹隘種類每級-2點.}"],
 					"cost": {
 						"value": {"min":-1, "max":-2}, "type": "per", "hidden": true
 					}
@@ -293,7 +293,7 @@
 			]
 		},
 		{
-			"name": "Concealment",
+			"translate_name": "隱蔽", "name": "Concealment",
 			"type": "SEN",
 			"action": "F",
 			"range": "personal",
@@ -303,42 +303,42 @@
 				"type": "per"
 			},
 			"entries": [
-				"You gain total concealment from a particular sense while this effect is active, although you are still detectable to other senses (even other senses of the same sense type; so you could have full concealment against normal sight, but not infravision or any other sense in the sight sense type). Each additional rank gives you concealment from another sense; two ranks give you concealment for an entire sense type. See Concealment for full effects.",
-				"Concealment from visual senses costs double (2 ranks for one visual sense, 4 ranks for all visual senses). You cannot have concealment from tactile senses, since that requires being incorporeal (see Insubstantial effect). So with Concealment 5, you can have total concealment from all visual senses (4 ranks) and normal hearing (1 rank), for example. With Concealment 10 you have total concealment from all sense types other than tactile.",
+				"你在這個效果啟動時獲得對特定感官的全遮蔽，然而藉由其他感官仍能夠感知到你的存在（即使是相同感官種類的其他感官也一樣；因此你可能具有對尋常視覺的全遮蔽，但紅外線視覺或其他視覺種類的感官仍可以看見你）。每級額外等級都將使你獲得對其他感官的隱蔽效果；每2級則將使你獲得對一種感官種類中所有感官的隱蔽效果。參見{@rule 遮蔽|basic|8|Concealment}規則以查看隱蔽效果所能提供的完整好處。",
+				"對視覺感官的隱蔽效果將需要雙倍的等級（對單一視覺感官的隱蔽需要2級，對所有視覺感官的隱蔽需要4級）。你無法獲得對觸覺感官的隱蔽，若要達到該效果，你必須要是非實體的存在（參見{@effect Insubstantial}效果）。因此舉例來說，若你擁有5級的隱蔽效果，則你可以對所有視覺感官（4級）和尋常聽覺（1級）具有全遮蔽。而10級的隱蔽效果，則讓你可以獲得對除了觸覺以外的所有感官種類的全遮蔽效益。",
 				{
 					"type": "inset",
-					"name": "Concealment and Perception Range",
+					"translate_name": "隱蔽和感知距離射程", "name": "Concealment and Perception Range",
 					"entries": [
-						"Perception range effects must accurately perceive a target in order to affect it. This generally means you cannot target subjects with total concealment from your accurate senses with perception range effects. Thus, foes with Visual Concealment (the most common accurate sense) can be quite effective against characters relying on perception range attacks, unless the attacker has an unusual accurate sense to circumvent the Concealment. This is one reason Visual Concealment costs extra.",
-						"At the Gamemaster’s discretion, a successful Perception check to accurately locate a target with an acute sense may allow you to use perception range effects on that target; however, the target still benefits from concealment, granting a +5 circumstance bonus to resistance against the effect."
+						"射程為感知距離的效果必須要能夠準確地感知到目標才能夠影響對方。這通常代表你無法選擇對你準確感官具有全遮蔽的對象做為感知距離射程效果的目標。因此，對於依賴感知距離射程攻擊的角色而言，擁有視覺（最常見的準確感官）隱蔽效果的敵人將變的十分棘手，除非他具備其他不常見的準確感官以規避掉隱蔽的影響。這也是獲得視覺隱蔽所需代價較大的理由。",
+						"在遊戲主持人的裁斷下，成功通過一次使用準確感官以嘗試準確定位目標的{@skill 感知}檢定，也許可以讓你得以使用感知距離射程的效果瞄準處於全遮蔽的目標；然而，該目標仍將獲得遮蔽所帶來的好處，在對抗該效果的抵抗檢定中獲得+5的情境加值。"
 					]
 				}
 			],
 			"extras": [
 				{
 					"translate_name": "影響他人", "name": "Affects Others",
-					"entries": ["This modifier allows you to grant Concealment to others while you are touching them, or at range, if you also apply the Range modifier."],
+					"entries": ["這個修飾符讓你得以在觸碰他人時將隱蔽效果賦予他們，或者若你同時應用了{@modifier Increased Range|遠距}修飾符，則你可以使一定距離內的目標獲得隱蔽效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["Concealment with Affects Others (previously) or attack (immediately following) may have this extra, affecting everything in the area. To only affect some targets in the area, apply the Selective modifier as well."],
+					"entries": ["應用了{@modifier 影響他人}（前述）或{@modifier Attack|攻擊化}（後述）的隱蔽效果可能也會應用這個修飾符，用以影響範圍內的所有目標。若要只影響範圍內的其中一些目標，則需要再適用{@modifier 可選擇}修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Attack",
-					"entries": ["Use this extra for a Concealment effect you can impose on others (whether they want to be concealed or not). An invisibility ray, for example, is a Visual Concealment Attack, while a field of darkness is a Burst Area Visual Concealment Attack."],
+					"translate_name": "攻擊化", "name": "Attack",
+					"entries": ["適用這個修飾符，將讓你能夠把隱蔽效果強加給他人（無論對方是否想要被隱蔽都一樣）。舉例來說，隱形光束就是一種視覺隱蔽攻擊，而黑暗場域則是一種{@modifier Area|爆發範圍化}視覺隱蔽攻擊。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
 					"translate_name": "精確", "name": "Precise",
-					"entries": ["You can vary your Concealment at will as a free action: going from total to partial to no concealment, concealing some parts and not others, or anywhere in-between. If your Concealment affects multiple senses, you can also choose to affect some of those senses and not others. Concealment is normally all-or-nothing: either you are concealed to the full amount of your effect, or you’re not."],
+					"entries": ["你能夠以一個自由動作隨意變化你的隱蔽效果：從全遮蔽、半遮蔽、到無遮蔽、隱藏其中一部分而留下其他部分等等。若你的隱蔽效果能夠影響複數感官，則你也可以選擇只影響其中部分感官，而不影響其他感官。在原本為適用這個修飾符的情況下，隱蔽效果要嘛使你完全發揮其效用將你遮蔽，要嘛完全不作用。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
@@ -346,36 +346,36 @@
 			],
 			"flaws": [
 				{
-					"name": "Blending",
-					"entries": ["You “blend” into the background. Your Concealment only functions as long as you move no faster than your (ground speed rank –1), since your blending can’t adapt faster than that."],
+					"translate_name": "融混", "name": "Blending",
+					"entries": ["你透過「融入」背景環境以隱藏身形。由於你融入環境的速度有限，因此你的隱蔽效果只能在你以不快於「你地面速度等級-1」的速度移動時才能發揮作用。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "限定條件", "name": "Limited",
-					"entries": ["Your Concealment only works under certain conditions, such as in fog, shadows, or in urban locales. One example is Limited to Machines, where your Concealment only fools senses with a technological descriptor."],
+					"entries": ["你的隱蔽效果只能在特定情況下發揮作用，例如處於霧中、陰影中、或在城市地區。另一個限定條件的範例是「限定儀器」，這代表你的隱蔽效果只能欺騙帶有科技描述符的感官。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Partial",
-					"entries": ["Your effect provides partial rather than total concealment (see Concealment)."],
+					"translate_name": "半遮蔽", "name": "Partial",
+					"entries": ["你的隱蔽效果只能提供半遮蔽，而非全遮蔽的作用（參見{@rule 遮蔽|basic|8|Concealment}規則）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Passive",
-					"entries": ["Your Concealment only lasts until you do something requiring an attack or effect check on your part, at which point it stops working until you reactivate it, which you may do on the following round."],
+					"translate_name": "被動", "name": "Passive",
+					"entries": ["你的隱蔽效果只會持續到主動進行某些需要攻擊或效果檢定的行動為止，並會在當下停止作用，直到你再次於之後的行動輪中啟動它。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Resistible",
-					"entries": ["Your Concealment offers a resistance check (chose a defense when the flaw is applied) for anyone aware of your presence and actively looking for you. Concealment Resistible by Will may represent some sort of mental illusion effect."],
+					"translate_name": "可被抵抗", "name": "Resistible",
+					"entries": ["你的隱蔽效果將會使任何察覺到你存在、或主動看向你的角色得以進行一次抵抗檢定（在你為這個效果適用此缺陷時選擇一種防禦屬性）。可被意志抵抗的隱蔽效果可能代表著某種心靈幻象效果。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1219,7 +1219,7 @@
 					}
 				},
 				{
-					"name": "Resistible",
+					"translate_name": "可被抵抗", "name": "Resistible",
 					"entries": ["Illusions Resistible by Will are typically hallucinatory effects projected into the target’s mind. This flaw is commonly combined with Selective, so only the targets you choose perceive your illusions. Illusions Resistible by Fortitude may represent a hallucinatory drug or similar biochemical effect. As usual, targets immune to effects targeting the resistance are unaffected by the illusion as well. So Illusions Resistible by Fortitude or Will have no effect on non-living targets, for example. This resistance check is in addition to the usual Insight check; the first determines if the target can resist the effect creating the illusion, the Insight check determine if the target notices something wrong about the illusion, revealing it as false."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1402,7 +1402,7 @@
 					}
 				},
 				{
-					"name": "Attack",
+					"translate_name": "攻擊化", "name": "Attack",
 					"entries": ["Applied to Insubstantial, this extra makes it into a close range effect able to turn targets Insubstantial. You must be able to physically touch the target to make an Insubstantial Attack, meaning it must have the Affects Corporeal modifier to use it while you are incorporeal. This modifier is most effective for ranks 2 through 4, since the victim loses some or all ability to interact with the physical world. The default resistance for an Insubstantial Attack is Dodge, although it can be Fortitude or Will, as best suits the effect’s descriptors. You need to grab a target in order to drag them inside a solid object unless the target is already defenseless. You and the target are not insubstantial to each other. The cost is +0 per rank if it is an Insubstantial Attack only, +1 cost per rank if you can both be Insubstantial and make an attack to make others Insubstantial."],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per"
@@ -1569,7 +1569,7 @@
 					}
 				},
 				{
-					"name": "Resistible",
+					"translate_name": "可被抵抗", "name": "Resistible",
 					"entries": ["Targets of your Luck Control get a resistance check—usually Dodge or Will—to avoid its effects."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1735,7 +1735,7 @@
 			],
 			"extras": [
 				{
-					"name": "Attack",
+					"translate_name": "攻擊化", "name": "Attack",
 					"entries": ["A Morph Attack imposes a different appearance on the target creature. Unlike an Affliction that imposes the transformed condition, a Morph Attack is entirely cosmetic: you can’t change the target’s traits other than appearance."],
 					"cost": {
 						"value": 0, "type": "per"
@@ -1751,7 +1751,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Resistible",
+					"translate_name": "可被抵抗", "name": "Resistible",
 					"entries": ["A Morph effect Resistible by Will is most likely a mental illusion of some sort. Observers who succeed on the Will resistance check see you as you truly are rather than in your Morph guise. This is in addition to the usual Perception check to penetrate your disguise. If you have the Metamorph extra, then targets that resist your effect treat you as if you had your normal traits, and not those granted by your Metamorph form."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1938,7 +1938,7 @@
 					"type": "entries",
 					"translate_name": "行蹤無跡", "name": "Trackless",
 					"entries": [
-						"你不會留下蹤跡，且無法被視覺感官所追蹤（儘管你仍會被嗅覺或其他手段給追蹤）。你可以走過軟沙或雪地的表面而不會留下任何腳蹤，且你對震顫感知而言具有全隱蔽（參見{@rule Concealment|basic|8|Concealment}）。這個移動方式的每一級額外等級都能讓你不會留下另一種感官類型的蹤跡。"
+						"你不會留下蹤跡，且無法被視覺感官所追蹤（儘管你仍會被嗅覺或其他手段給追蹤）。你可以走過軟沙或雪地的表面而不會留下任何腳蹤，且你對震顫感知而言具有全隱蔽（參見{@rule 遮蔽|basic|8|Concealment}規則）。這個移動方式的每一級額外等級都能讓你不會留下另一種感官類型的蹤跡。"
 					]
 				},
 				{
@@ -2701,7 +2701,7 @@
 					}
 				},
 				{
-					"name": "Resistible",
+					"translate_name": "可被抵抗", "name": "Resistible",
 					"entries": ["Your minions get an appropriate resistance check (typically Will) against (DC 10 + Summon rank) to avoid being summoned. If they successfully resist, you cannot attempt to summon them again in that scene without using extra effort."],
 					"cost": {
 						"value": -1, "type": "per"

@@ -158,7 +158,7 @@
 			]
 		},
 		{
-			"name": "Attack",
+			"_translate_name": "攻擊化", "name": "Attack",
 			"type": "extra",
 			"cost": {
 				"value": 0, "type": "per"
@@ -802,7 +802,7 @@
 			]
 		},
 		{
-			"name": "Resistible",
+			"_translate_name": "可被抵抗", "name": "Resistible",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
