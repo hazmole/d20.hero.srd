@@ -4053,8 +4053,10 @@ Renderer.powereffect = {
 		var duration = this.getDurationText(entry.duration);
 		var cost_text = this.getCostText(entry.cost);
 		var effectStack = [];
-		if(entry.effects)
+		if(entry.effects){
+			const renderer = Renderer.get();
 			renderer.recursiveRender({entries: entry.effects}, effectStack, {depth: 0});
+		}
 
 		if(isFull)
 			return (
