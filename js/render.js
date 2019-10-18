@@ -4031,15 +4031,10 @@ Renderer.powereffect = {
 		const renderer = Renderer.get();
 		var contentStack = [];
 		renderer.recursiveRender({entries: entry.entries}, contentStack, {depth: 0});
-		var effectStack = [];
-		if(entry.effects)
-			renderer.recursiveRender({entries: entry.effects}, effectStack, {depth: 0});
-
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.powereffect.getInfoTr(entry, isFull)}
-			${(entry.effects)? Renderer.utils.getTextTr(contentStack.join("")): ""}
 			${Renderer.utils.getDividerTr()}
 			${Renderer.utils.getTextTr(contentStack.join(""))}
 			${Renderer.powereffect.getModifierBlock(entry)}
@@ -4057,13 +4052,18 @@ Renderer.powereffect = {
 		var range = Renderer.general.getRangeText(entry.range);
 		var duration = this.getDurationText(entry.duration);
 		var cost_text = this.getCostText(entry.cost);
-		
+		var effectStack = [];
+		if(entry.effects)
+			renderer.recursiveRender({entries: entry.effects}, effectStack, {depth: 0});
+
 		if(isFull)
 			return (
 				`<tr><td colspan="8"><span class="bold">${FMT("list_action")}：</span>${action}</td></tr>
 				<tr><td colspan="8"><span class="bold">${FMT("list_range")}：</span>${range}</td></tr>
 				<tr><td colspan="8"><span class="bold">${FMT("list_duration")}：</span>${duration}</td></tr>
-				<tr><td colspan="8"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`);
+				<tr><td colspan="8"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`+
+				(entry.effects)?
+				`<tr><td colspan="8"><span class="bold">${FMT("list_effects")}：</span>${effectStack.join("")}</td></tr>`:"");
 		else
 			return (
 				`<tr>
@@ -4072,7 +4072,9 @@ Renderer.powereffect = {
 				</tr><tr>
 					<td colspan="2"><span class="bold">${FMT("list_duration")}：</span>${duration}</td>
 					<td colspan="2"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td>
-				</tr>`);
+				</tr>`+
+				(entry.effects)?
+				`<tr><td colspan="4"><span class="bold">${FMT("list_effects")}：</span>${effectStack.join("")}</td></tr>`:"");
 	},
 	getModifierBlock: function(entry) {
 		var new_renderer = Renderer.get();
