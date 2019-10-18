@@ -106,6 +106,7 @@
 "list_range": "射程",
 "list_duration": "持續",
 "list_cost": "花費",
+"list_effect": "效果",
 "list_contain": "包含狀態",
 "list_ability": "屬性",
 "list_untrain": "未受訓?",

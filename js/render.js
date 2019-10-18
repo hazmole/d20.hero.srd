@@ -4055,7 +4055,7 @@ Renderer.powereffect = {
 		var effectStack = [];
 		if(entry.effects){
 			const renderer = Renderer.get();
-			renderer.recursiveRender({entries: entry.effects}, effectStack, {depth: 0});
+			renderer.recursiveRender(entry.effects, effectStack, null);
 		}
 
 		if(isFull)
@@ -4064,7 +4064,7 @@ Renderer.powereffect = {
 				<tr><td colspan="8"><span class="bold">${FMT("list_range")}：</span>${range}</td></tr>
 				<tr><td colspan="8"><span class="bold">${FMT("list_duration")}：</span>${duration}</td></tr>
 				<tr><td colspan="8"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td></tr>`
-				+(entry.effects? `<tr><td colspan="8"><span class="bold">${FMT("list_effect")}：</span>${entry.effects}</td></tr>` : ""));
+				+(entry.effects? `<tr><td colspan="8"><span class="bold">${FMT("list_effect")}：</span>${effectStack.join("")}</td></tr>` : ""));
 		else
 			return (
 				`<tr>
@@ -4073,7 +4073,8 @@ Renderer.powereffect = {
 				</tr><tr>
 					<td colspan="2"><span class="bold">${FMT("list_duration")}：</span>${duration}</td>
 					<td colspan="2"><span class="bold">${FMT("list_cost")}：</span>${cost_text}</td>
-				</tr>`+(entry.effects? `<tr><td colspan="4"><span class="bold">${FMT("list_effect")}：</span>${entry.effects}</td></tr>` : ""));
+				</tr>`
+				+(entry.effects? `<tr><td colspan="4"><span class="bold">${FMT("list_effect")}：</span>${effectStack.join("")}</td></tr>` : ""));
 	},
 	getModifierBlock: function(entry) {
 		var new_renderer = Renderer.get();

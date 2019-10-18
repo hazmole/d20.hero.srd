@@ -1585,7 +1585,7 @@
 			]
 		},
 		{
-			"name": "Mind Reading",
+			"translate_name": "_心靈讀取", "name": "Mind Reading",
 			"type": "SEN",
 			"action": "S",
 			"range": "perception",
@@ -1595,37 +1595,37 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can read another character’s mind. To use Mind Reading, make an opposed effect check against the result of the target’s Will check. The degree of success determines the degree of contact:",
+				"你可以讀取其他角色的心靈。要使用心靈讀取效果，與目標的意志檢定結果進行一次效果對抗檢定。對抗檢定的成功度將會影響讀取所得信息的程度：",
 				{
 					"type": "insetResistCheck",
 					"entries": [
 						{
 							"type": "table",
-							"caption": "Mind Reading Resistance Check",
+							"caption": "讀心對抗檢定",
 							"colLabels": [
-								"Success",
-								"Degree of Contact"
+								"成功度",
+								"聯繫程度"
 							],
 							"colStyles": [
 								"col-2 text-align-center",
 								"col-10"
 							],
 							"rows": [
-								["1","{@b Surface thoughts}: You can read what the target is presently thinking. Mind Reading transcends language; you comprehend the target’s thoughts whether or not you share a common language."],
-								["2","{@b Personal thoughts}: You can probe deeper into the target’s mind for information. You can essentially ask any one question and receive the answer from the target’s mind. If the target doesn’t know the answer, then you know that as well."],
-								["3","{@b Memory}: You can read the subject’s memories and recollections. This allows you to perceive them exactly as the target recalls them, one memory per round."],
-								["4","{@b Subconscious}: You can read memories from the target’s subconscious, things even the target does not consciously know. This might mean repressed or hidden memories, deep-seated psychological traumas, or even other personalities."]
+								["1","{@b 表層思想}：你可以讀取目標當下的想法。心靈讀取效果超越了語言的隔閡；無論目標是否與你享有同一種語言，你都能夠理解目標的思想。"],
+								["2","{@b 個人想法}：你可以更深地探查目標的心靈以獲得更多情報。你可以詢問任何問題並獲得目標發自內心的答覆。若目標不清楚該問題的答案，則你也會知道這件事。"],
+								["3","{@b 記憶}：你可以讀取目標的記憶和回憶。你能夠如同目標回想它們一樣確切的得知這些情報。你每輪只能讀取一個記憶。"],
+								["4","{@b 潛意識}：你可以從目標的潛意識讀取它們的記憶，包括那些甚至連目標都沒有意識到的事物。這可能代表著被壓抑或隱藏的記憶、深層次的心理創傷、或甚至是其他人格。"]
 							]
 						}
 					]
 				},
-				"If you lose the opposed check, you cannot read the target’s mind. With two or more degrees of failure, any renewed attempt in that scene requires extra effort (see Extra Effort). If you desire a greater degree of contact, you must take another standard action and make a new opposed check.",
-				"The target gets a new Will check (DC 10 + Mind Reading rank) at the end of each turn to shut you out; success ends the effect.",
+				"若你在對抗檢定中落敗，則你無法讀取目標的心靈。若你獲得了二個或以上程度的失敗，則在該場景中，你必須使用奮力一搏才能夠再次嘗試(參見{@rule 奮力一搏|basic|1|extra effort}規則)。若你希望能讀取更深入的信息程度，則你必須再採取一個標準動作並進行一次新的對抗檢定。",
+				"目標可以在每回合結束時進行一次新的意志檢定（DC 10+心靈讀取等級）以嘗試終止你的讀取效果；若他檢定成功，則該效果結束。",
 				{
 					"type": "entries",
-					"name": "Mind Reading and Deception",
+					"translate_name": "心靈讀取和欺瞞", "name": "Mind Reading and Deception",
 					"entries": [
-						"If you can interact with your subject, a successful Deception check against the target’s Insight check causes the subject to consciously think about a particular piece of information you’re looking for, such as a password or name, allowing you to pluck it from the subject’s mind with surface thoughts contact."
+						"若你可以和你的讀心目標交涉互動，則一次成功對抗目標{@skill 洞見}檢定的{@skill 欺瞞}檢定將能使目標有意識地思考你正在尋找的情報，例如密碼或姓名，讓你得以在表層思想中讀取到這些資訊。"
 					]
 				}
 			],
@@ -1661,8 +1661,8 @@
 			],
 			"flaws": [
 				{
-					"name": "Close",
-					"entries": ["Applied to Ranged Mind Reading, Close Mind Reading requires a close attack check to touch an unwilling target and physical contact throughout the effect’s duration; breaking contact ends the effect."],
+					"translate_name": "近身", "name": "Close",
+					"entries": ["適用於遠距讀心效果，近身讀心效果需要使用者進行一次近身攻擊檢定以觸碰非自願目標，且在該效果的持續時間期間必須與目標維持身體上的接觸；一但接觸被中斷，則該效果也將終止。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1675,15 +1675,15 @@
 					}
 				},
 				{
-					"name": "Limited by Language",
-					"entries": ["You can only understand the subject’s thoughts or memories if you share a common language."],
+					"translate_name": "限定語言", "name": "Limited by Language",
+					"entries": ["你只能理解與你享有同一種語言的目標的思想或記憶。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited to Emotions",
-					"entries": ["You can only read or probe for emotions and emotional associations, not coherent thoughts or memories."],
+					"translate_name": "限定情緒", "name": "Limited to Emotions",
+					"entries": ["你只能讀取或探察情感和情緒聯想，而非連貫的思想或記憶。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1696,8 +1696,8 @@
 					}
 				},
 				{
-					"name": "Limited to Surface Thoughts",
-					"entries": ["You can only read surface thoughts and cannot achieve higher degrees of contact."],
+					"translate_name": "限定表層思想", "name": "Limited to Surface Thoughts",
+					"entries": ["你只能讀取目標的表層思想，而不能達到更深入的聯繫程度。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2975,7 +2975,7 @@
 					"type": "entries",
 					"translate_name": "弱化裝置", "name": "Weakening Devices",
 					"entries": [
-						"應用了{@modifier 影響物體}修飾符以及適當描述符的弱化效果可以降低裝置所提供的屬性數據（參見{@modifier Removable}缺陷）。舉例來說，弱化魔法效果也許能夠汲取魔法裝置以及魔法使用者自己的魔法能量。同樣的，弱化電力也可能影響電子裝置，諸如此類。這類效果同樣也能作用於裝備，儘管裝備能被弱化的數據通常會比較少。GM可以駁回任何不合理的弱化效果。舉例來說，儘管弱化傷害效果是可行的，並不代表角色可以因此使槍枝造成較低的傷害；這類效果通常會以像是{@effect Nullify}這類影響整體的效果來處理。"
+						"應用了{@modifier 影響物體}修飾符以及適當描述符的弱化效果可以降低裝置所提供的屬性數據（參見{@modifier Removable}缺陷）。舉例來說，弱化魔法效果也許能夠汲取魔法裝置以及魔法使用者自己的魔法能量。同樣的，弱化電力也可能影響電子裝置，諸如此類。這類效果同樣也能作用於裝備，儘管裝備能被弱化的數據通常會比較少。GM可以駁回任何不合理的弱化效果。舉例來說，儘管弱化傷害效果是可行的，並不代表角色可以因此使槍枝造成較低的傷害；這類效果通常會以像是{@effect 無效化}這類影響整體的效果來處理。"
 					]
 				}
 			],

@@ -1625,7 +1625,7 @@
 					"type": "entries",
 					"name": "Mind Reading and Deception",
 					"entries": [
-						"If you can interact with your subject, a successful Deception check against the target’s Insight check causes the subject to consciously think about a particular piece of information you’re looking for, such as a password or name, allowing you to pluck it from the subject’s mind with surface thoughts contact."
+						"If you can interact with your subject, a successful {@skill Deception} check against the target’s {@skill Insight} check causes the subject to consciously think about a particular piece of information you’re looking for, such as a password or name, allowing you to pluck it from the subject’s mind with surface thoughts contact."
 					]
 				}
 			],

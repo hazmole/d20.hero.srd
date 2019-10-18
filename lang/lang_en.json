@@ -106,6 +106,7 @@
 "list_range": "Range",
 "list_duration": "Duration",
 "list_cost": "Cost",
+"list_effect": "Effects",
 "list_contain": "Contain Cond.",
 "list_ability": "Ability",
 "list_untrain": "Untrained?",
