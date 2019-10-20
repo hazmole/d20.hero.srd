@@ -4055,7 +4055,7 @@ Renderer.powereffect = {
 		var effectStack = [];
 		if(entry.effects){
 			const renderer = Renderer.get();
-			renderer.recursiveRender(entry.effects, effectStack, null);
+			renderer.recursiveRender(entry.effects[0], effectStack, null);
 		}
 
 		if(isFull)
