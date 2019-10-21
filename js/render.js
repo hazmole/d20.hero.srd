@@ -3963,7 +3963,7 @@ Renderer.general = {
 
             var textStack = [];
             renderer.recursiveRender(string, textStack, null);
-            entryStack.push(`<span style="border:1px solid #afaeae;border-radius:3px;background:#484848;padding:2px;white-space:nowrap;margin:1px">${textStack.join("")}</span>`);
+            entryStack.push(`<span class="abilityTab">${textStack.join("")}</span>`);
         }
         return Renderer.utils.getTr(entryStack.join(""), "line-height:2;");
     },
@@ -3979,7 +3979,7 @@ Renderer.general = {
 
             var textStack = [];
             renderer.recursiveRender(string, textStack, null);
-            entryStack.push(`<span style="border:1px solid #afaeae;border-radius:3px;background:#484848;padding:2px;white-space:nowrap;margin:1px">${textStack.join("")}</span>`);
+            entryStack.push(`<span class="abilityTab">${textStack.join("")}</span>`);
         }
         return Renderer.utils.getTr(entryStack.join(""), "line-height:2;");
     },

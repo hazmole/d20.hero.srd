@@ -441,6 +441,15 @@ input.ui-search__ipt-search-sub-ipt-custom[type=number]::-webkit-inner-spin-butt
 	}
 }
 
+.abilityTab {
+	border:1px solid #afaeae;
+	border-radius:3px;
+	background:#ebcc9c;
+	padding:2px;
+	white-space:nowrap;
+	margin:1px;
+}
+
 input[type=checkbox].sidemenu__row__label__cb {
 	margin-right: 3px;
 	margin-left: 7px;
@@ -4663,6 +4672,15 @@ ul.list.books > li > a > span.name:hover {
 		background: #383838;
 	}
 	/* *** */
+
+	.abilityTab {
+		border:1px solid #afaeae;
+		border-radius:3px;
+		background:#484848;
+		padding:2px;
+		white-space:nowrap;
+		margin:1px;
+	}
 }
 
 /* Night Mode End */

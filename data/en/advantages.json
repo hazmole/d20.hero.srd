@@ -307,7 +307,7 @@
 			"name": "Assessment",
 			"type": "G",
 			"entries": [
-				"You’re able to quickly size up an opponent’s combat capabilities. Choose a target you can accurately perceive and have the GM make a secret Insight check for you as a free action, opposed by the target’s Deception check result.",
+				"You’re able to quickly size up an opponent’s combat capabilities. Choose a target you can accurately perceive and have the GM make a secret {@skill Insight} check for you as a free action, opposed by the target’s {@skill Deception} check result.",
 				"If you win, the GM tells you the target’s attack and defense bonuses relative to yours (lower, higher, or equal). With each additional degree of success, you learn one of the target’s bonuses exactly.",
 				"If you lose the opposed roll, you don’t find out anything. With more than one degree of failure, the GM may lie or otherwise exaggerate the target’s bonuses."
 			]
@@ -351,7 +351,7 @@
 			"name": "Eidetic Memory",
 			"type": "G",
 			"entries": [
-				"You have perfect recall of everything you’ve experienced. You have a +5 circumstance bonus on checks to remember things, including resistance checks against effects that alter or erase memories. You can also make Expertise skill checks to answer questions and provide information as if you were trained, meaning you can answer questions involving difficult or obscure knowledge even without ranks in the skill, due to the sheer amount of trivia you have picked up."
+				"You have perfect recall of everything you’ve experienced. You have a +5 circumstance bonus on checks to remember things, including resistance checks against effects that alter or erase memories. You can also make {@skill Expertise} skill checks to answer questions and provide information as if you were trained, meaning you can answer questions involving difficult or obscure knowledge even without ranks in the skill, due to the sheer amount of trivia you have picked up."
 			]
 		},
 		{

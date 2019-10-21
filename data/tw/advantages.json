@@ -304,12 +304,12 @@
 			]
 		},
 		{
-			"name": "Assessment",
+			"translate_name": "評估", "name": "Assessment",
 			"type": "G",
 			"entries": [
-				"You’re able to quickly size up an opponent’s combat capabilities. Choose a target you can accurately perceive and have the GM make a secret Insight check for you as a free action, opposed by the target’s Deception check result.",
-				"If you win, the GM tells you the target’s attack and defense bonuses relative to yours (lower, higher, or equal). With each additional degree of success, you learn one of the target’s bonuses exactly.",
-				"If you lose the opposed roll, you don’t find out anything. With more than one degree of failure, the GM may lie or otherwise exaggerate the target’s bonuses."
+				"你能夠快速地掌握一名對手的戰鬥能力。選擇一個你可以準確感知到的目標，以一個自由動作，讓GM為你祕密地進行一次{@skill 洞見}檢定以對抗該目標的{@skill 欺瞞}檢定結果。",
+				"若你在該對抗檢定中勝出，GM將會告訴你該目標的攻擊和防禦加值相較於你的程度（低於、高於、或相等）。你在該對抗中每獲得一個額外的成功度，都將使你得知目標其中一個加值的確切數值。",
+				"若你在該對抗檢定中落敗，則你判斷不出任何情報。若你得到超過一個程度的失敗，則GM可能會謊報結果，或誇大該目標的加值。"
 			]
 		},
 		{
@@ -341,25 +341,25 @@
 			]
 		},
 		{
-			"name": "Diehard",
+			"translate_name": "硬漢", "name": "Diehard",
 			"type": "G",
 			"entries": [
-				"When your condition becomes {@condition dying} you automatically stabilize on the following round without any need for a Stamina check, although further damage—such as a finishing attack—can still kill you."
+				"當你的陷入{@condition 瀕死}狀態時，你的傷勢將在下一輪自動轉為穩定而無須進行韌性檢定。然而，再次更進一步的傷害（像是終結攻擊）仍然能夠殺死你。"
 			]
 		},
 		{
-			"name": "Eidetic Memory",
+			"translate_name": "清晰記憶", "name": "Eidetic Memory",
 			"type": "G",
 			"entries": [
-				"You have perfect recall of everything you’ve experienced. You have a +5 circumstance bonus on checks to remember things, including resistance checks against effects that alter or erase memories. You can also make Expertise skill checks to answer questions and provide information as if you were trained, meaning you can answer questions involving difficult or obscure knowledge even without ranks in the skill, due to the sheer amount of trivia you have picked up."
+				"你能夠完美地回憶任何你曾經歷過的事物。你在用於記憶事情的檢定上具有+5的情境加值，這包括了在對抗修改或消除記憶的效果時所進行的抵抗檢定。你也可以進行{@skill 專業}技能檢定以回答相關問題和提供相關情報，就如同你已經受訓於該專業一樣。這代表即使你沒有任何該專業技能的等級，你也可以基於你所掌握的大量瑣碎雜學而解答涉及困難或晦澀知識的問題。"
 			]
 		},
 		{
-			"name": "Equipment",
+			"translate_name": "裝備", "name": "Equipment",
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have 5 points per rank in this advantage to spend on equipment. This includes vehicles and headquarters. See {@rule Gadgets & Gear|basic|7} for details on equipment and its costs. Many heroes rely almost solely on Equipment in conjunction with their skills and other advantages."
+				"這個特長的每個等級都將使你獲得5點的裝備點用以購買裝備。這包括了載具和據點總部。參見{@rule 器具＆裝備|basic|7}章節以查閱關於裝備的詳情以及它們各自所需的花費。許多英雄們幾乎僅僅依靠於他們的裝備、技能、以及其他特長。"
 			]
 		},
 		{
@@ -377,10 +377,10 @@
 			]
 		},
 		{
-			"name": "Great Endurance",
+			"translate_name": "強韌耐性", "name": "Great Endurance",
 			"type": "G",
 			"entries": [
-				"You have a +5 bonus on checks to avoid becoming fatigued and checks to hold your breath, avoid damage from starvation or thirst, avoid damage from hot or cold environments, and to resist suffocation and  drowning. See {@rule Environmental Hazards|basic|8|Environmental Hazards} in the Action & Adventure chapter for details on these checks."
+				"你在避免陷入{@condition 疲勞}狀態的檢定，以及屏住氣息、避免受到來自飢餓或口渴、酷熱或寒冷的環境的傷害、以及抵抗窒息和溺水的檢定中獲得+5的加值。參見動作＆冒險章節的{@rule 環境危害|basic|8|Environmental Hazards}規則以查閱關於這些檢定的詳情。"
 			]
 		},
 		{
