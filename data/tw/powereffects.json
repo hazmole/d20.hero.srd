@@ -658,7 +658,7 @@
 			]
 		},
 		{
-			"name": "Elongation",
+			"translate_name": "延展", "name": "Elongation",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -668,9 +668,9 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can elongate your body and/or limbs to extend your reach. Add your effect rank to your normal size rank to determine how far you can elongate; for a normalsized human (size rank –2) this is 15 feet at rank 1, 30 feet at rank 2, and so forth. Rank 20 Elongation can stretch 1,000 miles! “Snapping back” to your normal shape is a free action.",
-				"You can use Elongation to make “close” attacks at a greater distance by elongating your limbs. Once elongated, you can make melee attacks within your new reach as a standard action. If you can’t accurately sense your target (you’re elongating around a corner, for example), apply the rules for concealment (see Concealment in Action & Adventure).",
-				"In addition, Elongation allows you to wrap up and entangle an opponent so it grants a +1 bonus to grab checks per rank (limited by PL)."
+				"你可以延展你的身體和/或肢體以延伸你的觸及範圍。將你的延展效果等級加上你原本的體型等級以決定你所能延展的距離；對於一名正常身形的人類（-2級體型）而言，1級的延展效果意味著它可以伸展到15呎，2級則可以伸展到30呎，以此類推。20級的延展甚至可以讓你伸展到1,000哩！「猛然縮回」你原本尺寸是一個自由動作。",
+				"你可以使用延展效果，藉由延展你的肢體以在較遠的距離外進行「近身」攻擊。一旦你延展肢體，你就可以對處於你新的觸及範圍內的目標以一個標準動作進行一次近身攻擊。若你無法準確地感知到你的目標（舉例來說，你延展的肢體繞過轉角），則使用遮蔽的規則（參見動作＆冒險章節中的{@rule 遮蔽|basic|8|Concealment}規則）。",
+				"此外，延展效果讓你得以用肢體纏繞綑綁住敵人，因此它將使你在擒抱檢定中獲得每級+1的加值（仍然受到超能力階級的限制）。"
 			]
 		},
 		{

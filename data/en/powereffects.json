@@ -669,7 +669,7 @@
 			},
 			"entries": [
 				"You can elongate your body and/or limbs to extend your reach. Add your effect rank to your normal size rank to determine how far you can elongate; for a normalsized human (size rank –2) this is 15 feet at rank 1, 30 feet at rank 2, and so forth. Rank 20 Elongation can stretch 1,000 miles! “Snapping back” to your normal shape is a free action.",
-				"You can use Elongation to make “close” attacks at a greater distance by elongating your limbs. Once elongated, you can make melee attacks within your new reach as a standard action. If you can’t accurately sense your target (you’re elongating around a corner, for example), apply the rules for concealment (see Concealment in Action & Adventure).",
+				"You can use Elongation to make “close” attacks at a greater distance by elongating your limbs. Once elongated, you can make melee attacks within your new reach as a standard action. If you can’t accurately sense your target (you’re elongating around a corner, for example), apply the rules for concealment (see {@rule Concealment|basic|8|Concealment} in Action & Adventure).",
 				"In addition, Elongation allows you to wrap up and entangle an opponent so it grants a +1 bonus to grab checks per rank (limited by PL)."
 			]
 		},
