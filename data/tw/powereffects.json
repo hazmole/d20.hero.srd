@@ -220,7 +220,7 @@
 				},
 				{
 					"translate_name": "感官依賴", "name": "Sense-Dependent",
-					"entries": ["溝通效果本身就已經具備了{@modifier 感官依賴}的性質（目標必須能夠感知你所使用的溝通媒介才能接收到你的傳訊），且因此不能適用再這個缺陷。然而，其他射程為感知距離的效果可以具備「溝通效果依賴」的性質，這代表你必須要先能與你的目標溝通，才能使效果作用於他們身上（使用你的溝通媒介作為其他效果的「載體」）。若你的溝通效果被任何手段給阻擋，則其他依賴於溝通效果的效果也將無法發揮作用。"],
+					"entries": ["溝通效果本身就已經具備了{@modifier 感官依賴}的性質（目標必須能夠感知你所使用的溝通媒介才能接收到你的傳訊），因此不能再適用這個缺陷。然而，其他射程為感知距離的效果可以具備「溝通效果依賴」的性質，這代表你必須要先能與你的目標溝通，才能使效果作用於他們身上（使用你的溝通媒介作為其他效果的「載體」）。若你的溝通效果被任何手段給阻擋，則其他依賴於溝通效果的效果也將無法發揮作用。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1646,7 +1646,7 @@
 				},
 				{
 					"translate_name": "感官聯結", "name": "Sensory Link",
-					"entries": ["你可以「利用」你目標的感官，只要你對目標有至少一個程度的聯繫，你就能如同使用{@effect Remote Sensing}效果一樣接收到他所接收到的事物。當你使用你與目標的感官聯結時，你自己的感官將無法發揮作用，且你同時只能透過一個目標的感官聯結接收情報。"],
+					"entries": ["你可以「利用」你目標的感官，只要你對目標有至少一個程度的聯繫，你就能如同使用{@effect 遠端感知}效果一樣接收到他所接收到的事物。當你使用你與目標的感官聯結時，你自己的感官將無法發揮作用，且你同時只能透過一個目標的感官聯結接收情報。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2168,7 +2168,7 @@
 			]
 		},
 		{
-			"name": "Remote Sensing",
+			"translate_name": "遠端感知", "name": "Remote Sensing",
 			"type": "SEN",
 			"action": "F",
 			"range": "rank",
@@ -2178,36 +2178,36 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can displace one or more of your senses over a distance, perceiving as if you were at that location, up to 60 feet away. Each additional rank increases your range one distance rank, so rank 2 is 120 feet, rank 3 is 250 feet, and so on. Remote Sensing overrides your normal sense(s) while you are using it. Subjects observed via Remote Sensing can “feel” it with an Insight check (DC 10 + rank).",
-				"You can make Perception checks normally using your displaced senses, taking the normal action to do so. To search a large area for someone or something, use the search guidelines given in the description of the Investigation skill.",
-				"Remote Sensing costs 1 point per rank for one sense type, 2 points per rank for two sense types, 3 points per rank for three, and 4 points per rank for four, and 5 points per rank for all of your senses. Visual senses count as two sense types (so visual Remote Sensing is 2 points per rank). You can use perception range sensory effects via Remote Sensing if your effect applies to their sense type and an accurate sense (usually sight). Sensory effects targeted on the spot where you have displaced your senses affect you normally.",
-				"Because Remote Sensing overrides your normal senses, you are vulnerable (at half your normal active defenses) while using it, since you are less aware of your immediate surroundings."
+				"你可以將你的其中一個或多個感官投射到一段距離外（最多60呎），就如同你位於該位置一樣。每一級的額外等級都將使這個效果的射程提升1級距離等級，因此2級的遠端感知可以將感官投射至最多120呎，3級則最多250呎，以此類推。當你使用遠端感知時，你原本的感官將被對應的遠端感官取代。被觀察的目標可以透過一次{@skill 洞見}檢定（DC 10+遠端感知等級）以「感覺」到遠端感知的存在。",
+				"你可以使用你所投射出去的感官如常進行{@skill 感知}檢定，並採取原本所需的動作以進行感知。若要在一片廣闊的區域搜尋某人或某物，請遵循{@skill 調查}技能下關於搜尋的準則。",
+				"投射一種感官種類的遠端感知的花費為每級1點，二種感官種類則為每級2點，三種為每級3點，四種為每級4點，而若要投射你的所有感官則為每級5點。視覺感官在這裡被視為二種感官種類（因此視覺遠端感知的花費為每級2點）。若你的遠端感知效果所投射的感官種類具有準確特性（通常為視覺），則你可以透過遠端感知使用射程為感知距離，且使用對應感官的感知類型效果。以你投射感官的位置為目標的感知類型效果仍會如常影響你。",
+				"由於遠端感知會取代你原本的感官，因此當你在使用遠端感知期間，你將因為對周遭環境的注意力降低而處於{@condition 脆弱}狀態（你的主動防禦減半）。"
 			],
 			"extras": [
 				{
 					"translate_name": "跨維度", "name": "Dimensional",
-					"entries": ["This modifier allows you to extend your Remote Sensing into other dimensions with range proximate to your location in that dimension. One rank of Dimensional allows you to sense into a single other dimension, two for a group of related dimensions, and three for any dimension in the setting suitable to your Remote Sensing descriptors. Dimensional Remote Sensing for an accurate sense is especially useful for targeting other Dimension effects."],
+					"entries": ["這個修飾符讓你得以將你的遠端感知延伸至另一個維度，將感官投射至該維度相應射程內的位置。1級的跨維度修飾符讓你得以感知一個其他維度，2級則可以感知屬於一種關聯類群的任意維度；3級則可以感知到存在於世界觀設定中，任意符合你遠端感知描述符的其他維度。使用具有準確特性感官的跨維度遠端感知效果，特別適合幫助其他跨維度效果以瞄準目標。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
 				},
 				{
-					"name": "No Conduit",
-					"entries": ["Sensory effects targeted where you have displaced your senses do not affect you, but neither can you use perception ranged effects via your Remote Sensing. Despite the built-in limitation, this is an extra, since it allows you to use your Remote Sensing to observe subjects in relative safety."],
+					"translate_name": "不連通", "name": "No Conduit",
+					"entries": ["以你投射感官位置為目標的感知類型效果將不會影響到你，但你也無法透過你的遠端感知使用射程為感知距離的效果。儘管這個修飾符有著內建的限制，但因為它能使你更安全的使用遠端感知觀察目標，因此它仍被視作一種強化。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "同時", "name": "Simultaneous",
-					"entries": ["You can use both Remote Sensing and your normal senses at the same time, perceiving two locales like “translucent” overlays of each other. This means you’re more capable of taking physical action while also using your Remote Sensing, although the effect still requires its normal duration to maintain. You are not vulnerable while using your Remote Sensing."],
+					"entries": ["你可以同時使用你的遠端感知和你原本的感官，同步感知到兩個場所的事物，且感知到的事物將如同「半透明」一般在你的意識中彼此重疊。這代表你在使用遠端感知的期間，將仍保有進行其他身體動作的能力。然而，這個效果的持續時間仍與原本相同，且會需要你採取原本的動作以維持其效果（持續時間為維持，則需要每輪採取一個自由動作）。你在使用你的遠端感知效果期間，你將不會因此陷入{@condition 脆弱}狀態。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "隱密使用", "name": "Subtle",
-					"entries": ["Remote Sensing already has a degree of subtlety. applying 1 rank of Subtle to Remote Sensing increases the DC to notice the effect to 20 + rank or makes it noticeable only to a particular unusual sense (with the usual DC 10 + rank perception check). Subtle 2 makes Remote Sensing completely unnoticeable, as usual."],
+					"entries": ["遠端感知效果本身就具備一定程度的隱密性。適用了1級隱密使用修飾符的遠端感知效果，將使查覺到這個效果的DC提升至20 + 每10呎距離，或使這個效果只能藉由特定罕見感官來察覺（DC 10 + 每10呎距離的{@skill 感知}技能檢定）。2級的隱密使用修飾符將使遠端感知效果完全無法被察覺。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
@@ -2216,28 +2216,28 @@
 			"flaws": [
 				{
 					"translate_name": "反饋", "name": "Feedback",
-					"entries": ["With this flaw, damaging attacks directed at where you displaced your senses can affect you. Your sensory-point is considered to have partial cover from attacks and you use your Remote Sensing rank as your Toughness defense against any successful attack. The feedback may be psychosomatic in nature or due to some sort of disruption caused by an assault on the point where you have redirected your senses. Note that sensory effects already work on you via Remote Sensing and this flaw doesn’t apply to them."],
+					"entries": ["若適用這個缺陷，則直接對你感官所投射位置進行的攻擊將會連帶影響到你。你的感官投射點對於該攻擊而言被視作具有半掩護，且你使用你的遠端感知等級做為你的堅實防禦等級以對抗任何成功進行的攻擊。這個反饋可能會是精神性的，肇因於其攻擊性質，或因為對你感官投射點的攻擊而導致的某種干擾紊亂。要注意的是，由於感知類型的效果原本就會透過遠端感知直接作用於你，因此這個缺陷並不適用於這些效果。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Medium",
-					"entries": ["You require a medium for your Remote Sensing, such as shadows, flames, mirrors, open water, television screens, and so forth. You can only perceive locations where your chosen medium exists."],
+					"translate_name": "媒介", "name": "Medium",
+					"entries": ["你需要透過媒介才能使用你的遠端感知效果，像是陰影、火焰、鏡子、開放水域、電視螢幕等等。你只能將你的感官投射到你所選媒介存在的場所。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "顯而易見", "name": "Noticeable",
-					"entries": ["Remote Sensing with this flaw has an easily noticeable display, like a glowing set of eyes or a phantom image of your face, head, or body at the location you are observing. This manifestation cannot be used for communication, however (for that, take the Communication effect)."],
+					"entries": ["適用了這個缺陷的遠端感知效果將具有相當容易被察覺的顯現方式，像是一對發光的雙眼、或是你面孔、頭部、或身體幻影，出現在你所投射的場所。然而，這個遠端感知效果的顯現方式不能被用於溝通（若要這麼做，請使用{@effect 溝通}效果）。"],
 					"cost": {
 						"value": -1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "感官依賴", "name": "Sense-Dependent",
-					"entries": ["Remote Sensing is already Sense-Dependent and cannot apply this flaw. Another effect might potentially have the flaw Remote-Sensing Dependent, such as an Affliction that targets only remote viewers observing a target or an area as a means of blocking or deterring them."]
+					"entries": ["遠端感知效果本身就已經具備了{@modifier 感官依賴}的性質，因此不能再適用這個缺陷。然而，其他效果可以會具備「遠端感知依賴」的性質，像是只以觀察某個目標或一片區域的遠端觀察者為作用對象的{@effect 詛咒}效果，用以做為阻擋或干擾遠端觀測的手段。"]
 				}
 			]
 		},
@@ -2511,7 +2511,7 @@
 				},
 				{
 					"translate_name": "跨維度", "name": "Dimensional",
-					"entries": ["這個修飾符讓你得以將你的感官延展到另一個維度。它將被應用於你的所有感官，讓你得以感知你在其他位面的對應位置。若要感知更遠的距離，請使用應用了此修飾符的{@effect Remote Sensing}效果。"],
+					"entries": ["這個修飾符讓你得以將你的感官延展到另一個維度。它將被應用於你的所有感官，讓你得以感知你在其他位面的對應位置。若要感知更遠的距離，請使用應用了此修飾符的{@effect 遠端感知}效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

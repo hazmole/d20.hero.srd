@@ -2178,10 +2178,10 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can displace one or more of your senses over a distance, perceiving as if you were at that location, up to 60 feet away. Each additional rank increases your range one distance rank, so rank 2 is 120 feet, rank 3 is 250 feet, and so on. Remote Sensing overrides your normal sense(s) while you are using it. Subjects observed via Remote Sensing can “feel” it with an Insight check (DC 10 + rank).",
-				"You can make Perception checks normally using your displaced senses, taking the normal action to do so. To search a large area for someone or something, use the search guidelines given in the description of the Investigation skill.",
+				"You can displace one or more of your senses over a distance, perceiving as if you were at that location, up to 60 feet away. Each additional rank increases your range one distance rank, so rank 2 is 120 feet, rank 3 is 250 feet, and so on. Remote Sensing overrides your normal sense(s) while you are using it. Subjects observed via Remote Sensing can “feel” it with an {@skill Insight} check (DC 10 + rank).",
+				"You can make {@skill Perception} checks normally using your displaced senses, taking the normal action to do so. To search a large area for someone or something, use the search guidelines given in the description of the {@skill Investigation} skill.",
 				"Remote Sensing costs 1 point per rank for one sense type, 2 points per rank for two sense types, 3 points per rank for three, and 4 points per rank for four, and 5 points per rank for all of your senses. Visual senses count as two sense types (so visual Remote Sensing is 2 points per rank). You can use perception range sensory effects via Remote Sensing if your effect applies to their sense type and an accurate sense (usually sight). Sensory effects targeted on the spot where you have displaced your senses affect you normally.",
-				"Because Remote Sensing overrides your normal senses, you are vulnerable (at half your normal active defenses) while using it, since you are less aware of your immediate surroundings."
+				"Because Remote Sensing overrides your normal senses, you are {@condition vulnerable} (at half your normal active defenses) while using it, since you are less aware of your immediate surroundings."
 			],
 			"extras": [
 				{
@@ -2200,14 +2200,14 @@
 				},
 				{
 					"name": "Simultaneous",
-					"entries": ["You can use both Remote Sensing and your normal senses at the same time, perceiving two locales like “translucent” overlays of each other. This means you’re more capable of taking physical action while also using your Remote Sensing, although the effect still requires its normal duration to maintain. You are not vulnerable while using your Remote Sensing."],
+					"entries": ["You can use both Remote Sensing and your normal senses at the same time, perceiving two locales like “translucent” overlays of each other. This means you’re more capable of taking physical action while also using your Remote Sensing, although the effect still requires its normal duration to maintain. You are not {@condition vulnerable} while using your Remote Sensing."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Subtle",
-					"entries": ["Remote Sensing already has a degree of subtlety. applying 1 rank of Subtle to Remote Sensing increases the DC to notice the effect to 20 + rank or makes it noticeable only to a particular unusual sense (with the usual DC 10 + rank perception check). Subtle 2 makes Remote Sensing completely unnoticeable, as usual."],
+					"entries": ["Remote Sensing already has a degree of subtlety. applying 1 rank of Subtle to Remote Sensing increases the DC to notice the effect to 20 + rank or makes it noticeable only to a particular unusual sense (with the usual DC 10 + rank {@skill perception} check). Subtle 2 makes Remote Sensing completely unnoticeable, as usual."],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
@@ -2230,14 +2230,14 @@
 				},
 				{
 					"name": "Noticeable",
-					"entries": ["Remote Sensing with this flaw has an easily noticeable display, like a glowing set of eyes or a phantom image of your face, head, or body at the location you are observing. This manifestation cannot be used for communication, however (for that, take the Communication effect)."],
+					"entries": ["Remote Sensing with this flaw has an easily noticeable display, like a glowing set of eyes or a phantom image of your face, head, or body at the location you are observing. This manifestation cannot be used for communication, however (for that, take the {@effect Communication} effect)."],
 					"cost": {
 						"value": -1, "type": "flat"
 					}
 				},
 				{
 					"name": "Sense-Dependent",
-					"entries": ["Remote Sensing is already Sense-Dependent and cannot apply this flaw. Another effect might potentially have the flaw Remote-Sensing Dependent, such as an Affliction that targets only remote viewers observing a target or an area as a means of blocking or deterring them."]
+					"entries": ["Remote Sensing is already Sense-Dependent and cannot apply this flaw. Another effect might potentially have the flaw Remote-Sensing Dependent, such as an {@effect Affliction} that targets only remote viewers observing a target or an area as a means of blocking or deterring them."]
 				}
 			]
 		},
