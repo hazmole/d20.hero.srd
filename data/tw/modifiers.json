@@ -648,7 +648,7 @@
 			]
 		},
 		{
-			"name": "Feedback",
+			"_translate_name": "反饋", "name": "Feedback",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
@@ -815,7 +815,7 @@
 			]
 		},
 		{
-			"translate_name": "感官依賴", "name": "Sense-Dependent",
+			"_translate_name": "感官依賴", "name": "Sense-Dependent",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"

@@ -1607,8 +1607,8 @@
 								"Degree of Contact"
 							],
 							"colStyles": [
-								"col-2 text-align-center",
-								"col-10"
+								"col-1 text-align-center",
+								"col-11"
 							],
 							"rows": [
 								["1","{@b Surface thoughts}: You can read what the target is presently thinking. Mind Reading transcends language; you comprehend the target’s thoughts whether or not you share a common language."],
@@ -1646,14 +1646,14 @@
 				},
 				{
 					"name": "Sensory Link",
-					"entries": ["You can “tap into” the senses of your subjects, perceiving what they perceive like a Remote Sensing effect (see Remote Sensing) so long as you have at least one degree of contact. Your own senses are inactive while you are using your sensory link and you can only perceive through the senses of one subject at a time."],
+					"entries": ["You can “tap into” the senses of your subjects, perceiving what they perceive like a {@effect Remote Sensing} effect so long as you have at least one degree of contact. Your own senses are inactive while you are using your sensory link and you can only perceive through the senses of one subject at a time."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Subtle",
-					"entries": ["As a mental sensory effect, Mind Reading has a degree of subtlety, only noticeable to the subject or to characters with an appropriate mental sense, such as Mental Awareness (see Senses effect). Subtle Mind Reading is less detectable, requiring a DC 20 Perception check for either type of character to sense it, while two ranks of the Subtle modifier makes your Mind Reading completely undetectable."],
+					"entries": ["As a mental sensory effect, Mind Reading has a degree of subtlety, only noticeable to the subject or to characters with an appropriate mental sense, such as Mental Awareness (see {@effect Sense|Senses} effect). Subtle Mind Reading is less detectable, requiring a DC 20 {@skill Perception} check for either type of character to sense it, while two ranks of the Subtle modifier makes your Mind Reading completely undetectable."],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
 					}
@@ -1711,7 +1711,7 @@
 				},
 				{
 					"name": "Sense-Dependent",
-					"entries": ["Your Mind Reading is dependent on a sense other than just having to accurately sense the target, such as needing to see his expressions (Sight-Dependent), hear him speak (Hearing-Dependent), smell his changes in biochemistry (Scent-Dependent), and so forth. Alternately, it may be dependent on first being in Mental Communication with the target."],
+					"entries": ["Your Mind Reading is dependent on a sense other than just having to accurately sense the target, such as needing to see his expressions (Sight-Dependent), hear him speak (Hearing-Dependent), smell his changes in biochemistry (Scent-Dependent), and so forth. Alternately, it may be dependent on first being in {@effect Communication|Mental Communication} with the target."],
 					"cost": {
 						"value": -1, "type": "per"
 					}

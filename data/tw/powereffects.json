@@ -145,7 +145,7 @@
 						"{@b 味覺}: 費洛蒙或化學標記",
 						"{@b 觸覺}: 振動載波",
 						"{@b 無線電波}: 調幅廣播(AM)、調頻廣播(FM)、短波無線電頻帶、微波",
-						"{@b 靈感}: 心靈感應傳送、精神聯繫、秘法傳訊"
+						"{@b 心靈}: 心靈感應傳送、精神聯繫、秘法傳訊"
 					]
 				},
 				"你的溝通等級將決定你的最大溝通範圍：",
@@ -169,7 +169,7 @@
 					]
 				},
 				"你與任何處於射程內的目標所進行的溝通，其作用都是即效。",
-				"你溝通訊息的接收者必須處於你的溝通範圍內，且必須擁有能夠接收傳訊的手段（像是超感官、或某種接收器；對於靈感溝通而言，要接收傳訊只需要維持意識清醒）。你可以接收與你溝通媒介相同的通訊。若接收者希望，他們可以選擇無視你的溝通訊息。溝通效果依賴於語言，因此你和接收者必須理解同一種語言才能夠彼此溝通（若要跨越語言隔閡彼此溝通，請參見{@effect 理解}效果）。你的溝通傳訊是點對點的（向位於你射程內的一名接收者發送訊息）。",
+				"你溝通訊息的接收者必須處於你的溝通範圍內，且必須擁有能夠接收傳訊的手段（像是超感官、或某種接收器；對於心靈感官溝通而言，要接收傳訊只需要維持意識清醒）。你可以接收與你溝通媒介相同的通訊。若接收者希望，他們可以選擇無視你的溝通訊息。溝通效果依賴於語言，因此你和接收者必須理解同一種語言才能夠彼此溝通（若要跨越語言隔閡彼此溝通，請參見{@effect 理解}效果）。你的溝通傳訊是點對點的（向位於你射程內的一名接收者發送訊息）。",
 				"啟動你的溝通效果需要一個自由動作。然而，溝通本身將會花費其原本所需的時間。你可以應用急速修飾符以加速溝通的速度，但前題是你的接收者要能夠以同樣的速度接收該溝通訊息。",
 				"其他人若擁有能夠探查你溝通媒介的{@effect Sense|敏銳感官}，則他們將能夠藉由一次{@skill 感知}檢定（DC 10 + 你的溝通等級）嘗試「接收」到你的傳訊。監聽者必須處於你或接收者的正常感知範圍內。若該檢定獲得兩個程度或以上的成功，則監聽者將能夠理解你的傳訊。{@effect 隱蔽}和{@samplepower Dazzle}這類效果若以你的溝通媒介為目標，將會導致你的溝通傳訊被「堵塞」或屏蔽。"
 			],
@@ -485,7 +485,7 @@
 					}
 				},
 				{
-					"name": "Subtle",
+					"translate_name": "隱密使用", "name": "Subtle",
 					"entries": ["This modifier either makes created objects not noticeable as constructs for 1 rank (they look just like real objects) or not noticeable at all for 2 ranks (such as objects composed of invisible force)."],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
@@ -501,7 +501,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Feedback",
+					"translate_name": "反饋", "name": "Feedback",
 					"entries": ["You may suffer damage when your created objects are damaged (see Feedback flaw for details)."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1198,7 +1198,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Feedback",
+					"translate_name": "反饋", "name": "Feedback",
 					"entries": ["Although Illusion does not have a physical “manifestation” per se, it can apply this flaw, in which case a successful damaging attack on one of your illusions causes you to suffer damage, using the guidelines given in the description of the Feedback flaw."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1444,7 +1444,7 @@
 					}
 				},
 				{
-					"name": "Subtle",
+					"translate_name": "隱密使用", "name": "Subtle",
 					"entries": ["This extra makes your Insubstantial nature less noticeable to observers. Rank 1 requires a Perception check (DC 20) to detect that you are Insubstantial, while 2 ranks mean you look entirely normal in Insubstantial form (which may cause opponents to waste effort on you, not knowing you are immune to their attacks, for example)."],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
@@ -1585,7 +1585,7 @@
 			]
 		},
 		{
-			"translate_name": "_心靈讀取", "name": "Mind Reading",
+			"translate_name": "心靈讀取", "name": "Mind Reading",
 			"type": "SEN",
 			"action": "S",
 			"range": "perception",
@@ -1607,8 +1607,8 @@
 								"聯繫程度"
 							],
 							"colStyles": [
-								"col-2 text-align-center",
-								"col-10"
+								"col-1 text-align-center",
+								"col-11"
 							],
 							"rows": [
 								["1","{@b 表層思想}：你可以讀取目標當下的想法。心靈讀取效果超越了語言的隔閡；無論目標是否與你享有同一種語言，你都能夠理解目標的思想。"],
@@ -1631,29 +1631,29 @@
 			],
 			"extras": [
 				{
-					"name": "Cumulative",
-					"entries": ["Your Mind Reading adds any further degrees of success to the existing degree on the target, rather than using just the result of the new opposed check. For example, if you have one degree of contact and make another Mind Reading check, getting one degree, you now have two degrees of contact."],
+					"translate_name": "累積", "name": "Cumulative",
+					"entries": ["你的心靈讀取效果將會加深你與目標之間既有的聯繫程度，而非單純使用新的對抗檢定的結果。舉例來說，若你對目標已經程度一的聯繫（表層思想），並進行了另一次的心靈讀取檢定，再次獲得一個程度的成功，則你將對目標具有程度二的聯繫（個人想法）。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Effortless",
-					"entries": ["Trying again after two or more degrees of failure does not require extra effort for you. You can retry a Mind Reading attempt an unlimited number of times."],
+					"translate_name": "無須費力", "name": "Effortless",
+					"entries": ["當你在心靈讀取的對抗檢定中得到二個或以上程度的失敗後，你不需要使用奮力一搏就可以再次嘗試對目標進行心靈讀取。你可以不限次數的嘗試進行心靈讀取。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Sensory Link",
-					"entries": ["You can “tap into” the senses of your subjects, perceiving what they perceive like a Remote Sensing effect (see Remote Sensing) so long as you have at least one degree of contact. Your own senses are inactive while you are using your sensory link and you can only perceive through the senses of one subject at a time."],
+					"translate_name": "感官聯結", "name": "Sensory Link",
+					"entries": ["你可以「利用」你目標的感官，只要你對目標有至少一個程度的聯繫，你就能如同使用{@effect Remote Sensing}效果一樣接收到他所接收到的事物。當你使用你與目標的感官聯結時，你自己的感官將無法發揮作用，且你同時只能透過一個目標的感官聯結接收情報。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Subtle",
-					"entries": ["As a mental sensory effect, Mind Reading has a degree of subtlety, only noticeable to the subject or to characters with an appropriate mental sense, such as Mental Awareness (see Senses effect). Subtle Mind Reading is less detectable, requiring a DC 20 Perception check for either type of character to sense it, while two ranks of the Subtle modifier makes your Mind Reading completely undetectable."],
+					"translate_name": "隱密使用", "name": "Subtle",
+					"entries": ["做為心靈感官類型的效果，心靈讀取本身就具備一定程度的隱密性，且只有讀心目標或是具備合適心靈感官（例如心靈覺察感官，參見{@effect Sense}）的角色能夠注意到這個效果。而適用了隱密使用修飾符的心靈讀取效果將變得更加難以察覺，且需要角色成功通過一次DC 20的{@skill 感知}檢定才能夠察覺到這個效果。2級的隱密使用修飾符將使你的心靈讀取能力完全無法被察覺。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
 					}
@@ -1668,8 +1668,8 @@
 					}
 				},
 				{
-					"name": "Feedback",
-					"entries": ["You suffer Feedback if a subject you are reading is harmed, using your Mind Reading rank as the resistance check bonus against the damage. Additionally, you may suffer Feedback at the GM’s discretion from reading or experiencing particularly traumatic or emotionally-charged thoughts of memories from the subject."],
+					"translate_name": "反饋", "name": "Feedback",
+					"entries": ["若你的目標在你讀取他心靈時受到傷害，你將會承受相應的反饋。使用你的心靈讀取等級做為對抗傷害的抵抗檢定加值。此外，根據GM的裁斷，你可能也會在讀取或經歷到目標的特定心靈創傷、或充滿強烈情緒思想或記憶時承受反饋。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1689,8 +1689,8 @@
 					}
 				},
 				{
-					"name": "Limited to Sensory Link",
-					"entries": ["If you have the Sensory Link extra and this flaw, you can only tap into a subject’s senses, you cannot read their thoughts or memories."],
+					"translate_name": "限定感官聯結", "name": "Limited to Sensory Link",
+					"entries": ["若你適用了感官聯結的強化和這個缺陷，則你將只能利用目標的感官，而無法讀取目標的思想或記憶。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1704,14 +1704,14 @@
 				},
 				{
 					"translate_name": "遠距", "name": "Ranged",
-					"entries": ["Ranged Mind Reading requires a ranged attack check in addition to the effect’s normal resistance check."],
+					"entries": ["遠距心靈讀取效果除了該效果原本的抵抗檢定外，還需要使用者進行一次遠程攻擊檢定以命中目標。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Sense-Dependent",
-					"entries": ["Your Mind Reading is dependent on a sense other than just having to accurately sense the target, such as needing to see his expressions (Sight-Dependent), hear him speak (Hearing-Dependent), smell his changes in biochemistry (Scent-Dependent), and so forth. Alternately, it may be dependent on first being in Mental Communication with the target."],
+					"translate_name": "感官依賴", "name": "Sense-Dependent",
+					"entries": ["除了需要準確地感知到目標之外，你的心靈讀取效果還依賴於一種感官，像是需要看見目標的表情（視覺依賴）、聽見他的話語（聽覺依賴）、嗅聞他生物化學氣味的變化（嗅覺依賴），諸如此類。或者，這個缺陷也可以是必須要與目標在進行{@effect Communication|心靈溝通}的過程中。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1812,7 +1812,7 @@
 					}
 				},
 				{
-					"name": "Subtle",
+					"translate_name": "隱密使用", "name": "Subtle",
 					"entries": ["The default version of Move Object involves some noticeable manifestation like a “tractor beam,” a glow around your head or hands (along with a corresponding glow around the affected object), big glowing hands, blazing “energy talons,” a lasso, whip, or the like. Apply the Subtle modifier for a less noticeable Move Object effect, such as invisible “psychokinesis” (which is generally also Perception Range)."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -2206,7 +2206,7 @@
 					}
 				},
 				{
-					"name": "Subtle",
+					"translate_name": "隱密使用", "name": "Subtle",
 					"entries": ["Remote Sensing already has a degree of subtlety. applying 1 rank of Subtle to Remote Sensing increases the DC to notice the effect to 20 + rank or makes it noticeable only to a particular unusual sense (with the usual DC 10 + rank perception check). Subtle 2 makes Remote Sensing completely unnoticeable, as usual."],
 					"cost": {
 						"value": 1, "type": "flat_per"
@@ -2215,7 +2215,7 @@
 			],
 			"flaws": [
 				{
-					"name": "Feedback",
+					"translate_name": "反饋", "name": "Feedback",
 					"entries": ["With this flaw, damaging attacks directed at where you displaced your senses can affect you. Your sensory-point is considered to have partial cover from attacks and you use your Remote Sensing rank as your Toughness defense against any successful attack. The feedback may be psychosomatic in nature or due to some sort of disruption caused by an assault on the point where you have redirected your senses. Note that sensory effects already work on you via Remote Sensing and this flaw doesn’t apply to them."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -2236,7 +2236,7 @@
 					}
 				},
 				{
-					"name": "Sense-Dependent",
+					"translate_name": "感官依賴", "name": "Sense-Dependent",
 					"entries": ["Remote Sensing is already Sense-Dependent and cannot apply this flaw. Another effect might potentially have the flaw Remote-Sensing Dependent, such as an Affliction that targets only remote viewers observing a target or an area as a means of blocking or deterring them."]
 				}
 			]
@@ -2288,9 +2288,9 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "靈感", "name": "Mental",
+							"translate_name": "心靈", "name": "Mental",
 							"entries": [
-								"靈感或所謂的「第六感」對尋常人類而言是個相當粗糙的感官，且本質上只能與{@skill 洞見}技能互動、以及用以察覺直接作用於你的心靈效果。因此它僅為近距離，且不具備任何感官選項特性。"
+								"心靈感官或所謂的「第六感」對尋常人類而言是個相當粗糙的感官，且本質上只能與{@skill 洞見}技能互動、以及用以察覺直接作用於你的心靈效果。因此它僅為近距離，且不具備任何感官選項特性。"
 							]
 						}
 					]
@@ -2321,14 +2321,14 @@
 					"type": "entries",
 					"translate_name": "覺察（1級）", "name": "Awareness (1 Rank)",
 					"entries": [
-						"你可以透過一個成功的{@skill 感知}技能檢定（DC 10，每10呎距離承受-1罰值）以察覺到是否有人在使用帶有特定描述符的效果。範例包括宇宙能力覺察、神聖覺察、魔法覺察、心靈能力覺察等等。你可以將其他感官效果選項應用於覺察選項上以進行調整。為你的覺察選擇一種感官種類；它通常會是靈感，但並不一定要是。對於應用了1級{@modifier 隱密使用}修飾符的效果而言，覺察感知被視作有機會注意到該效果的「特定罕見感官」。"
+						"你可以透過一個成功的{@skill 感知}技能檢定（DC 10，每10呎距離承受-1罰值）以察覺到是否有人在使用帶有特定描述符的效果。範例包括宇宙能力覺察、神聖覺察、魔法覺察、心靈能力覺察等等。你可以將其他感官效果選項應用於覺察選項上以進行調整。為你的覺察選擇一種感官種類；它通常會是心靈感官，但並不一定要是。對於應用了1級{@modifier 隱密使用}修飾符的效果而言，覺察感知被視作有機會注意到該效果的「特定罕見感官」。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "溝通鏈結（1級）", "name": "Communication Link (1 Rank)",
 					"entries": [
-						"你和一個特定個體之間有著一道鏈結，在你獲得這個感官選項時選擇該個體，該個體也必須要擁有這個能力。無論你們之間的距離有多遠，你們都可以彼此溝通，就如同使用了{@effect 溝通}效果一樣。當你獲得這個選項時，選擇一種感官種類作為溝通媒介；對於精神或心靈鏈結而言，通常會使用靈感做為其溝通媒介。若你將{@modifier 跨維度}修飾符應用於你的溝通鏈結選項，則這個效果也將擴展至其他維度。"
+						"你和一個特定個體之間有著一道鏈結，在你獲得這個感官選項時選擇該個體，該個體也必須要擁有這個能力。無論你們之間的距離有多遠，你們都可以彼此溝通，就如同使用了{@effect 溝通}效果一樣。當你獲得這個選項時，選擇一種感官種類作為溝通媒介；對於精神或心靈鏈結而言，通常會使用心靈感官做為其溝通媒介。若你將{@modifier 跨維度}修飾符應用於你的溝通鏈結選項，則這個效果也將擴展至其他維度。"
 					]
 				},
 				{
@@ -2363,7 +2363,7 @@
 					"type": "entries",
 					"translate_name": "探查（1-2級）", "name": "Detect (1-2 Ranks)",
 					"entries": [
-						"你可以藉由觸碰並進行一次{@skill 感知}檢定以探查到特定的物品或效果。探查並不具備射程，且只能透過其理解某樣事物的存在與否（因此它不具備準確和敏銳特性）。選擇你的探查特性屬於哪一種感官種類（通常為靈感）。若這個選項為2級，則你可以探查位於遠距離的事物（你的感知檢定每10呎距離承受-1罰值）。"
+						"你可以藉由觸碰並進行一次{@skill 感知}檢定以探查到特定的物品或效果。探查並不具備射程，且只能透過其理解某樣事物的存在與否（因此它不具備準確和敏銳特性）。選擇你的探查特性屬於哪一種感官種類（通常為心靈感官）。若這個選項為2級，則你可以探查位於遠距離的事物（你的感知檢定每10呎距離承受-1罰值）。"
 					]
 				},
 				{
@@ -2419,14 +2419,14 @@
 					"type": "entries",
 					"translate_name": "過去視（4級）", "name": "Postcognition (4 Ranks)",
 					"entries": [
-						"你的感官能夠延伸自過去的時空，讓你得以認知到過去發生的事件。你可以進行{@skill 感知}檢定以接收一個區域內、或來自目標的過往資訊。遊戲主持人將會根據這些過往資訊的含糊和時間遙遠程度，為這些檢定設置DC：從DC 15（一個可能會不太準確的模糊情景）到DC 30（一段關於過往事件的近乎完整理解，就如同你當時處於該處一般）。你（當下）原本的感官在你使用過去視時並不會發揮作用；你的意識將完全集中於過去。只要你仍維持專注，你的過去視便能持續作用。過去視並不能應用於像是{@effect Mind Reading}的感知類型效果、或其他需要互動的能力。過去視的限制條件可能會限縮於你的「前世」或先祖所經歷的過往事件，這種限制條件將會使這個選項的花費降低至2級。"
+						"你的感官能夠延伸自過去的時空，讓你得以認知到過去發生的事件。你可以進行{@skill 感知}檢定以接收一個區域內、或來自目標的過往資訊。遊戲主持人將會根據這些過往資訊的含糊和時間遙遠程度，為這些檢定設置DC：從DC 15（一個可能會不太準確的模糊情景）到DC 30（一段關於過往事件的近乎完整理解，就如同你當時處於該處一般）。你（當下）原本的感官在你使用過去視時並不會發揮作用；你的意識將完全集中於過去。只要你仍維持專注，你的過去視便能持續作用。過去視並不能應用於像是{@effect 心靈讀取}的感知類型效果、或其他需要互動的能力。過去視的限制條件可能會限縮於你的「前世」或先祖所經歷的過往事件，這種限制條件將會使這個選項的花費降低至2級。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "未來視（4級）", "name": "Precognition (4 Ranks)",
 					"entries": [
-						"你的感官能夠延伸自未來，讓你得以認知到將來可能發生的事件。你的未來視將顯現出可能的未來情境。若情況有變，則未來視所顯現的未來有可能就不會發生。當你使用這個能力時，由遊戲主持人選擇要透漏什麼信息。你所看見情境可能會晦澀難懂、並可以有不同的解釋。遊戲主持人可能會要求你進行適當的{@skill 感知}檢定以看見特定的細節資訊，這個檢定的DC介於15到30之間，或甚至更高。GM也可以主動啟動你的未來視，告訴你特定的情報以做為冒險引鉤或劇情工具。你（當下）原本的感官在你使用未來視時並不會發揮作用；你的意識將完全集中於未來。只要你仍維持專注，你的未來視便能持續作用。未來視並不能應用於像是{@effect Mind Reading}的感知類型效果、或其他需要互動的能力。"
+						"你的感官能夠延伸自未來，讓你得以認知到將來可能發生的事件。你的未來視將顯現出可能的未來情境。若情況有變，則未來視所顯現的未來有可能就不會發生。當你使用這個能力時，由遊戲主持人選擇要透漏什麼信息。你所看見情境可能會晦澀難懂、並可以有不同的解釋。遊戲主持人可能會要求你進行適當的{@skill 感知}檢定以看見特定的細節資訊，這個檢定的DC介於15到30之間，或甚至更高。GM也可以主動啟動你的未來視，告訴你特定的情報以做為冒險引鉤或劇情工具。你（當下）原本的感官在你使用未來視時並不會發揮作用；你的意識將完全集中於未來。只要你仍維持專注，你的未來視便能持續作用。未來視並不能應用於像是{@effect 心靈讀取}的感知類型效果、或其他需要互動的能力。"
 					]
 				},
 				{
