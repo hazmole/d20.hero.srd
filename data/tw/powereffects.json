@@ -831,7 +831,7 @@
 			]
 		},
 		{
-			"name": "Feature",
+			"translate_name": "特色", "name": "Feature",
 			"type": "G",
 			"action": "N",
 			"range": "personal",
@@ -841,31 +841,31 @@
 				"type": "per"
 			},
 			"entries": [
-				"You have one or more minor features, effects granting you an occasionally useful ability, one per rank. This effect is essentially a version of the Benefit advantage but a power rather than a virtue of skill, talent, or social background. For example, diplomatic immunity or wealth are Benefits; fur, the ability to mimic sounds, or a hidden compartment in your hollow leg are Features.",
-				"It’s up to the GM what capabilities qualify as Features; generally, if something has no real game effect, it’s just a descriptor. If it has an actual game system benefit, it may be a Feature. There’s no need to define every possible Feature a character may have down to the last detail.",
-				"Some Features may be sustained duration rather than permanent with no change in cost. This suits active Features a character has to use and maintain rather than having them as passive traits requiring no effort whatsoever.",
+				"你擁有一個或多個次要的特色，這個效果每等級會賦予你一個在某些情況下能派上用場的能力。這個效果本質上就是另一種版本的{@advantage Benefit}特長，但它並非是技術、天賦、或社會背景，而是一種超能力。舉例來說，社交豁免權和財富屬於{@advantage Benefit}；而毛皮、模仿聲音、或你中空腳內的隱藏空間則屬於特色。",
+				"什麼樣的能力屬於特色是由GM決定；通常來說，若某個能力並不具備真正的遊戲效用，則它就只是個描述符。若它具備實際的遊戲助益，那它就可能會是一個特色。你沒有必要去定義一個角色所有可能的特色。",
+				"有些特色的持續時間可能會是維持，而非永駐，這並不會改變它的花費。維持的持續時間相當適合主動型的特色，角色必須使用它並維持其效果，而非讓其做為一種無須努力就能表現出來的被動性特徵。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Feature",
+					"translate_name": "幕後花絮：特色", "name": "Under the Hood: Feature",
 					"entries": [
-						"The Feature effect is intended to round out various minor traits and abilities characters might have, but it is entirely optional and not meant to burden character design with needless amounts of detail. It’s for traits with an actual game effect, not merely descriptors or background color (neither of which should cost any points). Ultimately, the Gamemaster decides what traits merit a rank (or more) of Feature and what Features are permitted for any given game or setting, using the examples given here.",
-						"If a “feature” is something likely to come up only occasionally, or even just once, then you are better off allowing it as an aspect of the inspiration and power stunt rules (see Characteristics), charging the player a victory point for the feature when it comes into play. The player can then choose whether or not to use earned character points to acquire the Feature as a regular part of the character’s traits later on."
+						"特色效果的用意在於完善角色可能會擁有的各種次要數據或能力，但它完全僅是可選的，而不該使角色設計帶來不必要的細節負擔。它是針對那些具有實際遊戲效果的特徵，而不僅僅是描述符或背景增色（這兩者都不需要花費任何角色點數）。最後，由遊戲主持人決定什麼樣的特徵值得1級（或更多）的特色效果，並決定什麼樣的特色允許存在於給定的遊戲或世界觀設定中。可以使用下列給出的範例當作參考。",
+						"若一個「特色」很有可能只會偶爾發生，或甚至只會派上用場一次，則你最好允許將它做為靈光一閃（參見{@rule 勝利點|basic|1|victory points}）或超能力絕技規則的其中一種面相，在這個特色能夠派上用場時，向玩家收取一點勝利點。玩家接著可以選擇是否仍然要使用他們的角色點以購買該特色，做為他們角色常規數據的一部份。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Sample Features",
+					"translate_name": "範例特色", "name": "Sample Features",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"{@b Insulating Fur}: You have a layer of fur that protects you from intense heat and cold, giving you immunity to those environments.",
-								"{@b Internal Compartment}: You can carry a portion of your carrying capacity inside your body! You have a pouch or compartment of some sort, able to hold objects with a size rank no greater than 3 less than your own (size -5 for a normal size rank -2 human).",
-								"{@b Iron Stomach}: You can eat anything that’s not toxic without ill effects, no matter how unpleasant it may be: spoiled or particularly gross or spicy food, for example.",
-								"{@b Mimicry}: You can imitate almost any sound you’ve heard, giving you a +10 bonus to Deception checks to convince others your mimicked sounds are real.",
-								"{@b Quick Change}: You can change clothes—such as into or out of your costume—as a free action. With 2 ranks, you can change into any outfit at will.",
-								"{@b Special Effect}: You have some special effect, like a gust of wind at the right dramatic moment, or ideal spotlighting, or personal theme music. The GM may give you a +2 bonus for favorable circumstances when your special effect is likely to impress people or otherwise aid you.",
-								"{@b Temporal Inertia}: You are somehow uniquely “anchored” in the space-time continuum, making you immune to changes in history. You recall the “true” version of historical events, even if no one else does."
+								"{@b 隔熱毛皮}：你具有一層能夠保護你不受極端酷熱或酷寒影響的毛皮，使你免疫於這些極端環境。",
+								"{@b 體內儲物間}：你可以將你其中一部份負載能力所能攜帶的事物裝在你的身體內部！你具有某種囊袋或艙室，能夠容納不超過你體型-3級的尺寸等級的東西（對於-2級體型的尋常人類而言，最多能容納總共-5級尺寸的東西）。",
+								"{@b 鐵胃}：你可以吃下任何不含毒素的東西而不會產生不良影響，無論它可能有多麼難以下嚥：例如變質、或特別噁心或辛辣的食物。",
+								"{@b 擬聲}：你可以模仿出任何你曾聽過的聲音，你在讓他人相信你所發出的聲音是真實的{@skill 欺瞞}檢定中獲得+10加值。",
+								"{@b 迅捷更衣}：你能夠以一個自由動作換衣服──例如穿上或脫下你的英雄服。若這個特色的等級為2級，則你可以隨意更換成任意服裝。",
+								"{@b 特效}：你自帶某種特效，像是發生在戲劇性時刻的一陣風、理想的聚光燈照、或是專屬個人音樂。當你的個人特效可能能讓眾人留下深刻印象、或以某些方式協助你時，GM可能會因為其有利情境而使你獲得+2的加值。",
+								"{@b 時間慣性}：你以某種方式獨特的被「錨定」在時空連續體之中，使你免疫於歷史的改變。即使所有人都忘記，你仍然能回憶起「正確」版本的歷史事件。"
 							]
 						}
 					]
@@ -1339,7 +1339,7 @@
 			]
 		},
 		{
-			"name": "Insubstantial",
+			"_translate_name": "虛體化", "name": "Insubstantial",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -1353,7 +1353,7 @@
 				"Insubstantial offers four ranks of effect:",
 				{
 					"type": "entries",
-					"name": "Rank 1 – Fluid",
+					"translate_name": "等級1 – 液態", "name": "Rank 1 – Fluid",
 					"entries": [
 						"You become a fluid mass. You can flow through any sort of opening, under (or around) doors, through keyholes and pipes, and so forth. You cannot pass through watertight seals. You can automatically flow out of any restraint—such as a snare or grab—that is not watertight. So you cannot flow out of a bubble completely enclosing you, for example, but anything less cannot hold you. You can exert your normal Strength and can still push or carry objects, although your manual dexterity may be limited (at the GM’s discretion).",
 						"A fluid character may attempt to catch a falling person or object, cushioning the fall with the character’s flexible form. This requires a move action, and reduces the falling damage by the cushioning character’s Toughness bonus (representing flexibility in this case). Both characters must make resistance checks against the remaining damage. Higher rank insubstantial forms—lacking physical Strength—cannot attempt this."
@@ -1361,21 +1361,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Rank 2 – Gaseous",
+					"translate_name": "等級2 – 氣態", "name": "Rank 2 – Gaseous",
 					"entries": [
 						"You become a cloud of gas or fine particles. You have no effective Strength in gaseous form, but have Immunity to Physical Damage. Energy and area attacks still affect you normally. You can flow through any opening that is not airtight. You can use your various other effects normally."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rank 3 – Energy",
+					"translate_name": "等級3 – 能量體", "name": "Rank 3 – Energy",
 					"entries": [
 						"You become coherent energy. You have no effective Strength, but have Immunity to Physical Damage. Energy attacks (other than the energy making up your form, to which you have Immunity) damage you normally. You can pass through solid objects permeable to your type of energy, but energy resistant barriers, like heavy shielding or force fields, block your movement."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Rank 4 – Incorporeal",
+					"translate_name": "等級4 – 精神體", "name": "Rank 4 – Incorporeal",
 					"entries": [
 						"You become an incorporeal phantom. You can pass through solid matter at your normal speed and you have Immunity to Physical and Energy Damage. Sensory effects (other than tactile) and those targeting Will still work on you, as do effects with the Affects Insubstantial modifier. Choose one other reasonably common effect or descriptor that works on you while you are incorporeal. You have no effective Strength and cannot affect the physical world, except with effects with the Affects Corporeal modifier. Your sensory effects work normally.",
 						"Unless you have Immunity to Suffocation, you must hold your breath while passing through a solid object, and you can suffocate. If you revert to solid form while inside a solid object for any reason, you suffer damage equal to the object’s Toughness, resisted by your Fortitude. If not incapacitated by the damage, you’re immediately ejected from the object into the nearest open space. If you are incapacitated, you’re trapped inside the object and your condition worsens to dying on the following round (making it very difficult for aid to reach you)."
@@ -1383,7 +1383,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Insubstantial Descriptors",
+					"translate_name": "虛體化描述符", "name": "Insubstantial Descriptors",
 					"entries": [
 						"Note that the fluid, gaseous, etc., rank names are themselves essentially descriptors for the different Insubstantial effects. A character with Insubstantial 1 might instead be a stretchable, rubbery form rather than a liquid, for example, while one with Insubstantial 2 could transform into a swarm of insects rather than a gas."
 					]

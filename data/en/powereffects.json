@@ -841,7 +841,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"You have one or more minor features, effects granting you an occasionally useful ability, one per rank. This effect is essentially a version of the Benefit advantage but a power rather than a virtue of skill, talent, or social background. For example, diplomatic immunity or wealth are Benefits; fur, the ability to mimic sounds, or a hidden compartment in your hollow leg are Features.",
+				"You have one or more minor features, effects granting you an occasionally useful ability, one per rank. This effect is essentially a version of the {@advantage Benefit} advantage but a power rather than a virtue of skill, talent, or social background. For example, diplomatic immunity or wealth are Benefits; fur, the ability to mimic sounds, or a hidden compartment in your hollow leg are Features.",
 				"It’s up to the GM what capabilities qualify as Features; generally, if something has no real game effect, it’s just a descriptor. If it has an actual game system benefit, it may be a Feature. There’s no need to define every possible Feature a character may have down to the last detail.",
 				"Some Features may be sustained duration rather than permanent with no change in cost. This suits active Features a character has to use and maintain rather than having them as passive traits requiring no effort whatsoever.",
 				{
@@ -862,7 +862,7 @@
 								"{@b Insulating Fur}: You have a layer of fur that protects you from intense heat and cold, giving you immunity to those environments.",
 								"{@b Internal Compartment}: You can carry a portion of your carrying capacity inside your body! You have a pouch or compartment of some sort, able to hold objects with a size rank no greater than 3 less than your own (size -5 for a normal size rank -2 human).",
 								"{@b Iron Stomach}: You can eat anything that’s not toxic without ill effects, no matter how unpleasant it may be: spoiled or particularly gross or spicy food, for example.",
-								"{@b Mimicry}: You can imitate almost any sound you’ve heard, giving you a +10 bonus to Deception checks to convince others your mimicked sounds are real.",
+								"{@b Mimicry}: You can imitate almost any sound you’ve heard, giving you a +10 bonus to {@skill Deception} checks to convince others your mimicked sounds are real.",
 								"{@b Quick Change}: You can change clothes—such as into or out of your costume—as a free action. With 2 ranks, you can change into any outfit at will.",
 								"{@b Special Effect}: You have some special effect, like a gust of wind at the right dramatic moment, or ideal spotlighting, or personal theme music. The GM may give you a +2 bonus for favorable circumstances when your special effect is likely to impress people or otherwise aid you.",
 								"{@b Temporal Inertia}: You are somehow uniquely “anchored” in the space-time continuum, making you immune to changes in history. You recall the “true” version of historical events, even if no one else does."
