@@ -783,31 +783,31 @@
 			},
 			"entries": [
 				"You have extra manipulative limbs, such as arms, tentacles, or even prehensile hair or a tail. Each rank in this effect grants you an extra limb.",
-				"Extra Limbs do not allow you to take additional actions in a round, although they do provide the benefits of the Improved Grab advantage—grabbing with some of your limbs and leaving others free. All additional limbs except your dominant limb are considered your “off-hand.” If you have the Benefit (Ambidexterity) advantage, you have no off-hand penalties with any of your limbs.",
+				"Extra Limbs do not allow you to take additional actions in a round, although they do provide the benefits of the {@advantage Improved Grab} advantage—grabbing with some of your limbs and leaving others free. All additional limbs except your dominant limb are considered your “off-hand.” If you have the {@advantage Benefit|Benefit (Ambidexterity)} advantage, you have no off-hand penalties with any of your limbs.",
 				"If you apply all of your limbs to a grab attempt (rather than taking the option to leave some of them free), you gain a +1 circumstance bonus per rank in Extra Limbs to a maximum of +5, much like a team check.",
 				{
 					"type": "inset",
 					"name": "Under the Hood: Extra Limbs Not Extra Actions",
 					"entries": [
 						"As a default, Extra Limbs do not grant characters the ability to take extra actions in a round, simply because multiple actions—especially extra standard actions usable for attacks—tend to slow down and unbalance play.",
-						"As an option for including some combat benefits with Extra Limbs, consider allowing the application of the Multiattack extra to the Strength of a character with Extra Limbs, reflecting the ability to launch a flurry of attacks at a single opponent, or to “spread” those attacks among a number of nearby opponents. See Multiattack description under Extras for details."
+						"As an option for including some combat benefits with Extra Limbs, consider allowing the application of the {@modifier Multiattack} extra to the Strength of a character with Extra Limbs, reflecting the ability to launch a flurry of attacks at a single opponent, or to “spread” those attacks among a number of nearby opponents. See {@modifier Multiattack} description under Extras for details."
 					]
 				}
 			],
 			"extras": [
 				{
-					"entries": ["In general, modifiers affecting attack effects (e.g. Affects Corporeal, Area, Penetrating, etc.) should apply to the Strength of a character with Extra Limbs rather than to the Extra Limbs effect itself. Such modifiers applied to Strength affect all of the character’s limbs."]
+					"entries": ["In general, modifiers affecting attack effects (e.g. {@modifier Affects Corporeal}, {@modifier Area}, {@modifier Penetrating}, etc.) should apply to the Strength of a character with Extra Limbs rather than to the Extra Limbs effect itself. Such modifiers applied to Strength affect all of the character’s limbs."]
 				},
 				{
 					"name": "Continuous",
-					"entries": ["Continuous Extra Limbs are a power effect you can turn on and off at will, but that remain until you choose to deactivate them, even if you are stunned or incapacitated ."],
+					"entries": ["Continuous Extra Limbs are a power effect you can turn on and off at will, but that remain until you choose to deactivate them, even if you are {@condition stunned} or {@condition incapacitated} ."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Projection",
-					"entries": ["Your Extra Limbs are merely a projection of your power rather than an extension of your body. therefore, any harm directed specifically against your Extra Limb(s) has no effect. So, for example, one of your additional limbs could reach into a container of acid or a blast furnace to pull out an object without any harm to you. The GM may require Extra Limbs with this extra to modify their duration to continuous or sustained, but this is not essential. It’s likely Extra Limbs with this extra are not eligible for the Innate modifier."],
+					"entries": ["Your Extra Limbs are merely a projection of your power rather than an extension of your body. therefore, any harm directed specifically against your Extra Limb(s) has no effect. So, for example, one of your additional limbs could reach into a container of acid or a blast furnace to pull out an object without any harm to you. The GM may require Extra Limbs with this extra to modify their duration to continuous or sustained, but this is not essential. It’s likely Extra Limbs with this extra are not eligible for the {@modifier Innate} modifier."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -823,7 +823,7 @@
 			"flaws": [
 				{
 					"name": "Distracting",
-					"entries": ["Coordinating the actions of your multiple limbs is difficult, so you are vulnerable while applying any extra limbs to an action. This flaw should generally not apply to any creature with Innate Extra Limbs, especially if they are part of its natural physiology."],
+					"entries": ["Coordinating the actions of your multiple limbs is difficult, so you are {@condition vulnerable} while applying any extra limbs to an action. This flaw should generally not apply to any creature with {@modifier Innate} Extra Limbs, especially if they are part of its natural physiology."],
 					"cost": {
 						"value": -1, "type": "per"
 					}

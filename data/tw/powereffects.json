@@ -436,7 +436,7 @@
 			],
 			"extras": [
 				{
-					"name": "Continuous",
+					"translate_name": "常續", "name": "Continuous",
 					"entries": ["Continuous Create makes objects that remain until they are destroyed, nullified, or you choose to dismiss them."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -772,7 +772,7 @@
 			]
 		},
 		{
-			"name": "Extra Limbs",
+			"translate_name": "額外肢體", "name": "Extra Limbs",
 			"type": "G",
 			"action": "N",
 			"range": "personal",
@@ -782,39 +782,39 @@
 				"type": "per"
 			},
 			"entries": [
-				"You have extra manipulative limbs, such as arms, tentacles, or even prehensile hair or a tail. Each rank in this effect grants you an extra limb.",
-				"Extra Limbs do not allow you to take additional actions in a round, although they do provide the benefits of the Improved Grab advantage—grabbing with some of your limbs and leaving others free. All additional limbs except your dominant limb are considered your “off-hand.” If you have the Benefit (Ambidexterity) advantage, you have no off-hand penalties with any of your limbs.",
-				"If you apply all of your limbs to a grab attempt (rather than taking the option to leave some of them free), you gain a +1 circumstance bonus per rank in Extra Limbs to a maximum of +5, much like a team check.",
+				"你擁有額外可控制的肢體，像是手臂、觸肢、或甚至是具有抓握能力的頭髮或尾巴。這個效果的每級都將使你獲得一個額外肢體。",
+				"額外肢體並不會讓你在行動輪中得以採取額外的行動，然而，它們確實能夠提供{@advantage 精通擒抱}特長的好處：讓你使用其中一些肢體擒抱他人，並空出其他肢體。除了你的主肢體外，你所有的額外肢體都被視為「副手」。若你具有{@advantage Benefit|Benefit (Ambidexterity)}特長，則你所有的肢體都不會再承受副手的罰值。",
+				"若你將你所有的肢體都用來進行擒抱（而非選擇空出其中一部份的肢體），則你將獲得每級額外肢體+1的情境加值，最多至+5，這個加值就如同團隊檢定一樣。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Extra Limbs Not Extra Actions",
+					"translate_name": "幕後花絮：額外肢體並不等於額外行動", "name": "Under the Hood: Extra Limbs Not Extra Actions",
 					"entries": [
-						"As a default, Extra Limbs do not grant characters the ability to take extra actions in a round, simply because multiple actions—especially extra standard actions usable for attacks—tend to slow down and unbalance play.",
-						"As an option for including some combat benefits with Extra Limbs, consider allowing the application of the Multiattack extra to the Strength of a character with Extra Limbs, reflecting the ability to launch a flurry of attacks at a single opponent, or to “spread” those attacks among a number of nearby opponents. See Multiattack description under Extras for details."
+						"預設來說，額外肢體並不會賦予角色在行動輪中採取額外行動的能力，這單純是因為多重行動──尤其是用於攻擊的額外標準動作──會導致遊戲步調的減緩以及嚴重的不平衡。",
+						"做為將額外肢體所提供的戰鬥助益納入的選項，GM可以考慮允許將{@modifier Multiattack}修飾符適用於具有額外肢體效果角色的力量屬性，以體現出對單一敵人進行一連串猛烈攻擊、或將這些攻擊「分散」到附近的數個敵人身上。參見{@modifier Multiattack}修飾符的描述以查閱更多細節。"
 					]
 				}
 			],
 			"extras": [
 				{
-					"entries": ["In general, modifiers affecting attack effects (e.g. Affects Corporeal, Area, Penetrating, etc.) should apply to the Strength of a character with Extra Limbs rather than to the Extra Limbs effect itself. Such modifiers applied to Strength affect all of the character’s limbs."]
+					"entries": ["通常來說，影響攻擊效果的修飾符（例如：{@modifier Affects Corporeal}、{@modifier 範圍化}、{@modifier 貫穿強抗}等等）都應該要適用於具有額外肢體角色的力量屬性，而非適用於額外肢體效果本身。這類適用於力量屬性的修飾符也會影響到該名角色的所有肢體。"]
 				},
 				{
-					"name": "Continuous",
-					"entries": ["Continuous Extra Limbs are a power effect you can turn on and off at will, but that remain until you choose to deactivate them, even if you are stunned or incapacitated ."],
+					"translate_name": "常續", "name": "Continuous",
+					"entries": ["常續額外肢體會是一個你可以隨意開啟或關閉的超能力效果，且直到你選擇關閉它之前，它都會一直維持存在，即使你陷入{@condition 暈眩}或{@condition 失能}狀態也一樣。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Projection",
-					"entries": ["Your Extra Limbs are merely a projection of your power rather than an extension of your body. therefore, any harm directed specifically against your Extra Limb(s) has no effect. So, for example, one of your additional limbs could reach into a container of acid or a blast furnace to pull out an object without any harm to you. The GM may require Extra Limbs with this extra to modify their duration to continuous or sustained, but this is not essential. It’s likely Extra Limbs with this extra are not eligible for the Innate modifier."],
+					"translate_name": "投影", "name": "Projection",
+					"entries": ["你的額外肢體僅僅是你超能力的投影，而非你身體的延伸。因此，任何直接對你額外肢體所造成的傷害都不會產生效果。舉例來說，你可以將其中一隻額外肢體伸進裝有強酸的容器、或是熊熊燃燒的火爐以拿出某物，而不會使你因此受到任何傷害。GM可能會要求適用了這個強化的額外肢體將其持續時間修改為常續或維持，但這並非必要。適用了這個強化的額外肢體很可能並不適合{@modifier 天生}修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "維持", "name": "Sustained",
-					"entries": ["Sustained Extra Limbs can be turned on or off (growing or forming the additional limbs and then making them disappear just as easily), but the limbs disappear or stop working if you are unable to continue the effect."],
+					"entries": ["維持額外肢體可以被開啟或關閉（長出或形塑出額外肢體，並輕易地使其消失不見），但這些額外肢體會再你無法繼續維持這個效果時消失或停止作用。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
@@ -822,8 +822,8 @@
 			],
 			"flaws": [
 				{
-					"name": "Distracting",
-					"entries": ["Coordinating the actions of your multiple limbs is difficult, so you are vulnerable while applying any extra limbs to an action. This flaw should generally not apply to any creature with Innate Extra Limbs, especially if they are part of its natural physiology."],
+					"translate_name": "分神", "name": "Distracting",
+					"entries": ["要協調你複數肢體的動作相當困難，因此當你使用任何額外肢體採取行動時，你將處於{@condition 脆弱}狀態。這個缺陷通常不應該被適用於具有{@modifier 天生}額外肢體的生物上，尤其是當這些肢體屬於其自然生理的一部份。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1409,7 +1409,7 @@
 					}
 				},
 				{
-					"name": "Continuous",
+					"translate_name": "常續", "name": "Continuous",
 					"entries": ["Extending the effect’s duration to continuous allows you to remain Insubstantial until you choose to return to your corporeal form."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -1777,7 +1777,7 @@
 			],
 			"extras": [
 				{
-					"name": "Continuous",
+					"translate_name": "常續", "name": "Continuous",
 					"entries": ["Move Object generally cannot have a continuous duration, since it is an active effect and requires at least a modicum of attention to maintain. The GM may allow Continuous Move Object as a variation that is not disrupted when you are unable to maintain it, but that still requires your conscious attention to do anything other than have the affected object hang in midair. There’s no change in the cost of the extra, this is just a limitation of the Move Object effect. You must make Move Object’s duration Sustained (+1 cost per rank) before you can make it Continuous."],
 					"cost": {
 						"value": 2, "type": "per"
