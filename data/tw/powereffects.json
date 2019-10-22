@@ -1729,21 +1729,21 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can alter your appearance. Your traits do not change; your new form is merely a cosmetic change. You gain a +20 bonus to Deception checks to disguise yourself as the form you assume (see Disguise guidelines for Deception).",
-				"Your Morph rank determines what form(s) you can assume: At rank 1 you can assume a single other appearance. At rank 2 you can assume any of a narrow group of forms, such as people of roughly your size and gender, a type of animal like birds or reptiles, and so forth. At rank 3 you can assume any of a broad group of forms like humanoids, animals, machines, and so forth. At rank 4 you can assume any form of the same mass as your own.",
-				"For the ability to change size as well as appearance see the Growth and Shrinking effects. To take on the other traits of forms you assume, see the Metamorph extra, following, or the Variable effect."
+				"你可以改變你的外貌。你的遊戲數據並不會改變；你的新型態僅僅是外觀上的改變。你使用你的新型態進行偽裝時所進行的{@skill 欺瞞}檢定將獲得+20的加值（參見欺瞞技能關於偽裝的說明）。",
+				"你的變形等級將決定你所能變化的型態：在1級時，你可以變化成一個其他的外形。在2級時，你可以變化成一種狹隘類別中的任意一種型態，例如與你體型大致相似且性別相同的人、一種動物（像是鳥類或爬蟲類），諸如此類。在3級時，你可以變化成一種廣闊類別中的任意一種型態，像是人型生物、動物、機械等等。在4級時，你可變化成任何質量與你相同的型態。",
+				"若想要將外觀連同體型一並改變的能力，請參見{@effect 成長}和{@effect 縮小}效果。若想要改變你新型態的遊戲數據，請參見下述的質變修飾符，或是{@effect Variable}效果。"
 			],
 			"extras": [
 				{
 					"translate_name": "攻擊化", "name": "Attack",
-					"entries": ["A Morph Attack imposes a different appearance on the target creature. Unlike an Affliction that imposes the transformed condition, a Morph Attack is entirely cosmetic: you can’t change the target’s traits other than appearance."],
+					"entries": ["變形攻擊可以強迫目標生物變化為不同的外觀。與對目標施加{@condition 被變化}狀態的{@effect 詛咒}效果不同，變形攻擊僅僅會造成外觀上的改變：除了外觀之外，你並不能改變目標的數據。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
-					"name": "Metamorph",
-					"entries": ["Morph only changes your appearance; you still have all the traits of your normal form. This modifier allows you to have an alternate set of traits, essentially a complete alternate character you change into, one set of traits per rank in Metamorph. You can switch between sets of traits at will, once per round, as a free action. Your other form(s) must have the same point total as you and are subject to the same power level limits. They must also have traits suitable to your Morph effect. For example, if you can only Morph into humanoid forms, then your alternate forms all have to be humanoid. All of your forms must have your full Morph effect as well; those character points cannot be reallocated. The GM may require certain additional common traits for all of your forms, particularly mental abilities and skills, if you retain them. Metamorph is best suited to characters with defined sets of alternate traits. For a character able to transform into a virtually unlimited number of forms with various traits, see the Variable effect."],
+					"translate_name": "質變", "name": "Metamorph",
+					"entries": ["變形僅僅會改變你的外觀；你仍然擁有你原本型態的所有數據。然而，這個修飾符將讓你獲得一組可替換的數據，讓你得以在本質上改變成另外一個角色。每一級的質變都將使你獲得一組數據。一輪一次，你能夠以一個自由動作隨意在各組數據間切換。你在其他型態的角色點總和必須與你相同，且仍受限於相同的超能力階級限制。這些型態必須具有符合你變形效果的數據。舉例來說，若你只能夠變形成人型生物型態，則你所有的可替換型態都必須要是人型生物。你的所有型態也都必須具有你完整的變形效果等級；投資在變形效果上的角色點不能透過變形被重新分配。GM可能會要求你的所有型態都具備著某些其他的共同數據，特別是心靈屬性和技能。質變變形最適合那些具有一系列可替換數據的角色。對於那些能夠變化成幾乎無限種帶有各樣數據的型態的角色，請參見{@effect Variable}效果。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
@@ -1752,7 +1752,7 @@
 			"flaws": [
 				{
 					"translate_name": "可被抵抗", "name": "Resistible",
-					"entries": ["A Morph effect Resistible by Will is most likely a mental illusion of some sort. Observers who succeed on the Will resistance check see you as you truly are rather than in your Morph guise. This is in addition to the usual Perception check to penetrate your disguise. If you have the Metamorph extra, then targets that resist your effect treat you as if you had your normal traits, and not those granted by your Metamorph form."],
+					"entries": ["一個可以被意志抵抗的變形效果很有可能屬於某種心靈幻象。成功通過該意志抵抗檢定的觀察者將能夠看見你的真實型態，而非變形後的你。因此除了平常用以識破偽裝的{@skill 感知}檢定以外，觀察者還需要額外進行這個檢定。若你同時適用了質變強化，則成功抵抗你效果的目標將把你視作你仍保有原本的數據，而非透過質變改變型態所得的數據。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
