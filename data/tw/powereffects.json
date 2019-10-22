@@ -964,7 +964,7 @@
 				"type": "per"
 			},
 			"entries": [
-				"你可以暫時地增大你的體型，以成為更大、更重、更遲鈍且無法穿過狹小空間的目標為代價，換取更強大的力量和體質。成長所帶來的修正值仍會受限於超能力階級的限制。",
+				"你可以暫時地增大你的體型，以變得更大、更重、更遲鈍、且無法穿過狹小空間為代價，換取更加強大的力量和體質。成長所帶來的修正值仍會受限於超能力階級的限制。",
 				"每級的成長效果都會使你的力量和體質增加1級（若為缺乏體質屬性的構裝生物，則增加1級力量和堅實防禦），且使你的質量等級增加1級。每二級的成長效果會使你的{@skill 威嚇}技能獲得+1加值。每8級的成長效果將使你的移動速度增加1級。然而，每級的成長效果也將使你的{@skill 潛行}檢定承受-1罰值。每二級（尾數進位）的成長效果使你的閃避和格擋防禦減少1級。每4級的成長效果也將使你的體型等級增加1級（尋常人類的體型等級為-2，介於3到6呎高）。因此若你具有8級的成長，你將獲得+8力量和體質，+4威嚇，+1速度，但同時承受-8潛行，-4閃避和格擋防禦，且你的體型等級為0（大約30呎高）。你在力量和體質屬性上的提升也會連帶影響其他關連數據，像是你的力量傷害、韌性防禦、和堅實防禦。"
 			],
 			"extras": [
@@ -1719,7 +1719,7 @@
 			]
 		},
 		{
-			"_translate_name": "變形", "name": "Morph",
+			"translate_name": "變形", "name": "Morph",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -2556,7 +2556,7 @@
 			]
 		},
 		{
-			"name": "Shrinking",
+			"translate_name": "縮小", "name": "Shrinking",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -2566,20 +2566,20 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can temporarily decrease your size, becoming smaller, harder to see — and hit — at the cost of losing Strength and speed. Every 4 ranks of Shrinking reduces your size rank by 1 (normal humans are size rank –2 by default) and each reduction in size rank subtracts 1 from your Strength and every two reductions in size rank subtract 1 from your ground speed rank. Add half your Shrinking rank (rounded down) to your active defenses. Add your Shrinking rank as a bonus to Stealth checks, since you are harder to spot, but apply half your rank (rounded down) as a penalty to intimidation checks (hard to be imposing when you’re tiny). Shrinking modifiers are restricted by power level limits.",
-				"So at Shrinking 12, you are size rank –5 (about 6 inches tall), and have a +6 bonus to active defenses and +12 Stealth bonus, but –3 Strength, –1 speed, and –6 Intimidation penalties."
+				"你可以暫時地縮減你的體型，以降低力量和速度為代價，使你變得更小、更加難以被看見──和命中。每4級的縮小效果都會使你的力體型等級減少1級（尋常人類的體型等級預設為-2）。體型每降低1級，將會使你的力量屬性減少1級；體型每降低2級，將會使你的地面速度等級減少1級。將你縮小效果等級的一半（尾數捨去）加到你的主動防禦屬性中。由於你將變得更難以被發現，將你的縮小效果等級做為加值加入{@skill 潛行}檢定中，但相對的，將你縮小效果等級的一半（尾數捨去）做為罰值加入{@skill 威嚇}檢定中（你在體型嬌小時比較難令人敬畏）。縮小效果的修正值仍然受到超能力階級的限制。",
+				"因此，12級的縮小效果將使你的體型等級變為-5（大約6吋高），主動防禦屬性獲得+6加值，且潛行檢定獲得+12加值，但會相對承受力量-3，速度-1．以及威嚇檢定-6的罰值。"
 			],
 			"extras": [
 				{
-					"name": "Atomic",
-					"entries": ["At Shrinking 20 (and size rank –7), you can shrink down to the molecular or even atomic level, allowing you to pass through solid objects by slipping between their atoms. It takes at least a full turn to do so, possibly longer for larger objects. You’re effectively immune to damage and many effects at this scale, since you are essentially shifted out of the ordinary universe. The GM decides if a particular effect can reach you at the atomic level. If you have this extra, you might also acquire a Dimensional Travel effect allowing you to shift into a sub-atomic “universe” or similar realm."],
+					"translate_name": "原子級", "name": "Atomic",
+					"entries": ["在20級的縮小效果作用下（-7級體型），你可以縮小至分子或甚至原子級的尺寸，這讓你得以藉由溜過原子間的空隙以穿透固態物體。這麼做需要花上至少一整個回合的時間，對於更大的物體而言則可能需要花費更久的時間。當處於原子層級時，由於你實際上已經脫離了宏觀宇宙的法則，因此你將免疫於傷害和許多效果。由GM決定特定效果是否可以影響到處於原子級別的你。若你適用了這個強化．則你可能也會獲得{@effect Movement|維度穿梭}效果，讓你得以穿梭至亞原子級的「宇宙」、或其他類似的國度。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Normal Strength",
-					"entries": ["You retain your full Strength, Speed, and Intimidation while shrunk."],
+					"translate_name": "原型力量", "name": "Normal Strength",
+					"entries": ["你在縮小期間仍保有你完整的力量、速度、和威嚇技能加值。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}

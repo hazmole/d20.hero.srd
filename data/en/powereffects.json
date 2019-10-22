@@ -2566,13 +2566,13 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can temporarily decrease your size, becoming smaller, harder to see — and hit — at the cost of losing Strength and speed. Every 4 ranks of Shrinking reduces your size rank by 1 (normal humans are size rank –2 by default) and each reduction in size rank subtracts 1 from your Strength and every two reductions in size rank subtract 1 from your ground speed rank. Add half your Shrinking rank (rounded down) to your active defenses. Add your Shrinking rank as a bonus to Stealth checks, since you are harder to spot, but apply half your rank (rounded down) as a penalty to intimidation checks (hard to be imposing when you’re tiny). Shrinking modifiers are restricted by power level limits.",
+				"You can temporarily decrease your size, becoming smaller, harder to see — and hit — at the cost of losing Strength and speed. Every 4 ranks of Shrinking reduces your size rank by 1 (normal humans are size rank –2 by default) and each reduction in size rank subtracts 1 from your Strength and every two reductions in size rank subtract 1 from your ground speed rank. Add half your Shrinking rank (rounded down) to your active defenses. Add your Shrinking rank as a bonus to {@skill Stealth} checks, since you are harder to spot, but apply half your rank (rounded down) as a penalty to {@skill intimidation} checks (hard to be imposing when you’re tiny). Shrinking modifiers are restricted by power level limits.",
 				"So at Shrinking 12, you are size rank –5 (about 6 inches tall), and have a +6 bonus to active defenses and +12 Stealth bonus, but –3 Strength, –1 speed, and –6 Intimidation penalties."
 			],
 			"extras": [
 				{
 					"name": "Atomic",
-					"entries": ["At Shrinking 20 (and size rank –7), you can shrink down to the molecular or even atomic level, allowing you to pass through solid objects by slipping between their atoms. It takes at least a full turn to do so, possibly longer for larger objects. You’re effectively immune to damage and many effects at this scale, since you are essentially shifted out of the ordinary universe. The GM decides if a particular effect can reach you at the atomic level. If you have this extra, you might also acquire a Dimensional Travel effect allowing you to shift into a sub-atomic “universe” or similar realm."],
+					"entries": ["At Shrinking 20 (and size rank –7), you can shrink down to the molecular or even atomic level, allowing you to pass through solid objects by slipping between their atoms. It takes at least a full turn to do so, possibly longer for larger objects. You’re effectively immune to damage and many effects at this scale, since you are essentially shifted out of the ordinary universe. The GM decides if a particular effect can reach you at the atomic level. If you have this extra, you might also acquire a {@effect Movement|Dimensional Travel} effect allowing you to shift into a sub-atomic “universe” or similar realm."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
