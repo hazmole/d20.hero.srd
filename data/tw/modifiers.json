@@ -265,18 +265,18 @@
 			]
 		},
 		{
-			"name": "Increased Range",
+			"translate_name": "增加射程", "name": "Increased Range",
 			"type": "extra",
 			"cost": {
-				"value": 1, "type": "flat_per"
+				"value": 1, "type": "per"
 			},
 			"entries": [
-				"Effects have a standard range: personal, close, ranged, or perception. See Range for details. This modifier increases an effect’s range. Choose one of the following options. Increasing the range of an effect from personal to close requires either the Affects Others or Attack extras (see their descriptions). Making a close effect into a perception ranged effect requires two applications of this extra, for +2 cost per rank.",
+				"每個效果都具有其基本的射程：個人、近身、遠距、或感知距離。參見{@rule 射程|basic|6|range}以查閱更多細節。這個修飾符將增加效果的射程。選擇下列其中一個選項。若要將射程為「個人」的效果變為「近身」，你需要應用{@modifier 影響他人}或{@modifier Attack}修飾符（參見各自的敘述）。若要將射程為「近身」的效果變為「感知距離」，你需要應用這個修飾符二次，花費將因此變為每級+2點。",
 				{
 					"type": "list",
 					"items": [
-						"{@b Ranged}: Applied to a close effect, this modifier makes it a ranged effect.",
-						"{@b Perception}: When applied to a ranged effect, this modifier makes it perception range."
+						"{@b 遠距}：應用於射程為「近身」的效果，這個修飾符將使其射程變為「遠距」。",
+						"{@b 感知距離}：應用於射程為「遠距」的效果，這個修飾符將使其射程變為「感知距離」。"
 					]
 				}
 			]
@@ -360,7 +360,7 @@
 				"A Multiattack effect allows you to hit multiple targets, or a single target multiple times, in the same standard action. Multiattack can apply to any effect requiring an attack check. There are three ways in which a Multiattack effect can be used:",
 				{
 					"type": "entries",
-					"name": "Single Target",
+					"translate_name": "單一目標", "name": "Single Target",
 					"entries": [
 						"To use a Multiattack against a single target, make your attack check normally. If successful, increase the attack’s resistance check DC by +2 for two degrees of success, and +5 for three or more. This circumstance bonus does not count against power level limits.",
 						"If an Impervious Resistance would ignore the attack before any increase in the DC, then the attack still has no effect as usual; a volley of multiple shots is no more likely to penetrate Impervious Resistance than just one."
@@ -368,14 +368,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Multiple Targets",
+					"translate_name": "多重目標", "name": "Multiple Targets",
 					"entries": [
 						"You can use Multiattack to hit multiple targets at once by “walking” or “spraying” the Multiattack across an arc. Roll one attack check per target in the arc. You suffer a penalty to each check equal to the total number of targets. So making a Multiattack against five targets is a –5 penalty to each attack check. If you miss one target, you may still attempt to hit the others."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Covering Attack",
+					"translate_name": "掩護攻擊", "name": "Covering Attack",
 					"entries": [
 						"A Multiattack can provide cover for an ally. Take a standard action and choose an ally in your line of sight, who receives the benefits of cover against enemies in your line of sight and in range of your Multiattack. (You have to be able to shoot at them to get them to keep their heads down or this maneuver won’t work.) You cannot lay down a covering attack for an ally in close combat. An opponent can choose to ignore the cover provided by your covering attack at the cost of being automatically attacked by it; make a normal attack check to hit that opponent."
 					]
@@ -504,17 +504,17 @@
 			]
 		},
 		{
-			"name": "Sustained",
+			"translate_name": "維持", "name": "Sustained",
 			"type": "extra",
 			"cost": {
 				"value": 0, "type": "per"
 			},
 			"entries": [
-				"Applied to a permanent duration effect, this modifier makes it sustained duration, requiring a free action to use (rather than none, like other permanent effects). The benefit is the sustained effect can be improved using extra effort, including using it to perform power stunts. The drawback is the effect requires a free action each turn to maintain it, and being unable to do so means the effect shuts off.",
+				"應用於持續時間為永駐的效果，這個修飾符將使該效果的持續時間變為「維持」，且需要採取一個自由動作才能使用（而非如永駐效果，無須採取動作即可發揮作用）。這個修飾符的好處是，持續時間為維持的效果可以藉由使用奮力一搏來強化，包括施展超能力絕技等。但他的缺點是該效果將需要你在每個回合採取一個自由動作以維持其效果，且當你無法採取任何動作，也就代表該效果將被因此終止。",
 				{
 					"type": "example",
 					"entries": [
-						"The Protection effect is permanent, meaning it always protects the character, but concentrating or trying harder does not make the effect more protective, nor can the character use it for power stunts. Sustained Protection can be turned on and off, improved with extra effort, and used for power stunts. It might represent a power like a personal force field, or increased density requiring a modicum of concentration to maintain."
+						"{@effect 保護}效果的持續時間為永駐，代表這個效果會永遠保護著該角色，但無論你如何專注或致力於保護效果都不會使它變得更有保護性，該角色也無法利用它施展超能力絕技。然而持續時間被更改為維持的保護效果將可以被開啟/關閉、藉由奮力一搏來強化、以及用以施展超能力絕技。它可能代表著像是個體力場護盾的超能力，或是藉由維持少量專注來達成的密度增加。"
 					]
 				}
 			]
@@ -722,14 +722,14 @@
 			]
 		},
 		{
-			"name": "Permanent",
+			"translate_name": "永駐", "name": "Permanent",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"A continuous effect with this flaw becomes permanent in duration. It cannot be turned off, it is always on by default. If some outside force—usually a Nullify effect—does turn it off, it turns back on automatically at the earliest opportunity. Additionally, you cannot improve a permanent effect using extra effort.",
-				"Permanent effects may be inconvenient at times (including things like being permanently incorporeal or 30 feet tall); this is included in the value of the flaw."
+				"一個持續時間為常續的效果，在應用了這個缺陷後其持續時間將會變為「永駐」。它將無法被關閉，且默認永遠為啟動狀態。如果某些外在力量──通常是{@effect 無效化}效果──將其關閉，則它一有機會就會自動重新啟動。此外，你無法使用奮力一搏來強化持續時間為永駐的效果。",
+				"永駐效果偶爾會造成不便（包括永遠處於靈體型態、或是永遠維持30呎高）；這個缺陷的花費便體現了這些不便之處。"
 			]
 		},
 		{

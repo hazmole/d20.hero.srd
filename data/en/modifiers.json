@@ -267,10 +267,10 @@
 			"name": "Increased Range",
 			"type": "extra",
 			"cost": {
-				"value": 1, "type": "flat_per"
+				"value": 1, "type": "per"
 			},
 			"entries": [
-				"Effects have a standard range: personal, close, ranged, or perception. See Range for details. This modifier increases an effect’s range. Choose one of the following options. Increasing the range of an effect from personal to close requires either the Affects Others or Attack extras (see their descriptions). Making a close effect into a perception ranged effect requires two applications of this extra, for +2 cost per rank.",
+				"Effects have a standard range: personal, close, ranged, or perception. See Range for details. This modifier increases an effect’s range. Choose one of the following options. Increasing the range of an effect from personal to close requires either the {@modifier Affects Others} or {@modifier Attack} extras (see their descriptions). Making a close effect into a perception ranged effect requires two applications of this extra, for +2 cost per rank.",
 				{
 					"type": "list",
 					"items": [
@@ -727,7 +727,7 @@
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"A continuous effect with this flaw becomes permanent in duration. It cannot be turned off, it is always on by default. If some outside force—usually a Nullify effect—does turn it off, it turns back on automatically at the earliest opportunity. Additionally, you cannot improve a permanent effect using extra effort.",
+				"A continuous effect with this flaw becomes permanent in duration. It cannot be turned off, it is always on by default. If some outside force—usually a {@effect Nullify} effect—does turn it off, it turns back on automatically at the earliest opportunity. Additionally, you cannot improve a permanent effect using extra effort.",
 				"Permanent effects may be inconvenient at times (including things like being permanently incorporeal or 30 feet tall); this is included in the value of the flaw."
 			]
 		},
