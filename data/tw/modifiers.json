@@ -53,45 +53,45 @@
 			]
 		},
 		{
-			"name": "Alternate Effect",
+			"translate_name": "替換效果", "name": "Alternate Effect",
 			"type": "extra",
 			"cost": {
 				"value": {"min":1, "max":2}, "type": "flat"
 			},
 			"entries": [
-				"This modifier allows you to “swap-out” the effect for an entire other, alternate, effect! For example, a Damage effect with the descriptor of “laser” might have a visual Dazzle as an Alternate Effect: the same light beam can be used to damage or blind a target, just not both at once. Think of Alternate Effects as different “settings” for a power. (For combinations of effects that work simultaneously, see the {@modifier Linked} modifier in this section.) A set of Alternate Effects is called an {@b array}.",
-				"An Alternate Effect can have any rank, or combination of modifiers. Alternate Effects may also have different descriptors, usually thematically linked, within reason. This allows you to have two versions of a Damage effect, for example: such as a fire blast and an ice blast. Permanent effects cannot have Alternate Effects, nor can they be Alternate Effects (since they can’t be turned on and off).",
-				"An Alternate Effect can have a total cost in character points no greater than the primary effect. So a rank 10 primary effect costing 2 points per rank, for a total of 20, can have any Alternate Effect with a cost of 20 character points or less. This cost does not include the cost of the Alternate Effect modifier itself. So if the 20-point power has 5 Alternate Effects (making the final cost 25 points), each Alternate Effect is still limited to a total value of 20 points (including any modifiers it may have), that of the base effect. Essentially, each Alternate Effect has to have all of the others as Alternate Effects. Since the modifier applies equally to all effects in the array, its cost is discounted in terms of the “free” points they have to spend.",
-				"Like any power, an Alternate Effect may be made up of two or more effects, but their total cost cannot exceed the cost of the primary effect.",
+				"這個修飾符讓你能夠將效果「切換」成另一個完全不同的效果！舉例來說，帶有「雷射」描述符的{@effect 傷害}效果可能會有一個做為替換效果的{@samplepower Dazzle|視覺Dazzle}能力：同樣的雷射光束可以被用於傷害他人或是使目標致盲，但不能兩者同時作用。你可以將替換效果想成一種超能力的不同「設置」。（若要結合複數效果使其同時發揮作用，請參見本章節的{@modifier Linked}修飾符）一系列的替換效果被稱為一個{@b 陣列}。",
+				"一個替換效果可以是任意等級的效果和不同修飾符的組合。替換效果甚至可能會有不同的描述符，在合理範圍內有著主題上的聯繫。這讓你得以擁有兩種不同版本的傷害效果，像是火焰衝擊波、和寒冰衝擊波。持續時間為永駐的效果不能擁有替換效果，也不能被做為替換效果（因為它們不能被開啟或關閉）。",
+				"一個替換效果的角色點花費總和不能超過原本主要效果的花費總和。因此一個花費為每級2點的10級主要效果（總和為20點），可以有任意花費總合為20點角色點或更低的替換效果。這個花費總和並不包括替換效果修飾符本身的花費。因此，假如上述花費總和為20點的超能力具有5個替換效果（使其最終花費總和變為25點），則它的每個替換效果仍受限於20點的花費總和（包括任何替換效果可能應用的修飾符）。",
+				"就跟其他超能力一樣，替換效果可能會由二個或更多的效果所組成，但它們的花費總和不能夠超過主要效果的花費。",
 				{
 					"type": "example",
 					"entries": [
-						"The O.M.E.G.A. battlesuit has an array of weapons drawing on a common power-source, and therefore not usable at the same time. So the suit’s gauntlet blasters (Ranged Damage) are the primary power, but the blinding strobe beam (an Affliction) and the sonic “screamers” (a different Affliction) are Alternate Effects. Since the O.M.E.G.A. suit’s enhanced artificial “musculature” also draws on the same power source, the Enhanced Strength it provides the wearer is an Alternate Effect, not usable at the same time as any of the weapons."
+						"O.M.E.G.A.戰鬥裝擁有一套汲取共用能量源的武器陣列，且因此不能同時使用這些武器。這套戰鬥裝的護手噴射砲（{@modifier Increased Range|遠距}{@effect 傷害}）屬於主要超能力效果，而致盲脈衝光束（{@effect 詛咒}效果）和聲波「尖嘯者」 （另一個{@effect 詛咒}效果）則屬於替換效果。由於O.M.E.G.A.戰鬥裝的強化人工「肌肉組織」也汲取使用相同的能量源，因此它提供穿戴者的{@effect Enhanced Trait|增強力量}效果，也無法在它使用任何武器的同時發揮作用。"
 					]
 				},
-				"Alternate Effects cannot be used or maintained at the same time as other Alternates in the same array; they are mutually exclusive. Switching between Alternates requires a free action and can be done once per turn. If anything disables, nullifies, or drains any power in an array, all of them are affected in the same way.",
+				"替換效果不能在你切換到同個陣列的其他替換效果時被使用或維持；它們彼此完全互斥。切換不同的替換效果需要花費一個自由動作，且每一回合只能進行一次。若有任何事物禁用、無效化、或耗盡了陣列中的任意超能力，則該陣列中的所有替換效果也都將受到相同的影響。",
 				{
 					"type": "entries",
-					"name": "Dynamic Alternate Effect",
+					"translate_name": "動態替換效果", "name": "Dynamic Alternate Effect",
 					"entries": [
-						"For 2 character points an Alternate Effect is {@b dynamic}; it can share character points with other Dynamic Alternate Effects, allowing them all to operate at the same time, but at reduced effectiveness (so you must have two Dynamic Alternate Effects for this option to be useful). You decide how many character points are allocated to the effects once per turn as a free action. Making the base effect of an array Dynamic requires 1 character point."
+						"若替換效果為{@b 動態}，則它將需要花費2點角色點；動態替換效果將可以和其他動態替換效果分享角色點，使它們可以以較低的效率被同時使用（因此你必須要有至少二個動態替換效果才能讓它派上用場）。每回合一次以一個自由動作，你可以決定要將多少角色點分配在這些效果上。將陣列的基本效果變為動態需要花費1點角色點。"
 					]
 				},
 				{
 					"type": "example",
 					"entries": [
-						"Dark Nova can create a variety of effects with his “cosmic power,” limited only by his imagination and concentration in terms of what he can maintain all at once. Some effects (like Immunity to the rigors of space and alien environments, or his protective force field) are automatic, but others, like energy blasts (Ranged Damage) or energy constructs (Create) are Dynamic Alternate Effects. The base effect (Create) has a 1-point modifier to make it Dynamic, and each additional effect added to the array costs 2 points (1 for the Alternate Effect, 1 to make it Dynamic as well). So Dark Nova can, for example, put some character points into an energy construct and still put points into an offensive blast as well."
+						"暗黑新星可以使用他的「宇宙能量」創造出許多不同的效果，唯一的限制只有他的想像力、和決定他同時所能維持事物的專注力。有些效果（例如對於宇宙和異星嚴酷環境的{@effect 免疫}能力、或是環繞他的防護力場）能夠自動發揮效果，但其他的，像是能量衝擊波（{@modifier Increased Range|遠距}{@effect 傷害}）或能量構建（{@effect Create}）就屬於動態替換效果。他的主要效果（{@effect Create}）需要一個花費為1點的修飾符來使其變為動態，而每個加入該陣列的替換效果都需要花費2點（1點使其做為替換效果，再1點使其變為動態替換效果）。因此暗黑新星將可以，舉例來說，將一部份的角色點分配到能量構建上，而仍同時分配一部份的點數到攻擊性的衝擊波上。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Alternate Effects",
+					"translate_name": "幕後花絮：替換效果", "name": "Under the Hood: Alternate Effects",
 					"entries": [
-						"Arrays—collections of Alternate Effects—are one of the more complex and important constructs and require some special care in terms of their creation and use. Players should take these things into account when creating characters with arrays, and Gamemasters should consider them when approving such characters and dealing with them in play.",
-						"The main reason for the Alternate Effect modifier is to allow a degree of flexibility in terms of a character’s power effects within the cost restrictions laid down by having a finite number of character points. It’s based on the assumption that a wide range of powers has a diminishing return in terms of value, since characters can only use so many effects at once. A power with various “settings,” usable one at a time, is more valuable than a power with only one, but not as valuable as various effects all usable at the same time.",
-						"However, Alternate Effect can be abused to try and squeeze the most “efficiency” out of a character’s character points, gaining the most effects for the lowest cost. The guidelines for Alternate Effects are intended to help limit this somewhat, but there is no way they can eliminate the possibility entirely and still provide all the benefits of flexibility they’re intended to offer. Some Gamemaster oversight is therefore necessary when it comes to the creation and use of arrays.",
-						"Before giving a character Alternate Effects, it is wise to ask, “Is an array really needed for this concept?” Some concepts, such as a variety of different attacks, clearly call for an array. Others, like a power with a few rarely used stunts, may not call for an array. Such a power may be better served by acquiring such occasional stunts through extra effort and the spending of victory points rather than the creation of a permanent set of Alternate Effects. That is what the power stunts rules are for, after all: so you do not have to fill up character sheets with minor Alternate Effects a hero will rarely ever use.",
-						"If you decide an array is appropriate, the first thing is to determine its overall theme and associated descriptors. Is it an array of different attacks, like a “weapons array” of a battlesuit? Is it a collection of regular power stunts for a themed power like earth control, or spells for magic? Is it a series of alternate forms for a metamorph? And so forth. Arrays should have some unifying theme beyond “all the powers I want my hero to have,” and Gamemasters should feel free to veto inappropriate arrays lacking a strong theme."
+						"陣列──一組替換效果的集合──是整個遊戲中最複雜且最重要的結構之一，且在創建與使用上需要特別留意。玩家在創建擁有陣列的角色時需要將這些納入考量，而遊戲主持人則必須在審核這類角色、以及在遊戲中處理他們時仔細考慮這些因素。",
+						"替換效果的主要用途是為了讓角色超能力在有限數量的角色點限制下提供一定程度的靈活性。它基於「超能力的廣度具有遞減的價值回報」的假設：一個具有多種「設定」，但同時只能使用一種的超能力比只具有單一用途的超能力來的有價值，但比不過多種可以在同時使用的複數效果。",
+						"然而，替換效果很容易被濫用於有效率地壓榨角色點，使其以最低的花費達到最好的成效。這篇關於替換效果的準則就是為了用以幫助限制這種可能，我們不可能在完全抹消濫用可能性的同時，又能提供我們所要的靈活性所帶來的好處。因此，當創建和使用陣列時，遊戲主持人的監督仍是必要的。",
+						"在為角色創建替換效果之前，最好先詢問自己一遍：「這個角色概念真的需要這個陣列嗎？」有些角色概念，像是擁有許多不同種類的攻擊手段，很顯然可以被當作一個陣列。然而其他的，像是有著很少會派上用場絕技的超能力，則可能不適合被當作陣列。這類超能力最好做為偶發性的絕技，藉由{@rule 奮力一搏|basic|1|extra effort}和消耗勝利點的方式被使用，而非為其創建一組常駐的替換效果陣列。畢竟這本就是超能力絕技規則的目的所在：因此你不必在角色卡上填滿一堆他很少會用上的替換效果。",
+						"若你認為一組陣列是合適的，那麼接下來要做的第一件事就是決定它的整體主題，以及其關聯描述符。它是一組關於不同攻擊手段的陣列，像是戰鬥裝甲的「武器陣列」嗎？又或者它是一組用以體現特定超能力主題的常用超能力絕技集合，像是大地控制、魔法咒語？亦或，它是屬於變形能力的一系列可替換型態？諸如此類。陣列應該要具備某種統一的主題性，而不是「所有我想要我英雄擁有的超能力」，遊戲主持人應該要否決那些缺乏強烈主題性的不適當陣列。"
 					]
 				}
 			]

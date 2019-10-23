@@ -11,10 +11,11 @@ IS_LOCAL_TEST = false;
 function getGeneralListItem (entry) {
 	var name = entry.translate_name? entry.translate_name: entry.name;
 	var type = Renderer.general.getTypeFullText(entry.type);
+	var type_class = Renderer.general.getClassByType(entry.type);
 	var cost = Renderer.general.getModifierCostText(entry, true);
 	return `
 			<span class="name col-5">${name}</span>
-			<span class="type col-2 text-align-center">${type}</span>
+			<span class="type col-2 text-align-center ${type_class}">${type}</span>
 			<span class="rank col-5 text-align-center">${cost}</span>
 		`;
 }

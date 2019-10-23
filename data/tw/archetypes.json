@@ -83,7 +83,7 @@
 						"items": [
 							"{@b 裝甲}: {@effect Protection|保護 11}, {@modifier 強抗} [22 點]",
 							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
-							"{@b 溝通系統}: {@effect Communication|Radio Communication 2} [8 點]",
+							"{@b 溝通系統}: {@effect Communication|無線電波溝通 2} [8 點]",
 							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
 							{
 								"type": "entries",

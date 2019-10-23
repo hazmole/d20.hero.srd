@@ -3995,6 +3995,8 @@ Renderer.general = {
 			case "F": return "school_T";
 			case "G": return "school_A";
 			case "S": return "school_D";
+			case "extra": return "school_A";
+			case "flaw": return "school_C";
 			default: return "";
 		}
 	}
