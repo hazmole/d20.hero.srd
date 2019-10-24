@@ -437,14 +437,14 @@
 			"extras": [
 				{
 					"name": "Continuous",
-					"entries": ["Continuous Create makes objects that remain until they are destroyed, nullified, or you choose to dismiss them."],
+					"entries": ["Continuous Create makes objects that remain until they are destroyed, {@effect Nullify|nullified}, or you choose to dismiss them."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Impervious",
-					"entries": ["Applied to Create, this extra makes the objects’ Toughness Impervious."],
+					"entries": ["Applied to Create, this extra makes the objects’ Toughness {@modifier Impervious}."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -502,7 +502,7 @@
 			"flaws": [
 				{
 					"name": "Feedback",
-					"entries": ["You may suffer damage when your created objects are damaged (see Feedback flaw for details)."],
+					"entries": ["You may suffer damage when your created objects are damaged (see {@modifier Feedback} flaw for details)."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1519,14 +1519,14 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can use victory points or ranks of Luck to affect others in various ways (see victory points). For each rank you have in this effect, choose one of the following capabilities:",
+				"You can use victory points or ranks of {@advantage Luck} to affect others in various ways (see {@rule victory points|basic|1|victory points}). For each rank you have in this effect, choose one of the following capabilities:",
 				{
 					"type": "list",
 					"items": [
-						"You can spend a victory point or use Luck on another character’s behalf, with the normal benefits.",
-						"You can bestow your victory point or use of Luck on others. You can use this only once on any given character in a round, but the recipient may use the bestowed point(s) normally.",
-						"You can spend one of your victory point or uses of the Luck advantage to negate someone else’s use of a victory point, use of their Luck advantage, or a Gamemaster-imposed complication (at the GM’s discretion). The latter also eliminates the complication, however, so no victory points are awarded for it.",
-						"You can spend a victory point or use Luck to force someone else to reroll a die roll and take the worse of the two rolls. The target of this last effect may spend a victory point or use Luck to avoid having to reroll."
+						"You can spend a victory point or use {@advantage Luck} on another character’s behalf, with the normal benefits.",
+						"You can bestow your victory point or use of {@advantage Luck} on others. You can use this only once on any given character in a round, but the recipient may use the bestowed point(s) normally.",
+						"You can spend one of your victory point or uses of the {@advantage Luck} advantage to negate someone else’s use of a victory point, use of their Luck advantage, or a Gamemaster-imposed complication (at the GM’s discretion). The latter also eliminates the complication, however, so no victory points are awarded for it.",
+						"You can spend a victory point or use {@advantage Luck} to force someone else to reroll a die roll and take the worse of the two rolls. The target of this last effect may spend a victory point or use {@advantage Luck} to avoid having to reroll."
 					]
 				}
 			],
@@ -1540,7 +1540,7 @@
 				},
 				{
 					"name": "Luck",
-					"entries": ["Each rank in this extra gives you the benefit of a rank in the Luck advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM."],
+					"entries": ["Each rank in this extra gives you the benefit of a rank in the {@advantage Luck} advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM."],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}

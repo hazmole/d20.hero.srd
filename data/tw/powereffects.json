@@ -383,7 +383,7 @@
 			]
 		},
 		{
-			"name": "Create",
+			"translate_name": "_創造", "name": "Create",
 			"type": "CTL",
 			"action": "S",
 			"range": "ranged",
@@ -398,7 +398,7 @@
 				"You can create an object with a maximum volume rank equal to your effect rank and Toughness equal to your effect rank. Created objects can be damaged or broken like ordinary objects. They also vanish if you stop maintaining them. You can repair any damage to a created object at will by using your effect again (essentially “re-creating” the object). Your created objects are stationary once you have created them, although other effects can move them. Assume a created object has a mass rank equal to its volume rank.",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Create vs. Summon",
+					"translate_name": "幕後花絮：創造 vs. 召喚", "name": "Under the Hood: Create vs. Summon",
 					"entries": [
 						"Create and Summon are similar effects: both “create” things out of nowhere. So when should a character have one and not the other?",
 						"Generally, Create makes inanimate objects, while Summon conjures creatures of some sort, capable of independent action (albeit limited in the case of mindless creatures like robots or zombies). So a character able to create “sculptures” of ice, for example: walls, slides, columns, and so forth, should have Create. A character able to call up animated snowmen, on the other hand, should have Summon, while a powerful “ice elemental” may very well have both effects!"
@@ -406,21 +406,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Created Objects, Cover, and Concealment",
+					"translate_name": "創造物體，掩護，和遮蔽", "name": "Created Objects, Cover, and Concealment",
 					"entries": [
 						"A created object can provide cover or concealment (if the object is opaque) just like a normal object. Cover provided by a created object can block incoming attacks, but blocks outgoing attacks as well. Attacks hitting the covering object damage it normally (see Damaging Objects). Indirect effects can bypass the cover a created object provides just like any other cover (see Indirect modifier). The Selective modifier allows you to vary the cover and concealment your objects provide."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Trapping with Objects",
+					"translate_name": "用物體捕困目標", "name": "Trapping with Objects",
 					"entries": [
 						"You can trap a target inside a large enough hollow object (a cage or bubble, for example). This requires both an attack check against the target’s Dodge and a Dodge resistance check against the effect’s rank. A trapped character can break out of the object normally. Imposing conditions on the target other than just trapping them requires a separate effect, such as Affliction (see Affliction), which you may wish to acquire as an Alternate Effect of Create (see Alternate Effect)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Dropping Objects",
+					"translate_name": "投落物體", "name": "Dropping Objects",
 					"entries": [
 						"Simply dropping a created object on a target is treated like an Area Effect attack based on the object’s size (see Area extra). The object inflicts damage equal to its Toughness, and targets get a Dodge check to evade the falling object. A successful check results in no damage (rather than the usual half damage).",
 						"While a created object can potentially be wielded as an improvised weapon, the effect cannot otherwise create attacks or other effects; you must acquire these effects separately (perhaps as Alternate Effects)."
@@ -428,7 +428,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Supporting Weight",
+					"translate_name": "承載重量", "name": "Supporting Weight",
 					"entries": [
 						"If a created object needs to support weight—created as a bridge or to support a weakened structure, for example—it has an effective Strength equal to its rank. You can “shore up” a created object by taking a standard action and concentrating, increasing its Strength by 1 until the start of your next round. You can also use extra effort to increase a created object’s Strength for one round, and these modifiers are cumulative."
 					]
@@ -437,14 +437,14 @@
 			"extras": [
 				{
 					"translate_name": "常續", "name": "Continuous",
-					"entries": ["Continuous Create makes objects that remain until they are destroyed, nullified, or you choose to dismiss them."],
+					"entries": ["常續創造效果所製造出的物體將持續存在值到它被摧毀、{@effect 無效化}、或你選擇將之解消。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Impervious",
-					"entries": ["Applied to Create, this extra makes the objects’ Toughness Impervious."],
+					"translate_name": "強抗", "name": "Impervious",
+					"entries": ["當應用於創造效果，這個修飾符將使其創造出來物體的堅實防禦屬性具備{@modifier 強抗}性值。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -457,7 +457,7 @@
 					}
 				},
 				{
-					"name": "Movable",
+					"translate_name": "可移動", "name": "Movable",
 					"entries": ["You can move your created objects around with a Move Object effect at your Create rank (see Move Object)."],
 					"cost": {
 						"value": 1, "type": "per"
@@ -478,7 +478,7 @@
 					}
 				},
 				{
-					"name": "Stationary",
+					"translate_name": "固定", "name": "Stationary",
 					"entries": ["Your created objects can hang immobile in the air. They resist being moved with a Strength rank equal to the modifier rank. Unless you have the Tether extra or the Movable extra, you cannot move a stationary created object once it’s placed any more than anyone else can."],
 					"cost": {
 						"value": 0, "type": "per"
@@ -492,7 +492,7 @@
 					}
 				},
 				{
-					"name": "Tether",
+					"translate_name": "繫繩", "name": "Tether",
 					"entries": ["You have a connection to your created objects, allowing you to exert your own Strength to move them (provided you are strong enough to do so)."],
 					"cost": {
 						"value": 1, "type": "flat"
@@ -502,7 +502,7 @@
 			"flaws": [
 				{
 					"translate_name": "反饋", "name": "Feedback",
-					"entries": ["You may suffer damage when your created objects are damaged (see Feedback flaw for details)."],
+					"entries": ["當你創造出的物體受到傷害時，你也會受到傷害（參見{@modifier Feedback}缺陷以查閱細節）。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -515,7 +515,7 @@
 					}
 				},
 				{
-					"name": "Proportional",
+					"translate_name": "成比例", "name": "Proportional",
 					"entries": ["Your created objects have a total volume rank plus Toughness rank equal to your Create rank, rather than both volume and Toughness up to your rank. So you can create an object with volume rank 0 and Toughness equal to your Create rank, vice versa, or anywhere in between, so long as the sum of the two ranks does not exceed your Create rank."],
 					"cost": {
 						"value": -1, "type": "per"
@@ -1509,7 +1509,7 @@
 			]
 		},
 		{
-			"name": "Luck Control",
+			"translate_name": "運氣控制", "name": "Luck Control",
 			"type": "CTL",
 			"action": "R",
 			"range": "perception",
@@ -1519,35 +1519,35 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can use victory points or ranks of Luck to affect others in various ways (see victory points). For each rank you have in this effect, choose one of the following capabilities:",
+				"你可以使用勝利點或{@advantage 好運}特長的等級藉由各種方式影響他人（參見{@rule 勝利點|basic|1|victory points}規則）。每一級的這個效果都能讓你選擇下列其中一個功能：",
 				{
 					"type": "list",
 					"items": [
-						"You can spend a victory point or use Luck on another character’s behalf, with the normal benefits.",
-						"You can bestow your victory point or use of Luck on others. You can use this only once on any given character in a round, but the recipient may use the bestowed point(s) normally.",
-						"You can spend one of your victory point or uses of the Luck advantage to negate someone else’s use of a victory point, use of their Luck advantage, or a Gamemaster-imposed complication (at the GM’s discretion). The latter also eliminates the complication, however, so no victory points are awarded for it.",
-						"You can spend a victory point or use Luck to force someone else to reroll a die roll and take the worse of the two rolls. The target of this last effect may spend a victory point or use Luck to avoid having to reroll."
+						"你可以消耗一點勝利點、或使用{@advantage 好運}特長以影響其他角色的行為，並讓其享有該效果的好處。",
+						"你可以將你的勝利點、或{@advantage 好運}特長的使用次數授予其他人。你每輪只能對任意給定角色使用這個功能一次，但被授予的目標將可以如常使用他們所拿到勝利點或使用次數。",
+						"你可以消耗你的其中一點勝利點、或{@advantage 好運}特長的使用次數，以抵銷其他人使用勝利點的行為、對方的{@advantage 好運}特長的使用、或遊戲主持人所強迫的糾葛難題（由GM裁斷是否可行）。然而，由於後者同時取消了糾葛難題本身，因此它並不會帶來勝利點獎勵。",
+						"你可以消耗一點勝利點、或使用{@advantage 好運}特長的使用次數以強迫其它人重新擲骰，並取用較差的擲骰結果。最後這個功能的目標可以消耗一點勝利點或使用{@advantage 好運}特長以避免被強迫重新擲骰。"
 					]
 				}
 			],
 			"extras": [
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["Your Luck Control effect works equally on all targets in the affected area. You spend only one victory point, but the subjects are each affected individually. You must apply the same effect to all subjects at once."],
+					"entries": ["你的運氣控制效果將平等地影響範圍內的所有目標。你只需要消耗一點勝利點，但所有目標都將各自受到影響。你必須同時對所有目標使用相同的功能。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Luck",
-					"entries": ["Each rank in this extra gives you the benefit of a rank in the Luck advantage (see Luck in Advantages). It is subject to the same limits as the Luck advantage set by the GM."],
+					"translate_name": "好運", "name": "Luck",
+					"entries": ["每一級的這個強化都會使你獲得一級{@advantage 好運}特長的好處。它仍然受限於GM為好運特長所設下的相同限制。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["This extra, applied to Area Luck Control, allows you to choose who in the area is or is not affected by it."],
+					"entries": ["適用於範圍化運氣控制效果，這個強化讓你得以選擇範圍內有誰會被影響，而誰不會被影響。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1555,29 +1555,29 @@
 			],
 			"flaws": [
 				{
-					"name": "Action",
-					"entries": ["If the action required for Luck Control is increased beyond a reaction, it is only usable during your turn each round, which limits its usefulness in responding to the actions of others."],
+					"translate_name": "變更動作", "name": "Action",
+					"entries": ["若使用運氣控制所需的動作被變更為反應以外的動作，則它將只能在你的回合期間被使用，這也將使它被限制無法用於回應他人的行動。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "遠距", "name": "Ranged",
-					"entries": ["Luck Control normally requires no attack check; if Ranged, it does."],
+					"entries": ["運氣控制原本不需要任何攻擊檢定；但若應用了遠距修飾符，則使用它將需要進行攻擊檢定。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "可被抵抗", "name": "Resistible",
-					"entries": ["Targets of your Luck Control get a resistance check—usually Dodge or Will—to avoid its effects."],
+					"entries": ["你運氣控制效果的目標將得以進行一次抵抗檢定──通常使用閃避或意志防禦──以避免其效果發揮作用。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "副作用", "name": "Side Effect",
-					"entries": ["As a particular side effect of Luck Control, if your effort to alter luck fails, you suffer a setback without earning a victory point. Effectively the GM gains a “free” complication against you."],
+					"entries": ["做為運氣控制效果的一個特殊副作用，若你扭轉運氣的嘗試失敗，你將會經歷一個逆境，而無法從中獲得勝利點獎勵。這在實質上等同於GM獲得一個針對你作用的「免費」糾葛難題。"],
 					"cost": {
 						"value": {"min":-1, "max":-2}, "type": "per"
 					}
