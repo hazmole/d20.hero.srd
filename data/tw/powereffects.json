@@ -437,7 +437,7 @@
 			"extras": [
 				{
 					"translate_name": "常續", "name": "Continuous",
-					"entries": ["常續創造效果所製造出的物體將持續存在值到它被摧毀、{@effect 無效化}、或你選擇將之解消。"],
+					"entries": ["常續創造效果所製造出的物體將持續存在直到它被摧毀、{@effect 無效化}、或你選擇將之解消。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -712,7 +712,7 @@
 			]
 		},
 		{
-			"name": "Environment",
+			"_translate_name": "環境", "name": "Environment",
 			"type": "CTL",
 			"action": "S",
 			"range": "rank",
@@ -722,49 +722,49 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can change the environment in an area: raising or lowering the temperature, creating light, causing rain, and so forth (see The Environment in Action & Adventure for details).",
-				"Your Environment affects a 30 foot radius around you at rank 1. Each additional rank moves the radius up one distance rank, for a reach of approximately 2,000 miles at rank 20, sufficient to alter the environment of an entire continent!",
-				"Each of the following is a separate Environment effect. If you have one you can acquire others as Alternate Effects, but you can then only use and maintain one at a time. To use or maintain multiple Environment effects simultaneously, add their costs together for the effect’s total cost per rank or apply the Selective modifier, allowing you to mix-and-match effects.",
+				"你可以改變一個區域範圍內的環境：增高或降低溫度、創造照明、降雨等等（詳情參見動作＆冒險章節中的{@rule 環境|basic|8|Environmental Hazards}規則）。",
+				"你的環境效果在1級時可以影響你周遭30呎半徑的區域。每一級額外的等級都將使半徑的距離等級提升一級，並在20級時達到大約半徑2,000哩的程度，足以讓你影響一整個大陸的環境！",
+				"下列每個選項都屬於不同的環境效果。若你擁有其中一項，那你可以選擇將其他選項做為{@modifier 替換效果}獲得，但如此一來你同時就只能維持其中一項的效果。若要同時使用或維持複數環境效果，將它們每級的花費加總在一起，或甚至應用後述的可選擇修飾符，讓你得以將這些效果選項混合使用。",
 				{
 					"type": "entries",
-					"name": "Cold",
+					"translate_name": "寒冷", "name": "Cold",
 					"entries": [
-						"You can lower the temperature in the area. For 1 point per rank, you create intense cold; for 2 points per rank, you create extreme cold."
+						"你可以降低區域範圍內的溫度。若花費為每級1點，則你將創造出嚴寒氣溫；若花費為每級2點，則你將創造出極端酷寒的溫度。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Heat",
+					"translate_name": "炎熱", "name": "Heat",
 					"entries": [
-						"You can raise the temperature in the area. For 1 point per rank, you create intense heat, for 2 points per rank; you create extreme heat."
+						"你可以提高區域範圍內的溫度。若花費為每級1點，則你將創造出酷熱氣溫；若花費為每級2點，則你將創造出極端酷熱的溫度。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Impede Movement",
+					"translate_name": "移動妨礙", "name": "Impede Movement",
 					"entries": [
-						"You can impede movement through the area with high winds, icy or wet surfaces, or similar effects. For 1 point per rank, you reduce movement speed through the area by 1 rank; for 2 points per rank, you reduce it by 2 ranks. Depending on your descriptors, you may also apply circumstance modifiers to Acrobatics and Athletics checks for surface conditions."
+						"你可以透過強風、冰結或濕滑地表、或其他類似的效果以阻撓其他角色在區域範圍內所進行的移動。若花費為每級1點，你能夠使在區域範圍內的移動速度減少1級；若花費為每級2點，則你能夠使移動速度減少2級。根據你的描述符而定，你也許能夠因為環境效果導致的地表狀況而使在區域範圍內進行的{@skill 雜技}和{@skill 運動}檢定承受相應的情境修正值。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Light",
+					"translate_name": "照明", "name": "Light",
 					"entries": [
-						"You can raise the light level in the area, countering the concealment of darkness, but not other forms of concealment. For 1 point per rank, you can create enough light to reduce total concealment to partial and partial concealment to none. For 2 points per rank, you can shed light as bright as a sunlit day, eliminating all concealment provided by natural darkness. Power effects with the darkness descriptor may be countered with a successful power check (see Countering Effects)."
+						"你可以提高區域範圍內的明亮程度，反制黑暗造成的遮蔽效果，但你無法用這個方式反制其他形式的遮蔽。若花費為每級1點，你可以創造足夠的光照以使黑暗導致的全遮蔽變為半遮蔽，而使半遮蔽變為無遮蔽。若花費為每級2點，則你可以散發出如同晴天般的明亮光照，消除所有自然黑暗所造成的遮蔽效果。藉由成功通過一次超能力檢定，你可能也可以藉此反制帶有黑暗描述符的超能力效果（參見{@rule 反制效果|basic|6|countering effects}規則）。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Visibility",
+					"translate_name": "能見度", "name": "Visibility",
 					"entries": [
-						"You impose a -2 modifier to Perception checks for 1 point per rank, and a -5 for 2 points per rank. For more significant obscuring of senses (via darkness, fog, etc.) use an Area Concealment Attack effect (see Concealment)."
+						"若花費為每級1點，你可以使區域範圍內的{@skill 感知}檢定承受-2修正值；若花費為每級2點，則你使該檢定承受-5修正值。若想要更顯著地影響感官的作用（例如透過黑暗、雲霧等），請使用範圍化隱蔽攻擊效果（參見{@effect 隱蔽}效果）。"
 					]
 				}
 			],
 			"extras": [
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["With this extra you can vary the environment within your affected area, affecting some while not affecting others, or even mixing and matching different environments (making part of the area cold and another hot, for example)."],
+					"entries": ["利用這個強化，你可以變化處於你影響範圍內的環境，只影響其中一部分而不影響其他區域，或甚至將不同的環境效果混合（舉例來說，使部分區域變得寒冷，而使其他區域變得炎熱）。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2814,7 +2814,7 @@
 			]
 		},
 		{
-			"_translate_name": "轉化", "name": "Transform",
+			"_translate_name": "物體轉化", "name": "Transform",
 			"type": "CTL",
 			"action": "S",
 			"range": "close",

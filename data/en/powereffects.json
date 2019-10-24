@@ -722,9 +722,9 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can change the environment in an area: raising or lowering the temperature, creating light, causing rain, and so forth (see The Environment in Action & Adventure for details).",
+				"You can change the environment in an area: raising or lowering the temperature, creating light, causing rain, and so forth (see The {@rule Environment|basic|8|Environmental Hazards} in Action & Adventure for details).",
 				"Your Environment affects a 30 foot radius around you at rank 1. Each additional rank moves the radius up one distance rank, for a reach of approximately 2,000 miles at rank 20, sufficient to alter the environment of an entire continent!",
-				"Each of the following is a separate Environment effect. If you have one you can acquire others as Alternate Effects, but you can then only use and maintain one at a time. To use or maintain multiple Environment effects simultaneously, add their costs together for the effect’s total cost per rank or apply the Selective modifier, allowing you to mix-and-match effects.",
+				"Each of the following is a separate Environment effect. If you have one you can acquire others as {@modifier Alternate Effect|Alternate Effects}, but you can then only use and maintain one at a time. To use or maintain multiple Environment effects simultaneously, add their costs together for the effect’s total cost per rank or apply the Selective modifier, allowing you to mix-and-match effects.",
 				{
 					"type": "entries",
 					"name": "Cold",
@@ -743,21 +743,21 @@
 					"type": "entries",
 					"name": "Impede Movement",
 					"entries": [
-						"You can impede movement through the area with high winds, icy or wet surfaces, or similar effects. For 1 point per rank, you reduce movement speed through the area by 1 rank; for 2 points per rank, you reduce it by 2 ranks. Depending on your descriptors, you may also apply circumstance modifiers to Acrobatics and Athletics checks for surface conditions."
+						"You can impede movement through the area with high winds, icy or wet surfaces, or similar effects. For 1 point per rank, you reduce movement speed through the area by 1 rank; for 2 points per rank, you reduce it by 2 ranks. Depending on your descriptors, you may also apply circumstance modifiers to {@skill Acrobatics} and {@skill Athletics} checks for surface conditions."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Light",
 					"entries": [
-						"You can raise the light level in the area, countering the concealment of darkness, but not other forms of concealment. For 1 point per rank, you can create enough light to reduce total concealment to partial and partial concealment to none. For 2 points per rank, you can shed light as bright as a sunlit day, eliminating all concealment provided by natural darkness. Power effects with the darkness descriptor may be countered with a successful power check (see Countering Effects)."
+						"You can raise the light level in the area, countering the concealment of darkness, but not other forms of concealment. For 1 point per rank, you can create enough light to reduce total concealment to partial and partial concealment to none. For 2 points per rank, you can shed light as bright as a sunlit day, eliminating all concealment provided by natural darkness. Power effects with the darkness descriptor may be countered with a successful power check (see {@rule Countering Effects|basic|6|countering effects})."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Visibility",
 					"entries": [
-						"You impose a -2 modifier to Perception checks for 1 point per rank, and a -5 for 2 points per rank. For more significant obscuring of senses (via darkness, fog, etc.) use an Area Concealment Attack effect (see Concealment)."
+						"You impose a -2 modifier to {@skill Perception} checks for 1 point per rank, and a -5 for 2 points per rank. For more significant obscuring of senses (via darkness, fog, etc.) use an Area Concealment Attack effect (see {@effect Concealment})."
 					]
 				}
 			],
