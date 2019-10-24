@@ -638,7 +638,7 @@
 			],
 			"extras": [
 				{
-					"translate_name": "動作", "name": "Action",
+					"translate_name": "變更動作", "name": "Action",
 					"entries": ["由於這個效果需要採取防守動作，因此偏轉效果無法被做為標準動作以外的動作使用。要創造出類似「偏轉領域」或其他能夠在一個範圍區域內自動偏轉攻擊的效果，請使用{@effect Enhanced Trait|增強閃避}和/或{@effect Enhanced Trait|增強格擋}效果，並應用像是{@modifier 範圍化}和{@modifier 可選擇}之類的修飾符。"]
 				},
 				{
@@ -2865,7 +2865,7 @@
 			]
 		},
 		{
-			"_translate_name": "變換", "name": "Variable",
+			"translate_name": "能力變換", "name": "Variable",
 			"type": "G",
 			"action": "S",
 			"range": "personal",
@@ -2875,47 +2875,47 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can gain or use potentially any effect of the appropriate type and descriptor! A Variable effect provides you with a set of (rank x 5) character points you can allocate to different effects. Take an action on your turn and choose where to allocate your Variable character points. It is a good idea to have a “menu” of commonly used options written down in advance to help speed up this process during play.",
-				"The effects you gain from your Variable effect are subject to the normal power level and series limits. So you cannot, for example, acquire Enhanced Trait as a Variable effect to improve a trait beyond its power level limit, or acquire effects or descriptors the Gamemaster has specifically banned from the series. The GM has final say as to whether or not a particular use of a Variable effect is appropriate and may veto your allocations, if necessary.",
-				"You must also place descriptors on your Variable effect limiting its scope. For example, a Variable effect that mimics other’s traits is limited to the traits its subject(s) possess; a Variable effect providing you with traits suitable to different shapes is limited by the form(s) you assume; a Variable effect providing adaptations is limited to the stimulus to which it adapts, and so forth. This descriptor does not reduce the effect’s cost unless it’s especially narrow or limiting, and the GM is the final arbiter of what constitutes a suitable descriptor and which descriptors are narrow enough to qualify for a Limited flaw.",
-				"The allocation of your Variable points is sustained, so if you stop maintaining your Variable effect for any reason, your allocated points “reset” to a “null” state: you lose any temporary traits and must take the action necessary to reallocate your Variable points again on your turn to regain them. Points in a Continuous Variable effect remain where you set them without maintenance, unless the Variable effect itself is countered or nullified. Variable effects cannot be permanent in duration by definition.",
+				"你能夠獲得並使用具有適當類型和描述符的任何效果！能力變換效果將提供共（能力變換等級 x 5）點的角色點以讓你分配到不同的效果上；在你的回合採取一個動作，並決定要如何分配你能力變換效果所提供的角色點。建議最好將一些常用選項的「清單」給事先寫下來，以加速你在遊戲過程中分配角色點的速度。",
+				"你借由能力變換效果所得到的效果仍然受限於原本超能力階級限制和劇集限制。因此，舉例來說，你不能透過以能力變換效果所獲得的{@effect 增強數據}以將某項數據增強至超過超能力階級的限制、或是藉此獲得某個遊戲主持人在這個劇集中特別禁止的超能力效果或描述符。GM對於能力變換效果的使用是否合適擁有最終決定權，且若有需要的話，他可以否決你的點數分配。",
+				"你必須要為你的能力變換效果附加某種描述符以限制它的範疇。舉例來說，一個用以模仿他人數據的能力變換效果就受限於只能獲得他目標所擁有的數據；用以變化成不同型態的能力變換效果受限於獲得符合該型態的數據能力；而用以適應變化成觸碰物質的能力變換效果則受限於它所觸碰適應的材質，諸如此類。這個描述符並不會降低這個效果的花費，除非該描述符真的特別狹隘或限定，且對於什麼樣的描述符是合適的、什麼樣的描述符又狹隘到足以做為{@modifier 限定條件}缺陷，將由GM做為最終仲裁者給出判斷。",
+				"能力變換效果的角色點分配的持續時間為維持，因此若你因為任何理由而停止維持你的能力變換效果，你所分配的點數將會「重置」成「空值」的狀態：你將失去所有你藉由能力變換效果暫時獲得的數據，且必須在你的回合再次採取所需要的動作才能重新分配你能力變換效果的角色點。{@modifier Increased Duration|常續}能力變換效果的角色點數不需要花費動作維持就能夠保持其被分配的狀態，除非能力變換效果本身遭到反制或被{@effect 無效化}。能力變換效果的持續時間不能夠被變更為「永駐」。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Variable Effects",
+					"translate_name": "幕後花絮：能力變換效果", "name": "Under the Hood: Variable Effects",
 					"entries": [
 						"Powers based off the Variable effect are obviously very flexible, capable of duplicating a wide range of other effects. Responsibility for controlling Variable effects in the game is placed largely in the hands of both the Gamemaster and responsible players. To do otherwise would require weighing the effect down with numerous game-system limitations that would keep it from doing what it is supposed to do: create a wide range of effects.",
 						"Keep in mind a Variable effect is not supposed to be “any effect I want.” That kind of unlimited power doesn’t belong in the hands of player characters, and is better reserved as a plot device for NPCs. A Variable effect can be “any effect within a given set of parameters,” but it’s up to you and the GM to define those parameters. The limits of power flexibility are deliberately set by Variable effects, the use of extra effort, and victory points.",
 						"Many comic book heroes who appear to have the power to “do anything” are actually using one of these options in game terms. For example, a super-wizard can do practically anything with magic. However, generally speaking, these characters have certain abilities they use all the time (powers they have acquired with character points) and “stunts” they only do from time to time, essentially power stunts performed with extra effort (and possibly victory points). This is why the Magic power, for example, is not a Variable effect: most powers in the game have the potential to do “stunts” via extra effort, so the “variability” of Magic seen in the comics is already built-in to the system, with some costs to control it, without having to give players carte blanche to duplicate any effect in the game at will (which is just likely to slow things down and cause game balance issues).",
 						"Variable effects are better reserved for things where it is difficult to cost-out and define everything about a given power in advance. For example, the ability to shapechange into any animal could be an application of the Morph effect with a long list of Metamorph options, but listing out every single possible animal form, one at a time, would be tedious to say the least, especially when a good number of those forms would be superfluous. A Variable effect, with the descriptor “animal forms” is easier to manage. The player can prebuild certain commonly used animal forms for use during play, but also has the option to new configurations that fit into the power’s descriptors. See the Sample Powers section for some examples of Variable effects in practice.",
-						"In short, Variable effect is a “last resort” in power design, and the GM should treat it as such."
+						"簡而言之，能力變換效果是超能力設計的「最後手段」，且GM也必須將它視作如此。"
 					]
 				}
 			],
 			"extras": [
 				{
-					"name": "Action",
-					"entries": ["You can change the configuration of your effect faster, although only a Reaction Variable can change more often than once per turn, and then only in response to its triggering circumstances. Gamemasters should exercise caution with Variable effects that can be reconfigured as a free action or reaction: they not only grant tremendous flexibility, they can also slow down game play as the player considers virtually infinite possibilities for each action using the Variable effect. {@b Move Action: +1 cost per rank . Free Action: +2 cost per rank. Reaction: +3 cost per rank.}"],
+					"translate_name": "變更動作", "name": "Action",
+					"entries": ["你可以更快地改變你能力變換效果的設置，然而，只有{@modifier Reaction}能力變換效果可以使你在每回合改變一次以上的設置，且只能在對應的觸發情境發生時才能更改其設置。遊戲主持人必須特別留意能夠以自由動作或反應動作重新改變設置的能力變換效果：它們不僅僅會帶來絕大的靈活性，也很有可能會嚴重拖延遊戲的步調，因為玩家可能會為了在每次行動時使用能力變換效果而考慮將近無限的可能性。 {@b 移動動作：每級+1點. 自由動作：每級+2點. 反應：每級+3點.}"],
 					"cost": {
 						"value": {"min":1, "max":3}, "type": "per", "hidden": true
 					}
 				},
 				{
 					"translate_name": "影響他人", "name": "Affects Others",
-					"entries": ["You can grant effects to someone else. The subject granted the use of the effect controls its configuration, if appropriate for its descriptors (although you retain the ability to withdraw use of the effect altogether whenever you wish). {@b Affects Others Only: +0 cost per rank. Affects Others or yourself: +1 cost per rank.}"],
+					"entries": ["你可以將能力變換效果賦予其他人使用。被賦予該效果使用權的目標將得以控制該效果的設置，只要其符合該效果的描述符即可（然而你仍保有在任何時候收回該效果使用權的能力）。 {@b 只能影響他人：每級+0點. 影響他人或自己：每級+1點.}"],
 					"cost": {
 						"value": {"min":0, "max":1}, "type": "per", "hidden": true
 					}
 				},
 				{
-					"name": "Perception",
-					"entries": ["Applied to a Ranged Affects Others Variable, this extra allows you to grant the benefits of the effect to any target you can accurately perceive."],
+					"translate_name": "感知距離", "name": "Perception",
+					"entries": ["適用於遠距影響他人能力變換效果，這個修飾符讓你得以將該效果的好處賦予任何你可以準確感知到的目標。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "遠距", "name": "Ranged",
-					"entries": ["A Variable effect with Affects Others may have the Ranged extra to improve the range at which you can grant the effect to another. This does not alter the ranges of the effect’s various configurations. To do so, apply the Range modifier to the effect(s) within a particular configuration."],
+					"entries": ["應用了影響他人修飾符的能力變換效果可能也會應用遠距強化來增加射程，以將該效果賦予他人使用。這個修飾符並不會改變你透過點數設置所獲得的效果的射程。若要改變那些效果的射程，請在分配點數設置時為那些效果應用遠距的修飾符。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2924,14 +2924,14 @@
 			"flaws": [
 				{
 					"translate_name": "限定條件", "name": "Limited",
-					"entries": ["As noted in the description, a Variable effect must be limited by certain descriptors by default. To qualify for this flaw, the effect must be even more limited. This is highly situational and left to the Gamemaster’s judgment. An example is a Variable effect only able to provide Enhanced Skills; in most settings, this is Limited. However, in settings where powers are rare and most characters rely on skills, it might not be. Conversely, a Variable effect prohibited from providing Enhanced Skills, but able to provide a wide range of other effects, isn’t particularly Limited, just defined by its descriptors."],
+					"entries": ["就像描述中所說的，能力變換效果原本就必須受到某些描述符的限制。若要應用這個缺陷，則該效果必須要承受更進一步的限制。其判斷標準視情況而變，且交由遊戲主持人判斷。舉例來說，一個被限定於只能提供{@effect Enhanced Trait|增強技能}效果的能力變換效果，在大部分的遊戲設定中都應該符合限定條件的資格。然而在超能力相當罕見，且大部分角色都仰賴技能的設定中，這個限制就可能不足以被當作缺陷。相反地，無法提供增強技能效果，但可以提供各種其他效果的能力變換效果，就明顯不適用限定條件的缺陷，而僅僅是受限於其描述符的定義。"],
 					"cost": {
 						"value": {"min":-1, "max":"more"}, "type": "per"
 					}
 				},
 				{
-					"name": "Slow",
-					"entries": ["You can only reconfigure your Variable effect outside of action time. You might need access to a lab, arsenal, spell-book, or other special equipment, or need to perform certain procedures or rituals. It takes at least a minute, possibly as long as an hour or more. The GM sets the specific time in cases where it matters, but it should be short enough that you can reconfigure between scenes in a game, but long enough that you effectively cannot do it during action time. The GM may allow you to spend a victory point to reconfigure your Variable effect during action time as a power stunt, if circumstances warrant it."],
+					"translate_name": "緩慢", "name": "Slow",
+					"entries": ["你只能在動作場景外的時間重新設置你的能力變換效果。你可能也會需要一間實驗室、兵工廠、一本法術書、或其他特殊裝備，或者你可能會需要進行某種程序或儀式才能夠更換你能力變換效果的配置。這個過程需要花費至少一分鐘，或甚至一個小時或更久的時間。若有必要，GM將會決定其確切的時間，但它所需的時間必須要少到足以讓你在遊戲中的場景間重新設置，且必須久到你無法在動作場景間進行。如果條件允許的話，GM可能會同意你消耗一點勝利點，將其做為超能力絕技以在動作場景間重新設置你的能力變換效果。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
