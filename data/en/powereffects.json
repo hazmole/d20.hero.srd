@@ -1771,9 +1771,9 @@
 			},
 			"entries": [
 				"You can move objects at a distance without touching them. Move Object has no action/reaction; a moving object cannot drag the character “holding on” to it, for example. This effect is also not considered “physical contact” or “touch” for effects requiring it.",
-				"Your effective Strength for lifting and moving objects with this effect is equal to your rank. By taking a move action to concentrate you can increase this by +1 Str, changing the effect’s duration to Concentration (see Duration). This is in addition to using extra effort to further increase your rank (see Extra Effort).",
-				"This effect can move objects, but cannot perform tasks of fine manipulation (like untying knots, typing, or manipulating controls) without the Precise modifier. Objects thrown into targets as attacks base their damage off your power rank as if it were your Strength rank.",
-				"Move Object cannot inflict damage directly; you can’t “punch” or “crush” objects with it. You can use it to make disarm, grab, and trip attacks. See Action & Adventure for details."
+				"Your effective Strength for lifting and moving objects with this effect is equal to your rank. By taking a move action to concentrate you can increase this by +1 Str, changing the effect’s duration to Concentration (see {@rule Duration|basic|6|duration}). This is in addition to using extra effort to further increase your rank (see {@rule Extra Effort|basic|1|extra effort}).",
+				"This effect can move objects, but cannot perform tasks of fine manipulation (like untying knots, typing, or manipulating controls) without the {@modifier Precise} modifier. Objects thrown into targets as attacks base their damage off your power rank as if it were your Strength rank.",
+				"Move Object cannot inflict damage directly; you can’t “punch” or “crush” objects with it. You can use it to make {@rule disarm|basic|8|disarm}, {@rule grab|basic|8|grab}, and {@rule trip|basic|8|trip} attacks. See Action & Adventure for details."
 			],
 			"extras": [
 				{
@@ -1829,7 +1829,7 @@
 			"flaws": [
 				{
 					"name": "Close",
-					"entries": ["Since Move Object works on things at a distance by definition, it cannot generally be reduced to close ranged. At the GM’s discretion, a Close Ranged Move Object effect may represent “tactile telekinesis” or a supernatural influence over objects you are able to touch, but such things are usually better represented by the Enhanced Strength effect."],
+					"entries": ["Since Move Object works on things at a distance by definition, it cannot generally be reduced to close ranged. At the GM’s discretion, a Close Ranged Move Object effect may represent “tactile telekinesis” or a supernatural influence over objects you are able to touch, but such things are usually better represented by the {@effect Enhanced Trait|Enhanced Strength} effect."],
 					"cost": {
 						"value": -1, "type": "per"
 					}

@@ -458,7 +458,7 @@
 				},
 				{
 					"translate_name": "可移動", "name": "Movable",
-					"entries": ["你可以自由移動你所創造的物體，如同使用了等級與你創造效果相同的{@effect Move Object}效果。"],
+					"entries": ["你可以自由移動你所創造的物體，如同使用了等級與你創造效果相同的{@effect 移動物體}效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -757,7 +757,7 @@
 					"type": "entries",
 					"translate_name": "能見度", "name": "Visibility",
 					"entries": [
-						"若花費為每級1點，你可以使區域範圍內的{@skill 感知}檢定承受-2修正值；若花費為每級2點，則你使該檢定承受-5修正值。若想要更顯著地影響感官的作用（例如透過黑暗、雲霧等），請使用範圍化隱蔽攻擊效果（參見{@effect 隱蔽}效果）。"
+						"若花費為每級1點，你可以使區域範圍內的{@skill 感知}檢定承受-2修正值；若花費為每級2點，則你使該檢定承受-5修正值。若想要更顯著地影響感官的作用（例如透過黑暗、雲霧等），請使用範圍隱蔽攻擊效果（參見{@effect 隱蔽}效果）。"
 					]
 				}
 			],
@@ -1010,7 +1010,7 @@
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["應用了這個強化的治癒效果將使所有處於影響範圍內的目標得益於相同的好處。要注意的是，範圍化共感治癒效果（參見本效果的缺陷）絕不是個明智的組合，因為治癒者將會一口氣承受所有目標的傷害狀態！"],
+					"entries": ["應用了這個強化的治癒效果將使所有處於影響範圍內的目標得益於相同的好處。要注意的是，範圍共感治癒效果（參見本效果的缺陷）絕不是個明智的組合，因為治癒者將會一口氣承受所有目標的傷害狀態！"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1059,7 +1059,7 @@
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["範圍化治癒效果可能會具有這個強化修飾符，讓你得以選擇範圍內的目標各自是否會得益於治癒效果的好處。"],
+					"entries": ["範圍治癒效果可能會具有這個強化修飾符，讓你得以選擇範圍內的目標各自是否會得益於治癒效果的好處。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1547,7 +1547,7 @@
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["適用於範圍化運氣控制效果，這個強化讓你得以選擇範圍內有誰會被影響，而誰不會被影響。"],
+					"entries": ["適用於範圍運氣控制效果，這個強化讓你得以選擇範圍內有誰會被影響，而誰不會被影響。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1760,7 +1760,7 @@
 			]
 		},
 		{
-			"name": "Move Object",
+			"translate_name": "移動物體", "name": "Move Object",
 			"type": "CTL",
 			"action": "S",
 			"range": "ranged",
@@ -1770,57 +1770,57 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can move objects at a distance without touching them. Move Object has no action/reaction; a moving object cannot drag the character “holding on” to it, for example. This effect is also not considered “physical contact” or “touch” for effects requiring it.",
-				"Your effective Strength for lifting and moving objects with this effect is equal to your rank. By taking a move action to concentrate you can increase this by +1 Str, changing the effect’s duration to Concentration (see Duration). This is in addition to using extra effort to further increase your rank (see Extra Effort).",
-				"This effect can move objects, but cannot perform tasks of fine manipulation (like untying knots, typing, or manipulating controls) without the Precise modifier. Objects thrown into targets as attacks base their damage off your power rank as if it were your Strength rank.",
-				"Move Object cannot inflict damage directly; you can’t “punch” or “crush” objects with it. You can use it to make disarm, grab, and trip attacks. See Action & Adventure for details."
+				"你可以隔著一段距離移動物體，而無須碰觸它們。移動物體效果並不具備作用力/反作用力；因此移動中的物體不會因此拖動「持握住」該物體的角色。對於其他需要接觸或碰觸的效果而言，利用這個效果移動物體也不會被視作與該物體具有「身體接觸」或「碰觸」。",
+				"你藉由這個效果抬舉或移動物體所使用的力量等級將等同於這個效果的等級。藉由採取一個移動動作並維持專注，你將使這個效果的力量等級+1，並將其持續時間變更為「專注」（參見{@rule 持續時間|basic|6|duration}）。除此之外，你也可以使用奮力一搏以進一步增加其力量等級（參見{@rule 奮力一搏|basic|1|extra effort}規則）。",
+				"這個效果可以移動物體，但不能在沒有應用{@modifier 精確}修飾符的前提下執行需要精細操作的事項（像是解開繩結、打字、或操作控制器）。被做為攻擊向目標投擲的物體，其投擲傷害將基於你的移動物體效果等級，就如同它是你的力量等級一樣。",
+				"移動物體效果無法直接造成傷害；你不能藉由這個效果「打擊」或「輾壓」物體。然而，你可以使用這個效果進行{@rule 繳械|basic|8|disarm}、{@rule 擒抱|basic|8|grab}、和{@rule 絆摔|basic|8|trip}攻擊。參見動作＆冒險章節以查閱更多細節。"
 			],
 			"extras": [
 				{
 					"translate_name": "常續", "name": "Continuous",
-					"entries": ["Move Object generally cannot have a continuous duration, since it is an active effect and requires at least a modicum of attention to maintain. The GM may allow Continuous Move Object as a variation that is not disrupted when you are unable to maintain it, but that still requires your conscious attention to do anything other than have the affected object hang in midair. There’s no change in the cost of the extra, this is just a limitation of the Move Object effect. You must make Move Object’s duration Sustained (+1 cost per rank) before you can make it Continuous."],
+					"entries": ["移動物體效果的持續時間通常不能是「常續」，因為它屬於主動效果，且需要至少使用者投入些微的專注維持。GM可以允許常續移動物體效果做為一種變體能力，讓其在你無法維持它時也不會因此中斷．但你仍然需要保有意識才能利用這個效果做任何其他事情，否則受到影響的物體將會懸浮在空中，一動也不動。這個改變並不會更改常續修飾符的花費，僅僅是移動物體效果本身帶來的限制。你必須要先使移動物體效果的持續時間變為「維持」（每級+1點），才能使其持續時間變更為「常續」（已包含在下述花費中）。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
-					"name": "Damaging",
-					"entries": ["Your effect can inflict damage, like an application of normal Strength with damage equal to its rank. This includes damaging targets in grabs and making ranged “strike” attacks."],
+					"translate_name": "致傷", "name": "Damaging",
+					"entries": ["你的移動物體效果將能夠直接造成傷害，就如同你使用原本的力量屬性一樣，這個傷害等同於你的效果等級。這個修飾符的功能包括讓你傷害擒抱中的目標，或是進行遠距「打擊」攻擊。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Improvised Weapon or Throwing Mastery",
-					"entries": ["You are particularly adept at using objects as weapons with your power. Each rank of either advantage increases the damage of objects wielded or thrown using Move Object by 1."],
+					"translate_name": "臨時武器 或 投擲精通", "name": "Improvised Weapon or Throwing Mastery",
+					"entries": ["你特別精通於利用你超能力所影響的物體做為武器。每一級上述特長都將使你利用移動物體效果揮舞或投擲的物體所造成的傷害增加1級。"],
 					"cost": {
 						"value": 1, "type": "flat_per"
 					}
 				},
 				{
-					"name": "Perception",
-					"entries": ["Perception Ranged Move Object can affect any object you can accurately perceive, with no need for an attack check."],
+					"translate_name": "感知距離", "name": "Perception",
+					"entries": ["射程為感知距離的移動物體效果可以影響任何你能準確感知到的物體，而無須進行攻擊檢定。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "精確", "name": "Precise",
-					"entries": ["Move Object with this modifier can be used for tasks involving fine manipulation."],
+					"entries": ["應用了這個修飾符的移動物體效果可以被用來進行涉及精密操作的行為。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "隱密使用", "name": "Subtle",
-					"entries": ["The default version of Move Object involves some noticeable manifestation like a “tractor beam,” a glow around your head or hands (along with a corresponding glow around the affected object), big glowing hands, blazing “energy talons,” a lasso, whip, or the like. Apply the Subtle modifier for a less noticeable Move Object effect, such as invisible “psychokinesis” (which is generally also Perception Range)."],
+					"entries": ["原始版本的移動物體效果包含了某些引人注目的操作特效，像是「牽引光束」、頭部或雙手發出的光芒（伴隨著受影響物體周遭散發出的相應光芒）、漂浮的發光大手、熾熱的「能量爪」、套索、鞭子等等。應用了隱密使用修飾符的移動物體效果將可以用以呈現那些較不引人注目的超能力，像是隱形的「心靈傳動」能力（這種超能力通常也會應用感知距離修飾符）。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "維持", "name": "Sustained",
-					"entries": ["Sustained duration Move Object can hold an object in a static position (floating in midair, for example) with only a free action needed to maintain the effect. Grabbing or actively moving an object still requires a standard action, but you can “hold” multiple objects at once."],
+					"entries": ["持續時間為「維持」的移動物體效果可以抓住一個物體，使其保持在靜止的狀態（像是懸浮在半空中），且只需要使用每輪使用一個自由動作就可以維持這個效果。擒抱或主動移動物體仍然需要採取一個標準動作，但你可以藉此同時「抓住」複數個物體。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1828,29 +1828,29 @@
 			],
 			"flaws": [
 				{
-					"name": "Close",
-					"entries": ["Since Move Object works on things at a distance by definition, it cannot generally be reduced to close ranged. At the GM’s discretion, a Close Ranged Move Object effect may represent “tactile telekinesis” or a supernatural influence over objects you are able to touch, but such things are usually better represented by the Enhanced Strength effect."],
+					"translate_name": "近身", "name": "Close",
+					"entries": ["由於移動物體效果在定義上是在隔著一定距離發揮作用，因此它的射程通常不會被降低致近身射程。但在GM的裁斷下，射程為近身的移動物體效果可能會被用以呈現「觸覺式心靈傳感」、或發揮於你所碰觸物體的超自然影響力。然而，這類能力效果通常比較適合藉由{@effect Enhanced Trait|增強力量}效果來呈現。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "專注", "name": "Concentration",
-					"entries": ["Concentration Move Object requires more attention to maintain. You cannot concentrate to increase your lifting capacity or to grab or move another object while you are still “holding” your first."],
+					"entries": ["專注移動物體需要投入比原本更多的注意力才能維持。你將無法專注於增加你抬舉物體的能力，你也無法在你仍「抓著」其他物體的時候嘗試擒抱或移動另一個物體。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited Direction",
-					"entries": ["You can only move objects in a particular direction or path, such as only up and down (towards and away from the ground), only directly towards or away from you (attraction and repulsion), and so forth. This is useful for “gravitic” or “magnetic” versions of the effect."],
+					"translate_name": "限定方向", "name": "Limited Direction",
+					"entries": ["你只能讓物體沿著特定方向或路徑移動，像是只能向上或向下（離地或向地）、只能往你移動、或只能讓物體遠離你（引力或斥力），諸如此類。這種修飾符相當適合「重力」或「磁力」版本的這個效果。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited Material",
-					"entries": ["You can only move a particular type of object or material, such as only metals, plants, rock, water, and so forth. {@b –1 cost per rank} (The GM may allow a {@b –2 cost per rank} flaw for a particularly limited type of material, such as only precious metals, leaves, sand, or petroleum)."],
+					"translate_name": "限定材質", "name": "Limited Material",
+					"entries": ["你只能移動特定種類的物體或材質，像是只能移動金屬、植物、岩石、水等等。 {@b 每級-1點}. （GM可能會為了特別狹隘的材質類型而使花費變更為{@b 每級-2點}，像是只能影響貴金屬、葉片、沙塵、或石油。）"],
 					"cost": {
 						"value": {"min":-1, "max":-2}, "type": "per", "hidden": true
 					}
@@ -1995,7 +1995,7 @@
 				},
 				{
 					"translate_name": "範圍化", "name": "Area",
-					"entries": ["範圍化無效化效果將會作用於範圍內所有的目標。進行一次超能力檢定並將其結果與各個目標的對抗檢定比較。你原本不能無效化的效果的目標不會受到任何影響。若你的範圍化無效化的持續時間比即效更長，則你必須選擇是要讓這個效果在指定範圍內持續作用（影響任何進入該範圍的目標）、或持續作用於被無效化效果命中的各個目標身上。這兩者之間的花費影響並無不同，但若你希望你的無效化效果能夠達成上述兩者，請使用{@modifier 替換效果}以獲得另一種範圍化無效化效果的持續方式。"],
+					"entries": ["範圍無效化效果將會作用於範圍內所有的目標。進行一次超能力檢定並將其結果與各個目標的對抗檢定比較。你原本不能無效化的效果的目標不會受到任何影響。若你的範圍化無效化的持續時間比即效更長，則你必須選擇是要讓這個效果在指定範圍內持續作用（影響任何進入該範圍的目標）、或持續作用於被無效化效果命中的各個目標身上。這兩者之間的花費影響並無不同，但若你希望你的無效化效果能夠達成上述兩者，請使用{@modifier 替換效果}以獲得另一種範圍無效化效果的持續方式。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -2044,7 +2044,7 @@
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["若你具有範圍化無效化效果，則這個修飾符能讓你得以選擇範圍內有誰會受到影響，只無效化其中一些目標，而不影響其他人。"],
+					"entries": ["若你具有範圍無效化效果，則這個修飾符能讓你得以選擇範圍內有誰會受到影響，只無效化其中一些目標，而不影響其他人。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -3024,7 +3024,7 @@
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["這個修飾符可以應用於{@modifier 範圍化}弱化效果，讓其可以只影響範圍內的某些目標，而不影響他人。若與前述的{@modifier 精確}修飾符結合，你將可以使用範圍化弱化效果選擇性地只影響特定目標的特定數據。"],
+					"entries": ["這個修飾符可以應用於{@modifier 範圍化|範圍}弱化效果，讓其可以只影響範圍內的某些目標，而不影響他人。若與前述的{@modifier 精確}修飾符結合，你將可以使用範圍弱化效果選擇性地只影響特定目標的特定數據。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
