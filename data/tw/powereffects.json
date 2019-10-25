@@ -383,7 +383,7 @@
 			]
 		},
 		{
-			"translate_name": "_創造", "name": "Create",
+			"translate_name": "創造", "name": "Create",
 			"type": "CTL",
 			"action": "S",
 			"range": "ranged",
@@ -393,44 +393,44 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can form solid objects essentially out of nowhere. They may be made of solidified energy, “hardened” water or air, transmuted bulk matter, ice, stone, or some other medium, depending on the effect’s descriptors.",
-				"You can form any simple geometric shape or common object (such as a cube, sphere, dome, hammer, lens, disk, etc.). The GM has final say on whether or not a particular object is too complex for this effect. Generally, your objects can’t have any moving parts more complex than a hinge. They can be solid or hollow, opaque or transparent, as you choose when you use the effect, limited by your descriptors and the Gamemaster’s judgment.",
-				"You can create an object with a maximum volume rank equal to your effect rank and Toughness equal to your effect rank. Created objects can be damaged or broken like ordinary objects. They also vanish if you stop maintaining them. You can repair any damage to a created object at will by using your effect again (essentially “re-creating” the object). Your created objects are stationary once you have created them, although other effects can move them. Assume a created object has a mass rank equal to its volume rank.",
+				"你可以憑空形塑出實體物體。根據這個效果的描述符，它們可能會是由實體化的能量、「固化」水或空氣、變異性物質、冰、石頭、或其他媒介所構成。",
+				"你可以形塑出任何簡單的幾何形狀或常見物體（像是立方體、球體、半圓頂、鎚子、透鏡、盤狀物等）。GM擁有最終裁斷權以決定特定物體的構造對於這個效果而言是否太過複雜。通常來說，你所創造出的物體不能擁有任何比鉸鏈更複雜的可動部件。取決於你在使用這個效果時的選擇以及該效果描述符和遊戲主持人裁斷的限制，你所創造的物體可以是實心也可以是空心的，可以是透明也可以是不透明。",
+				"你可以創造出體積等級和堅實防禦屬性最大等同於你效果等級的物體。被創造出的物體可以如同尋常物體一樣被傷害或破壞。若你停止維持它們，則它們也將會消失。你可以藉由再次使用你的效果隨意修復任何被創造物體所受的傷害（實質上等同於「再創造」該物體）。你所創造的物體在你創造出它們的時候將維持靜止不動，然而其他效果仍然可以移動它們。被創造物體的質量等級被預設為等同其體積等級。",
 				{
 					"type": "inset",
 					"translate_name": "幕後花絮：創造 vs. 召喚", "name": "Under the Hood: Create vs. Summon",
 					"entries": [
-						"Create and Summon are similar effects: both “create” things out of nowhere. So when should a character have one and not the other?",
-						"Generally, Create makes inanimate objects, while Summon conjures creatures of some sort, capable of independent action (albeit limited in the case of mindless creatures like robots or zombies). So a character able to create “sculptures” of ice, for example: walls, slides, columns, and so forth, should have Create. A character able to call up animated snowmen, on the other hand, should have Summon, while a powerful “ice elemental” may very well have both effects!"
+						"創造和召喚效果都具有相似的功效：它們皆會憑空「創造」出某些東西。所以，要怎麼分辨角色該擁有哪個能力呢？",
+						"通常來說，創造效果會製造出非生命物體，而召喚效果則會喚出某種能夠獨立行動的生物（儘管像是機器人或殭屍這類無心智的生物只有有限的獨立行動能力）。因此一名能夠創造出冰製「雕塑」（像是牆壁、斜坡、圓柱等）的角色應該會擁有創造效果。另一方面，一名能夠召喚出活體雪人的角色，就應該會擁有召喚效果。而一名強大的「冰元素生物」則很有可能會同時擁有這兩個能力效果！"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "創造物體，掩護，和遮蔽", "name": "Created Objects, Cover, and Concealment",
 					"entries": [
-						"A created object can provide cover or concealment (if the object is opaque) just like a normal object. Cover provided by a created object can block incoming attacks, but blocks outgoing attacks as well. Attacks hitting the covering object damage it normally (see Damaging Objects). Indirect effects can bypass the cover a created object provides just like any other cover (see Indirect modifier). The Selective modifier allows you to vary the cover and concealment your objects provide."
+						"被創造出來的物體能夠如同尋常物體一樣提供掩護或遮蔽（若該物體不透明）的好處。被創造物體所提供的掩護可以阻擋襲來的攻擊，但同樣也會阻擋己方做出的攻擊。命中掩護物體的攻擊將會如常傷害該物體（參見{@rule 傷害物體|basic|8|damaging objects}規則）。{@modifier Indirect}效果仍然可以如常繞過被創造物體所提供的掩護。{@modifier 可選擇}修飾符則能使你創造出物體所提供的掩護和遮蔽效果呈現差異性。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "用物體捕困目標", "name": "Trapping with Objects",
 					"entries": [
-						"You can trap a target inside a large enough hollow object (a cage or bubble, for example). This requires both an attack check against the target’s Dodge and a Dodge resistance check against the effect’s rank. A trapped character can break out of the object normally. Imposing conditions on the target other than just trapping them requires a separate effect, such as Affliction (see Affliction), which you may wish to acquire as an Alternate Effect of Create (see Alternate Effect)."
+						"你可以將目標捕困在一個足夠大的中空物體內部（例如牢籠、泡泡）。這麼做需要使用者成功通過一次對抗目標閃避防禦的攻擊檢定，且目標必須使用閃避防禦進行抵抗檢定以對抗該效果的等級。受困的角色可以如常破壞該物體以從中逃出。若要對目標強加其他狀態，而非單純使其受困，則你需要使用其他不同的效果，像是{@effect 詛咒}效果。你可能會希望將其做為創造效果的其中一個{@modifier 替換效果}。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "投落物體", "name": "Dropping Objects",
 					"entries": [
-						"Simply dropping a created object on a target is treated like an Area Effect attack based on the object’s size (see Area extra). The object inflicts damage equal to its Toughness, and targets get a Dodge check to evade the falling object. A successful check results in no damage (rather than the usual half damage).",
-						"While a created object can potentially be wielded as an improvised weapon, the effect cannot otherwise create attacks or other effects; you must acquire these effects separately (perhaps as Alternate Effects)."
+						"單純將被創造的物體投放到目標頭上，將被視作一次基於該物體尺寸的範圍攻擊（參見{@modifier 範圍化}修飾符）。該物體將造成等同於它堅實防禦屬性的傷害，且目標可以進行一次閃避檢定以躲避落下的物體。若該閃避檢定成功，則目標將不會受到任何傷害（而非原本的減半傷害）。",
+						"儘管被創造的物體可以被做為臨時武器使用，但這個效果不會因此產生攻擊或其他效果；你必須個別獲得其他這些效果（例如將其做為{@modifier 替換效果}）。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "承載重量", "name": "Supporting Weight",
 					"entries": [
-						"If a created object needs to support weight—created as a bridge or to support a weakened structure, for example—it has an effective Strength equal to its rank. You can “shore up” a created object by taking a standard action and concentrating, increasing its Strength by 1 until the start of your next round. You can also use extra effort to increase a created object’s Strength for one round, and these modifiers are cumulative."
+						"若被創造的物體需要承載重量──例如被做為橋樑、或是用以支撐脆弱的建築──則它將被視為具有等同於其創造效果等級的力量屬性。你可以藉由採取一個標準動作，專注於被創造的物體上以「加固」它，使它的力量屬性增加1級，持續直到你的下個回合開始。你也可以使用{@rule 奮力一搏|basic|1|extra effort}以提升該物體的力量長達一輪，這些修正值彼此可以累積。"
 					]
 				}
 			],
@@ -451,49 +451,49 @@
 				},
 				{
 					"translate_name": "天生", "name": "Innate",
-					"entries": ["Continuous or Permanent Create with this modifier makes objects that cannot be nullified, they’re essentially “real” objects for all intents and purposes (although the user can “unmake” them at will unless the effect is also permanent)."],
+					"entries": ["應用了這個修飾符的常續或永駐創造效果所創造出的物體將無法被無效化，它們在各方面來說就像是「真正」的物體一樣（然而除非應用了永駐修飾符，否則使用者仍可以隨意「再創造」它們）。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "可移動", "name": "Movable",
-					"entries": ["You can move your created objects around with a Move Object effect at your Create rank (see Move Object)."],
+					"entries": ["你可以自由移動你所創造的物體，如同使用了等級與你創造效果相同的{@effect Move Object}效果。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "精確", "name": "Precise",
-					"entries": ["You can create more precise and detailed objects. The exact parameters of Precise Create are up to the GM, but generally, you can create objects with moving parts, and considerable detail."],
+					"entries": ["你可以創造出更加精確和複雜細節的物體。精確創造實際所能做出的程度將由GM決定，但通常來說，你將可以創造出附有可動部件、以及繁瑣細節的物體。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["You can make your created objects selectively “transparent” to attacks, blocking some while allowing others (yours and your allies’, for example) to pass through them. You can also selectively make your objects solid to some creatures and incorporeal to others, such as allowing one person to walk through a created wall, while blocking another. It takes a free action to change the selective nature of an object; permanent created objects cannot have their selectivity changed once they are created."],
+					"entries": ["你可以使你所創造的物體選擇性地使某些攻擊得以「穿透」它，讓該物體能夠阻擋其中一部分，而任憑其他攻擊（例如你和你盟友的攻擊）穿過。你也可以使你所創造的物體對某些生物而言視為實體，而對其他生物而言視作虛體，使某人得以穿過被創造的牆面，而阻擋其他人的進入。改變一個物體上的可選擇性值需要花費一個自由動作；永駐創造效果所創造出的物體一但被創造，就無法再更改其可選擇性值。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "固定", "name": "Stationary",
-					"entries": ["Your created objects can hang immobile in the air. They resist being moved with a Strength rank equal to the modifier rank. Unless you have the Tether extra or the Movable extra, you cannot move a stationary created object once it’s placed any more than anyone else can."],
+					"entries": ["你所創造出的物體可以懸浮於空中，靜止不動。它們將以等同這個修飾符的力量等級抵抗移動它們的效果。除非你同時應用了連繫或可移動強化，否則一旦固定創造效果所創造出的物體成形，你將跟其他人一樣，無法再隨意移動它。"],
 					"cost": {
 						"value": 0, "type": "per"
 					}
 				},
 				{
 					"translate_name": "隱密使用", "name": "Subtle",
-					"entries": ["This modifier either makes created objects not noticeable as constructs for 1 rank (they look just like real objects) or not noticeable at all for 2 ranks (such as objects composed of invisible force)."],
+					"entries": ["這個修飾符在1級時，將使被創造物體如同尋常物體一樣不引人注意（它們看起來就像是真正的物體）；在2級時，被創造物體將完全不會被注意到（例如由隱形力場所構成的物體）。"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "flat"
 					}
 				},
 				{
-					"translate_name": "繫繩", "name": "Tether",
-					"entries": ["You have a connection to your created objects, allowing you to exert your own Strength to move them (provided you are strong enough to do so)."],
+					"translate_name": "連繫", "name": "Tether",
+					"entries": ["你與你所創造的物體之間具有聯繫，這讓你得以使用你自己的力量以移動它（只要你夠強壯）。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
@@ -509,14 +509,14 @@
 				},
 				{
 					"translate_name": "永駐", "name": "Permanent",
-					"entries": ["Permanent created objects last until destroyed or nullified. Unlike Continuous Create, you cannot choose to dismiss such objects; they are truly permanent. You cannot repair permanent created objects or otherwise alter them once they’re created. {@b +0 cost per rank (for a Sustained effect).}"],
+					"entries": ["永駐創造效果所製造出的物體將持續存在直到它被摧毀、{@effect 無效化}。與常續創造效果不同，你無法選擇解消這類物體：它們確實是永駐存在的。一旦永駐物體被創造，你就無法再修復它們或修改它們。 {@b （對維持效果而言）每級+0點.}"],
 					"cost": {
 						"value": 0, "type": "per", "hidden":true
 					}
 				},
 				{
 					"translate_name": "成比例", "name": "Proportional",
-					"entries": ["Your created objects have a total volume rank plus Toughness rank equal to your Create rank, rather than both volume and Toughness up to your rank. So you can create an object with volume rank 0 and Toughness equal to your Create rank, vice versa, or anywhere in between, so long as the sum of the two ranks does not exceed your Create rank."],
+					"entries": ["你所創造物體的體積等級和堅實防禦等級的總合將最多等同於你的創造效果等級，而非各自最多等同於你的效果等級。因此你可以創造出一個體積等級為0，且堅實防禦等級等同於創造效果等級的物體，反之亦然，或任何介於兩者之間的物體，只要該物體的體積等級和堅實防禦等級總合不超過你的創造效果等級即可。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -712,7 +712,7 @@
 			]
 		},
 		{
-			"_translate_name": "環境", "name": "Environment",
+			"translate_name": "環境", "name": "Environment",
 			"type": "CTL",
 			"action": "S",
 			"range": "rank",

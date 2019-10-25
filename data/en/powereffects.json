@@ -408,29 +408,29 @@
 					"type": "entries",
 					"name": "Created Objects, Cover, and Concealment",
 					"entries": [
-						"A created object can provide cover or concealment (if the object is opaque) just like a normal object. Cover provided by a created object can block incoming attacks, but blocks outgoing attacks as well. Attacks hitting the covering object damage it normally (see Damaging Objects). Indirect effects can bypass the cover a created object provides just like any other cover (see Indirect modifier). The Selective modifier allows you to vary the cover and concealment your objects provide."
+						"A created object can provide cover or concealment (if the object is opaque) just like a normal object. Cover provided by a created object can block incoming attacks, but blocks outgoing attacks as well. Attacks hitting the covering object damage it normally (see {@rule Damaging Objects|basic|8|damaging objects}). {@modifier Indirect} effects can bypass the cover a created object provides just like any other cover (see Indirect modifier). The {@modifier Selective} modifier allows you to vary the cover and concealment your objects provide."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Trapping with Objects",
 					"entries": [
-						"You can trap a target inside a large enough hollow object (a cage or bubble, for example). This requires both an attack check against the target’s Dodge and a Dodge resistance check against the effect’s rank. A trapped character can break out of the object normally. Imposing conditions on the target other than just trapping them requires a separate effect, such as Affliction (see Affliction), which you may wish to acquire as an Alternate Effect of Create (see Alternate Effect)."
+						"You can trap a target inside a large enough hollow object (a cage or bubble, for example). This requires both an attack check against the target’s Dodge and a Dodge resistance check against the effect’s rank. A trapped character can break out of the object normally. Imposing conditions on the target other than just trapping them requires a separate effect, such as {@effect Affliction}, which you may wish to acquire as an {@modifier Alternate Effect} of Create."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dropping Objects",
 					"entries": [
-						"Simply dropping a created object on a target is treated like an Area Effect attack based on the object’s size (see Area extra). The object inflicts damage equal to its Toughness, and targets get a Dodge check to evade the falling object. A successful check results in no damage (rather than the usual half damage).",
-						"While a created object can potentially be wielded as an improvised weapon, the effect cannot otherwise create attacks or other effects; you must acquire these effects separately (perhaps as Alternate Effects)."
+						"Simply dropping a created object on a target is treated like an Area Effect attack based on the object’s size (see {@modifier Area} extra). The object inflicts damage equal to its Toughness, and targets get a Dodge check to evade the falling object. A successful check results in no damage (rather than the usual half damage).",
+						"While a created object can potentially be wielded as an improvised weapon, the effect cannot otherwise create attacks or other effects; you must acquire these effects separately (perhaps as {@modifier Alternate Effect|Alternate Effects})."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Supporting Weight",
 					"entries": [
-						"If a created object needs to support weight—created as a bridge or to support a weakened structure, for example—it has an effective Strength equal to its rank. You can “shore up” a created object by taking a standard action and concentrating, increasing its Strength by 1 until the start of your next round. You can also use extra effort to increase a created object’s Strength for one round, and these modifiers are cumulative."
+						"If a created object needs to support weight—created as a bridge or to support a weakened structure, for example—it has an effective Strength equal to its rank. You can “shore up” a created object by taking a standard action and concentrating, increasing its Strength by 1 until the start of your next round. You can also use {@rule extra effort|basic|1|extra effort} to increase a created object’s Strength for one round, and these modifiers are cumulative."
 					]
 				}
 			],
@@ -458,7 +458,7 @@
 				},
 				{
 					"name": "Movable",
-					"entries": ["You can move your created objects around with a Move Object effect at your Create rank (see Move Object)."],
+					"entries": ["You can move your created objects around with a {@effect Move Object} effect at your Create rank."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -509,7 +509,7 @@
 				},
 				{
 					"name": "Permanent",
-					"entries": ["Permanent created objects last until destroyed or nullified. Unlike Continuous Create, you cannot choose to dismiss such objects; they are truly permanent. You cannot repair permanent created objects or otherwise alter them once they’re created. {@b +0 cost per rank (for a Sustained effect).}"],
+					"entries": ["Permanent created objects last until destroyed or {@effect Nullify|nullified}. Unlike Continuous Create, you cannot choose to dismiss such objects; they are truly permanent. You cannot repair permanent created objects or otherwise alter them once they’re created. {@b +0 cost per rank (for a Sustained effect).}"],
 					"cost": {
 						"value": 0, "type": "per", "hidden":true
 					}
