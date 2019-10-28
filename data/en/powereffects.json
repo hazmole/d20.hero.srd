@@ -2610,16 +2610,16 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can call upon another creature—a minion—to aid you. This creature is created as an independent character with (effect rank x 15) character points. A summoned minion is limited to a Power Level equal to the rank of the Summon effect used to create it, is subject to the normal power level limits, and cannot have minions of its own, either from this effect or the Minions advantage.",
-				"You can summon your minion automatically as a standard action; it appears in the nearest open space beside you. Minions have their own initiative (see Initiative in the Action & Adventure) and act starting on the round after you summon them. Summoned minions are dazed, taking only a standard action each round. Directing a minion to do something is a move action for you, but minions generally do as they are told until a task is completed.",
+				"You can call upon another creature—a minion—to aid you. This creature is created as an independent character with (effect rank x 15) character points. A summoned minion is limited to a Power Level equal to the rank of the Summon effect used to create it, is subject to the normal power level limits, and cannot have minions of its own, either from this effect or the {@advantage Minion|Minions} advantage.",
+				"You can summon your minion automatically as a standard action; it appears in the nearest open space beside you. Minions have their own initiative (see {@rule Initiative|basic|8|Initiative} in the Action & Adventure) and act starting on the round after you summon them. Summoned minions are {@condition dazed}, taking only a standard action each round. Directing a minion to do something is a move action for you, but minions generally do as they are told until a task is completed.",
 				"You always have the same minion unless you apply the Variable Type modifier, allowing you to summon different minions. Your minion automatically has a helpful attitude and does its best to aid you and obey your commands.",
-				"Incapacitated minions disappear. They recover normally and you cannot summon an incapacitated minion until it has completely recovered. Your summoned minions also vanish if your effect is not maintained, or is countered or nullified. For more information and rules regarding Minions.",
+				"{@condition Incapacitated} minions disappear. They recover normally and you cannot summon an incapacitated minion until it has completely recovered. Your summoned minions also vanish if your effect is not maintained, or is countered or {@effect nullify|nullified}. For more information and rules regarding {@rule 嘍囉|basic|8|Minions}.",
 				{
 					"type": "inset",
 					"name": "Minions as descriptors",
 					"entries": [
-						"Some effects might seem to be Summon, calling up minions to do things for the character, but are actually better treated as descriptors of other effects. Take for example a shaman able to “summon” various spirits to perform magical tasks. By calling on particular spirits of the winds, he can attack a foe with an Affliction that “steals” their breath. Is the “wind spirit” a minion? Technically, no, it’s just a personified effect, since it cannot be attacked, interacted with, or do anything other than create the Affliction effect. It can be Nullified, but so can any effect. The same is true of a character summoning a “minion” that acts as a shield, providing the Deflect or Protection effect, but doing nothing else.",
-						"Consider carefully whether or not the particular effect a player wants really needs Summon, or if the “minion” in question is just a descriptor for another effect, no different than “heat ray” is a descriptor for a Damage effect or “sticky webbing” is a descriptor for a hindering Affliction; in neither case does the character need Summon Heat Ray or Summon Webbing to create the desired powers!"
+						"Some effects might seem to be Summon, calling up minions to do things for the character, but are actually better treated as descriptors of other effects. Take for example a shaman able to “summon” various spirits to perform magical tasks. By calling on particular spirits of the winds, he can attack a foe with an {@effect Affliction} that “steals” their breath. Is the “wind spirit” a minion? Technically, no, it’s just a personified effect, since it cannot be attacked, interacted with, or do anything other than create the {@effect Affliction} effect. It can be {@effect Nullify|Nullified}, but so can any effect. The same is true of a character summoning a “minion” that acts as a shield, providing the {@effect Deflect} or {@effect Protection} effect, but doing nothing else.",
+						"Consider carefully whether or not the particular effect a player wants really needs Summon, or if the “minion” in question is just a descriptor for another effect, no different than “heat ray” is a descriptor for a {@effect Damage} effect or “sticky webbing” is a descriptor for a hindering {@effect Affliction}; in neither case does the character need Summon Heat Ray or Summon Webbing to create the desired powers!"
 					]
 				},
 				{
@@ -2636,35 +2636,35 @@
 			"extras": [
 				{
 					"name": "Active",
-					"entries": ["Your minions are particularly independent and do not have the dazed condition, having a full set of actions each round."],
+					"entries": ["Your minions are particularly independent and do not have the {@condition dazed} condition, having a full set of actions each round."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Controlled",
-					"entries": ["Your minions all have the controlled condition (see Controlled in The Basics). They have no free will of their own and are completely under your direction."],
+					"entries": ["Your minions all have the {@condition controlled} condition. They have no free will of their own and are completely under your direction."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Heroic",
-					"entries": ["The creatures you summon are not subject to the minion rules, but treated like normal non-player characters. Additionally, they do not have the dazed condition and take a full set of actions each round. Do not apply the Active modifier to Heroic minions, as this modifier already includes it. Gamemasters should be particularly cautious about allowing this extra for Summon effects used by player characters, especially ones summoning more than one minion."],
+					"entries": ["The creatures you summon are not subject to the minion rules, but treated like normal non-player characters. Additionally, they do not have the {@condition dazed} condition and take a full set of actions each round. Do not apply the Active modifier to Heroic minions, as this modifier already includes it. Gamemasters should be particularly cautious about allowing this extra for Summon effects used by player characters, especially ones summoning more than one minion."],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
 					"name": "Horde",
-					"entries": ["If you have Multiple Minions (see following) you may take a standard action to summon any number of minions up to your maximum amount. You are vulnerable (see the Distracting flaw) until the start of your next turn when summoning a horde."],
+					"entries": ["If you have Multiple Minions (see following) you may take a standard action to summon any number of minions up to your maximum amount. You are {@condition vulnerable} (see the {@modifier Distracting} flaw) until the start of your next turn when summoning a horde."],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"name": "Mental Link",
-					"entries": ["You have a mental link with your minions, allowing you to communicate with them and issue orders telepathically like the Communication Link effect (see Senses effects)."],
+					"entries": ["You have a mental link with your minions, allowing you to communicate with them and issue orders telepathically like the {@effect Sense|Communication Link} effect (see Senses effects)."],
 					"cost": {
 						"value": 1, "type": "flat"
 					}

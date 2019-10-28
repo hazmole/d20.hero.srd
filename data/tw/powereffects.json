@@ -2600,7 +2600,7 @@
 			]
 		},
 		{
-			"name": "Summon",
+			"translate_name": "召喚", "name": "Summon",
 			"type": "CTL",
 			"action": "S",
 			"range": "close",
@@ -2610,16 +2610,16 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can call upon another creature—a minion—to aid you. This creature is created as an independent character with (effect rank x 15) character points. A summoned minion is limited to a Power Level equal to the rank of the Summon effect used to create it, is subject to the normal power level limits, and cannot have minions of its own, either from this effect or the Minions advantage.",
-				"You can summon your minion automatically as a standard action; it appears in the nearest open space beside you. Minions have their own initiative (see Initiative in the Action & Adventure) and act starting on the round after you summon them. Summoned minions are dazed, taking only a standard action each round. Directing a minion to do something is a move action for you, but minions generally do as they are told until a task is completed.",
-				"You always have the same minion unless you apply the Variable Type modifier, allowing you to summon different minions. Your minion automatically has a helpful attitude and does its best to aid you and obey your commands.",
-				"Incapacitated minions disappear. They recover normally and you cannot summon an incapacitated minion until it has completely recovered. Your summoned minions also vanish if your effect is not maintained, or is countered or nullified. For more information and rules regarding Minions.",
+				"你可以喚出另一個生物──一名嘍囉──以協助你。這個生物將做為一名擁有(召喚效果等級 x 15)點角色點的獨立角色被創建。被召喚的嘍囉受限於數值等同創造他所使用的召喚效果等級的超能力階級限制，且無法擁有屬於他自己的嘍囉，無論是藉由這個效果或{@advantage Minion|嘍囉}特長都一樣。",
+				"你能夠以一個標準動作直接召喚出你的嘍囉；他將出現在你旁邊最近的一處開放空間中。嘍囉具有自己的先攻順序（參見動作＆冒險章節的{@rule 先攻順序|basic|8|Initiative}），且會在你召喚出他們的下一輪開始行動。被召喚的嘍囉處於{@condition 目眩}狀態，每輪只能採取一個標準動作。指示一名嘍囉去執行某事對你而言需要花費一個移動動作，嘍囉通常會一直按照被交代的任務行動，直到該任務被完成。",
+				"除非你應用了後述的可變類型修飾符（讓你得以召喚出不同的嘍囉），否則你將永遠召喚出同一名嘍囉。你的嘍囉對你的態度為「樂於幫助」，且會盡可能地協助你並聽從你的命令。",
+				"陷入{@condition 失能}狀態的嘍囉將會消失。他們會如常回復，且直到他們完全回復之前，你都不能再召喚陷入{@condition 失能}狀態的嘍囉。你召喚出來的嘍囉也會在你停止維持召喚效果、該效果被反制或{@effect 無效化}時消失。更多的情報和規則，請參照{@rule 嘍囉|basic|8|minions}規則。",
 				{
 					"type": "inset",
-					"name": "Minions as descriptors",
+					"translate_name": "做為描述符的嘍囉", "name": "Minions as descriptors",
 					"entries": [
-						"Some effects might seem to be Summon, calling up minions to do things for the character, but are actually better treated as descriptors of other effects. Take for example a shaman able to “summon” various spirits to perform magical tasks. By calling on particular spirits of the winds, he can attack a foe with an Affliction that “steals” their breath. Is the “wind spirit” a minion? Technically, no, it’s just a personified effect, since it cannot be attacked, interacted with, or do anything other than create the Affliction effect. It can be Nullified, but so can any effect. The same is true of a character summoning a “minion” that acts as a shield, providing the Deflect or Protection effect, but doing nothing else.",
-						"Consider carefully whether or not the particular effect a player wants really needs Summon, or if the “minion” in question is just a descriptor for another effect, no different than “heat ray” is a descriptor for a Damage effect or “sticky webbing” is a descriptor for a hindering Affliction; in neither case does the character need Summon Heat Ray or Summon Webbing to create the desired powers!"
+						"有些超能力可能看起來和召喚效果一樣，呼喚出嘍囉並為召喚者進行某些事，但某些這類能力其實更適合被視作帶有嘍囉描述符的其他效果。以能夠「召喚」出不同精魂以施展魔法的薩滿為例。藉由召喚出特定的風之精魂，薩滿能夠以{@effect 詛咒}攻擊敵人並「奪走」它們的呼吸。這個「風之精魂」是一名嘍囉嗎？技術上來說，不是。由於它不能被攻擊、互動、或執行除了創造{@effect 詛咒}效果以外的任務，因此它僅僅是一個擬人化的效果表現。對，它跟召喚效果一樣可以被{@effect 無效化}，但任何其它效果也一樣。這個道理同樣適用於能夠將「嘍囉」做為肉盾召喚的角色，這些嘍囉只能提供{@effect 偏轉}或{@effect 保護}的效果，除此之外什麼事都不能做。",
+						"審慎思考玩家所想要的特定能力是否需要使用到召喚效果，又或者該能力中的「嘍囉」僅僅做為其它效果的描述符就足夠，在本質上與做為{@effect 傷害}效果的描述符的「灼熱射線」、或做為{@condition 移動受阻}{@effect 詛咒}效果的描述符的「黏稠蛛網」沒有任何區別；在這兩個例子中，角色不需要召喚出灼熱射線或蜘蛛網就能夠創造出他們所想要的超能力效果！"
 					]
 				},
 				{
@@ -2635,57 +2635,57 @@
 			],
 			"extras": [
 				{
-					"name": "Active",
-					"entries": ["Your minions are particularly independent and do not have the dazed condition, having a full set of actions each round."],
+					"translate_name": "活躍", "name": "Active",
+					"entries": ["你的嘍囉將特別獨立，他們並不處於{@condition 目眩}狀態，且可以在每輪採取完整的動作。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Controlled",
-					"entries": ["Your minions all have the controlled condition (see Controlled in The Basics). They have no free will of their own and are completely under your direction."],
+					"translate_name": "受控", "name": "Controlled",
+					"entries": ["你的所有嘍囉都將處於{@condition 受控}狀態。他們不具備自由意志，且完全處於你的控制之下。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Heroic",
-					"entries": ["The creatures you summon are not subject to the minion rules, but treated like normal non-player characters. Additionally, they do not have the dazed condition and take a full set of actions each round. Do not apply the Active modifier to Heroic minions, as this modifier already includes it. Gamemasters should be particularly cautious about allowing this extra for Summon effects used by player characters, especially ones summoning more than one minion."],
+					"translate_name": "英雄級", "name": "Heroic",
+					"entries": ["你所召喚出的生物將不再適用嘍囉的規則，而是被視為普通的非玩家角色。此外，他們並不處於{@condition 目眩}狀態，且可以在每輪採取完整的動作。不要將活躍修飾符應用在英雄級的嘍囉上，因為該修飾符的效益已經被包含在這個修飾符內。遊戲主持人必須特別注意是否要允許玩家使用應用了這個強化的召喚效果，特別是那些能夠召喚出超過一名嘍囉的召喚效果。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
-					"name": "Horde",
-					"entries": ["If you have Multiple Minions (see following) you may take a standard action to summon any number of minions up to your maximum amount. You are vulnerable (see the Distracting flaw) until the start of your next turn when summoning a horde."],
+					"translate_name": "群集", "name": "Horde",
+					"entries": ["若你應用了複數嘍囉修飾符（見後述），則你可以採取一個標準動作以召喚最多等同於你數量上限的嘍囉。當你一次召喚出一群嘍囉後，直到你的下個回合開始前，你都將處於{@condition 脆弱}狀態（參見{@modifier 分神}缺陷）。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
-					"name": "Mental Link",
-					"entries": ["You have a mental link with your minions, allowing you to communicate with them and issue orders telepathically like the Communication Link effect (see Senses effects)."],
+					"translate_name": "心靈聯繫", "name": "Mental Link",
+					"entries": ["你和你的嘍囉之間有著心靈聯繫，讓你得以如同使用{@effect Sense|溝通鏈結}效果一樣藉由心電感應與他們溝通並發號施令。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Multiple Minions",
-					"entries": ["You can summon more than one minion. Each application of this extra doubles your total number of minions. So, for example, with Summon 6, you summon a single 90-point minion. With Multiple Minions 1, you can summon two 90-point minions, with Multiple Minions 2, four minions, and so forth. It requires a standard action to summon each minion unless you also have the Horde extra (see previous)."],
+					"translate_name": "複數嘍囉", "name": "Multiple Minions",
+					"entries": ["你可以召喚出超過一個嘍囉。每次應用這個修飾符都會使你總共能召喚的嘍囉數量變為原本的兩倍。因此舉例來說，若你擁有6級召喚效果，你將能召喚出一名90點角色點的嘍囉。若你應用了1級的複數嘍囉，則你將可以召喚二個90點角色點的嘍囉；若應用了2級的複數嘍囉，則你將可以召喚四個嘍囉，依此類推。除非你同時應用了群集強化（見前述），否則你每次仍只能以一個標準動作召喚出一個嘍囉。"],
 					"cost": {
 						"value": 2, "type": "per"
 					}
 				},
 				{
-					"name": "Sacrifice",
-					"entries": ["When you are hit with an effect requiring a resistance check, you can spend a victory point to shift it to one of your minions instead. The minion must be within range of the effect and a viable target. Needless to say, this is not a particularly heroic ability. In fact, the GM may wish to restrict it to villains or non-player characters (in which case a hero earns a victory point when a villain uses this extra to avoid an effect by sacrificing a minion)."],
+					"translate_name": "犧牲", "name": "Sacrifice",
+					"entries": ["當你被某個要求你進行抵抗檢定的效果命中時，你可以消耗一點勝利點以跟你的其中一個嘍囉交換位置，使他代替你被命中。這名嘍囉必須處於該效果的射程範圍內，且必須符合該效果的目標需求。無論如何，這通常不是一個英雄該有的能力。事實上，GM可能會希望限制只有反派或非玩家角色才能應用這個修飾符（在這種情況下，英雄將會在反派利用這個修飾符犧牲嘍囉以避免受到效果影響時獲得一點勝利點）。"],
 					"cost": {
 						"value": 1, "type": "flat"
 					}
 				},
 				{
-					"name": "Variable Type",
-					"entries": ["Minions are normally identical in terms of traits, although they may differ cosmetically. With this modifier you can summon different minions of a general type (like elementals, birds, fish, etc.), or even a broad type (like animals, demons, humanoids, etc.). {@b General Type: +1 cost per rank. Broad Type: +2 cost per rank.}"],
+					"translate_name": "可變類型", "name": "Variable Type",
+					"entries": ["你所召喚的嘍囉通常擁有一致的遊戲數據，但他們彼此可能可以存在外觀上的差異。藉由這個修飾符，你可以召喚出同屬於一個普遍類別的不同嘍囉（例如元素生物、鳥類、魚類等等），或甚至同屬於一種廣泛類別的嘍囉（例如動物、惡魔、人形生物等等）。 {@b 普遍類別：每級+1點. 廣泛類別：每級+2點.}"],
 					"cost": {
 						"value": {"min":1, "max":2}, "type": "per", "hidden": true
 					}
@@ -2693,15 +2693,15 @@
 			],
 			"flaws": [
 				{
-					"name": "Attitude",
-					"entries": ["Your summoned minions are less than cooperative: indifferent or even unfriendly. You can use interaction skills and other effects to get your summoned minions to cooperate, but success is by no means assured! {@b Indifferent: –1 cost per rank. Unfriendly: –2 cost per rank.}"],
+					"translate_name": "態度不佳", "name": "Attitude",
+					"entries": ["你所召喚出的嘍囉並不太合作：他們對你的態度可能會是「中立」或甚至「不友善」。你可以使用交涉技能和其他效果試圖使你召喚出的嘍囉合作，但這並不保證能成功！ {@b 中立態度：每級–1點. 不友善態度：每級–2點.}"],
 					"cost": {
 						"value": {"min":-1, "max":-2}, "type": "per", "hidden": true
 					}
 				},
 				{
 					"translate_name": "可被抵抗", "name": "Resistible",
-					"entries": ["Your minions get an appropriate resistance check (typically Will) against (DC 10 + Summon rank) to avoid being summoned. If they successfully resist, you cannot attempt to summon them again in that scene without using extra effort."],
+					"entries": ["你的嘍囉可以在被召喚時進行一次DC 10 + 召喚效果等級的合適抵抗檢定（通常使用意志防禦屬性）以避免被召喚。若他們成功抵抗，則在該場景內你必須使用奮力一搏才能夠再次嘗試召喚他們。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
