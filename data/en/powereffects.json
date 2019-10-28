@@ -1107,12 +1107,12 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the Insight resistance check (10 + rank).",
+				"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the {@skill Insight} resistance check (10 + rank).",
 				{
 					"type": "entries",
 					"name": "Illusion Size",
 					"entries": [
-						"Your illusion occupies an area with a maximum volume rank equal to your effect rank. To increase the size of the illusion you can create, apply the Area extra; each application increases the area your illusion covers by 1 rank."
+						"Your illusion occupies an area with a maximum volume rank equal to your effect rank. To increase the size of the illusion you can create, apply the {@modifier Area} extra; each application increases the area your illusion covers by 1 rank."
 					]
 				},
 				{
@@ -1126,7 +1126,7 @@
 					"type": "entries",
 					"name": "Overcoming Illusions",
 					"entries": [
-						"Characters encountering an illusion do not receive checks to recognize it as illusory until they interact with it in some fashion. A successful Insight check against an illusion (DC 10 + Illusion rank) reveals it as false. A failed check means the character does not notice anything amiss. A character faced with clear proof an illusion isn’t real needs no Insight check. Senses with the Counters Illusion effect (see Senses) automatically detect illusions. If any viewer successfully uncovers an illusion and communicates this fact to others, they gain another Insight check with a +5 circumstance bonus. Circumstances may grant additional modifiers to the Insight check to uncover an illusion, depending on how convincing it is."
+						"Characters encountering an illusion do not receive checks to recognize it as illusory until they interact with it in some fashion. A successful {@skill Insight} check against an illusion (DC 10 + Illusion rank) reveals it as false. A failed check means the character does not notice anything amiss. A character faced with clear proof an illusion isn’t real needs no {@skill Insight} check. Senses with the {@effect Sense|Counters Illusion} effect (see Senses) automatically detect illusions. If any viewer successfully uncovers an illusion and communicates this fact to others, they gain another {@skill Insight} check with a +5 circumstance bonus. Circumstances may grant additional modifiers to the {@skill Insight} check to uncover an illusion, depending on how convincing it is."
 					]
 				},
 				{
@@ -1145,21 +1145,21 @@
 							"type": "entries",
 							"name": "Damaging Illusions",
 							"entries": [
-								"For illusions so realistic they are capable of inflicting damage, add a Linked Perception Range Damage effect. At the GM’s discretion, this effect can even be made into a Linked Array with a variety of alternate attack effects, allowing your illusionist to inflict conditions other than damage on targets. Keep in mind the attack effects all need to be perception range to match the range of Illusion."
+								"For illusions so realistic they are capable of inflicting damage, add a {@modifier Linked} {@modifier Increased Range|Perception Range} {@effect Damage} effect. At the GM’s discretion, this effect can even be made into a {@modifier Linked} {@modifier Alternate Effect|Array} with a variety of alternate attack effects, allowing your illusionist to inflict conditions other than damage on targets. Keep in mind the attack effects all need to be perception range to match the range of Illusion."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Illusory Appearance",
 							"entries": [
-								"Illusion can alter a subject’s appearance, providing an essentially impenetrable disguise—at least until someone makes a successful check to see through the illusion. However, for just the ability to alter appearance, use the Morph effect, which is generally more effective than Illusion Limited to Appearance."
+								"Illusion can alter a subject’s appearance, providing an essentially impenetrable disguise—at least until someone makes a successful check to see through the illusion. However, for just the ability to alter appearance, use the {@effect Morph} effect, which is generally more effective than Illusion Limited to Appearance."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Mental Illusions",
 							"entries": [
-								"The default Illusion effect is perceptible to anyone or anything (including machines) as if it were real. Some illusions exist solely in the mind, like projected psychic hallucinations. This type of Illusion has the Resistible by Will flaw and the Selective extra, since the illusionist can choose whether or not to project the illusion into a particular subject’s mind, and therefore decides who can or cannot perceive the illusion. This is a net +0 modifier, for the same base cost."
+								"The default Illusion effect is perceptible to anyone or anything (including machines) as if it were real. Some illusions exist solely in the mind, like projected psychic hallucinations. This type of Illusion has the {@modifier Resistible} by Will flaw and the {@modifier Selective} extra, since the illusionist can choose whether or not to project the illusion into a particular subject’s mind, and therefore decides who can or cannot perceive the illusion. This is a net +0 modifier, for the same base cost."
 							]
 						},
 						{
@@ -1173,8 +1173,7 @@
 							"type": "entries",
 							"name": "I Disbelieve!",
 							"entries": [
-								"Keep in mind characters don’t get to make a resistance check to overcome an illusion unless they have reason to believe the illusion is not real. Given the rather fantastic things that can happen in different settings, an illusion generally has to provide some evidence of its true nature. Smart illusionists keep the true nature of their powers secret, and smart Gamemasters require players to come up with something a bit more comprehensive than “I disbelieve!” to figure out when there are illusions at hand.",
-								"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the Insight resistance check (10 + rank)."
+								"Keep in mind characters don’t get to make a resistance check to overcome an illusion unless they have reason to believe the illusion is not real. Given the rather fantastic things that can happen in different settings, an illusion generally has to provide some evidence of its true nature. Smart illusionists keep the true nature of their powers secret, and smart Gamemasters require players to come up with something a bit more comprehensive than “I disbelieve!” to figure out when there are illusions at hand."
 							]
 						}
 					]
@@ -1199,7 +1198,7 @@
 			"flaws": [
 				{
 					"name": "Feedback",
-					"entries": ["Although Illusion does not have a physical “manifestation” per se, it can apply this flaw, in which case a successful damaging attack on one of your illusions causes you to suffer damage, using the guidelines given in the description of the Feedback flaw."],
+					"entries": ["Although Illusion does not have a physical “manifestation” per se, it can apply this flaw, in which case a successful damaging attack on one of your illusions causes you to suffer damage, using the guidelines given in the description of the {@modifier Feedback} flaw."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -1213,14 +1212,14 @@
 				},
 				{
 					"name": "Ranged",
-					"entries": ["It is left to the GM’s discretion whether or not Illusion’s range can be reduced at all, since being able to perceive the affected area is important in creating and directing the illusion. In order to solely alter your own appearance, see the Morph effect, possibly with the Resistible modifier."],
+					"entries": ["It is left to the GM’s discretion whether or not Illusion’s range can be reduced at all, since being able to perceive the affected area is important in creating and directing the illusion. In order to solely alter your own appearance, see the {@effect Morph} effect, possibly with the Resistible modifier."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"name": "Resistible",
-					"entries": ["Illusions Resistible by Will are typically hallucinatory effects projected into the target’s mind. This flaw is commonly combined with Selective, so only the targets you choose perceive your illusions. Illusions Resistible by Fortitude may represent a hallucinatory drug or similar biochemical effect. As usual, targets immune to effects targeting the resistance are unaffected by the illusion as well. So Illusions Resistible by Fortitude or Will have no effect on non-living targets, for example. This resistance check is in addition to the usual Insight check; the first determines if the target can resist the effect creating the illusion, the Insight check determine if the target notices something wrong about the illusion, revealing it as false."],
+					"entries": ["Illusions Resistible by Will are typically hallucinatory effects projected into the target’s mind. This flaw is commonly combined with {@modifier Selective}, so only the targets you choose perceive your illusions. Illusions Resistible by Fortitude may represent a hallucinatory drug or similar biochemical effect. As usual, targets immune to effects targeting the resistance are unaffected by the illusion as well. So Illusions Resistible by Fortitude or Will have no effect on non-living targets, for example. This resistance check is in addition to the usual Insight check; the first determines if the target can resist the effect creating the illusion, the Insight check determine if the target notices something wrong about the illusion, revealing it as false."],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2836,7 +2835,7 @@
 					]
 				},
 				"Inanimate objects do not make resistance checks and transform automatically, so long as you can affect their total mass. You can transform (Transform rank –6) rank mass, so Transform 1 can affect up to 1.5 lbs (mass rank –5), then 3 lbs. at rank 2, and so forth, on up to rank 20, which affects 400 tons at once.",
-				"The transformation lasts as a sustained effect. When you stop maintaining it, the target reverts to normal. Continuous Transform is irreversible except by using another Transform effect to turn the target back into its previous form.",
+				"The transformation lasts as a sustained effect. When you stop maintaining it, the target reverts to normal. {@modifier Continuous} Transform is irreversible except by using another Transform effect to turn the target back into its previous form.",
 				"Transforming someone’s devices or equipment requires targeting them first: characters can make Dodge resistance checks for their held or worn items, with a +5 circumstance bonus for hand-held and similar sized objects. So transforming a hand-held weapon like a gun requires an attack check and permits the wielder a Dodge resistance check with a +5 bonus (for a hand-held item). Targeting a worn suit of armor requires an attack check and allows the wearer a Dodge resistance check (with no modifier for a large item).",
 				"Transform is generally just another way of “removing” a device or equipment, considered a part of their discount in cost, although transformed items should eventually be restored or replaced.",
 				{
@@ -2844,22 +2843,22 @@
 					"name": "Under the Hood: Transform",
 					"entries": [
 						"Transform is a powerful effect, particularly in the hands of a cunning player. To a degree, Transform can duplicate certain other effects, such as trapping a target by transforming air into a solid material or turning oxygen into a suffocating gas (both Afflictions). This is perfectly allowable; use the rules for other effects as guidelines on how to handle these situations, using Transform rank to determine resistance DCs.",
-						"Keep in mind, however, that Transform has a sustained duration, which may affect how such “tricks” work (e.g., the trap disappears if the character is stunned, the suffocating gas dissipates unless the character concentrates each round to continue transforming it, etc.). As always, the GM should use common sense and good judgment.",
-						"You may wish to require characters using Transform to acquire money (gold, precious gems, etc.) or other permanent material goods to spend character points on ranks of the Benefit advantage to reflect this newfound wealth; otherwise, the goods fade or remain impermanent in some way. (Assuming things like wealth matter in your series in some way.)"
+						"Keep in mind, however, that Transform has a sustained duration, which may affect how such “tricks” work (e.g., the trap disappears if the character is {@condition stunned}, the suffocating gas dissipates unless the character concentrates each round to continue transforming it, etc.). As always, the GM should use common sense and good judgment.",
+						"You may wish to require characters using Transform to acquire money (gold, precious gems, etc.) or other permanent material goods to spend character points on ranks of the {@advantage Benefit} advantage to reflect this newfound wealth; otherwise, the goods fade or remain impermanent in some way. (Assuming things like wealth matter in your series in some way.)"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Destructive Transformations",
 					"entries": [
-						"It is possible for Transform to effectively destroy objects: turning a steel door into water, air, or even rust certainly removes it as a barrier. However, keep in mind that Transform is normally sustained; the target isn’t truly destroyed unless the effect is continuous, and therefore irreversible. Even then, the destruction of targets tends to be all-or-nothing. For an effect capable of wearingdown and eventually destroying objects, use WeakenToughness instead."
+						"It is possible for Transform to effectively destroy objects: turning a steel door into water, air, or even rust certainly removes it as a barrier. However, keep in mind that Transform is normally sustained; the target isn’t truly destroyed unless the effect is continuous, and therefore irreversible. Even then, the destruction of targets tends to be all-or-nothing. For an effect capable of wearing down and eventually destroying objects, use {@effect Weaken|Weaken Toughness} instead."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Transforming Beings",
 					"entries": [
-						"Transforming living or otherwise animate beings as opposed to inanimate matter requires an effect other than Transform. To alter a target’s outward appearance only, go with a Morph Attack. For a harmful effect that does something like turn the target to stone or into a mind-controlled zombie, see Affliction. When dealing with non-living creatures (those absent Stamina) capable of resistance checks (possessing Will) the GM may permit Transform to function like an Affliction against them."
+						"Transforming living or otherwise animate beings as opposed to inanimate matter requires an effect other than Transform. To alter a target’s outward appearance only, go with a {@effect Morph} {@modifier Attack}. For a harmful effect that does something like turn the target to stone or into a mind-controlled zombie, see {@effect Affliction}. When dealing with non-living creatures (those absent Stamina) capable of resistance checks (possessing Will) the GM may permit Transform to function like an Affliction against them."
 					]
 				}
 			]

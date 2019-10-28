@@ -1097,7 +1097,7 @@
 			]
 		},
 		{
-			"name": "Illusion",
+			"translate_name": "幻覺", "name": "Illusion",
 			"type": "CTL",
 			"action": "S",
 			"range": "perception",
@@ -1107,74 +1107,73 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the Insight resistance check (10 + rank).",
+				"你能夠控制他人的感官並創造出幻覺幻象。這個幻覺包括了視覺幻影、幻聲、氣味，甚至影響雷達或產生心靈幻影。若這個效果的花費為每級1點，則你可以創造出只影響單一感官種類的幻覺。若這個效果的花費為每級2點，則你可以影響二種感官種類。若花費為每級3點，則你可以影響三種感官種類。若花費為每級4點，則你可以影響四種感官種類。若花費為每級5點，則你可以影響所有的感官種類。視覺感官在這裡被視作二種感官種類。你的幻覺效果等級同時會決定你所創造出的幻象有多麼真實，這個等級會被納入其他人為了看破幻覺所做的{@skill 洞悉}抵抗檢定的DC中（10 + 幻覺效果等級）。",
 				{
 					"type": "entries",
-					"name": "Illusion Size",
+					"translate_name": "幻象尺寸", "name": "Illusion Size",
 					"entries": [
-						"Your illusion occupies an area with a maximum volume rank equal to your effect rank. To increase the size of the illusion you can create, apply the Area extra; each application increases the area your illusion covers by 1 rank."
+						"你所創造的幻象將佔據一個體積等級最大等同於你效果等級的區域。若要增加你所創造幻象的大小，請應用{@modifier 範圍化}修飾符；每級的{@modifier 範圍化}修飾符都會使你幻象所佔據的體積等級增加1級。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Illusionary Effects",
+					"translate_name": "虛幻效果", "name": "Illusionary Effects",
 					"entries": [
-						"Illusions have no substance and cannot have any real-world effect. So they cannot provide illumination, nutrition, warmth, or the like (although they can provide the sensations of these things). Likewise, an illusory wall only prevents people from moving through an area so long as they believe it’s real, and an illusory bridge or floor is revealed as false as soon as someone tries to walk across it, and falls through it!"
+						"幻覺效果所產生的幻象並不具備實體，且不會對真實世界產生任何實質影響。因此它們無法提供照明、營養、溫暖等性質（儘管它們能夠提供上述性質帶來的感覺）。也因此，一道幻象牆壁只能夠讓相信它是真實存在的人們不至於產生移動穿過這道牆壁的意圖，而幻象橋梁或地板則會在某人嘗試走過它、並失足墜落時立刻被發現它是虛假的。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Overcoming Illusions",
+					"translate_name": "克服幻覺", "name": "Overcoming Illusions",
 					"entries": [
-						"Characters encountering an illusion do not receive checks to recognize it as illusory until they interact with it in some fashion. A successful Insight check against an illusion (DC 10 + Illusion rank) reveals it as false. A failed check means the character does not notice anything amiss. A character faced with clear proof an illusion isn’t real needs no Insight check. Senses with the Counters Illusion effect (see Senses) automatically detect illusions. If any viewer successfully uncovers an illusion and communicates this fact to others, they gain another Insight check with a +5 circumstance bonus. Circumstances may grant additional modifiers to the Insight check to uncover an illusion, depending on how convincing it is."
+						"遭遇到幻覺的角色直到以某種方式與其互動之前，都不會得到辨識其是否為幻覺的檢定機會。一個成功對抗幻覺效果（DC 10 + 幻覺效果等級）的{@skill 洞悉}檢定將會揭露其虛假的性質。檢定失敗則意味著角色不會注意到任何不對勁。得到幻覺並非真實的清晰證據的角色並不需要進行{@skill 洞悉}檢定。擁有{@effect Sense|反制幻覺}性質感官的角色將會自動辨識出幻覺的存在。若任何觀察者成功地揭露幻覺，並將這個事實告訴其他人，則其他人將得以再進行一次帶有+5情境加值的{@skill 洞悉}檢定。根據幻覺的可信度，用以揭露幻覺的{@skill 洞悉}檢定可能會承受額外的情境修正值。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Maintaining Illusions",
+					"translate_name": "維持幻覺", "name": "Maintaining Illusions",
 					"entries": [
-						"Maintaining an active illusion (such as a fighting creature) requires a standard action each round, but maintaining a static illusion (one that doesn’t move or interact) is only a free action."
+						"維持一個活動中的幻象（像是正在戰鬥中的生物）需要每輪採取一個標準動作，但維持一個靜止的幻象（一個並非在移動或互動中的人）則只需要每輪採取一個自由動作。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Illusion",
+					"translate_name": "幕後花絮：幻覺", "name": "Under the Hood: Illusion",
 					"entries": [
-						"Illusion is a broad-ranging effect, usable for a number of different things. A few common considerations for Illusion include the following.",
+						"幻覺是一個範圍很廣的效果，並具備著許多不同的用途。一些關於幻覺效果的常見考量將被列於下方。",
 						{
 							"type": "entries",
-							"name": "Damaging Illusions",
+							"translate_name": "致傷性幻覺", "name": "Damaging Illusions",
 							"entries": [
-								"For illusions so realistic they are capable of inflicting damage, add a Linked Perception Range Damage effect. At the GM’s discretion, this effect can even be made into a Linked Array with a variety of alternate attack effects, allowing your illusionist to inflict conditions other than damage on targets. Keep in mind the attack effects all need to be perception range to match the range of Illusion."
+								"對於那些過於真實而能夠造成真正傷害的幻覺效果，請為其加上{@modifier Linked}{@modifier Increased Range|感知距離}{@effect 傷害}效果。根據GM的裁斷，這個效果可能會甚至被做成一系列具有不同替換攻擊效果的{@modifier Linked}{@modifier Alternate Effect|陣列}，讓你能夠利用你所創造的幻象賦予目標各種異常狀態。記住，攻擊類別效果的射程都必須要被變更為感知距離，才能符合幻覺效果的射程。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Illusory Appearance",
+							"translate_name": "幻象外表", "name": "Illusory Appearance",
 							"entries": [
-								"Illusion can alter a subject’s appearance, providing an essentially impenetrable disguise—at least until someone makes a successful check to see through the illusion. However, for just the ability to alter appearance, use the Morph effect, which is generally more effective than Illusion Limited to Appearance."
+								"幻覺可以改變目標的外貌，提供一個無懈可擊的偽裝──至少在某人成功通過看穿幻覺的檢定之前是這樣。然而，若你只是想要能夠改變外貌的能力，請使用{@effect 變形}效果，這個選擇通常會比使用限定改變外貌的幻覺效果更為有效。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Mental Illusions",
+							"translate_name": "心靈幻象", "name": "Mental Illusions",
 							"entries": [
-								"The default Illusion effect is perceptible to anyone or anything (including machines) as if it were real. Some illusions exist solely in the mind, like projected psychic hallucinations. This type of Illusion has the Resistible by Will flaw and the Selective extra, since the illusionist can choose whether or not to project the illusion into a particular subject’s mind, and therefore decides who can or cannot perceive the illusion. This is a net +0 modifier, for the same base cost."
+								"預設的幻覺效果將能夠如同真實物體一樣被任何人或物（包括機器）所感知到。然而，有些幻覺僅僅存在於目標的心靈中，例如投射性精神幻覺。這種類型的幻覺效果通常會應用{@modifier Resistible|可被意志抵抗}缺陷和{@modifier 可選擇}強化，因為使用者可以選擇是否要將幻象投射至特定目標的心靈之中，且因此能夠決定誰能夠或不能感知到該幻象。由於這兩個修飾符的花費互相抵銷，因此這個改動對於花費的影響將會是每級+0點。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "My Ally, My Enemy",
+							"translate_name": "我的盟友，我的敵人", "name": "My Ally, My Enemy",
 							"entries": [
-								"A common Illusion trick is to switch the appearances of an enemy and an ally, causing a foe’s teammate to attack that enemy by mistake. You can generally handle this with an opposed check of Illusion and Insight; if you win, the target is unaware of the switch and attacks the wrong target."
+								"交換敵人和隊友的外觀是一種常見的幻覺詭計，使敵對隊伍被誤導並攻擊該敵人。你通常可以將這個嘗試處理為幻覺效果與洞悉技能之間的對抗檢定；若幻覺的使用者勝出，則觀察者將不會察覺到這個變化，並攻擊錯誤的目標。"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "I Disbelieve!",
+							"translate_name": "我不相信！", "name": "I Disbelieve!",
 							"entries": [
-								"Keep in mind characters don’t get to make a resistance check to overcome an illusion unless they have reason to believe the illusion is not real. Given the rather fantastic things that can happen in different settings, an illusion generally has to provide some evidence of its true nature. Smart illusionists keep the true nature of their powers secret, and smart Gamemasters require players to come up with something a bit more comprehensive than “I disbelieve!” to figure out when there are illusions at hand.",
-								"You can control others’ senses to create false impressions, illusions. This can range from visual images to phantom sounds, smells, or even radar or mental images. For 1 point per rank, you can create an illusion affecting a single sense type. For 2 points per rank, you can affect two sense types. For 3 points per rank, you can affect three sense types. For 4 points per rank, you can affect four sense types, and for 5 points per rank, you can affect all sense types. Visual senses count as two sense types. Your rank determines how convincing your illusion is, including the DC for the Insight resistance check (10 + rank)."
+								"要記住，直到角色們有查覺到幻覺的理由之前，他們都不會得到進行抵抗檢定以克服幻覺的機會。考慮到在不同世界觀設定中可能存在其他更奇妙的事情，幻覺通常仍會保有某種能夠揭曉其本質的證據。聰明的幻術師會對他們超能力的本質守口如瓶，而聰明的遊戲主持人則會要求玩家們給出比「我就是不相信！」更好的理由，才能夠讓他們有機會弄清楚自己是否遭遇到了幻覺。"
 							]
 						}
 					]
@@ -1182,15 +1181,15 @@
 			],
 			"extras": [
 				{
-					"name": "Independent",
-					"entries": ["Your active illusions only require a free action to maintain, rather than a standard action."],
+					"translate_name": "獨立", "name": "Independent",
+					"entries": ["你活動中的幻象只需要每輪採取一個自由動作即可維持，而非原本的標準動作。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "可選擇", "name": "Selective",
-					"entries": ["You choose who perceives your Illusion and who doesn’t"],
+					"entries": ["你可以選擇讓你所創造出的幻覺被一部份人感知到，而另一部分則不會感知到。"],
 					"cost": {
 						"value": 1, "type": "per"
 					}
@@ -1199,28 +1198,28 @@
 			"flaws": [
 				{
 					"translate_name": "反饋", "name": "Feedback",
-					"entries": ["Although Illusion does not have a physical “manifestation” per se, it can apply this flaw, in which case a successful damaging attack on one of your illusions causes you to suffer damage, using the guidelines given in the description of the Feedback flaw."],
+					"entries": ["儘管幻覺本身並非在物理上「存在」，但它仍可以應用這個缺陷，並會使你在創造出的幻象被攻擊成功傷害時承受反饋傷害。參照{@modifier Feedback}缺陷描述中提及的準則。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
-					"name": "Limited to One Subject",
-					"entries": ["Only a single subject at a time can perceive your Illusion."],
+					"translate_name": "限定單一目標", "name": "Limited to One Subject",
+					"entries": ["同時只會有一個目標能夠感知到你所創造出的幻覺。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "遠距", "name": "Ranged",
-					"entries": ["It is left to the GM’s discretion whether or not Illusion’s range can be reduced at all, since being able to perceive the affected area is important in creating and directing the illusion. In order to solely alter your own appearance, see the Morph effect, possibly with the Resistible modifier."],
+					"entries": ["由於在創造並操縱幻象時，使用者是否能感知到被影響區域是一件相當重要的因素，因此幻覺效果的射程是否可以被降低將交由GM決定。若僅僅是為了改變你自己的外貌，請使用可能應用了可被抵抗修飾符的{@effect 變形}效果。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
 				},
 				{
 					"translate_name": "可被抵抗", "name": "Resistible",
-					"entries": ["Illusions Resistible by Will are typically hallucinatory effects projected into the target’s mind. This flaw is commonly combined with Selective, so only the targets you choose perceive your illusions. Illusions Resistible by Fortitude may represent a hallucinatory drug or similar biochemical effect. As usual, targets immune to effects targeting the resistance are unaffected by the illusion as well. So Illusions Resistible by Fortitude or Will have no effect on non-living targets, for example. This resistance check is in addition to the usual Insight check; the first determines if the target can resist the effect creating the illusion, the Insight check determine if the target notices something wrong about the illusion, revealing it as false."],
+					"entries": ["可以被意志抵抗的幻覺效果通常是那些直接投射至目標心靈的致幻效果。這個缺陷經常與{@modifier 可選擇}修飾符一同使用，因此只有你所選擇的目標能夠感知到你創造的幻覺。可以被韌性抵抗的幻覺效果則可能會以致幻藥物或類似生化效果的方式呈現。如同以往，免疫於指定抵抗效果的目標也就不會受到該幻覺的影響。因此舉例來說，可以被韌性或幻覺抵抗的幻覺效果將無法影響非生命目標。這個抵抗檢定將在原本的洞悉檢定之前進行；這個抵抗檢定會先決定目標是否能抵抗該幻覺的產生，而接著的洞悉檢定再決定目標是否能察覺到該幻覺中的破綻，並辨識出它虛假的性質。"],
 					"cost": {
 						"value": -1, "type": "per"
 					}
@@ -2814,7 +2813,7 @@
 			]
 		},
 		{
-			"_translate_name": "物體轉化", "name": "Transform",
+			"translate_name": "物體轉化", "name": "Transform",
 			"type": "CTL",
 			"action": "S",
 			"range": "close",
@@ -2824,42 +2823,42 @@
 				"type": "per"
 			},
 			"entries": [
-				"You can change objects into other objects, altering their shape or material composition in the process. You must touch the chosen object, which requires a close attack check if the object is held or worn by another character.",
-				"What you can transform affects cost per rank:",
+				"你可以將物體轉化成另一個物體，在這個過程中改變它們的形狀或構成材質。你必須要觸碰你所選擇的物體，若該物體被其他角色持握或穿戴，則這將需要你進行一次近身攻擊檢定。",
+				"你所能轉化的事物將影響這個效果每級的花費：",
 				{
 					"type": "list",
 					"items": [
-						"{@b 2 points}: Transform one thing or substance into one other thing or substance, such as metal into wood, iron into glass, or broken objects into repaired ones.",
-						"{@b 3 points}: Transform a broad group of things into a single result (any metal into gold, for example) or a single target into any of a broad group (one type of metal, such as lead, into any other metal, water into other liquids, and so forth).",
-						"{@b 4 points}: Transform a broad group of targets into one of a broad group of results (solids into other solids, for example).",
-						"{@b 5 points}: Transform any material into anything else."
+						"{@b 2 點}：將一個東西或實體轉化為另一個東西或實體，像是將金屬轉化為木頭、鋼鐵變為玻璃、或將損壞的物體修復。",
+						"{@b 3 點}：將屬於一個廣泛類別的事物轉化為單一結果（像是將任意金屬轉化為黃金），或將單一目標轉化為任何屬於一個廣泛類別的事物（將一種金屬，例如鉛，轉變為任意其它金屬；將水轉化為其它液體，諸如此類）。",
+						"{@b 4 點}：將屬於一個廣泛類別的事物轉化為另一個屬於該類別的事物（例如將固體轉化成其它固體）。",
+						"{@b 5 點}：將任意物質轉化為其它東西。"
 					]
 				},
-				"Inanimate objects do not make resistance checks and transform automatically, so long as you can affect their total mass. You can transform (Transform rank –6) rank mass, so Transform 1 can affect up to 1.5 lbs (mass rank –5), then 3 lbs. at rank 2, and so forth, on up to rank 20, which affects 400 tons at once.",
-				"The transformation lasts as a sustained effect. When you stop maintaining it, the target reverts to normal. Continuous Transform is irreversible except by using another Transform effect to turn the target back into its previous form.",
-				"Transforming someone’s devices or equipment requires targeting them first: characters can make Dodge resistance checks for their held or worn items, with a +5 circumstance bonus for hand-held and similar sized objects. So transforming a hand-held weapon like a gun requires an attack check and permits the wielder a Dodge resistance check with a +5 bonus (for a hand-held item). Targeting a worn suit of armor requires an attack check and allows the wearer a Dodge resistance check (with no modifier for a large item).",
-				"Transform is generally just another way of “removing” a device or equipment, considered a part of their discount in cost, although transformed items should eventually be restored or replaced.",
+				"非生命物體不能進行抵抗檢定，且只要你能夠影響它的總質量，它就會直接被轉化。你可以轉變最多「物體轉化效果等級-6」級的質量，因此1級的物體轉化效果可以影響最多 1.5磅（-5級質量）的物體，2級的物體轉化效果則可以影響最多3磅，如此這般，到最高20級時將能夠一次影響最多400噸的物質。",
+				"這個轉變將會做為持續時間為「維持」的效果。當你中斷對它的維持時，目標將會變回原本的樣子。{@modifier 常續}物體轉化效果帶來的影響將不可逆，只能藉由其它物體轉化效果來使目標變回原本的型態。",
+				"若要轉化他人的裝置或裝備，則你需要先以他們為目標：該角色可以為他們所持握或穿戴的物品進行閃避抵抗檢定，若其為手持或類似大小的物體，則這個抵抗檢定將獲得+5的情境加值。因此若要轉化一把手持武器（例如槍枝），你需要先進行一次攻擊檢定，並讓該武器的持用者進行一次帶有+5情境加值（手持武器提供的加值）的閃避抵抗檢定。而若要轉化一件被穿戴的衣服或裝甲，則需要先進行一次攻擊檢定，並讓穿戴者進行一次閃避抵抗檢定（由於該物體夠大，因此沒有額外的修正值）。",
+				"考量到其花費與修飾符所能帶來的折扣，物體轉化效果通常僅被做為「移除」裝置或裝備的另一種手段，儘管如此，被轉化的物品最終仍會被復原或取代。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Transform",
+					"translate_name": "幕後花絮：物體轉化", "name": "Under the Hood: Transform",
 					"entries": [
-						"Transform is a powerful effect, particularly in the hands of a cunning player. To a degree, Transform can duplicate certain other effects, such as trapping a target by transforming air into a solid material or turning oxygen into a suffocating gas (both Afflictions). This is perfectly allowable; use the rules for other effects as guidelines on how to handle these situations, using Transform rank to determine resistance DCs.",
-						"Keep in mind, however, that Transform has a sustained duration, which may affect how such “tricks” work (e.g., the trap disappears if the character is stunned, the suffocating gas dissipates unless the character concentrates each round to continue transforming it, etc.). As always, the GM should use common sense and good judgment.",
-						"You may wish to require characters using Transform to acquire money (gold, precious gems, etc.) or other permanent material goods to spend character points on ranks of the Benefit advantage to reflect this newfound wealth; otherwise, the goods fade or remain impermanent in some way. (Assuming things like wealth matter in your series in some way.)"
+						"物體轉化是一個強大的超能力效果，特別是在那些狡猾的玩家手中尤其如此。在某種程度上，物體轉化效果可以複製出某些其它效果所帶來的成效，像是藉由將空氣轉化成固體材質以困住目標、或是將氧氣轉化成窒息性氣體（這兩個例子都屬於{@effect 詛咒}效果）。這完全是合理且可行的使用方式；當遇到這些情況時，請使用其它效果的準則進行處理，並使用物體轉化效果的等級來決定目標的抵抗DC。",
+						"然而要記住，物體轉化效果的持續時間為「維持」，並可能會影響這些「技倆」的運作（例如：圍困陷阱可能會在該角色陷入{@condition 暈眩}狀態時消失，且除非該角色每輪都持續轉化，否則窒息性氣體將會消散，諸如此類）。一如既往，GM需要善用常識以做出良好的裁斷。",
+						"你可能會希望那些利用物體轉化效果以獲得財富（黃金、珍貴珠寶等）的角色花費角色點購買{@advantage Benefit}特長以反映這些財產；否則這些財產可能會消散或或因某些原因而不再有效。（若財富在你的劇集中有所影響才需要這麼做。）"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Destructive Transformations",
+					"translate_name": "破壞性轉化", "name": "Destructive Transformations",
 					"entries": [
-						"It is possible for Transform to effectively destroy objects: turning a steel door into water, air, or even rust certainly removes it as a barrier. However, keep in mind that Transform is normally sustained; the target isn’t truly destroyed unless the effect is continuous, and therefore irreversible. Even then, the destruction of targets tends to be all-or-nothing. For an effect capable of wearingdown and eventually destroying objects, use WeakenToughness instead."
+						"利用物體轉化效果以實質性地破壞物體是有可能的：將鐵門轉變成水、空氣、或甚至使它鏽蝕，都可以將它從原本的位置上移除。然而，要記住的是物體轉化效果的持續時間通常為「維持」；因此除非該效果的持續時間被改為「常續」並因此不可逆，則該物體並非真的就這麼被破壞。物體轉化效果所造成的破壞性通常瞬間見效，要嘛完全無法發揮任何作用。若想要能夠一步步損耗並最終摧毀物體的效果，請改為使用{@effect Weaken|弱化堅實}效果。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Transforming Beings",
+					"translate_name": "轉化生命體", "name": "Transforming Beings",
 					"entries": [
-						"Transforming living or otherwise animate beings as opposed to inanimate matter requires an effect other than Transform. To alter a target’s outward appearance only, go with a Morph Attack. For a harmful effect that does something like turn the target to stone or into a mind-controlled zombie, see Affliction. When dealing with non-living creatures (those absent Stamina) capable of resistance checks (possessing Will) the GM may permit Transform to function like an Affliction against them."
+						"將生命體轉化成無生命的物質需要的不是物體轉化，而是其它效果。若僅僅是要改變目標的外觀，請使用{@effect 變形}{@modifier Attack|攻擊}。若想要能夠做到像是將目標變為石頭或被心控的殭屍之類的有害效果，則請參見{@effect 詛咒}效果。當作用與那些非活物（缺乏體質屬性），但能夠進行抵抗檢定（擁有意志防禦屬性）的生命體，GM可能會允許物體轉化效果如同{@effect 詛咒}效果一樣在他們身上發揮作用。"
 					]
 				}
 			]
