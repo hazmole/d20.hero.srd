@@ -25,7 +25,7 @@
 			"translate_name": "屬性衰竭", "name": "Debilitated",
 			"type": "basic",
 			"entries": [
-				"角色的其中一個或多個屬性的等級被降至-5以下（參見{@rule 衰竭的屬性|basic|3|debilitated abilities}以獲得更多細節）。"
+				"角色的其中一個或多個屬性的等級被降至-5以下（參見{@rule 衰竭屬性|basic|3|debilitated abilities}以獲得更多細節）。"
 			]
 		},
 		{
@@ -109,7 +109,7 @@
 			"translate_name": "弱化", "name": "Weakened",
 			"type": "basic",
 			"entries": [
-				"陷入弱化狀態的角色暫時失去某個遊戲數值上分配的角色點。參見{@effect Weaken}效果以查看更多資訊。{@condition 屬性衰竭}狀態會取代弱化狀態。"
+				"陷入弱化狀態的角色暫時失去某個遊戲數值上分配的角色點。參見{@effect 弱化}效果以查看更多資訊。{@condition 屬性衰竭}狀態會取代弱化狀態。"
 			]
 		},
 		{
@@ -140,7 +140,7 @@
 			"translate_name": "耳聾", "name": "Deaf",
 			"type": "combine",
 			"entries": [
-				"陷入耳聾狀態的角色無法聽見聲音，並使所有事物對他而言都視作被聽覺隱蔽。這可能會使聽覺感官喪失的角色得以被突襲攻擊（參見{@rule 突襲攻擊|basic|8|surprise attack}以查閱更多資訊）。耳聾狀態的角色只能透過手語和讀唇語的方式與其他角色進行交流（參見{@rule 交流技能|basic|4|interaction skills}以查閱更多資訊）。"
+				"陷入耳聾狀態的角色無法聽見聲音，並使所有事物對他而言都視作被聽覺隱蔽。這可能會使聽覺感官喪失的角色得以被突襲攻擊（參見{@rule 突襲攻擊|basic|8|surprise attack}以查閱更多資訊）。耳聾狀態的角色只能透過手語和讀唇語的方式與其他角色進行交流（參見{@rule 交涉技能|basic|4|interaction skills}以查閱更多資訊）。"
 			]
 		},
 		{
