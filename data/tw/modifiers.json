@@ -351,33 +351,33 @@
 			]
 		},
 		{
-			"name": "Multiattack",
+			"translate_name": "多重攻擊", "name": "Multiattack",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"A Multiattack effect allows you to hit multiple targets, or a single target multiple times, in the same standard action. Multiattack can apply to any effect requiring an attack check. There are three ways in which a Multiattack effect can be used:",
+				"多重攻擊效果讓你能夠以在一個標準動作中同時攻擊多個目標，或對單一目標做出多次打擊。多重攻擊可以適用於任何需要攻擊檢定的效果上。多重攻擊效果有三種使用方式：",
 				{
 					"type": "entries",
 					"translate_name": "單一目標", "name": "Single Target",
 					"entries": [
-						"To use a Multiattack against a single target, make your attack check normally. If successful, increase the attack’s resistance check DC by +2 for two degrees of success, and +5 for three or more. This circumstance bonus does not count against power level limits.",
-						"If an Impervious Resistance would ignore the attack before any increase in the DC, then the attack still has no effect as usual; a volley of multiple shots is no more likely to penetrate Impervious Resistance than just one."
+						"若要對單一目標使用多重攻擊，則你如常進行你的攻擊檢定。若檢定成功，則二個程度的成功將使該攻擊的抵抗檢定的DC額外+2；三個或以上程度的成功則額外+5。這個情境加值並不會被計入超能力階級的限制。",
+						"若某個{@modifier 強抗}能夠使該攻擊在提升其DC前將其無效，則該攻擊仍然會如常被無效；多重射擊所造成的彈幕並不會因此比單發射擊更容易穿透強抗防禦。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "多重目標", "name": "Multiple Targets",
 					"entries": [
-						"You can use Multiattack to hit multiple targets at once by “walking” or “spraying” the Multiattack across an arc. Roll one attack check per target in the arc. You suffer a penalty to each check equal to the total number of targets. So making a Multiattack against five targets is a –5 penalty to each attack check. If you miss one target, you may still attempt to hit the others."
+						"你可以使用多重攻擊以同時命中複數目標，藉由「移動」或「掃射」以對一個扇形範圍做出多重攻擊。你在各檢定中都將承受等同於目標總數的罰值。因此對五個目標進行多重攻擊將會使每次攻擊檢定承受-5罰值。若你對其中一個目標的攻擊失手，你仍然可以繼續嘗試命中其他目標。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "掩護攻擊", "name": "Covering Attack",
 					"entries": [
-						"A Multiattack can provide cover for an ally. Take a standard action and choose an ally in your line of sight, who receives the benefits of cover against enemies in your line of sight and in range of your Multiattack. (You have to be able to shoot at them to get them to keep their heads down or this maneuver won’t work.) You cannot lay down a covering attack for an ally in close combat. An opponent can choose to ignore the cover provided by your covering attack at the cost of being automatically attacked by it; make a normal attack check to hit that opponent."
+						"多重攻擊也可以為隊友提供某種掩護效果。採取一個標準動作並選擇一個位於你視線內的隊友，對於處於你視線範圍和攻擊範圍內的敵人而言，他將獲得掩護的好處。（你必須要能夠射中他們以強迫他們低下頭，否則這個戰技將無法發揮效果。）你不能藉由掩護攻擊為處於近身戰鬥中的隊友提供掩護。敵人可以選擇以承受你的攻擊做為代價，並無視你掩護攻擊所提供的掩護效果；如常對該敵人進行一次攻擊檢定。"
 					]
 				}
 			]
@@ -452,14 +452,14 @@
 			]
 		},
 		{
-			"name": "Secondary Effect",
+			"translate_name": "二次效果", "name": "Secondary Effect",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"An instant duration effect with this modifier affects the target once immediately (when the effect is used) and then once again on the following round, at the end of the attacker’s turn. The target gets the normal resistance check against the secondary effect.",
-				"Secondary Effects don’t stack, so if you attack a target with your Secondary Effect on the round after a successful hit, it doesn’t affect the target twice; it simply delays the second effect for another round. You can attack the target with a different effect, however. So, for example, if you hit a target with a Secondary Damage Effect then, on the following round, hit with an Affliction, the target suffers both the Affliction and the Secondary Damage."
+				"應用了這個修飾符，且持續時間為「即效」的效果將在其被使用時立即影響目標一次，並在下一輪攻擊者的回合結束時再次作用於目標一次。目標得以如常對第二次作用的效果進行抵抗檢定。",
+				"同一個應用了二次效果修飾符的效果並不會疊加，因此若你使用該效果成功命中目標的下一個回合再次命中它，則該效果並不會在該回合作用兩次，而僅僅是把二次效果的影響延遲到下一輪。然而，你仍然可以使用不同的效果攻擊目標。因此舉例來說，假如你使用一個二次{@effect 傷害}效果命中目標，並在下一輪又以一個{@effect 詛咒}效果命中目標，則目標將在該回合同時承受詛咒以及二次傷害的影響。"
 			]
 		},
 		{
@@ -483,14 +483,14 @@
 			]
 		},
 		{
-			"name": "Split",
+			"translate_name": "分裂", "name": "Split",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"With this modifier, a resistible effect that works on one target can split between two. The attacker chooses how many ranks to apply to each target up to the effect’s total rank. So a rank 10 effect could be split 5/5, 4/6, 2/8, or any other total adding up to 10. If an attack check is required, the attacker makes one, comparing the results against each target. The effect works on each target at its reduced rank.",
-				"Each additional rank of this modifier allows the power to split an additional time, so rank 2 allows an effect to split among three targets, then four, and so forth. An effect cannot split to less than 1 rank per target, and cannot apply more than one split to the same target. Thus maximum Split rank equals the effect’s rank."
+				"利用這個修飾符，一個原本作用於單一目標的可抵抗效果將能夠分裂作用於兩個目標。攻擊者將分配每個目標將各自受到該效果多少等級的影響，其等級總和不能超過該效果原本的等級。因此，一個10級的效果可以被分配成5/5分、4/6分、2/8分，或任何總和為10的分配法。若該效果需要使用者進行攻擊檢定，則攻擊者只需要進行一次攻擊檢定，並使用該結果與各目標的防禦相比。該效果將以其被分配的效果等級作用於各個目標身上。",
+				"這個修飾符的每級額外等級都將使該超能力效果得以再分裂一次，因此2級的分裂將使一個效果得以被分裂到三個目標，3級則可以分裂到四個目標，以此類推。一個效果的等級不能被分裂至低於1級，且不能將分裂出去的多個效果同時作用於同一個目標。因此，分裂修飾符的等級最多等同於該效果的等級。"
 			]
 		},
 		{
@@ -520,17 +520,17 @@
 			]
 		},
 		{
-			"name": "Triggered",
+			"translate_name": "設置觸發", "name": "Triggered",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"You can “set” an instant duration effect with this modifier to activate under particular circumstances, such as in response to a particular danger, after a set amount of time, in response to a particular event, and so forth—chosen when you apply the modifier. Once chosen, the trigger cannot be changed.",
-				"The circumstances must be detectable by your senses. You can acquire Senses Limited and Linked to Triggered effects, if desired. Setting the effect requires the same action as using it normally.",
-				"A Triggered effect lying in wait may be detected with a Perception check (DC 10 + effect rank) and in some cases disarmed with a successful skill or power check (such as Sleight of Hand, Technology, Nullify or another countering effect) with a DC of (10 + effect rank).",
-				"A Triggered effect is good for one use per rank in this modifier. After its last activation, it stops working.",
-				"You can apply an additional rank of Triggered to have a Variable Trigger, allowing you to change the effect’s trigger each time you set it."
+				"你可以利用這個修飾符「設置」一個持續時間為「即效」的效果，使它在特定情況下被啟動，例如回應某個特定的危險、在一段時間之後、回應某個特定事件等等──在你應用這個修飾符時選擇觸發的條件。一旦你做出選擇，這個觸發條件就不能再被變更。",
+				"觸發條件的情境必須要能夠被你的感官所偵測到。若你希望的話，你也可以將{@modifier Limited|限定感官}和{@modifier Linked}修飾符應用於設置觸發效果。設置該效果所需採取的動作與原本使用它的動作相同。",
+				"一個被設置並等待觸發中的效果可以透過一次{@skill 感知}檢定（DC 10 + 效果等級）被察覺，且可以藉由成功通過一次技能或超能力檢定以某種方式被解除（例如{@skill 手上把戲}、{@skill 科技}、{@effect 無效化}或其他反制效果，DC 10 + 效果等級）。",
+				"一個被設置的效果可以被觸發等同這個修飾符等級的次數。在它最後一次被觸發啟動後，它將停止作用。",
+				"你可以額外應用一級設置觸發修飾符以使該效果得到另一個不同的觸發條件，讓你得以在每次設置效果時變更該效果的觸發條件。"
 			]
 		},
 		{

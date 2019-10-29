@@ -362,7 +362,7 @@
 					"name": "Single Target",
 					"entries": [
 						"To use a Multiattack against a single target, make your attack check normally. If successful, increase the attack’s resistance check DC by +2 for two degrees of success, and +5 for three or more. This circumstance bonus does not count against power level limits.",
-						"If an Impervious Resistance would ignore the attack before any increase in the DC, then the attack still has no effect as usual; a volley of multiple shots is no more likely to penetrate Impervious Resistance than just one."
+						"If an {@modifier Impervious} Resistance would ignore the attack before any increase in the DC, then the attack still has no effect as usual; a volley of multiple shots is no more likely to penetrate Impervious Resistance than just one."
 					]
 				},
 				{
@@ -458,7 +458,7 @@
 			},
 			"entries": [
 				"An instant duration effect with this modifier affects the target once immediately (when the effect is used) and then once again on the following round, at the end of the attacker’s turn. The target gets the normal resistance check against the secondary effect.",
-				"Secondary Effects don’t stack, so if you attack a target with your Secondary Effect on the round after a successful hit, it doesn’t affect the target twice; it simply delays the second effect for another round. You can attack the target with a different effect, however. So, for example, if you hit a target with a Secondary Damage Effect then, on the following round, hit with an Affliction, the target suffers both the Affliction and the Secondary Damage."
+				"Secondary Effects don’t stack, so if you attack a target with your Secondary Effect on the round after a successful hit, it doesn’t affect the target twice; it simply delays the second effect for another round. You can attack the target with a different effect, however. So, for example, if you hit a target with a Secondary {@effect Damage} Effect then, on the following round, hit with an {@effect Affliction}, the target suffers both the Affliction and the Secondary Damage."
 			]
 		},
 		{
@@ -526,8 +526,8 @@
 			},
 			"entries": [
 				"You can “set” an instant duration effect with this modifier to activate under particular circumstances, such as in response to a particular danger, after a set amount of time, in response to a particular event, and so forth—chosen when you apply the modifier. Once chosen, the trigger cannot be changed.",
-				"The circumstances must be detectable by your senses. You can acquire Senses Limited and Linked to Triggered effects, if desired. Setting the effect requires the same action as using it normally.",
-				"A Triggered effect lying in wait may be detected with a Perception check (DC 10 + effect rank) and in some cases disarmed with a successful skill or power check (such as Sleight of Hand, Technology, Nullify or another countering effect) with a DC of (10 + effect rank).",
+				"The circumstances must be detectable by your senses. You can acquire {@modifier Limited|Senses Limited} and {@modifier Linked} to Triggered effects, if desired. Setting the effect requires the same action as using it normally.",
+				"A Triggered effect lying in wait may be detected with a {@skill Perception} check (DC 10 + effect rank) and in some cases disarmed with a successful skill or power check (such as {@skill Sleight of Hand}, {@skill Technology}, {@effect Nullify} or another countering effect) with a DC of (10 + effect rank).",
 				"A Triggered effect is good for one use per rank in this modifier. After its last activation, it stops working.",
 				"You can apply an additional rank of Triggered to have a Variable Trigger, allowing you to change the effect’s trigger each time you set it."
 			]
