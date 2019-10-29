@@ -158,26 +158,26 @@
 			]
 		},
 		{
-			"_translate_name": "攻擊化", "name": "Attack",
+			"translate_name": "攻擊化", "name": "Attack",
 			"type": "extra",
 			"cost": {
 				"value": 0, "type": "per"
 			},
 			"entries": [
-				"This extra applies to personal range effects, making them into attack effects. Examples include Shrinking and Teleport, causing a target to shrink or teleport away, respectively. Unlike most extras, the effect’s cost does not change, although it does work differently.",
-				"The effect no longer works on you (so a Teleport Attack can’t be used to teleport yourself, for example). It affects one creature of any size or 50 lbs. of inanimate mass. The effect has close range and requires a standard action and an attack check to touch the subject. Its range can be improved with the Range extra while its required action can be changed with the Action modifier. The target gets a resistance check, determined when the effect is made into an attack. Generally Dodge or Will is the most appropriate. A successful check negates the effect.",
-				"You must also define reasonably common circumstances that negate an Attack effect entirely, such as force fields or the ability to teleport blocking a Teleport Attack. You control the effect, and maintain it, if it has a duration longer than instant.",
-				"If you want both versions of an Attack effect, such as being able to Teleport yourself and Teleport others as an attack, take both as Alternate Effects. For the ability to use both options simultaneously—to teleport a target and yourself at the same time, for example—take the effects as separate powers."
+				"這個修飾符適用於射程為「個人」的效果，使它們變為攻擊類別的效果。例子包括{@effect 縮小}和{@effect 傳送}攻擊，將會使各自的目標縮小或傳送離開。不像大多數的強化修飾符，儘管應用了這個強化的能力效果的作用方式將變得完全不同，其花費並不會因此改變。",
+				"該效果將不再作用於你（因此舉例來說，{@effect 傳送}攻擊將無法再用於你自己身上）。該效果將影響一個生物、或是任何質量不超過50磅，任意尺寸的無生命物質。該效果的射程將變為「近身」，且需要採取一個標準動作並進行一次攻擊檢定以觸碰到目標。它的射程可以透過{@modifier 增加射程}修飾符來提升，而它所需的動作則可以透過@modifier Reaction|反應觸發}修飾符來改變。目標能夠進行一次抵抗檢定，其使用的防禦屬性將在這個效果被變為攻擊類別的效果時決定。通常來說，閃避或意志會是最合適的。成功的抵抗檢定將會抵銷該效果。",
+				"你也必須設定一個能夠合理地完全抵消攻擊化效果的常見情境，像是力量場、或是傳送攻擊對本身擁有傳送能力的對象無效。你能夠控制該效果的作用，且若該效果的持續時間超過「即效」，則你也必須維持該效果。",
+				"若你想要同時擁有原版本和攻擊版本的效果，像是能夠傳送自己，且能夠以攻擊的方式傳送他人，則你可以將這兩者做為{@modifier 替代效果}獲得。若你想要同時使用這個兩個選項的能力──例如同時傳送你自己和一個目標──則請將這兩個效果做為不同的超能力獲得。"
 			]
 		},
 		{
-			"name": "Contagious",
+			"translate_name": "傳染性", "name": "Contagious",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"Contagious effects work on both the target and anyone coming into contact with the target. New targets resist the effect normally. They also become contagious, and the effect lingers until all traces of it have been eliminated. A Contagious effect is also eliminated if its duration expires. Examples of effects with this extra include “sticky” Afflictions trapping anyone touching them, disease- or toxin-based Weaken effects, or even a Nullify effect spreading from one victim to another."
+				"傳染性效果將會作用於目標以及任何接觸到目標的對象。新的目標將得以如常進行抵抗，且若他們抵抗失敗，則作用於他們身上的效果也將具備傳染性。該效果持續直到所有的接觸途徑被消滅、或其持續時效結束。應用這個強化的效果範例包括了能夠困住任何觸碰對象的「黏性」{@effect 詛咒}效果、疾病或毒素的{@effect 弱化}效果、或甚至是能夠在受害者之間擴散蔓延的{@effect 無效化}效果。"
 			]
 		},
 		{
@@ -193,14 +193,14 @@
 			]
 		},
 		{
-			"name": "Extended Range",
+			"translate_name": "延伸射程", "name": "Extended Range",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"This modifier extends the distance over which a ranged effect works. Each rank of Extended Range doubles all of the effect’s range categories. So 1 rank makes short range (rank x 50 ft.), medium range (rank x 100 ft.) and long range (rank x 200 ft.). Each additional rank further doubles range.",
-				"The GM may set limits on the maximum Extended Range an effect can have; as a general guideline, effects used on a planetary surface are limited to the distance to the horizon (beyond which the curvature of the planet makes it impossible to see anything to target it). On Earth at sea level, this is roughly three miles (distance rank 10)."
+				"這個修飾符能夠延伸遠距效果所能作用的距離﹐這個修飾符的每級都會使該效果的短、中、長距離範圍變為原本的兩倍。因此1級的延伸射程將會使該效果的三種距離範圍變為：短距離（效果等級 x 50呎）、中距離（效果等級 x 100呎）、長距離（效果等級 x 200呎）。每一級額外的等級都會再使這個距離範圍加倍。",
+				"GM可能會限制延伸射程應用於效果上的等級上限；做為一條通用準則，用於行星表面上的效果的射程被限制最多只能到地平線的那一端（一旦超過這個距離，使用者將因為行星表面的曲率而無法看見任何得以瞄準的目標）。在地球的海平面上，這個距離大約是 3哩（10級距離等級）。"
 			]
 		},
 		{
@@ -271,7 +271,7 @@
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"每個效果都具有其基本的射程：個人、近身、遠距、或感知距離。參見{@rule 射程|basic|6|range}以查閱更多細節。這個修飾符將增加效果的射程。選擇下列其中一個選項。若要將射程為「個人」的效果變為「近身」，你需要應用{@modifier 影響他人}或{@modifier Attack}修飾符（參見各自的敘述）。若要將射程為「近身」的效果變為「感知距離」，你需要應用這個修飾符二次，花費將因此變為每級+2點。",
+				"每個效果都具有其基本的射程：個人、近身、遠距、或感知距離。參見{@rule 射程|basic|6|range}以查閱更多細節。這個修飾符將增加效果的射程。選擇下列其中一個選項。若要將射程為「個人」的效果變為「近身」，你需要應用{@modifier 影響他人}或{@modifier 攻擊化}修飾符（參見各自的敘述）。若要將射程為「近身」的效果變為「感知距離」，你需要應用這個修飾符二次，花費將因此變為每級+2點。",
 				{
 					"type": "list",
 					"items": [
@@ -403,13 +403,13 @@
 			]
 		},
 		{
-			"name": "Reach",
+			"translate_name": "延伸觸及", "name": "Reach",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"Each time you apply this modifier to a close range effect, you extend its reach by 5 feet. This may represent a short-ranged effect or one with a somewhat greater reach, like a whip, spear, or similar weapon."
+				"每次你將這個修飾符應用於一個射程為「近身」的效果，你就能使它的觸及距離增加5呎。這可能代表了某種短程、或是具有較大觸及範圍的效果，像是鞭子、矛、或類似武器。"
 			]
 		},
 		{
@@ -534,13 +534,13 @@
 			]
 		},
 		{
-			"name": "Variable Descriptor",
+			"translate_name": "可變描述", "name": "Variable Descriptor",
 			"type": "extra",
 			"cost": {
 				"value": {"min":1, "max":2}, "type": "flat"
 			},
 			"entries": [
-				"You can change the descriptors of an effect with this modifier, varying them as a free action once per round. With rank 1, you can apply any of a closely related group of descriptors, such as weather, electromagnetic, temperature, and so forth. With rank 2, you can apply any of a broad group, such as any mental, magical, or technological descriptor. The GM decides if a given descriptor is appropriate in conjunction with a particular effect and this modifier."
+				"你可以改變應用了這個修飾符的效果的描述符，每輪一次以一個自由動作改變它們。若等級為1級，則你可以應用任何相近類別的描述符，像是天氣、電磁、溫度等等。若等級為2級，則你可以應用任何廣泛類別的描述符，例如任何金屬、魔法、或科技描述符。GM將決定任何給定描述符是否適合應用於特定效果和這個修飾符。"
 			]
 		},
 		{

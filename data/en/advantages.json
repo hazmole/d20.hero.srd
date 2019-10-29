@@ -427,7 +427,7 @@
 			"name": "Teamwork",
 			"type": "G",
 			"entries": [
-				"You’re effective at helping out your friends. When you support a team check (see {@rule Team Checks|basic|1|team checks} in The Basics) you have a +5 circumstance bonus to your check. This bonus also applies to the {@rule Aid|basic|8|aid} action and {@rule Team Attacks|basic|team attack}."
+				"You’re effective at helping out your friends. When you support a team check (see {@rule Team Checks|basic|1|team checks} in The Basics) you have a +5 circumstance bonus to your check. This bonus also applies to the {@rule Aid|basic|8|aid} action and {@rule Team Attacks|basic|8|team attack}."
 			]
 		},
 		{

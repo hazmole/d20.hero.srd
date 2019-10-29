@@ -164,10 +164,10 @@
 				"value": 0, "type": "per"
 			},
 			"entries": [
-				"This extra applies to personal range effects, making them into attack effects. Examples include Shrinking and Teleport, causing a target to shrink or teleport away, respectively. Unlike most extras, the effect’s cost does not change, although it does work differently.",
-				"The effect no longer works on you (so a Teleport Attack can’t be used to teleport yourself, for example). It affects one creature of any size or 50 lbs. of inanimate mass. The effect has close range and requires a standard action and an attack check to touch the subject. Its range can be improved with the Range extra while its required action can be changed with the Action modifier. The target gets a resistance check, determined when the effect is made into an attack. Generally Dodge or Will is the most appropriate. A successful check negates the effect.",
-				"You must also define reasonably common circumstances that negate an Attack effect entirely, such as force fields or the ability to teleport blocking a Teleport Attack. You control the effect, and maintain it, if it has a duration longer than instant.",
-				"If you want both versions of an Attack effect, such as being able to Teleport yourself and Teleport others as an attack, take both as Alternate Effects. For the ability to use both options simultaneously—to teleport a target and yourself at the same time, for example—take the effects as separate powers."
+				"This extra applies to personal range effects, making them into attack effects. Examples include {@effect Shrinking} and {@effect Teleport}, causing a target to shrink or teleport away, respectively. Unlike most extras, the effect’s cost does not change, although it does work differently.",
+				"The effect no longer works on you (so a {@effect Teleport} Attack can’t be used to teleport yourself, for example). It affects one creature of any size or 50 lbs. of inanimate mass. The effect has close range and requires a standard action and an attack check to touch the subject. Its range can be improved with the {@modifier Increased Range|Range} extra while its required action can be changed with the {@modifier Reaction|Action} modifier. The target gets a resistance check, determined when the effect is made into an attack. Generally Dodge or Will is the most appropriate. A successful check negates the effect.",
+				"You must also define reasonably common circumstances that negate an Attack effect entirely, such as force fields or the ability to teleport blocking a {@effect Teleport} Attack. You control the effect, and maintain it, if it has a duration longer than instant.",
+				"If you want both versions of an Attack effect, such as being able to Teleport yourself and Teleport others as an attack, take both as {@modifier Alternate Effect|Alternate Effects}. For the ability to use both options simultaneously—to teleport a target and yourself at the same time, for example—take the effects as separate powers."
 			]
 		},
 		{
@@ -177,7 +177,7 @@
 				"value": 1, "type": "per"
 			},
 			"entries": [
-				"Contagious effects work on both the target and anyone coming into contact with the target. New targets resist the effect normally. They also become contagious, and the effect lingers until all traces of it have been eliminated. A Contagious effect is also eliminated if its duration expires. Examples of effects with this extra include “sticky” Afflictions trapping anyone touching them, disease- or toxin-based Weaken effects, or even a Nullify effect spreading from one victim to another."
+				"Contagious effects work on both the target and anyone coming into contact with the target. New targets resist the effect normally. They also become contagious, and the effect lingers until all traces of it have been eliminated. A Contagious effect is also eliminated if its duration expires. Examples of effects with this extra include “sticky” {@effect Affliction|Afflictions} trapping anyone touching them, disease- or toxin-based {@effect Weaken} effects, or even a {@effect Nullify} effect spreading from one victim to another."
 			]
 		},
 		{

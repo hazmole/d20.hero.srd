@@ -424,10 +424,10 @@
 			]
 		},
 		{
-			"name": "Teamwork",
+			"translate_name": "團隊合作", "name": "Teamwork",
 			"type": "G",
 			"entries": [
-				"You’re effective at helping out your friends. When you support a team check (see {@rule Team Checks|basic|1|team checks} in The Basics) you have a +5 circumstance bonus to your check. This bonus also applies to the {@rule Aid|basic|8|aid} action and {@rule Team Attacks|basic|team attack}."
+				"你能夠有效率地幫助你的朋友。當你協助進行團隊檢定時（參見基本規則章節中的{@rule 團隊檢定|basic|1|team checks}規則），你將在你的檢定中獲得+5情境加值。這個加值也能夠適用於{@rule 協助|basic|8|aid}動作和{@rule 團隊攻擊|basic|8|team attack}。"
 			]
 		},
 		{
