@@ -204,25 +204,25 @@
 			]
 		},
 		{
-			"name": "Feature",
+			"translate_name": "特色", "name": "Feature",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"The Feature effect can also serve as an effect modifier, essentially adding on some minor additional capability or benefit to a basic effect. Although listed here as an extra, this is essentially the same as having the Feature Linked to the base effect (see the {@modifier Linked} modifier later in this section); the Feature is an intrinsic part of the overall power, rather than separate.",
-				"As with the {@effect Feature} effect, a Feature extra should be significant enough to be worth at least 1 character point and not solely based on the power’s descriptors. So, for example, a fiery Ranged Damage effect does not need a Feature to ignite fires; doing so is part of its “fire” descriptor and can be equally advantageous and problematic. A Ranged Damage effect that consistently “brands” its target with a visible and traceable mark, on the other hand, is an effect with an added Feature."
+				"{@effect 特色}效果同時也能被當作應用於效果的修飾符，為基本效果添加一些次要的能力或好處。儘管它在此被列為一種強化修飾符，但它實質上等同於將{@effect 特色}效果與該基本效果相{@modifier Linked}；這種類型的特色屬於整個完整能力的一部份，而非獨立的特色能力。",
+				"和{@effect 特色}效果一樣，做為強化修飾符的特色必須要重要到足以具有1點角色點的價值，而非僅僅是某個超能力效果的描述符。因此舉例來說，熊熊燃燒的{@modifier Increased Range|遠距}{@effect 傷害}效果並不需要應用特色修飾符就能夠點燃火焰；這個能力本身就包括在「火焰」的描述符中，可以帶來助益，也同樣能帶來麻煩。然而另一方面，能夠為其目標「烙印」上可見且可追蹤印記的{@modifier Increased Range|遠距}{@effect 傷害}效果，就屬於一個添加了特色修飾符的效果。"
 			]
 		},
 		{
-			"name": "Homing",
+			"translate_name": "追蹤導引", "name": "Homing",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"This modifier grants a ranged effect an additional opportunity to hit. If an attack check with a Homing effect fails, it attempts to hit again on the start of your next turn, requiring only a free action to maintain and allowing you to take other actions, including making another attack. Each rank in Homing grants the effect one additional attack check, but it still only gets one check per round.",
-				"The Homing effect uses the same accurate sense as the original attack to “track” its target, so concealment effective against that sense may confuse the effect and cause it to miss. If a Homing attack misses due to concealment, it has lost its “lock” on the target and does not get any further chances to hit. You can take Senses Linked to the Homing effect, if desired (to create things like radar-guided or heat-seeking missiles, for example). If a Homing attack is countered before it hits, it loses any remaining chances to hit. The same is true if it hits a different target."
+				"這個修飾符將使遠距效果獲得更多命中目標的機會。若使用應用了追蹤導引的效果的攻擊檢定失手，則它將在你的下個回合開始時再次嘗試命中同一個目標，這麼做需要花費一個自由動作，並讓你得以採取其他動作，像是進行另一次攻擊。每級的追蹤導引修飾符都將使該效果再獲得一次進行攻擊檢定的機會，但它每輪仍只能進行一次檢定。",
+				"應用了追蹤導引的效果將使用與原本攻擊相同的準確感官以「追蹤」它的目標，因此若該感官被遮蔽，則這個效果可能會因此受影響並使其丟失目標。若追蹤導引攻擊因為遮蔽的緣故而失手，則它將無法「鎖定」它的目標，並失去進一步命中目標的機會。若你希望，你可以將{@effect Sense|感官}效果與應用了追蹤導引的效果相{@modifier Linked}（讓你得以創造出像是雷達追蹤或熱感應飛彈）。若追蹤導引攻擊在命中目標前就被反制，則它將失去任何殘存的命中機會。若它命中了不同的目標，也會導致這樣的狀況。"
 			]
 		},
 		{
@@ -292,20 +292,20 @@
 			]
 		},
 		{
-			"name": "Indirect",
+			"translate_name": "間接發生", "name": "Indirect",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"A ranged effect with this modifier can originate from a point other than the user, ignoring cover between the user and the target, such as walls and other intervening barriers, so long as they do not provide cover between the effect’s origin point and the target. An Indirect effect normally originates from a fixed point directed away from you. In some cases, an Indirect effect may count as a surprise attack (see Surprise Attack).",
+				"應用了這個修飾符的遠距修飾符可以從使用者以外的一點為源點發揮作用，無視使用者與目標之間的掩護（像是牆壁或其他介於中間的障礙物）；然而，介於新源點與目標之間的掩護仍能發揮作用。間接發生的效果通常會以一個固定點為源點發生，並朝遠離你的方向作用。在某些情況下，間接發生的效果可能會被視作一次突襲攻擊（參見{@rule 突襲攻擊|basic|8|Surprise Attack}）。",
 				{
 					"type": "list",
 					"items": [
-						"{@b Indirect 1}: the effect originates from a fixed point away from you.",
-						"{@b Indirect 2}: the effect can come from any point away from you or a fixed point in a fixed direction (not away from you).",
-						"{@b Indirect 3}: The effect can come from any point in a fixed direction (not away from you) or a fixed point in any direction.",
-						"{@b Indirect 4}: The effect can originate from any point and aim in any direction, including towards you (hitting a target in front of you from behind, for example)."
+						"{@b 間接發生 1級}：該效果將以一個固定點為源點發生，並向著遠離你的方向作用。",
+						"{@b 間接發生 2級}：該效果將以任意一點為源點發生，並向著遠離你的方向作用；或者，以一個固定點為源點發生，並向著一個（非遠離你的）固定方向作用。",
+						"{@b 間接發生 3級}：該效果將以任意一點為源點發生，並向著一個（非遠離你的）固定方向作用 ；或者，以一個固定點為源點發生，並向著任意方向作用。",
+						"{@b 間接發生 4級}：該效果將以任意一點為源點發生，並向著任意方向作用，包括朝向你作用（這讓你得以從背後攻擊站在你面前的敵人）。"
 					]
 				}
 			]
@@ -321,15 +321,15 @@
 			]
 		},
 		{
-			"name": "Insidious",
+			"translate_name": "隱密作用", "name": "Insidious",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat"
 			},
 			"entries": [
-				"This modifier is similar to the Subtle modifier (later in this section), except Insidious makes the result of an effect harder to detect rather than the effect itself. For example, a target suffering from Insidious Damage isn’t even aware he’s been damaged. Someone affected by an Insidious Weaken feels fine until some deficiency makes it obvious that he’s weaker, and so forth. A target of an Insidious effect may remain unaware of the danger until it’s too late!",
-				"An Insidious effect is detectable either by a DC 20 skill check (usually Perception, although skills like Expertise, Insight, or Treatment may apply in other cases) or a particular unusual sense, such as an Insidious magical effect noticeable by Detect Magic or Magical Awareness.",
-				"Note that Insidious does not make the effect itself harder to notice; apply the Subtle modifier for that. So it is possible for an active Insidious effect to be noticeable: the target can perceive the use of the effect, but not its results: the effect appears “harmless” or doesn’t seem to “do anything” since the target cannot detect the results."
+				"這個修飾符與{@modifier 隱密使用}修飾符類似，但這個修飾符是使其效果所造成的結果難以被察覺，而非使效果本身難以被察覺。舉例來說，承受到隱密作用{@effect 傷害}效果的目標可能甚至不會察覺自己受到了傷害。而受到隱密作用{@effect 弱化}效果影響的目標，在某些徵兆明顯指出他變虛弱之前，都會覺得自己仍維持著良好的狀態。隱密作用效果的目標可能會無法察覺到危險的存在，直到一切為時已晚！",
+				"隱密作用效果可以透過一次DC 20的技能檢定（通常是{@skill 感知}、但在某些情況下也可能會使用{@skill 專業}、{@skill 洞見}、或{@skill 診療}等技能）、或者藉由特定罕見感官才能被察覺到，比如說藉由{@effect Sense|探查魔法}或{@effect Sense|魔法覺察感官}將能夠注意到隱密作用的魔法效果。",
+				"要注意的是，隱密作用修飾符並不會使效果本身變得難以察覺；若要這麼做，請使用{@modifier 隱密使用}修飾符。因此，一個應用了隱密作用的效果仍可能會被注意到：目標將會查覺到該效果的使用，但不會察覺到其造成的後果：由於目標無法察覺到其造成的結果，因此該效果看起來彷彿「無害」、或像是「完全沒有發揮效果」一樣。"
 			]
 		},
 		{
