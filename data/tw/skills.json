@@ -426,32 +426,32 @@
 			"interaction": true,
 			"action": "S",
 			"entries": [
-				"You know how to use threats (both real and implied) to get others to do what you want.",
+				"你知曉如何利用威脅（無論是直接或暗示）來讓他人做出你所希望的行為。",
 				{
 					"type": "entries",
-					"name": "Coercing",
+					"translate_name": "脅迫", "name": "Coercing",
 					"entries": [
-						"Make an Intimidation check, opposed by the target’s insight or Will defense (whichever has the highest bonus). If your check succeeds, you may treat the target as friendly, but only for actions taken in your presence. That is, the target retains his normal attitude, but will talk, advise, offer limited help, or advocate on your behalf while intimidated. The target cooperates, but won’t necessarily obey your every whim or do anything that would directly endanger him.",
-						"If you perform some action that makes you more imposing, you gain a circumstance bonus on your Intimidation check. If your target clearly has a superior position, you suffer a circumstance penalty.",
-						"With more than one degree of failure on your check, the target may actually do the opposite of what you want! Succeed or fail, a target’s true attitude towards you generally becomes hostile after you attempt an Intimidation check, even if they go along with you for the moment."
+						"進行一次威嚇檢定，對抗目標的{@skill 洞見}或意志防禦（看何者較高）。若你的威嚇檢定成功，則你可以將目標視為友方，但僅限於你在場時他們才會採取對你們友善的行動。也就是說，目標將維持其原本的態度，但會在被脅迫期間為你說話、提供建議、提供有限的協助、或為你的行為辯護。目標會配合你的要求，但並不會服從你的每個突發奇想、或任何可能會直接危害到他的命令。",
+						"若你做了某些使你更具威勢的行動，則你的威嚇檢定將會獲得情境加值。但若你的目標明顯處於更優勢的地位，則你也會承受相應的情境罰值。",
+						"若你的威嚇檢定獲得了超過一個程度的失敗，則目標可能會做出與你所想完全相反的行動！無論成功或失敗，目標對你的態度通常都會在你嘗試進行威嚇檢定後產生敵意，僅管他們可能暫時地支持你也一樣。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Demoralizing",
+					"translate_name": "挫敗士氣", "name": "Demoralizing",
 					"entries": [
-						"You can use Intimidation in combat as a standard action to undermine an opponent’s confidence. Make an Intimidation check as a standard action. If it succeeds, your target is {@condition impaired} (a –2 circumstance penalty on checks) until the end of your next round. With four or more degrees of success, the target is {@condition disabled} (a –5 penalty) until the end of your next round."
+						"你可以在戰鬥中以一個標準動作使用威嚇技能以挫敗一名敵人的自信。以一個標準動作，使用威嚇與你目標的{@skill 洞見}或意志防禦（看何者較高）進行一次對抗檢定。若你的威嚇檢定成功，則你的目標將陷入{@condition 行動乏能}狀態（在所有檢定上承受-2情境罰值），持續直到你的下個回合結束。若你在該檢定中獲得了程度四或以上的成功，則目標將改為陷入{@condition 行動障礙}狀態（-5情境罰值）並持續直到你的下個回合結束。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Intimidating Minions",
+					"translate_name": "威嚇一群嘍囉", "name": "Intimidating Minions",
 					"entries": [
-						"You can intimidate a whole group of minions—who can all see and hear you—with a single check. If the group has you at a disadvantage, you suffer the usual circumstance penalty on your check. Compare your check result against a single resistance check made by the GM for the entire group. Your Intimidation check must have the same effect on every member of the group (that is, you cannot demoralize some and coerce others, for example).",
+						"你可以藉由一次檢定來威嚇一整群的嘍囉──只要他們都能看見和聽見你。若這個群體使你處於劣勢，則你的威嚇檢定將如常承受情境罰值。將你的檢定結果與GM為整個群體進行的一次抵抗檢定相比對抗。你的威嚇檢定對群體中的每個成員都必須造成相同的影響（換言之，你不能挫敗部分成員的士氣，而脅迫另一部份成員）。",
 						{
 							"type": "example",
 							"entries": [
-								"The Rock is facing down Packrat in one of his many bolt holes around Capital City when the big rat commands a pack of his street thieves to keep The Rock from following him. The gang of kids steps forward to get in The Rock’s way. The Rock has no interest in hurting a bunch of kids, so he bellows, “Get outta the way or I’ll knock your blocks off!” and his player decides to use The Rock’s routine Intimidation check of 18 to attempt to coerce the entire group of minions into moving out of his way. The street kids are all Thugs, so they have a resistance rank of 0 (their Insight and Will ranks are tied). Since Rocky is attempting the same effect on every member of the group, he makes a single opposed check. Unfortunately, the GM rolls a 13, which isn’t enough to beat The Rock’s 18. The street kids know The Rock won’t actually hurt them, but they dive out of the way anyway as The Rock bulls past.”"
+								"在惡棍林鼠位於大首都周遭的其中一個藏身處中，追捕著這名大老鼠的巨石洛克正面對著一大群街頭小賊，這群年幼的竊賊們接獲了惡棍林鼠的命令，要阻止巨石洛克進一步追蹤他們主人的行蹤。他們圍住巨石洛克，擋住他的去路，但巨石洛克並沒有興趣對這群孩子們動手動腳，因此他怒吼道：「給我讓開！否則我就把你們全砸了！」他的玩家決定使用巨石洛克高達18的例行威嚇檢定以脅迫整群嘍囉讓出一條道路。這些街童都是使用暴徒的數據，因此它們的抵抗等級為0（他們的洞悉和意志等級相同）。由於巨石洛克嘗試對這個群體中的所有成員使用相同的效果，因此他們只需要進行一次對抗檢定。不幸的是，GM骰出了13，完全不足以對抗巨石洛克高達18的威嚇檢定。因此，儘管這些街童知道巨石洛克不會真的傷害他們，但他們仍在巨石洛克蠻撞走近時讓開了一條通道。"
 							]
 						}
 					]
@@ -587,30 +587,30 @@
 			"untrain": true,
 			"action": "F",
 			"entries": [
-				"Use this skill to notice and pick up on things. Discerning details—such as clearly hearing conversation or reading fine text—requires at least three degrees of success on the Perception check.",
-				"In general, you have a –1 circumstance penalty to Perception checks for every 10 feet between you and what you are trying to perceive. So hearing a noise from 50 feet away is a –5 modifier to your Perception check, for example.",
-				"The GM usually makes Perception checks secretly so you don’t know whether there was nothing to notice or you simply failed to notice it. The common sorts of Perception checks are:",
+				"這個技能被用以察覺或發現事物。辨別細節──像是清楚地聽到對話或閱讀細微的文字──需要在感知檢定中獲得至少三個程度的成功。",
+				"通常來說，你與你所嘗試感知的事物之間每相隔10呎，你就會承受-1的情境罰值。因此舉例來說，聆聽50呎外的聲音會使你的感知檢定承受-5的修正值。",
+				"GM通常會秘密地為你進行感知檢定，所以你並不會知道這裡是沒有值得注意的事物，還是單純你沒能成功察覺到它。常見的感知檢定類型如下：",
 				{
 					"type": "entries",
-					"name": "Hearing",
+					"translate_name": "聆聽", "name": "Hearing",
 					"entries": [
-						"Make a check against a DC based on how loud the noise is or against an opposed {@skill Stealth} check. Normal conversation is DC 0, a soft noise DC 10. Listening through a door is +5 DC, +15 for a solid wall. While you’re asleep, hearing something well enough to wake up is +10 DC."
+						"進行一次檢定，其DC將基於該聲音的響亮程度、或是與{@skill 潛行}檢定進行對抗。尋常對話的DC為0，輕柔的聲響DC為10。隔著門聆聽將會使DC+5，隔著堅固的牆壁則會使DC+15。若你正在沉睡中，則要聽見足以將你吵醒聲音的DC將會+10。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Seeing",
+					"translate_name": "觀察", "name": "Seeing",
 					"entries": [
-						"Make a check against a DC based on how visible the object is or against an opposed {@skill Stealth} check. Something in plain sight is DC 0, while something subtle or easily over-looked may be DC 5, 10 or more. Visual perception is also used to detect someone in disguise (see the {@skill Deception} skill) or to notice a concealed object (see the {@skill Sleight of Hand} skill)."
+						"進行一次檢定，其DC將基於該物體的能見度、或是與{@skill 潛行}檢定進行對抗。顯而易見的事物DC為0，而某個不易察覺或容易被忽略事物的DC則可能會是5、10、或更高。視覺感知也經常被用於察覺他人的偽裝（參見{@skill 欺瞞}技能）、或注意被隱藏的物體（參見{@skill 手上把戲}技能）。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Other Senses",
+					"translate_name": "其他感官", "name": "Other Senses",
 					"entries": [
-						"You can make Perception checks involving other sense types as well (see {@rule Powers|basic|6|sensory} for more on sense types). Noticing something obvious to a sense is DC 0. Less obvious things are DC 10 or so, hidden things DC 20 or more, and discerning details requires at least three degrees of success, as usual.",
-						"You can make a Perception check every time you have the opportunity to notice something new. As a move action, you can attempt to notice something you failed (or believe you failed) to notice previously.",
-						"Various sensory effects provide modifiers on Perception checks (see {@rule Powers|basic|6})."
+						"你也可以進行涉及其他感官類型的感知檢定（參見{@rule 超能力|basic|6|sensory}章節以查閱更多感官種類）。注意到某個對於該感官而言相當明顯的事物的DC為0，沒那麼明顯的話則DC為10左右，被隱藏事物的DC則為20或以上，而要辨別細節則一樣需要至少三個程度的成功。",
+						"每當你有機會察覺到新事物時，你都可以進行一次感知檢定。以一個移動動作，你可以嘗試察覺某個你過去沒能發現（或你認為你感知檢定失敗）的事物。",
+						"許多感知類型的效果都會為感知檢定提供修正值（參見{@rule 超能力|basic|6}章節）。"
 					]
 				}
 			]
