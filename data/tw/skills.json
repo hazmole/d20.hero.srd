@@ -466,7 +466,7 @@
 				"You know how to search for and study clues, gather information through interviews and surveillance, and analyze evidence to help solve crimes. The GM may make investigation checks for you in secret, so you do not know exactly what you have found, or if you may have missed something.",
 				{
 					"type": "entries",
-					"name": "Search",
+					"translate_name": "搜查", "name": "Search",
 					"entries": [
 						"You can search an area for clues, hidden items, traps, and other details. {@skill Perception} allows you to immediately notice things, while an Investigation check allows you to pick up on details with some effort.",
 						"To determine how long it takes to search a given area, take the total area measurement (in square feet, yards, or miles), find the time measurement for that distance, and add 2. So searching 60 square feet (roughly an 8 ft. by 8 ft. room) takes the time rank of 60 feet (rank 1), plus 2, or 1 minute (time rank 3). Searching a square mile takes the time rank of 1 mile (rank 8), plus 2, or two hours (time rank 10).",
@@ -492,14 +492,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Gather Evidence",
+					"translate_name": "蒐集證據", "name": "Gather Evidence",
 					"entries": [
 						"To collect a piece of evidence for analysis, make an Investigation check (DC 15). If the check succeeds, the evidence can be analyzed (see Analyze Evidence.) If the check fails, an analysis can be done, but with a –5 penalty for highly unfavorable circumstances. With more than one degree of failure, the evidence is ruined and no analysis can be done. On the other hand, two or more degrees of success provide a +2 circumstance bonus to later analysis."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Analyze Evidence",
+					"translate_name": "分析證據", "name": "Analyze Evidence",
 					"entries": [
 						"You can make an Investigation check to apply forensic knowledge to evidence. This function of Investigation does not give you clues where none exist. It simply allows you to extract useful information from evidence and clues you have found.",
 						"The base DC 15, modified by the time elapsed since the evidence was left, and whether or not the scene was disturbed. Success gives you information based on the clue (and determined by the GM). Two or more degrees of failure may provide misleading or confusing evidence, also at the GM’s discretion.",
@@ -539,7 +539,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Gather Information",
+					"translate_name": "收集情報", "name": "Gather Information",
 					"entries": [
 						"You know how to make contacts, collect gossip and rumors, question informants, and otherwise get information from people.",
 						"By succeeding at a DC 10 Investigation check taking at least an hour, you get a feel for the major news and rumors in an area. This assumes no obvious reasons exist why information would be withheld. The degree of the check result determines the completeness and detail of the information. Information ranges from general to protected, and the DC increases accordingly for the type of information, as given on the table.",
@@ -574,7 +574,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Surveillance",
+					"translate_name": "監視", "name": "Surveillance",
 					"entries": [
 						"You can set up surveillance of a particular area, watching from a stationary location. The DC of the subject’s {@skill Stealth} check to evade your notice is equal to the result of your Investigation check. For actively following a subject, see {@b Tailing} in the {@skill Stealth} skill."
 					]
@@ -627,10 +627,10 @@
 				"You can improve others’ attitudes with a DC 15 Persuasion check. Success improves the subject’s attitude by one step, while every two additional degrees of success improve it by another step (so two steps at three degrees, three steps at five degrees, and so forth). Failure means no change, and more than a degree of failure worsens the subject’s attitude by one step! In the case of a hostile subject, they may outright attack or otherwise interfere with you if their attitude worsens.",
 				{
 					"type": "table",
-					"caption": "Attitudes",
+					"caption": "態度",
 					"colLabels": [
-						"Attitude",
-						"Effect"
+						"態度",
+						"效果"
 					],
 					"colStyles": [
 						"col-4 text-align-center",
@@ -771,14 +771,14 @@
 				"Technology covers operating, building, repairing, and generally working with technological devices and equipment. Without the proper tools or equipment, you take a –5 penalty to Technology checks for highly unfavorable circumstances.",
 				{
 					"type": "entries",
-					"name": "Operating",
+					"translate_name": "操作", "name": "Operating",
 					"entries": [
 						"Most routine operations of technological equipment don’t require a skill check and can be done untrained. Using an unfamiliar device does require a check, with the DC determined by how foreign or unusual the device is, from simple (DC 10) to highly advanced (DC 25 or more)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Building",
+					"translate_name": "製造", "name": "Building",
 					"entries": [
 						"The difficulty and time required to make an item depends on its complexity, as shown on the Building Items table. If your Technology check succeeds, you have made the item after the necessary time. If the check fails, you did not produce a usable end result, and any time and materials are wasted. More than one degree of failure on the check may produce an accident or other unfortunate side-effect at the GM’s discretion.",
 						{
@@ -819,7 +819,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Repairing",
+					"translate_name": "維修", "name": "Repairing",
 					"entries": [
 						"You can also use Technology to repair damaged items, with a –5 to the DC to build the item and –2 to the time rank required. So you can perform repairs on a complex item in eight hours (time rank 12) with a DC of 20. Failure on the check means you spend the time, but make no progress. Two or more degrees of failure may indicate further damage to the item or an accident similar to building it.",
 						"You can reduce the time rank to build or repair an item by 1 by taking a –5 penalty to your skill check.",
@@ -834,7 +834,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Demolitions",
+					"translate_name": "拆解", "name": "Demolitions",
 					"entries": [
 						"Careful placement of an explosive against a fixed structure can maximize damage by exploiting vulnerabilities in the structure. This requires at least a minute and a DC 10 Technology check. The GM makes the check, so you don’t know exactly how well you have done until the explosive goes off. For every two full degrees of success, the explosive deals +5 damage to the structure. Failure means the explosive does not go off as planned, while more than one degree of failure means the charge goes off while you are setting it! In all cases, the explosive deals normal damage to all other targets.",
 						"You can make an explosive device more difficult to disarm. To do so, choose a disarm difficulty class before making your check to set the detonator. Your DC to set the detonator is the desired disarm DC. Failure means the explosive fails to go off as planned. Two or more degrees of failure mean the explosive goes off as the detonator is being installed!",
@@ -843,22 +843,22 @@
 				},
 				{
 					"type": "entries",
-					"name": "Inventing",
+					"translate_name": "發明", "name": "Inventing",
 					"entries": [
 						"If you have the {@advantage Inventor} advantage (see Advantages), you can use Technology to create inventions, temporary devices. See {@rule Inventing|basic|7|inventing} for details."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Security",
+					"translate_name": "安全系統", "name": "Security",
 					"entries": [
 						"You can use Technology to disarm or sabotage various security devices, including locks, traps, and sensors. This takes at least a minute, possibly longer, at the GM’s discretion. The GM makes your Technology check secretly so you don’t necessarily know right away if you have succeeded. The Gamemaster sets the DC of the check based on the level of security:",
 						{
 							"type": "table",
-							"caption": "Security Levels",
+							"caption": "安全系統等級",
 							"colLabels": [
 								"DC",
-								"Security Example"
+								"安全系統範例"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
@@ -877,7 +877,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"Modifiers", ""
+								"修正值", ""
 							],
 							"colStyles": [
 								"col-3 text-align-center",
@@ -903,10 +903,10 @@
 				"You’re trained in treating injuries and ailments. The check DC and effect of Treatment depend on the task:",
 				{
 					"type": "table",
-					"caption": "Treatment Difficulties",
+					"caption": "診療難度",
 					"colLabels": [
 						"DC",
-						"Task"
+						"行動"
 					],
 					"colStyles": [
 						"col-3 text-align-center",
@@ -924,35 +924,35 @@
 				"You can use the Treatment skill on yourself, but only to diagnose, provide care, or treat disease or poison. You take a –5 circumstance penalty on checks when treating yourself.",
 				{
 					"type": "entries",
-					"name": "Diagnosis",
+					"translate_name": "診斷", "name": "Diagnosis",
 					"entries": [
 						"You can diagnose injuries and ailments with an eye toward further treatment. This takes at least a minute. At the GM’s discretion, a successful diagnosis provides a +2 bonus for favorable circumstances on further Treatment checks."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Provide Care",
+					"translate_name": "提供照護", "name": "Provide Care",
 					"entries": [
 						"Providing care means treating an injured patient for a day or more. If successful, the patient further reduces the recovery time by 1 rank (see {@rule Recovery|basic|8|recovery} in Action & Adventure). You can provide care for up to your Treatment rank in patients at one time."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Revive",
+					"translate_name": "甦醒", "name": "Revive",
 					"entries": [
 						"You can remove the {@condition dazed} or {@condition stunned} conditions from a subject. The check to revive is a standard action. A successful check removes the condition. Other conditions the patient may have remain, so reviving someone {@condition incapacitated} due to fatigue still leaves the patient {@condition exhausted}, for example, while awakening someone {@condition incapacitated} due to damage still leaves the patient {@condition staggered}. You can’t awaken a {@condition dying} character without stabilizing him first (see the following)."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Stabilize",
+					"translate_name": "穩定傷勢", "name": "Stabilize",
 					"entries": [
 						"As a standard action, a successful Treatment check stabilizes a {@condition dying} character."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Treat Disease and Poison",
+					"translate_name": "治療疾病和毒素", "name": "Treat Disease and Poison",
 					"entries": [
 						"You can treat a character afflicted with a disease or poison. Each time the character makes a resistance check against the ailment, you make a Treatment check. One degree of success provides the patient with a +2 circumstance bonus to the resistance check, three or more degrees of success provides a +5 circumstance bonus."
 					]
