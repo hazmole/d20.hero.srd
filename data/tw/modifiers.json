@@ -333,19 +333,19 @@
 			]
 		},
 		{
-			"name": "Linked",
+			"translate_name": "連結", "name": "Linked",
 			"type": "extra",
 			"cost": {
 				"value": 0, "type": "flat"
 			},
 			"entries": [
-				"This modifier applies to two or more effects, linking them together so they only work in conjunction as one.",
-				"The Linked effects must operate at the same range. The action required to use the combined effects is the longest of its components and they use a single attack check (if one is required) and resistance check (if both effects use the same type of check). If the effects have different resistances, targets check against each effect separately. Different Alternate Effects cannot be Linked since they can’t be used at the same time by definition. Generally, the same effect cannot be Linked to itself to “multiply” the results of a failed resistance check (such as two Linked Damage effects causing “double damage” on a failed check).",
-				"This modifier does not change the cost of the component effects; simply add their costs together to get the combined effect’s cost.",
+				"這個修飾符將應用於兩個或多個效果上，使它們結合在一起，並因此讓其只能夠被做為一個複合效果以發揮作用。",
+				"被連結的效果必須具有相同的射程。使用這個複合效果所需採取的動作將以其構成效果中最長的動作為基準，且它們彼此將共用同一個攻擊檢定（若任何構成效果需要進行攻擊檢定）和抵抗檢定（若其構成效果的抵抗檢定類型相同）。若其構成效果要求的抵抗類型不同，則目標將針對這些效果個別進行抵抗檢定。同個陣列中的不同{@modifier 替換效果}項不能被相連結在一起，因為它們在定義上就不能被同時使用。通常來說，相同效果不能被彼此連結以「加倍」其抵抗檢定失敗所導致的後果（舉例來說，不能讓兩個相連結的{@effect 傷害}效果在目標抵抗檢定失敗後造成兩倍的傷害）。",
+				"這個修飾符並不會改變其構成效果的花費；簡單地將它們的花費加在一起就能得到複合效果的總花費。",
 				{
 					"type": "example",
 					"entries": [
-						"Captain Thunder has the ability to hurl thunderbolts that shock their targets with electricity and deafen them with powerful claps of thunder. This is a Ranged Damage effect (lightning), costing 2 points per rank, Linked to a Ranged Affliction (deafening thunder), costing 2 points per rank. The combined effect costs 4 points per rank.Since both effects are ranged and require a standard action to use, so does the combined effect. Since Damage requires a Toughness check and Affliction requires a Dodge check, the target checks against them separately, making a Toughness resistance check against the damage of the lightning and a Dodge check to avoid being deafened by the thunder. Since the two effects are Linked, Captain Thunder cannot throw a lightning bolt without the deafening thunderclap, nor can he attempt to merely deafen a target without also hitting them with lightning! (To do these things, Cap might take the stand-alone effects as Alternate Effects.)"
+						"雷霆隊長擁有著投擲雷電的能力，能夠在用閃電電擊目標的同時，利用轟然雷鳴聲使目標耳聾。這個超能力是由一個{@modifier Increased Range|遠距}{@effect 傷害}效果（閃電），花費為每級2點，和一個{@modifier Increased Range|遠距}{@effect 詛咒}（致聾雷鳴），花費為每級2點，相連結而構成的。這個複合效果的花費為每級4點。由於這兩個構成效果的射程皆為遠距，且它們都需要使用者採取一個標準動作以使用，因此使用這個複合效果也一樣需要採取一個標準動作。由於傷害效果要求目標進行堅實檢定，而詛咒效果要求的則是閃避檢定，因此這個複合效果的目標將需要針對它們各進行一次抵抗檢定：對閃電傷害進行堅實抵抗檢定，並進行閃避檢定以避免被雷鳴致聾。由於這兩個效果被相連結，因此雷霆隊長無法擲出不帶有致聾雷鳴聲的閃電，也無法不使用閃電擊中目標而僅嘗試讓目標陷入耳聾狀態。（若要達到上述目標，雷霆隊長可能會需要以{@modifier 替換效果}的形式獲得這些獨立的效果。）"
 					]
 				}
 			]
@@ -413,22 +413,22 @@
 			]
 		},
 		{
-			"_translate_name": "反應觸發", "name": "Reaction",
+			"translate_name": "反應觸發", "name": "Reaction",
 			"type": "extra",
 			"cost": {
 				"value": {"min":1, "max":3}, "type": "per"
 			},
 			"entries": [
-				"Each effect has a default action required to use it: standard, free, or none (for permanent effects). See Action for details. This modifier changes an effect’s required action from a standard or free to a reaction, occurring automatically when a specific triggering event occurs. This is similar to the Triggered modifier (later in this section) but reaction effects do not need to be “set,” originate from their user, and can function repeatedly, so long as their triggering requirement is met.",
-				"Specify a triggering circumstance that activates the effect, such as someone touching or attacking the user, activating a particular effect or power in the user’s presence, and so forth. The GM is the final arbiter as to whether or not a triggering circumstance is suitable for a particular effect in the context of the series. Caution should be used to keep this option from being abused.",
-				"When the triggering circumstance occurs, the effect activates automatically, even if it is not the character’s turn. The user can only prevent the reaction effect from occurring by choosing to deactivate the effect entirely (as a free action), in which case no circumstance will trigger it. For the ability to choose to have some triggering circumstances activate the effect and some not, apply the Selective modifier as well.",
+				"每個效果都有著使用它所需要的預設動作：標準、自由、或無（永駐效果不需要任何動作就會發揮效果）。更多細節請參見{@rule 動作|basic|8|action types}章節。這個修飾符將使一個效果所需的動作從標準動作或自由動作變成一個反應，使其在特定觸發事件發生時自動啟動。反應觸發有些類似{@modifier 設置觸發}修飾符，但它並不需要事先「設置」，會以使用者為源點發生，且只要其觸發條件被滿足就可以重複發動。",
+				"指定一個會觸發該效果的情境條件，像是當某人觸碰或攻擊使用者時、在使用者在場時發動特定效果或超能力時，諸如此類。GM擁有最終裁斷權以決定什麼樣的觸發情境適合劇集內容中的特定效果。這個項目必須謹慎以待，避免其遭到濫用。",
+				"當觸發情境發生時，該效果將會自動啟動，即使當下並非該角色的回合也一樣。使用者若要避免反應觸發的效果發生，則他將必須選擇將該效果完全關閉（以一個自由動作），這麼一來，任何情境都不會再觸發該效果。若想要讓使用者能夠選擇讓其中一些情境條件能夠觸發該效果，而不讓其在其他情境條件下觸發的話，請一併應用{@modifier 可選擇}修飾符。",
 				{
 					"type": "example",
 					"entries": [
-						"The villain Shoktor can create an aura of electricity around his body, damaging anyone or anything touching him. This is a Reaction Damage effect, causing Damage when Shoktor is touched. Of course, Shoktor’s aura zaps anyone or anything touching him, including his allies! The only way he can prevent this is to turn the aura off altogether. If Shoktor possessed the ability to have his aura only damage people and things he wants it to damage, he would need to have the Selective modifier applied to the effect as well."
+						"反派電剋者能夠創造出一個包覆他整個身體的電氣力場，使任何碰觸他的人事物遭受傷害。這個超能力是一個應用了反應觸發的{@effect 傷害}效果，會在電剋者被觸碰時對他人造成傷害。電剋者的能量力場會電擊任何觸碰他的人事物，當然，也包括了他的隊友！他若要避免誤傷友軍的話，就只能將整個電氣力場關閉。若電剋者想要擁有讓他的電氣力場只傷害他想要傷害對象的能力，則他會需要將{@modifier 可選擇}修飾符一併應用於該效果。"
 					]
 				},
-				"The Reaction modifier applies +1 cost per rank to effects with a default action of free, +3 cost per rank to effects with a default standard action."
+				"反應觸發修飾符的花費，在應用於預設動作為自由動作的效果時為每級+1點，應用於預設動作為標準動作的效果時則為每級+3點。"
 			]
 		},
 		{
@@ -442,13 +442,13 @@
 			]
 		},
 		{
-			"name": "Ricochet",
+			"translate_name": "跳彈", "name": "Ricochet",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"You can ricochet or bounce an attack effect with this modifier off of a solid surface to change its direction. This allows you to attack around corners, overcome cover and possibly make a surprise attack against an opponent. It does not allow you to affect multiple targets. The “bounce” has no effect apart from changing the attack’s direction. You must be able to define a clear path for your attack, which must follow a straight line between each ricochet. Each rank in Ricochet allows you to bounce the attack once before it hits. Ricochet may grant a bonus to hit due to surprise, at the GM’s discretion."
+				"你可以使應用了這個修飾符的攻擊類效果藉著固體表面上彈射或反彈以改變其方向。這讓你的攻擊得以繞過轉角、克服掩護、或可能對敵人進行一次{@rule 突襲攻擊|basic|8|surprise attack}。這個修飾符並不會讓你得以影響複數目標。這個「彈射」除了改變攻擊方向的效果之外就沒有其他作用。你必須要能夠為你的攻擊定義清晰的路徑，且每個彈射點之間都必須以直線相連。每級的跳彈修飾符都能讓你得以在該攻擊在命中目標前彈射一次。根據GM的裁斷，跳彈可能會因為其出奇不意的性質而帶來命中加值。"
 			]
 		},
 		{
