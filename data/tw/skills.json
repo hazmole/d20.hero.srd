@@ -463,29 +463,29 @@
 			"ability": "Int",
 			"untrain": false,
 			"entries": [
-				"You know how to search for and study clues, gather information through interviews and surveillance, and analyze evidence to help solve crimes. The GM may make investigation checks for you in secret, so you do not know exactly what you have found, or if you may have missed something.",
+				"你知道該如何搜查並研究線索、藉由訪談和監視來收集情報、並分析證據以偵破罪行。GM會秘密地為你進行調查檢定，所以你並不會知道你是否找到了什麼，又或者可能錯過了什麼。",
 				{
 					"type": "entries",
 					"translate_name": "搜查", "name": "Search",
 					"entries": [
-						"You can search an area for clues, hidden items, traps, and other details. {@skill Perception} allows you to immediately notice things, while an Investigation check allows you to pick up on details with some effort.",
-						"To determine how long it takes to search a given area, take the total area measurement (in square feet, yards, or miles), find the time measurement for that distance, and add 2. So searching 60 square feet (roughly an 8 ft. by 8 ft. room) takes the time rank of 60 feet (rank 1), plus 2, or 1 minute (time rank 3). Searching a square mile takes the time rank of 1 mile (rank 8), plus 2, or two hours (time rank 10).",
-						"The DC for an Investigation check to find a concealed object is usually opposed by the {@skill Stealth} or {@skill Sleight of Hand} check of the character who hid it.",
+						"你可以搜查一個區域內的線索、隱藏物、陷阱、或其他線索。{@skill 感知}檢定能夠讓你立即察覺到某些事物，而調查檢定則讓你得以在一番努力後了解其中的細節。",
+						"搜查一個給定區域所需花費的時間如下：首先測量整個區域的面積（單位為平方呎、平方碼、或平方哩），找出該距離等級對應的時間等級，再加上2級。因此舉例來說，搜查一個60平方呎區域（大約 8呎 x 8呎的房間大小）需要花費60呎距離等級（1級）所對應的時間等級，再加上2級，亦即 1分鐘（3級時間等級）。而搜查一個 1平方哩區域則會花費1哩距離等級（8級）所對應的時間等級，再加上2級，亦即 2個小時（10級時間等級）。",
+						"在尋找隱藏物體時所進行的調查檢定，其DC通常會對抗藏匿這些物品的角色所進行的{@skill 潛行}或{@skill 手上把戲}檢定。",
 						{
 							"type": "table",
-							"caption": "Search Difficulties",
+							"caption": "搜查難度",
 							"colLabels": [
 								"DC",
-								"Sample Search"
+								"範例搜查"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["10", "Ransack an area to find a certain object."],
-								["20", "Notice a secret compartment, simple trap, or an obscure clue."],
-								["25+", "Find a well-hidden secret compartment or trap, or an extremely obscure clue."]
+								["10", "徹底搜查一片區域以找尋特定物件。"],
+								["20", "注意到一間密室、簡單的陷阱、或隱晦的線索。"],
+								["25+", "找尋一個被藏得很好的密室或陷阱、或一個極其隱晦的線索。"]
 							]
 						}
 					]
@@ -494,45 +494,45 @@
 					"type": "entries",
 					"translate_name": "蒐集證據", "name": "Gather Evidence",
 					"entries": [
-						"To collect a piece of evidence for analysis, make an Investigation check (DC 15). If the check succeeds, the evidence can be analyzed (see Analyze Evidence.) If the check fails, an analysis can be done, but with a –5 penalty for highly unfavorable circumstances. With more than one degree of failure, the evidence is ruined and no analysis can be done. On the other hand, two or more degrees of success provide a +2 circumstance bonus to later analysis."
+						"當要蒐集用以分析的證據，進行一次調查檢定（DC 15）。若檢定成功，則該證據將可以被分析（參見後述的分析證據）。若檢定失敗，該證據仍然可以被分析，但將會因為高度不利情境而承受-5的罰值。若該檢定獲得了超過一個程度的失敗，則該證據將被毀壞而無法再被分析。而另一方面，二個或以上程度的成功則會使後續的分析獲得+2的情境加值。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "分析證據", "name": "Analyze Evidence",
 					"entries": [
-						"You can make an Investigation check to apply forensic knowledge to evidence. This function of Investigation does not give you clues where none exist. It simply allows you to extract useful information from evidence and clues you have found.",
-						"The base DC 15, modified by the time elapsed since the evidence was left, and whether or not the scene was disturbed. Success gives you information based on the clue (and determined by the GM). Two or more degrees of failure may provide misleading or confusing evidence, also at the GM’s discretion.",
+						"你可以進行一次調查檢定以將你的檢證知識應用在證據線索上。調查技能的這個功能並不會使你發現新的線索，它僅僅是讓你得以從你所發現的證據和線索中提取出有用的情報。",
+						"分析證據的基本DC為15，並會根據案件經過的時間、以及現場是否被破壞而提高其難度。檢定成功將會使你獲得基於該線索所得的情報（由GM決定）。根據GM的裁斷，二個或以上程度的失敗則可能會帶來誤導或令人困惑的情報。",
 						{
 							"type": "table",
-							"caption": "Evidence Difficulties",
+							"caption": "證據相關難度",
 							"colLabels": [
 								"DC",
-								"Task"
+								"行為"
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["15", "Analyze Evidence"],
-								["15", "Gather Evidence"]
+								["15", "分析證據"],
+								["15", "蒐集證據"]
 							]
 						},
 						{
 							"type": "table",
 							"colLabels": [
-								"Modifiers", ""
+								"修正值", ""
 							],
 							"colStyles": [
 								"col-3 text-align-center",
 								"col-9"
 							],
 							"rows": [
-								["+2", "Every day since event (max modifier +10)"],
-								["+5", "Crime scene is outdoors"],
-								["+2", "Crime scene disturbed"],
-								["+5", "Crime scene highly disturbed"]
+								["+2", "事件發生後每隔一天（最高至+10）"],
+								["+5", "犯罪現場位於戶外"],
+								["+2", "犯罪現場被擾亂"],
+								["+5", "犯罪現場被嚴重擾亂"]
 							]
 						}
 					]
@@ -541,42 +541,42 @@
 					"type": "entries",
 					"translate_name": "收集情報", "name": "Gather Information",
 					"entries": [
-						"You know how to make contacts, collect gossip and rumors, question informants, and otherwise get information from people.",
-						"By succeeding at a DC 10 Investigation check taking at least an hour, you get a feel for the major news and rumors in an area. This assumes no obvious reasons exist why information would be withheld. The degree of the check result determines the completeness and detail of the information. Information ranges from general to protected, and the DC increases accordingly for the type of information, as given on the table.",
+						"你知道該如何與人聯繫、收集流言傳聞、詢問線人、或其他從他人那裡獲得情報的方法。",
+						"藉由花費至少1小時的時間並成功通過一個DC 10的調查檢定，你將了解到流傳於一個區域內的主要新聞和傳聞。這個情境的前提是該區域不存在任何阻礙情報流出的顯著理由。該檢定的成功度將會決定你所獲得情報的完整性與詳細程度。情報的類型分級從普遍到protected，且其DC將根據情報類型的不同而增加，如下表所示。",
 						{
 							"type": "table",
 							"colLabels": [
-								"Degree of Success",
-								"Type of Information"
+								"成功度",
+								"情報類型"
 							],
 							"colStyles": [
 								"col-5 text-align-center",
 								"col-7 text-align-center"
 							],
 							"rows": [
-								["One", "General"],
-								["Two", "Specific"],
-								["Three", "Restricted"],
-								["Four", "Protected"]
+								["程度一", "普遍"],
+								["程度二", "特定"],
+								["程度三", "限定"],
+								["程度四", "管制"]
 							]
 						},
 						{
 							"type": "list",
 							"items": [
-								"General information concerns local happenings, rumors, gossip, and the like.",
-								"Specific information usually relates to a particular question.",
-								"Restricted information isn’t generally known and requires you to locate someone with access to the information.",
-								"Protected information is even harder to come by and might involve some danger, either for the one asking the questions or the one providing the answers."
+								"普遍情報涉及了當地的事件、傳聞、流言等等。",
+								"特定情報通常與某個特定問題有關。",
+								"限定情報並不會大眾所知，且需要你找出能接觸到這些情報的人物。",
+								"管制情報更難以取得，且可能會涉及某些危險：無論是對於詢問問題的人，或是提供情報的人而言都是一樣。"
 							]
 						},
-						"Failure on the Investigation check means you waste time turning up nothing of value. An additional degree of failure means you also alert someone who may be interested in your inquiries, perhaps even someone you are investigating!"
+						"在這個調查檢定中失敗代表著你所花費的時間沒有任何回報。而超過一個程度的失敗則代表著你同時引起了那些可能對於你詢問情報感興趣的人，或甚至可能是你正在調查的對象本人！"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "監視", "name": "Surveillance",
 					"entries": [
-						"You can set up surveillance of a particular area, watching from a stationary location. The DC of the subject’s {@skill Stealth} check to evade your notice is equal to the result of your Investigation check. For actively following a subject, see {@b Tailing} in the {@skill Stealth} skill."
+						"你可以設置對一個特定區域的監視，從一個固定位置進行觀察。目標為了躲避你注意所進行的{@skill 潛行}檢定的DC，將等同於你調查檢定的結果。關於跟蹤目標的行動，請參照{@skill 潛行}技能中的{@b 跟蹤}項目。"
 					]
 				}
 			]
@@ -621,10 +621,10 @@
 			"untrain": true,
 			"interaction": true,
 			"entries": [
-				"You’re skilled in dealing with people, from etiquette and social graces to a way with words and public speaking, all of which helps to get your point across, make a good impression, negotiate, and generally win people over to your way of seeing things.",
-				"In negotiations, all participants roll Persuasion checks to see who gains the advantage. Opposed checks also resolve cases where two advocates plead opposing cases before a third party.",
-				"Non-player characters each have an initial attitude towards you or your cause. The GM chooses the character’s initial attitude based on circumstances. Most of the time, people are favorable or indifferent toward heroes, but a specific circumstance or complication may call for a different attitude.",
-				"You can improve others’ attitudes with a DC 15 Persuasion check. Success improves the subject’s attitude by one step, while every two additional degrees of success improve it by another step (so two steps at three degrees, three steps at five degrees, and so forth). Failure means no change, and more than a degree of failure worsens the subject’s attitude by one step! In the case of a hostile subject, they may outright attack or otherwise interfere with you if their attitude worsens.",
+				"你熟練於與人們打交道，從禮節、社交禮儀，到言談舉止和公開演講，這一切都有助於讓他人理解你的觀點、留下好印象、協商談判、和說服別人接受你的看法。",
+				"在協商談判的場景中，所有參與者都將進行說服檢定以決定誰能佔到上風。這種對抗檢定也可以被用於處理雙方辯護人在第三方面前彼此爭辯的情境。",
+				"每個非玩家角色都會抱著某種初始態度看待你或你的行為。GM將會根據情境決定該角色的初始態度。大多數情況下，民眾對於英雄的態度會是友善或中立，但特定情境或糾葛難題可能會導致不同的態度。",
+				"你可以藉由成功通過一個DC 15的說服檢定以改善他人的態度。檢定成功將會使目標的態度改善一級，而每二個額外程度的成功也都會再使其態度上升一級（因此三個程度的成功會使態度改善二級，五個程度的成功會使態度改善三級，以此類推）。檢定失敗代表態度不會因此改變，但超過一個程度的失敗將會使目標的態度惡化一級！對於已經抱有敵對態度的目標而言，這可能會導致他們立刻攻擊、或以其他方式干涉你。",
 				{
 					"type": "table",
 					"caption": "態度",
@@ -637,21 +637,21 @@
 						"col-8"
 					],
 					"rows": [
-						["Hostile", "Will take risks to attack or interfere with you."],
-						["Unfavorable", "Will insult, mislead, or otherwise cause you trouble."],
-						["Indifferent", "Acts as socially expected towards you."],
-						["Favorable", "Will chat, advise, and offer limited help."],
-						["Helpful", "Will take risks to help or protect you."]
+						["敵對", "會冒險攻擊或干涉你。"],
+						["不友善", "會透過侮辱、誤導、或其他手段來使你陷入麻煩。"],
+						["中立", "會按照社會期望與你互動。"],
+						["友善", "會與你聊天、提供建議、和提供有限的協助。"],
+						["協助", "會冒險協助或保護你。"]
 					]
 				},
-				"Persuading someone is at least a standard action, usually quite a bit longer. The GM decides if you can persuade at all once a conflict has broken out! Even if the initial check succeeds, the other character can only be persuaded so far; you can try again in the same scene, but you check against the subject’s initial attitude, and may end up worsening it rather than improving it!",
+				"說服某人需要花費至少一個標準動作，且通常會需要用上更久的時間。GM將決定你是否能在衝突爆發後說服他們。即使你初次的說服檢定成功，也只代表該角色只能被說服到此為止；你可以在同個場景中再次嘗試說服，但你將視同對目標的初始態度進行說服，這也可能會使他對你的態度因此惡化，而非改善！",
 				{
 					"type": "example",
 					"entries": [
-						"The heroes must convince the imperious King of Atlantis that the surface world is not responsible for recent attacks against his kingdom in order to avert a war. The king’s attitude is unfavorable towards these surface-world interlopers to begin with. The team’s spokesperson makes a Persuasion attempt and gets a check result of 22, a success with two degrees total. That shifts the king’s attitude one step, to indifferent. He’s inclined to continue negotiating with the heroes and willing to place the assault on the surface world on-hold for the time-being. The heroes try to convince the king further, but any additional checks need at least the same degree of success as the first to get his attitude to favorable, where he is willing to call off the attack, and more than one degree of failure on any check moves his attitude to hostile, where he orders the intruders arrested and the attack to begin at once!"
+						"為了避免戰爭，英雄們必須說服專橫的亞特蘭提斯國王相信，地表世界並不該為最近對亞特蘭提斯王國的襲擊負責。一開始，國王對這些從地表世界來的闖入者的態度為不友善。團隊的發言人嘗試進行了一次說服檢定，並得到了22的檢定結果，獲得總共二個程度的成功。這使得國王的態度改善了一級，變為中立。他決定繼續與英雄們談判，並暫緩攻打地表世界的計畫。英雄們嘗試繼續說服國王，但任何後續的說服檢定都必須至少達到與初次檢定相同的成功度才能使國王的態度轉為友善；然而其中只要有任何說服檢定得到了超過一個程度的失敗，就會使他的態度轉變為敵對，並立刻下令將這些入侵者逮捕，發動攻擊！"
 					]
 				},
-				"If a Persuasion check fails, trying again is futile; the subject is too set against your arguments. At the GM’s discretion, you can try again when the situation changes in some way: you find a new approach to your argument, new evidence appears, and so forth. The GM may consider you at a disadvantage in further negotiations, imposing a circumstance penalty as well."
+				"若說服檢定失敗，則任何再次說服的嘗試都是徒勞無功的；目標已經駁斥了你的論點。然而根據GM的裁斷，你可以在情況以某些方式發生改變之後再次嘗試說服：比如說你找到了一種新的方式進行論證、或是出現了新的證據等等。GM可能會考慮讓你在後續的談判中處於劣勢，並使該檢定承受相應的情境罰值。"
 			]
 		},
 		{
