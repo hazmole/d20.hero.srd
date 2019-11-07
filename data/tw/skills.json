@@ -768,27 +768,27 @@
 			"tools": true,
 			"action": "S",
 			"entries": [
-				"Technology covers operating, building, repairing, and generally working with technological devices and equipment. Without the proper tools or equipment, you take a –5 penalty to Technology checks for highly unfavorable circumstances.",
+				"科技涵蓋了操作、製造、維修、和其他與科技裝置和裝備互動的方式。若沒有適當的工具或裝備，則你的科技檢定將會因為高度不利的情境而承受-5罰值。",
 				{
 					"type": "entries",
 					"translate_name": "操作", "name": "Operating",
 					"entries": [
-						"Most routine operations of technological equipment don’t require a skill check and can be done untrained. Using an unfamiliar device does require a check, with the DC determined by how foreign or unusual the device is, from simple (DC 10) to highly advanced (DC 25 or more)."
+						"大部分關於科技裝置的例行操作都不需要技能檢定，且不用經過訓練就可以使用。使用不熟悉的裝置需要進行檢定，其DC將根據該裝置的陌生或複雜程度來決定，程度從簡單（DC 10）到高度複雜（DC 25或以上）。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "製造", "name": "Building",
 					"entries": [
-						"The difficulty and time required to make an item depends on its complexity, as shown on the Building Items table. If your Technology check succeeds, you have made the item after the necessary time. If the check fails, you did not produce a usable end result, and any time and materials are wasted. More than one degree of failure on the check may produce an accident or other unfortunate side-effect at the GM’s discretion.",
+						"製造物品的難度和時間將根據其複雜度決定，如下列的製造物品表所示。若你的科技檢定成功，則你將在花費所需時間之後完成該物品。但若該檢定失敗，則你的成品不僅無法使用，你所花費的時間和材料也都將被浪費掉。若該檢定獲得了超過一個程度的失敗，則根據GM的裁斷，將可能會產生某種意外或其他不幸的副作用。",
 						{
 							"type": "table",
-							"caption": "Building Items",
+							"caption": "製造物品",
 							"colLabels": [
 								"DC",
-								"Complexity",
-								"Time Rank",
-								"Examples"
+								"複雜度",
+								"時間等級",
+								"範例"
 							],
 							"colStyles": [
 								"col-1 text-align-center",
@@ -798,20 +798,20 @@
 							],
 							"rows": [
 								[
-									"15","Simple","10 (2 hours)",
-									"electronic timer or detonator, tripwire trap"
+									"15","簡單","10 (2 小時)",
+									"電子計時器、雷管、絆繩陷阱"
 								],
 								[
-									"20","Moderate","12 (8 hours)",
-									"radio direction finder, lock, engine component"
+									"20","中等","12 (8 小時)",
+									"無線電測向儀、鎖、引擎部件"
 								],
 								[
-									"25","Complex","14 (24 hours)",
-									"cell phone, combustion engine"
+									"25","複雜","14 (24 小時)",
+									"手機、內燃機"
 								],
 								[
-									"30","Advanced","16 (4 days)",
-									"computer, vehicle"
+									"30","進階","16 (4 天)",
+									"電腦、車輛"
 								]
 							]
 						}
@@ -821,38 +821,38 @@
 					"type": "entries",
 					"translate_name": "維修", "name": "Repairing",
 					"entries": [
-						"You can also use Technology to repair damaged items, with a –5 to the DC to build the item and –2 to the time rank required. So you can perform repairs on a complex item in eight hours (time rank 12) with a DC of 20. Failure on the check means you spend the time, but make no progress. Two or more degrees of failure may indicate further damage to the item or an accident similar to building it.",
-						"You can reduce the time rank to build or repair an item by 1 by taking a –5 penalty to your skill check.",
+						"你也可以使用科技技能以修復受損的物品，其難度為製作該物體的DC-5，維修時間則為製作該物體的時間等級-2。因此，你可以花費8個小時（時間等級12），並進行DC 20的科技檢定以維修一個複雜的物品。檢定失敗代表你花費了這些時間，但沒能取得任何進展。二個或以上程度的失敗則可能代表你對該物品造成了進一步的傷害，或是發生了跟製造物品時相似的意外。",
+						"你可以藉由使你的技能檢定中承受-5罰值，以使製造或維修物品所需的時間等級減少1級。",
 						{
 							"type": "entries",
-							"name": "Jury-rigging",
+							"translate_name": "應急維修", "name": "Jury-rigging",
 							"entries": [
-								"You can also attempt jury-rigged, or temporary, repairs. Doing this reduces the repair DC by an additional 5 (for a total of –10 to the DC to build the item), and allows you to make the Technology check as a standard action. However, a jury-rigged repair can only fix a single problem, and the repair only lasts until the end of the scene. The jury-rigged item must be fully repaired thereafter, and cannot be jury-rigged again until it is fully repaired."
+								"你可以嘗試進行暫時的應急維修。這麼做將會使維修的DC額外降低 5（因此難度將變為製造該物品的DC-10），並讓你能夠以一個標準動作進行科技檢定。然而，一次應急維修只能夠解決一處問題，且其只能持續到這個場景結束。在這之後，經過應急維修的物品直到被完全修復之前，都不能再次被應急維修。"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"translate_name": "拆解", "name": "Demolitions",
+					"translate_name": "拆除", "name": "Demolitions",
 					"entries": [
-						"Careful placement of an explosive against a fixed structure can maximize damage by exploiting vulnerabilities in the structure. This requires at least a minute and a DC 10 Technology check. The GM makes the check, so you don’t know exactly how well you have done until the explosive goes off. For every two full degrees of success, the explosive deals +5 damage to the structure. Failure means the explosive does not go off as planned, while more than one degree of failure means the charge goes off while you are setting it! In all cases, the explosive deals normal damage to all other targets.",
-						"You can make an explosive device more difficult to disarm. To do so, choose a disarm difficulty class before making your check to set the detonator. Your DC to set the detonator is the desired disarm DC. Failure means the explosive fails to go off as planned. Two or more degrees of failure mean the explosive goes off as the detonator is being installed!",
-						"Disarming an explosive also requires a Technology check. The DC is usually 10, unless the person who set the detonator chose a higher disarm DC (previously). If you fail the check, you do not disarm the explosive. With more than a degree of failure, the explosive goes off. Setting or disarming a detonator is a standard action."
+						"藉由小心地將爆裂物放置在建築物上，可以利用該建築物的弱點來使傷害最大化。這麼做需要花費至少一分鐘的時間，並進行一次DC 10的科技檢定。GM會秘密地為你進行該檢定，所以直到爆炸發生之前，你都不會知道你實際上做的多好。每二個程度的成功，將使該爆炸對建築物造成的傷害額外+5。失敗則代表這次爆炸並沒能如計畫中發揮效果，而超過一個程度的失敗則代表你在設置爆裂物時就不小心點燃了引線！無論情況如何，爆裂物都將對所有其他目標造成正常的傷害。",
+						"你可以使爆炸裝置變得更難以解除。若要這麼做，請在進行設置引爆裝置時所進行的檢定前選擇一個解除的難度層級。你設置引爆裝置的DC將等同於其他人解除爆炸裝置的DC。該檢定失敗意味著這個爆炸裝置將不會按照計畫爆炸。二個或以上程度的失敗則代表著這個爆炸裝置將在引爆器被設置的時候爆炸！",
+						"解除爆裂物同樣需要一個科技檢定。其DC通嘗試10，除非設置引爆裝置的人如前述方式設定了較高的解除DC。若你解除爆裂物的檢定失敗，則你沒能成功將爆裂物解除。若該檢定得到了超過一個程度的失敗，則爆裂物將立刻被引爆。設置和解除引爆裝置都需要採取一個標準動作。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "發明", "name": "Inventing",
 					"entries": [
-						"If you have the {@advantage Inventor} advantage (see Advantages), you can use Technology to create inventions, temporary devices. See {@rule Inventing|basic|7|inventing} for details."
+						"若你擁有{@advantage Inventor}特長，則你可以使用科技技能來創造新發明、臨時裝置。參見{@rule 發明|basic|7|inventing}規則以查閱更多細節。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "安全系統", "name": "Security",
 					"entries": [
-						"You can use Technology to disarm or sabotage various security devices, including locks, traps, and sensors. This takes at least a minute, possibly longer, at the GM’s discretion. The GM makes your Technology check secretly so you don’t necessarily know right away if you have succeeded. The Gamemaster sets the DC of the check based on the level of security:",
+						"你可以使用科技技能以解除或破壞各種安全裝置，包括鎖、陷阱、或感測器。根據GM的裁斷，這麼做需要花費至少一分鐘的時間，且通常會更久。GM會秘密地為你進行科技檢定，所以你並不會立刻知道你是否成功解除了安全裝置。遊戲主持人將根據安全系統的等級決定該檢定的DC：",
 						{
 							"type": "table",
 							"caption": "安全系統等級",
@@ -865,13 +865,13 @@
 								"col-9"
 							],
 							"rows": [
-								["10", "Simple lock or home alarm system"],
-								["15", "Quality lock or home alarm system"],
-								["20", "Business and corporate security"],
-								["25", "High security: branch bank vault, museum"],
-								["30", "Very high security: bank headquarters vault, medium prison"],
-								["35", "Maximum security: highly secure prison"],
-								["40", "Super-max security: super-prison"]
+								["10", "簡單的鎖或家庭警報系統"],
+								["15", "品質良好的鎖或家庭警報系統"],
+								["20", "商業或公司的安全系統"],
+								["25", "高級安保系統：銀行分行金庫、博物館"],
+								["30", "非常高級的安保系統：銀行總部金庫、中等監獄"],
+								["35", "最高級的安保系統：高度戒備的監獄"],
+								["40", "超絕級的安保系統：超級監獄"]
 							]
 						},
 						{
@@ -884,10 +884,10 @@
 								"col-9"
 							],
 							"rows": [
-								["+5", "Preventing your tampering from being noticed."]
+								["+5", "避免你的干預被注意到。"]
 							]
 						},
-						"Failure on your skill check means nothing happens, but you can keep trying. More than one degree of failure sets off the security or trap, if it is possible to do so."
+						"你的技能檢定失敗意味著什麼事都不會發生，但你仍可以繼續嘗試。超過一個程度的失敗很有可能會因此觸發安全系統或陷阱（若有）。"
 					]
 				}
 			]
@@ -900,7 +900,7 @@
 			"tools": true,
 			"action": "S",
 			"entries": [
-				"You’re trained in treating injuries and ailments. The check DC and effect of Treatment depend on the task:",
+				"你受過診療創傷和疾病的訓練。根據你的行動，診療的檢定DC和效果如下所示：",
 				{
 					"type": "table",
 					"caption": "診療難度",
@@ -913,48 +913,48 @@
 						"col-9"
 					],
 					"rows": [
-						["10", "Diagnose injuries and ailments."],
-						["15", "Provide long-term care."],
-						["15", "Revive dazed or stunned characters."],
-						["15", "Stabilize dying character."],
-						["15", "Treat diseases or poisons."]
+						["10", "診斷創傷和疾病。"],
+						["15", "提供長期照護。"],
+						["15", "使目眩或暈眩的角色從中恢復。"],
+						["15", "穩定瀕死角色的傷勢。"],
+						["15", "治療疾病或毒素。"]
 					]
 				},
-				"If you do not have the appropriate medical equipment and supplies, you take a –5 circumstance penalty on your check. If your subject has a particularly unusual biology (an alien, for example) you may also suffer a circumstance penalty.",
-				"You can use the Treatment skill on yourself, but only to diagnose, provide care, or treat disease or poison. You take a –5 circumstance penalty on checks when treating yourself.",
+				"若你沒有合適的醫療工具和設備，則你的檢定將承受-5的情境罰值。若你的診療對象有著特別罕見的生物學性質（例如外星生物），則你也將承受相應的情境罰值。",
+				"你可以對你自己使用診療技能，但只能用於診斷、提供照護、或治療疾病或毒素。當診療你自己時，你將在該檢定中承受-5的情境罰值。",
 				{
 					"type": "entries",
 					"translate_name": "診斷", "name": "Diagnosis",
 					"entries": [
-						"You can diagnose injuries and ailments with an eye toward further treatment. This takes at least a minute. At the GM’s discretion, a successful diagnosis provides a +2 bonus for favorable circumstances on further Treatment checks."
+						"你可以用肉眼診斷創傷和疾病以提供進一步的治療。這麼做需要花費至少一分鐘的時間。根據GM的裁斷，一次成功的診斷將會為後續的診療檢定提供+2的有利情境加值。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "提供照護", "name": "Provide Care",
 					"entries": [
-						"Providing care means treating an injured patient for a day or more. If successful, the patient further reduces the recovery time by 1 rank (see {@rule Recovery|basic|8|recovery} in Action & Adventure). You can provide care for up to your Treatment rank in patients at one time."
+						"提供照護，意味著為受傷的病人提供一天或以上的治療。若檢定成功，則病人回復所需的時間將會減少1級（參見動作＆冒險章節中的{@rule 回復|basic|8|recovery}規則）。你同時可以為最多等同於你診療等級數量的病人提供照護。"
 					]
 				},
 				{
 					"type": "entries",
-					"translate_name": "甦醒", "name": "Revive",
+					"translate_name": "恢復", "name": "Revive",
 					"entries": [
-						"You can remove the {@condition dazed} or {@condition stunned} conditions from a subject. The check to revive is a standard action. A successful check removes the condition. Other conditions the patient may have remain, so reviving someone {@condition incapacitated} due to fatigue still leaves the patient {@condition exhausted}, for example, while awakening someone {@condition incapacitated} due to damage still leaves the patient {@condition staggered}. You can’t awaken a {@condition dying} character without stabilizing him first (see the following)."
+						"你可以移除目標身上的{@condition 目眩}或{@condition 暈眩}狀態。使目標恢復所做的檢定需要花費一個標準動作。一個成功的檢定可以使該狀態移除。其他目標身上的狀態將會維持原樣。因此舉例來說，若診療一名因為疲勞而陷入{@condition 失能}狀態的角色，使其從暈眩中恢復，則他會變成處於{@condition 力竭}狀態。而使一名因傷害而陷入{@condition 失能}狀態的角色從暈眩中恢復，則會使他變為處於{@condition 蹣跚}狀態。你不能再穩定一名{@condition 瀕死}角色的傷勢前使該角色從中恢復。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "穩定傷勢", "name": "Stabilize",
 					"entries": [
-						"As a standard action, a successful Treatment check stabilizes a {@condition dying} character."
+						"以一個標準動作，一個成功的診療檢定可以使一名{@condition 瀕死}角色的傷勢轉為穩定。"
 					]
 				},
 				{
 					"type": "entries",
 					"translate_name": "治療疾病和毒素", "name": "Treat Disease and Poison",
 					"entries": [
-						"You can treat a character afflicted with a disease or poison. Each time the character makes a resistance check against the ailment, you make a Treatment check. One degree of success provides the patient with a +2 circumstance bonus to the resistance check, three or more degrees of success provides a +5 circumstance bonus."
+						"你可以治療一名為疾病或毒素所感染的角色。每當該角色要進行一次對抗該疾病的抵抗檢定時，你進行一次診療檢定。一個程度的成功將為該病人的抵抗檢定提供+2的情境加值，三個或以上程度的成功則能夠提供+5的情境加值。"
 					]
 				}
 			]
