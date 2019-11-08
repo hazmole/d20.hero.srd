@@ -514,17 +514,17 @@
 			]
 		},
 		{
-			"name": "Improvised Tools",
+			"translate_name": "即興工具", "name": "Improvised Tools",
 			"type": "S",
 			"entries": [
-				"You ignore the circumstance penalty for using skills without proper tools, since you can improvise sufficient tools with whatever is at hand. If you’re forced to work without tools at all, you suffer only a –2 penalty."
+				"由於你能夠利用手邊的事物即興創造出臨時工具，因此你將忽略在沒有合適工具的情況下使用技能所承受的情境罰值。若你被迫在完全沒有工具的情況下作業，則你只會承受-2的罰值。"
 			]
 		},
 		{
-			"name": "Inventor",
+			"translate_name": "發明家", "name": "Inventor",
 			"type": "S",
 			"entries": [
-				"You can use the Technology skill to create inventions. See {@rule Inventing|basic|7|inventing} for details."
+				"你可以使用{@skill 科技}技能以創造新發明。參見{@rule 發明|basic|7|inventing}規則以查閱更多細節。"
 			]
 		},
 		{
@@ -565,10 +565,10 @@
 			]
 		},
 		{
-			"name": "Skill Mastery",
+			"translate_name": "技能專精", "name": "Skill Mastery",
 			"type": "S",
 			"entries": [
-				"Choose a skill. You can make routine checks with that skill even when under pressure (see {@rule Routine Checks|basic|1|routine checks} in The Basics). This advantage does not allow you to make routine checks with skills that do not normally allow you to do so. You can take this advantage multiple times for different skills."
+				"選擇一個技能。即使你在壓力情境下，你仍然能夠使用該技能進行例行檢定（參見基本規則章節中的{@rule 例行檢定|basic|1|routine checks}規則）。這個特長並不能讓你使用該技能在原本就不能進行例行檢定的情況下進行例行檢定。你可以多次獲得這個特長以選擇不同的技能。"
 			]
 		},
 		{

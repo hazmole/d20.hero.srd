@@ -524,7 +524,7 @@
 			"name": "Inventor",
 			"type": "S",
 			"entries": [
-				"You can use the Technology skill to create inventions. See {@rule Inventing|basic|7|inventing} for details."
+				"You can use the {@skill Technology} skill to create inventions. See {@rule Inventing|basic|7|inventing} for details."
 			]
 		},
 		{

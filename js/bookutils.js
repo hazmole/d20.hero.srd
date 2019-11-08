@@ -471,7 +471,7 @@ const BookUtil = {
 			// Handle Content
 			const fromIndex = BookUtil.bookIndex.find(bk => UrlUtil.encodeForHash(bk.id) === UrlUtil.encodeForHash(bookId));
 			document.title = `${fromIndex.translate_name? fromIndex.translate_name: fromIndex.name} - `+FMT("site_title");
-			$(`.book-head-header`).html(cleanName(fromIndex.name));
+			$(`.book-head-header`).html(cleanName(fromIndex.translate_name? fromIndex.translate_name: fromIndex.name));
 			BookUtil.showBookContent(data.data, fromIndex, bookId, hashParts);
 
 			//NavBar.highlightCurrentPage();

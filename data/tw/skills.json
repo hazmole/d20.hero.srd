@@ -365,11 +365,11 @@
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Character Expertise vs. Player Expertise",
+					"translate_name": "幕後花絮：角色專業 vs. 玩家專業", "name": "Under the Hood: Character Expertise vs. Player Expertise",
 					"entries": [
-						"Expertise skills measure what your character knows about various things, whether you know anything about them or not. It’s fairly easy to measure what a hero knows by making the appropriate skill check or looking at the routine check value of (bonus +10).",
-						"However, players may know things their characters do not, either because of the player’s life experience or knowledge of the game and its rules (and source material). In this case the Gamemaster may prefer players limit themselves to only what Expertise skills their heroes have rather than what they may or may not know about a given situation. The GM may bend this rule by allowing a player to spend a victory point to have a character act upon something he or she would have no way of knowing, calling it a “hunch” or a “lucky guess” (a version of the inspiration rule). See {@rule Victory Points|basic|1|victory points}.",
-						"If there’s a question as to how to handle an issue of player versus character expertise in the game, consult your Gamemaster."
+						"專業技能被用以衡量你角色對於各種事物的掌握程度，而與玩家本身是否了解這些事物無關。透過要求一次合適的技能檢定、或是確認其例行檢定的結果（加值+10），都可以相當容易的衡量英雄所知曉的內容。",
+						"然而，有時候玩家可能會知曉他們角色並不具備的知識，這可能會是源自於玩家本身的人生經歷、或是對於遊戲規則和情報的理解。在這種情況下，遊戲主持人可能會傾向讓玩家限定在他們英雄所具備的專業技能上，而不能發揮他們可能知道或不知道的關於特定情境的知識。當然，GM也可以改變這個規則，讓玩家能夠消耗一點勝利點以讓其角色根據某個他本應不知道的知識而行動，並將其稱作所謂的「直覺」或「幸運猜測」（做為「靈光一閃」規則的變體）。更多相關規則請參閱{@rule 勝利點|basic|1|victory points}章節。",
+						"如果你對於該如何處理遊戲中玩家和角色之間專業知識衝突的方式有疑問，請洽詢你的遊戲主持人。"
 					]
 				}
 			]
@@ -728,7 +728,7 @@
 						{
 							"type": "example",
 							"entries": [
-								"彈力劫匪正在搶劫一座博物館內的值錢展示品，在他嘗試行竊時，警衛正好經過。這名大膽的劫匪完全無懼於警衛的存在，並決定藉機找點樂子。他擁有專精於潛行技能的{@advantage Skill Mastery}特長，並且毫不意外的，警衛完全沒有注意到他悄悄接近。接著，彈力劫匪決定嘗試悄悄偷走警衛身上的配槍。劫匪具有加值為+12的手上把戲技能，並將之加入他的擲骰中：一次驚人的19，+12後的總合為31！至於警衛，他的感知技能僅有+5的加值，完全沒有任何注意到配槍被從槍袋中摸走的可能性，儘管GM仍然嘗試擲骰，並得到了20的檢定結果。這是個很不錯的結果，但還是不夠。"
+								"彈力劫匪正在搶劫一座博物館內的值錢展示品，在他嘗試行竊時，警衛正好經過。這名大膽的劫匪完全無懼於警衛的存在，並決定藉機找點樂子。他擁有專精於潛行技能的{@advantage 技能專精}特長，並且毫不意外的，警衛完全沒有注意到他悄悄接近。接著，彈力劫匪決定嘗試悄悄偷走警衛身上的配槍。劫匪具有加值為+12的手上把戲技能，並將之加入他的擲骰中：一次驚人的19，+12後的總合為31！至於警衛，他的感知技能僅有+5的加值，完全沒有任何注意到配槍被從槍袋中摸走的可能性，儘管GM仍然嘗試擲骰，並得到了20的檢定結果。這是個很不錯的結果，但還是不夠。"
 							]
 						}
 					]
@@ -845,7 +845,7 @@
 					"type": "entries",
 					"translate_name": "發明", "name": "Inventing",
 					"entries": [
-						"若你擁有{@advantage Inventor}特長，則你可以使用科技技能來創造新發明、臨時裝置。參見{@rule 發明|basic|7|inventing}規則以查閱更多細節。"
+						"若你擁有{@advantage 發明家}特長，則你可以使用科技技能來創造新發明、臨時裝置。參見{@rule 發明|basic|7|inventing}規則以查閱更多細節。"
 					]
 				},
 				{
