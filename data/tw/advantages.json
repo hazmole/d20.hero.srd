@@ -313,27 +313,27 @@
 			]
 		},
 		{
-			"name": "Benefit",
+			"translate_name": "額外優勢", "name": "Benefit",
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have some significant perquisite or fringe benefit. The exact nature of the benefit is for you and the Gamemaster to determine. As a rule of thumb it should not exceed the benefits of any other advantage, or a power effect costing 1 point (see {@effect Feature} in Powers). It should also be significant enough to cost at least 1 Character point. An example is Diplomatic Immunity (see Sample Benefits). A license to practice law or medicine, on the other hand, should not be considered a Benefit; it’s simply a part of having training in the appropriate Expertise skill and has no significant game effect.",
-				"Benefits may come in ranks for improved levels of the same benefit. The GM is the final arbiter as to what does and does not constitute a Benefit in the setting. Keep in mind some qualities may constitute Benefits in some series, but not in others, depending on whether or not they have any real impact on the game.",
+				"你擁有一些顯著的特權或額外優勢。這個優勢的實際特質將由你和遊戲主持人一同決定。根據經驗法則，這個優勢所帶來的好處不能超過任何其他特長、或任何價值1點角色點的超能力效果（參見超能力效果中的{@effect 特色}效果）。同時，它也必須足夠重要到至少具有1點角色點的價值。其中一個例子就是外交豁免權（參見範例額外優勢）。而另一方面，法律或醫學的執照就不足以被視為一個額外優勢；它們僅僅被視為特定{@skill 專業}技能訓練的一部份，且不具備顯著的遊戲效益。",
+				"額外優勢特長可能會帶有等級，用以表示相同優勢的不同強度水準（例如範例額外優勢的富裕）。GM具有最終裁斷權以決定某個強項在這個世界觀設定中是否足夠或不能被當作做為額外優勢。要謹記，一個特質在某些劇集中也許能被當作額外優勢特長，但在其他劇集則否，取決於它們是否會對遊戲產生真正的影響而定。",
 				{
 					"type": "entries",
-					"name": "Sample Benefits",
+					"translate_name": "範例額外優勢", "name": "Sample Benefits",
 					"entries": [
-						"The following are some potential Benefits. The GM is free to choose any suitable Benefit for the series.",
+						"下列是一些可能的額外優勢。GM可以從中自由選擇任何適合該劇集的額外優勢。",
 						{
 							"type": "list",
 							"items": [
-								"{@b Alternate Identity}: You have an alternate identity, complete with legal paperwork (driver’s license, birth certificate, etc.). This is different from a costumed identity, which doesn’t necessarily have any special legal status (but may in some settings).",
-								"{@b Ambidexterity}: You are equally adept using either hand, suffering no circumstance penalty for using your off-hand (as you don’t have one).",
-								"{@b Cipher}: Your true history is well hidden, making it difficult to dig up information about you. Investigation checks concerning you are made at a –5 circumstance penalty per rank in this benefit.",
-								"{@b Diplomatic Immunity}: By dint of your diplomatic status, you cannot be prosecuted for crimes in nations other than your own. All another nation can do is deport you to your home nation.",
-								"{@b Security Clearance}: You have access to classified government information, installations, and possibly equipment and personnel.",
-								"{@b Status}: By virtue of birth or achievement, you have special status. Examples include nobility, knighthood, aristocracy, and so forth.",
-								"{@b Wealth}: You have greater than average wealth or material resources, such as well-off (rank 1), independently wealthy (rank 2), a millionaire (rank 3), multimillionaire (rank 4), or billionaire (rank 5)."
+								"{@b 另一個身分}：你擁有另一個身分，並有著完整的相關法律文件（駕照、出生證明等等）。這與你的英雄身分不同，畢竟英雄身分並不需要有任何特殊的法律地位（但在某些設定中可能會有）。",
+								"{@b 左右開弓}：你在雙手的使用上都同等熟練，這讓你在以副手行事時不會承受任何情境罰值（如同你每隻手都是主手）。",
+								"{@b 極密}：你真正的歷史被藏匿了起來，使他人難以挖掘關於你的情報。這個額外優勢的每一級都將使涉及你情報的調查檢定承受-5的情境罰值。",
+								"{@b 外交豁免權}：憑藉著你的外交身分，你不會在你母國以外的國家中因為犯罪而被起訴。其他國家唯一能做的就是將你遣返回你的母國。",
+								"{@b 安全權限}：你能夠訪查政府的機密情報、設施、設備與人員。",
+								"{@b 不凡身分}：由於你的出生或成就，你擁有不凡的身分地位。例如貴族、騎士、領主等等。",
+								"{@b 富裕}：你身懷超乎尋常的財富或物質資源，層級如下：富有（等級1）、獨立富有（等級2）、百萬富翁（等級3）、千萬富翁（等級4）、億萬富翁（等級5）。"
 							]
 						}
 					]
@@ -363,10 +363,10 @@
 			]
 		},
 		{
-			"name": "Extraordinary Effort",
+			"translate_name": "非凡奮力一搏", "name": "Extraordinary Effort",
 			"type": "G",
 			"entries": [
-				"When using extra effort (see {@rule Extra Effort|basic|1|extra effort} in The Basics), you can gain two of the listed benefits, even stacking two of the same type of benefit. However, you also double the cost of the effort; you’re exhausted starting the turn after your extraordinary effort. If you are already fatigued, you are incapacitated. If you are already exhausted, you cannot use extraordinary effort. Spending a Victory point at the start of your next turn reduces the cost of your extraordinary effort to merely fatigued, the same as a regular extra effort."
+				"當使用奮力一搏（參見基本規則章節中的{@rule 奮力一搏|basic|1|extra effort}）時，你可以選擇獲得其中列出的兩個好處，或甚至重複獲得同種好處二次。然而，你也將支付雙倍的代價；在使用非凡奮力一搏之後的下個回合開始，你將陷入{@condition 力竭}狀態。若你已經陷入{@condition 疲勞}狀態，則你將改為陷入{@condition 失能}狀態。若你已經陷入{@condition 力竭}狀態，則你將無法使用非凡奮力一搏。在你的下個回合開始時消耗一點勝利點可以將你非凡奮力一搏的代價減輕為僅陷入{@condition 疲勞}狀態，就跟原本的奮力一搏一樣。"
 			]
 		},
 		{
@@ -391,19 +391,19 @@
 			]
 		},
 		{
-			"name": "Interpose",
+			"translate_name": "介入阻擋", "name": "Interpose",
 			"type": "G",
 			"entries": [
-				"Once per round, when an ally within range of your normal movement is hit by an attack, you can choose to place yourself between the attacker and your ally as a reaction, making you the target of the attack instead. The attack hits you rather than your ally, and you suffer the effects normally. You cannot use this advantage against area effects or perception range attacks, only those requiring an attack check."
+				"一輪一次，當一名處於你正常移動範圍的隊友被一次攻擊命中，你可以選擇以一個反應移動至攻擊者和你的隊友之間，改為使你成為該攻擊的目標，並如常承受該效果。你不能對範圍效果或射程為感知距離的攻擊使用這個特長，你只能介入阻擋那些需要攻擊檢定的效果。"
 			]
 		},
 		{
-			"name": "Minion",
+			"translate_name": "嘍囉", "name": "Minion",
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have a follower or minion. This minion is an independent character with a Character point total of (advantage rank x 15). Minions are subject to the normal power level limits, and cannot have minions themselves. Your minions (if capable of independent thought) automatically have a helpful attitude toward you. They are subject to the normal rules for minions (see {@rule Minions|basic|8|minions}).",
-				"Minions do not earn Character points. Instead, you must spend earned Character points to increase your rank in this advantage to improve the minion’s Character point total and traits. Minions also do not have Victory points. Any lost minions are replaced in between adventures with other followers with similar abilities at the Gamemaster’s discretion."
+				"你擁有一名追隨者或嘍囉。這名嘍囉一名擁有「此特長等級 x 15」點角色點的獨立角色。嘍囉受限於正常超能力階級的限制，且不能擁有自己的嘍囉。你的嘍囉（若能夠獨立思考）將自動對你抱持著「協助」的態度。他們同樣受到嘍囉相關規則的限制（參見{@rule 嘍囉|basic|8|minions}規則）。",
+				"嘍囉無法獲得角色點。取而代之的是，你必須花費獲得的角色點以提升這個特長的等級，才能夠提高這名嘍囉所擁有的角色點與數據。嘍囉也沒有任何勝利點。在遊戲主持人的裁斷下，任何丟失的嘍囉（死亡或失蹤等）都將在冒險之間由其他具有相似能力的追隨者給取代。"
 			]
 		},
 		{
@@ -438,24 +438,24 @@
 			]
 		},
 		{
-			"name": "Agile Feint",
+			"translate_name": "機動性佯攻", "name": "Agile Feint",
 			"type": "S",
 			"entries": [
-				"You can use your {@skill Acrobatics} bonus or movement speed rank in place of {@skill Deception} to feint and trick in combat as if your skill bonus or speed rank were your Deception bonus (see the Deception skill description). Your opponent opposes the attempt with Acrobatics or Insight (whichever is better)."
+				"在戰鬥中，你可以使用你的{@skill 雜技}加值或移動速度等級來代替你在使用{@skill 欺瞞}進行佯攻或誘騙的加值，就如同將你的{@skill 雜技}技能加值或移動速度等級視作你的{@skill 欺瞞}技能加值一樣（參見{@skill 欺瞞}技能的描述）。你的對手將使用的{@skill 雜技}或{@skill 洞見}技能與你對抗（看何者為高）。"
 			]
 		},
 		{
-			"name": "Animal Empathy",
+			"translate_name": "動物共感", "name": "Animal Empathy",
 			"type": "S",
 			"entries": [
-				"You have a special connection with animals. You can use interaction skills on animals normally, and do not have to speak a language the animal understands; you communicate your intent through gestures and body language and learn things by studying animal behavior. Characters normally have a –10 circumstance penalty to use interaction skills on animals, due to their Intellect and lack of language."
+				"你與動物之間具有一種特殊的聯繫。你可以對動物如常使用你的交涉技能，而無須使用動物能夠理解的語言就能與之互動；你透過姿勢和身體語言來傳達你的意圖，並藉使觀察動物的舉止來理解牠們。缺乏這個特長的角色在對動物使用交涉技能時，通常會因為動物們的低智力與語言不通而承受-10的情境罰值。"
 			]
 		},
 		{
-			"name": "Artificer",
+			"translate_name": "魔器工匠", "name": "Artificer",
 			"type": "S",
 			"entries": [
-				"You can use the Expertise (Magic) skill to create temporary magical devices. See {@rule Inventing|basic|7|inventing} for details."
+				"你可以使用{@skill Expertise|專業（魔法）}技能以創造出暫時性的魔法裝置。參見{@rule 發明|basic|7|inventing}規則以查閱更多細節。"
 			]
 		},
 		{

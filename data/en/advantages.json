@@ -317,7 +317,7 @@
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have some significant perquisite or fringe benefit. The exact nature of the benefit is for you and the Gamemaster to determine. As a rule of thumb it should not exceed the benefits of any other advantage, or a power effect costing 1 point (see {@effect Feature} in Powers). It should also be significant enough to cost at least 1 Character point. An example is Diplomatic Immunity (see Sample Benefits). A license to practice law or medicine, on the other hand, should not be considered a Benefit; it’s simply a part of having training in the appropriate Expertise skill and has no significant game effect.",
+				"You have some significant perquisite or fringe benefit. The exact nature of the benefit is for you and the Gamemaster to determine. As a rule of thumb it should not exceed the benefits of any other advantage, or a power effect costing 1 point (see {@effect Feature} in Powers). It should also be significant enough to cost at least 1 Character point. An example is Diplomatic Immunity (see Sample Benefits). A license to practice law or medicine, on the other hand, should not be considered a Benefit; it’s simply a part of having training in the appropriate {@skill Expertise} skill and has no significant game effect.",
 				"Benefits may come in ranks for improved levels of the same benefit. The GM is the final arbiter as to what does and does not constitute a Benefit in the setting. Keep in mind some qualities may constitute Benefits in some series, but not in others, depending on whether or not they have any real impact on the game.",
 				{
 					"type": "entries",
@@ -366,7 +366,7 @@
 			"name": "Extraordinary Effort",
 			"type": "G",
 			"entries": [
-				"When using extra effort (see {@rule Extra Effort|basic|1|extra effort}  in The Basics), you can gain two of the listed benefits, even stacking two of the same type of benefit. However, you also double the cost of the effort; you’re exhausted starting the turn after your extraordinary effort. If you are already fatigued, you are incapacitated. If you are already exhausted, you cannot use extraordinary effort. Spending a Victory point at the start of your next turn reduces the cost of your extraordinary effort to merely fatigued, the same as a regular extra effort."
+				"When using extra effort (see {@rule Extra Effort|basic|1|extra effort}  in The Basics), you can gain two of the listed benefits, even stacking two of the same type of benefit. However, you also double the cost of the effort; you’re {@condition exhausted} starting the turn after your extraordinary effort. If you are already {@condition fatigued}, you are {@condition incapacitated}. If you are already {@condition exhausted}, you cannot use extraordinary effort. Spending a Victory point at the start of your next turn reduces the cost of your extraordinary effort to merely {@condition fatigued}, the same as a regular extra effort."
 			]
 		},
 		{
@@ -455,7 +455,7 @@
 			"name": "Artificer",
 			"type": "S",
 			"entries": [
-				"You can use the Expertise (Magic) skill to create temporary magical devices. See {@rule Inventing|basic|7|inventing} for details."
+				"You can use the {@skill Expertise|Expertise (Magic)} skill to create temporary magical devices. See {@rule Inventing|basic|7|inventing} for details."
 			]
 		},
 		{
