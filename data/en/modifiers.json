@@ -653,7 +653,7 @@
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"You suffer damage when a manifestation of your effect is damaged. This flaw only applies to effects with physical (or apparently physical) manifestations, such as Create, Illusion, or Summon, for example. If your power’s manifestation is damaged, make a resistance check against the attack’s damage rank, using your effect’s rank as the resistance check bonus. For example, if a manifestation of a rank 10 effect is attacked for damage 12, you must make a resistance check against damage 12 with a +10 bonus (the effect’s rank) in place of your normal Toughness."
+				"You suffer damage when a manifestation of your effect is damaged. This flaw only applies to effects with physical (or apparently physical) manifestations, such as {@effect Create}, {@effect Illusion}, or {@effect Summon}, for example. If your power’s manifestation is damaged, make a resistance check against the attack’s damage rank, using your effect’s rank as the resistance check bonus. For example, if a manifestation of a rank 10 effect is attacked for damage 12, you must make a resistance check against damage 12 with a +10 bonus (the effect’s rank) in place of your normal Toughness."
 			]
 		},
 		{
@@ -867,7 +867,7 @@
 			},
 			"entries": [
 				"An Unreliable effect doesn’t work all the time. Roll a die each round before you use or maintain the effect. On a 10 or less, it doesn’t work this round, but you’ve still used the action the effect requires. You can roll again on the following round to see if it works, although you must take the normal action needed to activate the effect again. Spending a victory point on your reliability roll allows you to succeed automatically (since the roll is then at least an 11).",
-				"Alternately, instead of having a reliability roll, you can choose to have five uses where your effect works normally, then it stops working altogether until you can “recover” it in some way (see Fades flaw for more on this). The GM may allow you to spend a victory point to automatically recover a spent Unreliable power.",
+				"Alternately, instead of having a reliability roll, you can choose to have five uses where your effect works normally, then it stops working altogether until you can “recover” it in some way (see {@modifier Fades} flaw for more on this). The GM may allow you to spend a victory point to automatically recover a spent Unreliable power.",
 				"Powers that are only occasionally unreliable (less than about 50% of the time) are better handled as complications (see Complications.)",
 				{
 					"type": "inset",
@@ -877,7 +877,7 @@
 						{
 							"type": "example",
 							"entries": [
-								"A gun-toting vigilante, Marksman has a variety of guns (acquired via the Equipment advantage). Generally, he has sufficient ammunition that it isn’t a concern, no matter how many shots he fires or how many thugs he guns down. When, during a long fire-fight, the Gamemaster decides Marksman’s guns click on empty, the player gets a victory point for the complication, forcing the hero to come up with a new plan, fast!"
+								"A gun-toting vigilante, Marksman has a variety of guns (acquired via the {@advantage Equipment} advantage). Generally, he has sufficient ammunition that it isn’t a concern, no matter how many shots he fires or how many thugs he guns down. When, during a long fire-fight, the Gamemaster decides Marksman’s guns click on empty, the player gets a victory point for the complication, forcing the hero to come up with a new plan, fast!"
 							]
 						}
 					]

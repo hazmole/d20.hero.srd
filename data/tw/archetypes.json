@@ -1,7 +1,7 @@
 {
 	"archetype": [
 		{
-			"name": "Battlesuit",
+			"translate_name": "戰鬥裝甲服", "name": "Battlesuit",
 			"attributes": {
 				"str": 12,
 				"sta": 1,
@@ -55,10 +55,10 @@
 					"translate_name": "準確攻擊", "name": "Accurate Attack"
 				},
 				{
-					"name": "Improvised Tools"
+					"translate_name": "即興工具", "name": "Improvised Tools"
 				},
 				{
-					"name": "Inventor"
+					"translate_name": "發明家", "name": "Inventor"
 				},
 				{
 					"translate_name": "遠距離攻擊", "name": "Ranged Attack",
@@ -70,7 +70,7 @@
 					"rank": 2
 				},
 				{
-					"name": "Second Chance",
+					"translate_name": "二次機會", "name": "Second Chance",
 					"suboption": "科技檢定"
 				}
 			],
@@ -187,7 +187,7 @@
 			],
 			"advantages": [
 				{
-					"name": "Eidetic Memory"
+					"translate_name": "清晰記憶", "name": "Eidetic Memory"
 				},
 				{
 					"translate_name": "遠距離攻擊", "name": "Ranged Attack",
@@ -209,7 +209,7 @@
 									"{@b 元素}: {@modifier Increased Range|遠距} {@effect Damage|傷害 10} (See Elemental Control)",
 									"{@b 衛兵}: {@modifier Increased Range|遠距} {@effect Damage|傷害 10} (內建武器)",
 									"{@b 不死回歸者}: {@effect Immortality|永生 5}, {@effect Regeneration|再生 10}",
-									"{@b 亡靈}: {@effect Insubstantial|Insubstantial 4}"
+									"{@b 亡靈}: {@effect Insubstantial|虛體化 4}"
 								]
 							}
 						]

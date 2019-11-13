@@ -648,13 +648,13 @@
 			]
 		},
 		{
-			"_translate_name": "反饋", "name": "Feedback",
+			"translate_name": "反饋", "name": "Feedback",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"You suffer damage when a manifestation of your effect is damaged. This flaw only applies to effects with physical (or apparently physical) manifestations, such as Create, Illusion, or Summon, for example. If your power’s manifestation is damaged, make a resistance check against the attack’s damage rank, using your effect’s rank as the resistance check bonus. For example, if a manifestation of a rank 10 effect is attacked for damage 12, you must make a resistance check against damage 12 with a +10 bonus (the effect’s rank) in place of your normal Toughness."
+				"當你效果所產生的事物受到傷害時，你也會一併承受傷害。這個缺陷只能適用於能夠製造出物理實體（或彷彿物理實體）的效果上，像是{@effect 創造}、{@effect 幻覺}、或{@effect 召喚}效果。若你超能力效果的造物受到傷害，進行一次對抗該攻擊的傷害等級的抵抗檢定，使用你的效果等級做為抵抗檢定的加值。舉例來說，若一個10級效果的造物遭到攻擊，並受到12級傷害，則你必須進行一次對抗12級傷害的抵抗檢定，並使用+10加值（該效果等級）代替你原本的堅實防禦等級。"
 			]
 		},
 		{
@@ -851,34 +851,34 @@
 			]
 		},
 		{
-			"name": "Uncontrolled",
+			"translate_name": "不可控", "name": "Uncontrolled",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"You have no control over an effect with this flaw. Instead, the Gamemaster decides when and how it works (essentially making it a plot device). This flaw is best suited for mysterious powers out of the characters’ direct control or effects the GM feels more comfortable having under direct, rather than player, control."
+				"你無法控制應用了這個缺陷的效果。取而代之的是，由遊戲主持人決定該效果會在何時以及如何發揮作用（亦即將其做為劇情工具）。這個缺陷最為適合那些超乎角色直接控制的神秘力量，或是那些GM認為控制權在自己手上會更為適合的超能力效果。"
 			]
 		},
 		{
-			"_translate_name": "不可靠", "name": "Unreliable",
+			"translate_name": "不可靠", "name": "Unreliable",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An Unreliable effect doesn’t work all the time. Roll a die each round before you use or maintain the effect. On a 10 or less, it doesn’t work this round, but you’ve still used the action the effect requires. You can roll again on the following round to see if it works, although you must take the normal action needed to activate the effect again. Spending a victory point on your reliability roll allows you to succeed automatically (since the roll is then at least an 11).",
-				"Alternately, instead of having a reliability roll, you can choose to have five uses where your effect works normally, then it stops working altogether until you can “recover” it in some way (see Fades flaw for more on this). The GM may allow you to spend a victory point to automatically recover a spent Unreliable power.",
-				"Powers that are only occasionally unreliable (less than about 50% of the time) are better handled as complications (see Complications.)",
+				"不可靠的效果並不總是能夠發揮效果。每輪在你使用或維持該效果之前，骰一顆骰子。若骰面為10或以下，則該效果在該輪間將不會發揮作用，但你仍被視作已經採取了該效果所需的動作。你可以在下一輪再次擲骰以確認該效果是否會作用，但這麼做必須要如常採取再次啟動該效果所需的動作。在你為該效果的可靠性擲骰時，你可以消耗一點勝利點以讓你自動成功（因為該骰的結果至少會是11）。",
+				"或者，你可以選擇不要在每次使用前為可靠性擲骰，而是限定你的效果只能正常運作五次，在這之後．該效果將停止運作，直到你能夠藉著某些方式使其「恢復」（參見{@modifier Fades}缺陷）。GM可能會允許你消耗一點勝利點以自動恢一個被消耗的不可靠超能力效果。",
+				"僅僅是偶爾會不太可靠（低於50%的機率）的超能力最好被做為糾葛難題來處理（參見{@rule 糾葛難題|basic|1|Complications}）。",
 				{
 					"type": "inset",
-					"name": "Under the Hood: Reloading and Resetting",
+					"translate_name": "幕後花絮：重新裝填和重置", "name": "Under the Hood: Reloading and Resetting",
 					"entries": [
-						"One possible application of the Unreliable flaw is to reflect weapons or equipment that occasionally run out of ammunition or “jam” or “crash” and must be reloaded or reset in some way. It really only applies to effects where this happens fairly often, as given in the Unreliable flaw description. Large ammo or fuel capacities, which only occasionally run out or inconvenience the character, are better handled as descriptors and occasional complications when they actually prove problematic.",
+						"不可靠缺陷的其中一個可能用法，是用以反映出那些偶爾會打空彈藥、或「卡彈」、「損壞」的武器或裝派，且必須藉由某種方式重新裝填或重置。這個修飾符只能影用於那些真的經常會發生這種狀況的效果上，如同不可靠缺陷中的描述所示。至於那些彈藥數多或有著大容量燃料的武器，則最好在它們確實會產生問題時，再做為描述符和偶發性的糾葛難題來處理即可。",
 						{
 							"type": "example",
 							"entries": [
-								"A gun-toting vigilante, Marksman has a variety of guns (acquired via the Equipment advantage). Generally, he has sufficient ammunition that it isn’t a concern, no matter how many shots he fires or how many thugs he guns down. When, during a long fire-fight, the Gamemaster decides Marksman’s guns click on empty, the player gets a victory point for the complication, forcing the hero to come up with a new plan, fast!"
+								"神槍手，一名持槍的正義使者，總是攜帶著各式各樣的槍械（透過{@advantage Equipment}特長獲得）。通常來說，無論他開了多少槍，射倒了多少暴徒，他都會有著足夠多的彈藥。然而，在經過一場長時間的槍戰之後，遊戲主持人可能會讓神槍手的槍枝終於打空彈匣，在為這個糾葛難題給予玩家一點勝利點之後，強迫這名英雄立刻想出一個新的計畫，而且要快！"
 							]
 						}
 					]
