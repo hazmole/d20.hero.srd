@@ -193,14 +193,14 @@
 			]
 		},
 		{
-			"translate_name": "延伸射程", "name": "Extended Range",
+			"translate_name": "延伸遠程距離", "name": "Extended Range",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"這個修飾符能夠延伸遠距效果所能作用的距離﹐這個修飾符的每級都會使該效果的短、中、長距離範圍變為原本的兩倍。因此1級的延伸射程將會使該效果的三種距離範圍變為：短距離（效果等級 x 50呎）、中距離（效果等級 x 100呎）、長距離（效果等級 x 200呎）。每一級額外的等級都會再使這個距離範圍加倍。",
-				"GM可能會限制延伸射程應用於效果上的等級上限；做為一條通用準則，用於行星表面上的效果的射程被限制最多只能到地平線的那一端（一旦超過這個距離，使用者將因為行星表面的曲率而無法看見任何得以瞄準的目標）。在地球的海平面上，這個距離大約是 3哩（10級距離等級）。"
+				"這個修飾符能夠延伸遠距效果所能作用的距離﹐這個修飾符的每級都會使該效果的短、中、長距離範圍變為原本的兩倍。因此1級的延伸遠程距離將會使該效果的三種距離範圍變為：短距離（效果等級 x 50呎）、中距離（效果等級 x 100呎）、長距離（效果等級 x 200呎）。每一級額外的等級都會再使這個距離範圍加倍。",
+				"GM可能會限制延伸遠程距離應用於效果上的等級上限；做為一條通用準則，用於行星表面上的效果的射程被限制最多只能到地平線的那一端（一旦超過這個距離，使用者將因為行星表面的曲率而無法看見任何得以瞄準的目標）。在地球的海平面上，這個距離大約是 3哩（10級距離等級）。"
 			]
 		},
 		{
@@ -618,13 +618,13 @@
 			]
 		},
 		{
-			"name": "Diminished Range",
+			"translate_name": "縮短遠程距離", "name": "Diminished Range",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "flat_per"
 			},
 			"entries": [
-				"Each rank of Diminished Range reduces the effect’s short, medium, and long ranges. One rank in this flaw gives the effect a short range of 10 feet x power rank, medium range of 25 feet x power rank, and long range of 50 feet x power rank. A second rank reduces the multipliers to 5 feet, 10 feet, and 25 feet, and a third rank reduces them to 2 feet, 5 feet, and 10 feet. Three ranks is the maximum a character can have in this flaw."
+				"每級的縮短遠程距離都將降低該效果的短、中、長距離範圍。一級的這個缺陷會使該效果的短距離變為：短距離（效果等級 x 10呎）、中距離（效果等級 x 25呎）、長距離（效果等級 x 50呎）。二級的這個缺陷會使各距離的乘數變為5呎、10呎、和25呎；三級的這個缺陷則會使其變為2呎、5呎、和10呎。這個缺陷的等級最高為三級。"
 			]
 		},
 		{
@@ -675,23 +675,23 @@
 			]
 		},
 		{
-			"name": "Inaccurate",
+			"translate_name": "不準確", "name": "Inaccurate",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An effect with this flaw is hard to control or wildly inaccurate. Each rank gives you a –2 penalty to attack checks with the effect."
+				"應用了這個強化的效果將變得難以控制或非常不準確。你在以該效果進行攻擊檢定時將會獲得每不準確等級-2的罰值。"
 			]
 		},
 		{
-			"name": "Increased Action",
+			"translate_name": "動作延長", "name": "Increased Action",
 			"type": "flaw",
 			"cost": {
 				"value": {"min":-1, "max":-3}, "type": "per"
 			},
 			"entries": [
-				"Using an effect requires one of the following types of actions: standard, move, free, or reaction. Each increase in the required action from that effect’s base action type (free to move, for example) is a –1 cost per rank modifier."
+				"使用效果通常會需要採取下列其中一種動作：標準、移動、自由、或反應。每使該效果的基本需求動作增加一級（例如從自由動作變為移動動作），就能使這個修飾符的花費每級-1點。"
 			]
 		},
 		{
@@ -745,13 +745,13 @@
 			]
 		},
 		{
-			"name": "Reduced Range",
+			"translate_name": "降低射程", "name": "Reduced Range",
 			"type": "flaw",
 			"cost": {
 				"value": {"min":-1, "max":-2}, "type": "per"
 			},
 			"entries": [
-				"An effect has a range of close, ranged, or perception. Decreasing an effect’s range by one step (from ranged to close, for example) is worth 1 point per rank. Some effects have their range determined by rank. To change the effect’s range, increase or decrease its rank; this flaw does not apply. Effects that are close range by default cannot further decrease their range."
+				"每個效果都具有其基本的射程：近身、遠距、或感知距離。使效果的射程降低一級（例如從「遠距」變為「近身」）能帶來使其花費每級-1點的價值。有些效果的射程是由其等級決定，若要改變這些效果的射程，則請增加或降低其等級，而非應用這個缺陷。「近身」效果的射程無法再被進一步的降低。"
 			]
 		},
 		{
