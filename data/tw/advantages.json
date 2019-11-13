@@ -403,24 +403,24 @@
 			"rank": true,
 			"entries": [
 				"你擁有一名追隨者或嘍囉。這名嘍囉一名擁有「此特長等級 x 15」點角色點的獨立角色。嘍囉受限於正常超能力階級的限制，且不能擁有自己的嘍囉。你的嘍囉（若能夠獨立思考）將自動對你抱持著「協助」的態度。他們同樣受到嘍囉相關規則的限制（參見{@rule 嘍囉|basic|8|minions}規則）。",
-				"嘍囉無法獲得角色點。取而代之的是，你必須花費獲得的角色點以提升這個特長的等級，才能夠提高這名嘍囉所擁有的角色點與數據。嘍囉也沒有任何勝利點。在遊戲主持人的裁斷下，任何丟失的嘍囉（死亡或失蹤等）都將在冒險之間由其他具有相似能力的追隨者給取代。"
+				"嘍囉無法獲得角色點。取而代之的是，你必須花費自己獲得的角色點以提升這個特長的等級，才能夠提高這名嘍囉所擁有的角色點與數據。嘍囉也沒有任何勝利點。在遊戲主持人的裁斷下，任何丟失的嘍囉（死亡或失蹤等）都將在冒險之間由其他具有相似能力的追隨者給取代。"
 			]
 		},
 		{
-			"name": "Second Chance",
+			"translate_name": "二次機會", "name": "Second Chance",
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"Choose a particular hazard, such as falling, being tripped, triggering traps, mind control (or another fairly specific power effect, such as Damage with the fire descriptor) or a particular skill with consequences for failure. If you fail a check against that hazard, you can make another immediately and use the better of the two results. You only get one second chance for any given check, and the GM decides if a particular hazard or skill is an appropriate focus for this advantage. You can take this advantage multiple times, each for a different hazard."
+				"選擇一種特定的危險，像是墜落、被絆摔、觸發陷阱、心靈控制（或其他相當特定的超能力效果，像是帶有火焰描述符的{@effect 傷害}效果）、或是選擇一種在失敗時可能導致後果的特定技能。若你在對抗該危險的檢定中失敗，你可以立即再進行一次檢定，並使用兩次結果中較好的那一次。你在任何給定檢定中都只能使用二次機會特長的效果一次，且由GM決定其危險或技能是否符合這個特長的適用範圍。你可以多次獲得這個特長以選擇不同的危險或技能。"
 			]
 		},
 		{
-			"name": "Sidekick",
+			"translate_name": "跟班", "name": "Sidekick",
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"You have another character serving as your partner and aide. Create your sidekick as an independent character with (advantage rank x 5) Character points, and subject to the series power level. A sidekick’s Character point total must be less than yours. Your sidekick is an NPC, but automatically helpful and loyal to you. Gamemasters should generally allow you to control your sidekick, although sidekicks remain NPCs and the GM has final say in their actions.",
-				"Sidekicks do not earn Character points. Instead, you must spend earned Character points to increase your rank in Side-kick to improve the sidekick’s Character point total and traits; each point you spend to increase your rank in Sidekick grants the sidekick 5 additional Character points. Sidekicks also do not have Victory points, but you can spend your own Victory points on the sidekick’s behalf with the usual benefits. Sidekicks are not minions, but full-fledged characters, so they are not subject to the minion rules."
+				"你擁有另一名角色做為你的搭檔或助手。這位跟班將被做為一名擁有「此特長等級 x 5」點角色點的獨立角色被創建，且仍如常受限於劇集超能力階級的限制。跟班的角色點總和必須少於你的角色點總和。你的跟班是一名NPC，會自動對你抱持著「協助」的態度，且效忠於你。遊戲主持人通常會讓你得以控制你跟班的行動，儘管如此，跟班仍被視作NPC，且GM對於他們的行動有著最終決定權。",
+				"跟班無法獲得角色點。取而代之的是，你必須花費自己獲得的角色點以提升這個特長的等級，才能夠提高這名跟班所擁有的角色點與數據；你每提升這個特長一級，你的跟班就能獲得5點額外的角色點。跟班也沒有任何勝利點，但你可以消耗你自己的勝利點以讓該跟班獲得勝利點所能提供的好處。跟班並不是嘍囉，而是具有完整的角色，因此他們並不會受到嘍囉規則的限制。"
 			]
 		},
 		{
@@ -431,10 +431,10 @@
 			]
 		},
 		{
-			"name": "Trance",
+			"translate_name": "假死", "name": "Trance",
 			"type": "G",
 			"entries": [
-				"Through breathing and bodily control, you can slip into a deep trance. This takes a minute of uninterrupted meditation and a DC 15 Awareness check. While in the trance you add your Awareness rank to your Stamina rank to determine how long you can hold your breath and you use the higher of your Fortitude or Will defenses for resistance checks against suffocation (see {@rule Suffocation|basic|8|suffocation}). Poison and disease effects are suspended for the duration of the trance. It requires a Perception check with a DC equal to your Awareness check result to determine you’re not dead because your bodily functions are so slow. You are aware of your surroundings while in trance and can come out of it at any time at will. You cannot take any actions while in the trance, but your GM may allow mental communication while in a trance."
+				"透過吐納和身體控制，你得以進入一種深沉的出神狀態。這麼做需要經過長達一分鐘不被打擾的冥想，並進行一次DC 15的覺察檢定。當處於假死狀態時，將你的覺察等級加上你的體質等級以決定你能夠閉氣的時間，且在進行對抗窒息的抵抗檢定時（參見{@rule 窒息|basic|8|suffocation}規則），你可以選擇使用你的韌性防禦或意志防禦屬性，看何者較高。在你處於假死狀態期間，毒素和疾病效果都將被暫緩。由於你的身體機能是如此緩慢，其他人必須成功通過一次DC等同於你覺察檢定結果的{@skill 感知}檢定，才能知道你並不是真的死去。當你處於假死狀態時，你仍然能夠意識到你周圍的環境，且可以隨時解除假死狀態。你在假死狀態期間不能採取任何動作，但你的GM可能會允許你在假死期間進行心靈溝通。"
 			]
 		},
 		{

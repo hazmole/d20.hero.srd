@@ -411,7 +411,7 @@
 			"type": "G",
 			"rank": true,
 			"entries": [
-				"Choose a particular hazard, such as falling, being tripped, triggering traps, mind control (or another fairly specific power effect, such as Damage with the fire descriptor) or a particular skill with consequences for failure. If you fail a check against that hazard, you can make another immediately and use the better of the two results. You only get one second chance for any given check, and the GM decides if a particular hazard or skill is an appropriate focus for this advantage. You can take this advantage multiple times, each for a different hazard."
+				"Choose a particular hazard, such as falling, being tripped, triggering traps, mind control (or another fairly specific power effect, such as {@effect Damage} with the fire descriptor) or a particular skill with consequences for failure. If you fail a check against that hazard, you can make another immediately and use the better of the two results. You only get one second chance for any given check, and the GM decides if a particular hazard or skill is an appropriate focus for this advantage. You can take this advantage multiple times, each for a different hazard."
 			]
 		},
 		{
@@ -434,7 +434,7 @@
 			"name": "Trance",
 			"type": "G",
 			"entries": [
-				"Through breathing and bodily control, you can slip into a deep trance. This takes a minute of uninterrupted meditation and a DC 15 Awareness check. While in the trance you add your Awareness rank to your Stamina rank to determine how long you can hold your breath and you use the higher of your Fortitude or Will defenses for resistance checks against suffocation (see {@rule Suffocation|basic|8|suffocation}). Poison and disease effects are suspended for the duration of the trance. It requires a Perception check with a DC equal to your Awareness check result to determine you’re not dead because your bodily functions are so slow. You are aware of your surroundings while in trance and can come out of it at any time at will. You cannot take any actions while in the trance, but your GM may allow mental communication while in a trance."
+				"Through breathing and bodily control, you can slip into a deep trance. This takes a minute of uninterrupted meditation and a DC 15 Awareness check. While in the trance you add your Awareness rank to your Stamina rank to determine how long you can hold your breath and you use the higher of your Fortitude or Will defenses for resistance checks against suffocation (see {@rule Suffocation|basic|8|suffocation}). Poison and disease effects are suspended for the duration of the trance. It requires a {@skill Perception} check with a DC equal to your Awareness check result to determine you’re not dead because your bodily functions are so slow. You are aware of your surroundings while in trance and can come out of it at any time at will. You cannot take any actions while in the trance, but your GM may allow mental communication while in a trance."
 			]
 		},
 		{
