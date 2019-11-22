@@ -589,14 +589,14 @@
 			"name": "Tracking",
 			"type": "S",
 			"entries": [
-				"You can use the Perception skill to visually follow tracks like the {@effect Sense|Tracking Senses} effect (see Powers)."
+				"You can use the {@skill Perception} skill to visually follow tracks like the {@effect Sense|Tracking Senses} effect (see Powers)."
 			]
 		},
 		{
 			"name": "Well-informed",
 			"type": "S",
 			"entries": [
-				"You are exceptionally well-informed. When encountering an individual, group, or organization for the first time, you can make an immediate Investigation or Persuasion skill check to see if your character has heard something about the subject. Use the guidelines for gathering information in the Investigation Skill description to determine the level of information you gain. You receive only one check per subject upon first encountering them, although the GM may allow another upon encountering the subject again once significant time has passed."
+				"You are exceptionally well-informed. When encountering an individual, group, or organization for the first time, you can make an immediate {@skill Investigation} or {@skill Persuasion} skill check to see if your character has heard something about the subject. Use the guidelines for gathering information in the {@skill Investigation} Skill description to determine the level of information you gain. You receive only one check per subject upon first encountering them, although the GM may allow another upon encountering the subject again once significant time has passed."
 			]
 		}
 	]

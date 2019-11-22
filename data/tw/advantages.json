@@ -586,17 +586,17 @@
 			]
 		},
 		{
-			"name": "Tracking",
+			"translate_name": "追跡者", "name": "Tracking",
 			"type": "S",
 			"entries": [
-				"You can use the Perception skill to visually follow tracks like the {@effect Sense|Tracking Senses} effect (see Powers)."
+				"你可以使用{@skill 感知}技能以利用視覺追蹤他人留下的蹤跡，就如同使用了{@effect Sense|追蹤感官}效果一樣。"
 			]
 		},
 		{
-			"name": "Well-informed",
+			"translate_name": "消息靈通", "name": "Well-informed",
 			"type": "S",
 			"entries": [
-				"You are exceptionally well-informed. When encountering an individual, group, or organization for the first time, you can make an immediate Investigation or Persuasion skill check to see if your character has heard something about the subject. Use the guidelines for gathering information in the Investigation Skill description to determine the level of information you gain. You receive only one check per subject upon first encountering them, although the GM may allow another upon encountering the subject again once significant time has passed."
+				"你消息特別的靈通。當第一次遭遇到某個個體、團體、或組織時，你可以立刻進行一次{@skill 調查}或{@skill 說服}技能檢定，以確認你的角色是否曾經聽過關於目標的情報。使用{@skill 調查}技能中關於收集情報的說明以決定你所獲得的情報程度。你只能在第一次遭遇到目標時進行這個檢定一次，不過GM可能會允許你在經過一段很長的時間之後，再次遭遇該目標時得以再次進行這個檢定。"
 			]
 		}
 	]
