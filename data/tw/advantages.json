@@ -528,10 +528,10 @@
 			]
 		},
 		{
-			"name": "Jack-of-all-trades",
+			"translate_name": "萬事通", "name": "Jack-of-all-trades",
 			"type": "S",
 			"entries": [
-				"You can use any skill untrained, even skills or aspects of skills that normally cannot be used untrained, although you must still have proper tools if the skill requires them."
+				"你可以在未受訓的情況下使用任何技能，即使是那些原本必須經過訓練才能使用的技能或其中某些項目，你也可以正常使用它們。然而，你仍必須使用該技能所要求的合適工具（若有）。"
 			]
 		},
 		{
@@ -558,10 +558,10 @@
 			]
 		},
 		{
-			"name": "Ritualist",
+			"translate_name": "儀式祭司", "name": "Ritualist",
 			"type": "S",
 			"entries": [
-				"You can use the Expertise: Magic skill to create and cast magical rituals (see {@rule Magic Rituals|basic|7|magical rituals}). This advantage is often a back-up or secondary magical power for superhuman sorcerers, and may be the only form of magic available to some “dabbler” types."
+				"你可以使用{@skill Expertise|專業：魔法}技能以創造或施展魔法儀式（參見{@rule 魔法儀式|basic|7|magical rituals}規則）這個特長對於法師類型的超級英雄而言通常是個備用手段或次要魔法能力，且可能會是某些「業餘人士」唯一能夠掌握的魔法形式。"
 			]
 		},
 		{
