@@ -510,7 +510,7 @@
 			"name": "Hide in Plain Sight",
 			"type": "S",
 			"entries": [
-				"You can hide (see Hiding under {@skill Stealth} in Skills) without any need for a Deception or Intimidation check or any sort of diversion, and without penalty to your Stealth check. You’re literally there one moment, and gone the next. You must still have some form of cover or concealment within range of your normal movement speed in order to hide."
+				"You can hide (see Hiding under {@skill Stealth} in Skills) without any need for a {@skill Deception} or {@skill Intimidation} check or any sort of diversion, and without penalty to your Stealth check. You’re literally there one moment, and gone the next. You must still have some form of cover or concealment within range of your normal movement speed in order to hide."
 			]
 		},
 		{
@@ -575,14 +575,14 @@
 			"name": "Startle",
 			"type": "S",
 			"entries": [
-				"You can use Intimidation rather than Deception to feint in combat (see Feint under the {@skill Deception} Skill description). Targets resist with Insight, Intimidation, or Will defense."
+				"You can use {@skill Intimidation} rather than {@skill Deception} to feint in combat (see Feint under the {@skill Deception} Skill description). Targets resist with {@skill Insight}, {@skill Intimidation}, or Will defense."
 			]
 		},
 		{
 			"name": "Taunt",
 			"type": "S",
 			"entries": [
-				"You can demoralize an opponent with Deception rather than Intimidation (see Demoralize use of {@skill Intimidation} Skill), disparaging and undermining confidence rather than threatening. Targets resist using Deception, Insight, or Will defense."
+				"You can demoralize an opponent with {@skill Deception} rather than {@skill Intimidation} (see Demoralize use of {@skill Intimidation} Skill), disparaging and undermining confidence rather than threatening. Targets resist using {@skill Deception}, {@skill Insight}, or Will defense."
 			]
 		},
 		{

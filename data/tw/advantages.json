@@ -507,10 +507,10 @@
 			]
 		},
 		{
-			"name": "Hide in Plain Sight",
+			"translate_name": "隨處藏匿", "name": "Hide in Plain Sight",
 			"type": "S",
 			"entries": [
-				"You can hide (see Hiding under {@skill Stealth} in Skills) without any need for a Deception or Intimidation check or any sort of diversion, and without penalty to your Stealth check. You’re literally there one moment, and gone the next. You must still have some form of cover or concealment within range of your normal movement speed in order to hide."
+				"你無須進行{@skill 欺瞞}或{@skill 威嚇}檢定以製造任何的分神，就可以直接躲藏起來（參見{@skill 潛行}技能的躲藏項目），且你的潛行檢定也不會因此承受情境罰值。你將如字面意義那樣，上一秒還在該處，下一秒就消失無縱。你仍然需要位於你正常移動速度範圍內的掩護或遮蔽，才能夠跑過去躲藏起來。"
 			]
 		},
 		{
@@ -535,24 +535,24 @@
 			]
 		},
 		{
-			"name": "Languages",
+			"translate_name": "語言", "name": "Languages",
 			"type": "S",
 			"rank": true,
 			"entries": [
-				"You can speak and understand additional languages. With one rank in this advantage, you know an additional language. For each additional rank, you double your additional known languages: two at rank 2, four at rank 3, eight at rank 4, etc. So a character with Languages 7 is fluent in 64 languages! Characters are assumed to be fluent in any languages they know, including being able to read and write in them.",
-				"For the ability to understand any language, see {@effect Comprehend} effect in Powers.",
+				"你可以使用並理解額外的語言。1級的這個特長將使你知曉一種額外的語言。這個特長的每一級額外等級都將使你額外知曉的語言數量翻倍：2級時二種語言、3級時四種語言、4級時八種、以此類推。因此一名擁有7級語言特長的角色將能夠流暢地使用64種額外語言！角色被預設為能夠流暢地使用他們所知曉的語言，包括能夠閱讀並書寫它們。",
+				"若想要理解任何語言的能力，請參見超能力效果的{@effect 理解}效果。",
 				{
 					"type": "inset",
-					"name": "Literacy",
+					"translate_name": "讀寫能力", "name": "Literacy",
 					"entries": [
-						"Characters are assumed to be literate in their native language and any other language they know. At the GM’s discretion, characters may have to spend an additional Languages rank to be literate in a language with a different alphabet or style of writing from the character’s native language (such as Arabic, Japanese kanji or Russian Cyrillic for an English speaker). Completely illiterate characters are faced with a potential Disability complication during the game."
+						"角色通常被預設具備他們母語級任何已知語言的讀寫能力。但根據GM的裁斷，對於那些字母系統或書寫邏輯與他們母語不同的語言來說，該角色可能會需要使用額外的語言等級才能獲得這些語言的讀寫能力（例如對於英文使用者而言，阿拉伯語、日文漢字、或俄文斯拉夫字母就屬於這類語言）。完全不識字的角色可能會在遊戲中面臨到潛在的困難阻礙。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "The Language Barrier",
+					"translate_name": "語言隔閡", "name": "The Language Barrier",
 					"entries": [
-						"Generally speaking, languages are not terribly important in comic book superhero stories except as background color or occasional plot complications. Gamemasters should allow players with characters fluent in other languages the occasional opportunity to show them off or put them to good use. If you specifically set up the language barrier as an obstacle by confronting the heroes with a language they cannot possibly understand, that should count as a complication and be worth a hero point."
+						"通常來說，漫畫中的超級英雄故事裡，語言並不是個相當重要的要素，而僅會作為背景色彩或偶爾的情節難題。遊戲主持人最好讓能流暢使用其他語言的角色獲得展現並發揮其語言能力的機會。若你想特別設立語言隔閡作為困境，使英雄們遭遇一種他們無法理解的語言，那麼這將被視作一個糾葛難題，並值得讓角色們因此獲得一點勝利點。"
 					]
 				}
 			]
@@ -572,17 +572,17 @@
 			]
 		},
 		{
-			"name": "Startle",
+			"translate_name": "驚愕", "name": "Startle",
 			"type": "S",
 			"entries": [
-				"You can use Intimidation rather than Deception to feint in combat (see Feint under the {@skill Deception} Skill description). Targets resist with Insight, Intimidation, or Will defense."
+				"你可以使用{@skill 威嚇}技能代替{@skill 欺瞞}技能以在戰鬥中進行佯攻（參見{@skill 欺瞞}技能的佯攻項目）。目標將使用{@skill 洞見}、{@skill 威嚇}、或意志防禦來進行抵抗。"
 			]
 		},
 		{
-			"name": "Taunt",
+			"translate_name": "嘲諷", "name": "Taunt",
 			"type": "S",
 			"entries": [
-				"You can demoralize an opponent with Deception rather than Intimidation (see Demoralize use of {@skill Intimidation} Skill), disparaging and undermining confidence rather than threatening. Targets resist using Deception, Insight, or Will defense."
+				"你可以使用{@skill 欺瞞}技能代替{@skill 威嚇}技能來挫敗一名對手的士氣（參見{@skill 威嚇}技能的挫敗士氣項目），利用貶低而非威脅的方式來摧毀信心。目標將使用{@skill 欺瞞}、{@skill 洞見}、或意志防禦來進行抵抗。"
 			]
 		},
 		{
