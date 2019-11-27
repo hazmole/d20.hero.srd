@@ -459,51 +459,51 @@
 			]
 		},
 		{
-			"name": "Attractive",
+			"translate_name": "迷人", "name": "Attractive",
 			"type": "S",
 			"rank": 2,
 			"entries": [
-				"You’re particularly attractive, giving you a +2 circumstance bonus on Deception and Persuasion checks to deceive, seduce, or change the attitude of anyone who finds your looks appealing. With a second rank, you are Very Attractive, giving you a +5 circumstance bonus. This bonus does not count as part of your regular skill bonus in terms of the series power level, but also does not apply to people or situations which (in the GM’s opinion) would not be influenced by your appearance.",
-				"While superheroes tend to be a fairly good-looking lot, this advantage is generally reserved for characters with particularly impressive looks."
+				"你特別有吸引力，這讓你在欺騙、引誘、或改變那些認為你看起來相當有魅力的人們的態度時，所進行的{@skill 欺瞞}和{@skill 說服}檢定中能夠獲得+2的情境加值。2級的這個特長將使你變得非常非常迷人，使你改為獲得+5的情境加值。在處理劇集超能力階級的限制時，這個加值並不會被計入你的常規技能加值中，但這個加值也無法適用於那些不會被你外貌影響的對象（由GM決定）。",
+				"儘管超級英雄的外貌大都已經相當好看，但這個特長通常是留給那些有著特別出眾外貌的角色使用。"
 			]
 		},
 		{
-			"name": "Connected",
+			"translate_name": "人脈", "name": "Connected",
 			"type": "S",
 			"entries": [
-				"You know people who can help you out from time to time. It might be advice, information, help with a legal matter, or access to resources. You can call in such favors by making a Persuasion check. The GM sets the DC of the check, based on the aid required. A simple favor is DC 10, ranging up to DC 25 or higher for especially difficult, dangerous, or expensive favors. You can spend a Victory point to automatically secure the favor, if the GM allows it. The GM has the right to veto any request if it is too involved or likely to spoil the plot of the adventure. Use of this advantage always requires at least a few minutes (and often much longer) and the means to contact your allies to ask for their help."
+				"你認識許多能時不時為你提供幫助的人們。這些幫助可能會是建議、情報、法律事務的協助、或獲得資源的手段。你可以透過進行一次{@skill 說服}檢定以尋求這類協助。GM將會根據協助的內容決定這個檢定的DC。簡單的舉手之勞可能會是DC 10，而特別困難、危險、或所費不貲的援助則可能會到DC 25或更高。若GM允許，你可以消耗一點勝利點以自動獲得這個好處。GM有權否決任何可能會過度深入或破壞冒險情節的援助請求。使用這個特長的效果總是會花費至少數分鐘的時間（且通常會更久），且你需要能夠聯絡到盟友的手段才有辦法尋求他們的幫助。"
 			]
 		},
 		{
-			"name": "Contacts",
+			"translate_name": "情報網路", "name": "Contacts",
 			"type": "S",
 			"entries": [
-				"You have such extensive and well-informed contacts you can make an Investigation check to gather information in only one minute, assuming you have some means of getting in touch with your contacts. Further Investigation checks to gather information on the same subject require the normal length of time, since you must go beyond your immediate network of contacts."
+				"你掌握著一個廣闊且消息靈通的情報網路，你可以進行一個{@skill 調查}檢定以花費僅僅一分鐘的時間收集情報。對同一個主題進行更進一步的情報收集會需要花費原本正常所需花費的時間（至少1小時），這是因為你必須觸及超出你情報網路的範圍才能收集到更深入的情報。"
 			]
 		},
 		{
-			"name": "Daze",
+			"translate_name": "惑人干擾", "name": "Daze",
 			"type": "S",
 			"rank": 2,
 			"entries": [
-				"You can make a Deception or Intimidation check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, Insight, or Will defense, whichever has the highest bonus). If you win, your target is {@condtion dazed} (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
+				"你能夠以一個標準動作進行一次{@skill 欺瞞}或{@skill 威嚇}檢定（當你獲得這個特長時選擇要使用哪個技能）以在戰鬥中使一個敵人產生猶豫。以一個標準動作進行一次技能檢定以對抗你目標的抵抗檢定（目標將使用相同的技能、{@skill 洞見}技能、或意志防禦）。若你勝出，則你的目標將陷入{@condtion 目眩}狀態（只能採取標準動作），並持續到你的下一輪結束。利用欺瞞技能和利用威嚇技能來使他人陷入{@condtion 目眩}狀態的能力屬於各自獨立的特長，你可以選擇這個特長二次以同時獲得它們。"
 			]
 		},
 		{
-			"name": "Fascinate",
+			"translate_name": "神魂顛倒", "name": "Fascinate",
 			"type": "S",
 			"rank": true,
 			"entries": [
-				"One of your interaction skills is so effective you can capture and hold other’s attention with it. Choose Deception, Intimidation, or Persuasion when you acquire this advantage. You can also use Fascinate with an appropriate Expertise skill, like musician or singer, at the GM’s discretion.",
-				"You are subject to the normal guidelines for interaction skills, and combat or other immediate danger makes this advantage ineffective. Take a standard action and make an interaction skill check against your target’s opposing check (Insight or Will defense). If you succeed, the target is {@condition entranced}. You can maintain the effect with a standard action each round, giving the target a new resistance check. The effect ends when you stop performing, the target successfully resists, or any immediate danger presents itself. Like all interaction skills, you can use Fascinate on a group, but you must affect everyone in the group in the same way.",
-				"You may take this advantage more than once. Each time, it applies to a different skill."
+				"你的其中一個交涉技能變得特別有效，你可以利用它吸引並抓住他人的注意力。當你獲得這個特長時，選擇{@skill 欺瞞}、{@skill 威嚇}、或{@skill 說服}。在GM的裁斷下，你也可以將神魂顛倒特長用於合適的{@skill 專業}技能，像是音樂家或歌手。",
+				"你仍遵守該交涉技能原本的使用準則，且戰鬥或其他立即的危險將會使這個特長失去效果。採取一個標準動作並進行一次交涉技能檢定以對抗你目標的抵抗檢定（{@skill 洞見}或意志防禦）。若你成功，則目標將陷入{@condition 魅惑}狀態。你可以在每輪以一個標準動作維持這個效果，並讓目標再進行一次新的抵抗檢定。這個效果將在你停止行動、目標成功抵抗、或任何立即性的危險出現時終止。跟所有其他交涉技能一樣，你可以對一整個群體使用神魂顛倒特長，但你必須對群體中的每個成員以相同的方式造成影響。",
+				"你可以多次獲得這個特長以選擇不同的技能。"
 			]
 		},
 		{
-			"name": "Favored Foe",
+			"translate_name": "宿敵", "name": "Favored Foe",
 			"type": "S",
 			"entries": [
-				"You have a particular type of opponent you’ve studied or are especially effective against. It may be a type of creature (aliens, animals, constructs, mutants, undead, etc.), a profession (soldiers, police officers, Yakuza, etc.) or any other category the GM approves. Especially broad categories like “humans” or “villains” are not permitted. You gain a +2 circumstance bonus on Deception, Intimidation, Insight, and Perception checks dealing with your Favored Foe. This circumstance bonus is not limited by power level."
+				"你對於一種特定類別的敵人曾下過研究、或者你特別擅長對付它們。這種敵人可能會是一種生物類型（外星人、動物、構裝體、變種人、不死生物等等）、一種職業（士兵、警察、黑道等等）、或其他GM核可的種類。選擇像是「人類」或［反派］這類特別廣泛的類別是不被允許的。你在與你宿敵互動時所進行的{@skill 欺瞞}、{@skill 威嚇}、{@skill 洞見}、和{@skill 感知}技能檢定將獲得+2的情境加值。這個情境加值並不會受限於超能力階級。"
 			]
 		},
 		{

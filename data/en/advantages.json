@@ -463,7 +463,7 @@
 			"type": "S",
 			"rank": 2,
 			"entries": [
-				"You’re particularly attractive, giving you a +2 circumstance bonus on Deception and Persuasion checks to deceive, seduce, or change the attitude of anyone who finds your looks appealing. With a second rank, you are Very Attractive, giving you a +5 circumstance bonus. This bonus does not count as part of your regular skill bonus in terms of the series power level, but also does not apply to people or situations which (in the GM’s opinion) would not be influenced by your appearance.",
+				"You’re particularly attractive, giving you a +2 circumstance bonus on {@skill Deception} and {@skill Persuasion} checks to deceive, seduce, or change the attitude of anyone who finds your looks appealing. With a second rank, you are Very Attractive, giving you a +5 circumstance bonus. This bonus does not count as part of your regular skill bonus in terms of the series power level, but also does not apply to people or situations which (in the GM’s opinion) would not be influenced by your appearance.",
 				"While superheroes tend to be a fairly good-looking lot, this advantage is generally reserved for characters with particularly impressive looks."
 			]
 		},
@@ -471,14 +471,14 @@
 			"name": "Connected",
 			"type": "S",
 			"entries": [
-				"You know people who can help you out from time to time. It might be advice, information, help with a legal matter, or access to resources. You can call in such favors by making a Persuasion check. The GM sets the DC of the check, based on the aid required. A simple favor is DC 10, ranging up to DC 25 or higher for especially difficult, dangerous, or expensive favors. You can spend a Victory point to automatically secure the favor, if the GM allows it. The GM has the right to veto any request if it is too involved or likely to spoil the plot of the adventure. Use of this advantage always requires at least a few minutes (and often much longer) and the means to contact your allies to ask for their help."
+				"You know people who can help you out from time to time. It might be advice, information, help with a legal matter, or access to resources. You can call in such favors by making a {@skill Persuasion} check. The GM sets the DC of the check, based on the aid required. A simple favor is DC 10, ranging up to DC 25 or higher for especially difficult, dangerous, or expensive favors. You can spend a Victory point to automatically secure the favor, if the GM allows it. The GM has the right to veto any request if it is too involved or likely to spoil the plot of the adventure. Use of this advantage always requires at least a few minutes (and often much longer) and the means to contact your allies to ask for their help."
 			]
 		},
 		{
 			"name": "Contacts",
 			"type": "S",
 			"entries": [
-				"You have such extensive and well-informed contacts you can make an Investigation check to gather information in only one minute, assuming you have some means of getting in touch with your contacts. Further Investigation checks to gather information on the same subject require the normal length of time, since you must go beyond your immediate network of contacts."
+				"You have such extensive and well-informed contacts you can make an {@skill Investigation} check to gather information in only one minute, assuming you have some means of getting in touch with your contacts. Further Investigation checks to gather information on the same subject require the normal length of time, since you must go beyond your immediate network of contacts."
 			]
 		},
 		{
@@ -486,7 +486,7 @@
 			"type": "S",
 			"rank": 2,
 			"entries": [
-				"You can make a Deception or Intimidation check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, Insight, or Will defense, whichever has the highest bonus). If you win, your target is {@condtion dazed} (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
+				"You can make a {@skill Deception} or {@skill Intimidation} check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, {@skill Insight}, or Will defense, whichever has the highest bonus). If you win, your target is {@condtion dazed} (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
 			]
 		},
 		{
@@ -494,8 +494,8 @@
 			"type": "S",
 			"rank": true,
 			"entries": [
-				"One of your interaction skills is so effective you can capture and hold other’s attention with it. Choose Deception, Intimidation, or Persuasion when you acquire this advantage. You can also use Fascinate with an appropriate Expertise skill, like musician or singer, at the GM’s discretion.",
-				"You are subject to the normal guidelines for interaction skills, and combat or other immediate danger makes this advantage ineffective. Take a standard action and make an interaction skill check against your target’s opposing check (Insight or Will defense). If you succeed, the target is {@condition entranced}. You can maintain the effect with a standard action each round, giving the target a new resistance check. The effect ends when you stop performing, the target successfully resists, or any immediate danger presents itself. Like all interaction skills, you can use Fascinate on a group, but you must affect everyone in the group in the same way.",
+				"One of your interaction skills is so effective you can capture and hold other’s attention with it. Choose {@skill Deception}, {@skill Intimidation}, or {@skill Persuasion} when you acquire this advantage. You can also use Fascinate with an appropriate {@skill Expertise} skill, like musician or singer, at the GM’s discretion.",
+				"You are subject to the normal guidelines for interaction skills, and combat or other immediate danger makes this advantage ineffective. Take a standard action and make an interaction skill check against your target’s opposing check ({@skill Insight} or Will defense). If you succeed, the target is {@condition entranced}. You can maintain the effect with a standard action each round, giving the target a new resistance check. The effect ends when you stop performing, the target successfully resists, or any immediate danger presents itself. Like all interaction skills, you can use Fascinate on a group, but you must affect everyone in the group in the same way.",
 				"You may take this advantage more than once. Each time, it applies to a different skill."
 			]
 		},
@@ -503,7 +503,7 @@
 			"name": "Favored Foe",
 			"type": "S",
 			"entries": [
-				"You have a particular type of opponent you’ve studied or are especially effective against. It may be a type of creature (aliens, animals, constructs, mutants, undead, etc.), a profession (soldiers, police officers, Yakuza, etc.) or any other category the GM approves. Especially broad categories like “humans” or “villains” are not permitted. You gain a +2 circumstance bonus on Deception, Intimidation, Insight, and Perception checks dealing with your Favored Foe. This circumstance bonus is not limited by power level."
+				"You have a particular type of opponent you’ve studied or are especially effective against. It may be a type of creature (aliens, animals, constructs, mutants, undead, etc.), a profession (soldiers, police officers, Yakuza, etc.) or any other category the GM approves. Especially broad categories like “humans” or “villains” are not permitted. You gain a +2 circumstance bonus on {@skill Deception}, {@skill Intimidation}, {@skill Insight}, and {@skill Perception} checks dealing with your Favored Foe. This circumstance bonus is not limited by power level."
 			]
 		},
 		{
