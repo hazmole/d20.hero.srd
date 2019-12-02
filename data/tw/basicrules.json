@@ -2709,39 +2709,39 @@
 								"Descriptors come in many different forms. The break-down in this section is inexact, and deliberately so; some descriptors fall into more than one category, while others might not fall into any of these categories, being unique to that particular character or power. Still, the following are the major types of descriptors, and things to consider when creating or choosing powers for a character.",
 								{
 									"type": "entries",
-									"name": "Origin",
+									"translate_name": "起源", "name": "Origin",
 									"entries": [
-										"A descriptor may relate to the origin of a power, where it comes from or what granted it to the character. For example, did he gain Speed in a scientific accident or from years of focused meditation at a secret temple to the God of Speed? A power’s origin may determine how it interacts with other powers. Some powers with the same origin might be better suited to counter each other, for example, or to work in conjunction, combining their benefits. Examples of origin descriptors include:",
+										"描述符可能會和超能力的起源有關，說明它從何而來、或者是什麼存在把超能力賦予給了角色。舉例來說，他的神速超能力是在一場科學意外中獲得？還是因為多年來在一個秘密神殿中向速度之神冥想祈禱所得的恩賜？超能力的起源會決定它怎麼和其他超能力交互影響，例如，某些擁有共同起源的超能力可能會更適合反制彼此或協力合作。起源類描述符的例子包括：",
 										{
 											"type": "list",
 											"items": [
-												"{@b Accidental} powers are the result of random chance or accident: being struck by lightning, doused in chemicals, exposed to exotic radiation, and so forth. The circumstances of an accidental origin may or may not be something others can duplicate (although some are sure to try).",
-												"{@b Bestowed} powers are granted by an outside agency of some sort, such as a deity, a technology, an alien race, or another superhuman. The process that bestows the powers can be transitory or effectively permanent, barring some sort of plot device or GM-created setback.",
-												"{@b Invented} powers are designed and created by someone, either the inventor of a particular piece of technology or the designer of a technique or technology for bestowing powers on others.",
-												"{@b Mutant} powers are inborn, but not natural to the character’s race or species. They are the result of a genetic quirk or mutation of some sort, possibly due to environmental influences like chemical mutagens or radiation. Since they involve a change in the subject’s DNA, mutant powers—or at least the potential for them—are inheritable.",
-												"{@b Training} powers are gained from study and practice. While many training powers are “super-skills” or esoteric abilities learned from trained masters, this origin covers any power that is learned rather than acquired in another way. It’s not necessarily limited to “skill-based” powers or advantages. For example, magical or psionic powers might be acquired through training and study."
+												"{@b 意外}起源的超能力代表著那些源自於隨機性或意外的結果：被閃電劈中、浸泡在化學物質中、暴露在輻射中等等。這些意外起源的情境可能可以、也可能無法被模仿複製（然而肯定有人會去嘗試複製）。",
+												"{@b 賦予}起源的超能力通常是被某種外在因素所賦予的，例如神、高科技、外星種族、或者是其他超人類。這個被賦予的超能力可能是暫時性的、或者只要沒有發生某些劇情要素、或GM所設下的挫折，就能夠永久有效。",
+												"{@b 發明}起源的超能力是由某人設計並創造的，這可能會是源自於某個特定科技的發明家、某種技術的設計師、或者是某種賦予他人超能力的高科技。",
+												"{@b 變異}起源的超能力是天生的，但對於該角色原本的種族或種類而言並不自然。他們是某種基因異常或變異所產生的結果，且可能是源自於像是化學誘變劑或輻射等環境因素的影響。由於這涉及了目標基因的改變，因此變異起源的超能力是可以被遺傳繼承下去的──或者起碼它們變異的潛在可能性會被繼承下去。",
+												"{@b 訓練}起源的超能力是透過學習或鍛鍊而獲得的。儘管大部分訓練起源的超能力都屬於「超級技能」或從老練師傅學來的深晦技術，但這個起源的超能力也涵蓋了那些透過學習，而非透過其他方式獲得的超能力。它並不一定要限於「技術型」的超能力或特長。舉例來說，魔法或靈能力也可能藉由訓練和研究學習的方式來習得。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Source",
+									"translate_name": "源頭", "name": "Source",
 									"entries": [
-										"A power’s source differs from its origin in that the origin is where the potential or ability to use the power comes from (where the character got the power in the first place), while source is where the power’s effect comes from, or where the power draws its energy.",
-										"Comic book style superpowers answer this question with vague descriptors, since the kind of real-world energy required for many powers is staggering, requiring all super-humans to be living fusion reactors! While this may well be the case in your own setting, the assumption is that power source is just another descriptor in most games.",
-										"Source descriptors influence the effects of certain powers, such as Nullify Magic Powers, which can counter powers with a magical source, whether or not their effects are magical. Examples of power sources include:",
+										"超能力的源頭與起源並不一樣，起源指的是超能力潛能或使用能力的來源（亦即角色一開始得到超能力的方式），而源頭則代表著超能力效果發揮的源頭，或者超能力汲取能量的地方。",
+										"漫畫風格的超能力通常會模糊帶過超能力的源頭，這是因為許多這類超能力若要在現實世界中施展，將會需要相當驚人的能量，且恐怕所有超人類都必須要是會走路的核反應爐才能達到這個條件！儘管這類問題可能會在你的世界觀設定中浮現，但我們可以預設這些超能力的源頭在遊戲中都只不過是另一個描述符罷了。",
+										"源頭描述符會影響到某些超能力效果，例如{@effect 無效化}魔法效果，能夠用以反制源頭為魔法的超能力，而不論該超能力的效果是否為魔法。源頭類描述符的例子包括：",
 										{
 											"type": "list",
 											"items": [
-												"{@b Biological} powers come from the user’s own physiology, drawing power from stores of bio-chemical energy or perhaps from specialized organs or biological functions, like a squid’s ink or a skunk’s musk, which are generated biologically.",
-												"{@b Cosmic} powers draw upon the fabric of the universe itself or “cosmic” power sources like quasars, white holes, or the background radiation of the Big Bang. Cosmic powers are close to divine in many respects (see the following) in that they transcend earthly sources of power.",
-												"{@b Divine} powers come from a higher being, essentially a god or gods. Divine power is generally limited to the god(s) areas of influence and may be morally aligned, available only to wielders with an allegiance to that divinity.",
-												"{@b Extradimensional} powers originate outside the home dimension of the setting, from other planes or dimensions of existence. Some extradimensional powers are scientific while others are downright mystical, or even beyond into realms “man was not meant to know.”",
-												"{@b Magical} powers draw upon magical energies, however they might be defined in the setting. Typically, there is some sort of “magical energy” in existence that magicians and magical creatures draw upon for their powers and effects. Note that powers with a magical source are not necessarily “spells,” although they might be; a dragon’s breath might use magic to power it, or it might be biological, depending on the descriptors applied to it (in other words, how it’s defined in terms of the setting).",
-												"{@b Moral} powers come from an abstract morality or ideal, essentially from an allegiance to that ideal. Whether or not the moral power is aware and capable of interaction is up to the GM and the specifications of the setting; it’s the character’s belief in that ideal that matters so far as the power is concerned. “Good” and “evil” are common abstract moral sources of powers, but others may include chaos, law, an-archy, order, justice, balance, neutrality, reason, and so forth.",
-												"{@b Psionic} powers are powers of the mind, coming from the psyche of the wielder (or perhaps from the Collective Unconscious, which acts as a “wellspring” of psionic power). This power source is associated with classic “mental” powers like telepathy and telekinesis, although effects like Mind Reading and Move Object can also come from other sources.",
-												"{@b Technological} powers are the result of technology, machines and technological devices. Although technological power sources often involve Devices or Equipment, they don’t necessary have to; a technological power may be a permanent implant, for example, without the limitations of a Device, but still technological (and affected by things keyed to the technological descriptor)."
+												"{@b 生物系}超能力源自於使用者自身的生理結構，汲取自身體內儲存的生物化學能量，或來自於某些特定器官和生理功能，例如烏賊的墨汁或臭鼬的臭氣，都是靠自身生理結構所產生的能力。",
+												"{@b 宇宙系}超能力汲取宇宙本身、或是諸如天體、白洞、或宇宙大爆炸殘存背景輻射等「宇宙」能量。宇宙系與神聖系超能力在許多方面上都有著共同點（參考下述），那就是它們都有著超玥俗世的力量源頭。",
+												"{@b 神聖系}超能力源自於更高層次的存在，如神靈或眾神。神聖系超能力通常會限定於該神祈所掌握的權柄範疇、且可能會要求只有忠於該神祇，且道德陣營與該神祇相同的人才能使用這個超能力。",
+												"{@b 超維系}超能力源自於那些超出世界觀設定中正常維度之外，位於其他位面或維度的存在。一些超維系超能力可能帶有科學性質，而另一些則是徹頭徹尾的神秘，或至達到「人類不應察覺」的領域。",
+												"{@b 魔法系}超能力透過汲取魔法能量來發揮作用，然而它們在世界觀設定中可以會另有定義。通常來說，在世界中存在著某種「魔法能量」，而魔法使與魔法生物就是透過汲取這些能量來發揮他們的超能力效果。必須注意的是，儘管以魔力為來源的超能力大多都是「法術」，但並不一定必須要是法術；魔龍的吐息可能就是利用魔力來噴吐而出，但也可能會是源自於魔龍自身的生理結構，這一切都根據其應用的描述符而定（換句話說，就是在設定中是如何被定義的）。",
+												"{@b 道德系}超能力源自於對某個抽象道德觀或理念的忠誠。道德系超能力是否可以被認知或互動都取決於GM和世界觀設定；對這個超能力而言，最重要的仍舊是該角色對於那個理念的信念。「善」與「惡」是最常見的道德系超能力來源，其他種類也可以包含像是混沌、律法、無政府主義、守序、正義、均衡、中立、理性等等。",
+												"{@b 靈能系}超能力代表著心靈力量，並來源自使用者的精神（也或者是群體的無意識，形成了靈能超能力的力量「源泉」）。這種超能力源頭通常與那些經典的「心靈」能力有關，像是心靈感應溝通和念動力，儘管如此，{@effect 心靈讀取}和{@effect 移動物體}這類超能力效果仍可以設定成其他形式的超能力來源。",
+												"{@b 科技系}超能力源自於科技、機械、或高科技設備。儘管科技系超能力通常涉及了裝備或裝置，但它們不一定是必要的；舉例來說，科技系能力也可以是永久性的植入手術，這種形式不會受到科技設備的限制，但依然與高科技有關（且仍會受到以科技描述符為目標的事物影響）。"
 											]
 										}
 									]
