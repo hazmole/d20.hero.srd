@@ -69,7 +69,7 @@
 					{ "name": "How Powers Work" },
 					{ "name": "Power Effects" },
 					{ "name": "Modifiers" },
-					{ "name": "Descriptors" }
+					{ "translate_name": "描述符", "name": "Descriptors" }
 				]
 			},
 			{
@@ -1438,12 +1438,12 @@
 				},
 				{
 					"type": "section",
-					"name": "Background",
+					"translate_name": "背景", "name": "Background",
 					"entries": [
-						"A lot of background details go into making your hero more than just a collection of numbers. Take a moment (if you haven’t already) to consider some of the following things about your character:",
+						"豐富的背景細節可以讓你的英雄更加立體，而非只是由一堆數據堆積而成。花點時間（如果你還沒這麼做的話）來考慮為你的英雄加添以下要素：",
 						{
 							"type": "entries",
-							"name": "Name",
+							"translate_name": "英雄名號", "name": "Name",
 							"entries": [
 								"What is your character’s name? That is to say, what is the name the hero uses in public, that appears in one-inch type in the newspaper headlines? Most heroes adopt unique and distinctive “code names,” so consider a suitable name for yours. Code names are often based on powers, theme, or style. Here are some options to consider:",
 								{
@@ -1494,7 +1494,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Age",
+							"translate_name": "年齡", "name": "Age",
 							"entries": [
 								"How old is the character? Superheroes tend to hover in that indeterminate age between 20 and 40, but some heroes are younger, often teenagers, and some are older, possibly much older, depending on a hero’s background. For example, the hero might have fought in World War II but ended up in the present day due to time travel or suspended animation. Heroes with Immunity to Aging are effectively immortal—they might be thousands of years old.",
 								"Consider the effects of age on your hero. Someone who fought in the Second World War is likely to have a different worldview than a modern teenager who just acquired super-powers, to say nothing of an immortal who has seen civilizations rise and fall or a godlike being from the dawn of time. A character’s age may influence the choice of certain traits. Aged characters are likely to have lower physical ability ranks, for example, while younger ones may have fewer skill ranks (having had less time to train in various skills)."
@@ -1502,12 +1502,12 @@
 						},
 						{
 							"type": "entries",
-							"name": "Appearance",
+							"translate_name": "外表", "name": "Appearance",
 							"entries": [
 								"What does your hero look like? Consider things like the character’s race, sex, ethnicity, and other factors in appearance. Is the hero even human? Superheroes can be aliens, robots, androids, spirits, and beings of pure energy. Is the character short or tall? What about hair and eye color? Does the hero have any distinguishing marks or unique features; is his appearance unusual in any way (apart from running around in a costume, that is)? Does the hero qualify for the Attractive advantage? (See {@b Advantages} for details.) What about complications stemming from the hero’s looks?",
 								{
 									"type": "entries",
-									"name": "Costume",
+									"translate_name": "英雄服", "name": "Costume",
 									"entries": [
 										"A costume is a big part of a superhero’s appearance. Like code names, most heroes have a distinctive costume, usually something skin-tight and colorful, often emblazoned with a symbol or logo. Other heroes wear more military-style outfits, fatigues or body armor with numerous bandoleers and belts. A suit of armor may serve as the hero’s costume: anything from ancient mail to a high-tech battlesuit. A few heroes don’t wear a special costume, just ordinary street clothes (which in itself can be pretty distinctive among a group of spandex-clad heroes).",
 										"In the comics, costumes are generally immune to the kind of routine wear-and-tear a hero’s powers should inflict on them. For example, heroes who can burst into flames don’t usually incinerate their clothing. The same is true for heroes who change their size or shape. Although a hero’s costume can be damaged or torn by attacks and other circumstances, it’s usually immune to the hero’s powers. This doesn’t cost any points; it’s just the way costumes work. For more on costumes as equipment, see {@b Gadgets & Gear}."
@@ -1515,7 +1515,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Alternate Identity",
+									"translate_name": "第二身份", "name": "Alternate Identity",
 									"entries": [
 										"Although heroes spend a lot of time fighting crime and using their powers to help others, most also try to find time to have lives of their own. Consider the hero’s “normal” life, both before acquiring super-powers and since. Does the hero maintain a secret identity, hiding behind a mask or other guise in order to have a semblance of a normal life while “off duty”? Describe the hero’s other identity and what the hero does while not out fighting the forces of evil.",
 										"Other heroes abandon all pretense of a “civilian” identity, revealing their true names to the world and living in the public eye. This means no juggling two separate lives, but also no refuge from the media, adoring fans, or the hero’s enemies, who can all keep track of the hero more easily. Both approaches have their good and bad points. Consider which is best for your hero."

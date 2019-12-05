@@ -1958,10 +1958,10 @@
 					"type": "inset",
 					"translate_name": "幕後花絮：時間、宇宙、和維度傳旅", "name": "Under the Hood: Time, Space, And Dimension Travel",
 					"entries": [
-						"The Time, Space, and Dimension Travel effects of Movement are comparatively cheap considering what they do, primarily because such special movement capabilities are highly dependent on the plot and nature of the setting, and subject to a lot of Gamemaster oversight. Thus, they largely amount to supped-up Features, mainly allowing heroes to visit exotic locales.",
-						"Temporal mechanics and the effects of time travel are left entirely up to the GM, who may choose to make Time Travel Limited, Uncontrolled, or Unreliable for player characters, or disallow it altogether, treating it solely as a plot-device in the setting.",
-						"Space travel in the comic books rarely involves the laws of physics and tends to occur “at the speed of plot”. Characters and vehicles (such as alien starships) able to traverse the void of space do so primarily to facilitate adventures out among the stars. Exactly how fast characters travel through the void of space does not really matter; it is how long it takes them to get where they’re going that matters. So Space Travel is largely defined in terms of “how far can you go between scenes?” The same is true of the mechanism of travel, whether hyperspace, jump drive, faster-than-light “warp speed,” or what have you.",
-						"The Gamemaster likewise decides on the existence and nature of other dimensions in the setting, what they are like, and who can reach them. Like Time Travel, the GM may require Dimension Travel be Limited, Uncontrolled, or Unreliable for player characters, or treat it solely as a plot-device rather than a defined effect."
+						"時間、宇宙、和維度傳旅的移動效果與它們所能達到的事情相比，其花費相對廉價許多，其中最主要原因是這類特殊移動方式大多都與故事與世界觀的設定掛鉤，且都受限於GM的監控之下。這從而使它們更多地成為了額外的輔助功能，讓英雄們得以造訪異域國度。",
+						"時間旅行的效果以及其時間機制全都由GM決定，他可以選擇讓時間旅行對於玩家角色而言具有{@modifier Limited}、{@modifier 不可控}、或{@modifier 不可靠}的特性，乾脆直接禁止這項能力，把時間旅行當成只為劇情服務的工具與設定。",
+						"漫畫中的宇宙傳旅極少會牽涉到物理定律的影響，且通常以「劇情速度」在宇宙中漫遊。能夠在虛空宇宙中旅行的角色和載具（如外星飛船）之所以具備這項能力，主要原因是為了讓其能在群星之間展開冒險。角色們在廣袤宇宙中移動的速度並不重要；重要的是，他們抵達目的地所需花費的時間有多久。因此，宇宙傳旅大致上可被定義為「你可以在場景間可以移動多遠的距離？」。同樣的道理也適用於其他的傳旅機制，例如超空間移動、空間跳躍、超光速「曲速」等等。",
+						"遊戲主持人同樣會決定世界觀設定中其他維度的存在與否以及性質，它們是什麼樣子、又有誰能夠來到該處。就和時間旅行一樣，GM可能會要求玩家角色的維度傳旅能力必須適用{@modifier Limited}、{@modifier 不可控}、或{@modifier 不可靠}的修飾符，或者將其單純視為只為劇情服務的工具，而非一種被定義的超能力效果。"
 					]
 				}
 			]
