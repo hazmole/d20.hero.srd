@@ -32,7 +32,7 @@
 					{ "translate_name": "英雄設計", "name": "Hero Design" },
 					{ "_translate_name": "角色點", "name": "Character Points" },
 					{ "_translate_name": "糾葛難題", "name": "Complications" },
-					{ "_translate_name": "背景", "name": "Background" },
+					{ "translate_name": "背景", "name": "Background" },
 					{ "_translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement" },
 					{ "_translate_name": "角色範型", "name": "Character Archetypes" }
 				]
@@ -1440,22 +1440,22 @@
 					"type": "section",
 					"translate_name": "背景", "name": "Background",
 					"entries": [
-						"豐富的背景細節可以讓你的英雄更加立體，而非只是由一堆數據堆積而成。花點時間（如果你還沒這麼做的話）來考慮為你的英雄加添以下要素：",
+						"豐富的背景細節可以讓你的英雄更加立體，讓他不再只是由一堆數據堆積而成的角色。花點時間（如果你還沒這麼做的話）來思考，為你的英雄加添以下要素：",
 						{
 							"type": "entries",
-							"translate_name": "英雄名號", "name": "Name",
+							"translate_name": "名稱", "name": "Name",
 							"entries": [
-								"What is your character’s name? That is to say, what is the name the hero uses in public, that appears in one-inch type in the newspaper headlines? Most heroes adopt unique and distinctive “code names,” so consider a suitable name for yours. Code names are often based on powers, theme, or style. Here are some options to consider:",
+								"你角色是如何被稱呼的？或者說，這名英雄在公眾場合所使用的名字，以及在那會出現在報紙頭條上的名號為何？大部分的英雄都會取一個獨特且具有辨識度的「代號」，所以為自己的角色想個適合的稱呼吧。代號大部分都基於角色的超能力、主題、或風格。以下列出一些可供參考的選項：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Origin}: A name may be based on the hero’s origin, power source, nation (or even world) of birth, and such.",
-										"{@b Powers}: Choose a name based on the hero’s powers: Firestarter or Blaze for a flame-controlling character, Thunder or Spark for an electrical character, and so forth.",
-										"{@b Theme}: Maybe the character has a theme or style suggesting a name: Paladin might be a medieval knight displaced into the present day, with a magical sword and armor. Madame Macabre may be all about magic and the occult.",
-										"{@b Titles}: Names may include various titles like Mister, Miss, Ms., Doctor, Sir, Lord, Lady, and Madam or even royal titles like King, Queen, Prince, Princess, Duke, Baron, Emperor and so forth. Military ranks are also popular parts of hero names, especially General, Major, and Captain.",
-										"{@b Gender}: Names often include gender designations like Man/Woman, Boy/Girl, Lad/Lass, and so forth.",
-										"{@b Sound}: Some code-names don’t really have anything to do with a character’s powers or background—they just sound cool: Kismet, Scion, Animus, Damask, and so forth. They may hint at the hero’s powers or origin, or have nothing to do with them.",
-										"{@b Real name}: Some heroes go by their given name, not using a code-name at all. Oftentimes these names still sound like codenames, however. They may also be nicknames, such as “Dash” for someone with the name Dashell, or “Buzz” for someone with the name Buzcinski, or whatever other nickname a character may have, such as “Stretch” or “Tiny”."
+										"{@b 起源}：名稱可能會基於英雄的起源、能力源頭、誕生的國家（或世界）等等。",
+										"{@b 超能力}：根據英雄的超能力選擇一個名稱：能夠控制火焰的角色可能會有「起火者」或「焰舌」的名號、而電氣系角色則可能有「雷鳴」或「火花」之類的稱呼，諸如此類。",
+										"{@b 主題}：也許角色本身就擁有著一個暗示其名稱的主題和風格：「聖騎士」可能會是個持有魔法寶劍與盔甲，流離至現代社會的中世紀騎士；而「死亡夫人」則可能會與駭人魔法和神祕學有關。",
+										"{@b 頭銜}：名稱也可能包含了種種頭銜，例如先生、小姐、博士、爵士、領主、女士、夫人，乃至皇室頭銜如國王、女王、王子、公主、伯爵、公爵、皇帝等等。軍階也是個相當常見於英雄名號的頭銜，尤其是將軍、少校、和隊長。",
+										"{@b 性別}：名稱也經常會帶有特定性別的稱呼，例如男/女、男孩/女孩、少年/少女等等。",
+										"{@b 發音}：某些代號與角色的超能力或背景之間完全沒有任何關係──他們只是聽起來很酷：琪斯美、賽揚、阿尼姆斯、織錦，諸如此類。它們可以會暗示英雄的超能力或起源，也可以毫無關聯。",
+										"{@b 本名}：有些英雄會直接使用自己的本名，而不使用其他任何代號。然而，有些這些名稱仍可能聽起來跟代號一樣。它們也可以是暱稱，例如名為達謝爾的某人可能會使用「達什」的小名，名為布茲辛奇的角色則可能會使用其縮寫「布茲」作為稱呼，或者其他像是「高瘦仔」或「小不點」等各種暱稱。"
 									]
 								}
 							]
@@ -1496,8 +1496,8 @@
 							"type": "entries",
 							"translate_name": "年齡", "name": "Age",
 							"entries": [
-								"How old is the character? Superheroes tend to hover in that indeterminate age between 20 and 40, but some heroes are younger, often teenagers, and some are older, possibly much older, depending on a hero’s background. For example, the hero might have fought in World War II but ended up in the present day due to time travel or suspended animation. Heroes with Immunity to Aging are effectively immortal—they might be thousands of years old.",
-								"Consider the effects of age on your hero. Someone who fought in the Second World War is likely to have a different worldview than a modern teenager who just acquired super-powers, to say nothing of an immortal who has seen civilizations rise and fall or a godlike being from the dawn of time. A character’s age may influence the choice of certain traits. Aged characters are likely to have lower physical ability ranks, for example, while younger ones may have fewer skill ranks (having had less time to train in various skills)."
+								"你的角色年紀有多大？超級英雄的年齡通常介於20至40歲之間，但有些英雄可能會比較年輕，多數是青少年；而一些則可能比較年老，或許遠遠年邁許多，這一切都取決於該名英雄的背景設定。舉例來說，某個英雄可能曾在第二次世界大戰中服役，但由於時間旅行或在身體機能暫停的情況下來到了現代社會。擁有免疫衰老能力的英雄實質上等同永生──他們甚至可能已經數千歲了。",
+								"考慮到年紀對你英雄所造成的影響。曾經在第二次世界大戰中奮戰的軍人，他對世界的觀點肯定與現代社會中剛得到超能力的青少年截然不同，更不用說那些已經見證過文明興衰，甚至於被當成是神明的永生者了。年齡可能會影響該名角色在遊戲數據上的選擇，舉例來說，年邁的角色大多有著較為低下的生理屬性等級，而年輕人則可能有著較少的技能等級（因為他們花費在不同技能訓練的時間較少）。"
 							]
 						},
 						{
@@ -1515,7 +1515,7 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "第二身份", "name": "Alternate Identity",
+									"translate_name": "多重身份", "name": "Alternate Identity",
 									"entries": [
 										"Although heroes spend a lot of time fighting crime and using their powers to help others, most also try to find time to have lives of their own. Consider the hero’s “normal” life, both before acquiring super-powers and since. Does the hero maintain a secret identity, hiding behind a mask or other guise in order to have a semblance of a normal life while “off duty”? Describe the hero’s other identity and what the hero does while not out fighting the forces of evil.",
 										"Other heroes abandon all pretense of a “civilian” identity, revealing their true names to the world and living in the public eye. This means no juggling two separate lives, but also no refuge from the media, adoring fans, or the hero’s enemies, who can all keep track of the hero more easily. Both approaches have their good and bad points. Consider which is best for your hero."
