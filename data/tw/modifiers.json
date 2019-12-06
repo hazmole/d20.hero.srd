@@ -544,25 +544,25 @@
 			]
 		},
 		{
-			"name": "Activation",
+			"translate_name": "啟動", "name": "Activation",
 			"type": "flaw",
 			"cost": {
 				"value": {"min":-1, "max":-2}, "type": "flat"
 			},
 			"entries": [
-				"A power with this flaw requires an action to prepare or activate before any of its effects are usable. If the power requires a move action to activate, the flaw is –1 point. If it requires a standard action, it is –2 points. Activation taking less than a move action is not a flaw, although may qualify as a complication (see the Power Loss complication for details).",
-				"Activation has no effect other than making all of the power’s effects available for use. The effects themselves still require their normal actions to use. You can use a power’s effects in the same turn as you activate it, provided you have sufficient actions to do so. If the power is deactivated—either voluntarily or involuntarily via effects like Nullify—you must activate it again in order to use any of its effects.",
-				"Activation applies to an entire power and all of its effects. Activating the power brings all of its effects “online” and makes them available. If you have to activate different effects separately, apply this flaw to each of them, requiring separate actions for each.",
-				"If Activation is not automatic, apply the Check Required flaw to the entire power as well and have the player make the necessary check in order to activate the power. If the check fails, the power does not activate, and the character has to take the activation action to try again.",
+				"一個應用了這個缺陷的超能力會需要一個動作以準備或啟動，才能使它的任何效果能夠被使用。若該超能力需要一個移動動作來啟動，則這個缺陷的花費為-1點。若該超能力需要一個標準動作來啟動，則這個缺陷的花費為-2點。需要採取少於一個移動動作的啟動將不會被視為缺陷，但可能夠格被做為糾葛難題（參見{@rule Power Loss complication|basic|other complications}以查閱更多細節）。",
+				"啟動修飾符除了讓所有該超能力的效果得以使用之外沒有其他作用。若要使用這些超能力效果，你仍需要採取其原本所需的動作。你可以在你啟動該超能力效果的同個回合使用該效果，只要你擁有足夠的動作這麼做。若該超能力被關閉──無論是因為自願或因為像是{@effect 無效化}效果而被迫失效──則你將必須再次啟動該超能力，才能再使用該超能力的任何效果。",
+				"啟動修飾符應用於一整個超能力和它的所有效果。啟動該超能力將會使它的所有效果一起「上線」，並讓它們得以被使用。若你想要分別啟動不同的效果，則將這個缺陷各別應用於這些效果，使它們各自都需要一個動作才能被啟動。",
+				"若啟動並不是自動成功，則同時將{@modifier Check Required}缺陷應用於整個超能力，並讓玩家在啟動該超能力時進行適當的檢定。若該檢定失敗，則超能力不會被啟動，且該角色必須在之後再採取一個啟動所需的動作才能再次嘗試啟動。",
 				{
 					"type": "entries",
-					"name": "Activation and Permanent Effects",
+					"translate_name": "啟動 和 永駐效果", "name": "Activation and Permanent Effects",
 					"entries": [
-						"The Activation flaw does allow permanent effects that are part of a power to be turned off, but only if the power as a whole is deactivated. It does not affect the other aspects of permanent duration, including the inability to improve the effect with extra effort. The GM should decide if allowing a permanent effect to have an Activation is appropriate based on the specific effect and any others it is combined with in the power.",
+						"啟動缺陷確實可以讓作為某個超能力一部份的永駐效果被關閉，但這只會發生在整個超能力都被關閉的情況。這個修飾符並不會影響永駐持續時間的其他面相，包括不能透過奮力一搏來增強效果的性質。GM需要根據該超能力的特定效果以及其他與之組合的效果，來決定該永駐效果是否能夠應用啟動修飾符。",
 						{
 							"type": "example",
 							"entries": [
-								"Stonewall has the power to turn into a super-strong rock-form. This is a combination of the Enhanced Strength, Impervious Protection, and Power-Lifting effects. Stonewall’s player applies the Activation flaw to the power, saying Stonewall has to concentrate and take a standard action to assume his rock-form. That reduces the total cost of all three effects by 2 character points and means unless Stonewall takes a standard action to activate his rock-form, he cannot use any of the power’s effects, even including permanent ones like Protection."
+								"石壁俠擁有一個能使自己變成超高硬度岩石型態的超能力。這個超能力的構成包括了{@effect Enhanced Trait|增強力量}、{@modifier 強抗}{@effect 保護}、和{@samplepower Power-Lifting}效果。石壁俠的玩家決定將啟動缺陷應用於這個超能力，表示石壁俠必須採取一個標準動作以集中精神，才能變化成岩石型態。這將會使這三個超能力效果全都各自減少2點角色點花費，並代表直到石壁俠採取一個標準動作以啟動他的岩石型態之前，他都無法使用該超能力的任何效果，即使是像保護這種持續時間為永駐的效果也一樣。"
 							]
 						}
 					]
@@ -638,7 +638,7 @@
 			]
 		},
 		{
-			"name": "Fades",
+			"_translate_name": "逸散", "name": "Fades",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
@@ -695,18 +695,18 @@
 			]
 		},
 		{
-			"_translate_name": "限定條件", "name": "Limited",
+			"translate_name": "限定條件", "name": "Limited",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An effect with this flaw is not effective all the time. Limited powers generally break down into two types: those usable only in certain situations and those usable only on certain things. For example Only While Singing Loudly, Only While Flying, Only on Men (or Women), Only Against Fire, Not Usable on Yellow Things, and so forth. As a general rule, the effect must lose about half its usefulness to qualify for this modifier. Anything less limiting is better handled as an occasional complication.",
+				"應用了這個缺陷的效果將不會在任何時候都能發揮作用。限定條件的超能力通常被分成兩種：只能在特定情況下使用、或只能對特定事物使用。舉例來說像是「限定在大聲歌唱時」、「限定在飛行時」、「限定對男性（或女性）」、「限定對火焰」、「無法作用於黃色事物」、諸如此類。作為通用標準，該效果必需要因此失去大約一半的功能性，才夠格適用這個修飾符。其他較輕微的限定條件則比較適合做為偶發性的糾葛難提來處理。",
 				{
 					"type": "entries",
-					"name": "Partially Limited",
+					"translate_name": "部分限定條件", "name": "Partially Limited",
 					"entries": [
-						"If your effect is only somewhat effective in particular circumstances, apply the flaw to only some of its ranks. For example, an attack effect that does less damage against targets with Protection (to represent a diminished ability to penetrate armor, for example) applies the Limited flaw to only those ranks that are ineffective."
+						"若你的超能力效果只會在特定情境下發揮出更強大的作用，則你可以考慮把這個缺陷只應用於該效果的部份等級。舉例來說，一個對於擁有{@effect 保護}效果的目標會造成較低傷害的攻擊效果（用以表示那些破甲能力較差的攻擊手段）就可以讓一部分的等級應用限定條件缺陷，讓這些等級在面對護甲時無法發揮作用。"
 					]
 				}
 			]
