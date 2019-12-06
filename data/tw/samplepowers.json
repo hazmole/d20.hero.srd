@@ -1,7 +1,7 @@
 {
 	"samplepower": [
 		{
-			"name": "Alternate Form",
+			"translate_name": "替換型態", "name": "Alternate Form",
 			"type": "VAR",
 			"action": "VAR",
 			"range": "VAR",
@@ -11,24 +11,24 @@
 				"type": "special"
 			},
 			"effects": [
-				"Varies, {@modifier Activation}"
+				"不定, {@modifier 啟動}"
 			],
 			"entries": [
-				"You can transform into something other than mere flesh and blood, from a body of organic steel to a cloud of gas, a mass of liquid, a swarm of tiny insect-sized robots, or anything else you want to develop. Choose a set of effects that reflect the capabilities of your Alternate Form, based on the examples following. Then choose the action required to assume your Alternate Form: if it requires a move action, subtract 1 character point from the total cost of the effects. If it requires a standard action, subtract 2 points. See the Activation flaw for details.",
-				"Some potential Alternate Forms (and their possible effects) include:",
+				"你可以轉變成並非血肉的某種型態，從鋼鐵軀體，到一團氣體、液體、一群蟲型大小的機器人群集、或任何你想發展的型態。參考下列範例，選擇一組能夠反映出你替換型態能力的超能力效果。接著選擇一個你變化成替換型態時所需採取的動作：若為移動動作，則這組效果的花費總合減少1點角色點。若它需要標準動作啟動，則減少2點角色點（詳情請參見{@modifier 啟動}缺陷）。",
+				"一些可能的替換型態（以及它們可能的效果）包括：",
 				{
 					"type": "list",
 					"items": [
-						"{@b Energy}: You are made up of energy, such as fire or electricity: Damage (close or ranged), Flight, Immunity, Insubstantial 3, and Teleport (Energy Medium).",
-						"{@b Gaseous}: You are a cloud of gas, like fog or mist: Affliction (Suffocate), Concealment (Visual, Attack), Flight, Immunity, and Insubstantial 2.",
-						"{@b Ghost}: You are incorporeal and invisible, largely unaffected by the physical world: Concealment (Visual), Flight, Immunity, and Insubstantial 4.",
-						"{@b Heroic}: You have a distinct “hero” form, in addition to your “normal” form. Essentially, all your powers have the Activation modifier! The inability to assume your heroic form might also constitute a complication for you from time to time",
-						"{@b Liquid}: You are made up of liquid (such as water): Affliction (Suffocate), Concealment (Visual, Limited to Underwater), Elongation, Immunity, Insubstantial 1, and Swimming.",
-						"{@b Particulate}: Your body is composed of a granular or particulate substance like sand, dust, salt, and so forth: Damage, Elongation, Immunity, Insubstantial 1, and Movement (Slithering).",
-						"{@b Shadow}: You transform into a living shadow: Concealment (Visual, Limited to Darkness and Shadows), Immunity, Insubstantial 4, and Movement (Slithering, Wall-crawling).",
-						"{@b Solid}: You are made up of a hard solid substance like stone or metal: Enhanced Stamina, Enhanced Strength, Immunity, and Protection.",
-						"{@b Swarm}: Your “body” is actually thousands of other tiny creatures: insects, worms, even little robots: Flight, Immunity, Insubstantial 2, and Movement (Slithering, Wall-crawling).",
-						"{@b Two-Dimensional}: You can flatten yourself to become almost infinitely thin: Concealment (Visual, Limited to One Side), Damage (Penetrating – sharp edges), Insubstantial 1 (for slipping through narrow spaces), and Movement (Slithering)."
+						"{@b 能量體}：你由純粹的能量構成，像是火焰或閃電： {@effect 傷害}（近身 或 遠距）、{@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 3}、和{@effect Teleport|傳送（能量媒介）}。",
+						"{@b 氣體}：你是一團氣體，像是濃煙或迷霧： {@effect Affliction|詛咒（窒息）}、{@effect Concealment|隱蔽（視覺}, {@modifier Attack|攻擊化）}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 2}.",
+						"{@b 鬼魂}: You are incorporeal and invisible, largely unaffected by the physical world: {@effect Concealment|Concealment (Visual)}, {@effect Flight}, {@effect 免疫}, and {@effect Insubstantial|虛體化 4}.",
+						"{@b 英雄}: You have a distinct “hero” form, in addition to your “normal” form. Essentially, all your powers have the Activation modifier! The inability to assume your heroic form might also constitute a complication for you from time to time",
+						"{@b 液體}: You are made up of liquid (such as water): {@effect Affliction|詛咒（窒息）}, {@effect Concealment|Concealment (Visual, Limited to Underwater)}, {@effect Elongation}, {@effect 免疫}, {@effect Insubstantial|虛體化 1}, and {@effect Swimming}.",
+						"{@b 微粒}: Your body is composed of a granular or particulate substance like sand, dust, salt, and so forth: {@effect Damage}, {@effect Elongation}, {@effect 免疫}, {@effect Insubstantial|虛體化 1}, and {@effect Movement|Movement (Slithering)}.",
+						"{@b 陰影}: You transform into a living shadow: {@effect Concealment|Concealment (Visual, Limited to Darkness and Shadows)}, {@effect 免疫}, {@effect Insubstantial|Insubstantial 4}, and {@effect Movement|Movement (Slithering, Wall-crawling)}.",
+						"{@b 固體}: You are made up of a hard solid substance like stone or metal: {@effect Enhanced Trait|Enhanced Stamina}, {@effect Enhanced Trait|Enhanced Strength}, {@effect 免疫}, and {@effect Protection}.",
+						"{@b 群集}: Your “body” is actually thousands of other tiny creatures: insects, worms, even little robots: {@effect Flight}, {@effect 免疫}, {@effect Insubstantial|虛體化 2}, and {@effect Movement|Movement (Slithering, Wall-crawling)}.",
+						"{@b 平面}: You can flatten yourself to become almost infinitely thin: {@effect Concealment|Concealment (Visual, Limited to One Side)}, {@effect Damage|Damage} ({@modifier 貫穿強抗} – sharp edges), {@effect Insubstantial|虛體化 1} (for slipping through narrow spaces), and {@effect Movement|Movement (Slithering)}."
 					]
 				}
 			]

@@ -14,21 +14,21 @@
 				"Varies, {@modifier Activation}"
 			],
 			"entries": [
-				"You can transform into something other than mere flesh and blood, from a body of organic steel to a cloud of gas, a mass of liquid, a swarm of tiny insect-sized robots, or anything else you want to develop. Choose a set of effects that reflect the capabilities of your Alternate Form, based on the examples following. Then choose the action required to assume your Alternate Form: if it requires a move action, subtract 1 character point from the total cost of the effects. If it requires a standard action, subtract 2 points. See the Activation flaw for details.",
+				"You can transform into something other than mere flesh and blood, from a body of organic steel to a cloud of gas, a mass of liquid, a swarm of tiny insect-sized robots, or anything else you want to develop. Choose a set of effects that reflect the capabilities of your Alternate Form, based on the examples following. Then choose the action required to assume your Alternate Form: if it requires a move action, subtract 1 character point from the total cost of the effects. If it requires a standard action, subtract 2 points. See the {@modifier Activation} flaw for details.",
 				"Some potential Alternate Forms (and their possible effects) include:",
 				{
 					"type": "list",
 					"items": [
-						"{@b Energy}: You are made up of energy, such as fire or electricity: Damage (close or ranged), Flight, Immunity, Insubstantial 3, and Teleport (Energy Medium).",
-						"{@b Gaseous}: You are a cloud of gas, like fog or mist: Affliction (Suffocate), Concealment (Visual, Attack), Flight, Immunity, and Insubstantial 2.",
-						"{@b Ghost}: You are incorporeal and invisible, largely unaffected by the physical world: Concealment (Visual), Flight, Immunity, and Insubstantial 4.",
+						"{@b Energy}: You are made up of energy, such as fire or electricity: {@effect Damage} (close or ranged), {@effect Flight}, {@effect Immunity}, {@effect Insubstantial|Insubstantial 3}, and {@effect Teleport|Teleport (Energy Medium)}.",
+						"{@b Gaseous}: You are a cloud of gas, like fog or mist: {@effect Affliction|Affliction (Suffocate)}, {@effect Concealment|Concealment (Visual}, {@modifier Attack|Attack)}, {@effect Flight}, {@effect Immunity}, and {@effect Insubstantial|Insubstantial 2}.",
+						"{@b Ghost}: You are incorporeal and invisible, largely unaffected by the physical world: {@effect Concealment|Concealment (Visual)}, {@effect Flight}, {@effect Immunity}, and {@effect Insubstantial|Insubstantial 4}.",
 						"{@b Heroic}: You have a distinct “hero” form, in addition to your “normal” form. Essentially, all your powers have the Activation modifier! The inability to assume your heroic form might also constitute a complication for you from time to time",
-						"{@b Liquid}: You are made up of liquid (such as water): Affliction (Suffocate), Concealment (Visual, Limited to Underwater), Elongation, Immunity, Insubstantial 1, and Swimming.",
-						"{@b Particulate}: Your body is composed of a granular or particulate substance like sand, dust, salt, and so forth: Damage, Elongation, Immunity, Insubstantial 1, and Movement (Slithering).",
-						"{@b Shadow}: You transform into a living shadow: Concealment (Visual, Limited to Darkness and Shadows), Immunity, Insubstantial 4, and Movement (Slithering, Wall-crawling).",
-						"{@b Solid}: You are made up of a hard solid substance like stone or metal: Enhanced Stamina, Enhanced Strength, Immunity, and Protection.",
-						"{@b Swarm}: Your “body” is actually thousands of other tiny creatures: insects, worms, even little robots: Flight, Immunity, Insubstantial 2, and Movement (Slithering, Wall-crawling).",
-						"{@b Two-Dimensional}: You can flatten yourself to become almost infinitely thin: Concealment (Visual, Limited to One Side), Damage (Penetrating – sharp edges), Insubstantial 1 (for slipping through narrow spaces), and Movement (Slithering)."
+						"{@b Liquid}: You are made up of liquid (such as water): {@effect Affliction|Affliction (Suffocate)}, {@effect Concealment|Concealment (Visual, Limited to Underwater)}, {@effect Elongation}, {@effect Immunity}, {@effect Insubstantial|Insubstantial 1}, and {@effect Swimming}.",
+						"{@b Particulate}: Your body is composed of a granular or particulate substance like sand, dust, salt, and so forth: {@effect Damage}, {@effect Elongation}, {@effect Immunity}, {@effect Insubstantial|Insubstantial 1}, and {@effect Movement|Movement (Slithering)}.",
+						"{@b Shadow}: You transform into a living shadow: {@effect Concealment|Concealment (Visual, Limited to Darkness and Shadows)}, {@effect Immunity}, {@effect Insubstantial|Insubstantial 4}, and {@effect Movement|Movement (Slithering, Wall-crawling)}.",
+						"{@b Solid}: You are made up of a hard solid substance like stone or metal: {@effect Enhanced Trait|Enhanced Stamina}, {@effect Enhanced Trait|Enhanced Strength}, {@effect Immunity}, and {@effect Protection}.",
+						"{@b Swarm}: Your “body” is actually thousands of other tiny creatures: insects, worms, even little robots: {@effect Flight}, {@effect Immunity}, {@effect Insubstantial|Insubstantial 2}, and {@effect Movement|Movement (Slithering, Wall-crawling)}.",
+						"{@b Two-Dimensional}: You can flatten yourself to become almost infinitely thin: {@effect Concealment|Concealment (Visual, Limited to One Side)}, {@effect Damage|Damage} ({@modifier Penetrating} – sharp edges), {@effect Insubstantial|Insubstantial 1} (for slipping through narrow spaces), and {@effect Movement|Movement (Slithering)}."
 					]
 				}
 			]
