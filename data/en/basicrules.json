@@ -2771,7 +2771,7 @@
 							"name": "Applying Descriptors",
 							"entries": [
 								"Applying descriptors to a power is as simple as describing what the power is and how it works: “The divinely-granted ability to heal through a laying-on of hands,” for example, “or the mutant power to control magnetic fields to move ferrous metal objects.” Considerably more evocative and descriptive than “Healing effect” or “Move Object, Limited to Ferrous Metals,” aren’t they?",
-								"Generally, you should feel free to apply whatever descriptors seem appropriate and necessary to describe your character’s powers, so long as they don’t significantly change how they work in game terms. This is the key element. While descriptors may imply certain interactions or minor benefits or drawbacks, they shouldn’t significantly change how an effect works, that’s the role of modifiers. So, for example, “area” is not a descriptor, it is an extra you apply to allow a power to affect an area rather than a single target.",
+								"Generally, you should feel free to apply whatever descriptors seem appropriate and necessary to describe your character’s powers, so long as they don’t significantly change how they work in game terms. This is the key element. While descriptors may imply certain interactions or minor benefits or drawbacks, they shouldn’t significantly change how an effect works, that’s the role of modifiers. So, for example, “{@modifier area}” is not a descriptor, it is an extra you apply to allow a power to affect an area rather than a single target.",
 								{
 									"type": "entries",
 									"name": "Applying Descriptors in Play",

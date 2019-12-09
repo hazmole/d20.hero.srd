@@ -2698,13 +2698,13 @@
 				},
 				{
 					"type": "section",
-					"name": "Descriptors",
+					"translate_name": "描述符", "name": "Descriptors",
 					"entries": [
 						"Descriptors help to bring a collection of effects and modifiers to life, differentiating them from similar (or even identical) configurations and making them into distinct powers. Although descriptors don’t always have significant game effects, they’re perhaps the most important element in providing color and character to the powers of heroes and villains.",
 						"Descriptors do have some affect on game play. In particular, descriptors often govern how certain effects interact with each other, serving as convenient shorthand to help define an effect’s parameters. For example, Immunity and Nullify work against effects with specific descriptors; if they were limited solely to things like effect type, it would leave out a tremendous range of options, like “Immunity to Fire” or “Nullify Mutant Powers,” which are important to the source material.",
 						{
 							"type": "entries",
-							"name": "Types of Descriptors",
+							"translate_name": "描述符的種類", "name": "Types of Descriptors",
 							"entries": [
 								"Descriptors come in many different forms. The break-down in this section is inexact, and deliberately so; some descriptors fall into more than one category, while others might not fall into any of these categories, being unique to that particular character or power. Still, the following are the major types of descriptors, and things to consider when creating or choosing powers for a character.",
 								{
@@ -2768,13 +2768,13 @@
 						},
 						{
 							"type": "entries",
-							"name": "Applying Descriptors",
+							"translate_name": "應用描述符", "name": "Applying Descriptors",
 							"entries": [
-								"Applying descriptors to a power is as simple as describing what the power is and how it works: “The divinely-granted ability to heal through a laying-on of hands,” for example, “or the mutant power to control magnetic fields to move ferrous metal objects.” Considerably more evocative and descriptive than “Healing effect” or “Move Object, Limited to Ferrous Metals,” aren’t they?",
-								"Generally, you should feel free to apply whatever descriptors seem appropriate and necessary to describe your character’s powers, so long as they don’t significantly change how they work in game terms. This is the key element. While descriptors may imply certain interactions or minor benefits or drawbacks, they shouldn’t significantly change how an effect works, that’s the role of modifiers. So, for example, “area” is not a descriptor, it is an extra you apply to allow a power to affect an area rather than a single target.",
+								"將描述符應用於你的超能力是件非常簡單的事，你只需要描述該超能力是什麼，以及它的運作原理即可。例如：「藉由觸摸以治療他人的神賜能力」或者「控制磁場以移動鐵基金屬的變異超能力」。這樣的描述，會比單純的「治癒效果」或者「移動物體．限定鐵基金屬」更加生動，更具體，對吧？",
+								"通常來說，你可以隨意地應用任何適當且必要的描述符以描述你角色的超能力，前提是，這些描述符不會嚴重改變他們在遊戲中的運作方式。這一點非常重要。儘管描述符可能會隱含著某些互動性、或是帶來些許好處或壞處，但它們絕對不應該對效果的運作方式造成顯著的影響──那是修飾符的功能。舉例來說，「{@modifier 範圍化}」並不是描述符，它是一個強化修飾符，使你的超能力得以影響一整個區域範圍，而非原本的單一目標。",
 								{
 									"type": "entries",
-									"name": "Applying Descriptors in Play",
+									"translate_name": "在遊戲中應用描述符", "name": "Applying Descriptors in Play",
 									"entries": [
 										"While descriptors are generally applied to powers when those powers are defined (that is, when a character is created), in some cases, certain descriptors may be left unspecified and defined during play. This can either be because nobody thought to define the descriptor in advance, or it was deliberately left vague, to be filled-in later.",
 										"So, for example, a particular heroine might not know the origin or source of her powers, and her player doesn’t want to know, leaving them a mystery for later development in the game. The GM agrees and so the heroine’s powers have no origin or source descriptors. Instead, the GM chooses them, which isn’t known until the heroine is subject to an anti-magical field and discovers her powers don’t work! The GM awards the player a victory point for the unexpected set-back and now the source of the heroine’s powers is known, although their origin still remains a mystery….",
@@ -2783,7 +2783,7 @@
 								},
 								{
 									"type": "inset",
-									"name": "Creative Uses of Descriptors",
+									"translate_name": "描述符的創意用法", "name": "Creative Uses of Descriptors",
 									"entries": [
 										"In many instances, players come up with creative uses for their characters’ descriptors. This should be encouraged and, generally speaking, allowed freely so long as those uses don’t spoil the game. So if a fire-using character wants to use a tiny amount of his flame blast power to light some candles, or the electrical-controlling character wants to use some of his power output to act as a living battery to jump-start a car, go for it. In the latter case you might want to call for a Technology skill check to make sure the character gets the terminals and the voltage right, but most of the time it’s better to just let the trick go through and give the character a chance to shine.",
 										"Creative uses of descriptors with no real game effect are freebies: no extra effort or victory points needed. Situations where creative uses of descriptors have a significant game effect can be handled as power stunts: pick the effect that best suits the desired outcome and treat it as an Alternate Effect of the power the hero wants to use, with descriptors assigned as appropriate. If an electrical-controlling hero wants to use his power like a living defibrillator to save a heart-attack victim, for example, that can be a Healing power stunt. The hero uses extra effort (and possibly a victory point) and gets a one-shot use of Healing to stabilize the dying victim."
@@ -2791,7 +2791,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Changing Descriptors in Play",
+									"translate_name": "在遊戲中改變描述符", "name": "Changing Descriptors in Play",
 									"entries": [
 										"On some occasions, you or a player may wish to change a particular descriptor during the course of the game, removing an existing descriptor and possibly replacing it with another one.",
 										"Sometimes this takes the form of discovering that a descriptor the character thought applied actually does not, such as a hero discovering his “magical” powers are actually the mutant ability to manipulate reality in certain ways. So long as the change doesn’t contradict any previously introduced information, this is no different than applying a descriptor in play, and should be handled in the same way. On the other hand, if other effects previously worked on the hero as if his powers were magical, then some sort of explanation is required. The Gamemaster may wish to limit or ban “discovering” a descriptor that has already been established, although it might still be changed.",
