@@ -2275,12 +2275,12 @@
 		},
 		{
 			"type": "section",
-			"name": "Advantages",
+			"translate_name": "特長", "name": "Advantages",
 			"entries": [
 				"Heroes are more than just skilled, they often have amazing advantages, beyond the abilities of ordinary people. In this game, advantages often allow heroes to “break the rules,” gaining access to and doing things most people cannot, or simply doing them better.",
 				{
 					"type": "section",
-					"name": "Acquiring Advantages",
+					"translate_name": "獲得特長", "name": "Acquiring Advantages",
 					"entries": [
 						"Advantages are rated in ranks and bought with Character points, just like abilities and skills. Advantages cost 1 Character point per rank. Some advantages have no ranks and are acquired only once, effectively at rank 1.",
 						{
@@ -2291,31 +2291,31 @@
 				},
 				{
 					"type": "section",
-					"name": "Advantage Descriptions",
+					"translate_name": "特長說明", "name": "Advantage Descriptions",
 					"entries": [
 						"Each advantage’s description explains the benefit it provides. It also says if the advantage can be acquired in ranks and the effects of doing so. Such advantages are listed as “Ranked” alongside the advantage name. Ranks in a advantage are noted with a number after the advantage’s name, such as “Defensive Roll 2” (for a character who has taken two ranks in the Defensive Roll advantage), just like skill and power ranks. If there is a maximum number of ranks a character can take, it’s listed in parentheses after the word “Ranked” in the advantage’s heading.",
 						{
 							"type": "entries",
-							"name": "Types of Advantages",
+							"translate_name": "特長類別", "name": "Types of Advantages",
 							"entries": [
-								"Advantages are categorized as one of four types:",
+								"特長都被歸類為下列四種類別：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Combat Advantages} are useful in combat and often modify how various combat maneuvers are performed.",
-										"{@b Fortune Advantages} require and enhance the use of Victory points.",
-										"{@b General Advantages} provide special abilities or bonuses not covered by the other categories.",
-										"{@b Skill Advantages} offer bonuses or modifications to skill use."
+										"{@b 戰鬥類特長} 在戰鬥中非常實用，且經常會修改各種戰技的施展方式。",
+										"{@b 運氣類特長} 需要消耗勝利點，並會增進它們使用時的效益。",
+										"{@b 泛用類特長} 會提供一些不屬於其他類別的特殊能力或加值。",
+										"{@b 既能類特長} 會為技能的使用提供加值或修改。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Advantage Descriptions",
+							"translate_name": "特長說明", "name": "Advantage Descriptions",
 							"entries": [
 								"Each advantage is listed by name, type, and if the advantage is available in multiple ranks, followed by a description of the advantage’s benefits. The effects of additional ranks of the advantage (if any) are noted in the text of each advantage. In some cases a advantage’s description mentions the normal conditions for characters who do not have the advantage for comparison.",
-								"For each advantage description, see {@5etools Advantages|advantages.html} page."
+								"關於每個特長的完整說明，請參閱{@5etools 特長|advantages.html}頁面。"
 							]
 						}
 					]
