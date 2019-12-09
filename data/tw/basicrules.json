@@ -1527,14 +1527,14 @@
 							"type": "entries",
 							"translate_name": "性格", "name": "Personality",
 							"entries": [
-								"How would you describe your hero’s personality? While heroes tend to share a desire to use their powers for good and uphold the law, they also show a diverse range of attitudes. One hero may be dedicated to the ideals of truth, justice, and equality while another is a vigilante willing to break the law in order to ensure justice is done. Some heroes are forthright and cheerful while others are grim and unrelenting. Consider your hero’s attitudes and personality traits. Don’t overlook the effect of Motivation on your hero’s personality and vice versa (see {@b Motivation}, previously)."
+								"你會如何形容你英雄的性格？儘管英雄們大都傾向共享著用超能力行善和維護法律秩序的願景，他們對此表現出的態度仍各有不同。有些英雄或許會獻身於真理、正義、與平等的理想，而有些英雄則可能會為了確保正義得以伸張而不惜觸犯法律。有些英雄較為豪爽開朗，而其他則可能會比較冷酷無情。花些心思在你英雄的性格以及人格特質上。不要忽略了動機對你英雄性格的影響，反之亦然（請參見前述的{@rule 動機|basic|2|motivation}）。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "目標", "name": "Goals",
 							"entries": [
-								"Finally, what are your hero’s goals? All heroes want things like peace and justice to one degree or another, but what other things does your hero want? One hero may want to find his long-lost family while another may want to avenge a terrible wrong done to her in the past. A monstrous or alien hero may seek acceptance and a new home on Earth, while a teen hero may want to live up to the legacy of a mentor or predecessor. Giving your hero a goal beyond simply “doing good” can help give the character more depth and provide opportunities for roleplaying and complications during the game. Don’t overlook it."
+								"最後，你的英雄所追求的目標是什麼？所有英雄或多或少都渴望著和平及正義，但除此之外，你的英雄還渴望些什麼呢？有些英雄或許希冀找出失散多年的親人，有些則可能想為自己童年發生的不幸展開復仇。有些怪物或外星英雄或許想在地球上找到新家，而有些青少年英雄則致力於不辜負導師或前任英雄所留下的遺願。為你的英雄設定一個除了單純「行善」以外的目標，將能夠擴展角色的深度，並使你在遊戲中得到更多角色扮演和面對糾葛難題的機會。千萬不要忽略了它。"
 							]
 						}
 					]
