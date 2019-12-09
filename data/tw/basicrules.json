@@ -1504,35 +1504,35 @@
 							"type": "entries",
 							"translate_name": "外表", "name": "Appearance",
 							"entries": [
-								"What does your hero look like? Consider things like the character’s race, sex, ethnicity, and other factors in appearance. Is the hero even human? Superheroes can be aliens, robots, androids, spirits, and beings of pure energy. Is the character short or tall? What about hair and eye color? Does the hero have any distinguishing marks or unique features; is his appearance unusual in any way (apart from running around in a costume, that is)? Does the hero qualify for the Attractive advantage? (See {@b Advantages} for details.) What about complications stemming from the hero’s looks?",
+								"你的英雄長的怎麼樣？思考一下你角色的種族、性別、族群、以及其他能夠影響外表的要素。你的英雄會不會根本不是人類？超級英雄可以是外星人、機器人、仿生人、靈體、或其他由純能量構成的生命體。你的角色是高是矮？髮色以及瞳色是什麼呢？你的英雄有沒有任何標誌性的符號或獨特特徵；他的外表是否有任何不尋常之處（除了穿著英雄服活動之外）？你的英雄是否夠格擁有{@advantage 迷人}特長？（詳情參見{@5etools 特長|advantages.html}）。英雄的外表又是否會誘發什麼糾葛難題嗎？",
 								{
 									"type": "entries",
 									"translate_name": "英雄服", "name": "Costume",
 									"entries": [
-										"A costume is a big part of a superhero’s appearance. Like code names, most heroes have a distinctive costume, usually something skin-tight and colorful, often emblazoned with a symbol or logo. Other heroes wear more military-style outfits, fatigues or body armor with numerous bandoleers and belts. A suit of armor may serve as the hero’s costume: anything from ancient mail to a high-tech battlesuit. A few heroes don’t wear a special costume, just ordinary street clothes (which in itself can be pretty distinctive among a group of spandex-clad heroes).",
-										"In the comics, costumes are generally immune to the kind of routine wear-and-tear a hero’s powers should inflict on them. For example, heroes who can burst into flames don’t usually incinerate their clothing. The same is true for heroes who change their size or shape. Although a hero’s costume can be damaged or torn by attacks and other circumstances, it’s usually immune to the hero’s powers. This doesn’t cost any points; it’s just the way costumes work. For more on costumes as equipment, see {@b Gadgets & Gear}."
+										"英雄服裝是構成了超級英雄外表的重要元素。就如同代號一樣，大部分的英雄都穿著標誌性的服裝，這些服裝通常顏色鮮艷、緊身，並且裝飾著象徵符號或標誌。也有些其他英雄會穿著比較軍事風格的服裝、制服、或附有眾多肩帶和腰帶的貼身護甲。一整套盔甲也可以做為英雄的服裝，包括古代鎖子甲或甚至高科技戰鬥裝。少數的英雄並不會套上這些奇裝異服，而僅穿著普通的尋常服裝（這在一眾身穿彈性纖維緊身衣的英雄之中本身就具有很高的辨識性）。",
+										"在漫畫中，英雄服大都免疫於那些會導致服裝穿一次爛一次的超能力效果。例如，能夠全身噴出火焰的英雄並不會把他們自己的服裝給燒掉。同樣的道理也適用於那些可以自由變化自己體型或形狀的英雄。儘管英雄服仍會因為其他攻擊和情景而導致服裝被撕毀和損壞，它們通常都免疫該英雄本身的超能力。這個性質並不需要花費任何點數；這就是英雄服運作的方式。若想更詳細地了解英雄服做為裝備的細節，請參見{@rule 器具＆裝備|basic|7|equipment}。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "多重身份", "name": "Alternate Identity",
 									"entries": [
-										"Although heroes spend a lot of time fighting crime and using their powers to help others, most also try to find time to have lives of their own. Consider the hero’s “normal” life, both before acquiring super-powers and since. Does the hero maintain a secret identity, hiding behind a mask or other guise in order to have a semblance of a normal life while “off duty”? Describe the hero’s other identity and what the hero does while not out fighting the forces of evil.",
-										"Other heroes abandon all pretense of a “civilian” identity, revealing their true names to the world and living in the public eye. This means no juggling two separate lives, but also no refuge from the media, adoring fans, or the hero’s enemies, who can all keep track of the hero more easily. Both approaches have their good and bad points. Consider which is best for your hero."
+										"儘管英雄們把大部分的時間都花在了打擊罪犯並使用超能力幫助他人，但大多數的英雄們也會試著空出時間過著屬於他們自己的生活。思考一下，在英雄們獲得超能力之前與之後，他們的「正常」生活是什麼樣子？他是否會經營一個秘密的英雄身份，將自己隱藏在面具或其他偽裝之中，就為了能在「下班」時享受一下正常人的閒暇生活？描述一下英雄的其他身份，以及英雄在打擊罪惡之餘，平常都會做些什麼。",
+										"有些英雄，則會完全拋棄虛假的「平民」身份，將自己的本名公諸於世，並大眾的注視之下生活著。儘管這麼做讓他不再需要在兩種截然不同的生活中來回切換，但這也代表他將失去能夠逃離媒體、崇拜粉絲、以及仇敵的避難所。這也使得你的敵人能夠更加容易地掌握你的行蹤。這兩種關於身分地處理方法都有各自的利與弊，仔細想想，到底哪一種適合你的英雄吧。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Personality",
+							"translate_name": "性格", "name": "Personality",
 							"entries": [
 								"How would you describe your hero’s personality? While heroes tend to share a desire to use their powers for good and uphold the law, they also show a diverse range of attitudes. One hero may be dedicated to the ideals of truth, justice, and equality while another is a vigilante willing to break the law in order to ensure justice is done. Some heroes are forthright and cheerful while others are grim and unrelenting. Consider your hero’s attitudes and personality traits. Don’t overlook the effect of Motivation on your hero’s personality and vice versa (see {@b Motivation}, previously)."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Goals",
+							"translate_name": "目標", "name": "Goals",
 							"entries": [
 								"Finally, what are your hero’s goals? All heroes want things like peace and justice to one degree or another, but what other things does your hero want? One hero may want to find his long-lost family while another may want to avenge a terrible wrong done to her in the past. A monstrous or alien hero may seek acceptance and a new home on Earth, while a teen hero may want to live up to the legacy of a mentor or predecessor. Giving your hero a goal beyond simply “doing good” can help give the character more depth and provide opportunities for roleplaying and complications during the game. Don’t overlook it."
 							]

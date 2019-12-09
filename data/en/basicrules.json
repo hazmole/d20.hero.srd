@@ -1504,13 +1504,13 @@
 							"type": "entries",
 							"name": "Appearance",
 							"entries": [
-								"What does your hero look like? Consider things like the character’s race, sex, ethnicity, and other factors in appearance. Is the hero even human? Superheroes can be aliens, robots, androids, spirits, and beings of pure energy. Is the character short or tall? What about hair and eye color? Does the hero have any distinguishing marks or unique features; is his appearance unusual in any way (apart from running around in a costume, that is)? Does the hero qualify for the Attractive advantage? (See {@b Advantages} for details.) What about complications stemming from the hero’s looks?",
+								"What does your hero look like? Consider things like the character’s race, sex, ethnicity, and other factors in appearance. Is the hero even human? Superheroes can be aliens, robots, androids, spirits, and beings of pure energy. Is the character short or tall? What about hair and eye color? Does the hero have any distinguishing marks or unique features; is his appearance unusual in any way (apart from running around in a costume, that is)? Does the hero qualify for the {@advantage Attractive} advantage? (See {@5etools Advantages|advantages.html} for details.) What about complications stemming from the hero’s looks?",
 								{
 									"type": "entries",
 									"name": "Costume",
 									"entries": [
 										"A costume is a big part of a superhero’s appearance. Like code names, most heroes have a distinctive costume, usually something skin-tight and colorful, often emblazoned with a symbol or logo. Other heroes wear more military-style outfits, fatigues or body armor with numerous bandoleers and belts. A suit of armor may serve as the hero’s costume: anything from ancient mail to a high-tech battlesuit. A few heroes don’t wear a special costume, just ordinary street clothes (which in itself can be pretty distinctive among a group of spandex-clad heroes).",
-										"In the comics, costumes are generally immune to the kind of routine wear-and-tear a hero’s powers should inflict on them. For example, heroes who can burst into flames don’t usually incinerate their clothing. The same is true for heroes who change their size or shape. Although a hero’s costume can be damaged or torn by attacks and other circumstances, it’s usually immune to the hero’s powers. This doesn’t cost any points; it’s just the way costumes work. For more on costumes as equipment, see {@b Gadgets & Gear}."
+										"In the comics, costumes are generally immune to the kind of routine wear-and-tear a hero’s powers should inflict on them. For example, heroes who can burst into flames don’t usually incinerate their clothing. The same is true for heroes who change their size or shape. Although a hero’s costume can be damaged or torn by attacks and other circumstances, it’s usually immune to the hero’s powers. This doesn’t cost any points; it’s just the way costumes work. For more on costumes as equipment, see {@rule Gadgets & Gear|basic|7|equipment}."
 									]
 								},
 								{
