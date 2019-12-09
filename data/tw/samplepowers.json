@@ -20,21 +20,21 @@
 					"type": "list",
 					"items": [
 						"{@b 能量體}：你由純粹的能量構成，像是火焰或閃電： {@effect 傷害}（近身 或 遠距）、{@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 3}、和{@effect Teleport|傳送（能量媒介）}。",
-						"{@b 氣體}：你是一團氣體，像是濃煙或迷霧： {@effect Affliction|詛咒（窒息）}、{@effect Concealment|隱蔽（視覺}, {@modifier Attack|攻擊化）}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 2}.",
-						"{@b 鬼魂}: You are incorporeal and invisible, largely unaffected by the physical world: {@effect Concealment|Concealment (Visual)}, {@effect Flight}, {@effect 免疫}, and {@effect Insubstantial|虛體化 4}.",
-						"{@b 英雄}: You have a distinct “hero” form, in addition to your “normal” form. Essentially, all your powers have the Activation modifier! The inability to assume your heroic form might also constitute a complication for you from time to time",
-						"{@b 液體}: You are made up of liquid (such as water): {@effect Affliction|詛咒（窒息）}, {@effect Concealment|Concealment (Visual, Limited to Underwater)}, {@effect Elongation}, {@effect 免疫}, {@effect Insubstantial|虛體化 1}, and {@effect Swimming}.",
-						"{@b 微粒}: Your body is composed of a granular or particulate substance like sand, dust, salt, and so forth: {@effect Damage}, {@effect Elongation}, {@effect 免疫}, {@effect Insubstantial|虛體化 1}, and {@effect Movement|Movement (Slithering)}.",
-						"{@b 陰影}: You transform into a living shadow: {@effect Concealment|Concealment (Visual, Limited to Darkness and Shadows)}, {@effect 免疫}, {@effect Insubstantial|Insubstantial 4}, and {@effect Movement|Movement (Slithering, Wall-crawling)}.",
-						"{@b 固體}: You are made up of a hard solid substance like stone or metal: {@effect Enhanced Trait|Enhanced Stamina}, {@effect Enhanced Trait|Enhanced Strength}, {@effect 免疫}, and {@effect Protection}.",
-						"{@b 群集}: Your “body” is actually thousands of other tiny creatures: insects, worms, even little robots: {@effect Flight}, {@effect 免疫}, {@effect Insubstantial|虛體化 2}, and {@effect Movement|Movement (Slithering, Wall-crawling)}.",
-						"{@b 平面}: You can flatten yourself to become almost infinitely thin: {@effect Concealment|Concealment (Visual, Limited to One Side)}, {@effect Damage|Damage} ({@modifier 貫穿強抗} – sharp edges), {@effect Insubstantial|虛體化 1} (for slipping through narrow spaces), and {@effect Movement|Movement (Slithering)}."
+						"{@b 氣體}：你是一團氣體，像是濃煙或迷霧： {@effect Affliction|詛咒（窒息）}、{@effect Concealment|隱蔽（視覺}, {@modifier Attack|攻擊化）}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 2}。",
+						"{@b 鬼魂}：你沒有實體，無法被看見，且不會受大部分物質世界的事物影響： {@effect Concealment|隱蔽（視覺}}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 4}。",
+						"{@b 英雄}：你除了原本的「普通」型態之外，還擁有一個獨特的「英雄」型態。基本上，你的所有超能力都具備啟動修飾符！不能自由變化成你英雄型態的限制將會時不時為你帶來麻煩，並成為你的糾葛難題。",
+						"{@b 液體}：你由液態所構成（例如水）： {@effect Affliction|詛咒（窒息）}、{@effect Concealment|隱蔽（視覺, 限定水中）}、{@effect 延展}、{@effect 免疫}、{@effect Insubstantial|虛體化 1}、和{@effect 游泳}。",
+						"{@b 微粒}：你的身體是由微小顆粒物質所構成，像是沙、塵、鹽等等： {@effect 傷害}、{@effect 延展}、{@effect 免疫}、{@effect Insubstantial|虛體化 1}、和{@effect Movement|移動（匍匐蛇行）}。",
+						"{@b 陰影}：你變化成一團活體陰影： {@effect Concealment|隱蔽（視覺, 限定黑暗和陰影中）}、{@effect 免疫}、{@effect Insubstantial|虛體化 4}、和{@effect Movement|移動（匍匐蛇行, 攀牆）}。",
+						"{@b 固體}：你由堅硬的物質所組成，像是岩石或金屬： {@effect Enhanced Trait|增強體質}、{@effect Enhanced Trait|增強力量}、{@effect 免疫}、和{@effect 保護}。",
+						"{@b 群集}：你的「身體」實際上是由上千個其他微型生物聚集構成，例如昆蟲、蠕蟲、或甚至奈米機器人： {@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 2}、和{@effect Movement|移動（匍匐蛇行, 攀牆）}。",
+						"{@b 平面體}：你可以使你的身體變得扁平，使其近乎無限的薄： {@effect Concealment|隱蔽（視覺, 限定其中一面）}、{@effect 傷害}（{@modifier 貫穿強抗} – 鋒利的邊緣）、{@effect Insubstantial|虛體化 1}（用以鑽過狹窄的縫隙）、和{@effect Movement|移動（匍匐蛇行）}。"
 					]
 				}
 			]
 		},
 		{
-			"name": "Blast",
+			"translate_name": "衝擊波", "name": "Blast",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -44,14 +44,14 @@
 				"type": "per"
 			},
 			"effects": [
-				"{@modifier Increased Range|Ranged} {@effect Damage}"
+				"{@modifier Increased Range|遠距} {@effect 傷害}"
 			],
 			"entries": [
-				"You can make a damaging ranged attack. It might be a blast of energy, a projectile (arrow, bullet, throwing blade, etc.), or some similar effect. You make a ranged attack check against the target’s Dodge defense. The attack’s damage equals your power rank and the target makes a Toughness resistance check against it."
+				"你可以進行遠程的傷害性攻擊。這可能是一陣能量衝擊波、一個投射物（箭矢、子彈、投擲飛刃等）、或其他類似的效果。你進行一次遠程攻擊檢定以克服目標的閃避防禦。該攻擊的傷害將等同於你的超能力等級，且目標必須進行一次堅實防禦抵抗檢定以對抗該傷害。"
 			]
 		},
 		{
-			"name": "Dazzle",
+			"_translate_name": "炫燦", "name": "Dazzle",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -61,7 +61,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"{@modifier Increased Range|Ranged}, {@effect Affliction|Cumulative Affliction}, Limited to One Sense"
+				"{@modifier Increased Range|遠距}, {@effect Affliction|累積詛咒}, {@modifier Limited|限定單一感官}"
 			],
 			"entries": [
 				"You can overwhelm one of the target’s senses, chosen when you take this effect. The target makes a Fortitude or Will resistance check against your effect DC (choose one when you acquire the effect). One degree of failure leaves the sense {@condition impaired} (–2 penalty). Two degrees leave it {@condition disabled} (–5 penalty) while three degrees leave the sense {@condition unaware}: The target automatically fails Perception checks involving the sense, and everything effectively has total concealment from that sense.",
@@ -81,7 +81,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Summon Duplicate, Active"
+				"{@effect Summon|Summon Duplicate}, {@modifier Active}"
 			],
 			"entries": [
 				"You can create a duplicate of yourself. Your duplicate is a minion with the same traits as you, except for this power and any victory points. You can spend your own victory points for your duplicate’s actions.",
@@ -101,7 +101,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Perception Ranged Move Object, Limited to Element"
+				"{@modifier Increased Range|Perception Ranged} {@effect Move Object|Move Object, Limited to Element}"
 			],
 			"entries": [
 				"You can control and move a mass of an element like air, earth, or water. Your power’s effective Strength equals its rank, which is also the mass rank of the element you can move at once. So Earth Control 11 lets you move up to 50 tons of earth and stone, for example.",
@@ -119,7 +119,7 @@
 				"type": "special"
 			},
 			"effects": [
-				"Enhanced Trait, Fades, Reaction"
+				"{@effect Enhanced Trait}, {@modifier Fades}, {@modifier Reaction}"
 			],
 			"entries": [
 				"You take the energy from a particular type of attack, chosen when you take this power, and use it to enhance one of your traits. Typically this is either Strength or a Ranged Damage effect of the same energy type as the initial attack, but other traits are possible, including Quickness, Regeneration, Speed, or the like. The enhancement to your trait is equal to your power rank or the attack’s rank, whichever is less.",
@@ -144,7 +144,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Damage, Reaction"
+				"{@effect Damage}, {@modifier Reaction}"
 			],
 			"entries": [
 				"You can surround your body with an aura of damaging energy or some similar effect. Anyone you touch or that touches you must make a Toughness resistance check against your aura’s Damage rank. You can turn your aura on and off at will as a free action. If your Aura damages some targets but not others, apply the Selective or Limited modifiers (depending on whether or not the selectivity is under your control)."
@@ -161,7 +161,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged Damage"
+				"{@modifier Increased Range|遠距} {@effect 傷害}"
 			],
 			"entries": [
 				"You can generate and project a type of energy, such as cold, electricity, fire, kinetic force, magnetism, radiation, or even cosmic energy, in a damaging blast (see the Blast power).",

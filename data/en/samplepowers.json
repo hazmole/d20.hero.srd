@@ -61,7 +61,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"{@modifier Increased Range|Ranged}, {@effect Affliction|Cumulative Affliction}, Limited to One Sense"
+				"{@modifier Increased Range|遠距}, {@effect Affliction|累積詛咒}, {@modifier Limited|Limited to One Sense}"
 			],
 			"entries": [
 				"You can overwhelm one of the target’s senses, chosen when you take this effect. The target makes a Fortitude or Will resistance check against your effect DC (choose one when you acquire the effect). One degree of failure leaves the sense {@condition impaired} (–2 penalty). Two degrees leave it {@condition disabled} (–5 penalty) while three degrees leave the sense {@condition unaware}: The target automatically fails Perception checks involving the sense, and everything effectively has total concealment from that sense.",
@@ -81,7 +81,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Summon Duplicate, Active"
+				"{@effect Summon|Summon Duplicate}, {@modifier Active}"
 			],
 			"entries": [
 				"You can create a duplicate of yourself. Your duplicate is a minion with the same traits as you, except for this power and any victory points. You can spend your own victory points for your duplicate’s actions.",
@@ -101,7 +101,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Perception Ranged Move Object, Limited to Element"
+				"{@modifier Increased Range|Perception Ranged} {@effect Move Object|Move Object, Limited to Element}"
 			],
 			"entries": [
 				"You can control and move a mass of an element like air, earth, or water. Your power’s effective Strength equals its rank, which is also the mass rank of the element you can move at once. So Earth Control 11 lets you move up to 50 tons of earth and stone, for example.",
@@ -119,7 +119,7 @@
 				"type": "special"
 			},
 			"effects": [
-				"Enhanced Trait, Fades, Reaction"
+				"{@effect Enhanced Trait}, {@modifier Fades}, {@modifier Reaction}"
 			],
 			"entries": [
 				"You take the energy from a particular type of attack, chosen when you take this power, and use it to enhance one of your traits. Typically this is either Strength or a Ranged Damage effect of the same energy type as the initial attack, but other traits are possible, including Quickness, Regeneration, Speed, or the like. The enhancement to your trait is equal to your power rank or the attack’s rank, whichever is less.",
@@ -144,7 +144,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Damage, Reaction"
+				"{@effect Damage}, {@modifier Reaction}"
 			],
 			"entries": [
 				"You can surround your body with an aura of damaging energy or some similar effect. Anyone you touch or that touches you must make a Toughness resistance check against your aura’s Damage rank. You can turn your aura on and off at will as a free action. If your Aura damages some targets but not others, apply the Selective or Limited modifiers (depending on whether or not the selectivity is under your control)."
@@ -161,7 +161,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged Damage"
+				"{@modifier Increased Range|Ranged} {@effect Damage}"
 			],
 			"entries": [
 				"You can generate and project a type of energy, such as cold, electricity, fire, kinetic force, magnetism, radiation, or even cosmic energy, in a damaging blast (see the Blast power).",
