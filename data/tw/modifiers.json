@@ -570,37 +570,37 @@
 			]
 		},
 		{
-			"name": "Check Required",
+			"translate_name": "必須檢定", "name": "Check Required",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "flat_per"
 			},
 			"entries": [
-				"An effect with this flaw requires a check of some sort—usually a skill check—with a difficulty class of 10 + ranks in Check Required. If the check fails, the effect doesn’t work, although the action required to use it is expended (so attempting to activate a standard action effect takes a standard action whether the check is successful or not).",
-				"If the check succeeds, the character gains the use of 1 effect rank per point the check exceeds the DC. Thus a check result of 14 allows the character to use up to 4 ranks of the effect. If a lesser rank of the effect doesn’t do anything, then it’s the same as failing the check.",
-				"The required check occurs as part of the action to use the effect and provides no benefit other than helping to activate it. Normal modifiers apply to the check, and if you are unable to make the required check for any reason, the effect doesn’t work.",
-				"A natural 1 rolled on the check means it fails automatically, regardless of the check result. So there is always a small chance the effect won’t work, regardless of the character’s check bonus.",
-				"This check must be in addition to any check(s) normally required for the effect. So, for example, the normal perception check made in conjunction with a sensory effect does not count as an application of this flaw, and applying it means an additional check is required before the effect’s normally required check(s).",
+				"應用了這個缺陷的效果必須要使用者先成功通過一次難度層級等同10 + 此缺陷等級的某種檢定（通常是技能檢定）才能夠使用。若該檢定失敗，這個效果將不會發揮作用，但為了使用該效果所採取的動作仍然會被消耗（因此若要發動一個標準動作效果，無論檢定成功與否，使用者都必須採取一個標準動作）。",
+				"若該檢定成功，則使用者將得以使用等級等同於「檢定結果與難度層級之間差值+1」的該效果。舉例來說，若該效果應用了一級的這個缺陷，則14的檢定結果將讓使用者得以使用最多4級的該效果。若該效果的等級不足以發揮任何效用，則其結果將等同於在該檢定中失敗。",
+				"這個必須檢定將發生在為使用該效果而採取的動作中的一部份，且除了讓該效果得以發動之外沒有任何其它效用。其他修正值將如常適用於該檢定，且若你因為任何原因而無法進行該檢定，則該效果也就無法發揮效用。",
+				"在該檢定中骰出了1，意味著該檢定將自動失敗，而無論其檢定結果如何。這代表無論該角色的檢定加值有多高，這個檢定永遠會有極小的機率會失敗。",
+				"即使該效果本身就會要求的任何其他檢定，使用者仍必須額外進行這個檢定。因此舉例來說，一個感官類效果原本所附帶的{@skill 感知}檢定並不會被視作應用了這個缺陷，且若應用了這個缺陷，則意味著在進行該效果原本所要求的檢定之前，使用者將必須要先通過這個額外的檢定。",
 				{
 					"type": "example",
 					"entries": [
-						"A spellcaster has Senses 4 (Detect Magic, Ranged, Acute, Analyze) with Expertise: Magic Check Required 4. The player needs to make a DC 14 skill check (10 + 4 flaw ranks) to successfully cast the spell, followed by the normal Perception check to pick up on anything present, and perhaps another Expertise check to interpret what the character senses."
+						"一名施法者擁有{@effect Sense|感官 4 (探查魔法, 遠程, 敏銳, 分析)}的超能力效果，並應用了4級的必須檢定缺陷，指定{@skill Expertise|專業：魔法}檢定。該玩家必須先進行一次DC 14的技能檢定（10 + 4級缺陷）才能成功施放這個法術，並再之後如常進行{@skill 感知}檢定以感覺到任何存在的事物、或可能進行另一次{@skill 專業}檢定以解釋該角色所感覺到的事實。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Check Examples",
+					"translate_name": "檢定範例", "name": "Check Examples",
 					"entries": [
-						"Skill checks an effect may require include:",
+						"使用超能力效果可能所需的技能檢定包括：",
 						{
 							"type": "list",
 							"items": [
-								"{@b Acrobatics}: Suitable for effects requiring a measure of coordination or complex maneuvering.",
-								"{@b Deception}: Good for effects intended to deceive, particularly sensory effects like Concealment or Illusion, and disguise or form-altering effects like Morph.",
-								"{@b Expertise}: An Expertise skill check might represent having to know something about the subject of the effect or having to know something about the effect itself.",
-								"{@b Intimidation}: Useful for effects intended to inspire fear as well as similar offensive effects like Affliction.",
-								"{@b Stealth}: Best suited to sensory effects, particularly Concealment.",
-								"{@b Technology}: Operating a complex device may require a Technology check."
+								"{@b 雜技}：適合那些需要協調能力的花招、或複雜體術的效果。",
+								"{@b 欺瞞}：適合那些意圖欺騙他人的效果，特別像是如{@effect 隱蔽}或{@effect 幻覺}的感知類效果、以及像是{@effect 變形}這種用於易容或改變外型的效果。",
+								"{@b 專業}：專業技能檢定可能會用以代表對效果目標相關的理解、或是對於效果本身的掌握。",
+								"{@b 威嚇}：適合那些意圖引發恐懼、或是類似侵略性效應的效果，例如{@effect 詛咒}。",
+								"{@b 潛行}：最適合感知類效果，尤其是{@effect 隱蔽}。",
+								"{@b 科技}：操作複雜的裝置可能會需要進行一次科技檢定。"
 							]
 						}
 					]
@@ -638,13 +638,13 @@
 			]
 		},
 		{
-			"_translate_name": "逸散", "name": "Fades",
+			"translate_name": "逸散", "name": "Fades",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"Each time you use an effect with this flaw, it loses 1 rank of effectiveness. For effects with a duration longer than instant, each round is considered “one use.” Once the effect reaches 0 ranks, it stops working. A faded effect can be “recovered” in some fashion, such as recharging, rest, repair, reloading, and so forth. The GM decides when and how a faded effect recovers, but it should generally occur outside of combat and take at least an hour’s time. The GM may allow a hero to recover a faded effect immediately and completely by spending a victory point."
+				"每次你使用帶有這個缺陷的效果之後，該效果將會失去1級的效果等級。對於持續時間比「即效」更久的效果來說，每一輪都被視為「使用一次」。一旦該效果的等級歸零，它將停止作用。逸散的效果可以透過某些手段被「恢復」，像是充電、休息、維修、重新裝填等等。由GM決定逸散效果將如何以及何時恢復，但這個恢復的過程通常必須在戰鬥之外進行，且需要花費至少一個小時的時間。GM也可以允許英雄藉由消耗一點勝利點來立即且完全恢復一個逸散的效果。"
 			]
 		},
 		{
@@ -733,7 +733,7 @@
 			]
 		},
 		{
-			"name": "Quirk",
+			"_translate_name": "負面特色", "name": "Quirk",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "flat_per"
@@ -755,7 +755,7 @@
 			]
 		},
 		{
-			"name": "Removable",
+			"_translate_name": "可被移除", "name": "Removable",
 			"type": "flaw",
 			"cost": {
 				"value": "-1 or -2 points per 5 points", "type": "special"
@@ -827,7 +827,7 @@
 			]
 		},
 		{
-			"name": "Side Effect",
+			"_translate_name": "副作用", "name": "Side Effect",
 			"type": "flaw",
 			"cost": {
 				"value": {"min":-1, "max":-2}, "type": "per"
@@ -839,7 +839,7 @@
 			]
 		},
 		{
-			"name": "Tiring",
+			"_translate_name": "疲累", "name": "Tiring",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"

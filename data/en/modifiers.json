@@ -579,11 +579,11 @@
 				"If the check succeeds, the character gains the use of 1 effect rank per point the check exceeds the DC. Thus a check result of 14 allows the character to use up to 4 ranks of the effect. If a lesser rank of the effect doesn’t do anything, then it’s the same as failing the check.",
 				"The required check occurs as part of the action to use the effect and provides no benefit other than helping to activate it. Normal modifiers apply to the check, and if you are unable to make the required check for any reason, the effect doesn’t work.",
 				"A natural 1 rolled on the check means it fails automatically, regardless of the check result. So there is always a small chance the effect won’t work, regardless of the character’s check bonus.",
-				"This check must be in addition to any check(s) normally required for the effect. So, for example, the normal perception check made in conjunction with a sensory effect does not count as an application of this flaw, and applying it means an additional check is required before the effect’s normally required check(s).",
+				"This check must be in addition to any check(s) normally required for the effect. So, for example, the normal {@skill perception} check made in conjunction with a sensory effect does not count as an application of this flaw, and applying it means an additional check is required before the effect’s normally required check(s).",
 				{
 					"type": "example",
 					"entries": [
-						"A spellcaster has Senses 4 (Detect Magic, Ranged, Acute, Analyze) with Expertise: Magic Check Required 4. The player needs to make a DC 14 skill check (10 + 4 flaw ranks) to successfully cast the spell, followed by the normal Perception check to pick up on anything present, and perhaps another Expertise check to interpret what the character senses."
+						"A spellcaster has {@effect Sense|Senses 4 (Detect Magic, Ranged, Acute, Analyze)} with {@skill Expertise|Expertise: Magic} Check Required 4. The player needs to make a DC 14 skill check (10 + 4 flaw ranks) to successfully cast the spell, followed by the normal {@skill Perception} check to pick up on anything present, and perhaps another {@skill Expertise} check to interpret what the character senses."
 					]
 				},
 				{
@@ -595,10 +595,10 @@
 							"type": "list",
 							"items": [
 								"{@b Acrobatics}: Suitable for effects requiring a measure of coordination or complex maneuvering.",
-								"{@b Deception}: Good for effects intended to deceive, particularly sensory effects like Concealment or Illusion, and disguise or form-altering effects like Morph.",
+								"{@b Deception}: Good for effects intended to deceive, particularly sensory effects like {@effect Concealment} or {@effect Illusion}, and disguise or form-altering effects like {@effect Morph}.",
 								"{@b Expertise}: An Expertise skill check might represent having to know something about the subject of the effect or having to know something about the effect itself.",
-								"{@b Intimidation}: Useful for effects intended to inspire fear as well as similar offensive effects like Affliction.",
-								"{@b Stealth}: Best suited to sensory effects, particularly Concealment.",
+								"{@b Intimidation}: Useful for effects intended to inspire fear as well as similar offensive effects like {@effect Affliction}.",
+								"{@b Stealth}: Best suited to sensory effects, particularly {@effect Concealment}.",
 								"{@b Technology}: Operating a complex device may require a Technology check."
 							]
 						}

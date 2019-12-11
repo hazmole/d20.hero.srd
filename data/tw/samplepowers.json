@@ -19,16 +19,16 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b 能量體}：你由純粹的能量構成，像是火焰或閃電： {@effect 傷害}（近身 或 遠距）、{@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 3}、和{@effect Teleport|傳送（能量媒介）}。",
-						"{@b 氣體}：你是一團氣體，像是濃煙或迷霧： {@effect Affliction|詛咒（窒息）}、{@effect Concealment|隱蔽（視覺}, {@modifier Attack|攻擊化）}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 2}。",
-						"{@b 鬼魂}：你沒有實體，無法被看見，且不會受大部分物質世界的事物影響： {@effect Concealment|隱蔽（視覺}}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 4}。",
+						"{@b 能量體}：你由純粹的能量構成，像是火焰或閃電： {@effect 傷害}(近身 或 遠距)、{@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 3}、和{@effect Teleport|傳送(能量媒介)}。",
+						"{@b 氣體}：你是一團氣體，像是濃煙或迷霧： {@effect Affliction|詛咒(窒息)}、{@effect Concealment|隱蔽(視覺}, {@modifier Attack|攻擊化)}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 2}。",
+						"{@b 鬼魂}：你沒有實體，無法被看見，且不會受大部分物質世界的事物影響： {@effect Concealment|隱蔽(視覺)}、{@effect 飛行}、{@effect 免疫}、和{@effect Insubstantial|虛體化 4}。",
 						"{@b 英雄}：你除了原本的「普通」型態之外，還擁有一個獨特的「英雄」型態。基本上，你的所有超能力都具備啟動修飾符！不能自由變化成你英雄型態的限制將會時不時為你帶來麻煩，並成為你的糾葛難題。",
-						"{@b 液體}：你由液態所構成（例如水）： {@effect Affliction|詛咒（窒息）}、{@effect Concealment|隱蔽（視覺, 限定水中）}、{@effect 延展}、{@effect 免疫}、{@effect Insubstantial|虛體化 1}、和{@effect 游泳}。",
-						"{@b 微粒}：你的身體是由微小顆粒物質所構成，像是沙、塵、鹽等等： {@effect 傷害}、{@effect 延展}、{@effect 免疫}、{@effect Insubstantial|虛體化 1}、和{@effect Movement|移動（匍匐蛇行）}。",
-						"{@b 陰影}：你變化成一團活體陰影： {@effect Concealment|隱蔽（視覺, 限定黑暗和陰影中）}、{@effect 免疫}、{@effect Insubstantial|虛體化 4}、和{@effect Movement|移動（匍匐蛇行, 攀牆）}。",
+						"{@b 液體}：你由液態所構成（例如水）： {@effect Affliction|詛咒(窒息)}、{@effect Concealment|隱蔽(視覺, 限定水中)}、{@effect 延展}、{@effect 免疫}、{@effect Insubstantial|虛體化 1}、和{@effect 游泳}。",
+						"{@b 微粒}：你的身體是由微小顆粒物質所構成，像是沙、塵、鹽等等： {@effect 傷害}、{@effect 延展}、{@effect 免疫}、{@effect Insubstantial|虛體化 1}、和{@effect Movement|移動(匍匐蛇行)}。",
+						"{@b 陰影}：你變化成一團活體陰影： {@effect Concealment|隱蔽(視覺, 限定黑暗和陰影中)}、{@effect 免疫}、{@effect Insubstantial|虛體化 4}、和{@effect Movement|移動(匍匐蛇行, 攀牆)}。",
 						"{@b 固體}：你由堅硬的物質所組成，像是岩石或金屬： {@effect Enhanced Trait|增強體質}、{@effect Enhanced Trait|增強力量}、{@effect 免疫}、和{@effect 保護}。",
-						"{@b 群集}：你的「身體」實際上是由上千個其他微型生物聚集構成，例如昆蟲、蠕蟲、或甚至奈米機器人： {@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 2}、和{@effect Movement|移動（匍匐蛇行, 攀牆）}。",
-						"{@b 平面體}：你可以使你的身體變得扁平，使其近乎無限的薄： {@effect Concealment|隱蔽（視覺, 限定其中一面）}、{@effect 傷害}（{@modifier 貫穿強抗} – 鋒利的邊緣）、{@effect Insubstantial|虛體化 1}（用以鑽過狹窄的縫隙）、和{@effect Movement|移動（匍匐蛇行）}。"
+						"{@b 群集}：你的「身體」實際上是由上千個其他微型生物聚集構成，例如昆蟲、蠕蟲、或甚至奈米機器人： {@effect 飛行}、{@effect 免疫}、{@effect Insubstantial|虛體化 2}、和{@effect Movement|移動(匍匐蛇行, 攀牆)}。",
+						"{@b 平面體}：你可以使你的身體變得扁平，使其近乎無限的薄： {@effect Concealment|隱蔽(視覺, 限定一側)}、{@effect 傷害}({@modifier 貫穿強抗} – 鋒利的邊緣)、{@effect Insubstantial|虛體化 1}（用以鑽過狹窄的縫隙）、和{@effect Movement|移動(匍匐蛇行)}。"
 					]
 				}
 			]
@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			"_translate_name": "炫燦", "name": "Dazzle",
+			"_translate_name": "炫目", "name": "Dazzle",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
