@@ -2700,13 +2700,13 @@
 					"type": "section",
 					"translate_name": "描述符", "name": "Descriptors",
 					"entries": [
-						"Descriptors help to bring a collection of effects and modifiers to life, differentiating them from similar (or even identical) configurations and making them into distinct powers. Although descriptors don’t always have significant game effects, they’re perhaps the most important element in providing color and character to the powers of heroes and villains.",
-						"Descriptors do have some affect on game play. In particular, descriptors often govern how certain effects interact with each other, serving as convenient shorthand to help define an effect’s parameters. For example, Immunity and Nullify work against effects with specific descriptors; if they were limited solely to things like effect type, it would leave out a tremendous range of options, like “Immunity to Fire” or “Nullify Mutant Powers,” which are important to the source material.",
+						"描述符能夠使超能力效果和修飾符的組合重獲新生，使它們從其他類似（或甚至完全一樣）的設置中脫穎而出，成為獨一無二的超能力。儘管描述符不總是俱備顯著的遊戲效果，但它們在為英雄與反派的超能力增添色彩和特質的層面上，可說是最為重要的要素。",
+						"描述符在遊戲過程中的確可以帶來某些影響。尤其是描述符通常會決定一個特定效果如何與其他效果互動，並做為一個方便的簡述以定義該效果的意義。舉例來說，{@effect 免疫}和{@effect 無效化}會對特定的描述符發揮作用；若它們的限制條件僅限於其他像是效果類型的事物，而非描述符的話，那麼它們將會因此獲得太過龐大的選擇範圍。像是「免疫火焰」或者「無效變異超能力」這類限定特定描述符的做法就非常重要。",
 						{
 							"type": "entries",
 							"translate_name": "描述符的種類", "name": "Types of Descriptors",
 							"entries": [
-								"Descriptors come in many different forms. The break-down in this section is inexact, and deliberately so; some descriptors fall into more than one category, while others might not fall into any of these categories, being unique to that particular character or power. Still, the following are the major types of descriptors, and things to consider when creating or choosing powers for a character.",
+								"描述符有著各種各樣的形式。這個章節中的分類並不精確，這是故意為之的；某些描述符可能會同時屬於多個類別，而某些描述符則可能做為獨一無二的存在，無法被歸類於任何一個類別。儘管如此，以下仍列出了描述符的幾個主要類別，讓玩家在為角色創造或選擇超能力時可供參考。",
 								{
 									"type": "entries",
 									"translate_name": "起源", "name": "Origin",
@@ -3219,9 +3219,9 @@
 								},
 								{
 									"type": "table",
-									"caption": "Melee Weapons",
+									"caption": "近戰武器",
 									"colLabels": [
-										"Weapon",
+										"武器",
 										"Effect",
 										"Critical",
 										"Cost"
@@ -3233,7 +3233,7 @@
 										"col-2 text-align-center"
 									],
 									"rows": [
-										["{@i Simple Weapons}","","",""],
+										["{@i 簡易武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
@@ -3284,7 +3284,7 @@
 												"5"
 											]
 										},
-										["{@i Archaic Weapons}","","",""],
+										["{@i 傳統武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
@@ -3325,7 +3325,7 @@
 												"3"
 											]
 										},
-										["{@i Exotic Weapons}","","",""],
+										["{@i 奇門武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
