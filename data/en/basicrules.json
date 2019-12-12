@@ -3239,7 +3239,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Brass Knuckles",
-												"Damage 1, bludgeoning",
+												"{@effect Damage|Damage 1}, bludgeoning",
 												"20",
 												"1"
 											]
@@ -3249,7 +3249,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Club",
-												"Damage 2, bludgeoning",
+												"{@effect Damage|Damage 2}, bludgeoning",
 												"20",
 												"2"
 											]
@@ -3259,7 +3259,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Knife",
-												"Damage 1, piercing",
+												"{@effect Damage|Damage 1}, piercing",
 												"19-20",
 												"2"
 											]

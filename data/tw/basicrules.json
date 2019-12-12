@@ -3200,12 +3200,12 @@
 				},
 				{
 					"type": "section",
-					"name": "Weapons",
+					"translate_name": "武器", "name": "Weapons",
 					"entries": [
 						"Weapons of various sorts are common for both heroes and villains. They range from melee weapons to ranged weapons like guns and bows and devices like shrink-rays, mind-control helmets and more. Characters who don’t have any offensive powers often rely on weapons to get the job done.",
 						{
 							"type": "entries",
-							"name": "Melee Weapons",
+							"translate_name": "近戰武器", "name": "Melee Weapons",
 							"entries": [
 								"Melee weapons are hand-held close combat weapons. They typically have a Strength-based Damage effect (see Damage effect in Powers), adding the wielder’s Strength rank to the weapon’s damage rank. Ordinary melee weapons are limited by their Toughness in terms of the amount of Strength they can add. If a wielder exerts Strength greater than the weapon’s Toughness (4 for wooden weapons, 7 or 8 for metal weapons), the weapon breaks when it is used. Melee weapons have the following traits:",
 								{
@@ -3238,8 +3238,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Brass Knuckles",
-												"Damage 1, bludgeoning",
+												"手指虎",
+												"{@effect Damage|傷害 1}, 鈍擊",
 												"20",
 												"1"
 											]
@@ -3248,8 +3248,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Club",
-												"Damage 2, bludgeoning",
+												"棍棒",
+												"傷害 2, 鈍擊",
 												"20",
 												"2"
 											]
@@ -3258,8 +3258,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Knife",
-												"Damage 1, piercing",
+												"刀子",
+												"傷害 1, 穿刺",
 												"19-20",
 												"2"
 											]
@@ -3268,7 +3268,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Pepper Spray",
+												"胡椒噴霧器",
 												"Close Visual Dazzle 4, chemical",
 												"20",
 												"2"
@@ -3278,7 +3278,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Stun Gun",
+												"電擊槍",
 												"Affliction 5, electrical",
 												"20",
 												"5"
@@ -3289,7 +3289,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Battleaxe",
+												"戰斧",
 												"Damage 3, slashing",
 												"20",
 												"3"
@@ -3299,7 +3299,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Sword",
+												"劍",
 												"Damage 3, slashing",
 												"19-20",
 												"4"
@@ -3309,7 +3309,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Spear",
+												"矛",
 												"Damage 3, piercing",
 												"19-20",
 												"4"
@@ -3319,7 +3319,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Warhammer",
+												"戰鎚",
 												"Damage 3, bludgeoning",
 												"20",
 												"3"
@@ -3370,7 +3370,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Simple Melee Weapons",
+									"translate_name": "簡易近戰武器", "name": "Simple Melee Weapons",
 									"entries": [
 										{
 											"type": "list",
@@ -3386,7 +3386,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Archaic Melee Weapons",
+									"translate_name": "傳統近戰武器", "name": "Archaic Melee Weapons",
 									"entries": [
 										{
 											"type": "list",
@@ -3401,7 +3401,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Exotic Melee Weapons",
+									"translate_name": "奇門近戰武器", "name": "Exotic Melee Weapons",
 									"entries": [
 										{
 											"type": "list",
@@ -3418,13 +3418,13 @@
 						},
 						{
 							"type": "entries",
-							"name": "Ranged Weapons",
+							"translate_name": "遠程武器", "name": "Ranged Weapons",
 							"entries": [
 								"Ranged weapons include both thrown and projectile weapons. Thrown weapons are Strength-based, adding the wielder’s Strength rank to their Damage rank. Projectile weapons include bows, crossbows, and guns as well as energy weapons like lasers and blasters. Their Damage is generally not Strength-based.",
 								"Like melee weapons, ranged weapons have category, effect, critical, and cost traits. Ranged weapon categories are Projectile Weapons, Energy Weapons, Heavy Weapons, and Thrown Weapons.",
 								{
 									"type": "table",
-									"caption": "Ranged Weapons",
+									"caption": "遠程武器",
 									"colLabels": [
 										"Weapon",
 										"Effect",
