@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			"_translate_name": "炫目", "name": "Dazzle",
+			"translate_name": "炫目", "name": "Dazzle",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -64,10 +64,10 @@
 				"{@modifier Increased Range|遠距}, {@effect Affliction|累積詛咒}, {@modifier Limited|限定單一感官}"
 			],
 			"entries": [
-				"You can overwhelm one of the target’s senses, chosen when you take this effect. The target makes a Fortitude or Will resistance check against your effect DC (choose one when you acquire the effect). One degree of failure leaves the sense {@condition impaired} (–2 penalty). Two degrees leave it {@condition disabled} (–5 penalty) while three degrees leave the sense {@condition unaware}: The target automatically fails Perception checks involving the sense, and everything effectively has total concealment from that sense.",
-				"The target makes a new resistance check at the end of each turn to recover. Success removes the condition imposed by the Dazzle power. Failure means it persists.",
-				"Multiple Dazzle effects against the same sense are cumulative. If a target is already visually disabled, for example, another Visual Dazzle with one degree of success leaves the target blind, as if subjected to a Dazzle with two degrees of effect.",
-				"Your Dazzle effect can work on more than one sense at once; apply the {@effect Affliction|Extra Condition} modifier for each additional sense affected."
+				"你可以使目標的其中一種感官被難以承受的力量壓倒，在你獲得這個效果時選擇一種感官。目標將進行一次韌性或意志抵抗檢定以克服你的效果DC（在你獲得這個效果時選擇目標必須使用韌性或意志進行抵抗）。一個程度的失敗將使該感官陷入{@condition 行動乏能}狀態（-2罰值）。二個程度的失敗將使該感官陷入{@condition 行動障礙}（-5罰值），而三個程度的失敗將會使該感官陷入{@condition 感官喪失}狀態：到了這一步，目標將在所有涉及該感官的{@skill 感知}檢定中自動失敗，且對於該感官而言，所有事物都被視為對它具有全遮蔽的作用。",
+				"目標將在它的每個回合結束時重複進行一次抵抗檢定以嘗試從中恢復。若抵抗檢定成功,則炫目超能力所造成的異常狀態將被解除。抵抗檢定失敗則代表該狀態將繼續維持。",
+				"複數次的炫目效果對同個感官造成的影響將會累積。舉例來說，若目標已經陷入視覺{@condition 行動障礙}狀態，則另一次成功造成程度一結果的視覺炫目效果，將會使該目標陷入{@condition Unaware|視覺感官喪失}狀態，就彷彿目標承受了程度三的炫目結果一樣。",
+				"你的炫目效果可以同時影響多種感官；你每應用一次{@effect Affliction|額外狀態}強化，你就能額外影響一種感官。"
 			]
 		},
 		{

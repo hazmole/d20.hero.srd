@@ -827,27 +827,27 @@
 			]
 		},
 		{
-			"_translate_name": "副作用", "name": "Side Effect",
+			"translate_name": "副作用", "name": "Side Effect",
 			"type": "flaw",
 			"cost": {
 				"value": {"min":-1, "max":-2}, "type": "per"
 			},
 			"entries": [
-				"Failing to successfully use an effect with this flaw causes some problematic effect. Failure includes missing an attack check, or the target successfully resisting the effect. If the side effect always occurs when you use the effect, whether you succeed or fail, it is worth –2 cost per rank.",
-				"The exact nature of the side effect is for you and the Gamemaster to determine. As a general guideline, it should be an effect about the same in value as the effect with this flaw. So an effect with a cost of 20 points should have a 20-point side effect. Typical side effects include Affliction, Damage, or Weaken, or the base effect itself (it essentially rebounds and affects you instead). The Side Effect does not require an attack check and only affects you, although the GM may permit some Side Effects with the Area modifier on a case-by-case basis. You get a normal resistance check against the Side Effect. If you are immune to your own powers, you aren’t immune to its side-effect.",
-				"The GM may also allow a Complication Side Effect, which essentially imposes a complication on you without awarding a victory point. See Complications for more information."
+				"沒能成功使用帶有這個缺陷的效果將會導致某些副作用的發生。這裡所指的使用失敗包括了攻擊檢定失手、或是目標成功地抵抗了該效果。若這個副作用在你每次使用該效果時，無論成功與否都會發生，則此缺陷的花費將價值每級-2點。",
+				"這個副作用的實際性質將由你和遊戲主持人共同決定。一般來說，它通常會造成與應用了這個缺陷效果相同價值的負面效果影響。因此一個價值20點角色點的超能力效果，將可能導致價值20點角色點的副作用。典型的副作用包括了{@effect 詛咒}、{@effect 傷害}、或{@effect 弱化}，或是該效果本身（它將反噬並影響你自己）。副作用的發動並不需要進行攻擊檢定，且只會影響你；不過根據個案的不同，GM可能會允許某些副作用帶有{@modifier 範圍化}修飾符。你可以如常進行一次抵抗檢定以嘗試對抗該副作用。就算你免疫於你自己的超能力，你也不會因此免疫於該超能力所產生的副作用。",
+				"GM也可能會允許將糾葛難題當作這個缺陷所導致的副作用，在實質上等同於使你陷入糾葛難題導致的困境，而不因此獎勵你任何勝利點。參見參見{@rule 糾葛難題|basic|1|Complications}以查閱更多詳情。"
 			]
 		},
 		{
-			"_translate_name": "疲累", "name": "Tiring",
+			"translate_name": "疲累", "name": "Tiring",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An effect with this flaw causes you to suffer a level of fatigue when you use it. You recover from this fatigue normally, and can use victory points to overcome it by spending the victory point at the start of the round following the use of a tiring effect. In essence, the power requires extra effort in order to use it (see Extra Effort). This makes Tiring a useful flaw for creating an effect you can only use with extra effort.",
-				"Tiring is often applied to just some ranks of an effect to represent a higher level of the effect, usable only through extra effort. For example, a hero might have a rank 12 Damage effect, but routinely use only 8 ranks of it. The remaining 4 ranks are Tiring, so using them quickly fatigues the hero.",
-				"A Tiring effect can be combined with extra effort, but the fatigue stacks, causing a minimum of two levels of fatigue per use."
+				"應用了這個缺陷的效果將會讓你在使用它時陷入{@condition 疲勞}狀態。你將如常從該疲勞狀態中回復，也可以使用勝利點來克服這個疲勞狀態，在你使用應用了疲累缺陷的效果之後的輪開始時，你可以消耗一點勝利點以從疲勞狀態中回復。實際上，這個超能力將等同於它必須透過{@rule 奮力一搏|basic|1|Extra Effort}才能被使用。這使得疲累缺陷能夠很好地呈現出那些需要你耗盡全力才能使用的超能力效果。",
+				"疲累缺陷經常被應用於一個效果的部分等級中，以呈現出更高等級的這個效果必須耗盡全力才能發揮出來。舉例來說，一名英雄可能會擁有12級的傷害效果，但平常只會發揮出其中8級的效果。剩下的4級應用了疲累缺陷，因此動用到這些等級將會快速地使該名英雄陷入疲勞。",
+				"應用了疲累地效果仍然可以與奮力一搏結合使用，但這會導致疲勞狀態的堆疊，因此每次這麼做都會讓使用者陷入二個層級的疲勞（疲勞狀態的三個層級分別為{@condition 疲勞}/{@condition 力竭}/{@condition 失能}）。"
 			]
 		},
 		{

@@ -833,7 +833,7 @@
 			},
 			"entries": [
 				"Failing to successfully use an effect with this flaw causes some problematic effect. Failure includes missing an attack check, or the target successfully resisting the effect. If the side effect always occurs when you use the effect, whether you succeed or fail, it is worth –2 cost per rank.",
-				"The exact nature of the side effect is for you and the Gamemaster to determine. As a general guideline, it should be an effect about the same in value as the effect with this flaw. So an effect with a cost of 20 points should have a 20-point side effect. Typical side effects include Affliction, Damage, or Weaken, or the base effect itself (it essentially rebounds and affects you instead). The Side Effect does not require an attack check and only affects you, although the GM may permit some Side Effects with the Area modifier on a case-by-case basis. You get a normal resistance check against the Side Effect. If you are immune to your own powers, you aren’t immune to its side-effect.",
+				"The exact nature of the side effect is for you and the Gamemaster to determine. As a general guideline, it should be an effect about the same in value as the effect with this flaw. So an effect with a cost of 20 points should have a 20-point side effect. Typical side effects include {@effect Affliction}, {@effect Damage}, or {@effect Weaken}, or the base effect itself (it essentially rebounds and affects you instead). The Side Effect does not require an attack check and only affects you, although the GM may permit some Side Effects with the {@modifier Area} modifier on a case-by-case basis. You get a normal resistance check against the Side Effect. If you are immune to your own powers, you aren’t immune to its side-effect.",
 				"The GM may also allow a Complication Side Effect, which essentially imposes a complication on you without awarding a victory point. See Complications for more information."
 			]
 		},
@@ -844,7 +844,7 @@
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An effect with this flaw causes you to suffer a level of fatigue when you use it. You recover from this fatigue normally, and can use victory points to overcome it by spending the victory point at the start of the round following the use of a tiring effect. In essence, the power requires extra effort in order to use it (see Extra Effort). This makes Tiring a useful flaw for creating an effect you can only use with extra effort.",
+				"An effect with this flaw causes you to suffer a level of {@condition Fatigued|fatigue} when you use it. You recover from this fatigue normally, and can use victory points to overcome it by spending the victory point at the start of the round following the use of a tiring effect. In essence, the power requires extra effort in order to use it (see {@rule Extra Effort|basic|1|Extra Effort}). This makes Tiring a useful flaw for creating an effect you can only use with extra effort.",
 				"Tiring is often applied to just some ranks of an effect to represent a higher level of the effect, usable only through extra effort. For example, a hero might have a rank 12 Damage effect, but routinely use only 8 ranks of it. The remaining 4 ranks are Tiring, so using them quickly fatigues the hero.",
 				"A Tiring effect can be combined with extra effort, but the fatigue stacks, causing a minimum of two levels of fatigue per use."
 			]
