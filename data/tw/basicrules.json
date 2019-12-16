@@ -57,18 +57,18 @@
 			{
 				"translate_name": "特長", "name": "Advantages",
 				"headers": [
-					{ "name": "Acquiring Advantages" },
+					{ "translate_name": "獲得特長", "name": "Acquiring Advantages" },
 					{ "name": "Advantage Descriptions" }
 				]
 			},
 			{
 				"translate_name": "超能力", "name": "Powers",
 				"headers": [
-					{ "name": "Acquiring Powers" },
-					{ "name": "Effect Types" },
-					{ "name": "How Powers Work" },
-					{ "name": "Power Effects" },
-					{ "name": "Modifiers" },
+					{ "translate_name": "獲得超能力", "name": "Acquiring Powers" },
+					{ "translate_name": "效果類型", "name": "Effect Types" },
+					{ "translate_name": "超能力的作用方式", "name": "How Powers Work" },
+					{ "translate_name": "超能力效果", "name": "Power Effects" },
+					{ "translate_name": "修飾符", "name": "Modifiers" },
 					{ "translate_name": "描述符", "name": "Descriptors" }
 				]
 			},
@@ -2324,29 +2324,29 @@
 		},
 		{
 			"type": "section",
-			"name": "Powers",
+			"translate_name": "超能力", "name": "Powers",
 			"entries": [
 				"Although some heroes and villains rely solely on their skills and advantages, most are set apart by their superhuman powers. Characters can lift tanks, fly through the air, throw lightning from their hands, shoot lasers from their eyes, or any number of other amazing things. This page describes these and many other powers and how you can create your own.",
 				{
 					"type": "section",
-					"name": "Acquiring Powers",
+					"translate_name": "獲得超能力", "name": "Acquiring Powers",
 					"entries": [
-						"Players spend character points on various powers for their heroes, like acquiring skills or other traits. A power is made up of one or more {@b effects}, possibly with different {@b modifiers}, which increase or decrease the cost of the effects.",
-						"Effects can be used to create any number of different powers. A hero with the {@b Concealment} effect could use it to create a power called Blending, Blur, Cloak, Invisibility, Shadowmeld, or anything else appropriate to the character you wish to play. It’s all a matter of how powerful the effect is and what modifiers have been placed on it to increase or decrease its performance. Another way to think of it is that this book is filled with effects, but your character sheet is filled with powers.",
+						"玩家可以花費角色點來使他們的英雄們獲得各式各樣超能力，就如同獲得技能或其他數據一樣。超能力由單一或數個{@b 超能力效果}所組成，可能還會搭配不同的{@b 修飾符}，以增加或減少超能力效果的花費。",
+						"超能力效果可以用來創造各種不同的超能力。比如說，擁有{@effect 隱蔽}超能力效果的英雄可以藉此創造出像是融混、朦糊、匿蹤、隱形、影遁等、或任何適合你的角色想使用的超能力。這一切都取決於用以組合的超能力效果有多強大、以及什麼樣的修飾符被用來加強或削弱了超能力的表現。另一種思考方式是，儘管這個規則站上列出了種種超能力效果，但你的角色卡上所需要填寫的卻要是超能力。",
 						{
 							"type": "entries",
-							"name": "Power Costs",
+							"translate_name": "超能力花費", "name": "Power Costs",
 							"entries": [
-								"Power effects are acquired in ranks, like ranks for other traits. The more ranks an effect has, the greater its effect. Each effect of a power has a standard cost per rank.",
+								"如同其他數據，超能力效果也擁有用以評估強度的等級。超能力效果的等級越高，它的效果就越強。每個超能力效果都有各自的基本每級花費，表示其每級所需的角色點。",
 								{
 									"type": "entries",
-									"name": "Modifiers",
+									"translate_name": "修飾符", "name": "Modifiers",
 									"entries": [
-										"{@b Modifiers} change how an effect works, making it more effective (an {@b extra}) or less effective (a {@b flaw}). Modifiers have ranks, just like other traits. Extras increase a power’s cost while flaws decrease it. Unless its description specifies otherwise, a modifier is a permanent change in how the effect works. That is, you do not have the option of using the modifier or not, it always applies. Some modifiers increase an effect’s cost per rank, others apply an unchanging cost to the power’s total; these are called {@b flat modifiers}. For more information see {@b Modifiers}.",
-										"The final cost of a power is determined by base effect costs, modified by extras and flaws, multiplied by the power’s rank, with flat modifiers applied to the total cost.",
+										"{@b 修飾符}可以改變超能力效果的作用方式，使其更加有效（{@b 強化}修飾符）或不那麼有效（{@b 缺陷}修飾符）。就跟其他數據一樣，修飾符也具有等級。強化修飾符會增加超能力的花費，而缺陷修飾符則會使花費減少。除非另有說明，否則修飾符一旦應用，就會永久改變該效果的作用方式。也就是說，一旦你應用了該修飾符，你就不能選擇要不要使用它，它將永遠影響其應用的超能力效果。有些修飾符會增加超能力效果的每級花費，而有些則是為整個超能力再加上一個固定的花費，後者被稱為{@b 平移修飾符}。更多的資訊請參閱{@rule 修飾符|basic|6|modifiers}段落。",
+										"超能力的總花費將由以下方式決定：把超能力效果的基本每級花費，經過強化和缺陷修飾符的修正後，乘以該超能力的等級，最後再加上平移修飾符的花費修正。",
 										{
 											"type": "middleEnhance",
-											"text": "Power Cost = ((base effect costs + extras - flaws) x rank) + flat modifiers"
+											"text": "超能力花費 = ((基本效果花費 + 強化 - 缺陷) x 等級) + 平移修飾符"
 										}
 									]
 								}
@@ -2354,50 +2354,50 @@
 						},
 						{
 							"type": "entries",
-							"name": "Power Descriptors",
+							"translate_name": "超能力描述符", "name": "Power Descriptors",
 							"entries": [
-								"These rules in this chapter explain what the various powers do, that is, what their game effects are, but it is left up to the player and Gamemaster to apply {@b descriptors} to define exactly what a power is and what it looks (and sounds, and feels) like to observers beyond just a collection of game effects.",
-								"A power’s descriptors are primarily for color. It’s more interesting and clear to say a hero has a “Flame Blast” or “Lightning Bolt” power than a generic “Damage effect.” “Flame” and “lightning” are descriptors for the Damage effect. Descriptors do have some impact on the game since some effects work only on or with effects of a particular descriptor. A hero may be immune to fire and heat, for example, so any effect with the “fire” or “heat” descriptor doesn’t affect that character. The different sense types are descriptors pertaining to sensory effects.",
-								"Generally speaking, a descriptor is part of what a power is called beyond its game system name. For example, a weather-controlling heroine has the following effects: Damage, Concealment, and Environment. Her Damage effect is the power to throw lightning bolts, so it has the descriptor “lightning.” If a villain can absorb electricity, then his power works against the heroine’s Damage (since lightning is electrical in nature). Concealment creates thick banks of fog, giving it the “fog” or “mist” descriptor. So if an opponent transforms into mist, with the ability to regenerate in clouds or fog, he can regenerate inside the heroine’s Concealment area. Her Environment is the power to control the weather, giving it the descriptor “weather.” If the heroine’s power comes as a gift from the gods, it may also have the descriptor “divine” or “magical.” On the other hand, if it comes from her mutant genetic structure, then it has the descriptor “mutant.” A villain able to nullify mutant powers could potentially nullify all of the heroine’s powers!",
-								"The number of power descriptors is virtually limitless. The players and Gamemaster should cooperate to apply the appropriate descriptors to characters’ powers and use common sense when dealing with how the different descriptors interact. Just because one hero throws “lightning” and an opponent can absorb “electricity” doesn’t mean the villain’s absorption doesn’t work because it’s not the exact same descriptor. Lightning is a form of electricity. A certain amount of flexibility is built into descriptors, allowing them to cover the full range of possible powers. As in all things, the GM is the final arbitrator and should be consistent when ruling on whether or not a particular descriptor is appropriate and how all effects and descriptors interact in the series.",
-								"The powers in this chapter provide numerous examples of descriptors. Feel free to create your own as desired.",
+								"這個章節的規則解釋了各種超能力能做到什麼，亦即它們在遊戲中所能產生的效果，然而這些超能力仍需由玩家與遊戲主持人應用{@b 描述符}以定義它們具體的內容與表現方式（它們的聲光效果、或感受狀況），讓這些超能力不再只是一堆遊戲效果堆砌而成的數據。",
+								"超能力描述符主要用以增色。描述一名英雄擁有「火焰衝擊」或「閃電」的超能力，會遠比普通的「{@effect 傷害}效果」要來得更有趣而清晰。在這裡，「火焰」與「閃電」就是這個傷害效果的描述符。由於有些效果只會作用於特定描述符、或帶有特定描述符的超能力效果，因此描述符確實能夠為遊戲帶來某些影響。舉例來說，若一名英雄免疫於火焰或高溫，那麼帶有「火焰」或「高溫」描述符的效果就不會影響到該名角色。對於感知類型的效果而言，不同的感官種類也被視作不同的描述符。",
+								"一般來說，描述符構成了其超能力名稱的一部份，提供了一種不同於其遊戲系統名稱的描述方式。舉例來說，一名能夠操控天氣的女英雄可能擁有以下超能力效果：{@effect 傷害}、{@effect 隱蔽}、與{@effect 環境}。她的傷害效果代表著施放閃電的超能力，因此該效果將帶有「閃電」的描述符。若某個反派能夠吸收電能，那麼他的超能力將能夠作用於這名女英雄的傷害效果（畢竟閃電的本質就是電能）。她的隱蔽效果可以創造出一團濃霧，這使這個效果將帶有「霧」或「靄」的描述符。因此若某個敵人能夠轉變成一團迷霧，並具有在雲霧中再生的能力，那麼他就能夠在這名女英雄隱蔽效果所影響的區域內進行再生。這名女英雄的環境效果是一個能夠控制天氣的超能力，使它帶有「天氣」描述符。若這名女英雄的超能力是源自於天神的饋贈，那麼這些超能力可能也會帶有「神聖」或「魔法」的描述符。然而另一方面，若這些超能力是來自她的變異基因結構，那麼它們就可能帶有「變異」描述符。因此一名能夠無效化變異系超能力的反派，將能夠消除這名女英雄的所有超能力！",
+								"超能力描述符的數量實際上是沒有限制的。玩家與遊戲主持人必須通力合作以將適當的描述符放置進角色的超能力中，並運用常識來處理不同描述符之間的交互作用。在上述例子中，英雄能投擲「閃電」，而反派能吸收「電能」，儘管兩個描述符並不完全相同，但這並不代表反派的吸收能力無法發揮作用：由於閃電是電能的其中一種形式。描述符有著相當的靈活性，使其能涵蓋所有可能出現的超能力。就跟其他遊戲一樣，GM將擔當最終的裁決者，並確保在同一場遊戲劇集中，對於描述符的適當與否、或者超能力效果與描述符之間互動應用的處理標準都能夠保持一致。",
+								"這個章節的超能力提供了數種描述符的範例。盡情發揮創意，創造屬於自己的超能力吧。",
 								{
 									"type": "inset",
-									"name": "Sample Descriptors",
+									"translate_name": "範例描述符", "name": "Sample Descriptors",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Allegiances}: Anarchy, Balance, Chaos, Evil, Good, Justice, Law, Liberty, Tyranny",
-												"{@b Elements}: Air, Earth, Fire, Plant, Water, Weather",
-												"{@b Energy}: Acid, Chemical, Cold, Cosmic, Darkness, Electricity, Gravity, Heat, Kinetic, Light, Magnetic, Radiation, Sonic, Vibration",
-												"{@b Phenomena}: Colors, Dimensions, Dreams, Entropy, Ideas, Luck, Madness, Memes, Mind, Quantum Forces, Space, Thought, Time",
-												"{@b Sources}: Alien, Biological, Chi, Divine, Magic, Mystic, Mutant, Preternatural, Primal, Psionic, Psychic, Skill, Technology, Training"
+												"{@b 陣營}： 無政府、平衡、混亂、邪惡、善良、正義、律法、自由、暴政",
+												"{@b 元素}： 大氣、土、火焰、植物、水、天氣",
+												"{@b 能量}： 強酸、化學、寒冷、宇宙、黑暗、電、重力、熱能、動能、光、磁力、輻射、音波、振動",
+												"{@b 現象}： 顏色、維度、夢境、失序、靈感、幸運、瘋狂、迷因、心智、量子領域、太空、思想、時間",
+												"{@b 源頭}： 異星球、生物、氣功、神聖、魔法、神秘、變異、異常、原始、靈能、通靈、技術、科技、訓練"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Required Descriptors",
+									"translate_name": "必要描述符", "name": "Required Descriptors",
 									"entries": [
-										"In some settings, the Gamemaster may require certain descriptors for all powers. Usually, a required descriptor reflects some common element of the series. For example, if all characters with powers are mutants, then all powers have the “mutant” descriptor by definition, unless the player comes up with a good explanation why they should not. If all superhumans are psychic mutants, then all powers have both the “psychic” and “mutant” descriptors. The GM sets the rules as far as what descriptors are required (or restricted) in the series. A character who breaks this guideline—say the one alien in a setting where all powers are otherwise mutant in origin—might have a Benefit (unusual origin) or face certain complications, possibly both."
+										"在某些設定中，遊戲主持人可能會要求所有超能力都必須帶有特定的描述符。這個描述符通常會反映出該場遊戲中的某些共有元素。舉例來說，如果所有具備超能力的角色都是變異者，那麼他們的所有超能力就都必須具有「變異」描述符──除非玩家想到了什麼好理由以解釋為什麼他的超能力缺乏這個描述符。若這場遊戲的所有超人類都是靈能變異者，那麼他們的所有超能力也就都會帶有「靈能」和「變異」的描述符。GM將會設定遊戲劇集中所必須（或禁止）的描述符。若有角色打破了這個規範，比方說一名外星英雄出現在了這個超能力皆為變異起源的世界中，那麼他將可能會具備{@advantage Benefit|額外優勢(不尋常起源)}特長、或必須面對特定的糾葛難題，又或者兩者皆有。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Noticing Power Effects",
+									"translate_name": "注意到超能力效果", "name": "Noticing Power Effects",
 									"entries": [
-										"Effects with a duration of instant, concentration, or sustained must be noticeable in some way. For example, a Blast effect might have a visible beam or make a loud noise (ZAP!) or both. Some effects are quite obvious, such as Flight, Insubstantiality, Growth, or Shrinking. Effects with a continuous or permanent duration are not noticeable by default.",
-										"If an instant, concentration, or sustained effect’s base duration is changed using modifiers, the effect remains noticeable. A continuous or permanent effect made instant, concentration, or sustained also becomes noticeable. The Subtle modifier can make noticeable powers difficult or impossible to detect. Conversely, the Noticeable modifier makes a normally subtle effect noticeable."
+										"持續時間為即效、專注、或維持的超能力效果，都必須在某些層面上顯而易見。舉例來說，{@samplepower 衝擊波}效果可能會有著可見的光束、非常大聲的噪音（碰！）、或兩者皆有。某些效果本身便很明顯，例如{@effect 飛行}、{@effect 虛體化}、{@effect 成長}、或{@effect 縮小}。相反的，持續時間為常續或永駐的超能力效果則預設狀況下則不會那麼容易就被注意到。",
+										"若一個原本為即效、專注、或維持的超能力效果藉著修飾符而改變了其持續時間，則該效果仍會保有其引人注目的特質。一個持續時間被變更為即效、專注、或維持的常續或永駐超能力效果也同樣會因此變得顯而易見。{@modifier 隱密使用}修飾符可以使一個原本顯而易見的超能力變得難以被察覺、或幾乎不可能被察覺。相反的，{@modifier 顯而易見}修飾符則會使原本難以被察覺的效果變得明顯而引人注目。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Powers that Aren’t",
+									"translate_name": "並非超能力", "name": "Powers that Aren’t",
 									"entries": [
-										"“Powers” refer to all extraordinary traits other than abilities, skills, and advantages. Whether a character with powers is “superhuman” or not is largely a matter of opinion and the descriptors used. For example, there are lots of comic book characters with superhuman traits still considered “normal” humans. Their amazing effects come from talent, training, luck, self-discipline, devices, or some similar source, with appropriate descriptors. They’re still “powers” in game terms, but they don’t necessarily mean the character is something other than human.",
-										"Ultimately it’s up to the GM to decide if having certain effects makes a character something “other than human,” (and what, if anything, that means) depending on the nature of powers in the setting."
+										"「超能力」指的是除了屬性、技能、特長以外的所有非凡特質。一位擁有超能力的角色是否為「超人類」很大程度上要取決於人們的看法、以及該超能力所使用的描述符。舉例來說，很多擁有超人特質的漫畫人物仍會被當作「普通」人來看待，他們驚人的超級能力可能來自於天賦、訓練、幸運、自律、設備、或其他類似的來源，並帶有相應的適當描述符。它們仍以「超能力」的遊戲術語被稱呼，但這並不一定代表這些角色就不再是人類。",
+										"最終，遊戲主持人將根據該超能力在遊戲中的本質，決定擁有某些超能力效果會不會讓該角色「不再是普通人」（如果會的話，又會代表什麼？）。"
 									]
 								}
 							]
@@ -2406,7 +2406,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Effect Types",
+					"translate_name": "效果類型", "name": "Effect Types",
 					"entries": [
 						"Power effects fall into certain categories or {@b effect types}. Effects of the same type follow similar rules and provide descriptors for certain other effects. This section discusses the different effect types and the rules governing them.",
 						{
@@ -2414,35 +2414,35 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Attack",
+									"translate_name": "攻擊", "name": "Attack",
 									"entries": [
 										"{@b Attack} effects are used offensively in combat. They require an attack check and damage, hinder, or otherwise harm their target in some way. Attack effects require a standard action to use. Their duration is usually instant although their results—whether damage or some other hindrance—may linger until the target recovers. Attack effects always allow for a resistance check."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Control",
+									"translate_name": "控制", "name": "Control",
 									"entries": [
 										"{@b Control} effects grant the user influence over something, from the environment to the ability to move objects or even create them out of thin air. Control effects require a standard action to initiate, but can then usually be sustained. Control effects used against unwilling targets usually require an attack check and allow a resistance check, the same for the hazards they are capable of causing, such as creating intense cold or dropping a heavy object on someone."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Defense",
+									"translate_name": "防禦", "name": "Defense",
 									"entries": [
 										"{@b Defense} effects protect in various ways, typically offering a bonus to resistance checks, or granting outright immunity to particular effects or conditions. Most defense effects work only on the user and are subtle and permanent, functioning at all times. Some are activated and sustained as a free action, meaning they can switch on or off, but can potentially leave the user unprotected."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "General",
+									"translate_name": "泛用", "name": "General",
 									"entries": [
 										"{@b General} effects don’t fit into any other particular category. They’re not governed by any special rules other than those given in the effect’s description."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Movement",
+									"translate_name": "移動", "name": "Movement",
 									"entries": [
 										"{@b Movement} effects allow characters to get around in various ways. Some provide a speed rank with a particular form of movement—such as ground, air, or water—while others offer different modes of movement, like walking on walls or slithering along the ground like a snake.",
 										"Although activating a movement effect is typically a free action, the character must still take a move action in order to actually move using the effect. So, for example, the action of the Flight effect is “free” and activating it grants the character a Flightspeed rank equal to the effect rank. Moving that speed rank still requires a move action, however."
@@ -2450,7 +2450,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Sensory",
+									"translate_name": "感知", "name": "Sensory",
 									"entries": [
 										"{@b Sensory} effects enhance or alter the senses. Some sensory effects improve the user’s senses while others grant entirely new senses or fool the senses in some way. Sensory effects are typically a free action to activate and sustain, or are permanent and always in effect.",
 										{
@@ -2515,58 +2515,58 @@
 								"Each effect has certain {@b parameters} that describe the time needed to use the effect, the subject or target, the distance it works at, and so forth. The basic effect parameters are Action, Range, and Duration.",
 								{
 									"type": "entries",
-									"name": "Action",
+									"translate_name": "動作", "name": "Action",
 									"entries": [
 										"Using or activating an effect requires a particular amount of time. See Actions, for details about the different types of actions. Modifiers may change the action needed to use an effect.",
 										{
 											"type": "list",
 											"items": [
-												"{@b Standard}: Using the effect requires a standard action.",
-												"{@b Move}: Using the effect requires a move action.",
-												"{@b Free}: It requires a free action to use or activate the effect. Once an effect is activated or deactivated, it remains so until your next turn. As with all free actions, the GM may limit the total number of effects a hero can turn on or off in a turn.",
-												"{@b Reaction}: It requires no action to use the effect. It operates automatically in response to something else, such as an attack.",
-												"{@b None}: It requires no action to use the effect. It is always active."
+												"{@b 標準動作}: Using the effect requires a standard action.",
+												"{@b 移動動作}: Using the effect requires a move action.",
+												"{@b 自由動作}: It requires a free action to use or activate the effect. Once an effect is activated or deactivated, it remains so until your next turn. As with all free actions, the GM may limit the total number of effects a hero can turn on or off in a turn.",
+												"{@b 反應}: It requires no action to use the effect. It operates automatically in response to something else, such as an attack.",
+												"{@b 無}: It requires no action to use the effect. It is always active."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Range",
+									"translate_name": "射程", "name": "Range",
 									"entries": [
 										"Each effect has a default range, which may be changed by modifiers.",
 										{
 											"type": "list",
 											"items": [
-												"{@b Personal}: The effect works only on you, the user.",
-												"{@b Close}: The effect can target anyone or anything you touch. Touching an unwilling subject requires an unarmed attack check against the subject’s Parry.",
-												"{@b Ranged}: The effect works at a distance, limited by perception and path and requiring a ranged attack check against the subject’s Dodge defense. A ranged effect has a short range of (rank x 25 feet), a medium range of (rank x 50 feet) and a long range of (rank x 100 feet). Ranged attack checks at medium range suffer a –2 circumstance penalty, while ranged attacks at long range suffer a –5 circumstance penalty. See {@b Action & Adventure} for details.",
-												"{@b Perception}: The effect works on any target you can perceive with an accurate sense, without any need for an attack check. If you cannot accurately perceive the target, you cannot affect it.",
-												"{@b Rank}: The effect’s range or area of effect is determined by its rank, as given in its description."
+												"{@b 個人}: The effect works only on you, the user.",
+												"{@b 近身}: The effect can target anyone or anything you touch. Touching an unwilling subject requires an unarmed attack check against the subject’s Parry.",
+												"{@b 遠距}: The effect works at a distance, limited by perception and path and requiring a ranged attack check against the subject’s Dodge defense. A ranged effect has a short range of (rank x 25 feet), a medium range of (rank x 50 feet) and a long range of (rank x 100 feet). Ranged attack checks at medium range suffer a –2 circumstance penalty, while ranged attacks at long range suffer a –5 circumstance penalty. See {@b Action & Adventure} for details.",
+												"{@b 感知距離}: The effect works on any target you can perceive with an accurate sense, without any need for an attack check. If you cannot accurately perceive the target, you cannot affect it.",
+												"{@b 等級}: The effect’s range or area of effect is determined by its rank, as given in its description."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Duration",
+									"translate_name": "持續時間", "name": "Duration",
 									"entries": [
 										"Each effect lasts for a particular amount of time, which may be changed by modifiers.",
 										{
 											"type": "list",
 											"items": [
-												"{@b Instant}: When used, the effect occurs and ends in the same turn, although its results may linger.",
-												"{@b Concentration}: You can keep a concentration effect going by taking a standard action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
-												"{@b Sustained}: You can keep a sustained effect going by taking a free action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
-												"{@b Continuous}: The effect lasts as long as you wish, without any action required on your part. Once active, it stays that way until you choose to deactivate it (a free action).",
-												"{@b Permanent}: The effect is always active and cannot be deactivated, even if you want to. A permanent effect cannot be improved using extra effort."
+												"{@b 即效}: When used, the effect occurs and ends in the same turn, although its results may linger.",
+												"{@b 專注}: You can keep a concentration effect going by taking a standard action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
+												"{@b 維持}: You can keep a sustained effect going by taking a free action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
+												"{@b 常續}: The effect lasts as long as you wish, without any action required on your part. Once active, it stays that way until you choose to deactivate it (a free action).",
+												"{@b 永駐}: The effect is always active and cannot be deactivated, even if you want to. A permanent effect cannot be improved using extra effort."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Resistance Check",
+									"translate_name": "抵抗檢定", "name": "Resistance Check",
 									"entries": [
 										"Effects targeting other characters allow a resistance check. The defense used and the difficulty class depend on the effect and its modifiers.",
 										"Willing characters can forgo their resistance check against an effect, if they wish. This includes characters who think they’re receiving a beneficial effect, even if they’re not! You can’t forgo Toughness checks, but you may choose to discontinue the use of effects with a duration of Continuous or Sustained that grant a Toughness bonus in order to lower your resistance.",
@@ -2621,10 +2621,10 @@
 				},
 				{
 					"type": "section",
-					"name": "Power Effects",
+					"translate_name": "超能力效果", "name": "Power Effects",
 					"entries": [
-						"This section describes the various power effects available in this game.",
-						"For each Effect description, see {@5etools Power Effects|powereffects.html} page."
+						"這個段落描述了遊戲中各種可用的超能力效果。",
+						"關於每個超能力效果的完整說明，請參閱{@5etools 超能力效果|powereffects.html}頁面。"
 					]
 				},
 				{
