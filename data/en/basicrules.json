@@ -2445,7 +2445,7 @@
 									"name": "Movement",
 									"entries": [
 										"{@b Movement} effects allow characters to get around in various ways. Some provide a speed rank with a particular form of movement—such as ground, air, or water—while others offer different modes of movement, like walking on walls or slithering along the ground like a snake.",
-										"Although activating a movement effect is typically a free action, the character must still take a move action in order to actually move using the effect. So, for example, the action of the Flight effect is “free” and activating it grants the character a Flightspeed rank equal to the effect rank. Moving that speed rank still requires a move action, however."
+										"Although activating a movement effect is typically a free action, the character must still take a move action in order to actually move using the effect. So, for example, the action of the {@effect Flight} effect is “free” and activating it grants the character a Flightspeed rank equal to the effect rank. Moving that speed rank still requires a move action, however."
 									]
 								},
 								{

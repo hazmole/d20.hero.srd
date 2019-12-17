@@ -2408,7 +2408,7 @@
 					"type": "section",
 					"translate_name": "效果類型", "name": "Effect Types",
 					"entries": [
-						"Power effects fall into certain categories or {@b effect types}. Effects of the same type follow similar rules and provide descriptors for certain other effects. This section discusses the different effect types and the rules governing them.",
+						"每個超能力效果都歸屬於特定的分類或{@b 效果類型}。相同類型的效果遵循著類似的規則，並提供了描述符給某些特定的效果。本節將會說明這些不同的效果類型以及規範著它們的規則。",
 						{
 							"type": "entries",
 							"entries": [
@@ -2416,58 +2416,58 @@
 									"type": "entries",
 									"translate_name": "攻擊", "name": "Attack",
 									"entries": [
-										"{@b Attack} effects are used offensively in combat. They require an attack check and damage, hinder, or otherwise harm their target in some way. Attack effects require a standard action to use. Their duration is usually instant although their results—whether damage or some other hindrance—may linger until the target recovers. Attack effects always allow for a resistance check."
+										"{@b 攻擊}類型的效果被用於在戰鬥中進行攻擊。它們需要使用者進行一次攻擊檢定，並會透過傷害、妨礙、或其他方式來對其目標造成損害。使用攻擊類型的效果需要採取一個標準動作。它們的持續時間通常為即效，但它們的所造成的後果（無論是傷害或其他妨礙結果）則可能會持續直到目標從中恢復。攻擊類型的效果永遠會允許它的目標進行抵抗檢定以對抗其效用。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "控制", "name": "Control",
 									"entries": [
-										"{@b Control} effects grant the user influence over something, from the environment to the ability to move objects or even create them out of thin air. Control effects require a standard action to initiate, but can then usually be sustained. Control effects used against unwilling targets usually require an attack check and allow a resistance check, the same for the hazards they are capable of causing, such as creating intense cold or dropping a heavy object on someone."
+										"{@b 控制}類型的效果能賦予使用者影響某些事物的能力，從控制環境到隔空取物，或甚至憑空創造。控制類型的效果需要使用者採取一個標準動作來發動，但通常可以接著維持其作用好一段時間。對於非自願的目標使用控制類型的效果通常會需要使用者進行一次攻擊檢定，並允許目標進行抵抗檢定。這個規則也同樣適用於控制類型的效果所能造成的危害，像是製造出極端寒冷的溫度、或對某人丟擲重物。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "防禦", "name": "Defense",
 									"entries": [
-										"{@b Defense} effects protect in various ways, typically offering a bonus to resistance checks, or granting outright immunity to particular effects or conditions. Most defense effects work only on the user and are subtle and permanent, functioning at all times. Some are activated and sustained as a free action, meaning they can switch on or off, but can potentially leave the user unprotected."
+										"{@b 防禦}類型的效果能夠提供各種保護，通常會使抵抗檢定獲得加值、或讓使用者得以完全免疫於特定效果或狀態。大部分的防禦類型效果只會作用於其使用者，難以被察覺，且持續時間為永駐，能夠常時發揮效用。有些這類型的效果則能以一個自由動作啟動並維持，這意味著它們可以被隨時開關切換，但也可能因此讓使用者不受其保護。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "泛用", "name": "General",
 									"entries": [
-										"{@b General} effects don’t fit into any other particular category. They’re not governed by any special rules other than those given in the effect’s description."
+										"{@b 泛用}類型的效果不適合被歸類到任何其它特定的分類。除了其效果本身的描述外，它們不被任何其它的特殊規則所規範。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "移動", "name": "Movement",
 									"entries": [
-										"{@b Movement} effects allow characters to get around in various ways. Some provide a speed rank with a particular form of movement—such as ground, air, or water—while others offer different modes of movement, like walking on walls or slithering along the ground like a snake.",
-										"Although activating a movement effect is typically a free action, the character must still take a move action in order to actually move using the effect. So, for example, the action of the Flight effect is “free” and activating it grants the character a Flightspeed rank equal to the effect rank. Moving that speed rank still requires a move action, however."
+										"{@b 移動}類型的效果能讓角色以各種不同的方式四處遊走。有些這類效果能夠提供一種特定移動形式的速度等級，例如地面、空中、或水中。而有些這類效果則會也會提供不同的移動模式，例如在牆上攀爬遊走、或像蛇一樣在地上蜿蜒滑行。",
+										"儘管啟動移動類型的效果通常只需要一個自由動作，但角色仍必須採取一個移動動作才能藉由該效果來實際進行移動。因此舉例來說，使用{@effect 飛行}效果需要一個自由動作，且啟動這個效果將會賦予角色等同於該效果等級的飛行速度等級。然而，該角色仍然需要採取一個移動動作才能以該速度等級進行移動。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "感知", "name": "Sensory",
 									"entries": [
-										"{@b Sensory} effects enhance or alter the senses. Some sensory effects improve the user’s senses while others grant entirely new senses or fool the senses in some way. Sensory effects are typically a free action to activate and sustain, or are permanent and always in effect.",
+										"{@b 感知}類型的效果能夠強化或改變感官能力。有些感知類型的效果能增強使用者的感官，有些則會賦予使用者一種全新的感官能力，或是藉由某種方式愚弄擾亂他人的感官。感知類型的效果通常能以一個自由動作啟動並維持，有些則是持續時間為永駐，能夠常時發揮效用。",
 										{
 											"type": "entries",
-											"name": "Sense Types",
+											"translate_name": "感官種類", "name": "Sense Types",
 											"entries": [
-												"Senses are grouped into sense types, descriptors for how different sensory effects work. The sense types, and some of the senses included in them, are:",
+												"感官被分成了數種感官種類，做為描述符以描述不同感知類效果的作用方式。各感官類型（以及一些屬於該類型的感官）如下：",
 												{
 													"type": "list",
 													"items": [
-														"{@b Visual}: normal sight, darkvision, infravision, low-light vision, microscopic vision, ultravision, X-Ray vision",
-														"{@b Auditory}: normal hearing, sonar (accurate ultrasonic), ultrasonic hearing",
-														"{@b Olfactory}: normal smell and taste, scent",
-														"{@b Tactile}: normal touch, tremorsense",
-														"{@b Radio}: radio, radar (accurate radio)",
-														"{@b Mental}: mental awareness, Mind Reading, Precognition, Postcognition",
-														"{@b Special}: This is the catchall for other sensory descriptors not given above, including unusual senses or exotic descriptors like cosmic, gravitic, magical, and so forth."
+														"{@b 視覺}： 尋常視覺、黑暗視覺、紅外線視覺、微光視覺、顯微視覺、紫外線視覺、X射線視覺",
+														"{@b 聽覺}： 尋常聽覺、聲納（準確超聲波）、超聲波聽覺",
+														"{@b 味覺}： 尋常嗅覺和味覺、氣味",
+														"{@b 觸覺}： 尋常觸覺、震顫感知",
+														"{@b 無線電波}： 無線電波、雷達（準確無線電波）",
+														"{@b 心靈}： 精神感知、讀心、未來視、過去視",
+														"{@b 特殊}： 其他無法被歸類為上述類別的感知描述符皆屬於這個類別，包括了罕見感官或像是宇宙、引力、魔法等奇特描述符。"
 													]
 												}
 											]
