@@ -58,7 +58,7 @@
 				"translate_name": "特長", "name": "Advantages",
 				"headers": [
 					{ "translate_name": "獲得特長", "name": "Acquiring Advantages" },
-					{ "name": "Advantage Descriptions" }
+					{ "translate_name": "特長說明", "name": "Advantage Descriptions" }
 				]
 			},
 			{
@@ -2277,15 +2277,15 @@
 			"type": "section",
 			"translate_name": "特長", "name": "Advantages",
 			"entries": [
-				"Heroes are more than just skilled, they often have amazing advantages, beyond the abilities of ordinary people. In this game, advantages often allow heroes to “break the rules,” gaining access to and doing things most people cannot, or simply doing them better.",
+				"英雄並不僅僅是技巧高超，他們通常還擁有各種驚人的特長，展現出超乎尋常人們的強大能力。在此遊戲中，特長通常讓英雄們得以「打破規則」，讓他們能夠並做到大部分人們做不到的偉業、或單純展現出更加優秀的表現。",
 				{
 					"type": "section",
 					"translate_name": "獲得特長", "name": "Acquiring Advantages",
 					"entries": [
-						"Advantages are rated in ranks and bought with Character points, just like abilities and skills. Advantages cost 1 Character point per rank. Some advantages have no ranks and are acquired only once, effectively at rank 1.",
+						"就跟屬性值和技能一樣，特長同樣有著用以評估強度的等級，並可以藉由花費角色點來購買。每個等級的特長都需要花費 1點角色點。有些特長並沒有等級，且只能被購買一次，它們實質上就等同於等級1的特長。",
 						{
 							"type": "middleEnhance",
-							"text": "Advantage Cost = 1 power point per advantage rank"
+							"text": "特長花費 = 1點角色點／每特長等級"
 						}
 					]
 				},
@@ -2293,7 +2293,7 @@
 					"type": "section",
 					"translate_name": "特長說明", "name": "Advantage Descriptions",
 					"entries": [
-						"Each advantage’s description explains the benefit it provides. It also says if the advantage can be acquired in ranks and the effects of doing so. Such advantages are listed as “Ranked” alongside the advantage name. Ranks in a advantage are noted with a number after the advantage’s name, such as “Defensive Roll 2” (for a character who has taken two ranks in the Defensive Roll advantage), just like skill and power ranks. If there is a maximum number of ranks a character can take, it’s listed in parentheses after the word “Ranked” in the advantage’s heading.",
+						"特長的說明將解釋它所能提供的好處。它同時也描述了該特長是否能擁有複數等級，以及這麼做將會帶來的影響。這類特長會在其名稱後方寫有「可重複提升等級」的標註。就跟技能和超能力的等級一樣，特長的等級也會以特長名後的數字的形式被紀錄，例如「{@modifier Defensive Roll|受身 2}」（代表該角色獲得了二個等級的{@modifier Defensive Roll|受身}特長）。若該特長設有等級上限以限制角色最多所能獲得的等級，則這個等級上限也會被特別標註。",
 						{
 							"type": "entries",
 							"translate_name": "特長類別", "name": "Types of Advantages",
@@ -2314,7 +2314,7 @@
 							"type": "entries",
 							"translate_name": "特長說明", "name": "Advantage Descriptions",
 							"entries": [
-								"Each advantage is listed by name, type, and if the advantage is available in multiple ranks, followed by a description of the advantage’s benefits. The effects of additional ranks of the advantage (if any) are noted in the text of each advantage. In some cases a advantage’s description mentions the normal conditions for characters who do not have the advantage for comparison.",
+								"每個特長都列有名稱、類別、以及該特長是否可以重複提升等級等資訊，並接著一段描述該特長效益的說明文字。該特長的額外等級所能帶來的效益（若有）也會被記載於該特長的說明文字中。有時候，特長的說明文字亦會提及未持有該特長的角色在面對特定情形時的處理方式，以供比較。",
 								"關於每個特長的完整說明，請參閱{@5etools 特長|advantages.html}頁面。"
 							]
 						}
