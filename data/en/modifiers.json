@@ -663,14 +663,14 @@
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An attack effect with this flaw requires you to successfully grab a target before using the effect (see Grab). This generally applies to an effect that is close range, since you have to be in close combat to grab anyway. If the effect’s default range is not close, apply the Close modifier as well. If you do not succeed on the grab, you cannot use the effect. If your grab attempt succeeds, the effect occurs automatically as a reaction.",
+				"An attack effect with this flaw requires you to successfully grab a target before using the effect (see {@rule Grab|basic|8|Grab}). This generally applies to an effect that is close range, since you have to be in close combat to grab anyway. If the effect’s default range is not close, apply the {@modifier Reduced Range|Close} modifier as well. If you do not succeed on the grab, you cannot use the effect. If your grab attempt succeeds, the effect occurs automatically as a reaction.",
 				{
 					"type": "example",
 					"entries": [
-						"Leech has a draining touch that is a Grab-Based Weaken Strength effect. So the monstrous villain has to take a standard action and make a grab first in order to use it. If his close attack check hits, the target makes a Dodge or Fortitude resistance check against Leech’s Strength. If it fails, the target then makes the Fortitude resistance check against the villain’s Weaken effect to see how much Strength Leech drains away."
+						"Leech has a draining touch that is a Grab-Based {@effect Weaken|Weaken Strength} effect. So the monstrous villain has to take a standard action and make a grab first in order to use it. If his close attack check hits, the target makes a Dodge or Fortitude resistance check against Leech’s Strength. If it fails, the target then makes the Fortitude resistance check against the villain’s Weaken effect to see how much Strength Leech drains away."
 					]
 				},
-				"This flaw is essentially a form of Resistible, with a grab check rather than a regular resistance check (see the Resistible flaw for more)."
+				"This flaw is essentially a form of {@modifier Resistible}, with a grab check rather than a regular resistance check (see the Resistible flaw for more)."
 			]
 		},
 		{
@@ -821,8 +821,8 @@
 			},
 			"entries": [
 				"The target of a Sense-Dependent effect must be able to perceive the effect for it to work. The target gets a Dodge resistance check. Success means the target has managed to avert his eyes, cover his ears, etc. and the effect doesn’t work. Otherwise the effect works normally and the target makes the usual resistance check against it, if any.",
-				"Opponents aware of a Sense-Dependent effect can also deliberately block the targeted sense: looking away, covering or blocking their ears, etc. This provides a +10 bonus to resistance checks against the effect, but gives others partial concealment from that sense. An opponent unable to use a sense (blind, deaf, etc.) is immune to effects dependent on it. Opponents can do this by closing their eyes, wearing ear- or nose-plugs, or using another effect like Concealment. This gives you total concealment from that sense.",
-				"Sensory effects are Sense-Dependent by definition, and cannot apply this flaw. To give a target additional resistance to a sensory effect, use the Resistible flaw."
+				"Opponents aware of a Sense-Dependent effect can also deliberately block the targeted sense: looking away, covering or blocking their ears, etc. This provides a +10 bonus to resistance checks against the effect, but gives others partial concealment from that sense. An opponent unable to use a sense ({@condition blind}, {@condition deaf}, etc.) is immune to effects dependent on it. Opponents can do this by closing their eyes, wearing ear- or nose-plugs, or using another effect like {@effect Concealment}. This gives you total concealment from that sense.",
+				"Sensory effects are Sense-Dependent by definition, and cannot apply this flaw. To give a target additional resistance to a sensory effect, use the {@modifier Resistible} flaw."
 			]
 		},
 		{

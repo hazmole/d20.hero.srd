@@ -127,7 +127,7 @@
 								"{@b 錐狀}：該效果充斥在一個長、寬、高皆為60呎（1級距離）的錐體範圍，並從該效果的起始點向外蔓延。在水平表面上產生的錐狀效果的高度僅為原本的一半。",
 								"{@b 柱狀}：該效果充斥於一個30呎半徑和高度（0級距離）的圓柱體範圍。",
 								"{@b 直線}：該效果充斥於一個5呎寬，30呎長（0級距離）的直線上。",
-								"{@b 感知}：該效果作用於任何能夠以特定感官感知到目標點的目標﹐與{@modifier Sense-Dependent}相同，你在應用這個修飾符時決定該感官為何。目標可以如常進行閃避抵抗檢定，但若該檢定成功，則他將不會受到任何影響（而非減半效果）。防止目標感知到效果的隱蔽也同樣能阻擋該效果。這個修飾符同時包括了{@modifier Sense-Dependent}的缺陷，因此該修飾符不能再被適用。若這個修飾符被應用於一個已經應用了{@modifier Sense-Dependent}的效果，則它的花費為每級2點而非1點。",
+								"{@b 感知}：該效果作用於任何能夠以特定感官感知到目標點的目標﹐與{@modifier 感官依賴}相同，你在應用這個修飾符時決定該感官為何。目標可以如常進行閃避抵抗檢定，但若該檢定成功，則他將不會受到任何影響（而非減半效果）。防止目標感知到效果的隱蔽也同樣能阻擋該效果。這個修飾符同時包括了{@modifier 感官依賴}的缺陷，因此該修飾符不能再被適用。若這個修飾符被應用於一個已經應用了{@modifier 感官依賴}的效果，則它的花費為每級2點而非1點。",
 								"{@b 可形變}：該效果將充斥於一個體積為30立方呎（5級體積）的空間，且只要這些效果彼此連續，你就可以自由形塑分配這個效果所佔據的空間。"
 							]
 						},
@@ -658,20 +658,20 @@
 			]
 		},
 		{
-			"name": "Grab-Based",
+			"translate_name": "擒抱基礎", "name": "Grab-Based",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"An attack effect with this flaw requires you to successfully grab a target before using the effect (see Grab). This generally applies to an effect that is close range, since you have to be in close combat to grab anyway. If the effect’s default range is not close, apply the Close modifier as well. If you do not succeed on the grab, you cannot use the effect. If your grab attempt succeeds, the effect occurs automatically as a reaction.",
+				"你必須先成功地擒抱住一個目標，才能夠對它使用應用了這個缺陷的攻擊型效果（參見{@rule 擒抱|basic|8|Grab}）。這個缺陷通常會應用於那些射程為「近身」的效果，因為你必須要在近身搏鬥的距離內才能擒抱對手。若該效果預設的基本射程並非「近身」，則將{@modifier Reduced Range|近身}修飾符也應用到該效果上。若你沒能成功擒抱，則你將無法使用該效果。若你擒抱的嘗試成功，則該效果將自動以反應動作被使用。",
 				{
 					"type": "example",
 					"entries": [
-						"Leech has a draining touch that is a Grab-Based Weaken Strength effect. So the monstrous villain has to take a standard action and make a grab first in order to use it. If his close attack check hits, the target makes a Dodge or Fortitude resistance check against Leech’s Strength. If it fails, the target then makes the Fortitude resistance check against the villain’s Weaken effect to see how much Strength Leech drains away."
+						"吸血蛭怪具有一個汲取之觸的能力（亦即應用了擒抱基礎的{@effect Weaken|弱化力量}效果）。因此這名怪物反派必須要先採取一個標準動作進行擒抱，才能夠使用這個能力。若牠的攻擊檢定命中，則目標將進行一次閃避防禦或力量的抵抗檢定以克服吸血蛭怪的力量。若目標檢定失敗，則他將必須接著進行一次韌性抵抗檢定以克服吸血蛭怪的弱化效果，以決定吸血蛭怪可以從他身上吸走多少力量。"
 					]
 				},
-				"This flaw is essentially a form of Resistible, with a grab check rather than a regular resistance check (see the Resistible flaw for more)."
+				"這個缺陷實質上等同於另一種形式的{@modifier Resistible}缺陷，只不過要求的是擒抱檢定，而非原本的抵抗檢定。"
 			]
 		},
 		{
@@ -815,15 +815,15 @@
 			]
 		},
 		{
-			"_translate_name": "感官依賴", "name": "Sense-Dependent",
+			"translate_name": "感官依賴", "name": "Sense-Dependent",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"The target of a Sense-Dependent effect must be able to perceive the effect for it to work. The target gets a Dodge resistance check. Success means the target has managed to avert his eyes, cover his ears, etc. and the effect doesn’t work. Otherwise the effect works normally and the target makes the usual resistance check against it, if any.",
-				"Opponents aware of a Sense-Dependent effect can also deliberately block the targeted sense: looking away, covering or blocking their ears, etc. This provides a +10 bonus to resistance checks against the effect, but gives others partial concealment from that sense. An opponent unable to use a sense (blind, deaf, etc.) is immune to effects dependent on it. Opponents can do this by closing their eyes, wearing ear- or nose-plugs, or using another effect like Concealment. This gives you total concealment from that sense.",
-				"Sensory effects are Sense-Dependent by definition, and cannot apply this flaw. To give a target additional resistance to a sensory effect, use the Resistible flaw."
+				"感官依賴效果的目標必須要能夠感知到這個效果的存在，這個效果才能夠發揮作用。目標得以進行一次閃避抵抗檢定。檢定成功代表目標順利地移開視線、摀住耳朵等等，且該效果因此無法發揮作用。否則，目標將如常進行用以對抗該效果的抵抗檢定（若有）。",
+				"意識到感官依賴效果的敵人也可以蓄意遮擋被指定的感官：例如看向其他地方、摀住雙耳等等。這麼做將會為對抗該效果的抵抗檢定提供+10的情境加值，但這麼做也會使該感官承受半遮蔽的影響。無法運用感官的敵人（例如陷入{@condition 目盲}、{@condition 耳聾}等狀態）將免疫於依賴於對應感官的感官依賴效果。敵人也可以藉由閉上眼睛、戴上耳塞或鼻塞、或使用其他像是{@effect 隱蔽}之類的效果來達到相同的效果。這麼做將會該效果對你而言處於全遮蔽。",
+				"感知類型的效果在定義上全都具備感官依賴的性質，並因此不能應用這個缺陷。若要讓目標得以對某個感知類型的效果進行額外的抵抗檢定，請使用{@modifier Resistible}缺陷。"
 			]
 		},
 		{
