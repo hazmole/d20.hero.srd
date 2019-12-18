@@ -68,7 +68,7 @@
 					{ "translate_name": "效果類型", "name": "Effect Types" },
 					{ "translate_name": "超能力的作用方式", "name": "How Powers Work" },
 					{ "translate_name": "超能力效果", "name": "Power Effects" },
-					{ "translate_name": "修飾符", "name": "Modifiers" },
+					{ "_translate_name": "修飾符", "name": "Modifiers" },
 					{ "translate_name": "描述符", "name": "Descriptors" }
 				]
 			},
@@ -2394,7 +2394,7 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "並非超能力", "name": "Powers that Aren’t",
+									"translate_name": "並非「超能力」", "name": "Powers that Aren’t",
 									"entries": [
 										"「超能力」指的是除了屬性、技能、特長以外的所有非凡特質。一位擁有超能力的角色是否為「超人類」很大程度上要取決於人們的看法、以及該超能力所使用的描述符。舉例來說，很多擁有超人特質的漫畫人物仍會被當作「普通」人來看待，他們驚人的超級能力可能來自於天賦、訓練、幸運、自律、設備、或其他類似的來源，並帶有相應的適當描述符。它們仍以「超能力」的遊戲術語被稱呼，但這並不一定代表這些角色就不再是人類。",
 										"最終，遊戲主持人將根據該超能力在遊戲中的本質，決定擁有某些超能力效果會不會讓該角色「不再是普通人」（如果會的話，又會代表什麼？）。"
@@ -2480,52 +2480,52 @@
 				},
 				{
 					"type": "section",
-					"name": "How Powers Work",
+					"translate_name": "超能力的作用方式", "name": "How Powers Work",
 					"entries": [
-						"Using powers is a fairly simple matter. Some power effects work automatically. Others—particularly those affecting other people—require some effort to use, like an attack check or a effect check. Powers affecting others allow resistance checks against their effects.",
+						"使用超能力是件相當簡單的事情。有些超能力效果會自動發揮作用，而有些──特別是那些會影響他人的超能力──在使用時則需要費點力，像是進行攻擊檢定或效果檢定。影響他人的超能力效果永遠會允許它的目標進行抵抗檢定以對抗其效用。",
 						{
 							"type": "entries",
-							"name": "Effect Checks",
+							"translate_name": "效果檢定", "name": "Effect Checks",
 							"entries": [
-								"In some cases, you may be required to make an {@b effect check} to determine how well an effect works. A power check is just like any other check: d20, plus the power’s rank, plus any applicable modifiers, against a difficulty class set by the Gamemaster. The results of various power checks are described below.",
+								"在某些情況下，你可能會需要進行一次{@b 效果檢定}以決定效果的成效。超能力效果檢定就如同其他檢定一樣：擲d20，加上該超能力的效果等級，再加上任何適用的修正值，並與遊戲主持人所設定的難度層級相比較。各種超能力效果檢定的結果如下所述。",
 								{
 									"type": "middleEnhance",
-									"text": "Effect Check = d20 + rank + modifiers vs. difficulty class"
+									"text": "效果檢定 = d20 + 等級 + 修正值 vs. 難度層級"
 								},
 								{
 									"type": "entries",
-									"name": "Routine Effect Checks",
+									"translate_name": "例行效果檢定", "name": "Routine Effect Checks",
 									"entries": [
-										"Many power effects allow for routine checks involving their use, generally specified in the effect’s description (see {@b Routine Checks} in {@b The Basics})."
+										"許多超能力效果會讓使用者在使用它的時候透過例行檢定的方式進行，這通常會特別註記於該效果的說明中（參見{@b 基本規則}章節中的{@rule 例行檢定|basic|1|Routine Checks}）。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Opposed Effect Checks",
+									"translate_name": "對抗效果檢定", "name": "Opposed Effect Checks",
 									"entries": [
-										"In some cases, usually when one effect is used directly against another, or against a particular trait like an ability or skill, an opposed check is called for (see {@b Opposed Checks} in {@b The Basics}). If a contest is entirely a matter of whose power is greater, a comparison check is called for; the character with the higher power rank wins automatically."
+										"在某些情況下，通常在某個效果被用於直接對抗另一個效果、或對抗某項特定的數據（例如屬性或技能）時，將會需要進行一次對抗檢定（見{@b 基本規則}章節中的{@rule 對抗檢定|basic|1|Opposed Checks}。若這場競爭的勝負完全取決於誰的超能力更強大，則這可以直接以{@rule 較量檢定|basic|1|comparison checks}的方式進行；擁有較高超能力等級的角色將自動在這場對抗中勝出。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Effect Parameters",
+							"translate_name": "效果的參數", "name": "Effect Parameters",
 							"entries": [
-								"Each effect has certain {@b parameters} that describe the time needed to use the effect, the subject or target, the distance it works at, and so forth. The basic effect parameters are Action, Range, and Duration.",
+								"每個超能力效果都有著特定{@b 參數}來描述使用這個效果所需的時間、它影響的對象或目標、作用的射程距離等等。基本的效果參數為動作、射程、和持續時間。",
 								{
 									"type": "entries",
 									"translate_name": "動作", "name": "Action",
 									"entries": [
-										"Using or activating an effect requires a particular amount of time. See Actions, for details about the different types of actions. Modifiers may change the action needed to use an effect.",
+										"使用或啟動一個效果會需要一定的時間。參見{@rule 動作|basic|8|action types}章節以查閱關於不同動作類型的細節。修飾符可能會改變使用效果所需的動作類型。",
 										{
 											"type": "list",
 											"items": [
-												"{@b 標準動作}: Using the effect requires a standard action.",
-												"{@b 移動動作}: Using the effect requires a move action.",
-												"{@b 自由動作}: It requires a free action to use or activate the effect. Once an effect is activated or deactivated, it remains so until your next turn. As with all free actions, the GM may limit the total number of effects a hero can turn on or off in a turn.",
-												"{@b 反應}: It requires no action to use the effect. It operates automatically in response to something else, such as an attack.",
-												"{@b 無}: It requires no action to use the effect. It is always active."
+												"{@b 標準}: 使用該效果需要一個標準動作。",
+												"{@b 移動}: 使用該效果需要一個移動動作。",
+												"{@b 自由}: 使用或啟動該效果需要一個自由動作。一旦該效果被啟動或關閉，它將維持同樣的狀態直到你的下個回合。就和所有自由動作一樣，GM可能會限制英雄在一回合內所能啟動或關閉的效果數量。",
+												"{@b 反應}: 使用該效果並不需要任何動作。它會自動對某個事物做出反應，像是被攻擊的時候。",
+												"{@b 無}: 使用該效果並不需要任何動作。它將永遠處於啟動狀態。"
 											]
 										}
 									]
@@ -2534,15 +2534,15 @@
 									"type": "entries",
 									"translate_name": "射程", "name": "Range",
 									"entries": [
-										"Each effect has a default range, which may be changed by modifiers.",
+										"每個效果都有其預設的基本射程，且可以透過應用修飾符加以改變。",
 										{
 											"type": "list",
 											"items": [
-												"{@b 個人}: The effect works only on you, the user.",
-												"{@b 近身}: The effect can target anyone or anything you touch. Touching an unwilling subject requires an unarmed attack check against the subject’s Parry.",
-												"{@b 遠距}: The effect works at a distance, limited by perception and path and requiring a ranged attack check against the subject’s Dodge defense. A ranged effect has a short range of (rank x 25 feet), a medium range of (rank x 50 feet) and a long range of (rank x 100 feet). Ranged attack checks at medium range suffer a –2 circumstance penalty, while ranged attacks at long range suffer a –5 circumstance penalty. See {@b Action & Adventure} for details.",
-												"{@b 感知距離}: The effect works on any target you can perceive with an accurate sense, without any need for an attack check. If you cannot accurately perceive the target, you cannot affect it.",
-												"{@b 等級}: The effect’s range or area of effect is determined by its rank, as given in its description."
+												"{@b 個人}: 該效果只會影響你自己，也就是其使用者。",
+												"{@b 近身}: 該效果能夠以任何你所觸碰的人或物為目標。觸碰一個非自願的目標需要進行一次徒手攻擊檢定以克服目標的格擋防禦。",
+												"{@b 遠距}: 該效果可以在一段距離外發揮作用，但受限於使用者的感知範圍和與目標之間的路徑，且需要進行一次遠程攻擊檢定以克服目標的閃避防禦。遠距效果的距離範圍被分成了短距離（效果等級 x 25呎）、中距離（效果等級 x 50呎）、和 長距離（效果等級 x 100呎）。對中距離範圍內的目標進行的遠程攻擊檢定將承受-2的情境罰值，而對於長距離範圍內目標所進行的遠程攻擊檢定則會承受-5的情境罰值。參見{@rule 動作＆冒險|basic|8}章節以查閱更多細節。",
+												"{@b 感知距離}: 該效果可以作用於任何你可以藉由準確感官所感知到的目標，而無須進行攻擊檢定。若你無法準確地感知到目標，則你將無法影響它。",
+												"{@b 等級}: 該效果的射程或影響範圍將取決於它的效果等級，並如其描述所示。"
 											]
 										}
 									]
@@ -2551,15 +2551,15 @@
 									"type": "entries",
 									"translate_name": "持續時間", "name": "Duration",
 									"entries": [
-										"Each effect lasts for a particular amount of time, which may be changed by modifiers.",
+										"每個效果都會持續一段時間，且可以透過應用修飾符加以改變。",
 										{
 											"type": "list",
 											"items": [
-												"{@b 即效}: When used, the effect occurs and ends in the same turn, although its results may linger.",
-												"{@b 專注}: You can keep a concentration effect going by taking a standard action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
-												"{@b 維持}: You can keep a sustained effect going by taking a free action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
-												"{@b 常續}: The effect lasts as long as you wish, without any action required on your part. Once active, it stays that way until you choose to deactivate it (a free action).",
-												"{@b 永駐}: The effect is always active and cannot be deactivated, even if you want to. A permanent effect cannot be improved using extra effort."
+												"{@b 即效}: 當被使用時，該效果將會立即發生，並在同個回合內結束，然而它所造成的結果可能會繼續留存。",
+												"{@b 專注}: 你可以藉由在每一輪採取一個標準動作，來讓一個持續時間為專注的效果持續發揮作用。若你無法採取其所需的動作，或單純選擇這麼做，則該效果就此結束。",
+												"{@b 維持}: 你可以藉由在每一輪採取一個自由動作，來讓一個持續時間為維持的效果持續發揮作用。若你無法採取其所需的動作，或單純選擇這麼做，則該效果就此結束。",
+												"{@b 常續}: 只要你希望，該效果將能夠一直持續，而無須採取任何動作。一旦該效果被啟動，它將保持啟動狀態直到你選擇以一個自由動作將它關閉。",
+												"{@b 永駐}: 該效果將永遠維持啟動狀態，且即使你想關也無法關閉。常駐效果無法透過{@rule 奮力一搏|basic|1|extra effort}而被強化。"
 											]
 										}
 									]
@@ -2568,51 +2568,51 @@
 									"type": "entries",
 									"translate_name": "抵抗檢定", "name": "Resistance Check",
 									"entries": [
-										"Effects targeting other characters allow a resistance check. The defense used and the difficulty class depend on the effect and its modifiers.",
-										"Willing characters can forgo their resistance check against an effect, if they wish. This includes characters who think they’re receiving a beneficial effect, even if they’re not! You can’t forgo Toughness checks, but you may choose to discontinue the use of effects with a duration of Continuous or Sustained that grant a Toughness bonus in order to lower your resistance.",
-										"The Immunity effect allows characters to ignore certain effects altogether, removing the need for a resistance check."
+										"所有以其他角色為目標的效果都會允許其目標進行一次抵抗檢定。這個抵抗檢定所使用的防禦屬性和難度層級將取決於該效果以及其應用的修飾符。",
+										"自願受到影響的角色可以放棄它對該效果的抵抗檢定。這個情境包括那些認為自己將會受到有益效果影響的角色，即使該效果根本不是什麼有益效果也一樣！你無法放棄進行堅實檢定，但你可以選擇終止那些持續時間為維持或常續，且能帶來堅實防禦加值的效果，以降低你自身的抵抗能力。",
+										"{@effect 免疫}效果讓角色得以完全無視特定的效果，使角色不再需要對該效果進行抵抗檢定。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Countering Effects",
+							"translate_name": "反制效果", "name": "Countering Effects",
 							"entries": [
-								"In some circumstances the effects of one power may counter another, negating it. Generally for two effects to counter each other they must have opposed descriptors. For example, light and darkness powers can counter each other as can heat and cold, water and fire, and so forth. In some cases, such as magical or mental effects, powers of the same descriptor can also counter each other. The GM is the final arbiter as to whether or not an effect with a particular descriptor can counter another. The Nullify effect can counter any effect of a particular descriptor!",
+								"在某些情境下，一個超能力的效果可能會克制另一個超能力效果，並抵銷其作用。通常來說，若兩個效果要能夠彼此反制，那他們必定會有相反的描述符。舉例來說，光明和黑暗超能力可以互相克制彼此，同樣的例子還有熱與冷、水與火，諸如此類。有時候，像魔法或精神這種應用了相同描述符的超能力效果也能夠互相反制。GM擁有最終裁斷權，決定帶有特定描述符的效果是否能反制另一個超能力效果。{@effect 無效化}效果可以反制任何帶有其指定描述符的效果！",
 								{
 									"type": "entries",
-									"name": "How Countering Works",
+									"translate_name": "反制的運作方式", "name": "How Countering Works",
 									"entries": [
-										"To counter an effect, you must take the ready action. In doing so, you wait to complete your action until your opponent tries to use a power. You may still move, since ready is a standard action.",
-										"You must be able to use the readied effect as a standard action or less. Effects usable as a reaction do not require a ready action; you can use them to counter at any time. Effects requiring longer than a standard action cannot counter during action rounds (although they may be able to counter ongoing effects, see the following section).",
-										"If an opponent attempts to use a power you are able to counter, use your countering effect as your readied action. You and the opposing character make effect checks (d20 + rank). If you win, your two powers cancel each other out and there is no effect from either. If the opposing character wins, your attempt to counter is unsuccessful. The opposing effect works normally.",
+										"若打算反制某個效果，你必須先採取{@rule 預備|basic|8|ready}動作。如此一來，你將等到對手準備使用超能力時才能完成你的行動。由於預備是一個標準動作，因此你仍然可以正常移動。",
+										"你必須要能夠以一個標準動作（或更短的動作）來使用被預備的超能力效果。至於那些能夠以反應被使用的超能力效果，則不需要你預先採取預備動作，你可以隨時使用它們以進行反制。使用時需要花費比標準動作更久時間的效果無法在行動輪期間被用以反制效果（然而它們仍可以被用來反制持續中的效果，參見後述段落的說明）。",
+										"若某個敵人嘗試使用了一個你有辦法反制的超能力，你就可以採取你預備好的動作來使用你用於反制的超能力效果。你和對手將各自進行一次效果檢定對抗（d20 + 效果等級）。若你勝出，則你們雙方的超能力將互相抵消，不會產生任何影響。但若你的對手勝出，則你嘗試反制他的行動失敗，你嘗試反制的效果仍將如常發揮作用。",
 										{
 											"type": "example",
 											"entries": [
-												"Thetis, goddess of the seas, is fighting the Silver Knight. The hate-mongering villain hurls a blast of white-hot fire (a Ranged Damage effect). Having prepared an action, Thetis’s player says she wants to counter Silver Knight’s fire blast with her water powers. The GM agrees the two powers should be able to counter each other, so he asks Thetis’s player to make a Water Control effect check, while he makes a Fire Control effect check for Silver Knight. Thetis’s player rolls a result of 26 while the GM rolls a result of 19 for Silver Knight. Thetis successfully counters the flame blast, which fizzles out in a gout of steam."
+												"海洋女神忒提斯，正與她的死敵銀騎士交戰。那位散播仇恨的反派猛然投出了一道噴發著白熱熾焰的烈焰衝擊波（一個{@modifier Increased Range|遠距}{@effect 傷害}效果）。然而，忒提斯的玩家早已預備了一個動作，並表示她想要使用水之能力來反制銀騎士的火炎衝擊波。GM同意這兩種超能力得以互相反制抵銷，因此他要求忒提斯的玩家進行一次操水術的效果檢定，GM則為銀騎士進行一次操火術的效果檢定。忒提斯的玩家得到了26的擲骰結果，另一方面，GM則為銀騎士骰出19的擲骰結果。於是，忒提斯成功地反制了火炎衝擊波，嘶聲大響的蒸氣也隨之猛然爆散。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Countering Ongoing Effects",
+									"translate_name": "反制持續中的效果", "name": "Countering Ongoing Effects",
 									"entries": [
-										"You can also use one power to counter the ongoing effect of another, or other lingering results of an instant effect (like flames ignited by a fiery Damage effect). This requires a normal use of the countering effect and an opposed check, as above. If you are successful, you negate the effect (although the opposing character can attempt to reestablish it normally).",
+										"你也可以使用超能力來反制那些正持續影響他人的效果、或是即效效果所殘留的後果（例如火焰傷害效果所點燃的火焰）。將需要如常使用用於反制的效果，並如上述方式進行一次對抗檢定。若你勝出，則你將抵銷該效果（但對方角色仍可以再如常嘗試重新施展該效果）。",
 										{
 											"type": "example",
 											"entries": [
-												"Mindmaster has placed Johnny Comet under his mental control (an Affliction effect). Lady Justice has the power to break such bonds (the Nullify effect). She shines the light of liberty on her teammate and makes an effect check (d20 + her Nullify rank). The GM makes a check of d20 + Mindmaster’s Affliction rank. If Lady Justice wins, Johnny is free of Mindmaster’s control. If she fails, the Victory League will have to come up with another plan to neutralize their super-fast teammate without hurting him."
+												"心靈大師已經成功控制了彗星強尼的心智（一個{@effect 詛咒}效果）。不過，正義女士擁有能夠打破這類控制束縛的超能力（{@effect 無效化}效果），於是，她閃耀出自由之光，照在她隊友的身上，並進行一次效果檢定（d20 + 她的無效化等級）。GM進行一次d20 + 心靈大師的詛咒效果的檢定。若正義女士勝出，強尼就能擺脫心靈大師的控制。但若她在對抗檢定中落敗，那麼勝利聯盟的英雄們就得趕快想出另一個能夠解救他們的飛毛腿隊友，而不至於傷害到他的計劃。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Instant Countering",
+									"translate_name": "瞬間反制", "name": "Instant Countering",
 									"entries": [
-										"You can spend a victory point to attempt to counter another power as a reaction, without the need to ready an action to do so. See {@b victory points} for details."
+										"你可以消耗一點勝利點來嘗試以一個反應反制其它超能力，而無須預先採取一個預備動作來這麼做。參見{@rule 勝利點|basic|1|victory points}規則以查閱更多細節。"
 									]
 								}
 							]

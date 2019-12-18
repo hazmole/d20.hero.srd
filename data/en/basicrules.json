@@ -2496,14 +2496,14 @@
 									"type": "entries",
 									"name": "Routine Effect Checks",
 									"entries": [
-										"Many power effects allow for routine checks involving their use, generally specified in the effect’s description (see {@b Routine Checks} in {@b The Basics})."
+										"Many power effects allow for routine checks involving their use, generally specified in the effect’s description (see {@rule Routine Checks|basic|1|Routine Checks} in {@b The Basics})."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Opposed Effect Checks",
 									"entries": [
-										"In some cases, usually when one effect is used directly against another, or against a particular trait like an ability or skill, an opposed check is called for (see {@b Opposed Checks} in {@b The Basics}). If a contest is entirely a matter of whose power is greater, a comparison check is called for; the character with the higher power rank wins automatically."
+										"In some cases, usually when one effect is used directly against another, or against a particular trait like an ability or skill, an opposed check is called for (see {@rule Opposed Checks|basic|1|Opposed Checks} in {@b The Basics}). If a contest is entirely a matter of whose power is greater, a {@rule comparison check|basic|1|comparison checks} is called for; the character with the higher power rank wins automatically."
 									]
 								}
 							]
@@ -2540,7 +2540,7 @@
 											"items": [
 												"{@b Personal}: The effect works only on you, the user.",
 												"{@b Close}: The effect can target anyone or anything you touch. Touching an unwilling subject requires an unarmed attack check against the subject’s Parry.",
-												"{@b Ranged}: The effect works at a distance, limited by perception and path and requiring a ranged attack check against the subject’s Dodge defense. A ranged effect has a short range of (rank x 25 feet), a medium range of (rank x 50 feet) and a long range of (rank x 100 feet). Ranged attack checks at medium range suffer a –2 circumstance penalty, while ranged attacks at long range suffer a –5 circumstance penalty. See {@b Action & Adventure} for details.",
+												"{@b Ranged}: The effect works at a distance, limited by perception and path and requiring a ranged attack check against the subject’s Dodge defense. A ranged effect has a short range of (rank x 25 feet), a medium range of (rank x 50 feet) and a long range of (rank x 100 feet). Ranged attack checks at medium range suffer a –2 circumstance penalty, while ranged attacks at long range suffer a –5 circumstance penalty. See {@rule Action & Adventure|basic|8} for details.",
 												"{@b Perception}: The effect works on any target you can perceive with an accurate sense, without any need for an attack check. If you cannot accurately perceive the target, you cannot affect it.",
 												"{@b Rank}: The effect’s range or area of effect is determined by its rank, as given in its description."
 											]
@@ -2559,7 +2559,7 @@
 												"{@b Concentration}: You can keep a concentration effect going by taking a standard action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
 												"{@b Sustained}: You can keep a sustained effect going by taking a free action each round to do so. If you are incapable of taking the necessary action, or simply choose not to, the effect ends.",
 												"{@b Continuous}: The effect lasts as long as you wish, without any action required on your part. Once active, it stays that way until you choose to deactivate it (a free action).",
-												"{@b Permanent}: The effect is always active and cannot be deactivated, even if you want to. A permanent effect cannot be improved using extra effort."
+												"{@b Permanent}: The effect is always active and cannot be deactivated, even if you want to. A permanent effect cannot be improved using {@rule extra effort|basic|1|extra effort}."
 											]
 										}
 									]
@@ -2570,7 +2570,7 @@
 									"entries": [
 										"Effects targeting other characters allow a resistance check. The defense used and the difficulty class depend on the effect and its modifiers.",
 										"Willing characters can forgo their resistance check against an effect, if they wish. This includes characters who think they’re receiving a beneficial effect, even if they’re not! You can’t forgo Toughness checks, but you may choose to discontinue the use of effects with a duration of Continuous or Sustained that grant a Toughness bonus in order to lower your resistance.",
-										"The Immunity effect allows characters to ignore certain effects altogether, removing the need for a resistance check."
+										"The {@effect Immunity} effect allows characters to ignore certain effects altogether, removing the need for a resistance check."
 									]
 								}
 							]
@@ -2579,7 +2579,7 @@
 							"type": "entries",
 							"name": "Countering Effects",
 							"entries": [
-								"In some circumstances the effects of one power may counter another, negating it. Generally for two effects to counter each other they must have opposed descriptors. For example, light and darkness powers can counter each other as can heat and cold, water and fire, and so forth. In some cases, such as magical or mental effects, powers of the same descriptor can also counter each other. The GM is the final arbiter as to whether or not an effect with a particular descriptor can counter another. The Nullify effect can counter any effect of a particular descriptor!",
+								"In some circumstances the effects of one power may counter another, negating it. Generally for two effects to counter each other they must have opposed descriptors. For example, light and darkness powers can counter each other as can heat and cold, water and fire, and so forth. In some cases, such as magical or mental effects, powers of the same descriptor can also counter each other. The GM is the final arbiter as to whether or not an effect with a particular descriptor can counter another. The {@effect Nullify} effect can counter any effect of a particular descriptor!",
 								{
 									"type": "entries",
 									"name": "How Countering Works",
@@ -2590,7 +2590,7 @@
 										{
 											"type": "example",
 											"entries": [
-												"Thetis, goddess of the seas, is fighting the Silver Knight. The hate-mongering villain hurls a blast of white-hot fire (a Ranged Damage effect). Having prepared an action, Thetis’s player says she wants to counter Silver Knight’s fire blast with her water powers. The GM agrees the two powers should be able to counter each other, so he asks Thetis’s player to make a Water Control effect check, while he makes a Fire Control effect check for Silver Knight. Thetis’s player rolls a result of 26 while the GM rolls a result of 19 for Silver Knight. Thetis successfully counters the flame blast, which fizzles out in a gout of steam."
+												"Thetis, goddess of the seas, is fighting the Silver Knight. The hate-mongering villain hurls a blast of white-hot fire (a {@modifier Increased Range|Ranged} {@effect Damage} effect). Having prepared an action, Thetis’s player says she wants to counter Silver Knight’s fire blast with her water powers. The GM agrees the two powers should be able to counter each other, so he asks Thetis’s player to make a Water Control effect check, while he makes a Fire Control effect check for Silver Knight. Thetis’s player rolls a result of 26 while the GM rolls a result of 19 for Silver Knight. Thetis successfully counters the flame blast, which fizzles out in a gout of steam."
 											]
 										}
 									]
@@ -2603,7 +2603,7 @@
 										{
 											"type": "example",
 											"entries": [
-												"Mindmaster has placed Johnny Comet under his mental control (an Affliction effect). Lady Justice has the power to break such bonds (the Nullify effect). She shines the light of liberty on her teammate and makes an effect check (d20 + her Nullify rank). The GM makes a check of d20 + Mindmaster’s Affliction rank. If Lady Justice wins, Johnny is free of Mindmaster’s control. If she fails, the Victory League will have to come up with another plan to neutralize their super-fast teammate without hurting him."
+												"Mindmaster has placed Johnny Comet under his mental control (an {@effect Affliction} effect). Lady Justice has the power to break such bonds (the {@effect Nullify} effect). She shines the light of liberty on her teammate and makes an effect check (d20 + her Nullify rank). The GM makes a check of d20 + Mindmaster’s Affliction rank. If Lady Justice wins, Johnny is free of Mindmaster’s control. If she fails, the Victory League will have to come up with another plan to neutralize their super-fast teammate without hurting him."
 											]
 										}
 									]
@@ -2612,7 +2612,7 @@
 									"type": "entries",
 									"name": "Instant Countering",
 									"entries": [
-										"You can spend a victory point to attempt to counter another power as a reaction, without the need to ready an action to do so. See {@b victory points} for details."
+										"You can spend a victory point to attempt to counter another power as a reaction, without the need to ready an action to do so. See {@rule victory points|basic|1|victory points} for details."
 									]
 								}
 							]
