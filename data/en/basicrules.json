@@ -2293,7 +2293,7 @@
 					"type": "section",
 					"name": "Advantage Descriptions",
 					"entries": [
-						"Each advantage’s description explains the benefit it provides. It also says if the advantage can be acquired in ranks and the effects of doing so. Such advantages are listed as “Ranked” alongside the advantage name. Ranks in a advantage are noted with a number after the advantage’s name, such as “{@modifier Defensive Roll|Defensive Roll 2}” (for a character who has taken two ranks in the {@modifier Defensive Roll} advantage), just like skill and power ranks. If there is a maximum number of ranks a character can take, it’s listed in parentheses after the word “Ranked” in the advantage’s heading.",
+						"Each advantage’s description explains the benefit it provides. It also says if the advantage can be acquired in ranks and the effects of doing so. Such advantages are listed as “Ranked” alongside the advantage name. Ranks in a advantage are noted with a number after the advantage’s name, such as “{@advantage Defensive Roll|Defensive Roll 2}” (for a character who has taken two ranks in the {@advantage Defensive Roll} advantage), just like skill and power ranks. If there is a maximum number of ranks a character can take, it’s listed in parentheses after the word “Ranked” in the advantage’s heading.",
 						{
 							"type": "entries",
 							"name": "Types of Advantages",
