@@ -1864,7 +1864,7 @@
 									"type": "list",
 									"items": [
 										"{@b Strength}: A creature with no Strength is incapable of exerting any physical force, either because it has no physical form (like an incorporeal ghost) or simply can’t move (like a tree).",
-										"{@b Stamina}: A creature with no Stamina has no physical body (like a ghost) or is not a living being (such as a robot or other construct). Creatures with no Stamina suffer and recover from damage like inanimate objects (see Damaging Objects under the Damage effect). They are immune to fatigued and exhausted conditions, but cannot exert extra effort. Creatures with no Stamina are often—but not necessarily—immune to many of the other things affecting living beings as well (see Immunity). They have no Fortitude defense.",
+										"{@b Stamina}: A creature with no Stamina has no physical body (like a ghost) or is not a living being (such as a robot or other construct). Creatures with no Stamina suffer and recover from damage like inanimate objects (see {@b Damaging Objects} under the {@effect Damage} effect). They are immune to {@condition fatigued} and {@condition exhausted} conditions, but cannot exert extra effort. Creatures with no Stamina are often—but not necessarily—immune to many of the other things affecting living beings as well (see {@effect Immunity}). They have no Fortitude defense.",
 										"{@b Dexterity}: A creature with no Dexterity cannot manipulate objects and hence cannot make physical attacks.",
 										"{@b Agility}: A creature with no Agility is unable to move its body under its own power and has no Dodge defense.",
 										"{@b Fighting}: A creature with no Fighting is incapable of making any sort of close attack (but may still be able to launch ranged attacks, if it has Dexterity).",
@@ -1874,8 +1874,8 @@
 									]
 								},
 								"Lacking an ability is –10 character points; that is, it gives the character an additional 10 character points to spend elsewhere, similar to having a –5 rank in an ability, but with different effects. Heroes in this system cannot be absent an ability without Gamemaster permission, as it can have significant effects on the character and the game.",
-								"Absent abilities cannot be weakened (see {@b Weaken} effect in the {@b Powers} chapter) or debilitated, since they are not present at all in the first place!",
-								"Inanimate objects have no abilities other than their Toughness. Animate, but nonliving, constructs such as robots or zombies have Strength, Agility, and Dexterity, and may have ranks of Awareness and Presence (if aware of their environment or capable of interaction), and Fighting (if able to make close attacks). They may have Intellect (if capable of independent thought), but have no Stamina (since they are not living things). See {@b Constructs} in the {@b Gadgets & Gear} chapter for more information."
+								"Absent abilities cannot be weakened (see {@effect Weaken} effect in the {@b Powers} chapter) or {@condition debilitated}, since they are not present at all in the first place!",
+								"Inanimate objects have no abilities other than their Toughness. Animate, but nonliving, constructs such as robots or zombies have Strength, Agility, and Dexterity, and may have ranks of Awareness and Presence (if aware of their environment or capable of interaction), and Fighting (if able to make close attacks). They may have Intellect (if capable of independent thought), but have no Stamina (since they are not living things). See {@rule Constructs|basic|7|constructs} in the {@b Gadgets & Gear} chapter for more information."
 							]
 						}
 					]

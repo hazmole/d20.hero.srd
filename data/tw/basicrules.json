@@ -1859,23 +1859,23 @@
 							"type": "entries",
 							"translate_name": "缺乏屬性", "name": "Absent Abilities",
 							"entries": [
-								"Rather than having a rank of –5 in a given ability, some things or creatures actually lack an ability altogether. These beings automatically fail any check requiring the absent ability. The additional effects of an absent ability are as follows:",
+								"實際上，有些物體或生物並非是擁有-5級的特定屬性，而是完全缺乏該屬性。這些存在將在任何涉及該缺乏屬性的檢定中自動失敗。其他缺乏屬性會導致的額外後果如下所示：",
 								{
 									"type": "list",
 									"items": [
-										"{@b 力量}: A creature with no Strength is incapable of exerting any physical force, either because it has no physical form (like an incorporeal ghost) or simply can’t move (like a tree).",
-										"{@b 體質}: A creature with no Stamina has no physical body (like a ghost) or is not a living being (such as a robot or other construct). Creatures with no Stamina suffer and recover from damage like inanimate objects (see Damaging Objects under the Damage effect). They are immune to fatigued and exhausted conditions, but cannot exert extra effort. Creatures with no Stamina are often—but not necessarily—immune to many of the other things affecting living beings as well (see Immunity). They have no Fortitude defense.",
-										"{@b 靈巧}: A creature with no Dexterity cannot manipulate objects and hence cannot make physical attacks.",
-										"{@b 敏捷}: A creature with no Agility is unable to move its body under its own power and has no Dodge defense.",
-										"{@b 格鬥}: A creature with no Fighting is incapable of making any sort of close attack (but may still be able to launch ranged attacks, if it has Dexterity).",
-										"{@b 智力}: A creature with no Intellect is an automaton, lacking free will and operating entirely on simple instinct or preprogrammed instructions. Anything with no Intellect is immune to mental effects and interaction skills and has no Will defense.",
-										"{@b 覺察}: Anything with no Awareness is completely unaware and also has no Presence. It is an inanimate object, not a creature. Objects are immune to mental effects and interaction skills, and have no defenses apart from Toughness (and Fortitude, if they are alive).",
-										"{@b 表現}: Creatures without Presence are unable to interact and immune to interaction skills. They have no Will defense."
+										"{@b 力量}: 缺乏力量屬性的生物將完全無法發揮任何物理性的力量，這可能是因為它不具備物理型態（例如虛體的鬼魂）、或單純因為它無法移動（例如樹木）。",
+										"{@b 體質}: 缺乏體質屬性的生物不具備物理上存在的身體（就像是鬼魂一樣）、或並非是活體生物（例如機器人或其他構裝體）。缺乏體質屬性的生物將如同無生命物體一般承受傷害、並以相同的方式從傷害中回復（參見{@effect 傷害}效果底下的{@b 傷害物體}條目）。他們將免疫於{@condition 疲勞}和{@condition 力竭}狀態，但無法進行奮力一搏。缺乏體質屬性的生物通常（但非必須）免疫於許多其他會影響活體生物的事物（參見{@effect 免疫}效果）。他們不具備韌性防禦屬性。",
+										"{@b 靈巧}: 缺乏靈巧屬性的生物無法操作物件，並因此無法進行物理攻擊。",
+										"{@b 敏捷}: 缺乏敏捷屬性的生物無法藉由他自己的力量移動身體，且不具備閃避防禦屬性。",
+										"{@b 格鬥}: 缺乏格鬥屬性的生物無法進行任何類型的近身攻擊（但若他們擁有靈巧屬性，則它們仍能夠進行遠程攻擊）。",
+										"{@b 智力}: 缺乏智力屬性的生物就像是自動機器，沒有自由意志，且只能夠完全按照單調的天性或預先編程的指令執行行動。任何缺乏智力屬性的事物都將免疫於心靈效果和交涉技能的影響，且不具備意志防禦屬性。",
+										"{@b 覺察}: 任何缺乏覺察屬性的事物將完全沒有意識，並也將缺乏表現屬性。它將被歸類為無生命物體，而非生物。物體免疫於心靈效果和交涉技能的影響，且不具備除了堅實防禦（和韌性防禦，若它們實際上仍然活著）以外的防禦屬性。",
+										"{@b 表現}: 缺乏表現屬性的生物將無法交涉互動，且免疫於交涉技能的影響。它們不具備意志防禦屬性。"
 									]
 								},
-								"Lacking an ability is –10 character points; that is, it gives the character an additional 10 character points to spend elsewhere, similar to having a –5 rank in an ability, but with different effects. Heroes in this system cannot be absent an ability without Gamemaster permission, as it can have significant effects on the character and the game.",
-								"Absent abilities cannot be weakened (see {@b Weaken} effect in the {@b Powers} chapter) or debilitated, since they are not present at all in the first place!",
-								"Inanimate objects have no abilities other than their Toughness. Animate, but nonliving, constructs such as robots or zombies have Strength, Agility, and Dexterity, and may have ranks of Awareness and Presence (if aware of their environment or capable of interaction), and Fighting (if able to make close attacks). They may have Intellect (if capable of independent thought), but have no Stamina (since they are not living things). See {@b Constructs} in the {@b Gadgets & Gear} chapter for more information."
+								"使一個屬性缺乏的花費為-10角色點；亦即，這麼做將會使你獲得額外的10點角色點。這與使某個屬性的等級減少至-5有些類似，但產生的影響並不相同。在這個系統中，由於缺乏屬性會對角色和遊戲產生非常顯著的影響，因此英雄們必須先得到遊戲主持人的核准才能夠使自己缺乏某個屬性。",
+								"缺乏的屬性無法被弱化（參見{@effect 弱化}效果）或陷入{@condition 屬性衰竭}狀態，畢竟它們從一開始就不存在，更遑論被影響！",
+								"無生命物體除了堅實防禦屬性之外，不具備任何其他屬性。能夠活動，但非活物的構裝體（例如機器人或殭屍），則會具有力量、敏捷、和靈巧屬性，且可能會擁有覺察和表現屬性（若它們能夠意識到周遭環境、或能夠交涉互動）、以及格鬥屬性（若它們能進行近身攻擊）。它們也可能會擁有智力屬性（若它們能夠獨立思考），但不會具備體質屬性（因為它們並非活體生物）。參見{@b 器具＆裝備}章節的{@rule 構裝體|basic|7|constructs}以查閱更多資訊。"
 							]
 						}
 					]
@@ -5685,7 +5685,7 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "延後", "name": "Delay",
-									"subtitle": "No Action",
+									"subtitle": "無動作",
 									"entries": [
 										"當你採取延後，你可以選擇在輪到稍後的先攻順序時才進行你的回合。你必須延後你的整個回合。若你在你的回合已經採取了任何動作、或若你無法採取任何動作，則你不能進行延後。",
 										"你可以在這場衝突中的任何其他角色結束回合之後，選擇採取你的回合。你的先攻順序將變更為你採取行動時的先攻順序位置，且你將接著正常地進行你的回合。若你在輪到你下一輪的先攻順序之前都沒有採取任何行動，則你將失去你延後的回合，且你的先攻順序將維持原樣。",
