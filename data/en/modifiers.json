@@ -738,8 +738,8 @@
 				"value": -1, "type": "flat_per"
 			},
 			"entries": [
-				"A Quirk is some minor nuisance attached to an effect, essentially the reverse of a Feature (see Feature under Extras). A Quirk is generally worth, at most, 2–3 character points, and many are simply 1-point flaws.",
-				"As with Features, the GM should ensure a Quirk is truly a flaw (albeit a minor one) and not simply part of the power’s descriptors. For example, the fact that an attack with a “sonic” descriptor likely will not travel through a vacuum is not a Quirk, simply part of the “sonic” descriptor (especially since the attack may be enhanced by a medium such as water). On the other hand, a shapeshifter unable to change color (losing some of the power’s utility), or a telepath unable to lie while using Mental Communication, do have Quirks to their powers.",
+				"A Quirk is some minor nuisance attached to an effect, essentially the reverse of a {@modifier Feature}. A Quirk is generally worth, at most, 2–3 character points, and many are simply 1-point flaws.",
+				"As with {@modifier Feature|Features}, the GM should ensure a Quirk is truly a flaw (albeit a minor one) and not simply part of the power’s descriptors. For example, the fact that an attack with a “sonic” descriptor likely will not travel through a vacuum is not a Quirk, simply part of the “sonic” descriptor (especially since the attack may be enhanced by a medium such as water). On the other hand, a shapeshifter unable to change color (losing some of the power’s utility), or a telepath unable to lie while using Mental Communication, do have Quirks to their powers.",
 				"The GM sets the rank (and therefore value) of any given Quirk for an effect, based on how troublesome it may be, similar to setting ranks for the Benefit advantage and Feature effect (see those trait descriptions for details)."
 			]
 		},

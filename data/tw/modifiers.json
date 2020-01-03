@@ -671,7 +671,7 @@
 						"吸血蛭怪具有一個汲取之觸的能力（亦即應用了擒抱基礎的{@effect Weaken|弱化力量}效果）。因此這名怪物反派必須要先採取一個標準動作進行擒抱，才能夠使用這個能力。若牠的攻擊檢定命中，則目標將進行一次閃避防禦或力量的抵抗檢定以克服吸血蛭怪的力量。若目標檢定失敗，則他將必須接著進行一次韌性抵抗檢定以克服吸血蛭怪的弱化效果，以決定吸血蛭怪可以從他身上吸走多少力量。"
 					]
 				},
-				"這個缺陷實質上等同於另一種形式的{@modifier Resistible}缺陷，只不過要求的是擒抱檢定，而非原本的抵抗檢定。"
+				"這個缺陷實質上等同於另一種形式的{@modifier 可被抵抗}缺陷，只不過要求的是擒抱檢定，而非原本的抵抗檢定。"
 			]
 		},
 		{
@@ -733,15 +733,15 @@
 			]
 		},
 		{
-			"_translate_name": "負面特色", "name": "Quirk",
+			"translate_name": "負面特色", "name": "Quirk",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "flat_per"
 			},
 			"entries": [
-				"A Quirk is some minor nuisance attached to an effect, essentially the reverse of a Feature (see Feature under Extras). A Quirk is generally worth, at most, 2–3 character points, and many are simply 1-point flaws.",
-				"As with Features, the GM should ensure a Quirk is truly a flaw (albeit a minor one) and not simply part of the power’s descriptors. For example, the fact that an attack with a “sonic” descriptor likely will not travel through a vacuum is not a Quirk, simply part of the “sonic” descriptor (especially since the attack may be enhanced by a medium such as water). On the other hand, a shapeshifter unable to change color (losing some of the power’s utility), or a telepath unable to lie while using Mental Communication, do have Quirks to their powers.",
-				"The GM sets the rank (and therefore value) of any given Quirk for an effect, based on how troublesome it may be, similar to setting ranks for the Benefit advantage and Feature effect (see those trait descriptions for details)."
+				"負面特色代表著效果上所附帶的一些次要麻煩，它實際上就等同於負面版本的{@modifier 特色}修飾符。負面特色的價值最多通常為2~3點角色點，且大部分只是價值1點角色點的缺陷。",
+				"與{@modifier 特色}相同，GM必須確保一個負面特色的確夠格被當作一個缺陷（儘管它僅僅是些小問題），而非只是超能力描述符的一部份。舉例來說，帶有「音波」描述符的攻擊無法在真空環境中傳播的事實，就不算是一個負面特色（特別是當這個攻擊或許能夠藉由像是水之類的傳播介質來強化）。反過來說，無法改變體色的變形能力（這將使其失去該超能力的部分功能）、或在透過心靈連結溝通時無法說謊的心電感應能力，就夠資格被當作這些超能力的負面特色。",
+				"跟{@advantage 額外優勢}特長以及{@effect 特色}效果一樣，GM將根據負面特色可能導致的困擾程度，為效果上所有給定的負面特色設定其等級（以及其價值），請參照這些數據的說明以查閱更多細節。"
 			]
 		},
 		{
@@ -823,7 +823,7 @@
 			"entries": [
 				"感官依賴效果的目標必須要能夠感知到這個效果的存在，這個效果才能夠發揮作用。目標得以進行一次閃避抵抗檢定。檢定成功代表目標順利地移開視線、摀住耳朵等等，且該效果因此無法發揮作用。否則，目標將如常進行用以對抗該效果的抵抗檢定（若有）。",
 				"意識到感官依賴效果的敵人也可以蓄意遮擋被指定的感官：例如看向其他地方、摀住雙耳等等。這麼做將會為對抗該效果的抵抗檢定提供+10的情境加值，但這麼做也會使該感官承受半遮蔽的影響。無法運用感官的敵人（例如陷入{@condition 目盲}、{@condition 耳聾}等狀態）將免疫於依賴於對應感官的感官依賴效果。敵人也可以藉由閉上眼睛、戴上耳塞或鼻塞、或使用其他像是{@effect 隱蔽}之類的效果來達到相同的效果。這麼做將會該效果對你而言處於全遮蔽。",
-				"感知類型的效果在定義上全都具備感官依賴的性質，並因此不能應用這個缺陷。若要讓目標得以對某個感知類型的效果進行額外的抵抗檢定，請使用{@modifier Resistible}缺陷。"
+				"感知類型的效果在定義上全都具備感官依賴的性質，並因此不能應用這個缺陷。若要讓目標得以對某個感知類型的效果進行額外的抵抗檢定，請使用{@modifier 可被抵抗}缺陷。"
 			]
 		},
 		{
