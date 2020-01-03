@@ -802,16 +802,16 @@
 			]
 		},
 		{
-			"_translate_name": "可被抵抗", "name": "Resistible",
+			"translate_name": "可被抵抗", "name": "Resistible",
 			"type": "flaw",
 			"cost": {
 				"value": -1, "type": "per"
 			},
 			"entries": [
-				"When applied to an effect that doesn’t normally allow a resistance check, this flaw gives it one. Choose the defense when the flaw is applied. Since effects that work on others allow a resistance check by definition, this nearly always applies to personal effects that allow someone interacting with them to circumvent the effect with a successful check.",
-				"For example, an Enhanced Parry defense effect might reflect a low-level reading of a target’s mind to anticipate and avoid attacks. It allows a Will resistance check to overcome the effect, denying you the defense bonus against that opponent (and applying this flaw to the effect). Likewise, your Concealment effect might be illusory rather than a true physical transformation, permitting a Will resistance check for someone to overcome it. A sustained Protection effect might be some sort of “kinetic field” that permits an attacker a Fortitude resistance check to overcome it.",
-				"When applied to an effect that does normally allow a resistance check, this flaw gives it an additional one, which may be the same as its normal resistance, or different. The target makes both resistance checks and applies the better of the two to determine the effect’s result.",
-				"For example, a Damage effect might involve whirling blades an attacker can avoid with a successful Dodge resistance check, circumventing the need for a Toughness check against the damage. Similarly a Weaken effect based on a poison dart might add a Toughness check to see if the dart penetrates the target’s skin in addition to making the usual Fortitude check against the effect."
+				"當這個缺陷被應用於一個原本不會要求目標進行抵抗檢定的效果，該效果將會需要目標進行一次抵抗檢定。在應用這個缺陷時選擇一個防禦屬性。由於作用於他人的效果預設都會要求其目標進行一次抵抗檢定，因此這個缺陷幾乎都是應用於那些允許他人與其互動，射程為「個人」的效果，使他人可以藉由一次成功的抵抗檢定以規避該效果的影響。",
+				"舉例來說，一個{@effect Enhanced Trait|增強格擋防禦}效果可能反映了某種低等級的讀心能力，讓使用者得以預測目標的動作並躲避攻擊。這個效果將允許對手進行一次意志抵抗檢定以克服這個效果，無效你對該敵人的額外防禦加值（並將這個缺陷應用於該效果）。同理，你的{@effect 隱蔽}效果也可能會是一種幻象而非真實的物理變化，因此他人只要成功通過一次意志抵抗檢定就能夠克服這個效果的影響。一個{@modifier 維持}{@effect 保護}效果也可能會是某種「動能力場」，並允許攻擊者藉由成功通過一次韌性抵抗檢定來克服它。",
+				"當應用於一個原本就允許目標進行一次抵抗檢定的效果時，這個缺陷將使該效果的目標得以再進行一次額外的抵抗檢定，這個額外抵抗檢定的種類可以與原本的抵抗檢定相同，也可以完全不同。目標將進行兩次抵抗檢定，並使用結果較好的那一次以決定該效果所造成的結果程度。",
+				"舉例來說，一個以迴旋飛刃的形式呈現的{@effect 傷害}效果，可以讓攻擊目標藉由成功通過一次閃避抵抗檢定，以規避掉之後為了克服傷害而進行的堅實抵抗檢定。同樣的，一個基於毒鏢的{@effect 弱化}效果可能會加入一個堅實抵抗檢定，先判斷毒鏢是否能夠穿透目標的肌膚，然後再如常進行對抗該效果的韌性抵抗檢定。"
 			]
 		},
 		{
