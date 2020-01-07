@@ -3903,12 +3903,12 @@ Renderer.general = {
             default: return "－";
         };
     },
-	getRangeText: function(range){
+	getRangeText: function(range, isShort){
 		switch(range.toLowerCase()){
 			case "personal": return FMT("range_personal");
 			case "close": return FMT("range_close");
 			case "ranged": return FMT("range_ranged");
-			case "perception": return FMT("range_perception");
+			case "perception": return (isShort)? FMT("range_perception_short"): FMT("range_perception");
 			case "rank": return FMT("range_rank");
 			case "var": return FMT("varies");
 			default: return FMT(range);

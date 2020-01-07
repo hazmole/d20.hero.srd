@@ -51,6 +51,7 @@
 "range_close": "近身",
 "range_ranged": "遠距",
 "range_perception": "感知距離",
+"range_perception_short": "感知距",
 "range_rank": "等級",
 "duration_instant": "即效",
 "duration_concentration": "專注",

@@ -13,7 +13,7 @@ function getGeneralListItem (entry) {
 	var type = Renderer.general.getTypeFullText(entry.type);
 	var type_class = Renderer.general.getClassByType(entry.type);
 	var action = CUSTOM_RENDERER.getActionText(entry.action);
-	var range = Renderer.general.getRangeText(entry.range);
+	var range = Renderer.general.getRangeText(entry.range, true);
 	var duration = CUSTOM_RENDERER.getDurationText(entry.duration);
 	return `
 			<span class="name col-4">${name}</span>

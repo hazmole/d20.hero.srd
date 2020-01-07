@@ -51,6 +51,7 @@
 "range_close": "Close",
 "range_ranged": "Ranged",
 "range_perception": "Perception",
+"range_perception_short": "Perception",
 "range_rank": "Rank",
 "duration_instant": "Instant",
 "duration_concentration": "Concentration",
