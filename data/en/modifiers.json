@@ -761,8 +761,8 @@
 			},
 			"entries": [
 				"Effects with this flaw can be “taken away” from you, removing your access to the effects until you regain it. Typically, this means a power that resides in an object, called a device, which someone else can remove. There are two different versions of this flaw covered in the following paragraphs; the first is Removable and the second is Easily Removable.",
-				"A removable power may only be removed when you are both stunned and defenseless, essentially unable to resist, and cannot be removed during action time. This means opponents can generally only remove the power after defeating you (leaving you incapacitated) or through some sort of scheme outside of a conflict, such as a plot to break into your headquarters and steal a device kept there, for example.",
-				"An easily removable power can be taken away with a disarm or grab action (see Action & Adventure). This typically represents a hand-held device (such as a weapon, magic wand, remote control, or the like) or some worn item easily snatched from you, like a hat or cloak.",
+				"A removable power may only be removed when you are both {@condition stunned} and {@condition defenseless}, essentially unable to resist, and cannot be removed during action time. This means opponents can generally only remove the power after defeating you (leaving you {@condition incapacitated}) or through some sort of scheme outside of a conflict, such as a plot to break into your headquarters and steal a device kept there, for example.",
+				"An easily removable power can be taken away with a {@rule disarm|basic|8|disarm} or {@rule grab|basic|8|grab} action (see Action & Adventure). This typically represents a hand-held device (such as a weapon, magic wand, remote control, or the like) or some worn item easily snatched from you, like a hat or cloak.",
 				{
 					"type": "entries",
 					"name": "Removable Point Value",
@@ -771,7 +771,7 @@
 						{
 							"type": "example",
 							"entries": [
-								"Mistress Marine’s armor provides Veronica with a number of effects, including Damage, Enhanced Strength, Flight, Protection, and Senses. The total character point cost of all the armors effects is 98 points, including extras and flaws applied to those effects. Dividing the total cost by 5 is 20. So the Removable flaw reduces the cost of the Mistress Marines armor by 20 points, from 98 to 78 character points. However the armor can be taken away, disabled, and so forth, and the player receives no victory points for a complication when it happens due to the nature of the flaw."
+								"Mistress Marine’s armor provides Veronica with a number of effects, including {@effect Damage}, {@effect Enhanced Trait|Enhanced Strength}, {@effect Flight}, {@effect Protection}, and {@effect Sense|Senses}. The total character point cost of all the armors effects is 98 points, including extras and flaws applied to those effects. Dividing the total cost by 5 is 20. So the Removable flaw reduces the cost of the Mistress Marines armor by 20 points, from 98 to 78 character points. However the armor can be taken away, disabled, and so forth, and the player receives no victory points for a complication when it happens due to the nature of the flaw."
 							]
 						}
 					]
@@ -780,7 +780,7 @@
 					"type": "entries",
 					"name": "Removable and Damage",
 					"entries": [
-						"Removable devices can be damaged, possibly even destroyed (see Damage effect description for details). So long as the character has character points invested in the device, it can be repaired, eventually. This usually requires time between adventures, perhaps even a special adventure to find certain rare parts, specialized help, or other components.",
+						"Removable devices can be damaged, possibly even destroyed (see {@effect Damage} effect description for details). So long as the character has character points invested in the device, it can be repaired, eventually. This usually requires time between adventures, perhaps even a special adventure to find certain rare parts, specialized help, or other components.",
 						"For a flat 1-point reduction in the value of the Removable flaw, you can define a device as Indestructible. It can still be taken away, but cannot be damaged or destroyed, except as a GM-imposed complication (earning the player a victory point as usual). This reduction can lower the value of the flaw to 0, in which case the character gets no character point discount for the device."
 					]
 				},
@@ -788,14 +788,14 @@
 					"type": "entries",
 					"name": "Removable and Complications",
 					"entries": [
-						"The temporary loss of a removable power does not constitute a complication, any more than the result of any other flaw. You can have a device or power-object as a descriptor without this flaw, if you wish, in which case the power cannot be removed or taken away from you without a complication applied by the GM (earning you a victory point) or the use of an effect like Nullify, which has predefined conditions for recovery."
+						"The temporary loss of a removable power does not constitute a complication, any more than the result of any other flaw. You can have a device or power-object as a descriptor without this flaw, if you wish, in which case the power cannot be removed or taken away from you without a complication applied by the GM (earning you a victory point) or the use of an effect like {@effect Nullify}, which has predefined conditions for recovery."
 					]
 				},
 				{
 					"type": "inset",
 					"name": "Under the Hood: Removable and Equipment",
 					"entries": [
-						"Items provided by the Equipment advantage (see Advantages) are essentially effects and other traits with Easily Removable, along with the various other limitations outlined in the Gadgets & Gear, amounting to a reduction of –4 points per 5 character points of final cost. Thus the Equipment advantage provides 5 points worth of equipment per rank (or 1 character point)."
+						"Items provided by the {@advantage Equipment} advantage are essentially effects and other traits with Easily Removable, along with the various other limitations outlined in the {@rule Gadgets & Gear|basic|7}, amounting to a reduction of –4 points per 5 character points of final cost. Thus the Equipment advantage provides 5 points worth of equipment per rank (or 1 character point)."
 					]
 				}
 			]

@@ -292,20 +292,20 @@
 			]
 		},
 		{
-			"translate_name": "間接發生", "name": "Indirect",
+			"translate_name": "非自發生源", "name": "Indirect",
 			"type": "extra",
 			"cost": {
 				"value": 1, "type": "flat_per"
 			},
 			"entries": [
-				"應用了這個修飾符的遠距修飾符可以從使用者以外的一點為源點發揮作用，無視使用者與目標之間的掩護（像是牆壁或其他介於中間的障礙物）；然而，介於新源點與目標之間的掩護仍能發揮作用。間接發生的效果通常會以一個固定點為源點發生，並朝遠離你的方向作用。在某些情況下，間接發生的效果可能會被視作一次突襲攻擊（參見{@rule 突襲攻擊|basic|8|Surprise Attack}）。",
+				"應用了這個修飾符的遠距修飾符可以從使用者以外的一點為源點發揮作用，無視使用者與目標之間的掩護（像是牆壁或其他介於中間的障礙物）；然而，介於新源點與目標之間的掩護仍能發揮作用。非自發生源的效果通常會以一個固定點為源點發生，並朝遠離你的方向作用。在某些情況下，非自發生源的效果可能會被視作一次突襲攻擊（參見{@rule 突襲攻擊|basic|8|Surprise Attack}）。",
 				{
 					"type": "list",
 					"items": [
-						"{@b 間接發生 1級}：該效果將以一個固定點為源點發生，並向著遠離你的方向作用。",
-						"{@b 間接發生 2級}：該效果將以任意一點為源點發生，並向著遠離你的方向作用；或者，以一個固定點為源點發生，並向著一個（非遠離你的）固定方向作用。",
-						"{@b 間接發生 3級}：該效果將以任意一點為源點發生，並向著一個（非遠離你的）固定方向作用 ；或者，以一個固定點為源點發生，並向著任意方向作用。",
-						"{@b 間接發生 4級}：該效果將以任意一點為源點發生，並向著任意方向作用，包括朝向你作用（這讓你得以從背後攻擊站在你面前的敵人）。"
+						"{@b 非自發生源 1級}：該效果將以一個固定點為源點發生，並向著遠離你的方向作用。",
+						"{@b 非自發生源 2級}：該效果將以任意一點為源點發生，並向著遠離你的方向作用；或者，以一個固定點為源點發生，並向著一個（非遠離你的）固定方向作用。",
+						"{@b 非自發生源 3級}：該效果將以任意一點為源點發生，並向著一個（非遠離你的）固定方向作用 ；或者，以一個固定點為源點發生，並向著任意方向作用。",
+						"{@b 非自發生源 4級}：該效果將以任意一點為源點發生，並向著任意方向作用，包括朝向你作用（這讓你得以從背後攻擊站在你面前的敵人）。"
 					]
 				}
 			]
@@ -755,48 +755,48 @@
 			]
 		},
 		{
-			"_translate_name": "可被移除", "name": "Removable",
+			"translate_name": "可被移除", "name": "Removable",
 			"type": "flaw",
 			"cost": {
-				"value": "-1 or -2 points per 5 points", "type": "special"
+				"value": "每5點 -1或-2點", "type": "special"
 			},
 			"entries": [
-				"Effects with this flaw can be “taken away” from you, removing your access to the effects until you regain it. Typically, this means a power that resides in an object, called a device, which someone else can remove. There are two different versions of this flaw covered in the following paragraphs; the first is Removable and the second is Easily Removable.",
-				"A removable power may only be removed when you are both stunned and defenseless, essentially unable to resist, and cannot be removed during action time. This means opponents can generally only remove the power after defeating you (leaving you incapacitated) or through some sort of scheme outside of a conflict, such as a plot to break into your headquarters and steal a device kept there, for example.",
-				"An easily removable power can be taken away with a disarm or grab action (see Action & Adventure). This typically represents a hand-held device (such as a weapon, magic wand, remote control, or the like) or some worn item easily snatched from you, like a hat or cloak.",
+				"應用了這個缺陷的效果將能夠被從你身上「拿走」，使你直到重新得到它之前都無法再運用該效果。通常來說，這代表著一種存在於物件中的超能力（稱為裝置），且該裝置將可以被其他人給移除。這個缺陷有兩個不同的版本，並將在以下段落中分別說明；第一個版本是「可被移除」，而第二個則是「可輕易被移除」。",
+				"一個可被移除的超能力可能只會在你同時陷入{@condition 暈眩}和{@condition 無防備}狀態，亦即你無法進行抵抗時才可以被移除，且它不會在動作場景期間被移除。這代表敵人通常只能夠在擊敗你之後（使你陷入{@condition 失能}狀態）、或是在戰鬥外透過某種陰謀詭計才能移除這個超能力，比如說，闖入你的根據地並偷走你存放在該處的裝置等等。",
+				"一個可被輕易移除的超能力可以藉由{@rule 繳械|basic|8|disarm}或{@rule 擒抱|basic|8|grab}動作而被移除。這通常代表著那些手持式的裝置（像是武器、魔杖、遙控器等等）、或某些能夠被輕易從你身上卸除的穿戴物品，例如帽子或斗篷。",
 				{
 					"type": "entries",
-					"name": "Removable Point Value",
+					"translate_name": "可被移除缺陷的角色點數值", "name": "Removable Point Value",
 					"entries": [
-						"Removable applies to the power as a whole and not individual effects, although it may apply to a power with only one effect. The flaw is worth –1 point (–2 points for Easily Removable) per 5 total character points of the power’s final cost, after applying extras and flaws to its effects.",
+						"可被移除缺陷將應用在一整個超能力上，而非應用於該超能力的各個效果，儘管如此，它仍可以被應用於只具備一個效果的超能力。這個缺陷的價值的計算方式如下：其應用超能力的最終角色點總和（在計算過其他應用於其效果的強化和缺陷後的結果）每有5點，這個缺陷便會提供-1點的角色點折扣（若為可被輕易移除則-2點）。",
 						{
 							"type": "example",
 							"entries": [
-								"Mistress Marine’s armor provides Veronica with a number of effects, including Damage, Enhanced Strength, Flight, Protection, and Senses. The total character point cost of all the armors effects is 98 points, including extras and flaws applied to those effects. Dividing the total cost by 5 is 20. So the Removable flaw reduces the cost of the Mistress Marines armor by 20 points, from 98 to 78 character points. However the armor can be taken away, disabled, and so forth, and the player receives no victory points for a complication when it happens due to the nature of the flaw."
+								"海洋女士的鎧甲能夠為薇洛妮卡提供許多超能力效果，包括{@effect 傷害}、{@effect Enhanced Trait|增強力量}、{@effect 飛行}、{@effect 保護}、和{@effect 感官}。這個鎧甲所具備的所有超能力效果的角色點花費總共是98點（已經納入應用於這些效果的強化和缺陷的角色點調整）。將這個花費總和除以5的結果為20。因此，可被移除缺陷將能夠使海洋女士鎧甲的角色點花費減少20點，從98點變成78點。然而，這身鎧甲也將因此能夠被拿走、卸除等等，而因為這個缺陷的性質，當這些情況發生時，玩家也將因為這個難題情境而得到一點勝利點。"
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Removable and Damage",
+					"translate_name": "可被移除缺陷與傷害", "name": "Removable and Damage",
 					"entries": [
-						"Removable devices can be damaged, possibly even destroyed (see Damage effect description for details). So long as the character has character points invested in the device, it can be repaired, eventually. This usually requires time between adventures, perhaps even a special adventure to find certain rare parts, specialized help, or other components.",
-						"For a flat 1-point reduction in the value of the Removable flaw, you can define a device as Indestructible. It can still be taken away, but cannot be damaged or destroyed, except as a GM-imposed complication (earning the player a victory point as usual). This reduction can lower the value of the flaw to 0, in which case the character gets no character point discount for the device."
+						"應用了可被移除缺陷的裝置可以被傷害，且甚至可能會被摧毀（相關細節參見{@effect 傷害}效果的描述）。不過，只要角色有投資角色點在該裝置上，它們最終都能夠被修復。修復裝置通常會需要花費冒險之餘的時間，也甚至可能會需要展開一場特別的冒險以尋找特定的稀有部件、特定的幫助、或其他要素。",
+						"若使這個缺陷增加平移+1點的花費，你將可以讓該裝置具備無法被破壞的性質。它仍然可以被從你身上拿走，但除非遭遇到GM強加的糾葛難題（玩家將如常從中獲得勝利點），否則該裝置將不會被傷害或摧毀。這個調整可以讓這個缺陷的花費變為0，並因此讓角色無法在該裝置上獲得來自該缺陷的角色點折扣。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Removable and Complications",
+					"translate_name": "可被移除缺陷與糾葛難題", "name": "Removable and Complications",
 					"entries": [
-						"The temporary loss of a removable power does not constitute a complication, any more than the result of any other flaw. You can have a device or power-object as a descriptor without this flaw, if you wish, in which case the power cannot be removed or taken away from you without a complication applied by the GM (earning you a victory point) or the use of an effect like Nullify, which has predefined conditions for recovery."
+						"暫時失去可被移除的超能力並不構成糾葛難題，糾葛難題導致的後果通常會比任何缺陷都要來的更為嚴重。若你希望的話，你也可以僅以描述符來表示超能力裝置或物件，而不應用這個缺陷，若這麼做的話，除非遭遇到GM強加的糾葛難題（這將使你獲得勝利點）或像是{@effect 無效化}效果的影響（其預先定義了從中恢復的條件），否則該超能力將不會被從你身上移除或拿去。"
 					]
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Removable and Equipment",
+					"translate_name": "幕後花絮：可被移除缺陷與裝備", "name": "Under the Hood: Removable and Equipment",
 					"entries": [
-						"Items provided by the Equipment advantage (see Advantages) are essentially effects and other traits with Easily Removable, along with the various other limitations outlined in the Gadgets & Gear, amounting to a reduction of –4 points per 5 character points of final cost. Thus the Equipment advantage provides 5 points worth of equipment per rank (or 1 character point)."
+						"{@advantage 裝備}特長所提供的道具實質上便等同於應用了可被輕易移除缺陷的效果或其他數據，伴隨著其他在{@rule 器具＆裝備|basic|7}章節中列出的限制，在計算其花費總和時，它會得到每5點角色點-4點的折扣。因此，每級的{@advantage 裝備}特長（1點角色點）都將能夠提供價值等同5點角色點的裝備。"
 					]
 				}
 			]
