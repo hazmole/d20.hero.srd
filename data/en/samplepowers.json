@@ -164,8 +164,8 @@
 				"{@modifier Increased Range|Ranged} {@effect Damage}"
 			],
 			"entries": [
-				"You can generate and project a type of energy, such as cold, electricity, fire, kinetic force, magnetism, radiation, or even cosmic energy, in a damaging blast (see the Blast power).",
-				"Energy Control is further defined by the addition of Alternate Effects (see Alternate Effects), expanding what you can do with your control. For example, Cold Control might let you lower the surrounding temperature (Environment – Cold) or trap targets in ice ( Affliction, see the Snare version). Magnetic Control could let you manipulate metallic objects (Limited Move Object) while Electrical Control lets you generate an electrical pulse to overload electronics (Burst Area Nullify Electronics). Add as many Alternate Effects to your Energy Control as you can afford, and consider some additional ones as options for power stunts (see Powers Stunts)."
+				"You can generate and project a type of energy, such as cold, electricity, fire, kinetic force, magnetism, radiation, or even cosmic energy, in a damaging blast (see the {@samplepower Blast} power).",
+				"Energy Control is further defined by the addition of {@modifier Alternate Effect|Alternate Effects} (see Alternate Effects), expanding what you can do with your control. For example, Cold Control might let you lower the surrounding temperature ({@effect Environment|Environment – Cold}) or trap targets in ice ( {@effect Affliction}, see the {@samplepower Snare} version). Magnetic Control could let you manipulate metallic objects ({@modifier Limited} {@effect Move Object}) while Electrical Control lets you generate an electrical pulse to overload electronics ({@modifier Area|Burst Area} {@effect Nullify|Nullify Electronics}). Add as many Alternate Effects to your Energy Control as you can afford, and consider some additional ones as options for power stunts (see {@rule Powers Stunts|basic|1|power stunt})."
 			]
 		},
 		{
@@ -179,10 +179,10 @@
 				"type": "per"
 			},
 			"effects": [
-				"Protection, Sustained"
+				"{@effect Protection}, {@modifier Sustained}"
 			],
 			"entries": [
-				"You can surround your body with a protective field of energy or force, providing you with a Toughness increase equal to your rank. As a sustained effect, your Force Field is noticeable, unless you apply the Subtle modifier. Force Fields are often Impervious as well, immune to certain lower thresholds of Damage."
+				"You can surround your body with a protective field of energy or force, providing you with a Toughness increase equal to your rank. As a sustained effect, your Force Field is noticeable, unless you apply the {@modifier Subtle} modifier. Force Fields are often {@modifier Impervious} as well, immune to certain lower thresholds of Damage."
 			]
 		},
 		{
@@ -196,7 +196,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Visual Concealment"
+				"{@effect Concealment|Visual Concealment}"
 			],
 			"entries": [
 				"You can vanish from sight at will, gaining total visual concealment, although other senses can still detect you. This power costs 4 points if you are only invisible to normal vision, 8 points if you cannot be detected by any visual sense (including infrared and ultraviolet)."
@@ -233,7 +233,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Perception Ranged Damage, Resisted by Will"
+				"{@modifier Increased Range|Perception Ranged} {@effect Damage}, {@modifier Alternate Resistance|Resisted by Will}"
 			],
 			"entries": [
 				"You can strike targets’ minds with “mental force,” inflicting Damage resisted by the target’s Will rather than Toughness, but having no effect on targets immune to effects resisted by Will, such as inanimate objects. Mental Blasts are often, but not always, Subtle as well, which costs a flat 1 point."
@@ -391,7 +391,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Enhanced Initiative, Quickness, Speed"
+				"{@effect Enhanced Trait|Enhanced Initiative}, {@effect Quickness}, {@effect Speed}"
 			],
 			"entries": [
 				"You are fast! Each rank of Super-Speed gives you the effects of Improved Initiative as an Enhanced Trait, Quickness, and Speed, with a ground speed rank equal to your power rank. So with Super-Speed 10, for example, you have +40 to initiative checks, can perform routine actions normally requiring two hours in just 6 seconds, and have a ground speed of 2,000 miles per hour!",

@@ -151,7 +151,7 @@
 			]
 		},
 		{
-			"name": "Energy Control",
+			"translate_name": "能量控制", "name": "Energy Control",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -164,12 +164,12 @@
 				"{@modifier Increased Range|遠距} {@effect 傷害}"
 			],
 			"entries": [
-				"You can generate and project a type of energy, such as cold, electricity, fire, kinetic force, magnetism, radiation, or even cosmic energy, in a damaging blast (see the Blast power).",
-				"Energy Control is further defined by the addition of Alternate Effects (see Alternate Effects), expanding what you can do with your control. For example, Cold Control might let you lower the surrounding temperature (Environment – Cold) or trap targets in ice ( Affliction, see the Snare version). Magnetic Control could let you manipulate metallic objects (Limited Move Object) while Electrical Control lets you generate an electrical pulse to overload electronics (Burst Area Nullify Electronics). Add as many Alternate Effects to your Energy Control as you can afford, and consider some additional ones as options for power stunts (see Powers Stunts)."
+				"你可以產生並投射出一種能量，例如寒冷、電力、火焰、動能、磁力、輻射、或甚至宇宙能量，以造成傷害性的衝擊波（參見{@samplepower 衝擊波}超能力）。",
+				"能量控制通常會透過添加額外的{@modifier 替換效果}來進一步定義，擴展你透過能量控制所能達成的行為。舉例來說，寒冷控制也許能讓你降低周遭環境的溫度（{@effect Environment|環境–寒冷}）或將目標困在寒冰之中（{@effect 詛咒}, 參見{@samplepower Snare}的版本）。磁力控制則可能會讓你得以操控金屬物體（{@modifier 限定條件}{@effect 移動物體}），而電力控制則讓你能夠製造電氣脈衝以使電子設備過載短路（{@modifier Area|爆發範圍}{@effect Nullify|無效化電子設備}）。在你能夠支付的範圍內盡可能將替換效果加到你的能量控制中，並考慮將一些較罕用的項目做為超能力絕技（參見{@rule 超能力絕技|basic|1|power stunt}規則）。"
 			]
 		},
 		{
-			"name": "Force Field",
+			"translate_name": "防護力場", "name": "Force Field",
 			"type": "DEF",
 			"action": "F",
 			"range": "personal",
@@ -179,14 +179,14 @@
 				"type": "per"
 			},
 			"effects": [
-				"Protection, Sustained"
+				"{@effect 保護}, {@modifier 維持}"
 			],
 			"entries": [
-				"You can surround your body with a protective field of energy or force, providing you with a Toughness increase equal to your rank. As a sustained effect, your Force Field is noticeable, unless you apply the Subtle modifier. Force Fields are often Impervious as well, immune to certain lower thresholds of Damage."
+				"你能夠使防護性的能量或力場環繞在你身邊，使你的堅實防禦等級增加等同於此超能力等級的數值。做為一個持續時間為「維持」的效果，除非你同時應用了{@modifier 隱密使用}強化，否則你的防護力場可以被輕易察覺到。防護力場通常也會應用{@modifier 強抗}強化，使其免疫於低於一定程度以下的傷害。"
 			]
 		},
 		{
-			"name": "Invisibility",
+			"translate_name": "隱形", "name": "Invisibility",
 			"type": "SEN",
 			"action": "F",
 			"range": "personal",
@@ -196,10 +196,10 @@
 				"type": "per"
 			},
 			"effects": [
-				"Visual Concealment"
+				"{@effect Concealment|視覺隱蔽}"
 			],
 			"entries": [
-				"You can vanish from sight at will, gaining total visual concealment, although other senses can still detect you. This power costs 4 points if you are only invisible to normal vision, 8 points if you cannot be detected by any visual sense (including infrared and ultraviolet)."
+				"你可以隨意從他人的視線中消失，並獲得對視覺感官的全遮蔽。然而你仍然會被其他的感官給偵測到。若你的隱形只對尋常視覺有效，則這個超能力的花費為4點；若你無法被任何視覺感官（包括紅外線和紫外線視覺）給偵測到，則這個超能力的花費為8點。"
 			]
 		},
 		{
@@ -233,7 +233,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Perception Ranged Damage, Resisted by Will"
+				"{@modifier Increased Range|Perception Ranged} {@effect Damage}, {@modifier Alternate Resistance|Resisted by Will}"
 			],
 			"entries": [
 				"You can strike targets’ minds with “mental force,” inflicting Damage resisted by the target’s Will rather than Toughness, but having no effect on targets immune to effects resisted by Will, such as inanimate objects. Mental Blasts are often, but not always, Subtle as well, which costs a flat 1 point."
@@ -391,7 +391,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Enhanced Initiative, Quickness, Speed"
+				"{@effect Enhanced Trait|增強先攻}, {@effect 迅捷}, {@effect 高速}"
 			],
 			"entries": [
 				"You are fast! Each rank of Super-Speed gives you the effects of Improved Initiative as an Enhanced Trait, Quickness, and Speed, with a ground speed rank equal to your power rank. So with Super-Speed 10, for example, you have +40 to initiative checks, can perform routine actions normally requiring two hours in just 6 seconds, and have a ground speed of 2,000 miles per hour!",
