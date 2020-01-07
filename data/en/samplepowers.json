@@ -87,7 +87,7 @@
 				"You can create a duplicate of yourself. Your duplicate is a minion with the same traits as you, except for this power and any victory points. You can spend your own victory points for your duplicate’s actions.",
 				"You must have this power at a rank equal to your own character point total (not counting Duplication), divided by 15, and rounded up for your duplicate to possess your full abilities. If you have it at a lower rank, create your duplicate as a scaled-down version of yourself, with a power level equal to your rank in this power and starting character points determined accordingly (power rank x 15). So a power level 11 hero who has Duplication 8 creates a power level 8 “duplicate” with (8 x 15) 120 character points and proportionately lower-ranked traits.",
 				"Your duplicate thinks and acts just like you, so it is automatically helpful toward you. Gamemasters should generally allow the hero’s player to determine the duplicate’s actions. Your duplicate disappears if your power is countered for any reason. You can also make your duplicate disappear at will by turning off your power.",
-				"You can apply Summon modifiers to this power (see Summon). Use the Multiple Minions extra to be able to create multiple duplicates."
+				"You can apply {@effect Summon} modifiers to this power. Use the Multiple Minions extra to be able to create multiple duplicates."
 			]
 		},
 		{
@@ -105,7 +105,7 @@
 			],
 			"entries": [
 				"You can control and move a mass of an element like air, earth, or water. Your power’s effective Strength equals its rank, which is also the mass rank of the element you can move at once. So Earth Control 11 lets you move up to 50 tons of earth and stone, for example.",
-				"Element Control is further refined with various Alternate Effects (see Alternate Effects), expanding what you can do with your control. So Earth Control might let you kick up clouds of dust (Area Visual Concealment Attack), build walls and other structures of rock (Continuous or Permanent Create), tunnel through the ground (Burrowing), or fly standing on a chunk of rock (Platform Flight), to name a few. Alternate Effects you do not add to your power as full-fledged modifiers are still available to you as power stunts using extra effort (see Powers Stunts)."
+				"Element Control is further refined with various {@modifier Alternate Effect|Alternate Effects}, expanding what you can do with your control. So Earth Control might let you kick up clouds of dust ({@modifier Area} {@effect Concealment|Visual Concealment} {@modifier Attack}), build walls and other structures of rock (Continuous or Permanent {@effect Create}), tunnel through the ground ({@effect Burrowing}), or fly standing on a chunk of rock ({@effect Flight|Platform Flight}), to name a few. Alternate Effects you do not add to your power as full-fledged modifiers are still available to you as power stunts using extra effort (see {@rule Powers Stunts|basic|1|power stunt})."
 			]
 		},
 		{
@@ -147,7 +147,7 @@
 				"{@effect Damage}, {@modifier Reaction}"
 			],
 			"entries": [
-				"You can surround your body with an aura of damaging energy or some similar effect. Anyone you touch or that touches you must make a Toughness resistance check against your aura’s Damage rank. You can turn your aura on and off at will as a free action. If your Aura damages some targets but not others, apply the Selective or Limited modifiers (depending on whether or not the selectivity is under your control)."
+				"You can surround your body with an aura of damaging energy or some similar effect. Anyone you touch or that touches you must make a Toughness resistance check against your aura’s Damage rank. You can turn your aura on and off at will as a free action. If your Aura damages some targets but not others, apply the {@modifier Selective} or {@modifier Limited} modifiers (depending on whether or not the selectivity is under your control)."
 			]
 		},
 		{
@@ -165,7 +165,7 @@
 			],
 			"entries": [
 				"You can generate and project a type of energy, such as cold, electricity, fire, kinetic force, magnetism, radiation, or even cosmic energy, in a damaging blast (see the {@samplepower Blast} power).",
-				"Energy Control is further defined by the addition of {@modifier Alternate Effect|Alternate Effects} (see Alternate Effects), expanding what you can do with your control. For example, Cold Control might let you lower the surrounding temperature ({@effect Environment|Environment – Cold}) or trap targets in ice ( {@effect Affliction}, see the {@samplepower Snare} version). Magnetic Control could let you manipulate metallic objects ({@modifier Limited} {@effect Move Object}) while Electrical Control lets you generate an electrical pulse to overload electronics ({@modifier Area|Burst Area} {@effect Nullify|Nullify Electronics}). Add as many Alternate Effects to your Energy Control as you can afford, and consider some additional ones as options for power stunts (see {@rule Powers Stunts|basic|1|power stunt})."
+				"Energy Control is further defined by the addition of {@modifier Alternate Effect|Alternate Effects}, expanding what you can do with your control. For example, Cold Control might let you lower the surrounding temperature ({@effect Environment|Environment – Cold}) or trap targets in ice ( {@effect Affliction}, see the {@samplepower Snare} version). Magnetic Control could let you manipulate metallic objects ({@modifier Limited} {@effect Move Object}) while Electrical Control lets you generate an electrical pulse to overload electronics ({@modifier Area|Burst Area} {@effect Nullify|Nullify Electronics}). Add as many Alternate Effects to your Energy Control as you can afford, and consider some additional ones as options for power stunts (see {@rule Powers Stunts|basic|1|power stunt})."
 			]
 		},
 		{
