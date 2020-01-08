@@ -286,7 +286,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Enhanced Strength, Limited to Lifting"
+				"{@effect Enhanced Trait|Enhanced Strength}, {@modifier Limited|Limited to Lifting}"
 			],
 			"entries": [
 				"Your lifting and carrying capacity is out of proportion with the rest of your Strength. Each rank in this power gives you +1 to your Strength rank for determining how much weight you can lift and carry, but does not increase your Strength damage or other effects of your Strength rank."
@@ -321,7 +321,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged Affliction, Resisted by Fortitude"
+				"{@modifier Increased Range|Ranged} {@effect Affliction|Affliction, Resisted by Fortitude}"
 			],
 			"entries": [
 				"You cause a the target to feel tremendous weariness. Targets failing the Fortitude resistance check against your effect DC become fatigued, then exhausted, and finally asleep as they succumb.",
@@ -339,7 +339,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged, Cumulative Affliction, Extra Condition, Resisted by Dodge, Limited Degree"
+				"{@modifier Increased Range|Ranged}, {@effect Affliction|Cumulative Affliction, Extra Condition, Resisted by Dodge, Limited Degree}"
 			],
 			"entries": [
 				"You can restrain a target with bonds of ice, glue, webbing, bands of energy, and so forth (whatever suits your descriptors). The target makes a Dodge resistance check against your effect DC. One degree of failure leaves the target hindered and vulnerable, while two results in the target becoming defenseless and immobilized. There is no additional effect for three or more degrees of failure.",
@@ -374,10 +374,10 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged, Progressive Affliction, Resisted by Fortitude"
+				"{@modifier Increased Range|Ranged}, {@effect Affliction|Progressive Affliction, Resisted by Fortitude}"
 			],
 			"entries": [
-				"You render the target unable to breathe. Targets failing the Fortitude resistance check against your effect DC become dazed, stunned, and finally incapacitated, passing out from the lack of oxygen. A failed attempt to resist the ongoing effect of Suffocation causes the target’s condition to worsen by one degree."
+				"You render the target unable to breathe. Targets failing the Fortitude resistance check against your effect DC become {@condition dazed}, {@condition stunned}, and finally {@condition incapacitated}, passing out from the lack of oxygen. A failed attempt to resist the ongoing effect of Suffocation causes the target’s condition to worsen by one degree."
 			]
 		},
 		{
@@ -394,8 +394,8 @@
 				"{@effect Enhanced Trait|Enhanced Initiative}, {@effect Quickness}, {@effect Speed}"
 			],
 			"entries": [
-				"You are fast! Each rank of Super-Speed gives you the effects of Improved Initiative as an Enhanced Trait, Quickness, and Speed, with a ground speed rank equal to your power rank. So with Super-Speed 10, for example, you have +40 to initiative checks, can perform routine actions normally requiring two hours in just 6 seconds, and have a ground speed of 2,000 miles per hour!",
-				"Heroes with Super-Speed often have additional powers based on their speed, particularly things like Air Control (whipping up powerful winds, see Element Control, previously) or modifiers to their Strength Damage like Area or Multiattack to represent the ability to make a rapid series of attacks in a single turn. High (possibly Enhanced) active defenses are also common for characters with Super-Speed."
+				"You are fast! Each rank of Super-Speed gives you the effects of Enhanced Initiative as an {@effect Enhanced Trait}, {@effect Quickness}, and {@effect Speed}, with a ground speed rank equal to your power rank. So with Super-Speed 10, for example, you have +40 to initiative checks, can perform routine actions normally requiring two hours in just 6 seconds, and have a ground speed of 2,000 miles per hour!",
+				"Heroes with Super-Speed often have additional powers based on their speed, particularly things like Air Control (whipping up powerful winds, see {@samplepower Element Control}, previously) or modifiers to their Strength Damage like {@modifier Area} or {@modifier Multiattack} to represent the ability to make a rapid series of attacks in a single turn. High (possibly Enhanced) active defenses are also common for characters with Super-Speed."
 			]
 		}
 	]

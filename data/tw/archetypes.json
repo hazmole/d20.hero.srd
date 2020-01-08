@@ -77,7 +77,7 @@
 			"powers": {
 				"type": "entries",
 				"entries": [
-					"{@b 戰鬥裝甲服}: {@modifier Removable|Removable 21} [-21 點]",
+					"{@b 戰鬥裝甲服}: {@modifier Removable|可被移除 21} [-21 點]",
 					{
 						"type": "list",
 						"items": [

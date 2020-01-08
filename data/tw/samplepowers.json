@@ -276,7 +276,7 @@
 			]
 		},
 		{
-			"name": "Power-Lifting",
+			"translate_name": "強力抬舉", "name": "Power-Lifting",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -286,10 +286,10 @@
 				"type": "per"
 			},
 			"effects": [
-				"Enhanced Strength, Limited to Lifting"
+				"{@effect Enhanced Trait|增強力量}, {@modifier Limited|限定抬舉}"
 			],
 			"entries": [
-				"Your lifting and carrying capacity is out of proportion with the rest of your Strength. Each rank in this power gives you +1 to your Strength rank for determining how much weight you can lift and carry, but does not increase your Strength damage or other effects of your Strength rank."
+				"你舉物和負載重量的能力遠遠超出你所擁有的力量。每級的這個超能力都會在決定你所能抬舉並攜帶的總重量時使你的力量等級+1，但不會增加你的力量傷害、或其他基於你力量等級的效果。"
 			]
 		},
 		{
@@ -321,7 +321,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged Affliction, Resisted by Fortitude"
+				"{@modifier Increased Range|遠距} {@effect Affliction|詛咒, 以韌性防禦抵抗}"
 			],
 			"entries": [
 				"You cause a the target to feel tremendous weariness. Targets failing the Fortitude resistance check against your effect DC become fatigued, then exhausted, and finally asleep as they succumb.",
@@ -339,7 +339,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged, Cumulative Affliction, Extra Condition, Resisted by Dodge, Limited Degree"
+				"{@modifier Increased Range|遠距}, {@effect Affliction|累積詛咒, 額外狀態, 以閃避防禦抵抗, 限定程度}"
 			],
 			"entries": [
 				"You can restrain a target with bonds of ice, glue, webbing, bands of energy, and so forth (whatever suits your descriptors). The target makes a Dodge resistance check against your effect DC. One degree of failure leaves the target hindered and vulnerable, while two results in the target becoming defenseless and immobilized. There is no additional effect for three or more degrees of failure.",
@@ -357,14 +357,14 @@
 				"type": "per"
 			},
 			"effects": [
-				"{@effect Damage}"
+				"{@effect 傷害}"
 			],
 			"entries": [
 				"You inflict additional damage in close combat. Your Strike either substitutes for your Strength damage or adds to it, if it is Strength-based, see the Damage effect for details. It might be claws, energy fields, focused striking strength, or something similar, depending on your descriptors. Close combat weapons are either equipment or this power with the Removable flaw. See the Gadgets & Gear (following) for more information."
 			]
 		},
 		{
-			"name": "Suffocation",
+			"translate_name": "窒悶", "name": "Suffocation",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -374,14 +374,14 @@
 				"type": "per"
 			},
 			"effects": [
-				"Ranged, Progressive Affliction, Resisted by Fortitude"
+				"{@modifier Increased Range|遠距}, {@effect Affliction|惡化詛咒, 以韌性防禦抵抗}"
 			],
 			"entries": [
-				"You render the target unable to breathe. Targets failing the Fortitude resistance check against your effect DC become dazed, stunned, and finally incapacitated, passing out from the lack of oxygen. A failed attempt to resist the ongoing effect of Suffocation causes the target’s condition to worsen by one degree."
+				"你使目標無法呼吸。在對抗你效果DC的韌性抵抗檢定失敗的目標將會陷入{@condition 目眩}、{@condition 暈眩}、並最終因為缺氧而陷入{@condition 失能}狀態。若目標在抵抗窒悶超能力的持續效果時所進行的檢定失敗，將會使目標的狀態惡化一個程度。"
 			]
 		},
 		{
-			"name": "Super-Speed",
+			"translate_name": "超高速", "name": "Super-Speed",
 			"type": "combine",
 			"action": "F",
 			"range": "personal",
@@ -394,8 +394,8 @@
 				"{@effect Enhanced Trait|增強先攻}, {@effect 迅捷}, {@effect 高速}"
 			],
 			"entries": [
-				"You are fast! Each rank of Super-Speed gives you the effects of Improved Initiative as an Enhanced Trait, Quickness, and Speed, with a ground speed rank equal to your power rank. So with Super-Speed 10, for example, you have +40 to initiative checks, can perform routine actions normally requiring two hours in just 6 seconds, and have a ground speed of 2,000 miles per hour!",
-				"Heroes with Super-Speed often have additional powers based on their speed, particularly things like Air Control (whipping up powerful winds, see Element Control, previously) or modifiers to their Strength Damage like Area or Multiattack to represent the ability to make a rapid series of attacks in a single turn. High (possibly Enhanced) active defenses are also common for characters with Super-Speed."
+				"你迅速無比！每級的超高速都會讓你獲得{@effect Enhanced Trait|增強先攻}、{@effect 迅捷}和{@effect 高速}（使你擁有等同超能力等級的地面速度）的效果。因此，舉例來說，若你具有10級的超高速，則你將在先攻檢定中享有+40的加值、可以在6秒內完成原本需要花費二個小時時間的例行動作、且具有每小時2,000哩的地面移動速度！",
+				"具有超高速超能力的英雄們通常會擁有許多基於他們迅捷速度所衍生的超能力，舉例來說像是控制大氣（捲起強力的旋風，參照前述的{@samplepower 元素控制}）、或是一些像是說{@modifier 範圍化}或{@modifier 多重攻擊}等應用於力量傷害的修飾符，用以表現出他們能在單回合內做出一系列迅捷攻擊的能力。高水準的主動防禦屬性（可能經由{@effect 增強數據}強化）對於具有超高速的角色而言也相當常見。"
 			]
 		}
 	]
