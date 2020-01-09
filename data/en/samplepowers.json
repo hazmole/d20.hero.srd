@@ -303,7 +303,7 @@
 				"type": "per"
 			},
 			"effects": [
-				"Variable (assumed forms), Move Action"
+				"{@effect Variable|Variable (assumed forms), Move Action}"
 			],
 			"entries": [
 				"You can transform into different forms, gaining the physical traits (abilities, skills, advantages, and powers) of the assumed form. You gain (Shapeshift rank x 5) character points worth of traits. You can also redistribute points spent on your own physical traits (lowering your Strength to apply those points elsewhere, for example). You are limited to the inherent traits of the forms you assume and do not gain new mental traits, even if that form possesses them.",
@@ -324,7 +324,7 @@
 				"{@modifier Increased Range|Ranged} {@effect Affliction|Affliction, Resisted by Fortitude}"
 			],
 			"entries": [
-				"You cause a the target to feel tremendous weariness. Targets failing the Fortitude resistance check against your effect DC become fatigued, then exhausted, and finally asleep as they succumb.",
+				"You cause a the target to feel tremendous weariness. Targets failing the Fortitude resistance check against your effect DC become {@condition fatigued}, then {@condition exhausted}, and finally {@condition asleep} as they succumb.",
 				"Sleep is not normally cumulative, but you can apply the Cumulative or Progressive modifiers, making the fatigue that much harder for victims to fight off."
 			]
 		},
@@ -342,8 +342,8 @@
 				"{@modifier Increased Range|Ranged}, {@effect Affliction|Cumulative Affliction, Extra Condition, Resisted by Dodge, Limited Degree}"
 			],
 			"entries": [
-				"You can restrain a target with bonds of ice, glue, webbing, bands of energy, and so forth (whatever suits your descriptors). The target makes a Dodge resistance check against your effect DC. One degree of failure leaves the target hindered and vulnerable, while two results in the target becoming defenseless and immobilized. There is no additional effect for three or more degrees of failure.",
-				"The resistance check to break out of a Snare is based on Damage (including Strength Damage) or Sleight of Hand, either breaking the effect or slipping out of it. This is part of the power’s Alternate Resistance, with no change in cost."
+				"You can restrain a target with bonds of ice, glue, webbing, bands of energy, and so forth (whatever suits your descriptors). The target makes a Dodge resistance check against your effect DC. One degree of failure leaves the target {@condition hindered} and {@condition vulnerable}, while two results in the target becoming {@condition defenseless} and {@condition Immobile|immobilized}. There is no additional effect for three or more degrees of failure.",
+				"The resistance check to break out of a Snare is based on {@effect Damage} (including Strength Damage) or {@skill Sleight of Hand}, either breaking the effect or slipping out of it. This is part of the power’s {@modifier Alternate Resistance}, with no change in cost."
 			]
 		},
 		{
@@ -360,7 +360,7 @@
 				"{@effect Damage}"
 			],
 			"entries": [
-				"You inflict additional damage in close combat. Your Strike either substitutes for your Strength damage or adds to it, if it is Strength-based, see the Damage effect for details. It might be claws, energy fields, focused striking strength, or something similar, depending on your descriptors. Close combat weapons are either equipment or this power with the Removable flaw. See the Gadgets & Gear (following) for more information."
+				"You inflict additional damage in close combat. Your Strike either substitutes for your Strength damage or adds to it, if it is Strength-based, see the {@effect Damage} effect for details. It might be claws, energy fields, focused striking strength, or something similar, depending on your descriptors. Close combat weapons are either equipment or this power with the {@modifier Removable} flaw. See the {@rule Gadgets & Gear|basic|7} for more information."
 			]
 		},
 		{

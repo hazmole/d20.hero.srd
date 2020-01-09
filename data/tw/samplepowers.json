@@ -293,7 +293,7 @@
 			]
 		},
 		{
-			"name": "Shapeshift",
+			"translate_name": "化形", "name": "Shapeshift",
 			"type": "G",
 			"action": "M",
 			"range": "personal",
@@ -302,16 +302,16 @@
 				"value": 8,
 				"type": "per"
 			},
-			"effects": [
-				"Variable (assumed forms), Move Action"
+			"effects": [ 
+				"{@effect Variable|能力變換（變化型態）, 移動動作}"
 			],
 			"entries": [
-				"You can transform into different forms, gaining the physical traits (abilities, skills, advantages, and powers) of the assumed form. You gain (Shapeshift rank x 5) character points worth of traits. You can also redistribute points spent on your own physical traits (lowering your Strength to apply those points elsewhere, for example). You are limited to the inherent traits of the forms you assume and do not gain new mental traits, even if that form possesses them.",
-				"Shapeshift is often further Limited by the specific types of forms the character can assume, such as Limited to Animals or Limited to Machines."
+				"你可以變化成不同的型態，並獲得不同型態所擁有的體能數據（包括屬性值、技能、特長、和超能力）。你將獲得價值等同「化形等級 x 5」點角色點的數據。你也可以重新分配那些已經被花費在你自己體能數據上的點數（舉例來說，你可以降低你自己的力量屬性以將這些點數應用於其他項目）。你被限於只能獲得你所變化型態與生俱來的數據，且無法獲得新的心靈數據，即使該型態原本擁有這些數據也一樣。",
+				"化形超能力通常會被進一步限制，規定該角色變化成某個特定類型的型態，例如限定動物、或是限定機械。"
 			]
 		},
 		{
-			"name": "Sleep",
+			"translate_name": "催眠", "name": "Sleep",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -324,12 +324,12 @@
 				"{@modifier Increased Range|遠距} {@effect Affliction|詛咒, 以韌性防禦抵抗}"
 			],
 			"entries": [
-				"You cause a the target to feel tremendous weariness. Targets failing the Fortitude resistance check against your effect DC become fatigued, then exhausted, and finally asleep as they succumb.",
-				"Sleep is not normally cumulative, but you can apply the Cumulative or Progressive modifiers, making the fatigue that much harder for victims to fight off."
+				"你將使目標變得極為疲憊。在克服你效果DC的韌性抵抗檢定中失敗的目標將變得{@condition 疲勞}，然後{@condition 力竭}，並隨著他們屈服而最終陷入{@condition 沉睡}。",
+				"催眠超能力的效果正常來說並不會累積，但你可以額外應用「累積」或「惡化」修飾符，使其受害者變得越來越難以抵抗這股疲倦感。"
 			]
 		},
 		{
-			"name": "Snare",
+			"translate_name": "捕縛", "name": "Snare",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -342,12 +342,12 @@
 				"{@modifier Increased Range|遠距}, {@effect Affliction|累積詛咒, 額外狀態, 以閃避防禦抵抗, 限定程度}"
 			],
 			"entries": [
-				"You can restrain a target with bonds of ice, glue, webbing, bands of energy, and so forth (whatever suits your descriptors). The target makes a Dodge resistance check against your effect DC. One degree of failure leaves the target hindered and vulnerable, while two results in the target becoming defenseless and immobilized. There is no additional effect for three or more degrees of failure.",
-				"The resistance check to break out of a Snare is based on Damage (including Strength Damage) or Sleight of Hand, either breaking the effect or slipping out of it. This is part of the power’s Alternate Resistance, with no change in cost."
+				"你可以使用寒冰、黏膠、網子、能量束帶等（任何符合你描述符的手段）以束縛住一個目標。目標將進行一次閃避抵抗檢定以克服你的效果DC。一個程度的失敗將會使目標陷入{@condition 移動受阻}和{@condition 脆弱}狀態，而二個程度的失敗則會使目標陷入{@condition 無防備}和{@condition 無法移動}狀態。然而，三個或以上程度的失敗並不會造成任何額外的影響。",
+				"為了逃離捕縛超能力所進行的抵抗檢定將會使用{@effect 傷害}（包括力量傷害）或{@skill 手上把戲}的加值，前者用以從其效果中蠻力掙脫、而後者則是從中溜走。這個部分是基於該超能力所應用的{@modifier 替換抵抗}修飾符，不會使這個超能力的花費改變。"
 			]
 		},
 		{
-			"name": "Strike",
+			"translate_name": "猛擊", "name": "Strike",
 			"type": "ATK",
 			"action": "S",
 			"range": "close",
@@ -360,7 +360,7 @@
 				"{@effect 傷害}"
 			],
 			"entries": [
-				"You inflict additional damage in close combat. Your Strike either substitutes for your Strength damage or adds to it, if it is Strength-based, see the Damage effect for details. It might be claws, energy fields, focused striking strength, or something similar, depending on your descriptors. Close combat weapons are either equipment or this power with the Removable flaw. See the Gadgets & Gear (following) for more information."
+				"你能在近身搏鬥中造成額外的傷害。你的猛擊超能力可以代替你的力量傷害，或是與之疊加。若它是基於力量屬性的傷害，則請參見{@effect 傷害}效果以查閱進一步的細節。根據你的描述符而定，這個超能力可能會是利爪、能量場域、集中起來的打擊力量等等。近身戰鬥武器可能會是裝備、也可能是應用了{@modifier 可被移除}缺陷的這個超能力。參見{@rule 器具＆裝備|basic|7}以查閱更多細節。"
 			]
 		},
 		{
