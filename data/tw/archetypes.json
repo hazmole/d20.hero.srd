@@ -65,8 +65,8 @@
 					"rank": 4
 				},
 				{
-					"name": "(Enhanced) Ranged Attack",
-					"ref_name": "Ranged Attack",
+					"display_name": "(增強) 遠距離攻擊",
+					"name": "Ranged Attack",
 					"rank": 2
 				},
 				{
@@ -252,7 +252,7 @@
 				"dodge": 12,
 				"fortitude": 6,
 				"parry": 12,
-				"toughness": "8 / 5 (without Defensive Roll)",
+				"toughness": "8 / 5 (未發動受身時)",
 				"will": 10
 			},
 			"spent": {
@@ -274,7 +274,7 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 2
 				},
 				{
@@ -283,7 +283,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 4
 				},
 				{
@@ -304,7 +304,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Thrown",
+					"suboption": "投擲",
 					"rank": 8
 				},
 				{
@@ -340,7 +340,7 @@
 					"type": "optionBlock",
 					"noTitle": true,
 					"entries": [
-						"Plus choose {@b four} of the following:",
+						"加上從下列選項中選擇{@b 四項}:",
 						{
 							"type": "advantageRow",
 							"advantages": [
@@ -360,8 +360,8 @@
 									"name": "Defensive Attack"
 								},
 								{
-									"name": "Daze (intimidation)",
-									"ref_name": "Daze"
+									"name": "Daze",
+									"suboption": "威嚇"
 								},
 								{
 									"name": "Hide in Plain Sight"
@@ -373,12 +373,12 @@
 									"name": "Power Attack"
 								},
 								{
-									"name": "Precise Attack (Close; Concealment)",
-									"ref_name": "Precise Attack"
+									"name": "Precise Attack",
+									"suboption": "近身; 忽略隱蔽"
 								},
 								{
-									"name": "Skill Mastery (Stealth)",
-									"ref_name": "Skill Mastery"
+									"name": "Skill Mastery",
+									"suboption": "潛行"
 								},
 								{
 									"name": "Startle"
@@ -390,8 +390,8 @@
 									"name": "Throwing Mastery"
 								},
 								{
-									"name": "Ultimate Effort (Investigation)",
-									"ref_name": "Ultimate Effort"
+									"name": "Ultimate Effort",
+									"suboption": "調查"
 								}
 							]
 						}
@@ -442,16 +442,16 @@
 			},
 			"offense": [
 				{
-					"name": "Boomerang",
+					"translate_name": "迴力鏢", "name": "Boomerang",
 					"bonus": 14,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 4}"
+					"effect": "{@effect Damage|傷害 4}"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 14,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			]
 		},
@@ -708,7 +708,7 @@
 			]
 		},
 		{
-			"name": "Martial Artist",
+			"translate_name": "武術大師", "name": "Martial Artist",
 			"attributes": {
 				"str": 4,
 				"sta": 3,
@@ -723,7 +723,7 @@
 				"dodge": 13,
 				"fortitude": 11,
 				"parry": 13,
-				"toughness": "7 / 3 (without Defensive Roll)",
+				"toughness": "7 / 3 (未發動受身時)",
 				"will": 9
 			},
 			"spent": {
@@ -745,12 +745,12 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 3
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Philosophy",
+					"suboption": "哲學",
 					"rank": 5
 				},
 				{
@@ -787,8 +787,8 @@
 					"name": "Chokehold"
 				},
 				{
-					"name": "Daze (Intimidation)",
-					"ref_name": "Daze"
+					"name": "Daze",
+					"suboption": "威嚇"
 				},
 				{
 					"name": "Defensive Attack"
@@ -801,8 +801,8 @@
 					"name": "Evasion"
 				},
 				{
-					"name": "Improved Critical (Unarmed)",
-					"ref_name": "Improved Critical"
+					"name": "Improved Critical",
+					"suboption": "徒手"
 				},
 				{
 					"name": "Improved Defense"
@@ -832,8 +832,8 @@
 					"name": "Power Attack"
 				},
 				{
-					"name": "Precise Attack (Close; Concealment)",
-					"ref_name": "Precise Attack"
+					"name": "Precise Attack",
+					"suboption": "近身; 忽略隱蔽"
 				},
 				{
 					"name": "Prone Fighting"
@@ -845,8 +845,8 @@
 					"name": "Seize Initiative"
 				},
 				{
-					"name": "Skill Mastery (Acrobatics)",
-					"ref_name": "Skill Mastery"
+					"name": "Skill Mastery",
+					"suboption": "雜技"
 				},
 				{
 					"name": "Takedown"
@@ -863,10 +863,10 @@
 			],
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 16,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 4}, Crit. 19-20"
+					"effect": "{@effect Damage|傷害 4}, 暴擊範圍19-20"
 				}
 			]
 		},

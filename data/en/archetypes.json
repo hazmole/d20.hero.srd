@@ -360,8 +360,8 @@
 									"name": "Defensive Attack"
 								},
 								{
-									"name": "Daze (intimidation)",
-									"ref_name": "Daze"
+									"ref_name": "Daze",
+									"suboption": "intimidation"
 								},
 								{
 									"name": "Hide in Plain Sight"
@@ -373,12 +373,12 @@
 									"name": "Power Attack"
 								},
 								{
-									"name": "Precise Attack (Close; Concealment)",
-									"ref_name": "Precise Attack"
+									"name": "Precise Attack",
+									"suboption": "Close; Concealment"
 								},
 								{
-									"name": "Skill Mastery (Stealth)",
-									"ref_name": "Skill Mastery"
+									"name": "Skill Mastery",
+									"suboption": "Stealth"
 								},
 								{
 									"name": "Startle"
@@ -390,8 +390,8 @@
 									"name": "Throwing Mastery"
 								},
 								{
-									"name": "Ultimate Effort (Investigation)",
-									"ref_name": "Ultimate Effort"
+									"name": "Ultimate Effort",
+									"suboption": "Investigation"
 								}
 							]
 						}
@@ -787,8 +787,8 @@
 					"name": "Chokehold"
 				},
 				{
-					"name": "Daze (Intimidation)",
-					"ref_name": "Daze"
+					"name": "Daze",
+					"suboption": "Intimidation"
 				},
 				{
 					"name": "Defensive Attack"
@@ -801,8 +801,8 @@
 					"name": "Evasion"
 				},
 				{
-					"name": "Improved Critical (Unarmed)",
-					"ref_name": "Improved Critical"
+					"name": "Improved Critical",
+					"suboption": "Unarmed"
 				},
 				{
 					"name": "Improved Defense"
@@ -832,8 +832,8 @@
 					"name": "Power Attack"
 				},
 				{
-					"name": "Precise Attack (Close; Concealment)",
-					"ref_name": "Precise Attack"
+					"name": "Precise Attack",
+					"suboption": "Close; Concealment"
 				},
 				{
 					"name": "Prone Fighting"
@@ -845,8 +845,8 @@
 					"name": "Seize Initiative"
 				},
 				{
-					"name": "Skill Mastery (Acrobatics)",
-					"ref_name": "Skill Mastery"
+					"name": "Skill Mastery",
+					"suboption": "Acrobatics"
 				},
 				{
 					"name": "Takedown"
