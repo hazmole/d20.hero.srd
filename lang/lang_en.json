@@ -20,6 +20,7 @@
 "title_archetype": "Hero Archetypes",
 "title_abilities": "Abilities",
 "title_defenses": "Defenses",
+"title_equipment": "Equipment",
 
 "type_combat": "Combat",
 "type_fortune": "Fortune",
@@ -154,6 +155,7 @@
 "point": "point",
 
 "example": "Example",
+"options": "Options",
 "index_intro": "This website provides the Open Game Content portions of the 3rd Edition of the Mutants and Masterminds Superhero Roleplaying Game by Green Ronin Publishing. That means this site includes everything but the two phrases “Hero Points” and “Power Points.”Those phrases (and the associated mechanics) are replaced on this site by the phrases “Victory Points” and “Character Points.”This site contains all the information you need to play the game.",
 
 "see_description": "See description",

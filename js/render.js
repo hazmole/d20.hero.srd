@@ -208,6 +208,8 @@ function Renderer () {
 				case "example": this._renderExample(entry, textStack, meta, options); break;
 				case "modifier": this._renderModifier(entry, textStack, meta, options); break;
 				case "actionBlock": this._renderActionBlock(entry, textStack, meta, options); break;
+				case "optionBlock": this._renderOptionBlock(entry, textStack, meta, options); break;
+				case "advantageRow": this._renderAdvantageRow(entry, textStack, meta, options); break;
 
 				// block
 				case "middleEnhance": this._renderMiddleEnhance(entry, textStack, meta, options); break;
@@ -655,6 +657,38 @@ function Renderer () {
 		}
 		textStack[0] += `</${this.wrapperTag}>`;
 	};
+
+	this._renderOptionBlock = function (entry, textStack, meta, options){
+		if(!entry.noTitle){
+			textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px; margin-bottom:0px; border: 1px solid #656565; background-color: #652020">`;
+			textStack[0] += `<span class="rd__h--2-inset" style="font-size: 1.1em;color:#ececec;"><span class="entry-title-inner">${FMT("options")}</span>`;
+			textStack[0] += `</span></${this.wrapperTag}>`;
+		}
+		textStack[0] += `<${this.wrapperTag} style="padding:5px 10px; margin:7px;margin-top:0px; border: 1px solid #656565;">`;
+		const len = entry.entries.length;
+		for (let i = 0; i < len; ++i) {
+			const cacheDepth = meta.depth;
+			meta.depth = 2;
+			this._recursiveRender(entry.entries[i], textStack, meta, {prefix: "<p>", suffix: "</p>"});
+			meta.depth = cacheDepth;
+		}
+		textStack[0] += `</${this.wrapperTag}>`;
+	};
+
+	this._renderAdvantageRow = function (entry, textStack, meta, options){
+		var advantageRowStack = [];
+		for(let i=0; i<entry.advantages.length; i++){
+			var advantage = entry.advantages[i];
+        	var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
+            var display_name = (advantage.translate_name? advantage.translate_name: advantage.name) + (advantage.suboption? (": "+advantage.suboption): "");
+            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
+
+            var advantageStack = [];
+            this.recursiveRender(string, advantageStack, null);
+            advantageRowStack.push(`<span class="abilityTab">${advantageStack.join("")}</span>`);
+        }
+		textStack[0] += "<div style='line-height:2;'>"+advantageRowStack.join("")+"</div>";
+	}
 
 	this._renderMiddleEnhance = function (entry, textStack, meta, options) {
 		this._renderPrefix(entry, textStack, meta, options);
@@ -3915,7 +3949,7 @@ Renderer.general = {
 		};
 	},
 	getSkillText: function(skill){
-	    return FMT("skill_"+skill.toLowerCase());
+	    return FMT("skill_"+skill.toLowerCase().replace(/ /g, '_'));
 	},
 
 	getAbilityRow: function(abilities, isFull){
@@ -3947,7 +3981,7 @@ Renderer.general = {
         var range = this.getRangeText(offense.range);
         var effectStack = [];
         renderer.recursiveRender(offense.effect, effectStack, null);
-        var entryString = `　<b>${name}</b>：${hit}, ${range}, ${effectStack}`;
+        var entryString = `　<b>${name}</b>：${hit}${offense.isStar? "*": ""}, ${range}, ${effectStack}`;
 
         return Renderer.utils.getTr(entryString);
     },
@@ -3959,7 +3993,7 @@ Renderer.general = {
             var skill = skills[i];
             var display_name = this.getSkillText(skill.name) + (skill.suboption? (": "+skill.suboption): "");
             var total_rank = abilities[CustomUtil.getSkillBaseAbility(skill.name)] + skill.rank;
-            var string = `{@skill ${skill.name}|${display_name} ${skill.rank}} (${this.getSignedNumber(total_rank)})`;
+            var string = `{@skill ${skill.name}|${display_name} ${skill.rank}} (${this.getSignedNumber(total_rank)}${skill.isStar? "*": ""})`;
 
             var textStack = [];
             renderer.recursiveRender(string, textStack, null);
@@ -3970,18 +4004,25 @@ Renderer.general = {
 
     getAdvantageRow: function(advantages){
         const renderer = Renderer.get();
-        var entryStack=[];
+        var entryStack=[], optionStack=[];
         for(let i=0; i<advantages.length; i++){
             var advantage = advantages[i];
-            var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
-            var display_name = (advantage.translate_name? advantage.translate_name: advantage.name) + (advantage.suboption? (": "+advantage.suboption): "");
-            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
+            if(advantage.type=="optionBlock"){
+            	var textStack = [];
+            	renderer.recursiveRender(advantage, textStack, null);
+	            optionStack.push(textStack.join(""));
+            }
+            else{
+            	var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
+	            var display_name = (advantage.translate_name? advantage.translate_name: advantage.name) + (advantage.suboption? (": "+advantage.suboption): "");
+	            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
 
-            var textStack = [];
-            renderer.recursiveRender(string, textStack, null);
-            entryStack.push(`<span class="abilityTab">${textStack.join("")}</span>`);
+	            var textStack = [];
+	            renderer.recursiveRender(string, textStack, null);
+	            entryStack.push(`<span class="abilityTab">${textStack.join("")}</span>`);
+            }
         }
-        return Renderer.utils.getTr(entryStack.join(""), "line-height:2;");
+        return Renderer.utils.getTr(entryStack.join(""), "line-height:2;") + Renderer.utils.getTr(optionStack.join(""));
     },
 
 	getClassByType: function(type){
@@ -4231,6 +4272,13 @@ Renderer.archetype = {
 			advantageString += Renderer.general.getAdvantageRow(entry.advantages)
 		}
 
+		var equipmentString="", equipmentStack=[];
+		if(entry.equipments){
+			renderer.recursiveRender(entry.equipments, equipmentStack, {"depth":2});
+			equipmentString += Renderer.utils.getEntryTitle(FMT("title_equipment"));
+			equipmentString += Renderer.utils.getTr(equipmentStack.join(""));
+		}
+
 		var powerString="", powerStack=[];
 		if(entry.powers){
 			renderer.recursiveRender(entry.powers, powerStack, {"depth":2});
@@ -4246,6 +4294,11 @@ Renderer.archetype = {
 		spentPoint.push(`<span>${FMT("title_power")}:${entry.spent.power} ${FMT("point")}</span>`);
 		spentPoint.push(`<span>${FMT("total")}:${150} ${FMT("point")}</span>`);
 		
+		var footerString="";
+		if(entry.footer){
+			footerString = Renderer.utils.getTr("<div style='float:right;padding-top:10px;'><i>"+entry.footer+"</i></div>")
+		}
+
 		return (`
 			${Renderer.utils.getNameTr(entry)}
 			${Renderer.utils.getTr("<i>"+FMT("pl_num")+" 10</i>")}
@@ -4255,9 +4308,11 @@ Renderer.archetype = {
 			${contentStack.join("")}
 			${skillString}
 			${advantageString}
+			${equipmentString}
 			${powerString}
 			${Renderer.utils.getDividerTr()}
 			${Renderer.utils.getTr("<center>"+spentPoint.join("　")+"</center>")}
+			${footerString}
 		`);
 	}
 };

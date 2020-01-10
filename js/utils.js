@@ -2100,7 +2100,7 @@ CustomUtil.getSkillBaseAbility = function(skill_name){
 		case "vehicles":
 			return "dex";
 		case "close combat":
-			return "ftg";
+			return "fgt";
 		case "expertise":
 		case "investigation":
 		case "technology":
