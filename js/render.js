@@ -4014,7 +4014,7 @@ Renderer.general = {
             }
             else{
             	var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
-	            var display_name = (advantage.translate_name? advantage.translate_name: advantage.name) + (advantage.suboption? (": "+advantage.suboption): "");
+	            var display_name = (advantage.display_name? advantage.display_name: parseAdvantageName(advantage.name)) + (advantage.suboption? (": "+advantage.suboption): "");
 	            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
 
 	            var textStack = [];

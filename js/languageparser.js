@@ -57,3 +57,9 @@ function FMT(key, ...parameter){
 	}
 	return text;
 }
+function parseAdvantageName(en_name){
+	var token = languageParser.getActiveLanguage();
+	if(!LANG_ADVANTAGE[token]) return en_name;
+	if(!LANG_ADVANTAGE[token][en_name]) return en_name;
+	return LANG_ADVANTAGE[token][en_name];
+}

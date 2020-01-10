@@ -110,7 +110,7 @@
 									{
 										"type": "list",
 										"items": [
-											"{@b Servo 電動馬達}: {@effect Enhanced Trait|增強力量 12} [24 點]",
+											"{@b 電動馬達}: {@effect Enhanced Trait|增強力量 12} [24 點]",
 											"{@b 力能光炮}: {@modifier Increased Range|遠距} {@effect Damage|傷害 12} [1 點]"
 										]
 									}
