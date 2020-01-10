@@ -201,7 +201,7 @@
 						"type": "list",
 						"items": [
 							"{@b 裝甲}: {@effect Protection|保護 11}, {@modifier Impervious|強抗 6} [17 點]",
-							"{@b 非生命體}: {@effect Immunity|免疫 30}於韌性效果 [30 點]",
+							"{@b 非生命體}: {@effect Immunity|免疫 30}於韌性效果 [30 點]"
 						]
 					},
 					{
@@ -1410,7 +1410,7 @@
 			"powers": {
 				"type": "entries",
 				"entries": [
-					"{@b Shapeshift}: {@effect Variable|Variable 9 (45 點)} for assuming different shapes, Move Action [72 點]",
+					"{@b Shapeshift}: {@effect Variable|Variable 9 (45 點)} for assuming different shapes, Move Action [72 點]"
 				]
 			},
 			"offense": [
@@ -1924,8 +1924,7 @@
 									"{@b Daggers (or Knives)}: {@effect Damage|Strength-based Damage 2}, {@modifier Increased Range|Ranged}, {@modifier Multiattack|Multiattack 5}, {@advantage Improved Critical}, {@advantage Improved Defense}, {@advantage Improved Disarm}.",
 									"{@b Gun (revolver or semi-automatic)}: {@modifier Multiattack} {@modifier Increased Range|Ranged} {@effect Damage|Damage 5}",
 									"{@b Sword (including Katana)}: {@effect Damage|Strength-based Damage 2}, {@modifier Multiattack|Multiattack 5}, {@modifier Penetrating|Penetrating 5}, {@advantage Improved Defense}, {@advantage Improved Disarm}, {@advantage Improved Smash}.",
-									"{@b Whip}: {@effect Damage|Damage 4}, {@modifier Multiattack}, {@advantage Improved Hold}, {@advantage Improved Trip}, {@modifier Reach|Reach 3}, {@effect Movement|Movement 1} (Swinging).",
-
+									"{@b Whip}: {@effect Damage|Damage 4}, {@modifier Multiattack}, {@advantage Improved Hold}, {@advantage Improved Trip}, {@modifier Reach|Reach 3}, {@effect Movement|Movement 1} (Swinging)."
 								]
 							}
 						]
