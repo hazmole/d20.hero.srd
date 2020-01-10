@@ -1127,21 +1127,21 @@
 			},
 			"offense": [
 				{
-					"name": "Throw",
+					"translate_name": "投擲", "name": "Throw",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 12}"
+					"effect": "{@effect Damage|傷害 12}"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 8,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 12}"
+					"effect": "{@effect Damage|傷害 12}"
 				}
 			]
 		},
 		{
-			"name": "Powerhouse",
+			"translate_name": "大力士", "name": "Powerhouse",
 			"attributes": {
 				"str": 12,
 				"sta": 14,
@@ -1170,12 +1170,12 @@
 			"skills": [
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 6
 				},
 				{
@@ -1192,7 +1192,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Throwing",
+					"suboption": "投擲",
 					"rank": 7
 				}
 			],
@@ -1204,8 +1204,8 @@
 					"name": "Power Attack"
 				},
 				{
-					"name": "Ultimate Effort (Toughness checks)",
-					"ref_name": "Ultimate Effort"
+					"name": "Ultimate Effort",
+					"suboption": "堅實抵抗檢定"
 				}
 			],
 			"powers": {
@@ -1214,33 +1214,33 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Array [10+1 點]",
+							"陣列 [10+1 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Shockwave}: {@modifier Area|Burst Area} {@effect Damage|Damage 10}, {@modifier Limited}: Both the Powerhouse and its targets must be in contact with the ground [10 點]",
-									"{@b Groundstrike}: {@modifier Area|Burst Area} {@effect Affliction|Affliction 10} (Resisted by Fortitude; Vulnerable, Defenseless), Instant Recovery, Limited Degree, {@modifier Limited}: Both the Powerhouse and its targets must be in contact with the ground) [1 point]"
+									"{@b 震動波}: {@modifier Area|爆發範圍}{@effect Damage|傷害 10}, {@modifier Limited|限定條件: 大力士和他的目標都必須與地表相連} [10 點]",
+									"{@b 撼地猛擊}: {@modifier Area|爆發範圍}{@effect Affliction|詛咒 10} (以韌性防禦抵抗; 脆弱, 無防備狀態), 立即康復, 限定程度, {@modifier Limited|限定條件: 大力士和他的目標都必須與地表相連} [1 點]"
 								]
 							}
 						]
 					},
-					"{@b Leaping}: {@effect Leaping|Leaping 10} [10 點]",
-					"{@b Super-Stamina}: {@effect Enhanced Trait|Enhanced Stamina 10}, {@effect Immunity|Immunity 12} (Cold and Heat Damage, Fatigue, Pressure), {@modifier Impervious|Impervious Toughness 12} [44 點]",
-					"{@b Super-Strength}: {@effect Enhanced Trait|Enhanced Strength 8} plus {@effect Enhanced Trait|Enhanced Strength 4}, {@modifier Limited|Limited to Lifting} (Lifting Str 16; 1,600 tons) [20 點]"
+					"{@b 跳躍}: {@effect Leaping|跳躍 10} [10 點]",
+					"{@b 超級體質}: {@effect Enhanced Trait|增強體質 10}, {@effect Immunity|免疫 12} (寒冷和高熱傷害, 疲倦, 高壓), {@modifier Impervious|強抗堅實防禦 12} [44 點]",
+					"{@b 超級力量}: {@effect Enhanced Trait|增強力量 8} 加上 {@effect Enhanced Trait|增強力量 4}, {@modifier Limited|限定抬舉} (抬舉力量 16; 1,600 噸) [20 點]"
 				]
 			},
 			"offense": [
 				{
-					"name": "Throw",
+					"translate_name": "投擲", "name": "Throw",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 12}"
+					"effect": "{@effect Damage|傷害 12}"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 8,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 12}"
+					"effect": "{@effect Damage|傷害 12}"
 				}
 			]
 		},
