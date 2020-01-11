@@ -85,28 +85,11 @@
 							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
 							"{@b 聯絡系統}: {@effect Communication|無線電波溝通 2} [8 點]",
 							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
+							"{@b 感測器}: {@effect Sense|感官 12} (準確 無線電波 延展3 [雷達], 黑暗視覺, 方位感知, 距離感知, 時間感知, 紅外線視覺, 超聽覺) [12 點]",
 							{
 								"type": "entries",
 								"entries": [
-									"{@b 感測器}: [12 點]",
-									{
-										"type": "list",
-										"items": [
-											"{@effect Sense|感官 5} (準確 無線電波 延展3 [雷達]) [5 點]",
-											"{@effect Sense|感官 2} (黑暗視覺) [1 點]",
-											"{@effect Sense|感官 1} (方位感知) [1 點]",
-											"{@effect Sense|感官 1} (距離感知) [1 點]",
-											"{@effect Sense|感官 1} (時間感知) [1 點]",
-											"{@effect Sense|感官 1} (紅外線視覺) [1 點]",
-											"{@effect Sense|感官 1} (超聽覺) [1 點]"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									"陣列 [24+1 點]",
+									"24點陣列 [24+1 點]",
 									{
 										"type": "list",
 										"items": [
@@ -374,7 +357,7 @@
 								},
 								{
 									"name": "Precise Attack",
-									"suboption": "近身; 忽略隱蔽"
+									"suboption": "近身; 忽略遮蔽"
 								},
 								{
 									"name": "Skill Mastery",
@@ -456,7 +439,7 @@
 			]
 		},
 		{
-			"name": "Energy Controller",
+			"translate_name": "能量掌控者", "name": "Energy Controller",
 			"attributes": {
 				"str": 1,
 				"sta": 2,
@@ -505,7 +488,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Energy Control",
+					"suboption": "能量控制",
 					"rank": 5
 				}
 			],
@@ -520,8 +503,8 @@
 					"name": "Power Attack"
 				},
 				{
-					"name": "Precise Attack (Ranged; Cover)",
-					"ref_name": "Precise Attack"
+					"name": "Precise Attack",
+					"suboption": "遠程; 忽略掩護"
 				},
 				{
 					"name": "Taunt"
@@ -533,51 +516,51 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Energy Aura}: {@effect Damage|Damage 3}, {@modifier Reaction} [12 點]",
+							"{@b 能量靈光}: {@effect Damage|傷害 3}, {@modifier 反應觸發} [12 點]",
 							{
 								"type": "entries",
 								"entries": [
-									"{@b Energy Control}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 12} [24+3 點]",
+									"{@b 能量控制}: {@modifier Increased Range|遠距} {@effect Damage|傷害 12} [24+3 點]",
 									{
 										"type": "list",
 										"items": [
-											"Choose {@b three} {@modifier Alternate Effect|Alternate Effects} [3 點]"
+											"選擇 {@b 三個} {@modifier Alternate Effect|替換效果} [3 點]"
 										]
 									}
 								]
 							},
-							"{@b Energy Immunity}: {@effect Immunity|Immunity 5} (Energy Control type) [5 點]",
-							"{@b Flight}: {@effect Flight|Flight 7} (250 MPH) [14 點]",
-							"{@b Force Field}: {@effect Protection|Protection 10}, {@modifier Impervious}, {@modifier Sustained} [20 點]",
-							"{@b Quick Change}: {@effect Feature|Feature 1} (transform into costume as a free action) [1 point]"
+							"{@b 能量免疫}: {@effect Immunity|免疫 5} (你所控制的能量種類) [5 點]",
+							"{@b 飛行}: {@effect Flight|飛行 7} (250 MPH) [14 點]",
+							"{@b 防護力場}: {@effect Protection|保護 10}, {@modifier 強抗}, {@modifier 維持} [20 點]",
+							"{@b 快速換裝}: {@effect Feature|特色 1} (以一個自由動作換穿上英雄服) [1 點]"
 							
 						]
 					},
 					{
 						"type": "optionBlock",
 						"entries": [
-							"The main option for an Energy Controller is the type of energy the hero wields. See {@samplepower Energy Control} for some examples."
+							"能量掌控者最重要的選項就是決定該英雄所能掌控的能量種類。參見{@samplepower 能量控制}以查閱範例。"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Energy Control",
+					"translate_name": "能量控制", "name": "Energy Control",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 12} + others"
+					"effect": "{@effect Damage|傷害 12} + 其他"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				}
 			]
 		},
 		{
-			"name": "Gadgeteer",
+			"translate_name": "機具士", "name": "Gadgeteer",
 			"attributes": {
 				"str": 0,
 				"sta": 0,
@@ -592,7 +575,7 @@
 				"dodge": 8,
 				"fortitude": 7,
 				"parry": 8,
-				"toughness": "12 / 10 (without Defensive Roll)",
+				"toughness": "12 / 10 (未發動受身時)",
 				"will": 10
 			},
 			"spent": {
@@ -606,12 +589,12 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "Engineering",
+					"suboption": "工程",
 					"rank": 5
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Science",
+					"suboption": "科學",
 					"rank": 10
 				},
 				{
@@ -667,8 +650,8 @@
 					"rank": 5
 				},
 				{
-					"name": "Skill Mastery (Technology)",
-					"ref_name": "Skill Mastery"
+					"name": "Skill Mastery",
+					"suboption": "科技"
 				}
 			],
 			"powers": {
@@ -677,38 +660,38 @@
 					{
 						"type": "entries",
 						"entries": [
-							"{@b Blaster}: 24-point Array, {@modifier Removable|Easily Removable}(-10 點) [24+1-10 點]",
+							"{@b 爆能槍}: 24點陣列, {@modifier Removable|可被輕易移除}(-10 點) [24+1-10 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@modifier Increased Range|Ranged} {@effect Damage|Damage 12} [24 點]",
-									"{@samplepower Dazzle|Dazzle 12} [1 point]"
+									"{@modifier Increased Range|遠距} {@effect Damage|傷害 12} [24 點]",
+									"{@samplepower Dazzle|炫目 12} [1 點]"
 								]
 							}
 						]
 					},
-					"{@b Force Shield Belt}: {@effect Protection|Protection 10}, {@modifier Impervious}, {@modifier Sustained}, {@modifier Precise}, {@modifier Removable}(-4 點) [21-4 點]",
-					"{@b Jet-Pack}: {@effect Flight|Flight 5} (60 MPH), {@modifier Removable}(-2 點) [10-2 點]",
-					"{@b Quick-Thinking}: {@effect Quickness|Quickness 4} (60 MPH), {@modifier Limited|Limited to Mental Tasks} [2 點]"
+					"{@b 力場護盾腰帶}: {@effect Protection|保護 10}, {@modifier 強抗}, {@modifier 維持}, {@modifier 精確}, {@modifier 可被移除}(-4 點) [21-4 點]",
+					"{@b 噴射背包}: {@effect Flight|飛行 5} (60 MPH), {@modifier 可被移除}(-2 點) [10-2 點]",
+					"{@b 機敏思想}: {@effect Quickness|迅捷 4}, {@modifier Limited|限定精神種類} [2 點]"
 				]
 			},
 			"offense": [
 				{
-					"name": "Blaster",
+					"translate_name": "爆能槍", "name": "Blaster",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 12} or {@samplepower Dazzle|Dazzle 12}"
+					"effect": "{@effect Damage|傷害 12} 或 {@samplepower Dazzle|炫目 12}"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				}
 			]
 		},
 		{
-			"translate_name": "武術大師", "name": "Martial Artist",
+			"translate_name": "武術家", "name": "Martial Artist",
 			"attributes": {
 				"str": 4,
 				"sta": 3,
@@ -833,7 +816,7 @@
 				},
 				{
 					"name": "Precise Attack",
-					"suboption": "近身; 忽略隱蔽"
+					"suboption": "近身; 忽略遮蔽"
 				},
 				{
 					"name": "Prone Fighting"
@@ -871,7 +854,7 @@
 			]
 		},
 		{
-			"name": "Mimic",
+			"translate_name": "擬形怪", "name": "Mimic",
 			"attributes": {
 				"str": 1,
 				"sta": 1,
@@ -896,7 +879,7 @@
 				"advantage": 1,
 				"power": 84
 			},
-			"init": 1,
+			"init": "+1*",
 			"skills": [
 				{
 					"name": "Deception",
@@ -905,7 +888,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 4,
 					"isStar": true
 				},
@@ -928,29 +911,29 @@
 			"powers": {
 				"type": "entries",
 				"entries": [
-					"{@b Mimic}: {@effect Variable|Variable 12 (60 點)} for duplicating a subject’s traits, Continuous, Move Action, {@modifier Limited|Limited to One Subject}, {@modifier Resistible} (Dodge, DC 22) [84 點]"
+					"{@b 擬態模仿}: {@effect Variable|能力變換 12 (60 點)}以複製一個目標的數據, {@modifier Increased Duration|常續}, 移動動作, {@modifier Limited|限定單一目標}, {@modifier Resistible|可被抵抗 (閃避, DC 22)} [84 點]"
 				]
 			},
 			"offense": [
 				{
-					"name": "Mimic",
+					"translate_name": "擬態模仿", "name": "Mimic",
 					"bonus": 1,
 					"isStar": true,
 					"range": "ranged",
-					"effect": "{@samplepower Mimic}"
+					"effect": "{@samplepower 擬態模仿}"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 8,
 					"isStar": true,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1*}"
+					"effect": "{@effect Damage|傷害 1*}"
 				}
 			],
-			"footer": "* These bonuses will vary based on the traits mimicked"
+			"footer": "* 這些加值將會根據擬態模仿改變的數據而產生變化"
 		},
 		{
-			"name": "Mystic",
+			"translate_name": "秘術師", "name": "Mystic",
 			"attributes": {
 				"str": 0,
 				"sta": 0,
@@ -979,7 +962,7 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "Magic",
+					"suboption": "魔法",
 					"rank": 10
 				},
 				{
@@ -1020,25 +1003,25 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Array [32+1 點]",
+							"32點陣列 [32+1 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Astral Projection}: {@effect Remote Sensing|Remote Sensing 10} (visual, auditory, mental), physical body is defenseless, {@modifier Subtle|Subtle 2} [32 點]",
-									"{@b Levitation}: {@effect Flight|Flight 4} (30 MPH) and {@b Mystic Shield}: {@effect Protection|Protection 12}, {@modifier Impervious}, {@modifier Sustained} [1 point]"
+									"{@b 星界投射}: {@effect Remote Sensing|遠端感知 10} (視覺, 聽覺, 心靈), 原本的身體將處於{@condition 無防備}狀態, {@modifier Subtle|隱密使用 2} [32 點]",
+									"{@b 浮空術}: {@effect Flight|飛行 4} (30 MPH) 和 {@b 祕法護盾}: {@effect Protection|保護 12}, {@modifier 強抗}, {@modifier 維持} [1 點]"
 								]
 							}
 						]
 					},
-					"{@b Mystic Senses}: {@effect Sense|Senses 2} (Magical Awareness, Radius) [2 點]",
+					"{@b 祕法感知}: {@effect Sense|感官 2} (魔法覺察, 方圓) [2 點]",
 					{
 						"type": "entries",
 						"entries": [
-							"{@b Spellcasting}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 12}  (mystic blast) [24+5 點]",
+							"{@b 法術}: {@modifier Increased Range|遠距} {@effect Damage|傷害 12}  (魔能爆) [24+5 點]",
 							{
 								"type": "list",
 								"items": [
-									"Choose {@b five} {@modifier Alternate Effect|Alternate Effects} [5 點]"
+									"選擇 {@b 五個} {@modifier Alternate Effect|替換效果} [5 點]"
 								]
 							}
 						]
@@ -1047,21 +1030,21 @@
 			},
 			"offense": [
 				{
-					"name": "Spellcasting",
+					"translate_name": "法術", "name": "Spellcasting",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 12} + others"
+					"effect": "{@effect Damage|傷害 12} + 其他"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				}
 			]
 		},
 		{
-			"name": "Paragon",
+			"translate_name": "典範超人", "name": "Paragon",
 			"attributes": {
 				"str": 12,
 				"sta": 12,
@@ -1090,7 +1073,7 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 7
 				},
 				{
@@ -1107,7 +1090,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Throwing",
+					"suboption": "投擲",
 					"rank": 7
 				}
 			],
@@ -1119,10 +1102,10 @@
 			"powers": {
 				"type": "list",
 				"items": [
-					"{@b Flight}: {@effect Flight|Flight 9} (1,000 MPH) [18 點]",
-					"{@b Invulnerability}: {@effect Enhanced Trait|Enhanced Stamina 10}, {@effect Immunity|Immunity 10} (Life Support), {@modifier Impervious|Impervious Toughness 12} [42 點]",
-					"{@b Super-Speed}: {@effect Quickness|Quickness 2} [2 點]",
-					"{@b Super-Strength}: {@effect Enhanced Trait|Enhanced Strength 10} plus {@effect Enhanced Trait|Enhanced Strength 2}, {@modifier Limited|Limited to Lifting} (Lifting Str 14; 400 tons) [22 點]"
+					"{@b 飛行}: {@effect Flight|飛行 9} (1,000 MPH) [18 點]",
+					"{@b 無敵軀體}: {@effect Enhanced Trait|增強體質 10}, {@effect Immunity|免疫 10} (維生需求), {@modifier Impervious|強抗堅實防禦 12} [42 點]",
+					"{@b 超級高速}: {@effect Quickness|迅捷 2} [2 點]",
+					"{@b 超級力量}: {@effect Enhanced Trait|增強力量 10} 加上 {@effect Enhanced Trait|增強力量 2}, {@modifier Limited|限定抬舉} (抬舉力量14級; 400 噸) [22 點]"
 				]
 			},
 			"offense": [
@@ -1214,7 +1197,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"陣列 [10+1 點]",
+							"10點陣列 [10+1 點]",
 							{
 								"type": "list",
 								"items": [
@@ -1226,7 +1209,7 @@
 					},
 					"{@b 跳躍}: {@effect Leaping|跳躍 10} [10 點]",
 					"{@b 超級體質}: {@effect Enhanced Trait|增強體質 10}, {@effect Immunity|免疫 12} (寒冷和高熱傷害, 疲倦, 高壓), {@modifier Impervious|強抗堅實防禦 12} [44 點]",
-					"{@b 超級力量}: {@effect Enhanced Trait|增強力量 8} 加上 {@effect Enhanced Trait|增強力量 4}, {@modifier Limited|限定抬舉} (抬舉力量 16; 1,600 噸) [20 點]"
+					"{@b 超級力量}: {@effect Enhanced Trait|增強力量 8} 加上 {@effect Enhanced Trait|增強力量 4}, {@modifier Limited|限定抬舉} (抬舉力量16級; 1,600 噸) [20 點]"
 				]
 			},
 			"offense": [
@@ -1245,7 +1228,7 @@
 			]
 		},
 		{
-			"name": "Psychic",
+			"translate_name": "靈能者", "name": "Psychic",
 			"attributes": {
 				"str": 0,
 				"sta": 0,
@@ -1274,7 +1257,7 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 6
 				},
 				{
@@ -1292,26 +1275,26 @@
 			],
 			"advantages": [
 				{
-					"name": "Ultimate Effort (Will defense)",
-					"ref_name": "Ultimate Effort"
+					"name": "Ultimate Effort",
+					"suboption": "意志抵抗檢定"
 				}
 			],
 			"powers": {
 				"type": "list",
 				"items": [
-					"{@b Mental Awareness}: {@effect Sense|Senses 2} (Mental Sense, Radius) [2 點]",
-					"{@b Telekinesis}: {@effect Move Object|Move Object 8}, {@modifier Accurate|Accurate 4} [20 點]",
-					"{@b Telekinetic Field}: {@effect Protection|Protection 12}, {@modifier Impervious}, {@modifier Sustained} [24 點]",
-					"{@b Telekinetic Levitation}: {@effect Flight|Flight 5} (60 MPH) [10 點]",
+					"{@b 精神覺察}: {@effect Sense|感官 2} (心靈感官, 方圓) [2 點]",
+					"{@b 心靈傳動}: {@effect Move Object|移動物體 8}, {@modifier Accurate|準確 4} [20 點]",
+					"{@b 念動領域}: {@effect Protection|保護 12}, {@modifier 強抗}, {@modifier 維持} [24 點]",
+					"{@b 念動浮空}: {@effect Flight|飛行 5} (60 MPH) [10 點]",
 					{
 						"type": "entries",
 						"entries": [
-							"{@b Telepathy}: {@effect Mind Reading|Mind Reading 5} {@modifier Linked|Linked to} {@modifier Area } {@effect Communication|Mental Communication 2} [20+2 點]",
+							"{@b 心電感應}: {@effect Mind Reading|心靈讀取 5} {@modifier Linked|連結} {@modifier 範圍化}{@effect Communication|心靈溝通 2} [20+2 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Telepathic Illusion}: {@effect Illusion|Illusion 4} (all senses), Resisted by Will, {@modifier Selective} [1 point]",
-									"{@b Mental Blast}: {@modifier Increased Range|Perception Range} {@effect Damage|Damage 5}, Resisted by Will [1 point]"
+									"{@b 靈感幻象}: {@effect Illusion|幻覺 4} (全部感官), {@modifier Alternate Resistance|以意志防禦抵抗}, {@modifier 可選擇} [1 點]",
+									"{@b 心靈爆破}: {@modifier Increased Range|感知距離} {@effect Damage|傷害 5}, {@modifier Alternate Resistance|以意志防禦抵抗} [1 點]"
 								]
 							}
 						]
@@ -1320,27 +1303,27 @@
 			},
 			"offense": [
 				{
-					"name": "Mental Blast",
+					"translate_name": "心靈爆破", "name": "Mental Blast",
 					"bonus": "-",
 					"range": "perception",
-					"effect": "{@effect Damage|Damage 5}, Resisted by Will (DC 20)"
+					"effect": "{@effect Damage|傷害 5}, {@modifier Alternate Resistance|以意志防禦抵抗 (DC 20)}"
 				},
 				{
-					"name": "Telekinesis",
+					"translate_name": "心靈傳動", "name": "Telekinesis",
 					"bonus": 10,
 					"range": "ranged",
-					"effect": "Str 8 Grab"
+					"effect": "力量8級 擒抱"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 2,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				}
 			]
 		},
 		{
-			"name": "Shapeshifter",
+			"translate_name": "化獸者", "name": "Shapeshifter",
 			"attributes": {
 				"str": 1,
 				"sta": 2,
@@ -1355,7 +1338,7 @@
 				"dodge": "8*",
 				"fortitude": "8*",
 				"parry": "8*",
-				"toughness": "5* / 2 (without Defensive Roll)",
+				"toughness": "5* / 2 (未發動受身時)",
 				"will": "10*"
 			},
 			"spent": {
@@ -1369,7 +1352,7 @@
 			"skills": [
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 4,
 					"isStar": true
 				},
@@ -1380,7 +1363,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Zoology",
+					"suboption": "動物學",
 					"rank": 4,
 					"isStar": true
 				},
@@ -1410,22 +1393,22 @@
 			"powers": {
 				"type": "entries",
 				"entries": [
-					"{@b Shapeshift}: {@effect Variable|Variable 9 (45 點)} for assuming different shapes, Move Action [72 點]"
+					"{@b 化形}: {@effect Variable|能力變換 9 (45 點)}以變化成不同型態, 移動動作 [72 點]"
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 10,
 					"isStar": true,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1*}"
+					"effect": "{@effect Damage|傷害 1*}"
 				}
 			],
-			"footer": "* Varies based on shape."
+			"footer": "* 這些加值將會根據變化型態而產生變化"
 		},
 		{
-			"name": "Speedster",
+			"translate_name": "神速行者", "name": "Speedster",
 			"attributes": {
 				"str": 2,
 				"sta": 2,
@@ -1440,7 +1423,7 @@
 				"dodge": 15,
 				"fortitude": 10,
 				"parry": 15,
-				"toughness": "5 / 2 (without Defensive Roll)",
+				"toughness": "5 / 2 (未發動受身時)",
 				"will": 10
 			},
 			"spent": {
@@ -1462,7 +1445,7 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 6
 				},
 				{
@@ -1471,7 +1454,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 6
 				},
 				{
@@ -1480,7 +1463,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Thrown",
+					"suboption": "投擲",
 					"rank": 6
 				},
 				{
@@ -1510,39 +1493,39 @@
 					{
 						"type": "entries",
 						"entries": [
-							"{@b Fast Attack}: 13-point Array [13+1 點]",
+							"{@b 神速攻擊}: 13點陣列 [13+1 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@effect Damage|Strength-based Damage 3}, {@modifier Multiattack} and {@modifier Selective} on 5 Damage [13 點]",
-									"{@effect Damage|Strength-based Damage 3}, {@modifier Area|Burst Area} and {@modifier Selective} on 5 Damage [1 point]"
+									"{@effect Damage|傷害 3, 基於力量}, 應用 {@modifier 多重攻擊} 和 {@modifier 可選擇} 於5級傷害 [13 點]",
+									"{@effect Damage|傷害 3, 基於力量}, 應用 {@modifier Area|爆發範圍} 和 {@modifier 可選擇} 於5級傷害 [1 點]"
 								]
 							}
 						]
 					},
-					"{@b Fast Defense}: {@effect Enhanced Trait|Enhanced Dodge 11} and {@effect Enhanced Trait|Enhanced Parry 11} [22 點]",
-					"{@b Super-Speed}: {@effect Enhanced Trait|Enhanced Initiative 3}, {@effect Quickness|Quickness 10}, {@effect Speed|Speed 15} (64,000 MPH) [28 點]",
-					"{@b Run On Water}: {@effect Movement|Movement 1} (Water Walking), {@modifier Limited|Limited to While Moving} [1 point]",
-					"{@b Run Up Walls}: {@effect Movement|Movement 2} (Wall-crawling 2), {@modifier Limited|Limited to While Moving} [2 point]"
+					"{@b 神速防禦}: {@effect Enhanced Trait|增強閃避 11} 和 {@effect Enhanced Trait|增強格擋 11} [22 點]",
+					"{@b 超高速}: {@effect Enhanced Trait|增強先攻 3}, {@effect Quickness|迅捷 10}, {@effect Speed|高速 15} (64,000 MPH) [28 點]",
+					"{@b 水面奔行}: {@effect Movement|移動 1} (水面行走), {@modifier Limited|限定移動期間} [1 點]",
+					"{@b 飛簷走壁}: {@effect Movement|移動 2} (攀牆 2), {@modifier Limited|限定移動期間} [2 點]"
 				]
 			},
 			"offense": [
 				{
-					"name": "Throw",
+					"translate_name": "投擲", "name": "Throw",
 					"bonus": 9,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
-					"name": "Fast Attack",
+					"translate_name": "徒手", "name": "Fast Attack",
 					"bonus": 10,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 5}, {@modifier Multiattack|Multiattack 5}, {@modifier Selective|Selective 5}"
+					"effect": "{@effect Damage|傷害 5}, {@modifier Multiattack|多重攻擊 5}, {@modifier Selective|可選擇 5}"
 				}
 			]
 		},
 		{
-			"name": "Warrior",
+			"translate_name": "戰士", "name": "Warrior",
 			"attributes": {
 				"str": 10,
 				"sta": 8,
@@ -1557,7 +1540,7 @@
 				"dodge": 10,
 				"fortitude": 10,
 				"parry": 10,
-				"toughness": "10 / 8 (without Defensive Roll)",
+				"toughness": "10 / 8 (未發動受身時)",
 				"will": 10
 			},
 			"spent": {
@@ -1579,7 +1562,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose one of History, Mythology, or Tactics)",
+					"suboption": "(從歷史、神話學、或戰術中擇一)",
 					"rank": 4
 				},
 				{
@@ -1624,7 +1607,7 @@
 					"type": "optionBlock",
 					"noTitle": true,
 					"entries": [
-						"Plus choose {@b four} of the following:",
+						"加上從下列選項中選擇{@b 四項}:",
 						{
 							"type": "advantageRow",
 							"advantages": [
@@ -1644,8 +1627,8 @@
 									"name": "Defensive Attack"
 								},
 								{
-									"name": "Favored Environment (choose one)",
-									"ref_name": "Favored Environment"
+									"name": "Favored Environment",
+									"suboption": "(擇一)"
 								},
 								{
 									"name": "Favored Foe"
@@ -1660,15 +1643,15 @@
 									"name": "Improved Disarm"
 								},
 								{
-									"name": "Languages (choose one)",
-									"ref_name": "Languages"
+									"name": "Languages",
+									"suboption": "(擇一)"
 								},
 								{
 									"name": "Leadership"
 								},
 								{
-									"name": "Precise Attack (choose one)",
-									"ref_name": "Precise Attack"
+									"name": "Precise Attack",
+									"suboption": "(擇一)"
 								},
 								{
 									"name": "Skill Mastery"
@@ -1687,22 +1670,22 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Super-Strength}: {@effect Enhanced Trait|Enhanced Strength 2}, {@modifier Limited|Limited to Lifting} (Lifting Str 12; 100 tons) [2 點]"
+							"{@b 超級力量}: {@effect Enhanced Trait|增強力量 2}, {@modifier Limited|限定抬舉} (抬舉力量12級; 100 噸) [2 點]"
 						]
 					},
 					{
 						"type": "optionBlock",
 						"noTitle": true,
 						"entries": [
-							"Plus choose {@b one} of the following: [10 點]",
+							"加上從下列選項中選擇{@b 一項}: [10 點]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Aquatic}: {@effect Immunity|Immunity 1} (Drowning), {@effect Swimming|Swimming 6}, {@effect Movement|Movement 1} (Environmental Adaptation, Aquatic), {@effect Sense|Senses 1} (Low-light Vision)",
-									"{@b Fast}: {@effect Quickness|Quickness 5}, {@effect Speed|Speed 5}",
-									"{@b Leaping}: {@effect Leaping|Leaping 10}",
-									"{@b Super-Senses}: {@effect Sense|Senses 10} (Accurate and Analytical Hearing, Danger Sense, Extended Hearing and Vision, Hearing Counters Illusion, Tracking Vision, Ultra-Hearing)  or 10 ranks of other Senses",
-									"{@b Wind-Riding}: {@effect Flight|Flight 5}"
+									"{@b 水棲}: {@effect Immunity|免疫 1} (溺水), {@effect Swimming|游泳 6}, {@effect Movement|移動 1} (環境適應: 水中), {@effect Sense|感官 1} (微光視覺)",
+									"{@b 迅速}: {@effect Quickness|迅捷 5}, {@effect Speed|高速 5}",
+									"{@b 長躍}: {@effect Leaping|跳躍 10}",
+									"{@b 超級感官}: {@effect Sense|感官 10} (具備 準確 和 分析 特性的聽覺, 危險感知, 延展聽覺和視覺, 反制幻覺的聽覺, 追蹤視覺, 超聽覺) 或 10級的其他感官",
+									"{@b 乘風}: {@effect Flight|飛行 5}"
 								]
 							}
 						]
@@ -1710,12 +1693,12 @@
 					{
 						"type": "optionBlock",
 						"entries": [
-							"To customize, choose {@b one} of the following options with no change in point total:",
+							"從下列選項中選擇{@b 一個}選項，就能在不改變角色點總和的情況下進行客製化:",
 							{
 								"type": "list",
 								"items": [
-									"{@b Strong Warrior}: +2 Strength, –2 Fighting (including –2 Parry).",
-									"{@b Weapon Warrior}: –3 Strength, Unique Weapon (Damage 3, Penetrating 5, Strength-based, Easily Removable)."
+									"{@b 蠻壯戰士}: 力量屬性+2, 格鬥屬性–2 (將導致–2 格擋防禦).",
+									"{@b 武器戰士}: 力量屬性–3, 獨特武器 ({@effect Damage|傷害 3}, 基於力量, {@modifier Penetrating|貫穿強抗 5}, {@modifier Removable|可被輕易移除})."
 								]
 							}
 						]
@@ -1724,16 +1707,16 @@
 			},
 			"offense": [
 				{
-					"name": "Ranged",
+					"translate_name": "遠程", "name": "Ranged",
 					"bonus": 8,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage *} (depends on weapon)"
+					"effect": "{@effect Damage|傷害 *} (取決於武器)"
 				},
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 10,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 10}"
+					"effect": "{@effect Damage|傷害 10}"
 				}
 			]
 		},
@@ -1753,7 +1736,7 @@
 				"dodge": 12,
 				"fortitude": 8,
 				"parry": 14,
-				"toughness": "6 / 2 (without Defensive Roll)",
+				"toughness": "6 / 2 (未發動受身時)",
 				"will": 9
 			},
 			"spent": {
@@ -1775,7 +1758,7 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Weapon",
+					"suboption": "(武器)",
 					"rank": 6
 				},
 				{
@@ -1784,12 +1767,12 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 6
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Weapons",
+					"suboption": "武器",
 					"rank": 8
 				},
 				{
@@ -1806,7 +1789,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Weapon",
+					"suboption": "(武器)",
 					"rank": 8
 				},
 				{
@@ -1835,14 +1818,14 @@
 					"name": "Evasion"
 				},
 				{
-					"name": "Improved Critical (weapon)",
-					"ref_name": "Improved Critical"
+					"name": "Improved Critical",
+					"suboption": "(武器)"
 				},
 				{
 					"type": "optionBlock",
 					"noTitle": true,
 					"entries": [
-						"Plus choose {@b six} of the following:",
+						"加上從下列選項中選擇{@b 六項}:",
 						{
 							"type": "advantageRow",
 							"advantages": [
@@ -1865,8 +1848,8 @@
 									"name": "Defensive Attack"
 								},
 								{
-									"name": "Improved Critical (weapon)",
-									"ref_name": "Improved Critical"
+									"name": "Improved Critical",
+									"suboption": "(武器)"
 								},
 								{
 									"name": "Improved Defense"
@@ -1887,8 +1870,8 @@
 									"name": "Power Attack"
 								},
 								{
-									"name": "Precise Attack (choose one)",
-									"ref_name": "Precise Attack"
+									"name": "Precise Attack",
+									"suboption": "(擇一)"
 								},
 								{
 									"name": "Takedown"
@@ -1910,7 +1893,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Weapon}: Choose one of the following [15 點]"
+							"{@b 武器}: 從下列選項中選擇一種武器 [15 點]"
 						]
 					},
 					{
@@ -1932,7 +1915,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Vehicle}: Motorcycle [10 點]"
+							"{@b 載具}: Motorcycle [10 點]"
 						]
 					}
 				]
@@ -1941,7 +1924,7 @@
 				"type": "optionBlock",
 				"noTitle": true,
 				"entries": [
-					"Choose {@b two} of the following [10 點]",
+					"從下列選項中選擇{@b 二項} [10 點]",
 					{
 						"type": "list",
 						"items": [
@@ -1960,16 +1943,16 @@
 			},
 			"offense": [
 				{
-					"name": "Weapon",
+					"translate_name": "武器", "name": "Weapon",
 					"bonus": 13,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 5}, Crit 19-20*"
+					"effect": "{@effect Damage|傷害 5}, 暴擊範圍19-20*"
 				},
 				{
-					"name": "Weapon",
+					"translate_name": "武器", "name": "Weapon",
 					"bonus": 13,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 5}, Crit 19-20*"
+					"effect": "{@effect Damage|傷害 5}, 暴擊範圍19-20*"
 				}
 			]
 		}

@@ -85,28 +85,11 @@
 							"{@b Boot Jets}: {@effect Flight|Flight 8} (500 MPH) [16 points]",
 							"{@b Comm System}: {@effect Communication|Radio Communication 2} [8 points]",
 							"{@b Life Support System}: {@effect Immunity|Immunity 10} [10 points]",
+							"{@b Sensors}: {@effect Sense|Senses 12} (Accurate Radio Extended 3 [radar], Darkvision, Direction Sense, Distance Sense, Time Sense, Infravision, Ultra-Hearing) [12 points]",
 							{
 								"type": "entries",
 								"entries": [
-									"{@b Sensors}: [12 points]",
-									{
-										"type": "list",
-										"items": [
-											"{@effect Sense|Senses 5} (Accurate Radio Extended 3 [radar]) [5 points]",
-											"{@effect Sense|Senses 2} (Darkvision) [1 point]",
-											"{@effect Sense|Senses 1} (Direction Sense) [1 point]",
-											"{@effect Sense|Senses 1} (Distance Sense) [1 point]",
-											"{@effect Sense|Senses 1} (Time Sense) [1 point]",
-											"{@effect Sense|Senses 1} (Infravision) [1 point]",
-											"{@effect Sense|Senses 1} (Ultra-Hearing) [1 point]"
-										]
-									}
-								]
-							},
-							{
-								"type": "entries",
-								"entries": [
-									"Array [24+1 points]",
+									"24-point Array [24+1 points]",
 									{
 										"type": "list",
 										"items": [
@@ -520,8 +503,8 @@
 					"name": "Power Attack"
 				},
 				{
-					"name": "Precise Attack (Ranged; Cover)",
-					"ref_name": "Precise Attack"
+					"name": "Precise Attack",
+					"suboption": "Ranged; Cover"
 				},
 				{
 					"name": "Taunt"
@@ -667,8 +650,8 @@
 					"rank": 5
 				},
 				{
-					"name": "Skill Mastery (Technology)",
-					"ref_name": "Skill Mastery"
+					"name": "Skill Mastery",
+					"suboption": "Technology"
 				}
 			],
 			"powers": {
@@ -689,7 +672,7 @@
 					},
 					"{@b Force Shield Belt}: {@effect Protection|Protection 10}, {@modifier Impervious}, {@modifier Sustained}, {@modifier Precise}, {@modifier Removable}(-4 points) [21-4 points]",
 					"{@b Jet-Pack}: {@effect Flight|Flight 5} (60 MPH), {@modifier Removable}(-2 points) [10-2 points]",
-					"{@b Quick-Thinking}: {@effect Quickness|Quickness 4} (60 MPH), {@modifier Limited|Limited to Mental Tasks} [2 points]"
+					"{@b Quick-Thinking}: {@effect Quickness|Quickness 4}, {@modifier Limited|Limited to Mental Tasks} [2 points]"
 				]
 			},
 			"offense": [
@@ -896,7 +879,7 @@
 				"advantage": 1,
 				"power": 84
 			},
-			"init": 1,
+			"init": "+1*",
 			"skills": [
 				{
 					"name": "Deception",
@@ -928,7 +911,7 @@
 			"powers": {
 				"type": "entries",
 				"entries": [
-					"{@b Mimic}: {@effect Variable|Variable 12 (60 points)} for duplicating a subject’s traits, Continuous, Move Action, {@modifier Limited|Limited to One Subject}, {@modifier Resistible} (Dodge, DC 22) [84 points]"
+					"{@b Mimic}: {@effect Variable|Variable 12 (60 points)} for duplicating a subject’s traits, {@modifier Increased Duration|Continuous}, Move Action, {@modifier Limited|Limited to One Subject}, {@modifier Resistible|Resistible (Dodge, DC 22)} [84 points]"
 				]
 			},
 			"offense": [
@@ -1020,11 +1003,11 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Array [32+1 points]",
+							"32-point Array [32+1 points]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Astral Projection}: {@effect Remote Sensing|Remote Sensing 10} (visual, auditory, mental), physical body is defenseless, {@modifier Subtle|Subtle 2} [32 points]",
+									"{@b Astral Projection}: {@effect Remote Sensing|Remote Sensing 10} (visual, auditory, mental), physical body is {@condition defenseless}, {@modifier Subtle|Subtle 2} [32 points]",
 									"{@b Levitation}: {@effect Flight|Flight 4} (30 MPH) and {@b Mystic Shield}: {@effect Protection|Protection 12}, {@modifier Impervious}, {@modifier Sustained} [1 point]"
 								]
 							}
@@ -1214,7 +1197,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Array [10+1 points]",
+							"10-point Array [10+1 points]",
 							{
 								"type": "list",
 								"items": [
@@ -1292,8 +1275,8 @@
 			],
 			"advantages": [
 				{
-					"name": "Ultimate Effort (Will defense)",
-					"ref_name": "Ultimate Effort"
+					"name": "Ultimate Effort",
+					"suboption": "Will defense"
 				}
 			],
 			"powers": {
@@ -1306,12 +1289,12 @@
 					{
 						"type": "entries",
 						"entries": [
-							"{@b Telepathy}: {@effect Mind Reading|Mind Reading 5} {@modifier Linked|Linked to} {@modifier Area } {@effect Communication|Mental Communication 2} [20+2 points]",
+							"{@b Telepathy}: {@effect Mind Reading|Mind Reading 5} {@modifier Linked|Linked to} {@modifier Area} {@effect Communication|Mental Communication 2} [20+2 points]",
 							{
 								"type": "list",
 								"items": [
-									"{@b Telepathic Illusion}: {@effect Illusion|Illusion 4} (all senses), Resisted by Will, {@modifier Selective} [1 point]",
-									"{@b Mental Blast}: {@modifier Increased Range|Perception Range} {@effect Damage|Damage 5}, Resisted by Will [1 point]"
+									"{@b Telepathic Illusion}: {@effect Illusion|Illusion 4} (all senses), {@modifier Alternate Resistance|Resisted by Will}, {@modifier Selective} [1 point]",
+									"{@b Mental Blast}: {@modifier Increased Range|Perception Range} {@effect Damage|Damage 5}, {@modifier Alternate Resistance|Resisted by Will} [1 point]"
 								]
 							}
 						]
@@ -1323,7 +1306,7 @@
 					"name": "Mental Blast",
 					"bonus": "-",
 					"range": "perception",
-					"effect": "{@effect Damage|Damage 5}, Resisted by Will (DC 20)"
+					"effect": "{@effect Damage|Damage 5}, {@modifier Alternate Resistance|Resisted by Will (DC 20)}"
 				},
 				{
 					"name": "Telekinesis",
@@ -1523,7 +1506,7 @@
 					"{@b Fast Defense}: {@effect Enhanced Trait|Enhanced Dodge 11} and {@effect Enhanced Trait|Enhanced Parry 11} [22 points]",
 					"{@b Super-Speed}: {@effect Enhanced Trait|Enhanced Initiative 3}, {@effect Quickness|Quickness 10}, {@effect Speed|Speed 15} (64,000 MPH) [28 points]",
 					"{@b Run On Water}: {@effect Movement|Movement 1} (Water Walking), {@modifier Limited|Limited to While Moving} [1 point]",
-					"{@b Run Up Walls}: {@effect Movement|Movement 2} (Wall-crawling 2), {@modifier Limited|Limited to While Moving} [2 point]"
+					"{@b Run Up Walls}: {@effect Movement|Movement 2} (Wall-crawling 2), {@modifier Limited|Limited to While Moving} [2 points]"
 				]
 			},
 			"offense": [
@@ -1644,8 +1627,8 @@
 									"name": "Defensive Attack"
 								},
 								{
-									"name": "Favored Environment (choose one)",
-									"ref_name": "Favored Environment"
+									"name": "Favored Environment",
+									"suboption": "(choose one)"
 								},
 								{
 									"name": "Favored Foe"
@@ -1660,15 +1643,15 @@
 									"name": "Improved Disarm"
 								},
 								{
-									"name": "Languages (choose one)",
-									"ref_name": "Languages"
+									"name": "Languages",
+									"suboption": "(choose one)"
 								},
 								{
 									"name": "Leadership"
 								},
 								{
-									"name": "Precise Attack (choose one)",
-									"ref_name": "Precise Attack"
+									"name": "Precise Attack",
+									"suboption": "(choose one)"
 								},
 								{
 									"name": "Skill Mastery"
@@ -1715,7 +1698,7 @@
 								"type": "list",
 								"items": [
 									"{@b Strong Warrior}: +2 Strength, –2 Fighting (including –2 Parry).",
-									"{@b Weapon Warrior}: –3 Strength, Unique Weapon (Damage 3, Penetrating 5, Strength-based, Easily Removable)."
+									"{@b Weapon Warrior}: –3 Strength, Unique Weapon (({@effect Damage|Damage 3}, Strength-based, {@modifier Penetrating|Penetrating 5}, {@modifier Removable|Easily Removable}))."
 								]
 							}
 						]
@@ -1835,8 +1818,8 @@
 					"name": "Evasion"
 				},
 				{
-					"name": "Improved Critical (weapon)",
-					"ref_name": "Improved Critical"
+					"name": "Improved Critical",
+					"suboption": "(weapon)"
 				},
 				{
 					"type": "optionBlock",
@@ -1865,8 +1848,8 @@
 									"name": "Defensive Attack"
 								},
 								{
-									"name": "Improved Critical (weapon)",
-									"ref_name": "Improved Critical"
+									"name": "Improved Critical",
+									"suboption": "(weapon)"
 								},
 								{
 									"name": "Improved Defense"
@@ -1887,8 +1870,8 @@
 									"name": "Power Attack"
 								},
 								{
-									"name": "Precise Attack (choose one)",
-									"ref_name": "Precise Attack"
+									"name": "Precise Attack",
+									"suboption": "(choose one)"
 								},
 								{
 									"name": "Takedown"

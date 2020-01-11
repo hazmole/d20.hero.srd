@@ -236,7 +236,7 @@
 				"{@modifier Increased Range|Perception Ranged} {@effect Damage}, {@modifier Alternate Resistance|Resisted by Will}"
 			],
 			"entries": [
-				"You can strike targets’ minds with “mental force,” inflicting Damage resisted by the target’s Will rather than Toughness, but having no effect on targets immune to effects resisted by Will, such as inanimate objects. Mental Blasts are often, but not always, Subtle as well, which costs a flat 1 point."
+				"You can strike targets’ minds with “mental force,” inflicting Damage resisted by the target’s Will rather than Toughness, but having no effect on targets immune to effects resisted by Will, such as inanimate objects. Mental Blasts are often, but not always, {@modifier Subtle} as well, which costs a flat 1 point."
 			]
 		},
 		{
@@ -250,10 +250,10 @@
 				"type": "per"
 			},
 			"effects": [
-				"Variable, Move Action"
+				"{@effect Variable}, Move Action"
 			],
 			"entries": [
-				"You can duplicate the traits of another character you can perceive, requiring a move action to scan them. You gain (Mimic rank x 5) character points worth of traits the target has, up to a maximum of the target’s rank, and limited by the total character points you can Mimic. If you can only mimic some traits, apply the Limited flaw to this power.",
+				"You can duplicate the traits of another character you can perceive, requiring a move action to scan them. You gain (Mimic rank x 5) character points worth of traits the target has, up to a maximum of the target’s rank, and limited by the total character points you can Mimic. If you can only mimic some traits, apply the {@modifier Limited} flaw to this power.",
 				"Some Mimics are Limited to only copying subjects they can touch, requiring a successful close attack check to touch an unwilling subject. Others do not mimic other people but instead mimic the traits of animals (substituting the “animal” descriptor for “another character”)."
 			]
 		},

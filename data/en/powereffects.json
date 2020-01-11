@@ -2106,7 +2106,7 @@
 					"type": "inset",
 					"name": "Under the Hood: Quickness",
 					"entries": [
-						"Quickness, like many power effects, is not especially realistic; it allows you to do things like disassemble an entire car as a free action at a high enough rank (around rank 13-14), but doesn’t have any effect on how many attacks you can make on your turn. Why? Two reasons: first because allowing any character potentially thousands of attacks per turn would slow down the game and be hugely unbalancing (to say the least). Second, and perhaps more important, it’s how superhuman quickness works in the comics: speedsters do routine things in the blink of an eye, but in fights they don’t really act more often than anyone else. See Super-Speed for some examples of the super-fast attacks speedsters might have, in addition to their Quickness."
+						"Quickness, like many power effects, is not especially realistic; it allows you to do things like disassemble an entire car as a free action at a high enough rank (around rank 13-14), but doesn’t have any effect on how many attacks you can make on your turn. Why? Two reasons: first because allowing any character potentially thousands of attacks per turn would slow down the game and be hugely unbalancing (to say the least). Second, and perhaps more important, it’s how superhuman quickness works in the comics: speedsters do routine things in the blink of an eye, but in fights they don’t really act more often than anyone else. See {@samplepower Super-Speed} for some examples of the super-fast attacks {@archetype Speedster} might have, in addition to their Quickness."
 					]
 				}
 			],

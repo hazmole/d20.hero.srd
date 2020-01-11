@@ -1207,6 +1207,13 @@ function Renderer () {
 								};
 								this._recursiveRender(fauxEntry, textStack, meta);
 								break;
+							case "@archetype":
+								fauxEntry.href.path = "archetypes.html";
+								fauxEntry.href.hover = {
+									page: "archetypes.html"
+								};
+								this._recursiveRender(fauxEntry, textStack, meta);
+								break;
 						}
 
 						break;
