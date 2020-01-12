@@ -82,7 +82,7 @@
 						"type": "list",
 						"items": [
 							"{@b 裝甲}: {@effect Protection|保護 11}, {@modifier 強抗} [22 點]",
-							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 MPH) [16 點]",
+							"{@b 噴射靴}: {@effect Flight|飛行 8} (500 哩/小時) [16 點]",
 							"{@b 聯絡系統}: {@effect Communication|無線電波溝通 2} [8 點]",
 							"{@b 維生系統}: {@effect Immunity|免疫 10} [10 點]",
 							"{@b 感測器}: {@effect Sense|感官 12} (準確 無線電波 延展3 [雷達], 黑暗視覺, 方位感知, 距離感知, 時間感知, 紅外線視覺, 超聽覺) [12 點]",
@@ -530,7 +530,7 @@
 								]
 							},
 							"{@b 能量免疫}: {@effect Immunity|免疫 5} (你所控制的能量種類) [5 點]",
-							"{@b 飛行}: {@effect Flight|飛行 7} (250 MPH) [14 點]",
+							"{@b 飛行}: {@effect Flight|飛行 7} (250 哩/小時) [14 點]",
 							"{@b 防護力場}: {@effect Protection|保護 10}, {@modifier 強抗}, {@modifier 維持} [20 點]",
 							"{@b 快速換裝}: {@effect Feature|特色 1} (以一個自由動作換穿上英雄服) [1 點]"
 							
@@ -671,7 +671,7 @@
 						]
 					},
 					"{@b 力場護盾腰帶}: {@effect Protection|保護 10}, {@modifier 強抗}, {@modifier 維持}, {@modifier 精確}, {@modifier 可被移除}(-4 點) [21-4 點]",
-					"{@b 噴射背包}: {@effect Flight|飛行 5} (60 MPH), {@modifier 可被移除}(-2 點) [10-2 點]",
+					"{@b 噴射背包}: {@effect Flight|飛行 5} (60 哩/小時), {@modifier 可被移除}(-2 點) [10-2 點]",
 					"{@b 機敏思想}: {@effect Quickness|迅捷 4}, {@modifier Limited|限定精神種類} [2 點]"
 				]
 			},
@@ -1008,7 +1008,7 @@
 								"type": "list",
 								"items": [
 									"{@b 星界投射}: {@effect Remote Sensing|遠端感知 10} (視覺, 聽覺, 心靈), 原本的身體將處於{@condition 無防備}狀態, {@modifier Subtle|隱密使用 2} [32 點]",
-									"{@b 浮空術}: {@effect Flight|飛行 4} (30 MPH) 和 {@b 祕法護盾}: {@effect Protection|保護 12}, {@modifier 強抗}, {@modifier 維持} [1 點]"
+									"{@b 浮空術}: {@effect Flight|飛行 4} (30 哩/小時) 和 {@b 祕法護盾}: {@effect Protection|保護 12}, {@modifier 強抗}, {@modifier 維持} [1 點]"
 								]
 							}
 						]
@@ -1102,7 +1102,7 @@
 			"powers": {
 				"type": "list",
 				"items": [
-					"{@b 飛行}: {@effect Flight|飛行 9} (1,000 MPH) [18 點]",
+					"{@b 飛行}: {@effect Flight|飛行 9} (1,000 哩/小時) [18 點]",
 					"{@b 無敵軀體}: {@effect Enhanced Trait|增強體質 10}, {@effect Immunity|免疫 10} (維生需求), {@modifier Impervious|強抗堅實防禦 12} [42 點]",
 					"{@b 超級高速}: {@effect Quickness|迅捷 2} [2 點]",
 					"{@b 超級力量}: {@effect Enhanced Trait|增強力量 10} 加上 {@effect Enhanced Trait|增強力量 2}, {@modifier Limited|限定抬舉} (抬舉力量14級; 400 噸) [22 點]"
@@ -1285,7 +1285,7 @@
 					"{@b 精神覺察}: {@effect Sense|感官 2} (心靈感官, 方圓) [2 點]",
 					"{@b 心靈傳動}: {@effect Move Object|移動物體 8}, {@modifier Accurate|準確 4} [20 點]",
 					"{@b 念動領域}: {@effect Protection|保護 12}, {@modifier 強抗}, {@modifier 維持} [24 點]",
-					"{@b 念動浮空}: {@effect Flight|飛行 5} (60 MPH) [10 點]",
+					"{@b 念動浮空}: {@effect Flight|飛行 5} (60 哩/小時) [10 點]",
 					{
 						"type": "entries",
 						"entries": [
@@ -1504,7 +1504,7 @@
 						]
 					},
 					"{@b 神速防禦}: {@effect Enhanced Trait|增強閃避 11} 和 {@effect Enhanced Trait|增強格擋 11} [22 點]",
-					"{@b 超高速}: {@effect Enhanced Trait|增強先攻 3}, {@effect Quickness|迅捷 10}, {@effect Speed|高速 15} (64,000 MPH) [28 點]",
+					"{@b 超高速}: {@effect Enhanced Trait|增強先攻 3}, {@effect Quickness|迅捷 10}, {@effect Speed|高速 15} (64,000 哩/小時) [28 點]",
 					"{@b 水面奔行}: {@effect Movement|移動 1} (水面行走), {@modifier Limited|限定移動期間} [1 點]",
 					"{@b 飛簷走壁}: {@effect Movement|移動 2} (攀牆 2), {@modifier Limited|限定移動期間} [2 點]"
 				]
@@ -1930,7 +1930,7 @@
 						"items": [
 							"{@b 阻擋}: {@effect Deflect|偏轉 7}, {@modifier Removable|可被輕易移除}(武器或盾牌, –2 點)",
 							"{@b 致殘猛擊}: {@effect Affliction|詛咒 7} (以韌性防禦抵抗; 行動乏能, 移動受阻, 失能), {@modifier Removable|可被輕易移除}(武器, –2 點)",
-							"{@b 疾速}: {@effect Quickness|迅捷 3}, {@effect Speed|高速 2} (8 MPH)",
+							"{@b 疾速}: {@effect Quickness|迅捷 3}, {@effect Speed|高速 2} (8 哩/小時)",
 							"{@b 機具}: {@effect Variable|能力變換 1} (5 點), {@modifier Removable|可被輕易移除}(–2 點)",
 							"{@b 自癒因子}: {@effect Regeneration|再生 5}",
 							"{@b 臨時武器}: {@effect Damage|傷害 2}, 基於力量, {@modifier Increased Range|遠距 5}, {@modifier Removable|可被輕易移除}(–2 點)",
