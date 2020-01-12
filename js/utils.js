@@ -647,6 +647,7 @@ ListUtil = {
 	},
 
 	bindDownloadButton: () => {
+		/*
 		const $btn = ListUtil.getOrTabRightButton(`btn-sublist-download`, `download`);
 		$btn.off("click")
 			.on("click", async evt => {
@@ -659,7 +660,7 @@ ListUtil = {
 					DataUtil.userDownload(ListUtil._getDownloadName(), JSON.stringify(ListUtil.getExportableSublist(), null, "\t"));
 				}
 			})
-			.attr("title", `${FMT("util_downloadjson")} (${FMT("util_shift_link")})`);
+			.attr("title", `${FMT("util_downloadjson")} (${FMT("util_shift_link")})`);*/
 	},
 
 	doJsonLoad (json, additive, funcPreload) {
@@ -673,7 +674,7 @@ ListUtil = {
 	},
 
 	bindUploadButton: (funcPreload) => {
-		const $btn = ListUtil.getOrTabRightButton(`btn-sublist-upload`, `upload`);
+		/*const $btn = ListUtil.getOrTabRightButton(`btn-sublist-upload`, `upload`);
 		$btn.off("click")
 			.on("click", (evt) => {
 				function loadSaved (event, additive) {
@@ -695,7 +696,7 @@ ListUtil = {
 				}).appendTo($(`body`));
 				$iptAdd.click();
 			})
-			.attr("title", `${FMT("util_uploadjson")} (${FMT("util_shift_add_only")})`);
+			.attr("title", `${FMT("util_uploadjson")} (${FMT("util_shift_add_only")})`);*/
 	},
 
 	setFromSubHashes: (subHashes, funcPreload) => {
@@ -934,7 +935,7 @@ ListUtil = {
 
 	initGenericPinnable: () => {
 		ListUtil.initContextMenu(ListUtil.handleGenericContextMenuClick, FMT("util_popout"), FMT("util_pin"));
-		ListUtil.initSubContextMenu(ListUtil.handleGenericSubContextMenuClick, FMT("util_popout"), FMT("util_unpin"), FMT("util_clearpins"), null, FMT("util_downloadjson"));
+		ListUtil.initSubContextMenu(ListUtil.handleGenericSubContextMenuClick, FMT("util_popout"), FMT("util_unpin"), FMT("util_clearpins"), null, null/*FMT("util_downloadjson")*/);
 	},
 
 	handleGenericContextMenuClick: (evt, ele, $invokedOn, $selectedMenu) => {
