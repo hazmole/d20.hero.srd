@@ -393,12 +393,12 @@
 							{
 								"type": "entries",
 								"entries": [
-									"{@b Utility Belt}: Array [12+3 points]",
+									"{@b Utility Belt}: 12-point Array [12+3 points]",
 									{
 										"type": "list",
 										"items": [
 											"{@b Flash-Bangs}: {@modifier Area|Burst Area} {@samplepower Dazzle|Dazzle 3} (Visual and Auditory) [12 points]",
-											"{@b Smoke Pellets}: {@modifier Area|Cloud Area} {@effect Concealment} {@modifier Attack|Attack 4} (visual) [1 point]",
+											"{@b Smoke Pellets}: {@modifier Area|Close Cloud Area} {@effect Concealment} {@modifier Attack|Attack 4} (visual) [1 point]",
 											"{@b Sleep Gas Pellets}: {@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Affliction|Affliction 4} (Resisted by Fortitude; Daze, Stun, Asleep) [1 point]",
 											"{@b Boomerangs}: {@effect Damage|Strength-based Damage 1}, {@modifier Increased Range|Ranged 4} [1 points]"
 										]
@@ -415,7 +415,7 @@
 								"type": "list",
 								"items": [
 									"{@b Gimmick}: Replace {@b Equipment} advantage and {@b optional advantages} with a 10-point {@modifier Removable} power device.",
-									"{@b Sentinel}: Drop {@b Commlink} and {@b Utility Belt} from equipment, add a tonfa or similar weapon ({@effect Damage|Damage 1}).",
+									"{@b Sentinel}: Drop {@b Commlink} and {@b Utility Belt} from equipment, add a tonfa or similar weapon ({@effect Damage|Damage 1}). Change Equipment to 1 rank and add 3 points worth of {@effect Sense|Senses}. Remove optional advantages to add more Senses, if desired.",
 									"{@b Vehicle}: Replace {@b optional advantages} with a {@b vehicle} worth up to 20 equipment points (an additional 4 ranks of {@advantage Equipment})."
 								]
 							}

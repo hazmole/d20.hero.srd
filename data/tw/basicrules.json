@@ -3105,7 +3105,7 @@
 									"items": [
 										"{@b Camera}: A digital or film camera for taking still images. Most cameras have a capacity of 24 or 36 images and you can use one in conjunction with appropriate Expertise skills, such as photography.",
 										"{@b Cell Phone}: A small handheld or headset unit for communication. The battery lasts for approximately 24 hours before it needs to be recharged. For an extra point, a phone can have most of the capabilities of a computer, at least with regard to accessing the Internet and providing data.",
-										"{@b Comm-link}: A tiny button-sized device for radio communication with an effective range of about a mile (longer if patched into the cellular network or a similar network). Many hero (and villain) teams use comm-links.",
+										"{@b 通訊器}: A tiny button-sized device for radio communication with an effective range of about a mile (longer if patched into the cellular network or a similar network). Many hero (and villain) teams use comm-links.",
 										"{@b Computer}: A computer includes keyboard, mouse, monitor, printer, modem, and other standard peripherals, and may include things like a scanner at the GM’s discretion.",
 										"{@b Audio Recorder}: These tiny digital recorders (about the size of a deck of playing cards) can record up to eight hours of audio and can be connected to a computer to download the digital recording.",
 										"{@b Video Camera}: A hand-held camera that records video and audio on tape or digitally, with a capacity of about 6 hours of footage. Video cameras cost 2 points, since they effectively double as audio recorders as well."
@@ -3167,7 +3167,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Utility Belt",
+							"translate_name": "多功能腰帶", "name": "Utility Belt",
 							"entries": [
 								"A common piece of equipment for crime fighters and espionage agents is the utility belt (or bag, pouch, backpack, etc.): a collection of useful tools and equipment in a compact carrying case. A utility belt is an array of Alternate Equipment. Some characters may have a Removable array of devices instead, allowing for far more unusual effects than run-of-the-mill equipment.",
 								"Note that equipment with a cost of 1 equipment point doesn’t really need to be acquired as Alternate Equipment, since there’s no change in cost. Still, heroes often have 1-point items in their utility belts, like flashlights, rebreathers, and so forth.",
@@ -3182,14 +3182,14 @@
 											"items": [
 												"{@b Tear Gas Pellets}: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 16 points.",
 												"{@b Bolas}: Snare 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized) • 1 point.",
-												"{@b Boomerangs}: Ranged Damage 1, Strength-based • 1 point.",
+												"{@b 迴力鏢}: Ranged Damage 1, Strength-based • 1 point.",
 												"{@b Explosives}: Ranged Burst Area Damage 5 • 1 point.",
 												"{@b Cutting Torch}: Damage 1 Linked to Weaken Toughness 1. • 1 point.",
-												"{@b Flash-Bangs}: Ranged Burst Area Dazzle 4 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware). • 1 point.",
+												"{@b 閃光彈}: Ranged Burst Area Dazzle 4 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware). • 1 point.",
 												"{@b Pepper Spray}: • 1 point.",
 												"{@b Power Knuckles}: Damage 4, Strength-based • 1 point.",
-												"{@b Sleep Gas Pellets}: Ranged Cloud Area Sleep 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep). • 1 point.",
-												"{@b Smoke Pellets}: Ranged Cloud Area Visual Concealment Attack • 1 point."
+												"{@b 催眠瓦斯彈}: Ranged Cloud Area Sleep 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep). • 1 point.",
+												"{@b 煙幕彈}: Ranged Cloud Area Visual Concealment Attack • 1 point."
 											]
 										}
 									]
@@ -3523,7 +3523,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Bow",
+												"弓",
 												"Ranged Damage 3",
 												"20",
 												"6"
@@ -3533,7 +3533,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Crossbow",
+												"十字弩",
 												"Ranged Damage 3",
 												"19-20",
 												"7"
@@ -4079,7 +4079,7 @@
 										],
 										[
 											"Medium",
-											"Motorcycle",
+											"摩托車",
 											"0", "5", "0"
 										]
 									]

@@ -220,7 +220,7 @@
 			]
 		},
 		{
-			"name": "Crime Fighter",
+			"translate_name": "懲罪英俠", "name": "Crime Fighter",
 			"attributes": {
 				"str": 3,
 				"sta": 3,
@@ -387,20 +387,20 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Commlink}: [1 point]",
-							"{@b Costume}: {@effect Protection|Protection 2} [2 點]",
-							"{@b Grapple Gun}: {@effect Movement|Movement 1} (Swinging) [2 點]",
+							"{@b 通訊器}: [1 點]",
+							"{@b 英雄服}: {@effect Protection|保護 2} [2 點]",
+							"{@b 抓鉤發射器}: {@effect Movement|移動 1} (擺盪) [2 點]",
 							{
 								"type": "entries",
 								"entries": [
-									"{@b Utility Belt}: Array [12+3 點]",
+									"{@b 多功能腰帶}: 12點陣列 [12+3 點]",
 									{
 										"type": "list",
 										"items": [
-											"{@b Flash-Bangs}: {@modifier Area|Burst Area} {@samplepower Dazzle|Dazzle 3} (Visual and Auditory) [12 點]",
-											"{@b Smoke Pellets}: {@modifier Area|Cloud Area} {@effect Concealment} {@modifier Attack|Attack 4} (visual) [1 point]",
-											"{@b Sleep Gas Pellets}: {@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Affliction|Affliction 4} (Resisted by Fortitude; Daze, Stun, Asleep) [1 point]",
-											"{@b Boomerangs}: {@effect Damage|Strength-based Damage 1}, {@modifier Increased Range|Ranged 4} [1 點]"
+											"{@b 閃光彈}: {@modifier Area|爆發範圍}{@samplepower Dazzle|炫目 3} (視覺 和 聽覺) [12 點]",
+											"{@b 煙幕彈}: {@modifier Area|近身雲霧範圍}{@effect 隱蔽}{@modifier Attack|攻擊 4} (視覺) [1 點]",
+											"{@b 催眠瓦斯彈}: {@modifier Increased Range|遠距}{@modifier Area|雲霧範圍}{@effect Affliction|詛咒 4} (以韌性防禦抵抗; 目眩, 暈眩, 沉睡) [1 點]",
+											"{@b 迴力鏢}: {@effect Damage|傷害 1}, 基於力量, {@modifier Increased Range|遠距 4} [1 點]"
 										]
 									}
 								]
@@ -410,13 +410,13 @@
 					{
 						"type": "optionBlock",
 						"entries": [
-							"To customize, choose {@b one} of the following options with no change in point total:",
+							"從下列選項中選擇{@b 一個}選項，就能在不改變角色點總和的情況下進行客製化:",
 							{
 								"type": "list",
 								"items": [
-									"{@b Gimmick}: Replace {@b Equipment} advantage and {@b optional advantages} with a 10-point {@modifier Removable} power device.",
-									"{@b Sentinel}: Drop {@b Commlink} and {@b Utility Belt} from equipment, add a tonfa or similar weapon ({@effect Damage|Damage 1}).",
-									"{@b Vehicle}: Replace {@b optional advantages} with a {@b vehicle} worth up to 20 equipment 點 (an additional 4 ranks of {@advantage Equipment})."
+									"{@b 詭巧道具}: 將 {@b 裝備}特長 和 {@b 所有額外特長} 取代成 一個價值10點，且應用了{@modifier 可被移除}缺陷的超能力裝置.",
+									"{@b 哨衛}: 將 {@b 通訊器} 和 {@b 多功能腰帶} 從裝備中移除，改為加入一個 {@b 拐棍} 或 類似武器({@effect Damage|傷害 1})。將 {@b 裝備}特長 改為 1級，並加入價值 3點的{@effect Sense|感官}效果。若有需要，可以再移除 {@b 一些額外特長} 以換取更多感官效果.",
+									"{@b 載具}: 將 {@b 所有額外特長} 取代成 一輛價值20點裝備點的{@b 載具} (亦即再額外 4級的{@advantage 裝備}特長)."
 								]
 							}
 						]
@@ -1721,7 +1721,7 @@
 			]
 		},
 		{
-			"name": "Weapon Master",
+			"translate_name": "武器大師", "name": "Weapon Master",
 			"attributes": {
 				"str": 3,
 				"sta": 2,
@@ -1903,11 +1903,11 @@
 							{
 								"type": "list",
 								"items": [
-									"{@b Bow (or Crossbow)}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 5} with {@modifier Multiattack} or five {@modifier Alternate Effect|Alternate Effects} (trick arrows).",
-									"{@b Daggers (or Knives)}: {@effect Damage|Strength-based Damage 2}, {@modifier Increased Range|Ranged}, {@modifier Multiattack|Multiattack 5}, {@advantage Improved Critical}, {@advantage Improved Defense}, {@advantage Improved Disarm}.",
-									"{@b Gun (revolver or semi-automatic)}: {@modifier Multiattack} {@modifier Increased Range|Ranged} {@effect Damage|Damage 5}",
-									"{@b Sword (including Katana)}: {@effect Damage|Strength-based Damage 2}, {@modifier Multiattack|Multiattack 5}, {@modifier Penetrating|Penetrating 5}, {@advantage Improved Defense}, {@advantage Improved Disarm}, {@advantage Improved Smash}.",
-									"{@b Whip}: {@effect Damage|Damage 4}, {@modifier Multiattack}, {@advantage Improved Hold}, {@advantage Improved Trip}, {@modifier Reach|Reach 3}, {@effect Movement|Movement 1} (Swinging)."
+									"{@b 弓 (或 十字弩)}: {@modifier Increased Range|遠距} {@effect Damage|傷害 5} 應用了 {@modifier 多重攻擊} 或 五種{@modifier Alternate Effect|替換效果} (特殊箭矢).",
+									"{@b 匕首 (或 刀子)}: {@effect Damage|傷害 2}, 基於力量, {@modifier Increased Range|遠距}, {@modifier Multiattack|多重攻擊 5}, {@advantage 精通暴擊}, {@advantage 精通防守}, {@advantage 精通繳械}.",
+									"{@b 槍枝 (左輪手槍 或 半自動步槍)}: {@modifier 多重攻擊} {@modifier Increased Range|遠距} {@effect Damage|傷害 5}.",
+									"{@b 劍 (包括 武士刀)}: {@effect Damage|傷害 2}, 基於力量, {@modifier Multiattack|多重攻擊 5}, {@modifier Penetrating|貫穿強抗 5}, {@advantage 精通防守}, {@advantage 精通繳械}, {@advantage 精通粉碎}.",
+									"{@b 鞭}: {@effect Damage|傷害 4}, {@modifier Reach|延伸觸及 3}, {@effect Movement|移動 1} (擺盪), {@modifier 多重攻擊}, {@advantage 精通制伏}, {@advantage 精通絆摔}."
 								]
 							}
 						]
@@ -1915,7 +1915,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b 載具}: Motorcycle [10 點]"
+							"{@b 載具}: 摩托車 [10 點]"
 						]
 					}
 				]
@@ -1928,15 +1928,15 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Blocking}: {@effect Deflect|Deflect 7}, {@modifier Removable|Easily Removable}(weapon or shield, –2 點)",
-							"{@b Crippling Strike}: {@effect Affliction|Affliction 7} (Resisted by Fortitude; Impaired, Hindered, Incapacitated), {@modifier Removable|Easily Removable}(weapon, –2 點)",
-							"{@b Fast}: {@effect Quickness|Quickness 3}, {@effect Speed|Speed 2} (8 MPH)",
-							"{@b Gadgets}: {@effect Variable|Variable 1} (5 點), {@modifier Removable|Easily Removable}(–2 點)",
-							"{@b Healing Factor}: {@effect Regeneration|Regeneration 5}",
-							"{@b Improvised Weapons}: {@effect Damage|Damage 2}, Strength-based, {@modifier Increased Range|Ranged 5}, {@modifier Removable|Easily Removable}(–2 點)",
-							"{@b Super-Hearing}: {@effect Sense|Senses 5} (Accurate Hearing, Danger Sense, Extended Hearing, Ultra-Hearing)",
-							"{@b Super-Vision}: {@effect Sense|Senses 5} (Darkvision, Extended Vision, Microscopic Vision 2)",
-							"{@b Urban Acrobat}: {@effect Leaping|Leaping 1}, {@effect Movement|Movement 2} (Safe Fall, Swinging)"
+							"{@b 阻擋}: {@effect Deflect|偏轉 7}, {@modifier Removable|可被輕易移除}(武器或盾牌, –2 點)",
+							"{@b 致殘猛擊}: {@effect Affliction|詛咒 7} (以韌性防禦抵抗; 行動乏能, 移動受阻, 失能), {@modifier Removable|可被輕易移除}(武器, –2 點)",
+							"{@b 疾速}: {@effect Quickness|迅捷 3}, {@effect Speed|高速 2} (8 MPH)",
+							"{@b 機具}: {@effect Variable|能力變換 1} (5 點), {@modifier Removable|可被輕易移除}(–2 點)",
+							"{@b 自癒因子}: {@effect Regeneration|再生 5}",
+							"{@b 臨時武器}: {@effect Damage|傷害 2}, 基於力量, {@modifier Increased Range|遠距 5}, {@modifier Removable|可被輕易移除}(–2 點)",
+							"{@b 超級聽力}: {@effect Sense|感官 5} (準確聽覺, 危險感知, 延展聽覺, 超聽覺)",
+							"{@b 超級視力}: {@effect Sense|感官 5} (黑暗視覺, 延展視覺, 顯微視覺 2)",
+							"{@b 城市泰山}: {@effect Leaping|跳躍 1}, {@effect Movement|移動 2} (安全墜落, 擺盪)"
 						]
 					}
 				]
