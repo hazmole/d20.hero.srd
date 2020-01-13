@@ -109,7 +109,7 @@
 			]
 		},
 		{
-			"name": "Energy Absorption",
+			"translate_name": "能量吸收", "name": "Energy Absorption",
 			"type": "G",
 			"action": "F",
 			"range": "personal",
@@ -119,18 +119,18 @@
 				"type": "special"
 			},
 			"effects": [
-				"{@effect Enhanced Trait}, {@modifier Fades}, {@modifier Reaction}"
+				"{@effect 增強數據}, {@modifier 逸散}, {@modifier 反應觸發}"
 			],
 			"entries": [
-				"You take the energy from a particular type of attack, chosen when you take this power, and use it to enhance one of your traits. Typically this is either Strength or a Ranged Damage effect of the same energy type as the initial attack, but other traits are possible, including Quickness, Regeneration, Speed, or the like. The enhancement to your trait is equal to your power rank or the attack’s rank, whichever is less.",
-				"The enhancement of the affected trait occurs automatically when you are subjected to the attack. Thereafter, the enhanced trait fades at a rate of 1 point per turn until it is gone. Further attacks can “top off” your Enhanced Trait, restoring it to its full rank again, before it is completely faded. Your rank is the limit of how much it can increase, however.",
+				"當你獲得這個超能力時選擇一種特定類型的能量，你可以吸收該能量的攻擊，並利用它來強化你的其中一個數據。這個數據通常會是力量或一個使用相同能量類型的{@modifier Increased Range|遠距}{@effect 傷害}效果，但它也可以是其他像是{@effect 迅捷}、{@effect 再生}、{@effect 高速}等數據。你數據所增強的等級將會等同於你的超能力等級、或是該攻擊的等級，看何者較低。",
+				"被影響數據的強化將會自動在你被該攻擊影響時發生。在這之後，被強化的數據將以每輪1級的速度逸散，直到它回復原本的數值。在其完全逸散之前，進一步的攻擊將會「補充」你被強化的數據，使它恢復到被完整強化後的數值。然而，你能量吸收超能力的等級將會限制該數據最多能被強化的程度。",
 				{
 					"type": "example",
 					"entries": [
-						"The Bouncer has rank 11 Energy Absorption that applies the energy of kinetic attacks to Strength. If he’s hit with Damage 5, he gets +5 Strength. On the other hand, if he’s hit with Damage 14, he only gets +11 Strength, the rank limit of his power. Thereafter, his enhanced Strength fades at 1 rank per round until it is back to its normal, unenhanced, rank. However, if The Bouncer is hit again on the following turn for Damage 4, he gains up to 4 ranks of Strength, up to his maximum again."
+						"保鑣客擁有11級的能量吸收超能力，能夠將動能攻擊的能量應用於他的力量屬性。當他被5級的傷害效果命中時，他將能夠獲得+5級的力量屬性。另一方面，若他被14級的傷害效果命中，則他將因為受限於他能量吸收的超能力等級，而只會獲得+11級的力量屬性。在這之後，每經過一輪，他被強化的力量屬性就會因為逸散而降低1級，直到他的力量屬性變回原本未被強化的數值。然而，若保鑣客再這之後又被4級的傷害命中，則他將會再獲得+4級的力量屬性，最高增加至他所能強化的上限（亦即+11級力量）。"
 					]
 				},
-				"Note that this power does not provide any resistance to attacks; the character suffers the effects of any attacks normally. Absorption often includes the additional effect of Protection (Impervious and often Limited to the absorbed type of attack) or even Immunity to the absorbed attack. Neither effect inhibits how Absorption works, they just make the absorbing character more resistant to the incoming attack."
+				"注意，這個超能力並不會提供任何對攻擊的抗性；角色仍然會如常承受攻擊的效果。能量吸收經常會搭配額外的{@effect 保護}效果（{@modifier 強抗}且{@modifier Limited|限定能夠吸收的攻擊類型}）或甚至{@effect 免疫}於其能夠吸收的攻擊類型。這些效果都不會抑制能量吸收超能力的運作，它們只會使該角色更能抵抗來襲的攻擊﹒"
 			]
 		},
 		{
@@ -165,7 +165,7 @@
 			],
 			"entries": [
 				"你可以產生並投射出一種能量以造成傷害性的衝擊波（參見{@samplepower 衝擊波}超能力），例如寒冷、電力、火焰、動能、磁力、輻射、或甚至宇宙能量。",
-				"能量控制通常會透過添加額外的{@modifier 替換效果}來進一步定義，擴展你透過能量控制所能達成的行為。舉例來說，寒冷控制也許能讓你降低周遭環境的溫度（{@effect Environment|環境–寒冷}）或將目標困在寒冰之中（{@effect 詛咒}，參見{@samplepower Snare}的版本）。磁力控制則可能會讓你得以操控金屬物體（{@modifier 限定條件}{@effect 移動物體}），而電力控制則讓你能夠製造電氣脈衝以使電子設備過載短路（{@modifier Area|爆發範圍}{@effect Nullify|無效化電子設備}）。在你能夠支付的範圍內盡可能將替換效果加到你的能量控制中，並考慮將一些較罕用的項目做為超能力絕技（參見{@rule 超能力絕技|basic|1|power stunt}規則）。"
+				"能量控制通常會透過添加額外的{@modifier 替換效果}來進一步定義，擴展你透過能量控制所能達成的行為。舉例來說，寒冷控制也許能讓你降低周遭環境的溫度（{@effect Environment|環境–寒冷}）或將目標困在寒冰之中（{@effect 詛咒}，參見{@samplepower 捕縛}的版本）。磁力控制則可能會讓你得以操控金屬物體（{@modifier 限定條件}{@effect 移動物體}），而電力控制則讓你能夠製造電氣脈衝以使電子設備過載短路（{@modifier Area|爆發範圍}{@effect Nullify|無效化電子設備}）。在你能夠支付的範圍內盡可能將替換效果加到你的能量控制中，並考慮將一些較罕用的項目做為超能力絕技（參見{@rule 超能力絕技|basic|1|power stunt}規則）。"
 			]
 		},
 		{
@@ -203,7 +203,7 @@
 			]
 		},
 		{
-			"name": "Magic",
+			"translate_name": "魔法", "name": "Magic",
 			"type": "ATK",
 			"action": "S",
 			"range": "ranged",
@@ -213,13 +213,13 @@
 				"type": "per"
 			},
 			"effects": [
-				"{@modifier Increased Range|Ranged} {@effect Damage}"
+				"{@modifier Increased Range|遠距} {@effect 傷害}"
 			],
 			"entries": [
-				"You are a sorcerer, witch, or wizard, able to cast a variety of magical spells. Your basic default effect is a Blast of eldritch force, able to inflict Ranged Damage (see the Blast power, previously).",
-				"However, like the Energy Control power, Magic can have a wide range of Alternate Effects, each a separate spell you have mastered. The possibilities are virtually limitless, within the bounds of your hero’s descriptors and the Gamemaster’s approval. Examples include mystic bindings ( Affliction, see the Snare version), dispelling magical effects ( Nullify Magic), conjuring clouds of mist or fog (an Area Visual Concealment Attack), scrying distant places (Remote Sensing), or slipping between the dimensions to appear elsewhere ( Teleport), to name just a few.",
-				"All Magic effects have the “magic” descriptor regardless of their other descriptors, so a Blast of flames conjured with magic has both the “magic” and “fire” descriptors, for example.",
-				"Magicians often have a Power Loss complication (see Complications in The Basics): if they are unable to freely speak and gesture to cast their spells, they cannot use Magic (or any related magical powers reliant on spellcasting). Certain styles of Magic may impose other complications or limits as well."
+				"你是個術士、女巫、或法師，能夠施展各式各樣的魔法咒語。你的基本預設效果是一道能夠造成{@modifier Increased Range|遠距}{@effect 傷害}的魔能衝擊波（參見前述的{@samplepower 衝擊波}超能力）。",
+				"然而，跟{@samplepower 能量控制}超能力相同，魔法也同樣能夠擁有各種不同的{@modifier 替換效果}，並各自代表著你所精通的各種法術。這些法術的可能性幾乎是無限的，只要它仍符合你英雄的描述符和遊戲主持人的許可範圍內。一些範例包括祕法束縛（{@effect 詛咒}，參見{@samplepower 捕縛}的版本）、解除魔法效果（{@effect Nullify|無效化魔法}）、召喚濃霧或迷霧（一個{@modifier 範圍化}{@effect Concealment|視覺隱蔽}{@modifier Attack|攻擊}）、探知遠方（{@effect 遠端感知}）、或穿梭維度之間以瞬間移動在其他地方（{@effect 傳送}），諸如此類。",
+				"無論這些效果的其他描述符為何，所有魔法效果都統一會帶有「魔法」的描述符。因此，舉例來說，使用魔法呼喚出來的爆炎將會同時帶有「魔法」和「火焰」的描述符。",
+				"魔法師通常也會擁有超能力喪失的糾葛難題（參見基本規則中的{@rule 糾葛難題|basic|1|Complications}章節）：若他們無法言語並做出手勢以施展咒語，則他們將無法使用魔法（或其他與施法有關的魔法能力）。某些其他風格類型的魔法能力則可能會有不同的糾葛難題或限制。"
 			]
 		},
 		{
@@ -258,7 +258,7 @@
 			]
 		},
 		{
-			"name": "Mind Control",
+			"translate_name": "精神控制", "name": "Mind Control",
 			"type": "ATK",
 			"action": "S",
 			"range": "perception",
@@ -268,11 +268,11 @@
 				"type": "per"
 			},
 			"effects": [
-				"Perception Ranged, Cumulative Affliction, Resisted by Will"
+				"{@modifier Increased Range|感知距離}, {@effect Affliction|累積詛咒, 以意志防禦抵抗}"
 			],
 			"entries": [
-				"You can impose your will on others, forcing them to obey your commands. Targets failing a Will resistance check against your effect DC first become dazed, then compelled, as they try to fight off your influence. Finally, with three or more degrees of effect, the target becomes controlled and obeys any commands you give.",
-				"Degrees of failure on resistance checks against Mind Control are cumulative. You can also apply the Progressive modifier (see Affliction effect) so your mental hold increases each time the target fails a resistance check against it!"
+				"你可以將你的意志強加於他人，迫使他們服從你的命令。在克服你效果DC的意志抵抗檢定中失敗的目標將會先陷入{@condition 目眩}狀態，接著因他們嘗試頑強對抗你的影響而陷入{@condition 受迫}狀態，最終，當這個效果累積到三個或更高的程度，目標將會陷入{@condition 受控}狀態並服從任何你所給予的命令。",
+				"克服精神控制超能力時所進行的抵抗檢定，其檢定失敗的程度將會累積。你也可以應用「惡化」修飾符（參見{@effect 詛咒}效果）以使你的精神掌控能力會隨著目標每一次失敗的抵抗而逐步加深！"
 			]
 		},
 		{

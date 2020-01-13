@@ -122,7 +122,7 @@
 				"{@effect Enhanced Trait}, {@modifier Fades}, {@modifier Reaction}"
 			],
 			"entries": [
-				"You take the energy from a particular type of attack, chosen when you take this power, and use it to enhance one of your traits. Typically this is either Strength or a Ranged Damage effect of the same energy type as the initial attack, but other traits are possible, including Quickness, Regeneration, Speed, or the like. The enhancement to your trait is equal to your power rank or the attack’s rank, whichever is less.",
+				"You take the energy from a particular type of attack, chosen when you take this power, and use it to enhance one of your traits. Typically this is either Strength or a {@modifier Increased Range|Ranged} {@effect Damage} effect of the same energy type as the initial attack, but other traits are possible, including {@effect Quickness}, {@effect Regeneration}, {@effect Speed}, or the like. The enhancement to your trait is equal to your power rank or the attack’s rank, whichever is less.",
 				"The enhancement of the affected trait occurs automatically when you are subjected to the attack. Thereafter, the enhanced trait fades at a rate of 1 point per turn until it is gone. Further attacks can “top off” your Enhanced Trait, restoring it to its full rank again, before it is completely faded. Your rank is the limit of how much it can increase, however.",
 				{
 					"type": "example",
@@ -130,7 +130,7 @@
 						"The Bouncer has rank 11 Energy Absorption that applies the energy of kinetic attacks to Strength. If he’s hit with Damage 5, he gets +5 Strength. On the other hand, if he’s hit with Damage 14, he only gets +11 Strength, the rank limit of his power. Thereafter, his enhanced Strength fades at 1 rank per round until it is back to its normal, unenhanced, rank. However, if The Bouncer is hit again on the following turn for Damage 4, he gains up to 4 ranks of Strength, up to his maximum again."
 					]
 				},
-				"Note that this power does not provide any resistance to attacks; the character suffers the effects of any attacks normally. Absorption often includes the additional effect of Protection (Impervious and often Limited to the absorbed type of attack) or even Immunity to the absorbed attack. Neither effect inhibits how Absorption works, they just make the absorbing character more resistant to the incoming attack."
+				"Note that this power does not provide any resistance to attacks; the character suffers the effects of any attacks normally. Absorption often includes the additional effect of {@effect Protection} ({@modifier Impervious} and often {@modifier Limited|Limited to the absorbed type of attack}) or even {@effect Immunity} to the absorbed attack. Neither effect inhibits how Absorption works, they just make the absorbing character more resistant to the incoming attack."
 			]
 		},
 		{
@@ -216,8 +216,8 @@
 				"{@modifier Increased Range|Ranged} {@effect Damage}"
 			],
 			"entries": [
-				"You are a sorcerer, witch, or wizard, able to cast a variety of magical spells. Your basic default effect is a Blast of eldritch force, able to inflict Ranged Damage (see the Blast power, previously).",
-				"However, like the Energy Control power, Magic can have a wide range of Alternate Effects, each a separate spell you have mastered. The possibilities are virtually limitless, within the bounds of your hero’s descriptors and the Gamemaster’s approval. Examples include mystic bindings ( Affliction, see the Snare version), dispelling magical effects ( Nullify Magic), conjuring clouds of mist or fog (an Area Visual Concealment Attack), scrying distant places (Remote Sensing), or slipping between the dimensions to appear elsewhere ( Teleport), to name just a few.",
+				"You are a sorcerer, witch, or wizard, able to cast a variety of magical spells. Your basic default effect is a Blast of eldritch force, able to inflict {@modifier Increased Range|Ranged} {@effect Damage} (see the {@samplepower Blast} power, previously).",
+				"However, like the {@samplepower Energy Control} power, Magic can have a wide range of {@modifier Alternate Effect|Alternate Effects}, each a separate spell you have mastered. The possibilities are virtually limitless, within the bounds of your hero’s descriptors and the Gamemaster’s approval. Examples include mystic bindings ({@effect Affliction}, see the {@samplepower Snare} version), dispelling magical effects ({@effect Nullify|Nullify Magic}), conjuring clouds of mist or fog (an {@modifier Area} {@effect Concealment|Visual Concealment} {@modifier Attack}), scrying distant places ({@effect Remote Sensing}), or slipping between the dimensions to appear elsewhere ({@effect Teleport}), to name just a few.",
 				"All Magic effects have the “magic” descriptor regardless of their other descriptors, so a Blast of flames conjured with magic has both the “magic” and “fire” descriptors, for example.",
 				"Magicians often have a Power Loss complication (see Complications in The Basics): if they are unable to freely speak and gesture to cast their spells, they cannot use Magic (or any related magical powers reliant on spellcasting). Certain styles of Magic may impose other complications or limits as well."
 			]
@@ -268,11 +268,11 @@
 				"type": "per"
 			},
 			"effects": [
-				"Perception Ranged, Cumulative Affliction, Resisted by Will"
+				"{@modifier Increased Range|Perception Ranged}, {@effect Affliction|Cumulative Affliction, Resisted by Will}"
 			],
 			"entries": [
-				"You can impose your will on others, forcing them to obey your commands. Targets failing a Will resistance check against your effect DC first become dazed, then compelled, as they try to fight off your influence. Finally, with three or more degrees of effect, the target becomes controlled and obeys any commands you give.",
-				"Degrees of failure on resistance checks against Mind Control are cumulative. You can also apply the Progressive modifier (see Affliction effect) so your mental hold increases each time the target fails a resistance check against it!"
+				"You can impose your will on others, forcing them to obey your commands. Targets failing a Will resistance check against your effect DC first become {@condition dazed}, then {@condition compelled}, as they try to fight off your influence. Finally, with three or more degrees of effect, the target becomes {@condition controlled} and obeys any commands you give.",
+				"Degrees of failure on resistance checks against Mind Control are cumulative. You can also apply the Progressive modifier (see {@effect Affliction} effect) so your mental hold increases each time the target fails a resistance check against it!"
 			]
 		},
 		{
