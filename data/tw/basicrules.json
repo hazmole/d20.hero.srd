@@ -1232,8 +1232,8 @@
 							"type": "entries",
 							"translate_name": "超能力階級", "name": "Power level",
 							"entries": [
-								"{@b Power level} is an overall measure of effectiveness and power, primarily combat ability, but also generally what sort of tasks a character can be expected to accomplish on a routine basis (see {@b Routine Checks} in The {@b Basics} chapter).",
-								"Power level is a value set by the Gamemaster for the series as a whole. It places certain limits on where and how players can spend Character points when creating or improving their heroes. Power level imposes the following limits:",
+								"{@b 超能力階級}使一個用以評估整體角色和超能力的衡量標準，它最主要用於評估戰鬥相關的屬性數據，但也能用於衡量在例行常規情況下，角色被預期能達成什麼類型的事項（參見{@b 基本規則}章節中的{@rule 例行檢定|basic|1|routine checks}規則）。",
+								"超能力階級是由遊戲主持人為整個遊戲劇集所設定的一個數值。它會限制玩家們在創造或強化他們英雄時花費角色點的場合與方式。總體來說，超能力階級規定了以下限制：",
 								{
 									"type": "list",
 									"items": [
@@ -1246,7 +1246,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Trade-offs",
+									"translate_name": "權衡取捨", "name": "Trade-offs",
 									"entries": [
 										"Note that the averaging effect of power level—the fact that all the traits it limits are paired with other traits—allows for a measure of “trade-off.” For example, attack bonus and effect rank added together cannot exceed twice the series power level, but this does not mean the two traits must themselves be equal, or that neither can be greater than the series PL. It’s entirely possible to create a hero with more fighting skill than damage capability (like the Crime Fighter or Martial Artist sample {@b archetypes}), a hero with more sheer power than skill (like the Powerhouse), or a hero who is a roughly equal mix of both (like the Warrior) who are all within the series limit, PL10. The same is true of the various other traits, such as placing a greater reliance of Dodge and Parry over Toughness, or vice versa.",
 										"The GM may want to keep an eye on combinations that swing wildly towards one side or another: the hero with no Dodge/Parry bonus to speak of but a massive Toughness bonus, or the one with no real attack bonus but capable of dishing out a tremendous amount of damage. For the most part, these designs are self-limiting, but they can pose problems in comparison to better-balanced heroes. A disparity of more than 50% between a pair of power level limited traits is something to look at closely before approving."
@@ -1254,7 +1254,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Power Level & Non-player Characters",
+									"translate_name": "超能力階級＆非玩家角色", "name": "Power Level & Non-player Characters",
 									"entries": [
 										"While the GM should keep the power level guidelines and suggested starting Character points of the series in mind while creating villains and members of the supporting cast, non-player characters are not restricted by the series power level and are built on as many Character points as the GM wants to give them. In other words, there is no need to add up the “cost” of a non-player character. Just assign the appropriate traits at the desired ranks.",
 										"Determine an NPC’s effective power level based on the character’s highest appropriate offensive and defensive trait(s). This power level is simply an approximation to show what level of challenge that NPC offers, and is not necessarily related to the NPC’s Character point total, which may be greater than or less than the recommended starting Character points for that power level.",
@@ -1268,12 +1268,12 @@
 								},
 								{
 									"type": "inset",
-									"name": "d20 Heros Power Levels",
+									"translate_name": "d20英雄的超能力階級", "name": "d20 Heros Power Levels",
 									"entries": [
 										"Heroes cover a diverse range of power levels, from the first costumed adventurers of the Golden Age, who relied solely on their skills and a few gimmicks (and modern vigilantes of the mean streets, who do much the same), to the greatest protectors of the world, who take on cosmic threats on a regular basis. The following are some common power levels and starting Character point values suitable for different games:",
 										{
 											"type": "entries",
-											"name": "Power Level 8 - Masked Adventures",
+											"translate_name": "超能力階級 8 - 蒙面英雄冒險", "name": "Power Level 8 - Masked Adventures",
 											"entries": [
 												"This power level fits the “Mystery Men” era of the Golden Age of comic books, as well as for teams of mostly non-powered adventurers: heroes who rely more on their skills and wits (and maybe a few gadgets) rather than amazing powers. The suggested starting value of 120 Character points creates well-rounded heroes at this level, particularly if the emphasis is on skills and advantages—and maybe a power or two—rather than a lot of powers. A higher starting Character point total allows for more diverse capabilities within the same limits.",
 												"Heroes at this level often focus more on skill than sheer damage output, often having fighting skills in the 10–12 range, but commensurately lower damage and effect ranks (using just their fists or small arms)."
@@ -1281,7 +1281,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Power Level 10 - Super Heroes",
+											"translate_name": "超能力階級 10 - 超級英雄", "name": "Power Level 10 - Super Heroes",
 											"entries": [
 												"The suggested starting power level for this game suits mature and experienced “adventurers” of the previous level along with a wide range of younger or focused superhumans.",
 												"Power level 10 heroes may have a balance of attack and effect, defense and resistance, or may go for being stronger on one side than the other, having great combat skill, but comparatively limited damage, for example, or great Toughness, but lowered defenses."
@@ -1289,7 +1289,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Power Level 12 - Big leagues",
+											"translate_name": "超能力階級 12 - 偉大聯盟", "name": "Power Level 12 - Big leagues",
 											"entries": [
 												"Power level 12 is where you find many of the more experienced and powerful heroes. They are “senior” heroes, usually with considerable capabilities (and, often, experience). Those lacking superhuman powers have amazing levels of skill and resources to draw upon while the superhuman types are often among the most capable in their particular area, often worthy of titles like “King” and “World’s Greatest”.",
 												"In areas where power level 12 heroes tip the balance of their combat capabilities, they can have amazing ranks in attack or defense."
@@ -1297,7 +1297,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Power Level 14 - World-protectors",
+											"translate_name": "超能力階級 14 - 世界守護者", "name": "Power Level 14 - World-protectors",
 											"entries": [
 												"Heroes at this level are among the most powerful beings of the universe. They are largely capable of ignoring lesser concerns and tend to focus on “big picture” problems like alien invasions and world-conquerors along with natural disasters (although they may still handle some of the “small stuff” as well)."
 											]
@@ -1308,7 +1308,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Reallocating Character Points",
+							"translate_name": "重新分配角色點", "name": "Reallocating Character Points",
 							"entries": [
 								"Normally a hero’s traits are fixed. Once Character points are spent on them, they remain there. In some cases, however, the Gamemaster may allow players to reallocate their characters’ points, changing their traits within the limits of the series power level, perhaps even losing some traits and gaining entirely new ones. This is typically a result of the transformed condition, either due to a power or encountering a transformational effect (intense radiation, mutagenic chemicals, cosmic power sources, and so forth). It’s up to the GM when these character-altering events occur, but they should be fairly rare unless their effects are intended to be temporary complications ."
 							]
@@ -1317,7 +1317,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Complications",
+					"translate_name": "糾葛難題", "name": "Complications",
 					"entries": [
 						"Comic books are full of storylines involving personal complications, and players are encouraged to come up with some for their heroes. {@b Complications} have a specific use in the game as well: they give the Gamemaster a “handle” on your hero, different challenges to introduce or include in adventures. When the GM does so, you earn victory points you can use to enhance your character’s chances of success, amongst other things. (See {@b Victory Points} in The {@b Basics} and {@b Action & Adventure} for more information.)",
 						{

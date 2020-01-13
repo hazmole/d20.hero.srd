@@ -1232,7 +1232,7 @@
 							"type": "entries",
 							"name": "Power level",
 							"entries": [
-								"{@b Power level} is an overall measure of effectiveness and power, primarily combat ability, but also generally what sort of tasks a character can be expected to accomplish on a routine basis (see {@b Routine Checks} in The {@b Basics} chapter).",
+								"{@b Power level} is an overall measure of effectiveness and power, primarily combat ability, but also generally what sort of tasks a character can be expected to accomplish on a routine basis (see {@rule Routine Checks|basic|1|routine checks} in The {@b Basics} chapter).",
 								"Power level is a value set by the Gamemaster for the series as a whole. It places certain limits on where and how players can spend Character points when creating or improving their heroes. Power level imposes the following limits:",
 								{
 									"type": "list",

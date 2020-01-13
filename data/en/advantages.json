@@ -486,7 +486,7 @@
 			"type": "S",
 			"rank": 2,
 			"entries": [
-				"You can make a {@skill Deception} or {@skill Intimidation} check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, {@skill Insight}, or Will defense, whichever has the highest bonus). If you win, your target is {@condtion dazed} (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
+				"You can make a {@skill Deception} or {@skill Intimidation} check as a standard action (choose which skill when you acquire the advantage) to cause an opponent to hesitate in combat. Make a skill check as a standard action against your target’s resistance check (the same skill, {@skill Insight}, or Will defense, whichever has the highest bonus). If you win, your target is {@condition dazed} (able to take only a standard action) until the end of your next round. The ability to Daze with Deception and with Intimidation are separate advantages. Take this advantage twice in order to be able to do both."
 			]
 		},
 		{
