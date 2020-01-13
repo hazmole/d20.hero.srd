@@ -1248,7 +1248,7 @@
 									"type": "entries",
 									"name": "Trade-offs",
 									"entries": [
-										"Note that the averaging effect of power level—the fact that all the traits it limits are paired with other traits—allows for a measure of “trade-off.” For example, attack bonus and effect rank added together cannot exceed twice the series power level, but this does not mean the two traits must themselves be equal, or that neither can be greater than the series PL. It’s entirely possible to create a hero with more fighting skill than damage capability (like the Crime Fighter or Martial Artist sample {@b archetypes}), a hero with more sheer power than skill (like the Powerhouse), or a hero who is a roughly equal mix of both (like the Warrior) who are all within the series limit, PL10. The same is true of the various other traits, such as placing a greater reliance of Dodge and Parry over Toughness, or vice versa.",
+										"Note that the averaging effect of power level—the fact that all the traits it limits are paired with other traits—allows for a measure of “trade-off.” For example, attack bonus and effect rank added together cannot exceed twice the series power level, but this does not mean the two traits must themselves be equal, or that neither can be greater than the series PL. It’s entirely possible to create a hero with more fighting skill than damage capability (like the Crime Fighter} or {@archetype Martial Artist} sample {@b archetypes}), a hero with more sheer power than skill (like the {@archetype Powerhouse}), or a hero who is a roughly equal mix of both (like the {@archetype Warrior}) who are all within the series limit, PL10. The same is true of the various other traits, such as placing a greater reliance of Dodge and Parry over Toughness, or vice versa.",
 										"The GM may want to keep an eye on combinations that swing wildly towards one side or another: the hero with no Dodge/Parry bonus to speak of but a massive Toughness bonus, or the one with no real attack bonus but capable of dishing out a tremendous amount of damage. For the most part, these designs are self-limiting, but they can pose problems in comparison to better-balanced heroes. A disparity of more than 50% between a pair of power level limited traits is something to look at closely before approving."
 									]
 								},
@@ -5532,7 +5532,7 @@
 									"name": "Concealment",
 									"entries": [
 										"To attack a target, you first have to have some idea of where to aim your attack. If you can perceive something with an accurate sense (such as sight) then you can target it with an attack. If you cannot clearly perceive the target, then it has {@b concealment} from you.",
-										"{@b Partial Concealment} applies a –2 circumstance penalty to your attack check for not being able to clearly perceive your target. It includes conditions like dim lighting, foli-age, heavy precipitation, fog, smoke, and the like.",
+										"{@b Partial Concealment} applies a –2 circumstance penalty to your attack check for not being able to clearly perceive your target. It includes conditions like dim lighting, foliage, heavy precipitation, fog, smoke, and the like.",
 										"{@b Total Concealment} applies a –5 circumstance penalty to your attack check for not being able to perceive the target at all, presuming the attacker even knows (or guesses) the right area to target. It includes conditions like total darkness, heavy smoke or fog, and so forth."
 									]
 								},
@@ -5556,8 +5556,8 @@
 											"items": [
 												"Minions cannot score critical hits against non-minions.",
 												"Non-minions can make attack checks against minions as routine checks.",
-												"If a minion fails a resistance check, the minion suffers the worst degree of the effect. So a minion failing a Damage resistance check, for example, is incapacitated, regardless of the degree of failure.",
-												"Certain traits (like the Takedown advantage) are more effective against or specifically target minions."
+												"If a minion fails a resistance check, the minion suffers the worst degree of the effect. So a minion failing a {@effect Damage} resistance check, for example, is {@condition incapacitated}, regardless of the degree of failure.",
+												"Certain traits (like the {@advantage Takedown} advantage) are more effective against or specifically target minions."
 											]
 										}
 									]

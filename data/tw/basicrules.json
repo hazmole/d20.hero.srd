@@ -1043,7 +1043,7 @@
 					"entries": [
 						"要創建屬於你自己的角色，最快也最簡單的方式就是從各種預先做好的{@5etools 英雄範型|archetypes.html}中找到最符合你想扮演的英雄類型，再根據你的想法稍做修改。僅僅需要做幾個選擇，你就能擁有一個嶄新，完好，且隨時能夠上陣的英雄！",
 						"每個範型都提供了一個超能力階級為10級（這也是最推薦的起始階級），完整可用的英雄類型。有些範型會依照技能、特長、或超能力提供你幾個簡單的選擇，讓你更能融入不同的主題。舉例來說，許多範型會讓你選擇一個{@skill 專業}技能以完善角色的背景，或做為超級英雄行動之外的興趣。",
-						"有些範型會提供{@b 選項}，讓你能夠從幾個預先創建的數據選項中選擇，並創造出不同類型的英雄。舉例而言，{@archetype Crime Fighter}範型提供了幾個選項，讓英雄能以擁有較少裝備作為代價，換取超人類的感官能力或特殊的載具。其他範型也會提供類似的選項。",
+						"有些範型會提供{@b 選項}，讓你能夠從幾個預先創建的數據選項中選擇，並創造出不同類型的英雄。舉例而言，{@archetype 懲罪英俠}範型提供了幾個選項，讓英雄能以擁有較少裝備作為代價，換取超人類的感官能力或特殊的載具。其他範型也會提供類似的選項。",
 						"然而，即使該範型並未提供{@b 選項}，也不代表你不能修改該範型的數據以符合你想要扮演的英雄類型！英雄範型僅僅是一個起點：若你變得較為熟悉角色設計的方式，你可以自由修改你所選範型的部分或甚至所有數據。只要你仍遵守可用角色點、劇集超能力階級的限制，並得到你遊戲主持人的核准，就沒有任何問題！",
 						"請注意，使用範型的範例角色中會擁有一些前方標駐著(增強)的特長，這些特長是來自他們超能力中的{@effect Enhanced Trait|增強特長}效果。"
 					]
@@ -1248,8 +1248,8 @@
 									"type": "entries",
 									"translate_name": "權衡取捨", "name": "Trade-offs",
 									"entries": [
-										"Note that the averaging effect of power level—the fact that all the traits it limits are paired with other traits—allows for a measure of “trade-off.” For example, attack bonus and effect rank added together cannot exceed twice the series power level, but this does not mean the two traits must themselves be equal, or that neither can be greater than the series PL. It’s entirely possible to create a hero with more fighting skill than damage capability (like the Crime Fighter or Martial Artist sample {@b archetypes}), a hero with more sheer power than skill (like the Powerhouse), or a hero who is a roughly equal mix of both (like the Warrior) who are all within the series limit, PL10. The same is true of the various other traits, such as placing a greater reliance of Dodge and Parry over Toughness, or vice versa.",
-										"The GM may want to keep an eye on combinations that swing wildly towards one side or another: the hero with no Dodge/Parry bonus to speak of but a massive Toughness bonus, or the one with no real attack bonus but capable of dishing out a tremendous amount of damage. For the most part, these designs are self-limiting, but they can pose problems in comparison to better-balanced heroes. A disparity of more than 50% between a pair of power level limited traits is something to look at closely before approving."
+										"值得注意的是，超能力階級所帶來的平衡影響──亦即它所限制的所有數據都會與另一組數據彼此對應──允許某種程度的「取捨」。舉例來說，攻擊加值和效果等級的總和不能超過劇集超能力階級的二倍，但這並不代表這兩個數據本身必須相等，或都不能超過劇集超能力階級。相反的，你完全可以創造出一名格鬥技能的數值遠高於傷害等級的英雄（像是{@b 英雄範型}中所列出的{@archetype 懲罪英俠}或{@archetype 武術家}）、一名掌握純粹力量而非技巧的英雄（例如{@archetype 大力士}）、或這兩個數值大致相等的英雄（例如{@archetype 戰士}），這些英雄都合乎其劇集超能力階級的限制（超能力階級10）。同理，其他各種數據也是如此，比如說你可以讓英雄比起堅實防禦，更依賴閃避和格檔，反之亦然。",
+										"GM可能會需要特別留意那些有著極端組合的角色：比如說完全沒有閃避／格檔加值，但有著大量堅實防禦屬性的英雄、或是沒有實質攻擊加值，但卻有能力一口氣造成龐大傷害的角色。在大部分的情況下，這些設計可能是出於自我限制的目的，但相比其他平衡良好的英雄們，他們也確實比較容易造成問題。GM在核准角色卡之前，最好特別注意那些彼此相差超過了50%的數據組合。"
 									]
 								},
 								{
@@ -1289,7 +1289,7 @@
 										},
 										{
 											"type": "entries",
-											"translate_name": "超能力階級 12 - 偉大聯盟", "name": "Power Level 12 - Big leagues",
+											"translate_name": "超能力階級 12 - 大聯盟", "name": "Power Level 12 - Big leagues",
 											"entries": [
 												"Power level 12 is where you find many of the more experienced and powerful heroes. They are “senior” heroes, usually with considerable capabilities (and, often, experience). Those lacking superhuman powers have amazing levels of skill and resources to draw upon while the superhuman types are often among the most capable in their particular area, often worthy of titles like “King” and “World’s Greatest”.",
 												"In areas where power level 12 heroes tip the balance of their combat capabilities, they can have amazing ranks in attack or defense."
@@ -1322,7 +1322,7 @@
 						"Comic books are full of storylines involving personal complications, and players are encouraged to come up with some for their heroes. {@b Complications} have a specific use in the game as well: they give the Gamemaster a “handle” on your hero, different challenges to introduce or include in adventures. When the GM does so, you earn victory points you can use to enhance your character’s chances of success, amongst other things. (See {@b Victory Points} in The {@b Basics} and {@b Action & Adventure} for more information.)",
 						{
 							"type": "entries",
-							"name": "Choosing Complications",
+							"translate_name": "選擇糾葛難題", "name": "Choosing Complications",
 							"entries": [
 								"Choose at least two complications for your hero: a Motivation and at least one other. You can take as many complications as you wish, although the GM may set limits for the sake of being able to keep track of them all. complications are also self-limiting, in that you only earn victory points for those complications that actually come into play. So even if you have more than a dozen, if the GM can only include a couple in a game session, then those are the ones that earn you victory points for that game. You can—and generally should—look for opportunities to include your hero’s complications and offer suggestions to the GM, who makes the final decision on which complications come into play at any given time.",
 								"The GM also decides what complications are appropriate for the game and can overrule any particular complication, based on the style and needs of the story and the series. Keep in mind the adventure needs to have room for all of the heroes’ complications, so individual ones can only come up so often."
@@ -1330,7 +1330,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Motivation",
+							"translate_name": "動機", "name": "Motivation",
 							"entries": [
 								"Every hero has something that drove him or her to become a hero in the first place—a motivation that keeps them going when things get tough. Sometimes motivation is the only difference between a hero and a villain. What made your hero decide to fight for justice rather than turning toward more selfish goals? How does it affect the hero’s methods of fighting crime? Is there anything that might change or affect the hero’s motivation?",
 								"Motivation is a complication because it often determines what a hero will do in a particular situation. The GM can use your hero’s motivation to encourage certain actions, and enemies may do the same. When you properly play out your hero’s motivation, even if it isn’t necessarily the “smartest” thing to do, the GM awards you a victory point.",
@@ -1380,7 +1380,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Other Complications",
+							"translate_name": "其他糾葛難題", "name": "Other Complications",
 							"entries": [
 								"Other possible complications, and their uses in adventures, include:",
 								{
@@ -5522,23 +5522,23 @@
 											"type": "entries",
 											"name": "Perception and Area Effects",
 											"entries": [
-												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@b Area} extra in  Powers). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
+												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@b Area} extra in Powers). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Concealment",
+									"translate_name": "遮蔽", "name": "Concealment",
 									"entries": [
-										"To attack a target, you first have to have some idea of where to aim your attack. If you can perceive something with an accurate sense (such as sight) then you can target it with an attack. If you cannot clearly perceive the target, then it has {@b concealment} from you.",
-										"{@b Partial Concealment} applies a –2 circumstance penalty to your attack check for not being able to clearly perceive your target. It includes conditions like dim lighting, foli-age, heavy precipitation, fog, smoke, and the like.",
-										"{@b Total Concealment} applies a –5 circumstance penalty to your attack check for not being able to perceive the target at all, presuming the attacker even knows (or guesses) the right area to target. It includes conditions like total darkness, heavy smoke or fog, and so forth."
+										"當你要攻擊一個目標，你首先必須要知道該瞄準何處以發動攻擊。若你能夠利用一種準確感官（例如視覺）感知到某物，你才能將它做為攻擊的目標。然而，當你無法清楚地感知到該目標，則對你而言，該目標將處於{@b 遮蔽}中。",
+										"{@b 半遮蔽} 將會對你的攻擊檢定造成 –2的情境罰值，反映出你無法清楚感知到目標的事實。這也囊括了昏暗光線、樹叢、豪雨、霧、煙等環境狀況所帶來的影響。",
+										"{@b 全遮蔽} 將會對你的攻擊檢定造成 –5的情境罰值，反映出你完全無法感知到目標的事實。這假設了攻擊者已經知道（或猜測）目標所在的區域。這也囊括了完全黑暗、濃煙或濃霧等環境狀況所帶來的影響。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Cover",
+									"translate_name": "掩護", "name": "Cover",
 									"entries": [
 										"Targets may also hide behind obstructions to gain {@b cover} against your attacks. Obstructions that do not physically block attacks but simply make the target harder to perceive—such as lighting, fog, or foliage—provide concealment rather than cover.",
 										"{@b Partial Cover} applies a –2 circumstance penalty to your attack check. It generally means about half of the target is behind cover, such as around a corner, behind a tree or pillar, or a low wall.",
@@ -5550,14 +5550,14 @@
 									"type": "entries",
 									"translate_name": "嘍囉", "name": "Minions",
 									"entries": [
-										"{@b Minions} are minor characters subject to special rules in combat, and generally easier to defeat than normal characters. Villains often employ hordes of minions against heroes. The following rules apply to minions:",
+										"{@b 嘍囉}指的是在戰鬥中服從特殊規則的次要角色們，且相比正常角色來說通常更容易被擊倒。反派們經常會僱傭一大群嘍囉來對付英雄們。以下是用於規範嘍囉的特殊規則：",
 										{
 											"type": "list",
 											"items": [
-												"Minions cannot score critical hits against non-minions.",
-												"Non-minions can make attack checks against minions as routine checks.",
-												"If a minion fails a resistance check, the minion suffers the worst degree of the effect. So a minion failing a Damage resistance check, for example, is incapacitated, regardless of the degree of failure.",
-												"Certain traits (like the Takedown advantage) are more effective against or specifically target minions."
+												"嘍囉無法對非嘍囉的角色造成暴擊。",
+												"非嘍囉角色能夠以例行檢定的方式對嘍囉進行攻擊檢定。",
+												"若一名嘍囉在抵抗檢定中失敗，該嘍囉將承受該效果所能造成最大程度的影響。因此舉例來說，若一名嘍囉在克服{@effect 傷害}的抵抗檢定中失敗，則無論它骰出了多少程度的失敗，它都會直接陷入{@condition 失能}狀態。",
+												"某些數據（例如{@advantage 擊倒}特長）對嘍囉特別有效、或只能以嘍囉為目標。"
 											]
 										}
 									]
