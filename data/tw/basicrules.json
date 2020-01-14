@@ -30,7 +30,7 @@
 				"headers": [
 					{ "translate_name": "英雄範型", "name": "Hero Archetypes" },
 					{ "translate_name": "英雄設計", "name": "Hero Design" },
-					{ "_translate_name": "角色點", "name": "Character Points" },
+					{ "translate_name": "角色點", "name": "Character Points" },
 					{ "_translate_name": "糾葛難題", "name": "Complications" },
 					{ "translate_name": "背景", "name": "Background" },
 					{ "_translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement" },
@@ -1615,14 +1615,14 @@
 			"type": "section",
 			"translate_name": "屬性", "name": "Abilities",
 			"entries": [
-				"Everyone has certain basic {@b abilities}: how strong, fast, smart, and clever they are. These abilities influence most things your character does. Stronger characters can lift greater weights, more agile characters have better balance, tougher characters can soak up more damage, and so forth.",
-				"All characters have eight basic abilities: Strength (Str), Stamina (Sta), Dexterity (Dex), Agility (Agl), Fighting (Ftg), Intellect (Int), Awareness (Awe), and Presence (Pre). Strength, Dexterity, Agility and Stamina are {@b physical abilities}, whereas Fighting, Intellect, Awareness, and Presence are {@b mental abilities}. Each above-average ability provides a bonus on certain die rolls; while below average abilities apply a penalty.",
+				"每個人都有著基本的{@b 屬性}，用以表示他們有多麼強壯、快速、聰穎、機智。這些屬性會影響你角色所做的幾乎所有事情。強壯的角色能夠舉起更沉的重量、敏捷的角色會有著更好的平衡感、而健壯的角色則能承受更多的傷害，諸如此類。",
+				"所有角色都擁有八個基本屬性：力量、體質、靈巧、敏捷、格鬥、智力、覺察、和表現。力量、體質、靈巧、和敏捷屬於{@b 生理屬性}，而格鬥、智力、覺察、和表現則屬於{@b 心理屬性}。每個高於平均的屬性值都會為特定擲骰檢定提供加值；相對的，低於平均的屬性值則會造成罰值。",
 				{
 					"type": "section",
 					"translate_name": "屬性等級", "name": "Ability ranks",
 					"entries": [
-						"Each ability has a {@b rank} associated with it, based on how above or below average it is. Abilities start at rank 0, the baseline average for an adult human being. They can go as low as –5 (truly terrible) and as high as 20, with higher values reserved for truly cosmic beings and forces.",
-						"The ability rank is added to, or subtracted from, die rolls when your character does something related to that ability. For example, your Strength rank affects the amount of damage you do when punching someone. Your Intellect rank comes into play when you roll skills based on Intellect, and so forth. Sometimes your rank is used to calculate another value, such as when you use your Agility to determine how good you are at avoiding harm with your reflexes (your Dodge defense).",
+						"每個屬性都會擁有一個相應的{@b 等級}，用以表示其高於或低於平均的程度。屬性的起始值為 0級，代表著成年人類的平均基準。屬性值最低可以到 -5（極為糟糕），且最高可以到20，在這之上的數值則代表著那些真正的宇宙級生命體或力量。",
+						"當你的角色進行某個與該屬性有關的行為時，其擲骰結果將會依據角色的屬性等級而被增加或減少。舉例來說，你的力量等級會在你痛揍某人時影響你所能造成的傷害、你的智力等級會在你進行智力相關的技能檢定時發揮影響，諸如此類。有時候，你的屬性等級會被用於計算其他數值，比如說，你會使用你的敏捷屬性來決定你有多麼擅長以反射神經來閃躲避免傷害（你的閃避防禦屬性）。",
 						{
 							"type": "entries",
 							"translate_name": "購買屬性等級", "name": "Buying Ability Ranks",
@@ -1681,7 +1681,7 @@
 							"type": "inset",
 							"translate_name": "超越人類", "name": "Beyond Human",
 							"entries": [
-								"儘管{@b 屬性值基準}表中將等級7定義為「人類成就的巔峰」，但一名屬性等級高於7級的角色並不需要因此必須是「非人」，而僅僅是跟尋常人類相比有著超人般的能力而已。漫畫中有許多「正常人類」角色都擁有超人般的屬性，特別是心智方面的屬性。角色可以單純因為天賦異稟，或是受過嚴格訓練而具有超人般的能力屬性。「正常人類」所能達成的限制全由遊戲主持人決定，且會根據遊戲風格不同而有很大的變化。"
+								"儘管{@b 屬性值基準}表中將等級7定義為「人類成就的巔峰」，但一名屬性等級高於7級的角色並不需要因此必須是「非人」，而僅僅是跟尋常人類相比有著超人般的能力而已。漫畫中有許多「正常人類」角色都擁有超人般的屬性，特別是心理方面的屬性。角色可以單純因為天賦異稟，或是受過嚴格訓練而具有超人般的能力屬性。「正常人類」所能達成的限制全由遊戲主持人決定，且會根據遊戲風格不同而有很大的變化。"
 							]
 						}
 					]
