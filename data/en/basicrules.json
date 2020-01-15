@@ -5406,7 +5406,7 @@
 									"type": "entries",
 									"name": "Critical Hits",
 									"entries": [
-										"When you make an attack check and get a natural 20 (the d20 actually shows 20), you automatically hit, regardless of your target’s defense, and you score a threat. The hit might also be a critical hit (sometimes called a “crit”). To find out if it’s a critical hit, determine if the attack check total is equal to or greater than the target’s defense. If so, it is a critical hit. If not, the attack still hits, but as a normal attack, not a critical.",
+										"When you make an attack check and get a natural 20 (the d20 actually shows 20), you automatically hit, regardless of your target’s defense, and you score a threat. The hit might also be a {@b critical hit} (sometimes called a “crit”). To find out if it’s a critical hit, determine if the attack check total is equal to or greater than the target’s defense. If so, it is a critical hit. If not, the attack still hits, but as a normal attack, not a critical.",
 										{
 											"type": "inset",
 											"name": "Increased Threat Range",
@@ -5419,8 +5419,8 @@
 											"type": "list",
 											"items": [
 												"{@b Increased Effect}: The critical hit increases the difficulty to resist the attack’s effect by +5. Against a minion, this bypasses the resistance check entirely; the minion automatically receives the highest degree of the attack’s effect.",
-												"{@b Added Effect}: The critical hit adds another effect onto the attack, but its effective rank is 0, so the resistance DC is just the base value (10, or 15 for damage). The added effect can be anything the player can reasonably describe and justify as adjunct to the original effect: an Affliction (useful for all sorts of “gut checks,” blows to the head or vitals, etc.), Dazzle (blood in the eyes, boxing the ears, etc.), or Weaken, to name a few. The GM decides if the effect suits the circumstances of the attack. The target makes resistance checks against the attack’s initial and added effects separately.",
-												"{@b Alternate Effect}: The critical hit results in an alternate effect for the attack, like a use of extra effort for a power stunt (see {@rule Extra Effort|basic|1|extra effort} in The Basics), except the character suffers no fatigue as a result. This option can represent a “lucky” attack that does something completely different, like blinding a target, or imposing a condition such as those found under the Affliction effect."
+												"{@b Added Effect}: The critical hit adds another effect onto the attack, but its effective rank is 0, so the resistance DC is just the base value (10, or 15 for damage). The added effect can be anything the player can reasonably describe and justify as adjunct to the original effect: an {@effect Affliction} (useful for all sorts of “gut checks,” blows to the head or vitals, etc.), {@samplepower Dazzle} (blood in the eyes, boxing the ears, etc.), or {@effect Weaken}, to name a few. The GM decides if the effect suits the circumstances of the attack. The target makes resistance checks against the attack’s initial and added effects separately.",
+												"{@b Alternate Effect}: The critical hit results in an alternate effect for the attack, like a use of extra effort for a power stunt (see {@rule Extra Effort|basic|1|extra effort} in The Basics), except the character suffers no fatigue as a result. This option can represent a “lucky” attack that does something completely different, like blinding a target, or imposing a condition such as those found under the {@effect Affliction} effect."
 											]
 										}
 									]

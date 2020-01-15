@@ -4971,7 +4971,7 @@
 								"The order in which characters take their turns is determined by {@b initiative}. Base initiative bonus is equal to the character’s Agility rank. Many characters have advantages or powers that modify their initiative, such as Improved Initiative. At the start of a conflict, roll an initiative check for each character:",
 								{
 									"type": "middleEnhance",
-									"text": "d20 + initiative modifier"
+									"text": "d20 + 先攻修正值"
 								},
 								"The initiative check determines what order characters act in, counting down from highest check result to lowest. Usually, the GM writes the names of the characters down in initiative order to move quickly from one character to the next each round. You can also have all of the characters’ names listed on index cards you can reshuffle to fit the initiative order. If two characters have the same initiative result, they act in order of highest Dodge bonus first, then highest Agility and highest Awareness. If there is still a tie, each tied player should roll a die, with the highest roll going first. The GM may roll just once for an entire group of minions, giving them all the same initiative.",
 								"If characters enter a conflict after it’s begun, they roll initiative when they join-in and act when their turn comes up in the existing order.",
@@ -5390,23 +5390,23 @@
 				},
 				{
 					"type": "section",
-					"name": "Conflicts",
+					"translate_name": "戰鬥衝突", "name": "Conflicts",
 					"entries": [
 						"A {@b conflict} is when two or more characters go up against each other, typically in a fight of some sort. Conflict between heroes and villains is a prime part of the game and a big element of the fun, just like the colorful and spectacular fights in the superhero comic books.",
 						{
 							"type": "entries",
-							"name": "Attacks",
+							"translate_name": "攻擊", "name": "Attacks",
 							"entries": [
 								"An {@b attack check} represents an attempt to hit a target with an attack. When you make an attack check, roll the die and add your bonus with that attack. If your result equals or exceeds the target’s defense, your attack hits and may have some effect.",
 								{
 									"type": "middleEnhance",
-									"text": "Attack Check = d20 + attack bonus vs. defense class"
+									"text": "攻擊檢定 = d20 + 攻擊加值 vs. 防禦層級"
 								},
 								{
 									"type": "entries",
-									"name": "Critical Hits",
+									"translate_name": "暴擊", "name": "Critical Hits",
 									"entries": [
-										"When you make an attack check and get a natural 20 (the d20 actually shows 20), you automatically hit, regardless of your target’s defense, and you score a threat. The hit might also be a critical hit (sometimes called a “crit”). To find out if it’s a critical hit, determine if the attack check total is equal to or greater than the target’s defense. If so, it is a critical hit. If not, the attack still hits, but as a normal attack, not a critical.",
+										"當你進行一次攻擊檢定，並得到了天然20的擲骰結果（亦即d20的骰面擲出了20），則無論你目標的防禦如何，你的攻擊都會自動命中，且你將擴大你對目標造成的威脅：這個命中的攻擊將可能會造成{@b 暴擊}。確認這次攻擊是否為暴擊的方法如下：確認該攻擊檢定的總和是否等於或超過目標的防禦層級，若是，則該攻擊即為暴擊。若否，則該攻擊仍然命中，但僅被視為一次普通攻擊，而非暴擊。",
 										{
 											"type": "inset",
 											"name": "Increased Threat Range",
@@ -5414,22 +5414,22 @@
 												"Characters with the {@advantage Improved Critical} advantage can score a threat on a natural result less than 20, although they still automatically hit only on a natural 20. Any attack check that doesn’t result in a hit is not a threat."
 											]
 										},
-										"A critical hit can have one of the following three effects, chosen by the player when the critical hit is determined:",
+										"暴擊可以造成下列其中一種效果，由玩家在確定造成暴擊時從中選擇：",
 										{
 											"type": "list",
 											"items": [
-												"{@b Increased Effect}: The critical hit increases the difficulty to resist the attack’s effect by +5. Against a minion, this bypasses the resistance check entirely; the minion automatically receives the highest degree of the attack’s effect.",
-												"{@b Added Effect}: The critical hit adds another effect onto the attack, but its effective rank is 0, so the resistance DC is just the base value (10, or 15 for damage). The added effect can be anything the player can reasonably describe and justify as adjunct to the original effect: an Affliction (useful for all sorts of “gut checks,” blows to the head or vitals, etc.), Dazzle (blood in the eyes, boxing the ears, etc.), or Weaken, to name a few. The GM decides if the effect suits the circumstances of the attack. The target makes resistance checks against the attack’s initial and added effects separately.",
-												"{@b Alternate Effect}: The critical hit results in an alternate effect for the attack, like a use of extra effort for a power stunt (see {@rule Extra Effort|basic|1|extra effort} in The Basics), except the character suffers no fatigue as a result. This option can represent a “lucky” attack that does something completely different, like blinding a target, or imposing a condition such as those found under the Affliction effect."
+												"{@b 增強效果}： 暴擊可以使目標在抵抗該攻擊效果時的難度+5。若目標為嘍囉，則目標將直接略過抵抗檢定，並自動承受該攻擊效果所能造成最大程度的影響。",
+												"{@b 追加效果}： 暴擊可以將另一個效果添加到該次攻擊中，但該效果的實質效果等級為0，因此其抵抗DC將只會是基礎值（10，或傷害的話則為15）。這個追加效果可以是任何玩家能夠合理說明，並證明其為原本效果的附加產物的效果，比如說：{@effect 詛咒}（適合用於任何類型的「勇氣測試」、朝著頭部或重要器官的打擊、諸如此類）、{@samplepower 炫目}（濺入雙眼的鮮血、擊打雙耳鼓膜等）、或{@effect 弱化}效果等等。由GM決定該效果是否符合該攻擊的情境。目標將對原本的攻擊效果和追加效果分別進行一次抵抗檢定。",
+												"{@b 替換效果}： 暴擊可以使該攻擊變為一項替換效果，就如同使用了奮力一搏的超能力絕技一樣（參見基本規則中的{@rule 奮力一搏|basic|1|extra effort}章節），然而角色並不會因此而陷入疲勞狀態。這個選項可以用來代表那些造成完全不同影響的「幸運攻擊」，例如致盲目標、或造成一種可以利用{@effect 詛咒}效果達成的狀態。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Critical Misses",
+									"translate_name": "大失敗", "name": "Critical Misses",
 									"entries": [
-										"Conversely, a natural 1 (the d20 comes up 1) on an attack check is always a miss, regardless of your total result."
+										"相反的，在攻擊檢定中骰出天然1（d20的骰面擲出了1），則代表無論你的檢定總和如何，該次攻擊檢定都必定會失手。"
 									]
 								},
 								{
@@ -5540,10 +5540,10 @@
 									"type": "entries",
 									"translate_name": "掩護", "name": "Cover",
 									"entries": [
-										"Targets may also hide behind obstructions to gain {@b cover} against your attacks. Obstructions that do not physically block attacks but simply make the target harder to perceive—such as lighting, fog, or foliage—provide concealment rather than cover.",
-										"{@b Partial Cover} applies a –2 circumstance penalty to your attack check. It generally means about half of the target is behind cover, such as around a corner, behind a tree or pillar, or a low wall.",
-										"{@b Total Cover} applies a –5 circumstance penalty to your attack check, with three-quarters or more of the target behind cover, like a narrow window, or crouched behind a wall. If a target is completely behind cover, then you cannot attack that target (although you can attack the cover itself).",
-										"Cover also grants a circumstance bonus to Dodge resistance checks against area effects equal to its penalty to attack checks, so long as the target has cover with respect to the origin point of the effect. So someone behind total cover also gains a +5 to Dodge checks against area effects."
+										"你的攻擊目標也可能會躲藏在障礙物後面，以獲得針對你攻擊的掩護效益。然而，那些無法在物理上阻擋攻擊，而僅僅是使目標更難以被感知的掩體──例如強光、濃霧、或樹叢──只會提供遮蔽的效益，而非掩護。",
+										"{@b 半掩護} 將會對你的攻擊檢定造成 –2的情境罰值。這通常意味著目標大約一半的身體處於掩體後方，像是轉角、樹木或柱子、或矮牆。",
+										"{@b 全掩護} 將會對你的攻擊檢定造成 –5的情境罰值，代表著目標大約四分之三或以上的部分處於掩體後方．例如窄窗、或蜷縮在牆後。若目標完全處於掩體後方，則你將無法攻擊該目標（儘管你仍可以攻擊掩體本身）。",
+										"掩護也會使目標在對抗範圍效果時所進行的閃避抵抗檢定獲得情境加值，其數值等同於其對攻擊造成的情境罰值。但前提是目標對於該範圍效果的源點而言必須具有掩護。因此，對於範圍效果處於全掩護的角色，將會在對抗該範圍效果時所進行的閃避抵抗檢定中獲得+5的情境加值。"
 									]
 								},
 								{
@@ -5566,13 +5566,13 @@
 						},
 						{
 							"type": "entries",
-							"name": "Defenses",
+							"translate_name": "防禦", "name": "Defenses",
 							"entries": [
 								"Your {@b defenses} determine how difficult it is to hit you with various attacks. Most attacks target your active defenses, Dodge and Parry: close attacks target Parry while ranged attacks target Dodge.",
 								"You add your defense rank to a base value of 10 (like a routine check) to determine your Defense class against an attack, which is the DC of the attack check:",
 								{
 									"type": "middleEnhance",
-									"text": "Defense Class = defense + 10"
+									"text": "防禦層級 = 防禦屬性 + 10"
 								},
 								"So a hero with Parry 11 has a defense class of 21 (11 + 10) against close attacks. If the same hero has Dodge 9, that is a defense class of 19 (9 + 10) against ranged attacks.",
 								{
@@ -5590,7 +5590,7 @@
 										"A successful attack has some {@b effect} on the target. Typically this is an effect from the {@rule Powers|basic|6}, such as damage or Affliction. The effect has a rank, used to determine a difficulty class for the target’s resistance check.",
 										{
 											"type": "middleEnhance",
-											"text": "Resistance Difficulty = effect rank + 10"
+											"text": "抵抗難度 = 效果等級 + 10"
 										},
 										"The target of the attack makes a resistance check against the effect to determine what, if anything, happens.",
 										{
