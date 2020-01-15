@@ -326,7 +326,7 @@
 									"4", "800 磅", "2 分鐘", "500 呎", "15 立方呎"
 								],
 								[
-									"5", "1,600 磅", "4 分鐘", "90 呎", "30 立方呎"
+									"5", "1,600 磅", "4 分鐘", "900 呎", "30 立方呎"
 								],
 								[
 									"6", "3,200 磅", "8 分鐘", "1,800 呎", "60 立方呎"
@@ -1256,12 +1256,12 @@
 									"type": "entries",
 									"translate_name": "超能力階級＆非玩家角色", "name": "Power Level & Non-player Characters",
 									"entries": [
-										"While the GM should keep the power level guidelines and suggested starting Character points of the series in mind while creating villains and members of the supporting cast, non-player characters are not restricted by the series power level and are built on as many Character points as the GM wants to give them. In other words, there is no need to add up the “cost” of a non-player character. Just assign the appropriate traits at the desired ranks.",
-										"Determine an NPC’s effective power level based on the character’s highest appropriate offensive and defensive trait(s). This power level is simply an approximation to show what level of challenge that NPC offers, and is not necessarily related to the NPC’s Character point total, which may be greater than or less than the recommended starting Character points for that power level.",
+										"儘管GM在創建反派和配角時，確實需要將超能力階級準則和劇集的建議起始角色點謹記在心，但實際上，非玩家角色並不受到劇集超能力階級的限制，且GM可以隨心所欲的使用任意數量的角色點以建構他們。換句話說，GM並不需要計算加總非玩家角色的「花費」，只需要簡單的分配合適的數據與相應等級即可。",
+										"NPC的實質超能力階級是由該角色最高的攻擊手段和防禦數據所決定的。這個超能力階級單純只是用以大致表示這名NPC所帶來的挑戰程度，且它不需要參照該名NPC所花費的角色點總和，因此其角色點總和可能會超過或低於其超能力階級所對應的建議起始角色點數量。",
 										{
 											"type": "example",
 											"entries": [
-												"The Gamemaster is creating a villain for a power level 10 series. The bad guy has a +8 total attack bonus with a primary attack doing 16 damage. Adding these together and dividing by 2 gives the GM a power level of 12 [(16 + 8)/2]. So long as none of the villain’s other traits exceed this, the GM notes the villain’s power level as 12, a reasonable challenge for a group of PL10 heroes."
+												"遊戲主持人正為了一場超能力階級為10的劇集創造一名反派。這個大壞蛋的主要攻擊手段有著總共+8的攻擊加值，且會造成16級傷害。將其加總並除以2，便能得到12的超能力階級 [(16 + 8)/2]。只要這名反派的其他數據都沒有超過這個數值，GM就可以把這名反派的超能力階級註記為12，對於超能力階級10的英雄團隊們而言，正好是個合理的挑戰。"
 											]
 										}
 									]
@@ -1310,7 +1310,7 @@
 							"type": "entries",
 							"translate_name": "重新分配角色點", "name": "Reallocating Character Points",
 							"entries": [
-								"Normally a hero’s traits are fixed. Once Character points are spent on them, they remain there. In some cases, however, the Gamemaster may allow players to reallocate their characters’ points, changing their traits within the limits of the series power level, perhaps even losing some traits and gaining entirely new ones. This is typically a result of the transformed condition, either due to a power or encountering a transformational effect (intense radiation, mutagenic chemicals, cosmic power sources, and so forth). It’s up to the GM when these character-altering events occur, but they should be fairly rare unless their effects are intended to be temporary complications ."
+								"正常來說，英雄的數據都是固定的。一旦角色點被花費來購買它們，它們就不會再改變。然而，在某些情況下，遊戲主持人可能會允許玩家們重新分配他們的角色點，在劇集超能力階級限制的範圍內改變調整他們英雄的數據，或甚至放棄某些數據以獲得其他嶄新的能力。通常，這會是{@condition 被變化}狀態導致的情況，也許是因為某個超能力、或是因為遭遇到某個轉變性質效果的影響（強烈輻射、變異化合物、宇宙能量源、等等）。GM將決定這些能夠改變角色的事件會在何時發生，但除非這些影響僅僅是被作為暫時性的糾葛難題，否則這些事件通常應該相當罕見。"
 							]
 						}
 					]
@@ -4534,13 +4534,13 @@
 				},
 				{
 					"type": "section",
-					"name": "Headquarters",
+					"translate_name": "超級總部", "name": "Headquarters",
 					"entries": [
 						"Whether it’s an underground cave, the top floors of a skyscraper, a satellite in orbit, or a base on the Moon, many heroes and villains maintain their own secret (or not so secret) headquarters. Teams may even pool their equipment points to have a headquarters they share, with the Gamemaster’s approval.",
 						"A character can even have multiple bases of operation (see Alternate Headquarters later in this section). This is more common for villains, who have back-up plans and secret bases they can retreat to when their plans are defeated. If a character’s headquarters is destroyed, the character can choose to rebuild it or build a new headquarters with different features using the same equipment points. Supervillains often go through a succession of different lairs.",
 						{
 							"type": "entries",
-							"name": "Headquarters Traits",
+							"translate_name": "超級總部的數據", "name": "Headquarters Traits",
 							"entries": [
 								"Headquarters  have  two  main  traits—Size  and  Toughness—and a number of possible Features. Each of these costs equipment points.",
 								{
@@ -4552,21 +4552,21 @@
 								},
 								{
 									"type": "entries",
-									"name": "Toughness",
+									"translate_name": "堅實屬性", "name": "Toughness",
 									"entries": [
-										"A  headquarters’ Toughness  indicates  the  strength  of  its structural materials, particularly its outer structure (walls, ceiling, etc.). A structure starts out with Toughness 6 for 0 points. +2 Toughness costs 1 equipment point."
+										"超級總部的堅實屬性代表著它建築材質的強度，尤其是它的外部結構強度（牆壁、天花板等等）。建築物的起始堅實屬性為6級，每1點裝備點可以使其堅實屬性+2級。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Power Level",
+									"translate_name": "超能力階級", "name": "Power Level",
 									"entries": [
-										"Some  features  refer  to  a  headquarters’  power  level.  For player characters, this is the power level of the series overall. For non-player characters, particularly villains, this is the base-owner’s effective power level, or whatever power level the GM wishes to set, using the series power level as a guideline."
+										"有些特色會參考超級總部的超能力階級。對於玩家角色來說，這就是劇集整體的超能力階級。對於非玩家角色，特別是反派角色而言，這個數值則會是該根據地擁有者的實質超能力等級、或者任何GM所希望設定的超能力等級。GM可以依據劇集超能力階級做為設定的參考。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Features",
+									"translate_name": "特色", "name": "Features",
 									"entries": [
 										"A headquarters may have a number of features, chosen from the list below. A headquarters automatically has the basic structural amenities like doors and windows, power outlets, utilities, and so forth at no cost. Each feature costs 1  equipment  point.  You  can  invent  additional  features, basing them off the ones given here, with the permission of the Gamemaster.",
 										{
@@ -4800,7 +4800,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sample Headquarters",
+							"translate_name": "範例超級總部", "name": "Sample Headquarters",
 							"entries": [
 								"Gamemasters can use the following sample headquarters as ready-made lairs for supervillains while players can use them as bases for their heroes.",
 								{

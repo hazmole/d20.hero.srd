@@ -326,7 +326,7 @@
 									"4", "800 lbs", "2 minutes", "500 feet", "15 cft."
 								],
 								[
-									"5", "1,600 lbs", "4 minutes", "90 feet", "30 cft."
+									"5", "1,600 lbs", "4 minutes", "900 feet", "30 cft."
 								],
 								[
 									"6", "3,200 lbs", "8 minutes", "1,800 feet", "60 cft."
@@ -1310,7 +1310,7 @@
 							"type": "entries",
 							"name": "Reallocating Character Points",
 							"entries": [
-								"Normally a hero’s traits are fixed. Once Character points are spent on them, they remain there. In some cases, however, the Gamemaster may allow players to reallocate their characters’ points, changing their traits within the limits of the series power level, perhaps even losing some traits and gaining entirely new ones. This is typically a result of the transformed condition, either due to a power or encountering a transformational effect (intense radiation, mutagenic chemicals, cosmic power sources, and so forth). It’s up to the GM when these character-altering events occur, but they should be fairly rare unless their effects are intended to be temporary complications ."
+								"Normally a hero’s traits are fixed. Once Character points are spent on them, they remain there. In some cases, however, the Gamemaster may allow players to reallocate their characters’ points, changing their traits within the limits of the series power level, perhaps even losing some traits and gaining entirely new ones. This is typically a result of the {@condition transformed} condition, either due to a power or encountering a transformational effect (intense radiation, mutagenic chemicals, cosmic power sources, and so forth). It’s up to the GM when these character-altering events occur, but they should be fairly rare unless their effects are intended to be temporary complications ."
 							]
 						}
 					]
