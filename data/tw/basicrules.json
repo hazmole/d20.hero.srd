@@ -2889,75 +2889,75 @@
 						},
 						{
 							"type": "entries",
-							"name": "Inventing",
+							"translate_name": "發明", "name": "Inventing",
 							"entries": [
-								"Characters with the Inventor advantage can create inventions, temporary devices. To create an invention, the inventor defines its effects and its cost in Character points. This cost is used for the necessary skill checks, and determines the time required to create the invention. Inventions are subject to the same power level limits as other effects in the series.",
+								"擁有{@advantage 發明家}特長的角色能夠發明，創造出暫時性的裝置。當創造一個新發明時，發明者將會定義該裝置的效果，以及它所花費的角色點。其花費角色點的數值將會被用於之後的技能檢定中，且會用以決定創造該發明所需的時間。跟其他效果一樣，這個發明也同樣會受到劇集超能力階級的限制。",
 								{
 									"type": "entries",
-									"name": "Design Check",
+									"translate_name": "設計檢定", "name": "Design Check",
 									"entries": [
-										"First, the inventor must design the invention. This is a Technology skill check the GM should make in secret. The DC is 10 + the invention’s total Character point cost, including all modifiers except Removable, which does not apply to inventions, as they are temporary by nature.",
-										"Designing an invention requires an hour’s work per Character point of the invention’s cost. You can make a routine check to design an invention. You can reduce the rank of the design time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
+										"首先，發明者必須先設計出該發明物。這將會是一個由GM秘密進行的{@skill 科技}技能檢定。DC為10 + 發明物的角色點總和（包括它除了{@modifier 可被移除}以外的修飾符修正，{@modifier 可被移除}修飾符並不能應用於發明物，因為它本身就只是暫時性的裝置）。",
+										"設計一個發明物需要花費相當長的時間，該發明物每花費一點角色點就會需要一個小時的時間設計。你能夠以例行檢定的方式設計發明物。你也可以藉由承受罰值以降低設計所需的時間，你每使設計所需的時間-1時間等級，就必須在設計檢定中承受-5的情境罰值。",
 										{
 											"type": "middleEnhance",
-											"text": "Design Check = DC 10 + invention’s point cost"
+											"text": "設計檢定 = DC 10 + 發明物的角色點花費"
 										},
-										"If the check is successful, you have a design for the invention. If the check fails, the design is flawed and you must start over. With three or more degrees of failure, the designer is not aware of the design flaw; the design seems correct, but the invention won’t function (or at least won’t function properly) when it’s used. For this reason, the GM should make the design check secretly and only inform the player whether or not the character appears to have succeeded."
+										"若該檢定成功，則你將得到該發明物的設計圖。若該檢定失敗，則其設計圖中有著瑕疵，且你必須重新開始設計。若你在該檢定中得到了三個或以上程度的失敗，則設計者將不會注意到這個瑕疵；儘管這設計圖看上去正確無比，但按照該設計圖製作的發明物在被使用時將不會發揮作用（或至少不能正常作用）。因為這個原因，GM需要秘密地進行這個設計檢定，且只告訴玩家角色的設計行動看起來是否成功。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Construction Check",
+									"translate_name": "構築檢定", "name": "Construction Check",
 									"entries": [
-										"Once the design is inhand, the character can construct the invention. This requires four hours of work per Character point of the invention’s cost, so an invention costing 10 points takes 40 hours (about a week’s work normally, or working two days straight without rest) to construct. When the construction time is complete, make a Technology skill check. The DC is 10 + the invention’s Character point cost and you can make it as a routine check. You can reduce the rank of the construction time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
+										"一旦有了設計圖，角色就可以開始構築出該發明物。這個過程需要花費相當大量的時間，該發明物每花費一點角色點就會需要四個小時的時間構築。因此構築一個價值10點的發明物將需要花費40個小時的時間（大約一個禮拜的正常工作時間、或徹夜不休工作兩天）。當構築發明物的過程結束，進行一次{@skill 科技}技能檢定。DC為10 + 發明物的角色點總和，且你能夠以例行檢定的方式來進行該檢定。你也可以藉由承受罰值以降低構築所需的時間，你每使構築所需的時間-1時間等級，就必須在構築檢定中承受-5的情境罰值。",
 										{
 											"type": "middleEnhance",
-											"text": "Construction Check = DC 10 + invention’s point cost"
+											"text": "構築檢定 = DC 10 + 發明物的角色點花費"
 										},
-										"Success means the invention is complete and functional. Failure means the invention doesn’t work. Three or more degrees of failure may result in a mishap, at the GM’s discretion."
+										"成功代表著該發明物被成功的建構出來且功能齊全。失敗則代表該發明物無法發揮作用。根據GM的裁斷，三個或以上程度的失敗則可能會導致一場意外事故。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Using the Invention",
+									"translate_name": "使用發明物", "name": "Using the Invention",
 									"entries": [
-										"Once the invention is complete, it is good for use in one scene, after which it breaks down or runs out of power. If the character wishes to use the invention again, there are two options.",
-										"The first is to spend the necessary Character points to acquire the invention as a regular power, part of the character’s traits; in this case, the device qualifies for the Removable flaw and, once purchased, can be used again like any power.",
-										"The other option is to spend a Victory point to get another one-scene use out of the invention. Each use costs an additional Victory point, but doesn’t require any further skill checks.",
-										"Although it’s possible to prepare certain one-use devices in advance, the GM should require the player to spend a Victory point to have a particular previously constructed invention conveniently on-hand during an adventure.",
+										"一旦發明物被完成，它將能在一個場景中被使用，在這之後，它將會故障損壞、或是耗盡電量。若角色希望再次使用該發明物，則它們有兩個選擇：",
+										"第一個選項，是將該發明物做為一個尋常超能力，花費足夠的角色點來購買獲得；在這種情況下，這個裝置將能夠應用{@modifier 可被移除}缺陷，且一旦被購買，該裝置就能被像任何其他超能力一樣被正常使用。",
+										"另一個選項則是花費一點勝利點，以使該發明物獲得另一個場景期間的使用額度。每追加一次使用額度都需要再花費一點額外的勝利點，但不需要再進行任何技能檢定。",
+										"儘管提前準備某些單次使用的裝置是確實可行的做法，但若玩家想要在一場冒險中拿出一個以前曾經構築過的特定發明物，則GM應該要求玩家為此支付一點勝利點。",
 										{
 											"type": "example",
 											"entries": [
-												"Your hero needs to whip up a mind-shielding device to confront the bad guy, who has seized control of his teammates. Immunity to Mind Control (a common Affliction effect) cost 5 Character points, so the Technology check is DC 15 (10 + 5) and takes 5 hours. Your hero’s skill bonus is +15, so he succeeds automatically. The construction check is also DC 15 (10 + the device’s cost). It takes 20 hours. Your hero again succeeds automatically on the check. However, that’s 25 hours total to build the mind-shield, and the bad guy plans to send his new “puppets” into action in just a few hours. Even taking a –15 check penalty to cut the time to one-eighth only takes it down to just over three hours. Your hero needs that device right now, so he’s going to need to speed things up…."	
+												"你的英雄需要趕工出一個心靈護盾裝置以對抗那名已經控制住隊友的邪惡壞蛋。{@effect 免疫}於心靈控制（一個常見的{@effect 詛咒}效果）需要花費 5點角色點，因此設計發明的科技檢定的DC將會是 15 (10 + 5)，且會花費 5個小時的時間。你的英雄的技能加值為+15，因此他能夠藉由例行檢定使該檢定自動成功。構築檢定同樣為DC 15 (10 + 該裝置的花費)，且構築過程會花上20小時。你的英雄仍然可以自動通過該檢定，然而這麼一來，建造這個心靈護盾總共需要花費25的小時，而那個壞蛋差不多在幾個小時之後就預計出動他新到手的「傀儡」去大肆破壞！即使選擇承受-15的情境罰值以將時間縮減到原本的八分之一，仍會花上超過三個小時的時間。你的英雄現在立刻就需要這個裝置，因此他得再加快速度……"	
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Jury-rigging Devices",
+									"translate_name": "應急裝置", "name": "Jury-rigging Devices",
 									"entries": [
-										"An inventor can choose to spend a Victory point to jury-rig a device; ideal for when a particular device is needed right now. When jury-rigging a device, skip the design check and reduce the time of the construction check to one round per Character point of the device’s cost, but increase the DC of the check by +5. The inventor makes the check and, if successful, has use of the device for one scene before it burns out, falls apart, blows up, or otherwise fails. You can’t jury-rig an invention as a routine check, nor can you speed up the process any further by taking a check penalty. You can use a jury-rigged invention again by spending another Victory point.",
+										"發明者也可以選擇花費一點勝利點以製造出一件應急裝置；這在當下迫切需要某個特定裝置時是個相當理想的選擇。當製造應急裝置時，略過設計檢定，並降低構築過程所需的時間，改為該裝置的每一點角色點需要一輪（6秒）的時間，但相對的，構築檢定的DC將會+5。發明者進行構築檢定，且若檢定成功，將可以在該裝置燒毀、崩壞、爆炸或其他原因故障之前，於一個場景期間使用它。你不能以例行檢定的方式構築應急裝置，你也不能藉由承受檢定罰值的方式進一步加速構築過程。你可以藉由消耗另一點勝利點以再次使用應急裝置。",
 										{
 											"type": "example",
 											"entries": [
-												"Needing to get the mind shield device ready right away, you decide to spend a Victory point to jury-rig it. You skip the design step altogether and reduce construction time to 5 rounds (just under a minute). The DC of the construction check increases to 20, but still well within your hero’s skill; you only needs to roll a 5 or better. You roll a 25 on the check and, a minute later, you have a makeshift mind-shield you hope will protect your hero from the bad guys power long enough to try and free his teammates from the villain’s influence."	
+												"由於你現在就需要準備好心靈護盾裝置，因此你決定花費一點角色點以應急製造。你略過整個設計步驟，並將構築過程的時間降低至 5輪（1分鐘以內）。構築檢定的DC將增加至20，但這仍在你英雄技能等級所能應付的範圍內；你只需要骰出5或更高就好。你得到了25的檢定結果，然後，在大約一分鐘後，你得到了一個臨時拼湊而成的心靈護盾裝置，希望這個裝置能夠保護你不受壞蛋超能力的影響，爭取到足夠的時間讓你解救處於反派控制下的隊友們。"	
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Mishaps",
+									"translate_name": "意外事故", "name": "Mishaps",
 									"entries": [
-										"At the GM’s discretion, three or more degrees of failure, or a natural roll of 1, on any required inventing skill check may result in some unexpected side-effect or mishap. Exactly what depends heavily on the invention. Inventing mishaps can become a source of adventure ideas and put the heroes in some difficult situations. They may also be setbacks, suitable for Victory point awards."
+										"根據GM的裁斷，三個或以上程度的失敗、或在任何發明所需的技能檢定中骰出了天然1，都可能會導致某些意料之外的副作用或意外事故。確切來說，會發生什麼意外有很大部分會取決於發明物本身。發明事故可以做為冒險概念的靈感來源，並讓英雄們陷入困境之中。它們也可能會被當作挫敗難題，並讓玩家們藉此獲得勝利點做為獎勵。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Magical Inventions",
+									"translate_name": "魔法發明物", "name": "Magical Inventions",
 									"entries": [
-										"For magical, rather than technological, inventions, use the normal inventing rules, but substitute the Expertise: Magic skill for the Technology skill on the design and construction checks."
+										"對於那些屬於魔法，而非科技的發明物而言，它們仍使用正常的發明規則，但在進行設計和構築檢定時，會以{@skill Expertise|專業: 魔法}技能取代原本的{@skill 科技}技能。"
 									]
 								}
 							]

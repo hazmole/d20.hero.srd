@@ -2891,12 +2891,12 @@
 							"type": "entries",
 							"name": "Inventing",
 							"entries": [
-								"Characters with the Inventor advantage can create inventions, temporary devices. To create an invention, the inventor defines its effects and its cost in Character points. This cost is used for the necessary skill checks, and determines the time required to create the invention. Inventions are subject to the same power level limits as other effects in the series.",
+								"Characters with the {@advantage Inventor} advantage can create inventions, temporary devices. To create an invention, the inventor defines its effects and its cost in Character points. This cost is used for the necessary skill checks, and determines the time required to create the invention. Inventions are subject to the same power level limits as other effects in the series.",
 								{
 									"type": "entries",
 									"name": "Design Check",
 									"entries": [
-										"First, the inventor must design the invention. This is a Technology skill check the GM should make in secret. The DC is 10 + the invention’s total Character point cost, including all modifiers except Removable, which does not apply to inventions, as they are temporary by nature.",
+										"First, the inventor must design the invention. This is a {@skill Technology} skill check the GM should make in secret. The DC is 10 + the invention’s total Character point cost, including all modifiers except {@modifier Removable}, which does not apply to inventions, as they are temporary by nature.",
 										"Designing an invention requires an hour’s work per Character point of the invention’s cost. You can make a routine check to design an invention. You can reduce the rank of the design time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
 										{
 											"type": "middleEnhance",
@@ -2909,7 +2909,7 @@
 									"type": "entries",
 									"name": "Construction Check",
 									"entries": [
-										"Once the design is inhand, the character can construct the invention. This requires four hours of work per Character point of the invention’s cost, so an invention costing 10 points takes 40 hours (about a week’s work normally, or working two days straight without rest) to construct. When the construction time is complete, make a Technology skill check. The DC is 10 + the invention’s Character point cost and you can make it as a routine check. You can reduce the rank of the construction time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
+										"Once the design is inhand, the character can construct the invention. This requires four hours of work per Character point of the invention’s cost, so an invention costing 10 points takes 40 hours (about a week’s work normally, or working two days straight without rest) to construct. When the construction time is complete, make a {@skill Technology} skill check. The DC is 10 + the invention’s Character point cost and you can make it as a routine check. You can reduce the rank of the construction time, taking a –5 circumstance penalty on the check for each –1 time rank reduction.",
 										{
 											"type": "middleEnhance",
 											"text": "Construction Check = DC 10 + invention’s point cost"
@@ -2922,13 +2922,13 @@
 									"name": "Using the Invention",
 									"entries": [
 										"Once the invention is complete, it is good for use in one scene, after which it breaks down or runs out of power. If the character wishes to use the invention again, there are two options.",
-										"The first is to spend the necessary Character points to acquire the invention as a regular power, part of the character’s traits; in this case, the device qualifies for the Removable flaw and, once purchased, can be used again like any power.",
+										"The first is to spend the necessary Character points to acquire the invention as a regular power, part of the character’s traits; in this case, the device qualifies for the {@modifier Removable} flaw and, once purchased, can be used again like any power.",
 										"The other option is to spend a Victory point to get another one-scene use out of the invention. Each use costs an additional Victory point, but doesn’t require any further skill checks.",
 										"Although it’s possible to prepare certain one-use devices in advance, the GM should require the player to spend a Victory point to have a particular previously constructed invention conveniently on-hand during an adventure.",
 										{
 											"type": "example",
 											"entries": [
-												"Your hero needs to whip up a mind-shielding device to confront the bad guy, who has seized control of his teammates. Immunity to Mind Control (a common Affliction effect) cost 5 Character points, so the Technology check is DC 15 (10 + 5) and takes 5 hours. Your hero’s skill bonus is +15, so he succeeds automatically. The construction check is also DC 15 (10 + the device’s cost). It takes 20 hours. Your hero again succeeds automatically on the check. However, that’s 25 hours total to build the mind-shield, and the bad guy plans to send his new “puppets” into action in just a few hours. Even taking a –15 check penalty to cut the time to one-eighth only takes it down to just over three hours. Your hero needs that device right now, so he’s going to need to speed things up…."	
+												"Your hero needs to whip up a mind-shielding device to confront the bad guy, who has seized control of his teammates. {@effect Immunity} to Mind Control (a common {@effect Affliction} effect) cost 5 Character points, so the Technology check is DC 15 (10 + 5) and takes 5 hours. Your hero’s skill bonus is +15, so he succeeds automatically. The construction check is also DC 15 (10 + the device’s cost). It takes 20 hours. Your hero again succeeds automatically on the check. However, that’s 25 hours total to build the mind-shield, and the bad guy plans to send his new “puppets” into action in just a few hours. Even taking a –15 check penalty to cut the time to one-eighth only takes it down to just over three hours. Your hero needs that device right now, so he’s going to need to speed things up…."	
 											]
 										}
 									]
@@ -2957,7 +2957,7 @@
 									"type": "entries",
 									"name": "Magical Inventions",
 									"entries": [
-										"For magical, rather than technological, inventions, use the normal inventing rules, but substitute the Expertise: Magic skill for the Technology skill on the design and construction checks."
+										"For magical, rather than technological, inventions, use the normal inventing rules, but substitute the {@skill Expertise|Expertise: Magic} skill for the {@skill Technology} skill on the design and construction checks."
 									]
 								}
 							]
