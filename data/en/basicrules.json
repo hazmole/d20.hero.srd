@@ -2362,6 +2362,89 @@
 										["{@advantage Weapon Break}", "Free smash attack when you actively defend."]
 									]
 								},
+								{
+									"type": "table",
+									"caption": "Fortune Advantages",
+									"colLabels": [
+										"Advantage",
+										"Effect"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage Beginner’s Luck}", "Spend a victory point to gain 5 temporary ranks in a skill."],
+										["{@advantage Inspire}", "Spend a victory point to grant allies a +1 circumstance bonus per rank."],
+										["{@advantage Leadership}", "Spend a victory point to remove a condition from an ally."],
+										["{@advantage Luck}", "Re-roll a die roll once per rank."],
+										["{@advantage Seize Initiative}", "Spend a victory point to go first in the initiative order."],
+										["{@advantage Ultimate Effort}", "Spend a victory point to get an effective 20 on a specific check."]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "General Advantages",
+									"colLabels": [
+										"Advantage",
+										"Effect"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage Assessment}", "Use Insight to learn an opponent’s combat capabilities."],
+										["{@advantage Benefit}", "Gain a significant perquisite or fringe benefit."],
+										["{@advantage Diehard}", "Automatically stabilize when dying."],
+										["{@advantage Eidetic Memory}", "Total recall, +5 circumstance bonus to remember things."],
+										["{@advantage Equipment}", "5 points of equipment per rank."],
+										["{@advantage Extraordinary Effort}", "Gain two benefits when using extra effort."],
+										["{@advantage Fearless}", "Immune to fear effects."],
+										["{@advantage Great Endurance}", "+5 on checks involving endurance."],
+										["{@advantage Instant Up}", "Stand from prone as a free action."],
+										["{@advantage Interpose}", "Take an attack meant for an ally."],
+										["{@advantage Minion}", "Gain a follower or minion with (15 x rank) power points."],
+										["{@advantage Second Chance}", "Re-roll a failed check against a hazard once."],
+										["{@advantage Sidekick}", "Gain a sidekick with (5 x rank) power points."],
+										["{@advantage Teamwork}", "+5 bonus to support team checks."],
+										["{@advantage Trance}", "Go into a deathlike trance that slows bodily functions."]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Skill Advantages",
+									"colLabels": [
+										"Advantage",
+										"Effect"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage Agile Feint}", "Feint using Acrobatics skill or movement speed."],
+										["{@advantage Animal Empathy}", "Use interaction skills normally with animals."],
+										["{@advantage Artificer}", "Use Expertise: Magic to create temporary magical devices."],
+										["{@advantage Attractive}", "Circumstance bonus to interaction based on your looks."],
+										["{@advantage Connected}", "Call in assistance or favors with a Persuasion check."],
+										["{@advantage Contacts}", "Make an initial Investigation check in one minute."],
+										["{@advantage Daze}", "Use Deception or Intimidation to daze an opponent."],
+										["{@advantage Fascinate}", "Use an interaction skill to entrance others."],
+										["{@advantage Favored Foe}", "Circumstance bonus to checks against a type of opponent."],
+										["{@advantage Hide in Plain Sight}", "Hide while observed without need for a diversion."],
+										["{@advantage Improvised Tools}", "No penalty for using skills without tools."],
+										["{@advantage Inventor}", "Use Technology to create temporary devices."],
+										["{@advantage Jack-of-all-trades}", "Use any skill untrained."],
+										["{@advantage Languages}", "Speak and understand additional languages."],
+										["{@advantage Ritualist}", "Use Expertise: Magic to create and perform rituals."],
+										["{@advantage Skill Mastery}", "Make routine checks with one skill under any conditions."],
+										["{@advantage Startle}", "Use Intimidation to feint in combat."],
+										["{@advantage Taunt}", "Use Deception to demoralize in combat."],
+										["{@advantage Tracking}", "Use Perception to follow tracks."],
+										["{@advantage Well-informed}", "Immediate Investigation or Persuasion check to know something."]
+									]
+								},
 								"For each advantage description, see {@5etools Advantages|advantages.html} page."
 							]
 						}

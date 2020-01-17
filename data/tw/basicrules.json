@@ -2305,7 +2305,7 @@
 										"{@b 戰鬥類特長} 在戰鬥中非常實用，且經常會修改各種戰技的施展方式。",
 										"{@b 運氣類特長} 需要消耗勝利點，並會增進它們使用時的效益。",
 										"{@b 泛用類特長} 會提供一些不屬於其他類別的特殊能力或加值。",
-										"{@b 既能類特長} 會為技能的使用提供加值或修改。"
+										"{@b 技能類特長} 會為技能的使用提供加值或修改。"
 									]
 								}
 							]
@@ -2320,46 +2320,129 @@
 									"caption": "戰鬥類特長",
 									"colLabels": [
 										"特長",
-										"效果"
+										"效果簡述"
 									],
 									"colStyles": [
 										"col-3 text-align-center",
 										"col-9"
 									],
 									"rows": [
-										["{@advantage Accurate Attack}", "Trade effect DC for attack bonus."],
-										["{@advantage All-out Attack}", "Trade active defense for attack bonus."],
-										["{@advantage Chokehold}", "Suffocate an opponent you have successfully grabbed."],
-										["{@advantage Close Attack}", "+1 bonus to close attack checks per rank."],
-										["{@advantage Defensive Attack}", "Trade attack bonus for active defense bonus."],
-										["{@advantage Defensive Roll}", "+1 active defense bonus to Toughness per rank."],
-										["{@advantage Evasion}", "Circumstance bonus to avoid area effects."],
-										["{@advantage Fast Grab}", "Make a free grab check after an unarmed attack."],
-										["{@advantage Favored Environment}", "Circumstance bonus to attack or defense in an environment."],
-										["{@advantage Grabbing Finesse}", "Substitute Dex for Str when making grab attacks."],
-										["{@advantage Improved Aim}", "Double circumstance bonuses for aiming."],
-										["{@advantage Improved Critical}", "+1 to critical threat range with an attack per rank."],
-										["{@advantage Improved Defense}", "+2 bonus to active defense when you take the defend action."],
-										["{@advantage Improved Disarm}", "No penalty for the disarm action."],
-										["{@advantage Improved Grab}", "Make grab attacks with one arm. Not vulnerable while grabbing."],
-										["{@advantage Improved Hold}", "–5 circumstance penalty to escape from your holds."],
-										["{@advantage Improved Initiative}", "+4 bonus to initiative checks per rank."],
-										["{@advantage Improved Smash}", "No penalty for the smash action."],
-										["{@advantage Improved Trip}", "No penalty for the trip action."],
-										["{@advantage Improvised Weapon}", "Use Unarmed Combat skill with improvised weapons, +1 damage bonus."],
-										["{@advantage Move-by Action}", "Move both before and after your standard action."],
-										["{@advantage Power Attack}", "Trade attack bonus for effect bonus."],
-										["{@advantage Precise Attack}", "Ignore attack check penalties for either cover or concealment."],
-										["{@advantage Prone Fighting}", "No penalties for fighting while prone."],
-										["{@advantage Quick Draw}", "Draw a weapon as a free action."],
-										["{@advantage Ranged Attack}", "+1 bonus to ranged attack checks per rank."],
-										["{@advantage Redirect}", "Use Deception to redirect a missed attack at another target."],
-										["{@advantage Set-up}", "Transfer the benefit of an interaction skill to an ally."],
-										["{@advantage Takedown}", "Free extra attack when you incapacitate a minion."],
-										["{@advantage Throwing Mastery}", "+1 damage bonus with thrown weapons per rank."],
-										["{@advantage Uncanny Dodge}", "Not vulnerable when surprised or caught off-guard."],
-										["{@advantage Weapon Bind}", "Free disarm attempt when you actively defend."],
-										["{@advantage Weapon Break}", "Free smash attack when you actively defend."]
+										["{@advantage 準確攻擊}", "降低效果DC以換取攻擊加值。"],
+										["{@advantage 全力攻擊}", "降低主動防禦以換取攻擊加值。"],
+										["{@advantage 鎖喉}", "讓一名你成功擒抱的對手窒息。"],
+										["{@advantage 近距離攻擊}", "近身攻擊檢定獲得每級+1加值。"],
+										["{@advantage 防禦性攻擊}", "降低攻擊加值以換取主動防禦加值。"],
+										["{@advantage 受身}", "堅實防禦獲得每級+1的主動防禦加值。"],
+										["{@advantage 範圍躲閃}", "避免受到範圍效果時獲得情境加值。"],
+										["{@advantage 迅速擒抱}", "在一次徒手攻擊之後以一個自由動作進行擒抱。"],
+										["{@advantage 偏好環境}", "在某個環境下能獲得對攻擊或防禦的情境加值。"],
+										["{@advantage 擒抱巧勁}", "在進行擒抱攻擊時，改為使用靈巧屬性以取代力量屬性。"],
+										["{@advantage 精通瞄準}", "瞄準時獲得的情境加值變為二倍。"],
+										["{@advantage 精通暴擊}", "攻擊的暴擊威脅範圍每級+1。"],
+										["{@advantage 精通防守}", "你在採取防守動作時，主動防禦獲得+2加值。"],
+										["{@advantage 精通繳械}", "No penalty for the disarm action."],
+										["{@advantage 精通擒抱}", "Make grab attacks with one arm. Not vulnerable while grabbing."],
+										["{@advantage 精通制伏}", "–5 circumstance penalty to escape from your holds."],
+										["{@advantage 精通先攻}", "+4 bonus to initiative checks per rank."],
+										["{@advantage 精通粉碎}", "No penalty for the smash action."],
+										["{@advantage 精通絆摔}", "No penalty for the trip action."],
+										["{@advantage 臨時武器}", "Use Unarmed Combat skill with improvised weapons, +1 damage bonus."],
+										["{@advantage 移動中行動}", "Move both before and after your standard action."],
+										["{@advantage 強力攻擊}", "Trade attack bonus for effect bonus."],
+										["{@advantage 精確攻擊}", "Ignore attack check penalties for either cover or concealment."],
+										["{@advantage 臥倒戰術}", "No penalties for fighting while prone."],
+										["{@advantage 快速備戰}", "Draw a weapon as a free action."],
+										["{@advantage 遠距離攻擊}", "+1 bonus to ranged attack checks per rank."],
+										["{@advantage 攻擊誘導}", "Use Deception to redirect a missed attack at another target."],
+										["{@advantage 戰術計畫}", "Transfer the benefit of an interaction skill to an ally."],
+										["{@advantage 擊倒}", "Free extra attack when you incapacitate a minion."],
+										["{@advantage 投擲精通}", "+1 damage bonus with thrown weapons per rank."],
+										["{@advantage 奇襲閃避}", "Not vulnerable when surprised or caught off-guard."],
+										["{@advantage 武器奪取}", "Free disarm attempt when you actively defend."],
+										["{@advantage 武器破壞}", "Free smash attack when you actively defend."]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "運氣類特長",
+									"colLabels": [
+										"特長",
+										"效果簡述"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage 新手好運}", "Spend a victory point to gain 5 temporary ranks in a skill."],
+										["{@advantage 激勵}", "Spend a victory point to grant allies a +1 circumstance bonus per rank."],
+										["{@advantage 領導力}", "Spend a victory point to remove a condition from an ally."],
+										["{@advantage 好運}", "Re-roll a die roll once per rank."],
+										["{@advantage 掌握先機}", "Spend a victory point to go first in the initiative order."],
+										["{@advantage 終極之力}", "Spend a victory point to get an effective 20 on a specific check."]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "泛用類特長",
+									"colLabels": [
+										"特長",
+										"效果簡述"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage 評估}", "Use Insight to learn an opponent’s combat capabilities."],
+										["{@advantage 額外優勢}", "Gain a significant perquisite or fringe benefit."],
+										["{@advantage 硬漢}", "Automatically stabilize when dying."],
+										["{@advantage 清晰記憶}", "Total recall, +5 circumstance bonus to remember things."],
+										["{@advantage 裝備}", "5 points of equipment per rank."],
+										["{@advantage 非凡奮力一搏}", "Gain two benefits when using extra effort."],
+										["{@advantage 無懼}", "Immune to fear effects."],
+										["{@advantage 強韌耐性}", "+5 on checks involving endurance."],
+										["{@advantage 瞬間起身}", "Stand from prone as a free action."],
+										["{@advantage 介入阻擋}", "Take an attack meant for an ally."],
+										["{@advantage 嘍囉}", "Gain a follower or minion with (15 x rank) power points."],
+										["{@advantage 二次機會}", "Re-roll a failed check against a hazard once."],
+										["{@advantage 跟班}", "Gain a sidekick with (5 x rank) power points."],
+										["{@advantage 團隊合作}", "+5 bonus to support team checks."],
+										["{@advantage 假死}", "Go into a deathlike trance that slows bodily functions."]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "技能類特長",
+									"colLabels": [
+										"特長",
+										"效果簡述"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage 機動性佯攻}", "Feint using Acrobatics skill or movement speed."],
+										["{@advantage 動物共感}", "Use interaction skills normally with animals."],
+										["{@advantage 魔器工匠}", "Use Expertise: Magic to create temporary magical devices."],
+										["{@advantage 迷人}", "Circumstance bonus to interaction based on your looks."],
+										["{@advantage 人脈}", "Call in assistance or favors with a Persuasion check."],
+										["{@advantage 情報網}", "Make an initial Investigation check in one minute."],
+										["{@advantage 惑人干擾}", "Use Deception or Intimidation to daze an opponent."],
+										["{@advantage 神魂顛倒}", "Use an interaction skill to entrance others."],
+										["{@advantage 宿敵}", "Circumstance bonus to checks against a type of opponent."],
+										["{@advantage 隨處藏匿}", "Hide while observed without need for a diversion."],
+										["{@advantage 即興工具}", "No penalty for using skills without tools."],
+										["{@advantage 發明家}", "Use Technology to create temporary devices."],
+										["{@advantage 萬事通}", "Use any skill untrained."],
+										["{@advantage 語言}", "Speak and understand additional languages."],
+										["{@advantage 儀式祭司}", "Use Expertise: Magic to create and perform rituals."],
+										["{@advantage 技能專精}", "Make routine checks with one skill under any conditions."],
+										["{@advantage 驚愕}", "Use Intimidation to feint in combat."],
+										["{@advantage 嘲諷}", "Use Deception to demoralize in combat."],
+										["{@advantage 追跡者}", "Use Perception to follow tracks."],
+										["{@advantage 消息靈通}", "Immediate Investigation or Persuasion check to know something."]
 									]
 								},
 								"關於每個特長的完整說明，請參閱{@5etools 特長|advantages.html}頁面。"
