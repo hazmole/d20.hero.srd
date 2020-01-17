@@ -2782,7 +2782,7 @@
 										{
 											"type": "example",
 											"entries": [
-												"A hero has Protection, which costs 1 point per rank. Protection has two modifiers; the first is the Imperious extra (a +1 point per rank modifier), and the second is the flaw Limited to Blunt Physical Attacks (a –3 points per rank modifier) for a total modifier of –2. Since Protection costs 1 point per rank, the –2 modifier increases the number of ranks per character point, so the final cost is 1 character point per 3 ranks of Impervious Protection Limited to Blunt physical Attacks."
+												"A hero has {@effect Protection}, which costs 1 point per rank. Protection has two modifiers; the first is the {@modifier Impervious} extra (a +1 point per rank modifier), and the second is the flaw {@modifier Limited|Limited to Blunt Physical Attacks} (a –3 points per rank modifier) for a total modifier of –2. Since Protection costs 1 point per rank, the –2 modifier increases the number of ranks per character point, so the final cost is 1 character point per 3 ranks of {@modifier Impervious} {@effect Protection} {@modifier Limited|Limited to Blunt Physical Attacks}."
 											]
 										}
 									]
@@ -2795,7 +2795,7 @@
 										{
 											"type": "example",
 											"entries": [
-												"Marksman’s micro-rockets are a Damage 7 effect. They also explode on impact, for a Burst Area Damage effect, but the Area Damage is only rank 4. So the first 4 ranks of the Marksman’s Damage effect have the Burst Area modifier, costing 1 point more (or 3 per rank). The remaining 3 ranks have their usual cost (2 per rank). Marksman makes a normal ranged attack check against the main target for his micro-rocket launcher; if he hits, the target has to resist Damage 7, and everyone within the area around the target resists Damage 4 (the Area Damage). Even if he misses, the main target has to resist the Area Damage 4, since the micro-rocket explodes close by! In Marksman’s business, it pays to cover your bases…"
+												"Marksman’s micro-rockets are a {@effect Damage|Damage 7} effect. They also explode on impact, for a {@modifier Area|Burst Area} {@effect Damage} effect, but the Area Damage is only rank 4. So the first 4 ranks of the Marksman’s Damage effect have the {@modifier Area|Burst Area} modifier, costing 1 point more (or 3 per rank). The remaining 3 ranks have their usual cost (2 per rank). Marksman makes a normal ranged attack check against the main target for his micro-rocket launcher; if he hits, the target has to resist {@effect Damage|Damage 7}, and everyone within the area around the target resists {@effect Damage|Damage 4} (the Area Damage). Even if he misses, the main target has to resist the Area Damage 4, since the micro-rocket explodes close by! In Marksman’s business, it pays to cover your bases…"
 											]
 										}
 									]
@@ -2804,7 +2804,7 @@
 									"type": "entries",
 									"name": "Flat-value Modifiers",
 									"entries": [
-										"Some modifiers, rather than increasing or decreasing an effect’s cost per rank, have a flat value in character points, noted as {@b flat} in the modifier’s header. For example, the Subtle extra costs only 1 or 2 points, depending on how subtle the effect is. Likewise, the Activation flaw has a flat value of –1 or –2 points, depending on how long the power takes to activate.",
+										"Some modifiers, rather than increasing or decreasing an effect’s cost per rank, have a flat value in character points, noted as {@b flat} in the modifier’s header. For example, the {@modifier Subtle} extra costs only 1 or 2 points, depending on how subtle the effect is. Likewise, the {@modifier Activation} flaw has a flat value of –1 or –2 points, depending on how long the power takes to activate.",
 										"Flat-value modifiers are applied to the final cost of an effect, after its cost per rank and total cost for its number of ranks is determined. So, for example, if an effect costs 2 points per rank, with +1 per rank for extras and –2 per rank for flaws. It has a final adjusted cost of (2 + 1 – 2) or 1 point per rank. With 8 ranks, it costs 8 character points. If the same effect also has a flat-value extra costing 2 points and a flat-value flaw worth –1 point, then you add 2 to the final cost and subtract 1, for a total of (8 points for the effect + 2 points for the flat extra – 1 point for the flat flaw) or 9 character points. ",
 										{
 											"type": "middleEnhance",

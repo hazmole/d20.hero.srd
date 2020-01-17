@@ -49,9 +49,9 @@
 			{
 				"translate_name": "技能", "name": "Skills",
 				"headers": [
-					{ "name": "Skill Basics" },
-					{ "name": "How Skills Work" },
-					{ "name": "Skill Descriptions" }
+					{ "_translate_name": "技能基本規則", "name": "Skill Basics" },
+					{ "_translate_name": "技能的作用方式", "name": "How Skills Work" },
+					{ "_translate_name": "技能說明", "name": "Skill Descriptions" }
 				]
 			},
 			{
@@ -68,41 +68,41 @@
 					{ "translate_name": "效果類型", "name": "Effect Types" },
 					{ "translate_name": "超能力的作用方式", "name": "How Powers Work" },
 					{ "translate_name": "超能力效果", "name": "Power Effects" },
-					{ "_translate_name": "修飾符", "name": "Modifiers" },
+					{ "translate_name": "修飾符", "name": "Modifiers" },
 					{ "translate_name": "描述符", "name": "Descriptors" }
 				]
 			},
 			{
 				"translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 				"headers": [
-					{ "name": "Devices" },
-					{ "name": "Equipment" },
-					{ "name": "General Equipment" },
-					{ "name": "Weapons" },
-					{ "name": "Armor" },
-					{ "name": "Vehicles" },
-					{ "name": "Headquarters" },
-					{ "name": "Constructs" }
+					{ "_translate_name": "裝置", "name": "Devices" },
+					{ "_translate_name": "裝備", "name": "Equipment" },
+					{ "_translate_name": "通用裝備", "name": "General Equipment" },
+					{ "_translate_name": "武器", "name": "Weapons" },
+					{ "_translate_name": "防具", "name": "Armor" },
+					{ "_translate_name": "載具", "name": "Vehicles" },
+					{ "_translate_name": "超級總部", "name": "Headquarters" },
+					{ "_translate_name": "構裝體", "name": "Constructs" }
 				]
 			},
 			{
 				"translate_name": "動作＆冒險", "name": "Action & Adventure",
 				"headers": [
-					{ "name": "Action Rounds" },
-					{ "name": "Challenges" },
-					{ "name": "Conflicts" },
+					{ "_translate_name": "動作輪", "name": "Action Rounds" },
+					{ "_translate_name": "挑戰", "name": "Challenges" },
+					{ "_translate_name": "戰鬥衝突", "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
 					{ "translate_name": "戰技", "name": "Maneuvers" },
-					{ "name": "Recovery" }
+					{ "_translate_name": "回復", "name": "Recovery" }
 				]
 			},
 			{
 				"translate_name": "主持遊戲", "name": "Gamemastering",
 				"headers": [
-					{ "name": "Running the Game" },
-					{ "name": "Creating Adventures" },
-					{ "name": "Creating a Series" },
-					{ "name": "Series Frameworks" }
+					{ "_translate_name": "運行遊戲", "name": "Running the Game" },
+					{ "_translate_name": "創造冒險故事", "name": "Creating Adventures" },
+					{ "_translate_name": "創造劇集", "name": "Creating a Series" },
+					{ "_translate_name": "劇集框架", "name": "Series Frameworks" }
 				]
 			}
 		]
@@ -124,7 +124,7 @@
 							"type": "list",
 							"items":[
 								"這個網站，記載了你創建英雄和遊玩遊戲所需要的所有規則。",
-								"角色卡（可以在{@link https://www.mutantsandmasterminds.com}下載）。",
+								"角色卡（可以在{@link 官方網站|https://www.mutantsandmasterminds.com}下載）。",
 								"一枝筆和幾張紙。",
 								"至少一個二十面骰，可以在桌遊店等商店中購買。你可能會希望讓每個玩家都有一個骰子，或者你們也可以共用一個。",
 								"可選，你可能會希望有幾本「綠浪人出版社」所出版的《超人類＆超級罪犯》規則書複印本（但它們並非遊玩此遊戲所必須準備的事物）。"
@@ -2339,27 +2339,27 @@
 										["{@advantage 擒抱巧勁}", "在進行擒抱攻擊時，改為使用靈巧屬性以取代力量屬性。"],
 										["{@advantage 精通瞄準}", "瞄準時獲得的情境加值變為二倍。"],
 										["{@advantage 精通暴擊}", "攻擊的暴擊威脅範圍每級+1。"],
-										["{@advantage 精通防守}", "你在採取防守動作時，主動防禦獲得+2加值。"],
-										["{@advantage 精通繳械}", "No penalty for the disarm action."],
-										["{@advantage 精通擒抱}", "Make grab attacks with one arm. Not vulnerable while grabbing."],
-										["{@advantage 精通制伏}", "–5 circumstance penalty to escape from your holds."],
-										["{@advantage 精通先攻}", "+4 bonus to initiative checks per rank."],
-										["{@advantage 精通粉碎}", "No penalty for the smash action."],
-										["{@advantage 精通絆摔}", "No penalty for the trip action."],
-										["{@advantage 臨時武器}", "Use Unarmed Combat skill with improvised weapons, +1 damage bonus."],
-										["{@advantage 移動中行動}", "Move both before and after your standard action."],
-										["{@advantage 強力攻擊}", "Trade attack bonus for effect bonus."],
-										["{@advantage 精確攻擊}", "Ignore attack check penalties for either cover or concealment."],
-										["{@advantage 臥倒戰術}", "No penalties for fighting while prone."],
-										["{@advantage 快速備戰}", "Draw a weapon as a free action."],
-										["{@advantage 遠距離攻擊}", "+1 bonus to ranged attack checks per rank."],
-										["{@advantage 攻擊誘導}", "Use Deception to redirect a missed attack at another target."],
-										["{@advantage 戰術計畫}", "Transfer the benefit of an interaction skill to an ally."],
-										["{@advantage 擊倒}", "Free extra attack when you incapacitate a minion."],
-										["{@advantage 投擲精通}", "+1 damage bonus with thrown weapons per rank."],
-										["{@advantage 奇襲閃避}", "Not vulnerable when surprised or caught off-guard."],
-										["{@advantage 武器奪取}", "Free disarm attempt when you actively defend."],
-										["{@advantage 武器破壞}", "Free smash attack when you actively defend."]
+										["{@advantage 精通防守}", "採取防守動作時，主動防禦獲得+2加值。"],
+										["{@advantage 精通繳械}", "採取繳械動作時不會承受罰值。"],
+										["{@advantage 精通擒抱}", "能夠以單手進行擒抱攻擊。在擒抱期間不會因此陷入脆弱狀態。"],
+										["{@advantage 精通制伏}", "從你的擒抱中掙脫將會承受–5情境罰值。"],
+										["{@advantage 精通先攻}", "先攻檢定獲得每級+4加值。"],
+										["{@advantage 精通粉碎}", "採取粉碎動作時不會承受罰值。"],
+										["{@advantage 精通絆摔}", "採取絆摔動作時不會承受罰值。"],
+										["{@advantage 臨時武器}", "使用臨時武器時可以使用徒手戰鬥技能，每級額外等級使傷害獲得+1加值。"],
+										["{@advantage 移動中行動}", "你可以在標準動作之前和之後進行移動。"],
+										["{@advantage 強力攻擊}", "降低攻擊加值以換取效果加值。"],
+										["{@advantage 精確攻擊}", "忽略掩護或遮蔽對攻擊檢定所造成的罰值。"],
+										["{@advantage 臥倒戰術}", "在臥倒狀態下進行戰鬥時不會承受罰值。"],
+										["{@advantage 快速備戰}", "能夠以一個自由動作抽出武器。"],
+										["{@advantage 遠距離攻擊}", "遠程攻擊檢定獲得每級+1加值。"],
+										["{@advantage 攻擊誘導}", "使用欺瞞技能以將一個失手的攻擊誘導到另一個目標身上。"],
+										["{@advantage 戰術計畫}", "將交涉類技能帶來的好處轉移給一名隊友。"],
+										["{@advantage 擊倒}", "當你使一名嘍囉陷入失能狀態時，可以一個自由動作進行額外攻擊。"],
+										["{@advantage 投擲精通}", "投擲武器的傷害獲得每級+1加值。"],
+										["{@advantage 奇襲閃避}", "在被突襲或措手不及時不會陷入脆弱狀態。"],
+										["{@advantage 武器奪取}", "當你主動防守成功時，可以一個自由動作嘗試進行繳械動作。"],
+										["{@advantage 武器破壞}", "當你主動防守成功時，可以一個自由動作嘗試進行粉碎動作。"]
 									]
 								},
 								{
@@ -2374,12 +2374,12 @@
 										"col-9"
 									],
 									"rows": [
-										["{@advantage 新手好運}", "Spend a victory point to gain 5 temporary ranks in a skill."],
-										["{@advantage 激勵}", "Spend a victory point to grant allies a +1 circumstance bonus per rank."],
-										["{@advantage 領導力}", "Spend a victory point to remove a condition from an ally."],
-										["{@advantage 好運}", "Re-roll a die roll once per rank."],
-										["{@advantage 掌握先機}", "Spend a victory point to go first in the initiative order."],
-										["{@advantage 終極之力}", "Spend a victory point to get an effective 20 on a specific check."]
+										["{@advantage 新手好運}", "消耗一點勝利點，使一個技能暫時提升5級。"],
+										["{@advantage 激勵}", "消耗一點勝利點，以使隊友獲得每級+1的情境加值。"],
+										["{@advantage 領導力}", "消耗一點勝利點，解除一名隊友身上的一個狀態。"],
+										["{@advantage 好運}", "每級一次，你可以重骰一次擲骰結果。"],
+										["{@advantage 掌握先機}", "消耗一點勝利點，在先攻順序中第一個行動。"],
+										["{@advantage 終極之力}", "消耗一點勝利點，在特定檢定中得到骰出了20的擲骰結果。"]
 									]
 								},
 								{
@@ -2767,45 +2767,45 @@
 							"type": "entries",
 							"translate_name": "應用修飾符", "name": "Applying Modifiers",
 							"entries": [
-								"An extra increases an effect’s cost per rank by a set amount (usually 1 point) while a flaw decreases the effect’s cost per rank by a set amount (usually 1 point as well). To determine the effect’s final cost per rank, take the base cost, add up all the extras, and subtract all of the flaws.",
+								"強化修飾符會使效果每等級的花費增加一定數值（通常是1點），而缺陷修飾符則會使效果每等級的花費減少數值（通常也會是1點）。在計算效果每等級的最終花費時，先取該效果的基本花費，加上所有強化帶來的花費變化，再減去所有缺陷帶來的花費變化。",
 								{
 									"type": "middleEnhance",
 									"text": "修飾後的花費 = 基本效果花費 + 強化 - 缺陷"
 								},
 								{
 									"type": "entries",
-									"name": "Fractional Costs",
+									"translate_name": "小數形式的花費", "name": "Fractional Costs",
 									"entries": [
-										"If total flaws reduce an effect’s cost per rank to less than 1 character point, each additional –1 to cost per rank beyond that adds to the number of ranks of the effect you get by spending 1 character point on a 1-to-1 basis.",
-										"In essence, an effect’s cost can be expressed as the ratio of character points per rank (PP:R). So an effect costing 3 points per rank is 3:1. If that effect has a total of –2 in modifiers, it costs 1:1, or 1 character point per rank. Applying another –1 modifier adds to the second part of the ratio, making it 1:2, or 1 character point per two ranks, and so forth.",
-										"Continue the progression for further reductions. Gamemasters may wish to limit the final modified cost ratio of any effect in the series (to 1:1, 1:2, 1:4, or whatever figure is appropriate). As a general rule, 1:5 (five ranks per character point) should be the lowest modified cost for an effect, but the GM sets the limit (if any).",
+										"若缺陷的花費減少量將會使效果的每級花費低於 1點角色點，則每個額外的「每級-1點」都會在 1比 1的基礎上改為增加你花費 1點角色點所能提升的效果等級。",
+										"實際上，效果的花費可以呈現為每等級角色點的比例形式（角色點：等級）。因此花費為每等級 3點的效果可以被寫成 3:1。若應用於該效果的修飾符會帶來每級-2點的變化，則它的花費比例將變為 1:1，亦即每級 1點角色點。若再應用一個每級-1點的缺陷，將會改為增加這個比例的後半部，使其變為 1:2，也就是每二級 1點角色點，以此類推。",
+										"依照這個方式就能進一步降低效果的花費。然而，遊戲主持人可能會希望限制劇集中，效果花費最終能被降低的最小數值（可能是1:1, 1:2, 1:4, 或任何GM覺得合適的比例）。一般來說，1:5（每五級 1點角色點）會是一個效果的花費最低所能被降至的數值比例，但GM可以自由改變這個限制（若有）。",
 										{
 											"type": "example",
 											"entries": [
-												"A hero has Protection, which costs 1 point per rank. Protection has two modifiers; the first is the Imperious extra (a +1 point per rank modifier), and the second is the flaw Limited to Blunt Physical Attacks (a –3 points per rank modifier) for a total modifier of –2. Since Protection costs 1 point per rank, the –2 modifier increases the number of ranks per character point, so the final cost is 1 character point per 3 ranks of Impervious Protection Limited to Blunt physical Attacks."
+												"一名英雄擁有{@effect 保護}效果，其花費為每級 1點。這個保護效果上應用了二個修飾符；第一個是{@modifier 強抗}強化（一個花費為每級+1點的修飾符），而第二個修飾符則為{@modifier Limited|限定對物理鈍擊攻擊}缺陷（一個花費為每級-3點的修飾符），這兩個修飾符將會帶來總共每級-2點的花費修正。由於保護效果的花費為每級 1點，這個每級-2點的調整將會增加每點角色點所能增加的等級，因此，{@modifier Limited|限定對物理鈍擊攻擊}的{@modifier 強抗}{@effect 保護}效果的最終花費將會是每三級1點角色點。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Partial Modifiers",
+									"translate_name": "應用於部分效果等級的修飾符", "name": "Partial Modifiers",
 									"entries": [
-										"You can apply a modifier to only some of an effect’s ranks and not others to fine-tune the effect. A modifier must apply to at least one rank, and may apply to as many ranks as the effect has. The change in cost and effect applies only to the ranks with the modifier; the unmodified ranks have their normal cost and effect.",
+										"你可以只將修飾符應用於一個效果的部分等級上，而非整體，以微調該效果的影響。修飾符必須應用於至少1級的效果等級上，且最多可以應用該效果的完整等級上。只有被該修飾符應用的效果等級的花費和作用方式會被改變；其他沒有被應用的等級將保留其原本的花費以及效果影響。",
 										{
 											"type": "example",
 											"entries": [
-												"Marksman’s micro-rockets are a Damage 7 effect. They also explode on impact, for a Burst Area Damage effect, but the Area Damage is only rank 4. So the first 4 ranks of the Marksman’s Damage effect have the Burst Area modifier, costing 1 point more (or 3 per rank). The remaining 3 ranks have their usual cost (2 per rank). Marksman makes a normal ranged attack check against the main target for his micro-rocket launcher; if he hits, the target has to resist Damage 7, and everyone within the area around the target resists Damage 4 (the Area Damage). Even if he misses, the main target has to resist the Area Damage 4, since the micro-rocket explodes close by! In Marksman’s business, it pays to cover your bases…"
+												"神射手的微型火箭砲具有7級的{@effect 傷害}效果。這個火箭炮同時會在撞到目標時暴炸，產生{@modifier Area|爆發範圍}的{@effect 傷害}效果，然而這個範圍傷害的等級只有4級。因此，神射手傷害效果的前4級應用了{@modifier Area|爆發範圍}修飾符，使其每級花費額外增加1點（亦即每級3點）。剩餘的3級傷害則保有它們原本的花費（每級2點）。神射手將如常對他微型火箭砲的目標進行一次遠程攻擊；若他命中，則目標將必須進行抵抗檢定以克服{@effect Damage|傷害 7}的效果，且所有在目標附近，處於影響範圍內的人也都必須進行一次克服{@effect Damage|傷害 4}（範圍傷害）的抵抗檢定。即使該攻擊失手，由於微型火箭仍然會在目標身邊爆炸，因此該攻擊的主要目標仍然需要進行一次克服{@effect Damage|範圍傷害 4}的抵抗檢定！ In Marksman’s business, it pays to cover your bases…"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Flat-value Modifiers",
+									"translate_name": "平移花費的修飾符", "name": "Flat-value Modifiers",
 									"entries": [
-										"Some modifiers, rather than increasing or decreasing an effect’s cost per rank, have a flat value in character points, noted as {@b flat} in the modifier’s header. For example, the Subtle extra costs only 1 or 2 points, depending on how subtle the effect is. Likewise, the Activation flaw has a flat value of –1 or –2 points, depending on how long the power takes to activate.",
-										"Flat-value modifiers are applied to the final cost of an effect, after its cost per rank and total cost for its number of ranks is determined. So, for example, if an effect costs 2 points per rank, with +1 per rank for extras and –2 per rank for flaws. It has a final adjusted cost of (2 + 1 – 2) or 1 point per rank. With 8 ranks, it costs 8 character points. If the same effect also has a flat-value extra costing 2 points and a flat-value flaw worth –1 point, then you add 2 to the final cost and subtract 1, for a total of (8 points for the effect + 2 points for the flat extra – 1 point for the flat flaw) or 9 character points. ",
+										"有些修飾符並不會增加或減少效果的每級花費，而是讓最終的角色點花費增減一定數值，寫作「{@b 平移}」。舉例來說，根據其使效果變得隱密的程度，{@modifier 隱密使用}強化只會花費 1或 2點的角色點。同樣的，{@modifier 啟動}缺陷的花費為平移-1或-2點，取決於啟動該超能力所需的時間。",
+										"平移花費的修飾符會在效果的每級花費，以及依據其等級算出的角色點花費總和後，去調整該效果的最終角色點花費。舉例來說，若一個效果的花費為每級2點角色點，並應用了一個每級+1點的強化，和一個每級-2點的缺陷。它每級角色點花費在經過調整後的數值為「2 + 1 -2」，亦即每級1點。若這個效果為8級，則它將會花費8點角色點。若同樣的效果再應用了一個價值平移+2的平移強化，以及一個價值平移-1的缺陷，則接下來，最終花費將會再加上 2點，並減去 1點，得到最後的總和「8點角色點的效果 + 2點的平移強化 - 1點的平移缺陷」，也就是 9點角色點。",
 										{
 											"type": "middleEnhance",
 											"text": "修飾後的花費 + 平移強化花費 – 平移缺陷花費"
