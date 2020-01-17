@@ -2315,6 +2315,53 @@
 							"translate_name": "特長說明", "name": "Advantage Descriptions",
 							"entries": [
 								"每個特長都列有名稱、類別、以及該特長是否可以重複提升等級等資訊，並接著一段描述該特長效益的說明文字。該特長的額外等級所能帶來的效益（若有）也會被記載於該特長的說明文字中。有時候，特長的說明文字亦會提及未持有該特長的角色在面對特定情形時的處理方式，以供比較。",
+								{
+									"type": "table",
+									"caption": "戰鬥類特長",
+									"colLabels": [
+										"特長",
+										"效果"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage Accurate Attack}", "Trade effect DC for attack bonus."],
+										["{@advantage All-out Attack}", "Trade active defense for attack bonus."],
+										["{@advantage Chokehold}", "Suffocate an opponent you have successfully grabbed."],
+										["{@advantage Close Attack}", "+1 bonus to close attack checks per rank."],
+										["{@advantage Defensive Attack}", "Trade attack bonus for active defense bonus."],
+										["{@advantage Defensive Roll}", "+1 active defense bonus to Toughness per rank."],
+										["{@advantage Evasion}", "Circumstance bonus to avoid area effects."],
+										["{@advantage Fast Grab}", "Make a free grab check after an unarmed attack."],
+										["{@advantage Favored Environment}", "Circumstance bonus to attack or defense in an environment."],
+										["{@advantage Grabbing Finesse}", "Substitute Dex for Str when making grab attacks."],
+										["{@advantage Improved Aim}", "Double circumstance bonuses for aiming."],
+										["{@advantage Improved Critical}", "+1 to critical threat range with an attack per rank."],
+										["{@advantage Improved Defense}", "+2 bonus to active defense when you take the defend action."],
+										["{@advantage Improved Disarm}", "No penalty for the disarm action."],
+										["{@advantage Improved Grab}", "Make grab attacks with one arm. Not vulnerable while grabbing."],
+										["{@advantage Improved Hold}", "–5 circumstance penalty to escape from your holds."],
+										["{@advantage Improved Initiative}", "+4 bonus to initiative checks per rank."],
+										["{@advantage Improved Smash}", "No penalty for the smash action."],
+										["{@advantage Improved Trip}", "No penalty for the trip action."],
+										["{@advantage Improvised Weapon}", "Use Unarmed Combat skill with improvised weapons, +1 damage bonus."],
+										["{@advantage Move-by Action}", "Move both before and after your standard action."],
+										["{@advantage Power Attack}", "Trade attack bonus for effect bonus."],
+										["{@advantage Precise Attack}", "Ignore attack check penalties for either cover or concealment."],
+										["{@advantage Prone Fighting}", "No penalties for fighting while prone."],
+										["{@advantage Quick Draw}", "Draw a weapon as a free action."],
+										["{@advantage Ranged Attack}", "+1 bonus to ranged attack checks per rank."],
+										["{@advantage Redirect}", "Use Deception to redirect a missed attack at another target."],
+										["{@advantage Set-up}", "Transfer the benefit of an interaction skill to an ally."],
+										["{@advantage Takedown}", "Free extra attack when you incapacitate a minion."],
+										["{@advantage Throwing Mastery}", "+1 damage bonus with thrown weapons per rank."],
+										["{@advantage Uncanny Dodge}", "Not vulnerable when surprised or caught off-guard."],
+										["{@advantage Weapon Bind}", "Free disarm attempt when you actively defend."],
+										["{@advantage Weapon Break}", "Free smash attack when you actively defend."]
+									]
+								},
 								"關於每個特長的完整說明，請參閱{@5etools 特長|advantages.html}頁面。"
 							]
 						}
@@ -2629,18 +2676,18 @@
 				},
 				{
 					"type": "section",
-					"name": "Modifiers",
+					"translate_name": "修飾符", "name": "Modifiers",
 					"entries": [
-						"Modifiers enhance or limit effects in various ways, sometimes significantly changing how they work. Modifiers that enhance effects are called {@b extras}, while those limiting or weakening effects are called {@b flaws}",
-						"Unless its description specifies otherwise, a modifier is a permanent change in how the effect works. That is, you do not have the option of using the modifier or not, it always applies. For different versions of an effect with different modifiers—such as a regular Damage effect and one with the Area modifier—see the Alternate Effect modifier.",
+						"修飾符能夠在不同方面強化或限制超能力效果，有時候甚至會大大改變它們運作的方式。那些能夠加強效果影響的修飾符被稱為{@b 強化}，而會限制或削弱效果影響的修飾符則被稱為{@b 缺陷}。",
+						"除非修飾符的說明中特別註記，否則修飾符都將永久改變其應用效果的作用方式。也就是說，一旦應用於某個效果，它就會永遠附加於該效果上，而你也無法再選擇是否要發揮那個修飾符的影響。若想要讓一個效果有著各種應用了不同修飾符的版本──例如尋常{@effect 傷害}效果，以及應用了{@modifier 範圍化}的版本──請另外參閱{@modifier 替換效果}修飾符的說明。",
 						{
 							"type": "entries",
-							"name": "Applying Modifiers",
+							"translate_name": "應用修飾符", "name": "Applying Modifiers",
 							"entries": [
 								"An extra increases an effect’s cost per rank by a set amount (usually 1 point) while a flaw decreases the effect’s cost per rank by a set amount (usually 1 point as well). To determine the effect’s final cost per rank, take the base cost, add up all the extras, and subtract all of the flaws.",
 								{
 									"type": "middleEnhance",
-									"text": "Modified Cost = base effect cost + extras - flaws"
+									"text": "修飾後的花費 = 基本效果花費 + 強化 - 缺陷"
 								},
 								{
 									"type": "entries",
@@ -2678,20 +2725,20 @@
 										"Flat-value modifiers are applied to the final cost of an effect, after its cost per rank and total cost for its number of ranks is determined. So, for example, if an effect costs 2 points per rank, with +1 per rank for extras and –2 per rank for flaws. It has a final adjusted cost of (2 + 1 – 2) or 1 point per rank. With 8 ranks, it costs 8 character points. If the same effect also has a flat-value extra costing 2 points and a flat-value flaw worth –1 point, then you add 2 to the final cost and subtract 1, for a total of (8 points for the effect + 2 points for the flat extra – 1 point for the flat flaw) or 9 character points. ",
 										{
 											"type": "middleEnhance",
-											"text": "modified cost + flat extra value – flat flaw value"
+											"text": "修飾後的花費 + 平移強化花費 – 平移缺陷花費"
 										},
-										"A flat-value flaw cannot reduce an effect or power’s final cost below 1 character point."
+										"平移花費的缺陷不能使效果或超能力的最終花費低於1點角色點。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Extras & Flaws",
+							"translate_name": "強化＆缺陷", "name": "Extras & Flaws",
 							"entries": [
-								"The following section lists the available extras & flaws, starting with the name and cost per rank in power points, along with a description of what the modifier does in game terms.",
-								"A flat-value flaw cannot have more ranks than the effect itself.",
-								"For each Modifier information, see {@5etools Modifiers|modifiers.html} page."
+								"以下章節將列出所有可用的強化與缺陷，列出它們的名稱，每級的角色點花費，以及描述該修飾符在遊戲中能做到的事的說明文字。",
+								"平移花費的缺陷不能有著比其應用效果本身還要高的等級。",
+								"關於每個修飾符的完整說明，請參閱{@5etools 修飾符|modifiers.html}頁面。"
 							]
 						}
 					]

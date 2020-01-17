@@ -2315,6 +2315,53 @@
 							"name": "Advantage Descriptions",
 							"entries": [
 								"Each advantage is listed by name, type, and if the advantage is available in multiple ranks, followed by a description of the advantage’s benefits. The effects of additional ranks of the advantage (if any) are noted in the text of each advantage. In some cases a advantage’s description mentions the normal conditions for characters who do not have the advantage for comparison.",
+								{
+									"type": "table",
+									"caption": "Combat Advantages",
+									"colLabels": [
+										"Advantage",
+										"Effect"
+									],
+									"colStyles": [
+										"col-3 text-align-center",
+										"col-9"
+									],
+									"rows": [
+										["{@advantage Accurate Attack}", "Trade effect DC for attack bonus."],
+										["{@advantage All-out Attack}", "Trade active defense for attack bonus."],
+										["{@advantage Chokehold}", "Suffocate an opponent you have successfully grabbed."],
+										["{@advantage Close Attack}", "+1 bonus to close attack checks per rank."],
+										["{@advantage Defensive Attack}", "Trade attack bonus for active defense bonus."],
+										["{@advantage Defensive Roll}", "+1 active defense bonus to Toughness per rank."],
+										["{@advantage Evasion}", "Circumstance bonus to avoid area effects."],
+										["{@advantage Fast Grab}", "Make a free grab check after an unarmed attack."],
+										["{@advantage Favored Environment}", "Circumstance bonus to attack or defense in an environment."],
+										["{@advantage Grabbing Finesse}", "Substitute Dex for Str when making grab attacks."],
+										["{@advantage Improved Aim}", "Double circumstance bonuses for aiming."],
+										["{@advantage Improved Critical}", "+1 to critical threat range with an attack per rank."],
+										["{@advantage Improved Defense}", "+2 bonus to active defense when you take the defend action."],
+										["{@advantage Improved Disarm}", "No penalty for the disarm action."],
+										["{@advantage Improved Grab}", "Make grab attacks with one arm. Not vulnerable while grabbing."],
+										["{@advantage Improved Hold}", "–5 circumstance penalty to escape from your holds."],
+										["{@advantage Improved Initiative}", "+4 bonus to initiative checks per rank."],
+										["{@advantage Improved Smash}", "No penalty for the smash action."],
+										["{@advantage Improved Trip}", "No penalty for the trip action."],
+										["{@advantage Improvised Weapon}", "Use Unarmed Combat skill with improvised weapons, +1 damage bonus."],
+										["{@advantage Move-by Action}", "Move both before and after your standard action."],
+										["{@advantage Power Attack}", "Trade attack bonus for effect bonus."],
+										["{@advantage Precise Attack}", "Ignore attack check penalties for either cover or concealment."],
+										["{@advantage Prone Fighting}", "No penalties for fighting while prone."],
+										["{@advantage Quick Draw}", "Draw a weapon as a free action."],
+										["{@advantage Ranged Attack}", "+1 bonus to ranged attack checks per rank."],
+										["{@advantage Redirect}", "Use Deception to redirect a missed attack at another target."],
+										["{@advantage Set-up}", "Transfer the benefit of an interaction skill to an ally."],
+										["{@advantage Takedown}", "Free extra attack when you incapacitate a minion."],
+										["{@advantage Throwing Mastery}", "+1 damage bonus with thrown weapons per rank."],
+										["{@advantage Uncanny Dodge}", "Not vulnerable when surprised or caught off-guard."],
+										["{@advantage Weapon Bind}", "Free disarm attempt when you actively defend."],
+										["{@advantage Weapon Break}", "Free smash attack when you actively defend."]
+									]
+								},
 								"For each advantage description, see {@5etools Advantages|advantages.html} page."
 							]
 						}
@@ -2632,7 +2679,7 @@
 					"name": "Modifiers",
 					"entries": [
 						"Modifiers enhance or limit effects in various ways, sometimes significantly changing how they work. Modifiers that enhance effects are called {@b extras}, while those limiting or weakening effects are called {@b flaws}",
-						"Unless its description specifies otherwise, a modifier is a permanent change in how the effect works. That is, you do not have the option of using the modifier or not, it always applies. For different versions of an effect with different modifiers—such as a regular Damage effect and one with the Area modifier—see the Alternate Effect modifier.",
+						"Unless its description specifies otherwise, a modifier is a permanent change in how the effect works. That is, you do not have the option of using the modifier or not, it always applies. For different versions of an effect with different modifiers—such as a regular {@effect Damage} effect and one with the {@modifier Area} modifier—see the {@modifier Alternate Effect} modifier.",
 						{
 							"type": "entries",
 							"name": "Applying Modifiers",
@@ -2689,7 +2736,7 @@
 							"type": "entries",
 							"name": "Extras & Flaws",
 							"entries": [
-								"The following section lists the available extras & flaws, starting with the name and cost per rank in power points, along with a description of what the modifier does in game terms.",
+								"The following section lists the available extras & flaws, starting with the name and cost per rank in character points, along with a description of what the modifier does in game terms.",
 								"A flat-value flaw cannot have more ranks than the effect itself.",
 								"For each Modifier information, see {@5etools Modifiers|modifiers.html} page."
 							]
