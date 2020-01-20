@@ -88,9 +88,9 @@
 			{
 				"translate_name": "動作＆冒險", "name": "Action & Adventure",
 				"headers": [
-					{ "_translate_name": "動作輪", "name": "Action Rounds" },
+					{ "_translate_name": "行動輪", "name": "Action Rounds" },
 					{ "_translate_name": "挑戰", "name": "Challenges" },
-					{ "_translate_name": "衝突", "name": "Conflicts" },
+					{ "translate_name": "衝突", "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
 					{ "translate_name": "戰技", "name": "Maneuvers" },
 					{ "_translate_name": "回復", "name": "Recovery" }
@@ -1350,28 +1350,28 @@
 								},
 								{
 									"type": "entries",
-									"name": "Motivation and Influence",
+									"translate_name": "動機與影響力", "name": "Motivation and Influence",
 									"entries": [
 										"A shared motivation can create an empathic bond with others. With the GM’s permission, you might get a circumstance bonus on interaction skill checks when dealing with someone with the same motivation as yours. Similarly, you may suffer a circumstance penalty to interaction when dealing with characters of a strongly differing motivation."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Motivations as Descriptors",
+									"translate_name": "動機做為描述符", "name": "Motivations as Descriptors",
 									"entries": [
 										"At the GM’s option motivation can function as a descriptor for powers (see {@b Descriptors}), allowing character to have a power affecting only subjects with a particular motivation, for example, or the ability to detect characters with a particular motivation (see {@b Detect}). Gamemasters should be very careful when applying power modifiers based on subjective qualities like motivation. An attack power affecting only “evil” targets, for example, is useless against inanimate objects, constructs, and animals (which cannot have such a quality) as well as “good” targets. It might also not affect characters without a specific evil motivation (such as selfish mercenaries, violent vigilantes, or despots devoted solely to order, but not “evil” per se)."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Motivations as Origins",
+									"translate_name": "動機做為超能力起源", "name": "Motivations as Origins",
 									"entries": [
 										"Some characters may derive their powers from their motivation in some way, such as heroes who draw strength from their convictions, faith, or morality. This provides a descriptor for those powers, but the hero may also suffer Power Loss (see Complications) from a change or wavering in motivation."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Motivations in Conflict",
+									"translate_name": "動機衝突", "name": "Motivations in Conflict",
 									"entries": [
 										"A character with different motivations may find them in conflict from time to time. Such conflicts provide roleplaying opportunities and complications for players and story hooks for the Gamemaster. For example, a hero motivated by Patriotism may discover a secret government agency acting against the interests of justice in the world. What is stronger, the hero’s patriotism or the desire to see the truth known and justice done? Some conflicts may even result in heroes changing motivations. See {@b Changing Complications}, in the following section, for more on this."
 									]
@@ -1410,7 +1410,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Changing Complications",
+									"translate_name": "變更糾葛難題", "name": "Changing Complications",
 									"entries": [
 										"Complications can (and generally should) change over the course of a series: old enemies die or are put away for good, rivalries and psychological issues are resolved, new romances and relationships begin as others end, and so forth. Work with the GM to come up with new complications for your hero as old ones are resolved. As mentioned previously, the Gamemaster may set limits as to how many ongoing complications your hero can have in play at any given time."
 									]
@@ -1418,7 +1418,7 @@
 								{
 
 									"type": "inset",
-									"name": "Complications and Injuries",
+									"translate_name": "糾葛難題與創傷", "name": "Complications and Injuries",
 									"entries": [
 										"Various challenges heroes face over the course of a story make suitable complications. For example, while the game rules don’t have specific details for how to handle a hero with a concussion, it can make for an interesting story. The easiest way to handle it is as a complication: whenever the injury causes the hero trouble (a lost action due to dizziness, a villain getting away, etc.), the GM awards a victory point. You can do the same with anything from a malfunctioning device to a persistent distraction."
 									]
@@ -1462,7 +1462,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Origin",
+							"translate_name": "起源", "name": "Origin",
 							"entries": [
 								"What’s the origin of your hero’s powers? It can be anything from a character born with the potential for powers to someone granted them by an accident—exposure to a strange meteor, radiation, genetic engineering, or any of countless similar encounters. Here are some of the more common superhero origins:",
 								{
@@ -1478,14 +1478,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Origins as Descriptors",
+									"translate_name": "把起源做為描述符", "name": "Origins as Descriptors",
 									"entries": [
 										"Origins can serve as descriptors for a character’s powers (see {@b Descriptors} in {@b Powers}). For example, a super-powered mutant has the “mutant” descriptor, meaning the character may be detected by mutant-detection powers, affected by mutant-specific devices, and so forth. The same is true for a mystic, an alien, or any other origin."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Origin Guidelines",
+									"translate_name": "設定起源的準則", "name": "Origin Guidelines",
 									"entries": [
 										"Your GM may decide to limit the origins for the series you’re playing for story reasons. The Gamemaster may set specific guidelines, ranging from restricting certain types of origins (no aliens or no mystics, for example) to requiring all heroes share a common type of origin, such as everyone is a mutant or the result of a unique accident. Consult with your GM before you choose a particular origin for your hero."
 									]
@@ -1541,7 +1541,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Hero Advancement & Improvement",
+					"translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement",
 					"entries": [
 						"The Gamemaster awards heroes Character Points at the end of each story. This represents the experience and confidence the heroes have gained, along with other factors contributing to an improvement in their abilities, skills, and powers.",
 						"Generally, heroes each receive 1 Character point for a successfully completed adventure that lasts for one game session. If the heroes overcame especially powerful foes or difficult challenges, the GM can increase the Character point award to 2 points. For adventures lasting more than one game session, the heroes should get 1 Character point per session, plus a possible Character point at the end if they did particularly well.",
@@ -1550,7 +1550,7 @@
 						"Just like starting Character points, once earned Character points have been allocated to a trait, they remain that way, unless some effect (such as a transformed condition) causes the character’s point allocation to change. See {@b Reallocating Character points} for more information.",
 						{
 							"type": "entries",
-							"name": "Increasing Ppower Level",
+							"translate_name": "提高超能力階級", "name": "Increasing Power Level",
 							"entries": [
 								"As heroes earn Character points through adventuring and spend them to improve their traits, they will eventually run into the limits imposed by the series power level (see {@b Power Level} for details). For a while, this can be a good thing, since the power level limits encourage heroes to diversify and acquire new skills, advantages, and powers rather than simply pumping points into their existing traits to increase them to unwieldy levels. However, sooner or later, you’re going to want to raise the power level, giving the heroes a bit more breathing room for advancement and spending their earned Character points.",
 								"A good guideline is to follow the starting Character point totals when it comes to power level: when the heroes accumulate an additional 15 Character points from the start of the series or the last time the power level was raised, it’s probably time to raise the power level by +1. So a power level 10 game starts out with 150-point heroes. When they have earned another 15 Character points (bringing their total up to 165), the GM should consider raising the power level to 11, allowing the heroes to spend some of those Character points to increase traits which are currently at the maximum limit.",
@@ -1561,13 +1561,13 @@
 				},
 				{
 					"type": "section",
-					"name": "Character Archetypes",
+					"translate_name": "角色範型", "name": "Character Archetypes",
 					"entries": [
 						"The following archetypes are pre-made and ready to play for a Power Level 10 series. Some may require a few choices or options for customization. Gamemasters can also use these archetypes as ready-made villains, if desired.",
 						"For each Archetype information, see {@5etools Archetypes|archetypes.html} page.",
 						{
 							"type": "entries",
-							"name": "Making the Most of Advantages",
+							"translate_name": "充分利用特長優勢", "name": "Making the Most of Advantages",
 							"entries": [
 								"The Gadgeteer and Martial Artist archetypes rely a great deal on their advantages (as do other archetypes like the Crime Fighter and Weapon-Master). You’ll want to read the descriptions of all of the character’s advantages from {@b Advantages} so you know the benefits they provide. Remember to make use of them during play to give your character every appropriate, well, advantage.",
 								"In particular, note how some advantages and even powers work together. The Gadgeteer can use Quick-Thinking to speed up the process of inventing (see Inventing) and Skill Mastery (Technology) to make some inventing checks as routine. Similarly, note the Martial Artist’s Power Attack advantage, good for doing extra damage to slow, tough, opponents, and the Skill Mastery (Acrobatics) advantage for pulling off formidable (DC 25) Acrobatics checks as routine!"
@@ -1575,7 +1575,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Know Your Options",
+							"translate_name": "知曉你的選擇", "name": "Know Your Options",
 							"entries": [
 								"The Mimic and Mystic archetypes are both very flexible, although in different ways, and it pays to know what your character is capable of doing before you are immersed in the midst of a game.",
 								"In the case of the Mimic, the GM may wish to put together note cards or some other quick reference to the powers of other characters whom the Mimic might wish to duplicate. That way, you can see at a glance what traits the character can copy, and simply hand the card to the player for reference. Experienced Mimics may even build up a “hand” of such cards they reference often.",
@@ -1584,7 +1584,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Fun with Strength",
+							"translate_name": "樂在蠻力", "name": "Fun with Strength",
 							"entries": [
 								"The Paragon and Powerhouse archetypes are among the strongest archetypes, able to lift and carry a lot of weight. Just to give you an idea, the Paragon can lift a loaded 747 aircraft, whereas the Powerhouse can lift four times that amount. Both can easily smash through stone or bend steel.",
 								"Both archetypes are pretty tough, too. With their 12 ranks of Impervious Toughness, both can shrug off the damage of most conventional weapons, including guns, grenade launchers, and flamethrowers, without even having to make a resistance check! It would take the equivalent of an exploding shell to penetrate their skin."
@@ -1592,14 +1592,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Fast facts",
+							"translate_name": "神速速報", "name": "Fast facts",
 							"entries": [
 								"In addition to formidable ground speed, and the ability to run across water or up sheer surfaces, the Speedster’s Quickness rank allows opportunities to do a lot in a short span of time. A Speedster subtracts 10 from the time rank required to accomplish any routine task, doing in six seconds what it takes most people two hours to accomplish! That can include reading, fixing things, or searching an area, just to name a few."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Higher and Lower Power Level Archetypes",
+							"translate_name": "超能力階級更高或更低的範型", "name": "Higher and Lower Power Level Archetypes",
 							"entries": [
 								"The archetypes presented here can serve as models for higher and lower power level versions suitable for different series, ranging from as low as PL8 (PL6 for some archetypes) to as high as PL15 or more. Reworking an archetype for a different power level requires rebuilding the character to ensure everything matches the power level limits, but here are some quick guidelines for modifying an archetype on the fly. They are particularly useful if the Gamemaster wants a character of a different power level for a game, but doesn’t want to go through the trouble of creating the character from scratch:",
 								"For every +1 power level, increase the archetype’s attack bonuses, defenses, and skill ranks by 1. Also increase the archetype’s powers offering a resistance check by 1 rank. If desired, shift an increase to a trait you don’t want to go any higher to the corresponding trait in a pair, such as applying an attack increase to power rank, or a Toughness increase to either Dodge or Parry.",
@@ -5084,19 +5084,19 @@
 		},
 		{
 			"type": "section",
-			"name": "Action & Adventure",
+			"translate_name": "動作＆冒險", "name": "Action & Adventure",
 			"entries": [
 				"Like the comics, this game is about action, so this section looks at the flow of the game and how heroes accomplish their amazing feats, ranging from last-minute rescues and brilliant investigations to thrilling battles against the forces of evil.",
 				"The chapter starts out with a look at action rounds, used to measure time when seconds count, then moves on to the different challenges heroes face, followed by handling conflicts like super-powered battles. The section concludes with information on the potential consequences, including various conditions imposed on heroes and the hazards of the environment around them. This is followed by handling conflicts like super-powered battles, including special actions, consequences of damage, and recovery from it.",
 				{
 					"type": "section",
-					"name": "Action Rounds",
+					"translate_name": "行動輪", "name": "Action Rounds",
 					"entries": [
 						"The {@b action round} (or simply {@b round}) is how this game breaks down time when things like who goes first and how much each character can accomplish are important. A round represents about six seconds of time in the game world.",
 						"During a round, each character involved takes a {@b turn}, which is that character’s opportunity to do something. A character has an allotment of {@b actions}, used during that character’s turn. Players decide what their characters do on their turns, while the GM handles everyone else’s turn.",
 						{
 							"type": "entries",
-							"name": "Initiative",
+							"translate_name": "先攻順序", "name": "Initiative",
 							"entries": [
 								"The order in which characters take their turns is determined by {@b initiative}. Base initiative bonus is equal to the character’s Agility rank. Many characters have advantages or powers that modify their initiative, such as Improved Initiative. At the start of a conflict, roll an initiative check for each character:",
 								{
@@ -5107,7 +5107,7 @@
 								"If characters enter a conflict after it’s begun, they roll initiative when they join-in and act when their turn comes up in the existing order.",
 								{
 									"type": "entries",
-									"name": "Surprise",
+									"translate_name": "突襲", "name": "Surprise",
 									"entries": [
 										"Some conflicts begin with one or more characters caught unaware or {@b urprised}. This is typically because the character did not succeed on a Perception or other check and was therefore caught off-guard. Some characters on a side can be surprised while others are not.",
 										"If any characters in the conflict are surprised, then the action begins with a {@b surprise round}. Everyone involved in the conflict makes initiative checks as usual. Surprised characters do not act on the surprise round. They are stunned and vulnerable until the next round (see {@b Conditions} in {@b The Basics}). Other characters may act, but are limited to a standard action and free actions, although they may exchange their standard action for a move action, as usual."
@@ -5117,20 +5117,20 @@
 						},
 						{
 							"type": "entries",
-							"name": "Action Types",
+							"translate_name": "動作類型", "name": "Action Types",
 							"entries": [
 								"The four types of actions characters can take are standard, move, free, and reaction. In a normal round, you can perform a standard action and a move action, or two move actions. You can also perform as many free and reactions actions as your GM allows.",
 								"Some situations (like the surprise round) and conditions (like being dazed) limit the actions you can take during your turn.",
 								{
 									"type": "entries",
-									"name": "Standard Action",
+									"translate_name": "標準動作", "name": "Standard Action",
 									"entries": [
 										"A standard action allows you to do something. You can make an attack, use a skill, advantage, or power, or perform other similar actions. During a combat round, you can take a standard action and a move action."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Move action",
+									"translate_name": "移動動作", "name": "Move action",
 									"entries": [
 										"A move action allows you to move your speed or perform an action taking a similar amount of time, such as draw or stow a weapon or other object, stand up, pick up an object, or perform some equivalent action (see {@b the Actions in Combat Table}).",
 										"You can take a move action in place of a standard action. For example, rather than moving your speed and attacking you can stand up and move your speed (two move actions), draw a weapon and climb (two move actions), or pick up an object and stow it (two move actions). You can also make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
@@ -5138,21 +5138,21 @@
 								},
 								{
 									"type": "entries",
-									"name": "Free action",
+									"translate_name": "自由動作", "name": "Free action",
 									"entries": [
 										"Free actions consume very little time and, over the span of the round, their impact is so minor they are considered to take no real time at all. You can perform one or more free actions while taking another action. For instance, dropping an object, dropping to a prone position, speaking a sentence or two, and ceasing to concentrate on maintaining a power are all free actions."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Reaction",
+									"translate_name": "反應", "name": "Reaction",
 									"entries": [
 										"A reaction is something that happens in response to something else, like a reflex. Like free actions, reactions take so little time they’re considered free. The difference between the two is a free action is a conscious choice made on the character’s turn to act. A reaction can occur even when it’s not your turn to act. Some powers and other traits are usable as reactions."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "No Action",
+									"translate_name": "無動作", "name": "No Action",
 									"entries": [
 										"Finally, some things players are called upon to do—certain die rolls like resistance checks, for example—are not considered actions at all, as they involve no action on the part of the characters."
 									]
@@ -5253,7 +5253,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Environmental Hazards",
+							"translate_name": "環境危害", "name": "Environmental Hazards",
 							"entries": [
 								"Not all of the hazards heroes face come from supervillains. Sometimes the environment itself can be a danger, particularly when villains try to use it to their advantage. Heroes end up in a lot of dangerous places and deal with less than ideal conditions. This section details some of the hazards heroes may face.",
 								{
@@ -5289,7 +5289,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Falling",
+									"translate_name": "墜落", "name": "Falling",
 									"entries": [
 										"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. Characters with the Acrobatics skill can fall greater distances without risk of damage. Falling into or onto a dangerous surface may cause additional damage, at the GM’s discretion.",
 										"Catching a falling person or object requires a Dexterity check (DC 5). If you successfully catch a falling object, subtract your Strength rank from the falling damage rank. Both you and the object suffer any remaining damage. So if a character with Strength 6 catches someone falling for 12 damage, subtract 6 from 12, and both characters resist damage 6. If the catcher is using a power—such as Flight or Move Object—to catch the falling object, the power’s rank can be substituted for Strength at the GM’s discretion."
@@ -5698,40 +5698,40 @@
 							"type": "entries",
 							"translate_name": "防禦", "name": "Defenses",
 							"entries": [
-								"Your {@b defenses} determine how difficult it is to hit you with various attacks. Most attacks target your active defenses, Dodge and Parry: close attacks target Parry while ranged attacks target Dodge.",
-								"You add your defense rank to a base value of 10 (like a routine check) to determine your Defense class against an attack, which is the DC of the attack check:",
+								"你的{@b 防禦屬性}將決定你在面對各種攻擊時有多麼難以被命中。大部分的攻擊都會需要克服你的主動防禦屬性，也就是閃避和格檔：近身攻擊需要克服格檔防禦，而遠程攻擊則需要克服閃避防禦。",
+								"將你的防禦屬性等級加上基礎數值 10（如同進行一次例行檢定）以決定你在面對攻擊時的防禦層級，亦即該攻擊檢定的難度層級：",
 								{
 									"type": "middleEnhance",
 									"text": "防禦層級 = 防禦屬性 + 10"
 								},
-								"So a hero with Parry 11 has a defense class of 21 (11 + 10) against close attacks. If the same hero has Dodge 9, that is a defense class of 19 (9 + 10) against ranged attacks.",
+								"因此，一名有著11級格檔防禦屬性的英雄在面對近身攻擊時，其防禦層級為 21 (11 + 10)。若該名英雄的閃避防禦屬性為9級，那麼他在面對遠程攻擊時的防禦層級則為 19 (9 + 10)。",
 								{
 									"type": "entries",
-									"name": "Vulnerable and Defenseless",
+									"translate_name": "脆弱和無防備", "name": "Vulnerable and Defenseless",
 									"entries": [
-										"Two conditions strongly affect your defenses. When you are {@condition vulnerable}, your active defense ranks are halved (round up fractions). So the aforementioned hero with Parry 11 and Dodge 9 would have ranks of Parry 6 and Dodge 5 while vulnerable.",
-										"When you are {@condition defenseless}, your active defense ranks are reduced to zero, meaning the base difficulty class to hit you is just 10! What’s more, attackers can make attack checks against defenseless targets as routine checks (see {@rule Routine Checks|basic|1|routine checks} in The Basics), meaning a hit is guaranteed with an attack bonus of 0 or more, unless there are other modifiers affecting the check."
+										"有二種狀態會大大影響你的防禦屬性：{@condition 脆弱}和{@condition 無防備}。當你處於{@condition 脆弱}狀態時，你的主動防禦等級將被減半（尾數進位）。因此，前述那名有著 11級格檔和 9級閃避的英雄，在處於{@condition 脆弱}狀態時，其防禦屬性將變為 6級格檔和 5級閃避。",
+										"當你處於{@condition 無防備}狀態時，你的主動防禦等級將被歸零，這意味著命中你的基本難度層級只剩下區區的10而已！更嚴重的是，在攻擊{@condition 無防備}目標時，攻擊者可以選擇以例行檢定的方式進行攻擊（參見{@rule 例行檢定|basic|1|routine checks}的規則），這代表除非有其他因素影響這次攻擊，否則攻擊加值為0或以上的攻擊將必定會命中。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Resistance",
+									"translate_name": "抵抗", "name": "Resistance",
 									"entries": [
-										"A successful attack has some {@b effect} on the target. Typically this is an effect from the {@rule Powers|basic|6}, such as damage or Affliction. The effect has a rank, used to determine a difficulty class for the target’s resistance check.",
+										"一個成功命中的攻擊將會對目標造成某些{@b 效果}。通常這些效果會是出自{@rule 超能力|basic|6}章節的超能力效果，例如{@effect 傷害}或{@effect 詛咒}。這些效果具有效果等級，並會用以決定目標抵抗檢定的難度層級。",
 										{
 											"type": "middleEnhance",
 											"text": "抵抗難度 = 效果等級 + 10"
 										},
-										"The target of the attack makes a resistance check against the effect to determine what, if anything, happens.",
+										"遭受攻擊的目標將進行一次抵抗檢定以克服該效果，並決定該效果會產生什麼樣的影響。",
 										{
 											"type": "entries",
-											"name": "Ongoing Effects",
+											"translate_name": "持續型效果", "name": "Ongoing Effects",
 											"entries": [
-												"Some effects are not resisted just once, but multiples times. The later resistance checks represent how fast the target is able to “shake off” the effect. Make a resistance check for the target of an ongoing effect at the end of each of the target’s turns. A successful check ends the effect and removes conditions imposed by it. A failure means the effect’s conditions persist, as given in the effect’s description.",
+												"有些持續型的效果並不只會在成功命中時要求目標抵抗，而會在發揮作用之後，讓目標得以再進行好幾次後續的抵抗檢定。後續的抵抗檢定代表著目標「擺脫」該效果的速度有多快。受到這類持續型效果影響的目標將在他的每個回合結束時進行抵抗檢定。一個成功的抵抗檢定將會使該效果終止，並移除它所造成的異常狀態。抵抗檢定失敗則代表該效果仍然持續作用，如其效果說明所示。",
 												{
 													"type": "example",
 													"entries": [
-														"Your hero was hit by a Affliction effect, leaving him blinded. At the end of his turn, he makes a Fortitude resistance check against the effect’s DC to try and shake it off, but missed the check by 2. His next turn, still blind, he stumbles and tries to strike the foe taunting him. At the end of his turn, he makes another resistance check. success! He ends the Affliction effect and removes the blinded condition. Next turn, the villain had better watch out!"
+														"你的英雄被一個{@effect 詛咒}效果給命中，並因此目盲不能視物。在他的回合結束時，他可以進行一次韌性抵抗檢定以克服該效果的DC，嘗試擺脫這個負面狀態。然而遺憾的是，他以2點之差失敗。在他的下個回合，他仍然處於目盲狀態，踉蹌並嘗試打擊那位嘲笑他的敵人。在他的回合結束時，他得以再進行另一次抵抗檢定。終於，他成功了！他結束了詛咒效果對他造成的影響，並解除了目盲狀態。在下個回合，那些反派們可得小心了！"
 													]
 												}
 											]
@@ -5740,9 +5740,9 @@
 								},
 								{
 									"type": "entries",
-									"name": "Conditions",
+									"translate_name": "狀態", "name": "Conditions",
 									"entries": [
-										"A failed resistance check against an attack imposes one or more {@b conditions} on the target, depending on the type of effect and the degree of failure. See the effect description and the {@rule Conditions|basic|1|conditions} section of The Basics for more on the various conditions."
+										"在克服攻擊的抵抗檢定中失敗可能會導致一個或多個{@b 狀態}被強加在目標身上。參見各效果的說明以及{@rule 狀態|basic|1|conditions}章節以了解更多關於各種效果的影響。"
 									]
 								}
 							]

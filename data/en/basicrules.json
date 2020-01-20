@@ -1550,7 +1550,7 @@
 						"Just like starting Character points, once earned Character points have been allocated to a trait, they remain that way, unless some effect (such as a transformed condition) causes the character’s point allocation to change. See {@b Reallocating Character points} for more information.",
 						{
 							"type": "entries",
-							"name": "Increasing Ppower Level",
+							"name": "Increasing Power Level",
 							"entries": [
 								"As heroes earn Character points through adventuring and spend them to improve their traits, they will eventually run into the limits imposed by the series power level (see {@b Power Level} for details). For a while, this can be a good thing, since the power level limits encourage heroes to diversify and acquire new skills, advantages, and powers rather than simply pumping points into their existing traits to increase them to unwieldy levels. However, sooner or later, you’re going to want to raise the power level, giving the heroes a bit more breathing room for advancement and spending their earned Character points.",
 								"A good guideline is to follow the starting Character point totals when it comes to power level: when the heroes accumulate an additional 15 Character points from the start of the series or the last time the power level was raised, it’s probably time to raise the power level by +1. So a power level 10 game starts out with 150-point heroes. When they have earned another 15 Character points (bringing their total up to 165), the GM should consider raising the power level to 11, allowing the heroes to spend some of those Character points to increase traits which are currently at the maximum limit.",
@@ -5717,7 +5717,7 @@
 									"type": "entries",
 									"name": "Resistance",
 									"entries": [
-										"A successful attack has some {@b effect} on the target. Typically this is an effect from the {@rule Powers|basic|6}, such as damage or Affliction. The effect has a rank, used to determine a difficulty class for the target’s resistance check.",
+										"A successful attack has some {@b effect} on the target. Typically this is an effect from the {@rule Powers|basic|6}, such as {@effect Damage} or {@effect Affliction}. The effect has a rank, used to determine a difficulty class for the target’s resistance check.",
 										{
 											"type": "middleEnhance",
 											"text": "Resistance Difficulty = effect rank + 10"
@@ -5731,7 +5731,7 @@
 												{
 													"type": "example",
 													"entries": [
-														"Your hero was hit by a Affliction effect, leaving him blinded. At the end of his turn, he makes a Fortitude resistance check against the effect’s DC to try and shake it off, but missed the check by 2. His next turn, still blind, he stumbles and tries to strike the foe taunting him. At the end of his turn, he makes another resistance check. success! He ends the Affliction effect and removes the blinded condition. Next turn, the villain had better watch out!"
+														"Your hero was hit by a {@effect Affliction} effect, leaving him blinded. At the end of his turn, he makes a Fortitude resistance check against the effect’s DC to try and shake it off, but missed the check by 2. His next turn, still blind, he stumbles and tries to strike the foe taunting him. At the end of his turn, he makes another resistance check. success! He ends the Affliction effect and removes the blinded condition. Next turn, the villain had better watch out!"
 													]
 												}
 											]
