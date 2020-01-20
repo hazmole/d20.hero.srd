@@ -90,7 +90,7 @@
 				"headers": [
 					{ "_translate_name": "動作輪", "name": "Action Rounds" },
 					{ "_translate_name": "挑戰", "name": "Challenges" },
-					{ "_translate_name": "戰鬥衝突", "name": "Conflicts" },
+					{ "_translate_name": "衝突", "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
 					{ "translate_name": "戰技", "name": "Maneuvers" },
 					{ "_translate_name": "回復", "name": "Recovery" }
@@ -2394,21 +2394,21 @@
 										"col-9"
 									],
 									"rows": [
-										["{@advantage 評估}", "Use Insight to learn an opponent’s combat capabilities."],
-										["{@advantage 額外優勢}", "Gain a significant perquisite or fringe benefit."],
-										["{@advantage 硬漢}", "Automatically stabilize when dying."],
-										["{@advantage 清晰記憶}", "Total recall, +5 circumstance bonus to remember things."],
-										["{@advantage 裝備}", "5 points of equipment per rank."],
-										["{@advantage 非凡奮力一搏}", "Gain two benefits when using extra effort."],
-										["{@advantage 無懼}", "Immune to fear effects."],
-										["{@advantage 強韌耐性}", "+5 on checks involving endurance."],
-										["{@advantage 瞬間起身}", "Stand from prone as a free action."],
-										["{@advantage 介入阻擋}", "Take an attack meant for an ally."],
-										["{@advantage 嘍囉}", "Gain a follower or minion with (15 x rank) power points."],
-										["{@advantage 二次機會}", "Re-roll a failed check against a hazard once."],
-										["{@advantage 跟班}", "Gain a sidekick with (5 x rank) power points."],
-										["{@advantage 團隊合作}", "+5 bonus to support team checks."],
-										["{@advantage 假死}", "Go into a deathlike trance that slows bodily functions."]
+										["{@advantage 評估}", "使用洞見技能以得知一名對手的戰鬥能力。"],
+										["{@advantage 額外優勢}", "獲得一項顯著的特權或次要好處。"],
+										["{@advantage 硬漢}", "自動在陷入瀕死狀態時讓傷勢穩定。"],
+										["{@advantage 清晰記憶}", "完美回憶，在記憶事情時獲得+5情境減定。"],
+										["{@advantage 裝備}", "獲得每級 5點裝備點。"],
+										["{@advantage 非凡奮力一搏}", "在使用奮力一搏時可以獲得其中的兩個好處。"],
+										["{@advantage 無懼}", "免疫於恐懼效果。"],
+										["{@advantage 強韌耐性}", "在涉及耐性的檢定中獲得+5的加值。"],
+										["{@advantage 瞬間起身}", "能夠以一個自由動作從臥倒狀態中起身。"],
+										["{@advantage 介入阻擋}", "為一名隊友承受攻擊。"],
+										["{@advantage 嘍囉}", "獲得一名角色點為(15 x 特長等級)的追隨者或嘍囉。"],
+										["{@advantage 二次機會}", "在面對某種危險時的檢定失敗時可以重骰一次。"],
+										["{@advantage 跟班}", "獲得一名角色點為(5 x 特長等級)的跟班。"],
+										["{@advantage 團隊合作}", "在協助進行團隊檢定時獲得+5加值。"],
+										["{@advantage 假死}", "使身體進入一種類似死亡的出神狀態，延緩身體機能。"]
 									]
 								},
 								{
@@ -2423,26 +2423,26 @@
 										"col-9"
 									],
 									"rows": [
-										["{@advantage 機動性佯攻}", "Feint using Acrobatics skill or movement speed."],
-										["{@advantage 動物共感}", "Use interaction skills normally with animals."],
-										["{@advantage 魔器工匠}", "Use Expertise: Magic to create temporary magical devices."],
-										["{@advantage 迷人}", "Circumstance bonus to interaction based on your looks."],
-										["{@advantage 人脈}", "Call in assistance or favors with a Persuasion check."],
-										["{@advantage 情報網}", "Make an initial Investigation check in one minute."],
-										["{@advantage 惑人干擾}", "Use Deception or Intimidation to daze an opponent."],
-										["{@advantage 神魂顛倒}", "Use an interaction skill to entrance others."],
-										["{@advantage 宿敵}", "Circumstance bonus to checks against a type of opponent."],
-										["{@advantage 隨處藏匿}", "Hide while observed without need for a diversion."],
-										["{@advantage 即興工具}", "No penalty for using skills without tools."],
-										["{@advantage 發明家}", "Use Technology to create temporary devices."],
-										["{@advantage 萬事通}", "Use any skill untrained."],
-										["{@advantage 語言}", "Speak and understand additional languages."],
-										["{@advantage 儀式祭司}", "Use Expertise: Magic to create and perform rituals."],
-										["{@advantage 技能專精}", "Make routine checks with one skill under any conditions."],
-										["{@advantage 驚愕}", "Use Intimidation to feint in combat."],
-										["{@advantage 嘲諷}", "Use Deception to demoralize in combat."],
-										["{@advantage 追跡者}", "Use Perception to follow tracks."],
-										["{@advantage 消息靈通}", "Immediate Investigation or Persuasion check to know something."]
+										["{@advantage 機動性佯攻}", "使用雜技技能或移動速度等級來進行佯攻動作。"],
+										["{@advantage 動物共感}", "可以對動物如常使用交涉類技能。"],
+										["{@advantage 魔器工匠}", "使用「專業：魔法」以創造出暫時性的魔法裝置。"],
+										["{@advantage 迷人}", "基於你迷人外表所進行的互動交涉將獲得情境加值。"],
+										["{@advantage 人脈}", "以一個說服技能檢定來尋求幫助或協助。"],
+										["{@advantage 情報網}", "進行第一次的調查技能檢定時僅需要花費一分鐘的時間。"],
+										["{@advantage 惑人干擾}", "使用欺瞞或威嚇技能來使一名敵人陷入目眩狀態。"],
+										["{@advantage 神魂顛倒}", "使用一種交涉類技能以吸引他人注意。"],
+										["{@advantage 宿敵}", "在與特定類別的敵人互動時獲得+2情境加值。"],
+										["{@advantage 隨處藏匿}", "無須使他人分神就能直接在注目之下躲藏。"],
+										["{@advantage 即興工具}", "在沒有合適工具的情況下使用技能將不會承受罰值。"],
+										["{@advantage 發明家}", "使用科技技能以創造出暫時性的裝置。"],
+										["{@advantage 萬事通}", "使用任何未受訓的技能。"],
+										["{@advantage 語言}", "使用並理解額外的語言。"],
+										["{@advantage 儀式祭司}", "使用「專業：魔法」以創造並施展儀式。"],
+										["{@advantage 技能專精}", "在任意情況下以例行檢定的方式使用一種技能。"],
+										["{@advantage 驚愕}", "使用威嚇技能以在戰鬥中進行佯攻動作。"],
+										["{@advantage 嘲諷}", "使用欺瞞技能以在戰鬥中挫敗敵人的士氣。"],
+										["{@advantage 追跡者}", "使用感知技能以追蹤蹤跡。"],
+										["{@advantage 消息靈通}", "立刻進行調查或說服技能檢定以知曉某物的情報。"]
 									]
 								},
 								"關於每個特長的完整說明，請參閱{@5etools 特長|advantages.html}頁面。"
@@ -5520,14 +5520,14 @@
 				},
 				{
 					"type": "section",
-					"translate_name": "戰鬥衝突", "name": "Conflicts",
+					"translate_name": "衝突", "name": "Conflicts",
 					"entries": [
-						"A {@b conflict} is when two or more characters go up against each other, typically in a fight of some sort. Conflict between heroes and villains is a prime part of the game and a big element of the fun, just like the colorful and spectacular fights in the superhero comic books.",
+						"{@b 衝突}代表著當二個或更多角色彼此相互競爭，這通常也代表著某種程度的戰鬥的。就如同超級英雄漫畫中那些豐富多采的壯闊戰鬥，英雄與反派之間的衝突將會是這個遊戲中的最主要元素，也是遊戲的一大樂趣來源。",
 						{
 							"type": "entries",
 							"translate_name": "攻擊", "name": "Attacks",
 							"entries": [
-								"An {@b attack check} represents an attempt to hit a target with an attack. When you make an attack check, roll the die and add your bonus with that attack. If your result equals or exceeds the target’s defense, your attack hits and may have some effect.",
+								"一次{@b 攻擊檢定}代表著一個嘗試命中目標的攻擊。當你進行攻擊檢定時，擲骰並加上你該攻擊所使用的加值。若你的檢定結果等於或超過目標的防禦層級，則你的攻擊命中，並可能造成某些影響。",
 								{
 									"type": "middleEnhance",
 									"text": "攻擊檢定 = d20 + 攻擊加值 vs. 防禦層級"
@@ -5539,9 +5539,9 @@
 										"當你進行一次攻擊檢定，並得到了天然20的擲骰結果（亦即d20的骰面擲出了20），則無論你目標的防禦如何，你的攻擊都會自動命中，且你將擴大你對目標造成的威脅：這個命中的攻擊將可能會造成{@b 暴擊}。確認這次攻擊是否為暴擊的方法如下：確認該攻擊檢定的總和是否等於或超過目標的防禦層級，若是，則該攻擊即為暴擊。若否，則該攻擊仍然命中，但僅被視為一次普通攻擊，而非暴擊。",
 										{
 											"type": "inset",
-											"name": "Increased Threat Range",
+											"translate_name": "增加威脅範圍", "name": "Increased Threat Range",
 											"entries": [
-												"Characters with the {@advantage Improved Critical} advantage can score a threat on a natural result less than 20, although they still automatically hit only on a natural 20. Any attack check that doesn’t result in a hit is not a threat."
+												"擁有{@advantage 精通暴擊}特長的角色可以在得到低於20的天然擲骰結果時造成暴擊，儘管在這種情況下仍只有天然20會產生自動命中的效果。任何沒有命中目標的攻擊檢定都不會造成威脅，也就不會導致暴擊。"
 											]
 										},
 										"暴擊可以造成下列其中一種效果，由玩家在確定造成暴擊時從中選擇：",
@@ -5564,69 +5564,69 @@
 								},
 								{
 									"type": "entries",
-									"name": "Damage",
+									"translate_name": "傷害", "name": "Damage",
 									"entries": [
-										"A successful attack with a Damage effect requires the target to make a Toughness resistance check.",
+										"藉由一次成功命中的攻擊所造成的{@effect 傷害}效果，將會要求其攻擊目標進行一次堅實抵抗檢定。",
 										{
 											"type": "insetResistCheck",
-											"name": "Damage Resistance Check",
-											"func": "Toughness vs. [Damage rank + 15]",
+											"name": "傷害抵抗檢定",
+											"func": "堅實 vs. [傷害等級 + 15]",
 											"entries": [
 												{
 													"type": "list",
 													"items": [
-														"{@b Success}: The damage has no effect.",
-														"{@b Failure (one degree)}: The target has a –1 circumstance penalty to further resistance checks against damage.",
-														"{@b Failure (two degrees)}: The target is dazed until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
-														"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
-														"{@b Failure (four degrees)}: The target is incapacitated ."
+														"{@b 成功}: 這個傷害不會造成任何效果。",
+														"{@b 失敗(程度一)}: 目標將在往後對傷害的抵抗檢定中承受-1的情境罰值。",
+														"{@b 失敗(程度二)}: 目標陷入{@condition 目眩}狀態，持續直到他的下個回合結束。且目標將在往後對傷害的抵抗檢定中承受-1的情境罰值。",
+														"{@b 失敗(程度三)}: 目標陷入{@condition 蹣跚}狀態，且將在往後對傷害的抵抗檢定中承受-1的情境罰值。若目標再次陷入{@condition 蹣跚}狀態（於傷害抵抗檢定中得到程度三的失敗），則改為適用程度四的結果。這個{@condition 蹣跚}狀態將持續直到目標從中康復（參見後述的康復條目）。",
+														"{@b 失敗(程度四)}: 目標陷入{@condition 失能}狀態。"
 													]
 												}
 											]
 										},
-										"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
-										"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
+										"上述適用於堅實檢定的情境罰值會累積，因此在對抗{@effect 傷害}效果的抵抗檢定中失敗三次（每次皆為程度一的失敗）的目標，將會承受總共-3的情境罰值。",
+										"若陷入{@condition 失能}狀態的目標在對抗{@effect 傷害}效果的抵抗檢定中失敗,則目標的狀態將變更為{@condition 瀕死}。若陷入{@condition 瀕死}狀態的目標在對抗{@effect 傷害}效果的抵抗檢定中失敗,則目標將會死亡。",
 										{
 											"type": "entries",
-											"name": "Strength and Damage",
+											"translate_name": "力量與傷害", "name": "Strength and Damage",
 											"entries": [
-												"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the {@b Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
-												"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your Damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade does the same damage whether you can exert your Strength with it or not."
+												"力量屬性本身便提供了「內建的」傷害效果：亦即打擊事物的能力。你可以將效果修飾符應用於你力量屬性所造成的傷害，使其具備{@modifier 貫穿強抗}或甚至{@modifier 範圍化}的效果！你也可以為你的力量傷害效果加上{@modifier Alternate Effect|替換效果}修飾符；參見{@modifier 替換效果}修飾符以查閱更多細節。與原本的傷害效果相同，角色的力量傷害效果的預設射程為「近身」，且預設的持續時間為「即效」。",
+												"你可以選擇讓一個傷害效果建基於力量屬性──例如一把近戰武器──讓你得以將你的力量傷害加入其中。當要決定該攻擊的傷害等級時，將你的力量屬性和傷害等級加在一起。若你的力量能夠受益於你應用於傷害效果的修飾符，則這些修飾符也都必須應用於你的力量等級。然而，當你的力量屬性被降低，你能加入傷害中的數值也會隨之減少，等級為負數的力量屬性甚至會減少你的傷害等級！同樣的，任何妨礙你發揮力量的事物也會使你無法使用基於力量屬性的傷害效果。舉例來說，若你無法揮舞拳頭，你也同樣無法揮舞利劍。另一方面，無論你是否能夠發揮你的力量屬性，都不會妨礙你使用能造成相同傷害的雷射光刀或閃電法杖。"
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Damaging Objects",
+											"translate_name": "傷害物體", "name": "Damaging Objects",
 											"entries": [
-												"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
-												"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
-												"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
-												"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
-												"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1).",
+												"物體（亦即缺乏體質等級的目標）會如同其他目標一樣承受傷害，然而{@condition 目眩}和{@condition 蹣跚}狀態對於無生命目標並不會有實質效用，因為它們並不能採取任何動作。至於能夠採取動作的構裝體，{@condition 目眩}和{@condition 蹣跚}狀態仍將如常作用（參見{@rule 構裝體|basic|7|constructs}）。",
+												"根據定義，無生命目標處於{@condition 無防備}狀態，且可以被做為終結攻擊的對象（參見戰技中的{@rule 終結攻擊|basic|8|finishing attack}）：這代表你可以選擇以例行檢定對物體進行攻擊，或者，若你選擇如常進行攻擊檢定，則你將在命中時自動造成暴擊，並使該效果獲得+5的情境加值。",
+												"攻擊一個被其他角色持握或穿戴的物體將會是一次粉碎動作（參見{@rule 粉碎|basic|8|smash}動作）。",
+												"若攻擊者的目的是折彎、損壞、或摧毀一個物體，且該物體在對抗傷害的堅實抵抗檢定得到了二個程度的失敗，則該物體將因此被折彎或損壞（像是被打穿一個洞），而三個程度或以上的失敗代表著該物體被完全摧毀（四分五裂、粉碎等等）。",
+												"下列的材質堅實表中列出了一些常見材質的堅實等級。表中列出等級代表著大約一吋厚（-7級距離）的該材質：該材質的厚度每增加一倍，將其堅實等級+1，減半則等級-1。因此一呎厚的石頭具有8級的堅實。裝備的堅實等級同樣基於其材質。而裝置的堅實等級則等同於該裝置上分配的點數總和除以5（尾數捨去，最小為1）。",
 												{
 													"type": "table",
-													"caption": "Material Toughness",
+													"caption": "材質堅實表",
 													"colLabels": [
-														"Material",
-														"Toughness"
+														"材質",
+														"堅實等級"
 													],
 													"colStyles": [
 														"col-7 text-align-center",
 														"col-5 text-align-center"
 													],
 													"rows": [
-														[ "Paper", "0" ],
-														[ "Soil", "0" ],
-														[ "Glass", "1" ],
-														[ "Ice", "1" ],
-														[ "Rope", "1" ],
-														[ "Wood", "3" ],
-														[ "Stone", "5" ],
-														[ "Iron", "7" ],
-														[ "Reinforced Concrete", "8" ],
-														[ "Steel", "9" ],
-														[ "Titanium", "15" ],
-														[ "Super-alloys", "20+" ]
+														[ "紙", "0" ],
+														[ "土壤", "0" ],
+														[ "玻璃", "1" ],
+														[ "冰", "1" ],
+														[ "繩索", "1" ],
+														[ "木", "3" ],
+														[ "石", "5" ],
+														[ "鐵", "7" ],
+														[ "鋼筋混凝土", "8" ],
+														[ "鋼鐵", "9" ],
+														[ "鈦", "15" ],
+														[ "超級合金", "20+" ]
 													]
 												}
 											]
@@ -5635,22 +5635,22 @@
 								},
 								{
 									"type": "entries",
-									"name": "Recovery",
+									"translate_name": "回復", "name": "Recovery",
 									"entries": [
-										"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process. Lasting or more serious injuries are handled as complications (see {@b Lasting Injuries}).",
-										"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged objects."
+										"活體生物每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect 再生}效果可以加速這個過程。長久性或更嚴重的創傷將被做為糾葛難題處理（參見{@rule Lasting Injuries|basic|8|Lasting Injuries}段落的說明）。",
+										"除非物體（不具備體質屬性的角色）具有像是{@effect 再生}之類的效果，否則物體受到的傷害並不會回復。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Range",
+									"translate_name": "射程", "name": "Range",
 									"entries": [
 										"An attack has one of three ranges: close, ranged, and perception. A {@b close} attack can only affect a target you can physically reach, by touch or wielding a melee weapon, for example. A {@b ranged} attack can affect a target at a distance, while a {@b Perception} attack can hit a target you are able to accurately perceive automatically without need for an attack check.",
 										"A ranged attack has a short range up to its rank x 25 feet, at which it has no penalties. At medium range (up to rank x 50 feet), the attack check has a –2 circumstance modifier. At long range (up to rank x 100 feet), the attack check has a –5 circumstance modifier. Ranged attacks cannot go beyond long range; a target further away is out of range and cannot be attacked.",
 										"These are generally the only significant distinctions in distance. At the basic level, the game system does not focus on tracking exact distances between combatants, apart from determining if they are adjacent (and therefore within close range) and whether or not they can perceive each other (and are therefore within perception range). The rest is left for the GM to describe and adjudicate as desired.",
 										{
 											"type": "entries",
-											"name": "Perception and Area Effects",
+											"translate_name": "感知距離和範圍化效果", "name": "Perception and Area Effects",
 											"entries": [
 												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@b Area} extra in Powers). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
 											]

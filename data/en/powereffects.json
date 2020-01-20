@@ -574,7 +574,7 @@
 					"entries": [
 						"Objects (targets lacking a Stamina rank) take damage similar to other targets. {@condition Dazed} and {@condition staggered} results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are {@condition dazed} and {@condition staggered} normally (see {@rule Constructs|basic|7|constructs}).",
 						"Inanimate objects are {@condition defenseless} by definition and therefore subject to finishing attacks (see {@rule Finishing Attack|basic|8|finishing attack} in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
-						"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
+						"Attacking an object held or worn by another character is a smash action (see {@rule Smash|basic|8|smash} in Action & Adventure for more details).",
 						"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
 						{
 							"type": "example",

@@ -2404,9 +2404,9 @@
 										["{@advantage Great Endurance}", "+5 on checks involving endurance."],
 										["{@advantage Instant Up}", "Stand from prone as a free action."],
 										["{@advantage Interpose}", "Take an attack meant for an ally."],
-										["{@advantage Minion}", "Gain a follower or minion with (15 x rank) power points."],
+										["{@advantage Minion}", "Gain a follower or minion with (15 x rank) character points."],
 										["{@advantage Second Chance}", "Re-roll a failed check against a hazard once."],
-										["{@advantage Sidekick}", "Gain a sidekick with (5 x rank) power points."],
+										["{@advantage Sidekick}", "Gain a sidekick with (5 x rank) character points."],
 										["{@advantage Teamwork}", "+5 bonus to support team checks."],
 										["{@advantage Trance}", "Go into a deathlike trance that slows bodily functions."]
 									]
@@ -5566,7 +5566,7 @@
 									"type": "entries",
 									"name": "Damage",
 									"entries": [
-										"A successful attack with a Damage effect requires the target to make a Toughness resistance check.",
+										"A successful attack with a {@effect Damage} effect requires the target to make a Toughness resistance check.",
 										{
 											"type": "insetResistCheck",
 											"name": "Damage Resistance Check",
@@ -5577,30 +5577,30 @@
 													"items": [
 														"{@b Success}: The damage has no effect.",
 														"{@b Failure (one degree)}: The target has a –1 circumstance penalty to further resistance checks against damage.",
-														"{@b Failure (two degrees)}: The target is dazed until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
-														"{@b Failure (three degrees)}: The target is staggered and has a -1 circumstance penalty to further checks against damage. If the target is staggered again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The staggered condition remains until the target recovers (see Recovery, following).",
-														"{@b Failure (four degrees)}: The target is incapacitated ."
+														"{@b Failure (two degrees)}: The target is {@condition dazed} until the end of their next turn and has a –1 circumstance penalty to further checks against damage.",
+														"{@b Failure (three degrees)}: The target is {@condition staggered} and has a -1 circumstance penalty to further checks against damage. If the target is {@condition staggered} again (three degrees of failure on a Damage resistance check), apply the fourth degree of effect. The {@condition staggered} condition remains until the target recovers (see Recovery, following).",
+														"{@b Failure (four degrees)}: The target is {@condition incapacitated} ."
 													]
 												}
 											]
 										},
 										"The circumstance penalties to Toughness checks are cumulative, so a target who fails three resistance checks against Damage, each with one degree of failure, has a total –3 penalty.",
-										"If an incapacitated target fails a resistance check against Damage, the target’s condition shifts to dying. A dying target who fails a resistance check against Damage is dead.",
+										"If an {@condition incapacitated} target fails a resistance check against {@effect Damage}, the target’s condition shifts to {@condition dying}. A {@condition dying} target who fails a resistance check against {@effect Damage} is dead.",
 										{
 											"type": "entries",
 											"name": "Strength and Damage",
 											"entries": [
-												"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it Penetrating or even an Area effect! You can also have Alternate Effects for your Strength Damage; see the {@b Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
-												"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your Damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade does the same damage whether you can exert your Strength with it or not."
+												"Strength provides a “built-in” Damage effect: the ability to hit things! You can apply effect modifiers to the damage your Strength inflicts, making it {@modifier Penetrating} or even an {@modifier Area} effect! You can also have {@modifier Alternate Effect|Alternate Effects} for your Strength Damage; see the {@modifier Alternate Effect} modifier for details. Like other Damage effects, a character’s Strength Damage is close range and instant duration by default.",
+												"If you choose, a Damage effect can be Strength-based—something like a melee weapon—allowing your Strength Damage to add to it. You add your Strength and Damage ranks together when determining the rank of the attack. Any modifiers applied to your Damage must also apply to your Strength rank if its bonus damage is to benefit from them. However, any decrease in your Strength reduces the amount you can add to your Damage, and negative Strength subtracts from your Damage! Likewise, anything that prevents you from exerting your Strength also stops you from using a Strength-based Damage effect. If you can’t swing your fist, you can’t swing a sword, either. On the other hand, a laser blade or thuderbolt staff does the same damage whether you can exert your Strength with it or not."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Damaging Objects",
 											"entries": [
-												"Objects (targets lacking a Stamina rank) take damage similar to other targets. Dazed and staggered results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are dazed and staggered normally (see Constructs).",
-												"Inanimate objects are defenseless by definition and therefore subject to finishing attacks (see Finishing Attack in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
-												"Attacking an object held or worn by another character is a smash action (see Smash in Action & Adventure for more details).",
+												"Objects (targets lacking a Stamina rank) take damage similar to other targets. {@condition Dazed} and {@condition staggered} results have no real effect on inanimate targets, since they do not take actions. Constructs, capable of action, are {@condition dazed} and {@condition staggered} normally (see {@rule Constructs|basic|7|constructs}).",
+												"Inanimate objects are {@condition defenseless} by definition and therefore subject to finishing attacks (see {@rule Finishing Attack|basic|8|finishing attack} in Action & Adventure): essentially, you can choose between making your attack on the object as a routine check or, if you make the attack check normally, gaining an automatic critical hit if your attack hits, for a +5 bonus to effect.",
+												"Attacking an object held or worn by another character is a smash action (see {@rule Smash|basic|8|smash} in Action & Adventure for more details).",
 												"If an attacker’s intention is to bend, break or destroy an object, then two degrees of failure on the Toughness check results in a bend or break (such as a hole punched through the object) while three or more degrees of failure means the object is destroyed (shattered, smashed to pieces, etc.).",
 												"The Toughness ranks of some common materials are shown on the Material Toughness table. The listed ranks are for about an inch (distance rank –7) thickness of the material: apply a +1 per doubling of thickness or a –1 per halving of it. So a foot of stone is Toughness 8. Equipment has Toughness based on its material. Devices have a base Toughness equal to the total points in the device divided by 5 (rounded down, minimum of 1).",
 												{
@@ -5637,8 +5637,8 @@
 									"type": "entries",
 									"name": "Recovery",
 									"entries": [
-										"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process. Lasting or more serious injuries are handled as complications (see {@b Lasting Injuries}).",
-										"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged objects."
+										"Living targets remove one damage condition per minute of rest, starting from their worst condition and working back. So a damaged character recovers from being {@condition incapacitated}, then {@condition staggered}, {@condition dazed}, and finally removes a –1 Toughness check penalty per minute until fully recovered. The {@effect Healing} and {@effect Regeneration} effects can speed this process. Lasting or more serious injuries are handled as complications (see {@rule Lasting Injuries|basic|8|Lasting Injuries} in Recovery section).",
+										"Objects, having no Stamina, do not recover from damage unless they have an effect like {@effect Regeneration}. Instead, they must be repaired. See the guidelines under the {@skill Technology} skill when repairing damaged objects."
 									]
 								},
 								{
