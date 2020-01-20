@@ -2132,97 +2132,97 @@
 							],
 							"rows": [
 								[
-									"Acrobatics",
+									"{@skill Acrobatics}",
 									"Agl",
 									"No",
 									"move or free"
 								],
 								[
-									"Athletics",
+									"{@skill Athletics}",
 									"Str",
 									"Yes",
 									"move"
 								],
 								[
-									"Close Combat",
+									"{@skill Close Combat}",
 									"Fgt",
 									"Yes",
 									"standard"
 								],
 								[
-									"Deception",
+									"{@skill Deception}",
 									"Pre",
 									"Yes",
 									"standard"
 								],
 								[
-									"Expertise",
+									"{@skill Expertise}",
 									"Int",
 									"No*",
 									"—"
 								],
 								[
-									"Insight",
+									"{@skill Insight}",
 									"Awe",
 									"Yes",
 									"free"
 								],
 								[
-									"Intimidation",
+									"{@skill Intimidation}",
 									"Pre",
 									"Yes",
 									"standard"
 								],
 								[
-									"Investigation",
+									"{@skill Investigation}",
 									"Int",
 									"No",
 									"—"
 								],
 								[
-									"Perception",
+									"{@skill Perception}",
 									"Awe",
 									"Yes",
 									"free"
 								],
 								[
-									"Persuasion",
+									"{@skill Persuasion}",
 									"Pre",
 									"Yes",
 									"—"
 								],
 								[
-									"Ranged Combat",
+									"{@skill Ranged Combat}",
 									"Dex",
 									"Yes",
 									"standard"
 								],
 								[
-									"Sleight of Hand",
+									"{@skill Sleight of Hand}",
 									"Dex",
 									"No",
 									"standard"
 								],
 								[
-									"Stealth",
+									"{@skill Stealth}",
 									"Agl",
 									"Yes",
 									"move"
 								],
 								[
-									"Technology",
+									"{@skill Technology}",
 									"Int",
 									"No",
 									"standard"
 								],
 								[
-									"Treatment",
+									"{@skill Treatment}",
 									"Int",
 									"No",
 									"standard"
 								],
 								[
-									"Vehicles",
+									"{@skill Vehicles}",
 									"Dex",
 									"No",
 									"move"
@@ -5195,7 +5195,7 @@
 									"type": "entries",
 									"name": "Extra Action",
 									"entries": [
-										"You can use extra effort in order to take an additional standard or move action on your turn (see {@b Extra Effort})."
+										"You can use extra effort in order to take an additional standard or move action on your turn (see {@rule Extra Effort|basic|1|extra effort})."
 									]
 								},
 								{

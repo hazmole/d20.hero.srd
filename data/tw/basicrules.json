@@ -1992,38 +1992,38 @@
 		},
 		{
 			"type": "section",
-			"name": "Skills",
+			"translate_name": "技能", "name": "Skills",
 			"entries": [
 				"Heroes sneak into the closely guarded lairs of criminal masterminds, infiltrate alien computer systems, and build devices beyond the understanding of modern science. They can piece together obscure clues to a villain’s latest plot, run along tightropes, and pilot vehicles through obstacle courses, all in a day’s work. In Mutants & Masterminds, they do so through the use of various skills, described in this chapter",
 				{
 					"type": "section",
-					"name": "Skill Basics",
+					"translate_name": "技能基本規則", "name": "Skill Basics",
 					"entries": [
 						"Skills are learned abilities, a combination of training (the skill) and natural talent (an ability rank). Each skill has a rank, used as a bonus to the die roll when using the skill. To make a skill check, roll:",
 						{
 							"type": "middleEnhance",
-							"text": "d20 + skill rank + ability modifier + miscellaneous modifiers"
+							"text": "d20 + 技能等級 + 屬性修正值 + 其他雜項修正"
 						},
 						{
 							"type": "entries",
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Skill Rank",
+									"translate_name": "技能等級", "name": "Skill Rank",
 									"entries": [
 										"Your rank in a skill, based on the points you have invested in that skill. If you have ranks in a skill you’re considered {@b trained} in that skill. You can use some skills even if you don’t have any ranks in them, known as using a skill {@b untrained}. Some skills may not be used untrained."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Ability Modifier",
+									"translate_name": "屬性修正值", "name": "Ability Modifier",
 									"entries": [
 										"Each skill has an {@b ability modifier} applied to the skill’s checks. Each skill’s ability modifier is noted in its description and on {@b Skills} table. If you use a skill untrained, the ability modifier still applies to the skill check."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Miscellaneous Modifiers",
+									"translate_name": "雜項修正", "name": "Miscellaneous Modifiers",
 									"entries": [
 										"Miscellaneous modifiers to skill checks include modifiers for circumstances, and bonuses from advantages or powers, among others.",
 										"The higher the total, the better the result. You’re usually looking for a total that equals or exceeds a particular difficulty class (DC), which may be based on another character’s traits."
@@ -2031,7 +2031,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Critical Success",
+									"translate_name": "大成功", "name": "Critical Success",
 									"entries": [
 										"If you roll a 20 on the die when making a check you’ve scored a {@b critical success}. Determine the degree of success normally and then increase it by one degree. This can turn a low-level success into something more significant, but more importantly, it can turn a failure into a full-fledged success!"
 									]
@@ -2061,12 +2061,12 @@
 				},
 				{
 					"type": "section",
-					"name": "How Skills Work",
+					"translate_name": "技能的作用方式", "name": "How Skills Work",
 					"entries": [
 						"When you use a skill, make a skill check to see how you do. Based on the circumstances, your result must match or beat a particular number to use the skill successfully. The harder the task, the higher the number you need to roll. (See {@b Checks} for more information.)",
 						{
 							"type": "entries",
-							"name": "Untrained Skill Checks",
+							"translate_name": "未受訓的技能檢定", "name": "Untrained Skill Checks",
 							"entries": [
 								"Generally, if you attempt a task requiring a skill you don’t have, you make a skill check as normal. Skill rank doesn’t apply because you don’t have any ranks in the skill. You do get other modifiers, however, such as the skill’s ability modifier.",
 								"Many skills can only be used if you are trained in them. Skills that cannot be used untrained are marked with a “No” in the “Untrained” column on the {@b Skills} table and listed as “Trained Only” in their descriptions. Attempts to use these skills untrained automatically fail. In some cases, a skill may have both trained and untrained aspects; if you do not have any ranks in that skill, you can only use the untrained ones."
@@ -2074,7 +2074,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Interaction Skills",
+							"translate_name": "交涉類技能", "name": "Interaction Skills",
 							"entries": [
 								"Certain skills, called {@b interaction skills}, are aimed at dealing with others through social interaction. Interaction skills allow you to influence the attitudes of others and get them to cooperate with you in one way or another. Since interaction skills are intended for dealing with others socially, they have certain requirements.",
 								"First, you must be able to interact with the subject(s) of the skill. They must be aware of you and able to understand you. If they can’t hear or understand you for some reason, you have a –5 circumstance penalty to your skill check (see {@b Circumstance Modifiers} in {@b The Basics}).",
@@ -2084,7 +2084,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Manipulation Skills",
+							"translate_name": "操作類技能", "name": "Manipulation Skills",
 							"entries": [
 								"Some skills, called {@b manipulation skills}, require a degree of fine physical manipulation. You need prehensile limbs and a Strength rank or some suitable Precise power effect to use manipulation skills effectively. If your physical manipulation capabilities are impaired in some fashion (such as having your hands tied or full use of only one hand), the GM may impose a circumstance modifier based on the severity of the impairment. Characters lacking the ability to use manipulation skills can still have ranks in them and use them to oversee or assist the work of others (see {@b Team Checks})."
 							]
@@ -2093,12 +2093,12 @@
 				},
 				{
 					"type": "section",
-					"name": "Skill Descriptions",
+					"translate_name": "技能說明", "name": "Skill Descriptions",
 					"entries": [
 						"This section describes the skills available to characters, including their common uses and modifiers. Characters may be able to use skills for tasks other than those given here. The GM sets the DC and decides the results in those cases. The format for skill descriptions is given here. Items that do not apply are omitted from the skill’s description.",
 						{
 							"type": "entries",
-							"name": "Skill Name",
+							"translate_name": "技能名稱", "name": "Skill Name",
 							"entries": [
 								"The skill name line and the line below it contain the following information:",
 								{
@@ -2117,12 +2117,12 @@
 						},
 						{
 							"type": "table",
-							"caption": "Skills",
+							"caption": "技能",
 							"colLabels": [
-								"Skill",
-								"Ability",
-								"Untrained?",
-								"Action"
+								"技能",
+								"屬性",
+								"未受訓?",
+								"動作"
 							],
 							"colStyles": [
 								"col-4 text-align-center",
@@ -2132,100 +2132,100 @@
 							],
 							"rows": [
 								[
-									"Acrobatics",
-									"Agl",
-									"No",
-									"move or free"
+									"{@skill 雜技}",
+									"敏捷",
+									"否",
+									"移動 或 自由"
 								],
 								[
-									"Athletics",
-									"Str",
-									"Yes",
-									"move"
+									"{@skill 運動}",
+									"力量",
+									"可",
+									"移動"
 								],
 								[
-									"Close Combat",
-									"Fgt",
-									"Yes",
-									"standard"
+									"{@skill 近身戰鬥}",
+									"格鬥",
+									"可",
+									"標準"
 								],
 								[
-									"Deception",
-									"Pre",
-									"Yes",
-									"standard"
+									"{@skill 欺瞞}",
+									"表現",
+									"可",
+									"標準"
 								],
 								[
-									"Expertise",
-									"Int",
-									"No*",
+									"{@skill 專業}",
+									"智力",
+									"否*",
 									"—"
 								],
 								[
-									"Insight",
-									"Awe",
-									"Yes",
-									"free"
+									"{@skill 洞見}",
+									"覺察",
+									"可",
+									"自由"
 								],
 								[
-									"Intimidation",
-									"Pre",
-									"Yes",
-									"standard"
+									"{@skill 威嚇}",
+									"表現",
+									"可",
+									"標準"
 								],
 								[
-									"Investigation",
-									"Int",
-									"No",
+									"{@skill 調查}",
+									"智力",
+									"否",
 									"—"
 								],
 								[
-									"Perception",
-									"Awe",
-									"Yes",
-									"free"
+									"{@skill 感知}",
+									"覺察",
+									"可",
+									"自由"
 								],
 								[
-									"Persuasion",
-									"Pre",
-									"Yes",
+									"{@skill 說服}",
+									"表現",
+									"可",
 									"—"
 								],
 								[
-									"Ranged Combat",
-									"Dex",
-									"Yes",
-									"standard"
+									"{@skill 遠程戰鬥}",
+									"靈巧",
+									"可",
+									"標準"
 								],
 								[
-									"Sleight of Hand",
-									"Dex",
-									"No",
-									"standard"
+									"{@skill 手上把戲}",
+									"靈巧",
+									"否",
+									"標準"
 								],
 								[
-									"Stealth",
-									"Agl",
-									"Yes",
-									"move"
+									"{@skill 潛行}",
+									"敏捷",
+									"可",
+									"移動"
 								],
 								[
-									"Technology",
-									"Int",
-									"No",
-									"standard"
+									"{@skill 科技}",
+									"智力",
+									"否",
+									"標準"
 								],
 								[
-									"Treatment",
-									"Int",
-									"No",
-									"standard"
+									"{@skill 診療}",
+									"智力",
+									"否",
+									"標準"
 								],
 								[
-									"Vehicles",
-									"Dex",
-									"No",
-									"move"
+									"{@skill 駕駛}",
+									"靈巧",
+									"否",
+									"移動"
 								]
 							],
 							"footnotes": [
@@ -5161,54 +5161,54 @@
 						},
 						{
 							"type": "entries",
-							"name": "Taking your Turn",
+							"translate_name": "進行你的回合", "name": "Taking your Turn",
 							"entries": [
-								"When it is your turn in the initiative order, you declare what actions your character will perform, and they are resolved in order.",
+								"當先攻順序輪到你的回合，你宣言你的角色將要執行的動作，並按照順序處理它們。",
 								{
 									"type": "entries",
-									"name": "Starting your Turn",
+									"translate_name": "開始你的回合", "name": "Starting your Turn",
 									"entries": [
-										"The Gamemaster informs you when it is your turn. When you start your turn, you should:",
+										"遊戲主持人將在輪到你的回合時告知你。當你開始你的回合時，你該要：",
 										{
 											"type": "list",
 											"items": [
-												"End effects that last “until the start of your next turn”."
+												"終止任何持續「直到你的下個回合開始」的效應。."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Taking actions",
+									"translate_name": "採取動作", "name": "Taking actions",
 									"entries": [
-										"You get a standard and a move action each turn. You can exchange your standard action for an additional move action, allowing you to perform two move actions. You can also perform as many free actions on your turn as you wish."
+										"你每個回合可以採取一個標準動作和一個移動動作。你可以將你的標準動作換成一個額外的移動動作，讓你得以採取兩次移動動作。你也可以在你的回合進行任意數量的自由動作。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Order of Actions",
+									"translate_name": "動作順序", "name": "Order of Actions",
 									"entries": [
-										"You perform your actions in any order that you wish, but you cannot normally “split” your actions. So, for example, although you can move (move action) and then attack (standard action) or attack and then move, you cannot move half your distance, attack, and then move the other half unless you have some special trait that allows you to do so."
+										"你能夠以任意順序執行你的動作，但正常來說，你不能「分拆」你的動作。舉例來說，儘管你可以在移動（移動動作）之後攻擊（標準動作），或在攻擊之後移動，但你不能移動一半，攻擊，然後再移動剩下的移動距離。除非你擁有某些特殊能力讓你得以這麼做（例如{@advantage 移動中行動}特長）。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Extra Action",
+									"translate_name": "額外動作", "name": "Extra Action",
 									"entries": [
-										"You can use extra effort in order to take an additional standard or move action on your turn (see {@b Extra Effort})."
+										"你可以使用奮力一搏，以在你的回合採取一個額外的標準動作或移動動作（參見{@rule 奮力一搏|basic|1|extra effort}規則）"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Ending your Turn",
+									"translate_name": "結束你的回合", "name": "Ending your Turn",
 									"entries": [
-										"At the end of your turn, you should",
+										"在你的回合結束時，你該要：",
 										{
 											"type": "list",
 											"items": [
-												"End any effects that last “until the end of your turn”",
-												"Make any necessary resistance checks to recover from ongoing effects.",
-												"Inform the Gamemaster and other players that your turn is finished, allowing the next character in the initiative order to go."
+												"終止任何持續「直到你的回合結束」的效應。",
+												"進行任何必要的抵抗檢定以從持續型效果中回復。",
+												"告知遊戲主持人和其他玩家，表示你的回合已經結束，並讓下一個先攻順序的角色開始他的回合。"
 											]
 										}
 									]
