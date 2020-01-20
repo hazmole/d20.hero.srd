@@ -5652,7 +5652,7 @@
 											"type": "entries",
 											"name": "Perception and Area Effects",
 											"entries": [
-												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@b Area} extra in  Powers). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
+												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@modifier Area} extra). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
 											]
 										}
 									]

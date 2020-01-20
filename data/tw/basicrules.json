@@ -5645,14 +5645,14 @@
 									"type": "entries",
 									"translate_name": "射程", "name": "Range",
 									"entries": [
-										"An attack has one of three ranges: close, ranged, and perception. A {@b close} attack can only affect a target you can physically reach, by touch or wielding a melee weapon, for example. A {@b ranged} attack can affect a target at a distance, while a {@b Perception} attack can hit a target you are able to accurately perceive automatically without need for an attack check.",
-										"A ranged attack has a short range up to its rank x 25 feet, at which it has no penalties. At medium range (up to rank x 50 feet), the attack check has a –2 circumstance modifier. At long range (up to rank x 100 feet), the attack check has a –5 circumstance modifier. Ranged attacks cannot go beyond long range; a target further away is out of range and cannot be attacked.",
-										"These are generally the only significant distinctions in distance. At the basic level, the game system does not focus on tracking exact distances between combatants, apart from determining if they are adjacent (and therefore within close range) and whether or not they can perceive each other (and are therefore within perception range). The rest is left for the GM to describe and adjudicate as desired.",
+										"攻擊的射程會是下列三種其中一種：近身、遠距、或感知距離。{@b 近身}攻擊只能影響一個你可以在物理層面上觸及的目標，例如藉由觸碰或揮舞近戰武器等方式。{@b 遠距}攻擊可以影響一個位於一段距離外的目標，而{@b 感知距離}攻擊則可以直接命中一名你能夠準確感知到的目標，而無須進行攻擊檢定。",
+										"遠距攻擊有著三種不同的距離範圍：短距離最遠為其效果等級 x 25呎，對位於這個距離內的目標進行攻擊將不會承受情境罰值。對位於中距離（最遠為其效果等級 x 50呎）目標所進行的攻擊檢定將會承受-2的情境罰值。而對位於長距離（最遠為其效果等級 x 100呎）目標所進行的攻擊檢定則會承受-5的情境罰值。遠距攻擊的攻擊無法超過其長距離範圍；位於這個範圍之外的目標將無法被攻擊。",
+										"這些通常就是在衡量距離時唯一會使用的重要差異。基本上，這個遊戲系統並不會特別注重於追蹤每個角色彼此之間的距離，而只關注他們是否彼此相鄰（並因此處於彼此的近身肉搏範圍）、以及他們是否能感知到彼此（並因此處於彼此的感知距離範圍內）。其餘詳情則留給GM描述並按照需求調整。",
 										{
 											"type": "entries",
 											"translate_name": "感知距離和範圍化效果", "name": "Perception and Area Effects",
 											"entries": [
-												"Perception and Area effects do not require attack checks, they automatically affect a given target or area (see the {@b Area} extra in Powers). Because of this, these attacks cannot score critical hits or misses, nor do modifiers affecting the attack check—including various maneuvers—affect them."
+												"感知距離射程以及範圍效果都不需要使用者進行任何攻擊檢定，就能自動影響其目標或範圍（參見{@modifier Area}強化）。也因此，這些攻擊不會失手，也無法造成暴擊，那些會影響攻擊檢定的修飾符（或甚至各種戰技）也都不能作用於它們。"
 											]
 										}
 									]
@@ -6001,7 +6001,7 @@
 									"type": "actionBlock",
 									"translate_name": "突襲攻擊", "name": "Surprise Attack",
 									"entries": [
-										"有時候，當你的攻擊藉著突襲而逮著目標的破綻，目標對你的攻擊而言將被視為處於{@condition 脆弱}狀態。突襲攻擊會發生在衝突中的突襲輪期間（參見{@rule 突襲|basic|8|Surprise}），也可能會是因為潛行或隱蔽所導致的結果，讓你能夠悄悄接近目標並發起突襲。GM也可以在你成功展現一項不凡絕技以使目標措手不及時給你進行突襲攻擊的機會，像是Indirect attack（參見{@modifier Indirect}修飾符）。"
+										"有時候，當你的攻擊藉著突襲而逮著目標的破綻，目標對你的攻擊而言將被視為處於{@condition 脆弱}狀態。突襲攻擊會發生在衝突中的突襲輪期間（參見{@rule 突襲|basic|8|Surprise}），也可能會是因為潛行或隱蔽所導致的結果，讓你能夠悄悄接近目標並發起突襲。GM也可以在你成功展現一項不凡絕技以使目標措手不及時給你進行突襲攻擊的機會，像是非自發生源的攻擊（參見{@modifier 非自發生源}修飾符）。"
 									]
 								},
 								{
