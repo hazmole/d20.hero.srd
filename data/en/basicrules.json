@@ -5120,7 +5120,7 @@
 							"name": "Action Types",
 							"entries": [
 								"The four types of actions characters can take are standard, move, free, and reaction. In a normal round, you can perform a standard action and a move action, or two move actions. You can also perform as many free and reactions actions as your GM allows.",
-								"Some situations (like the surprise round) and conditions (like being dazed) limit the actions you can take during your turn.",
+								"Some situations (like the surprise round) and conditions (like being {@condition dazed}) limit the actions you can take during your turn.",
 								{
 									"type": "entries",
 									"name": "Standard Action",
@@ -5132,8 +5132,8 @@
 									"type": "entries",
 									"name": "Move action",
 									"entries": [
-										"A move action allows you to move your speed or perform an action taking a similar amount of time, such as draw or stow a weapon or other object, stand up, pick up an object, or perform some equivalent action (see {@b the Actions in Combat Table}).",
-										"You can take a move action in place of a standard action. For example, rather than moving your speed and attacking you can stand up and move your speed (two move actions), draw a weapon and climb (two move actions), or pick up an object and stow it (two move actions). You can also make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+										"A move action allows you to move your speed or perform an action taking a similar amount of time, such as draw or stow a weapon or other object, stand up, pick up an object, or perform some equivalent action (see {@rule the Actions in Combat Table|basic|8|actions}).",
+										"You can take a move action in place of a standard action. For example, rather than moving your speed and attacking you can stand up and move your speed (two move actions), draw a weapon and climb (two move actions), or pick up an object and stow it (two move actions). You can also make a DC 15 {@skill Athletics} check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
 									]
 								},
 								{

@@ -88,7 +88,7 @@
 			{
 				"translate_name": "動作＆冒險", "name": "Action & Adventure",
 				"headers": [
-					{ "_translate_name": "行動輪", "name": "Action Rounds" },
+					{ "translate_name": "行動輪", "name": "Action Rounds" },
 					{ "_translate_name": "挑戰", "name": "Challenges" },
 					{ "translate_name": "衝突", "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
@@ -5119,42 +5119,42 @@
 							"type": "entries",
 							"translate_name": "動作類型", "name": "Action Types",
 							"entries": [
-								"The four types of actions characters can take are standard, move, free, and reaction. In a normal round, you can perform a standard action and a move action, or two move actions. You can also perform as many free and reactions actions as your GM allows.",
-								"Some situations (like the surprise round) and conditions (like being dazed) limit the actions you can take during your turn.",
+								"角色所能採取的四種動作類型分別為：標準、移動、自由、和反應。在一般行動輪中，你可以採取一個標準動作和一個移動動作，或者兩個移動動作。你可以進行任意數量的自由動作和反應，只要你的GM允許。",
+								"某些情況（例如突襲輪）和狀態（例如陷入{@condition 目眩}狀態）會限制你在回合中能採取的動作。",
 								{
 									"type": "entries",
 									"translate_name": "標準動作", "name": "Standard Action",
 									"entries": [
-										"A standard action allows you to do something. You can make an attack, use a skill, advantage, or power, or perform other similar actions. During a combat round, you can take a standard action and a move action."
+										"標準動作允許你執行某些行為。你可以進行一次攻擊、使用一個技能、特長、超能力、或進行其他類似的行動。在一個戰鬥輪中，你可以採取一個標準動作和一個移動動作。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "移動動作", "name": "Move action",
 									"entries": [
-										"A move action allows you to move your speed or perform an action taking a similar amount of time, such as draw or stow a weapon or other object, stand up, pick up an object, or perform some equivalent action (see {@b the Actions in Combat Table}).",
-										"You can take a move action in place of a standard action. For example, rather than moving your speed and attacking you can stand up and move your speed (two move actions), draw a weapon and climb (two move actions), or pick up an object and stow it (two move actions). You can also make a DC 15 Athletics check as a free action to run faster: one or more degree of success increases your ground speed rank by +1 for one round."
+										"移動動作允許你以你的速度進行移動、或執行一件耗時相近的行動，像是抽出或收回一把武器或其他物體、起身、撿起物體、或其他等價的動作（參見{@rule 戰鬥中的動作|basic|8|actions}）。",
+										"你可以把一個標準動作替換一個移動動作。舉例來說，你可以選擇不要以你的速度移動之後進行攻擊，而是從臥倒中起身並移動等同你速度的距離（二個移動動作）、抽出一把武器並攀爬（二個移動動作）、或撿起一個物體並將之收起（二個移動動作）。你也能夠以一個自由動作進行一次DC 15的{@skill 運動}檢定以嘗試跑得更快；一個或以上程度的成功將會使你的地面速度等級在該輪間+1。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "自由動作", "name": "Free action",
 									"entries": [
-										"Free actions consume very little time and, over the span of the round, their impact is so minor they are considered to take no real time at all. You can perform one or more free actions while taking another action. For instance, dropping an object, dropping to a prone position, speaking a sentence or two, and ceasing to concentrate on maintaining a power are all free actions."
+										"自由動作只會花費極少的時間，且以整個行動輪中只會起到些微的影響，因此它們被視為根本不需要花費到真正的時間。你可以在採取其他動作時執行一個或更多的自由動作。比如說，鬆手使物體落下、躺下成臥倒姿勢、說一兩句話、停止維持超能力的專注等，都屬於自由動作。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "反應", "name": "Reaction",
 									"entries": [
-										"A reaction is something that happens in response to something else, like a reflex. Like free actions, reactions take so little time they’re considered free. The difference between the two is a free action is a conscious choice made on the character’s turn to act. A reaction can occur even when it’s not your turn to act. Some powers and other traits are usable as reactions."
+										"反應是某種用以回應其他事物的行動，就像是反射動作一樣。如同自由動作，反應花費的時間極少，以至於它們被視為可以免費採取的行動。反應與自由動作之間的差異在於，自由動作是一個在該角色回合中有意識做出的選擇。而反應則甚至可以在不是你的回合時進行。某些超能力和其他數據可以做為反應來使用。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "無動作", "name": "No Action",
 									"entries": [
-										"Finally, some things players are called upon to do—certain die rolls like resistance checks, for example—are not considered actions at all, as they involve no action on the part of the characters."
+										"最後，某些玩家被要求進行的事情──例如某些擲骰檢定，像是抵抗檢定──完全不會被視作動作，因為它們並不涉及角色的任何行動。"
 									]
 								}
 							]
