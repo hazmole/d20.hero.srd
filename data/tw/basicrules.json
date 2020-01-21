@@ -5086,31 +5086,31 @@
 			"type": "section",
 			"translate_name": "動作＆冒險", "name": "Action & Adventure",
 			"entries": [
-				"Like the comics, this game is about action, so this section looks at the flow of the game and how heroes accomplish their amazing feats, ranging from last-minute rescues and brilliant investigations to thrilling battles against the forces of evil.",
-				"The chapter starts out with a look at action rounds, used to measure time when seconds count, then moves on to the different challenges heroes face, followed by handling conflicts like super-powered battles. The section concludes with information on the potential consequences, including various conditions imposed on heroes and the hazards of the environment around them. This is followed by handling conflicts like super-powered battles, including special actions, consequences of damage, and recovery from it.",
+				"跟漫畫一樣，這個遊戲相當注重動作場景，因此這個章節將專注於遊戲流程，以及英雄達成他們驚人壯舉的方法：包括從最後關頭的救援行動、出色的調查、到與邪惡勢力驚心動魄的戰鬥。",
+				"這個章節從行動輪開始，介紹這個在分秒必爭的場面中用以衡量時間的手段。然後是關於英雄們可能會遭遇到的種種挑戰，接著說明要如何處理例如超能力大戰這類的衝突。總結來說，本章節提供了關於各種潛在後果的資料，包括各種可能強加在英雄身上的異常狀態、以及他們周遭的環境危害。並接著說明如何處理像是超能力大戰的激烈衝突，包括各種特殊行動、傷害與後果、以及該如何從中恢復。",
 				{
 					"type": "section",
 					"translate_name": "行動輪", "name": "Action Rounds",
 					"entries": [
-						"The {@b action round} (or simply {@b round}) is how this game breaks down time when things like who goes first and how much each character can accomplish are important. A round represents about six seconds of time in the game world.",
-						"During a round, each character involved takes a {@b turn}, which is that character’s opportunity to do something. A character has an allotment of {@b actions}, used during that character’s turn. Players decide what their characters do on their turns, while the GM handles everyone else’s turn.",
+						"{@b 行動輪}（或簡稱為{@b 輪}），是本遊戲在發生需要注重誰先行動、以及每個角色能夠做到多少事情的場景時，用以將時間拆分開來的手段。一輪大約等同於遊戲世界中 6秒的時間。",
+						"在一個行動輪期間，每個參與其中的角色都會各自進行一個{@b 回合}，代表著該角色採取行動的機會。一個角色得以分配一系列{@b 動作}，在該角色的回合內使用。當輪到玩家角色的回合時，玩家們將需要決定其角色的行動；而GM則負責處理所有其他角色的回合。",
 						{
 							"type": "entries",
 							"translate_name": "先攻順序", "name": "Initiative",
 							"entries": [
-								"The order in which characters take their turns is determined by {@b initiative}. Base initiative bonus is equal to the character’s Agility rank. Many characters have advantages or powers that modify their initiative, such as Improved Initiative. At the start of a conflict, roll an initiative check for each character:",
+								"角色們進行回合的順序是由{@b 先攻值}決定的。每個角色的基礎先攻加值等同於該角色的敏捷屬性等級。除此之外，許多角色也會擁有能夠改變他們先攻值的特長或超能力，例如{@advantage 精通先攻}。在衝突開始的時候，為每個角色擲骰進行先攻檢定：",
 								{
 									"type": "middleEnhance",
 									"text": "d20 + 先攻修正值"
 								},
-								"The initiative check determines what order characters act in, counting down from highest check result to lowest. Usually, the GM writes the names of the characters down in initiative order to move quickly from one character to the next each round. You can also have all of the characters’ names listed on index cards you can reshuffle to fit the initiative order. If two characters have the same initiative result, they act in order of highest Dodge bonus first, then highest Agility and highest Awareness. If there is still a tie, each tied player should roll a die, with the highest roll going first. The GM may roll just once for an entire group of minions, giving them all the same initiative.",
-								"If characters enter a conflict after it’s begun, they roll initiative when they join-in and act when their turn comes up in the existing order.",
+								"先攻檢定將決定每個角色行動的順序，從檢定結果較高的角色依序輪到較低的角色。通常GM會按照先攻順序依序寫下每個角色的名字，以加快每輪讓角色輪流進行回合的速度。你也可以將角色的名字寫在索引卡上，並根據先攻順序堆疊起來，以加速判斷下一個會輪到誰行動。若有兩個或以上角色的先攻檢定結果相同，則先攻順序的判斷將依序比較其閃避防禦加值、敏捷加值、覺察加值，由數值最高的角色先行。若仍然平手，則讓每個平手的玩家骰一顆骰子，由擲骰結果較高的玩家優先行動。GM可以只為一整群的嘍囉骰一次先攻檢定，讓他們共用相同的先攻順序。",
+								"若角色在衝突發生之後才加入，則他們將在加入衝突時進行先攻檢定，並在輪到該先攻順序時進行他們的回合。",
 								{
 									"type": "entries",
 									"translate_name": "突襲", "name": "Surprise",
 									"entries": [
-										"Some conflicts begin with one or more characters caught unaware or {@b urprised}. This is typically because the character did not succeed on a Perception or other check and was therefore caught off-guard. Some characters on a side can be surprised while others are not.",
-										"If any characters in the conflict are surprised, then the action begins with a {@b surprise round}. Everyone involved in the conflict makes initiative checks as usual. Surprised characters do not act on the surprise round. They are stunned and vulnerable until the next round (see {@b Conditions} in {@b The Basics}). Other characters may act, but are limited to a standard action and free actions, although they may exchange their standard action for a move action, as usual."
+										"有些衝突會在一個或多個角色尚未意識到的情況發生，這種情況稱做{@b 被突襲}。這通常是源自於這些角色沒能成功通過{@skill 感知}或其他檢定，並因此措手不及。即使屬於同個陣營，某些角色仍可能在其他角色沒被突襲的情況下陷入被突襲的狀態。",
+										"若有任何參與衝突的角色陷入{@condition 被突襲}狀態，則該動作場景將以{@b 突襲輪}的形式展開。所有參與該衝突的角色如常進行先攻檢定，但{@condition 被突襲}的角色在突襲輪中將無法採取任何行動。直到下一輪開始，他們被視作處於{@condition 暈眩}和{@condition 脆弱}狀態（參見{@5etools 狀態|conditions.html}頁面）。其他角色可以行動，但限定只能採取一個標準動作和自由動作，他們仍然能夠如常將他們的標準動作換成一個移動動作。"
 									]
 								}
 							]

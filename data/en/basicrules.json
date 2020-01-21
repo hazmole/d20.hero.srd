@@ -5098,7 +5098,7 @@
 							"type": "entries",
 							"name": "Initiative",
 							"entries": [
-								"The order in which characters take their turns is determined by {@b initiative}. Base initiative bonus is equal to the character’s Agility rank. Many characters have advantages or powers that modify their initiative, such as Improved Initiative. At the start of a conflict, roll an initiative check for each character:",
+								"The order in which characters take their turns is determined by {@b initiative}. Base initiative bonus is equal to the character’s Agility rank. Many characters have advantages or powers that modify their initiative, such as {@advantage Improved Initiative}. At the start of a conflict, roll an initiative check for each character:",
 								{
 									"type": "middleEnhance",
 									"text": "d20 + initiative modifier"
@@ -5109,8 +5109,8 @@
 									"type": "entries",
 									"name": "Surprise",
 									"entries": [
-										"Some conflicts begin with one or more characters caught unaware or {@b urprised}. This is typically because the character did not succeed on a Perception or other check and was therefore caught off-guard. Some characters on a side can be surprised while others are not.",
-										"If any characters in the conflict are surprised, then the action begins with a {@b surprise round}. Everyone involved in the conflict makes initiative checks as usual. Surprised characters do not act on the surprise round. They are stunned and vulnerable until the next round (see {@b Conditions} in {@b The Basics}). Other characters may act, but are limited to a standard action and free actions, although they may exchange their standard action for a move action, as usual."
+										"Some conflicts begin with one or more characters caught unaware or {@b surprised}. This is typically because the character did not succeed on a {@skill Perception} or other check and was therefore caught off-guard. Some characters on a side can be surprised while others are not.",
+										"If any characters in the conflict are {@condition surprised}, then the action begins with a {@b surprise round}. Everyone involved in the conflict makes initiative checks as usual. {@condition Surprised} characters do not act on the surprise round. They are {@condition stunned} and {@condition vulnerable} until the next round (see {@5etools Conditions|conditions.html}). Other characters may act, but are limited to a standard action and free actions, although they may exchange their standard action for a move action, as usual."
 									]
 								}
 							]
