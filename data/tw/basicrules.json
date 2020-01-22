@@ -34,7 +34,7 @@
 					{ "_translate_name": "糾葛難題", "name": "Complications" },
 					{ "translate_name": "背景", "name": "Background" },
 					{ "_translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement" },
-					{ "_translate_name": "角色範型", "name": "Character Archetypes" }
+					{ "translate_name": "角色範型", "name": "Character Archetypes" }
 				]
 			},
 			{
@@ -1577,7 +1577,7 @@
 							"type": "entries",
 							"translate_name": "知曉你的選擇", "name": "Know Your Options",
 							"entries": [
-								"{@archetype 擬形怪}和{@archetype 秘法師}範型儘管方向不同，但都具有相當的靈活性。且它們非常值得你在沉浸於遊戲故事之前，花點時間搞清楚你的角色能夠做到什麼事。",
+								"儘管方向不同，但{@archetype 擬形怪}和{@archetype 秘法師}範型都具有相當的靈活性。且它們非常值得你在沉浸於遊戲故事之前，花點時間搞清楚你的角色能夠做到什麼事。",
 								"{@archetype 擬形怪}的情況，GM可能會希望針對擬形怪可能會想模仿複製的其他角色，準備它們所擁有超能力的筆記卡或其他快速參考資料。這麼一來，你只需要瞥一眼就能知道該角色有什麼數據可以被複製，並簡單地把該筆記卡交給玩家參考即可。有經驗的擬形怪甚至可能會事先將他們經常拿來使用的超能力做成「手牌」，以隨時拿來參考。",
 								"而至於{@archetype 秘法師}，除了要決定你角色的五個替換效果（參見{@modifier 替換效果}）之外，還請先讀過範例超能力的{@samplepower 魔法}，思考關於你角色所能達成的超能力絕技；瞬間編織出法術以滿足特定的需求。秘法師能夠非常有效地利用超能力絕技，且你可能會想為此而保留一點（或二點）勝利點。"
 							]
@@ -1601,10 +1601,10 @@
 							"type": "entries",
 							"translate_name": "超能力階級更高或更低的範型", "name": "Higher and Lower Power Level Archetypes",
 							"entries": [
-								"The archetypes presented here can serve as models for higher and lower power level versions suitable for different series, ranging from as low as PL8 (PL6 for some archetypes) to as high as PL15 or more. Reworking an archetype for a different power level requires rebuilding the character to ensure everything matches the power level limits, but here are some quick guidelines for modifying an archetype on the fly. They are particularly useful if the Gamemaster wants a character of a different power level for a game, but doesn’t want to go through the trouble of creating the character from scratch:",
-								"For every +1 power level, increase the archetype’s attack bonuses, defenses, and skill ranks by 1. Also increase the archetype’s powers offering a resistance check by 1 rank. If desired, shift an increase to a trait you don’t want to go any higher to the corresponding trait in a pair, such as applying an attack increase to power rank, or a Toughness increase to either Dodge or Parry.",
-								"For every –1 power level, decrease the archetype’s attack bonuses, defenses, and skill ranks by 1. Also decrease the archetype’s powers offering resistance checks by 1 rank each. You can likewise shift a decrease from a trait you want to keep at its present rank to the corresponding trait in a pair, like applying an attack decrease to power rank, or a Dodge decrease to Toughness.",
-								"Check to see that none of the character’s traits exceed the new power level limits and add up the character’s new Character point cost. If you are creating a starting character for that power level (rather than a non-player character), adjust the total Character point cost to match the recommended starting total, adding or removing traits as needed."
+								"在這裡列出的角色範型也可以做為更高或更低超能力階級角色的原型，調整其數據以用於不同的故事劇集，從低至 8階（某些範型可以調降至 6階）到 15階或甚至更高。為不同的超能力階級重塑範型本來會需要重新創建角色以確保其所有數據都符合超能力階級限制，但我們在這裡提供一個快速修改角色範型的訣竅。當遊戲主持人想要為遊戲設計一個不同超能力階級的角色，但又不想從頭開始創建角色時，這些訣竅就特別實用：",
+								"超能力階級每+1階，就提高該範型的攻擊加值、防禦、和技能等級1級。該範型擁有的那些會要求抵抗檢定的超能力的等級也提高1級。若有需要，你也可以不提高你不希望它等級再繼續增加的數據，而改為提高其相應成對的數據，例如你可以將攻擊加值的+1級改為應用於超能力等級，或者將堅實防禦等級的+1級改為閃避或格檔防禦。",
+								"超能力階級每-1階，就降低該範型的攻擊加值、防禦、和技能等級1級。該範型擁有的那些會要求抵抗檢定的超能力的等級也降低1級。你同樣可以改為降低其相應成對數據的等級，例如降低超能力等級而非攻擊加值，或者改為降低堅實防禦而非閃避防禦。",
+								"最後，檢查確認該角色沒有任何數據會超過新超能力階級所設下的限制，並加總該角色新的角色點花費。若你在創建的是該超能力階級的起始角色（而不是非玩家角色），那麼請添加或移除必要的數據，以調整其角色點花費總和，使其符合建議的起始角色點數。"
 							]
 						}
 					]
