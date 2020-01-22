@@ -93,7 +93,7 @@
 					{ "translate_name": "衝突", "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
 					{ "translate_name": "戰技", "name": "Maneuvers" },
-					{ "_translate_name": "回復", "name": "Recovery" }
+					{ "translate_name": "回復", "name": "Recovery" }
 				]
 			},
 			{
@@ -5637,7 +5637,7 @@
 									"type": "entries",
 									"translate_name": "回復", "name": "Recovery",
 									"entries": [
-										"活體生物每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect 再生}效果可以加速這個過程。長久性或更嚴重的創傷將被做為糾葛難題處理（參見{@rule Lasting Injuries|basic|8|Lasting Injuries}段落的說明）。",
+										"活體生物每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect 再生}效果可以加速這個過程。長久性或更嚴重的創傷將被做為糾葛難題處理（參見{@rule 長久創傷|basic|8|Lasting Injuries}段落的說明）。",
 										"除非物體（不具備體質屬性的角色）具有像是{@effect 再生}之類的效果，否則物體受到的傷害並不會回復。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。"
 									]
 								},
@@ -6017,26 +6017,26 @@
 						},
 						{
 							"type": "entries",
-							"name": "Recovery",
+							"translate_name": "回復", "name": "Recovery",
 							"entries": [
-								"As a result of conflict, characters often suffer adverse conditions (see {@b Conditions} in {@b The Basics}) from being knocked around and hit with different powers. The specific conditions are discussed in the effects defined in {@b Powers} chapter, particularly Affliction and Damage, the most common effects of conflicts.",
-								"Living targets remove one damage condition per minute of rest, starting from their most severe condition and working back. So a damaged character recovers from being incapacitated, then staggered, dazed, and finally removes a –1 Toughness check penalty per minute until fully recovered. The Healing and Regeneration effects can speed this process.",
-								"Objects, having no Stamina, do not recover from damage unless they have an effect like Regeneration. Instead, they must be repaired. See the guidelines under the {@b Technology} skill when repairing damaged object.",
+								"作為衝突的代價，角色們經常會因為被粗暴毆打或遭各種超能力影響而承受各種負面狀態（參見{@5etools 狀態|conditions.html}頁面）。{@rules 超能力|basic|6}章節中將說明各效果所能造成的具體影響，特別是{@effect 詛咒}和{@effect 傷害}這兩個在衝突中最常見的超能力效果。",
+								"活體生物每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect 再生}效果可以加速這個過程。",
+								"除非物體（不具備體質屬性的角色）具有像是{@effect 再生}之類的效果，否則物體受到的傷害並不會回復。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。",
 								{
 									"type": "inset",
-									"name": "Lasting Injuries",
+									"translate_name": "長久創傷", "name": "Lasting Injuries",
 									"entries": [
-										"This game is designed to emulate the superhero comic books, so characters generally bounce back pretty fast from taking serious beatings, and there is little differentiation between getting punched through a brick wall and shot-up with a .45 caliber (or, for that matter, set on fire or electrocuted). Realistically, any or all of these things should result in severe injuries that take a considerable amount of time to heal; in the comics, most characters just shake it off and are all better by the next scene",
-										"If you want to include lasting or more serious injuries in your game, or just in a particular story, they are better handled as complications (see the {@b Complications} section in The Basics chapter for details). This is largely how the comics handle them; most of the time, heroes bounce back from the effects of combat but, occasionally, a character suffers a serious and significant injury—such as a broken arm or head trauma—that plays a role in the story later on. Handle this like any other GM-imposed complication: award the player a hero point when it comes into play, and apply the effects of the complication to the story. Use the conditions defined in {@b The Basics} chapter as an idea of the complications facing an injured character."
+										"這個遊戲系統的設計注重於模擬超級英雄漫畫，因此遊戲中的角色即使被狠狠的打倒，仍能相當快的從中恢復過來，在這個遊戲中，被重拳打飛而撞破磚牆，跟被.45口徑手槍射中（或者，被灼燒或電刑）之間並沒有什麼太大的差別。儘管從現實來說，任何這些傷害都會導致相當嚴重的後果，併需要大量的時間治療才能康復；然而在漫畫中，大部分的角色很輕易地就能擺脫這些傷害，且在下個場景登場時就又是一尾活龍。",
+										"若你將長久持續或更加嚴重的創傷引入你的遊戲，或引入某個特定的故事，則這些後果最好被當作糾葛難題來處理（參見基本規則章節的{@rule 糾葛難題|basic|1|complications}段落以查閱更多細節）。這也正是英雄漫畫中處理它們的方式；大部分的時候，角色們可以很快從戰鬥的後果中回復，但偶爾，角色會受到相當嚴重且顯著的創傷──例如斷手或腦部創傷──併在之後的故事中佔有一席之地。以跟其他由GM強加的糾葛難題相同的方式處理它們：在創傷發揮作用時獎勵玩家一點勝利點，並將這個糾葛難題帶來的影響作用於故事中。GM可以使用基本規則章節中所定義的狀態作為靈感，以幫助你在受創角色面對糾葛難題時的處理。"
 									]
 								},
 								{
 									"type": "inset",
-									"name": "Death",
+									"translate_name": "死亡", "name": "Death",
 									"entries": [
-										"Character death is a relatively rare happenstance in the comic books. Technically, it’s not so much rare as it is temporary. The tendency of comic book characters to return from the dead has become so commonplace it is cliché, with various stories and characters poking fun at it.",
-										"This game rules make character death a similarly rare occurrence. Characters generally only acquire the dying condition after being incapacitated and suffering further harm, which usually means someone is actively trying to kill them. Even then, dying characters have opportunities to stabilize and stave off death. It takes a second active effort to kill a dying character outright, so accidental death due to a single bad die roll is all but impossible for the major characters in a series.",
-										"Note that none of this applies to minions, who can be killed simply with a successful attack and a declaration of intent to do so. While heroes in a four-color or mainstream style game generally refrain from killing, minions can get mowed down by the dozens in gritty Iron Age style games. The Gamemaster can also kill off supporting characters as desired to suit the story. The greater “resilience” of main characters is not because they are physically any different or tougher, just that they are literally more important to the story of the game."
+										"在漫畫書中，角色的死亡是一件相對罕見的事情。技術上來說，暫時性的死亡並不是那麼罕見。漫畫角色從死裡復活的趨勢已經如此普遍，甚至已經變得有些陳腔濫調，以至於許多故事和角色將這件事當作梗，以此尋樂。",
+										"這個遊戲的規則讓角色死亡的情況變得同樣罕見。角色通常只會在陷入{@condition 失能}的狀態下再次受到傷害，才會進一步陷入{@condition 瀕死}狀態，而這通常代表有某人非常積極地嘗試殺死他們。即使如此，瀕死的角色也有很大的機會使傷勢穩定並避免死亡。由於立刻殺死一名瀕死的角色需要採取第二次的主動行為，因此一次爛骰所導致的意外死亡對於劇集中的主要角色而言基本上是完全不可能的。",
+										"要注意的是，上述情況都不適用於嘍囉，一次成功命中的攻擊並宣言處決就可以輕易地殺死他們。儘管四色時代或主流風格遊戲中的英雄們通常會避免殺戮，但在鐵血時代風格的遊戲中，一群群嘍囉被輕易幹掉的情況可說一點也不罕見。遊戲主持人也可以根據故事的需求殺死配角。主要角色之所以比較「強韌」的原因並不是因為他們的身體更結實、或有什麼特異之處，僅僅是因為他們在遊戲的故事中比他人更加重要而已。"
 									]
 								}
 							]
