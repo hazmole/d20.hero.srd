@@ -1563,38 +1563,38 @@
 					"type": "section",
 					"translate_name": "角色範型", "name": "Character Archetypes",
 					"entries": [
-						"The following archetypes are pre-made and ready to play for a Power Level 10 series. Some may require a few choices or options for customization. Gamemasters can also use these archetypes as ready-made villains, if desired.",
-						"For each Archetype information, see {@5etools Archetypes|archetypes.html} page.",
+						"這個章節所列出的範型是預先做好的角色，並可直接被用於遊玩超能力階級為10的劇集。其中有些範型需要玩家們做一些簡單的選擇以進行客製化。遊戲主持人若有需要，也可以使用這些角色範型當作現成的反派角色。",
+						"關於每個角色範型的完整資料，請參閱{@5etools 英雄範型|archetypes.html}頁面。",
 						{
 							"type": "entries",
 							"translate_name": "充分利用特長優勢", "name": "Making the Most of Advantages",
 							"entries": [
-								"The Gadgeteer and Martial Artist archetypes rely a great deal on their advantages (as do other archetypes like the Crime Fighter and Weapon-Master). You’ll want to read the descriptions of all of the character’s advantages from {@b Advantages} so you know the benefits they provide. Remember to make use of them during play to give your character every appropriate, well, advantage.",
-								"In particular, note how some advantages and even powers work together. The Gadgeteer can use Quick-Thinking to speed up the process of inventing (see Inventing) and Skill Mastery (Technology) to make some inventing checks as routine. Similarly, note the Martial Artist’s Power Attack advantage, good for doing extra damage to slow, tough, opponents, and the Skill Mastery (Acrobatics) advantage for pulling off formidable (DC 25) Acrobatics checks as routine!"
+								"{@archetype 機具士}和{@archetype 武術家}範型在很大程度上依賴於他們的特長（其他像是{@archetype 懲罪英俠}和{@archetype 武器大師}的範型也是一樣）。你可能會希望先閱覽過該角色範型所有特長的說明以得知它們所能提供的好處。請記得在遊玩過程中善用它們，為你的角色帶來各種各樣的優勢。",
+								"尤其需要注意某些特長或甚至超能力組合的作用方式。{@archetype 機具士}可以使用「機敏思想」超能力以加速發明的過程（參見{@rule 發明|basic|7|inventing}規則），而{@advantage Skill Mastery|技能專精: 科技}則能夠使某些發明檢定以例行檢定的方式進行。同樣的，注意{@archetype 武術家}的{@advantage 強力攻擊}特長，相當適合對那些緩慢但結實的對手造成額外的傷害，而{@advantage Skill Mastery|技能專精: 雜技}特長則能夠以例行檢定的方式達成令人敬畏(DC 25)的{@skill 雜技}檢定！"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "知曉你的選擇", "name": "Know Your Options",
 							"entries": [
-								"The Mimic and Mystic archetypes are both very flexible, although in different ways, and it pays to know what your character is capable of doing before you are immersed in the midst of a game.",
-								"In the case of the Mimic, the GM may wish to put together note cards or some other quick reference to the powers of other characters whom the Mimic might wish to duplicate. That way, you can see at a glance what traits the character can copy, and simply hand the card to the player for reference. Experienced Mimics may even build up a “hand” of such cards they reference often.",
-								"For the Mystic, in addition to choosing your character’s five set Alternate Effects (see Alternate Effect), read the Magic sample power and give some thought to power stunts your character can do; spur of the moment spells whipped up to fit a particular need. Mystics are very effective at power stunts and you might want to reserve a victory point (or two) for that purpose."
+								"{@archetype 擬形怪}和{@archetype 秘法師}範型儘管方向不同，但都具有相當的靈活性。且它們非常值得你在沉浸於遊戲故事之前，花點時間搞清楚你的角色能夠做到什麼事。",
+								"{@archetype 擬形怪}的情況，GM可能會希望針對擬形怪可能會想模仿複製的其他角色，準備它們所擁有超能力的筆記卡或其他快速參考資料。這麼一來，你只需要瞥一眼就能知道該角色有什麼數據可以被複製，並簡單地把該筆記卡交給玩家參考即可。有經驗的擬形怪甚至可能會事先將他們經常拿來使用的超能力做成「手牌」，以隨時拿來參考。",
+								"而至於{@archetype 秘法師}，除了要決定你角色的五個替換效果（參見{@modifier 替換效果}）之外，還請先讀過範例超能力的{@samplepower 魔法}，思考關於你角色所能達成的超能力絕技；瞬間編織出法術以滿足特定的需求。秘法師能夠非常有效地利用超能力絕技，且你可能會想為此而保留一點（或二點）勝利點。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "樂在蠻力", "name": "Fun with Strength",
+							"translate_name": "樂在揮舞蠻力", "name": "Fun with Strength",
 							"entries": [
-								"The Paragon and Powerhouse archetypes are among the strongest archetypes, able to lift and carry a lot of weight. Just to give you an idea, the Paragon can lift a loaded 747 aircraft, whereas the Powerhouse can lift four times that amount. Both can easily smash through stone or bend steel.",
-								"Both archetypes are pretty tough, too. With their 12 ranks of Impervious Toughness, both can shrug off the damage of most conventional weapons, including guns, grenade launchers, and flamethrowers, without even having to make a resistance check! It would take the equivalent of an exploding shell to penetrate their skin."
+								"{@archetype 典範超人}和{@archetype 大力士}範型可說是最強壯的範型，他們能夠輕鬆舉起並承載相當龐大的重量。給你們一個概念，典範超人能夠舉起一整架滿載乘客的波音747，而大力士則甚至可以舉起高達四倍的重量。他們都能夠輕易地粉碎巖石或折彎鋼鐵。",
+								"這兩個範型也都相當堅韌耐打。那高達12級的{@modifier Impervious|強抗堅實防禦}，能讓他們甚至連抵抗檢定都不用，就輕蔑地無視大部分常見武器的傷害，包括槍械、榴彈發射器、火焰噴射器等等！要動用到迫擊砲程度的傷害才有辦法打穿他們那無敵身體。"
 							]
 						},
 						{
 							"type": "entries",
-							"translate_name": "神速速報", "name": "Fast facts",
+							"translate_name": "神速捷報", "name": "Fast facts",
 							"entries": [
-								"In addition to formidable ground speed, and the ability to run across water or up sheer surfaces, the Speedster’s Quickness rank allows opportunities to do a lot in a short span of time. A Speedster subtracts 10 from the time rank required to accomplish any routine task, doing in six seconds what it takes most people two hours to accomplish! That can include reading, fixing things, or searching an area, just to name a few."
+								"除了那令人敬畏的地面速度、以及能夠在水面或甚至垂直表面奔行的能力，{@archetype 神速行者}的{@effect 迅捷}等級能提供他在極短時間內完成大量工作的機會。神速行者可以將任何例行事項所需的時間等級減去10級，在6秒內就能做完大部分人們需要花費二個小時才能完成的工作！這可能包括閱讀、修理事物、或搜索一整個區域，諸如此類。"
 							]
 						},
 						{
@@ -3071,7 +3071,7 @@
 										{
 											"type": "example",
 											"entries": [
-												"由於你現在就需要準備好心靈護盾裝置，因此你決定花費一點角色點以應急製造。你略過整個設計步驟，並將構築過程的時間降低至 5輪（1分鐘以內）。構築檢定的DC將增加至20，但這仍在你英雄技能等級所能應付的範圍內；你只需要骰出5或更高就好。你得到了25的檢定結果，然後，在大約一分鐘後，你得到了一個臨時拼湊而成的心靈護盾裝置，希望這個裝置能夠保護你不受壞蛋超能力的影響，爭取到足夠的時間讓你解救處於反派控制下的隊友們。"	
+												"由於你現在就需要準備好心靈護盾裝置，因此你決定花費一點勝利點以應急製造。你略過整個設計步驟，並將構築過程的時間降低至 5輪（1分鐘以內）。構築檢定的DC將增加至20，但這仍在你英雄技能等級所能應付的範圍內；你只需要骰出5或更高就好。你得到了25的檢定結果，然後，在大約一分鐘後，你得到了一個臨時拼湊而成的心靈護盾裝置，希望這個裝置能夠保護你不受壞蛋超能力的影響，爭取到足夠的時間讓你解救處於反派控制下的隊友們。"	
 											]
 										}
 									]

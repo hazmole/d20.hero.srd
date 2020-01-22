@@ -1569,32 +1569,32 @@
 							"type": "entries",
 							"name": "Making the Most of Advantages",
 							"entries": [
-								"The Gadgeteer and Martial Artist archetypes rely a great deal on their advantages (as do other archetypes like the Crime Fighter and Weapon-Master). You’ll want to read the descriptions of all of the character’s advantages from {@b Advantages} so you know the benefits they provide. Remember to make use of them during play to give your character every appropriate, well, advantage.",
-								"In particular, note how some advantages and even powers work together. The Gadgeteer can use Quick-Thinking to speed up the process of inventing (see Inventing) and Skill Mastery (Technology) to make some inventing checks as routine. Similarly, note the Martial Artist’s Power Attack advantage, good for doing extra damage to slow, tough, opponents, and the Skill Mastery (Acrobatics) advantage for pulling off formidable (DC 25) Acrobatics checks as routine!"
+								"The {@archetype Gadgeteer} and {@archetype Martial Artist} archetypes rely a great deal on their advantages (as do other archetypes like the {@archetype Crime Fighter} and {@archetype Weapon Master}). You’ll want to read the descriptions of all of the character’s advantages from {@5etools Advantages|advantages.html} so you know the benefits they provide. Remember to make use of them during play to give your character every appropriate, well, advantage.",
+								"In particular, note how some advantages and even powers work together. The {@archetype Gadgeteer} can use Quick-Thinking to speed up the process of inventing (see {@rule Inventing|basic|7|inventing}) and {@advantage Skill Mastery|Skill Mastery (Technology)} to make some inventing checks as routine. Similarly, note the {@archetype Martial Artist}’s {@advantage Power Attack} advantage, good for doing extra damage to slow, tough, opponents, and the {@advantage Skill Mastery|Skill Mastery (Acrobatics)} advantage for pulling off formidable (DC 25) {@skill Acrobatics} checks as routine!"
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Know Your Options",
 							"entries": [
-								"The Mimic and Mystic archetypes are both very flexible, although in different ways, and it pays to know what your character is capable of doing before you are immersed in the midst of a game.",
-								"In the case of the Mimic, the GM may wish to put together note cards or some other quick reference to the powers of other characters whom the Mimic might wish to duplicate. That way, you can see at a glance what traits the character can copy, and simply hand the card to the player for reference. Experienced Mimics may even build up a “hand” of such cards they reference often.",
-								"For the Mystic, in addition to choosing your character’s five set Alternate Effects (see Alternate Effect), read the Magic sample power and give some thought to power stunts your character can do; spur of the moment spells whipped up to fit a particular need. Mystics are very effective at power stunts and you might want to reserve a victory point (or two) for that purpose."
+								"The {@archetype Mimic} and {@archetype Mystic} archetypes are both very flexible, although in different ways, and it pays to know what your character is capable of doing before you are immersed in the midst of a game.",
+								"In the case of the {@archetype Mimic}, the GM may wish to put together note cards or some other quick reference to the powers of other characters whom the Mimic might wish to duplicate. That way, you can see at a glance what traits the character can copy, and simply hand the card to the player for reference. Experienced Mimics may even build up a “hand” of such cards they reference often.",
+								"For the {@archetype Mystic}, in addition to choosing your character’s five set Alternate Effects (see {@modifier Alternate Effect}), read the {@samplepower Magic} sample power and give some thought to power stunts your character can do; spur of the moment spells whipped up to fit a particular need. Mystics are very effective at power stunts and you might want to reserve a victory point (or two) for that purpose."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Fun with Strength",
 							"entries": [
-								"The Paragon and Powerhouse archetypes are among the strongest archetypes, able to lift and carry a lot of weight. Just to give you an idea, the Paragon can lift a loaded 747 aircraft, whereas the Powerhouse can lift four times that amount. Both can easily smash through stone or bend steel.",
-								"Both archetypes are pretty tough, too. With their 12 ranks of Impervious Toughness, both can shrug off the damage of most conventional weapons, including guns, grenade launchers, and flamethrowers, without even having to make a resistance check! It would take the equivalent of an exploding shell to penetrate their skin."
+								"The {@archetype Paragon} and {@archetype Powerhouse} archetypes are among the strongest archetypes, able to lift and carry a lot of weight. Just to give you an idea, the Paragon can lift a loaded 747 aircraft, whereas the Powerhouse can lift four times that amount. Both can easily smash through stone or bend steel.",
+								"Both archetypes are pretty tough, too. With their 12 ranks of {@modifier Impervious|Impervious Toughness}, both can shrug off the damage of most conventional weapons, including guns, grenade launchers, and flamethrowers, without even having to make a resistance check! It would take the equivalent of an exploding shell to penetrate their skin."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Fast facts",
 							"entries": [
-								"In addition to formidable ground speed, and the ability to run across water or up sheer surfaces, the Speedster’s Quickness rank allows opportunities to do a lot in a short span of time. A Speedster subtracts 10 from the time rank required to accomplish any routine task, doing in six seconds what it takes most people two hours to accomplish! That can include reading, fixing things, or searching an area, just to name a few."
+								"In addition to formidable ground speed, and the ability to run across water or up sheer surfaces, the {@archetype Speedster}’s {@effect Quickness} rank allows opportunities to do a lot in a short span of time. A Speedster subtracts 10 from the time rank required to accomplish any routine task, doing in six seconds what it takes most people two hours to accomplish! That can include reading, fixing things, or searching an area, just to name a few."
 							]
 						},
 						{

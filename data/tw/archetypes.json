@@ -672,7 +672,7 @@
 					},
 					"{@b 力場護盾腰帶}: {@effect Protection|保護 10}, {@modifier 強抗}, {@modifier 維持}, {@modifier 精確}, {@modifier 可被移除}(-4 點) [21-4 點]",
 					"{@b 噴射背包}: {@effect Flight|飛行 5} (60 哩/小時), {@modifier 可被移除}(-2 點) [10-2 點]",
-					"{@b 機敏思想}: {@effect Quickness|迅捷 4}, {@modifier Limited|限定精神種類} [2 點]"
+					"{@b 機敏思想}: {@effect Quickness|迅捷 4}, {@modifier Limited|限定心理種類} [2 點]"
 				]
 			},
 			"offense": [
@@ -933,7 +933,7 @@
 			"footer": "* 這些加值將會根據擬態模仿改變的數據而產生變化"
 		},
 		{
-			"translate_name": "秘術師", "name": "Mystic",
+			"translate_name": "秘法師", "name": "Mystic",
 			"attributes": {
 				"str": 0,
 				"sta": 0,
