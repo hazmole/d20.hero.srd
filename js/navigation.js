@@ -18,8 +18,8 @@ class NavBar {
 
 		addLi(navBar, "index.html", FMT("nav_home"));
 
-		const ulRules = addDropdown(navBar, FMT("nav_rules"));
-		addLi(ulRules, "rules.html", FMT("nav_basic_rules"), true, "basic");
+		//const ulRules = addDropdown(navBar, FMT("nav_rules"));
+		addLi(navBar, "rules.html", FMT("nav_basic_rules"), true, "basic");
 		
 		const ulPlayer = addDropdown(navBar, FMT("nav_pl_opt"));
 		
