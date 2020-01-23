@@ -2937,14 +2937,14 @@
 		},
 		{
 			"type": "section",
-			"name": "Gadgets & Gear",
+			"translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 			"entries": [
 				"From blaster rifles to anti-gravity belts, teleportation rings, and battlesuits, heroes and villains develop all manner of gadgets. Villains are forever coming up with doomsday machines and fiendish deathtraps while heroes use all sorts of gear to aid them in their fight for justice. This chapter looks at various sorts of devices and equipment in the game terms. It also describes vehicles, headquarters, and constructs, ranging from zombie minions to giant robots.",
 				{
 					"type": "section",
-					"name": "Devices",
+					"translate_name": "裝置", "name": "Devices",
 					"entries": [
-						"A device is an item that provides a particular power effect or set of effects. While devices are typically creations of advanced science, they don’t have to be. Many heroes and villains have magical devices such as enchanted weapons and armor, magical talismans, wands and staves of power, and so forth. Some devices are products of alien technology so advanced they might as well be magical, or focuses of psychic or cosmic power beyond the understanding of both magic and science. All devices work the same way in game terms, regardless of their origin or descriptors.",
+						"裝置是指一件能夠提供一個或一組特定超能力效果的物品。儘管裝置通常會是先進科技的產物，但它們並不一定要是如此。許多英雄和反派也持有像是附魔武器和防具、魔法護身符、威能魔杖或法杖等各種各樣的魔法裝置。有些裝置是由異星科技打造而成，這些技術可能太過先進以至於它也同樣具備魔法性質、或甚至運用了靈能或宇宙能量這類超乎魔法和科學領域的力量。在遊戲中，無論這些裝置的起源或描述符為何，它們都遵循著相同的方式作用。",
 						"Generally speaking, devices are powers with the Removable flaw applied to them (see Removable in Powers), meaning the power is external to the character. Take away the device, and the wielder loses the ability to use those powers. So if an armored hero loses access to his battlesuit, for example, he also loses access to the powers tied-up in it. The same is the case of a hero loses a cosmic ring, magic helmet, or alien artifact, which is why Removable is a flaw for those powers.",
 						"Just like other powers, devices cost Character points (albeit reduced some by the Removable flaw). Characters who want to have and use a device on a regular basis have to pay Character points to have it, just like having any other power. The device becomes a part of the character’s abilities. If the device is lost, stolen, or destroyed, the character can replace it, given time, since the device is considered a permanent part of the character. Only a reallocation of the character’s Character points will change this, and Gamemasters should allow characters to reallocate Character points spent on a Removable power if it is somehow permanently lost.",
 						"In other cases, characters may make temporary use of a device. Most devices are usable by anyone able to operate them, in which case characters may loan devices to each other, or may pick up and use someone else’s device (or even steal a device away from someone in order to use it against them). The key concept here is the use of the device is temporary, something that happens during a single scene or, at most, a single adventure. If the character wants to continue using the device beyond that, he must pay Character points to make the device part of his regular abilities. Otherwise the GM can simply rule that the device is lost, reclaimed by its owner, runs out of power, breaks down, or whatever, and is therefore no longer accessible. Characters with the Inventor and Artificer advantages can create temporary devices for use in an adventure.",
@@ -2972,25 +2972,25 @@
 						},
 						{
 							"type": "entries",
-							"name": "Battlesuits",
+							"translate_name": "戰鬥裝甲服", "name": "Battlesuits",
 							"entries": [
-								"A common staple of comic books is the battlesuit, also known as power-armor. It is an advanced suit of technological (sometime magical) armor, giving the wearer various powers. Battlesuits commonly grant the following powers:",
+								"漫畫中的一個常見主題就是「戰鬥裝甲服」，或也被稱作「動力裝甲服」。這套高科技（或可能是魔法）盔甲能夠為穿戴者帶來各式各樣的超能力。戰鬥裝甲服通常會賦予下列超能力：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Armor}: Protection is the foundation power for a battlesuit. Whether it is armor plating, metallic mesh, flexible ballistic material, or some combination of these and other cuttingedge technologies, a battle-suit protects its wearer from damage. Some battle-suits provide Impervious Protection and some have Sustained Protection in the form of built-in force fields or the like.",
-										"{@b Attacks}: Battlesuits are typically equipped with some kind of weapon or weapons, based around various attack effects, particularly Damage. A battlesuit with an array of weapons may have a primary attack effect and several others as Alternate Effects (see the Alternate Effect modifier in Powers ).",
-										"{@b Immunity}: A part of the protection a battlesuit offers is a sealed environment, offering Immunity to various conditions and hazards.",
-										"{@b Movement}: After defense and offense, battlesuits typically allow the wearer to get around, whether it’s hydraulic-assisted Leaping, boot-jets or anti-gravity repulsion for Flight, turbines for Swimming, or some other movement effect.",
-										"{@b Sensors}: Battlesuits often come equipped with a suite of sensors providing Senses. Darkvision, direction sense (possibly from a global positioning system), infrared vision, radio, time sense (from a chronometer), and ultra-hearing are all common battlesuit sensors.",
-										"{@b Strength}: A battlesuit might have servomotors or other mechanisms to magnify the wearer’s Strength. This is typically a combination of Enhanced Strength and Limited ranks of Enhanced Strength to increase sheer lifting ability."
+										"{@b 裝甲}: {@effect 保護}是戰鬥裝甲服最基本的超能力。無論它是鋼板、金屬網層、彈性防彈材質、這些防護技術的組合、或其他尖端科技的防護措施，戰鬥裝甲服都能保護其穿戴者不受傷害。有些戰鬥裝甲能夠更進一步提供{@modifier 強抗}保護效果，而有些則會藉著內建防護力場或類似的形式提供{@modifier 維持}保護效果。",
+										"{@b 攻擊手段}: 戰鬥裝甲服通常會配備各種類型的武器，並提供各種攻擊類型的效果，特別是{@effect 傷害}效果。備有著一系列武器的戰鬥裝甲服可能會有一個主要的攻擊效果，並將其他各種攻擊效果做為{@modifier 替換效果}。",
+										"{@b 免疫}: 戰鬥裝甲服所能提供的一部分防護，正是其裝甲內部的封閉環境，這讓其穿戴者得以{@effect 免疫}於各種異常狀態和危害。",
+										"{@b 移動}: 除了防禦和攻擊方面，戰鬥裝甲服通常也會讓其穿戴者得以藉著各種手段四處移動。例如透過液壓輔助達成的超級{@effect 跳躍}、使用噴射靴或反重斥力的{@effect 飛行}能力、渦輪引擎提供的{@effect 游泳}、或各種其他的移動類效果。",
+										"{@b 感測器}: 戰鬥裝甲服經常會配備一整套能提供{@effect 感官}效果的感測器。黑暗視覺、方位感知（可能來自全球定位系統）、紅外線視覺、無線電波、時間感知（來自天文台錶）、和超頻聽覺，這些都是戰鬥裝甲服的常見感測器。",
+										"{@b 力量}: 戰鬥裝甲服可能會搭載電動馬達或其他的機械裝置以增幅穿戴者的力量。這通常會以{@effect Enhanced Trait|增強力量}效果呈現，並應用{@modifier 限定條件}修飾符於一部分的增強力量等級上以單單強化抬舉重物的能力。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Costumes",
+							"translate_name": "英雄服", "name": "Costumes",
 							"entries": [
 								"In addition to being stylish, costumes may be made of unusual materials much tougher than they appear (courtesy of super-science or magic), allowing them to provide a Protection effect. Costumes may have other properties and can even be the source of a hero’s powers, such as in the case of battlesuits (previously).",
 								"Comic book costumes are usually immune to their wearer’s powers. They don’t burn, tear, or otherwise suffer damage when the wearer changes size or shape, bursts into flames, freezes, and so forth. The GM can assume this is just a descriptor for all costumes. It costs no points, since everyone has it. In a more realistic setting, Gamemasters may wish to make Immunity (wearer’s powers) a 1-point feature and require characters to pay for it if their characters have such a costume. Otherwise characters have to make do with ordinary clothing (which may be damaged or destroyed when they use their powers)."
@@ -2998,21 +2998,21 @@
 						},
 						{
 							"type": "entries",
-							"name": "Enhanced Equipment",
+							"translate_name": "強化裝備", "name": "Enhanced Equipment",
 							"entries": [
 								"Some devices are otherwise normal equipment with special properties. Magical items, normal equipment imbued with magical properties, are examples. Magical weapons may have greater damage bonuses or grant attack bonuses while magical armor imposes no penalties and provides greater protection. Such enchantments move archaic weapons and armor from the realm of mundane equipment to devices. The same is true of equipment using super-alloys, bulletproof cloth, and other wonders of super-science."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Weapons",
+							"translate_name": "武器", "name": "Weapons",
 							"entries": [
 								"Weapons are common devices, ranging from super-powered versions of ordinary weapons like swords, bows, or guns (see Enhanced Equipment) to more exotic weapons like magic wands or alien power rings. A weapon device usually has one or more attack effects but may provide virtually any effect the player wants to include. Weapons often have several different attacks as Alternate Effects. One example is an array of magic rings, each with its own effect, but only usable one at a time."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Other Devices",
+							"translate_name": "其他裝置", "name": "Other Devices",
 							"entries": [
 								"The full range of devices characters can create and use is limited solely by your imagination. Essentially any item with a power is considered a device. Players and GMs may well come up with devices beyond those described here. Use the guidelines here and in Powers to handle any new devices and their capabilities."
 							]
@@ -3094,11 +3094,11 @@
 						},
 						{
 							"type": "entries",
-							"name": "Magical Rituals",
+							"translate_name": "魔法儀式", "name": "Magical Rituals",
 							"entries": [
-								"Characters with the Ritualist advantage can perform magical rituals. They are similar to inventions: one-time powers requiring some time and effort to set up.",
-								"For rituals, substitute the Expertise: Magic skill for both the design and construction checks. The design portion of the ritual takes 4 hours per Character point of the ritual’s cost (pouring over ancient scrolls and grimoires, drawing diagrams, casting horoscopes, meditating, consulting spirit-guides, and so forth). The performance of the actual ritual takes 10 minutes per point of the ritual’s cost. So a ritual costing 10 Character points takes 40 hours to research and 100 minutes to perform. As with inventing, the ritual is good for one scene. Failing the research check means the ritual isn’t usable and three or more degrees of failure results in a mishap (at the GM’s discretion).",
-								"“Jury-rigging” a ritual has the same effects as for an invention. Spending a Victory point allows the ritualist to skip the design check and perform the ritual in a number of rounds equal to its cost. An Expertise: Magic check against a DC equal of (15 + the ritual’s cost) is needed to successfully perform the ritual. Failure means the ritual does not work and the time and effort is wasted."
+								"擁有{@advantage 儀式祭司}特長的角色能夠施展魔法儀式。魔法儀式和發明物有些相似：它們都是限定單一場景內使用的超能力，且需要花費一些時間和工夫準備。",
+								"然而，儀式在進行設計和構築檢定時，將改為使用{@skill Expertise|專業: 魔法}技能。儀式的設計環節需要花費每一點角色點 4個小時的時間（挹注古老卷軸和魔導書的學識、描繪圖紋、占卜星象、冥想、通詢精魂引導等等）。而實際施展儀式則會花費每一點角色點 10個小時的時間。因此，一個總花費為 10點角色點的儀式需要花費 40個小時的研究時間，並花費 100分鐘的時間施展。與發明相同，儀式只能在單一場景中發揮效果。在研究檢定中失敗意味著這個儀式無法派上用場，而三個或以上程度的失敗則會因此導致意外事故（由GM裁斷）。",
+								"「應急施展」一個儀式的作用跟發明相同。花費一點勝利點能夠讓儀式者跳過設計檢定直接施展儀式，且施展儀式所需要的時間只需要等同其角色點花費的輪數。儀式者必須成功通過一個DC等同於「15 + 儀式花費」的{@skill Expertise|專業: 魔法}技能檢定才能成功施展儀式。檢定失敗代表該儀式沒能發揮作用，且花費的時間和精力也因此被浪費掉。"
 							]
 						},
 						{

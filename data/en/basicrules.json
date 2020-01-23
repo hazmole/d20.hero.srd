@@ -2978,12 +2978,12 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Armor}: Protection is the foundation power for a battlesuit. Whether it is armor plating, metallic mesh, flexible ballistic material, or some combination of these and other cuttingedge technologies, a battle-suit protects its wearer from damage. Some battle-suits provide Impervious Protection and some have Sustained Protection in the form of built-in force fields or the like.",
-										"{@b Attacks}: Battlesuits are typically equipped with some kind of weapon or weapons, based around various attack effects, particularly Damage. A battlesuit with an array of weapons may have a primary attack effect and several others as Alternate Effects (see the Alternate Effect modifier in Powers ).",
-										"{@b Immunity}: A part of the protection a battlesuit offers is a sealed environment, offering Immunity to various conditions and hazards.",
-										"{@b Movement}: After defense and offense, battlesuits typically allow the wearer to get around, whether it’s hydraulic-assisted Leaping, boot-jets or anti-gravity repulsion for Flight, turbines for Swimming, or some other movement effect.",
-										"{@b Sensors}: Battlesuits often come equipped with a suite of sensors providing Senses. Darkvision, direction sense (possibly from a global positioning system), infrared vision, radio, time sense (from a chronometer), and ultra-hearing are all common battlesuit sensors.",
-										"{@b Strength}: A battlesuit might have servomotors or other mechanisms to magnify the wearer’s Strength. This is typically a combination of Enhanced Strength and Limited ranks of Enhanced Strength to increase sheer lifting ability."
+										"{@b Armor}: {@effect Protection} is the foundation power for a battlesuit. Whether it is armor plating, metallic mesh, flexible ballistic material, or some combination of these and other cuttingedge technologies, a battle-suit protects its wearer from damage. Some battle-suits provide {@modifier Impervious} Protection and some have {@modifier Sustained} Protection in the form of built-in force fields or the like.",
+										"{@b Attacks}: Battlesuits are typically equipped with some kind of weapon or weapons, based around various attack effects, particularly {@effect Damage}. A battlesuit with an array of weapons may have a primary attack effect and several others as {@modifier Alternate Effect|Alternate Effects}.",
+										"{@b Immunity}: A part of the protection a battlesuit offers is a sealed environment, offering {@effect Immunity} to various conditions and hazards.",
+										"{@b Movement}: After defense and offense, battlesuits typically allow the wearer to get around, whether it’s hydraulic-assisted {@effect Leaping}, boot-jets or anti-gravity repulsion for {@effect Flight}, turbines for {@effect Swimming}, or some other movement effect.",
+										"{@b Sensors}: Battlesuits often come equipped with a suite of sensors providing {@effect Sense|Senses}. Darkvision, direction sense (possibly from a global positioning system), infrared vision, radio, time sense (from a chronometer), and ultra-hearing are all common battlesuit sensors.",
+										"{@b Strength}: A battlesuit might have servomotors or other mechanisms to magnify the wearer’s Strength. This is typically a combination of {@effect Enhanced Trait|Enhanced Strength} and {@modifier Limited} ranks of Enhanced Strength to increase sheer lifting ability."
 									]
 								}
 							]
@@ -3096,9 +3096,9 @@
 							"type": "entries",
 							"name": "Magical Rituals",
 							"entries": [
-								"Characters with the Ritualist advantage can perform magical rituals. They are similar to inventions: one-time powers requiring some time and effort to set up.",
-								"For rituals, substitute the Expertise: Magic skill for both the design and construction checks. The design portion of the ritual takes 4 hours per Character point of the ritual’s cost (pouring over ancient scrolls and grimoires, drawing diagrams, casting horoscopes, meditating, consulting spirit-guides, and so forth). The performance of the actual ritual takes 10 minutes per point of the ritual’s cost. So a ritual costing 10 Character points takes 40 hours to research and 100 minutes to perform. As with inventing, the ritual is good for one scene. Failing the research check means the ritual isn’t usable and three or more degrees of failure results in a mishap (at the GM’s discretion).",
-								"“Jury-rigging” a ritual has the same effects as for an invention. Spending a Victory point allows the ritualist to skip the design check and perform the ritual in a number of rounds equal to its cost. An Expertise: Magic check against a DC equal of (15 + the ritual’s cost) is needed to successfully perform the ritual. Failure means the ritual does not work and the time and effort is wasted."
+								"Characters with the {@advantage Ritualist} advantage can perform magical rituals. They are similar to inventions: one-time powers requiring some time and effort to set up.",
+								"For rituals, substitute the {@skill Expertise|Expertise: Magic} skill for both the design and construction checks. The design portion of the ritual takes 4 hours per Character point of the ritual’s cost (pouring over ancient scrolls and grimoires, drawing diagrams, casting horoscopes, meditating, consulting spirit-guides, and so forth). The performance of the actual ritual takes 10 minutes per point of the ritual’s cost. So a ritual costing 10 Character points takes 40 hours to research and 100 minutes to perform. As with inventing, the ritual is good for one scene. Failing the research check means the ritual isn’t usable and three or more degrees of failure results in a mishap (at the GM’s discretion).",
+								"“Jury-rigging” a ritual has the same effects as for an invention. Spending a Victory point allows the ritualist to skip the design check and perform the ritual in a number of rounds equal to its cost. An {@skill Expertise|Expertise: Magic} check against a DC equal of (15 + the ritual’s cost) is needed to successfully perform the ritual. Failure means the ritual does not work and the time and effort is wasted."
 							]
 						},
 						{
