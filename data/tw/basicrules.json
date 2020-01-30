@@ -3337,14 +3337,14 @@
 							"type": "entries",
 							"translate_name": "近戰武器", "name": "Melee Weapons",
 							"entries": [
-								"Melee weapons are hand-held close combat weapons. They typically have a Strength-based Damage effect (see Damage effect in Powers), adding the wielder’s Strength rank to the weapon’s damage rank. Ordinary melee weapons are limited by their Toughness in terms of the amount of Strength they can add. If a wielder exerts Strength greater than the weapon’s Toughness (4 for wooden weapons, 7 or 8 for metal weapons), the weapon breaks when it is used. Melee weapons have the following traits:",
+								"近戰武器是手持式的近身戰鬥用武器。它們通常有著基於力量的{@effect 傷害}效果，讓使用者得以將力量等級加到該武器的傷害等級上。尋常近戰武器透過這個方式所能增加的力量傷害將受限於它們的堅實防禦等級。若使用者發揮出超過該武器的堅實等級的力量（木製武器為4，金屬武器為7或8），則該武器將會因此毀壞。近戰武器具備下列數據：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Category}: Melee weapons are categorized as simple, archaic, and exotic.",
-										"{@b Effect}: The effect a hit with the weapon causes, typically Damage, although some modern melee weapons have other effects. The effect has the normal cost given in Powers. The effect may also have certain descriptors, such as bludgeoning or slashing, for defining things like resistance or vulnerability to certain effects.",
-										"{@b Critical}: The threat range for a critical hit with the weapon. Some weapons have a larger threat range than others. Increasing a weapon’s threat range by 1 costs 1 point, like the Improved Critical advantage.",
-										"{@b Cost}: This is the weapon’s cost in points. Characters pay this cost from their equipment points to have a weapon of this type as part of their regular equipment."
+										"{@b 種類}: 近戰武器被分為三種，簡易武器、傳統武器、和奇門武器。",
+										"{@b 效果}: 武器在命中時所導致的效果，通常為{@effect 傷害}，然而某些現代近戰武器也可能會造成其他效果。每個效果都有著超能力章節中所記載的正常花費。這些效果可能會帶有特定描述符，例如鈍擊、劈砍等等，用來定某些效果的抗性或弱點影響。",
+										"{@b 暴擊範圍}: 該武器造成暴擊的威脅範圍。某些武器擁有比他者更大的威脅範圍。使武器的威脅範圍+1需要花費1點，就如同應用了{@advantage 精通暴擊}特長。",
+										"{@b 花費}: 代表該武器所需的點數花費。角色可以藉由支付他們的裝備點，來獲得一個該類型的武器做為他們的常規裝備。"
 									]
 								},
 								{
@@ -3408,7 +3408,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"電擊槍",
+												"電擊棒",
 												"{@effect Affliction|詛咒 5}, 電擊",
 												"20",
 												"5"
@@ -3505,11 +3505,11 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b 手指虎}: Pieces of molded metal fitting over the fingers, brass knuckles add +1 damage to your unarmed strikes. They include similar items like armored gauntlets.",
-												"{@b 棍棒}: Any of a number of blunt weapons used to strike, including nightsticks, batons, light maces, quarterstaffs, and similar bludgeoning weapons. A particularly light club might be only Damage 1.",
-												"{@b 刀子}: A bladed weapon with a length less than 18 inches or so. This includes daggers, stilettos, sais, switchblades, bowie knives, and hunting knives, among others.",
-												"{@b 胡椒噴霧器}: A liquid sprayed in a target’s face at close range to blind them.",
-												"{@b 電擊槍}: A stun gun hits its target with a surge of electricity, an Affliction that can daze, stun, and potentially incapacitate."
+												"{@b 手指虎}: 套在手指上的模製金屬配件，手指虎能夠使你的徒手打擊增加+1傷害。這個項目也包含了其他類似的道具，例如裝甲護手。",
+												"{@b 棍棒}: 各種用以打擊的鈍型武器，包括警棍、官杖、輕型硬頭錘、長棍、和其他類似的鈍擊武器。一根特別輕盈的棍棒可能只會擁有傷害 1的效果。",
+												"{@b 刀子}: 一把長度約莫18吋或更短的帶刃武器。這包含了匕首、短劍、釵、彈簧刀、布伊刀、和獵刀，諸如此類。",
+												"{@b 胡椒噴霧器}: 在近距離向著目標臉部噴灑的液體，用以使其致盲。",
+												"{@b 電擊棒}: 電擊棒會以一道強烈電流衝擊它命中的目標，造成能使其陷入{@condition 目眩}、{@condition 暈眩}、或可能{@condition 失能}狀態的{@effect 詛咒}效果。"
 											]
 										}
 									]
@@ -3736,7 +3736,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Bolos",
+												"縛錘索",
 												"{@modifier Increased Range|遠距} {@samplepower Snare|捕縛 3}*",
 												"20",
 												"6"
@@ -3833,7 +3833,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Bolos}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
+												"{@b 縛錘索}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
 												"{@b Boomerang}: A common throwing weapon for heroes, a thrown boomerang returns to the thrower’s hand, ready to be thrown again on the next round (less a Feature and more a special descriptor). Boomerang wielders often use this property of the weapon to feint, allowing for an attack against a vulnerable target on the return arc on the attacker’s next turn.",
 												"{@b Javelin}: Light, flexible spears intended to be thrown. Javelins can also be used in melee combat.",
 												"{@b Shuriken}: Flat metal stars or spikes for throwing. Shuriken can be thrown in groups as a Multiattack. Although they are thrown weapons, shuriken are not Strength-based, being too light."

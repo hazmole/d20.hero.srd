@@ -3337,13 +3337,13 @@
 							"type": "entries",
 							"name": "Melee Weapons",
 							"entries": [
-								"Melee weapons are hand-held close combat weapons. They typically have a Strength-based Damage effect (see Damage effect in Powers), adding the wielder’s Strength rank to the weapon’s damage rank. Ordinary melee weapons are limited by their Toughness in terms of the amount of Strength they can add. If a wielder exerts Strength greater than the weapon’s Toughness (4 for wooden weapons, 7 or 8 for metal weapons), the weapon breaks when it is used. Melee weapons have the following traits:",
+								"Melee weapons are hand-held close combat weapons. They typically have a Strength-based {@effect Damage} effect , adding the wielder’s Strength rank to the weapon’s damage rank. Ordinary melee weapons are limited by their Toughness in terms of the amount of Strength they can add. If a wielder exerts Strength greater than the weapon’s Toughness (4 for wooden weapons, 7 or 8 for metal weapons), the weapon breaks when it is used. Melee weapons have the following traits:",
 								{
 									"type": "list",
 									"items": [
 										"{@b Category}: Melee weapons are categorized as simple, archaic, and exotic.",
-										"{@b Effect}: The effect a hit with the weapon causes, typically Damage, although some modern melee weapons have other effects. The effect has the normal cost given in Powers. The effect may also have certain descriptors, such as bludgeoning or slashing, for defining things like resistance or vulnerability to certain effects.",
-										"{@b Critical}: The threat range for a critical hit with the weapon. Some weapons have a larger threat range than others. Increasing a weapon’s threat range by 1 costs 1 point, like the Improved Critical advantage.",
+										"{@b Effect}: The effect a hit with the weapon causes, typically {@effect Damage}, although some modern melee weapons have other effects. The effect has the normal cost given in Powers. The effect may also have certain descriptors, such as bludgeoning or slashing, for defining things like resistance or vulnerability to certain effects.",
+										"{@b Critical}: The threat range for a critical hit with the weapon. Some weapons have a larger threat range than others. Increasing a weapon’s threat range by 1 costs 1 point, like the {@advantage Improved Critical} advantage.",
 										"{@b Cost}: This is the weapon’s cost in points. Characters pay this cost from their equipment points to have a weapon of this type as part of their regular equipment."
 									]
 								},
@@ -3509,7 +3509,7 @@
 												"{@b Club}: Any of a number of blunt weapons used to strike, including nightsticks, batons, light maces, quarterstaffs, and similar bludgeoning weapons. A particularly light club might be only Damage 1.",
 												"{@b Knife}: A bladed weapon with a length less than 18 inches or so. This includes daggers, stilettos, sais, switchblades, bowie knives, and hunting knives, among others.",
 												"{@b Pepper Spray}: A liquid sprayed in a target’s face at close range to blind them.",
-												"{@b Stun Gun}: A stun gun hits its target with a surge of electricity, an Affliction that can daze, stun, and potentially incapacitate."
+												"{@b Stun Gun}: A stun gun hits its target with a surge of electricity, an {@effect Affliction} that can {@condition Dazed|daze}, {@condition Stunned|stun}, and potentially {@condition Incapacitated|incapacitate}."
 											]
 										}
 									]
@@ -3736,7 +3736,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Bolos",
+												"Bolas",
 												"{@modifier Increased Range|Ranged} {@samplepower Snare|Snare 3}*",
 												"20",
 												"6"
@@ -3833,7 +3833,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Bolos}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
+												"{@b Bolas}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
 												"{@b Boomerang}: A common throwing weapon for heroes, a thrown boomerang returns to the thrower’s hand, ready to be thrown again on the next round (less a Feature and more a special descriptor). Boomerang wielders often use this property of the weapon to feint, allowing for an attack against a vulnerable target on the return arc on the attacker’s next turn.",
 												"{@b Javelin}: Light, flexible spears intended to be thrown. Javelins can also be used in melee combat.",
 												"{@b Shuriken}: Flat metal stars or spikes for throwing. Shuriken can be thrown in groups as a Multiattack. Although they are thrown weapons, shuriken are not Strength-based, being too light."
