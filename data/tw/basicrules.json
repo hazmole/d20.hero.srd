@@ -3105,24 +3105,24 @@
 				},
 				{
 					"type": "section",
-					"name": "Equipment",
+					"translate_name": "裝備", "name": "Equipment",
 					"entries": [
 						"In addition to their amazing devices, characters often make use of various mundane equipment—ordinary things found in the real world—ranging from a simple set of tools to cell phones, laptop computers, and even common appliances. These items are known as equipment to differentiate them from devices.",
 						{
 							"type": "entries",
-							"name": "Equipment Cost",
+							"translate_name": "裝備花費", "name": "Equipment Cost",
 							"entries": [
 								"Equipment is acquired with points from the Equipment advantage. Each piece of equipment has a cost in points, just like other traits. The character pays the item’s cost out of the points from the Equipment advantage and can thereafter have and use that item.",
 								{
 									"type": "entries",
-									"name": "Equipment Effects and Features",
+									"translate_name": "裝備效果和特色", "name": "Equipment Effects and Features",
 									"entries": [
 										"An item’s cost is based on its effects and features, just like a power (see {@b Powers} for more information), so a ranged weapon has a cost based on its Ranged Damage rank. Equipment often provides the Features effect, including some specific equipment Features. Indeed, some items of equipment provide only Features."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Alternate Equipment",
+									"translate_name": "裝備的替換效果", "name": "Alternate Equipment",
 									"entries": [
 										"Just as with power effects, there is a diminishing value in having multiple items with a similar function, or a single piece of equipment with multiple functions, usable only one at a time. Equipment can have the Alternate Effect modifier (see Extras section of Powers), such as a weapon capable of different modes of operation, or a reconfigurable tool.",
 										"Characters can also have Alternate Equipment, an array of items usable only one at a time. This is typically a multi-function item, or a kit or collection of various smaller items. The classic example is the utility belt (see its description later in this section). Alternate Equipment can also include things like an arsenal of weapons the character can swap out, providing different sets of weapons, with only a limited number usable at once."
@@ -3130,14 +3130,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "On-hand Equipment",
+									"translate_name": "手頭上的裝備", "name": "On-hand Equipment",
 									"entries": [
 										"Characters may not necessarily carry all their equipment with them at all times. The GM may allow players to spend a Victory point in order to have a particular item of equipment “on-hand” at a particular time. This is essentially an equipment “power stunt”—a one-time use of the item for one scene—and the Gamemaster rules whether or not having a particular item on-hand is even possible. For example, a hero out for an evening in his secret identity might have something like a concealed weapon or other small item on-hand, but it’s unlikely the character is carrying a large weapon or item unless he has some means of concealing it."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Restricted Equipment",
+									"translate_name": "被限制的裝備", "name": "Restricted Equipment",
 									"entries": [
 										"The Gamemaster may rule some equipment is simply not available or that characters must pay for an additional Feature (or more) in order to have it. This may include certain kinds of weapons, vehicles, and anything else the GM feels should be restricted in the series."
 									]
@@ -3155,14 +3155,14 @@
 						},
 						{
 							"type": "entries",
-							"name": "Damaging Equipment",
+							"translate_name": "毀損裝備", "name": "Damaging Equipment",
 							"entries": [
 								"Most equipment can be damaged like other objects (see {@b Damaging Objects}), based on its Toughness. Equipment suffering damage loses some effectiveness. The item loses 1 Feature or suffers a –1 circumstance penalty on checks involving it each time it is damaged. These penalties are eliminated once the item is repaired."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Repairing and Replacing",
+							"translate_name": "維修和替代", "name": "Repairing and Replacing",
 							"entries": [
 								"Repairing an item requires a Technology check. You can also affect jury-rigged repairs to temporarily restore the item to normal (see {@b Technology} in Skills )",
 								"Replacing damaged or destroyed equipment requires only time and resources, although the GM has the final say as to how much time. It’s easy to replace a lost item when the store is right around the corner, harder when it’s the middle of the night or you’re out in the middle of nowhere, or the item is restricted in some fashion. Gamemasters can allow players to spend a Victory point to have a replacement for a piece of equipment as an on-hand item (see {@b On-Hand Equipment}, previously)."
@@ -3170,7 +3170,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "The Limits of Equipment",
+							"translate_name": "裝備的限制", "name": "The Limits of Equipment",
 							"entries": [
 								"While equipment is useful it does have its limits, particularly when compared to powers or devices. Equipment is less expensive—it’s cheaper to have a handgun than a Damage power or even a super-science blaster weapon—but equipment is also more limited. Keep the following limitations of equipment in mind.",
 								{
@@ -3222,12 +3222,12 @@
 				},
 				{
 					"type": "section",
-					"name": "General Equipment",
+					"translate_name": "通用裝備", "name": "General Equipment",
 					"entries": [
 						"Most items of general equipment provide Features or other comparatively minor effects. Each of the following items is a rank 1 Feature, costing 1 point, unless specified otherwise.",
 						{
 							"type": "entries",
-							"name": "Electronics",
+							"translate_name": "電子產品", "name": "Electronics",
 							"entries": [
 								"Computers and electronics are common in the modern world. Gamemasters should note most of these devices are fairly delicate (Toughness 4 or less) and affected by electricity, radiation, and powerful magnetic fields, which can short them out entirely.",
 								{
@@ -3352,9 +3352,9 @@
 									"caption": "近戰武器",
 									"colLabels": [
 										"武器",
-										"Effect",
-										"Critical",
-										"Cost"
+										"效果",
+										"暴擊範圍",
+										"花費"
 									],
 									"colStyles": [
 										"col-3",
@@ -3379,7 +3379,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"棍棒",
-												"傷害 2, 鈍擊",
+												"{@effect Damage|傷害 2}, 鈍擊",
 												"20",
 												"2"
 											]
@@ -3389,7 +3389,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"刀子",
-												"傷害 1, 穿刺",
+												"{@effect Damage|傷害 1}, 穿刺",
 												"19-20",
 												"2"
 											]
@@ -3399,7 +3399,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"胡椒噴霧器",
-												"Close Visual Dazzle 4, chemical",
+												"{@modifier Reduced Range|近身} {@samplepower Dazzle|視覺炫目 4}, 化學",
 												"20",
 												"2"
 											]
@@ -3409,7 +3409,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"電擊槍",
-												"Affliction 5, electrical",
+												"{@effect Affliction|詛咒 5}, 電擊",
 												"20",
 												"5"
 											]
@@ -3420,7 +3420,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"戰斧",
-												"Damage 3, slashing",
+												"{@effect Damage|傷害 3}, 劈砍",
 												"20",
 												"3"
 											]
@@ -3430,7 +3430,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"劍",
-												"Damage 3, slashing",
+												"{@effect Damage|傷害 3}, 劈砍",
 												"19-20",
 												"4"
 											]
@@ -3440,7 +3440,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"矛",
-												"Damage 3, piercing",
+												"{@effect Damage|傷害 3}, 穿刺",
 												"19-20",
 												"4"
 											]
@@ -3450,7 +3450,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"戰鎚",
-												"Damage 3, bludgeoning",
+												"{@effect Damage|傷害 3}, 鈍擊",
 												"20",
 												"3"
 											]
@@ -3460,8 +3460,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Chain",
-												"Damage 2, Improved Grab, Improved Trip, Reach 2",
+												"鎖鏈",
+												"{@effect Damage|傷害 2}, {@advantage 精通擒抱}, {@advantage 精通絆摔}, {@modifier Reach|延伸觸及 2}",
 												"20",
 												"6"
 											]
@@ -3470,8 +3470,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Chainsaw",
-												"Damage 6, slashing",
+												"電鋸",
+												"{@effect Damage|傷害 6}, 劈砍",
 												"20",
 												"6"
 											]
@@ -3480,8 +3480,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Nunchaku",
-												"Damage 2, bludgeoning",
+												"雙節棍",
+												"{@effect Damage|傷害 2}, 鈍擊",
 												"19-20",
 												"3"
 											]
@@ -3490,8 +3490,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Whip",
-												"Improved Grab, Improved Trip, Reach 3",
+												"鞭",
+												"{@advantage 精通擒抱}, {@advantage 精通絆摔}, {@modifier Reach|延伸觸及 3}",
 												"20",
 												"5"
 											]
@@ -3505,11 +3505,11 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Brass Knuckles}: Pieces of molded metal fitting over the fingers, brass knuckles add +1 damage to your unarmed strikes. They include similar items like armored gauntlets.",
-												"{@b Club}: Any of a number of blunt weapons used to strike, including nightsticks, batons, light maces, quarterstaffs, and similar bludgeoning weapons. A particularly light club might be only Damage 1.",
-												"{@b Knife}: A bladed weapon with a length less than 18 inches or so. This includes daggers, stilettos, sais, switchblades, bowie knives, and hunting knives, among others.",
-												"{@b Pepper Spray}: A liquid sprayed in a target’s face at close range to blind them.",
-												"{@b Stun Gun}: A stun gun hits its target with a surge of electricity, an Affliction that can daze, stun, and potentially incapacitate."
+												"{@b 手指虎}: Pieces of molded metal fitting over the fingers, brass knuckles add +1 damage to your unarmed strikes. They include similar items like armored gauntlets.",
+												"{@b 棍棒}: Any of a number of blunt weapons used to strike, including nightsticks, batons, light maces, quarterstaffs, and similar bludgeoning weapons. A particularly light club might be only Damage 1.",
+												"{@b 刀子}: A bladed weapon with a length less than 18 inches or so. This includes daggers, stilettos, sais, switchblades, bowie knives, and hunting knives, among others.",
+												"{@b 胡椒噴霧器}: A liquid sprayed in a target’s face at close range to blind them.",
+												"{@b 電擊槍}: A stun gun hits its target with a surge of electricity, an Affliction that can daze, stun, and potentially incapacitate."
 											]
 										}
 									]
@@ -3521,10 +3521,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Battleaxe}: A heavy-bladed axe that can be wielded with one or two hands.",
-												"{@b Sword}: A blade between 18 and 30 or more inches in length, single or doublee-dged. It includes longswords, katanas, sabers, scimitars, and similar weapons.",
-												"{@b Spear}: A bladed pole-arm. Most spears can also be thrown as a ranged attack.",
-												"{@b Warhammer}: A heavy hammer or mace that can be wielded with one or two hands. Warhammers can also be thrown as a ranged attack."
+												"{@b 戰斧}: A heavy-bladed axe that can be wielded with one or two hands.",
+												"{@b 劍}: A blade between 18 and 30 or more inches in length, single or doublee-dged. It includes longswords, katanas, sabers, scimitars, and similar weapons.",
+												"{@b 矛}: A bladed pole-arm. Most spears can also be thrown as a ranged attack.",
+												"{@b 戰鎚}: A heavy hammer or mace that can be wielded with one or two hands. Warhammers can also be thrown as a ranged attack."
 											]
 										}
 									]
@@ -3536,10 +3536,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Chain}: A length of chain can strike targets up to 10 ft. away (Reach 2) and provides the benefits of the Improved Grab and Improved Trip advantages.",
-												"{@b Chainsaw}: A tool that sometimes sees use as a weapon, particularly against zombies and other slasher-flick monsters. Unlike most melee weapons, chainsaw damage is not Strength-based.",
-												"{@b Nunchaku}: A popular martial arts weapon, made of two wooden shafts connected by a short length or rope or chain.",
-												"{@b Whip}: A whip can strike targets up to 15 ft. away (Reach 3) and provides the benefits of the Improved Grab and Improved Trip advantages."
+												"{@b 鎖鏈}: A length of chain can strike targets up to 10 ft. away (Reach 2) and provides the benefits of the Improved Grab and Improved Trip advantages.",
+												"{@b 電鋸}: A tool that sometimes sees use as a weapon, particularly against zombies and other slasher-flick monsters. Unlike most melee weapons, chainsaw damage is not Strength-based.",
+												"{@b 雙節棍}: A popular martial arts weapon, made of two wooden shafts connected by a short length or rope or chain.",
+												"{@b 鞭}: A whip can strike targets up to 15 ft. away (Reach 3) and provides the benefits of the Improved Grab and Improved Trip advantages."
 											]
 										}
 									]
@@ -3556,10 +3556,10 @@
 									"type": "table",
 									"caption": "遠程武器",
 									"colLabels": [
-										"Weapon",
-										"Effect",
-										"Critical",
-										"Cost"
+										"武器",
+										"效果",
+										"暴擊範圍",
+										"花費"
 									],
 									"colStyles": [
 										"col-3",
@@ -3568,13 +3568,13 @@
 										"col-2 text-align-center"
 									],
 									"rows": [
-										["{@i Projectile Weapons}","","",""],
+										["{@i 彈射武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Holdout pistol",
-												"Ranged Damage 2",
+												"袖珍手槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 2}",
 												"20",
 												"4"
 											]
@@ -3583,8 +3583,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Light pistol",
-												"Ranged Damage 3",
+												"輕型手槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 3}",
 												"20",
 												"6"
 											]
@@ -3593,8 +3593,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Heavy pistol",
-												"Ranged Damage 4",
+												"重型手槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 4}",
 												"20",
 												"8"
 											]
@@ -3603,8 +3603,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Machine pistol",
-												"Ranged Multiattack Damage 3",
+												"全自動手槍",
+												"{@modifier Increased Range|遠距} {@modifier 多重攻擊} {@effect Damage|傷害 3}",
 												"20",
 												"9"
 											]
@@ -3613,8 +3613,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Submachine gun",
-												"Ranged Multiattack Damage 4",
+												"衝鋒槍",
+												"{@modifier Increased Range|遠距} {@modifier 多重攻擊} {@effect Damage|傷害 4}",
 												"20",
 												"12"
 											]
@@ -3623,8 +3623,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Shotgun",
-												"Ranged Damage 5*",
+												"霰彈槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 5}*",
 												"20",
 												"10"
 											]
@@ -3633,8 +3633,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Assault rifle",
-												"Ranged Multiattack Damage 5",
+												"突擊步槍",
+												"{@modifier Increased Range|遠距} {@modifier 多重攻擊} {@effect Damage|傷害 5}",
 												"20",
 												"15"
 											]
@@ -3643,8 +3643,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Sniper rifle",
-												"Ranged Damage 5",
+												"狙擊步槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 5}",
 												"19-20",
 												"11"
 											]
@@ -3654,7 +3654,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"弓",
-												"Ranged Damage 3",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 3}",
 												"20",
 												"6"
 											]
@@ -3664,18 +3664,18 @@
 											"style": "row-indent-first",
 											"row": [
 												"十字弩",
-												"Ranged Damage 3",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 3}",
 												"19-20",
 												"7"
 											]
 										},
-										["{@i Energy Weapons}","","",""],
+										["{@i 能量武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Blaster pistol",
-												"Ranged Damage 5",
+												"爆能手槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 5}",
 												"20",
 												"10"
 											]
@@ -3684,8 +3684,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Blaster rifle",
-												"Ranged Damage 8",
+												"爆能步槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 8}",
 												"20",
 												"16"
 											]
@@ -3694,19 +3694,19 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Taser",
-												"Ranged Affliction 5*",
+												"泰瑟槍",
+												"{@modifier Increased Range|遠距} {@effect Affliction|詛咒 5}*",
 												"20",
 												"10"
 											]
 										},
-										["{@i Heavy Weapons}","","",""],
+										["{@i 重型武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Flamethrower",
-												"Cone or Line Area Damage 6",
+												"火燄噴射器",
+												"{@modifier Area|錐狀或直線範圍} {@effect Damage|傷害 6}",
 												"－",
 												"13"
 											]
@@ -3715,8 +3715,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Grenade launcher",
-												"Burst Area Ranged Damage 5",
+												"榴彈發射器",
+												"{@modifier Area|爆發範圍} {@modifier Increased Range|遠距} {@effect Damage|傷害 5}",
 												"－",
 												"15"
 											]
@@ -3725,19 +3725,19 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Rocket launcher",
-												"Ranged Damage 10, Burst Area 7",
+												"火箭發射器",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 10}, {@modifier Area|爆發範圍 7}",
 												"20",
 												"27"
 											]
 										},
-										["{@i Thrown Weapons}","","",""],
+										["{@i 投擲武器}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
 												"Bolos",
-												"Ranged Snare 3",
+												"{@modifier Increased Range|遠距} {@samplepower Snare|捕縛 3}*",
 												"20",
 												"6"
 											]
@@ -3746,8 +3746,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Boomerang",
-												"Ranged Damage 1",
+												"迴力鏢",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 1}",
 												"20",
 												"2"
 											]
@@ -3756,8 +3756,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Javelin",
-												"Ranged Damage 2",
+												"標槍",
+												"{@modifier Increased Range|遠距} {@effect Damage|傷害 2}",
 												"20",
 												"4"
 											]
@@ -3766,12 +3766,15 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Shuriken",
-												"Ranged Multiattack Damage 1",
+												"手裏劍",
+												"{@modifier Increased Range|遠距} {@modifier 多重攻擊} {@effect Damage|傷害 1}",
 												"20",
 												"3"
 											]
 										}
+									],
+									"footnotes": [
+										"* = 參見各自的描述以查閱更多資訊."
 									]
 								},
 								{
