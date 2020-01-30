@@ -2945,29 +2945,29 @@
 					"translate_name": "裝置", "name": "Devices",
 					"entries": [
 						"裝置是指一件能夠提供一個或一組特定超能力效果的物品。儘管裝置通常會是先進科技的產物，但它們並不一定要是如此。許多英雄和反派也持有像是附魔武器和防具、魔法護身符、威能魔杖或法杖等各種各樣的魔法裝置。有些裝置是由異星科技打造而成，這些技術可能太過先進以至於它也同樣具備魔法性質、或甚至運用了靈能或宇宙能量這類超乎魔法和科學領域的力量。在遊戲中，無論這些裝置的起源或描述符為何，它們都遵循著相同的方式作用。",
-						"Generally speaking, devices are powers with the Removable flaw applied to them (see Removable in Powers), meaning the power is external to the character. Take away the device, and the wielder loses the ability to use those powers. So if an armored hero loses access to his battlesuit, for example, he also loses access to the powers tied-up in it. The same is the case of a hero loses a cosmic ring, magic helmet, or alien artifact, which is why Removable is a flaw for those powers.",
-						"Just like other powers, devices cost Character points (albeit reduced some by the Removable flaw). Characters who want to have and use a device on a regular basis have to pay Character points to have it, just like having any other power. The device becomes a part of the character’s abilities. If the device is lost, stolen, or destroyed, the character can replace it, given time, since the device is considered a permanent part of the character. Only a reallocation of the character’s Character points will change this, and Gamemasters should allow characters to reallocate Character points spent on a Removable power if it is somehow permanently lost.",
-						"In other cases, characters may make temporary use of a device. Most devices are usable by anyone able to operate them, in which case characters may loan devices to each other, or may pick up and use someone else’s device (or even steal a device away from someone in order to use it against them). The key concept here is the use of the device is temporary, something that happens during a single scene or, at most, a single adventure. If the character wants to continue using the device beyond that, he must pay Character points to make the device part of his regular abilities. Otherwise the GM can simply rule that the device is lost, reclaimed by its owner, runs out of power, breaks down, or whatever, and is therefore no longer accessible. Characters with the Inventor and Artificer advantages can create temporary devices for use in an adventure.",
-						"Gamemasters may require characters to spend a Victory point to make temporary use of a device that doesn’t belong to them, similar to performing a power stunt without suffering fatigue. This helps to limit the loaning and temporary use of devices.",
+						"通常來說，裝置就是應用了{@modifier 可被移除}缺陷的超能力，代表對於角色而言這些超能力是來自外在的。一旦這些裝置被拿走，其持有者就會失去使用這些超能力的能力。因此舉例來說，若裝甲英雄失去了他的戰鬥裝甲服，那麼他也將失去所有該裝甲服所提供的超能力。同樣的情況也會發生在失去了宇宙戒指、魔法頭盔、或異星文物的英雄身上，這也是為什麼{@modifier 可被移除}修飾符會是缺陷的原因。",
+						"就跟其他超能力一樣，裝置需要花費角色點（儘管{@modifier 可被移除}缺陷會降低一部份花費）。希望擁有並經常使用裝置的角色必須支付角色點才能擁有它們，就如同擁有任何其他超能力一樣。一旦花費角色點購買，這些裝置就會成為該角色的能力的一部分。由於這個裝置已經被視作該角色的一部分，因此若該裝置遺失、被竊走、或被摧毀，則在一段時間後，該角色將可以重新獲得該裝置的代替品。只有重新分配該角色的角色點會改變這個狀況，因此，若該裝置因為某些原因而永久喪失，那麼遊戲主持人就該允許角色們重新分配他們原本花費於被移除超能力的角色點。",
+						"在某些情況下，角色也許能夠暫時性地使用裝置。大部分裝置可以被任何能夠操作它們的人所使用，在這種狀況下，角色們可以互相借用彼此的裝置、或拿起並使用他人的裝置（或甚至從敵人手中偷走裝置，以其人之道還治其人之身）。這裡的關鍵概念在於，這種裝備的使用方式僅僅是暫時的，且只會在單一場景，或大部份時候，單一次冒險中發生。若該角色希望再持續使用該裝置，則他將必須支付角色點以讓該裝置成為他常規能力的一部份。否則的話，GM可以簡單地判定該裝置因為遺失、耗盡能量、或故障損壞等因素，而無法再被使用。擁有{@advantage 發明家}和{@advantage 魔器工匠}特長的角色能夠製造出暫時性的裝置，以供冒險中使用。",
+						"遊戲主持人可能會要求角色們花費勝利點，好讓他們得以暫時性地使用那些不屬於他們的裝置。這與施展超能力絕技而在不承受疲勞的情況有些類似。這能夠有效限制借用並暫時使用裝置的狀況。",
 						{
 							"type": "inset",
-							"name": "Under the Hood: Devices vs. Equipment",
+							"translate_name": "幕後花絮：裝置 vs. 裝備", "name": "Under the Hood: Devices vs. Equipment",
 							"entries": [
-								"There can sometimes be a fine line between devices (Removable powers) and equipment (relatively mundane technology). The primary differences are: Devices are part of the character’s traits. They grant effects beyond the capabilities of normal equipment, and they’re only ever lost or taken away temporarily. If an item is integral to the character’s concept or abilities, it’s probably a device.",
-								"Equipment, on the other hand, is limited to fairly “mundane” things, can be taken away or even destroyed with impunity, and merely supplements the character’s traits. Equipment doesn’t grant “powers” per se (although equipment does provide certain effects). Here are some examples of devices vs. equipment:",
+								"有時候，裝置（可被移除的超能力）和裝備（相對凡庸的科技品）之間僅有一線之隔。它們最主要的差異在於：裝置是角色數據的一部份。它們能夠提供超乎尋常裝備的影響，且它們只會暫時的遺失或被拿走。若一樣物品屬於該角色概念或能力的一部份，那它通常會是一個裝置。",
+								"裝備，在另一方面，就被限定為相當「平凡」的事物，它們可以輕易被奪走或甚至摧毀而不受懲罰，且僅僅是用以補足角色數據的道具。裝備本身並不會提供「超能力」（儘管裝備仍會提供某些超能力效果）。以下列出一些區別裝置與裝備的例子：",
 								{
 									"type": "list",
 									"items": [
-										"A high-tech suit of powered armor. {@i Device}.",
-										"A sword or other mundane melee weapon. {@i Equipment}.",
-										"A magical sword able to slice through tank armor. {@i Device}.",
-										"The power to summon weapons out of thin air. These weapons never run out of ammo and vanish when taken away from the wielder, who can summon another weapon as a free action. {@i Neither}. This is just a descriptor for various attack effect powers. Since the “weapons” can’t really be taken away, they’re not devices or equipment.",
-										"The character wears a cape allowing him to glide on air currents. {@i Device}.",
-										"The character has a commlink installed in her costume. {@i Equipment}.",
-										"The character has a cybernetic implant allowing him to “hear” radio waves. {@i Neither}. Although it has a technological descriptor, the implant can’t be removed without surgery, so it isn’t a device or equipment. The same is true of devices like bionic claws or other implants."
+										"一套高科技的動力裝甲服。 {@i 裝置}。",
+										"一把寶劍或其他尋常的近戰武器。 {@i 裝備}。",
+										"一把能夠切開坦克裝甲的魔法寶劍。 {@i 裝置}。",
+										"憑空召喚出武器的超能力。這些武器永遠不會耗盡彈藥、且會在被從持有者身上帶走時消失。持有者能夠以一個自由動作召喚出另一把武器。 {@i 兩者皆非}。 這僅僅是許多攻擊類型超能力的描述符。因為這些「武器」無法被實質意義上的奪走，因此它們並非裝置或裝備。",
+										"一件能夠允許穿戴者在氣流中滑翔的披風。 {@i 裝置}。",
+										"一個植入英雄服內的通訊器。 {@i 裝備}。",
+										"一個植入英雄體內，讓他得以「聽見」無線電波的模控單元。 {@i 兩者皆非}。 儘管它帶有「科技」的描述符，但這個植入體內的裝置沒辦法在不經手術的情況下被移除，因此它既非裝置，也非裝備。這同樣適用於那些像是骨爪或其他移植於體內的裝置。"
 									]
 								},
-								"Ultimately, it is up to the GM whether or not a particular item is considered a device or equipment (or neither), depending on the nature of the series and the characters."
+								"某個特定物品是否被視為裝置或裝備（或兩者皆非），最終仍是由GM決定，取決於遊戲劇集和角色們的性質而定。"
 							]
 						},
 						{
@@ -3015,6 +3015,15 @@
 							"translate_name": "其他裝置", "name": "Other Devices",
 							"entries": [
 								"The full range of devices characters can create and use is limited solely by your imagination. Essentially any item with a power is considered a device. Players and GMs may well come up with devices beyond those described here. Use the guidelines here and in Powers to handle any new devices and their capabilities."
+							]
+						},
+						{
+							"type": "inset",
+							"translate_name": "你該為什麼道具支付角色點？", "name": "What Items do you Pay for?",
+							"entries": [
+								"僅僅是因為角色剛好擁有手機、筆記型電腦、轎車、或住宅，並不代表他們需要因此購買{@advantage 裝備}特長的等級。一般來說,角色們只需要支付他們冒險所需的裝備，也就是那些會對他們的英雄身分造成直接影響的物品。除此之外的其他物品僅僅是背景色彩，而對於那些掌握著大量財富和物質資源的英雄們，則藉由投資數級的{@advantage 額外優勢}特長來呈現這個優勢。",
+								"因此舉例來說，儘管一名英雄平時住在一間不錯的公寓，或可能擁有一台電腦或手機，但他並不需要為他祕密身分所擁有的這些物品支付任何裝備點。然而另一方面，他那存放著各種危險道具和職涯戰利品的秘匿要塞或高科技據點，就確實需要花費裝備點購買。同樣的，英雄{@advantage 額外優勢}特長等級所反映的龐大資產，無論是莊園豪宅、或是收藏的一系列古典轎車，也都不需要再另外花費裝備點。然而，她在英雄身分所使用的其他物品，像是煙霧彈、迴力鏢、其他武器和打擊犯罪的工具、以及作戰指揮基地或強化車輛等，仍需要她支付裝備點以購買之。",
+								"在許多情況下，由遊戲主持人負責裁定某個特定物品是否該被算作裝備。若它是某個經常在角色的英雄身分中被使用的物品，那麼它通常就該要是裝備。若玩家希望將某些未花費點數的背景元素帶到冒險中，並帶來重大的響，那麼GM可以要求他支付一點{@b 勝利點}以這麼做。參見參見{@rule 勝利點|basic|1|victory points}規則以查閱更多細節。"
 							]
 						},
 						{
@@ -3099,15 +3108,6 @@
 								"擁有{@advantage 儀式祭司}特長的角色能夠施展魔法儀式。魔法儀式和發明物有些相似：它們都是限定單一場景內使用的超能力，且需要花費一些時間和工夫準備。",
 								"然而，儀式在進行設計和構築檢定時，將改為使用{@skill Expertise|專業: 魔法}技能。儀式的設計環節需要花費每一點角色點 4個小時的時間（挹注古老卷軸和魔導書的學識、描繪圖紋、占卜星象、冥想、通詢精魂引導等等）。而實際施展儀式則會花費每一點角色點 10個小時的時間。因此，一個總花費為 10點角色點的儀式需要花費 40個小時的研究時間，並花費 100分鐘的時間施展。與發明相同，儀式只能在單一場景中發揮效果。在研究檢定中失敗意味著這個儀式無法派上用場，而三個或以上程度的失敗則會因此導致意外事故（由GM裁斷）。",
 								"「應急施展」一個儀式的作用跟發明相同。花費一點勝利點能夠讓儀式者跳過設計檢定直接施展儀式，且施展儀式所需要的時間只需要等同其角色點花費的輪數。儀式者必須成功通過一個DC等同於「15 + 儀式花費」的{@skill Expertise|專業: 魔法}技能檢定才能成功施展儀式。檢定失敗代表該儀式沒能發揮作用，且花費的時間和精力也因此被浪費掉。"
-							]
-						},
-						{
-							"type": "inset",
-							"name": "What Items do you Pay for?",
-							"entries": [
-								"Just because a character happens to own a cell phone, laptop computer, car, or a home does not mean the character is expected to have ranks in the Equipment advantage. Broadly speaking, characters are only expected to pay for adventuring equipment, which is to say items that have a direct impact on their roles as heroes. The rest is just background color, perhaps encompassed by ranks in the Benefit advantage for heroes with a lot of wealth and material resources.",
-								"So, for example, a hero pays no equipment points for the fact that, in his secret identity, he lives in a nice apartment or owns a computer and a cell phone. He does, on the other hand, pay equipment points for a hidden fortress or high-tech lair, where he keeps various dangerous items and trophies collected over his career. Likewise, a hero with Benefit ranks reflecting great personal wealth pays no equipment points for a sprawling mansion or penthouse apartment, nor for a collection of classic sports cars. She does pay equipment points for things like smoke bombs, boomerangs, and other weapons and crimefighting tools, as well as for a hidden base of operations or souped-up vehicles used in costume.",
-								"As with many cases, when in doubt, the Gamemaster can make a ruling whether or not a particular item should count as equipment. If it is something the character regularly uses as part of his or her heroic identity, then it probably should. If a player wants to bring some cost-free background element to bear on the adventure in an important way, the GM can assess a {@b Victory point} cost to do so. See Victory points for more information."
 							]
 						}
 					]
