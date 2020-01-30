@@ -3018,15 +3018,6 @@
 							]
 						},
 						{
-							"type": "inset",
-							"name": "What Items do you Pay for?",
-							"entries": [
-								"Just because a character happens to own a cell phone, laptop computer, car, or a home does not mean the character is expected to have ranks in the {@advantage Equipment} advantage. Broadly speaking, characters are only expected to pay for adventuring equipment, which is to say items that have a direct impact on their roles as heroes. The rest is just background color, perhaps encompassed by ranks in the {@advantage Benefit} advantage for heroes with a lot of wealth and material resources.",
-								"So, for example, a hero pays no equipment points for the fact that, in his secret identity, he lives in a nice apartment or owns a computer and a cell phone. He does, on the other hand, pay equipment points for a hidden fortress or high-tech lair, where he keeps various dangerous items and trophies collected over his career. Likewise, a hero with {@advantage Benefit} ranks reflecting great personal wealth pays no equipment points for a sprawling mansion or penthouse apartment, nor for a collection of classic sports cars. She does pay equipment points for things like smoke bombs, boomerangs, and other weapons and crimefighting tools, as well as for a hidden base of operations or souped-up vehicles used in costume.",
-								"As with many cases, when in doubt, the Gamemaster can make a ruling whether or not a particular item should count as equipment. If it is something the character regularly uses as part of his or her heroic identity, then it probably should. If a player wants to bring some cost-free background element to bear on the adventure in an important way, the GM can assess a {@b Victory point} cost to do so. See {@rule Victory points|basic|1|victory points} for more information."
-							]
-						},
-						{
 							"type": "entries",
 							"name": "Inventing",
 							"entries": [
@@ -3149,6 +3140,15 @@
 									"name": "Restricted Equipment",
 									"entries": [
 										"The Gamemaster may rule some equipment is simply not available or that characters must pay for an additional Feature (or more) in order to have it. This may include certain kinds of weapons, vehicles, and anything else the GM feels should be restricted in the series."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "What Items do you Pay for?",
+									"entries": [
+										"Just because a character happens to own a cell phone, laptop computer, car, or a home does not mean the character is expected to have ranks in the {@advantage Equipment} advantage. Broadly speaking, characters are only expected to pay for adventuring equipment, which is to say items that have a direct impact on their roles as heroes. The rest is just background color, perhaps encompassed by ranks in the {@advantage Benefit} advantage for heroes with a lot of wealth and material resources.",
+										"So, for example, a hero pays no equipment points for the fact that, in his secret identity, he lives in a nice apartment or owns a computer and a cell phone. He does, on the other hand, pay equipment points for a hidden fortress or high-tech lair, where he keeps various dangerous items and trophies collected over his career. Likewise, a hero with {@advantage Benefit} ranks reflecting great personal wealth pays no equipment points for a sprawling mansion or penthouse apartment, nor for a collection of classic sports cars. She does pay equipment points for things like smoke bombs, boomerangs, and other weapons and crimefighting tools, as well as for a hidden base of operations or souped-up vehicles used in costume.",
+										"As with many cases, when in doubt, the Gamemaster can make a ruling whether or not a particular item should count as equipment. If it is something the character regularly uses as part of his or her heroic identity, then it probably should. If a player wants to bring some cost-free background element to bear on the adventure in an important way, the GM can assess a {@b Victory point} cost to do so. See {@rule Victory points|basic|1|victory points} for more information."
 									]
 								}
 							]
