@@ -3507,7 +3507,7 @@
 											"items": [
 												"{@b 手指虎}: 套在手指上的模製金屬配件，手指虎能夠使你的徒手打擊增加+1傷害。這個項目也包含了其他類似的道具，例如裝甲護手。",
 												"{@b 棍棒}: 各種用以打擊的鈍型武器，包括警棍、官杖、輕型硬頭錘、長棍、和其他類似的鈍擊武器。一根特別輕盈的棍棒可能只會擁有傷害 1的效果。",
-												"{@b 刀子}: 一把長度約莫18吋或更短的帶刃武器。這包含了匕首、短劍、釵、彈簧刀、布伊刀、和獵刀，諸如此類。",
+												"{@b 刀子}: 長度約莫18吋或更短的帶刃武器。這包含了匕首、短劍、釵、彈簧刀、布伊刀、和獵刀，諸如此類。",
 												"{@b 胡椒噴霧器}: 在近距離向著目標臉部噴灑的液體，用以使其致盲。",
 												"{@b 電擊棒}: 電擊棒會以一道強烈電流衝擊它命中的目標，造成能使其陷入{@condition 目眩}、{@condition 暈眩}、或可能{@condition 失能}狀態的{@effect 詛咒}效果。"
 											]
@@ -3521,10 +3521,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b 戰斧}: A heavy-bladed axe that can be wielded with one or two hands.",
-												"{@b 劍}: A blade between 18 and 30 or more inches in length, single or doublee-dged. It includes longswords, katanas, sabers, scimitars, and similar weapons.",
-												"{@b 矛}: A bladed pole-arm. Most spears can also be thrown as a ranged attack.",
-												"{@b 戰鎚}: A heavy hammer or mace that can be wielded with one or two hands. Warhammers can also be thrown as a ranged attack."
+												"{@b 戰斧}: 能用單手或雙手持用的重刃斧。",
+												"{@b 劍}: 刃部大約在18到30吋或更長，單邊或雙邊開刃。這包含了長劍、武士刀、軍刀、彎刀、和其他類似武器。",
+												"{@b 矛}: 帶刃的長柄兵器。大部分的矛都可以被投擲出去以進行一次遠程攻擊。",
+												"{@b 戰鎚}: 能用單手或雙手持用的重型錘子或硬頭錘。戰錘可以被投擲出去以進行一次遠程攻擊。"
 											]
 										}
 									]
@@ -3536,10 +3536,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b 鎖鏈}: A length of chain can strike targets up to 10 ft. away (Reach 2) and provides the benefits of the Improved Grab and Improved Trip advantages.",
-												"{@b 電鋸}: A tool that sometimes sees use as a weapon, particularly against zombies and other slasher-flick monsters. Unlike most melee weapons, chainsaw damage is not Strength-based.",
-												"{@b 雙節棍}: A popular martial arts weapon, made of two wooden shafts connected by a short length or rope or chain.",
-												"{@b 鞭}: A whip can strike targets up to 15 ft. away (Reach 3) and provides the benefits of the Improved Grab and Improved Trip advantages."
+												"{@b 鎖鏈}: 鏈條可以打擊最遠10呎距離的目標（{@modifier Reach|延伸觸及 2}），並提供{@advantage 精通擒抱}和{@advantage 精通絆摔}特長的好處。",
+												"{@b 電鋸}: 一種偶爾會被當作武器使用的工具，特別在常見於對付殭屍和其他砍殺恐怖電影中。與絕大多數的近戰武器不同，電鋸的傷害並不是基於力量。",
+												"{@b 雙節棍}: 一種常見的武術武器，由兩根木質把手和一條使其相連的短繩或短鍊構成。",
+												"{@b 鞭}: 鞭子可以打擊最遠15呎距離的目標（{@modifier Reach|延伸觸及 3}），並提供{@advantage 精通擒抱}和{@advantage 精通絆摔}特長的好處。"
 											]
 										}
 									]

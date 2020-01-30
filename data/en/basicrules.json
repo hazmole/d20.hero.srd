@@ -3536,10 +3536,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Chain}: A length of chain can strike targets up to 10 ft. away (Reach 2) and provides the benefits of the Improved Grab and Improved Trip advantages.",
+												"{@b Chain}: A length of chain can strike targets up to 10 ft. away ({@modifier Reach|Reach 2}) and provides the benefits of the {@advantage Improved Grab} and {@advantage Improved Trip} advantages.",
 												"{@b Chainsaw}: A tool that sometimes sees use as a weapon, particularly against zombies and other slasher-flick monsters. Unlike most melee weapons, chainsaw damage is not Strength-based.",
 												"{@b Nunchaku}: A popular martial arts weapon, made of two wooden shafts connected by a short length or rope or chain.",
-												"{@b Whip}: A whip can strike targets up to 15 ft. away (Reach 3) and provides the benefits of the Improved Grab and Improved Trip advantages."
+												"{@b Whip}: A whip can strike targets up to 15 ft. away ({@modifier Reach|Reach 3}) and provides the benefits of the {@advantage Improved Grab} and {@advantage Improved Trip} advantages."
 											]
 										}
 									]
