@@ -75,7 +75,7 @@
 			{
 				"translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 				"headers": [
-					{ "_translate_name": "裝置", "name": "Devices" },
+					{ "translate_name": "裝置", "name": "Devices" },
 					{ "_translate_name": "裝備", "name": "Equipment" },
 					{ "_translate_name": "通用裝備", "name": "General Equipment" },
 					{ "_translate_name": "武器", "name": "Weapons" },
@@ -2963,7 +2963,7 @@
 										"一把能夠切開坦克裝甲的魔法寶劍。 {@i 裝置}。",
 										"憑空召喚出武器的超能力。這些武器永遠不會耗盡彈藥、且會在被從持有者身上帶走時消失。持有者能夠以一個自由動作召喚出另一把武器。 {@i 兩者皆非}。 這僅僅是許多攻擊類型超能力的描述符。因為這些「武器」無法被實質意義上的奪走，因此它們並非裝置或裝備。",
 										"一件能夠允許穿戴者在氣流中滑翔的披風。 {@i 裝置}。",
-										"一個植入英雄服內的通訊器。 {@i 裝備}。",
+										"一個嵌在英雄服內的通訊器。 {@i 裝備}。",
 										"一個植入英雄體內，讓他得以「聽見」無線電波的模控單元。 {@i 兩者皆非}。 儘管它帶有「科技」的描述符，但這個植入體內的裝置沒辦法在不經手術的情況下被移除，因此它既非裝置，也非裝備。這同樣適用於那些像是骨爪或其他移植於體內的裝置。"
 									]
 								},
@@ -2992,29 +2992,29 @@
 							"type": "entries",
 							"translate_name": "英雄服", "name": "Costumes",
 							"entries": [
-								"In addition to being stylish, costumes may be made of unusual materials much tougher than they appear (courtesy of super-science or magic), allowing them to provide a Protection effect. Costumes may have other properties and can even be the source of a hero’s powers, such as in the case of battlesuits (previously).",
-								"Comic book costumes are usually immune to their wearer’s powers. They don’t burn, tear, or otherwise suffer damage when the wearer changes size or shape, bursts into flames, freezes, and so forth. The GM can assume this is just a descriptor for all costumes. It costs no points, since everyone has it. In a more realistic setting, Gamemasters may wish to make Immunity (wearer’s powers) a 1-point feature and require characters to pay for it if their characters have such a costume. Otherwise characters have to make do with ordinary clothing (which may be damaged or destroyed when they use their powers)."
+								"除了拉風時尚，英雄服也可能會使用比看上去更強韌的不凡材質編織製成（受惠於超級科學或魔法），讓它們得以提供{@effect 保護}效果。英雄服也可能會擁有其他特性，且甚至可能會是英雄超能力的來源，例如前述的戰鬥裝甲服就屬於這種情況。",
+								"漫畫書中出現的英雄服通常會免疫它們穿戴者的超能力。當穿戴者改變體型大小或形狀、燃起熊熊烈火、或結凍時，英雄服並不會因此燒毀、撕裂、或承受類似的傷害。GM可以把這當作是個適用於所有英雄服的描述符。這不需要花費任何點數，因為所有人都擁有這個性質。在更寫實的劇集設定中，遊戲主持人可能會希望讓這個免疫性質（免疫穿戴者的超能力）變成一個1點角色點的特性，並要求角色們花費點數以得到這類型的英雄服。否則的話，角色們將只能穿著尋常服裝（並可能會因為自己的超能力而被損傷或破壞）。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "強化裝備", "name": "Enhanced Equipment",
 							"entries": [
-								"Some devices are otherwise normal equipment with special properties. Magical items, normal equipment imbued with magical properties, are examples. Magical weapons may have greater damage bonuses or grant attack bonuses while magical armor imposes no penalties and provides greater protection. Such enchantments move archaic weapons and armor from the realm of mundane equipment to devices. The same is true of equipment using super-alloys, bulletproof cloth, and other wonders of super-science."
+								"某些裝置可能是帶有特殊性質的普通裝備。魔法物品──注入魔法性質的普通裝備──就是個很好的例子。魔法武器可能會提供更強大的傷害加值或賦予更優秀的攻擊加值，而魔法防具不僅可以避免穿戴懲罰，還能提供更強大的保護效果。這類強化能夠使傳統武器防具從凡俗裝備的領域升格成裝置。同樣的，使用了超級合金、防彈布料、或其他超科學奇物的裝備也是如此。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "武器", "name": "Weapons",
 							"entries": [
-								"Weapons are common devices, ranging from super-powered versions of ordinary weapons like swords, bows, or guns (see Enhanced Equipment) to more exotic weapons like magic wands or alien power rings. A weapon device usually has one or more attack effects but may provide virtually any effect the player wants to include. Weapons often have several different attacks as Alternate Effects. One example is an array of magic rings, each with its own effect, but only usable one at a time."
+								"武器是一種相當常見的裝置，從像是刀劍、弓箭、或槍械這種超能力版本的尋常武器（參見前述的強化裝備），到例如魔杖或異星魔戒這類更獨特的武器，都屬於裝置的一種。武器類型的裝置通常會具有一個或多個攻擊類型的效果，並可能會提供幾乎任何玩家希望納入的超能力效果。武器通常會有許多做為{@modifier 替換效果}的攻擊手段。其中一個例子就是魔法指環的陣列：每個戒指都有著獨特的效果，但使用者同時只能發揮其中一枚戒指的效果。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "其他裝置", "name": "Other Devices",
 							"entries": [
-								"The full range of devices characters can create and use is limited solely by your imagination. Essentially any item with a power is considered a device. Players and GMs may well come up with devices beyond those described here. Use the guidelines here and in Powers to handle any new devices and their capabilities."
+								"角色們能創造並使用的裝置種類僅僅受限於你的想像力。實際上，任何帶有超能力的物品都可以被視作一個裝置。玩家和GM完全可以開發出各種未記載於本章節的裝置。使用本章以及超能力章節中所列出的準則來處理各種新穎裝置和它們的功能。"
 							]
 						},
 						{

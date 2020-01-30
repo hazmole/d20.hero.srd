@@ -2992,7 +2992,7 @@
 							"type": "entries",
 							"name": "Costumes",
 							"entries": [
-								"In addition to being stylish, costumes may be made of unusual materials much tougher than they appear (courtesy of super-science or magic), allowing them to provide a Protection effect. Costumes may have other properties and can even be the source of a hero’s powers, such as in the case of battlesuits (previously).",
+								"In addition to being stylish, costumes may be made of unusual materials much tougher than they appear (courtesy of super-science or magic), allowing them to provide a {@effect Protection} effect. Costumes may have other properties and can even be the source of a hero’s powers, such as in the case of battlesuits (previously).",
 								"Comic book costumes are usually immune to their wearer’s powers. They don’t burn, tear, or otherwise suffer damage when the wearer changes size or shape, bursts into flames, freezes, and so forth. The GM can assume this is just a descriptor for all costumes. It costs no points, since everyone has it. In a more realistic setting, Gamemasters may wish to make Immunity (wearer’s powers) a 1-point feature and require characters to pay for it if their characters have such a costume. Otherwise characters have to make do with ordinary clothing (which may be damaged or destroyed when they use their powers)."
 							]
 						},
@@ -3007,7 +3007,7 @@
 							"type": "entries",
 							"name": "Weapons",
 							"entries": [
-								"Weapons are common devices, ranging from super-powered versions of ordinary weapons like swords, bows, or guns (see Enhanced Equipment) to more exotic weapons like magic wands or alien power rings. A weapon device usually has one or more attack effects but may provide virtually any effect the player wants to include. Weapons often have several different attacks as Alternate Effects. One example is an array of magic rings, each with its own effect, but only usable one at a time."
+								"Weapons are common devices, ranging from super-powered versions of ordinary weapons like swords, bows, or guns (see Enhanced Equipment) to more exotic weapons like magic wands or alien power rings. A weapon device usually has one or more attack effects but may provide virtually any effect the player wants to include. Weapons often have several different attacks as {@modifier Alternate Effect|Alternate Effects}. One example is an array of magic rings, each with its own effect, but only usable one at a time."
 							]
 						},
 						{
