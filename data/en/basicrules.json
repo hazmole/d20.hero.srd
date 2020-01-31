@@ -4703,6 +4703,52 @@
 									]
 								},
 								{
+									"type": "table",
+									"caption": "Headquarters Trait Cost",
+									"colLabels": [
+										"Trait",
+										"Starting Value",
+										"Equipment Cost"
+									],
+									"colStyles": [
+										"col-4 text-align-center",
+										"col-4 text-align-center",
+										"col-4 text-align-center"
+									],
+									"rows": [
+										["Size", "Small", "1 point per size category"],
+										["Toughness ", "6", "1 point per +2 Toughness"],
+										["Features", "—", "1 point per feature"]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Structure Size Categories",
+									"colLabels": [
+										"Structure Size",
+										"Cost",
+										"Examples"
+									],
+									"colStyles": [
+										"col-4 text-align-center",
+										"col-2 text-align-center",
+										"col-6 text-align-center"
+									],
+									"rows": [
+										["Awesome", "6", "Small town, sprawling installation"],
+										["Colossal", "5", "City block, private estate"],
+										["Gargantuan", "4", "Skyscraper"],
+										["Huge", "3", "Castle"],
+										["Large", "2", "Mansion, cave complex"],
+										["Medium", "1", "Warehouse"],
+										["Small", "0", "House"],
+										["Tiny", "-1", "Townhouse"],
+										["Diminutive", "-2", "Apartment"],
+										["Fine", "-3", "Loft"],
+										["Miniscule", "-4", "Room"]
+									]
+								},
+								{
 									"type": "entries",
 									"name": "Toughness",
 									"entries": [
