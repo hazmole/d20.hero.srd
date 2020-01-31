@@ -3845,14 +3845,14 @@
 									"type": "entries",
 									"name": "Weapon Accessories",
 									"entries": [
-										"The following accessories can be added to the projectile weapons in this section. Each is considered a feature costing 1 equipment point.",
+										"The following accessories can be added to the projectile weapons in this section. Each is considered a {@modifier feature} costing 1 equipment point.",
 										{
 											"type": "list",
 											"items": [
-												"{@b Laser Sight}: A laser sight projects a non-damaging laser beam showing where the weapon is aimed. This grants a Accurate 1 to the weapon it’s attached, which grants a +2 bonus on attack checks with that weapon.",
-												"{@b Stun Ammo}: Ballistic weapons can fire rubber bullets while bows can fire blunt-tipped arrows or quarrels. This ammunition is intended to inflict nonlethal rather than lethal damage. Switching between ammo types is a move action (a free action for a character with the Quick Draw advantage).",
-												"{@b Suppressor}: A suppressor muffles the noise of a ballistic weapon, giving it Subtle 1 and making it difficult (DC 20) for normal hearing to detect it.",
-												"{@b Targeting Scope}: A targeting scope gives a weapon the benefits of the Improved Aim advantage, doubling the normal benefits of aiming."
+												"{@b Laser Sight}: A laser sight projects a non-damaging laser beam showing where the weapon is aimed. This grants a {@modifier Accurate|Accurate 1} to the weapon it’s attached, which grants a +2 bonus on attack checks with that weapon.",
+												"{@b Stun Ammo}: Ballistic weapons can fire rubber bullets while bows can fire blunt-tipped arrows or quarrels. This ammunition is intended to inflict nonlethal rather than lethal damage. Switching between ammo types is a move action (a free action for a character with the {@advantage Quick Draw} advantage).",
+												"{@b Suppressor}: A suppressor muffles the noise of a ballistic weapon, giving it {@modifier Subtle|Subtle 1} and making it difficult (DC 20) for normal hearing to detect it.",
+												"{@b Targeting Scope}: A targeting scope gives a weapon the benefits of the {@advantage Improved Aim} advantage, doubling the normal benefits of aiming."
 											]
 										}
 									]

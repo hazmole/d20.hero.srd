@@ -3332,7 +3332,7 @@
 					"type": "section",
 					"translate_name": "武器", "name": "Weapons",
 					"entries": [
-						"Weapons of various sorts are common for both heroes and villains. They range from melee weapons to ranged weapons like guns and bows and devices like shrink-rays, mind-control helmets and more. Characters who don’t have any offensive powers often rely on weapons to get the job done.",
+						"英雄和反派們經常使用著各式各樣的武器。其範圍囊括了近戰武器，像是槍械和弓箭等遠程武器，甚至到比如縮小射線、心靈控制頭盔等裝置。那些缺乏攻擊異能的角色們經常會依賴武器來完成他們的任務。",
 						{
 							"type": "entries",
 							"translate_name": "近戰武器", "name": "Melee Weapons",
@@ -3843,16 +3843,16 @@
 								},
 								{
 									"type": "entries",
-									"name": "Weapon Accessories",
+									"translate_name": "武器配件", "name": "Weapon Accessories",
 									"entries": [
-										"The following accessories can be added to the projectile weapons in this section. Each is considered a feature costing 1 equipment point.",
+										"下列配件可以被添加到本章節所列出的彈射武器上。每個配件都被視為一個價值1點裝備點的{@modifier 特色}。",
 										{
 											"type": "list",
 											"items": [
-												"{@b Laser Sight}: A laser sight projects a non-damaging laser beam showing where the weapon is aimed. This grants a Accurate 1 to the weapon it’s attached, which grants a +2 bonus on attack checks with that weapon.",
-												"{@b Stun Ammo}: Ballistic weapons can fire rubber bullets while bows can fire blunt-tipped arrows or quarrels. This ammunition is intended to inflict nonlethal rather than lethal damage. Switching between ammo types is a move action (a free action for a character with the Quick Draw advantage).",
-												"{@b Suppressor}: A suppressor muffles the noise of a ballistic weapon, giving it Subtle 1 and making it difficult (DC 20) for normal hearing to detect it.",
-												"{@b Targeting Scope}: A targeting scope gives a weapon the benefits of the Improved Aim advantage, doubling the normal benefits of aiming."
+												"{@b 雷射瞄準器}: 雷射瞄準器會投射出一道非殺傷性的雷射光束，顯示該武器瞄準的位置。這將使它付加的武器得到{@modifier Accurate|準確 1}修飾符的好處，亦即使該武器所進行的攻擊檢定獲得+2加值。",
+												"{@b 鎮暴彈藥}: 彈道武器可以發射橡膠子彈，而弓可以發射鈍頭的箭矢。這類彈藥的目的是造成非致命傷害。切換彈藥類型需要花費一個移動動作（對於擁有{@advantage 快速備戰}特長的角色而言則只需要一個自由動作）。",
+												"{@b 消音器}: 消音器能夠抑制彈道武器所產生的噪音，使其獲得{@modifier Subtle|1級隱密使用}的好處，讓尋常聽覺難以察覺到該武器射擊的聲音（DC 20）。",
+												"{@b 瞄準鏡}: 瞄準鏡能讓武器獲得{@advantage 精通瞄準}特長的好處，將瞄準動作所提供的情境加值變為二倍。"
 											]
 										}
 									]
