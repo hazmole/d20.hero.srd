@@ -79,7 +79,7 @@
 					{ "_translate_name": "裝備", "name": "Equipment" },
 					{ "_translate_name": "通用裝備", "name": "General Equipment" },
 					{ "translate_name": "武器", "name": "Weapons" },
-					{ "_translate_name": "防具", "name": "Armor" },
+					{ "_translate_name": "護甲", "name": "Armor" },
 					{ "_translate_name": "載具", "name": "Vehicles" },
 					{ "_translate_name": "超級總部", "name": "Headquarters" },
 					{ "_translate_name": "構裝體", "name": "Constructs" }
@@ -2944,7 +2944,7 @@
 					"type": "section",
 					"translate_name": "裝置", "name": "Devices",
 					"entries": [
-						"裝置是指一件能夠提供一個或一組特定超能力效果的物品。儘管裝置通常會是先進科技的產物，但它們並不一定要是如此。許多英雄和反派也持有像是附魔武器和防具、魔法護身符、威能魔杖或法杖等各種各樣的魔法裝置。有些裝置是由異星科技打造而成，這些技術可能太過先進以至於它也同樣具備魔法性質、或甚至運用了靈能或宇宙能量這類超乎魔法和科學領域的力量。在遊戲中，無論這些裝置的起源或描述符為何，它們都遵循著相同的方式作用。",
+						"裝置是指一件能夠提供一個或一組特定超能力效果的物品。儘管裝置通常會是先進科技的產物，但它們並不一定要是如此。許多英雄和反派也持有像是附魔武器和護甲、魔法護身符、威能魔杖或法杖等各種各樣的魔法裝置。有些裝置是由異星科技打造而成，這些技術可能太過先進以至於它也同樣具備魔法性質、或甚至運用了靈能或宇宙能量這類超乎魔法和科學領域的力量。在遊戲中，無論這些裝置的起源或描述符為何，它們都遵循著相同的方式作用。",
 						"通常來說，裝置就是應用了{@modifier 可被移除}缺陷的超能力，代表對於角色而言這些超能力是來自外在的。一旦這些裝置被拿走，其持有者就會失去使用這些超能力的能力。因此舉例來說，若裝甲英雄失去了他的戰鬥裝甲服，那麼他也將失去所有該裝甲服所提供的超能力。同樣的情況也會發生在失去了宇宙戒指、魔法頭盔、或異星文物的英雄身上，這也是為什麼{@modifier 可被移除}修飾符會是缺陷的原因。",
 						"就跟其他超能力一樣，裝置需要花費角色點（儘管{@modifier 可被移除}缺陷會降低一部份花費）。希望擁有並經常使用裝置的角色必須支付角色點才能擁有它們，就如同擁有任何其他超能力一樣。一旦花費角色點購買，這些裝置就會成為該角色的能力的一部分。由於這個裝置已經被視作該角色的一部分，因此若該裝置遺失、被竊走、或被摧毀，則在一段時間後，該角色將可以重新獲得該裝置的代替品。只有重新分配該角色的角色點會改變這個狀況，因此，若該裝置因為某些原因而永久喪失，那麼遊戲主持人就該允許角色們重新分配他們原本花費於被移除超能力的角色點。",
 						"在某些情況下，角色也許能夠暫時性地使用裝置。大部分裝置可以被任何能夠操作它們的人所使用，在這種狀況下，角色們可以互相借用彼此的裝置、或拿起並使用他人的裝置（或甚至從敵人手中偷走裝置，以其人之道還治其人之身）。這裡的關鍵概念在於，這種裝備的使用方式僅僅是暫時的，且只會在單一場景，或大部份時候，單一次冒險中發生。若該角色希望再持續使用該裝置，則他將必須支付角色點以讓該裝置成為他常規能力的一部份。否則的話，GM可以簡單地判定該裝置因為遺失、耗盡能量、或故障損壞等因素，而無法再被使用。擁有{@advantage 發明家}和{@advantage 魔器工匠}特長的角色能夠製造出暫時性的裝置，以供冒險中使用。",
@@ -3000,7 +3000,7 @@
 							"type": "entries",
 							"translate_name": "強化裝備", "name": "Enhanced Equipment",
 							"entries": [
-								"某些裝置可能是帶有特殊性質的普通裝備。魔法物品──注入魔法性質的普通裝備──就是個很好的例子。魔法武器可能會提供更強大的傷害加值或賦予更優秀的攻擊加值，而魔法防具不僅可以避免穿戴懲罰，還能提供更強大的保護效果。這類強化能夠使傳統武器防具從凡俗裝備的領域升格成裝置。同樣的，使用了超級合金、防彈布料、或其他超科學奇物的裝備也是如此。"
+								"某些裝置可能是帶有特殊性質的普通裝備。魔法物品──注入魔法性質的普通裝備──就是個很好的例子。魔法武器可能會提供更強大的傷害加值或賦予更優秀的攻擊加值，而魔法護甲不僅可以避免穿戴懲罰，還能提供更強大的保護效果。這類強化能夠使傳統武器防具從凡俗裝備的領域升格成裝置。同樣的，使用了超級合金、防彈布料、或其他超科學奇物的裝備也是如此。"
 							]
 						},
 						{
@@ -3974,30 +3974,30 @@
 				},
 				{
 					"type": "section",
-					"name": "Armor",
+					"translate_name": "護甲", "name": "Armor",
 					"entries": [
 						"With so many weapons and super-powered attacks around, characters may need armor to protect them. Some heroes are innately tough enough to stand up to a lot of punishment, while others rely on their high Dodge and Parry ranks. Others choose to wear armor, ranging from ancient metal armors to modern composites or ultra-modern battlesuits.",
 						"Armor provides a Protection effect, a bonus to Toughness. Like other equipment, armor bonuses do not stack with other armor or effect bonuses, only the highest bonus applies, one of the reasons why tough heroes rarely, if ever, wear armor. Toughness, even that granted by armor, is limited by your series’ power level.",
 						{
 							"type": "entries",
-							"name": "Armor Traits",
+							"translate_name": "護甲數據", "name": "Armor Traits",
 							"entries": [
 								"Armor has the following traits:",
 								{
 									"type": "list",
 									"items": [
-										"{@b Category}: Armors are categorized as archaic (ancient styles of armor like chain- and plate-mail), modern (typically bulletproof composites and synthetics), and shields (requiring some active use to protect against attacks).",
-										"{@b Effect}: The effect of most armor is Protection, sometimes with the Impervious modifier. Shields provide a sort of mobile cover (see Cover in Action & Adventure), granting Enhanced Dodge and Parry defenses.",
-										"{@b Cost}: This is the armor’s cost in points. Characters pay this cost from their equipment points to have the armor of this type as part of their regular equipment."
+										"{@b 種類}: Armors are categorized as archaic (ancient styles of armor like chain- and plate-mail), modern (typically bulletproof composites and synthetics), and shields (requiring some active use to protect against attacks).",
+										"{@b 效果}: The effect of most armor is Protection, sometimes with the Impervious modifier. Shields provide a sort of mobile cover (see Cover in Action & Adventure), granting Enhanced Dodge and Parry defenses.",
+										"{@b 花費}: This is the armor’s cost in points. Characters pay this cost from their equipment points to have the armor of this type as part of their regular equipment."
 									]
 								},
 								{
 									"type": "table",
-									"caption": "Armor",
+									"caption": "護甲",
 									"colLabels": [
-										"Armor",
-										"Effect",
-										"Cost"
+										"護甲",
+										"效果",
+										"花費"
 									],
 									"colStyles": [
 										"col-4",
@@ -4005,13 +4005,13 @@
 										"col-2 text-align-center"
 									],
 									"rows": [
-										["{@i Archaic}","",""],
+										["{@i 傳統護甲}","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Leather",
-												"Protection 1",
+												"皮革甲",
+												"{@effect Protection|保護 1}",
 												"1"
 											]
 										},
@@ -4019,8 +4019,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Chain-mail",
-												"Protection 3",
+												"鎖子甲",
+												"{@effect Protection|保護 3}",
 												"3"
 											]
 										},
@@ -4028,8 +4028,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Plate-mail",
-												"Protection 5",
+												"板金甲",
+												"{@effect Protection|保護 5}",
 												"5"
 											]
 										},
@@ -4037,18 +4037,18 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Full-plate",
-												"Protection 6",
+												"全身板甲",
+												"{@effect Protection|保護 6}",
 												"6"
 											]
 										},
-										["{@i Modern}","",""],
+										["{@i 現代護甲}","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Undercover shirt",
-												"Protection 2, Limited to Ballistic, Subtle",
+												"密探襯衣",
+												"{@effect Protection|保護 2}, {@modifier Limited|限定子彈}, {@modifier 隱密使用}",
 												"2"
 											]
 										},
@@ -4056,18 +4056,18 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Bulletproof vest",
-												"Protection 4, Limited to Ballistic, Subtle",
+												"防彈背心",
+												"{@effect Protection|保護 4}, {@modifier Limited|限定子彈}, {@modifier 隱密使用}",
 												"3"
 											]
 										},
-										["{@i Shields}","",""],
+										["{@i 盾牌}","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Small shield",
-												"+1 Active Defenses",
+												"小型盾",
+												"+1 主動防禦",
 												"2"
 											]
 										},
@@ -4075,8 +4075,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Medium shield",
-												"+2 Active Defenses",
+												"中型盾",
+												"+2 主動防禦",
 												"4"
 											]
 										},
@@ -4084,8 +4084,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Large shield",
-												"+3 Active Defenses",
+												"大型盾",
+												"+3 主動防禦",
 												"6"
 											]
 										}
@@ -4093,7 +4093,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Archaic Armor",
+									"translate_name": "傳統護甲", "name": "Archaic Armor",
 									"entries": [
 										"Some characters in superheroic settings still wear ancient or archaic armor, either because they are from a place or time where such armor is common or because it is tied to their motif or powers in some way.",
 										{
@@ -4109,28 +4109,28 @@
 								},
 								{
 									"type": "entries",
-									"name": "Modern Armor",
+									"translate_name": "現代護甲", "name": "Modern Armor",
 									"entries": [
-										"Modern body armor is common among superheroes and villains, but even more so among people like police officers, soldiers, criminal agents, and so forth.",
+										"現代護身衣裝經常被超級英雄和反派所使用，而在像是警察、士兵、刑案探員等人群中又更是如此。",
 										{
 											"type": "list",
 											"items": [
-												"{@b Undercover shirt}: A thin shirt of ballistic armor that can be worn under street clothes.",
-												"{@b Bulletproof vest}: A heavier vest of ballistic armor worn by police officers and soldiers."
+												"{@b 密探襯衣}: 輕薄襯衫外形的防彈護甲，可以被穿在便服底下。",
+												"{@b 防彈背心}: 警察和士兵所穿戴的，沉重背心外形的防彈護甲。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Shields",
+									"translate_name": "盾牌", "name": "Shields",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Small shield}: A small hand shield large enough to cover the wearer’s forearm.",
-												"{@b Medium shield}: A larger shield covering almost the entire arm, able to shield a large portion of the torso.",
-												"{@b Large shield}: A “kite” shield able to cover more than half of the wielder’s body."
+												"{@b 小型盾}: 一種小型的手持盾牌，大小足以覆蓋配戴者的前臂。",
+												"{@b 中型盾}: 一種較大型，覆蓋整隻手臂的盾牌，能夠保護大半部分的軀體。",
+												"{@b 大型盾}: 一種足以掩護持用者身體一半以上範圍的「鳶型」盾牌。"
 											]
 										},
 										{

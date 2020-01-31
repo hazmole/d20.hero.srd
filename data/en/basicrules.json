@@ -4011,7 +4011,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Leather",
-												"Protection 1",
+												"{@effect Protection|Protection 1}",
 												"1"
 											]
 										},
@@ -4020,7 +4020,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Chain-mail",
-												"Protection 3",
+												"{@effect Protection|Protection 3}",
 												"3"
 											]
 										},
@@ -4029,7 +4029,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Plate-mail",
-												"Protection 5",
+												"{@effect Protection|Protection 5}",
 												"5"
 											]
 										},
@@ -4038,7 +4038,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Full-plate",
-												"Protection 6",
+												"{@effect Protection|Protection 6}",
 												"6"
 											]
 										},
@@ -4048,7 +4048,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Undercover shirt",
-												"Protection 2, Limited to Ballistic, Subtle",
+												"{@effect Protection|Protection 2}, {@modifier Limited|Limited to Ballistic}, {@modifier Subtle}",
 												"2"
 											]
 										},
@@ -4057,7 +4057,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Bulletproof vest",
-												"Protection 4, Limited to Ballistic, Subtle",
+												"{@effect Protection|Protection 4}, {@modifier Limited|Limited to Ballistic}, {@modifier Subtle}",
 												"3"
 											]
 										},
