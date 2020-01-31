@@ -3977,7 +3977,7 @@
 					"name": "Armor",
 					"entries": [
 						"With so many weapons and super-powered attacks around, characters may need armor to protect them. Some heroes are innately tough enough to stand up to a lot of punishment, while others rely on their high Dodge and Parry ranks. Others choose to wear armor, ranging from ancient metal armors to modern composites or ultra-modern battlesuits.",
-						"Armor provides a Protection effect, a bonus to Toughness. Like other equipment, armor bonuses do not stack with other armor or effect bonuses, only the highest bonus applies, one of the reasons why tough heroes rarely, if ever, wear armor. Toughness, even that granted by armor, is limited by your series’ power level.",
+						"Armor provides a {@effect Protection} effect, a bonus to Toughness. Like other equipment, armor bonuses do not stack with other armor or effect bonuses, only the highest bonus applies, one of the reasons why tough heroes rarely, if ever, wear armor. Toughness, even that granted by armor, is limited by your series’ power level.",
 						{
 							"type": "entries",
 							"name": "Armor Traits",
@@ -3987,7 +3987,7 @@
 									"type": "list",
 									"items": [
 										"{@b Category}: Armors are categorized as archaic (ancient styles of armor like chain- and plate-mail), modern (typically bulletproof composites and synthetics), and shields (requiring some active use to protect against attacks).",
-										"{@b Effect}: The effect of most armor is Protection, sometimes with the Impervious modifier. Shields provide a sort of mobile cover (see Cover in Action & Adventure), granting Enhanced Dodge and Parry defenses.",
+										"{@b Effect}: The effect of most armor is {@effect Protection}, sometimes with the {@modifier Impervious} modifier. Shields provide a sort of mobile cover (see Cover in Action & Adventure), granting {@effect Enhanced Trait|Enhanced Dodge and Parry defenses}.",
 										"{@b Cost}: This is the armor’s cost in points. Characters pay this cost from their equipment points to have the armor of this type as part of their regular equipment."
 									]
 								},
@@ -4067,7 +4067,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Small shield",
-												"+1 Active Defenses",
+												"{@effect Enhanced Trait|+1 Active Defenses}",
 												"2"
 											]
 										},
@@ -4076,7 +4076,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Medium shield",
-												"+2 Active Defenses",
+												"{@effect Enhanced Trait|+2 Active Defenses}",
 												"4"
 											]
 										},
@@ -4085,7 +4085,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Large shield",
-												"+3 Active Defenses",
+												"{@effect Enhanced Trait|+3 Active Defenses}",
 												"6"
 											]
 										}
@@ -4138,8 +4138,8 @@
 											"name": "Under the Hood: Super-Shields",
 											"entries": [
 												"Just as power armor is a device version of otherwise ordinary equipment armor, some heroes (and, less often, villains) have shield devices providing them with greater benefits than an ordinary shield.",
-												"A shield device may provide Enhanced Dodge and Parry defenses like a mundane shield, or it can grant ranks of Protection (which do stack with other effects, since they’re not from equipment), perhaps even Impervious Protection for a “bulletproof” or “indestructible” shield. Such benefits are typically Sustained in duration, requiring some action on the shield-wielder’s part.",
-												"A super-shield might even be useful as a weapon, providing a Damage effect, probably Strength-based. This is best handled as an Alternate Effect of the shield, meaning you can’t use it both offensively and defensively at the same time! A hero able to hurl a shield at foes can even have a Ranged Damage effect with it."
+												"A shield device may provide {@effect Enhanced Trait|Enhanced Dodge and Parry defenses} like a mundane shield, or it can grant ranks of {@effect Protection} (which do stack with other effects, since they’re not from equipment), perhaps even {@modifier Impervious} {@effect Protection} for a “bulletproof” or “indestructible” shield. Such benefits are typically Sustained in duration, requiring some action on the shield-wielder’s part.",
+												"A super-shield might even be useful as a weapon, providing a {@effect Damage} effect, probably Strength-based. This is best handled as an {@modifier Alternate Effect} of the shield, meaning you can’t use it both offensively and defensively at the same time! A hero able to hurl a shield at foes can even have a {@modifier Increased Range|Ranged} {@effect Damage} effect with it."
 											]
 										}
 									]

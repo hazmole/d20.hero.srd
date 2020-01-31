@@ -79,9 +79,9 @@
 					{ "_translate_name": "裝備", "name": "Equipment" },
 					{ "_translate_name": "通用裝備", "name": "General Equipment" },
 					{ "translate_name": "武器", "name": "Weapons" },
-					{ "_translate_name": "護甲", "name": "Armor" },
+					{ "translate_name": "護甲", "name": "Armor" },
 					{ "_translate_name": "載具", "name": "Vehicles" },
-					{ "_translate_name": "超級總部", "name": "Headquarters" },
+					{ "_translate_name": "據點總部", "name": "Headquarters" },
 					{ "_translate_name": "構裝體", "name": "Constructs" }
 				]
 			},
@@ -3976,8 +3976,8 @@
 					"type": "section",
 					"translate_name": "護甲", "name": "Armor",
 					"entries": [
-						"With so many weapons and super-powered attacks around, characters may need armor to protect them. Some heroes are innately tough enough to stand up to a lot of punishment, while others rely on their high Dodge and Parry ranks. Others choose to wear armor, ranging from ancient metal armors to modern composites or ultra-modern battlesuits.",
-						"Armor provides a Protection effect, a bonus to Toughness. Like other equipment, armor bonuses do not stack with other armor or effect bonuses, only the highest bonus applies, one of the reasons why tough heroes rarely, if ever, wear armor. Toughness, even that granted by armor, is limited by your series’ power level.",
+						"面對周遭數不盡的武器和超能力攻擊，角色們可能會需要穿戴護甲來保護自己。有些英雄天生就足夠強健，能夠承受大量打擊而仍屹立不搖，有些人則依靠他們高超的閃避和格檔等級，以在眾多危險中生存。至於其他角色，則可能選擇穿戴護甲：從中古時期的金屬盔甲，到現代的複合材料，或甚至超現代的戰鬥裝甲服，都屬於此類。",
+						"護甲能夠提供{@effect 保護}效果：為堅實防禦帶來加值。跟其他的裝備一樣，護甲所提供的加值並不會與其他護甲或效果的加值疊加，只有數值最高的加值會被適用。這也是為什麼強健結實的英雄們鮮少，或甚至從來不會穿戴護甲。然而要注意的是，即使是透過護甲獲得的堅實防禦等級，仍然受限於你的劇集超能力階級的限制。",
 						{
 							"type": "entries",
 							"translate_name": "護甲數據", "name": "Armor Traits",
@@ -3986,9 +3986,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b 種類}: Armors are categorized as archaic (ancient styles of armor like chain- and plate-mail), modern (typically bulletproof composites and synthetics), and shields (requiring some active use to protect against attacks).",
-										"{@b 效果}: The effect of most armor is Protection, sometimes with the Impervious modifier. Shields provide a sort of mobile cover (see Cover in Action & Adventure), granting Enhanced Dodge and Parry defenses.",
-										"{@b 花費}: This is the armor’s cost in points. Characters pay this cost from their equipment points to have the armor of this type as part of their regular equipment."
+										"{@b 種類}: 護甲被分為三種：傳統護甲（古代風格的盔甲，例如鎖子甲和板金甲）、現代護甲（通常為防彈性質的複合材質和合成纖維）、以及盾牌（需要主動用來防禦才能阻擋攻擊）。",
+										"{@b 效果}: 大部分護甲所能提供的效果是{@effect 保護}，有時候也會應用{@modifier 強抗}修飾符。盾牌則會提供某種程度的動態掩護，提供{@effect Enhanced Trait|增強閃避和格檔防禦}的效果。",
+										"{@b 花費}: 代表該護甲所需的點數花費。角色可以藉由支付他們的裝備點，來獲得一個該類型的護甲做為他們的常規裝備。"
 									]
 								},
 								{
@@ -4028,7 +4028,7 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"板金甲",
+												"板甲",
 												"{@effect Protection|保護 5}",
 												"5"
 											]
@@ -4067,7 +4067,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"小型盾",
-												"+1 主動防禦",
+												"{@effect Enhanced Trait|+1 主動防禦}",
 												"2"
 											]
 										},
@@ -4076,7 +4076,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"中型盾",
-												"+2 主動防禦",
+												"{@effect Enhanced Trait|+2 主動防禦}",
 												"4"
 											]
 										},
@@ -4085,7 +4085,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"大型盾",
-												"+3 主動防禦",
+												"{@effect Enhanced Trait|+3 主動防禦}",
 												"6"
 											]
 										}
@@ -4095,14 +4095,14 @@
 									"type": "entries",
 									"translate_name": "傳統護甲", "name": "Archaic Armor",
 									"entries": [
-										"Some characters in superheroic settings still wear ancient or archaic armor, either because they are from a place or time where such armor is common or because it is tied to their motif or powers in some way.",
+										"某些超級英雄故事中的角色仍然穿帶著遠古或傳統的護甲，無論是因為他們來自這類護甲相對普遍的時間或地點，或是因為這類防具在某種意義上聯繫著他們的主題動機或超能力。",
 										{
 											"type": "list",
 											"items": [
-												"{@b Leather}: This can be archaic plates of boiled leather or a modern heavy leather jacket.",
-												"{@b Chain-mail}: A shirt of heavy metal chain, often with a coif (hood) to cover the wearer’s head.",
-												"{@b Plate-mail}: This is chain-mail augmented with a metal breastplate, greaves (leg-guards) and arm-guards.",
-												"{@b Full-plate}: A full (and heavy!) suit of articulated metal plates, like that worn by medieval knights."
+												"{@b 皮革甲}: 這種護甲可以是傳統水煮皮革製成硬皮甲，或是現代的重型皮革夾克。",
+												"{@b 鎖子甲}: 一套沉重金屬鎖子甲，經常會附有能蓋住穿戴者頭部的防護帽（兜帽）。",
+												"{@b 板甲}: 這是以鎖子甲為基礎，加上金屬胸甲、脛甲（護腿）和護手強化而成的護甲。",
+												"{@b 全身板甲}: 一套完整（且沉重！）的鉸接金屬板甲，就像是中世紀騎士所穿著的那種。"
 											]
 										}
 									]
@@ -4135,11 +4135,11 @@
 										},
 										{
 											"type": "inset",
-											"name": "Under the Hood: Super-Shields",
+											"translate_name": "幕後花絮：超級盾牌", "name": "Under the Hood: Super-Shields",
 											"entries": [
-												"Just as power armor is a device version of otherwise ordinary equipment armor, some heroes (and, less often, villains) have shield devices providing them with greater benefits than an ordinary shield.",
-												"A shield device may provide Enhanced Dodge and Parry defenses like a mundane shield, or it can grant ranks of Protection (which do stack with other effects, since they’re not from equipment), perhaps even Impervious Protection for a “bulletproof” or “indestructible” shield. Such benefits are typically Sustained in duration, requiring some action on the shield-wielder’s part.",
-												"A super-shield might even be useful as a weapon, providing a Damage effect, probably Strength-based. This is best handled as an Alternate Effect of the shield, meaning you can’t use it both offensively and defensively at the same time! A hero able to hurl a shield at foes can even have a Ranged Damage effect with it."
+												"就像動力裝甲服飾普通護甲裝備的裝置版本，某些英雄（以及，儘管不那麼常見，反派也是）也可能擁有裝置版本的盾牌，提供他們比普通盾牌更多更好的幫助。",
+												"盾牌裝置可能會跟尋常盾牌一樣，提供{@effect Enhanced Trait|增強閃避和格檔防禦}的效果．或可以賦予{@effect 保護}效果的等級（由於它們不再是裝備，而是裝置，因此這個加值可以和其他效果疊加），亦或甚至是{@modifier 強抗}{@effect 保護}以表現出「防彈」或「堅不可摧」的超級盾牌。這類助益通常會有著「維持」的持續時間，要求盾牌使用者進行某些動作才能發揮作用。",
+												"超級盾牌可能甚至會被當作武器使用，提供或許是基於力量的{@effect 傷害}效果。這個攻擊效果最好被當作盾牌的{@modifier 替換效果}來處理，意味著你不能同時把它用於進攻和防守！一名能夠將盾牌往敵人投擲出去的英雄，可能甚至會有{@modifier Increased Range|遠距}{@effect 傷害}的效果。"
 											]
 										}
 									]
@@ -4150,7 +4150,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Vehicles",
+					"translate_name": "載具", "name": "Vehicles",
 					"entries": [
 						"Not every hero can fly (or teleport, or run at super-speed…). Sometimes heroes make use of other means to get around. Vehicles are used primarily for transportation, although they may come with additional capabilities—including weapons—making them useful in other situations as well.",
 						{
@@ -4686,13 +4686,13 @@
 				},
 				{
 					"type": "section",
-					"translate_name": "超級總部", "name": "Headquarters",
+					"translate_name": "據點總部", "name": "Headquarters",
 					"entries": [
 						"Whether it’s an underground cave, the top floors of a skyscraper, a satellite in orbit, or a base on the Moon, many heroes and villains maintain their own secret (or not so secret) headquarters. Teams may even pool their equipment points to have a headquarters they share, with the Gamemaster’s approval.",
 						"A character can even have multiple bases of operation (see Alternate Headquarters later in this section). This is more common for villains, who have back-up plans and secret bases they can retreat to when their plans are defeated. If a character’s headquarters is destroyed, the character can choose to rebuild it or build a new headquarters with different features using the same equipment points. Supervillains often go through a succession of different lairs.",
 						{
 							"type": "entries",
-							"translate_name": "超級總部的數據", "name": "Headquarters Traits",
+							"translate_name": "據點總部的數據", "name": "Headquarters Traits",
 							"entries": [
 								"Headquarters  have  two  main  traits—Size  and  Toughness—and a number of possible Features. Each of these costs equipment points.",
 								{
@@ -4706,14 +4706,14 @@
 									"type": "entries",
 									"translate_name": "堅實屬性", "name": "Toughness",
 									"entries": [
-										"超級總部的堅實屬性代表著它建築材質的強度，尤其是它的外部結構強度（牆壁、天花板等等）。建築物的起始堅實屬性為6級，每1點裝備點可以使其堅實屬性+2級。"
+										"據點總部的堅實屬性代表著它建築材質的強度，尤其是它的外部結構強度（牆壁、天花板等等）。建築物的起始堅實屬性為6級，每1點裝備點可以使其堅實屬性+2級。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "超能力階級", "name": "Power Level",
 									"entries": [
-										"有些特色會參考超級總部的超能力階級。對於玩家角色來說，這就是劇集整體的超能力階級。對於非玩家角色，特別是反派角色而言，這個數值則會是該根據地擁有者的實質超能力等級、或者任何GM所希望設定的超能力等級。GM可以依據劇集超能力階級做為設定的參考。"
+										"有些特色會參考據點總部的超能力階級。對於玩家角色來說，這就是劇集整體的超能力階級。對於非玩家角色，特別是反派角色而言，這個數值則會是該根據地擁有者的實質超能力等級、或者任何GM所希望設定的超能力等級。GM可以依據劇集超能力階級做為設定的參考。"
 									]
 								},
 								{
@@ -4952,7 +4952,7 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "範例超級總部", "name": "Sample Headquarters",
+							"translate_name": "範例據點總部", "name": "Sample Headquarters",
 							"entries": [
 								"Gamemasters can use the following sample headquarters as ready-made lairs for supervillains while players can use them as bases for their heroes.",
 								{
