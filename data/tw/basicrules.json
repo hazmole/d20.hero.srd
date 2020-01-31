@@ -3982,7 +3982,7 @@
 							"type": "entries",
 							"translate_name": "護甲數據", "name": "Armor Traits",
 							"entries": [
-								"Armor has the following traits:",
+								"護甲具備下列數據：",
 								{
 									"type": "list",
 									"items": [
@@ -4155,46 +4155,46 @@
 						"Not every hero can fly (or teleport, or run at super-speed…). Sometimes heroes make use of other means to get around. Vehicles are used primarily for transportation, although they may come with additional capabilities—including weapons—making them useful in other situations as well.",
 						{
 							"type": "entries",
-							"name": "Vehicle Traits",
+							"translate_name": "載具數據", "name": "Vehicle Traits",
 							"entries": [
 								"Vehicles have the following traits: Size, Strength, Speed, Defense, and Toughness. Like characters, each of a vehicle’s traits costs points to improve. The basic cost for a vehicle is its Speed, but other things, like the vehicle’s ability to haul cargo  or resist damage, cost points as well. Vehicles can even have power effects of their own. Equipment point costs are summarized on the Vehicle Trait Cost table.",
 								{
 									"type": "table",
-									"caption": "Vehicle Trait Cost",
+									"caption": "載具數據的花費",
 									"colLabels": [
-										"Trait",
-										"Cost"
+										"數據",
+										"花費"
 									],
 									"colStyles": [
 										"col-4 text-align-center",
 										"col-8 text-align-center"
 									],
 									"rows": [
-										["Size", "1 point per size category"],
-										["Strength", "1 point per +1 Strength"],
-										["Speed", "movement effect cost"],
-										["Toughness ", "1 point per +1 Toughness"],
-										["Defense", "1 point per +1 Defense"],
-										["Features", "1 point per feature"],
-										["Powers", "power cost (see Chapter 5)"]
+										["尺寸", "1點／每尺寸類別"],
+										["力量屬性", "1點／每+1力量屬性"],
+										["速度", "等同 移動類型效果 的花費"],
+										["堅實屬性", "1點／每+1堅實屬性"],
+										["防禦", "1點／每+1防禦"],
+										["特色", "1點／每個特色"],
+										["超能力", "等同 超能力 的花費（參見第五章）"]
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Size",
+									"translate_name": "尺寸", "name": "Size",
 									"entries": [
 										"A vehicle’s size is measured in categories, as shown on the Vehicle Size Categories table. A vehicle’s size determines its base Strength, Toughness, and Defense values. Vehicles start out at medium size by default, and each increase in size category costs 1 power point."
 									]
 								},
 								{
 									"type": "table",
-									"caption": "Vehicle Size Categories",
+									"caption": "載具尺寸類別",
 									"colLabels": [
-										"Vehicle Size (rank)",
-										"Examples",
-										"Strength",
-										"Toughness",
-										"Defense"
+										"載具尺寸 (等級)",
+										"範例",
+										"力量屬性",
+										"堅實屬性",
+										"防禦"
 									],
 									"colStyles": [
 										"col-3 text-align-center",
@@ -4238,35 +4238,35 @@
 								},
 								{
 									"type": "entries",
-									"name": "Strength",
+									"translate_name": "力量屬性", "name": "Strength",
 									"entries": [
 										"A vehicle’s Strength, much like a character’s, determines its carrying capacity. You can increase a vehicle’s Strength over the base rank for its size for 1 equipment point per Strength rank."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Speed",
+									"translate_name": "速度", "name": "Speed",
 									"entries": [
 										"A vehicle buys the appropriate movement effect(s) for its Speed, paying the normal cost. Vehicles with multiple modes of movement (air, ground, and water, for example) pay full cost for the most expensive and can acquire the others as Alternate Effects (see Alternate Effect modifier in Powers)."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Defense",
+									"translate_name": "防禦", "name": "Defense",
 									"entries": [
 										"A vehicle’s size determines its base Defense, which is used to determine the Defense Class to hit the vehicle with attacks. For sizes larger than medium, this is a penalty, making it easier to target the vehicle, even to the point where attackers can hit it as a routine check. You can “buy off” the Defense penalty applied to a vehicle for 1 equipment point per –1 penalty removed."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Toughness",
+									"translate_name": "堅實屬性", "name": "Toughness",
 									"entries": [
 										"Size category determines a vehicle’s base Toughness rank, used for Toughness resistance checks. You can increase a vehicle’s Toughness over the base rank for its size for 1 equipment point per Toughness rank."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Features",
+									"translate_name": "特色", "name": "Features",
 									"entries": [
 										"Certain things are considered “standard” on any vehicle. These include seating, safety harnesses or seat belts, heating and air-conditioning, radio receiver, headlights, and similar things with little or no impact on game play. Features are “optional extras” for vehicles and cost 1 point each. The GM can determine if other features are included in the vehicle or cost points. Some “features” are actually powers, described in the following section.",
 										{
@@ -4284,7 +4284,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Powers",
+									"translate_name": "超能力", "name": "Powers",
 									"entries": [
 										"A vehicle can have power effects of its own, usually reflecting the vehicle’s systems. Attack effects are suitable for vehicle-mounted weapons, while defense effects protect the vehicle (and often the passengers) from harm. Vehicle powers have their normal cost for the vehicle (meaning they cost one-fifth the normal amount for the vehicle’s owner, since the effects are incorporated into the vehicle and cost equipment points rather than Character points).",
 										{
@@ -4302,14 +4302,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Shared Vehicles",
+									"translate_name": "共用載具", "name": "Shared Vehicles",
 									"entries": [
 										"A team of heroes may share a vehicle used by the whole team, particularly useful for shuttling around team members who cannot fly or move at super-speed. The members of the team divide the equipment point cost of the vehicle among them as they see fit, devoting the necessary ranks of the Equipment advantage to covering the vehicle’s cost."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Alternate Vehicles",
+									"translate_name": "載具的替換效果", "name": "Alternate Vehicles",
 									"entries": [
 										"Just like Alternate Equipment, characters may have multiple vehicles. These are generally Alternate Equipment by definition, since it’s difficult to drive or pilot more than one vehicle at a time! So the character pays the full cost for the most expensive vehicle, and then 1 equipment point for each additional vehicle with the same or lesser cost.",
 										"So a hero with an array of vehicles, such as a plane, boat, and car pays full equipment point cost for the most expensive of the vehicles and just 1 equipment point for each of the others. The hero’s player can even spend a Victory point to pull out a motorcycle, submarine, jet-ski, or whatever other vehicle the hero might have stashed away waiting for the right occasion."
@@ -4319,15 +4319,15 @@
 						},
 						{
 							"type": "table",
-							"caption": "Vehicles",
+							"caption": "載具",
 							"colLabels": [
-								"Name",
-								"Size",
-								"Strength",
-								"Speed",
-								"Defense",
-								"Toughness",
-								"Cost"
+								"名稱",
+								"尺寸",
+								"力量屬性",
+								"速度",
+								"防禦",
+								"堅實屬性",
+								"花費"
 							],
 							"colStyles": [
 								"col-6",
@@ -4339,7 +4339,7 @@
 								"col-1 text-align-center"
 							],
 							"rows": [
-								["{@i Ground Vehicles}","","","","","",""],
+								["{@i 地面載具}","","","","","",""],
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -4428,7 +4428,7 @@
 										"H","10","5","6","10","10"
 									]
 								},
-								["{@i Water Vehicles}","","","","","",""],
+								["{@i 水上載具}","","","","","",""],
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -4493,7 +4493,7 @@
 										"C","16","5","2","13","30*"
 									]
 								},
-								["{@i Air Vehicles}","","","","","",""],
+								["{@i 空中載具}","","","","","",""],
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -4542,7 +4542,7 @@
 										"C","13","9","2","13","59"
 									]
 								},
-								["{@i Space Vehicles}","","","","","",""],
+								["{@i 太空載具}","","","","","",""],
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -4575,7 +4575,7 @@
 										"A","22","16","0","18","93"
 									]
 								},
-								["{@i Exotic Vehicles}","","","","","",""],
+								["{@i 奇特載具}","","","","","",""],
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -4602,7 +4602,7 @@
 								}
 							],
 							"footnotes": [
-								"* = See individual descriptions for more information."
+								"* = 參見各自的描述以查閱更多資訊."
 							]
 						},
 						{
