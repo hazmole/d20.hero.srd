@@ -4205,32 +4205,32 @@
 									],
 									"rows": [
 										[
-											"Awesome",
-											"Space transport",
+											"極巨型(A)",
+											"太空運輸",
 											"20", "15", "-12"
 										],
 										[
-											"Colossal",
-											"Passenger jet",
+											"超巨型(C)",
+											"噴射客機",
 											"16", "13", "-8"
 										],
 										[
-											"Gargantuan",
-											"Semi, yacht, fighter jet",
+											"巨型(G)",
+											"半掛式卡車、遊艇、戰鬥機",
 											"12", "11", "-4"
 										],
 										[
-											"Huge",
-											"Stretch limo, SUV, tank",
+											"超大型(H)",
+											"伸縮豪華轎車、運動型休旅車(SUV)、坦克",
 											"8", "9", "-2"
 										],
 										[
-											"Large",
-											"Car, small truck",
+											"大型(L)",
+											"轎車、小型貨車",
 											"4", "7", "-1"
 										],
 										[
-											"Medium",
+											"中型(M)",
 											"摩托車",
 											"0", "5", "0"
 										]
@@ -4345,7 +4345,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"摩托車",
-										"M","1","6","10","8","10"
+										"中型","1","6","10","8","10"
 									]
 								},
 								{
@@ -4353,7 +4353,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"汽車",
-										"L","5","5","8","8","10"
+										"大型","5","5","8","8","10"
 									]
 								},
 								{
@@ -4361,7 +4361,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"警車",
-										"L","6","6","8","9","11"
+										"大型","6","6","8","9","11"
 									]
 								},
 								{
@@ -4369,7 +4369,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"豪華轎車",
-										"H","8","5","6","9","6"
+										"超大型","8","5","6","9","6"
 									]
 								},
 								{
@@ -4377,7 +4377,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"卡車",
-										"H","9","5","6","9","7"
+										"超大型","9","5","6","9","7"
 									]
 								},
 								{
@@ -4385,7 +4385,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"裝甲車",
-										"H","8","5","6","12","8"
+										"超大型","8","5","6","12","8"
 									]
 								},
 								{
@@ -4393,7 +4393,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"坦克*",
-										"H","10","4","6","12","65"
+										"超大型","10","4","6","12","65"
 									]
 								},
 								{
@@ -4401,7 +4401,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"裝甲運輸車*",
-										"H","12","4","6","12","35"
+										"超大型","12","4","6","12","35"
 									]
 								},
 								{
@@ -4409,7 +4409,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"巴士",
-										"G","12","5","4","11","8"
+										"巨型","12","5","4","11","8"
 									]
 								},
 								{
@@ -4417,15 +4417,15 @@
 									"style": "row-indent-first",
 									"row": [
 										"半掛式卡車",
-										"G","13","5","4","11","9"
+										"巨型","13","5","4","11","9"
 									]
 								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Train engine",
-										"H","10","5","6","10","10"
+										"火車頭",
+										"超大型","10","5","6","10","10"
 									]
 								},
 								["{@i 水上載具}","","","","","",""],
@@ -4433,15 +4433,15 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Jet-Ski",
-										"M","1","5","10","7","8"
+										"水上摩托車",
+										"中型","1","5","10","7","8"
 									]
 								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Speedboat",
+										"機動快艇",
 										"L","6","6","8","7","8"
 									]
 								},
@@ -4449,7 +4449,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Yacht",
+										"遊艇",
 										"H","10","5","6","9","9"
 									]
 								},
@@ -4457,7 +4457,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Cutter*",
+										"獨桅縱帆船*",
 										"G","13","5","4","12","27"
 									]
 								},
@@ -4465,7 +4465,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Destroyer*",
+										"驅逐艦*",
 										"C","16","5","2","14","38"
 									]
 								},
@@ -4473,7 +4473,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Cruise ship",
+										"郵輪",
 										"A","20","5","0","15","10"
 									]
 								},
@@ -4481,7 +4481,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Battleship*",
+										"戰艦*",
 										"A","20","5","0","16","46"
 									]
 								},
@@ -4489,7 +4489,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Submarine*",
+										"潛水艇*",
 										"C","16","5","2","13","30*"
 									]
 								},
@@ -4723,11 +4723,11 @@
 								},
 								{
 									"type": "table",
-									"caption": "Structure Size Categories",
+									"caption": "建築物尺寸類別",
 									"colLabels": [
-										"Structure Size",
-										"Cost",
-										"Examples"
+										"建築物尺寸",
+										"花費",
+										"範例"
 									],
 									"colStyles": [
 										"col-4 text-align-center",
@@ -4735,17 +4735,17 @@
 										"col-6 text-align-center"
 									],
 									"rows": [
-										["Awesome", "6", "Small town, sprawling installation"],
-										["Colossal", "5", "City block, private estate"],
-										["Gargantuan", "4", "Skyscraper"],
-										["Huge", "3", "Castle"],
-										["Large", "2", "Mansion, cave complex"],
-										["Medium", "1", "Warehouse"],
-										["Small", "0", "House"],
-										["Tiny", "-1", "Townhouse"],
-										["Diminutive", "-2", "Apartment"],
-										["Fine", "-3", "Loft"],
-										["Miniscule", "-4", "Room"]
+										["極巨型", "6", "Small town, sprawling installation"],
+										["超巨型", "5", "City block, private estate"],
+										["巨型", "4", "Skyscraper"],
+										["超大型", "3", "Castle"],
+										["大型", "2", "Mansion, cave complex"],
+										["中型", "1", "Warehouse"],
+										["小型", "0", "House"],
+										["超小型", "-1", "Townhouse"],
+										["微型", "-2", "Apartment"],
+										["超微型", "-3", "Loft"],
+										["極微型", "-4", "Room"]
 									]
 								},
 								{
