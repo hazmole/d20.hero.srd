@@ -3789,10 +3789,10 @@
 												"{@b Heavy pistol}: A high-caliber handgun, usually used by those who want a lot of stopping power.",
 												"{@b Machine pistol}: A small automatic weapon, usable in one hand.",
 												"{@b Submachine gun}: Compact automatic weapons that fire pistol ammunition, submachine guns are common military weapons, also used by criminals with access to more serious firepower.",
-												"{@b Shotgun}: A shotgun can fire shot, which does Damage 5 with Accurate 1 due to the spread, but Limited to damage 3 against targets with Protection. It can also load solid slugs, which inflict the same damage, but without the Accurate bonus or the Limit on Damage.",
+												"{@b Shotgun}: A shotgun can fire shot, which does {@effect Damage|Damage 5} with {@modifier Accurate|Accurate 1} due to the spread, but {@modifier Limited} to damage 3 against targets with {@effect Protection}. It can also load solid slugs, which inflict the same damage, but without the Accurate bonus or the Limit on Damage.",
 												"{@b Assault rifle}: Rifles designed for military-use capable of both single-fire and automatic fire.",
 												"{@b Sniper rifle}: Rifles designed for long-range use, typically in conjunction with a powerful scope or targeting system.",
-												"{@b Bow}: Although outdated, some heroes and villains favor the bow as a weapon and it can be quite effective in the right hands. A bow-wielding character may have various “trick” ar-rows with different powers, typically handled as devices.",
+												"{@b Bow}: Although outdated, some heroes and villains favor the bow as a weapon and it can be quite effective in the right hands. A bow-wielding character may have various “trick” arrows with different powers, typically handled as devices.",
 												"{@b Crossbow}: Similar to a bow, and used for the same reasons."
 											]
 										}
@@ -3807,7 +3807,7 @@
 											"items": [
 												"{@b Blaster pistol}: A pistol that fires a coherent bolt of energy.",
 												"{@b Blaster rifle}: A larger riflesized weapon that fires a more powerful bolt of energy.",
-												"{@b Taser}: A compressed-air weapon firing a pair of darts. On impact they release a powerful electrical charge, for an Affliction effect that can daze, stun, or incapacitate (Fortitude resistance, DC 15)."
+												"{@b Taser}: A compressed-air weapon firing a pair of darts. On impact they release a powerful electrical charge, for an {@effect Affliction} effect that can {@condition Dazed|daze}, {@condition Stunned|stun}, or {@condition Incapacitated|incapacitate} (Fortitude resistance, DC 15)."
 											]
 										}
 									]
@@ -3819,9 +3819,9 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Flamethrower}: A flamethrower shoots a stream or arc of fire Damage as Cone or Line Area and can switch between settings as an Alternate Effect.",
+												"{@b Flamethrower}: A flamethrower shoots a stream or arc of fire Damage as Cone or Line Area and can switch between settings as an {@modifier Alternate Effect}.",
 												"{@b Grenade launcher}: A grenade launcher fires various types of grenades out a greater distance, generally fragmentation grenades.",
-												"{@b Rocket launcher}: A rocket-launcher is generally an anti-tank weapon, although they also make useful anti-super-hero weapons as well. The primary target hit by the rocket resists explosive Damage 10, while all other targets in the burst area resist Damage 7. Some “tank-killer” rockets are also Penetrating, to help overcome Impervious armor Protection, although the rocket’s Damage typically does most of that work. Most rocket launchers can fire only one or two shots before they must be reloaded (standard action, meaning the launcher cannot fire that turn)."
+												"{@b Rocket launcher}: A rocket-launcher is generally an anti-tank weapon, although they also make useful anti-super-hero weapons as well. The primary target hit by the rocket resists explosive {@effect Damage|Damage 10}, while all other targets in the burst area resist {@effect Damage|Damage 7}. Some “tank-killer” rockets are also {@modifier Penetrating}, to help overcome Impervious armor Protection, although the rocket’s Damage typically does most of that work. Most rocket launchers can fire only one or two shots before they must be reloaded (standard action, meaning the launcher cannot fire that turn)."
 											]
 										}
 									]
@@ -3833,10 +3833,10 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Bolas}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
-												"{@b Boomerang}: A common throwing weapon for heroes, a thrown boomerang returns to the thrower’s hand, ready to be thrown again on the next round (less a Feature and more a special descriptor). Boomerang wielders often use this property of the weapon to feint, allowing for an attack against a vulnerable target on the return arc on the attacker’s next turn.",
+												"{@b Bolas}: A set of weighted cords intended to entangle an opponent with a {@samplepower Snare|Snare Affliction} that hinders and impedes, then renders the target {@condition defenseless} and {@condition immobile}.",
+												"{@b Boomerang}: A common throwing weapon for heroes, a thrown boomerang returns to the thrower’s hand, ready to be thrown again on the next round (less a Feature and more a special descriptor). Boomerang wielders often use this property of the weapon to feint, allowing for an attack against a {@condition vulnerable} target on the return arc on the attacker’s next turn.",
 												"{@b Javelin}: Light, flexible spears intended to be thrown. Javelins can also be used in melee combat.",
-												"{@b Shuriken}: Flat metal stars or spikes for throwing. Shuriken can be thrown in groups as a Multiattack. Although they are thrown weapons, shuriken are not Strength-based, being too light."
+												"{@b Shuriken}: Flat metal stars or spikes for throwing. Shuriken can be thrown in groups as a {@modifier Multiattack}. Although they are thrown weapons, shuriken are not Strength-based, being too light."
 											]
 										}
 									]
@@ -3863,7 +3863,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Fragmentation",
-												"Ranged Burst Area Damage 5",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@effect Damage|Damage 5}",
 												"15",
 												"15"
 											]
@@ -3873,7 +3873,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Smoke",
-												"Ranged Cloud Area Concealment Attack 4",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Concealment} {@modifier Attack|Attack 4}",
 												"14",
 												"12"
 											]
@@ -3883,7 +3883,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Flash-bang",
-												"Ranged Burst Area Dazzle 4",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@samplepower Dazzle|Dazzle 4}",
 												"14",
 												"16"
 											]
@@ -3893,7 +3893,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Sleep gas",
-												"Ranged Cloud Area Sleep 4*",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@samplepower Sleep|Sleep 4}*",
 												"14",
 												"12"
 											]
@@ -3903,7 +3903,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Tear gas",
-												"Ranged Cloud Area Affliction 4*",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Affliction|Affliction 4}*",
 												"14",
 												"16"
 											]
@@ -3914,7 +3914,7 @@
 											"style": "row-indent-first",
 											"row": [
 												"Dynamite",
-												"Ranged Burst Area Damage 5",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@effect Damage|Damage 5}",
 												"15",
 												"15"
 											]
@@ -3924,11 +3924,14 @@
 											"style": "row-indent-first",
 											"row": [
 												"Plastic explosive",
-												"Ranged Burst Area Damage 10",
+												"{@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@effect Damage|Damage 10}",
 												"20",
 												"30"
 											]
 										}
+									],
+									"footnotes": [
+										"* = See individual descriptions for more information."
 									]
 								},
 								{
@@ -3940,9 +3943,9 @@
 											"items": [
 												"{@b Fragmentation grenade}: A common military grenade that sprays shrapnel in all directions.",
 												"{@b Smoke grenade}: A smoke grenade fills an area with thick smoke (colored as desired) providing total concealment to all visual senses.",
-												"{@b Flash-bang grenade}: A flash-bang grenade gives off a bright flash and a loud bang that can render targets temporarily blind and deaf. A flash grenade affects only vision and costs 12 points.",
-												"{@b Sleep gas grenade}: This grenade releases a gas with an Affliction (Sleep) effect.",
-												"{@b Tear gas grenade}: This type of grenade releases a cloud of gas that irritates the eyes and lungs, causing temporarily blindness and nausea (an Affliction with dazed and visually impaired, stunned and visually disabled, and incapacitated effects).",
+												"{@b Flash-bang grenade}: A flash-bang grenade gives off a bright flash and a loud bang that can render targets temporarily {@condition blind} and {@condition deaf}. A flash grenade affects only vision and costs 12 points.",
+												"{@b Sleep gas grenade}: This grenade releases a gas with an {@samplepower Sleep|Affliction (Sleep)} effect.",
+												"{@b Tear gas grenade}: This type of grenade releases a cloud of gas that irritates the eyes and lungs, causing temporarily blindness and nausea (an {@effect Affliction} with {@condition dazed} and {@condition impaired|visually impaired}, {@condition stunned} and {@condition disabled|visually disabled}, and {@condition incapacitated} effects).",
 												"{@b Dynamite}: A common explosive. The damage on the table is for a single stick of dynamite. Each doubling of the amount of explosive increases Damage rank by 1.",
 												"{@b Plastic explosive}: Another common explosive, which can be worked into different shapes. The damage listed is for a 1-lb block. Each doubling of the amount of explosive increases Damage rank by 1."
 											]

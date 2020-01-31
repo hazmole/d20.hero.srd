@@ -78,7 +78,7 @@
 					{ "translate_name": "裝置", "name": "Devices" },
 					{ "_translate_name": "裝備", "name": "Equipment" },
 					{ "_translate_name": "通用裝備", "name": "General Equipment" },
-					{ "_translate_name": "武器", "name": "Weapons" },
+					{ "translate_name": "武器", "name": "Weapons" },
 					{ "_translate_name": "防具", "name": "Armor" },
 					{ "_translate_name": "載具", "name": "Vehicles" },
 					{ "_translate_name": "超級總部", "name": "Headquarters" },
@@ -3550,8 +3550,8 @@
 							"type": "entries",
 							"translate_name": "遠程武器", "name": "Ranged Weapons",
 							"entries": [
-								"Ranged weapons include both thrown and projectile weapons. Thrown weapons are Strength-based, adding the wielder’s Strength rank to their Damage rank. Projectile weapons include bows, crossbows, and guns as well as energy weapons like lasers and blasters. Their Damage is generally not Strength-based.",
-								"Like melee weapons, ranged weapons have category, effect, critical, and cost traits. Ranged weapon categories are Projectile Weapons, Energy Weapons, Heavy Weapons, and Thrown Weapons.",
+								"遠程武器包括了投擲武器和彈射武器。投擲武器的傷害是基於力量屬性，會把持用者的力量等級加到它們的傷害等級上。彈射武器包括了弓箭、十字弩、槍械、以及像是雷射槍和爆能槍等能量武器。它們的傷害通常不是基於力量。",
+								"如同近戰武器，遠程武器也有著種類、效果、暴擊範圍、和花費這四項數據。遠程武器的種類被分成了彈射武器、能量武器、重型武器、和投擲武器。",
 								{
 									"type": "table",
 									"caption": "遠程武器",
@@ -3779,76 +3779,76 @@
 								},
 								{
 									"type": "entries",
-									"name": "Projectile Weapons",
+									"translate_name": "彈射武器", "name": "Projectile Weapons",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Holdout pistol}: A low-caliber, easily concealed pistol, typically used as a back-up or secondary weapon.",
-												"{@b Light pistol}: A common handgun, found in the hands of police officers and criminals alike.",
-												"{@b Heavy pistol}: A high-caliber handgun, usually used by those who want a lot of stopping power.",
-												"{@b Machine pistol}: A small automatic weapon, usable in one hand.",
-												"{@b Submachine gun}: Compact automatic weapons that fire pistol ammunition, submachine guns are common military weapons, also used by criminals with access to more serious firepower.",
-												"{@b Shotgun}: A shotgun can fire shot, which does Damage 5 with Accurate 1 due to the spread, but Limited to damage 3 against targets with Protection. It can also load solid slugs, which inflict the same damage, but without the Accurate bonus or the Limit on Damage.",
-												"{@b Assault rifle}: Rifles designed for military-use capable of both single-fire and automatic fire.",
-												"{@b Sniper rifle}: Rifles designed for long-range use, typically in conjunction with a powerful scope or targeting system.",
-												"{@b Bow}: Although outdated, some heroes and villains favor the bow as a weapon and it can be quite effective in the right hands. A bow-wielding character may have various “trick” ar-rows with different powers, typically handled as devices.",
-												"{@b Crossbow}: Similar to a bow, and used for the same reasons."
+												"{@b 袖珍手槍}: 小口徑、能夠輕易藏匿的手槍，通常被做為備用或第二武器。",
+												"{@b 輕型手槍}: 普通的手槍，經常被警察和罪犯所使用。",
+												"{@b 重型手槍}: 大口徑的手槍，通常被那些需要強大殺傷力的人們使用。",
+												"{@b 全自動手槍}: 小型的自動火器，能夠以單手使用。",
+												"{@b 衝鋒槍}: 發射手槍子彈的緊湊自動武器，衝鋒槍是一種相當常見的軍用武器，那些擁有更強大火力的犯罪份子也會使用這種武器。",
+												"{@b 霰彈槍}: 霰彈槍可以發射霰彈，因為濺射的緣故而造成帶有{@modifier Accurate|準確 1}的{@effect Damage|5級傷害}，但同時有著在面對擁有{@effect 保護}效果的敵人時只能造成3級傷害的{@modifier 限定條件}。霰彈槍也可以裝載實心彈，造成同樣的{@effect Damage|5級傷害}，但不會有準確帶來的加值和限定條件的傷害。",
+												"{@b 突擊步槍}: 專為軍事用途而設計的步槍，既能夠單發，也能夠全自動速射。",
+												"{@b 狙擊步槍}: 為長程狙擊而設計的步槍，通常連帶搭載著性能優秀的瞄準鏡或瞄準系統。",
+												"{@b 弓}: 儘管已經過時，但某些英雄和反派仍喜歡把弓做為武器使用，且它在善用者手中也確實能發揮出極大的效果。使用弓箭的角色可能會擁有帶著不同異能的「特殊箭矢」，這類武器通常會被當作裝置處理。",
+												"{@b 十字弩}: 與弓相似，且基於相同的理由而被使用。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Energy Weapons",
+									"translate_name": "能量武器", "name": "Energy Weapons",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Blaster pistol}: A pistol that fires a coherent bolt of energy.",
-												"{@b Blaster rifle}: A larger riflesized weapon that fires a more powerful bolt of energy.",
-												"{@b Taser}: A compressed-air weapon firing a pair of darts. On impact they release a powerful electrical charge, for an Affliction effect that can daze, stun, or incapacitate (Fortitude resistance, DC 15)."
+												"{@b 爆能手槍}: 能夠發射出凝聚能量束的手槍。",
+												"{@b 爆能步槍}: 尺寸較大，約莫步槍大小，能夠發射出更強大能量束的武器。",
+												"{@b 泰瑟槍}: 一種使用壓縮氮氣發射出一對帶電飛鏢的武器。一旦擊中目標，這對飛鏢就會釋放出強力的高壓電流，造成能使目標陷入{@condition 目眩}、{@condition 暈眩}、或{@condition 失能}狀態的{@effect 詛咒}效果（以韌性防禦抵抗，DC 15）。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Heavy Weapons",
+									"translate_name": "重型武器", "name": "Heavy Weapons",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Flamethrower}: A flamethrower shoots a stream or arc of fire Damage as Cone or Line Area and can switch between settings as an Alternate Effect.",
-												"{@b Grenade launcher}: A grenade launcher fires various types of grenades out a greater distance, generally fragmentation grenades.",
-												"{@b Rocket launcher}: A rocket-launcher is generally an anti-tank weapon, although they also make useful anti-super-hero weapons as well. The primary target hit by the rocket resists explosive Damage 10, while all other targets in the burst area resist Damage 7. Some “tank-killer” rockets are also Penetrating, to help overcome Impervious armor Protection, although the rocket’s Damage typically does most of that work. Most rocket launchers can fire only one or two shots before they must be reloaded (standard action, meaning the launcher cannot fire that turn)."
+												"{@b 火燄噴射器}: 火焰噴射器能夠噴出一道火焰流或火焰弧，造成直線或錐狀範圍的火焰傷害，並能以{@modifier 替換效果}在兩者間切換。",
+												"{@b 榴彈發射器}: 榴彈發射器能夠將各種類型的榴彈射至更遠的距離，通常搭載破片榴彈。",
+												"{@b 火箭發射器}: 火箭發射器通常是一種反坦克武器，儘管它們也能成為不錯的「反超級英雄武器」。被火箭砲擊中的主要目標將會受到爆炸所造成的{@effect Damage|10級傷害}效果，而其他位於爆發範圍內的目標則會承受{@effect Damage|7級傷害}效果。儘管火箭發射器的傷害效果通常能完成大部分的工作，某些「坦克殺手」火箭筒也會應用{@modifier 貫穿強抗}修飾符，讓它們得以攻克應用了強抗修飾符的保護裝甲。大部分的火箭發射器只能發射一或二發火箭，且必須重新裝填才能再繼續使用（裝填需要一個標準動作，這意味著火箭發射器在該回合不能用來射擊）。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Other Ranged Weapons",
+									"translate_name": "其他遠程武器", "name": "Other Ranged Weapons",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b 縛錘索}: A set of weighted cords intended to entangle an opponent with a Snare Affliction that hinders and impedes, then renders the target defenseless and immobile. See Snare in Powers for details.",
-												"{@b Boomerang}: A common throwing weapon for heroes, a thrown boomerang returns to the thrower’s hand, ready to be thrown again on the next round (less a Feature and more a special descriptor). Boomerang wielders often use this property of the weapon to feint, allowing for an attack against a vulnerable target on the return arc on the attacker’s next turn.",
-												"{@b Javelin}: Light, flexible spears intended to be thrown. Javelins can also be used in melee combat.",
-												"{@b Shuriken}: Flat metal stars or spikes for throwing. Shuriken can be thrown in groups as a Multiattack. Although they are thrown weapons, shuriken are not Strength-based, being too light."
+												"{@b 縛錘索}: 一套用以纏繞住對手的加重繩索，造成{@samplepower Snare|捕縛詛咒}效果，使目標陷入{@condition 移動受阻}和{@condition 脆弱}狀態，並最終陷入{@condition 無防備}和{@condition 無法移動}狀態。",
+												"{@b 迴力鏢}: 一種對於英雄而言相當常見的投擲武器，被投擲出去的迴力鏢會返回投擲者的手中，準備好於下一輪再次被投出（還不算是{@modifier 特色}，而更接近一種特殊描述符）。迴力鏢的使用者經常會利用武器的這個性質展開佯攻，讓攻擊者得以在下個回合利用迴力鏢的返迴弧，攻擊因遭突襲而處於{@condition 脆弱}狀態的目標。",
+												"{@b 標槍}: 輕巧、有彈性，用以投擲的矛槍。標槍也能夠在近身肉搏中被使用。",
+												"{@b 手裏劍}: 用以投擲的扁平星型或稜刺狀金屬片。手裏劍可以被整組同時丟出以進行{@modifier 多重攻擊}。儘管手裏劍屬於投擲武器，但因為重量太輕，因此它們所造成的傷害並非基於力量。"
 											]
 										}
 									]
 								},
 								{
 									"type": "table",
-									"caption": "Grenades and Explosives",
+									"caption": "手榴彈和爆裂物",
 									"colLabels": [
-										"Item",
-										"Effect",
-										"Dodge DC",
-										"Cost"
+										"物品",
+										"效果",
+										"閃避 DC",
+										"花費"
 									],
 									"colStyles": [
 										"col-3",
@@ -3857,13 +3857,13 @@
 										"col-2 text-align-center"
 									],
 									"rows": [
-										["{@i Grenades}","","",""],
+										["{@i 手榴彈}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Fragmentation",
-												"Ranged Burst Area Damage 5",
+												"破片榴彈",
+												"{@modifier Increased Range|遠距} {@modifier Area|爆發範圍} {@effect Damage|傷害 5}",
 												"15",
 												"15"
 											]
@@ -3872,8 +3872,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Smoke",
-												"Ranged Cloud Area Concealment Attack 4",
+												"煙霧榴彈",
+												"{@modifier Increased Range|遠距} {@modifier Area|雲霧範圍} {@effect 隱蔽} {@modifier Attack|攻擊 4}",
 												"14",
 												"12"
 											]
@@ -3882,8 +3882,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Flash-bang",
-												"Ranged Burst Area Dazzle 4",
+												"閃光榴彈",
+												"{@modifier Increased Range|遠距} {@modifier Area|爆發範圍} {@samplepower Dazzle|炫目 4}",
 												"14",
 												"16"
 											]
@@ -3892,8 +3892,8 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Sleep gas",
-												"Ranged Cloud Area Sleep 4*",
+												"催眠瓦斯榴彈",
+												"{@modifier Increased Range|遠距} {@modifier Area|雲霧範圍} {@samplepower Sleep|催眠 4}*",
 												"14",
 												"12"
 											]
@@ -3902,19 +3902,19 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Tear gas",
-												"Ranged Cloud Area Affliction 4*",
+												"催淚榴彈",
+												"{@modifier Increased Range|遠距} {@modifier Area|雲霧範圍} {@effect Affliction|詛咒 4}*",
 												"14",
 												"16"
 											]
 										},
-										["{@i Explosives}","","",""],
+										["{@i 爆裂物}","","",""],
 										{
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Dynamite",
-												"Ranged Burst Area Damage 5",
+												"炸藥",
+												"{@modifier Increased Range|遠距} {@modifier Area|爆發範圍} {@effect Damage|傷害 5}",
 												"15",
 												"15"
 											]
@@ -3923,28 +3923,31 @@
 											"type": "row",
 											"style": "row-indent-first",
 											"row": [
-												"Plastic explosive",
-												"Ranged Burst Area Damage 10",
+												"塑膠炸彈",
+												"{@modifier Increased Range|遠距} {@modifier Area|爆發範圍} {@effect Damage|傷害 10}",
 												"20",
 												"30"
 											]
 										}
+									],
+									"footnotes": [
+										"* = 參見各自的描述以查閱更多資訊."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Grenades and Explosives",
+									"translate_name": "手榴彈和爆裂物", "name": "Grenades and Explosives",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Fragmentation grenade}: A common military grenade that sprays shrapnel in all directions.",
-												"{@b Smoke grenade}: A smoke grenade fills an area with thick smoke (colored as desired) providing total concealment to all visual senses.",
-												"{@b Flash-bang grenade}: A flash-bang grenade gives off a bright flash and a loud bang that can render targets temporarily blind and deaf. A flash grenade affects only vision and costs 12 points.",
-												"{@b Sleep gas grenade}: This grenade releases a gas with an Affliction (Sleep) effect.",
-												"{@b Tear gas grenade}: This type of grenade releases a cloud of gas that irritates the eyes and lungs, causing temporarily blindness and nausea (an Affliction with dazed and visually impaired, stunned and visually disabled, and incapacitated effects).",
-												"{@b Dynamite}: A common explosive. The damage on the table is for a single stick of dynamite. Each doubling of the amount of explosive increases Damage rank by 1.",
-												"{@b Plastic explosive}: Another common explosive, which can be worked into different shapes. The damage listed is for a 1-lb block. Each doubling of the amount of explosive increases Damage rank by 1."
+												"{@b 破片榴彈}: 常見的軍用手榴彈，會朝著四面八方濺射出尖銳的碎片。",
+												"{@b 煙霧榴彈}: 煙霧榴彈會使一整個區域充斥著濃厚的煙幕（根據需求，濃煙可能會有其他顏色），提供對所有視覺感官的全遮蔽效應。",
+												"{@b 閃光榴彈}: 閃光榴彈會釋放出耀眼閃光和震耳欲聾的爆炸聲，能夠使目標暫時性的{@condition 目盲}和{@condition 耳聾}。只影響視覺的閃光榴彈的花費僅為12點。",
+												"{@b 催眠瓦斯榴彈}: 這種榴彈會釋放出帶有{@samplepower Sleep|詛咒(催眠)}效果的氣體。",
+												"{@b 催淚榴彈}: 這種類型的榴彈會釋放出一團會刺激眼和肺的有毒氣體，造成暫時性的致盲和噁心感（能使目標陷入{@condition 目眩}和{@condition Impaired|視覺行動乏能}，{@condition 暈眩}和{@condition Disabled|視覺行動障礙}，以及{@condition 失能}狀態的{@effect 詛咒}效果）。",
+												"{@b 炸藥}: 一種常見的爆裂物。表格上列出的傷害代表單一根炸藥所能造成的傷害。炸藥量每加倍一次，傷害等級就會增加1級。",
+												"{@b 塑膠炸彈}: 另一種常見的爆裂物，可以被捏塑成不同的形狀。表格上列出的傷害代表 1磅塑膠炸彈所能造成的傷害。炸藥量每加倍一次，傷害等級就會增加1級。"
 											]
 										}
 									]
