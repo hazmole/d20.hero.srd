@@ -3117,7 +3117,7 @@
 									"type": "entries",
 									"name": "Equipment Effects and Features",
 									"entries": [
-										"An item’s cost is based on its effects and features, just like a power (see {@b Powers} for more information), so a ranged weapon has a cost based on its Ranged Damage rank. Equipment often provides the Features effect, including some specific equipment Features. Indeed, some items of equipment provide only Features."
+										"An item’s cost is based on its effects and features, just like a power (see {@rule Powers|basic|6} for more information), so a ranged weapon has a cost based on its {@modifier Increased Range|Ranged} {@effect Damage} rank. Equipment often provides the {@effect Feature|Features} effect, including some specific equipment Features. Indeed, some items of equipment provide only {@effect Feature|Features}."
 									]
 								},
 								{
