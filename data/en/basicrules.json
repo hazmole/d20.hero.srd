@@ -3266,11 +3266,11 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Binoculars}: Standard binoculars allow the user to make visual Perception checks at a greater distance, or with a reduced penalty for distance, effectively providing a +5 equipment bonus that overcomes some or all of the distance penalty.",
-										"{@b Concealable Microphone}: A tiny receiver usable as a listening device. It has a broadcast range of about a mile. It requires an Investigation or Perception check against the results of the Sleight of Hand check used to conceal the microphone to find it.",
-										"{@b Mini-Tracer}: A tiny radio transmitter with an adhesive backing. It requires a successful attack check to plant a tracer on a target (or a Sleight of Hand check to plant it outside of action time). Noticing the tracer is a DC 20 Perception check or the result of the character’s Sleight of Hand check, whichever is higher. The tracer has a transmission range of about 2 miles.",
-										"{@b Night Vision Goggles}: Night vision goggles use passive light gathering to improve vision in near-dark conditions. They grant the user darkvision—but because of the restricted field of view and lack of depth perception these goggles provide, they impose a –2 circumstance penalty on Perception checks made while wearing them. Night vision goggles must have at least a little light to operate. A cloudy night provides sufficient ambient light, but a pitch-black cave or a sealed room doesn’t. For situations of total darkness, the goggles come with an infrared illuminator that, when switched on, operates like a flashlight visible only to the wearer (or anyone else with IR vision).",
-										"{@b Parabolic Microphone}: This apparatus has a gunlike microphone with an attached set of headphones. A parabolic mike provides a +5 equipment bonus to listening perception checks that overcomes some or all of the penalty for listening to sounds at a distance, through walls, etc."
+										"{@b Binoculars}: Standard binoculars allow the user to make visual {@skill Perception} checks at a greater distance, or with a reduced penalty for distance, effectively providing a +5 equipment bonus that overcomes some or all of the distance penalty.",
+										"{@b Concealable Microphone}: A tiny receiver usable as a listening device. It has a broadcast range of about a mile. It requires an {@skill Investigation} or {@skill Perception} check against the results of the {@skill Sleight of Hand} check used to conceal the microphone to find it.",
+										"{@b Mini-Tracer}: A tiny radio transmitter with an adhesive backing. It requires a successful attack check to plant a tracer on a target (or a {@skill Sleight of Hand} check to plant it outside of action time). Noticing the tracer is a DC 20 {@skill Perception} check or the result of the character’s {@skill Sleight of Hand} check, whichever is higher. The tracer has a transmission range of about 2 miles.",
+										"{@b Night Vision Goggles}: Night vision goggles use passive light gathering to improve vision in near-dark conditions. They grant the user darkvision—but because of the restricted field of view and lack of depth perception these goggles provide, they impose a –2 circumstance penalty on {@skill Perception} checks made while wearing them. Night vision goggles must have at least a little light to operate. A cloudy night provides sufficient ambient light, but a pitch-black cave or a sealed room doesn’t. For situations of total darkness, the goggles come with an infrared illuminator that, when switched on, operates like a flashlight visible only to the wearer (or anyone else with IR vision).",
+										"{@b Parabolic Microphone}: This apparatus has a gunlike microphone with an attached set of headphones. A parabolic mike provides a +5 equipment bonus to listening {@skill perception} checks that overcomes some or all of the penalty for listening to sounds at a distance, through walls, etc."
 									]
 								}
 							]
@@ -3299,14 +3299,14 @@
 							"type": "entries",
 							"name": "Utility Belt",
 							"entries": [
-								"A common piece of equipment for crime fighters and espionage agents is the utility belt (or bag, pouch, backpack, etc.): a collection of useful tools and equipment in a compact carrying case. A utility belt is an array of Alternate Equipment. Some characters may have a Removable array of devices instead, allowing for far more unusual effects than run-of-the-mill equipment.",
+								"A common piece of equipment for crime fighters and espionage agents is the utility belt (or bag, pouch, backpack, etc.): a collection of useful tools and equipment in a compact carrying case. A utility belt is an array of Alternate Equipment. Some characters may have a {@modifier Removable} array of devices instead, allowing for far more unusual effects than run-of-the-mill equipment.",
 								"Note that equipment with a cost of 1 equipment point doesn’t really need to be acquired as Alternate Equipment, since there’s no change in cost. Still, heroes often have 1-point items in their utility belts, like flashlights, rebreathers, and so forth.",
 								"By spending Victory points you can temporarily add Alternate Equipment to your utility belt, for those one-time items you may need in a pinch.",
 								{
 									"type": "entries",
 									"name": "Sample Utility Belt",
 									"entries": [
-										"Feel free to modify this example (adding or omitting items) to create your own customized utility belts. The tear gas, as the most expensive effect, has full cost. The other items cost 1 point each for Alternate Equipment, making the total equipment point cost of the utility belt 25 equipment points, or 5 Character points (for 5 ranks of the Equipment advantage).",
+										"Feel free to modify this example (adding or omitting items) to create your own customized utility belts. The tear gas, as the most expensive effect, has full cost. The other items cost 1 point each for {@b Alternate Equipment}, making the total equipment point cost of the utility belt 25 equipment points, or 5 Character points (for 5 ranks of the {@advantage Equipment} advantage).",
 										{
 											"type": "list",
 											"items": [

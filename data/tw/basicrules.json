@@ -77,7 +77,7 @@
 				"headers": [
 					{ "translate_name": "裝置", "name": "Devices" },
 					{ "_translate_name": "裝備", "name": "Equipment" },
-					{ "_translate_name": "通用裝備", "name": "General Equipment" },
+					{ "translate_name": "通用裝備", "name": "General Equipment" },
 					{ "translate_name": "武器", "name": "Weapons" },
 					{ "translate_name": "護甲", "name": "Armor" },
 					{ "_translate_name": "載具", "name": "Vehicles" },
@@ -3266,11 +3266,11 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Binoculars}: Standard binoculars allow the user to make visual Perception checks at a greater distance, or with a reduced penalty for distance, effectively providing a +5 equipment bonus that overcomes some or all of the distance penalty.",
-										"{@b Concealable Microphone}: A tiny receiver usable as a listening device. It has a broadcast range of about a mile. It requires an Investigation or Perception check against the results of the Sleight of Hand check used to conceal the microphone to find it.",
-										"{@b Mini-Tracer}: A tiny radio transmitter with an adhesive backing. It requires a successful attack check to plant a tracer on a target (or a Sleight of Hand check to plant it outside of action time). Noticing the tracer is a DC 20 Perception check or the result of the character’s Sleight of Hand check, whichever is higher. The tracer has a transmission range of about 2 miles.",
-										"{@b Night Vision Goggles}: Night vision goggles use passive light gathering to improve vision in near-dark conditions. They grant the user darkvision—but because of the restricted field of view and lack of depth perception these goggles provide, they impose a –2 circumstance penalty on Perception checks made while wearing them. Night vision goggles must have at least a little light to operate. A cloudy night provides sufficient ambient light, but a pitch-black cave or a sealed room doesn’t. For situations of total darkness, the goggles come with an infrared illuminator that, when switched on, operates like a flashlight visible only to the wearer (or anyone else with IR vision).",
-										"{@b Parabolic Microphone}: This apparatus has a gunlike microphone with an attached set of headphones. A parabolic mike provides a +5 equipment bonus to listening perception checks that overcomes some or all of the penalty for listening to sounds at a distance, through walls, etc."
+										"{@b 雙筒望遠鏡}: 標準規格的雙筒望遠鏡能夠讓使用者得以在更遠的距離外進行視覺的{@skill 感知}技能檢定，或降低距離的感知罰值，其實質上等同於提供+5的裝備加值以克服部分或所有遠距離因素所帶來的罰值。",
+										"{@b 可藏式麥克風}: 一種做為監聽裝置而被使用的小型接收器。其廣播傳輸範圍大約一哩。其他人需要進行一次{@skill 調查}或{@skill 感知}檢定以對抗將它藏匿起來的{@skill 手上把戲}檢定，才能成功發現到它的存在。",
+										"{@b 迷你發信器}: 一種背面貼有黏著劑的小型無線電發射器。使用者需要成功通過一次攻擊檢定才能將發信器裝到目標身上（或若不是在動作場景，則需要一次{@skill 手上把戲}檢定以將其植入）。注意到發信器需要進行一次{@skill 感知}技能檢定，DC為20或該{@skill 手上把戲}檢定結果（看何者為高）。這個發信器有著大約2哩的廣播範圍。",
+										"{@b 夜視鏡}: 夜視鏡使用被動集光技術以增強在將近全黑環境下的視覺能力。它將賦與使用者黑暗視覺的能力──但由於視野受限，且缺乏深度感知的能力，因此夜視鏡也會為穿戴它們時所進行的{@skill 感知}檢定帶來-2的情境罰值。夜視鏡必須在至少有些許光源的環境下才能發揮作用。比如說，多雲的夜晚仍有的些微但充足環境光，然而漆黑一片的洞窟或密閉房間則否。而對於完全黑暗的情況，夜視鏡則配有紅外線照明裝置。當該功能被開啟，它將如同但只能被穿戴者（或任何擁有紅外線視覺的角色）看見的手電筒一般發揮作用。",
+										"{@b 拋物面反射式麥克風}: 這個儀器有著一個槍狀收音裝置，以及一套附帶的耳機。拋物面反射式麥克風能為聽覺{@skill 感知}檢定提供+5的裝備加值以克服遠距離或隔牆等因素帶來的部分或所有情境罰值。"
 									]
 								}
 							]
@@ -3282,15 +3282,15 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Camo Clothing}: Clothing in the right camouflage pattern for the environment grants a +5 equipment bonus on Stealth checks in that environment. Patterns include foliage, desert, urban, and arctic.",
-										"{@b Flash Goggles}: These tinted eye-coverings provide protection against blinding light, granting a +5 equipment bonus to resistance checks against visual Dazzle attacks involving bright light.",
-										"{@b Flashlight}: Flashlights negate penalties for darkness within their illuminated areas. The standard flashlight projects a beam 30 feet long and 15 feet across at its end.",
-										"{@b Fire Extinguisher}: This portable apparatus uses a chemical spray to extinguish small fires. The typical fire extinguisher ejects enough extinguishing chemicals to put out a fire in a 10-by-10-foot area as a move action. It contains enough material for two such uses.",
-										"{@b Gas Mask}: This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides immunity to eye and lung irritants. The filter canister lasts for 12 hours of use.",
-										"{@b GPS}: Global positioning system receivers use signals from GPS satellites to determine the receiver’s location to within a few dozen feet. A GPS receiver grants its user a +5 equipment bonus on checks to navigate, but it generally only works outdoors.",
-										"{@b Multi-tool}: This device contains several different screw-drivers, a knife blade or two, can opener, bottle opener, file, short ruler, scissors, tweezers, and wire cutters. The whole thing unfolds into a handy pair of pliers. A multi-tool can lessen the penalty for making skill checks without appropriate tools to –2 instead of the normal –5. The tool is useful for certain tasks, as determined by the GM, but may not be useful in all situations.",
-										"{@b Rebreather}: A small cylinder that fits over the mouth and provides two minutes (20 rounds) of oxygen, during which the character does not need to make suffocation checks.",
-										"{@b SCUBA Gear}: A back-mounted oxygen cylinder and face-mask, used for diving. SCUBA (Self-Contained Underwater Breathing Apparatus) gear provides two hours of oxygen, and characters using it do not need to make checks for suffocation unless the gear is damaged or disabled."
+										"{@b 迷彩服}: Clothing in the right camouflage pattern for the environment grants a +5 equipment bonus on Stealth checks in that environment. Patterns include foliage, desert, urban, and arctic.",
+										"{@b 閃光防護目鏡}: These tinted eye-coverings provide protection against blinding light, granting a +5 equipment bonus to resistance checks against visual Dazzle attacks involving bright light.",
+										"{@b 手電筒}: Flashlights negate penalties for darkness within their illuminated areas. The standard flashlight projects a beam 30 feet long and 15 feet across at its end.",
+										"{@b 滅火器}: This portable apparatus uses a chemical spray to extinguish small fires. The typical fire extinguisher ejects enough extinguishing chemicals to put out a fire in a 10-by-10-foot area as a move action. It contains enough material for two such uses.",
+										"{@b 防毒面具}: This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides immunity to eye and lung irritants. The filter canister lasts for 12 hours of use.",
+										"{@b 全球定位系統(GPS)}: Global positioning system receivers use signals from GPS satellites to determine the receiver’s location to within a few dozen feet. A GPS receiver grants its user a +5 equipment bonus on checks to navigate, but it generally only works outdoors.",
+										"{@b 多功能工具組}: This device contains several different screw-drivers, a knife blade or two, can opener, bottle opener, file, short ruler, scissors, tweezers, and wire cutters. The whole thing unfolds into a handy pair of pliers. A multi-tool can lessen the penalty for making skill checks without appropriate tools to –2 instead of the normal –5. The tool is useful for certain tasks, as determined by the GM, but may not be useful in all situations.",
+										"{@b 循環呼吸器}: A small cylinder that fits over the mouth and provides two minutes (20 rounds) of oxygen, during which the character does not need to make suffocation checks.",
+										"{@b 水肺潛水裝備}: A back-mounted oxygen cylinder and face-mask, used for diving. SCUBA (Self-Contained Underwater Breathing Apparatus) gear provides two hours of oxygen, and characters using it do not need to make checks for suffocation unless the gear is damaged or disabled."
 									]
 								}
 							]
@@ -3299,14 +3299,14 @@
 							"type": "entries",
 							"translate_name": "多功能腰帶", "name": "Utility Belt",
 							"entries": [
-								"A common piece of equipment for crime fighters and espionage agents is the utility belt (or bag, pouch, backpack, etc.): a collection of useful tools and equipment in a compact carrying case. A utility belt is an array of Alternate Equipment. Some characters may have a Removable array of devices instead, allowing for far more unusual effects than run-of-the-mill equipment.",
-								"Note that equipment with a cost of 1 equipment point doesn’t really need to be acquired as Alternate Equipment, since there’s no change in cost. Still, heroes often have 1-point items in their utility belts, like flashlights, rebreathers, and so forth.",
-								"By spending Victory points you can temporarily add Alternate Equipment to your utility belt, for those one-time items you may need in a pinch.",
+								"對於{@archetype 懲罪英俠}和間諜特務而言，多功能腰帶（或小包、腰包、背包等）是一種相當常見的裝備：一整套密實放置於工具箱內的實用工具和設備。多功能腰帶是一個囊括了各種替換裝備的陣列。有些角色可能會改為擁有一組應用了{@modifier 可被移除}修飾符的裝置陣列，讓他們得以運用那些更不尋常的道具，而非平凡無奇的裝備。",
+								"注意，那些價值只有1點裝備點的裝備並沒有必要被做為替換裝備來獲得，畢竟它們的花費並不會因此改變。不過，許多英雄仍然會將這些價值1點的物品添加到他們的多功能腰帶之中，比如說手電筒、循環呼吸器等等。",
+								"你可以藉由消耗勝利點，以暫時性的添加替換裝備到你的多功能腰帶中。這很適合那些你正好在緊要關頭中需要用上的一次性物品。",
 								{
 									"type": "entries",
 									"translate_name": "範例多功能腰帶", "name": "Sample Utility Belt",
 									"entries": [
-										"Feel free to modify this example (adding or omitting items) to create your own customized utility belts. The tear gas, as the most expensive effect, has full cost. The other items cost 1 point each for Alternate Equipment, making the total equipment point cost of the utility belt 25 equipment points, or 5 Character points (for 5 ranks of the Equipment advantage).",
+										"你可以自由地放手修改這個範例（增添或刪減項目）以創造屬於你自己的克制化多功能腰帶。在這個範例中，催淚彈做為其最昂貴的效果，有著完整的價值花費。其他各項目則為價值1點的{@b 替換效果}，因此這條多功能腰帶的總裝備點花費為25點裝備點，亦即5點角色點（5級的{@advantage 裝備}特長）。",
 										{
 											"type": "list",
 											"items": [
