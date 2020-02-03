@@ -3224,7 +3224,7 @@
 					"type": "section",
 					"name": "General Equipment",
 					"entries": [
-						"Most items of general equipment provide Features or other comparatively minor effects. Each of the following items is a rank 1 Feature, costing 1 point, unless specified otherwise.",
+						"Most items of general equipment provide {@effect Feature|Features} or other comparatively minor effects. Each of the following items is a rank 1 {@effect Feature}, costing 1 point, unless specified otherwise.",
 						{
 							"type": "entries",
 							"name": "Electronics",
@@ -3233,7 +3233,7 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Camera}: A digital or film camera for taking still images. Most cameras have a capacity of 24 or 36 images and you can use one in conjunction with appropriate Expertise skills, such as photography.",
+										"{@b Camera}: A digital or film camera for taking still images. Most cameras have a capacity of 24 or 36 images and you can use one in conjunction with appropriate {@skill Expertise} skills, such as photography.",
 										"{@b Cell Phone}: A small handheld or headset unit for communication. The battery lasts for approximately 24 hours before it needs to be recharged. For an extra point, a phone can have most of the capabilities of a computer, at least with regard to accessing the Internet and providing data.",
 										"{@b Comm-link}: A tiny button-sized device for radio communication with an effective range of about a mile (longer if patched into the cellular network or a similar network). Many hero (and villain) teams use comm-links.",
 										"{@b Computer}: A computer includes keyboard, mouse, monitor, printer, modem, and other standard peripherals, and may include things like a scanner at the GM’s discretion.",
@@ -3251,9 +3251,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Handcuffs}: Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any medium or small humanoid. Handcuffs can only be placed on a defenseless or unresisting target. Steel cuffs have Toughness 9 and are DC 20 to escape using Sleight of Hand (or Technology to pick the lock).",
+										"{@b Handcuffs}: Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any medium or small humanoid. Handcuffs can only be placed on a {@condition defenseless} or unresisting target. Steel cuffs have Toughness 9 and are DC 20 to escape using {@skill Sleight of Hand} (or {@skill Technology} to pick the lock).",
 										"{@b Lock Release Gun}: This small, pistol-like device automatically disables and opens cheap and average mechanical locks operated by standard keys as a routine check. It does not affect other locks.",
-										"{@b Restraints}: Similar to handcuffs are plastic restraints, used in cases where authorities need to restrain a large number of people and cuffs are impractical. They are generally Toughness 5 or so and DC 20 to escape with Sleight of Hand but cannot be removed except by cutting or breaking them."
+										"{@b Restraints}: Similar to handcuffs are plastic restraints, used in cases where authorities need to restrain a large number of people and cuffs are impractical. They are generally Toughness 5 or so and DC 20 to escape with {@skill Sleight of Hand} but cannot be removed except by cutting or breaking them."
 									]
 								}
 							]
@@ -3310,16 +3310,16 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Tear Gas Pellets}: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 16 points.",
-												"{@b Bolas}: Snare 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized) • 1 point.",
-												"{@b Boomerangs}: Ranged Damage 1, Strength-based • 1 point.",
-												"{@b Explosives}: Ranged Burst Area Damage 5 • 1 point.",
-												"{@b Cutting Torch}: Damage 1 Linked to Weaken Toughness 1. • 1 point.",
-												"{@b Flash-Bangs}: Ranged Burst Area Dazzle 4 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware). • 1 point.",
-												"{@b Pepper Spray}: • 1 point.",
-												"{@b Power Knuckles}: Damage 4, Strength-based • 1 point.",
-												"{@b Sleep Gas Pellets}: Ranged Cloud Area Sleep 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep). • 1 point.",
-												"{@b Smoke Pellets}: Ranged Cloud Area Visual Concealment Attack • 1 point."
+												"{@b Tear Gas Pellets}: {@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Affliction|Affliction 4} (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 16 points.",
+												"{@b Bolas}: {@samplepower Snare|Snare 3} (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized) • 1 point.",
+												"{@b Boomerangs}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 1}, Strength-based • 1 point.",
+												"{@b Explosives}: {@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@effect Damage|Damage 5} • 1 point.",
+												"{@b Cutting Torch}: {@effect Damage|Damage 1} Linked to {@effect Weaken|Weaken Toughness 1}. • 1 point.",
+												"{@b Flash-Bangs}: {@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@samplepower Dazzle|Dazzle 4} (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware). • 1 point.",
+												"{@b Pepper Spray}: {@modifier Reduced Range|Close} {@samplepower Dazzle|Visual Dazzle 4} • 1 point.",
+												"{@b Power Knuckles}: {@effect Damage|Damage 4}, Strength-based • 1 point.",
+												"{@b Sleep Gas Pellets}: {@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@samplepower Sleep|Sleep 4} (Resisted by Fortitude; Fatigued, Exhausted, Asleep). • 1 point.",
+												"{@b Smoke Pellets}: {@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Concealment|Visual Concealment} {@modifier Attack} • 1 point."
 											]
 										}
 									]

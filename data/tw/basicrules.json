@@ -3224,45 +3224,45 @@
 					"type": "section",
 					"translate_name": "通用裝備", "name": "General Equipment",
 					"entries": [
-						"Most items of general equipment provide Features or other comparatively minor effects. Each of the following items is a rank 1 Feature, costing 1 point, unless specified otherwise.",
+						"大部分屬於通用裝備的道具僅會提供{@effect Feature|特色}效果或其他相對次要的效益。下列每項道具除非另有註明，否則皆提供了價值1點的1級{@effect Feature|特色}效果。",
 						{
 							"type": "entries",
 							"translate_name": "電子產品", "name": "Electronics",
 							"entries": [
-								"Computers and electronics are common in the modern world. Gamemasters should note most of these devices are fairly delicate (Toughness 4 or less) and affected by electricity, radiation, and powerful magnetic fields, which can short them out entirely.",
+								"電腦和電子產品在現代社會中相當常見。遊戲主持人要特別注意，大部分這類設備都相當脆弱（堅實屬性僅為4或更低），且會受到電流、輻射、和強力磁場的影響而整個短路毀壞。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Camera}: A digital or film camera for taking still images. Most cameras have a capacity of 24 or 36 images and you can use one in conjunction with appropriate Expertise skills, such as photography.",
-										"{@b Cell Phone}: A small handheld or headset unit for communication. The battery lasts for approximately 24 hours before it needs to be recharged. For an extra point, a phone can have most of the capabilities of a computer, at least with regard to accessing the Internet and providing data.",
-										"{@b 通訊器}: A tiny button-sized device for radio communication with an effective range of about a mile (longer if patched into the cellular network or a similar network). Many hero (and villain) teams use comm-links.",
-										"{@b Computer}: A computer includes keyboard, mouse, monitor, printer, modem, and other standard peripherals, and may include things like a scanner at the GM’s discretion.",
-										"{@b Audio Recorder}: These tiny digital recorders (about the size of a deck of playing cards) can record up to eight hours of audio and can be connected to a computer to download the digital recording.",
-										"{@b Video Camera}: A hand-held camera that records video and audio on tape or digitally, with a capacity of about 6 hours of footage. Video cameras cost 2 points, since they effectively double as audio recorders as well."
+										"{@b 照相機}: 用以拍攝靜態圖像的數位或膠捲相機。大部分的相機都能夠拍攝24或36張相片，且你可以將照相機與其他合適的{@skill 專業}技能一起使用，例如攝影術。",
+										"{@b 手機}: 一種用以溝通的小手持式或耳機型設備。其電池的續航力大約24小時，在這之後將需要再次充電。若額外支付一點，則一副手機能夠擁有電腦大部分的功能，至少在連線上網和查詢資料方面是這樣。",
+										"{@b 通訊器}: 一種鈕扣大小，藉由無線電波進行大約一哩的長程溝通（或若搭載行動網路或類似網路則更長）的微小裝置。許多英雄（或反派）團隊都會使用通訊器來彼此聯絡。",
+										"{@b 電腦}: 一套電腦設備包括了鍵盤、滑鼠、顯示螢幕、印表機、數據機、和其他標準的外部裝置，根據GM的裁斷，還可能會包括掃描機之類的設備。",
+										"{@b 錄音機}: 這些小巧的數位錄音機（大約一套撲克牌的大小）能夠紀錄最多八個小時的音訊檔，並能夠連上電腦以傳輸其數位紀錄。",
+										"{@b 攝影機}: 一種手持式相機，使用錄影帶或數位技術以錄製影音記錄，能夠儲存大約六小時的影片。攝影機的價值為2點，因為它實質上等同於兩倍的錄音機。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Criminal Gear",
+							"translate_name": "犯罪工具", "name": "Criminal Gear",
 							"entries": [
-								"This equipment is most often used by criminals or to catch criminals.",
+								"這類裝備大多被犯罪者使用，或被用來捕捉罪犯。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Handcuffs}: Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any medium or small humanoid. Handcuffs can only be placed on a defenseless or unresisting target. Steel cuffs have Toughness 9 and are DC 20 to escape using Sleight of Hand (or Technology to pick the lock).",
-										"{@b Lock Release Gun}: This small, pistol-like device automatically disables and opens cheap and average mechanical locks operated by standard keys as a routine check. It does not affect other locks.",
-										"{@b Restraints}: Similar to handcuffs are plastic restraints, used in cases where authorities need to restrain a large number of people and cuffs are impractical. They are generally Toughness 5 or so and DC 20 to escape with Sleight of Hand but cannot be removed except by cutting or breaking them."
+										"{@b 手銬}: 手銬是用來將犯人的兩隻肢體──通常為手腕──給鎖住的一種拘束裝置。它們能適用於任何體型中等或小型的人型生物，但只能被用在處於{@condition 無防備}狀態或不抵抗的目標上。鐵製手銬擁有9級的堅實屬性，且使用{@skill 手上把戲}從中逃脫（或使用{@skill 科技}技能開鎖）的DC為20。",
+										"{@b 開鎖槍}: 這種小型，手槍型狀的裝置能夠以例行檢定，自動癱瘓並開啟那些使用標準鑰匙操作的廉價或常見的機械鎖。它並不能被用在其他類型的鎖上。",
+										"{@b 拘束帶}: 這些塑膠拘束帶的功能與手銬類似，用於執法機構需要拘束大量人員，且使用手銬是不切實際的情況。拘束帶通常擁有大約5級的堅實屬性，且使用{@skill 手上把戲}從中逃脫的DC為20。然而它無法藉由砍斷或破壞以外的方式被移除。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Surveillance Gear",
+							"translate_name": "監視工具", "name": "Surveillance Gear",
 							"entries": [
-								"Heroes often use surveillance gear to keep tabs on criminals and their activities.",
+								"英雄們經常使用監測工具以密切關注罪犯及其犯罪行動。",
 								{
 									"type": "list",
 									"items": [
@@ -3277,7 +3277,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Survival Gear",
+							"translate_name": "求生工具", "name": "Survival Gear",
 							"entries": [
 								{
 									"type": "list",
@@ -3304,22 +3304,22 @@
 								"By spending Victory points you can temporarily add Alternate Equipment to your utility belt, for those one-time items you may need in a pinch.",
 								{
 									"type": "entries",
-									"name": "Sample Utility Belt",
+									"translate_name": "範例多功能腰帶", "name": "Sample Utility Belt",
 									"entries": [
 										"Feel free to modify this example (adding or omitting items) to create your own customized utility belts. The tear gas, as the most expensive effect, has full cost. The other items cost 1 point each for Alternate Equipment, making the total equipment point cost of the utility belt 25 equipment points, or 5 Character points (for 5 ranks of the Equipment advantage).",
 										{
 											"type": "list",
 											"items": [
-												"{@b Tear Gas Pellets}: Ranged Cloud Area Affliction 4 (Resisted by Fortitude; Dazed and Vision Impaired, Stunned and Vision Disabled, Incapacitated) • 16 points.",
-												"{@b Bolas}: Snare 3 (Resisted by Dodge; Hindered and Vulnerable, Defenseless and Immobilized) • 1 point.",
-												"{@b 迴力鏢}: Ranged Damage 1, Strength-based • 1 point.",
-												"{@b Explosives}: Ranged Burst Area Damage 5 • 1 point.",
-												"{@b Cutting Torch}: Damage 1 Linked to Weaken Toughness 1. • 1 point.",
-												"{@b 閃光彈}: Ranged Burst Area Dazzle 4 (Resisted by Fortitude; Vision Impaired, Vision Disabled, Vision Unaware). • 1 point.",
-												"{@b Pepper Spray}: • 1 point.",
-												"{@b Power Knuckles}: Damage 4, Strength-based • 1 point.",
-												"{@b 催眠瓦斯彈}: Ranged Cloud Area Sleep 4 (Resisted by Fortitude; Fatigued, Exhausted, Asleep). • 1 point.",
-												"{@b 煙幕彈}: Ranged Cloud Area Visual Concealment Attack • 1 point."
+												"{@b 催淚彈}: {@modifier Increased Range|遠距} {@modifier Area|雲霧範圍} {@effect Affliction|詛咒 4} (以韌性防禦抵抗; 目眩和視覺行動乏能, 暈眩和視覺行動障礙, 失能) • 16 點.",
+												"{@b 縛錘索}: {@samplepower Snare|捕縛 3} (以閃避防禦抵抗; 移動受阻和脆弱, 無防備和無法移動) • 1 點.",
+												"{@b 迴力鏢}: {@modifier Increased Range|遠距} {@effect Damage|傷害 1}, 基於力量 • 1 點.",
+												"{@b 炸藥}: {@modifier Increased Range|遠距} {@modifier Area|爆發範圍} {@effect Damage|傷害 5} • 1 點.",
+												"{@b 火焰切割器}: {@effect Damage|傷害 1} 連結 {@effect Weaken|弱化堅實防禦 1}. • 1 點.",
+												"{@b 閃光彈}: {@modifier Increased Range|遠距} {@modifier Area|爆發範圍} {@samplepower Dazzle|炫目 4} (以韌性防禦抵抗; 視覺行動乏能, 視覺行動障礙, 視覺感官喪失). • 1 點.",
+												"{@b 胡椒噴霧器}: {@modifier Reduced Range|近身} {@samplepower Dazzle|視覺炫目 4} • 1 點.",
+												"{@b 強化手指虎}: {@effect Damage|傷害 4}, 基於力量 • 1 點.",
+												"{@b 催眠瓦斯彈}: {@modifier Increased Range|遠距} {@modifier Area|雲霧範圍} {@samplepower Sleep|催眠 4} (以韌性防禦抵抗; 疲勞, 力竭, 沉睡). • 1 點.",
+												"{@b 煙幕彈}: {@modifier Increased Range|遠距} {@modifier Area|雲霧範圍} {@effect Concealment|視覺隱蔽} {@modifier Attack|攻擊} • 1 點."
 											]
 										}
 									]
@@ -4442,7 +4442,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"機動快艇",
-										"L","6","6","8","7","8"
+										"大型","6","6","8","7","8"
 									]
 								},
 								{
@@ -4450,7 +4450,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"遊艇",
-										"H","10","5","6","9","9"
+										"超大型","10","5","6","9","9"
 									]
 								},
 								{
@@ -4458,7 +4458,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"獨桅縱帆船*",
-										"G","13","5","4","12","27"
+										"巨型","13","5","4","12","27"
 									]
 								},
 								{
@@ -4466,7 +4466,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"驅逐艦*",
-										"C","16","5","2","14","38"
+										"超巨型","16","5","2","14","38"
 									]
 								},
 								{
@@ -4474,7 +4474,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"郵輪",
-										"A","20","5","0","15","10"
+										"極巨型","20","5","0","15","10"
 									]
 								},
 								{
@@ -4482,7 +4482,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"戰艦*",
-										"A","20","5","0","16","46"
+										"極巨型","20","5","0","16","46"
 									]
 								},
 								{
@@ -4490,7 +4490,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"潛水艇*",
-										"C","16","5","2","13","30*"
+										"超巨型","16","5","2","13","30*"
 									]
 								},
 								["{@i 空中載具}","","","","","",""],
@@ -4498,16 +4498,16 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Helicopter",
-										"H","8","7","6","9","16"
+										"直升機",
+										"超大型","8","7","6","9","16"
 									]
 								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Military copter*",
-										"H","8","8","6","11","45"
+										"軍用直升機*",
+										"超大型","8","8","6","11","45"
 									]
 								},
 								{
@@ -4515,7 +4515,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"私人噴射機",
-										"G","12","8","4","11","19"
+										"巨型","12","8","4","11","19"
 									]
 								},
 								{
@@ -4523,7 +4523,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"巨無霸客機",
-										"C","16","7","2","13","18"
+										"超巨型","16","7","2","13","18"
 									]
 								},
 								{
@@ -4531,7 +4531,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"戰鬥機*",
-										"H","10","12","6","10","66"
+										"超大型","10","12","6","10","66"
 									]
 								},
 								{
@@ -4539,7 +4539,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"轟炸機*",
-										"C","13","9","2","13","59"
+										"超巨型","13","9","2","13","59"
 									]
 								},
 								["{@i 太空載具}","","","","","",""],
@@ -4548,7 +4548,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Space Shuttle*",
-										"C","16","12","2","13","28"
+										"超巨型","16","12","2","13","28"
 									]
 								},
 								{
@@ -4556,7 +4556,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Space Fighter*",
-										"H","10","14","6","11","56"
+										"超大型","10","14","6","11","56"
 									]
 								},
 								{
@@ -4564,7 +4564,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Space Cruiser*",
-										"C","18","14","2","15","79"
+										"超巨型","18","14","2","15","79"
 									]
 								},
 								{
@@ -4572,7 +4572,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Space Battleship*",
-										"A","22","16","0","18","93"
+										"極巨型","22","16","0","18","93"
 									]
 								},
 								["{@i 奇特載具}","","","","","",""],
@@ -4580,24 +4580,24 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Dimension Hopper*",
-										"H","8","*","6","9","8"
+										"維度穿梭機*",
+										"超大型","8","*","6","9","8"
 									]
 								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Mole Machine*",
-										"H","11","4","6","12","10"
+										"鑽地機*",
+										"超大型","11","4","6","12","10"
 									]
 								},
 								{
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Time Machine*",
-										"H","8","*","6","9","8"
+										"時光機*",
+										"超大型","8","*","6","9","8"
 									]
 								}
 							],
