@@ -3137,9 +3137,9 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "被限制的裝備", "name": "Restricted Equipment",
+									"translate_name": "限制獲得的裝備", "name": "Restricted Equipment",
 									"entries": [
-										"The Gamemaster may rule some equipment is simply not available or that characters must pay for an additional Feature (or more) in order to have it. This may include certain kinds of weapons, vehicles, and anything else the GM feels should be restricted in the series."
+										"遊戲主持人可能會規定某些裝備不能被獲得，或者角色必須要擁有一個額外的{@effect 特色}（或更多）才能夠擁有它。這類裝備可能包括某些類型的武器、載具、或任何GM認為在劇集中應該被限制的事物。"
 									]
 								},
 								{
@@ -4457,7 +4457,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"獨桅縱帆船*",
+										"巡邏艦*",
 										"巨型","13","5","4","12","27"
 									]
 								},
@@ -4473,7 +4473,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"郵輪",
+										"巡洋艦",
 										"極巨型","20","5","0","15","10"
 									]
 								},
@@ -4547,7 +4547,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Space Shuttle*",
+										"太空梭*",
 										"超巨型","16","12","2","13","28"
 									]
 								},
@@ -4555,7 +4555,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Space Fighter*",
+										"太空戰鬥機*",
 										"超大型","10","14","6","11","56"
 									]
 								},
@@ -4563,7 +4563,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Space Cruiser*",
+										"太空巡航艦*",
 										"超巨型","18","14","2","15","79"
 									]
 								},
@@ -4571,7 +4571,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Space Battleship*",
+										"太空戰艦*",
 										"極巨型","22","16","0","18","93"
 									]
 								},
@@ -5326,14 +5326,14 @@
 								"Not all of the hazards heroes face come from supervillains. Sometimes the environment itself can be a danger, particularly when villains try to use it to their advantage. Heroes end up in a lot of dangerous places and deal with less than ideal conditions. This section details some of the hazards heroes may face.",
 								{
 									"type": "entries",
-									"name": "Light and Darkness",
+									"translate_name": "光照與黑暗", "name": "Light and Darkness",
 									"entries": [
-										"Criminals often lurk in the darkness, and many crimes take place at night. Most cities are lit well enough, but sometimes heroes run into areas where it’s difficult to see. Poorly lit areas provide concealment. Characters with Counters Concealment (Darkness) Senses or other appropriate Senses effects can ignore concealment penalties for poor lighting."
+										"罪犯經常潛伏在黑暗中，許多犯罪也經常發生在漆黑的夜晚。儘管大部分城市都有著充足的照明，但有時候英雄們仍會闖入那些難以視物的黑暗地帶。光線昏暗的區域會帶來遮蔽的效用。而擁有反制遮蔽（黑暗）或其他合適{@effect 感官}效果的角色可以忽略光線昏暗所帶來的遮蔽罰值。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Heat and Cold",
+									"translate_name": "炎熱與寒冷", "name": "Heat and Cold",
 									"entries": [
 										"Intense heat and cold wear down characters, while prolonged exposure to the elements can be extremely dangerous.",
 										"Characters in hot or cold conditions must make Fortitude checks (DC 10, +1 per previous check) to avoid becoming fatigued. Fatigued characters who fail a check become exhausted, then incapacitated, at which point the character’s condition becomes dying after another failed Fortitude check.",
@@ -5343,7 +5343,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Starvation and Thirst",
+									"translate_name": "飢餓與口渴", "name": "Starvation and Thirst",
 									"entries": [
 										"Heroes can go without water for a day. After this, they need to make a Fortitude check (DC 10, +1 per previous check) each hour to avoid a level of fatigue. Heroes can go without food for three days. After this, they must make a Fortitude check (DC 10, +1 per previous check) each day to avoid fatigue. The character cannot recover until he gets water or food. Heroes with Immunity to Starvation can go an unlimited time without food or water."
 									]
@@ -5365,14 +5365,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Fire",
+									"translate_name": "火焰", "name": "Fire",
 									"entries": [
 										{
 											"type": "table",
-											"caption": "Sample Fire Rank",
+											"caption": "範例火焰等級",
 											"colLabels": [
-												"Rank",
-												"Fire Example"
+												"等級",
+												"範例火勢"
 											],
 											"colStyles": [
 												"col-3 text-align-center",
@@ -5381,27 +5381,27 @@
 											"rows": [
 												[
 													"1",
-													"Torch"
+													"火炬"
 												],
 												[
 													"2",
-													"Campfire"
+													"營火"
 												],
 												[
 													"4",
-													"Blowtorch"
+													"噴燈"
 												],
 												[
 													"6",
-													"Flame thrower"
+													"火焰噴射器"
 												],
 												[
 													"8",
-													"Burning jet fuel, napalm"
+													"熊熊燃燒的航空燃油、燒夷彈"
 												],
 												[
 													"10+",
-													"Chemical accelerants and fire powers"
+													"化學催化劑 和 火焰超能力"
 												]
 											]
 										}
@@ -5409,16 +5409,16 @@
 								},
 								{
 									"type": "entries",
-									"name": "Poison",
+									"translate_name": "毒素", "name": "Poison",
 									"entries": [
 										"A deadly toxin introduced through a scratch, or even in the air, may be able to fell the strongest hero. Poisons generally have one of several effects particularly Affliction, Damage, or Weaken. Some poisons may even have multiple Linked effects. Heroes generally resist poisons with Fortitude.",
 										"Heroes with Immunity to Poison are completely unaffected by poisons. A Treatment skill check can provide a bonus on resistance checks against poison.",
 										{
 											"type": "table",
-											"caption": "Sample Poison Rank",
+											"caption": "範例毒素等級",
 											"colLabels": [
-												"Rank",
-												"Sample Poison"
+												"等級",
+												"範例毒素"
 											],
 											"colStyles": [
 												"col-3 text-align-center",
@@ -5479,7 +5479,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Disease",
+									"translate_name": "疾病", "name": "Disease",
 									"entries": [
 										"When heroes come into contact with a disease they must make a Fortitude check (DC 10 + the disease’s rank) to avoid becoming infected. The method of infection depends on the disease: some are airborne while others require physical contact. Diseases are generally Affliction or Weaken effects. Some diseases may have multiple linked effects. Potentially fatal diseases usually Weaken Stamina, in addition to their other effects. If the disease goes untreated for long enough, the subject’s Stamina may drop below –5, in which case death occurs.",
 										"Heroes with Immunity to Disease are completely unaffected by disease. A Treatment skill check can provide a bonus on resistance checks against disease.",
@@ -5487,8 +5487,8 @@
 											"type": "table",
 											"caption": "Sample Disease Rank",
 											"colLabels": [
-												"Rank",
-												"Sample Disease"
+												"等級",
+												"範例疾病"
 											],
 											"colStyles": [
 												"col-3 text-align-center",
@@ -5545,7 +5545,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Radiation",
+									"translate_name": "輻射", "name": "Radiation",
 									"entries": [
 										"Radiation in the comic books often causes mutations or triggers latent powers in those exposed to it rather than simply causing radiation sickness. Exposure to radiation (especially exotic or alien radiation) may be an excellent opportunity for a complication.",
 										"Otherwise the Gamemaster can treat radiation exposure like a disease: The victim makes an initial Fortitude check against (DC 10 + radiation’s rank) and an additional check each day. Radiation sickness is typically a Weaken Stamina effect, but may include other effects, including Damage resisted by Fortitude. At the GM’s discretion, radiation exposure can lead to other effects, such as damage to a hero’s power ranks (causing a temporary decrease in powers).",
@@ -5573,7 +5573,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Vacuum",
+									"translate_name": "真空環境", "name": "Vacuum",
 									"entries": [
 										"The primary hazards of the vacuum of space are lack of air and exposure to unfiltered ionizing radiation.",
 										"On the third round of exposure to vacuum, a character must succeed on a Fortitude check (DC 20) each round or suffer from aeroembolism (“the bends”). A failed check means excruciating pain as small air bubbles form in the creature’s bloodstream; the creature is stunned and remains so until returned to normal atmospheric pressure. Two or more degrees of failure impose the incapacitated condition.",

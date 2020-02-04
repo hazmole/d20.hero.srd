@@ -3139,7 +3139,7 @@
 									"type": "entries",
 									"name": "Restricted Equipment",
 									"entries": [
-										"The Gamemaster may rule some equipment is simply not available or that characters must pay for an additional Feature (or more) in order to have it. This may include certain kinds of weapons, vehicles, and anything else the GM feels should be restricted in the series."
+										"The Gamemaster may rule some equipment is simply not available or that characters must pay for an additional {@effect Feature} (or more) in order to have it. This may include certain kinds of weapons, vehicles, and anything else the GM feels should be restricted in the series."
 									]
 								},
 								{
@@ -5328,7 +5328,7 @@
 									"type": "entries",
 									"name": "Light and Darkness",
 									"entries": [
-										"Criminals often lurk in the darkness, and many crimes take place at night. Most cities are lit well enough, but sometimes heroes run into areas where it’s difficult to see. Poorly lit areas provide concealment. Characters with Counters Concealment (Darkness) Senses or other appropriate Senses effects can ignore concealment penalties for poor lighting."
+										"Criminals often lurk in the darkness, and many crimes take place at night. Most cities are lit well enough, but sometimes heroes run into areas where it’s difficult to see. Poorly lit areas provide concealment. Characters with Counters Concealment (Darkness) Senses or other appropriate {@effect Sense|Senses} effects can ignore concealment penalties for poor lighting."
 									]
 								},
 								{
