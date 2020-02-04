@@ -3282,15 +3282,15 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b 迷彩服}: Clothing in the right camouflage pattern for the environment grants a +5 equipment bonus on Stealth checks in that environment. Patterns include foliage, desert, urban, and arctic.",
-										"{@b 閃光防護目鏡}: These tinted eye-coverings provide protection against blinding light, granting a +5 equipment bonus to resistance checks against visual Dazzle attacks involving bright light.",
-										"{@b 手電筒}: Flashlights negate penalties for darkness within their illuminated areas. The standard flashlight projects a beam 30 feet long and 15 feet across at its end.",
-										"{@b 滅火器}: This portable apparatus uses a chemical spray to extinguish small fires. The typical fire extinguisher ejects enough extinguishing chemicals to put out a fire in a 10-by-10-foot area as a move action. It contains enough material for two such uses.",
-										"{@b 防毒面具}: This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides immunity to eye and lung irritants. The filter canister lasts for 12 hours of use.",
-										"{@b 全球定位系統(GPS)}: Global positioning system receivers use signals from GPS satellites to determine the receiver’s location to within a few dozen feet. A GPS receiver grants its user a +5 equipment bonus on checks to navigate, but it generally only works outdoors.",
-										"{@b 多功能工具組}: This device contains several different screw-drivers, a knife blade or two, can opener, bottle opener, file, short ruler, scissors, tweezers, and wire cutters. The whole thing unfolds into a handy pair of pliers. A multi-tool can lessen the penalty for making skill checks without appropriate tools to –2 instead of the normal –5. The tool is useful for certain tasks, as determined by the GM, but may not be useful in all situations.",
-										"{@b 循環呼吸器}: A small cylinder that fits over the mouth and provides two minutes (20 rounds) of oxygen, during which the character does not need to make suffocation checks.",
-										"{@b 水肺潛水裝備}: A back-mounted oxygen cylinder and face-mask, used for diving. SCUBA (Self-Contained Underwater Breathing Apparatus) gear provides two hours of oxygen, and characters using it do not need to make checks for suffocation unless the gear is damaged or disabled."
+										"{@b 迷彩服}: 帶有合適環境偽裝紋路的服裝能夠為在該環境下進行的{@skill 潛行}檢定提供+5的裝備加值。這些紋路包括葉叢、沙漠、城市、和極地。",
+										"{@b 閃光防護目鏡}: 這對有色護目鏡能夠提供對致盲強光的保護，使克服涉及強光的{@samplepower Dazzle|視覺炫目}攻擊的抵抗檢定獲得+5的裝備加值。",
+										"{@b 手電筒}: 手電筒能夠在其照明範圍內抵銷黑暗環境所帶來的罰值。標準規格的手電筒能夠投射出30呎長，15呎寬的光照。",
+										"{@b 滅火器}: 這個攜帶式設備使用化學噴發物以熄滅小型火焰。典型的滅火器能夠以一個移動動作，噴出足夠的化學物質以熄滅10呎x10呎範圍內的火焰。其內部裝載的化學物質量足以使用二次。",
+										"{@b 防毒面具}: 這個設備能夠蓋住整張臉，並連接著一個化學空氣過濾罐以保護穿戴者的肺部和雙眼不受有毒氣體的侵害。它能夠使眼部和肺部免疫於刺激物。這個過濾罐的使用可以持續12個小時。",
+										"{@b 全球定位系統(GPS)}: 全球定位系統的接收器使用來自GPS衛星的信號以判斷接收器所在的位置，其誤差在數十呎內。GPS接收器能夠讓使用者在導航時所作的檢定獲得+5的裝備加值。然而，它通常只能在戶外才能發揮作用。",
+										"{@b 多功能工具組}: 這個裝置包和了各種不同的螺絲起子、一或二把小刀、開罐器、開瓶器、銼刀、短尺、剪刀、鑷子、和剪線鉗。這整組工具可以被摺疊成一把方便攜帶的鉗子。這個多功能工具組可以減輕某些技能檢定因為沒有合適工具所導致的罰值，從原本的-5改成-2。這組工具能適用於特定事項（由GM裁斷），但並不能用於所有情況。",
+										"{@b 循環呼吸器}: 一種能夠裝在嘴上的小型圓柱體，可以提供二分鐘（20輪）的氧氣。穿戴循環呼吸器的角色在這段期間將不需要進行窒息檢定。",
+										"{@b 水肺潛水裝備}: 一個後背式的氧氣桶加上一個面罩，用於潛水。自攜式水中呼吸器（SCUBA）裝備能夠提供二個小時的氧氣，且除非該裝備損壞或失效，否則使用它的角色在這段期間將無須進行窒息檢定。"
 									]
 								}
 							]

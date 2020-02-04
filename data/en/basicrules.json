@@ -3282,8 +3282,8 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Camo Clothing}: Clothing in the right camouflage pattern for the environment grants a +5 equipment bonus on Stealth checks in that environment. Patterns include foliage, desert, urban, and arctic.",
-										"{@b Flash Goggles}: These tinted eye-coverings provide protection against blinding light, granting a +5 equipment bonus to resistance checks against visual Dazzle attacks involving bright light.",
+										"{@b Camo Clothing}: Clothing in the right camouflage pattern for the environment grants a +5 equipment bonus on {@skill Stealth} checks in that environment. Patterns include foliage, desert, urban, and arctic.",
+										"{@b Flash Goggles}: These tinted eye-coverings provide protection against blinding light, granting a +5 equipment bonus to resistance checks against {@samplepower Dazzle|visual Dazzle} attacks involving bright light.",
 										"{@b Flashlight}: Flashlights negate penalties for darkness within their illuminated areas. The standard flashlight projects a beam 30 feet long and 15 feet across at its end.",
 										"{@b Fire Extinguisher}: This portable apparatus uses a chemical spray to extinguish small fires. The typical fire extinguisher ejects enough extinguishing chemicals to put out a fire in a 10-by-10-foot area as a move action. It contains enough material for two such uses.",
 										"{@b Gas Mask}: This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides immunity to eye and lung irritants. The filter canister lasts for 12 hours of use.",
