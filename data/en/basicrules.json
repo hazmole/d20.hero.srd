@@ -3112,7 +3112,7 @@
 							"type": "entries",
 							"name": "Equipment Cost",
 							"entries": [
-								"Equipment is acquired with points from the Equipment advantage. Each piece of equipment has a cost in points, just like other traits. The character pays the item’s cost out of the points from the Equipment advantage and can thereafter have and use that item.",
+								"Equipment is acquired with points from the {@advantage Equipment} advantage. Each piece of equipment has a cost in points, just like other traits. The character pays the item’s cost out of the points from the {@advantage Equipment} advantage and can thereafter have and use that item.",
 								{
 									"type": "entries",
 									"name": "Equipment Effects and Features",
@@ -3124,7 +3124,7 @@
 									"type": "entries",
 									"name": "Alternate Equipment",
 									"entries": [
-										"Just as with power effects, there is a diminishing value in having multiple items with a similar function, or a single piece of equipment with multiple functions, usable only one at a time. Equipment can have the Alternate Effect modifier (see Extras section of Powers), such as a weapon capable of different modes of operation, or a reconfigurable tool.",
+										"Just as with power effects, there is a diminishing value in having multiple items with a similar function, or a single piece of equipment with multiple functions, usable only one at a time. Equipment can have the {@modifier Alternate Effect} modifier, such as a weapon capable of different modes of operation, or a reconfigurable tool.",
 										"Characters can also have Alternate Equipment, an array of items usable only one at a time. This is typically a multi-function item, or a kit or collection of various smaller items. The classic example is the utility belt (see its description later in this section). Alternate Equipment can also include things like an arsenal of weapons the character can swap out, providing different sets of weapons, with only a limited number usable at once."
 									]
 								},
