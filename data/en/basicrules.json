@@ -3157,14 +3157,14 @@
 							"type": "entries",
 							"name": "Damaging Equipment",
 							"entries": [
-								"Most equipment can be damaged like other objects (see {@b Damaging Objects}), based on its Toughness. Equipment suffering damage loses some effectiveness. The item loses 1 Feature or suffers a –1 circumstance penalty on checks involving it each time it is damaged. These penalties are eliminated once the item is repaired."
+								"Most equipment can be damaged like other objects (see {@effect Damage|Damaging Objects}), based on its Toughness. Equipment suffering damage loses some effectiveness. The item loses 1 {@effect Feature} or suffers a –1 circumstance penalty on checks involving it each time it is damaged. These penalties are eliminated once the item is repaired."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Repairing and Replacing",
 							"entries": [
-								"Repairing an item requires a Technology check. You can also affect jury-rigged repairs to temporarily restore the item to normal (see {@b Technology} in Skills )",
+								"Repairing an item requires a {@skill Technology} check. You can also affect jury-rigged repairs to temporarily restore the item to normal (see {@skill Technology} in Skills )",
 								"Replacing damaged or destroyed equipment requires only time and resources, although the GM has the final say as to how much time. It’s easy to replace a lost item when the store is right around the corner, harder when it’s the middle of the night or you’re out in the middle of nowhere, or the item is restricted in some fashion. Gamemasters can allow players to spend a Victory point to have a replacement for a piece of equipment as an on-hand item (see {@b On-Hand Equipment}, previously)."
 							]
 						},
@@ -3177,7 +3177,7 @@
 									"type": "entries",
 									"name": "Technological Limits",
 									"entries": [
-										"Equipment includes only items and technology commonly available in the setting. The GM decides what is “commonly available,” but as a rule of thumb assume equipment only includes things from the real world, not battlesuits, anti-gravity devices, shrink rays, and so forth. Those are all devices (see {@b Devices})."
+										"Equipment includes only items and technology commonly available in the setting. The GM decides what is “commonly available,” but as a rule of thumb assume equipment only includes things from the real world, not battlesuits, anti-gravity devices, shrink rays, and so forth. Those are all devices (see {@rule Devices|basic|7|devices})."
 									]
 								},
 								{
@@ -3191,7 +3191,7 @@
 									"type": "entries",
 									"name": "Bonus Stacking",
 									"entries": [
-										"Equipment bonuses are limited compared to the bonuses granted by other effects. Generally, they do not stack with each other or other types of bonuses, only the highest bonus applies. Thus a hero with a high Protection bonus doesn’t get much, if any, advantage from wearing a bulletproof vest. The only exception to this is Strength-based weapons, and there are limits on them as well (see {@b Melee Weapons})."
+										"Equipment bonuses are limited compared to the bonuses granted by other effects. Generally, they do not stack with each other or other types of bonuses, only the highest bonus applies. Thus a hero with a high {@effect Protection} bonus doesn’t get much, if any, advantage from wearing a bulletproof vest. The only exception to this is Strength-based weapons, and there are limits on them as well (see {@rule Melee Weapons|basic|7|melee weapons})."
 									]
 								},
 								{
@@ -3205,7 +3205,7 @@
 									"type": "entries",
 									"name": "Damage and Loss",
 									"entries": [
-										"Equipment is subject to damage, malfunctions, and loss, even more so than devices with the Removable flaw (see the flaw description in {@b Powers}). Equipment may be lost or taken away from the character with impunity, and the GM may have equipment fail, run out of ammo or fuel, or otherwise malfunction as a complication."
+										"Equipment is subject to damage, malfunctions, and loss, even more so than devices with the {@modifier Removable} flaw. Equipment may be lost or taken away from the character with impunity, and the GM may have equipment fail, run out of ammo or fuel, or otherwise malfunction as a complication."
 									]
 								}
 							]

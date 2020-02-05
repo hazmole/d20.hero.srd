@@ -76,7 +76,7 @@
 				"translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 				"headers": [
 					{ "translate_name": "超級裝置", "name": "Devices" },
-					{ "_translate_name": "裝備", "name": "Equipment" },
+					{ "translate_name": "裝備", "name": "Equipment" },
 					{ "translate_name": "通用裝備", "name": "General Equipment" },
 					{ "translate_name": "武器", "name": "Weapons" },
 					{ "translate_name": "護甲", "name": "Armor" },
@@ -3122,7 +3122,7 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "裝備的替換效果", "name": "Alternate Equipment",
+									"translate_name": "裝備的替換效果(替換裝備)", "name": "Alternate Equipment",
 									"entries": [
 										"就如同超能力效果，無論是擁有一件具有多種功能的裝備，或是一組功能相似的裝備組，只要角色一次只能使用其中一種功能，其花費就可以透過將{@modifier 替換效果}修飾符應用於裝備上而被降低。比如說具備不同使用模式的武器、或具備可重構性的工具都屬於此類。",
 										"角色也可以擁有一系列的替換裝備，亦即一組同時只能使用其中一件裝備的物品陣列。這通常代表著一件擁有多種功能的物品，或是一套或一組包括了各種小道具的工具組。其中一個經典的範例就是多功能腰帶（參見本章節後述的說明）。替換裝備也可以包括像是武器庫之類的事物，提供各種不同的武器供角色切換，但一次只能使用有限的數量。"
@@ -3157,65 +3157,65 @@
 							"type": "entries",
 							"translate_name": "毀損裝備", "name": "Damaging Equipment",
 							"entries": [
-								"Most equipment can be damaged like other objects (see {@b Damaging Objects}), based on its Toughness. Equipment suffering damage loses some effectiveness. The item loses 1 Feature or suffers a –1 circumstance penalty on checks involving it each time it is damaged. These penalties are eliminated once the item is repaired."
+								"大部分的裝備都會和其他物體一樣被傷害毀損（參見{@effect Damage|傷害物體}），取決於其堅實等級。受到傷害的裝備將會失去部分的功能性：每當裝備承受傷害，它將會失去1級的{@effect 特色}效果，或在涉及該物品的檢定中承受-1的情境罰值。這些懲罰將會在該裝備被修復後消除。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "維修和替代", "name": "Repairing and Replacing",
 							"entries": [
-								"Repairing an item requires a Technology check. You can also affect jury-rigged repairs to temporarily restore the item to normal (see {@b Technology} in Skills )",
-								"Replacing damaged or destroyed equipment requires only time and resources, although the GM has the final say as to how much time. It’s easy to replace a lost item when the store is right around the corner, harder when it’s the middle of the night or you’re out in the middle of nowhere, or the item is restricted in some fashion. Gamemasters can allow players to spend a Victory point to have a replacement for a piece of equipment as an on-hand item (see {@b On-Hand Equipment}, previously)."
+								"修復一個物品會需要角色進行一次{@skill 科技}技能檢定。你也可以嘗試進行應急維修以暫時性修復該物品（參見{@skill 科技}技能的說明）。",
+								"替換掉被毀損或破壞的裝備則只需要充足的時間和資源，儘管GM有權決定這個過程所需要的時間。若是你的轉角處剛好有一家商店，那麼要買到一件遺失裝備的替代品就相當容易，但如果時值三更半夜、或你處於一片荒蕪的環境中、又或者該物品遭到某種管制等等，那麼事情就沒那麼簡單了。然而，遊戲主持人仍可以允許玩家花費一點勝利點，宣告角色手頭上剛好有該裝備的替代品（參見前述的{@b 手頭上的裝備}段落）。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "裝備的限制", "name": "The Limits of Equipment",
 							"entries": [
-								"While equipment is useful it does have its limits, particularly when compared to powers or devices. Equipment is less expensive—it’s cheaper to have a handgun than a Damage power or even a super-science blaster weapon—but equipment is also more limited. Keep the following limitations of equipment in mind.",
+								"儘管裝備相當好用，但它們仍有諸多限制，特別相比於超能力或超級裝置更是如此。裝備的花費沒有那麼昂貴──擁有一把手槍，比起擁有一個{@effect 傷害}超能力或超科技爆能武器的花費要低廉許多──但裝備的使用也更加受限。請將下列關於裝備的使用限制謹記在心。",
 								{
 									"type": "entries",
-									"name": "Technological Limits",
+									"translate_name": "科技限制", "name": "Technological Limits",
 									"entries": [
-										"Equipment includes only items and technology commonly available in the setting. The GM decides what is “commonly available,” but as a rule of thumb assume equipment only includes things from the real world, not battlesuits, anti-gravity devices, shrink rays, and so forth. Those are all devices (see {@b Devices})."
+										"裝備只包含了該劇集設定中常見的物品或科技品。儘管什麼才是「常見」的標準是由GM決定，但通常來說，裝備僅僅包括了那些現實世界存在的事物：沒有戰鬥裝甲服、沒有反重力裝置、縮小槍等等，這些東西都屬於超級裝置，而非裝備（參見{@rule 超級裝置|basic|7|devices}規則）。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Availability",
+									"translate_name": "可獲得性", "name": "Availability",
 									"entries": [
-										"Ownership of some equipment is restricted and the GM decides what is available in the setting. For example, guns may require permits, licenses, waiting periods, and so forth. Also, equipment can be bulky and difficult to carry around. Gamemasters are encouraged to enforce the limitations of carrying a lot of equipment at once. Players who want to have an unusual item of equipment on-hand must either remember to bring it along or use the guidelines for on-hand equipment. Devices are not so limited and characters are assumed to have an easy means of carrying and transporting them."
+										"某些裝備的擁有權會受到限制，且GM將決定哪些事物在該劇集設定中是可被獲得的。舉例來說，要擁有槍械的話，可能會需要許可證、授權、等待期等等。同樣的，某些裝備可能會因為體積龐大笨重而難以攜帶。我們鼓勵遊戲主持人加入同時攜帶大量裝備道具的限制。希望擁有罕見裝備在手的玩家將必須記得攜帶該物品，或使用前述「手頭上的裝備」段落的準則。相反的，超級裝置就沒有那麼受限，且角色們被假設擁有能輕易攜帶並運輸它們的手段。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Bonus Stacking",
+									"translate_name": "加值的疊加限制", "name": "Bonus Stacking",
 									"entries": [
-										"Equipment bonuses are limited compared to the bonuses granted by other effects. Generally, they do not stack with each other or other types of bonuses, only the highest bonus applies. Thus a hero with a high Protection bonus doesn’t get much, if any, advantage from wearing a bulletproof vest. The only exception to this is Strength-based weapons, and there are limits on them as well (see {@b Melee Weapons})."
+										"與相比其他效果所帶來加值相比，裝備加值受到了不小的限制。通常來說，裝備加值並不會跟其他或其他類型的加值疊加，且只有數值最高的加值會被應用。因此，一名擁有高等級{@effect 保護}效果加值的英雄並不會因為穿戴防彈背心而獲得多少優勢。唯一的例外是基於力量的武器，但它們仍受到其他限制的影響（參見{@rule 近戰武器|basic|7|melee weapons}）。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "No Extra Effort",
+									"translate_name": "奮力一搏的限制", "name": "No Extra Effort",
 									"entries": [
-										"Unlike devices, you do not have the choice of suffering the strain of extra effort when improving equipment, the equipment always takes the strain. You can push your equipment to the limit (eventually causing it to fail) but trying real hard on your part isn’t going to make your car go faster or your gun more effective. You also can’t use extra effort to perform power stunts with equipment. instead, you must spend a Victory point to do so. The GM can always disallow extra effort with equipment if the item is one that is not capable of exceeding its normal operating limits."
+										"不像超級裝置，你在使用奮力一搏來強化你的裝備時，你不能承受該奮力一搏所帶來的疲頓，相對的，該負擔鄉永遠由裝備來承受。你確實可以將你的裝備操到極限（並最終使之故障），但你單方面的努力並不會讓你的車輛變的更快、或讓你的槍械更有效力。你也不能直接使用裝備的奮力一搏來施展超能力絕技，若要這麼做，你必須要花費一點勝利點。若物品的使用無法超出其正常使用的極限，則GM永遠有權力否決該裝備的奮力一搏。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Damage and Loss",
+									"translate_name": "損傷與遺失", "name": "Damage and Loss",
 									"entries": [
-										"Equipment is subject to damage, malfunctions, and loss, even more so than devices with the Removable flaw (see the flaw description in {@b Powers}). Equipment may be lost or taken away from the character with impunity, and the GM may have equipment fail, run out of ammo or fuel, or otherwise malfunction as a complication."
+										"裝備會受到傷害、故障、或遺失的影響，甚至比應用了{@modifier Removable}缺陷的超級裝置還要更嚴重。裝備可能會遺失或被其他角色不受懲罰地奪走，且GM也可以把裝備失靈、耗近彈藥或燃料、或其他故障方式當作一種糾葛難題。"
 									]
 								}
 							]
 						},
 						{
 							"type": "inset",
-							"name": "Under the Hood: Ammo, Batteries, And Charges",
+							"translate_name": "幕後花絮：彈藥、電池、和充能", "name": "Under the Hood: Ammo, Batteries, And Charges",
 							"entries": [
-								"Lots of equipment has a limited lifespan: guns run out of ammo, cars run out of gas, SCUBA tanks run out of oxygen, and batteries run out of juice. However, it can be a hassle to keep track of the lifespan of every piece of equipment the heroes may have (to say nothing of all the villains and supporting characters). So these rules pay fairly little attention to equipment running out or breaking down except when the Gamemaster wants to make things interesting for the heroes with a complication or two. Thus equipment failure—either due to running out of fuel or simple malfunction—is a dramatic issue rather than a matter of cost-accounting and keeping track of things like ammo and how much gas is in the tank of the hero’s super-car.",
-								"The material in this book assumes equipment and devices have effectively unlimited use, except when the GM declares a complication, and that heroes properly maintain, charge, reload, and refuel their gear “off-panel” in between the scenes of an adventure, unless the Gamemaster dictates otherwise."
+								"許多裝備都有著其壽命限制：槍械會打空彈藥、車輛會耗盡汽油、潛水水肺的氧氣筒會消耗殆盡、電池最終也會用盡電量。然而，追蹤記錄每一件英雄可能擁有的裝備將會是相當麻煩而惱人（更不用說反派和配角的裝備），因此這些裝備規則不怎麼注重裝備用盡資源或故障的情況，除非遊戲主持人想要藉由這些情境使英雄們陷入一兩個困境，讓事情因此變的有趣起來。也因此，裝備的失效──無論是因為耗盡燃料或單純的故障──僅僅是作為劇情性的問題，而非成本計算的考量，你不需要再持續記錄彈藥數量或英雄超級跑車的油箱中還剩下多少油量之類的麻煩事。",
+								"這個規則的內容假定了裝備和超級裝置實際上能夠被無限次的使用，除非GM宣告了一個相關的糾葛難題。且當遭遇到這類情況，英雄們也可以在冒險場景之間藉由適當地維護、充電、填彈、或為這些「熄火」的裝備加油來使它們得以重新上陣，除非遊戲主持人另有指示。"
 							]
 						}
 					]
