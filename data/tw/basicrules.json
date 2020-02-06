@@ -4694,10 +4694,10 @@
 							"type": "entries",
 							"translate_name": "據點總部的數據", "name": "Headquarters Traits",
 							"entries": [
-								"Headquarters  have  two  main  traits—Size  and  Toughness—and a number of possible Features. Each of these costs equipment points.",
+								"Headquarters have two main traits—Size and Toughness—and a number of possible Features. Each of these costs equipment points.",
 								{
 									"type": "entries",
-									"name": "Size",
+									"translate_name": "尺寸", "name": "Size",
 									"entries": [
 										"A structure’s size is measured similarly to that of a vehicle, and gives a general idea of the overall space it occupies and how much space is available inside it. See the {@b Structure Size Categories} table for guidelines. A headquarters starts out at Small size for 0 points. Each increase in size category  costs  1  point,  each  decrease  in  size  category gives you an additional point to spend elsewhere on your headquarters, although you’re not going to have a lot of room for extras!"
 									]
@@ -4706,9 +4706,9 @@
 									"type": "table",
 									"caption": "Headquarters Trait Cost",
 									"colLabels": [
-										"Trait",
-										"Starting Value",
-										"Equipment Cost"
+										"數據",
+										"起始數值",
+										"裝備點花費"
 									],
 									"colStyles": [
 										"col-4 text-align-center",
@@ -4716,9 +4716,9 @@
 										"col-4 text-align-center"
 									],
 									"rows": [
-										["Size", "Small", "1 point per size category"],
-										["Toughness ", "6", "1 point per +2 Toughness"],
-										["Features", "—", "1 point per feature"]
+										["尺寸", "小型", "1點／每尺寸類別"],
+										["Toughness ", "6", "1點／每+2堅實屬性"],
+										["Features", "—", "1點／每個特色"]
 									]
 								},
 								{
@@ -5003,74 +5003,83 @@
 								"Gamemasters can use the following sample headquarters as ready-made lairs for supervillains while players can use them as bases for their heroes.",
 								{
 									"type": "actionBlock",
-									"name": "Abandoned Warehouse",
+									"translate_name": "廢棄倉庫", "name": "Abandoned Warehouse",
 									"entries": [
-										"{@b Size}: Medium {@b Toughness}: 8",
-										"{@b Features}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System • 10 points."
+										"{@b 尺寸}: 中型",
+										"{@b 堅實屬性}: 8",
+										"{@b 特色}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System • 10 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Moon-base",
+									"translate_name": "月球基地", "name": "Moon-base",
 									"entries": [
-										"{@b Size}: Awesome {@b Toughness}: 20",
-										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
+										"{@b 尺寸}: 極巨型",
+										"{@b 堅實屬性}: 20",
+										"{@b 特色}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Orbiting satellite",
+									"translate_name": "軌道衛星", "name": "Orbiting satellite",
 									"entries": [
-										"{@b Size}: Colossal {@b Toughness}: 20",
-										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
+										"{@b 尺寸}: 超巨型",
+										"{@b 堅實屬性}: 20",
+										"{@b 特色}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Sanctum Sanctorum",
+									"translate_name": "至聖所", "name": "Sanctum Sanctorum",
 									"entries": [
-										"{@b Size}: Medium {@b Toughness}: 10",
-										"{@b Features}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
+										"{@b 尺寸}: 中型",
+										"{@b 堅實屬性}: 10",
+										"{@b 特色}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Sea-base",
+									"translate_name": "海上基地", "name": "Sea-base",
 									"entries": [
-										"{@b Size}: Gargantuan {@b Toughness}: 14",
-										"{@b Features}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
+										"{@b 尺寸}: 巨型",
+										"{@b 堅實屬性}: 14",
+										"{@b 特色}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Skyscraper (5 floors)",
+									"translate_name": "摩天大樓（5層樓）", "name": "Skyscraper (5 floors)",
 									"entries": [
-										"{@b Size}: Large {@b Toughness}: 10",
-										"{@b Features}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
+										"{@b 尺寸}: 大型",
+										"{@b 堅實屬性}: 10",
+										"{@b 特色}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Stately Manor",
+									"translate_name": "宏偉莊園", "name": "Stately Manor",
 									"entries": [
-										"{@b Size}: Huge {@b Toughness}: 10",
-										"{@b Features}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
+										"{@b 尺寸}: 超大型",
+										"{@b 堅實屬性}: 10",
+										"{@b 特色}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Underground Lair",
+									"translate_name": "地下巢穴", "name": "Underground Lair",
 									"entries": [
-										"{@b Size}: Huge {@b Toughness}: 14",
-										"{@b Features}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
+										"{@b 尺寸}: 超大型",
+										"{@b 堅實屬性}: 14",
+										"{@b 特色}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Urban Fortress",
+									"translate_name": "都會要塞", "name": "Urban Fortress",
 									"entries": [
-										"{@b Size}: Large {@b Toughness}: 12",
-										"{@b Features}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
+										"{@b 尺寸}: 大型",
+										"{@b 堅實屬性}: 12",
+										"{@b 特色}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
 									]
 								}
 							]

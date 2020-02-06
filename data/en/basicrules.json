@@ -4694,7 +4694,7 @@
 							"type": "entries",
 							"name": "Headquarters Traits",
 							"entries": [
-								"Headquarters  have  two  main  traits—Size  and  Toughness—and a number of possible Features. Each of these costs equipment points.",
+								"Headquarters have two main traits—Size and Toughness—and a number of possible Features. Each of these costs equipment points.",
 								{
 									"type": "entries",
 									"name": "Size",
@@ -5005,7 +5005,8 @@
 									"type": "actionBlock",
 									"name": "Abandoned Warehouse",
 									"entries": [
-										"{@b Size}: Medium {@b Toughness}: 8",
+										"{@b Size}: Medium",
+										"{@b Toughness}: 8",
 										"{@b Features}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System • 10 points."
 									]
 								},
@@ -5013,7 +5014,8 @@
 									"type": "actionBlock",
 									"name": "Moon-base",
 									"entries": [
-										"{@b Size}: Awesome {@b Toughness}: 20",
+										"{@b Size}: Awesome",
+										"{@b Toughness}: 20",
 										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
 									]
 								},
@@ -5021,7 +5023,8 @@
 									"type": "actionBlock",
 									"name": "Orbiting satellite",
 									"entries": [
-										"{@b Size}: Colossal {@b Toughness}: 20",
+										"{@b Size}: Colossal",
+										"{@b Toughness}: 20",
 										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
 									]
 								},
@@ -5029,7 +5032,8 @@
 									"type": "actionBlock",
 									"name": "Sanctum Sanctorum",
 									"entries": [
-										"{@b Size}: Medium {@b Toughness}: 10",
+										"{@b Size}: Medium",
+										"{@b Toughness}: 10",
 										"{@b Features}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
 									]
 								},
@@ -5037,7 +5041,8 @@
 									"type": "actionBlock",
 									"name": "Sea-base",
 									"entries": [
-										"{@b Size}: Gargantuan {@b Toughness}: 14",
+										"{@b Size}: Gargantuan",
+										"{@b Toughness}: 14",
 										"{@b Features}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
 									]
 								},
@@ -5045,7 +5050,8 @@
 									"type": "actionBlock",
 									"name": "Skyscraper (5 floors)",
 									"entries": [
-										"{@b Size}: Large {@b Toughness}: 10",
+										"{@b Size}: Large",
+										"{@b Toughness}: 10",
 										"{@b Features}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
 									]
 								},
@@ -5053,7 +5059,8 @@
 									"type": "actionBlock",
 									"name": "Stately Manor",
 									"entries": [
-										"{@b Size}: Huge {@b Toughness}: 10",
+										"{@b Size}: Huge",
+										"{@b Toughness}: 10",
 										"{@b Features}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
 									]
 								},
@@ -5061,7 +5068,8 @@
 									"type": "actionBlock",
 									"name": "Underground Lair",
 									"entries": [
-										"{@b Size}: Huge {@b Toughness}: 14",
+										"{@b Size}: Huge",
+										"{@b Toughness}: 14",
 										"{@b Features}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
 									]
 								},
@@ -5069,7 +5077,8 @@
 									"type": "actionBlock",
 									"name": "Urban Fortress",
 									"entries": [
-										"{@b Size}: Large {@b Toughness}: 12",
+										"{@b Size}: Large",
+										"{@b Toughness}: 12",
 										"{@b Features}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
 									]
 								}
