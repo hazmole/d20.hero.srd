@@ -1319,7 +1319,7 @@
 					"type": "section",
 					"name": "Complications",
 					"entries": [
-						"Comic books are full of storylines involving personal complications, and players are encouraged to come up with some for their heroes. {@b Complications} have a specific use in the game as well: they give the Gamemaster a “handle” on your hero, different challenges to introduce or include in adventures. When the GM does so, you earn victory points you can use to enhance your character’s chances of success, amongst other things. (See {@b Victory Points} in The {@b Basics} and {@b Action & Adventure} for more information.)",
+						"Comic books are full of storylines involving personal complications, and players are encouraged to come up with some for their heroes. {@b Complications} have a specific use in the game as well: they give the Gamemaster a “handle” on your hero, different challenges to introduce or include in adventures. When the GM does so, you earn victory points you can use to enhance your character’s chances of success, amongst other things. (See {@rule Victory Points|basic|1|victory points} for more information.)",
 						{
 							"type": "entries",
 							"name": "Choosing Complications",

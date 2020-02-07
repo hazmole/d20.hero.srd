@@ -1319,33 +1319,33 @@
 					"type": "section",
 					"translate_name": "糾葛難題", "name": "Complications",
 					"entries": [
-						"Comic books are full of storylines involving personal complications, and players are encouraged to come up with some for their heroes. {@b Complications} have a specific use in the game as well: they give the Gamemaster a “handle” on your hero, different challenges to introduce or include in adventures. When the GM does so, you earn victory points you can use to enhance your character’s chances of success, amongst other things. (See {@b Victory Points} in The {@b Basics} and {@b Action & Adventure} for more information.)",
+						"漫畫中總是充斥著各種牽涉個人糾葛難題的故事劇情，而在這個遊戲中，玩家們也被鼓勵為他們的英雄設計出一些這類的困境。{@b 糾葛難題}在遊戲中也同樣有著特別的用途：它們讓遊戲主持人能夠掌握你英雄的「把柄」，將各種不同的難題挑戰導入到冒險之中。當GM這麼做時，你將獲得勝利點做為獎勵，並能夠使用它們來增加你角色成功的機率，或是帶來其他好處（參見{@rule 勝利點|basic|1|victory points}規則以查閱更多資訊）。",
 						{
 							"type": "entries",
 							"translate_name": "選擇糾葛難題", "name": "Choosing Complications",
 							"entries": [
-								"Choose at least two complications for your hero: a Motivation and at least one other. You can take as many complications as you wish, although the GM may set limits for the sake of being able to keep track of them all. complications are also self-limiting, in that you only earn victory points for those complications that actually come into play. So even if you have more than a dozen, if the GM can only include a couple in a game session, then those are the ones that earn you victory points for that game. You can—and generally should—look for opportunities to include your hero’s complications and offer suggestions to the GM, who makes the final decision on which complications come into play at any given time.",
-								"The GM also decides what complications are appropriate for the game and can overrule any particular complication, based on the style and needs of the story and the series. Keep in mind the adventure needs to have room for all of the heroes’ complications, so individual ones can only come up so often."
+								"為你的英雄選擇至少二個糾葛難題：一個動機，和至少一個其他糾葛難題。你也可以隨意選擇任意數量的糾葛難題，不過GM可能會出於方便追蹤紀錄它們的理由而限制你所能擁有的糾葛難題數量。糾葛難題同時也具備了自限制的性質，這意味著只在遊戲中這些糾葛難題實際發揮影響時，你才會因此從中獲得勝利點做為獎勵。因此，即使你有超過一打的糾葛難題，而GM在一場遊戲聚會中只能夠導入其中一部分，則只有那些糾葛難題會在該場遊戲中為你帶來勝利點。你可以──且通常來說你應該要──主動尋找那些能引進你英雄糾葛難題的機會，並給GM提供建議，然而GM對於是否要在何時導入哪個糾葛難題這件事握有最終決定權。",
+								"GM同時需要決定什麼糾葛難題是否適合出現在遊戲中，且可以基於風格和故事劇集的需求來否決任何特定的糾葛難題。要記住，你需要為冒險故事騰出一些空間以容納每個英雄的糾葛難題，因此每個人的糾葛難題就只能出現這麼多次。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "動機", "name": "Motivation",
 							"entries": [
-								"Every hero has something that drove him or her to become a hero in the first place—a motivation that keeps them going when things get tough. Sometimes motivation is the only difference between a hero and a villain. What made your hero decide to fight for justice rather than turning toward more selfish goals? How does it affect the hero’s methods of fighting crime? Is there anything that might change or affect the hero’s motivation?",
-								"Motivation is a complication because it often determines what a hero will do in a particular situation. The GM can use your hero’s motivation to encourage certain actions, and enemies may do the same. When you properly play out your hero’s motivation, even if it isn’t necessarily the “smartest” thing to do, the GM awards you a victory point.",
-								"Common heroic motivations include the following:",
+								"每個英雄心中都有著某個在一開始驅使他或她成為英雄的事物──一個即使在情勢困難，仍鞭策他們繼續向前的動機。有時候英雄和反派之間的差別，就僅僅是他們動機的不同。是什麼原因使你的英雄決定為正義而戰，而非用以追求更自私的目標？它是如何影響英雄打擊犯罪的手段？又是否有任何可能改變或影響英雄動機的事物存在？",
+								"動機之所以被視作糾葛難題，是因為它經常決定了英雄在特定情境下所會採取的行動。GM可以利用你英雄的動機來鼓勵你採取特定行為，而遊戲中的敵人也同樣可能會利用這一點。當你正確地扮演發揮出你英雄的動機，儘管你不一定因此採取了最「聰明」的選擇，GM將會獎勵你一點勝利點。",
+								"下面列出了一些常見的英雄動機，包括：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Acceptance}: The hero feels different or isolated (perhaps for being a non-human in human society) and does good to gain the trust and acceptance of others and perhaps discover what it means to be human. Some such heroes see their powers as more of a curse than a blessing, but try to do some good with them while hoping and looking for a way to have a normal life.",
-										"{@b Doing Good}: Some heroes fight the good fight simply because it’s the right thing to do and they believe in doing the right thing no matter what. Their strong moral center may come from a good upbringing (or a bad one that showed them what not to do) or the guidance or inspiration of a mentor or idol.",
-										"{@b Greed}: There are those motivated by nothing more than the opportunity to make a profit off their heroic careers. They may be mercenaries for hire or marketing machines who do good deeds but also rake in the proceeds from licensing fees and public appearances. More altruistic heroes tend to look down upon their profit-mongering peers.",
-										"{@b Justice}: An overwhelming thirst for justice drives some heroes, a need to see the innocent protected and the guilty punished, even if they are beyond the reach of the law. These heroes walk a thin line. For some justice becomes a thirst for vengeance for injury done to the hero in the past, like the death of a loved one.",
-										"{@b Patriotism}: Heroes are often devoted to the ideals of their home (or adopted) nation, and seek to serve that nation and its people with their abilities. Patriotic heroes are often honored as champions of their homelands, but it is the service, and not necessarily the recognition, that matters.",
-										"{@b Recognition}: Some heroes just want recognition or attention, and dressing up in a bright costume and fighting crime is one surefire way to get people to notice you. The hero may be a shy nobody out of costume or a glory-hog who loves the spotlight.",
-										"{@b Responsibility}: The responsibility of having great power can be a heavy burden but some heroes feel it is their duty to use the powers they’ve been given for the greater good. Oftentimes these heroes are trying to live up to an ideal like a mentor or a predecessor who inspired them.",
-										"{@b Thrills}: For some the life of a superhero is all about excitement, thrills, danger, and challenge. These heroes are in it for the action more than anything else."
+										"{@b 接納}: 英雄可能會感受到自己的異常或孤獨（或許是因為做為人類社會中的非人存在），並因此行善來贏得他人的信任或接納，並可能因此理解做為人類所代表的含意。某些這類型的英雄可能會將他們的超能力視作詛咒，而非祝福，但仍會利用它們來行善，祈禱並尋找著能過上正常生活的方式。",
+										"{@b 行善}: 某些英雄會為了善良正義而戰，僅僅是因為這麼做就是正確，且他深信無論如何都應該去做正確的事情。他們強大的道德觀可能源自於良好的教育（或負面教育，告訴了他們什麼事不該做）、或者導師和偶像帶給他們的指導與啟發。",
+										"{@b 貪婪}: There are those motivated by nothing more than the opportunity to make a profit off their heroic careers. They may be mercenaries for hire or marketing machines who do good deeds but also rake in the proceeds from licensing fees and public appearances. More altruistic heroes tend to look down upon their profit-mongering peers.",
+										"{@b 正義}: An overwhelming thirst for justice drives some heroes, a need to see the innocent protected and the guilty punished, even if they are beyond the reach of the law. These heroes walk a thin line. For some justice becomes a thirst for vengeance for injury done to the hero in the past, like the death of a loved one.",
+										"{@b 愛國主義}: Heroes are often devoted to the ideals of their home (or adopted) nation, and seek to serve that nation and its people with their abilities. Patriotic heroes are often honored as champions of their homelands, but it is the service, and not necessarily the recognition, that matters.",
+										"{@b 讚譽}: Some heroes just want recognition or attention, and dressing up in a bright costume and fighting crime is one surefire way to get people to notice you. The hero may be a shy nobody out of costume or a glory-hog who loves the spotlight.",
+										"{@b 責任}: The responsibility of having great power can be a heavy burden but some heroes feel it is their duty to use the powers they’ve been given for the greater good. Oftentimes these heroes are trying to live up to an ideal like a mentor or a predecessor who inspired them.",
+										"{@b 刺激}: For some the life of a superhero is all about excitement, thrills, danger, and challenge. These heroes are in it for the action more than anything else."
 									]
 								},
 								{
