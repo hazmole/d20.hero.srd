@@ -1450,7 +1450,7 @@
 									"type": "list",
 									"items": [
 										"{@b 起源}：名稱可能會基於英雄的起源、能力源頭、誕生的國家（或世界）等等。",
-										"{@b 超能力}：根據英雄的超能力選擇一個名稱：能夠控制火焰的角色可能會有「起火者」或「焰舌」的名號、而電氣系角色則可能有「雷鳴」或「火花」之類的稱呼，諸如此類。",
+										"{@b 超能力}：根據英雄的超能力選擇一個名稱：能夠控制火焰的角色可能會有「起火者」或「焰舌」的名號、而電氣系角色則可能有「雷鳴」或「電火花」之類的稱呼，諸如此類。",
 										"{@b 主題}：也許角色本身就擁有著一個暗示其名稱的主題和風格：「聖騎士」可能會是個持有魔法寶劍與盔甲，流離至現代社會的中世紀騎士；而「死亡夫人」則可能會與駭人魔法和神祕學有關。",
 										"{@b 頭銜}：名稱也可能包含了種種頭銜，例如先生、小姐、博士、爵士、領主、女士、夫人，乃至皇室頭銜如國王、女王、王子、公主、伯爵、公爵、皇帝等等。軍階也是個相當常見於英雄名號的頭銜，尤其是將軍、少校、和隊長。",
 										"{@b 性別}：名稱也經常會帶有特定性別的稱呼，例如男/女、男孩/女孩、少年/少女等等。",
@@ -1464,30 +1464,30 @@
 							"type": "entries",
 							"translate_name": "起源", "name": "Origin",
 							"entries": [
-								"What’s the origin of your hero’s powers? It can be anything from a character born with the potential for powers to someone granted them by an accident—exposure to a strange meteor, radiation, genetic engineering, or any of countless similar encounters. Here are some of the more common superhero origins:",
+								"你英雄的超能力從何而來？這可能的原因從角色天生就擁有超能力潛能，到因為一場意外而獲得──例如奇怪的流星、輻射、基因工程、或任何數不盡的類似遭遇。以下列出了一些比較常見的超級英雄起源：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Accident}: Perhaps the most common origin. The hero gains powers accidentally from exposure to some force like radiation, chemicals, unleashed mystic energies, being struck by lightning, and so forth. Accidents are often one-time events, although sometimes there is an effort to recreate an accident to deliberately make super-beings. The current science of the setting tends to influence accidental origins. Golden Age heroes in the 1940s often gained their powers from chemical accidents while Silver Age heroes in the Atomic Age of the ‘60s got their powers from radiation and modern heroes acquire powers from accidents involving genetic engineering, nanotech, and similar cutting-edge technologies.",
-										"{@b Alien}: A hero may be a member of an alien race with unusual powers compared to humans. Either all members of the race have similar powers or particular conditions (lighter gravity, solar radiation, etc.) grant them powers while on Earth. Some “alien” races in the comics are actually super-human offshoots of humanity living isolated from the rest of the world. “Aliens” also include mystical beings from other dimensions, from angels and demons to elementals and actual gods, as well as mortal half-breeds descended from them. An alien hero’s powers might even have another origin; being an alien only explains part of the character’s powers or is merely a background element.",
-										"{@b Endowment}: Some outside force grants the hero powers. This might be an experimental procedure, a godlike higher power, a secret organization that hands out powerful devices, a mysterious wizard, or something similar. The patron might expect something in return from the hero for this boon, or the gift could be unconditional.",
-										"{@b Experiment}: Some heroes gain powers from a deliberate effort, such as a scientific or mystical technique for transforming someone into a super-being. Like accidents, experiments are often impossible to duplicate. The hero may be a willing volunteer or a victim chosen to test out the technique. Some heroes create their own powers, either developing the power-granting procedure or building their own devices.",
-										"{@b Mutant}: A hero may simply be born “different,” with the genetic potential for super-powers. These latent powers typically emerge in a time of stress, especially the changes brought on by puberty, although they might also appear as a result of an accident (combining the accident and mutant origins).",
-										"{@b Training}: Finally, some heroes acquire powers through hard work and training, whether physical discipline, studying esoteric martial arts techniques, meditation and introspection to unlock hidden mental powers, or mastering the arts of magic. Such training is typically arduous and not everyone has what it takes to accomplish it. Heroes who gained their powers through training may have rivals or foes who trained with them (see Enemy and Rivalry complications)."
+										"{@b 意外}: 這或許是最為常見的起源。英雄因為意外的暴露在某些物質或力量下而獲得了超能力，例如輻射、化學物質、奔騰的奧秘能量、被閃電打中等等。這些意外通常是一次性的事件，儘管有時會有人們致力於重新複製這類意外事故來故意創造出超級生物。故事設定中的當前科學水準往往會影響這類意外起源的原因。例如1940年代的黃金時代英雄們通常是因為化學事故而獲得他們的超能力，而身處於1960年代，又被稱為核子年代的白銀時代英雄們則很多是藉由輻射暴露而獲得力量，至於現代的英雄們則可能會藉由基因工程、奈米科技、和類似的頂尖科技獲得神奇的超能力。",
+										"{@b 外星}: 英雄可能會是外星種族的一員，相較人類，他們擁有著非比尋常的超能力。也許所有該種族的成員都擁有類似的超能力，又或者某些特殊情況（例如較輕的地心引力、太陽輻射等）使他們得以在地球上展現異能。在漫畫中，有些「外星」種族實際上不是真正來自外星球，而是地球上與世隔絕的人類中的一支超人類分支。此指的「外星」也同樣包括了來自其他維度的神祕存在，從天使、惡魔、到元素生物、身正的神明、和甚至祂們所生的混血子嗣。一名外星英雄的超能力可能甚至會有著其他的起源；他們外星種族的身分可能只解釋了他們超能力的一部份起源，或僅僅是一項背景元素。",
+										"{@b 天賜}: 某些外在力量將超能力賦予給了英雄。這個外在力量可能會是一次實驗過程、一個神一般的高位權能、一個發放強大超級裝置的秘密組織、一名神秘的巫師、或其他類似的要素。賦予你力量的存在也許會期望從英雄們那裡得到一些回報，也可能他們就這樣無條件地賦予了這份恩賜給英雄。",
+										"{@b 實驗}: 有些英雄是藉著刻意的嘗試努力來獲得超能力，例如能將人轉化成超級生物的科學或神秘科技。類似於意外類型的起源，這些實驗通常是不可能被複製的。英雄可能會是自願的志願者，或是被挑選來測試這項科技的犧牲品。有些英雄則會藉著實驗創造出屬於他們自己的超能力，比如說研發能獲得超能力的實驗過程、或是打造出自己的超級裝置。",
+										"{@b 變異}: 英雄可能就只是生來「與眾不同」，擁有著能夠發揮超能力的遺傳潛能。這些潛在能力通常會在壓力大的時期湧現，尤其是青春期所帶來的變化。除此之外，它們也可能會在意外事故導致的高壓環境中一口氣爆發出來（將意外起源跟變異起源結合）。",
+										"{@b 訓練}: 最後，有些英雄會透過刻苦鍛鍊獲得超能力，無論是身體訓練、學習深奧的武術技巧、藉著冥想和內省以釋放隱藏的心靈力量、或是修行掌握魔法技術。這類鍛鍊的過程通常相當艱苦，且並不是每個人都有能力完成它們。藉著訓練來獲得超能力的英雄們可能會擁有一名與他們一同鍛鍊學習的角色做為宿敵或對手（參見敵人和宿敵的糾葛難題）。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "把起源做為描述符", "name": "Origins as Descriptors",
 									"entries": [
-										"Origins can serve as descriptors for a character’s powers (see {@b Descriptors} in {@b Powers}). For example, a super-powered mutant has the “mutant” descriptor, meaning the character may be detected by mutant-detection powers, affected by mutant-specific devices, and so forth. The same is true for a mystic, an alien, or any other origin."
+										"起源也可以被做為角色超能力的描述符（參見{@b 超能力}章節的{@rule 描述符|basic|6|descriptors}段落）。舉例來說，一名擁有超能力的變種人所帶有的「變異」描述符，將代表著該角色可能會被能夠偵測變異能力的超能力給偵測到、或被特定變種人的超級裝置給影響等等。同樣的道理也能適用於秘法師、外星種族、或任何其他的的起源。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "設定起源的準則", "name": "Origin Guidelines",
 									"entries": [
-										"Your GM may decide to limit the origins for the series you’re playing for story reasons. The Gamemaster may set specific guidelines, ranging from restricting certain types of origins (no aliens or no mystics, for example) to requiring all heroes share a common type of origin, such as everyone is a mutant or the result of a unique accident. Consult with your GM before you choose a particular origin for your hero."
+										"你的GM可能會為了故事劇情的考量，限制你在該劇集中所能扮演的起源。遊戲主持人可能會設定特地的準則，從限制某些起源類型（例如不能是外星起源或秘法起源）、到要求所有英雄們都共同擁有某種常見的起源類型，像是所有人都必須是變種人、或是都因為一場特別的意外而獲得了超能力。在你為你的英雄選擇特定起源之前，還請先與你的GM商量討論。"
 									]
 								}
 							]
@@ -2939,7 +2939,7 @@
 			"type": "section",
 			"translate_name": "器具＆裝備", "name": "Gadgets & Gear",
 			"entries": [
-				"From blaster rifles to anti-gravity belts, teleportation rings, and battlesuits, heroes and villains develop all manner of gadgets. Villains are forever coming up with doomsday machines and fiendish deathtraps while heroes use all sorts of gear to aid them in their fight for justice. This chapter looks at various sorts of devices and equipment in the game terms. It also describes vehicles, headquarters, and constructs, ranging from zombie minions to giant robots.",
+				"從爆能步槍到反重力腰帶、傳送戒指、和戰鬥裝甲服，英雄和反派能夠開發運用各種各樣的器具裝備。反派們總會打造出各種末日毀滅裝置和邪惡的死亡陷阱，而英雄們則使用各種類型的器具以協助他們為正義而戰。這個章節將以遊戲術語著眼於各式各樣的超級裝置和裝備，並同時說明了關於載具、據點總部、和構裝體（從殭屍僕役到巨大機器人）的規則。",
 				{
 					"type": "section",
 					"translate_name": "超級裝置", "name": "Devices",
@@ -4575,7 +4575,7 @@
 										"極巨型","22","16","0","18","93"
 									]
 								},
-								["{@i 奇特載具}","","","","","",""],
+								["{@i 特殊載具}","","","","","",""],
 								{
 									"type": "row",
 									"style": "row-indent-first",
@@ -4704,7 +4704,7 @@
 								},
 								{
 									"type": "table",
-									"caption": "Headquarters Trait Cost",
+									"caption": "據點總部數據的花費",
 									"colLabels": [
 										"數據",
 										"起始數值",
@@ -4717,8 +4717,8 @@
 									],
 									"rows": [
 										["尺寸", "小型", "1點／每尺寸類別"],
-										["Toughness ", "6", "1點／每+2堅實屬性"],
-										["Features", "—", "1點／每個特色"]
+										["堅實屬性 ", "6", "1點／每+2堅實屬性"],
+										["特色", "—", "1點／每個特色"]
 									]
 								},
 								{
@@ -5368,8 +5368,8 @@
 									"type": "entries",
 									"translate_name": "墜落", "name": "Falling",
 									"entries": [
-										"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. Characters with the Acrobatics skill can fall greater distances without risk of damage. Falling into or onto a dangerous surface may cause additional damage, at the GM’s discretion.",
-										"Catching a falling person or object requires a Dexterity check (DC 5). If you successfully catch a falling object, subtract your Strength rank from the falling damage rank. Both you and the object suffer any remaining damage. So if a character with Strength 6 catches someone falling for 12 damage, subtract 6 from 12, and both characters resist damage 6. If the catcher is using a power—such as Flight or Move Object—to catch the falling object, the power’s rank can be substituted for Strength at the GM’s discretion."
+										"墜落將會造成4級加上距離等級二倍的傷害，其傷害等級最高到16級。擁有{@skill 雜技}技能的角色可以從更高的距離落下而無須承受墜落傷害的風險。根據GM的裁斷，墜落到或摔進危險表面上可能會導致額外的傷害。",
+										"若要接住一名墜落的人或物，將會需要進行一次靈巧檢定(DC 5)。若你成功接住了落下的物體，則將墜落傷害等級減去你的力量等級，你和該物體都將同時承受剩餘的墜落傷害（若有）。因此若一名有著6級力量屬性的角色接住了一名原本會承受12級墜落傷害的角色，將12減去6，然後兩名角色都進行一次抵抗6級傷害的檢定。若角色使用了超能力來接住落下的物體──比如說{@effect 飛行}或{@effect 移動物體}，則根據GM的裁斷，該超能力的等級可能可以被拿來代替力量屬性。"
 									]
 								},
 								{
@@ -5420,8 +5420,8 @@
 									"type": "entries",
 									"translate_name": "毒素", "name": "Poison",
 									"entries": [
-										"A deadly toxin introduced through a scratch, or even in the air, may be able to fell the strongest hero. Poisons generally have one of several effects particularly Affliction, Damage, or Weaken. Some poisons may even have multiple Linked effects. Heroes generally resist poisons with Fortitude.",
-										"Heroes with Immunity to Poison are completely unaffected by poisons. A Treatment skill check can provide a bonus on resistance checks against poison.",
+										"透過傷害或甚至空氣傳播的致命毒素，可能有機會讓最強大的英雄殞落。毒素通常會造成一個或多個效果，尤其是{@effect 詛咒}、{@effect 傷害}、或{@effect 弱化}。有些毒素甚至可能會擁有複數個被{@modifier 連結}的效果。英雄們通常會使用韌性防禦屬性來抵抗毒素帶來的效果。",
+										"{@effect 免疫}於毒素的英雄們完全不會受到毒素的影響。此外，一次成功的{@skill 診療}技能檢定可以為克服毒素的抵抗檢定提供加值。",
 										{
 											"type": "table",
 											"caption": "範例毒素等級",
@@ -5436,47 +5436,47 @@
 											"rows": [
 												[
 													"1",
-													"{@b Food poisoning}: Affliction conditions typically include impaired and disabled, perhaps also dazed and stunned for especially severe nausea."
+													"{@b 食物中毒}: {@effect 詛咒}效果的狀態通常會包括{@condition 行動乏能}和{@condition 行動障礙}，對於特別嚴重的噁心感則可能也會導致{@condition 目眩}和{@condition 暈眩}狀態。"
 												],
 												[
 													"1",
-													"{@b Alcohol}: Impaired and disabled are the most common conditions, perhaps dazed and stunned for severe drunkenness, as for food poisoning."
+													"{@b 酒精}: {@condition 行動乏能}和{@condition 行動障礙}是最常見的狀態。和食物中毒一樣，特別嚴重的醉態可能會導致{@condition 目眩}和{@condition 暈眩}狀態。"
 												],
 												[
 													"3",
-													"{@b Pesticides}: Common Affliction conditions include impaired and disabled, although a large enough dose or repeated exposure can also Weaken Stamina, even leading to death."
+													"{@b 農藥}: Common {@effect Affliction} conditions include {@condition 行動乏能} and {@condition 行動障礙}, although a large enough dose or repeated exposure can also {@effect Weaken|Weaken Stamina}, even leading to death."
 												],
 												[
 													"4",
-													"{@b Chloroform}: Affliction with dazed, stunned, and incapacitated effects."
+													"{@b 氯仿}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated} effects."
 												],
 												[
 													"7",
-													"{@b Cobra venom}: Typically a Weaken effect against Strength, Agility, or Stamina (sometimes more than one), with Weaken Stamina potentially lethal, if the victim’s Stamina drops below –5."
+													"{@b 眼鏡蛇毒}: Typically a {@effect Weaken} effect against Strength, Agility, or Stamina (sometimes more than one), with {@effect Weaken|Weaken Stamina} potentially lethal, if the victim’s Stamina drops below –5."
 												],
 												[
 													"8",
-													"{@b Mustard gas}: Affliction with impaired, disabled, and incapacitated effects, linked with a Damage effect resisted by Fortitude."
+													"{@b 芥子毒氣}: {@effect Affliction} with {@condition 行動乏能}, {@condition 行動障礙}, and {@condition incapacitated} effects, linked with a {@effect Damage} effect resisted by Fortitude."
 												],
 												[
 													"9",
-													"{@b Poisonous mushrooms}: Typically a Fortitude Damage effect. Side-effects might include conditions like dazed, impaired, or hindered."
+													"{@b 劇毒蘑菇}: Typically a {@modifier Alternate Resistance|Fortitude} {@effect Damage} effect. Side-effects might include conditions like {@condition dazed}, {@condition 行動乏能}, or {@condition hindered}."
 												],
 												[
 													"11",
-													"{@b Chlorine gas}: Affliction with dazed, stunned, and incapacitated effects, linked with a Damage effect resisted by Fortitude."
+													"{@b Chlorine gas}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated} effects, linked with a {@effect Damage} effect resisted by Fortitude."
 												],
 												[
 													"13",
-													"{@b Curare}: Affliction with dazed and hindered, stunned and immobilized, and incapacitated effects, linked with Weaken Stamina, as the poison can potentially stop the target’s heart."
+													"{@b Curare}: {@effect Affliction} with {@condition dazed} and hindered, {@condition stunned} and {@condition Immobile|immobilized}, and {@condition incapacitated} effects, linked with {@effect Weaken|Weaken Stamina}, as the poison can potentially stop the target’s heart."
 												],
 												[
 													"14",
-													"{@b Cyanide}: Fortitude Damage effect."
+													"{@b Cyanide}: {@modifier Alternate Resistance|Fortitude} {@effect Damage} effect."
 												],
 												[
 													"15",
-													"{@b Nerve gas}: Affliction with dazed and impaired, stunned and disabled, and incapacitated effects, linked with Fortitude Damage."
+													"{@b Nerve gas}: {@effect Affliction} with {@condition dazed} and {@condition 行動乏能}, {@condition stunned} and {@condition 行動障礙}, and {@condition incapacitated} effects, linked with {@modifier Alternate Resistance|Fortitude} {@effect Damage}."
 												],
 												[
 													"16+",

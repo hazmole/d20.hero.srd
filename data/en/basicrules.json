@@ -1480,7 +1480,7 @@
 									"type": "entries",
 									"name": "Origins as Descriptors",
 									"entries": [
-										"Origins can serve as descriptors for a character’s powers (see {@b Descriptors} in {@b Powers}). For example, a super-powered mutant has the “mutant” descriptor, meaning the character may be detected by mutant-detection powers, affected by mutant-specific devices, and so forth. The same is true for a mystic, an alien, or any other origin."
+										"Origins can serve as descriptors for a character’s powers (see {@rule Descriptors|basic|6|descriptors} in {@b Powers}). For example, a super-powered mutant has the “mutant” descriptor, meaning the character may be detected by mutant-detection powers, affected by mutant-specific devices, and so forth. The same is true for a mystic, an alien, or any other origin."
 									]
 								},
 								{
@@ -5368,8 +5368,8 @@
 									"type": "entries",
 									"name": "Falling",
 									"entries": [
-										"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. Characters with the Acrobatics skill can fall greater distances without risk of damage. Falling into or onto a dangerous surface may cause additional damage, at the GM’s discretion.",
-										"Catching a falling person or object requires a Dexterity check (DC 5). If you successfully catch a falling object, subtract your Strength rank from the falling damage rank. Both you and the object suffer any remaining damage. So if a character with Strength 6 catches someone falling for 12 damage, subtract 6 from 12, and both characters resist damage 6. If the catcher is using a power—such as Flight or Move Object—to catch the falling object, the power’s rank can be substituted for Strength at the GM’s discretion."
+										"A fall inflicts damage rank 4 plus twice the distance rank fallen, to a maximum of rank 16 damage. Characters with the {@skill Acrobatics} skill can fall greater distances without risk of damage. Falling into or onto a dangerous surface may cause additional damage, at the GM’s discretion.",
+										"Catching a falling person or object requires a Dexterity check (DC 5). If you successfully catch a falling object, subtract your Strength rank from the falling damage rank. Both you and the object suffer any remaining damage. So if a character with Strength 6 catches someone falling for 12 damage, subtract 6 from 12, and both characters resist damage 6. If the catcher is using a power—such as {@effect Flight} or {@effect Move Object}—to catch the falling object, the power’s rank can be substituted for Strength at the GM’s discretion."
 									]
 								},
 								{
@@ -5420,8 +5420,8 @@
 									"type": "entries",
 									"name": "Poison",
 									"entries": [
-										"A deadly toxin introduced through a scratch, or even in the air, may be able to fell the strongest hero. Poisons generally have one of several effects particularly Affliction, Damage, or Weaken. Some poisons may even have multiple Linked effects. Heroes generally resist poisons with Fortitude.",
-										"Heroes with Immunity to Poison are completely unaffected by poisons. A Treatment skill check can provide a bonus on resistance checks against poison.",
+										"A deadly toxin introduced through a scratch, or even in the air, may be able to fell the strongest hero. Poisons generally have one of several effects particularly {@effect Affliction}, {@effect Damage}, or {@effect Weaken}. Some poisons may even have multiple {@modifier Linked} effects. Heroes generally resist poisons with Fortitude.",
+										"Heroes with {@effect Immunity} to Poison are completely unaffected by poisons. A {@skill Treatment} skill check can provide a bonus on resistance checks against poison.",
 										{
 											"type": "table",
 											"caption": "Sample Poison Rank",
@@ -5436,47 +5436,47 @@
 											"rows": [
 												[
 													"1",
-													"{@b Food poisoning}: Affliction conditions typically include impaired and disabled, perhaps also dazed and stunned for especially severe nausea."
+													"{@b Food poisoning}: {@effect Affliction} conditions typically include {@condition impaired} and {@condition disabled}, perhaps also {@condition dazed} and {@condition stunned} for especially severe nausea."
 												],
 												[
 													"1",
-													"{@b Alcohol}: Impaired and disabled are the most common conditions, perhaps dazed and stunned for severe drunkenness, as for food poisoning."
+													"{@b Alcohol}: {@condition Impaired} and {@condition disabled} are the most common conditions, perhaps {@condition dazed} and {@condition stunned} for severe drunkenness, as for food poisoning."
 												],
 												[
 													"3",
-													"{@b Pesticides}: Common Affliction conditions include impaired and disabled, although a large enough dose or repeated exposure can also Weaken Stamina, even leading to death."
+													"{@b Pesticides}: Common {@effect Affliction} conditions include {@condition impaired} and {@condition disabled}, although a large enough dose or repeated exposure can also {@effect Weaken|Weaken Stamina}, even leading to death."
 												],
 												[
 													"4",
-													"{@b Chloroform}: Affliction with dazed, stunned, and incapacitated effects."
+													"{@b Chloroform}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated} effects."
 												],
 												[
 													"7",
-													"{@b Cobra venom}: Typically a Weaken effect against Strength, Agility, or Stamina (sometimes more than one), with Weaken Stamina potentially lethal, if the victim’s Stamina drops below –5."
+													"{@b Cobra venom}: Typically a {@effect Weaken} effect against Strength, Agility, or Stamina (sometimes more than one), with {@effect Weaken|Weaken Stamina} potentially lethal, if the victim’s Stamina drops below –5."
 												],
 												[
 													"8",
-													"{@b Mustard gas}: Affliction with impaired, disabled, and incapacitated effects, linked with a Damage effect resisted by Fortitude."
+													"{@b Mustard gas}: {@effect Affliction} with {@condition impaired}, {@condition disabled}, and {@condition incapacitated} effects, linked with a {@effect Damage} effect resisted by Fortitude."
 												],
 												[
 													"9",
-													"{@b Poisonous mushrooms}: Typically a Fortitude Damage effect. Side-effects might include conditions like dazed, impaired, or hindered."
+													"{@b Poisonous mushrooms}: Typically a {@modifier Alternate Resistance|Fortitude} {@effect Damage} effect. Side-effects might include conditions like {@condition dazed}, {@condition impaired}, or {@condition hindered}."
 												],
 												[
 													"11",
-													"{@b Chlorine gas}: Affliction with dazed, stunned, and incapacitated effects, linked with a Damage effect resisted by Fortitude."
+													"{@b Chlorine gas}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated} effects, linked with a {@effect Damage} effect resisted by Fortitude."
 												],
 												[
 													"13",
-													"{@b Curare}: Affliction with dazed and hindered, stunned and immobilized, and incapacitated effects, linked with Weaken Stamina, as the poison can potentially stop the target’s heart."
+													"{@b Curare}: {@effect Affliction} with {@condition dazed} and hindered, {@condition stunned} and {@condition Immobile|immobilized}, and {@condition incapacitated} effects, linked with {@effect Weaken|Weaken Stamina}, as the poison can potentially stop the target’s heart."
 												],
 												[
 													"14",
-													"{@b Cyanide}: Fortitude Damage effect."
+													"{@b Cyanide}: {@modifier Alternate Resistance|Fortitude} {@effect Damage} effect."
 												],
 												[
 													"15",
-													"{@b Nerve gas}: Affliction with dazed and impaired, stunned and disabled, and incapacitated effects, linked with Fortitude Damage."
+													"{@b Nerve gas}: {@effect Affliction} with {@condition dazed} and {@condition impaired}, {@condition stunned} and {@condition disabled}, and {@condition incapacitated} effects, linked with {@modifier Alternate Resistance|Fortitude} {@effect Damage}."
 												],
 												[
 													"16+",
