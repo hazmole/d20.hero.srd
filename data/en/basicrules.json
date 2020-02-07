@@ -5468,7 +5468,7 @@
 												],
 												[
 													"13",
-													"{@b Curare}: {@effect Affliction} with {@condition dazed} and hindered, {@condition stunned} and {@condition Immobile|immobilized}, and {@condition incapacitated} effects, linked with {@effect Weaken|Weaken Stamina}, as the poison can potentially stop the target’s heart."
+													"{@b Curare}: {@effect Affliction} with {@condition dazed} and {@condition hindered}, {@condition stunned} and {@condition Immobile|immobilized}, and {@condition incapacitated} effects, linked with {@effect Weaken|Weaken Stamina}, as the poison can potentially stop the target’s heart."
 												],
 												[
 													"14",

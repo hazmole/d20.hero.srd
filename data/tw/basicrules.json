@@ -5444,43 +5444,43 @@
 												],
 												[
 													"3",
-													"{@b 農藥}: Common {@effect Affliction} conditions include {@condition 行動乏能} and {@condition 行動障礙}, although a large enough dose or repeated exposure can also {@effect Weaken|Weaken Stamina}, even leading to death."
+													"{@b 農藥}: 常見{@effect 詛咒}狀態包括了{@condition 行動乏能}和{@condition 行動障礙}，而足夠大的劑量或重複接觸可能也會造成{@effect Weaken|弱化體質}，或甚至導致死亡。"
 												],
 												[
 													"4",
-													"{@b 氯仿}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated} effects."
+													"{@b 氯仿}: 會造成{@condition 目眩}、{@condition 暈眩}、和{@condition 失能}狀態的{@effect 詛咒}效果。"
 												],
 												[
 													"7",
-													"{@b 眼鏡蛇毒}: Typically a {@effect Weaken} effect against Strength, Agility, or Stamina (sometimes more than one), with {@effect Weaken|Weaken Stamina} potentially lethal, if the victim’s Stamina drops below –5."
+													"{@b 眼鏡蛇毒}: 通常會是一個影響力量、敏捷、或體質的{@effect 弱化}效果（有時會同時影響超過一個屬性）。其中{@effect Weaken|弱化體質}效果隱含著當犧牲者的體質屬性被降到低於-5時會致命的可能性。"
 												],
 												[
 													"8",
-													"{@b 芥子毒氣}: {@effect Affliction} with {@condition 行動乏能}, {@condition 行動障礙}, and {@condition incapacitated} effects, linked with a {@effect Damage} effect resisted by Fortitude."
+													"{@b 芥子毒氣}: 會造成{@condition 行動乏能}、{@condition 行動障礙}、和{@condition 失能}狀態的{@effect 詛咒}效果，連結著以韌性防禦抵抗的{@effect 傷害}效果。"
 												],
 												[
 													"9",
-													"{@b 劇毒蘑菇}: Typically a {@modifier Alternate Resistance|Fortitude} {@effect Damage} effect. Side-effects might include conditions like {@condition dazed}, {@condition 行動乏能}, or {@condition hindered}."
+													"{@b 劇毒蘑菇}: 通常會是一個{@modifier Alternate Resistance|以韌性防禦抵抗}的{@effect 傷害}效果。其他副作用可能包括了像是{@condition 目眩}、{@condition 行動乏能}、或{@condition 移動受阻}等狀態。"
 												],
 												[
 													"11",
-													"{@b Chlorine gas}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated} effects, linked with a {@effect Damage} effect resisted by Fortitude."
+													"{@b 氯氣}: 會造成{@condition 目眩}、{@condition 暈眩}、和{@condition 失能}狀態的{@effect 詛咒}效果，連結著以韌性防禦抵抗的{@effect 傷害}效果。"
 												],
 												[
 													"13",
-													"{@b Curare}: {@effect Affliction} with {@condition dazed} and hindered, {@condition stunned} and {@condition Immobile|immobilized}, and {@condition incapacitated} effects, linked with {@effect Weaken|Weaken Stamina}, as the poison can potentially stop the target’s heart."
+													"{@b 箭毒}: 會造成{@condition 目眩}和{@condition 移動受阻}、{@condition 暈眩}和{@condition Immobile|無法移動}、以及{@condition 失能}狀態的{@effect 詛咒}效果，連結著一個{@effect Weaken|弱化體質}效果，代表著毒素可能會使目標的心跳停止。"
 												],
 												[
 													"14",
-													"{@b Cyanide}: {@modifier Alternate Resistance|Fortitude} {@effect Damage} effect."
+													"{@b 氰化物}: {@modifier Alternate Resistance|以韌性防禦抵抗}的{@effect 傷害}效果。"
 												],
 												[
 													"15",
-													"{@b Nerve gas}: {@effect Affliction} with {@condition dazed} and {@condition 行動乏能}, {@condition stunned} and {@condition 行動障礙}, and {@condition incapacitated} effects, linked with {@modifier Alternate Resistance|Fortitude} {@effect Damage}."
+													"{@b 神經毒氣}: 會造成{@condition 目眩}和{@condition 行動乏能}、{@condition 暈眩}和{@condition 行動障礙}、以及{@condition 失能}狀態的{@effect 詛咒}效果，連結著以韌性防禦抵抗的{@effect 傷害}效果。"
 												],
 												[
 													"16+",
-													"{@b Alien, supernatural, or super-science toxins}"
+													"{@b 異星、超自然、或超科學毒素}"
 												]
 											]
 										}
@@ -5494,7 +5494,7 @@
 										"Heroes with Immunity to Disease are completely unaffected by disease. A Treatment skill check can provide a bonus on resistance checks against disease.",
 										{
 											"type": "table",
-											"caption": "Sample Disease Rank",
+											"caption": "範例疾病等級",
 											"colLabels": [
 												"等級",
 												"範例疾病"
@@ -5506,47 +5506,47 @@
 											"rows": [
 												[
 													"1-2",
-													"{@b Common colds}: Usually nothing more than an impaired condition."
+													"{@b 普通感冒}: Usually nothing more than an impaired condition."
 												],
 												[
 													"3-5",
-													"{@b Influenza (including bird flu, swine flu, etc.)}: Affliction with impaired, disabled, and incapacitated"
+													"{@b 流感（包括禽流感、豬流感等）}: Affliction with impaired, disabled, and incapacitated"
 												],
 												[
 													"4",
-													"{@b Malaria}: Affliction with impaired, disabled, and incapacitated."
+													"{@b 瘧疾}: Affliction with impaired, disabled, and incapacitated."
 												],
 												[
 													"6",
-													"{@b Typhoid}: Affliction with dazed, stunned, and incapacitated."
+													"{@b 傷寒}: Affliction with dazed, stunned, and incapacitated."
 												],
 												[
 													"7",
-													"{@b Rabies}: Affliction with impaired, compelled (paranoid and violent behavior), and incapacitated."
+													"{@b 狂犬病}: Affliction with impaired, compelled (paranoid and violent behavior), and incapacitated."
 												],
 												[
 													"8",
-													"{@b Leprosy}: Affliction with impaired, disabled, and incapacitated."
+													"{@b 痲瘋病}: Affliction with impaired, disabled, and incapacitated."
 												],
 												[
 													"10",
-													"{@b AIDS}: Weaken Fortitude, leading to other opportunistic infections."
+													"{@b 愛滋病}: Weaken Fortitude, leading to other opportunistic infections."
 												],
 												[
 													"11",
-													"{@b Smallpox}: Affliction with hindered and impaired, disabled, and incapacitated linked with Weaken Stamina."
+													"{@b 天花}: Affliction with hindered and impaired, disabled, and incapacitated linked with Weaken Stamina."
 												],
 												[
 													"12-14",
-													"{@b Bubonic plague}: Affliction with dazed and hindered, stunned and immobilized, linked with Weaken Stamina."
+													"{@b 黑死病}: Affliction with dazed and hindered, stunned and immobilized, linked with Weaken Stamina."
 												],
 												[
 													"15",
-													"{@b Ebola virus}: Affliction with dazed, hindered, and impaired; stunned, immobilized, and disabled; and incapacitated, linked with Weaken Strength and Stamina."
+													"{@b 伊波拉病毒}: Affliction with dazed, hindered, and impaired; stunned, immobilized, and disabled; and incapacitated, linked with Weaken Strength and Stamina."
 												],
 												[
 													"16+",
-													"{@b Engineered super-viruses}"
+													"{@b 工程改造超級病毒}"
 												]
 											]
 										}
@@ -5560,22 +5560,22 @@
 										"Otherwise the Gamemaster can treat radiation exposure like a disease: The victim makes an initial Fortitude check against (DC 10 + radiation’s rank) and an additional check each day. Radiation sickness is typically a Weaken Stamina effect, but may include other effects, including Damage resisted by Fortitude. At the GM’s discretion, radiation exposure can lead to other effects, such as damage to a hero’s power ranks (causing a temporary decrease in powers).",
 										{
 											"type": "table",
-											"caption": "Sample Radiation Rank",
+											"caption": "範例輻射等級",
 											"colLabels": [
-												"Rank",
-												"Radiation Example"
+												"等級",
+												"範例輻射"
 											],
 											"colStyles": [
 												"col-3 text-align-center",
 												"col-9"
 											],
 											"rows": [
-												[ "1", "Lingering irradiation" ],
-												[ "2-5", "Nuclear fallout" ],
-												[ "5-10", "Exposure to radioactive materials" ],
-												[ "10-12", "Stellar radiation (deep space)" ],
-												[ "13-14", "Nuclear reactor" ],
-												[ "15+", "Nuclear blast" ]
+												[ "1", "殘留輻射" ],
+												[ "2-5", "輻射落塵" ],
+												[ "5-10", "接觸放射性物質" ],
+												[ "10-12", "恆星輻射（深太空）" ],
+												[ "13-14", "核反應爐r" ],
+												[ "15+", "核爆" ]
 											]
 										}
 									]
