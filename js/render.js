@@ -440,6 +440,7 @@ function Renderer () {
 
 	this._renderEntriesSubtypes = function (entry, textStack, meta, options, incDepth) {
 		const isInlineTitle = meta.depth >= 2;
+		const isBookPage = (window.location.pathname.split("/").pop().match(/^rules\.html/)!=null);
 		const nextDepth = incDepth && meta.depth < 2 ? meta.depth + 1 : meta.depth;
 		const styleString = this._renderEntriesSubtypes_getStyleString(entry, meta, isInlineTitle);
 		const dataString = this._renderEntriesSubtypes_getDataString(entry);
@@ -449,7 +450,7 @@ function Renderer () {
 
 		const book_idx = `book-idx="${entry.idx_name ? entry.idx_name : entry.name}"`.toLowerCase();
 		const display_name = entry.translate_name? entry.translate_name: entry.name;
-		const quickLink = `<span class='entryLink' title=${FMT("msg_copylink")}>🔗</span>`;
+		const quickLink = (isInlineTitle||!isBookPage)? "": `<span class='entryLink' title=${FMT("msg_copylink")}>🔗</span>`;
 		const headerSpan = entry.name ? `<span class="rd__h ${headerClass}" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}> <span class="entry-title-inner" ${book_idx}>${this.render({type: "inline", entries: [display_name+quickLink]})}${isInlineTitle ? "." : ""}</span></span> ` : "";
 		//${entry.translate_name ? (" <st style='font-size:80%;'>"+entry.name+"<st>") : ""}
 		if (meta.depth === -1) {

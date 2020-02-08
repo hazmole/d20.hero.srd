@@ -177,10 +177,8 @@ class NavBar {
 		let isSecondLevel = false;
 		if (currentPage.toLowerCase() === "rules.html") {
 			const hashPart = window.location.hash.split(",")[0];
-			if (currentPage.toLowerCase() === "rules.html") isSecondLevel = true;
 			currentPage += hashPart.toLowerCase();
 		}
-		if (currentPage.toLowerCase() === "rules.html") isSecondLevel = true;
 
 		try {
 			let current = document.querySelector(`li[data-page="${currentPage}"]`);
