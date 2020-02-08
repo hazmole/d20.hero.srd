@@ -31,7 +31,7 @@
 					{ "translate_name": "英雄範型", "name": "Hero Archetypes" },
 					{ "translate_name": "英雄設計", "name": "Hero Design" },
 					{ "translate_name": "角色點", "name": "Character Points" },
-					{ "_translate_name": "糾葛難題", "name": "Complications" },
+					{ "translate_name": "糾葛難題", "name": "Complications" },
 					{ "translate_name": "背景", "name": "Background" },
 					{ "translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement" },
 					{ "translate_name": "角色範型", "name": "Character Archetypes" }
@@ -1340,40 +1340,40 @@
 									"items": [
 										"{@b 接納}: 英雄可能會感受到自己的異常或孤獨（或許是因為做為人類社會中的非人存在），並因此行善來贏得他人的信任或接納，並可能因此理解做為人類所代表的含意。某些這類型的英雄可能會將他們的超能力視作詛咒，而非祝福，但仍會利用它們來行善，祈禱並尋找著能過上正常生活的方式。",
 										"{@b 行善}: 某些英雄會為了善良正義而戰，僅僅是因為這麼做就是正確，且他深信無論如何都應該去做正確的事情。他們強大的道德觀可能源自於良好的教育（或負面教育，告訴了他們什麼事不該做）、或者導師和偶像帶給他們的指導與啟發。",
-										"{@b 貪婪}: There are those motivated by nothing more than the opportunity to make a profit off their heroic careers. They may be mercenaries for hire or marketing machines who do good deeds but also rake in the proceeds from licensing fees and public appearances. More altruistic heroes tend to look down upon their profit-mongering peers.",
-										"{@b 正義}: An overwhelming thirst for justice drives some heroes, a need to see the innocent protected and the guilty punished, even if they are beyond the reach of the law. These heroes walk a thin line. For some justice becomes a thirst for vengeance for injury done to the hero in the past, like the death of a loved one.",
-										"{@b 愛國主義}: Heroes are often devoted to the ideals of their home (or adopted) nation, and seek to serve that nation and its people with their abilities. Patriotic heroes are often honored as champions of their homelands, but it is the service, and not necessarily the recognition, that matters.",
-										"{@b 讚譽}: Some heroes just want recognition or attention, and dressing up in a bright costume and fighting crime is one surefire way to get people to notice you. The hero may be a shy nobody out of costume or a glory-hog who loves the spotlight.",
-										"{@b 責任}: The responsibility of having great power can be a heavy burden but some heroes feel it is their duty to use the powers they’ve been given for the greater good. Oftentimes these heroes are trying to live up to an ideal like a mentor or a predecessor who inspired them.",
-										"{@b 刺激}: For some the life of a superhero is all about excitement, thrills, danger, and challenge. These heroes are in it for the action more than anything else."
+										"{@b 貪婪}: 有些人的動機僅僅是為了得到從他們英雄事業中獲利的機會。他們可能是受雇的傭兵、也可能是廣行善事的營銷機器，並同時透過執照費和公開露面等活動賺取收益。那些抱持無私理想的英雄們往往會看不起這類唯利是圖的同行。",
+										"{@b 正義}: 某些英雄會受到一股對於正義的強烈渴望所驅使，他們必須看見無辜之人得到應有的保護，而有罪之人接受制裁，即使他們不在法律的觸及範圍內也一樣。這些英雄們行走在鋼索之上。對某些人而言，正義可能會演變復仇的渴望，報復那些英雄在過去所受的創傷，例如至親的死亡。",
+										"{@b 愛國主義}: 英雄們經常會獻身於他們祖國（或被收養的國家）的理想，並致力於以他們的能力為這個國家和人民服務奉獻。秉持著愛國主義的英雄們被尊為祖國的捍衛者，但真正重要的是他們所做出的貢獻，而不是國家的認可。",
+										"{@b 讚譽}: 某些英雄只是想要群眾的認可或注意，而穿著亮眼的英雄服並打擊犯罪正是讓人們注意到你的一個絕妙手段。這些英雄在脫下英雄服後可能只是一名羞赧的凡人、也可能是一個熱愛位於聚光燈下的自大狂。",
+										"{@b 責任}: 身懷強大力量的責任感可能會成為沉重的負擔，但某些英雄會將其當作自己的使命，相信他們有責任為了大義所在發揮他們被賦予的力量。這些英雄們經常會致力於實現自己的理想，就如同激勵他們的導師或前輩那樣。",
+										"{@b 刺激}: 對某些人來說，超級英雄的生活充滿著刺激感、顫慄、危險、和挑戰。這些英雄們不為其他原因，正是為此而行動。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "動機與影響力", "name": "Motivation and Influence",
 									"entries": [
-										"A shared motivation can create an empathic bond with others. With the GM’s permission, you might get a circumstance bonus on interaction skill checks when dealing with someone with the same motivation as yours. Similarly, you may suffer a circumstance penalty to interaction when dealing with characters of a strongly differing motivation."
+										"共同的動機能夠讓你建立與他人之間的共感關係。在GM的同意下，當你與那些和你共享相同動機的人物打交道時，你或許能在使用交涉技能時獲得一些情境加值。同樣的，當你與那些抱持著截然不同動機的角色互動時，你也可能會因此在交涉過程中承受不利的情境罰值。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "動機做為描述符", "name": "Motivations as Descriptors",
 									"entries": [
-										"At the GM’s option motivation can function as a descriptor for powers (see {@b Descriptors}), allowing character to have a power affecting only subjects with a particular motivation, for example, or the ability to detect characters with a particular motivation (see {@b Detect}). Gamemasters should be very careful when applying power modifiers based on subjective qualities like motivation. An attack power affecting only “evil” targets, for example, is useless against inanimate objects, constructs, and animals (which cannot have such a quality) as well as “good” targets. It might also not affect characters without a specific evil motivation (such as selfish mercenaries, violent vigilantes, or despots devoted solely to order, but not “evil” per se)."
+										"根據GM的選擇，動機也可以作為超能力的描述符以發揮作用（參見{@rule 描述符|basic|6|descriptors}章節）。這麼做將能讓角色能夠使用只能影響抱持特定動機角色的超能力，例如偵測到抱持特定動機的角色等等。當遊戲主持人在處理牽涉到動機這類主觀特質的超能力描述符時，必須特別謹慎小心。舉例來說，一個只能影響「邪惡」（或「善良」）目標的攻擊類型超能力，對於無生命物體、構裝體、或動物等對象將毫無作用（因為它們並不具備這類性質）。它也可能無法影響那些不具備特定邪惡動機的角色（例如自私的雇傭兵、暴力的治安官、或致力維護秩序的專制者，他們本身並不「邪惡」）。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "動機做為超能力起源", "name": "Motivations as Origins",
 									"entries": [
-										"Some characters may derive their powers from their motivation in some way, such as heroes who draw strength from their convictions, faith, or morality. This provides a descriptor for those powers, but the hero may also suffer Power Loss (see Complications) from a change or wavering in motivation."
+										"有些角色的超能力可能是以某種方式自他們的動機衍生而出，例如那些從他們的信念、信仰、或道德之中汲取力量的英雄們就是如此。這個動機將為這類超能力提供其描述符，但當英雄的動機發生改變或動搖，他們也將會承受能力喪失（參見{@rule 其他糾葛難題|basic|2|other complications}）的後果。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "動機衝突", "name": "Motivations in Conflict",
 									"entries": [
-										"A character with different motivations may find them in conflict from time to time. Such conflicts provide roleplaying opportunities and complications for players and story hooks for the Gamemaster. For example, a hero motivated by Patriotism may discover a secret government agency acting against the interests of justice in the world. What is stronger, the hero’s patriotism or the desire to see the truth known and justice done? Some conflicts may even result in heroes changing motivations. See {@b Changing Complications}, in the following section, for more on this."
+										"抱持著不同動機的角色可能經常會發現這些動機們會帶來彼此衝突的結果。這類衝突能夠為玩家們帶來角色扮演的機會和糾葛難題、並提供遊戲主持人絕佳的故事引鉤。舉例來說，一名秉持著愛國主義的英雄可能會發現政府機構在私底下做出違背世界正義的勾當，當這件事發生時，他的內心將開始掙扎：是英雄的愛國之心更為強烈？還是那挖掘真相、伸張正義的渴望會勝出？有些衝突甚至會導致英雄的動機發生改變，詳情請參閱後述的{@rule 變更糾葛難題|basic|2|changing complications}章節。"
 									]
 								}
 							]
@@ -1382,37 +1382,37 @@
 							"type": "entries",
 							"translate_name": "其他糾葛難題", "name": "Other Complications",
 							"entries": [
-								"Other possible complications, and their uses in adventures, include:",
+								"其他可能的糾葛難題以及它們在冒險中的影響，包括：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Accident}: You cause or suffer some sort of accident. Perhaps a stray blast damages a building or hurts an innocent bystander, your fire powers set off sprinkler systems, or you cause volatile chemicals to explode. A hero with this as a regular complication may be especially accident-prone, inexperienced with their powers, or even jinxed! The GM decides the effects of an accident, but they should be troublesome. Accidents can lead to further complications; perhaps the hero develops a guilt-complex, obsession, or phobia involving the accident.",
-										"{@b Addiction}: You need something, whether for physical or psychological reasons. You’ll go out of your way to satisfy your addiction, and being unable to satisfy it may lead to other complications, either involving your own faculties or your relationships with people. Several comic book heroes have struggled with various addictions and the effects on their lives.",
-										"{@b Disability}: You are limited by a particular disability, such as being blind, deaf, or paraplegic. When your disability places serious challenges in your path, your complication comes into play. Many “disabled” heroes have powers or other compensations for their disabilities, such as a blind hero with other enhanced senses or a paraplegic who is a powerful psychic with matchless mobility of mind over body. Even though their powers sometime make up for their disability, this complication is still appropriate because they may have to deal with it from time to time.",
-										"{@b Enemy}: You have an enemy, or enemies, trying to do you harm. The GM can have your enemy show up to cause you trouble, and adventures involving your enemy tend to be more complicated for you; even personal grudge-matches, if the enmity goes both ways. When having an enemy causes a particular problem for you (such as your enemy abducting a loved one or laying a trap for you), you get a victory point.",
-										"{@b Fame}: You’re a public figure, known almost everywhere you go, hounded by the media, swamped by fans and well-wishers, and similar problems, which create various complications.",
-										"{@b Hatred}: You have an irrational hatred of something, leading you to actively oppose the object of your dislike in some way, no matter the consequences. Complications involving your hatred tend to overwhelm your better judgment.",
-										"{@b Honor}: You have a strong personal code of honor. Generally this means you won’t take unfair advantage of opponents or use trickery, but you can define the exact terms of your code with the GM. Your honor becomes a complication when it puts you in a bind or on the horns of a moral dilemma.",
-										"{@b Identity}: Heroes often maintain secret identities, creating various complications as they try to keep them secret from friends and enemies alike. The dual-identity can even go beyond mere disguise for heroes who actually transform into a different persona, creating complications around controlling that transformation, or a lack of powers or abilities in one persona.",
-										"{@b Obsession}: You’re obsessed with a particular subject and pursue it to the exclusion of all else, which can create quite a few complications.",
-										"{@b Phobia}: You’re irrationally afraid of something. When confronted with it you have to fight to control your fear, causing you to hesitate, flee, or act irrationally.",
-										"{@b Power Loss}: Certain circumstances cause some or all of your powers to fail or stop working, or rob you of them altogether. You might depend on particular objects others can steal or take from you, or lose your powers during the dark of the moon, or when exposed to exotic radiation. You may even simply lose faith in yourself, resulting in temporary weakness. When this happens, and poses a challenge for you, your complication comes into play.",
-										"{@b Prejudice}: You are part of a minority group subject to the prejudices of others, which create problems. Similarly, characters with unusual origins or appearance might face prejudice, such as a demonic-looking hero who is considered suspect. Some Gamemasters and gaming groups may prefer not to deal with issues of prejudice in their games, in which case the GM is free to ban this complication.",
-										"{@b Quirk}: Complications can often come from various personality quirks: likes, dislikes, hobbies, neuroses, and so forth. For example, a hero might have the quirk of always leaving some sort of “calling card” for the authorities along with a captured criminal. That could become a complication if somebody else starts imitating it, or uses it to cause trouble for the hero.",
-										"{@b Relationship}: The important people in a hero’s life are a source of strength, but they can also complicate matters considerably. If they are not in on the hero’s costumed identity, then there is juggling two lives and keeping loved ones safely in the dark. On the other hand, if the people in a hero’s life do know the truth, they are in danger from the hero’s foes and others seeking to find out.",
-										"{@b Reputation}: You have a bad reputation, affecting what others think of you (whether you deserve it or not). Having someone adopt a bad attitude toward you because of your reputation is a complication. You might struggle to overcome your reputation, taking chances or facing difficulties others do not as a result.",
-										"{@b Responsibility}: You have various demands on your time and attention. Responsibilities include family obligations, professional duties, and similar things. Failing to live up to your responsibilities can mean loss of relationships, employment, and other problems.",
-										"{@b Rivalry}: You feel a strong sense of competition with a person or group and have to do your best to outdo your rival at every opportunity.",
-										"{@b Secret}: You have something potentially damaging or embarrassing you’re hiding from the world. The most common secret for heroes is their true identity, but it could be a secret weakness (another complication) or some dark secret from your past. Occasionally, something (or someone) may threaten to reveal your secret.",
-										"{@b Temper}: Certain things just set you off. When you lose your temper you lash out at whatever provoked you.",
-										"{@b Weakness}: Some things can hurt you, badly. You might have a weakness that overcomes your normally strong defenses, like a werewolf is vulnerable to silver, or you may suffer harm from things that are harmless to others, from water to cold iron or exotic energies or materials. A weakness may add degrees of effect or impose an entirely different effect. Affliction (see {@b Powers}) is the typical effect, but some weaknesses inflict outright Damage, Weaken the target, or have some other effect. You and the GM can discuss common effects beforehand and it is up to the GM to decide what happens when the particular weakness comes into play. When the GM uses your weakness against you, it’s a complication."
+										"{@b 意外事故}: 你造成或遭受了某種意外事故。或許是偏離的爆破攻擊波及了周遭的建築物或無辜的旁觀者、或許你的火焰能力觸發了自動灑水系統、或者你誤使揮發性化學藥劑產生爆炸。一名將這類問題做為經常性糾葛難題的英雄可能會是個超級倒楣鬼、也許尚無法純熟運用自己的超能力、或甚至可能厄運纏身！由GM決定這些意外事故的效果，但它們一定要能帶來麻煩。意外事故可能會導致更進一步的糾葛難題；或許英雄會因此發展出涉及這類意外的內疚感、迷戀、或恐懼。",
+										"{@b 成癮}: 你迫切需要某個事物，無論是出於生理或心理因素。你會想盡辦法滿足你的癮頭，且無法滿足它可能會因此導致其他的糾葛難題，這可能會涉及你自己的身體機能、或是你與他人的人際關係。許多漫畫中的英雄一直在與各式各樣的癮頭中掙扎，並對抗它們對其生活的影響。",
+										"{@b 殘疾}: 你受到了某種身體殘疾的囹圄，例如失明、失聰、或甚至半身不遂。當你的身體殘疾為你的道路帶來了重大的挑戰，就是這個糾葛難題發揮作用的時候。許多「殘廢」的英雄都擁有超能力或其他針對他們身體殘疾的補償，比如說，雙眼失明的英雄可能會有著其他強化感官，而半身不遂的英雄可能會是一名強大的靈能者，能夠藉由心靈力量達成超乎身體能力的高機動性。儘管他們的超能力有時能彌補他們的身體殘疾，但這類糾葛難題仍然適合出現在遊戲中，因為他們仍可能需要時不時直面處理這些問題。",
+										"{@b 敵人}: 你有著一名、或多名不斷嘗試傷害你的死敵。GM可以讓你的敵人出現並造成麻煩或混亂，而牽涉了你敵人的冒險對你而言往往更加複雜；若你們彼此都對對方抱有敵意，那麼即使是個人恩怨的層級也屬於這個類別。當這名死敵的存在對你造成了特定的難題（例如你的死敵綁架了你的摯愛、或設下的陷阱），則你將因此獲得糾葛難題所帶來的勝利點。",
+										"{@b 名聲顯赫}: 你是一名公眾人物。幾乎無論你到哪，大家都認識你，你可能因此時常被媒體追逐簇擁、被粉絲和祝福者圍繞、或是遭遇其他類似的問題，而這些也可能衍生出其他各種的糾葛難題。",
+										"{@b 憎恨}: 你對於某個事物抱持著一種非理性的憎恨，促使你以某種方式積極地反對抵制你所厭惡的對象，不管這會導致什麼後果都一樣。涉及你的憎恨地糾葛難題往往會使你無法做出更佳的判斷。",
+										"{@b 榮譽感}: 你有著強烈的個人榮譽原則。通常來說，這代表著你不會在面對對手時不會利用不公平的優勢或使用詭計，但你可以和GM討論以定義你榮譽原則的實際內容。你的榮譽感會在它使你陷入困境、或兩難的道德困境時成為糾葛難題。",
+										"{@b 秘密身分}: 英雄們經常會維持他們的祕密身分，而當他們試著藏起這個祕密不讓他們的朋友或敵人知道時，就會產生各種各樣的糾葛難題。雙重身分對於能夠實際變化成另一個人的英雄而言可能甚至不僅僅是偽裝那麼簡單，這種情形所衍生的糾葛難題可能會圍繞著變化能力的控制、或者處於另一個身分時將無法使用超能力之類的困境。",
+										"{@b 迷戀}: 你癡迷於某個特定的事物，且會不顧一切地追求它，這可能會導致許多其他的糾葛難題。",
+										"{@b 恐懼}: 你不理性的害怕著某個事物。當你面對它時，你必須努力控制你的恐懼，並可能讓你因此猶豫、逃跑、或做出不理智的行動。",
+										"{@b 能力喪失}: 某些情境可能會使你一部份或全部的超能力失效或停止作用，或甚至完全剝奪你的超能力。也許你的超能力是源自於某個可以被他人偷走或奪去的特定物品、或者你會在無月之夜、或暴露在奇特輻射之下時失去你的超能力。甚至你可能只是單純對自己失去信心，並因此導致了暫時性的弱點。當這些事情發生時，並對你而言構成了挑戰時，你的糾葛難題就能夠發揮它的效果了。",
+										"{@b 偏見歧視}: 你是受到偏見歧視影響的少數族群的一員，而這可能帶來許多問題。同樣的，有著不尋常起源或外貌的角色也可能會面臨這樣的偏見歧視，比如說有著惡魔般外貌的英雄可能就會受到懷疑。有些遊戲主持人和遊戲團體會傾向不在他們的遊戲中處理歧視的議題，在這種情況下，GM可以自由的禁止這類糾葛難題。",
+										"{@b 怪癖}: 糾葛難題也可以源自於各種各樣的個人怪癖：喜歡或厭惡的事情、嗜好、神經質等等。舉例來說，一名英雄可能會有著總愛給當局和追捕的罪犯留下某種「名片」的怪癖，當某些人開始模仿這種行為、或利用這種行為來給英雄製造麻煩，那麼這就可能會成為一個糾葛難題。",
+										"{@b 深刻關係}: 英雄生命中重要的人們可以成為他力量的源頭，但也可能使問題變得相當複雜。如果英雄沒有讓他們知道自己的英雄身分，那麼他就得同時應付兩種生活，並在黑暗中保護他所深愛的人們。另一方面，若這些人確實知曉英雄的真相，那他們就可能會因此面臨敵人或其他人等的威脅。",
+										"{@b 惡名昭彰}: 你有著相當糟糕的名聲，並影響著他人對你的看法（無論你是否罪有應得）。當別人因為你的惡名而對你採取不好的態度，就是一個典型的糾葛難題。你可能會努力掙扎於洗刷你的惡名，並可能會因此抓緊任何機會、或直面他人不敢面對的困境。",
+										"{@b 責任感}: 你有各種會耗費你時間和注意力的責任需求。責任感包括了家庭義務、職業使命、和其他類似的事物。沒能履行責任的後果可能意味著失去人際關係、工作、或其他的問題。",
+										"{@b 競爭對手}: 你對某個人或某個團體懷有強烈的競爭意識，且你必須盡最大的努力以把握每個超越你競爭對手的機會。",
+										"{@b 秘密}: 你隱藏著某個可能會傷害或使你無地自容的秘密。對於英雄而言最為常見的秘密就是他們的真實身分，但這也可以包括秘密弱點（另一種糾葛難題）﹔或某些源自你過往的黑暗秘密。偶爾，某些事物（或某個人）可能會威脅要洩漏你的祕密。",
+										"{@b 壞脾氣}: 某些事物會讓你暴跳如雷。當你發脾氣時，你將猛烈地痛擊激怒你的事物。",
+										"{@b 弱點}: 某些事物可能會狠狠地傷害到你。你可能會有一個能克服你強大防禦的致命弱點，就像狼人會被銀質武器所傷害一樣。又或者，那些對他人而言無害的事物可能會對你造成傷害，從流水、到寒鐵、或罕見的能量或物質等等。弱點可能會添加一定程度的超能力效果，或甚至造成完全不同的超能力效果。{@effect 詛咒}是最為典型的效果，但某些弱點也可能導致立即的{@effect 傷害}、使目標{@effect 弱化}、或造成其他效果。你和GM可以事先討論一些常見的效果影響，並最後由GM決定當特定弱點發揮作用時會發生什麼事情。當GM利用你的弱點來對付你，那就是糾葛難題發生的時候了。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "變更糾葛難題", "name": "Changing Complications",
 									"entries": [
-										"Complications can (and generally should) change over the course of a series: old enemies die or are put away for good, rivalries and psychological issues are resolved, new romances and relationships begin as others end, and so forth. Work with the GM to come up with new complications for your hero as old ones are resolved. As mentioned previously, the Gamemaster may set limits as to how many ongoing complications your hero can have in play at any given time."
+										"糾葛難題可以（且通常應該要）隨著劇集的進展而改變：舊敵人死去或被永遠囚禁、競爭對手和心理問題被妥善解決、新的愛情故事和人際關係開始發展，而過往的人際關係則劃上了句點，諸如此類。隨著舊有的糾葛難題被解決，你將需要和GM一起討論並為你的英雄想出新的糾葛難題。如前面所提及的，遊戲主持人可以限制你的英雄在同一時間最多所能擁有的糾葛難題數量。"
 									]
 								},
 								{
@@ -1420,18 +1420,18 @@
 									"type": "inset",
 									"translate_name": "糾葛難題與創傷", "name": "Complications and Injuries",
 									"entries": [
-										"Various challenges heroes face over the course of a story make suitable complications. For example, while the game rules don’t have specific details for how to handle a hero with a concussion, it can make for an interesting story. The easiest way to handle it is as a complication: whenever the injury causes the hero trouble (a lost action due to dizziness, a villain getting away, etc.), the GM awards a victory point. You can do the same with anything from a malfunctioning device to a persistent distraction."
+										"英雄們在故事過程中所面對的各種挑戰都能夠產生出合適的糾葛難題。舉例來說，儘管遊戲規則並沒有明定出細節規則來說明該如何處理有著腦震盪殘疾的英雄，這種情境仍可以成為一個相當有趣的故事。最簡單的處理方式就是將之作為一個糾葛難題：每當這個創傷導致英雄陷入麻煩（因頭暈目眩而停止動作、讓反派逃脫等等），GM將會給予一點勝利點做為獎勵。你可以用同樣的方式處理任何其他類似的情況，從裝置故障、到持續性的干擾等等都可以。"
 									]
 								}
 							]
 						},
 						{
 							"type": "inset",
-							"name": "Under the Hood: Complications and Up-Front Rewards",
+							"translate_name": "幕後花絮：糾葛難題與預付獎勵", "name": "Under the Hood: Complications and Up-Front Rewards",
 							"entries": [
-								"Some roleplaying game systems include complications, disadvantages, or similar problematic character traits which offer “bonus points” for creating the character; essentially, you get more points for your character’s good traits when you take on some bad ones.",
-								"The problem with such “up-front” rewards for giving a character flaws is that the player gets all of the reward (the bonus design points) immediately, but the disadvantage only occasionally limits or affects the character, sometimes even randomly. Since there is only so much “screen time” in a game session, there is virtually no way for the GM to spotlight every one of every character’s disadvantages, so some end up being worth “more” in the sense of reward in exchange for drawbacks. Plus, after they have “paid out” their initial benefit, front-loaded negative traits are nothing but a burden to the character from that point forward, leading players to try and avoid or mitigate them as much as possible.",
-								"Complications address this issue by having a “pay-as-you-go” approach: if the GM uses a complication in the game, and the player responds by going along with it, the player gets a reward in the form of a victory point. This means that although the hero has to deal with some “bad stuff” from time to time, there is an upside, and a reason for players to want their characters’ complications to come into play! Why do powerful heroes lead such complicated lived? They need the points!"
+								"有些角色扮演遊戲的規則系統同樣導入了糾葛難題、劣勢、或其他類似的負面角色特徵以在創建角色時換取「額外點數」；實際上，當你讓角色擁有越多的負面特徵，你就能得到更多的點數以購買正面的特性數據。",
+								"然而，這類「預付支付」獎勵的角色缺陷有個問題，就是玩家能夠在當下便立刻得到所有獎勵（額外的創角點數），但其劣勢只會偶爾的限制或影響角色，有時這些影響甚至近乎是隨機發生。由於一場遊戲聚會畢竟只有那麼多的「演出時間」，因此實際上，GM並沒有辦法聚焦在每個角色的每一個缺陷上，也因此，從代價回報的角度來看，這些缺點最終將會帶來比原本「更多」的價值。除此之外，當玩家們「領取」到了最初的好處之後，這些缺點從此就單純成為了角色的負擔，促使玩家們盡可能的規避或減輕他們所帶來的壞處。",
+								"在這個遊戲中，糾葛難題的機制則嘗試以「隨收隨付制」的方式解決這個問題：若GM在遊戲中運用了一個糾葛難題，且玩家們順應困境做出了回應，那麼玩家將因此獲得一點勝利點做為獎勵。這代表著儘管英雄們必須時時應付這些「壞事」，他們仍能從中獲得好處，這個事實更能讓玩家們主動要求他們的糾葛難題被導入遊戲之中！為什麼超級英雄會讓這類糾葛難題存在？因為他們需要勝利點！"
 							]
 						}
 					]
@@ -1473,7 +1473,7 @@
 										"{@b 天賜}: 某些外在力量將超能力賦予給了英雄。這個外在力量可能會是一次實驗過程、一個神一般的高位權能、一個發放強大超級裝置的秘密組織、一名神秘的巫師、或其他類似的要素。賦予你力量的存在也許會期望從英雄們那裡得到一些回報，也可能他們就這樣無條件地賦予了這份恩賜給英雄。",
 										"{@b 實驗}: 有些英雄是藉著刻意的嘗試努力來獲得超能力，例如能將人轉化成超級生物的科學或神秘科技。類似於意外類型的起源，這些實驗通常是不可能被複製的。英雄可能會是自願的志願者，或是被挑選來測試這項科技的犧牲品。有些英雄則會藉著實驗創造出屬於他們自己的超能力，比如說研發能獲得超能力的實驗過程、或是打造出自己的超級裝置。",
 										"{@b 變異}: 英雄可能就只是生來「與眾不同」，擁有著能夠發揮超能力的遺傳潛能。這些潛在能力通常會在壓力大的時期湧現，尤其是青春期所帶來的變化。除此之外，它們也可能會在意外事故導致的高壓環境中一口氣爆發出來（將意外起源跟變異起源結合）。",
-										"{@b 訓練}: 最後，有些英雄會透過刻苦鍛鍊獲得超能力，無論是身體訓練、學習深奧的武術技巧、藉著冥想和內省以釋放隱藏的心靈力量、或是修行掌握魔法技術。這類鍛鍊的過程通常相當艱苦，且並不是每個人都有能力完成它們。藉著訓練來獲得超能力的英雄們可能會擁有一名與他們一同鍛鍊學習的角色做為宿敵或對手（參見敵人和宿敵的糾葛難題）。"
+										"{@b 訓練}: 最後，有些英雄會透過刻苦鍛鍊獲得超能力，無論是身體訓練、學習深奧的武術技巧、藉著冥想和內省以釋放隱藏的心靈力量、或是修行掌握魔法技術。這類鍛鍊的過程通常相當艱苦，且並不是每個人都有能力完成它們。藉著訓練來獲得超能力的英雄們可能會擁有一名與他們一同鍛鍊學習的角色做為敵人或競爭對手（參見敵人和競爭對手的糾葛難題）。"
 									]
 								},
 								{

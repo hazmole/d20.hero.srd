@@ -1359,21 +1359,21 @@
 									"type": "entries",
 									"name": "Motivations as Descriptors",
 									"entries": [
-										"At the GM’s option motivation can function as a descriptor for powers (see {@b Descriptors}), allowing character to have a power affecting only subjects with a particular motivation, for example, or the ability to detect characters with a particular motivation (see {@b Detect}). Gamemasters should be very careful when applying power modifiers based on subjective qualities like motivation. An attack power affecting only “evil” targets, for example, is useless against inanimate objects, constructs, and animals (which cannot have such a quality) as well as “good” targets. It might also not affect characters without a specific evil motivation (such as selfish mercenaries, violent vigilantes, or despots devoted solely to order, but not “evil” per se)."
+										"At the GM’s option motivation can function as a descriptor for powers (see {@rule Descriptors|basic|6|descriptors}), allowing character to have a power affecting only subjects with a particular motivation, for example, or the ability to detect characters with a particular motivation (see {@b Detect}). Gamemasters should be very careful when applying power modifiers based on subjective qualities like motivation. An attack power affecting only “evil” targets, for example, is useless against inanimate objects, constructs, and animals (which cannot have such a quality) as well as “good” targets. It might also not affect characters without a specific evil motivation (such as selfish mercenaries, violent vigilantes, or despots devoted solely to order, but not “evil” per se)."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Motivations as Origins",
 									"entries": [
-										"Some characters may derive their powers from their motivation in some way, such as heroes who draw strength from their convictions, faith, or morality. This provides a descriptor for those powers, but the hero may also suffer Power Loss (see Complications) from a change or wavering in motivation."
+										"Some characters may derive their powers from their motivation in some way, such as heroes who draw strength from their convictions, faith, or morality. This provides a descriptor for those powers, but the hero may also suffer Power Loss (see {@rule Complications|basic|2|complications}) from a change or wavering in motivation."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Motivations in Conflict",
 									"entries": [
-										"A character with different motivations may find them in conflict from time to time. Such conflicts provide roleplaying opportunities and complications for players and story hooks for the Gamemaster. For example, a hero motivated by Patriotism may discover a secret government agency acting against the interests of justice in the world. What is stronger, the hero’s patriotism or the desire to see the truth known and justice done? Some conflicts may even result in heroes changing motivations. See {@b Changing Complications}, in the following section, for more on this."
+										"A character with different motivations may find them in conflict from time to time. Such conflicts provide roleplaying opportunities and complications for players and story hooks for the Gamemaster. For example, a hero motivated by Patriotism may discover a secret government agency acting against the interests of justice in the world. What is stronger, the hero’s patriotism or the desire to see the truth known and justice done? Some conflicts may even result in heroes changing motivations. See {@rule Changing Complications|basic|2|changing complications}, in the following section, for more on this."
 									]
 								}
 							]
@@ -1405,7 +1405,7 @@
 										"{@b Rivalry}: You feel a strong sense of competition with a person or group and have to do your best to outdo your rival at every opportunity.",
 										"{@b Secret}: You have something potentially damaging or embarrassing you’re hiding from the world. The most common secret for heroes is their true identity, but it could be a secret weakness (another complication) or some dark secret from your past. Occasionally, something (or someone) may threaten to reveal your secret.",
 										"{@b Temper}: Certain things just set you off. When you lose your temper you lash out at whatever provoked you.",
-										"{@b Weakness}: Some things can hurt you, badly. You might have a weakness that overcomes your normally strong defenses, like a werewolf is vulnerable to silver, or you may suffer harm from things that are harmless to others, from water to cold iron or exotic energies or materials. A weakness may add degrees of effect or impose an entirely different effect. Affliction (see {@b Powers}) is the typical effect, but some weaknesses inflict outright Damage, Weaken the target, or have some other effect. You and the GM can discuss common effects beforehand and it is up to the GM to decide what happens when the particular weakness comes into play. When the GM uses your weakness against you, it’s a complication."
+										"{@b Weakness}: Some things can hurt you, badly. You might have a weakness that overcomes your normally strong defenses, like a werewolf is vulnerable to silver, or you may suffer harm from things that are harmless to others, from water to cold iron or exotic energies or materials. A weakness may add degrees of effect or impose an entirely different effect. {@effect Affliction} is the typical effect, but some weaknesses inflict outright {@effect Damage}, {@effect Weaken} the target, or have some other effect. You and the GM can discuss common effects beforehand and it is up to the GM to decide what happens when the particular weakness comes into play. When the GM uses your weakness against you, it’s a complication."
 									]
 								},
 								{
