@@ -4719,6 +4719,13 @@ ul.list.books > li > a > span.name:hover {
 	}
 }
 
+.entryLink {
+	opacity:0.5;
+	padding-left:5px;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+
 // FIXME remove
 .TEST {
 	&_LEADER {

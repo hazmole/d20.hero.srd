@@ -160,5 +160,7 @@
 
 "see_description": "參見描述",
 "varies": "不定",
-"none": "無"
+"none": "無",
+
+"msg_copylink": "複製段落連結"
 }

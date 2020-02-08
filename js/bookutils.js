@@ -411,23 +411,19 @@ const BookUtil = {
 
 	initLinkGrabbers () {
 		const $body = $(`body`);
-		$body.on(`mousedown`, `.entry-title-inner`, function (evt) {
+		$body.on(`mousedown`, `.entryLink`, function (evt) {
 			evt.preventDefault();
 		});
-		$body.on(`click`, `.entry-title-inner`, async function (evt) {
+		$body.on(`click`, `.entryLink`, async function (evt) {
 			const $this = $(this);
-			const mod_text = $this.html().replace(/<st .+>/,"");
-			const text = mod_text.trim().replace(/\.$/, "");
+			const book = BookUtil.curRender.curBookId;
+			const chapter = BookUtil.curRender.chapter;
+			const section = $this.parent().attr('book-idx');
+			const hashParts = [book, chapter, section].map(it => UrlUtil.encodeForHash(it));
 
-			if (evt.shiftKey) {
-				await MiscUtil.pCopyTextToClipboard(text);
-				JqueryUtil.showCopiedEffect($this);
-			} else {
-				const hashParts = [BookUtil.curRender.chapter, text, $this.parent().data("title-relative-index")].map(it => UrlUtil.encodeForHash(it));
-				const toCopy = [`${window.location.href.split("#")[0]}#${BookUtil.curRender.curBookId}`, ...hashParts];
-				await MiscUtil.pCopyTextToClipboard(toCopy.join(HASH_PART_SEP));
-				JqueryUtil.showCopiedEffect($this, "Copied link!");
-			}
+			const url = `${window.location.href.split("#")[0]}#`+hashParts.join(",");
+			await MiscUtil.pCopyTextToClipboard(url);
+			JqueryUtil.showCopiedEffect($this, "Copied!");
 		});
 	},
 
@@ -473,7 +469,7 @@ const BookUtil = {
 			document.title = `${fromIndex.translate_name? fromIndex.translate_name: fromIndex.name} - `+FMT("site_title");
 			$(`.book-head-header`).html(cleanName(fromIndex.translate_name? fromIndex.translate_name: fromIndex.name));
 			BookUtil.showBookContent(data.data, fromIndex, bookId, hashParts);
-
+			BookUtil.initLinkGrabbers();
 			//NavBar.highlightCurrentPage();
 		}
 

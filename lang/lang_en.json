@@ -160,5 +160,7 @@
 
 "see_description": "See description",
 "varies": "Varies",
-"none": "None"
+"none": "None",
+
+"msg_copylink": "Copy link to clipboard"
 }
