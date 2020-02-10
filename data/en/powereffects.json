@@ -1777,9 +1777,9 @@
 			"extras": [
 				{
 					"name": "Continuous",
-					"entries": ["Move Object generally cannot have a continuous duration, since it is an active effect and requires at least a modicum of attention to maintain. The GM may allow Continuous Move Object as a variation that is not disrupted when you are unable to maintain it, but that still requires your conscious attention to do anything other than have the affected object hang in midair. There’s no change in the cost of the extra, this is just a limitation of the Move Object effect. You must make Move Object’s duration Sustained (+1 cost per rank) before you can make it Continuous."],
+					"entries": ["Move Object generally cannot have a continuous duration, since it is an active effect and requires at least a modicum of attention to maintain. The GM may allow Continuous Move Object as a variation that is not disrupted when you are unable to maintain it, but that still requires your conscious attention to do anything other than have the affected object hang in midair. There’s no change in the cost of the extra, this is just a limitation of the Move Object effect."],
 					"cost": {
-						"value": 2, "type": "per"
+						"value": 1, "type": "per"
 					}
 				},
 				{
@@ -1815,13 +1815,6 @@
 					"entries": ["The default version of Move Object involves some noticeable manifestation like a “tractor beam,” a glow around your head or hands (along with a corresponding glow around the affected object), big glowing hands, blazing “energy talons,” a lasso, whip, or the like. Apply the Subtle modifier for a less noticeable Move Object effect, such as invisible “psychokinesis” (which is generally also Perception Range)."],
 					"cost": {
 						"value": 1, "type": "flat"
-					}
-				},
-				{
-					"name": "Sustained",
-					"entries": ["Sustained duration Move Object can hold an object in a static position (floating in midair, for example) with only a free action needed to maintain the effect. Grabbing or actively moving an object still requires a standard action, but you can “hold” multiple objects at once."],
-					"cost": {
-						"value": 1, "type": "per"
 					}
 				}
 			],

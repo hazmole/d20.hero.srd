@@ -369,7 +369,7 @@
 					"type": "entries",
 					"name": "Multiple Targets",
 					"entries": [
-						"You can use Multiattack to hit multiple targets at once by “walking” or “spraying” the Multiattack across an arc. Roll one attack check per target in the arc. You suffer a penalty to each check equal to the total number of targets. So making a Multiattack against five targets is a –5 penalty to each attack check. If you miss one target, you may still attempt to hit the others."
+						"You can use Multiattack to hit multiple targets at once by “walking” or “spraying” the Multiattack across an arc. Roll one attack check per target in the arc. You suffer a penalty to each check equal to the total number of targets. So making a Multiattack against five targets is a –5 penalty to each attack check. If you miss one target, you may still attempt to hit the others. To avoid hitting a target in the arc, such as a bystander, you need the {@modifier Selective} extra."
 					]
 				},
 				{
@@ -767,7 +767,7 @@
 					"type": "entries",
 					"name": "Removable Point Value",
 					"entries": [
-						"Removable applies to the power as a whole and not individual effects, although it may apply to a power with only one effect. The flaw is worth –1 point (–2 points for Easily Removable) per 5 total character points of the power’s final cost, after applying extras and flaws to its effects.",
+						"Removable applies to the power as a whole and not individual effects, although it may apply to a power with only one effect. The flaw is worth –1 point (–2 points for Easily Removable) per 5 total character points of the power’s final cost, rounded up, after applying extras and flaws to its effects.",
 						{
 							"type": "example",
 							"entries": [

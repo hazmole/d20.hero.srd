@@ -4183,7 +4183,7 @@
 									"type": "entries",
 									"name": "Size",
 									"entries": [
-										"A vehicle’s size is measured in categories, as shown on the Vehicle Size Categories table. A vehicle’s size determines its base Strength, Toughness, and Defense values. Vehicles start out at medium size by default, and each increase in size category costs 1 power point."
+										"A vehicle’s size is measured in categories, as shown on the Vehicle Size Categories table. A vehicle’s size determines its base Strength, Toughness, and Defense values. Vehicles start out at medium size by default, and each increase in size category costs 1 equipment point."
 									]
 								},
 								{
@@ -4207,7 +4207,7 @@
 										[
 											"Awesome",
 											"Space transport",
-											"20", "15", "-12"
+											"20", "15", "-10"
 										],
 										[
 											"Colossal",
@@ -4217,17 +4217,17 @@
 										[
 											"Gargantuan",
 											"Semi, yacht, fighter jet",
-											"12", "11", "-4"
+											"12", "11", "-6"
 										],
 										[
 											"Huge",
 											"Stretch limo, SUV, tank",
-											"8", "9", "-2"
+											"8", "9", "-4"
 										],
 										[
 											"Large",
 											"Car, small truck",
-											"4", "7", "-1"
+											"4", "7", "-2"
 										],
 										[
 											"Medium",
@@ -4325,7 +4325,7 @@
 								"Size",
 								"Strength",
 								"Speed",
-								"Defense",
+								"Defense Class",
 								"Toughness",
 								"Cost"
 							],
@@ -4353,7 +4353,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Car",
-										"L","5","5","8","8","10"
+										"L","5","5","8","8","8"
 									]
 								},
 								{

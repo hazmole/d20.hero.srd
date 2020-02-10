@@ -4152,12 +4152,12 @@
 					"type": "section",
 					"translate_name": "載具", "name": "Vehicles",
 					"entries": [
-						"Not every hero can fly (or teleport, or run at super-speed…). Sometimes heroes make use of other means to get around. Vehicles are used primarily for transportation, although they may come with additional capabilities—including weapons—making them useful in other situations as well.",
+						"並不是每個英雄都能在空中翱翔（或瞬間移動、或以超高速奔馳……）。有時候英雄們可能會利用其他方式以四處移動。載具主要被用於運輸交通，然而它們可能搭載的額外設備──比如說武器──讓它們也能在其他情境中派上用場。",
 						{
 							"type": "entries",
 							"translate_name": "載具數據", "name": "Vehicle Traits",
 							"entries": [
-								"Vehicles have the following traits: Size, Strength, Speed, Defense, and Toughness. Like characters, each of a vehicle’s traits costs points to improve. The basic cost for a vehicle is its Speed, but other things, like the vehicle’s ability to haul cargo  or resist damage, cost points as well. Vehicles can even have power effects of their own. Equipment point costs are summarized on the Vehicle Trait Cost table.",
+								"載具俱備下列幾種數據：尺寸、力量屬性、速度、防禦、和堅實屬性。就跟角色一樣，載具的每個數據都可以藉由花費點數來強化。載具的基本花費主要為它的速度，但其他像是在距運輸貨物或承受傷害之類的能力，也同樣會需要花費額外的點數。載具甚至可以擁有屬於它們自己的超能力。這些數據所需要花費的裝備點被彙整於下方的「載具數據的花費表」。",
 								{
 									"type": "table",
 									"caption": "載具數據的花費",
@@ -4183,7 +4183,7 @@
 									"type": "entries",
 									"translate_name": "尺寸", "name": "Size",
 									"entries": [
-										"A vehicle’s size is measured in categories, as shown on the Vehicle Size Categories table. A vehicle’s size determines its base Strength, Toughness, and Defense values. Vehicles start out at medium size by default, and each increase in size category costs 1 power point."
+										"載具的尺寸大小是以其類別來衡量，參見「載具尺寸類別表」。載具的尺寸將會決定它的基礎力量屬性、堅實屬性、和防禦數值。載具的初始預設尺寸為中型，且每增加一級的尺寸類別都會需要花費1點裝備點。"
 									]
 								},
 								{
@@ -4207,7 +4207,7 @@
 										[
 											"極巨型(A)",
 											"太空運輸",
-											"20", "15", "-12"
+											"20", "15", "-10"
 										],
 										[
 											"超巨型(C)",
@@ -4217,17 +4217,17 @@
 										[
 											"巨型(G)",
 											"半掛式卡車、遊艇、戰鬥機",
-											"12", "11", "-4"
+											"12", "11", "-6"
 										],
 										[
 											"超大型(H)",
 											"伸縮豪華轎車、運動型休旅車(SUV)、坦克",
-											"8", "9", "-2"
+											"8", "9", "-4"
 										],
 										[
 											"大型(L)",
 											"轎車、小型貨車",
-											"4", "7", "-1"
+											"4", "7", "-2"
 										],
 										[
 											"中型(M)",
@@ -4325,7 +4325,7 @@
 								"尺寸",
 								"力量屬性",
 								"速度",
-								"防禦",
+								"防禦層級",
 								"堅實屬性",
 								"花費"
 							],
@@ -4353,7 +4353,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"汽車",
-										"大型","5","5","8","8","10"
+										"大型","5","5","8","8","8"
 									]
 								},
 								{

@@ -1049,7 +1049,7 @@
 				"str": 12,
 				"sta": 12,
 				"agl": 3,
-				"dex": 3,
+				"dex": 1,
 				"fgt": 8,
 				"int": 0,
 				"awe": 1,
@@ -1344,7 +1344,7 @@
 			"spent": {
 				"ability": 38,
 				"defense": 22,
-				"skill": 14,
+				"skill": 13,
 				"advantage": 5,
 				"power": 72
 			},
