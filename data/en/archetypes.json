@@ -564,7 +564,7 @@
 			"attributes": {
 				"str": 0,
 				"sta": 0,
-				"agl": 1,
+				"agl": 2,
 				"dex": 3,
 				"fgt": 4,
 				"int": 10,

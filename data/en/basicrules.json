@@ -3626,7 +3626,7 @@
 												"Shotgun",
 												"{@modifier Increased Range|Ranged} {@effect Damage|Damage 5}*",
 												"20",
-												"10"
+												"11"
 											]
 										},
 										{
@@ -3891,7 +3891,7 @@
 												"Smoke",
 												"{@modifier Increased Range|Ranged} {@modifier Area|Cloud Area} {@effect Concealment} {@modifier Attack|Attack 4}",
 												"14",
-												"12"
+												"16"
 											]
 										},
 										{
@@ -4369,7 +4369,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Limousine",
-										"H","8","5","6","9","6"
+										"H","8","5","6","9","7"
 									]
 								},
 								{
@@ -4377,7 +4377,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Truck",
-										"H","9","5","6","9","7"
+										"H","9","5","6","9","8"
 									]
 								},
 								{
@@ -4385,7 +4385,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Armored Car",
-										"H","8","5","6","12","8"
+										"H","8","5","6","12","10"
 									]
 								},
 								{
@@ -4393,7 +4393,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Tank*",
-										"H","10","4","6","12","65"
+										"H","10","4","6","12","67"
 									]
 								},
 								{
@@ -4401,7 +4401,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"APC*",
-										"H","12","4","6","12","35"
+										"H","12","4","6","12","37"
 									]
 								},
 								{
@@ -4442,7 +4442,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Speedboat",
-										"L","6","6","8","7","8"
+										"L","6","6","8","7","9"
 									]
 								},
 								{
@@ -4458,7 +4458,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Cutter*",
-										"G","13","5","4","12","27"
+										"G","13","5","4","12","28"
 									]
 								},
 								{
@@ -4539,7 +4539,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Bomber*",
-										"C","13","9","2","13","59"
+										"C","16","9","2","13","60"
 									]
 								},
 								["{@i Space Vehicles}","","","","","",""],
@@ -4556,7 +4556,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Space Fighter*",
-										"H","10","14","6","11","56"
+										"H","10","14","6","11","54"
 									]
 								},
 								{
@@ -4589,7 +4589,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Mole Machine*",
-										"H","11","4","6","12","10"
+										"H","11","4","6","12","12"
 									]
 								},
 								{
