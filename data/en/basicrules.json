@@ -4247,7 +4247,7 @@
 									"type": "entries",
 									"name": "Speed",
 									"entries": [
-										"A vehicle buys the appropriate movement effect(s) for its Speed, paying the normal cost. Vehicles with multiple modes of movement (air, ground, and water, for example) pay full cost for the most expensive and can acquire the others as Alternate Effects (see Alternate Effect modifier in Powers)."
+										"A vehicle buys the appropriate movement effect(s) for its Speed, paying the normal cost. Vehicles with multiple modes of movement (air, ground, and water, for example) pay full cost for the most expensive and can acquire the others as {@modifier Alternate Effect|Alternate Effects}."
 									]
 								},
 								{
@@ -4272,11 +4272,11 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Alarm}: The vehicle has an alarm system that goes off when an unauthorized access or activation attempt is made. A Technology check (DC 20) can overcome the alarm. For each additional equipment point, the DC increases by 5.",
+												"{@b Alarm}: The vehicle has an alarm system that goes off when an unauthorized access or activation attempt is made. A {@skill Technology} check (DC 20) can overcome the alarm. For each additional equipment point, the DC increases by 5.",
 												"{@b Caltrops}: A vehicle may be equipped with a dispenser for caltrops, spikes meant to damage tired. Activating the dispenser is a standard action. Caltrops automatically blow out the tires of ordinary vehicles that run over them (consider such vehicles “minions”). Heroes and villains can make DC 13 Toughness checks for their vehicles; tires are Toughness 3. One degree of failure slows the vehicle, while two degrees of failure immobilize it.",
-												"{@b Hidden Compartments}: The vehicle has hidden compartments or cargo areas holding up to a tenth of the vehicle’s medium load in cargo. A Perception check (DC 20) allows the searcher to find the hidden compartment. For each additional equipment point, the DC increases by 5.",
+												"{@b Hidden Compartments}: The vehicle has hidden compartments or cargo areas holding up to a tenth of the vehicle’s medium load in cargo. A {@skill Perception} check (DC 20) allows the searcher to find the hidden compartment. For each additional equipment point, the DC increases by 5.",
 												"{@b Navigation System}: The vehicle is equipped with a navigation system that grants a +5 circumstance bonus on skill checks related to navigation.",
-												"{@b Oil Slick}: The vehicle can release an oil slick, covering a 20-ft. by 20-ft. area and forcing the driver of a pursuing vehicle to make a Vehicles check (DC 15) to retain control of the vehicle. Releasing the oil slick is a standard action.",
+												"{@b Oil Slick}: The vehicle can release an oil slick, covering a 20-ft. by 20-ft. area and forcing the driver of a pursuing vehicle to make a {@skill Vehicles} check (DC 15) to retain control of the vehicle. Releasing the oil slick is a standard action.",
 												"{@b Remote Control}: The vehicle’s owner can operate it remotely using a transmitter and control device. remotely controlling a vehicle requires the same kind of action (usually a move action) as if you were actually behind the wheel of the vehicle."
 											]
 										}

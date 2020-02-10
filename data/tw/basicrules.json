@@ -1430,7 +1430,7 @@
 							"translate_name": "幕後花絮：糾葛難題與預付獎勵", "name": "Under the Hood: Complications and Up-Front Rewards",
 							"entries": [
 								"有些角色扮演遊戲的規則系統同樣導入了糾葛難題、劣勢、或其他類似的負面角色特徵以在創建角色時換取「額外點數」；實際上，當你讓角色擁有越多的負面特徵，你就能得到更多的點數以購買正面的特性數據。",
-								"然而，這類「預付支付」獎勵的角色缺陷有個問題，就是玩家能夠在當下便立刻得到所有獎勵（額外的創角點數），但其劣勢只會偶爾的限制或影響角色，有時這些影響甚至近乎是隨機發生。由於一場遊戲聚會畢竟只有那麼多的「演出時間」，因此實際上，GM並沒有辦法聚焦在每個角色的每一個缺陷上，也因此，從代價回報的角度來看，這些缺點最終將會帶來比原本「更多」的價值。除此之外，當玩家們「領取」到了最初的好處之後，這些缺點從此就單純成為了角色的負擔，促使玩家們盡可能的規避或減輕他們所帶來的壞處。",
+								"然而，這類「預先支付」獎勵的角色缺陷有個問題，就是玩家能夠在當下便立刻得到所有獎勵（額外的創角點數），但其劣勢只會偶爾的限制或影響角色，有時這些影響甚至近乎是隨機發生。由於一場遊戲聚會畢竟只有那麼多的「演出時間」，因此實際上，GM並沒有辦法聚焦在每個角色的每一個缺陷上，也因此，從代價回報的角度來看，這些缺點最終將會帶來比原本「更多」的價值。除此之外，當玩家們「領取」到了最初的好處之後，這些缺點從此就單純成為了角色的負擔，促使玩家們盡可能的規避或減輕他們所帶來的壞處。",
 								"在這個遊戲中，糾葛難題的機制則嘗試以「隨收隨付制」的方式解決這個問題：若GM在遊戲中運用了一個糾葛難題，且玩家們順應困境做出了回應，那麼玩家將因此獲得一點勝利點做為獎勵。這代表著儘管英雄們必須時時應付這些「壞事」，他們仍能從中獲得好處，這個事實更能讓玩家們主動要求他們的糾葛難題被導入遊戲之中！為什麼超級英雄會讓這類糾葛難題存在？因為他們需要勝利點！"
 							]
 						}
@@ -4175,7 +4175,7 @@
 										["速度", "等同 移動類型效果 的花費"],
 										["堅實屬性", "1點／每+1堅實屬性"],
 										["防禦", "1點／每+1防禦"],
-										["特色", "1點／每個特色"],
+										["功能特色", "1點／每個功能特色"],
 										["超能力", "等同 超能力 的花費（參見第五章）"]
 									]
 								},
@@ -4240,44 +4240,44 @@
 									"type": "entries",
 									"translate_name": "力量屬性", "name": "Strength",
 									"entries": [
-										"A vehicle’s Strength, much like a character’s, determines its carrying capacity. You can increase a vehicle’s Strength over the base rank for its size for 1 equipment point per Strength rank."
+										"載具的力量屬性與角色的力量很像，被用以決定載具所能承載的重量。你可以在載具尺寸給出的基礎等級上繼續增加其力量屬性，每花費1點裝備點就能增加1級的力量屬性等級。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "速度", "name": "Speed",
 									"entries": [
-										"A vehicle buys the appropriate movement effect(s) for its Speed, paying the normal cost. Vehicles with multiple modes of movement (air, ground, and water, for example) pay full cost for the most expensive and can acquire the others as Alternate Effects (see Alternate Effect modifier in Powers)."
+										"載具需要為它們的速度數據購買合適的移動類效果，並正常支付這些效果所需的花費。擁有多種移動模式的載具（例如陸、海、空）可以支付最昂貴的移動效果的完整花費，並將其他移動手段做為{@modifier 替換效果}來購買（這意味著其他移動手段只需要花費1點裝備點）。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "防禦", "name": "Defense",
 									"entries": [
-										"A vehicle’s size determines its base Defense, which is used to determine the Defense Class to hit the vehicle with attacks. For sizes larger than medium, this is a penalty, making it easier to target the vehicle, even to the point where attackers can hit it as a routine check. You can “buy off” the Defense penalty applied to a vehicle for 1 equipment point per –1 penalty removed."
+										"載具的尺寸將會決定其基礎防禦數值，且這個基礎防禦數值會再被用以決定攻擊該載具時所需克服的防禦層級。對於那些尺寸大於中型的載具而言，這個防禦數值將會帶來罰值，這代表攻擊會更加容易命中該載具，甚至到攻擊者能夠以例行檢定的方式命中它的程度。你可以花費點數購買以擺脫應用於載具的防禦罰值，每花費1點裝備點就能夠移除-1罰值。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "堅實屬性", "name": "Toughness",
 									"entries": [
-										"Size category determines a vehicle’s base Toughness rank, used for Toughness resistance checks. You can increase a vehicle’s Toughness over the base rank for its size for 1 equipment point per Toughness rank."
+										"尺寸類別也會決定載具的基礎堅實屬性等級，用以進行堅實抵抗檢定。你可以在載具尺寸給出的基礎等級上繼續增加其堅實屬性，每花費1點裝備點就能增加1級的堅實屬性等級。"
 									]
 								},
 								{
 									"type": "entries",
-									"translate_name": "特色", "name": "Features",
+									"translate_name": "功能特色", "name": "Features",
 									"entries": [
-										"Certain things are considered “standard” on any vehicle. These include seating, safety harnesses or seat belts, heating and air-conditioning, radio receiver, headlights, and similar things with little or no impact on game play. Features are “optional extras” for vehicles and cost 1 point each. The GM can determine if other features are included in the vehicle or cost points. Some “features” are actually powers, described in the following section.",
+										"某些事物會被視為所有載具的基本配備。這些事物包括了座位、安全吊帶或安全帶、空調、無線電接收器、頭燈、以及其他不會對遊戲造成影響的類似事物。至於功能特色則被視為載具的「額外強化」，且每個功能特色都需要花費1點裝備點。GM可以決定某個功能特色是否已經包含在載具或其花費中。某些「功能特色」實際上會被視為超能力，詳情請參見後述段落的說明。",
 										{
 											"type": "list",
 											"items": [
-												"{@b Alarm}: The vehicle has an alarm system that goes off when an unauthorized access or activation attempt is made. A Technology check (DC 20) can overcome the alarm. For each additional equipment point, the DC increases by 5.",
-												"{@b Caltrops}: A vehicle may be equipped with a dispenser for caltrops, spikes meant to damage tired. Activating the dispenser is a standard action. Caltrops automatically blow out the tires of ordinary vehicles that run over them (consider such vehicles “minions”). Heroes and villains can make DC 13 Toughness checks for their vehicles; tires are Toughness 3. One degree of failure slows the vehicle, while two degrees of failure immobilize it.",
-												"{@b Hidden Compartments}: The vehicle has hidden compartments or cargo areas holding up to a tenth of the vehicle’s medium load in cargo. A Perception check (DC 20) allows the searcher to find the hidden compartment. For each additional equipment point, the DC increases by 5.",
-												"{@b Navigation System}: The vehicle is equipped with a navigation system that grants a +5 circumstance bonus on skill checks related to navigation.",
-												"{@b Oil Slick}: The vehicle can release an oil slick, covering a 20-ft. by 20-ft. area and forcing the driver of a pursuing vehicle to make a Vehicles check (DC 15) to retain control of the vehicle. Releasing the oil slick is a standard action.",
-												"{@b Remote Control}: The vehicle’s owner can operate it remotely using a transmitter and control device. remotely controlling a vehicle requires the same kind of action (usually a move action) as if you were actually behind the wheel of the vehicle."
+												"{@b 警報系統}: 載具所搭載的警報系統，會在載具受到未經授權的操作使用時發出警報。一次成功的{@skill 科技}檢定（DC 20）可以克服這套警報系統。每花費一點額外的裝備點，克服這套警報系統所需的DC就會增加5。",
+												"{@b 鐵蒺藜}: 載具可能會搭載著一套能夠投放出鐵蒺藜或針刺的發射裝置，用以損壞其他載具的輪胎。啟動發射裝置需要一個標準動作。鐵蒺藜會自動戳破從它們身上輾過的輪胎（這些鐵蒺藜將被視為載具的「嘍囉」）。英雄和反派可以為他們的載具進行一次DC 13的堅實檢定；輪胎的堅實屬性為3級。一個程度的失敗將會減緩載具的速度，而二個或以上程度的失敗將會使載具陷入{@condition 無法移動}的狀態。",
+												"{@b 秘密艙室}: 載具擁有隱藏的艙室或載貨區域，可以容納不超過該載具中等承載貨量的十分之一的事物。一次成功的{@skill 感知}檢定（DC 20）能夠讓搜索者發現到隱藏的艙室。每花費一點額外的裝備點，發現隱藏艙室所需的DC就會增加5。",
+												"{@b 導航系統}: 載具所搭載的導航系統，會為涉及導航的技能檢定提供+5的情境加值。",
+												"{@b 油灘}: 載具可以釋放出一灘滑溜的油灘，覆蓋一片20呎乘20呎的區域，並強迫在後方追逐的車輛駕駛進行一次{@skill 駕駛}檢定（DC 15）以維持對車輛的控制。釋放油灘需要一個標準動作。",
+												"{@b 遙控系統}: 載具的擁有者能夠藉由發信器和控制裝置進行遠端操作。遠端操控載具時所需採取的動作，與你在車輛上實際操作的動作相同（通常為一個移動動作）。"
 											]
 										}
 									]
@@ -4290,12 +4290,12 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Armor}: Armor provides Protection for a vehicle in addition to its normal Toughness, possibly including Impervious Protection. Some vehicles may have Sustained Protection (such as force screens) instead of, or in addition to, Permanent Protection. 1 point per +1 Toughness.",
-												"{@b Cloaking Device}: A vehicle may have a “cloaking device” granting Concealment from visual senses. Some vehicles may also have Concealment from auditory senses or things such as radar, giving them a “stealth mode.” 4 points (normal vision or all of another sense type) or 8 points (all visual senses).",
-												"{@b Immunity}: Vehicles normally provide immunity to the normal hazards of environments they travel through—such as underwater or in space—at no additional cost. Additional Immunity effects are for unusual hazards or circumstances, such as a car that provides a sealed air system, granting immunity to suffocation and other atmospheric hazards.",
-												"{@b Instruments}: Instruments serve to control the vehicle’s other systems or provide information to its pilot and passengers. In particular, instruments often use the Senses effect for various sensors and scanning equipment. Probably the most common are radar (Accurate Radio, often with ranks of Extended) and sonar (Accurate Extended Ultra-Hearing).",
-												"{@b Smokescreen}: The vehicle can release a cloud of thick smoke or mist that provides an Area visual Concealment Attack to hide the vehicle or confuse pursuers. 12 points.",
-												"{@b Weapons}: Vehicle weapons are based on various attack effects, particularly Damage with various modifiers. Vehicles, especially military vehicles, may mount versions of some of the weapons listed elsewhere."
+												"{@b 裝甲}: Armor provides Protection for a vehicle in addition to its normal Toughness, possibly including Impervious Protection. Some vehicles may have Sustained Protection (such as force screens) instead of, or in addition to, Permanent Protection. 1 point per +1 Toughness.",
+												"{@b 隱形裝置}: A vehicle may have a “cloaking device” granting Concealment from visual senses. Some vehicles may also have Concealment from auditory senses or things such as radar, giving them a “stealth mode.” 4 points (normal vision or all of another sense type) or 8 points (all visual senses).",
+												"{@b 免疫}: Vehicles normally provide immunity to the normal hazards of environments they travel through—such as underwater or in space—at no additional cost. Additional Immunity effects are for unusual hazards or circumstances, such as a car that provides a sealed air system, granting immunity to suffocation and other atmospheric hazards.",
+												"{@b 儀器}: Instruments serve to control the vehicle’s other systems or provide information to its pilot and passengers. In particular, instruments often use the Senses effect for various sensors and scanning equipment. Probably the most common are radar (Accurate Radio, often with ranks of Extended) and sonar (Accurate Extended Ultra-Hearing).",
+												"{@b 煙幕}: The vehicle can release a cloud of thick smoke or mist that provides an Area visual Concealment Attack to hide the vehicle or confuse pursuers. 12 points.",
+												"{@b 武器}: Vehicle weapons are based on various attack effects, particularly Damage with various modifiers. Vehicles, especially military vehicles, may mount versions of some of the weapons listed elsewhere."
 											]
 										}
 									]
