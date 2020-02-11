@@ -4716,7 +4716,7 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "尺寸", "name": "Size",
+									"translate_name": "尺寸", "name": "Headquarters Size",
 									"entries": [
 										"建築物尺寸的衡量方式與載具所使用的方法類似，給出一個關於其整體佔據空間、以及內部空間大小的大致概念。參見「建築物尺寸類別表」以查閱其準則。據點總部的初始預設尺寸為小型（0點裝備點）。每增加一級的尺寸類別都會需要花費1點裝備點，而每減少一級尺寸類別將會使你獲得1點額外點數以花費在你據點總部的其他數據上，僅管這麼一來你可能就不會有太多空間可以擺放那些追加強化設施！"
 									]
@@ -4750,62 +4750,62 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "堅實屬性", "name": "Toughness",
+									"translate_name": "堅實屬性", "name": "Headquarters Toughness",
 									"entries": [
 										"據點總部的堅實屬性代表著它建築材質的強度，尤其是它的外部結構強度（牆壁、天花板等等）。建築物的起始堅實屬性為6級，每1點裝備點可以使其堅實屬性+2級。"
 									]
 								},
 								{
 									"type": "entries",
-									"translate_name": "超能力階級", "name": "Power Level",
+									"translate_name": "超能力階級", "name": "Headquarters Power Level",
 									"entries": [
 										"有些特色會參考據點總部的超能力階級。對於玩家角色來說，這就是劇集整體的超能力階級。對於非玩家角色，特別是反派角色而言，這個數值則會是該根據地擁有者的實質超能力等級、或者任何GM所希望設定的超能力等級。GM可以依據劇集超能力階級做為設定的參考。"
 									]
 								},
 								{
 									"type": "entries",
-									"translate_name": "功能特色", "name": "Features",
+									"translate_name": "功能特色", "name": "Headquarters Features",
 									"entries": [
 										"據點總部可能具備好幾個功能特色，從下表中選擇。一個據點總部會自動擁有其基礎建築設備而無須另外花費裝備點，像是門窗、電源插座、水電煤氣等公用設施等等。除此之外的每個功能特色都需要花費1點裝備點。在遊戲主持人的同意下，你可以在這裡列出的基礎上發明額外的功能特色。",
 										{
 											"type": "entries",
-											"translate_name": "戰鬥模擬設施", "name": "Combat Simulator",
+											"translate_name": "戰鬥模擬器", "name": "Combat Simulator",
 											"entries": [
-												"A combat simulator is a special room equipped with various devices intended to test characters’ powers and skills and allow them to train in realistic combat situations. Generally, a combat simulator has a suite of equipment that can simulate any appropriate attack effect at a rank up to the HQ power level. ",
-												"As an additional feature, the combat simulator can project realistic illusions, allowing it to recreate or simulate almost any environment. Combat simulators are useful for training and short “war games” (pitting the characters against each other or simulated opponents). Clever heroes also can try to lure intruders into the combat simulator or an intruder might override the simulator’s control systems and trap the heroes in it, turning it into a deathtrap."
+												"戰鬥模擬器是一個搭載著各種用以測試角色超能力和技巧的特殊房間，讓他們得以在擬真的戰鬥環境下進行訓練。通常來說，戰鬥模擬器搭載著一整套配備，能夠模擬出任何效果等級不超過據點總部超能力階級的攻擊類效果。",
+												"若再額外購買一次這個功能特色，則戰鬥模擬器將能夠投射出擬真幻境，重新創造或模擬出幾乎任何環境。戰鬥模擬器相當適合用於鍛鍊和進行短暫的「戰爭遊戲」（讓角色們彼此對抗或模擬敵人）。聰明的英雄們也能夠嘗試誘導入侵者進入戰鬥模擬器、或入侵者也可能覆寫模擬器的控制系統並將英雄們困在其中，並將其轉變成致命的死亡陷阱。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "通訊設備", "name": "Communications",
 											"entries": [
-												"The  communications  feature  allows  the  headquarters to receive and transmit on a wide range of radio and TV bands, monitor police and emergency channels, coordinate communications between members of a team, and so forth. It includes communications equipment, consoles, and monitors. The system’s access to restricted communication bands  depends on the clearance and skills of the user. Heroes often have access to special government channels, while a successful Technology skill check (DC 25) can grant a user illegal access to restricted systems."
+												"通訊設備讓據點總部能夠接收並傳送各種不同的無線電波、電視頻段、警察監控和緊急頻道、團隊成員間的協同溝通，諸如此類。這個功能特色包括了各種通訊裝備、控制台、和顯示器。這個系統存取管制通訊頻段的能力將取決於使用者的存取授權和相關技能等級。英雄們經常能夠存取特殊的政府頻道，而一次成功的{@skill 科技}技能檢定（DC 25）則能夠賦予使用者非法存取被管制系統的權限。"
 											]
 										},
 										{
 											"type": "entries",
-											"translate_name": "超級電腦", "name": "Computer",
+											"translate_name": "電腦系統", "name": "Computer",
 											"entries": [
-												"A state-of-the-art computer system serves the entire headquarters. This allows characters to make full use of the Technology skill and the computer can be programmed to handle routine base functions (including monitoring communications channels and controlling defensive systems). An artificially intelligent computer system should be created as a Minion or Sidekick, perhaps with the cost shared among members of a team. See the Constructs section for more."
+												"最先進的電腦系統服務著整個據點總部。這讓角色們得以充分利用{@skill 科技}技能，且電腦可以透過編程來處理例行的基本功能（包括監控通訊頻道和控制防禦系統）。搭載人工智慧的電腦系統需要被做為嘍囉或跟班來創作，且其花費或許會由整個團隊的成員共同支付。參見{@rule 構裝體|basic|7|constructs}章節以查閱更多細節。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "隱匿", "name": "Concealed",
 											"entries": [
-												"The headquarters is hidden from the outside world in some way. It may be camouflaged behind a false façade, buried underground, or something similar. Note this is in addition to the Isolated feature, if any. An isolated headquarters is difficult to reach, while a concealed headquarters is difficult to find in the first place. Skill checks to locate the headquarters have their DC increased by +10. Each additional feature applied to this increases the DC +5, to a maximum of +30."
+												"據點總部以某種方式從外界中隱藏了起來。它可能是偽裝在虛假表面之下、深埋於地面深處、或藉著其他類似的手段來達到這個效果。要注意的是，這個功能特色與後述的「孤立」特色有所不同：一座俱備孤立特色的據點總部難以讓他人到達，而一座俱備隱匿特色的據點總部則難以在第一時間被發現。定位該據點總部位置時所進行的技能檢定的DC將會因此+10。每額外應用一級的這個功能特色都將使該技能檢定的DC再+5，最高累積到+30。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "防禦系統", "name": "Defense System",
 											"entries": [
-												"A defense system consists of various weapon emplacements defending the  exterior and interior of the headquarters. A defense system can have any attack effect with a cost no greater than twice the HQ power level. Their attack bonus is equal to the power level."
+												"防禦系統是由佈署於據點總部內外的各種武器所構成。防禦系統能夠擁有任何花費不超過據點總部超能力階級二倍的攻擊類效果。它們的攻擊加值將等同於其超能力階級。"
 											]
 										},
 										{
 											"type": "entries",
-											"translate_name": "致命陷阱", "name": "Deathtraps",
+											"translate_name": "死亡陷阱", "name": "Deathtraps",
 											"entries": [
 												"A villainous version of the Defense System feature is deathtraps: the villain’s lair has one or more fiendish traps suitable for disposing of those pesky heroes. Some deathtraps are designed as security systems to keep heroes out: concealed auto-guns, walls of flames, sealing rooms that fill with water or sand, and so forth. Others are intended for the slow elimination of captured heroes.",
 												"Note that not having this feature does not mean a villain cannot jury-rig a deathtrap within the lair—say, by chaining heroes beneath a rocket counting down to launch, or slowly lowering them into a volcano’s caldera. It just means there’s no part of the base specifically designed as a deathtrap.",
@@ -4964,7 +4964,7 @@
 										},
 										{
 											"type": "entries",
-											"translate_name": "時光遲滯", "name": "Temporal Limbo",
+											"translate_name": "時光邊界", "name": "Temporal Limbo",
 											"entries": [
 												"Time within the headquarters actually moves at a different rate than that of the world outside! Time within the structure is either slowed or sped up compared to the normal passage of time, passing at half or twice the normal rate. Each additional application of this feature doubles the ratio of time passage: one-quarter or four times, one-eighth or eight times, and so forth.",
 												"This time differential allows a character within an accelerated Temporal Limbo to spend additional time planning, building, or recovering while little or no time passes outside, for example. Conversely, it allows characters in a slowed Temporal Limbo to pass great amounts of time outside without aging, perhaps allowing for long periods of self-imposed exile or contemplation."
@@ -5004,82 +5004,136 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "廢棄倉庫", "name": "Abandoned Warehouse",
+									"subtitle": "10 點",
 									"entries": [
-										"{@b 尺寸}: 中型",
-										"{@b 堅實屬性}: 8",
-										"{@b 特色}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System • 10 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 中型",
+												"{@b 堅實屬性}: 8",
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 車庫, 健身房, 生活空間, 供電系統, 安全系統"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "月球基地", "name": "Moon-base",
+									"subtitle": "28 點",
 									"entries": [
-										"{@b 尺寸}: 極巨型",
-										"{@b 堅實屬性}: 20",
-										"{@b 特色}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 極巨型",
+												"{@b 堅實屬性}: 20",
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "軌道衛星", "name": "Orbiting satellite",
+									"subtitle": "25 點",
 									"entries": [
-										"{@b 尺寸}: 超巨型",
-										"{@b 堅實屬性}: 20",
-										"{@b 特色}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 超巨型",
+												"{@b 堅實屬性}: 20",
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "至聖所", "name": "Sanctum Sanctorum",
+									"subtitle": "12 點",
 									"entries": [
-										"{@b 尺寸}: 中型",
-										"{@b 堅實屬性}: 10",
-										"{@b 特色}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 中型",
+												"{@b 堅實屬性}: 10",
+												"{@b 特色}: 隱匿, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "海上基地", "name": "Sea-base",
+									"subtitle": "16 點",
 									"entries": [
-										"{@b 尺寸}: 巨型",
-										"{@b 堅實屬性}: 14",
-										"{@b 特色}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 巨型",
+												"{@b 堅實屬性}: 14",
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "摩天大樓（5層樓）", "name": "Skyscraper (5 floors)",
+									"subtitle": "17 點",
 									"entries": [
-										"{@b 尺寸}: 大型",
-										"{@b 堅實屬性}: 10",
-										"{@b 特色}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 大型",
+												"{@b 堅實屬性}: 10",
+												"{@b 特色}: 通訊設備, 電腦系統, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "宏偉莊園", "name": "Stately Manor",
+									"subtitle": "19 點",
 									"entries": [
-										"{@b 尺寸}: 超大型",
-										"{@b 堅實屬性}: 10",
-										"{@b 特色}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 超大型",
+												"{@b 堅實屬性}: 10",
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "地下巢穴", "name": "Underground Lair",
+									"subtitle": "19 點",
 									"entries": [
-										"{@b 尺寸}: 超大型",
-										"{@b 堅實屬性}: 14",
-										"{@b 特色}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 超大型",
+												"{@b 堅實屬性}: 14",
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"translate_name": "都會要塞", "name": "Urban Fortress",
+									"subtitle": "22 點",
 									"entries": [
-										"{@b 尺寸}: 大型",
-										"{@b 堅實屬性}: 12",
-										"{@b 特色}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b 尺寸}: 大型",
+												"{@b 堅實屬性}: 12",
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
+											]
+										}
 									]
 								}
 							]

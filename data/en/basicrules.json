@@ -4716,7 +4716,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Size",
+									"translate_name": "Size", "name": "Headquarters Size",
 									"entries": [
 										"A structure’s size is measured similarly to that of a vehicle, and gives a general idea of the overall space it occupies and how much space is available inside it. See the {@b Structure Size Categories} table for guidelines. A headquarters starts out at Small size for 0 points. Each increase in size category  costs  1  point,  each  decrease  in  size  category gives you an additional point to spend elsewhere on your headquarters, although you’re not going to have a lot of room for extras!"
 									]
@@ -4750,21 +4750,21 @@
 								},
 								{
 									"type": "entries",
-									"name": "Toughness",
+									"translate_name": "Toughness", "name": "Headquarters Toughness",
 									"entries": [
 										"A  headquarters’ Toughness  indicates  the  strength  of  its structural materials, particularly its outer structure (walls, ceiling, etc.). A structure starts out with Toughness 6 for 0 points. +2 Toughness costs 1 equipment point."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Power Level",
+									"translate_name": "Power Level", "name": "Headquarters Power Level",
 									"entries": [
 										"Some  features  refer  to  a  headquarters’  power  level.  For player characters, this is the power level of the series overall. For non-player characters, particularly villains, this is the base-owner’s effective power level, or whatever power level the GM wishes to set, using the series power level as a guideline."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Features",
+									"translate_name": "Features", "name": "Headquarters Features",
 									"entries": [
 										"A headquarters may have a number of features, chosen from the list below. A headquarters automatically has the basic structural amenities like doors and windows, power outlets, utilities, and so forth at no cost. Each feature costs 1  equipment  point.  You  can  invent  additional  features, basing them off the ones given here, with the permission of the Gamemaster.",
 										{
@@ -4779,14 +4779,14 @@
 											"type": "entries",
 											"name": "Communications",
 											"entries": [
-												"The  communications  feature  allows  the  headquarters to receive and transmit on a wide range of radio and TV bands, monitor police and emergency channels, coordinate communications between members of a team, and so forth. It includes communications equipment, consoles, and monitors. The system’s access to restricted communication bands  depends on the clearance and skills of the user. Heroes often have access to special government channels, while a successful Technology skill check (DC 25) can grant a user illegal access to restricted systems."
+												"The  communications  feature  allows  the  headquarters to receive and transmit on a wide range of radio and TV bands, monitor police and emergency channels, coordinate communications between members of a team, and so forth. It includes communications equipment, consoles, and monitors. The system’s access to restricted communication bands  depends on the clearance and skills of the user. Heroes often have access to special government channels, while a successful {@skill Technology} skill check (DC 25) can grant a user illegal access to restricted systems."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Computer",
 											"entries": [
-												"A state-of-the-art computer system serves the entire headquarters. This allows characters to make full use of the Technology skill and the computer can be programmed to handle routine base functions (including monitoring communications channels and controlling defensive systems). An artificially intelligent computer system should be created as a Minion or Sidekick, perhaps with the cost shared among members of a team. See the Constructs section for more."
+												"A state-of-the-art computer system serves the entire headquarters. This allows characters to make full use of the {@skill Technology} skill and the computer can be programmed to handle routine base functions (including monitoring communications channels and controlling defensive systems). An artificially intelligent computer system should be created as a Minion or Sidekick, perhaps with the cost shared among members of a team. See the {@rule Constructs|basic|7|constructs} section for more."
 											]
 										},
 										{
@@ -5004,82 +5004,136 @@
 								{
 									"type": "actionBlock",
 									"name": "Abandoned Warehouse",
+									"subtitle": "10 points",
 									"entries": [
-										"{@b Size}: Medium",
-										"{@b Toughness}: 8",
-										"{@b Features}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System • 10 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Medium",
+												"{@b Toughness}: 8",
+												"{@b Features}: Communications, Computer, Concealed, Garage, Gym, Living Space, Power System, Security System"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Moon-base",
+									"subtitle": "28 points",
 									"entries": [
-										"{@b Size}: Awesome",
-										"{@b Toughness}: 20",
-										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Awesome",
+												"{@b Toughness}: 20",
+												"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Orbiting satellite",
+									"subtitle": "25 points",
 									"entries": [
-										"{@b Size}: Colossal",
-										"{@b Toughness}: 20",
-										"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Colossal",
+												"{@b Toughness}: 20",
+												"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others)"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Sanctum Sanctorum",
+									"subtitle": "12 points",
 									"entries": [
-										"{@b Size}: Medium",
-										"{@b Toughness}: 10",
-										"{@b Features}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Medium",
+												"{@b Toughness}: 10",
+												"{@b Features}: Concealed, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Sea-base",
+									"subtitle": "16 points",
 									"entries": [
-										"{@b Size}: Gargantuan",
-										"{@b Toughness}: 14",
-										"{@b Features}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Gargantuan",
+												"{@b Toughness}: 14",
+												"{@b Features}: Communications, Computer, Concealed, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Skyscraper (5 floors)",
+									"subtitle": "17 points",
 									"entries": [
-										"{@b Size}: Large",
-										"{@b Toughness}: 10",
-										"{@b Features}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Large",
+												"{@b Toughness}: 10",
+												"{@b Features}: Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Stately Manor",
+									"subtitle": "19 points",
 									"entries": [
-										"{@b Size}: Huge",
-										"{@b Toughness}: 10",
-										"{@b Features}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Huge",
+												"{@b Toughness}: 10",
+												"{@b Features}: Communications, Computer, Concealed, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Underground Lair",
+									"subtitle": "19 points",
 									"entries": [
-										"{@b Size}: Huge",
-										"{@b Toughness}: 14",
-										"{@b Features}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Huge",
+												"{@b Toughness}: 14",
+												"{@b Features}: Communications, Computer, Concealed, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System"
+											]
+										}
 									]
 								},
 								{
 									"type": "actionBlock",
 									"name": "Urban Fortress",
+									"subtitle": "22 points",
 									"entries": [
-										"{@b Size}: Large",
-										"{@b Toughness}: 12",
-										"{@b Features}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
+										{
+											"type": "list",
+											"items": [
+												"{@b Size}: Large",
+												"{@b Toughness}: 12",
+												"{@b Features}: Combat Simulator, Communications, Computer, Concealed, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop"
+											]
+										}
 									]
 								}
 							]
