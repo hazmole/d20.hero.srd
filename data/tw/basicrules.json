@@ -3122,7 +3122,7 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "裝備的替換效果(替換裝備)", "name": "Alternate Equipment",
+									"translate_name": "替換裝備（裝備的替換效果）", "name": "Alternate Equipment",
 									"entries": [
 										"就如同超能力效果，無論是擁有一件具有多種功能的裝備，或是一組功能相似的裝備組，只要角色一次只能使用其中一種功能，其花費就可以透過將{@modifier 替換效果}修飾符應用於裝備上而被降低。比如說具備不同使用模式的武器、或具備可重構性的工具都屬於此類。",
 										"角色也可以擁有一系列的替換裝備，亦即一組同時只能使用其中一件裝備的物品陣列。這通常代表著一件擁有多種功能的物品，或是一套或一組包括了各種小道具的工具組。其中一個經典的範例就是多功能腰帶（參見本章節後述的說明）。替換裝備也可以包括像是武器庫之類的事物，提供各種不同的武器供角色切換，但一次只能使用有限的數量。"
@@ -4309,7 +4309,7 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "載具的替換效果", "name": "Alternate Vehicles",
+									"translate_name": "替換載具（載具的替換效果）", "name": "Alternate Vehicles",
 									"entries": [
 										"就如同替換裝備一樣，角色也可能會擁有複數的載具。由於你很難同時駕駛一輛以上的載具，因此在定義上，這也被視為一種替換裝備！也因此，該角色可以只支付最昂貴載具的完整花費，並只為每個花費相同或較廉價的其他載具支付1點裝備點。",
 										"因此，一名擁有一個載具陣列（包括飛機、船舶、汽車）的英雄只需要支付其中最為昂貴的載具的完整花費，並為其他每輛載具支付1點裝備點。該英雄的玩家甚至可以花費一點勝利點以從中拿出一輛摩托車、潛水艇、水上摩托車、或任何該英雄為不時之需所預備的其他載具。"
@@ -4688,20 +4688,13 @@
 					"type": "section",
 					"translate_name": "據點總部", "name": "Headquarters",
 					"entries": [
-						"Whether it’s an underground cave, the top floors of a skyscraper, a satellite in orbit, or a base on the Moon, many heroes and villains maintain their own secret (or not so secret) headquarters. Teams may even pool their equipment points to have a headquarters they share, with the Gamemaster’s approval.",
-						"A character can even have multiple bases of operation (see Alternate Headquarters later in this section). This is more common for villains, who have back-up plans and secret bases they can retreat to when their plans are defeated. If a character’s headquarters is destroyed, the character can choose to rebuild it or build a new headquarters with different features using the same equipment points. Supervillains often go through a succession of different lairs.",
+						"無論是地底洞窟、摩天大廈的頂樓、環繞衛星、或是月球上的基地，許多英雄和反派們都營運著屬於自己的秘密（或其實沒那麼秘密）基地。在遊戲主持人的批准下,團隊成員可能甚至會將他們的裝備點集中在一起，以擁有一個大家共有的據點總部。",
+						"一名角色可以甚至擁有好幾個指揮基地（參見本章在「替換據點總部」段落的說明）。這對於反派而言較為常見，他們可能會擁有許多後備計畫和秘密基地，讓他們能夠在計畫被破壞時撤退，重整旗鼓。若一個角色的據點總部被摧毀，該角色可以選擇重建它、或是建造一個價值相同裝備點，但有著不同功能特色的嶄新據點總部。超級反派經常會建立使用一連串不同的巢穴。",
 						{
 							"type": "entries",
 							"translate_name": "據點總部的數據", "name": "Headquarters Traits",
 							"entries": [
-								"Headquarters have two main traits—Size and Toughness—and a number of possible Features. Each of these costs equipment points.",
-								{
-									"type": "entries",
-									"translate_name": "尺寸", "name": "Size",
-									"entries": [
-										"A structure’s size is measured similarly to that of a vehicle, and gives a general idea of the overall space it occupies and how much space is available inside it. See the {@b Structure Size Categories} table for guidelines. A headquarters starts out at Small size for 0 points. Each increase in size category  costs  1  point,  each  decrease  in  size  category gives you an additional point to spend elsewhere on your headquarters, although you’re not going to have a lot of room for extras!"
-									]
-								},
+								"據點總部具有兩個主要數據：尺寸、以及堅實屬性，此外還可能會有數個功能特色。這些數據都會花費一定數量的裝備點。",
 								{
 									"type": "table",
 									"caption": "據點總部數據的花費",
@@ -4718,7 +4711,14 @@
 									"rows": [
 										["尺寸", "小型", "1點／每尺寸類別"],
 										["堅實屬性 ", "6", "1點／每+2堅實屬性"],
-										["特色", "—", "1點／每個特色"]
+										["功能特色", "—", "1點／每個功能特色"]
+									]
+								},
+								{
+									"type": "entries",
+									"translate_name": "尺寸", "name": "Size",
+									"entries": [
+										"建築物尺寸的衡量方式與載具所使用的方法類似，給出一個關於其整體佔據空間、以及內部空間大小的大致概念。參見「建築物尺寸類別表」以查閱其準則。據點總部的初始預設尺寸為小型（0點裝備點）。每增加一級的尺寸類別都會需要花費1點裝備點，而每減少一級尺寸類別將會使你獲得1點額外點數以花費在你據點總部的其他數據上，僅管這麼一來你可能就不會有太多空間可以擺放那些追加強化設施！"
 									]
 								},
 								{
@@ -4764,12 +4764,12 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "特色", "name": "Features",
+									"translate_name": "功能特色", "name": "Features",
 									"entries": [
-										"A headquarters may have a number of features, chosen from the list below. A headquarters automatically has the basic structural amenities like doors and windows, power outlets, utilities, and so forth at no cost. Each feature costs 1  equipment  point.  You  can  invent  additional  features, basing them off the ones given here, with the permission of the Gamemaster.",
+										"據點總部可能具備好幾個功能特色，從下表中選擇。一個據點總部會自動擁有其基礎建築設備而無須另外花費裝備點，像是門窗、電源插座、水電煤氣等公用設施等等。除此之外的每個功能特色都需要花費1點裝備點。在遊戲主持人的同意下，你可以在這裡列出的基礎上發明額外的功能特色。",
 										{
 											"type": "entries",
-											"name": "Combat Simulator",
+											"translate_name": "戰鬥模擬設施", "name": "Combat Simulator",
 											"entries": [
 												"A combat simulator is a special room equipped with various devices intended to test characters’ powers and skills and allow them to train in realistic combat situations. Generally, a combat simulator has a suite of equipment that can simulate any appropriate attack effect at a rank up to the HQ power level. ",
 												"As an additional feature, the combat simulator can project realistic illusions, allowing it to recreate or simulate almost any environment. Combat simulators are useful for training and short “war games” (pitting the characters against each other or simulated opponents). Clever heroes also can try to lure intruders into the combat simulator or an intruder might override the simulator’s control systems and trap the heroes in it, turning it into a deathtrap."
@@ -4777,35 +4777,35 @@
 										},
 										{
 											"type": "entries",
-											"name": "Communications",
+											"translate_name": "通訊設備", "name": "Communications",
 											"entries": [
 												"The  communications  feature  allows  the  headquarters to receive and transmit on a wide range of radio and TV bands, monitor police and emergency channels, coordinate communications between members of a team, and so forth. It includes communications equipment, consoles, and monitors. The system’s access to restricted communication bands  depends on the clearance and skills of the user. Heroes often have access to special government channels, while a successful Technology skill check (DC 25) can grant a user illegal access to restricted systems."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Computer",
+											"translate_name": "超級電腦", "name": "Computer",
 											"entries": [
 												"A state-of-the-art computer system serves the entire headquarters. This allows characters to make full use of the Technology skill and the computer can be programmed to handle routine base functions (including monitoring communications channels and controlling defensive systems). An artificially intelligent computer system should be created as a Minion or Sidekick, perhaps with the cost shared among members of a team. See the Constructs section for more."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Concealed",
+											"translate_name": "隱匿", "name": "Concealed",
 											"entries": [
 												"The headquarters is hidden from the outside world in some way. It may be camouflaged behind a false façade, buried underground, or something similar. Note this is in addition to the Isolated feature, if any. An isolated headquarters is difficult to reach, while a concealed headquarters is difficult to find in the first place. Skill checks to locate the headquarters have their DC increased by +10. Each additional feature applied to this increases the DC +5, to a maximum of +30."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Defense System",
+											"translate_name": "防禦系統", "name": "Defense System",
 											"entries": [
 												"A defense system consists of various weapon emplacements defending the  exterior and interior of the headquarters. A defense system can have any attack effect with a cost no greater than twice the HQ power level. Their attack bonus is equal to the power level."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Deathtraps",
+											"translate_name": "致命陷阱", "name": "Deathtraps",
 											"entries": [
 												"A villainous version of the Defense System feature is deathtraps: the villain’s lair has one or more fiendish traps suitable for disposing of those pesky heroes. Some deathtraps are designed as security systems to keep heroes out: concealed auto-guns, walls of flames, sealing rooms that fill with water or sand, and so forth. Others are intended for the slow elimination of captured heroes.",
 												"Note that not having this feature does not mean a villain cannot jury-rig a deathtrap within the lair—say, by chaining heroes beneath a rocket counting down to launch, or slowly lowering them into a volcano’s caldera. It just means there’s no part of the base specifically designed as a deathtrap.",
@@ -4814,21 +4814,21 @@
 										},
 										{
 											"type": "entries",
-											"name": "Dimensional portal",
+											"translate_name": "維度傳送門", "name": "Dimensional portal",
 											"entries": [
 												"The headquarters has a portal or gateway to another dimension or dimensions. This can range from an otherwise innocuous-looking door to a humming high-tech portal surrounded by support equipment and monitors. The portal provides two-way travel to and from the other dimension, and it may even reach a number of related dimensions.  At the GM’s discretion, an appropriate skill check—typically Expertise or Technology—may be required to operate the portal."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Dock",
+											"translate_name": "船塢", "name": "Dock",
 											"entries": [
 												"A dock houses water vehicles and includes access to a nearby waterway, an airlock or lock system for moving vehicles in and out of the dock, and dry-dock facilities for repairing and maintaining water vehicles. The headquarters should be located within reasonable distance of a body of water to have this feature."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Dual Size",
+											"translate_name": "雙重尺寸", "name": "Dual Size",
 											"entries": [
 												"The headquarters has two separate Size categories: its inside category (purchased normally), which determines the structure’s interior space, and an outside category, one or more size categories smaller. In essence, the headquarters is larger on the inside than on the outside! So a small house, for example, might contain the space of a huge castle on the inside. The GM may even allow size categories beyond Awesome, with each additional category doubling size; expensive HQs could be pocket universes! Pay the cost of the larger size, plus this feature, which lets you set the exterior size at any smaller category.",
 												"In general, the exterior dimensions of the HQ cannot be smaller than a miniscule structure, about the size of a closet or phone booth (or, say, a wardrobe or police box), large enough  for  an  adult  human  to  pass  through  whatever serves as the base’s entrance. Headquarters that have no “exterior” structure, such as an extra-dimensional fortress accessed by a magical talisman, do not have this feature, but instead have things like Dimensional Portal, Isolated, Sealed, and the like."
@@ -4836,28 +4836,28 @@
 										},
 										{
 											"type": "entries",
-											"name": "Effect",
+											"translate_name": "超能力效果", "name": "Effect",
 											"entries": [
 												"A headquarters can be given any appropriate power effect as a feature with the Gamemaster’s approval. The effect cannot have a total cost greater than twice the HQ power level and cannot exceed the power level limits. Effects are assumed to affect either the headquarters or its occupants, if they do both, apply the Affects Others modifier, or take them as separate features."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Fire Prevention System",
+											"translate_name": "防火系統", "name": "Fire Prevention System",
 											"entries": [
 												"The headquarters is equipped with an automatic system for detecting and extinguishing fires. Any large open flame sets the system off (beware, fire-using heroes!). It functions as a Nullify Fire 5 effect. A computer-controlled fire prevention system can be programmed to ignore certain sources of fire or the system can be placed on manual control (requiring someone to throw a switch in order to activate it)."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Garage",
+											"translate_name": "車庫", "name": "Garage",
 											"entries": [
 												"A garage houses ground vehicles and includes a ramp, elevator, or other access to move vehicles in and out, facilities for repairing and maintaining vehicles, and a sliding access door."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Grounds",
+											"translate_name": "空地", "name": "Grounds",
 											"entries": [
 												"In addition to the actual building(s) of the headquarters, it has a considerable area of land surrounding it. An HQ can have surrounding land of one size category larger than the structure at no cost, without having this feature. Having it allows for grounds up to three size categories larger than the structure, so a large mansion headquarters could have a colossal area of land.",
 												"If the headquarters has features like Defense System and Security System, they also extend over the grounds (with fences, sensors, weapon emplacements, and so forth)."
@@ -4865,63 +4865,63 @@
 										},
 										{
 											"type": "entries",
-											"name": "Gym",
+											"translate_name": "健身房", "name": "Gym",
 											"entries": [
 												"A gym consists of weight-training and other exercise machines, space for working out, stretching, and similar exercises, and all the necessary amenities (lockers, showers, etc.). Some HQs may incorporate the gym feature into the combat simulator, for a multi-purpose training room. A gym may also include a pool (heated or unheated, good for aquatic characters), possibly even connected to an outside body of water, to the base’s dock, or both at no additional cost."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Hangar",
+											"translate_name": "飛機庫", "name": "Hangar",
 											"entries": [
 												"A hangar houses air and space vehicles. It includes a hatch and/or runway for the vehicles to launch and facilities for repairing and maintaining flying vehicles. For some HQs the launch facilities of the hangar may require a long tunnel or other access to the outside."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Holding Cells",
+											"translate_name": "拘留室", "name": "Holding Cells",
 											"entries": [
 												"These are cells for holding prisoners, usually temporarily, although some headquarters might have more permanent holding facilities. The cells are equipped with Nullify devices (ranked at the HQ power level) or their basic Toughness is increased by 50%, which option should be agreed upon by both player and GM (both options for two features). Heroes use holding cells to contain captured villains until they can be turned over to the proper authorities while villains use them to keep heroes prisoner until they can dispose of them in their latest deathtrap."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Infirmary",
+											"translate_name": "醫務室", "name": "Infirmary",
 											"entries": [
 												"An infirmary consists of hospital beds and equipment for the full use of the Treatment skill. An infirmary can provide treatment for a number of characters equal to the base’s power level at one time and it can be assumed to have the necessary facilities to handle any unusual physiology of the base’s owner(s)."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Isolated",
+											"translate_name": "孤立", "name": "Isolated",
 											"entries": [
 												"Headquarters with this feature are situated somewhere out of the way like the Antarctic, the bottom of the ocean, on top of a lonely mountain peak, even in orbit or on the Moon. The base’s owner doesn’t have to worry about things like door-to-door salesmen or other unwanted visitors but the headquarters is also far from civilization (which can be limiting for heroes unable to travel fast). The headquarters is assumed to provide all the necessary life-support for its location, but doesn’t provide characters with the means to get to the base or travel back. They need the appropriate powers, a vehicle, or a separate base feature."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Laboratory",
+											"translate_name": "實驗室", "name": "Laboratory",
 											"entries": [
 												"A laboratory is a facility for performing scientific tests or experiments. It contains all the necessary scientific equipment, including dedicated computers, if the headquarters doesn’t have its  own computer system. Characters can use the laboratory to perform research, study unusual phenomena (including many super-powers), and so forth. A laboratory may be required for certain Expertise, Investigation, or Technology skill checks, or provide a circumstance bonus to those checks."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Library",
+											"translate_name": "圖書館", "name": "Library",
 											"entries": [
 												"A library allows for use of various Knowledge skills when doing  research. A library may consist of printed matter (books and periodicals), microfilm, digital files, or a combination of all three. A library may facilitate certain Expertise skill checks and provide a circumstance bonus for them."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Living Space",
+											"translate_name": "生活空間", "name": "Living Space",
 											"entries": [
 												"The headquarters includes all the necessary amenities for people to live there full-time. This is usually a number of residents equal to the HQ’s power level comfortably (possibly more, at the GM’s discretion). It includes bedrooms or private suites, kitchen facilities, dining area, and common living areas. Characters can live in a headquarters lacking this feature short-term, but they’re not likely to be very comfortable."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Personnel",
+											"translate_name": "職員", "name": "Personnel",
 											"entries": [
 												"The HQ has a staff of personnel commensurate with its size and facilities. The staff is made up of characters created and controlled by the GM and tasked with servicing the headquarters. As such, they shouldn’t be considered all-purpose Minions of the occupant(s). A base’s personnel may help defend it in case of attack, but they’re not going to go out on missions or otherwise assist outside of their duties. This feature simply ensures there’s someone taking care of the place while the owner isn’t at home.",
 												"Note that an HQ’s personnel do not have to be ordinary humans. They could be service robots, magical golems, animated skeletons, enslaved aliens, trained apes, or just about anything else the GM chooses to fit with the theme of the base and its owner(s)."
@@ -4929,42 +4929,42 @@
 										},
 										{
 											"type": "entries",
-											"name": "Power System",
+											"translate_name": "供電系統", "name": "Power System",
 											"entries": [
 												"A power system makes the headquarters completely independent of outside power. It has its own generators (which may be solar, geothermal, nuclear, cosmic, or anything else the designer wants). They provide the base’s entire power needs. The headquarters also has emergency back-up power should the generators fail. This generally lasts for a number of hours equal to the HQ’s power level."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Sealed",
+											"translate_name": "密閉", "name": "Sealed",
 											"entries": [
 												"This is similar to the Isolated feature, except the lair is sealed off from the outside world rather than isolated by geographic location. It may be a structure with no doors, windows, or other outside access, or behind some sort of barrier. Only the lair’s owner and designated guests may enter, although the GM should determine means by which trespassers might do so, including effects like Dimensional Travel, Insubstantial, Permeate, and Teleport."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Secret",
+											"translate_name": "秘密", "name": "Secret",
 											"entries": [
 												"This is similar to the Concealed feature except the headquarters is not so much concealed as it is “hiding in plain sight,” its existence as a headquarters unknown. So, for example, people assume the abandoned house on the hill or the old, closed-down factory are just that. This feature increases the DCs of checks to discover the lair—typically starting at DC 10—by +10, with each additional application increasing them by +5 to a maximum of +30 (for truly “top-secret” locations)."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Security System",
+											"translate_name": "安全系統", "name": "Security System",
 											"entries": [
 												"Various locks and alarms protect the headquarters from unauthorized  access. A Technology check (DC 20) overcomes these systems. Each additional feature increases the DC by +5, to a maximum of DC 40. The security system may be tied into a defense system (if the headquarters is equipped with that feature), so triggering an alarm activates the defense system to disable or restrain the intruder(s)."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Self-repairing",
+											"translate_name": "自我修復", "name": "Self-repairing",
 											"entries": [
 												"The structure of the headquarters “heals” any damage done to it over time. Essentially, it recovers like a character does. If this feature is taken twice, the structure will even rebuild itself in a week if it is destroyed! If it cannot rebuild in its original location, it reappears in the nearest suitable place."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Temporal Limbo",
+											"translate_name": "時光遲滯", "name": "Temporal Limbo",
 											"entries": [
 												"Time within the headquarters actually moves at a different rate than that of the world outside! Time within the structure is either slowed or sped up compared to the normal passage of time, passing at half or twice the normal rate. Each additional application of this feature doubles the ratio of time passage: one-quarter or four times, one-eighth or eight times, and so forth.",
 												"This time differential allows a character within an accelerated Temporal Limbo to spend additional time planning, building, or recovering while little or no time passes outside, for example. Conversely, it allows characters in a slowed Temporal Limbo to pass great amounts of time outside without aging, perhaps allowing for long periods of self-imposed exile or contemplation."
@@ -4972,7 +4972,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Workshop",
+											"translate_name": "工坊", "name": "Workshop",
 											"entries": [
 												"A workshop has all the facilities for making various things. It includes tools, workbenches, supplies, and so forth. The Gamemaster may rule certain projects require a dedicated workshop of their own (which is an additional feature). For example, a workshop can easily handle woodworking, metalworking, and machining, but might not be suitable for creating magical inventions (see Inventing in this chapter), which require a separate dedicated workshop."
 											]
@@ -4981,14 +4981,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Shared headquarters",
+									"translate_name": "共用據點總部", "name": "Shared headquarters",
 									"entries": [
 										"A team of heroes most often has a headquarters they all share. In this case, the team members may divide up the equipment  point  cost  of  the  HQ  among  them  however they wish, usually as evenly as possible. Given the equipment point costs of most HQs, team members rarely have to devote more than a single rank of the Equipment advantage to their headquarters, an any excess points may also cover things like team vehicles and equipment (commlinks, for example)."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Alternate headquarters",
+									"translate_name": "替換據點總部（據點總部的替換效果）", "name": "Alternate headquarters",
 									"entries": [
 										"In the event that a character has more than one headquarters, such as hidden bases scattered around the world, the others are treated as Alternate Equipment: the character pays the points for the most expensive HQ, then 1 equipment point for each additional HQ of the same or lesser cost. The extra headquarters are largely a convenience (for heroes visiting other areas) and insurance against the loss of any one HQ.",
 										"The only exception to the Alternate Headquarters guideline is a shared headquarters (previously), the characters sharing the HQ all contribute to its cost and pay for any personal headquarters separately."

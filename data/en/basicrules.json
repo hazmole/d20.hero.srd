@@ -4696,13 +4696,6 @@
 							"entries": [
 								"Headquarters have two main traits—Size and Toughness—and a number of possible Features. Each of these costs equipment points.",
 								{
-									"type": "entries",
-									"name": "Size",
-									"entries": [
-										"A structure’s size is measured similarly to that of a vehicle, and gives a general idea of the overall space it occupies and how much space is available inside it. See the {@b Structure Size Categories} table for guidelines. A headquarters starts out at Small size for 0 points. Each increase in size category  costs  1  point,  each  decrease  in  size  category gives you an additional point to spend elsewhere on your headquarters, although you’re not going to have a lot of room for extras!"
-									]
-								},
-								{
 									"type": "table",
 									"caption": "Headquarters Trait Cost",
 									"colLabels": [
@@ -4719,6 +4712,13 @@
 										["Size", "Small", "1 point per size category"],
 										["Toughness ", "6", "1 point per +2 Toughness"],
 										["Features", "—", "1 point per feature"]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Size",
+									"entries": [
+										"A structure’s size is measured similarly to that of a vehicle, and gives a general idea of the overall space it occupies and how much space is available inside it. See the {@b Structure Size Categories} table for guidelines. A headquarters starts out at Small size for 0 points. Each increase in size category  costs  1  point,  each  decrease  in  size  category gives you an additional point to spend elsewhere on your headquarters, although you’re not going to have a lot of room for extras!"
 									]
 								},
 								{
