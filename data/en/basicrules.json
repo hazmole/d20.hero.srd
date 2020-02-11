@@ -4290,12 +4290,12 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Armor}: Armor provides Protection for a vehicle in addition to its normal Toughness, possibly including Impervious Protection. Some vehicles may have Sustained Protection (such as force screens) instead of, or in addition to, Permanent Protection. 1 point per +1 Toughness.",
-												"{@b Cloaking Device}: A vehicle may have a “cloaking device” granting Concealment from visual senses. Some vehicles may also have Concealment from auditory senses or things such as radar, giving them a “stealth mode.” 4 points (normal vision or all of another sense type) or 8 points (all visual senses).",
-												"{@b Immunity}: Vehicles normally provide immunity to the normal hazards of environments they travel through—such as underwater or in space—at no additional cost. Additional Immunity effects are for unusual hazards or circumstances, such as a car that provides a sealed air system, granting immunity to suffocation and other atmospheric hazards.",
-												"{@b Instruments}: Instruments serve to control the vehicle’s other systems or provide information to its pilot and passengers. In particular, instruments often use the Senses effect for various sensors and scanning equipment. Probably the most common are radar (Accurate Radio, often with ranks of Extended) and sonar (Accurate Extended Ultra-Hearing).",
-												"{@b Smokescreen}: The vehicle can release a cloud of thick smoke or mist that provides an Area visual Concealment Attack to hide the vehicle or confuse pursuers. 12 points.",
-												"{@b Weapons}: Vehicle weapons are based on various attack effects, particularly Damage with various modifiers. Vehicles, especially military vehicles, may mount versions of some of the weapons listed elsewhere."
+												"{@b Armor}: Armor provides {@effect Protection} for a vehicle in addition to its normal Toughness, possibly including {@modifier Impervious} {@effect Protection}. Some vehicles may have {@modifier Sustained} {@effect Protection} (such as force screens) instead of, or in addition to, {@effect Protection|Permanent Protection}. 1 point per +1 Toughness.",
+												"{@b Cloaking Device}: A vehicle may have a “cloaking device” granting {@effect Concealment} from visual senses. Some vehicles may also have {@effect Concealment} from auditory senses or things such as radar, giving them a “stealth mode.” 4 points (normal vision or all of another sense type) or 8 points (all visual senses).",
+												"{@b Immunity}: Vehicles normally provide immunity to the normal hazards of environments they travel through—such as underwater or in space—at no additional cost. Additional {@effect Immunity} effects are for unusual hazards or circumstances, such as a car that provides a sealed air system, granting immunity to suffocation and other atmospheric hazards.",
+												"{@b Instruments}: Instruments serve to control the vehicle’s other systems or provide information to its pilot and passengers. In particular, instruments often use the {@effect Sense|Senses} effect for various sensors and scanning equipment. Probably the most common are radar (Accurate Radio, often with ranks of Extended) and sonar (Accurate Extended Ultra-Hearing).",
+												"{@b Smokescreen}: The vehicle can release a cloud of thick smoke or mist that provides an {@modifier Area} {@effect Concealment|visual Concealment} {@modifier Attack} to hide the vehicle or confuse pursuers. 12 points.",
+												"{@b Weapons}: Vehicle weapons are based on various attack effects, particularly {@effect Damage} with various modifiers. Vehicles, especially military vehicles, may mount versions of some of the weapons listed elsewhere."
 											]
 										}
 									]
@@ -4304,7 +4304,7 @@
 									"type": "entries",
 									"name": "Shared Vehicles",
 									"entries": [
-										"A team of heroes may share a vehicle used by the whole team, particularly useful for shuttling around team members who cannot fly or move at super-speed. The members of the team divide the equipment point cost of the vehicle among them as they see fit, devoting the necessary ranks of the Equipment advantage to covering the vehicle’s cost."
+										"A team of heroes may share a vehicle used by the whole team, particularly useful for shuttling around team members who cannot fly or move at super-speed. The members of the team divide the equipment point cost of the vehicle among them as they see fit, devoting the necessary ranks of the {@advantage Equipment} advantage to covering the vehicle’s cost."
 									]
 								},
 								{
@@ -4539,7 +4539,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"Bomber*",
-										"C","16","9","2","13","60"
+										"C","16","9","2","13","58"
 									]
 								},
 								["{@i Space Vehicles}","","","","","",""],
@@ -4547,7 +4547,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"Space Shuttle*",
+										"Space Shuttle",
 										"C","16","12","2","13","28"
 									]
 								},
@@ -4615,8 +4615,8 @@
 									"items": [
 										"{@b Cars} come in many different varieties. For variations on the base model, add +1 or +2 Str for larger, full-sized, cars, and +1 or even +2 Speed for sports and racing cars.",
 										"{@b Trucks} include pick-ups, sport utility vehicles (SUVs), vans, and similarly sized vehicles.",
-										"{@b Tanks} are heavily armed and armored vehicles. The standard tank has Impervious Toughness 12 and comes equipped with a cannon (Ranged Damage 10, Burst Area 6) and a heavy machine gun (Ranged Multiattack Damage 6). It takes a move action to get into or out of a tank, and another move action to start it up.",
-										"{@b APCs} or Armored Personnel Carriers, are designed for carrying troops. They come with a smaller cannon (Ranged Damage 6, Burst Area 4), Impervious Toughness 8, and are set up so soldiers on board can fire their personal weapons from behind the cover of the APC’s armor."
+										"{@b Tanks} are heavily armed and armored vehicles. The standard tank has {@modifier Impervious|Impervious Toughness 12} and comes equipped with a cannon ({@modifier Increased Range|Ranged} {@effect Damage|Damage 10}, {@modifier Area|Burst Area 6}) and a heavy machine gun ({@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|Damage 6}). It takes a move action to get into or out of a tank, and another move action to start it up.",
+										"{@b APCs} or Armored Personnel Carriers, are designed for carrying troops. They come with a smaller cannon ({@modifier Increased Range|Ranged} {@effect Damage|Damage 6}, {@modifier Area|Burst Area 4}), {@modifier Impervious|Impervious Toughness 8}, and are set up so soldiers on board can fire their personal weapons from behind the cover of the APC’s armor."
 									]
 								}
 							]
@@ -4629,10 +4629,10 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Cutters} are used by the Coast Guard and the Navy. They’re often equipped with light machine guns (Ranged Multiattack Damage 6).",
-										"{@b Destroyers} are main naval ships, carrying heavy guns (Ranged Damage 10, Burst Area 8).",
-										"{@b Battleships} have massive gun batteries (Ranged Damage 13, Burst Area 9) and heavy armor.",
-										"{@b Submarines} are equipped with torpedoes (Ranged damage 8, Burst Area 5) and often ballistic missiles (Ranged Burst Area Damage 15 or higher, not included in listed cost)."
+										"{@b Cutters} are used by the Coast Guard and the Navy. They’re often equipped with light machine guns ({@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|Damage 6}).",
+										"{@b Destroyers} are main naval ships, carrying heavy guns ({@modifier Increased Range|Ranged} {@effect Damage|Damage 10}, {@modifier Area|Burst Area 8}).",
+										"{@b Battleships} have massive gun batteries ({@modifier Increased Range|Ranged} {@effect Damage|Damage 13}, {@modifier Area|Burst Area 9}) and heavy armor.",
+										"{@b Submarines} are equipped with torpedoes ({@modifier Increased Range|Ranged} {@effect Damage|Damage 8}, {@modifier Area|Burst Area 5}) and often ballistic missiles ({@modifier Increased Range|Ranged} {@modifier Area|Burst Area} {@effect Damage|Damage 15 or higher}, not included in listed cost)."
 									]
 								}
 							]
@@ -4645,9 +4645,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Military helicopters} are equipped with machine guns (Ranged Multiattack Damage 6) and rockets (Ranged Damage 9, Burst Area 6).",
-										"{@b Fighter jets} have machine guns (Ranged Multiattack Damage 6) and air-to-air missiles (Ranged Damage 11, Burst Area 8, Homing 6).",
-										"{@b Bombers} may have machine guns and missiles, but also have powerful bombs (Burst Area Damage 12 or higher) they can drop on targets."
+										"{@b Military helicopters} are equipped with machine guns ({@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|Damage 6}) and rockets ({@modifier Increased Range|Ranged} {@effect Damage|Damage 9}, {@modifier Area|Burst Area 6}).",
+										"{@b Fighter jets} have machine guns ({@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|Damage 6}) and air-to-air missiles ({@modifier Increased Range|Ranged} {@effect Damage|Damage 11}, {@modifier Area|Burst Area 8}, {@modifier Homing|Homing 6}).",
+										"{@b Bombers} may have machine guns and missiles, but also have powerful bombs ({@modifier Area|Burst Area} {@effect Damage|Damage 12 or higher}) they can drop on targets."
 									]
 								}
 							]
@@ -4660,9 +4660,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Space fighters} are armed with blaster cannons (Ranged Damage 10).",
-										"{@b Space cruisers} have larger beam weapons (Ranged damage 12) and often energy torpedoes (Ranged Damage 12, Burst Area 10, Homing 8).",
-										"{@b Space battleships} have the most massive weapons: blaster cannons (Ranged Damage 15) and high-powered energy torpedoes (Ranged Damage 15, Burst Area 12, Homing 8)."
+										"{@b Space fighters} are armed with blaster cannons ({@modifier Increased Range|Ranged} {@effect Damage|Damage 10}).",
+										"{@b Space cruisers} have larger beam weapons ({@modifier Increased Range|Ranged} {@effect Damage|Damage 12}) and often energy torpedoes ({@modifier Increased Range|Ranged} {@effect Damage|Damage 12}, {@modifier Area|Burst Area 10}, {@modifier Homing|Homing 8}).",
+										"{@b Space battleships} have the most massive weapons: blaster cannons ({@modifier Increased Range|Ranged} {@effect Damage|Damage 15}) and high-powered energy torpedoes ({@modifier Increased Range|Ranged} {@effect Damage|Damage 15}, {@modifier Area|Burst Area 12}, {@modifier Homing|Homing 8})."
 									]
 								}
 							]
@@ -4675,9 +4675,9 @@
 								{
 									"type": "list",
 									"items": [
-										"{@b Dimension hopper} is a vansized vehicle capable of moving between dimensions like a rank 3 Movement (Dimensional Travel) effect.",
-										"{@b Mole-machines} are classic weapons for underground villains, consisting of a metallic cylinder with treads and a rotating drill mounted on the front, allowing the machine to bore through the earth. Its speed is a Burrowing effect.",
-										"{@b Time machines} may be enclosed vehicles, from cubes to spheres or even pods on legs or police boxes, or they can simply be open platforms or projectors. They provide a Movement (Time Travel) effect, typically rank 2 or 3, although some time machines may transmit only to a fixed point in time."
+										"{@b Dimension hopper} is a vansized vehicle capable of moving between dimensions like a rank 3 {@effect Movement|Movement (Dimensional Travel)} effect.",
+										"{@b Mole-machines} are classic weapons for underground villains, consisting of a metallic cylinder with treads and a rotating drill mounted on the front, allowing the machine to bore through the earth. Its speed is a {@effect Burrowing} effect.",
+										"{@b Time machines} may be enclosed vehicles, from cubes to spheres or even pods on legs or police boxes, or they can simply be open platforms or projectors. They provide a {@effect Movement|Movement (Time Travel)} effect, typically rank 2 or 3, although some time machines may transmit only to a fixed point in time."
 									]
 								}
 							]

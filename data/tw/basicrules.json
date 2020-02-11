@@ -80,7 +80,7 @@
 					{ "translate_name": "通用裝備", "name": "General Equipment" },
 					{ "translate_name": "武器", "name": "Weapons" },
 					{ "translate_name": "護甲", "name": "Armor" },
-					{ "_translate_name": "載具", "name": "Vehicles" },
+					{ "translate_name": "載具", "name": "Vehicles" },
 					{ "_translate_name": "據點總部", "name": "Headquarters" },
 					{ "_translate_name": "構裝體", "name": "Constructs" }
 				]
@@ -4286,16 +4286,16 @@
 									"type": "entries",
 									"translate_name": "超能力", "name": "Powers",
 									"entries": [
-										"A vehicle can have power effects of its own, usually reflecting the vehicle’s systems. Attack effects are suitable for vehicle-mounted weapons, while defense effects protect the vehicle (and often the passengers) from harm. Vehicle powers have their normal cost for the vehicle (meaning they cost one-fifth the normal amount for the vehicle’s owner, since the effects are incorporated into the vehicle and cost equipment points rather than Character points).",
+										"載具可以擁有屬於自己的超能力效果，這通常用以反映該載具所搭載的系統。攻擊類效果非常適合用以呈現載具搭載的武器，而防禦類效果則用以保護載具（以及其乘客）不受傷害。獲得載具超能力將會需要花費等同其正常花費的裝備點（這意味著這些超能力對於載具擁有者而言只會花費原本五分之一的點數，因為這些超能力效果會被整合進載具之中，且它花費的將會是裝備點，而非原本的角色點）。",
 										{
 											"type": "list",
 											"items": [
-												"{@b 裝甲}: Armor provides Protection for a vehicle in addition to its normal Toughness, possibly including Impervious Protection. Some vehicles may have Sustained Protection (such as force screens) instead of, or in addition to, Permanent Protection. 1 point per +1 Toughness.",
-												"{@b 隱形裝置}: A vehicle may have a “cloaking device” granting Concealment from visual senses. Some vehicles may also have Concealment from auditory senses or things such as radar, giving them a “stealth mode.” 4 points (normal vision or all of another sense type) or 8 points (all visual senses).",
-												"{@b 免疫}: Vehicles normally provide immunity to the normal hazards of environments they travel through—such as underwater or in space—at no additional cost. Additional Immunity effects are for unusual hazards or circumstances, such as a car that provides a sealed air system, granting immunity to suffocation and other atmospheric hazards.",
-												"{@b 儀器}: Instruments serve to control the vehicle’s other systems or provide information to its pilot and passengers. In particular, instruments often use the Senses effect for various sensors and scanning equipment. Probably the most common are radar (Accurate Radio, often with ranks of Extended) and sonar (Accurate Extended Ultra-Hearing).",
-												"{@b 煙幕}: The vehicle can release a cloud of thick smoke or mist that provides an Area visual Concealment Attack to hide the vehicle or confuse pursuers. 12 points.",
-												"{@b 武器}: Vehicle weapons are based on various attack effects, particularly Damage with various modifiers. Vehicles, especially military vehicles, may mount versions of some of the weapons listed elsewhere."
+												"{@b 裝甲}: 裝甲為載具提供了除了它原本堅實屬性等級之外{@effect 保護}效果，且可能會包括{@modifier 強抗}{@effect 保護}效果。某些載具除了原本的{@effect Protection|永駐保護}效果之外，可能還會搭載{@modifier 維持}{@effect 保護}效果（例如力場防護屏障）。 1點裝備點／每堅實屬性+1。",
+												"{@b 隱形裝置}: 載具可能會搭載某種「隱形裝置」以賦予它們針對視覺感官的{@effect 隱蔽}效果。某些載具也可能會擁有針對聽覺感官或其他例如雷達之類的{@effect 隱蔽}效果，讓它們能夠進入「匿蹤模式」。 4點裝備點（尋常視覺或另一種感官種類的所有感官）或 8點裝備點（所有視覺感官）。",
+												"{@b 免疫}: 載具原本就會提供對於它們能夠駛越的常見環境危害的免疫能力──例如水中或太空──而無須花費額外的點數。額外的{@effect 免疫}效果適用於那些罕見的危害或情境，例如一輛提供氣密系統的汽車，就能為乘客提供免疫於窒息和其他大氣危害的能力。",
+												"{@b 儀表}: 儀表被用於控制載具所搭載的其他系統，或為載具的駕駛和乘客提供資訊情報。尤其，儀表經常會使用{@effect Sense|感官}效果以呈現各種感測器和掃描設備。最常見的大概就是雷達（準確 無線電波，通常會有數級的延展）和聲納（準確 延展 超頻聽覺）。",
+												"{@b 煙幕}: 載具可以釋放一團厚重的濃煙或迷霧，造成{@modifier Area|範圍}{@effect Concealment|視覺隱蔽}{@modifier Attack|攻擊}以藏匿載具或誤導追擊者。 12點裝備點。",
+												"{@b 武器}: 載具的武器建基於各種各樣的攻擊類效果，尤其以應用了不同修飾符的{@effect 傷害}效果最為常見。載具（尤其是軍用載具）可能會搭載某些前述章節中所列出的武器。"
 											]
 										}
 									]
@@ -4304,15 +4304,15 @@
 									"type": "entries",
 									"translate_name": "共用載具", "name": "Shared Vehicles",
 									"entries": [
-										"A team of heroes may share a vehicle used by the whole team, particularly useful for shuttling around team members who cannot fly or move at super-speed. The members of the team divide the equipment point cost of the vehicle among them as they see fit, devoting the necessary ranks of the Equipment advantage to covering the vehicle’s cost."
+										"集結成隊的英雄們可能會擁有一輛全隊成員共同使用的載具，這在要乘載那些無法飛行或高速移動的隊伍成員四處穿梭時尤其實用。隊伍的成員能夠以合適的比例平分該載具的裝備點花費，投入必要的{@advantage 裝備}特長等級以支付載具的花費。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "載具的替換效果", "name": "Alternate Vehicles",
 									"entries": [
-										"Just like Alternate Equipment, characters may have multiple vehicles. These are generally Alternate Equipment by definition, since it’s difficult to drive or pilot more than one vehicle at a time! So the character pays the full cost for the most expensive vehicle, and then 1 equipment point for each additional vehicle with the same or lesser cost.",
-										"So a hero with an array of vehicles, such as a plane, boat, and car pays full equipment point cost for the most expensive of the vehicles and just 1 equipment point for each of the others. The hero’s player can even spend a Victory point to pull out a motorcycle, submarine, jet-ski, or whatever other vehicle the hero might have stashed away waiting for the right occasion."
+										"就如同替換裝備一樣，角色也可能會擁有複數的載具。由於你很難同時駕駛一輛以上的載具，因此在定義上，這也被視為一種替換裝備！也因此，該角色可以只支付最昂貴載具的完整花費，並只為每個花費相同或較廉價的其他載具支付1點裝備點。",
+										"因此，一名擁有一個載具陣列（包括飛機、船舶、汽車）的英雄只需要支付其中最為昂貴的載具的完整花費，並為其他每輛載具支付1點裝備點。該英雄的玩家甚至可以花費一點勝利點以從中拿出一輛摩托車、潛水艇、水上摩托車、或任何該英雄為不時之需所預備的其他載具。"
 									]
 								}
 							]
@@ -4376,7 +4376,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"卡車",
+										"貨車",
 										"超大型","9","5","6","9","8"
 									]
 								},
@@ -4539,7 +4539,7 @@
 									"style": "row-indent-first",
 									"row": [
 										"轟炸機*",
-										"超巨型","16","9","2","13","60"
+										"超巨型","16","9","2","13","58"
 									]
 								},
 								["{@i 太空載具}","","","","","",""],
@@ -4547,7 +4547,7 @@
 									"type": "row",
 									"style": "row-indent-first",
 									"row": [
-										"太空梭*",
+										"太空梭",
 										"超巨型","16","12","2","13","28"
 									]
 								},
@@ -4607,77 +4607,77 @@
 						},
 						{
 							"type": "entries",
-							"name": "Ground Vehicles",
+							"translate_name": "地面載具", "name": "Ground Vehicles",
 							"entries": [
-								"Most cars include such standard features as air conditioning, air bags, antilock brakes, cruise control, keyless entry, and an AM/FM radio with CD player. Luxury vehicles often also include extras such as power seats, leather upholstery, and a sunroof.",
+								"大部分的車輛都已經包括了像是空調、安全氣囊、防鎖死剎車、巡航定速、免鑰匙進入系統、以及附帶CD播放器的AM/FM收音機等標準功能特色。豪華車量則經常會包括其他改良，像是電動座椅、革製內飾、和天窗。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Cars} come in many different varieties. For variations on the base model, add +1 or +2 Str for larger, full-sized, cars, and +1 or even +2 Speed for sports and racing cars.",
-										"{@b Trucks} include pick-ups, sport utility vehicles (SUVs), vans, and similarly sized vehicles.",
-										"{@b Tanks} are heavily armed and armored vehicles. The standard tank has Impervious Toughness 12 and comes equipped with a cannon (Ranged Damage 10, Burst Area 6) and a heavy machine gun (Ranged Multiattack Damage 6). It takes a move action to get into or out of a tank, and another move action to start it up.",
-										"{@b APCs} or Armored Personnel Carriers, are designed for carrying troops. They come with a smaller cannon (Ranged Damage 6, Burst Area 4), Impervious Toughness 8, and are set up so soldiers on board can fire their personal weapons from behind the cover of the APC’s armor."
+										"{@b 汽車} 有著許多不同的種類。以表中所列的基礎模型為底，將力量屬性+1或+2以呈現那些較大、全尺寸的車輛，或是對於跑車或賽車而言，則將將速度+1或甚至+2。",
+										"{@b 貨車} 包括了皮卡車、運動型休旅車(SUV)、廂型車、和其他類似大小的載具。",
+										"{@b 坦克} 是一種被重度武裝和裝甲覆蓋的載具。標準型號的坦克擁有{@modifier Impervious|12級強抗堅實屬性}（12點），並搭載了一座大砲（{@modifier Increased Range|遠距}{@effect Damage|傷害 10}, {@modifier Area|應用於6級傷害的爆發範圍}）（26點）以及一架重型機關槍（{@modifier Increased Range|遠距}{@modifier 多重攻擊}{@effect Damage|傷害 6}）（18點）。進入或離開坦克需要採取一個移動動作，並需要再採取一個移動動作以發動坦克。",
+										"{@b 裝甲運輸車} 或稱 裝甲運兵車，被用於運輸部隊。它們通常會搭載一架小型砲（{@modifier Increased Range|遠距}{@effect Damage|傷害 6}, {@modifier Area|應用於4級傷害的爆發範圍}）（16點）、{@modifier Impervious|8級強抗堅實屬性}（8點），並被設置好讓乘載的士兵們能夠在裝甲運輸車重裝甲的掩護下以他們的個人武器開火。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Water Vehicles",
+							"translate_name": "水上載具", "name": "Water Vehicles",
 							"entries": [
-								"Water vehicles range from small boats and outboards to massive sea-going ships.",
+								"水上載具囊括了從小艇、尾掛機船、到龐大海船的各種船隻。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Cutters} are used by the Coast Guard and the Navy. They’re often equipped with light machine guns (Ranged Multiattack Damage 6).",
-										"{@b Destroyers} are main naval ships, carrying heavy guns (Ranged Damage 10, Burst Area 8).",
-										"{@b Battleships} have massive gun batteries (Ranged Damage 13, Burst Area 9) and heavy armor.",
-										"{@b Submarines} are equipped with torpedoes (Ranged damage 8, Burst Area 5) and often ballistic missiles (Ranged Burst Area Damage 15 or higher, not included in listed cost)."
+										"{@b 巡邏艦} 由海岸巡防隊以及海軍所使用。它們經常配有輕型機槍（{@modifier Increased Range|遠距}{@modifier 多重攻擊}{@effect Damage|傷害 6}）（18點）。",
+										"{@b 驅逐艦} 是最主要的海軍艦艇，搭載著重型槍砲（{@modifier Increased Range|遠距}{@effect Damage|傷害 10}, {@modifier Area|應用於8級傷害的爆發範圍}）（28點）。",
+										"{@b 戰艦} 擁有大量的砲台（{@modifier Increased Range|遠距}{@effect Damage|傷害 13}, {@modifier Area|應用於9級傷害的爆發範圍}）（35點）以及重裝甲。",
+										"{@b 潛水艇} 搭載著魚雷（{@modifier Increased Range|遠距}{@effect Damage|傷害 8}, {@modifier Area|應用於5級傷害的爆發範圍}）（21點），且經常會再配有彈道飛彈（{@modifier Increased Range|遠距}{@modifier Area|爆發範圍}{@effect Damage|傷害 15或更高}，不包含在列表中的花費）。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Air Vehicles",
+							"translate_name": "空中載具", "name": "Air Vehicles",
 							"entries": [
-								"Air vehicles are all capable of flight, some of them at very high speeds.",
+								"空中載具全都具備飛行的能力，且其中有些載具能夠以極高的速度飛行。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Military helicopters} are equipped with machine guns (Ranged Multiattack Damage 6) and rockets (Ranged Damage 9, Burst Area 6).",
-										"{@b Fighter jets} have machine guns (Ranged Multiattack Damage 6) and air-to-air missiles (Ranged Damage 11, Burst Area 8, Homing 6).",
-										"{@b Bombers} may have machine guns and missiles, but also have powerful bombs (Burst Area Damage 12 or higher) they can drop on targets."
+										"{@b 軍用直升機} 搭載著機槍（{@modifier Increased Range|遠距}{@modifier 多重攻擊}{@effect Damage|傷害 6}）（1點）和飛彈（{@modifier Increased Range|遠距}{@effect Damage|傷害 9}, {@modifier Area|應用於6級傷害的爆發範圍}）（24點）。",
+										"{@b 戰鬥機} 有著機槍（{@modifier Increased Range|遠距}{@modifier 多重攻擊}{@effect Damage|傷害 6}）（1點）和空對空導彈（{@modifier Increased Range|遠距}{@effect Damage|傷害 11}, {@modifier Area|應用於8級傷害的爆發範圍}, {@modifier Homing|追蹤導引 6}）（36點）。",
+										"{@b 轟炸機} 可能會搭載機槍和導彈，它也會搭載能夠投放到目標身上的強大炸彈（{@modifier Increased Range|遠距}{@modifier Area|爆發範圍}{@effect Damage|傷害 12或更高}）（36點）。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Space Vehicles",
+							"translate_name": "太空載具", "name": "Space Vehicles",
 							"entries": [
-								"Space vehicles are intended for use outside the atmosphere, some of them for interplanetary or even interstellar travel. Generally space vehicles are found in the possession of alien civilizations, although the GM may choose to allow some organizations and individuals on Earth to have space vehicles.",
+								"太空載具被設計於大氣層外使用，其中部分載具能在行星間穿梭，而部分則甚至能進行恆星之間的星際旅行。一般來說，太空載具通常是由外星文明擁有，不過GM也可以選擇讓地球上的一些組織或人物擁有這類太空載具。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Space fighters} are armed with blaster cannons (Ranged Damage 10).",
-										"{@b Space cruisers} have larger beam weapons (Ranged damage 12) and often energy torpedoes (Ranged Damage 12, Burst Area 10, Homing 8).",
-										"{@b Space battleships} have the most massive weapons: blaster cannons (Ranged Damage 15) and high-powered energy torpedoes (Ranged Damage 15, Burst Area 12, Homing 8)."
+										"{@b 太空戰鬥機} 搭載著爆能光炮做為武裝（{@modifier Increased Range|遠距}{@effect Damage|傷害 10}）（20點）。",
+										"{@b 太空巡航艦} 擁有較大型的光束武器（{@modifier Increased Range|遠距}{@effect Damage|傷害 12}）（1點），且經常搭載有能量魚雷（{@modifier Increased Range|遠距}{@effect Damage|傷害 12}, {@modifier Area|應用於10級傷害的爆發範圍}, {@modifier Homing|追蹤導引 8}）（42點）。",
+										"{@b 太空戰艦} 裝載著最為海量的武器：爆能光炮（{@modifier Increased Range|遠距}{@effect Damage|傷害 15}）（1點）和高功率能量魚雷（{@modifier Increased Range|遠距}{@effect Damage|傷害 15}, {@modifier Area|應用於12級傷害的爆發範圍}, {@modifier Homing|追蹤導引 8}）（50點）。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Special Vehicles",
+							"translate_name": "特殊載具", "name": "Special Vehicles",
 							"entries": [
-								"These are unique vehicles, most likely found in the possession of supervillains, aliens, or eccentric inventors.",
+								"這個類別囊括了一些獨特的特殊載具，最有可能出現在超級反派、外星人、或瘋狂發明家的手中。",
 								{
 									"type": "list",
 									"items": [
-										"{@b Dimension hopper} is a vansized vehicle capable of moving between dimensions like a rank 3 Movement (Dimensional Travel) effect.",
-										"{@b Mole-machines} are classic weapons for underground villains, consisting of a metallic cylinder with treads and a rotating drill mounted on the front, allowing the machine to bore through the earth. Its speed is a Burrowing effect.",
-										"{@b Time machines} may be enclosed vehicles, from cubes to spheres or even pods on legs or police boxes, or they can simply be open platforms or projectors. They provide a Movement (Time Travel) effect, typically rank 2 or 3, although some time machines may transmit only to a fixed point in time."
+										"{@b 維度穿梭機} 是一輛貨車大小，能夠如同3級{@effect Movement|移動(維度穿梭)}效果在維度之間穿梭的載具。",
+										"{@b 鑽地機} 是地底反派經常使用的一種典型武器，以附帶踩踏元件的金屬圓柱狀艙體，加上一個搭載於前端的迴轉鑽頭所組成，讓這部機器得以掘穿大地。它的速度使用的是{@effect 掘地}效果。",
+										"{@b 時光機} 可能會是一個艙體封閉的載具，其外形可能是立方體、球體、甚至是長腳的吊艙、警察崗亭、或可以單純是一個開放式的平台或投影機。時光機能夠提供{@effect Movement|移動(時間旅行)}的效果，通常為2級或3級，不過某些時光機也可能只能將使用者傳送到某個固定的時間點。"
 									]
 								}
 							]
