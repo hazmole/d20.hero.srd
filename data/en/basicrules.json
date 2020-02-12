@@ -4816,7 +4816,7 @@
 											"type": "entries",
 											"name": "Dimensional portal",
 											"entries": [
-												"The headquarters has a portal or gateway to another dimension or dimensions. This can range from an otherwise innocuous-looking door to a humming high-tech portal surrounded by support equipment and monitors. The portal provides two-way travel to and from the other dimension, and it may even reach a number of related dimensions.  At the GM’s discretion, an appropriate skill check—typically Expertise or Technology—may be required to operate the portal."
+												"The headquarters has a portal or gateway to another dimension or dimensions. This can range from an otherwise innocuous-looking door to a humming high-tech portal surrounded by support equipment and monitors. The portal provides two-way travel to and from the other dimension, and it may even reach a number of related dimensions.  At the GM’s discretion, an appropriate skill check—typically {@skill Expertise} or {@skill Technology}—may be required to operate the portal."
 											]
 										},
 										{
@@ -4838,14 +4838,14 @@
 											"type": "entries",
 											"name": "Effect",
 											"entries": [
-												"A headquarters can be given any appropriate power effect as a feature with the Gamemaster’s approval. The effect cannot have a total cost greater than twice the HQ power level and cannot exceed the power level limits. Effects are assumed to affect either the headquarters or its occupants, if they do both, apply the Affects Others modifier, or take them as separate features."
+												"A headquarters can be given any appropriate power effect as a feature with the Gamemaster’s approval. The effect cannot have a total cost greater than twice the HQ power level and cannot exceed the power level limits. Effects are assumed to affect either the headquarters or its occupants, if they do both, apply the {@modifier Affects Others} modifier, or take them as separate features."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Fire Prevention System",
 											"entries": [
-												"The headquarters is equipped with an automatic system for detecting and extinguishing fires. Any large open flame sets the system off (beware, fire-using heroes!). It functions as a Nullify Fire 5 effect. A computer-controlled fire prevention system can be programmed to ignore certain sources of fire or the system can be placed on manual control (requiring someone to throw a switch in order to activate it)."
+												"The headquarters is equipped with an automatic system for detecting and extinguishing fires. Any large open flame sets the system off (beware, fire-using heroes!). It functions as a {@effect Nullify|Nullify Fire 5} effect. A computer-controlled fire prevention system can be programmed to ignore certain sources of fire or the system can be placed on manual control (requiring someone to throw a switch in order to activate it)."
 											]
 										},
 										{
@@ -5026,7 +5026,7 @@
 											"items": [
 												"{@b Size}: Awesome",
 												"{@b Toughness}: 20",
-												"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop"
+												"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), {@effect Teleport} ({@modifier Affects Others}), Workshop"
 											]
 										}
 									]
@@ -5041,7 +5041,7 @@
 											"items": [
 												"{@b Size}: Colossal",
 												"{@b Toughness}: 20",
-												"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others)"
+												"{@b Features}: Combat Simulator, Communications, Computer, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, {@effect Teleport} ({@modifier Affects Others})"
 											]
 										}
 									]

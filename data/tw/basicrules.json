@@ -4735,17 +4735,17 @@
 										"col-6 text-align-center"
 									],
 									"rows": [
-										["極巨型", "6", "Small town, sprawling installation"],
-										["超巨型", "5", "City block, private estate"],
-										["巨型", "4", "Skyscraper"],
-										["超大型", "3", "Castle"],
-										["大型", "2", "Mansion, cave complex"],
-										["中型", "1", "Warehouse"],
-										["小型", "0", "House"],
-										["超小型", "-1", "Townhouse"],
-										["微型", "-2", "Apartment"],
-										["超微型", "-3", "Loft"],
-										["極微型", "-4", "Room"]
+										["極巨型", "6", "小鎮, 綿延不絕的設施"],
+										["超巨型", "5", "城市街區, 私人莊園"],
+										["巨型", "4", "摩天大樓"],
+										["超大型", "3", "城堡"],
+										["大型", "2", "宅邸, 複雜洞窟"],
+										["中型", "1", "倉庫"],
+										["小型", "0", "房屋"],
+										["超小型", "-1", "聯排住宅"],
+										["微型", "-2", "公寓房間"],
+										["超微型", "-3", "閣樓"],
+										["極微型", "-4", "小房間"]
 									]
 								},
 								{
@@ -4800,52 +4800,52 @@
 											"type": "entries",
 											"translate_name": "防禦系統", "name": "Defense System",
 											"entries": [
-												"防禦系統是由佈署於據點總部內外的各種武器所構成。防禦系統能夠擁有任何花費不超過據點總部超能力階級二倍的攻擊類效果。它們的攻擊加值將等同於其超能力階級。"
+												"防禦系統是由佈署於據點總部內外的各種武器所構成。防禦系統能夠擁有一個花費不超過據點總部超能力階級二倍的任意攻擊類效果。它們的攻擊加值將等同於其超能力階級。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "死亡陷阱", "name": "Deathtraps",
 											"entries": [
-												"A villainous version of the Defense System feature is deathtraps: the villain’s lair has one or more fiendish traps suitable for disposing of those pesky heroes. Some deathtraps are designed as security systems to keep heroes out: concealed auto-guns, walls of flames, sealing rooms that fill with water or sand, and so forth. Others are intended for the slow elimination of captured heroes.",
-												"Note that not having this feature does not mean a villain cannot jury-rig a deathtrap within the lair—say, by chaining heroes beneath a rocket counting down to launch, or slowly lowering them into a volcano’s caldera. It just means there’s no part of the base specifically designed as a deathtrap.",
-												"Also note that, in spite of the name, not all “deathtraps” are necessarily lethal. Some may be intended to merely incapacitate and capture intruders (more along the lines of a nonlethal Defense System), allowing the villain to interrogate them...and then perhaps put them into a real deathtrap!"
+												"死亡陷阱實際上就是反派版本的防禦系統：反派的巢穴中總是會有一個或多個邪惡的陷阱，用來對付那些討人厭的英雄們。有些死亡陷阱被設計成阻止英雄們闖入的安全系統：比如說隱藏的自動槍塔、火焰牆、填滿水或沙子的密封房間等等。至於其他的死亡陷阱則是用以緩慢地處死那些被俘虜的英雄們。",
+												"要注意的是，沒有這個功能特色並不意味著反派不能在巢穴內即興製造出一個死亡陷阱──比如說，將英雄們用鎖鏈綁在一架即將倒數升空的火箭之下、或是將他們從火山口上緩緩降下。沒有這個功能特色僅僅意味著這個基地沒有專門設計成死亡陷阱的部分。",
+												"另外要注意，儘管被叫做「死亡陷阱」，但這些陷阱並不一定要是致命的。有些陷阱可能只是用以使入侵者無力化並加以俘虜（比較接近非致命的防禦系統），讓反派能夠與他們談判……並或許在這之後將它們丟到真正的死亡陷阱之中！"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "維度傳送門", "name": "Dimensional portal",
 											"entries": [
-												"The headquarters has a portal or gateway to another dimension or dimensions. This can range from an otherwise innocuous-looking door to a humming high-tech portal surrounded by support equipment and monitors. The portal provides two-way travel to and from the other dimension, and it may even reach a number of related dimensions.  At the GM’s discretion, an appropriate skill check—typically Expertise or Technology—may be required to operate the portal."
+												"據點總部有著一到通往其他特定或多個維度的傳送門或通道。它的外型可以是一扇平凡無奇的門，或是一扇嗡嗡作響，被支援設備和顯示器所環繞的高科技傳送門。這扇傳送門提供了通往另一個維度的雙向途徑，且它或許甚至可以抵達其他複數的相關維度。根據GM的裁斷，操作傳送門或許會需要一次適當的技能檢定──通常是{@skill 專業}或{@skill 科技}技能。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "船塢", "name": "Dock",
 											"entries": [
-												"A dock houses water vehicles and includes access to a nearby waterway, an airlock or lock system for moving vehicles in and out of the dock, and dry-dock facilities for repairing and maintaining water vehicles. The headquarters should be located within reasonable distance of a body of water to have this feature."
+												"船塢能夠容納水上載具，並包括了通往附近航道的通道、用以使載具進出船塢的氣閘或船閘控制系統、以及用以維修保養水上載具的旱塢設施。據點總部與水體之間的距離必須在一個合理範圍內才能擁有這個功能特色。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "雙重尺寸", "name": "Dual Size",
 											"entries": [
-												"The headquarters has two separate Size categories: its inside category (purchased normally), which determines the structure’s interior space, and an outside category, one or more size categories smaller. In essence, the headquarters is larger on the inside than on the outside! So a small house, for example, might contain the space of a huge castle on the inside. The GM may even allow size categories beyond Awesome, with each additional category doubling size; expensive HQs could be pocket universes! Pay the cost of the larger size, plus this feature, which lets you set the exterior size at any smaller category.",
-												"In general, the exterior dimensions of the HQ cannot be smaller than a miniscule structure, about the size of a closet or phone booth (or, say, a wardrobe or police box), large enough  for  an  adult  human  to  pass  through  whatever serves as the base’s entrance. Headquarters that have no “exterior” structure, such as an extra-dimensional fortress accessed by a magical talisman, do not have this feature, but instead have things like Dimensional Portal, Isolated, Sealed, and the like."
+												"據點總部具有二個分別的尺寸類別：它的內部尺寸類別（如常購買）用以決定建築物的內部空間大小，而它的外部尺寸類別則會比內部尺寸類別小一級或更多。實際上，擁有這個功能特色的據點總部的內部空間要比外部還要大！舉例來說，一棟小型房屋的內部可能會隱含著相當於超大型堡壘的空間。GM可以甚至允許其內部空間的尺寸類別超過「極巨型」，每再上升一級就會使空間大小加倍；這意味著投資大量點數的據點總部可能會是一個袖珍宇宙！為這座據點總部較大的尺寸類別支付其原本的裝備點，再加上這個功能特色本身的花費，接著，你就能夠把這座據點總部的外部尺寸設定成任意較小的尺寸類別。",
+												"通常來說，據點總部的外部尺寸不能小於「極微型」的建築物，也就是差不多一個衣櫃或電話亭（或者，衣櫥或警察崗亭）的大小，大概足夠讓一名成年男性通過做為這座基地入口的通道。至於那些不具備「外部建築」的據點總部，例如只能藉由魔法護身符進出的異次元城寨，並不擁有這個功能特色；相對的，它會擁有像是維度傳送門、孤立、封閉之類的功能特色。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "超能力效果", "name": "Effect",
 											"entries": [
-												"A headquarters can be given any appropriate power effect as a feature with the Gamemaster’s approval. The effect cannot have a total cost greater than twice the HQ power level and cannot exceed the power level limits. Effects are assumed to affect either the headquarters or its occupants, if they do both, apply the Affects Others modifier, or take them as separate features."
+												"在遊戲主持人的核准下，據點總部可以將任意適當的超能力效果做為功能特色來擁有。該超能力效果的花費總和不能超過據點總部超能力階級的二倍，且不能超過其超能力階級限制。這些超能力效果被預設只能夠影響據點總部本身、或是其居住者，若兩者皆會被影響，則該效果必須應用{@modifier 影響他人}修飾符，或者你可以將它們分別做為不同的功能特色來獲得。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "防火系統", "name": "Fire Prevention System",
 											"entries": [
-												"The headquarters is equipped with an automatic system for detecting and extinguishing fires. Any large open flame sets the system off (beware, fire-using heroes!). It functions as a Nullify Fire 5 effect. A computer-controlled fire prevention system can be programmed to ignore certain sources of fire or the system can be placed on manual control (requiring someone to throw a switch in order to activate it)."
+												"據點總部配備著能夠自動偵測並滅火的系統設備。任何大型明火都將啟動這個系統（用火的英雄們，注意了！）。它的功能將等同於{@effect Nullify|5級的無效化火焰}效果。一套由電腦控制的防火系統可以透過編程以忽略特定源頭的火焰，或者該系統可以被切換程手動控制模式（需要某人按下開關才能啟動這個系統）。"
 											]
 										},
 										{
@@ -4936,7 +4936,7 @@
 										},
 										{
 											"type": "entries",
-											"translate_name": "密閉", "name": "Sealed",
+											"translate_name": "封閉", "name": "Sealed",
 											"entries": [
 												"This is similar to the Isolated feature, except the lair is sealed off from the outside world rather than isolated by geographic location. It may be a structure with no doors, windows, or other outside access, or behind some sort of barrier. Only the lair’s owner and designated guests may enter, although the GM should determine means by which trespassers might do so, including effects like Dimensional Travel, Insubstantial, Permeate, and Teleport."
 											]
@@ -5000,7 +5000,7 @@
 							"type": "entries",
 							"translate_name": "範例據點總部", "name": "Sample Headquarters",
 							"entries": [
-								"Gamemasters can use the following sample headquarters as ready-made lairs for supervillains while players can use them as bases for their heroes.",
+								"遊戲主持人可以使用下列的範例據點總部做為超級反派的現成巢穴，而玩家們也可以使用它們做為英雄們的基地。",
 								{
 									"type": "actionBlock",
 									"translate_name": "廢棄倉庫", "name": "Abandoned Warehouse",
@@ -5019,14 +5019,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "月球基地", "name": "Moon-base",
-									"subtitle": "28 點",
+									"subtitle": "28 點?",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 極巨型",
 												"{@b 堅實屬性}: 20",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System (DC 25), Teleport (Affects Others), Workshop • 28 points."
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛機庫, 拘留室, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統（DC 25）, {@effect 傳送}（{@modifier 影響他人}）, 工坊"
 											]
 										}
 									]
@@ -5034,14 +5034,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "軌道衛星", "name": "Orbiting satellite",
-									"subtitle": "25 點",
+									"subtitle": "25 點?",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 超巨型",
 												"{@b 堅實屬性}: 20",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, Defense System, Fire Prevention System, Gym, Hangar, Holding Cells, Infirmary, Isolated, Laboratory, Living Space, Power System, Security System, Teleport (Affects Others) • 25 points."
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛機庫, 拘留室, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統, {@effect 傳送}（{@modifier 影響他人}）"
 											]
 										}
 									]
@@ -5049,14 +5049,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "至聖所", "name": "Sanctum Sanctorum",
-									"subtitle": "12 點",
+									"subtitle": "12 點?",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 中型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 隱匿, Dual-Size (Huge), Laboratory, Library, Living Space, Security System, Workshop • 12 points."
+												"{@b 特色}: 隱匿, 雙重尺寸（超大型）, 實驗室, 圖書館, 生活空間, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5064,14 +5064,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "海上基地", "name": "Sea-base",
-									"subtitle": "16 點",
+									"subtitle": "16 點?",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 巨型",
 												"{@b 堅實屬性}: 14",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, Dock, Fire Prevention System, Isolated, Living Space, Power System, Security System • 16 points."
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 船塢, 防火系統, 孤立, 生活空間, 供電系統, 安全系統"
 											]
 										}
 									]
@@ -5079,14 +5079,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "摩天大樓（5層樓）", "name": "Skyscraper (5 floors)",
-									"subtitle": "17 點",
+									"subtitle": "17 點?",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 大型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 通訊設備, 電腦系統, Defense System, Fire Prevention System, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 17 points."
+												"{@b 特色}: 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5101,7 +5101,7 @@
 											"items": [
 												"{@b 尺寸}: 超大型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, Dock, Garage, Gym, Hangar, Infirmary, Laboratory, Library, Living Space, Power System, Security System, Workshop • 19 points."
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 船塢, 車庫, 健身房, 飛機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5116,7 +5116,7 @@
 											"items": [
 												"{@b 尺寸}: 超大型",
 												"{@b 堅實屬性}: 14",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, Defense System, Garage, Holding Cells, Isolated, Laboratory, Library, Living Space, Power System, Security System • 19 points."
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 防禦系統, 車庫, 拘留室, Isolated, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統"
 											]
 										}
 									]
@@ -5124,14 +5124,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "都會要塞", "name": "Urban Fortress",
-									"subtitle": "22 點",
+									"subtitle": "22 點?",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 大型",
 												"{@b 堅實屬性}: 12",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, Defense System, Fire Prevention System, Garage, Gym, Holding Cells, Infirmary, Living Space, Power System, Security System, Workshop • 22 points."
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, 防禦系統, 防火系統, 車庫, 健身房, 拘留室, 醫務室, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
