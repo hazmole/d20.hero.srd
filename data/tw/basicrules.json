@@ -4852,43 +4852,43 @@
 											"type": "entries",
 											"translate_name": "車庫", "name": "Garage",
 											"entries": [
-												"A garage houses ground vehicles and includes a ramp, elevator, or other access to move vehicles in and out, facilities for repairing and maintaining vehicles, and a sliding access door."
+												"車庫能夠容納地面載具，並包括了坡道、升降梯、或其他協助載具進出的通道、維修保養地面載具的設施、以及滑動車庫門。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "空地", "name": "Grounds",
 											"entries": [
-												"In addition to the actual building(s) of the headquarters, it has a considerable area of land surrounding it. An HQ can have surrounding land of one size category larger than the structure at no cost, without having this feature. Having it allows for grounds up to three size categories larger than the structure, so a large mansion headquarters could have a colossal area of land.",
-												"If the headquarters has features like Defense System and Security System, they also extend over the grounds (with fences, sensors, weapon emplacements, and so forth)."
+												"除了據點總部的實際建築之外，它周遭還有著一片相當寬廣的土地。在沒有這個功能特色的情況下，據點總部周圍的土地可以無需花費就有比建築本身大一級的尺寸類別；而擁有這個功能特色，則讓周圍的土地最大可以比建築本身還要大上三級的尺寸類別。因此一個大型宅邸的據點總部可以擁有一整片極巨型尺寸的空地區域。",
+												"若據點總部具有其他像是防禦系統和安全系統之類的功能特色，則這些功能特色也能作用於這些延伸的土地區域上（以柵欄、感測器、武器佈署之類的形式）。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "健身房", "name": "Gym",
 											"entries": [
-												"A gym consists of weight-training and other exercise machines, space for working out, stretching, and similar exercises, and all the necessary amenities (lockers, showers, etc.). Some HQs may incorporate the gym feature into the combat simulator, for a multi-purpose training room. A gym may also include a pool (heated or unheated, good for aquatic characters), possibly even connected to an outside body of water, to the base’s dock, or both at no additional cost."
+												"健身房是由重訓和其他運動器材、用於進行鍛鍊、伸展、和類似運動的空間、以及所有必要設施（置物櫃、淋浴間等等）所構成的。有些據點總部可能會將健身房與戰鬥模擬器的功能整合在一起，打造出一個多用途的訓練室。健身房也可能會包括一座游泳池（溫水或冷水泳池，適合水生角色使用），或甚至可能會連結著外部水體、基地的碼頭、或以上皆是，游泳池的功能並不需要花費額外的點數。"
 											]
 										},
 										{
 											"type": "entries",
-											"translate_name": "飛機庫", "name": "Hangar",
+											"translate_name": "飛行機庫", "name": "Hangar",
 											"entries": [
-												"A hangar houses air and space vehicles. It includes a hatch and/or runway for the vehicles to launch and facilities for repairing and maintaining flying vehicles. For some HQs the launch facilities of the hangar may require a long tunnel or other access to the outside."
+												"飛行機庫可以容納空中和太空載具。它包括了供飛行載具升空的艙門和／或跑道，以及用以維修保養飛行載具的設施。對於某些據點總部而言，飛行機庫的升空設施可能會需要一條冗長的隧道、或其他通往外部環境的途徑。"
 											]
 										},
 										{
 											"type": "entries",
-											"translate_name": "拘留室", "name": "Holding Cells",
+											"translate_name": "拘留牢房", "name": "Holding Cells",
 											"entries": [
-												"These are cells for holding prisoners, usually temporarily, although some headquarters might have more permanent holding facilities. The cells are equipped with Nullify devices (ranked at the HQ power level) or their basic Toughness is increased by 50%, which option should be agreed upon by both player and GM (both options for two features). Heroes use holding cells to contain captured villains until they can be turned over to the proper authorities while villains use them to keep heroes prisoner until they can dispose of them in their latest deathtrap."
+												"這些小房間被用來關押囚犯，儘管這通常只是暫時性的，但某些據點總部也可能擁有著能長期的拘留設施。這些牢房可能搭載著{@effect 無效化}裝置（效果等級等同於據點總部的超能力階級）、或者牢房的基礎堅實屬性比原本增加了50%，其選擇的選項必須經過玩家和GM的同意（這兩個選項各自為一個功能特色）。英雄們會利用拘留牢房以關押被俘虜的反派，直到他們被移交到合適的執法機構手中；而反派則會利用這些牢房以囚禁英雄們，直到他們能夠以最新的死亡陷阱處理掉這些討厭鬼。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "醫務室", "name": "Infirmary",
 											"entries": [
-												"An infirmary consists of hospital beds and equipment for the full use of the Treatment skill. An infirmary can provide treatment for a number of characters equal to the base’s power level at one time and it can be assumed to have the necessary facilities to handle any unusual physiology of the base’s owner(s)."
+												"醫務室是由病床、以及能夠讓{@skill 診療}技能充份被發揮的裝備所構成。醫護士能夠同時為最多等同據點總部超能力階級數量的角色提供醫療照護，且它預設具備所有必要的設備以處理任何基地擁有者（們）的異常生理狀況。"
 											]
 										},
 										{
@@ -5026,7 +5026,7 @@
 											"items": [
 												"{@b 尺寸}: 極巨型",
 												"{@b 堅實屬性}: 20",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛機庫, 拘留室, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統（DC 25）, {@effect 傳送}（{@modifier 影響他人}）, 工坊"
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 拘留牢房, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統(DC 25), {@effect 傳送}({@modifier 影響他人}), 工坊"
 											]
 										}
 									]
@@ -5041,7 +5041,7 @@
 											"items": [
 												"{@b 尺寸}: 超巨型",
 												"{@b 堅實屬性}: 20",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛機庫, 拘留室, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統, {@effect 傳送}（{@modifier 影響他人}）"
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 拘留牢房, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統, {@effect 傳送}({@modifier 影響他人})"
 											]
 										}
 									]
@@ -5049,14 +5049,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "至聖所", "name": "Sanctum Sanctorum",
-									"subtitle": "12 點?",
+									"subtitle": "12 點",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 中型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 隱匿, 雙重尺寸（超大型）, 實驗室, 圖書館, 生活空間, 安全系統, 工坊"
+												"{@b 特色}: 隱匿, 雙重尺寸(超大型), 實驗室, 圖書館, 生活空間, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5079,14 +5079,14 @@
 								{
 									"type": "actionBlock",
 									"translate_name": "摩天大樓（5層樓）", "name": "Skyscraper (5 floors)",
-									"subtitle": "17 點?",
+									"subtitle": "17 點",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
 												"{@b 尺寸}: 大型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
+												"{@b 特色}: 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5101,7 +5101,7 @@
 											"items": [
 												"{@b 尺寸}: 超大型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 船塢, 車庫, 健身房, 飛機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 船塢, 車庫, 健身房, 飛行機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5116,7 +5116,7 @@
 											"items": [
 												"{@b 尺寸}: 超大型",
 												"{@b 堅實屬性}: 14",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 防禦系統, 車庫, 拘留室, Isolated, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統"
+												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 防禦系統, 車庫, 拘留牢房, 孤立, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統"
 											]
 										}
 									]
@@ -5131,7 +5131,7 @@
 											"items": [
 												"{@b 尺寸}: 大型",
 												"{@b 堅實屬性}: 12",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, 防禦系統, 防火系統, 車庫, 健身房, 拘留室, 醫務室, 生活空間, 供電系統, 安全系統, 工坊"
+												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, 防禦系統, 防火系統, 車庫, 健身房, 拘留牢房, 醫務室, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5207,6 +5207,14 @@
 							"entries": [
 								"Constructs suffer damage like inanimate objects (see Damage effect in  Powers for details). Constructs do not recover from damage. Instead, they must be repaired. See Technology skill description for guidelines on repairing damaged objects.",
 								"Constructs with Regeneration are self-repairing (see Regeneration effect in  Powers)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sample Constructs",
+							"entries": [
+								"The following are some typical constructs for this game, most likely to show up as a villain’s minions. Individually, they’re no match for most heroes, but large numbers of them can keep characters busy and even wear them down with a lucky attack or two.",
+								"For each Constructs information, see {@5etools Constructs|constructs.html} page."
 							]
 						}
 					]

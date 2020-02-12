@@ -4881,14 +4881,14 @@
 											"type": "entries",
 											"name": "Holding Cells",
 											"entries": [
-												"These are cells for holding prisoners, usually temporarily, although some headquarters might have more permanent holding facilities. The cells are equipped with Nullify devices (ranked at the HQ power level) or their basic Toughness is increased by 50%, which option should be agreed upon by both player and GM (both options for two features). Heroes use holding cells to contain captured villains until they can be turned over to the proper authorities while villains use them to keep heroes prisoner until they can dispose of them in their latest deathtrap."
+												"These are cells for holding prisoners, usually temporarily, although some headquarters might have more permanent holding facilities. The cells are equipped with {@effect Nullify} devices (ranked at the HQ power level) or their basic Toughness is increased by 50%, which option should be agreed upon by both player and GM (both options for two features). Heroes use holding cells to contain captured villains until they can be turned over to the proper authorities while villains use them to keep heroes prisoner until they can dispose of them in their latest deathtrap."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Infirmary",
 											"entries": [
-												"An infirmary consists of hospital beds and equipment for the full use of the Treatment skill. An infirmary can provide treatment for a number of characters equal to the base’s power level at one time and it can be assumed to have the necessary facilities to handle any unusual physiology of the base’s owner(s)."
+												"An infirmary consists of hospital beds and equipment for the full use of the {@skill Treatment} skill. An infirmary can provide treatment for a number of characters equal to the base’s power level at one time and it can be assumed to have the necessary facilities to handle any unusual physiology of the base’s owner(s)."
 											]
 										},
 										{
@@ -5207,6 +5207,14 @@
 							"entries": [
 								"Constructs suffer damage like inanimate objects (see Damage effect in  Powers for details). Constructs do not recover from damage. Instead, they must be repaired. See Technology skill description for guidelines on repairing damaged objects.",
 								"Constructs with Regeneration are self-repairing (see Regeneration effect in  Powers)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sample Constructs",
+							"entries": [
+								"The following are some typical constructs for this game, most likely to show up as a villain’s minions. Individually, they’re no match for most heroes, but large numbers of them can keep characters busy and even wear them down with a lucky attack or two.",
+								"For each Constructs information, see {@5etools Constructs|constructs.html} page."
 							]
 						}
 					]
