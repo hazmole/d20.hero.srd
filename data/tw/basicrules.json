@@ -4304,7 +4304,7 @@
 									"type": "entries",
 									"translate_name": "共用載具", "name": "Shared Vehicles",
 									"entries": [
-										"集結成隊的英雄們可能會擁有一輛全隊成員共同使用的載具，這在要乘載那些無法飛行或高速移動的隊伍成員四處穿梭時尤其實用。隊伍的成員能夠以合適的比例平分該載具的裝備點花費，投入必要的{@advantage 裝備}特長等級以支付載具的花費。"
+										"集結成隊的英雄們可能會擁有一輛全隊成員共同使用的載具，這在要乘載那些無法飛行或高速移動的團隊成員四處穿梭時尤其實用。團隊的成員能夠以合適的比例平分該載具的裝備點花費，投入必要的{@advantage 裝備}特長等級以支付載具的花費。"
 									]
 								},
 								{
@@ -4983,7 +4983,7 @@
 									"type": "entries",
 									"translate_name": "共用據點總部", "name": "Shared headquarters",
 									"entries": [
-										"A team of heroes most often has a headquarters they all share. In this case, the team members may divide up the equipment  point  cost  of  the  HQ  among  them  however they wish, usually as evenly as possible. Given the equipment point costs of most HQs, team members rarely have to devote more than a single rank of the Equipment advantage to their headquarters, an any excess points may also cover things like team vehicles and equipment (commlinks, for example)."
+										"集結成隊的英雄們經常會擁有一個全體共有的據點總部。在這種情況下，團隊的成員能夠以任意比例平分該據點總部的裝備點花費（通常會盡可能平均分配）。考慮到大多數據點總部所需花費的裝備點數，團隊成員鮮少會需要貢獻超過一級的{@advantage 裝備}特長給他們共同的據點總部，而剩餘的裝備點也可以用來購買其他像是團隊載具或裝備（例如通訊器）之類的事物。"
 									]
 								},
 								{

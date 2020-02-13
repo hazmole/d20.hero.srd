@@ -4983,7 +4983,7 @@
 									"type": "entries",
 									"name": "Shared headquarters",
 									"entries": [
-										"A team of heroes most often has a headquarters they all share. In this case, the team members may divide up the equipment  point  cost  of  the  HQ  among  them  however they wish, usually as evenly as possible. Given the equipment point costs of most HQs, team members rarely have to devote more than a single rank of the Equipment advantage to their headquarters, an any excess points may also cover things like team vehicles and equipment (commlinks, for example)."
+										"A team of heroes most often has a headquarters they all share. In this case, the team members may divide up the equipment  point  cost  of  the  HQ  among  them  however they wish, usually as evenly as possible. Given the equipment point costs of most HQs, team members rarely have to devote more than a single rank of the {@advantage Equipment} advantage to their headquarters, an any excess points may also cover things like team vehicles and equipment (commlinks, for example)."
 									]
 								},
 								{
