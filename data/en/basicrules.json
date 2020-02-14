@@ -5145,51 +5145,51 @@
 					"name": "Constructs",
 					"entries": [
 						"Armored robots, humanlike androids, even magically-animated golems or zombies are all examples of constructs, non-living things capable of acting on their own to one degree or another, carrying out preprogrammed instructions, or even possessing independent thought in some cases.",
-						"Since they are capable of action on their own (rather than just improving their owner’s abilities), constructs are considered minions—full-fledged characters—rather than devices or equipment and are acquired using the Minions advantage or summoned or created by a Summon effect.",
+						"Since they are capable of action on their own (rather than just improving their owner’s abilities), constructs are considered minions—full-fledged characters—rather than devices or equipment and are acquired using the {@advantage Minion} advantage or summoned or created by a {@effect Summon} effect.",
 						{
 							"type": "entries",
 							"name": "Construct Creation",
 							"entries": [
-								"Constructs are created exactly like other characters, using the guidelines in Secret Origins, with a few exceptions, discussed in the following section.",
+								"Constructs are created exactly like other characters, using the guidelines in {@rule Secret Origins|basic|2}, with a few exceptions, discussed in the following section.",
 								"Constructs are subject to the same power level limits as other characters and the Gamemaster should require constructs controlled by the players to observe these limits. Non-player character constructs have their power level determined the same as other NPCs.",
 								{
 									"type": "entries",
-									"name": "Abilities",
+									"translate_name": "Abilities", "name": "Constructs Abilities",
 									"entries": [
 										"Constructs have no Stamina, because they are not living beings. Constructs do not recover from damage; they must be repaired instead. Constructs are immune to effects permitting Fortitude resistance checks unless the effect works on objects. Constructs also have either no Intellect and Presence ranks or no Strength and Agility ranks.",
 										"These are the qualities of constructs: lacking three abilities (–30 points) and Immunity to Fortitude Effects (30 points) average out to 0 points.",
 										"Constructs without Intellect and Presence are automatons, operating on simple instinct or programmed instructions. They are immune to Will effects and interaction skills and automatically fail Intellect and Presence checks.",
 										"Constructs without Strength and Agility ranks are immobile intellects, like an artificially intelligent computer or a sentient magic item. They cannot undertake physical actions on their own, although they may be able to control other constructs. They cannot move or exert force, and automatically fail Strength and Agility checks. They can have Dexterity, used for manipulating remotes and such.",
 										"A construct can buy up one of its nonexistent ability ranks by spending Character points; +1 rank per 2 Character points, as usual, but starting at a rank of –5. This gives the construct the normal use of that ability. Note a construct with Intellect but no Presence is intelligent but non-sentient (not self-aware) and a construct needs a rank in both Strength and Agility to be able to move and act physically. Constructs cannot buy Stamina, since creatures with Stamina are, by definition, not constructs.",
-										"Like inanimate objects, constructs have a Toughness rank, which measures their ability to resist damage. A construct starts out at Toughness 0 and can increase its rank using the Protection effect. A mobile construct can even have the Defensive Roll advantage."
+										"Like inanimate objects, constructs have a Toughness rank, which measures their ability to resist damage. A construct starts out at Toughness 0 and can increase its rank using the {@effect Protection} effect. A mobile construct can even have the {@advantage Defensive Roll} advantage."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Skills",
+									"translate_name": "Skills", "name": "Constructs Skills",
 									"entries": [
 										"Constructs can have skills just like characters at the same cost. However, constructs cannot have skills based on abilities they lack."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Advantages",
+									"translate_name": "Advantages", "name": "Constructs Advantages",
 									"entries": [
 										"Constructs can have advantages at the same cost as other characters. Some advantages are less useful or even useless to constructs and, like skills, constructs cannot have advantages requiring abilities they lack."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Powers",
+									"translate_name": "Powers", "name": "Constructs Powers",
 									"entries": [
-										"Constructs can have various power effects, like other characters. Some effects are less useful or even useless to constructs and the GM has final say as to whether or not a particular effect can be assigned to a construct. Power effects are often aspects of a construct’s makeup or design, such as built-in armor (Protection), weapons (Damage), or sensors (Sense)."
+										"Constructs can have various power effects, like other characters. Some effects are less useful or even useless to constructs and the GM has final say as to whether or not a particular effect can be assigned to a construct. Power effects are often aspects of a construct’s makeup or design, such as built-in armor ({@effect Protection}), weapons ({@effect Damage}), or sensors ({@effect Sense})."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Size",
+									"translate_name": "Size", "name": "Constructs Size",
 									"entries": [
-										"Constructs larger or smaller than medium must pay Character points for Innate and Permanent Growth or Shrinking."
+										"Constructs larger or smaller than medium must pay Character points for {@modifier Innate} and {@modifier Permanent} {@effect Growth} or {@effect Shrinking}."
 									]
 								}
 							]

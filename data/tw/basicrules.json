@@ -4895,7 +4895,7 @@
 											"type": "entries",
 											"translate_name": "孤立", "name": "Isolated",
 											"entries": [
-												"Headquarters with this feature are situated somewhere out of the way like the Antarctic, the bottom of the ocean, on top of a lonely mountain peak, even in orbit or on the Moon. The base’s owner doesn’t have to worry about things like door-to-door salesmen or other unwanted visitors but the headquarters is also far from civilization (which can be limiting for heroes unable to travel fast). The headquarters is assumed to provide all the necessary life-support for its location, but doesn’t provide characters with the means to get to the base or travel back. They need the appropriate powers, a vehicle, or a separate base feature."
+												"具備這個功能特色的據點總部坐落於某個偏僻的地方，例如南極、海底、孤峰山頂、或甚至是星球軌道或月球。基地的擁有者不用再擔心受到上門的推銷員或其他不速之客的騷擾，但同時據點總部也遠離了文明社會（這對一些缺乏快速移動手段的英雄們或許會是個阻礙）。據點總部被假定能夠提供生活所需的一切資源，但並不會提供角色抵達基地或回程的移動手段，他們將需要適合的超能力、載具、或是其他的據點總部功能才能達到這個效果。"
 											]
 										},
 										{
@@ -4931,7 +4931,7 @@
 											"type": "entries",
 											"translate_name": "供電系統", "name": "Power System",
 											"entries": [
-												"A power system makes the headquarters completely independent of outside power. It has its own generators (which may be solar, geothermal, nuclear, cosmic, or anything else the designer wants). They provide the base’s entire power needs. The headquarters also has emergency back-up power should the generators fail. This generally lasts for a number of hours equal to the HQ’s power level."
+												"供電系統可以讓據點總部完全獨立於外部供電。據點總部將擁有屬於自己的發電機（它可以是太陽能、地熱能、核能、宇宙能、或者任何設計者想要的能源）。供電系統能夠滿足據點總部內一切的能源需求。據點總部也擁有緊急備用電源以防發電裝置失效。這個備用電源通常能運作等同於據點總部超能力階級的小時數。"
 											]
 										},
 										{
@@ -4990,8 +4990,8 @@
 									"type": "entries",
 									"translate_name": "替換據點總部（據點總部的替換效果）", "name": "Alternate headquarters",
 									"entries": [
-										"In the event that a character has more than one headquarters, such as hidden bases scattered around the world, the others are treated as Alternate Equipment: the character pays the points for the most expensive HQ, then 1 equipment point for each additional HQ of the same or lesser cost. The extra headquarters are largely a convenience (for heroes visiting other areas) and insurance against the loss of any one HQ.",
-										"The only exception to the Alternate Headquarters guideline is a shared headquarters (previously), the characters sharing the HQ all contribute to its cost and pay for any personal headquarters separately."
+										"如果角色擁有超過一做據點總部，比如說分散於世界各處的秘密基地，那麼這些據點總部都可以被視為一種替換裝備：角色只需要為最昂貴的據點總部支付其花費，並為每一個其他花費相同或較廉價的據點總部支付1點裝備點。額外的據點總部最主要是為了方便（讓英雄們造訪其他地區時能有落腳處），並做為失去其他據點總部時的保險。",
+										"替換據點總部準則的唯一例外，舊是共用的據點總部（見前述），共用該據點總部的角色們都將各自貢獻其所需的裝備點，並再單獨為個人的據點總部另外支付花費。"
 									]
 								}
 							]
@@ -5142,68 +5142,68 @@
 				},
 				{
 					"type": "section",
-					"name": "Constructs",
+					"translate_name": "構裝體", "name": "Constructs",
 					"entries": [
-						"Armored robots, humanlike androids, even magically-animated golems or zombies are all examples of constructs, non-living things capable of acting on their own to one degree or another, carrying out preprogrammed instructions, or even possessing independent thought in some cases.",
-						"Since they are capable of action on their own (rather than just improving their owner’s abilities), constructs are considered minions—full-fledged characters—rather than devices or equipment and are acquired using the Minions advantage or summoned or created by a Summon effect.",
+						"武裝機器人、仿生人、或甚至魔法驅動的魔像或殭屍，全都是構裝體的例子：它們是能夠在某種程度上自行活動的非活物，執行事先編寫的指令、或甚至在某些情況下擁有獨立的思想。",
+						"由於它們能夠採取自己的行動（而非強化其擁有者的能力），因此構裝體將被視為嘍囉的一種（徹徹底底的角色）而非超級裝置或裝備，且需要藉由{@advantage 嘍囉}特長來獲得、或藉由{@effect 召喚}效果來召喚或創造。",
 						{
 							"type": "entries",
-							"name": "Construct Creation",
+							"translate_name": "構裝體的創建", "name": "Construct Creation",
 							"entries": [
-								"Constructs are created exactly like other characters, using the guidelines in Secret Origins, with a few exceptions, discussed in the following section.",
-								"Constructs are subject to the same power level limits as other characters and the Gamemaster should require constructs controlled by the players to observe these limits. Non-player character constructs have their power level determined the same as other NPCs.",
+								"構裝體的創建流程就如同其他角色，使用{@rule 秘密起源|basic|2}章節中的準則說明，但有著一些例外。這些例外將在以下段落中說明。",
+								"構裝體就和其他角色一樣受到相同超能力階級的限制，且遊戲主持人會要求由玩家控制的構裝體遵守這些限制。做為非玩家角色的構裝體同樣有著超能力階級，其數值的決定方式與其他NPC相同。",
 								{
 									"type": "entries",
-									"name": "Abilities",
+									"translate_name": "屬性", "name": "Constructs Abilities",
 									"entries": [
-										"Constructs have no Stamina, because they are not living beings. Constructs do not recover from damage; they must be repaired instead. Constructs are immune to effects permitting Fortitude resistance checks unless the effect works on objects. Constructs also have either no Intellect and Presence ranks or no Strength and Agility ranks.",
-										"These are the qualities of constructs: lacking three abilities (–30 points) and Immunity to Fortitude Effects (30 points) average out to 0 points.",
-										"Constructs without Intellect and Presence are automatons, operating on simple instinct or programmed instructions. They are immune to Will effects and interaction skills and automatically fail Intellect and Presence checks.",
-										"Constructs without Strength and Agility ranks are immobile intellects, like an artificially intelligent computer or a sentient magic item. They cannot undertake physical actions on their own, although they may be able to control other constructs. They cannot move or exert force, and automatically fail Strength and Agility checks. They can have Dexterity, used for manipulating remotes and such.",
-										"A construct can buy up one of its nonexistent ability ranks by spending Character points; +1 rank per 2 Character points, as usual, but starting at a rank of –5. This gives the construct the normal use of that ability. Note a construct with Intellect but no Presence is intelligent but non-sentient (not self-aware) and a construct needs a rank in both Strength and Agility to be able to move and act physically. Constructs cannot buy Stamina, since creatures with Stamina are, by definition, not constructs.",
-										"Like inanimate objects, constructs have a Toughness rank, which measures their ability to resist damage. A construct starts out at Toughness 0 and can increase its rank using the Protection effect. A mobile construct can even have the Defensive Roll advantage."
+										"由於構裝體並不是活著的生物，因此它們並不具備體質屬性。構裝體並不會從傷害中回復；取而代之的是，它們可以被維修。構裝體免疫於那些要求目標進行韌性抵抗檢定的效果，除非該效果能夠作用於物體。構裝體也可能會不具備智力和表現屬性、或不具備力量和敏捷屬性。",
+										"簡而言之，構裝體具備下列性質：缺乏三種屬性（-30點），且免疫於韌性抵抗的效果（30點），正負相抵為0點。",
+										"不具備智力和表現屬性的構裝體屬於自動裝置，它們會遵循簡單的本能或被編寫的程序展開行動。它們同時免疫於意志抵抗的效果以及交涉類技能的影響，且會在進行涉及智力和表現屬性的檢定時自動失敗。",
+										"不具備力量和敏捷屬性的構裝體屬於無法移動的智能物體，例如人工智慧電腦或智能魔法物品就屬於這類。它們無法自力採取物理性的行動，但它們可能有辦法控制其他構裝體採取行動。它們無法移動或發揮力量，且會在進行涉及力量和敏捷屬性的檢定時自動失敗。然而，它們仍具備靈巧屬性，用以進行遠端操控或類似的行為﹒",
+										"構裝體可以藉由花費角色點來購買他所缺乏的屬性等級；每+1級都必須如常花費 2點角色點，但其起始等級為-5。這麼做將讓構裝體得以如常使用該屬性。要注意的是，具備智力屬性但缺乏表現屬性的構裝體雖然具備智能，但並沒有知覺（沒有自我意識），且構裝體必須要同時擁有力量和敏捷屬性才能夠物理性的移動和行動。構裝體不能購買體質屬性，因為擁有體質屬性的生物在定義上就不屬於構裝體。",
+										"如同無生命物體，構裝體仍具備堅實防禦屬性用以衡量它們抵抗傷害的能力。構裝體的起始堅實屬性為0級，且可以藉由{@effect 保護}效果來提升。能夠四處移動的構裝體甚至可以藉由{@advantage 受身}特長來提升堅實防禦屬性。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Skills",
+									"translate_name": "技能", "name": "Constructs Skills",
 									"entries": [
-										"Constructs can have skills just like characters at the same cost. However, constructs cannot have skills based on abilities they lack."
+										"構裝體可以跟其他角色一樣，以相同的花費購買並擁有技能。然而，構裝體不能擁有那些基於他們所缺乏屬性的技能。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Advantages",
+									"translate_name": "特長", "name": "Constructs Advantages",
 									"entries": [
-										"Constructs can have advantages at the same cost as other characters. Some advantages are less useful or even useless to constructs and, like skills, constructs cannot have advantages requiring abilities they lack."
+										"構裝體可以與其他角色一樣，以相同的花費購買並擁有特長。有些特長對於構裝體而言並不怎麼實用，或甚至完全沒有用處。此外，與技能相同，構裝體不能擁有那些涉及他們所缺乏屬性的特長。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Powers",
+									"translate_name": "超能力", "name": "Constructs Powers",
 									"entries": [
-										"Constructs can have various power effects, like other characters. Some effects are less useful or even useless to constructs and the GM has final say as to whether or not a particular effect can be assigned to a construct. Power effects are often aspects of a construct’s makeup or design, such as built-in armor (Protection), weapons (Damage), or sensors (Sense)."
+										"構裝體可以擁有各式各樣的超能力效果，就如同其他角色一樣。有些超能力效果對於構裝體而言並不怎麼實用，或甚至完全沒有用處，且GM對於構裝體是否可以擁有特定效果具有最終決定權。超能力效果通常會用來呈現構裝體的組成元件或設計，例如內建裝甲（{@effect 保護}）、武器（{@effect 傷害}）、或感測器（{@effect 感官}）。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Size",
+									"translate_name": "體型", "name": "Constructs Size",
 									"entries": [
-										"Constructs larger or smaller than medium must pay Character points for Innate and Permanent Growth or Shrinking."
+										"體型比中型更大或更小的構裝體，必須為應用了{@modifier 天生}和{@modifier 永駐}的{@effect 成長}或{@effect 縮小}效果支付其所需的角色點花費。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Commanding Constructs",
+							"translate_name": "命令構裝體", "name": "Commanding Constructs",
 							"entries": [
 								"A construct’s owner can give it orders verbally or through any other means the construct understands. Commanding a construct is a move action. Constructs follow orders to the best of their ability. Non-intelligent constructs do exactly as they’re told, without creativity or initiative, while intelligent constructs have the ability to interpret and improvise. An owner can also give a construct a series of basic orders for it to fulfill, such as “stay and guard this place and attack anyone who comes here other than me.” In the absence of new orders, constructs follow the last order they were given."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Damaging and Repairing Constructs",
+							"translate_name": "傷害和維修構裝體", "name": "Damaging and Repairing Constructs",
 							"entries": [
 								"Constructs suffer damage like inanimate objects (see Damage effect in  Powers for details). Constructs do not recover from damage. Instead, they must be repaired. See Technology skill description for guidelines on repairing damaged objects.",
 								"Constructs with Regeneration are self-repairing (see Regeneration effect in  Powers)."
@@ -5211,7 +5211,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sample Constructs",
+							"translate_name": "範例構裝體", "name": "Sample Constructs",
 							"entries": [
 								"The following are some typical constructs for this game, most likely to show up as a villain’s minions. Individually, they’re no match for most heroes, but large numbers of them can keep characters busy and even wear them down with a lucky attack or two.",
 								"For each Constructs information, see {@5etools Constructs|constructs.html} page."
