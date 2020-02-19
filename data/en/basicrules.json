@@ -4902,14 +4902,14 @@
 											"type": "entries",
 											"name": "Laboratory",
 											"entries": [
-												"A laboratory is a facility for performing scientific tests or experiments. It contains all the necessary scientific equipment, including dedicated computers, if the headquarters doesn’t have its  own computer system. Characters can use the laboratory to perform research, study unusual phenomena (including many super-powers), and so forth. A laboratory may be required for certain Expertise, Investigation, or Technology skill checks, or provide a circumstance bonus to those checks."
+												"A laboratory is a facility for performing scientific tests or experiments. It contains all the necessary scientific equipment, including dedicated computers, if the headquarters doesn’t have its  own computer system. Characters can use the laboratory to perform research, study unusual phenomena (including many super-powers), and so forth. A laboratory may be required for certain {@skill Expertise}, {@skill Investigation}, or {@skill Technology} skill checks, or provide a circumstance bonus to those checks."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Library",
 											"entries": [
-												"A library allows for use of various Knowledge skills when doing  research. A library may consist of printed matter (books and periodicals), microfilm, digital files, or a combination of all three. A library may facilitate certain Expertise skill checks and provide a circumstance bonus for them."
+												"A library allows for use of various {@skill Expertise|Knowledge} skills when doing  research. A library may consist of printed matter (books and periodicals), microfilm, digital files, or a combination of all three. A library may facilitate certain {@skill Expertise} skill checks and provide a circumstance bonus for them."
 											]
 										},
 										{
@@ -4938,7 +4938,7 @@
 											"type": "entries",
 											"name": "Sealed",
 											"entries": [
-												"This is similar to the Isolated feature, except the lair is sealed off from the outside world rather than isolated by geographic location. It may be a structure with no doors, windows, or other outside access, or behind some sort of barrier. Only the lair’s owner and designated guests may enter, although the GM should determine means by which trespassers might do so, including effects like Dimensional Travel, Insubstantial, Permeate, and Teleport."
+												"This is similar to the Isolated feature, except the lair is sealed off from the outside world rather than isolated by geographic location. It may be a structure with no doors, windows, or other outside access, or behind some sort of barrier. Only the lair’s owner and designated guests may enter, although the GM should determine means by which trespassers might do so, including effects like {@effect Movement|Dimensional Travel}, {@effect Insubstantial}, {@effect Movement|Permeate}, and {@effect Teleport}."
 											]
 										},
 										{
@@ -5205,8 +5205,8 @@
 							"type": "entries",
 							"name": "Damaging and Repairing Constructs",
 							"entries": [
-								"Constructs suffer damage like inanimate objects (see Damage effect in  Powers for details). Constructs do not recover from damage. Instead, they must be repaired. See Technology skill description for guidelines on repairing damaged objects.",
-								"Constructs with Regeneration are self-repairing (see Regeneration effect in  Powers)."
+								"Constructs suffer damage like inanimate objects (see {@effect Damage} effect for details). Constructs do not recover from damage. Instead, they must be repaired. See {@skill Technology} skill description for guidelines on repairing damaged objects.",
+								"Constructs with {@effect Regeneration} are self-repairing."
 							]
 						},
 						{

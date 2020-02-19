@@ -82,7 +82,7 @@
 					{ "translate_name": "護甲", "name": "Armor" },
 					{ "translate_name": "載具", "name": "Vehicles" },
 					{ "_translate_name": "據點總部", "name": "Headquarters" },
-					{ "_translate_name": "構裝體", "name": "Constructs" }
+					{ "translate_name": "構裝體", "name": "Constructs" }
 				]
 			},
 			{
@@ -4175,7 +4175,7 @@
 										["速度", "等同 移動類型效果 的花費"],
 										["堅實屬性", "1點／每+1堅實屬性"],
 										["防禦", "1點／每+1防禦"],
-										["功能特色", "1點／每個功能特色"],
+										["功能特性", "1點／每個功能特性"],
 										["超能力", "等同 超能力 的花費（參見第五章）"]
 									]
 								},
@@ -4266,9 +4266,9 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "功能特色", "name": "Features",
+									"translate_name": "功能特性", "name": "Features",
 									"entries": [
-										"某些事物會被視為所有載具的基本配備。這些事物包括了座位、安全吊帶或安全帶、空調、無線電接收器、頭燈、以及其他不會對遊戲造成影響的類似事物。至於功能特色則被視為載具的「額外強化」，且每個功能特色都需要花費1點裝備點。GM可以決定某個功能特色是否已經包含在載具或其花費中。某些「功能特色」實際上會被視為超能力，詳情請參見後述段落的說明。",
+										"某些事物會被視為所有載具的基本配備。這些事物包括了座位、安全吊帶或安全帶、空調、無線電接收器、頭燈、以及其他不會對遊戲造成影響的類似事物。至於功能特性則被視為載具的「額外強化」，且每個功能特性都需要花費1點裝備點。GM可以決定某個功能特性是否已經包含在載具或其花費中。某些「功能特性」實際上會被視為超能力，詳情請參見後述段落的說明。",
 										{
 											"type": "list",
 											"items": [
@@ -4609,7 +4609,7 @@
 							"type": "entries",
 							"translate_name": "地面載具", "name": "Ground Vehicles",
 							"entries": [
-								"大部分的車輛都已經包括了像是空調、安全氣囊、防鎖死剎車、巡航定速、免鑰匙進入系統、以及附帶CD播放器的AM/FM收音機等標準功能特色。豪華車量則經常會包括其他改良，像是電動座椅、革製內飾、和天窗。",
+								"大部分的車輛都已經包括了像是空調、安全氣囊、防鎖死剎車、巡航定速、免鑰匙進入系統、以及附帶CD播放器的AM/FM收音機等標準功能特性。豪華車量則經常會包括其他改良，像是電動座椅、革製內飾、和天窗。",
 								{
 									"type": "list",
 									"items": [
@@ -4689,12 +4689,12 @@
 					"translate_name": "據點總部", "name": "Headquarters",
 					"entries": [
 						"無論是地底洞窟、摩天大廈的頂樓、環繞衛星、或是月球上的基地，許多英雄和反派們都營運著屬於自己的秘密（或其實沒那麼秘密）基地。在遊戲主持人的批准下,團隊成員可能甚至會將他們的裝備點集中在一起，以擁有一個大家共有的據點總部。",
-						"一名角色可以甚至擁有好幾個指揮基地（參見本章在「替換據點總部」段落的說明）。這對於反派而言較為常見，他們可能會擁有許多後備計畫和秘密基地，讓他們能夠在計畫被破壞時撤退，重整旗鼓。若一個角色的據點總部被摧毀，該角色可以選擇重建它、或是建造一個價值相同裝備點，但有著不同功能特色的嶄新據點總部。超級反派經常會建立使用一連串不同的巢穴。",
+						"一名角色可以甚至擁有好幾個指揮基地（參見本章在「替換據點總部」段落的說明）。這對於反派而言較為常見，他們可能會擁有許多後備計畫和秘密基地，讓他們能夠在計畫被破壞時撤退，重整旗鼓。若一個角色的據點總部被摧毀，該角色可以選擇重建它、或是建造一個價值相同裝備點，但有著不同功能特性的嶄新據點總部。超級反派經常會建立使用一連串不同的巢穴。",
 						{
 							"type": "entries",
 							"translate_name": "據點總部的數據", "name": "Headquarters Traits",
 							"entries": [
-								"據點總部具有兩個主要數據：尺寸、以及堅實屬性，此外還可能會有數個功能特色。這些數據都會花費一定數量的裝備點。",
+								"據點總部具有兩個主要數據：尺寸、以及堅實屬性，此外還可能會有數個功能特性。這些數據都會花費一定數量的裝備點。",
 								{
 									"type": "table",
 									"caption": "據點總部數據的花費",
@@ -4711,7 +4711,7 @@
 									"rows": [
 										["尺寸", "小型", "1點／每尺寸類別"],
 										["堅實屬性 ", "6", "1點／每+2堅實屬性"],
-										["功能特色", "—", "1點／每個功能特色"]
+										["功能特性", "—", "1點／每個功能特性"]
 									]
 								},
 								{
@@ -4759,27 +4759,27 @@
 									"type": "entries",
 									"translate_name": "超能力階級", "name": "Headquarters Power Level",
 									"entries": [
-										"有些特色會參考據點總部的超能力階級。對於玩家角色來說，這就是劇集整體的超能力階級。對於非玩家角色，特別是反派角色而言，這個數值則會是該根據地擁有者的實質超能力等級、或者任何GM所希望設定的超能力等級。GM可以依據劇集超能力階級做為設定的參考。"
+										"有些功能特性會參考據點總部的超能力階級。對於玩家角色來說，這就是劇集整體的超能力階級。對於非玩家角色，特別是反派角色而言，這個數值則會是該根據地擁有者的實質超能力等級、或者任何GM所希望設定的超能力等級。GM可以依據劇集超能力階級做為設定的參考。"
 									]
 								},
 								{
 									"type": "entries",
-									"translate_name": "功能特色", "name": "Headquarters Features",
+									"translate_name": "功能特性", "name": "Headquarters Features",
 									"entries": [
-										"據點總部可能具備好幾個功能特色，從下表中選擇。一個據點總部會自動擁有其基礎建築設備而無須另外花費裝備點，像是門窗、電源插座、水電煤氣等公用設施等等。除此之外的每個功能特色都需要花費1點裝備點。在遊戲主持人的同意下，你可以在這裡列出的基礎上發明額外的功能特色。",
+										"據點總部可能具備好幾個功能特性，從下表中選擇。一個據點總部會自動擁有其基礎建築設備而無須另外花費裝備點，像是門窗、電源插座、水電煤氣等公用設施等等。除此之外的每個功能特性都需要花費1點裝備點。在遊戲主持人的同意下，你可以在這裡列出的基礎上發明額外的功能特性。",
 										{
 											"type": "entries",
 											"translate_name": "戰鬥模擬器", "name": "Combat Simulator",
 											"entries": [
 												"戰鬥模擬器是一個搭載著各種用以測試角色超能力和技巧的特殊房間，讓他們得以在擬真的戰鬥環境下進行訓練。通常來說，戰鬥模擬器搭載著一整套配備，能夠模擬出任何效果等級不超過據點總部超能力階級的攻擊類效果。",
-												"若再額外購買一次這個功能特色，則戰鬥模擬器將能夠投射出擬真幻境，重新創造或模擬出幾乎任何環境。戰鬥模擬器相當適合用於鍛鍊和進行短暫的「戰爭遊戲」（讓角色們彼此對抗或模擬敵人）。聰明的英雄們也能夠嘗試誘導入侵者進入戰鬥模擬器、或入侵者也可能覆寫模擬器的控制系統並將英雄們困在其中，並將其轉變成致命的死亡陷阱。"
+												"若再額外購買一次這個功能特性，則戰鬥模擬器將能夠投射出擬真幻境，重新創造或模擬出幾乎任何環境。戰鬥模擬器相當適合用於鍛鍊和進行短暫的「戰爭遊戲」（讓角色們彼此對抗或模擬敵人）。聰明的英雄們也能夠嘗試誘導入侵者進入戰鬥模擬器、或入侵者也可能覆寫模擬器的控制系統並將英雄們困在其中，並將其轉變成致命的死亡陷阱。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "通訊設備", "name": "Communications",
 											"entries": [
-												"通訊設備讓據點總部能夠接收並傳送各種不同的無線電波、電視頻段、警察監控和緊急頻道、團隊成員間的協同溝通，諸如此類。這個功能特色包括了各種通訊裝備、控制台、和顯示器。這個系統存取管制通訊頻段的能力將取決於使用者的存取授權和相關技能等級。英雄們經常能夠存取特殊的政府頻道，而一次成功的{@skill 科技}技能檢定（DC 25）則能夠賦予使用者非法存取被管制系統的權限。"
+												"通訊設備讓據點總部能夠接收並傳送各種不同的無線電波、電視頻段、警察監控和緊急頻道、團隊成員間的協同溝通，諸如此類。這個功能特性包括了各種通訊裝備、控制台、和顯示器。這個系統存取管制通訊頻段的能力將取決於使用者的存取授權和相關技能等級。英雄們經常能夠存取特殊的政府頻道，而一次成功的{@skill 科技}技能檢定（DC 25）則能夠賦予使用者非法存取被管制系統的權限。"
 											]
 										},
 										{
@@ -4793,7 +4793,7 @@
 											"type": "entries",
 											"translate_name": "隱匿", "name": "Concealed",
 											"entries": [
-												"據點總部以某種方式從外界中隱藏了起來。它可能是偽裝在虛假表面之下、深埋於地面深處、或藉著其他類似的手段來達到這個效果。要注意的是，這個功能特色與後述的「孤立」特色有所不同：一座俱備孤立特色的據點總部難以讓他人到達，而一座俱備隱匿特色的據點總部則難以在第一時間被發現。定位該據點總部位置時所進行的技能檢定的DC將會因此+10。每額外應用一級的這個功能特色都將使該技能檢定的DC再+5，最高累積到+30。"
+												"據點總部以某種方式從外界中隱藏了起來。它可能是偽裝在虛假表面之下、深埋於地面深處、或藉著其他類似的手段來達到這個效果。要注意的是，這個功能特性與後述的「孤立」特性有所不同：一座俱備孤立特性的據點總部難以讓他人到達，而一座俱備隱匿特性的據點總部則難以在第一時間被發現。定位該據點總部位置時所進行的技能檢定的DC將會因此+10。每額外應用一級的這個功能特性都將使該技能檢定的DC再+5，最高累積到+30。"
 											]
 										},
 										{
@@ -4808,7 +4808,7 @@
 											"translate_name": "死亡陷阱", "name": "Deathtraps",
 											"entries": [
 												"死亡陷阱實際上就是反派版本的防禦系統：反派的巢穴中總是會有一個或多個邪惡的陷阱，用來對付那些討人厭的英雄們。有些死亡陷阱被設計成阻止英雄們闖入的安全系統：比如說隱藏的自動槍塔、火焰牆、填滿水或沙子的密封房間等等。至於其他的死亡陷阱則是用以緩慢地處死那些被俘虜的英雄們。",
-												"要注意的是，沒有這個功能特色並不意味著反派不能在巢穴內即興製造出一個死亡陷阱──比如說，將英雄們用鎖鏈綁在一架即將倒數升空的火箭之下、或是將他們從火山口上緩緩降下。沒有這個功能特色僅僅意味著這個基地沒有專門設計成死亡陷阱的部分。",
+												"要注意的是，沒有這個功能特性並不意味著反派不能在巢穴內即興製造出一個死亡陷阱──比如說，將英雄們用鎖鏈綁在一架即將倒數升空的火箭之下、或是將他們從火山口上緩緩降下。沒有這個功能特性僅僅意味著這個基地沒有專門設計成死亡陷阱的部分。",
 												"另外要注意，儘管被叫做「死亡陷阱」，但這些陷阱並不一定要是致命的。有些陷阱可能只是用以使入侵者無力化並加以俘虜（比較接近非致命的防禦系統），讓反派能夠與他們談判……並或許在這之後將它們丟到真正的死亡陷阱之中！"
 											]
 										},
@@ -4823,22 +4823,22 @@
 											"type": "entries",
 											"translate_name": "船塢", "name": "Dock",
 											"entries": [
-												"船塢能夠容納水上載具，並包括了通往附近航道的通道、用以使載具進出船塢的氣閘或船閘控制系統、以及用以維修保養水上載具的旱塢設施。據點總部與水體之間的距離必須在一個合理範圍內才能擁有這個功能特色。"
+												"船塢能夠容納水上載具，並包括了通往附近航道的通道、用以使載具進出船塢的氣閘或船閘控制系統、以及用以維修保養水上載具的旱塢設施。據點總部與水體之間的距離必須在一個合理範圍內才能擁有這個功能特性。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "雙重尺寸", "name": "Dual Size",
 											"entries": [
-												"據點總部具有二個分別的尺寸類別：它的內部尺寸類別（如常購買）用以決定建築物的內部空間大小，而它的外部尺寸類別則會比內部尺寸類別小一級或更多。實際上，擁有這個功能特色的據點總部的內部空間要比外部還要大！舉例來說，一棟小型房屋的內部可能會隱含著相當於超大型堡壘的空間。GM可以甚至允許其內部空間的尺寸類別超過「極巨型」，每再上升一級就會使空間大小加倍；這意味著投資大量點數的據點總部可能會是一個袖珍宇宙！為這座據點總部較大的尺寸類別支付其原本的裝備點，再加上這個功能特色本身的花費，接著，你就能夠把這座據點總部的外部尺寸設定成任意較小的尺寸類別。",
-												"通常來說，據點總部的外部尺寸不能小於「極微型」的建築物，也就是差不多一個衣櫃或電話亭（或者，衣櫥或警察崗亭）的大小，大概足夠讓一名成年男性通過做為這座基地入口的通道。至於那些不具備「外部建築」的據點總部，例如只能藉由魔法護身符進出的異次元城寨，並不擁有這個功能特色；相對的，它會擁有像是維度傳送門、孤立、封閉之類的功能特色。"
+												"據點總部具有二個分別的尺寸類別：它的內部尺寸類別（如常購買）用以決定建築物的內部空間大小，而它的外部尺寸類別則會比內部尺寸類別小一級或更多。實際上，擁有這個功能特性的據點總部的內部空間要比外部還要大！舉例來說，一棟小型房屋的內部可能會隱含著相當於超大型堡壘的空間。GM可以甚至允許其內部空間的尺寸類別超過「極巨型」，每再上升一級就會使空間大小加倍；這意味著投資大量點數的據點總部可能會是一個袖珍宇宙！為這座據點總部較大的尺寸類別支付其原本的裝備點，再加上這個功能特性本身的花費，接著，你就能夠把這座據點總部的外部尺寸設定成任意較小的尺寸類別。",
+												"通常來說，據點總部的外部尺寸不能小於「極微型」的建築物，也就是差不多一個衣櫃或電話亭（或者，衣櫥或警察崗亭）的大小，大概足夠讓一名成年男性通過做為這座基地入口的通道。至於那些不具備「外部建築」的據點總部，例如只能藉由魔法護身符進出的異次元城寨，並不擁有這個功能特性；相對的，它會擁有像是維度傳送門、孤立、封閉之類的功能特性。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "超能力效果", "name": "Effect",
 											"entries": [
-												"在遊戲主持人的核准下，據點總部可以將任意適當的超能力效果做為功能特色來擁有。該超能力效果的花費總和不能超過據點總部超能力階級的二倍，且不能超過其超能力階級限制。這些超能力效果被預設只能夠影響據點總部本身、或是其居住者，若兩者皆會被影響，則該效果必須應用{@modifier 影響他人}修飾符，或者你可以將它們分別做為不同的功能特色來獲得。"
+												"在遊戲主持人的核准下，據點總部可以將任意適當的超能力效果做為功能特性來擁有。該超能力效果的花費總和不能超過據點總部超能力階級的二倍，且不能超過其超能力階級限制。這些超能力效果被預設只能夠影響據點總部本身、或是其居住者，若兩者皆會被影響，則該效果必須應用{@modifier 影響他人}修飾符，或者你可以將它們分別做為不同的功能特性來獲得。"
 											]
 										},
 										{
@@ -4859,8 +4859,8 @@
 											"type": "entries",
 											"translate_name": "空地", "name": "Grounds",
 											"entries": [
-												"除了據點總部的實際建築之外，它周遭還有著一片相當寬廣的土地。在沒有這個功能特色的情況下，據點總部周圍的土地可以無需花費就有比建築本身大一級的尺寸類別；而擁有這個功能特色，則讓周圍的土地最大可以比建築本身還要大上三級的尺寸類別。因此一個大型宅邸的據點總部可以擁有一整片極巨型尺寸的空地區域。",
-												"若據點總部具有其他像是防禦系統和安全系統之類的功能特色，則這些功能特色也能作用於這些延伸的土地區域上（以柵欄、感測器、武器佈署之類的形式）。"
+												"除了據點總部的實際建築之外，它周遭還有著一片相當寬廣的土地。在沒有這個功能特性的情況下，據點總部周圍的土地可以無需花費就有比建築本身大一級的尺寸類別；而擁有這個功能特性，則讓周圍的土地最大可以比建築本身還要大上三級的尺寸類別。因此一個大型宅邸的據點總部可以擁有一整片極巨型尺寸的空地區域。",
+												"若據點總部具有其他像是防禦系統和安全系統之類的功能特性，則這些功能特性也能作用於這些延伸的土地區域上（以柵欄、感測器、武器佈署之類的形式）。"
 											]
 										},
 										{
@@ -4881,7 +4881,7 @@
 											"type": "entries",
 											"translate_name": "拘留牢房", "name": "Holding Cells",
 											"entries": [
-												"這些小房間被用來關押囚犯，儘管這通常只是暫時性的，但某些據點總部也可能擁有著能長期的拘留設施。這些牢房可能搭載著{@effect 無效化}裝置（效果等級等同於據點總部的超能力階級）、或者牢房的基礎堅實屬性比原本增加了50%，其選擇的選項必須經過玩家和GM的同意（這兩個選項各自為一個功能特色）。英雄們會利用拘留牢房以關押被俘虜的反派，直到他們被移交到合適的執法機構手中；而反派則會利用這些牢房以囚禁英雄們，直到他們能夠以最新的死亡陷阱處理掉這些討厭鬼。"
+												"這些小房間被用來關押囚犯，儘管這通常只是暫時性的，但某些據點總部也可能擁有著能長期的拘留設施。這些牢房可能搭載著{@effect 無效化}裝置（效果等級等同於據點總部的超能力階級）、或者牢房的基礎堅實屬性比原本增加了50%，其選擇的選項必須經過玩家和GM的同意（這兩個選項各自為一個功能特性）。英雄們會利用拘留牢房以關押被俘虜的反派，直到他們被移交到合適的執法機構手中；而反派則會利用這些牢房以囚禁英雄們，直到他們能夠以最新的死亡陷阱處理掉這些討厭鬼。"
 											]
 										},
 										{
@@ -4895,36 +4895,36 @@
 											"type": "entries",
 											"translate_name": "孤立", "name": "Isolated",
 											"entries": [
-												"具備這個功能特色的據點總部坐落於某個偏僻的地方，例如南極、海底、孤峰山頂、或甚至是星球軌道或月球。基地的擁有者不用再擔心受到上門的推銷員或其他不速之客的騷擾，但同時據點總部也遠離了文明社會（這對一些缺乏快速移動手段的英雄們或許會是個阻礙）。據點總部被假定能夠提供生活所需的一切資源，但並不會提供角色抵達基地或回程的移動手段，他們將需要適合的超能力、載具、或是其他的據點總部功能才能達到這個效果。"
+												"具備這個功能特性的據點總部坐落於某個偏僻的地方，例如南極、海底、孤峰山頂、或甚至是星球軌道或月球。基地的擁有者不用再擔心受到上門的推銷員或其他不速之客的騷擾，但同時據點總部也遠離了文明社會（這對一些缺乏快速移動手段的英雄們或許會是個阻礙）。據點總部被假定能夠提供生活所需的一切資源，但並不會提供角色抵達基地或回程的移動手段，他們將需要適合的超能力、載具、或是其他的據點總部功能才能達到這個效果。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "實驗室", "name": "Laboratory",
 											"entries": [
-												"A laboratory is a facility for performing scientific tests or experiments. It contains all the necessary scientific equipment, including dedicated computers, if the headquarters doesn’t have its  own computer system. Characters can use the laboratory to perform research, study unusual phenomena (including many super-powers), and so forth. A laboratory may be required for certain Expertise, Investigation, or Technology skill checks, or provide a circumstance bonus to those checks."
+												"實驗室是個用來進行科學研究或實驗的設施。它包含了一切所需的科學儀器，包括專用的科學電腦（若據點總部沒有自己的電腦）。角色可以使用實驗室來進行科學研究，考察超自然現象（包括眾多超能力）等等。實驗室可以會做為某些{@skill 專業}、{@skill 調查}、或{@skill 科技}技能檢定的必需品，或為這些檢定提供情境加值。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "圖書館", "name": "Library",
 											"entries": [
-												"A library allows for use of various Knowledge skills when doing  research. A library may consist of printed matter (books and periodicals), microfilm, digital files, or a combination of all three. A library may facilitate certain Expertise skill checks and provide a circumstance bonus for them."
+												"圖書館可以讓使用者在進行研究時得以使用各種{@skill Expertise|專業知識}技能。圖書館可能收納了印刷物（書籍和報刊）、微縮膠片、電子文件、或這三種皆有。圖書館可以協助某些{@skill 專業}技能檢定的進行，並為其提供情境加值。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "生活空間", "name": "Living Space",
 											"entries": [
-												"The headquarters includes all the necessary amenities for people to live there full-time. This is usually a number of residents equal to the HQ’s power level comfortably (possibly more, at the GM’s discretion). It includes bedrooms or private suites, kitchen facilities, dining area, and common living areas. Characters can live in a headquarters lacking this feature short-term, but they’re not likely to be very comfortable."
+												"據點總部能為所有全天居住的住戶提供必要的生活設施。這通常可以容納等同於據點總部的超能力階級的住戶數量（或者更多，由GM決定）。它包含了臥室或獨立套間、廚房設施、用餐地點、以及公共生活空間。儘管角色們仍然可以短期居住在缺乏這個功能特性的據點總部內，但他們都不會住得太舒服。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "職員", "name": "Personnel",
 											"entries": [
-												"The HQ has a staff of personnel commensurate with its size and facilities. The staff is made up of characters created and controlled by the GM and tasked with servicing the headquarters. As such, they shouldn’t be considered all-purpose Minions of the occupant(s). A base’s personnel may help defend it in case of attack, but they’re not going to go out on missions or otherwise assist outside of their duties. This feature simply ensures there’s someone taking care of the place while the owner isn’t at home.",
-												"Note that an HQ’s personnel do not have to be ordinary humans. They could be service robots, magical golems, animated skeletons, enslaved aliens, trained apes, or just about anything else the GM chooses to fit with the theme of the base and its owner(s)."
+												"據點總部擁有與其大小和設施相稱的人員。這些職員是由GM創造及控制的角色所組成，負責為據點總部提供服務。因此，他們並不被視為基地主人的嘍囉。基地的職員在基地遭受攻擊時可能會協助抵禦，但他們並不能外出進行任務、或者提供除了他們工作相關事項以外的幫助。這個功能特性僅僅是為了確保當主人不在家時，有人能夠幫忙維護基地的運作。",
+												"要注意，據點總部的職員並不一定要是普通人類。他們可以是服務型機器人、魔像、活化骷髏、外星人奴隸、經過訓練的猿猴、或任何GM覺得與該基地和其擁有者的主題相符的事物。"
 											]
 										},
 										{
@@ -4938,7 +4938,7 @@
 											"type": "entries",
 											"translate_name": "封閉", "name": "Sealed",
 											"entries": [
-												"This is similar to the Isolated feature, except the lair is sealed off from the outside world rather than isolated by geographic location. It may be a structure with no doors, windows, or other outside access, or behind some sort of barrier. Only the lair’s owner and designated guests may enter, although the GM should determine means by which trespassers might do so, including effects like Dimensional Travel, Insubstantial, Permeate, and Teleport."
+												"這個功能特性與「孤立」特性有些相似，只不過封閉特性是將據點完全與外界隔離，而非依靠地理位置與世隔絕。它可能是一個沒有門、窗、或其他出入口的建築、或可能處於某種屏障之後。只有據點的擁有者和其指定的訪客可以進入基地，儘管GM仍可以決定其他入侵者可能進入的手段，像是{@effect Movement|維度穿梭}、{@effect 虛體化}、{@effect Movement|穿透}、或{@effect 傳送}之類的超能力效果。"
 											]
 										},
 										{
@@ -5011,7 +5011,7 @@
 											"items": [
 												"{@b 尺寸}: 中型",
 												"{@b 堅實屬性}: 8",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 車庫, 健身房, 生活空間, 供電系統, 安全系統"
+												"{@b 功能特性}: 通訊設備, 電腦系統, 隱匿, 車庫, 健身房, 生活空間, 供電系統, 安全系統"
 											]
 										}
 									]
@@ -5026,7 +5026,7 @@
 											"items": [
 												"{@b 尺寸}: 極巨型",
 												"{@b 堅實屬性}: 20",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 拘留牢房, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統(DC 25), {@effect 傳送}({@modifier 影響他人}), 工坊"
+												"{@b 特性}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 拘留牢房, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統(DC 25), {@effect 傳送}({@modifier 影響他人}), 工坊"
 											]
 										}
 									]
@@ -5041,7 +5041,7 @@
 											"items": [
 												"{@b 尺寸}: 超巨型",
 												"{@b 堅實屬性}: 20",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 拘留牢房, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統, {@effect 傳送}({@modifier 影響他人})"
+												"{@b 特性}: 戰鬥模擬器, 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 拘留牢房, 醫務室, 孤立, 實驗室, 生活空間, 供電系統, 安全系統, {@effect 傳送}({@modifier 影響他人})"
 											]
 										}
 									]
@@ -5056,7 +5056,7 @@
 											"items": [
 												"{@b 尺寸}: 中型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 隱匿, 雙重尺寸(超大型), 實驗室, 圖書館, 生活空間, 安全系統, 工坊"
+												"{@b 特性}: 隱匿, 雙重尺寸(超大型), 實驗室, 圖書館, 生活空間, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5071,7 +5071,7 @@
 											"items": [
 												"{@b 尺寸}: 巨型",
 												"{@b 堅實屬性}: 14",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 船塢, 防火系統, 孤立, 生活空間, 供電系統, 安全系統"
+												"{@b 特性}: 通訊設備, 電腦系統, 隱匿, 船塢, 防火系統, 孤立, 生活空間, 供電系統, 安全系統"
 											]
 										}
 									]
@@ -5086,7 +5086,7 @@
 											"items": [
 												"{@b 尺寸}: 大型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
+												"{@b 特性}: 通訊設備, 電腦系統, 防禦系統, 防火系統, 健身房, 飛行機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5101,7 +5101,7 @@
 											"items": [
 												"{@b 尺寸}: 超大型",
 												"{@b 堅實屬性}: 10",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 船塢, 車庫, 健身房, 飛行機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
+												"{@b 特性}: 通訊設備, 電腦系統, 隱匿, 船塢, 車庫, 健身房, 飛行機庫, 醫務室, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5116,7 +5116,7 @@
 											"items": [
 												"{@b 尺寸}: 超大型",
 												"{@b 堅實屬性}: 14",
-												"{@b 特色}: 通訊設備, 電腦系統, 隱匿, 防禦系統, 車庫, 拘留牢房, 孤立, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統"
+												"{@b 特性}: 通訊設備, 電腦系統, 隱匿, 防禦系統, 車庫, 拘留牢房, 孤立, 實驗室, 圖書館, 生活空間, 供電系統, 安全系統"
 											]
 										}
 									]
@@ -5131,7 +5131,7 @@
 											"items": [
 												"{@b 尺寸}: 大型",
 												"{@b 堅實屬性}: 12",
-												"{@b 特色}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, 防禦系統, 防火系統, 車庫, 健身房, 拘留牢房, 醫務室, 生活空間, 供電系統, 安全系統, 工坊"
+												"{@b 特性}: 戰鬥模擬器, 通訊設備, 電腦系統, 隱匿, 防禦系統, 防火系統, 車庫, 健身房, 拘留牢房, 醫務室, 生活空間, 供電系統, 安全系統, 工坊"
 											]
 										}
 									]
@@ -5198,23 +5198,23 @@
 							"type": "entries",
 							"translate_name": "命令構裝體", "name": "Commanding Constructs",
 							"entries": [
-								"A construct’s owner can give it orders verbally or through any other means the construct understands. Commanding a construct is a move action. Constructs follow orders to the best of their ability. Non-intelligent constructs do exactly as they’re told, without creativity or initiative, while intelligent constructs have the ability to interpret and improvise. An owner can also give a construct a series of basic orders for it to fulfill, such as “stay and guard this place and attack anyone who comes here other than me.” In the absence of new orders, constructs follow the last order they were given."
+								"構裝體的主人可以藉由口頭命令、或其他構裝體能夠理解的手段對其下達指令。命令一個構裝體需要花費一個移動動作。構裝體會盡其所能地執行指令。無智能的構裝體會完全按照他們被告知的命令執行，缺乏任何創造力或自主性；而相對的，智能構裝體則擁有解讀和即興發揮的能力。構裝體的主人也可以對其下達一系列基本命令讓它去執行，像是「留下來守衛這個地方，並攻擊任何來到這裡，除了我以外的對象」。在沒有接獲新命令的情況下，構裝體將持續遵循它所接收到的最後一個命令。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "傷害和維修構裝體", "name": "Damaging and Repairing Constructs",
 							"entries": [
-								"Constructs suffer damage like inanimate objects (see Damage effect in  Powers for details). Constructs do not recover from damage. Instead, they must be repaired. See Technology skill description for guidelines on repairing damaged objects.",
-								"Constructs with Regeneration are self-repairing (see Regeneration effect in  Powers)."
+								"構裝體會如同無生命物體一樣承受傷害（參見{@effect 傷害}效果以查閱更多細節）。構裝體並不會從傷害中自然回復，相對的，它必須被維修才能擺脫傷害的影響。參見{@skill 科技}技能的說明以查閱關於維修受損物體的準則。",
+								"擁有{@effect 再生}效果的構裝體將可以進行自我修復。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "範例構裝體", "name": "Sample Constructs",
 							"entries": [
-								"The following are some typical constructs for this game, most likely to show up as a villain’s minions. Individually, they’re no match for most heroes, but large numbers of them can keep characters busy and even wear them down with a lucky attack or two.",
-								"For each Constructs information, see {@5etools Constructs|constructs.html} page."
+								"下列是一些遊戲中的典型構裝體，他們很有可能會做為反派的嘍囉登場。單獨來說，他們完全不會是大部分英雄的對手，然而一旦他們的數量一多起來，就能讓英雄們疲於奔命。甚至可能藉由一兩次幸運的攻擊擊倒他們。",
+								"關於每個構裝體的完整說明，請參閱{@5etools Constructs|constructs.html}頁面。"
 							]
 						}
 					]
