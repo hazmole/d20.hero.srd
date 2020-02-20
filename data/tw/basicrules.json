@@ -1270,36 +1270,36 @@
 									"type": "inset",
 									"translate_name": "d20英雄的超能力階級", "name": "d20 Heros Power Levels",
 									"entries": [
-										"Heroes cover a diverse range of power levels, from the first costumed adventurers of the Golden Age, who relied solely on their skills and a few gimmicks (and modern vigilantes of the mean streets, who do much the same), to the greatest protectors of the world, who take on cosmic threats on a regular basis. The following are some common power levels and starting Character point values suitable for different games:",
+										"英雄們的超能力階級涵蓋了相當大的範圍，從黃金時代最初那些依賴於純粹技巧和些許機關花招的變裝英雄（以及主要街道上的現代義警，他們也做著差不多的事），到最偉大的世界守護者，定期處理應對宇宙級的威脅。以下將列出一些適用於不同遊戲的常見超能力階級，以及其對應的起始角色點數：",
 										{
 											"type": "entries",
 											"translate_name": "超能力階級 8 - 蒙面英雄冒險", "name": "Power Level 8 - Masked Adventures",
 											"entries": [
-												"This power level fits the “Mystery Men” era of the Golden Age of comic books, as well as for teams of mostly non-powered adventurers: heroes who rely more on their skills and wits (and maybe a few gadgets) rather than amazing powers. The suggested starting value of 120 Character points creates well-rounded heroes at this level, particularly if the emphasis is on skills and advantages—and maybe a power or two—rather than a lot of powers. A higher starting Character point total allows for more diverse capabilities within the same limits.",
-												"Heroes at this level often focus more on skill than sheer damage output, often having fighting skills in the 10–12 range, but commensurately lower damage and effect ranks (using just their fists or small arms)."
+												"這個超能力階級適合那些黃金時代漫畫中「神秘客」年代的故事，以及一隊幾乎沒有超能力的冒險者：這些英雄仰賴他們的技術和智慧（和也許一些器具裝備）更勝於那些驚奇異能。這個階級所建議的120點起始角色點數，將能夠創造出一名面面俱到的英雄角色，尤其是若其數據強調的是技能和特長──以及或許一到二個超能力──而非擁有許多超能力。較高的起始角色點總和將允許角色在同樣的限制下擁有更多樣的能力。",
+												"這個階級的英雄們經常重視技能更勝過輸出傷害，且通常會擁有介於10~12級的格鬥技能，但較低的相應傷害或效果等級（僅使用他們的拳頭或小型武器）。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "超能力階級 10 - 超級英雄", "name": "Power Level 10 - Super Heroes",
 											"entries": [
-												"The suggested starting power level for this game suits mature and experienced “adventurers” of the previous level along with a wide range of younger or focused superhumans.",
-												"Power level 10 heroes may have a balance of attack and effect, defense and resistance, or may go for being stronger on one side than the other, having great combat skill, but comparatively limited damage, for example, or great Toughness, but lowered defenses."
+												"這個遊戲所建議的起始超能力階級適合那些上一個超能力階級中較為成熟和經驗豐富的「冒險者」，以及各種年輕或受到矚目的超人類。",
+												"超能力階級10的英雄們可以在攻擊加值和效果等級、防禦能力與堅實韌性中取得平衡，或者使某一項數據遠遠超過另一項，比如說擁有絕佳的戰鬥技能但相對受限的傷害、或者擁有驚人的堅實屬性但較低的主動防禦屬性。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "超能力階級 12 - 大聯盟", "name": "Power Level 12 - Big leagues",
 											"entries": [
-												"Power level 12 is where you find many of the more experienced and powerful heroes. They are “senior” heroes, usually with considerable capabilities (and, often, experience). Those lacking superhuman powers have amazing levels of skill and resources to draw upon while the superhuman types are often among the most capable in their particular area, often worthy of titles like “King” and “World’s Greatest”.",
-												"In areas where power level 12 heroes tip the balance of their combat capabilities, they can have amazing ranks in attack or defense."
+												"在超能力階級12，你可以找到許多老練和強大的超級英雄。他們是「高級」的英雄，通常擁有相當強大的能力（且通常經驗更加豐富）。那些缺乏超能力的英雄們擁有著程度驚人的技能和可使用的資源，而那些超人類類型的英雄們則經常是特定領域中最為優秀的人物，並通常配的上像是「……王」和「全世界最強的……」之類的頭銜。",
+												"當超能力階級12的英雄傾倒了他們戰鬥能力的平衡時，他們將能夠擁有超乎尋常等級的攻擊或防禦等級。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "超能力階級 14 - 世界守護者", "name": "Power Level 14 - World-protectors",
 											"entries": [
-												"Heroes at this level are among the most powerful beings of the universe. They are largely capable of ignoring lesser concerns and tend to focus on “big picture” problems like alien invasions and world-conquerors along with natural disasters (although they may still handle some of the “small stuff” as well)."
+												"這個階級的英雄們可說是全宇宙最強大的存在之一。他們基本上會忽略較為次要的問題，並傾向關注「大局」和其麻煩，像是外星人入侵、世界征服者、和自然災害（不過他們仍然可以去處理一些「小事情」）。"
 											]
 										}
 									]
@@ -5416,7 +5416,7 @@
 									"type": "entries",
 									"translate_name": "飢餓與口渴", "name": "Starvation and Thirst",
 									"entries": [
-										"Heroes can go without water for a day. After this, they need to make a Fortitude check (DC 10, +1 per previous check) each hour to avoid a level of fatigue. Heroes can go without food for three days. After this, they must make a Fortitude check (DC 10, +1 per previous check) each day to avoid fatigue. The character cannot recover until he gets water or food. Heroes with Immunity to Starvation can go an unlimited time without food or water."
+										"英雄們可以整整一天不喝水，但在這之後，他們每過一小時都必須進行一次韌性檢定（DC 10，每次檢定DC再+1）以避免承受一級的疲累狀態（{@condition 疲勞}/{@condition 力竭}/{@condition 失能}）。英雄們可以整整三天不進食，但在這之後，他們每過一天就必須進行一次韌性檢定（DC 10，每次檢定DC再+1）以避免承受疲累狀態。該角色直到飲水或進食之前都無法從這個狀態中回復。擁有{@effect 免疫}飢餓或口渴能力的英雄們可以無限制地在沒有食物和水的情況下維持正常機能，而不會受到負面影響。"
 									]
 								},
 								{
@@ -5552,8 +5552,8 @@
 									"type": "entries",
 									"translate_name": "疾病", "name": "Disease",
 									"entries": [
-										"When heroes come into contact with a disease they must make a Fortitude check (DC 10 + the disease’s rank) to avoid becoming infected. The method of infection depends on the disease: some are airborne while others require physical contact. Diseases are generally Affliction or Weaken effects. Some diseases may have multiple linked effects. Potentially fatal diseases usually Weaken Stamina, in addition to their other effects. If the disease goes untreated for long enough, the subject’s Stamina may drop below –5, in which case death occurs.",
-										"Heroes with Immunity to Disease are completely unaffected by disease. A Treatment skill check can provide a bonus on resistance checks against disease.",
+										"當英雄們與疾病接觸時，他們必須要進行一次韌性檢定（DC 10 + 疾病等級）以避免受到感染。感染的方式取決於疾病地類型：有些是藉由空氣傳播、而有些則需要透過身體接觸。疾病都常都會帶有{@effect 詛咒}或{@effect 弱化}效果。有些疾病甚至會有好幾個被{@modifier 連結}在一起的效果。有致命可能的疾病除了其他效果之外，通常都還會帶有{@effect Weaken|弱化體質}效果。若該疾病長期得不到治療，目標的體質將可能被降到-5以下，並導致死亡。",
+										"{@effect 免疫}於疾病的英雄們完全不會受到疾病的影響。此外，一次成功的{@skill 診療}技能檢定可以為克服疾病的抵抗檢定提供加值。",
 										{
 											"type": "table",
 											"caption": "範例疾病等級",
@@ -5568,43 +5568,43 @@
 											"rows": [
 												[
 													"1-2",
-													"{@b 普通感冒}: Usually nothing more than an impaired condition."
+													"{@b 普通感冒}: 通常不會造成比{@condition 行動乏能}狀態更嚴重的後果。"
 												],
 												[
 													"3-5",
-													"{@b 流感（包括禽流感、豬流感等）}: Affliction with impaired, disabled, and incapacitated"
+													"{@b 流感（包括禽流感、豬流感等）}: 會造成{@condition 行動乏能}、{@condition 行動障礙}、和{@condition 失能}狀態的{@effect 詛咒}效果。"
 												],
 												[
 													"4",
-													"{@b 瘧疾}: Affliction with impaired, disabled, and incapacitated."
+													"{@b 瘧疾}: 會造成{@condition 行動乏能}、{@condition 行動障礙}、和{@condition 失能}狀態的{@effect 詛咒}效果。"
 												],
 												[
 													"6",
-													"{@b 傷寒}: Affliction with dazed, stunned, and incapacitated."
+													"{@b 傷寒}: 會造成{@condition 目眩}、{@condition 暈眩}、和{@condition 失能}狀態的{@effect 詛咒}效果。"
 												],
 												[
 													"7",
-													"{@b 狂犬病}: Affliction with impaired, compelled (paranoid and violent behavior), and incapacitated."
+													"{@b 狂犬病}: 會造成{@condition 行動乏能}、{@condition 受迫}（偏執和暴力行為）、和{@condition 失能}狀態的{@effect 詛咒}效果。"
 												],
 												[
 													"8",
-													"{@b 痲瘋病}: Affliction with impaired, disabled, and incapacitated."
+													"{@b 痲瘋病}: 會造成{@condition 行動乏能}、{@condition 行動障礙}、和{@condition 失能}狀態的{@effect 詛咒}效果。"
 												],
 												[
 													"10",
-													"{@b 愛滋病}: Weaken Fortitude, leading to other opportunistic infections."
+													"{@b 愛滋病}: {@effect Weaken|弱化韌性防禦}，會導致其他感染的機會。"
 												],
 												[
 													"11",
-													"{@b 天花}: Affliction with hindered and impaired, disabled, and incapacitated linked with Weaken Stamina."
+													"{@b 天花}: 會造成{@condition 移動受阻}和{@condition 行動乏能}、{@condition 行動障礙}、和{@condition 失能}狀態的{@effect 詛咒}效果，連結著{@effect Weaken|弱化體質}效果。"
 												],
 												[
 													"12-14",
-													"{@b 黑死病}: Affliction with dazed and hindered, stunned and immobilized, linked with Weaken Stamina."
+													"{@b 黑死病}: 會造成{@condition 目眩}和{@condition 移動受阻}、{@condition 暈眩}和{@condition 無法移動}狀態的{@effect 詛咒}效果，連結著{@effect Weaken|弱化體質}效果。"
 												],
 												[
 													"15",
-													"{@b 伊波拉病毒}: Affliction with dazed, hindered, and impaired; stunned, immobilized, and disabled; and incapacitated, linked with Weaken Strength and Stamina."
+													"{@b 伊波拉病毒}: 會造成{@condition 目眩}、{@condition 移動受阻}、和{@condition 行動乏能}；{@condition 暈眩}、{@condition 無法移動}、和{@condition 行動障礙}；以及{@condition 失能}狀態的{@effect 詛咒}效果，連結著{@effect Weaken|弱化力量和體質}效果。"
 												],
 												[
 													"16+",

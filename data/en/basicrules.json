@@ -5416,7 +5416,7 @@
 									"type": "entries",
 									"name": "Starvation and Thirst",
 									"entries": [
-										"Heroes can go without water for a day. After this, they need to make a Fortitude check (DC 10, +1 per previous check) each hour to avoid a level of fatigue. Heroes can go without food for three days. After this, they must make a Fortitude check (DC 10, +1 per previous check) each day to avoid fatigue. The character cannot recover until he gets water or food. Heroes with Immunity to Starvation can go an unlimited time without food or water."
+										"Heroes can go without water for a day. After this, they need to make a Fortitude check (DC 10, +1 per previous check) each hour to avoid a level of fatigue. Heroes can go without food for three days. After this, they must make a Fortitude check (DC 10, +1 per previous check) each day to avoid fatigue. The character cannot recover until he gets water or food. Heroes with {@effect Immunity} to Starvation can go an unlimited time without food or water."
 									]
 								},
 								{
@@ -5552,8 +5552,8 @@
 									"type": "entries",
 									"name": "Disease",
 									"entries": [
-										"When heroes come into contact with a disease they must make a Fortitude check (DC 10 + the disease’s rank) to avoid becoming infected. The method of infection depends on the disease: some are airborne while others require physical contact. Diseases are generally Affliction or Weaken effects. Some diseases may have multiple linked effects. Potentially fatal diseases usually Weaken Stamina, in addition to their other effects. If the disease goes untreated for long enough, the subject’s Stamina may drop below –5, in which case death occurs.",
-										"Heroes with Immunity to Disease are completely unaffected by disease. A Treatment skill check can provide a bonus on resistance checks against disease.",
+										"When heroes come into contact with a disease they must make a Fortitude check (DC 10 + the disease’s rank) to avoid becoming infected. The method of infection depends on the disease: some are airborne while others require physical contact. Diseases are generally {@effect Affliction} or {@effect Weaken} effects. Some diseases may have multiple {@modifier linked} effects. Potentially fatal diseases usually {@effect Weaken|Weaken Stamina}, in addition to their other effects. If the disease goes untreated for long enough, the subject’s Stamina may drop below –5, in which case death occurs.",
+										"Heroes with {@effect Immunity} to Disease are completely unaffected by disease. A {@skill Treatment} skill check can provide a bonus on resistance checks against disease.",
 										{
 											"type": "table",
 											"caption": "Sample Disease Rank",
@@ -5568,43 +5568,43 @@
 											"rows": [
 												[
 													"1-2",
-													"{@b Common colds}: Usually nothing more than an impaired condition."
+													"{@b Common colds}: Usually nothing more than an {@condition impaired} condition."
 												],
 												[
 													"3-5",
-													"{@b Influenza (including bird flu, swine flu, etc.)}: Affliction with impaired, disabled, and incapacitated"
+													"{@b Influenza (including bird flu, swine flu, etc.)}: {@effect Affliction} with {@condition impaired}, {@condition disabled}, and {@condition incapacitated}"
 												],
 												[
 													"4",
-													"{@b Malaria}: Affliction with impaired, disabled, and incapacitated."
+													"{@b Malaria}: {@effect Affliction} with {@condition impaired}, {@condition disabled}, and {@condition incapacitated}."
 												],
 												[
 													"6",
-													"{@b Typhoid}: Affliction with dazed, stunned, and incapacitated."
+													"{@b Typhoid}: {@effect Affliction} with {@condition dazed}, {@condition stunned}, and {@condition incapacitated}."
 												],
 												[
 													"7",
-													"{@b Rabies}: Affliction with impaired, compelled (paranoid and violent behavior), and incapacitated."
+													"{@b Rabies}: {@effect Affliction} with {@condition impaired}, {@condition compelled} (paranoid and violent behavior), and {@condition incapacitated}."
 												],
 												[
 													"8",
-													"{@b Leprosy}: Affliction with impaired, disabled, and incapacitated."
+													"{@b Leprosy}: {@effect Affliction} with {@condition impaired}, {@condition disabled}, and {@condition incapacitated}."
 												],
 												[
 													"10",
-													"{@b AIDS}: Weaken Fortitude, leading to other opportunistic infections."
+													"{@b AIDS}: {@effect Weaken|Weaken Fortitude}, leading to other opportunistic infections."
 												],
 												[
 													"11",
-													"{@b Smallpox}: Affliction with hindered and impaired, disabled, and incapacitated linked with Weaken Stamina."
+													"{@b Smallpox}: {@effect Affliction} with {@condition hindered} and {@condition impaired}, {@condition disabled}, and {@condition incapacitated} linked with Weaken Stamina."
 												],
 												[
 													"12-14",
-													"{@b Bubonic plague}: Affliction with dazed and hindered, stunned and immobilized, linked with Weaken Stamina."
+													"{@b Bubonic plague}: {@effect Affliction} with {@condition dazed} and {@condition hindered}, {@condition stunned} and {@condition Immobile|immobilized}, linked with {@effect Weaken|Weaken Stamina}."
 												],
 												[
 													"15",
-													"{@b Ebola virus}: Affliction with dazed, hindered, and impaired; stunned, immobilized, and disabled; and incapacitated, linked with Weaken Strength and Stamina."
+													"{@b Ebola virus}: {@effect Affliction} with {@condition dazed}, {@condition hindered}, and {@condition impaired}; {@condition stunned}, {@condition Immobile|immobilized}, and {@condition disabled}; and {@condition incapacitated}, linked with {@effect Weaken|Weaken Strength and Stamina}."
 												],
 												[
 													"16+",
