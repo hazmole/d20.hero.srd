@@ -5619,7 +5619,7 @@
 									"name": "Radiation",
 									"entries": [
 										"Radiation in the comic books often causes mutations or triggers latent powers in those exposed to it rather than simply causing radiation sickness. Exposure to radiation (especially exotic or alien radiation) may be an excellent opportunity for a complication.",
-										"Otherwise the Gamemaster can treat radiation exposure like a disease: The victim makes an initial Fortitude check against (DC 10 + radiation’s rank) and an additional check each day. Radiation sickness is typically a Weaken Stamina effect, but may include other effects, including Damage resisted by Fortitude. At the GM’s discretion, radiation exposure can lead to other effects, such as damage to a hero’s power ranks (causing a temporary decrease in powers).",
+										"Otherwise the Gamemaster can treat radiation exposure like a disease: The victim makes an initial Fortitude check against (DC 10 + radiation’s rank) and an additional check each day. Radiation sickness is typically a {@effect Weaken|Weaken Stamina} effect, but may include other effects, including {@effect Damage} resisted by Fortitude. At the GM’s discretion, radiation exposure can lead to other effects, such as damage to a hero’s power ranks (causing a temporary decrease in powers).",
 										{
 											"type": "table",
 											"caption": "Sample Radiation Rank",
@@ -5647,10 +5647,10 @@
 									"name": "Vacuum",
 									"entries": [
 										"The primary hazards of the vacuum of space are lack of air and exposure to unfiltered ionizing radiation.",
-										"On the third round of exposure to vacuum, a character must succeed on a Fortitude check (DC 20) each round or suffer from aeroembolism (“the bends”). A failed check means excruciating pain as small air bubbles form in the creature’s bloodstream; the creature is stunned and remains so until returned to normal atmospheric pressure. Two or more degrees of failure impose the incapacitated condition.",
-										"The real danger of vacuum comes from suffocation, though holding one’s breath in vacuum damages the lungs. A character who attempts to hold his breath must make a Fortitude check (DC 15) every round; the DC increases by 1 each round, and on a successful check the character loses a rank of Stamina (from the pressure on the linings of his lungs). If the check fails, or when the character simply stops holding his breath, he begins to suffocate: the next round, he becomes incapacitated . The following round, he’s dying and cannot stabilize until returned to a normal atmosphere.",
+										"On the third round of exposure to vacuum, a character must succeed on a Fortitude check (DC 20) each round or suffer from aeroembolism (“the bends”). A failed check means excruciating pain as small air bubbles form in the creature’s bloodstream; the creature is {@condition stunned} and remains so until returned to normal atmospheric pressure. Two or more degrees of failure impose the {@condition incapacitated} condition.",
+										"The real danger of vacuum comes from suffocation, though holding one’s breath in vacuum damages the lungs. A character who attempts to hold his breath must make a Fortitude check (DC 15) every round; the DC increases by 1 each round, and on a successful check the character loses a rank of Stamina (from the pressure on the linings of his lungs). If the check fails, or when the character simply stops holding his breath, he begins to suffocate: the next round, he becomes {@condition incapacitated} . The following round, he’s {@condition dying} and cannot stabilize until returned to a normal atmosphere.",
 										"Unfiltered radiation bombards any character trapped in the vacuum of space without protective gear, see {@b Radiation}, previously.",
-										"Heroes able to ignore the effects of deep space must have Immunity to suffocation, vacuum, and radiation, at a minimum. See the Immunity effect in Powers for details."
+										"Heroes able to ignore the effects of deep space must have {@effect Immunity} to suffocation, vacuum, and radiation, at a minimum."
 									]
 								}
 							]

@@ -5358,7 +5358,7 @@
 				},
 				{
 					"type": "section",
-					"name": "Challenges",
+					"translate_name": "挑戰", "name": "Challenges",
 					"entries": [
 						"In game terms, a {@b challenge} is an action or series of actions where players are called upon to make checks of their characters’ traits, but which do not involve direct conflict, such as fighting. Some challenges are quick and involve only a single character, such as a hero making a daring leap or acrobatic maneuver, while others are more involved and require the efforts of a whole team, such as clearing all of the people out of a burning building or searching the entire city (or world!) for an escaped criminal.",
 						"The challenges given in this section are by no means the only possible ones. They simply cover the major “building blocks” Gamemasters can use to create challenges in their own games and offer examples. Feel free to come up with your own challenges to test the heroes’ abilities and give the players an opportunity to come up with clever plans of their own.",
@@ -5367,7 +5367,7 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "Challenges and Initiative",
+									"translate_name": "挑戰和先攻", "name": "Challenges and Initiative",
 									"entries": [
 										"Challenges may or may not involve initiative checks, depending on the nature of the challenge.",
 										"If all of the characters get a turn and it does not particularly matter who goes first, then the Gamemaster can dispense with initiative for the challenge. For example, if the heroes all have to leap across a chasm, then it is a challenge they must all complete, and it does not particularly matter which of them goes first or last in doing so (since their actions are all virtually simultaneous).",
@@ -5376,14 +5376,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Challenge Sequences",
+									"translate_name": "挑戰的順序", "name": "Challenge Sequences",
 									"entries": [
 										"A {@b challenge sequence} is made up of a series of checks rather than a simple set of one or two. It represents a more involved or detailed challenge for the heroes. So, whereas a simple challenge might involve breaking down a door or figuring out a lock, a challenge sequence could be a lengthy investigation, searching for someone who has gone missing, or convincing a non-player character of the heroes’ good intentions. It can involve several checks of the same trait, or multiple traits, such as a Persuasion check to get the heroes on good terms with the King of Atlantis, an Expertise check to explain the particular danger the kingdom faces, and an Insight check to realize the king’s advisor has something other than the best interests of the kingdom and royal family at heart. Similarly, heroes might make Perception checks to pick up on particular clues, Investigate checks to gather and analyze them, and Expertise checks to figure out the villain’s riddle behind them before it is too late."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Challenges and Consequences",
+									"translate_name": "挑戰與後果", "name": "Challenges and Consequences",
 									"entries": [
 										"Challenges typically have some reward for success (usually moving on to the next part of the adventure) and some consequence for failure. The latter might be missing a vital clue or otherwise being unable to stop a villain’s scheme. This may make later parts of the adventure more difficult for your heroes. Other consequences might include particular conditions (see {@rule Conditions|basic|1|conditions} in {@b The Basics}); for example, failing a wilderness survival challenge may result in the heroes suffering from fatigue or exhaustion. Failing a challenge to cross a chasm could mean the hero falls and suffers damage. Failing a challenge to overcome a trap could mean the heroes are even incapacitated, falling into the villain’s clutches! The GM decides the consequences of failing a particular challenge based on the challenge and the needs of the story."
 									]
@@ -5394,7 +5394,7 @@
 							"type": "entries",
 							"translate_name": "環境危害", "name": "Environmental Hazards",
 							"entries": [
-								"Not all of the hazards heroes face come from supervillains. Sometimes the environment itself can be a danger, particularly when villains try to use it to their advantage. Heroes end up in a lot of dangerous places and deal with less than ideal conditions. This section details some of the hazards heroes may face.",
+								"英雄們所面對的危險並不是全都來自超級反派。有時候環境本身就能夠帶來危害，尤其是當反派們嘗試利用周遭環境以獲得優勢時更是如此。英雄們最終可能會身處各種危險場所，並面對許多不盡理想的環境條件。這個章節詳細介紹了一些關於英雄們可能會面對的環境危害。",
 								{
 									"type": "entries",
 									"translate_name": "光照與黑暗", "name": "Light and Darkness",
@@ -5618,8 +5618,8 @@
 									"type": "entries",
 									"translate_name": "輻射", "name": "Radiation",
 									"entries": [
-										"Radiation in the comic books often causes mutations or triggers latent powers in those exposed to it rather than simply causing radiation sickness. Exposure to radiation (especially exotic or alien radiation) may be an excellent opportunity for a complication.",
-										"Otherwise the Gamemaster can treat radiation exposure like a disease: The victim makes an initial Fortitude check against (DC 10 + radiation’s rank) and an additional check each day. Radiation sickness is typically a Weaken Stamina effect, but may include other effects, including Damage resisted by Fortitude. At the GM’s discretion, radiation exposure can lead to other effects, such as damage to a hero’s power ranks (causing a temporary decrease in powers).",
+										"輻射在漫畫中經常會導致使暴露於其中的受照者產生變異或激發其潛在能力，而非單純導致輻射病變。曝照在輻射（尤其是罕見或異星輻射）可以是個造成糾葛難題的絕佳時機。",
+										"除此之外，遊戲主持人也可以將輻射曝照當成一種疾病來處理：受害者必須在一開始進行一次韌性防禦檢定以嘗試克服之（DC 10 + 輻射等級），並在每天再進行一次額外的抵抗檢定。輻射病變通常會是一個{@effect Weaken|弱化體質}效果，但也可能包含其他效果，像是以韌性防禦抵抗的{@effect 傷害}效果等等。根據GM的裁斷，輻射曝照也可能導致其他效果，例如對英雄的超能力階級本身造成傷害（並因此導致暫時性的超能力減少）。",
 										{
 											"type": "table",
 											"caption": "範例輻射等級",
@@ -5646,11 +5646,11 @@
 									"type": "entries",
 									"translate_name": "真空環境", "name": "Vacuum",
 									"entries": [
-										"The primary hazards of the vacuum of space are lack of air and exposure to unfiltered ionizing radiation.",
-										"On the third round of exposure to vacuum, a character must succeed on a Fortitude check (DC 20) each round or suffer from aeroembolism (“the bends”). A failed check means excruciating pain as small air bubbles form in the creature’s bloodstream; the creature is stunned and remains so until returned to normal atmospheric pressure. Two or more degrees of failure impose the incapacitated condition.",
-										"The real danger of vacuum comes from suffocation, though holding one’s breath in vacuum damages the lungs. A character who attempts to hold his breath must make a Fortitude check (DC 15) every round; the DC increases by 1 each round, and on a successful check the character loses a rank of Stamina (from the pressure on the linings of his lungs). If the check fails, or when the character simply stops holding his breath, he begins to suffocate: the next round, he becomes incapacitated . The following round, he’s dying and cannot stabilize until returned to a normal atmosphere.",
-										"Unfiltered radiation bombards any character trapped in the vacuum of space without protective gear, see {@b Radiation}, previously.",
-										"Heroes able to ignore the effects of deep space must have Immunity to suffocation, vacuum, and radiation, at a minimum. See the Immunity effect in Powers for details."
+										"宇宙真空環境中最主要的危害，就在於缺乏空氣，以及暴露在未過濾的電離輻射之下。",
+										"當持續暴露在真空環境下長達三個行動輪，則之後每一輪，角色都必須成功通過一次韌性檢定（DC 20），否則將承受氣泡栓塞症的影響（又稱「減壓症」、「潛水夫病」）。檢定失敗將意味著該生物的血管因為減壓而產生微小氣泡，並導致了折磨般的痛苦；該生物將陷入{@condition 暈眩}狀態，並持續直到返回正常的大氣壓力環境。二個或以上程度的失敗則甚至會導致{@condition 失能}狀態。",
+										"真空環境的真正危險來自於窒息，然而，在真空環境下閉氣會導致肺部受到傷害。嘗試在真空環境下屏住氣息的角色必須在每一輪進行一次韌性防禦檢定（DC 15）；這個DC每輪會增加1點，且成功通過檢定的角色仍會失去一級的體質屬性（因為他肺部中的氣壓）。若該檢定失敗、或當角色停止閉氣，則他將開始窒息：在下一輪，他將因此陷入{@condition 失能}狀態。並在再下一輪中惡化成{@condition 瀕死}狀態，且直到返回正常的大氣壓力環境之前都無法使傷勢穩定。",
+										"未經過濾的電離輻射會無情地轟炸任何被困在宇宙真空環境中，且未穿戴防護性裝備的角色。參建前述的{@b 輻射}章節。",
+										"能夠無視惡劣太空環境影響的英雄們至少要擁有對窒息、真空、和輻射的{@effect 免疫}效果。"
 									]
 								}
 							]
