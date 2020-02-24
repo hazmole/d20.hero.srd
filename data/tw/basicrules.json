@@ -89,7 +89,7 @@
 				"translate_name": "動作＆冒險", "name": "Action & Adventure",
 				"headers": [
 					{ "translate_name": "行動輪", "name": "Action Rounds" },
-					{ "_translate_name": "挑戰", "name": "Challenges" },
+					{ "translate_name": "挑戰", "name": "Challenges" },
 					{ "translate_name": "衝突", "name": "Conflicts" },
 					{ "translate_name": "動作", "name": "Actions" },
 					{ "translate_name": "戰技", "name": "Maneuvers" },
@@ -5360,8 +5360,8 @@
 					"type": "section",
 					"translate_name": "挑戰", "name": "Challenges",
 					"entries": [
-						"In game terms, a {@b challenge} is an action or series of actions where players are called upon to make checks of their characters’ traits, but which do not involve direct conflict, such as fighting. Some challenges are quick and involve only a single character, such as a hero making a daring leap or acrobatic maneuver, while others are more involved and require the efforts of a whole team, such as clearing all of the people out of a burning building or searching the entire city (or world!) for an escaped criminal.",
-						"The challenges given in this section are by no means the only possible ones. They simply cover the major “building blocks” Gamemasters can use to create challenges in their own games and offer examples. Feel free to come up with your own challenges to test the heroes’ abilities and give the players an opportunity to come up with clever plans of their own.",
+						"在遊戲術語中，{@b 挑戰}代表著單一或一系列的行動，玩家們被要求使用他們角色的數據進行檢定，但這個過程卻不涉及像是戰鬥之類的直接衝突。有些挑戰簡潔俐落且只涉及單一角色，比如說一名英雄嘗試進行一次大膽跳躍或特技花招。而有些挑戰則更複雜，且需要整個團隊的努力，像是將所有無辜群眾從燃燒的建築中救出、或是搜索整座城市（或整個世界！）以揪出罪大惡極的逃犯。",
+						"這個章節中所列出的挑戰絕不是唯一可能的挑戰。它們只是簡單的介紹了一些主要的「建構積木」和範例，讓遊戲主持人可以用來搭建他們自己遊戲中的挑戰。你可以自由的創造出你自己的挑戰以測試英雄們的實力．並讓玩家們有機會想出一個屬於他們自己的絕妙計畫來攻克這些難題。",
 						{
 							"type": "entries",
 							"entries": [
@@ -5369,23 +5369,23 @@
 									"type": "entries",
 									"translate_name": "挑戰和先攻", "name": "Challenges and Initiative",
 									"entries": [
-										"Challenges may or may not involve initiative checks, depending on the nature of the challenge.",
-										"If all of the characters get a turn and it does not particularly matter who goes first, then the Gamemaster can dispense with initiative for the challenge. For example, if the heroes all have to leap across a chasm, then it is a challenge they must all complete, and it does not particularly matter which of them goes first or last in doing so (since their actions are all virtually simultaneous).",
-										"With other challenges, it does matter who goes first, particular when the challenge is timed in some fashion. So, for example, if the GM determines that part of a burning building will collapse after the first round, initiative may be checked to see which heroes go before the collapse and who does not quite act fast enough. The same may be true of other traps or hazards, which can have initiative ranks of their own."
+										"挑戰可能會，也可能不會涉及先攻檢定，取決於該挑戰的性質而定。",
+										"若所有角色都有機會行動，且誰先誰後並不那麼重要，那麼遊戲主持人可以免除該挑戰的先攻檢定。舉例來說，若所有英雄們都必須躍過裂谷，則這就會是個他們所有人都必須完成的挑戰，且誰先誰後並不是特別重要（因為他們的行動幾乎是同時發生）。",
+										"至於其他某些挑戰，先後順序就確實很重要了，特別是那些有著某種程度的時間限制的挑戰尤其如此。因此，舉例來說，若GM決定在第一輪之後，這棟失火建築的一部份將會崩塌，則所有人就都必須進行先攻檢定，以決定哪些英雄可以在崩塌發生前行動，而哪些人無法在那之前行動。同樣的道理也適用於其他陷阱或危害，它們也能夠擁有自己的先攻等級。"
 									]
 								},
 								{
 									"type": "entries",
-									"translate_name": "挑戰的順序", "name": "Challenge Sequences",
+									"translate_name": "挑戰序列", "name": "Challenge Sequences",
 									"entries": [
-										"A {@b challenge sequence} is made up of a series of checks rather than a simple set of one or two. It represents a more involved or detailed challenge for the heroes. So, whereas a simple challenge might involve breaking down a door or figuring out a lock, a challenge sequence could be a lengthy investigation, searching for someone who has gone missing, or convincing a non-player character of the heroes’ good intentions. It can involve several checks of the same trait, or multiple traits, such as a Persuasion check to get the heroes on good terms with the King of Atlantis, an Expertise check to explain the particular danger the kingdom faces, and an Insight check to realize the king’s advisor has something other than the best interests of the kingdom and royal family at heart. Similarly, heroes might make Perception checks to pick up on particular clues, Investigate checks to gather and analyze them, and Expertise checks to figure out the villain’s riddle behind them before it is too late."
+										"{@b 挑戰序列}是由一系列檢定，而非單純一兩個檢定所構成的挑戰。它被用以呈現一種對於英雄們而言更加複雜或細節的挑戰。因此，一個簡單的挑戰可能僅會涉及破門而入或是解開鑰鎖，而一個挑戰序列則可能會是一次漫長的調查、尋找失蹤的人物、或說服某個非玩家角色相信英雄們的善意。這可能會涉及多次檢定，使用相同或不同的角色數據：比如說，藉由一個{@skill 說服}檢定以讓英雄們與亞特蘭提斯國王得以和睦相處，一個{@skill 專業}檢定以解釋王國即將面對的特定危險，以及一個{@skill 洞見}檢定以意識到國王的顧問除了國家和王室的最大利益之外，還另有所圖。同樣的，英雄們也可能會進行{@skill 感知}檢定以察覺特定線索，一個{@skill 調查}檢定以蒐集並分析它們，並藉著一次{@skill 專業}檢定以在為時已晚之前解開反派所留下的謎題。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "挑戰與後果", "name": "Challenges and Consequences",
 									"entries": [
-										"Challenges typically have some reward for success (usually moving on to the next part of the adventure) and some consequence for failure. The latter might be missing a vital clue or otherwise being unable to stop a villain’s scheme. This may make later parts of the adventure more difficult for your heroes. Other consequences might include particular conditions (see {@rule Conditions|basic|1|conditions} in {@b The Basics}); for example, failing a wilderness survival challenge may result in the heroes suffering from fatigue or exhaustion. Failing a challenge to cross a chasm could mean the hero falls and suffers damage. Failing a challenge to overcome a trap could mean the heroes are even incapacitated, falling into the villain’s clutches! The GM decides the consequences of failing a particular challenge based on the challenge and the needs of the story."
+										"挑戰通常會提供一些獎勵給成功通過的人（通常這些獎勵就是推進到冒險的下一個段落），並在挑戰失敗時帶來某些後果。後者可能會像是錯過重要的線索、或者是無法阻止反派的陰謀等等，並可能會讓後半段的冒險變得更加艱難。其他的後果則可能包括像是特定的異常狀態（參見{@5etools 狀態|conditions.html}頁面）；舉例來說，在荒野求生的挑戰中失敗可能會導致英雄們承受{@condition 疲勞}或{@condition 力竭}狀態。在橫越裂谷的挑戰中失敗則可能意味著英雄們墜落深谷並承受傷害。而在克服陷阱的挑戰中失敗，則甚至可能代表英雄們被無力化（{@condition 失能}狀態），落入反派的魔掌之中！GM將根據挑戰的性質和劇情需求來決定在特定挑戰中失敗時所會遭遇的後果。"
 									]
 								}
 							]
@@ -5406,10 +5406,10 @@
 									"type": "entries",
 									"translate_name": "炎熱與寒冷", "name": "Heat and Cold",
 									"entries": [
-										"Intense heat and cold wear down characters, while prolonged exposure to the elements can be extremely dangerous.",
-										"Characters in hot or cold conditions must make Fortitude checks (DC 10, +1 per previous check) to avoid becoming fatigued. Fatigued characters who fail a check become exhausted, then incapacitated, at which point the character’s condition becomes dying after another failed Fortitude check.",
-										"How often characters have to make Fortitude checks depends on the conditions. Once an hour for uncomfortable heat or cold (a hot summer day or cold winter day), once per 10 minutes for intense heat or cold (a blazing desert or arctic conditions), once a minute for extreme heat or cold like the edge of a volcano or an arctic winter storm. Checks are made at the end of each period of exposure. Truly intense heat or cold—such as a blast furnace or touching liquid nitrogen—inflicts direct damage like an attack.",
-										"Characters with the appropriate Immunity do not need to make Fortitude checks for extreme temperatures."
+										"嚴熱和嚴寒氣溫會讓角色們疲累不堪，而長時間暴露在這類惡劣環境中更是非常危險的事情。",
+										"處於炎熱或寒冷氣溫中的角色們必須進行韌性檢定（DC 10，每次檢定DC再+1）以避免陷入{@condition 疲勞}狀態。已經處於{@condition 疲勞}狀態狀態得角色若再檢定失敗，將會再陷入{@condition 力竭}狀態，然後是{@condition 失能}狀態，最後若角色得韌性檢定再一次失敗，則會陷入{@condition 瀕死}狀態。",
+										"角色們進行韌性檢定的頻率將取決於環境氣溫的嚴苛程度。不適宜的炎熱或寒冷環境（炎熱夏日或寒冷冬日）的話每小時一次；嚴熱和嚴寒環境（熾熱沙漠或極地環境）的話則是每十分鐘一次；極端酷熱或極端酷寒（例如火山口邊緣或極地的暴風冬雪）則是每一分鐘一次。這些檢定會在每段暴露週期的結束時進行。真正的極端高溫或低溫──像是熾燒的鼓風爐或觸碰液態氮──則會如同攻擊一樣直接造成傷害。",
+										"擁有合適的{@effect 免疫}效果的角色將無須為了極端氣溫的環境進行上述韌性檢定。"
 									]
 								},
 								{
@@ -5636,7 +5636,7 @@
 												[ "2-5", "輻射落塵" ],
 												[ "5-10", "接觸放射性物質" ],
 												[ "10-12", "恆星輻射（深太空）" ],
-												[ "13-14", "核反應爐r" ],
+												[ "13-14", "核反應爐" ],
 												[ "15+", "核爆" ]
 											]
 										}
