@@ -2109,7 +2109,7 @@
 										"{@b Trained Only}: If “Trained Only” is included on the line below the skill’s name, you must have at least 1 rank in the skill in order to use it. If “Trained Only” is absent, untrained characters (those with 0 ranks in the skill) may use it. Some skills may have trained only aspects, in which case this notation is still listed, and the untrained aspects are called out in the skill description.",
 										"{@b Interaction}: If “Interaction” is included on the line below the skill’s name, it is an interaction skill.",
 										"{@b Manipulation}: If “Manipulation” is included on the line below the skill’s name, it is a manipulation skill.",
-										"{@b Requires Tools}: If “Requires Tools” is included on the line below the skill’s name, you need to have the proper tools to use the skill. Not having the proper tools is a –5 circumstance penalty to the skill check (see {@b Circumstance Modifiers})."
+										"{@b Requires Tools}: If “Requires Tools” is included on the line below the skill’s name, you need to have the proper tools to use the skill. Not having the proper tools is a –5 circumstance penalty to the skill check (see {@rule Circumstance Modifiers|basic|1|circumstance modifiers})."
 									]
 								},
 								"The skill name line is followed by a description of the skill and how it is used."

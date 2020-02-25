@@ -2100,19 +2100,19 @@
 							"type": "entries",
 							"translate_name": "技能名稱", "name": "Skill Name",
 							"entries": [
-								"The skill name line and the line below it contain the following information:",
+								"技能名稱，以及名稱的下一列會包含下列資訊：",
 								{
 									"type": "list",
 									"items": [
-										"{@b Skill Name}: What the skill is called. GMs may feel free to change the names of some skills to better suit the style of their game, if desired.",
-										"{@b Ability}: The ability that applies a modifier to the skill check.",
-										"{@b Trained Only}: If “Trained Only” is included on the line below the skill’s name, you must have at least 1 rank in the skill in order to use it. If “Trained Only” is absent, untrained characters (those with 0 ranks in the skill) may use it. Some skills may have trained only aspects, in which case this notation is still listed, and the untrained aspects are called out in the skill description.",
-										"{@b Interaction}: If “Interaction” is included on the line below the skill’s name, it is an interaction skill.",
-										"{@b Manipulation}: If “Manipulation” is included on the line below the skill’s name, it is a manipulation skill.",
-										"{@b Requires Tools}: If “Requires Tools” is included on the line below the skill’s name, you need to have the proper tools to use the skill. Not having the proper tools is a –5 circumstance penalty to the skill check (see {@b Circumstance Modifiers})."
+										"{@b 技能名稱}: 這個技能的名稱。若有需要，GM可以自由改變某些技能的名稱以讓其更符合遊戲的風格。",
+										"{@b 屬性}: 做為調整值加在該技能檢定的屬性。",
+										"{@b 需受訓}: 若技能名稱底下列有「需受訓」的標籤，則你必須要擁有至少 1級的該技能才能夠使用它。反之，若該技能未列有「需受訓」，則未受訓的角色（他們該技能的等級為0）也可以正常使用這個技能。有些技能（比如說{@skill 專業}技能）只有在某些方面的運用會要求使用者受過訓練，在這種情況下，「需受訓」仍會被列在技能名稱下，而未受訓即可運用的方面則會被註記在技能說明中。",
+										"{@b 交涉}: 若技能名稱底下列有「交涉」的標籤，則它被歸類為交涉類技能。",
+										"{@b 操作}: 若技能名稱底下列有「操作」的標籤，則它被歸類為操作類技能。",
+										"{@b 需工具}: 若技能名稱底下列有「需工具」的標籤，則你必須要擁有合適的工具才能夠使用該技能。在缺乏合適工具的情況下使用該技能，將會在該技能檢定中承受-5的情境罰值（參見{@rule 情境修正值|basic|1|circumstance modifiers}的規則）。"
 									]
 								},
-								"The skill name line is followed by a description of the skill and how it is used."
+								"技能名稱欄位下面將接著記載關於該技能的說明，以及如何使用它們。"
 							]
 						},
 						{
