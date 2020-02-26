@@ -51,7 +51,7 @@
 				"headers": [
 					{ "_translate_name": "技能基本規則", "name": "Skill Basics" },
 					{ "_translate_name": "技能的作用方式", "name": "How Skills Work" },
-					{ "_translate_name": "技能說明", "name": "Skill Descriptions" }
+					{ "translate_name": "技能說明", "name": "Skill Descriptions" }
 				]
 			},
 			{
@@ -2095,7 +2095,7 @@
 					"type": "section",
 					"translate_name": "技能說明", "name": "Skill Descriptions",
 					"entries": [
-						"This section describes the skills available to characters, including their common uses and modifiers. Characters may be able to use skills for tasks other than those given here. The GM sets the DC and decides the results in those cases. The format for skill descriptions is given here. Items that do not apply are omitted from the skill’s description.",
+						"這個段落將說明角色所能使用的技能，以及它們的常見用途和修正值。角色們也可以使用這些技能來完成其他未列在本章節的事項。GM會為其設定相應的DC，並決定這些行為的結果。這個段落將給定技能說明的格式。",
 						{
 							"type": "entries",
 							"translate_name": "技能名稱", "name": "Skill Name",
@@ -2229,42 +2229,42 @@
 								]
 							],
 							"footnotes": [
-								"A “—” entry in the Action column means using the skill typically takes longer than a standard action. See the skill description for details.",
-								"* Some areas of Expertise can be used Untrained. See the entry on Expertise for more information. "
+								"動作欄位中的「—」代表使用這個技能通常會耗費比一個標準動作還要久的時間。詳情請參見該技能的說明。",
+								"* 專業技能的某些領域可以在未受訓的狀況下使用。參見專業技能的說明以查閱更多細節。"
 							]
 						},
-						"For each skill description, see {@5etools Skills|skills.html} page.",
+						"關於每個技能的完整說明，請參閱{@5etools 技能|skills.html}頁面。",
 						{
 							"type": "inset",
-							"name": "Finding the Skill You Want",
+							"translate_name": "找到你要的技能", "name": "Finding the Skill You Want",
 							"entries": [
-								"If you don’t find a particular skill on the list, like climbing, bluffing, or search, remember that each skill covers a lot of ground. So, you’ll find climbing isn’t its own skill, but is listed as part of Athletics, while bluffing and search are under Deception and Investigation, respectively. When in doubt, read through the skill you think is most similar to what you’re looking for."
+								"若你在技能列表中找不到特定技能，例如攀爬、唬騙、或搜查等等，請謹記，列表中的每個技能都涉及了很多面相。因此，你會發現攀爬本身並不是一個獨立的技能，而是被歸類為{@skill 運動}技能的一部份，而唬騙和搜查則分別屬於{@skill 欺瞞}和{@skill 調查}技能。當你有疑問的時候，閱讀一下你覺得最接近你所要找尋的技能的說明，也許就能找到你要找的技能了。"
 							]
 						},
 						{
 							"type": "inset",
-							"name": "Under the Hood: Choosing Skills",
+							"translate_name": "幕後花絮：選擇技能", "name": "Under the Hood: Choosing Skills",
 							"entries": [
-								"There are a number of factors to consider when choosing skills for your character.",
+								"當為你的角色選擇技能時，有許多需要考慮的要素。",
 								{
 									"type": "entries",
-									"name": "Training vs. Talent",
+									"translate_name": "後天鍛鍊 vs 天賦才能", "name": "Training vs. Talent",
 									"entries": [
-										"In game terms there’s no difference between a character who has ranks in a skill because of extensive training and another whose skill ranks represent a natural talent or aptitude for the skill. Both are considered “trained” in the skill in game terms. For example, one character might have a high Persuasion skill based on the character’s extensive training in negotiation, debate, and management. Another character’s Persuasion skill may stem more from personal attractiveness or a knack for getting others to cooperate, while a third character may have a combination of the two. Feel free to decide for yourself what mix of training and talent your character’s skill ranks represent."
+										"在遊戲機制層面，因為後天鍛鍊而獲得技能等級的角色，和技能等級是用以呈現其天賦或才能的角色之間並沒有什麼不同。在遊戲機制上，他們兩人都被視為已經「受訓」於該技能。舉例來說，某個角色可能會因為經過談判、辯論、和管理的綜合訓練而擁有高等級的說服技能，另一個角色的說服技能則可能更多源自於個人魅力或是讓他人能夠合作的訣竅，而第三個角色的技能等級則可能同時包含了這兩個要素。你可以自由決定你角色的技能等級究竟呈現了多少比例的後天訓練和天賦才能。"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Life Skills",
+									"translate_name": "生活技能", "name": "Life Skills",
 									"entries": [
-										"When allocating skill ranks for your character consider not just the character’s role as a hero but also the various other skills the character may have picked up in day-to-day life. For example, most adults have some sort of Expertise skill as their occupation with at least 3 to 5 ranks (more if they’re especially good at their job). Some people pick up ranks in Perception, although most get by using the skill untrained. Characters working with technology may have the Technology skill even if it doesn’t apply to their powers. A particularly well-educated person may have various Expertise skills for jobs they don’t even hold. These additional skills help round out a character and provide some background color and—who knows?—they may turn out to be useful in an adventure at some point!"
+										"當你為角色分配技能等級時，不只要考慮該角色做為英雄的身分，還要思考該角色在日常生活中可能學會的各種其他技能。舉例來說，大部分的成年人都會具有某種程度的{@skill 專業}技能，大約3到5級，用以呈現他們的職業能力（或若他們特別擅長他們的工作，則可能會更高）。某些人會擁有{@skill 感知}技能的等級，不過大部分人都是在未受訓的情況下使用它的。與科技相關產業打交道的角色們很有可能會擁有{@skill 科技}技能的等級，儘管這可能並不能用於他們的超能力。一名受過良好教育的角色也可能擁有著與他們職業無關的各種{@skill 專業}技能。這些額外的技能能夠幫助你圓滿角色的設定並提供某些背景色彩──誰知道呢？它們說不定會在冒險中派上用場也說不定！"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Adventuring Skills",
+									"translate_name": "冒險技能", "name": "Adventuring Skills",
 									"entries": [
-										"Also give some thought to the skills your character needs to be effective in game play. Some are obvious, especially if they’re part of your character concept. A scientist is likely to have ranks in Technology. A pilot should have Vehicles, while a doctor should have Treatment in addition to Expertise: Physician. Beyond the obvious and life skills of your character consider “utility skills” like Insight, Perception, and Stealth, which many characters find useful. A few ranks in such skills may be a smart investment."
+										"也考慮一下你的角色在遊戲中所需要使用的技能。有些顯而易見，特別是那些做為你角色概念一部份的技能。科學家很可能會擁有{@skill 科技}技能的等級。飛行員應該會擁有{@skill 駕駛}技能，而醫生則會擁有{@skill 診療}以及{@skill Expertise|專業：內科醫生}技能。除了這些技能和你角色的生活技能之外，也可以考慮一些「功能性技能」，像是{@skill 洞見}、{@skill 感知}、和{@skill 潛行}等，這些技能對許多角色而言都相當實用。將一些等級分配到這類技能上會是個聰明的投資。"
 									]
 								}
 							]
