@@ -6683,7 +6683,7 @@
 						"Run a few games and, before you know, you will have an ongoing series, just like a comic series created by you and your players! While you can simply create and run adventures, it is often helpful to have a map of roughly where your series is going, much like the outline of an adventure’s various encounters. This section looks at creating your own series and, in effect, your very own universe! The primary elements of your series to consider are its scale, setting, and style.",
 						{
 							"type": "entries",
-							"name": "Scale",
+							"translate_name": "規模", "name": "Scale",
 							"entries": [
 								"First, consider the scale of your series: will it focus primarily on adventures taking place in and around a single city, or will the heroes travel all around the region or the world? Will they deal more with local crime or global threats? Does the series even go beyond the boundaries of Earth, to distant solar systems, the far future, or parallel dimensions? The potential scale of a series tends to break down like this:",
 								{
@@ -6691,35 +6691,35 @@
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Local",
+											"translate_name": "當地", "name": "Local",
 											"entries": [
 												"Limited to a large city like New York City or Seattle, or a particular region, like a state or small nation. Local heroes tend to focus on local issues and problems, leaving the “big picture” stuff to those better able to handle it. Some heroes particularly pride themselves on being locals; after all, sometimes focusing on the big problems makes it easy to ignore the small ones."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Regional",
+											"translate_name": "區域", "name": "Regional",
 											"entries": [
 												"The series primarily takes place in a large region or country, like the United States, Canada, or Europe. The heroes might be a national team, sponsored by the government, or a branch of an international one that already exists in your setting."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Global",
+											"translate_name": "全球", "name": "Global",
 											"entries": [
 												"The heroes travel around the world, tackling global problems and big challenges. They are likely among the most powerful and influential heroes and have comparable resources, allowing them to get to distant places quickly to respond to emergencies. The heroes have to deal with global geopolitics and they are typically the first line of defense against serious threats."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Universal",
+											"translate_name": "宇宙", "name": "Universal",
 											"entries": [
 												"At this scale, Earth is just one small part of the vast universe, and the heroes regularly travel among the stars. This is the scale for cosmic heroes such as an interstellar police force, or for far-future teams that patrol a solar system and beyond, where it’s handling a natural disaster on one planet, quickly followed by an invasion of another world in a different star system. Some form of Space Travel (see Movement) is required at this scale."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Multiversal",
+											"translate_name": "多元宇宙", "name": "Multiversal",
 											"entries": [
 												"Earth? Which Earth? A multiversal series spans diverse universes and dimensions, from parallel worlds to mystic realms and realities almost defying description. This sort of game requires the Gamemaster to define the game world or multiverse, but a good setting can result in a very memorable series. Some form of Dimensional Travel (see Movement) is required at this scale.",
 												"The smaller the scale, the more detail you can put into your series. It is easier for players to get to know one city or region especially well than it is for a series that takes them to a new planet or dimension every adventure.",
@@ -6732,7 +6732,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Setting",
+							"translate_name": "設定", "name": "Setting",
 							"entries": [
 								"The setting is where and when the series takes place. Is it the modern-day, medieval times, the wild west, or the far future solar system? Each of the following settings has its positives and negatives, and each is suited to particular types of games.",
 								{
@@ -6740,7 +6740,7 @@
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Modern",
+											"translate_name": "現代", "name": "Modern",
 											"entries": [
 												"Most of the time, a series is set in a version of our modern world. This approach is the easiest one by far, since there isn’t as much you have to make up. You don’t have to explain to your players where New York City is, for example.",
 												"If your game is set in the modern-day world, you may want to choose a particular city or area as the heroes’ home base. Even a truly global team needs some place to call home, such as an orbiting satellite or the top floors of a skyscraper.",
@@ -6751,7 +6751,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Historical",
+											"translate_name": "歷史", "name": "Historical",
 											"entries": [
 												"The Golden Age of comics began in the 1930s and this game can easily be set any time in the past seventy-five years. Players can take the roles of “mystery men” and the first superheroes, fighting against gangsters and the forces of the Axis in World War II. They can be government agents or patriotic heroes during the Cold War with Russia, or counter-culture rebels during the 1960s.",
 												"But nothing says you can’t go farther back in history if you want. Comic books have told stories about heroes from nearly every time period. There’s World War I and the American Revolutionary War. The Wild West offers cowboy heroes, Native American shaman, and steam-tech weird science. Medieval heroes could face evil wizards, goblins, and monsters. You can go all the way back to the mythic ages of ancient Greece and Egypt with gods and heroes as potential characters, or even the chronicles of ancient Atlantis."
@@ -6759,7 +6759,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Futuristic",
+											"translate_name": "未來", "name": "Futuristic",
 											"entries": [
 												"More than a few comic books speculate about the future. There are science fiction comics aplenty, along with super-hero stories set at different points in Earth’s future.",
 												"A near future setting may be quite similar to the modern-day, with the addition of some new technology and the new problems that come with it. For example there may be flying cars, cybernetic and genetic modifications, and advances in computer technology along with increases in crime and urban decay. Heroes can stalk the streets of dark, towering cities trying to protect the innocent where a corrupt legal system has failed.",
@@ -6773,7 +6773,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Style",
+							"translate_name": "風格", "name": "Style",
 							"entries": [
 								"Just as comics themselves span the stylistic gamut from lighthearted adventure to intricately plotted, grim morality plays, so can a series vary in style. Once a style of play is established, it’s up to the GM to maintain it. That means creating adventures and encounters suited to that style and encouraging the players to get into the style’s mindset and run their characters accordingly. Styles run along a spectrum from light to dark:",
 								{
@@ -6781,7 +6781,7 @@
 									"entries": [
 										{
 											"type": "entries",
-											"name": "Light",
+											"translate_name": "明亮", "name": "Light",
 											"entries": [
 												"The light style is simple and straightforward. The heroes are the good guys and the villains are usually bad through and through (with a few misunderstood souls in need of help). Problem solving is a matter of either combat or clever thinking, and roleplaying is an opportunity for players to deliver moralistic speeches and clever catchphrases or exchange witty banter with the villains and each other.",
 												"A light style is one where reality is largely what you make of it. Light stories tend to be full of fantastic characters and ideas. Heroes might face an alien invasion from another dimension one adventure and explore a lost world full of dinosaurs and cavemen the next. Realism isn’t as important as telling a fun and exciting story. On the other hand, the lighter comics were often inconsistent and sometimes veered off into the extremely fantastic or even silly. GMs may want to rein-in some of the wilder elements of the light style in their games. Or they may not."
@@ -6789,7 +6789,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Dark",
+											"translate_name": "黑暗", "name": "Dark",
 											"entries": [
 												"The dark style presents opportunities for greater depth and realism. The dividing line between heroes and villains is blurred, and may be practically nonexistent. The players have greater responsibility for deciding their characters’ actions and may have a greater impact on the world. Heroes are often faced with intense moral dilemmas and conflicts, such as supporting a corrupt government that provides order and stability against the rebels who would bring it down, or going outside the law to deal with vile criminals the justice system can’t reach.",
 												"The dark style allows players considerable freedom, since the heroes could, and often do, use any means available to accomplish their goals. On the other hand, it’s often difficult to distinguish the heroes from the villains in this play style, since both use similar cynical or even bloodthirsty methods. The authorities are less likely to trust dark heroes, unless they happen to be working as a “black ops” or enforcement arm of a government agency. Even then there’s considerable distrust of anyone in a costume or displaying powers, since bystanders often take the brunt of conflict between the heroes and their opponents."
@@ -6797,7 +6797,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Grayscale",
+											"translate_name": "灰階", "name": "Grayscale",
 											"entries": [
 												"Finally, your game’s style may be somewhere in between the two extremes. You may go for a mostly light style with a slightly modern “edge” to it, a dark style that doesn’t get quite so grim but holds on to some light values, tempered with realism and an air of danger, or any other combo you can imagine. Comics have experimented with a lot of different styles over the years and you can draw upon any of them for your own series, or create your own unique style.",
 												"Whatever you choose, try to make the style of your series clear to the players so they know what to expect in advance and can create heroes suited to the game. A grim vigilante who kills opponents in cold blood may not be suited to a mostly light game. Likewise, a heroic “Boy Scout” may look ridiculous in a dark game of grim and gritty realism. If you feel a particular player’s concept isn’t suited for your game’s style, you’re better off telling the player in advance and asking for a different character than having trouble later on when it turns out the player isn’t enjoying the game."
@@ -6809,52 +6809,52 @@
 						},
 						{
 							"type": "entries",
-							"name": "Series Frameworks",
+							"translate_name": "劇集框架", "name": "Series Frameworks",
 							"entries": [
 								"The follow series frameworks provide the Gamemaster with some ideas and models for running a series in a variety of different styles, from high-powered heroes safeguarding the world to people with no powers but a lot of determination working to try and make their corner of the world a better place. Each framework has a summary of what the series is about, what sort of characters are suited to it, and some ideas to get you going.",
 								{
 									"type": "actionBlock",
-									"name": "Legacies",
+									"translate_name": "神奇遺產", "name": "Legacies",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Power Level}: 8–10",
-												"{@b Scale}: Local",
-												"{@b Setting}: Modern",
-												"{@b Style}: Grayscale"
+												"{@b 超能力階級}: 8–10",
+												"{@b 規模}: 當地",
+												"{@b 設定}: 現代",
+												"{@b 風格}: 灰階"
 											]
 										},
-										"You’ve known each other all your lives, played together as kids, were always visiting each other’s homes with your parents, and had pretty good lives together. Now you’ve discovered each of you has… exceptional abilities and have decided, either independently, or as a group, to become heroes! Do you have what it takes to work as a team? What do you do when all of your parents disappear at the same time? How do you deal with learning they’re actually longtime heroes… or villains?"
+										"你們從小就認識彼此，一起玩耍，並經常和父母一起到彼此的家中拜訪作客，一同經歷著美好的人生。而現在，你們發現了你們各自都擁有著……超凡的異能，並決定無論是獨自出道、或是結成團隊，你們都要成為英雄！你們是否具備團隊合作的能力呢？而當你們的父母親同時失去行蹤，你們又會怎麼做？當你得知你的父母實際上長久以來都擔當著超級英雄……或反派時，你有該如何自處？"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Home-front Heroes",
+									"translate_name": "衛國英雄", "name": "Home-front Heroes",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Power Level}: 7–9",
-												"{@b Scale}: Regional",
-												"{@b Setting}: Historical",
-												"{@b Style}: Light"
+												"{@b 超能力階級}: 7–9",
+												"{@b 規模}: 區域",
+												"{@b 設定}: 歷史",
+												"{@b 風格}: 明亮"
 											]
 										},
-										"America is threatened by the growing threat of the Axis powers. President Roosevelt sends a number of the well-known heroes across the globe to save American soldiers and perform special operations. Wisely, he also asks a number of rookie heroes to handle some important jobs, on the home-front and abroad, but also behind the scenes. Does your two-fisted hero have the guts to pass up the glory of answering the President’s call to serve a higher cause?"
+										"美國正遭受到軸心國日益增長的威脅。羅斯福總統已經派遣了許多世界聞名的超級英雄前往拯救美國士兵並執行特殊行動。明智的，他也邀請了數位菜鳥英雄們去處理一些位於國內、國外、甚至是幕後的重要任務。當時機到來，你那精壯的英雄是否有膽量放棄那回應總統呼召的榮耀，並挺身為更崇高的目的服務呢？"
 									]
 								},
 								{
 									"type": "actionBlock",
-									"name": "Answering the Call",
+									"translate_name": "回應呼召", "name": "Answering the Call",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Power Level}: 10–12",
-												"{@b Scale}: Global",
-												"{@b Setting}: Modern",
-												"{@b Style}: Grayscale"
+												"{@b 超能力階級}: 10–12",
+												"{@b 規模}: 全球",
+												"{@b 設定}: 現代",
+												"{@b 風格}: 灰階"
 											]
 										},
 										"The local big-league super-team has disbanded; they might even be missing and presumed dead after another titanic battle to save the city. But the city needs its heroes, so it’s up to a new group of heroes to take up the mantle and the responsibility to defend the city from threats too great for any one of them to handle. Rebuilding the team is no small task, nor is winning the trust of the city, and you can bet the old team’s foes will waste no time in taking advantage of the situation. Do your heroes have what it takes to create a team of their own? What happens if they do and the previous team returns?"
@@ -6862,15 +6862,15 @@
 								},
 								{
 									"type": "actionBlock",
-									"name": "Across the Multiverse",
+									"translate_name": "橫跨多元宇宙", "name": "Across the Multiverse",
 									"entries": [
 										{
 											"type": "list",
 											"items": [
-												"{@b Power Level}: 12–15",
-												"{@b Scale}: Multiversal",
-												"{@b Setting}: The multiverse",
-												"{@b Style}: Grayscale"
+												"{@b 超能力階級}: 12–15",
+												"{@b 規模}: 多元宇宙",
+												"{@b 設定}: 多元宇宙",
+												"{@b 風格}: 灰階"
 											]
 										},
 										"In the wake of multiversal threats, including the machinations of powerful extradimensional beings, a mysterious organization has instituted a program of recruiting agents from across the various worlds. They take only the most capable, forming a powerful alliance to protect the multiverse from terrible threats and keep their timeline untangled. The characters come from many alternate worlds, but team up to keep all worlds safe, assuming the organization they work for is being entirely truthful with them…."
