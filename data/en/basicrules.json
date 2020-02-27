@@ -2063,7 +2063,7 @@
 					"type": "section",
 					"name": "How Skills Work",
 					"entries": [
-						"When you use a skill, make a skill check to see how you do. Based on the circumstances, your result must match or beat a particular number to use the skill successfully. The harder the task, the higher the number you need to roll. (See {@b Checks} for more information.)",
+						"When you use a skill, make a skill check to see how you do. Based on the circumstances, your result must match or beat a particular number to use the skill successfully. The harder the task, the higher the number you need to roll. (See {@rule Checks|basic|1|checks} for more information.)",
 						{
 							"type": "entries",
 							"name": "Untrained Skill Checks",
@@ -2077,16 +2077,16 @@
 							"name": "Interaction Skills",
 							"entries": [
 								"Certain skills, called {@b interaction skills}, are aimed at dealing with others through social interaction. Interaction skills allow you to influence the attitudes of others and get them to cooperate with you in one way or another. Since interaction skills are intended for dealing with others socially, they have certain requirements.",
-								"First, you must be able to interact with the subject(s) of the skill. They must be aware of you and able to understand you. If they can’t hear or understand you for some reason, you have a –5 circumstance penalty to your skill check (see {@b Circumstance Modifiers} in {@b The Basics}).",
-								"Interaction skills work best on intelligent subjects, ones with an Intellect rank of –4 or better. You can use them on creatures with Int –5, but again with a –5 circumstance penalty; they’re just too dumb to get the subtleties of your point. You can’t use interaction skills at all on subjects lacking one or more mental abilities. (Try convincing a rock to be your friend—or afraid of you—sometime.) The Immunity effect (see {@b Powers}) can also render characters immune to interaction skills.",
-								"You can use interaction skills on groups of subjects at once, but only to achieve the same result for everyone. So you can attempt to use Deception or Persuasion to convince a group of something, or Intimidation to cow a crowd, for example, but you can’t convince some individuals of one thing and the rest of another, or intimidate some and not others. The GM decides if a particular use of an interaction skill is effective against a group, and may apply modifiers depending on the situation. The general rules for interaction still apply: everyone in the group must be able to hear and understand you, for example, or you suffer a –5 on your skill check against them. Mindless subjects are unaffected, as usual."
+								"First, you must be able to interact with the subject(s) of the skill. They must be aware of you and able to understand you. If they can’t hear or understand you for some reason, you have a –5 circumstance penalty to your skill check (see {@rule Circumstance Modifiers|basic|1|circumstance modifiers} in {@b The Basics}).",
+								"Interaction skills work best on intelligent subjects, ones with an Intellect rank of –4 or better. You can use them on creatures with Int –5, but again with a –5 circumstance penalty; they’re just too dumb to get the subtleties of your point. You can’t use interaction skills at all on subjects lacking one or more mental abilities. (Try convincing a rock to be your friend—or afraid of you—sometime.) The {@effect Immunity} effect can also render characters immune to interaction skills.",
+								"You can use interaction skills on groups of subjects at once, but only to achieve the same result for everyone. So you can attempt to use {@skill Deception} or {@skill Persuasion} to convince a group of something, or {@skill Intimidation} to cow a crowd, for example, but you can’t convince some individuals of one thing and the rest of another, or intimidate some and not others. The GM decides if a particular use of an interaction skill is effective against a group, and may apply modifiers depending on the situation. The general rules for interaction still apply: everyone in the group must be able to hear and understand you, for example, or you suffer a –5 on your skill check against them. Mindless subjects are unaffected, as usual."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Manipulation Skills",
 							"entries": [
-								"Some skills, called {@b manipulation skills}, require a degree of fine physical manipulation. You need prehensile limbs and a Strength rank or some suitable Precise power effect to use manipulation skills effectively. If your physical manipulation capabilities are impaired in some fashion (such as having your hands tied or full use of only one hand), the GM may impose a circumstance modifier based on the severity of the impairment. Characters lacking the ability to use manipulation skills can still have ranks in them and use them to oversee or assist the work of others (see {@b Team Checks})."
+								"Some skills, called {@b manipulation skills}, require a degree of fine physical manipulation. You need prehensile limbs and a Strength rank or some suitable {@modifier Precise} power effect to use manipulation skills effectively. If your physical manipulation capabilities are impaired in some fashion (such as having your hands tied or full use of only one hand), the GM may impose a circumstance modifier based on the severity of the impairment. Characters lacking the ability to use manipulation skills can still have ranks in them and use them to oversee or assist the work of others (see {@rule Team Checks|basic|1|team checks})."
 							]
 						}
 					]

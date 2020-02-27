@@ -50,7 +50,7 @@
 				"translate_name": "技能", "name": "Skills",
 				"headers": [
 					{ "_translate_name": "技能基本規則", "name": "Skill Basics" },
-					{ "_translate_name": "技能的作用方式", "name": "How Skills Work" },
+					{ "translate_name": "技能的作用方式", "name": "How Skills Work" },
 					{ "translate_name": "技能說明", "name": "Skill Descriptions" }
 				]
 			},
@@ -2063,30 +2063,30 @@
 					"type": "section",
 					"translate_name": "技能的作用方式", "name": "How Skills Work",
 					"entries": [
-						"When you use a skill, make a skill check to see how you do. Based on the circumstances, your result must match or beat a particular number to use the skill successfully. The harder the task, the higher the number you need to roll. (See {@b Checks} for more information.)",
+						"當你使用技能時，進行一次技能檢定以決定你做得如何。根據當下情況，你的擲骰結果必須要達到或超過一個特定的數字才能成功地使用該技能。你執行的事項越困難，你所要達到的數字就會越高。（參見{@rule Checks|basic|1|checks}章節以查閱更多資訊。）",
 						{
 							"type": "entries",
 							"translate_name": "未受訓的技能檢定", "name": "Untrained Skill Checks",
 							"entries": [
-								"Generally, if you attempt a task requiring a skill you don’t have, you make a skill check as normal. Skill rank doesn’t apply because you don’t have any ranks in the skill. You do get other modifiers, however, such as the skill’s ability modifier.",
-								"Many skills can only be used if you are trained in them. Skills that cannot be used untrained are marked with a “No” in the “Untrained” column on the {@b Skills} table and listed as “Trained Only” in their descriptions. Attempts to use these skills untrained automatically fail. In some cases, a skill may have both trained and untrained aspects; if you do not have any ranks in that skill, you can only use the untrained ones."
+								"通常來說，若你嘗試執行一件要求你使用你未持有的技能的事項，則你仍然如常進行技能檢定。由於你在該技能上沒有任何等級，因此該技能的技能等級並不會應用到你的檢定中。不過，你的檢定仍然會受到其他修正值的影響，比如說該技能的屬性修正值。",
+								"然而，許多技能只能在你受訓於它們的情況下才能被使用。這些不能在未受訓情況下使用的技能，在下列{@b 技能}表的「未受訓?」欄位中寫有「否」，且會在它們的說明文字中標有「需受訓」的標籤。嘗試在未受訓的情況下使用這些技能將會自動失敗。在某些情況下，一個技能可能會同時擁有需受訓和不需受訓的面相；若你沒有該技能的等級，則你只能使用其中不需受訓的事項。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "交涉類技能", "name": "Interaction Skills",
 							"entries": [
-								"Certain skills, called {@b interaction skills}, are aimed at dealing with others through social interaction. Interaction skills allow you to influence the attitudes of others and get them to cooperate with you in one way or another. Since interaction skills are intended for dealing with others socially, they have certain requirements.",
-								"First, you must be able to interact with the subject(s) of the skill. They must be aware of you and able to understand you. If they can’t hear or understand you for some reason, you have a –5 circumstance penalty to your skill check (see {@b Circumstance Modifiers} in {@b The Basics}).",
-								"Interaction skills work best on intelligent subjects, ones with an Intellect rank of –4 or better. You can use them on creatures with Int –5, but again with a –5 circumstance penalty; they’re just too dumb to get the subtleties of your point. You can’t use interaction skills at all on subjects lacking one or more mental abilities. (Try convincing a rock to be your friend—or afraid of you—sometime.) The Immunity effect (see {@b Powers}) can also render characters immune to interaction skills.",
-								"You can use interaction skills on groups of subjects at once, but only to achieve the same result for everyone. So you can attempt to use Deception or Persuasion to convince a group of something, or Intimidation to cow a crowd, for example, but you can’t convince some individuals of one thing and the rest of another, or intimidate some and not others. The GM decides if a particular use of an interaction skill is effective against a group, and may apply modifiers depending on the situation. The general rules for interaction still apply: everyone in the group must be able to hear and understand you, for example, or you suffer a –5 on your skill check against them. Mindless subjects are unaffected, as usual."
+								"某些技能，被稱作{@b 交涉類技能}，是用以透過社交互動與他人打交道。交涉類技能讓你得以影響他人的態度，並促使他們藉由某種方式與你合作。由於交涉類技能的目的是與他人進行社會性互動，因此它們具有某些限制。",
+								"首先，你必須要能夠與該技能的目標互動。他們必須要注意到你，並能夠理解你的意思。若他們因為某些原因而無法聽見你或理解你，則你將在技能檢定中承受-5的情境罰值（參見{@b 基本規則}章節的{@rule 情境修正值|basic|1|circumstance modifiers}）。",
+								"交涉類技能最適合用於具有智能的目標，亦即智力屬性的等級為-4或更高的角色。你仍然可以對智力值為-5的生物使用交涉類技能，但同樣的，這將承受-5的情境罰值；牠們實在是太笨了，以至於牠們無法理解你話語中的細緻之處。你無法對任何缺乏任一心理屬性的目標使用交涉類技能。（嘗試說服一顆石頭成為你的朋友──或讓它害怕你──是沒有意義的。）{@effect 免疫}效果也能夠讓角色得以免疫交涉類技能的影響。",
+								"你可以同時對一整群的目標使用交涉類技能，但只能對群體中的所有人產生相同的結果。因此舉例來說，你可以嘗試使用{@skill 欺瞞}或{@skill 說服}以使一整群人相信你、或使用{@skill 威嚇}技能來恐嚇群眾，但你不能使其中一部份人相信某事而讓其他人相信其他事、或者只恐嚇一部份人。GM將決定對群體使用交涉類技能是否會有效果，且可能會根據情況把情境修正值加入該檢定中。交涉類技能的通用規則仍然適用：比如說，群體中的所有人都必須要能夠聽見並理解你，否則你對他們進行的技能檢定將承受-5的情境罰值。無心智的目標也仍然不會受到影響。"
 							]
 						},
 						{
 							"type": "entries",
 							"translate_name": "操作類技能", "name": "Manipulation Skills",
 							"entries": [
-								"Some skills, called {@b manipulation skills}, require a degree of fine physical manipulation. You need prehensile limbs and a Strength rank or some suitable Precise power effect to use manipulation skills effectively. If your physical manipulation capabilities are impaired in some fashion (such as having your hands tied or full use of only one hand), the GM may impose a circumstance modifier based on the severity of the impairment. Characters lacking the ability to use manipulation skills can still have ranks in them and use them to oversee or assist the work of others (see {@b Team Checks})."
+								"某些技能，被稱作{@b 操作類技能}，會要求使用者進行一定程度的精密操作。你需要擁有一雙能夠抓握的肢體和力量屬性等級、或者使用某個應用了{@modifier 精確}修飾符的適當超能力，好讓你能夠有效地使用操作類技能。若你的身體操作能力受到了某種程度上的限制（例如雙手被綁住、或只能使用一隻手），則GM可能會根據其受限程度讓你的檢定承受情境罰值。缺乏使用操作類技能的能力的角色仍然可以擁有該技能的等級，並能使用它們來監督或幫助其他人工作（參見{@rule 團隊檢定|basic|1|team checks}規則）。"
 							]
 						}
 					]
@@ -6158,7 +6158,7 @@
 							"type": "entries",
 							"translate_name": "回復", "name": "Recovery",
 							"entries": [
-								"作為衝突的代價，角色們經常會因為被粗暴毆打或遭各種超能力影響而承受各種負面狀態（參見{@5etools 狀態|conditions.html}頁面）。{@rules 超能力|basic|6}章節中將說明各效果所能造成的具體影響，特別是{@effect 詛咒}和{@effect 傷害}這兩個在衝突中最常見的超能力效果。",
+								"作為衝突的代價，角色們經常會因為被粗暴毆打或遭各種超能力影響而承受各種負面狀態（參見{@5etools 狀態|conditions.html}頁面）。{@rule 超能力|basic|6}章節中將說明各效果所能造成的具體影響，特別是{@effect 詛咒}和{@effect 傷害}這兩個在衝突中最常見的超能力效果。",
 								"活體生物每休息一分鐘就能解除一個傷害狀態，從最嚴重的狀態開始解除，依序往下。因此一名負傷的角色將會先解除{@condition 失能}狀態，接著依序解除{@condition 蹣跚}、{@condition 目眩}狀態，最後再每分鐘解除一個對堅實檢定的-1罰值，直到其完全康復。{@effect 治癒}和{@effect 再生}效果可以加速這個過程。",
 								"除非物體（不具備體質屬性的角色）具有像是{@effect 再生}之類的效果，否則物體受到的傷害並不會回復。取而代之的是，它們可以被維修。在維修受損物體的時候，請參閱{@skill 科技}技能底下的準則說明。",
 								{
