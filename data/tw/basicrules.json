@@ -102,7 +102,7 @@
 					{ "_translate_name": "運行遊戲", "name": "Running the Game" },
 					{ "_translate_name": "創造冒險故事", "name": "Creating Adventures" },
 					{ "_translate_name": "創造劇集", "name": "Creating a Series" },
-					{ "_translate_name": "劇集框架", "name": "Series Frameworks" }
+					{ "translate_name": "劇集框架", "name": "Series Frameworks" }
 				]
 			}
 		]
@@ -6811,7 +6811,7 @@
 							"type": "entries",
 							"translate_name": "劇集框架", "name": "Series Frameworks",
 							"entries": [
-								"The follow series frameworks provide the Gamemaster with some ideas and models for running a series in a variety of different styles, from high-powered heroes safeguarding the world to people with no powers but a lot of determination working to try and make their corner of the world a better place. Each framework has a summary of what the series is about, what sort of characters are suited to it, and some ideas to get you going.",
+								"下列的劇集框架為遊戲主持人提供了一些思路和模型用來運行各種不同風格的故事劇集，從保護世界的頂尖超級英雄、到那些缺乏異能，但有著滿腔決心，致力於讓世界變得更加美好的英勇俠者。每個劇集框架都有著一個大綱，說明其劇集內容、適合什麼樣的角色、以及一些能幫助你著手發展故事的點子。",
 								{
 									"type": "actionBlock",
 									"translate_name": "神奇遺產", "name": "Legacies",
@@ -6857,7 +6857,7 @@
 												"{@b 風格}: 灰階"
 											]
 										},
-										"The local big-league super-team has disbanded; they might even be missing and presumed dead after another titanic battle to save the city. But the city needs its heroes, so it’s up to a new group of heroes to take up the mantle and the responsibility to defend the city from threats too great for any one of them to handle. Rebuilding the team is no small task, nor is winning the trust of the city, and you can bet the old team’s foes will waste no time in taking advantage of the situation. Do your heroes have what it takes to create a team of their own? What happens if they do and the previous team returns?"
+										"當地的超級英雄大聯盟已經解散；他們可能甚至在另一場拯救城市的巨大戰役後通通失去行蹤。然而，這個城市需要英雄，它們需要一群新的英雄團隊擔起責任，守護這座城市不受那以一人之力難以對抗的巨大威脅。重建英雄團隊並不容易，贏取城市居民的信任更是困難，此外，過往團隊的老敵人也肯定不會放過這絕好的時機﹐你們的英雄們是否能夠組建起他們自己的團隊？而當過去失蹤的團隊們終於回歸，他們又該怎麼辦？"
 									]
 								},
 								{
@@ -6873,7 +6873,7 @@
 												"{@b 風格}: 灰階"
 											]
 										},
-										"In the wake of multiversal threats, including the machinations of powerful extradimensional beings, a mysterious organization has instituted a program of recruiting agents from across the various worlds. They take only the most capable, forming a powerful alliance to protect the multiverse from terrible threats and keep their timeline untangled. The characters come from many alternate worlds, but team up to keep all worlds safe, assuming the organization they work for is being entirely truthful with them…."
+										"面對崛起的多元宇宙威脅，以及那超維度存在所編織的陰謀詭計，一個神祕的組織執行了一個從各個不同世界維度招募特務的計畫。他們只接收最為強大的英雄，成立一個神通廣大的超級聯盟，以保護多元宇宙不受到可怕存在的威脅，並避免他們的時間線不受擾動。儘管角色們來自各個不同的平行宇宙，但他們團結一致以保護世界的安危，並假定他們所效力的組織確實對他們沒有任何隱瞞……"
 									]
 								}
 							]
