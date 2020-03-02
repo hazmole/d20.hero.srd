@@ -6186,22 +6186,22 @@
 		},
 		{
 			"type": "section",
-			"name": "Gamemastering",
+			"translate_name": "主持遊戲", "name": "Gamemastering",
 			"entries": [
 				"One player—the Gamemaster or “GM”—takes responsibility for running a Mutants & Masterminds game. The Gamemaster creates the adventure, runs the players through it, takes on the roles of the various other characters the heroes encounter, and handles any questions about the rules as they arise. The Gamemaster also adjudicates the process of character creation, deciding what traits, modifiers, and so forth are appropriate for the particular game, along with the best way to express certain concepts in game terms. While Gamemastering is a big responsibility, it’s not as hard as it might seem, and providing a fun and entertaining game for your friends can be quite rewarding.",
 				{
 					"type": "section",
-					"name": "Running the Game",
+					"translate_name": "運行遊戲", "name": "Running the Game",
 					"entries": [
 						"While the players are responsible for keeping track of their characters and deciding on their actions, the Gamemaster is responsible for everything else that happens in the game. A good GM tries to make sure the game runs as smoothly as possible and is enjoyable for all of the players. Many components go into creating a good game. The following sections give you the basics, but experience is the best tool to help you become a better Gamemaster.",
 						{
 							"type": "entries",
-							"name": "Assigning Difficulties",
+							"translate_name": "安排難度", "name": "Assigning Difficulties",
 							"entries": [
 								"This game can be broken down into a series of tasks the heroes must perform, from piecing together clues about a villain’s latest scheme to blasting said villain through a wall and disarming his doomsday device in the nick of time. It’s up to the Gamemaster to assign the difficulty of these and numerous other tasks in the game and to determine the outcome of the heroes’ efforts. This section offers some general guidelines on assigning the difficulty of a task.",
 								{
 									"type": "entries",
-									"name": "The 55% Rule",
+									"translate_name": "55%原則", "name": "The 55% Rule",
 									"entries": [
 										"A good guideline to keep in mind is the chance of an average character (with a modifier of 0) succeeding at an average task (DC 10) is just over 50% (55% to be exact). So any time you have to have an average character do something, or want to set a difficulty you feel is average for a particular character, aim for around that chance of success. If you want to know what bonus is required to have a 55% chance of succeeding at a particular task, just subtract 10 from the DC. So a DC 25 action (a formidable task) requires a bonus of +15 in order to have a 55% chance of success (on a roll of 10 or higher).",
 										"Keep in mind that this chance of success on a task allows a character to automatically succeed at that task as a routine check (see Routine Checks, following, and in The Basics). This is intentional; the average character only really fails at an average task when hurried or under stress. A 55% chance also allows a player to spend a Victory point to automatically succeed, since a Victory point ensures a die roll of at least 11. (See Victory points.)"
@@ -6209,7 +6209,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Circumstance Modifiers",
+									"translate_name": "情境修正值", "name": "Circumstance Modifiers",
 									"entries": [
 										"Circumstance modifiers (see their description in The Basics) are one of the GM’s best tools. Rather than having to memorize a lengthy list of special-case modifiers, just keep this guideline in mind: if the situation is in the character’s favor, that’s good for a +2 bonus on a check. If it’s against the character, that’s a –2 penalty. If things are particularly good or bad, up the circumstance modifier to +/–5.",
 										"It’s that simple. Note that, practically speaking, a major circumstance modifier effectively shifts a check up or down a degree of difficulty, as shown on the Difficulty Class Examples table. Likewise, a major modifier effectively changes the degree of a graded check by one (see Graded Checks)."
@@ -6219,10 +6219,10 @@
 									"type": "table",
 									"caption": "",
 									"colLabels": [
-										"Difficulty",
+										"難度",
 										"DC",
-										"Example",
-										"Modifier Needed for 55%"
+										"範例",
+										"55%原則所需的修正值"
 									],
 									"colStyles": [
 										"col-2 text-align-center",
@@ -6289,7 +6289,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Routine Checks",
+									"translate_name": "例行檢定", "name": "Routine Checks",
 									"entries": [
 										"Routine checks reflect that some tasks and situations are so trivial it is not worth having a player roll a check. It would be illogical for the character to have a real chance of failing at the task, since failure should be rare enough to constitute a complication in that situation. Examples include things like a competent driver handling a car under ordinary conditions or a trained professional performing the routine tasks of a job.",
 										"Routine checks save time, because you do not need to ask players for a check for every single thing their characters do, but they also provide valuable guidelines for when you should ask the players for a check while running the game. They set a threshold for the Difficulty of certain actions. When coming up with Difficulty Classes for your adventure, keep the routine check rule in mind. If the DC is low enough that anyone can succeed as a routine check, then it may be too low, or the action may not be worth assigning a check.",
@@ -6298,7 +6298,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Secret Checks",
+									"translate_name": "祕密檢定", "name": "Secret Checks",
 									"entries": [
 										"Sometimes it’s a good idea to make checks secretly, so the players don’t necessarily know the result. This is usually the case for any sort of check where the characters don’t immediately know whether they’ve succeeded or failed. For example, Perception checks usually should be made secretly. If the check succeeds, the character notices something. If it fails, then the player doesn’t know whether it’s because the character failed to notice something or there wasn’t anything there to notice in the first place. The same is true for checks involving powers like Mind Reading or Precognition, and certain interaction checks, since the player doesn’t necessarily know the target’s initial attitude or exactly how much it has improved.",
 										"One easy way of making secret checks is to make a list of random d20 rolls in advance. When there’s a need for a secret check during the game, mark off one of the rolls from your list and use that for the check result."
@@ -6306,7 +6306,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Altering the Outcome of Die Rolls",
+									"translate_name": "置換擲骰檢定的結果", "name": "Altering the Outcome of Die Rolls",
 									"entries": [
 										"On occasion the outcome of a particular die roll may seriously impact the game. For example, the heroes are walking into a trap and none of them make the necessary check to notice the danger in time. Or a hero gets in a lucky shot and the villain rolls a 1 on his Toughness check, resulting in a quick defeat. What do you do?",
 										"In some cases, you can just go with the outcome the dice give you. If none of the heroes spot the trap, have it go off. Odds are the heroes only end up captured and will have the opportunity to escape and thwart the villain later in the adventure anyway. Even if the results of the die roll are unexpected, so long as they don’t spoil the fun of the adventure, feel free to go with them. Unexpected twists and turns are part of the fun of an RPG, not only for the players, but also for you when you run the game.",
@@ -6316,7 +6316,7 @@
 								},
 								{
 									"type": "inset",
-									"name": "“TELL ME HOW IT HAPPENS…”",
+									"translate_name": "告訴我這是如何發生的……", "name": "“TELL ME HOW IT HAPPENS…”",
 									"entries": [
 										"While the game rules provide general outcomes for character actions, in terms of relative success or failure, what the rules do not provide is the “flavor” of those actions, the descriptions and visuals of exactly how they happen. Those details are left up to you and your players to devise as part of your story.",
 										"Therefore a good habit to get into as a Gamemaster is asking your players to not only tell you the outcomes of their die rolls and tests, but to embellish and describe them in as much detail as they wish. For example, you inform a player: “You hit your foe hard enough to daze him.” Follow it up with: “What happens?”",
@@ -6327,7 +6327,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Faking it",
+									"translate_name": "編造規則", "name": "Faking it",
 									"entries": [
 										"Sometimes you’ll run into a situation the game rules don’t cover, or that you’re not sure how to handle. In these cases, feel free to just fake it. Come up with a check you feel suits the situation and go with it, so you can keep the game moving rather than getting bogged down in rules arguments. One of the great things about the system is pretty much everything can be resolved with a simple check. So when all else fails, just have a player make a check with the most appropriate trait (ability, skill, or power). If the check beats your estimation of the difficulty Class, it’s a success. Otherwise, it’s a failure.",
 										"You also can fake it when dealing with certain trivial situations in the game. If there’s an important piece of information you want the players to know, don’t bother seeing if they succeed at a Perception check. You can pretend to make the checks, then ignore the results and tell the players what their heroes find. Likewise, if a power level 10 hero is going to take out a PL 3 thug, you don’t have to make all the rolls. Just ask the player to describe how the hero defeats the hapless thug. It’s pretty much going to happen anyway, and there’s no reason why the hero shouldn’t look cool doing it."
@@ -6337,48 +6337,48 @@
 						},
 						{
 							"type": "entries",
-							"name": "The Essentials of the Game",
+							"translate_name": "遊戲的要件", "name": "The Essentials of the Game",
 							"entries": [
 								"The essence of the this game system is actually quite simple. The vast majority of the rules expand upon the core mechanics of the system, providing special-case rules or situational modifiers. So long as you understand the essentials of the game, you can handle just about any situation that comes up.",
 								"Those interested in playing in a looser and more casual style should focus on these fundamentals and not worry about the special-case rules or more detailed guidelines. If you come up with an unexpected situation, just choose an appropriate type of check, a Difficulty Class, and make a roll to see if the character succeeds or not! It’s that simple.",
 								{
 									"type": "entries",
-									"name": "Rank",
+									"translate_name": "等級", "name": "Rank",
 									"entries": [
 										"Every trait in this game —abilities, skills, powers, and so forth—has an associated rank, a value telling you how strong (or weak) that trait is. Ranks run from –5 (very weak) all the way up to 20 (incredibly strong) or more. You can rate virtually any trait by its rank. With the correspondence of rank and measure, you can rate virtually anything—distance, weight, time, and so forth—by rank."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Difficulty Class",
+									"translate_name": "難度層級", "name": "Difficulty Class",
 									"entries": [
 										"Every task—from making an attack to avoiding harm to figuring out a gadget—has a Difficulty Class or DC, a value that tells you how hard that task is to perform. DCs range from 0 (automatic, so easy it’s not worth rolling) to 40 (nearly impossible)."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Checks",
+									"translate_name": "檢定", "name": "Checks",
 									"entries": [
 										"Actions are all resolved through checks, a roll of a 20-sided die, plus a modifier. If the total of the check equals or exceeds the Difficulty Class, the action is a success. If it doesn’t, then it’s a failure."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Condition Modifiers",
+									"translate_name": "情境修正值", "name": "Condition Modifiers",
 									"entries": [
 										"Beneficial conditions apply a +2 bonus on the check (+5 for very highly beneficial), adverse conditions impose a –2 penalty (–5 for highly adverse). This is true whether you’re trying to use a skill, make an attack, use a power, or what have you."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Resistance Checks",
+									"translate_name": "抵抗檢定", "name": "Resistance Checks",
 									"entries": [
 										"Avoiding an effect is a resistance check, with a Difficulty Class of 10 + the effect’s modifier or rank. A successful resistance means you avoid the effect, a failed check means you suffer some (or all) of the effect."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "That’s it!",
+									"translate_name": "就是這樣！", "name": "That’s it!",
 									"entries": [
 										"That’s the core of the game: roll d20 + rank and modifiers vs. a Difficulty Class. If you understand that, you can do pretty much anything in the game. The rest is just detail. When in doubt, or whenever you want to speed the game along, just have a player make a check of the appropriate trait rank against a DC based on how difficult the task is and you can’t really go wrong."
 									]
@@ -6387,12 +6387,12 @@
 						},
 						{
 							"type": "entries",
-							"name": "Maintaining Game Balance",
+							"translate_name": "維持遊戲平衡", "name": "Maintaining Game Balance",
 							"entries": [
 								"Part of the Gamemaster’s job is to make sure the game is fair and balanced, so everyone can have a good time and all the heroes have an equal chance of doing somefun and exciting things in the course of the adventure. It can be tricky sometimes, but this game gives you tools for balancing the traits of the heroes against different challenges and handling problems that may come up.",
 								{
 									"type": "entries",
-									"name": "Rules Issues & House Rules",
+									"translate_name": "規則議題＆房規", "name": "Rules Issues & House Rules",
 									"entries": [
 										"While this game presents a fairly complete and balanced game system for superhero roleplaying, no one game system is perfectly suited to every gaming group’s needs and tastes, and this one is no exception. Sooner or later, issues may arise over particular rules and how they are applied in your game. In some cases, it may be an unexpected situation not covered by the existing rules, requiring you to extrapolate and come up with a ruling. In other situations, a particular rule may be problematic, making the game less fun because it doesn’t suit your personal tastes or style of play.",
 										"In all situations, remember: If a rule doesn’t suit your gaming group, then by all means, change it! A corollary of this is: The Gamemaster overrules the rules. That is, if you decide to make up a particular “house rule” about how something works in your game, or to interpret something from the Hero’s Handbook in a particular way, then that’s the way it works in your game. Players should be respectful of the Gamemaster’s job to set up and regulate the rules of the game for everyone’s enjoyment. Any disputes should be discussed with an eye toward finding a solution everyone finds satisfactory, rather than trying to stick to the exact letter of the “rules as written.” The spirit of any game is to have fun. As long as you focus on that, you can’t be far off."
@@ -6514,17 +6514,17 @@
 				},
 				{
 					"type": "section",
-					"name": "Creating Adventures",
+					"translate_name": "創造冒險故事", "name": "Creating Adventures",
 					"entries": [
 						"Creating a game is a fairly simple process. First, define the threat around which the adventure revolves. Then sketch out the overall plot, and describe the encounters the heroes are likely to have during the adventure. You’ll also want to make sure you have statistics and character sheets for important supporting characters and villains. Present the players with the start of the adventure and you’re off and running. Will things go exactly the way you planned? Probably not, but that’s part of the fun and challenge of being a Gamemaster!",
 						{
 							"type": "entries",
-							"name": "Before you Begin",
+							"translate_name": "在你開始之前", "name": "Before you Begin",
 							"entries": [
 								"There are a number of things to consider when you begin planning an adventure, including the plot threads from previous adventures, complications, and the themes and events of past adventures.",
 								{
 									"type": "entries",
-									"name": "Fabulous First Issues",
+									"translate_name": "絕妙的創刊號", "name": "Fabulous First Issues",
 									"entries": [
 										"If this is your first adventure, you need to consider a few things, including how to get the heroes together as a team. They may already be a team when the adventure begins—especially if your players are using established heroes—or circumstances in the adventure might bring them together.",
 										"The key things for a first adventure are to introduce the players to the setting and the major supporting characters. So the first adventure should be typical of the sort of adventures you plan to run. Give the players a feel for how things work in the world so they can get into character and into the setting. So, for example, if you’re running a four-color game where character death is a rarity, it’s probably not a good idea to make the first villain a murderous madman who kills with impunity. Likewise, if you’re aiming for a gritty paramilitary style game, you probably don’t want your first adventure to be filled with wacky humor and Silver Age puns.",
@@ -6533,7 +6533,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "When Last We Left Our Heroes...",
+									"translate_name": "在上次之後，我們的英雄們……", "name": "When Last We Left Our Heroes...",
 									"entries": [
 										"If the adventure is not the first in your series, then the first thing to do is look over your last few adventures. Are there any dangling plot threads left over from those stories, ones the players might be interested in following?",
 										"Sometimes these dangling threads are placed deliberately, to give the players things to wonder about and look forward to in future adventures. In other cases, they crop up because certain things just didn’t get resolved in a previous adventure, and players might be wondering when (and if) they will be. As a general rule, try and leave a few plot threads open at any given time. They don’t always have to be the same ones. You can wrap up certain plots while opening up new ones to keep the series moving and maintain player interest. In fact, it’s best if you occasionally tie up existing plot threads before starting new ones, providing some closure and keeping things from getting stale."
@@ -6541,7 +6541,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "A Change of Pace",
+									"translate_name": "變換故事節奏", "name": "A Change of Pace",
 									"entries": [
 										"When you start creating an adventure, look over your notes from your last few adventures (if you’ve had a last few). Take a look at any trends in the adventures’ threats, villains, and so forth and decide if you need a change of pace. Running the same sort of adventure time after time can make your game predictable and dull. Sometimes you need to shake things up a bit and give the players something new to sink their teeth into.",
 										"Have your last few adventures all been crime-fighting? How about sending the heroes to another planet or dimension for an adventure or two? After a few adventures of fighting off an alien invasion, give the heroes a vacation on a tropical island where there’s a sinister cult, or to a mountain ski lodge menaced by a yeti. Try an adventure where the heroes are in their secret identities the whole time, or without their powers. Maybe an accident causes the heroes minds to switch bodies, or gives them different powers. The possibilities are endless. Just make sure your “change of pace” adventures are really a change of pace and not just random wackiness (unless that’s what your game is all about)."
@@ -6551,7 +6551,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Defining the Threat",
+							"translate_name": "定義威脅", "name": "Defining the Threat",
 							"entries": [
 								"Adventures usually focus on a particular threat or challenge. It might be anything from an alien invasion to a supervillain looking to conquer the world to something as simple as the heroes cracking down on a crime wave in the city or attending a parade in their honor. When the threat presents itself, the heroes must figure out how to overcome it.",
 								"Supervillains’ schemes are the forces that drive a series, since the main job of superheroes is stopping the villains from getting their way. Without these evil plots, there would be very little for heroes to do, apart from deal with petty crimes and natural disasters. So choosing a scheme is typically one of the first steps in creating a successful game.",
@@ -6560,7 +6560,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Outlining the Plot",
+							"translate_name": "條列劇情大綱", "name": "Outlining the Plot",
 							"entries": [
 								"Once you have an idea for a threat in mind, give some thought to how it will manifest. Outline a series of events that will take place. This gives you the overall plot of your adventure, a sort of roadmap you can follow while you’re running the game to know what is likely to happen next.",
 								"For example, you decide the threat in your adventure involves the crew of an alien ship stranded on Earth. Unable to speak any Earth languages and mistrustful of humans, the aliens need to acquire some advanced technology to repair their ship. They begin to track down and steal the things they need, using their own advanced technology and alien powers to overcome security and the conventional authorities. After they’ve made four thefts, they make the repairs to their ship and leave for home, smugly satisfied that humanity was no match for them.",
@@ -6570,7 +6570,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Encounters",
+							"translate_name": "遭遇", "name": "Encounters",
 							"entries": [
 								"Your plot outline gives you a number of potential encounters the heroes may have during the adventure. An encounter is a single challenge, interaction, or activity, such as a fight with the villain, the investigation of a crime scene, a chase through the city, and so forth. Using your outline, you can get a good idea of the possible encounters during your adventure. In the previous example, the heroes may have encounters with the aliens at any of their four robbery sites. They also may investigate those sites and encounter the aliens at the crash site of their ship.",
 								"Outline the possible encounters and take note of the important details in each one. For example, if the heroes encounter the aliens during one of their robberies, you’ll want to know where the robbery takes place, what the place looks like, what time of day it is, and if anything in the environment could affect the outcome of the encounter. If the aliens steal radioactive isotopes from a nuclear power plant, a fight might risk damaging the reactor, causing a meltdown (a possible complication). That’s a different encounter than if the aliens steal parts from a high-tech robotics factory, where the fight could involve a robot assembly line (which offers the characters big, heavy things to chuck at each other).",
@@ -6582,7 +6582,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "The Grand Finale",
+							"translate_name": "大結局", "name": "The Grand Finale",
 							"entries": [
 								"Then there’s the big finish to the adventure, the grand finale. This is when the heroes confront the major threat of the adventure and have a real chance to deal with it. It may be a final showdown with the big villain, stopping the villain’s plans at the last moment, averting disaster, or confronting an alien invasion fleet on the edge of space. Whatever the case, it’s when events in the adventure come to a climax and it’s time for the heroes to step up and save the day.",
 								"The finale is the big payoff of the adventure, what the players have been working towards, so you need to make it as exciting and fun as possible. That means the finale should be challenging; encouraging the players to spend all those Victory points they’ve racked up during the adventure (remember, they can’t save them and spend them later!). On the other hand, the finale shouldn’t be so tough the heroes can’t win, or the adventure just ends in frustration. It’s best if things end in a decisive win for the heroes, although sometimes their victory may be a pyrrhic one."
@@ -6590,7 +6590,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "The Wrap-up",
+							"translate_name": "總結", "name": "The Wrap-up",
 							"entries": [
 								"The wrap-up or epilogue is where you finish up anything after the climax of the adventure. It’s where the heroes haul the villains off to jail, find out any remaining information, resolve the adventure’s mysteries, and so forth. There may still be some dangling threads left over at the end of the adventure (see When Last We Left Our Heroes..., previously) but generally things should be tied up and resolved by the end.",
 								"You can play out the wrap-up, allowing the players to describe what their heroes are doing, or just sum things up for them. For example, “After you capture Fallout and shut down the runaway reactor, the authorities move in to take the supervillain into custody and repair the damage to the nuclear plant. The city is safe once again.”"
@@ -6598,12 +6598,12 @@
 						},
 						{
 							"type": "entries",
-							"name": "Awards",
+							"translate_name": "獎勵", "name": "Awards",
 							"entries": [
 								"While adventure and action might be a hero’s sole reward, RPG players prefer something a bit more tangible they can use to “keep score.” Even if there are no winners or losers in an RPG per se, there are still ways to reward good game play and provide players with encouragement to keep on playing your game.",
 								{
 									"type": "entries",
-									"name": "Awarding Victory Points",
+									"translate_name": "獎勵勝利點", "name": "Awarding Victory Points",
 									"entries": [
 										"Part of the Gamemaster’s job is handing out Victory points to the players, which influences the flow of the adventure and helps the heroes accomplish important tasks later on. Essentially, you decide how easy or difficult a time the heroes have by how many Victory points you hand out, and by how many complications you make them face to earn those points. The key difference is the players decide when and how they spend their Victory points. So you’re not necessarily handing them an easy win, you’re just giving them resources they can use to potentially overcome challenges in the adventure.",
 										"As GM, you have discretionary power over Victory points. How often opportunities to earn Victory points crop up is up to you. Giving out more encourages players to spend them and makes for a more action-oriented and heroic game. Handing out fewer Victory points encourages players to save them until they really need them, most likely for the climactic encounter of the adventure.",
@@ -6612,7 +6612,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Awarding Character Points",
+									"translate_name": "獎勵角色點", "name": "Awarding Character Points",
 									"entries": [
 										"The Gamemaster awards heroes Character points over the course of a series. This represents the experience and confidence the heroes have gained, along with other factors contributing to an increase in their abilities, skills, and powers.",
 										"Generally, heroes each receive 1 Character point for a successfully completed adventure, lasting for one game session. If the heroes overcame especially powerful foes or difficult challenges, the GM can increase the Character point award to 2 points. For adventures lasting more than one game session, the heroes should get 1 additional Character point per session, plus a possible bonus of 1 or 2 Character points at the very end if they did particularly well.",
@@ -6622,7 +6622,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Increasing Power Level",
+									"translate_name": "提高超能力階級", "name": "Increasing Power Level",
 									"entries": [
 										"As heroes earn Character points through adventuring and spend them to improve their traits, they will eventually run into the limits imposed by the series power level (see Power Level). For a while, this can be a good thing, since the power level limits encourage players to diversify their heroes: acquiring new skills, advantages, and powers rather than simply pumping points into their existing traits to increase them to higher and higher ranks. However, sooner or later, you’re going to want to raise the series power level, giving heroes a bit more room for advancement and spending their earned Character points.",
 										"A good guideline is to follow the starting Character point totals when it comes to power level: When the heroes accumulate an additional 15 Character points from the start of the series or the last time the power level was raised, it’s probably time to consider raising the power level by one. So a power level 10 series starts out with 150-point heroes. When they have earned another 15 Character points (bringing their total up to 165), the GM should consider raising the series power level to 11, allowing the heroes to spend some of those points to increase traits currently at the maximum limit.",
@@ -6634,12 +6634,12 @@
 						},
 						{
 							"type": "entries",
-							"name": "Other Rewards",
+							"translate_name": "其他獎賞", "name": "Other Rewards",
 							"entries": [
 								"Although good deeds are their own reward, heroes do sometimes receive other rewards in addition to Character points. The Gamemaster should feel free to award any of the following to heroes according to the outcome of the adventure and the needs of the series.",
 								{
 									"type": "entries",
-									"name": "Wealth",
+									"translate_name": "財富", "name": "Wealth",
 									"entries": [
 										"There may be rewards for the capture of certain wanted super-criminals and grateful governments or corporations might choose to reward helpful heroes financially. Heroes often use these rewards to help fund their own efforts (paying for their equipment, headquarters, etc.) or else donate it to charity. Other heroes are more mercenary and may even require a paying client before they’ll use their powers to help anyone! Altruistic heroes tend to look down on such opportunists, but the mercenaries counter that they’re risking their lives, why shouldn’t they be compensated for it?",
 										"Sometimes the monetary rewards of heroism come in the form of ongoing support from a wealthy patron, trust fund, corporation, or government agency. They can all offer financial backing to a hero or team of heroes and provide them with the resources they need.",
@@ -6648,7 +6648,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Equipment",
+									"translate_name": "裝備", "name": "Equipment",
 									"entries": [
 										"Heroes who overcome a supervillain may be able to keep some of the villain’s equipment. The authorities may want to impound super-devices as evidence or to have them examined by “top men,” but they may allow heroes to keep them in some cases (particularly if the heroes don’t tell anyone about them…).",
 										"Generally any device a player intends to become a regular part of a hero’s abilities should be paid for using earned Character points. The GM may require the hero to have enough Character points set aside for the device or that all of the hero’s future earned Character points go toward “paying off” the device’s cost. One-time use of a captured device may be allowed by having the player spend a Victory point, similar to a power stunt or invention.",
@@ -6657,7 +6657,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Fame",
+									"translate_name": "名聲", "name": "Fame",
 									"entries": [
 										"Once you’ve saved the world a few times, people start to remember your name. Superheroes often become famous and Gamemasters can reward the heroes with increased fame and popularity. As the heroes become better known for their heroism and good deeds, the authorities become more cooperative, people start recognizing them everywhere, and fan mail starts arriving by the truckload.",
 										"Of course, fame has its drawbacks, which include persistent fans, greater public scrutiny, and things like constant offers for product endorsements and such. Famous heroes are more likely to be targeted by supervillains looking to make a name for themselves or novice heroes wanting to join an established team. While the heroes are most trusted by the authorities, they’re also more likely to be called upon in times of need.",
@@ -6666,7 +6666,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Honors",
+									"translate_name": "榮譽", "name": "Honors",
 									"entries": [
 										"In addition to fame and fortune, heroes may receive the gratitude of the people they help. They get awards from civic groups and organizations like the police and fire departments. The mayor gives them the key to the city or arranges for a parade in their honor (or both). The governor or President honors them on national television. Monuments may be erected in their honor and charitable institutions founded or dedicated in their names. A hero team’s trophy room can contain various plaques, medals, and other accolades right alongside captured criminal memorabilia.",
 										"An awards ceremony makes a good ending to an adventure or, perhaps, the beginning of one. After all, what villain can resist so public a target as a hated enemy receiving an award? And so you’re off creating your next adventure!"
@@ -6678,14 +6678,14 @@
 				},
 				{
 					"type": "section",
-					"name": "Creating a Series",
+					"translate_name": "創造劇集", "name": "Creating a Series",
 					"entries": [
-						"Run a few games and, before you know, you will have an ongoing series, just like a comic series created by you and your players! While you can simply create and run adventures, it is often helpful to have a map of roughly where your series is going, much like the outline of an adventure’s various encounters. This section looks at creating your own series and, in effect, your very own universe! The primary elements of your series to consider are its scale, setting, and style.",
+						"在你運行了幾場遊戲之後，儘管你可能沒有意識到，但你和你的玩家們就已經創造了一個正在進行，如同漫畫劇集一樣系列故事！儘管你可以簡單地編織並運行一個個冒險故事，但擁有一張規劃著故事大致走向的地圖通常能夠幫上很大的忙，就如同一場冒險中各種遭遇的大綱一樣，這能幫助你理解故事該怎麼發展。這個段洛將著眼於創造屬於你自己的故事劇集，以及實際上，屬於你自己的宇宙！關於你的劇集，最主要所需考慮的要素便是其規模、設定、以及風格。",
 						{
 							"type": "entries",
 							"translate_name": "規模", "name": "Scale",
 							"entries": [
-								"First, consider the scale of your series: will it focus primarily on adventures taking place in and around a single city, or will the heroes travel all around the region or the world? Will they deal more with local crime or global threats? Does the series even go beyond the boundaries of Earth, to distant solar systems, the far future, or parallel dimensions? The potential scale of a series tends to break down like this:",
+								"首先，思考一下故事劇集的規模：冒險是否主要集中發生在一個城市周遭、或者英雄們將在整個區域或全世界間遍歷奔波？他們將要面對的是當地罪犯、還是全球的威脅？劇集的舞台是否可能甚至跳脫地球的邊界，擴展到整個太陽系、遙遠未來、或甚至平行時空？故事劇集的可能規模通常會被按下列類別區分：",
 								{
 									"type": "entries",
 									"entries": [
@@ -6693,7 +6693,7 @@
 											"type": "entries",
 											"translate_name": "當地", "name": "Local",
 											"entries": [
-												"Limited to a large city like New York City or Seattle, or a particular region, like a state or small nation. Local heroes tend to focus on local issues and problems, leaving the “big picture” stuff to those better able to handle it. Some heroes particularly pride themselves on being locals; after all, sometimes focusing on the big problems makes it easy to ignore the small ones."
+												"局限於某個像是紐約或西雅圖這類的大城市、或是某個州或小國家等級的特定區域。這些當地英雄們傾向專注於當地議題和麻煩，並把「大局」事務留給那些更有能力處理的人們。某些英雄們會特別以自己當地人的身分為榮；畢竟有時候太過專注大局，反而更容易忽略那些小問題。"
 											]
 										},
 										{
