@@ -6714,20 +6714,20 @@
 											"type": "entries",
 											"name": "Universal",
 											"entries": [
-												"At this scale, Earth is just one small part of the vast universe, and the heroes regularly travel among the stars. This is the scale for cosmic heroes such as an interstellar police force, or for far-future teams that patrol a solar system and beyond, where it’s handling a natural disaster on one planet, quickly followed by an invasion of another world in a different star system. Some form of Space Travel (see Movement) is required at this scale."
+												"At this scale, Earth is just one small part of the vast universe, and the heroes regularly travel among the stars. This is the scale for cosmic heroes such as an interstellar police force, or for far-future teams that patrol a solar system and beyond, where it’s handling a natural disaster on one planet, quickly followed by an invasion of another world in a different star system. Some form of {@effect Movement|Space Travel} is required at this scale."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Multiversal",
 											"entries": [
-												"Earth? Which Earth? A multiversal series spans diverse universes and dimensions, from parallel worlds to mystic realms and realities almost defying description. This sort of game requires the Gamemaster to define the game world or multiverse, but a good setting can result in a very memorable series. Some form of Dimensional Travel (see Movement) is required at this scale.",
-												"The smaller the scale, the more detail you can put into your series. It is easier for players to get to know one city or region especially well than it is for a series that takes them to a new planet or dimension every adventure.",
-												"Larger scale series, on the other hand, tend to be grander. There is a majesty to the vastness of space or an infinity of other realities that’s hard to match. Similarly, the wider scale opens up larger potential threats. You can destroy entire worlds at these levels to demonstrate what the heroes are up against, whereas such a threat would wipe out an entire smaller scale setting."
+												"Earth? Which Earth? A multiversal series spans diverse universes and dimensions, from parallel worlds to mystic realms and realities almost defying description. This sort of game requires the Gamemaster to define the game world or multiverse, but a good setting can result in a very memorable series. Some form of {@effect Movement|Dimensional Travel} is required at this scale."
 											]
 										}
 									]
-								}
+								},
+								"The smaller the scale, the more detail you can put into your series. It is easier for players to get to know one city or region especially well than it is for a series that takes them to a new planet or dimension every adventure.",
+								"Larger scale series, on the other hand, tend to be grander. There is a majesty to the vastness of space or an infinity of other realities that’s hard to match. Similarly, the wider scale opens up larger potential threats. You can destroy entire worlds at these levels to demonstrate what the heroes are up against, whereas such a threat would wipe out an entire smaller scale setting."
 							]
 						},
 						{

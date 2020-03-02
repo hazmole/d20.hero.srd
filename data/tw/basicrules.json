@@ -1552,7 +1552,7 @@
 							"type": "entries",
 							"translate_name": "提高超能力階級", "name": "Increasing Power Level",
 							"entries": [
-								"隨著英雄們經歷一場場的冒險，獲得角色點並花費它們以強化自己的數據，他們最終必會撞上劇集超能力階級所帶來的限制（參見{@rule Power Level|basic|2|power level}章節以查閱細節）。在一段時間內，這可能是一個好現象，因為超能力階級的限制將會促使英雄們朝著多樣化發展，獲得其他新的技能、特長、和超能力，而非只是單純地將角色點通通灌到他們已經擁有的數據上，無止盡地提升它們的等級。然而，你遲早會需要提升超能力階級，給予英雄們更多強化的喘息空間，讓他們花費獲得的角色點。",
+								"隨著英雄們經歷一場場的冒險，獲得角色點並花費它們以強化自己的數據，他們最終必會撞上劇集超能力階級所帶來的限制（參見{@rule 超能力階級|basic|2|power level}章節以查閱細節）。在一段時間內，這可能是一個好現象，因為超能力階級的限制將會促使英雄們朝著多樣化發展，獲得其他新的技能、特長、和超能力，而非只是單純地將角色點通通灌到他們已經擁有的數據上，無止盡地提升它們的等級。然而，你遲早會需要提升超能力階級，給予英雄們更多強化的喘息空間，讓他們花費獲得的角色點。",
 								"提到超能力階級，起始角色點數總和會是一個很好的參考準則：當英雄們從劇集開始或從上次超能力階級提升之後到現在，已經累績了額外的15點角色點，那麼這時大概就是個讓超能力階級+1的好時機。因此舉例來說，一場超能力階級為10的遊戲，其英雄們將以150點的角色點開局。當他們在經歷了數場冒險後獲得了另外的15點角色點（這讓他們的角色點總和達到了165點），那麼GM就該考慮把超能力階級提升到11級，讓英雄們得以花費他們部分的角色點以強化那些已經達到最大上限的數據。",
 								"在你提升超能力階級之後，你也同時得重新計算英雄們面對的反派和其他挑戰的強度。由於NPC並不會以相同的方式獲得額外的角色點，也不受到與英雄們相同的超能力階級限制，你可以隨意的強化某些非玩家角色的遊戲數據，以跟上英雄們成長的腳步，確保這些反派角色對於英雄們來說仍能構成適當的挑戰。當然，你也可以放任其他角色們被甩落在後，這意味著英雄們已經超越了他們的一些老對手，且他們已經不再如從前那樣構成威脅。此外，隨著劇情發展，你也可以導入新的敵人和挑戰，以符合當下的劇集超能力階級。"
 							]
@@ -6524,7 +6524,7 @@
 								"There are a number of things to consider when you begin planning an adventure, including the plot threads from previous adventures, complications, and the themes and events of past adventures.",
 								{
 									"type": "entries",
-									"translate_name": "絕妙的創刊號", "name": "Fabulous First Issues",
+									"translate_name": "絕讚的創刊號", "name": "Fabulous First Issues",
 									"entries": [
 										"If this is your first adventure, you need to consider a few things, including how to get the heroes together as a team. They may already be a team when the adventure begins—especially if your players are using established heroes—or circumstances in the adventure might bring them together.",
 										"The key things for a first adventure are to introduce the players to the setting and the major supporting characters. So the first adventure should be typical of the sort of adventures you plan to run. Give the players a feel for how things work in the world so they can get into character and into the setting. So, for example, if you’re running a four-color game where character death is a rarity, it’s probably not a good idea to make the first villain a murderous madman who kills with impunity. Likewise, if you’re aiming for a gritty paramilitary style game, you probably don’t want your first adventure to be filled with wacky humor and Silver Age puns.",
@@ -6700,34 +6700,34 @@
 											"type": "entries",
 											"translate_name": "區域", "name": "Regional",
 											"entries": [
-												"The series primarily takes place in a large region or country, like the United States, Canada, or Europe. The heroes might be a national team, sponsored by the government, or a branch of an international one that already exists in your setting."
+												"故事劇集主要發生在一個大型區域或國家，比如說美國、加拿大、或歐洲。英雄們可能隸屬於一個由政府資助的國際團隊，或是一個存在於你故事設定中的國際分支機構。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "全球", "name": "Global",
 											"entries": [
-												"The heroes travel around the world, tackling global problems and big challenges. They are likely among the most powerful and influential heroes and have comparable resources, allowing them to get to distant places quickly to respond to emergencies. The heroes have to deal with global geopolitics and they are typically the first line of defense against serious threats."
+												"英雄們將在整個世界奔波，解決全球性問題和重大挑戰。他們很可能是最為強大且最具影響力的英雄們，且擁有相當可觀的資源，讓他們得以迅速前往遙遠的場所去應對緊急情況。這些英雄們必須應付全球性的地緣政治，且他們通常會是抵禦嚴重威脅的第一道防線。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "宇宙", "name": "Universal",
 											"entries": [
-												"At this scale, Earth is just one small part of the vast universe, and the heroes regularly travel among the stars. This is the scale for cosmic heroes such as an interstellar police force, or for far-future teams that patrol a solar system and beyond, where it’s handling a natural disaster on one planet, quickly followed by an invasion of another world in a different star system. Some form of Space Travel (see Movement) is required at this scale."
+												"在這個規模中，地球只不過是廣袤宇宙中的其中一小部分，而英雄們將經常遍行於群星之間。這個規模適合那些例如星際警衛隊的宇宙級英雄們、以及那能夠在太陽系內外巡邏的遙遠未來的英雄團隊，他們會在處理完某個星球上的天然災害後，很快地趕往應付來自另一個星系的侵略者。在這個規模，某種形式的{@effect Movement|宇宙傳旅}是必須的。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "多元宇宙", "name": "Multiversal",
 											"entries": [
-												"Earth? Which Earth? A multiversal series spans diverse universes and dimensions, from parallel worlds to mystic realms and realities almost defying description. This sort of game requires the Gamemaster to define the game world or multiverse, but a good setting can result in a very memorable series. Some form of Dimensional Travel (see Movement) is required at this scale.",
-												"The smaller the scale, the more detail you can put into your series. It is easier for players to get to know one city or region especially well than it is for a series that takes them to a new planet or dimension every adventure.",
-												"Larger scale series, on the other hand, tend to be grander. There is a majesty to the vastness of space or an infinity of other realities that’s hard to match. Similarly, the wider scale opens up larger potential threats. You can destroy entire worlds at these levels to demonstrate what the heroes are up against, whereas such a threat would wipe out an entire smaller scale setting."
+												"地球？哪個地球？在多元宇宙規模的故事劇集中，故事將擴展到無數不同的宇宙和維度，從平行世界、到神秘異境和幾乎無以名狀的場所。這種類型的遊戲需要遊戲主持人定義好整個遊戲世界或多元宇宙的設定，而優秀的設定將能夠產生出特別印象深刻的故事劇集。在這個規模，某種形式的{@effect Movement|維度穿梭}是必須的。"
 											]
 										}
 									]
-								}
+								},
+								"劇集的規模越小，你就能放進故事中的細節也就越多。比起每次冒險都讓英雄們趕往一個新的星球或維度，這麼做也讓玩家們能更加容易地去深刻認識某個特定的城市或區域。",
+								"相對的，劇集的規模越大，故事也就越宏大。無論是浩瀚宇宙還是無窮世界維度，都有著尋常故事難以比擬的威嚴壯闊感。同樣的，越廣闊的劇集規模也意味著更加龐大的潛在威脅。在這些級別中，你甚至可以毀滅一整個世界來展現英雄們即將面對的危險，這類威脅很有可能將其他較小規模的設定整個摧毀殆盡。"
 							]
 						},
 						{
