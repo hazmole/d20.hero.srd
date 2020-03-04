@@ -6680,7 +6680,7 @@
 					"type": "section",
 					"translate_name": "創造劇集", "name": "Creating a Series",
 					"entries": [
-						"在你運行了幾場遊戲之後，儘管你可能沒有意識到，但你和你的玩家們就已經創造了一個正在進行，如同漫畫劇集一樣系列故事！儘管你可以簡單地編織並運行一個個冒險故事，但擁有一張規劃著故事大致走向的地圖通常能夠幫上很大的忙，就如同一場冒險中各種遭遇的大綱一樣，這能幫助你理解故事該怎麼發展。這個段洛將著眼於創造屬於你自己的故事劇集，以及實際上，屬於你自己的宇宙！關於你的劇集，最主要所需考慮的要素便是其規模、設定、以及風格。",
+						"在你運行了幾場遊戲之後，儘管你可能沒有意識到，但你和你的玩家們就已經創造了一個正在進行，如同漫畫劇集一樣系列故事！儘管你可以簡單地編織並運行一個個冒險故事，但擁有一張規劃著故事大致走向的地圖通常能夠幫上很大的忙，就如同一場冒險中各種遭遇的大綱一樣，這能幫助你理解故事該怎麼發展。這個段洛將著眼於創造屬於你自己的故事劇集，以及實際上，屬於你自己的宇宙！關於你的劇集，最主要所需考慮的要素便是其規模、背景設定、以及風格。",
 						{
 							"type": "entries",
 							"translate_name": "規模", "name": "Scale",
@@ -6732,9 +6732,9 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "設定", "name": "Setting",
+							"translate_name": "背景設定", "name": "Setting",
 							"entries": [
-								"The setting is where and when the series takes place. Is it the modern-day, medieval times, the wild west, or the far future solar system? Each of the following settings has its positives and negatives, and each is suited to particular types of games.",
+								"這裡所謂的背景設定，是指故事劇集發生的時間與地點。它是發生在現代社會、中古世紀、狂野西部、還是遙遠的星系？下列每個故事設定都有著其各自的優缺點，且它們也各自適用於不同類型的遊戲。",
 								{
 									"type": "entries",
 									"entries": [
@@ -6742,7 +6742,7 @@
 											"type": "entries",
 											"translate_name": "現代", "name": "Modern",
 											"entries": [
-												"Most of the time, a series is set in a version of our modern world. This approach is the easiest one by far, since there isn’t as much you have to make up. You don’t have to explain to your players where New York City is, for example.",
+												"大多時候，劇集會設定在另一個版本的現代社會。這種設定是目前為止最為簡單的方法，因為你不需要花費太多心力去補充世界的細節。好比說，你並不需要向玩家們解釋紐約市在哪裡。",
 												"If your game is set in the modern-day world, you may want to choose a particular city or area as the heroes’ home base. Even a truly global team needs some place to call home, such as an orbiting satellite or the top floors of a skyscraper.",
 												"A fun option can be to use your home city (or one nearby) as the setting for your series. It offers a familiar locale along with the fun of having superheroes and villains duke it out around your local landmarks!",
 												"Many comics and series feature heroes that live in fictional cities, places that don’t exist in the real world but are often remarkably similar to various real world cities. You can do something similar in your own series, perhaps based on the place where you live.",
@@ -6821,7 +6821,7 @@
 											"items": [
 												"{@b 超能力階級}: 8–10",
 												"{@b 規模}: 當地",
-												"{@b 設定}: 現代",
+												"{@b 背景設定}: 現代",
 												"{@b 風格}: 灰階"
 											]
 										},
@@ -6837,7 +6837,7 @@
 											"items": [
 												"{@b 超能力階級}: 7–9",
 												"{@b 規模}: 區域",
-												"{@b 設定}: 歷史",
+												"{@b 背景設定}: 歷史",
 												"{@b 風格}: 明亮"
 											]
 										},
@@ -6853,7 +6853,7 @@
 											"items": [
 												"{@b 超能力階級}: 10–12",
 												"{@b 規模}: 全球",
-												"{@b 設定}: 現代",
+												"{@b 背景設定}: 現代",
 												"{@b 風格}: 灰階"
 											]
 										},
@@ -6869,7 +6869,7 @@
 											"items": [
 												"{@b 超能力階級}: 12–15",
 												"{@b 規模}: 多元宇宙",
-												"{@b 設定}: 多元宇宙",
+												"{@b 背景設定}: 多元宇宙",
 												"{@b 風格}: 灰階"
 											]
 										},
