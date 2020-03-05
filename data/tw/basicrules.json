@@ -6775,7 +6775,7 @@
 							"type": "entries",
 							"translate_name": "風格", "name": "Style",
 							"entries": [
-								"Just as comics themselves span the stylistic gamut from lighthearted adventure to intricately plotted, grim morality plays, so can a series vary in style. Once a style of play is established, it’s up to the GM to maintain it. That means creating adventures and encounters suited to that style and encouraging the players to get into the style’s mindset and run their characters accordingly. Styles run along a spectrum from light to dark:",
+								"就如同漫畫本身的風格可以從輕鬆愉快的冒險劇橫跨到錯綜複雜的嚴峻道德劇，故事劇集也是一樣。一旦遊戲的風格被確立下來，將會由GM去維持風格的一致性。這意味著他將需要創造符合該風格的冒險與遭遇，並鼓勵玩家們進入這類風格的思維模式，並做出相應的角色扮演。故事劇集的風格範圍從明亮到黑暗，各有不同：",
 								{
 									"type": "entries",
 									"entries": [
@@ -6783,8 +6783,8 @@
 											"type": "entries",
 											"translate_name": "明亮", "name": "Light",
 											"entries": [
-												"The light style is simple and straightforward. The heroes are the good guys and the villains are usually bad through and through (with a few misunderstood souls in need of help). Problem solving is a matter of either combat or clever thinking, and roleplaying is an opportunity for players to deliver moralistic speeches and clever catchphrases or exchange witty banter with the villains and each other.",
-												"A light style is one where reality is largely what you make of it. Light stories tend to be full of fantastic characters and ideas. Heroes might face an alien invasion from another dimension one adventure and explore a lost world full of dinosaurs and cavemen the next. Realism isn’t as important as telling a fun and exciting story. On the other hand, the lighter comics were often inconsistent and sometimes veered off into the extremely fantastic or even silly. GMs may want to rein-in some of the wilder elements of the light style in their games. Or they may not."
+												"明亮風格的故事單純而直白。英雄們是好人，而反派則是徹頭徹尾的壞蛋（儘管少數是需要幫助，被誤解的人）。解決問題的方式要嘛是透過戰鬥、要嘛是藉著聰明才智。而角色扮演的部分則是玩家們進行道德說教和機智名言、或與反派彼此交換詼諧嘲弄的絕佳機會。",
+												"明亮風格故事的現實性在很大程度上取決於你如何看待它。明亮輕鬆的故事往往充滿了奇妙的角色和想法。英雄們可能會在一場冒險中面對來自另一個維度的外星人入侵，而又在下一場冒險中探索恐龍橫行的失落世界。真實感並不如講述一個有趣而激動人心的故事那麼重要。反過來說，明亮風格的漫畫也經常會前後不一致，且有時會變得極端荒誕或甚至愚蠢。GM可能會希望在他們明亮風格的遊戲中遏止一些太過瘋狂的元素，也可能不會。"
 											]
 										},
 										{
