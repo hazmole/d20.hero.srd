@@ -6743,28 +6743,28 @@
 											"translate_name": "現代", "name": "Modern",
 											"entries": [
 												"大多時候，劇集會設定在另一個版本的現代社會。這種設定是目前為止最為簡單的方法，因為你不需要花費太多心力去補充世界的細節。好比說，你並不需要向玩家們解釋紐約市在哪裡。",
-												"If your game is set in the modern-day world, you may want to choose a particular city or area as the heroes’ home base. Even a truly global team needs some place to call home, such as an orbiting satellite or the top floors of a skyscraper.",
-												"A fun option can be to use your home city (or one nearby) as the setting for your series. It offers a familiar locale along with the fun of having superheroes and villains duke it out around your local landmarks!",
-												"Many comics and series feature heroes that live in fictional cities, places that don’t exist in the real world but are often remarkably similar to various real world cities. You can do something similar in your own series, perhaps based on the place where you live.",
-												"Of course, your modern setting is not necessarily the modern universe: with parallel Earths, yours could be like the real world, but with whatever changes you want."
+												"如果你的遊戲是設定在現代世界，那麼你可能會需要選擇一個特定的城市或區域做為英雄們的基地。即使是真正的世界級團隊也需要一個被稱為家的場所，比如說軌道衛星或是摩天大樓的頂層。",
+												"另外一個有趣的選擇，是使用你自己家鄉的城市（或附近的區域）做為你故事劇集的背景設定。這麼做能為整個故事提供一個你所熟悉的場所，而讓超級英雄和反派們在你所熟悉的當地地標附近一決雌雄，更能帶來莫大的樂趣！",
+												"許多漫畫和劇集系列所描繪的英雄們生活在虛構的城市中，儘管這些地方並非真實存在於現實世界，但它們經常與許多現實世界的城市驚人地相似。你可以在你自己的劇集系列中這麼做，或許以你所居住的區域為基底，創造出另一個虛構的地區。",
+												"當然，你的現代背景設定並不一定要完全就是這個現代宇宙：利用平行世界的設定，你可以讓它與現實世界相似，但修改任何你想改變的設定。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "歷史", "name": "Historical",
 											"entries": [
-												"The Golden Age of comics began in the 1930s and this game can easily be set any time in the past seventy-five years. Players can take the roles of “mystery men” and the first superheroes, fighting against gangsters and the forces of the Axis in World War II. They can be government agents or patriotic heroes during the Cold War with Russia, or counter-culture rebels during the 1960s.",
-												"But nothing says you can’t go farther back in history if you want. Comic books have told stories about heroes from nearly every time period. There’s World War I and the American Revolutionary War. The Wild West offers cowboy heroes, Native American shaman, and steam-tech weird science. Medieval heroes could face evil wizards, goblins, and monsters. You can go all the way back to the mythic ages of ancient Greece and Egypt with gods and heroes as potential characters, or even the chronicles of ancient Atlantis."
+												"黃金時代的漫畫起源於1930年代．且這個遊戲可以輕易地設定在過去七十五年內的任何時間點。玩家可以扮演「神秘客」和第一匹超級英雄們，打擊黑幫匪徒並對抗第二次世界大戰中的軸心國軍勢。他們也可以是與蘇聯冷戰時期的政府特務、愛國英雄、或是1960年代的反文化叛逆者。",
+												"然而，如果你想要的話，沒有人說你不能回到更久遠的過往歷史背景。許多漫畫中已經幾乎講述了來自各個時代的英雄故事。有第一次世界大戰，有美國獨立戰爭，狂野西部帶來了牛仔英雄、美國原住民的薩滿、以及蒸氣動力的怪異科學技術。中世紀的英雄們可能需要面對邪惡的巫師、哥布林、和各種怪物。你可以追溯到古希臘和埃及的神話時代，或甚至是古代亞特蘭提斯的編年史，以諸神或英雄做為可能的玩家角色選項。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "未來", "name": "Futuristic",
 											"entries": [
-												"More than a few comic books speculate about the future. There are science fiction comics aplenty, along with super-hero stories set at different points in Earth’s future.",
-												"A near future setting may be quite similar to the modern-day, with the addition of some new technology and the new problems that come with it. For example there may be flying cars, cybernetic and genetic modifications, and advances in computer technology along with increases in crime and urban decay. Heroes can stalk the streets of dark, towering cities trying to protect the innocent where a corrupt legal system has failed.",
-												"Some future comic stories are set following a terrible catastrophe that has all but destroyed civilization. In a setting like this the heroes may be the last survivors of ordinary humanity, or super-powered mutants, trained super-soldiers (perhaps intended as weapons in the Last War), or even cyborgs or aliens. Their adventures tend to revolve around protecting pockets of civilization from marauding mutants and keeping ambitious warlords from conquering the world or destroying innocent people.",
-												"Far future settings feature faster-than-light space travel, allowing heroes to visit (or come from) any of dozens or even hundreds of different worlds. A team made up of heroes from these different worlds could band together to protect the interstellar government from hostile alien invaders while also dealing with disasters, space pirates, and criminal cartels. Or a group can explore the unknown reaches of space on board a starship, encountering would-be conquerors, despots, raiders, and other villains along the way."
+												"也有不少漫畫推想描繪著關於未來的情景。科幻漫畫層出不窮，而這些超級英雄故事都設定在不同時間點的未來地球上。",
+												"近未來的背景設定可能會與現代社會有些相像，但伴隨著一些嶄新科技和隨之而來的新難題。舉例來說，在這個年代可能會有飛天車、神經機械學、基因改造、更加進步的電腦科技，以及逐步增加的犯罪和城市衰敗。當腐敗的法律體系已經失去作用，英雄們可能會潛伏在黑暗的街道、佇立在高聳的城市，嘗試保護那些無辜的民眾。",
+												"有些描繪未來的漫畫會將故事的時間點設定在一場幾乎摧毀了所有文明的大災難之後。在這類的背景設定中，英雄們可能會是普通人類中最後的倖存者、握有超能力的變種人、受過嚴格訓練的超級士兵（可能原本是培育為最終戰役的武器）、或甚至是生化改造人或外星人。他們的冒險往往圍繞著保護一小塊的文明區域不受四處劫掠的變種人匪徒侵害、或阻止野心勃勃的軍閥征服世界或毀滅無辜的人民。",
+												"遠未來的背景設定經常會以超光速宇宙傳旅做為特色，讓英雄們能夠造訪（或來自）數十或上百個不同世界。一個由來自不同世界的英雄們所組成的團隊可能會聯合起來保護星際政府不受敵隊的外星侵略者襲擊，並同時應付那些天然災害、太空海盜、以及犯罪集團。或者團隊們可能會一起搭乘太空船遊歷探索宇宙中的未知地帶，並可能在路上遭遇到征服者、暴君、掠奪者、和各種其他反派。"
 											]
 										}
 									]
