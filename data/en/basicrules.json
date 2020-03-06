@@ -6188,7 +6188,7 @@
 			"type": "section",
 			"name": "Gamemastering",
 			"entries": [
-				"One player—the Gamemaster or “GM”—takes responsibility for running a Mutants & Masterminds game. The Gamemaster creates the adventure, runs the players through it, takes on the roles of the various other characters the heroes encounter, and handles any questions about the rules as they arise. The Gamemaster also adjudicates the process of character creation, deciding what traits, modifiers, and so forth are appropriate for the particular game, along with the best way to express certain concepts in game terms. While Gamemastering is a big responsibility, it’s not as hard as it might seem, and providing a fun and entertaining game for your friends can be quite rewarding.",
+				"One player—the Gamemaster or “GM”—takes responsibility for running this game. The Gamemaster creates the adventure, runs the players through it, takes on the roles of the various other characters the heroes encounter, and handles any questions about the rules as they arise. The Gamemaster also adjudicates the process of character creation, deciding what traits, modifiers, and so forth are appropriate for the particular game, along with the best way to express certain concepts in game terms. While Gamemastering is a big responsibility, it’s not as hard as it might seem, and providing a fun and entertaining game for your friends can be quite rewarding.",
 				{
 					"type": "section",
 					"name": "Running the Game",
@@ -6799,12 +6799,12 @@
 											"type": "entries",
 											"name": "Grayscale",
 											"entries": [
-												"Finally, your game’s style may be somewhere in between the two extremes. You may go for a mostly light style with a slightly modern “edge” to it, a dark style that doesn’t get quite so grim but holds on to some light values, tempered with realism and an air of danger, or any other combo you can imagine. Comics have experimented with a lot of different styles over the years and you can draw upon any of them for your own series, or create your own unique style.",
-												"Whatever you choose, try to make the style of your series clear to the players so they know what to expect in advance and can create heroes suited to the game. A grim vigilante who kills opponents in cold blood may not be suited to a mostly light game. Likewise, a heroic “Boy Scout” may look ridiculous in a dark game of grim and gritty realism. If you feel a particular player’s concept isn’t suited for your game’s style, you’re better off telling the player in advance and asking for a different character than having trouble later on when it turns out the player isn’t enjoying the game."
+												"Finally, your game’s style may be somewhere in between the two extremes. You may go for a mostly light style with a slightly modern “edge” to it, a dark style that doesn’t get quite so grim but holds on to some light values, tempered with realism and an air of danger, or any other combo you can imagine. Comics have experimented with a lot of different styles over the years and you can draw upon any of them for your own series, or create your own unique style."
 											]
 										}
 									]
-								}
+								},
+								"Whatever you choose, try to make the style of your series clear to the players so they know what to expect in advance and can create heroes suited to the game. A grim vigilante who kills opponents in cold blood may not be suited to a mostly light game. Likewise, a heroic “Boy Scout” may look ridiculous in a dark game of grim and gritty realism. If you feel a particular player’s concept isn’t suited for your game’s style, you’re better off telling the player in advance and asking for a different character than having trouble later on when it turns out the player isn’t enjoying the game."
 							]
 						},
 						{

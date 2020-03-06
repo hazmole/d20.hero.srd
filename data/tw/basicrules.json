@@ -6188,7 +6188,7 @@
 			"type": "section",
 			"translate_name": "主持遊戲", "name": "Gamemastering",
 			"entries": [
-				"One player—the Gamemaster or “GM”—takes responsibility for running a Mutants & Masterminds game. The Gamemaster creates the adventure, runs the players through it, takes on the roles of the various other characters the heroes encounter, and handles any questions about the rules as they arise. The Gamemaster also adjudicates the process of character creation, deciding what traits, modifiers, and so forth are appropriate for the particular game, along with the best way to express certain concepts in game terms. While Gamemastering is a big responsibility, it’s not as hard as it might seem, and providing a fun and entertaining game for your friends can be quite rewarding.",
+				"其中一名玩家──遊戲主持人，或稱為「GM」──負責主持這個遊戲的運作。遊戲主持人將創造冒險故事，讓玩家們經歷其中，扮演英雄們所遭遇的各種其他角色，並處理任何關於規則的問題。遊戲主持人也負責審核角色創建的過程，決定各種數據、修飾符等等是否適合出現在特定的遊戲中，以及使用遊戲術語呈現出特定角色概念的最佳方式。儘管主持遊戲這件事的責任重大，但它並不像看上去那麼困難，此外，為你的朋友們帶來歡笑和有趣的遊戲，可以說是相當值得。",
 				{
 					"type": "section",
 					"translate_name": "運行遊戲", "name": "Running the Game",
@@ -6232,58 +6232,58 @@
 									],
 									"rows": [
 										[
-											"Very easy",
+											"非常容易",
 											"0",
-											"See something large in plain sight",
-											"None (automatic)"
+											"在顯眼處發現某個事物",
+											"無 (自動成功)"
 										],
 										[
-											"Easy",
+											"容易",
 											"5",
-											"Climb a knotted rope",
-											"–5 (Athletics)"
+											"攀爬一條有結攀繩",
+											"–5 (運動)"
 										],
 										[
-											"Average",
+											"平均",
 											"10",
-											"Hear a group walking 30 feet away",
-											"+0 (Awareness)"
+											"聽見一群30呎外走動中的團體",
+											"+0 (感知)"
 										],
 										[
-											"Tough",
+											"困難",
 											"15",
-											"Disarm an explosive",
-											"+5 (Technology)"
+											"解除一個爆裂物",
+											"+5 (科技)"
 										],
 										[
-											"Challenging",
+											"有挑戰性",
 											"20",
-											"Walk a tightrope",
-											"+10 (Acrobatics)"
+											"行走跨過繃緊的繩索",
+											"+10 (雜技)"
 										],
 										[
-											"Formidable",
+											"令人敬畏",
 											"25",
-											"Break into a secure computer system",
-											"+15 (Technology)"
+											"入侵一個安全性電腦系統",
+											"+15 (科技)"
 										],
 										[
-											"Heroic",
+											"英雄",
 											"30",
-											"Overcome a sophisticated security system",
-											"+20 (Technology)"
+											"攻克一個複雜的安全系統",
+											"+20 (科技)"
 										],
 										[
-											"Super-Heroic",
+											"超級英雄",
 											"35",
-											"Bluff your way past wary and alert guards",
-											"+25 (Deception)"
+											"唬弄騙過謹慎且警戒的守衛",
+											"+25 (欺瞞)"
 										],
 										[
-											"Nearly Impossible",
+											"幾乎不可能",
 											"40",
-											"Open an impossibly complex lock in 1 round",
-											"+30 (Technology)"
+											"在 1輪的時間內打開一道複雜程度超乎想像的鎖",
+											"+30 (科技)"
 										]
 									]
 								},
@@ -6524,7 +6524,7 @@
 								"There are a number of things to consider when you begin planning an adventure, including the plot threads from previous adventures, complications, and the themes and events of past adventures.",
 								{
 									"type": "entries",
-									"translate_name": "絕讚的創刊號", "name": "Fabulous First Issues",
+									"translate_name": "絕讚創刊號", "name": "Fabulous First Issues",
 									"entries": [
 										"If this is your first adventure, you need to consider a few things, including how to get the heroes together as a team. They may already be a team when the adventure begins—especially if your players are using established heroes—or circumstances in the adventure might bring them together.",
 										"The key things for a first adventure are to introduce the players to the setting and the major supporting characters. So the first adventure should be typical of the sort of adventures you plan to run. Give the players a feel for how things work in the world so they can get into character and into the setting. So, for example, if you’re running a four-color game where character death is a rarity, it’s probably not a good idea to make the first villain a murderous madman who kills with impunity. Likewise, if you’re aiming for a gritty paramilitary style game, you probably don’t want your first adventure to be filled with wacky humor and Silver Age puns.",
