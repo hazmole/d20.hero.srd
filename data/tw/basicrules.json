@@ -101,7 +101,7 @@
 				"headers": [
 					{ "_translate_name": "運行遊戲", "name": "Running the Game" },
 					{ "_translate_name": "創造冒險故事", "name": "Creating Adventures" },
-					{ "_translate_name": "創造劇集", "name": "Creating a Series" },
+					{ "translate_name": "創造劇集", "name": "Creating a Series" },
 					{ "translate_name": "劇集框架", "name": "Series Frameworks" }
 				]
 			}
@@ -6791,20 +6791,20 @@
 											"type": "entries",
 											"translate_name": "黑暗", "name": "Dark",
 											"entries": [
-												"The dark style presents opportunities for greater depth and realism. The dividing line between heroes and villains is blurred, and may be practically nonexistent. The players have greater responsibility for deciding their characters’ actions and may have a greater impact on the world. Heroes are often faced with intense moral dilemmas and conflicts, such as supporting a corrupt government that provides order and stability against the rebels who would bring it down, or going outside the law to deal with vile criminals the justice system can’t reach.",
-												"The dark style allows players considerable freedom, since the heroes could, and often do, use any means available to accomplish their goals. On the other hand, it’s often difficult to distinguish the heroes from the villains in this play style, since both use similar cynical or even bloodthirsty methods. The authorities are less likely to trust dark heroes, unless they happen to be working as a “black ops” or enforcement arm of a government agency. Even then there’s considerable distrust of anyone in a costume or displaying powers, since bystanders often take the brunt of conflict between the heroes and their opponents."
+												"黑暗風格的故事提供了呈現塑造深度和真實感的機會。英雄和反派之間的界線相當模糊，或甚至可能根本就沒有區別。玩家在決定角色一舉一動時將背起更大的責任，且這些行為可能會對遊戲世界帶來更大的影響。英雄們經常會需要面對強烈的道德困境和衝突，像是協助那儘管腐敗但仍能帶來秩序和穩定的政府並對抗那些想要推翻政府的反叛軍、或是用法律以外的手段去對付那些司法體系無法觸及的卑鄙罪犯。",
+												"黑暗風格的故事賦予了玩家相當大的自由，因為英雄們將能夠，且經常會使用任何可能的手段來實現他們的目標。然而另一方面，在這種遊戲風格中，通常也很難區別英雄與反派：他們都會運用同樣偏激或甚至嗜血的手段採取行動。當權者比較不太會信任這些黑暗英雄，除非他們剛好擔當著「黑色行動」或政府機關的執法部門成員。即使如此，由於旁觀群眾經常會在英雄們與他們的對手之間的衝突首當其衝，因此人們對於這些穿著英雄服或展現異能的傢伙們仍抱有相當程度的不信任。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "灰階", "name": "Grayscale",
 											"entries": [
-												"Finally, your game’s style may be somewhere in between the two extremes. You may go for a mostly light style with a slightly modern “edge” to it, a dark style that doesn’t get quite so grim but holds on to some light values, tempered with realism and an air of danger, or any other combo you can imagine. Comics have experimented with a lot of different styles over the years and you can draw upon any of them for your own series, or create your own unique style.",
-												"Whatever you choose, try to make the style of your series clear to the players so they know what to expect in advance and can create heroes suited to the game. A grim vigilante who kills opponents in cold blood may not be suited to a mostly light game. Likewise, a heroic “Boy Scout” may look ridiculous in a dark game of grim and gritty realism. If you feel a particular player’s concept isn’t suited for your game’s style, you’re better off telling the player in advance and asking for a different character than having trouble later on when it turns out the player isn’t enjoying the game."
+												"最後，你的遊戲風格可能會落在這兩個極端之間。你可能會選擇帶有少許現代「稜角」的明亮風格、或是一種沒有那麼冷酷嚴峻的黑暗風格，保留了部分明亮色彩，並以現實感和危險氛圍加以調和。你可以選擇呈現出任何你想得到的風格組合！多年來，英雄漫畫已經嘗試了各種不同的故事風格，你可以從中選擇任何一種風格將之應用到你自己的劇集中，或是創造出屬於你自己的獨特風格。"
 											]
 										}
 									]
-								}
+								},
+								"無論你選擇了什麼，記得都要嘗試讓玩家清楚明白你劇集系列的風格，好讓他們能事先有所預期，並創造出符合該遊戲的英雄角色。比如說，一個會冷血殺死對手的殘酷治安維護者可能就不適合大部分明亮風格的遊戲。同樣的，一名英勇的「童子軍」在強調殘酷和寫實的黑暗風格遊戲中也會顯得特別荒謬可笑。如果你感覺某個玩家的角色概念並不符合你的遊戲風格，那麼你最好提前告訴那名玩家，並要求他更換一名不同的角色，而不是等到之後發現玩家無法享受遊戲時才處理這個問題。"
 							]
 						},
 						{
