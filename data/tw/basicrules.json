@@ -101,7 +101,7 @@
 				"headers": [
 					{ "_translate_name": "運行遊戲", "name": "Running the Game" },
 					{ "_translate_name": "創造冒險故事", "name": "Creating Adventures" },
-					{ "translate_name": "創造劇集", "name": "Creating a Series" },
+					{ "translate_name": "創造劇集系列", "name": "Creating a Series" },
 					{ "translate_name": "劇集框架", "name": "Series Frameworks" }
 				]
 			}
@@ -6678,7 +6678,7 @@
 				},
 				{
 					"type": "section",
-					"translate_name": "創造劇集", "name": "Creating a Series",
+					"translate_name": "創造劇集系列", "name": "Creating a Series",
 					"entries": [
 						"在你運行了幾場遊戲之後，儘管你可能沒有意識到，但你和你的玩家們就已經創造了一個正在進行，如同漫畫劇集一樣系列故事！儘管你可以簡單地編織並運行一個個冒險故事，但擁有一張規劃著故事大致走向的地圖通常能夠幫上很大的忙，就如同一場冒險中各種遭遇的大綱一樣，這能幫助你理解故事該怎麼發展。這個段洛將著眼於創造屬於你自己的故事劇集，以及實際上，屬於你自己的宇宙！關於你的劇集，最主要所需考慮的要素便是其規模、背景設定、以及風格。",
 						{
