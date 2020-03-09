@@ -6337,50 +6337,50 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "遊戲的要件", "name": "The Essentials of the Game",
+							"translate_name": "遊戲的本質", "name": "The Essentials of the Game",
 							"entries": [
-								"The essence of the this game system is actually quite simple. The vast majority of the rules expand upon the core mechanics of the system, providing special-case rules or situational modifiers. So long as you understand the essentials of the game, you can handle just about any situation that comes up.",
-								"Those interested in playing in a looser and more casual style should focus on these fundamentals and not worry about the special-case rules or more detailed guidelines. If you come up with an unexpected situation, just choose an appropriate type of check, a Difficulty Class, and make a roll to see if the character succeeds or not! It’s that simple.",
+								"本遊戲系統的要件實際上相當單純。絕大多數的規則都是延伸自系統的核心機制，並定義了其它特殊情況下的規則或情境修正值。只要你理解了這個遊戲的本質，你就能夠處理遊戲中發生的所有狀況。",
+								"熱愛較為寬鬆隨意遊玩方式的玩家們需要更專注在這些基本原則上，而不用擔心那些特例規則或更細節的準則。若你遇到了一個超乎預想的情境，那麼你只需要決定一個適當的檢定類型和一個難度層級，並讓他們進行一次擲骰，接著看看角色們是成功還是失敗！就是這麼簡單。",
 								{
 									"type": "entries",
 									"translate_name": "等級", "name": "Rank",
 									"entries": [
-										"Every trait in this game —abilities, skills, powers, and so forth—has an associated rank, a value telling you how strong (or weak) that trait is. Ranks run from –5 (very weak) all the way up to 20 (incredibly strong) or more. You can rate virtually any trait by its rank. With the correspondence of rank and measure, you can rate virtually anything—distance, weight, time, and so forth—by rank."
+										"本遊戲中的所有數據──屬性、技能、超能力等等──都有著相應的等級，一個用以告訴你該數據有多強（或多弱）的數值。等級的範圍從-5（非常弱小）一路到最高20（不可思議的強大）或更高。你可以使用等級來為幾乎所有數據打分。而藉著等級與度量標準的對應關係，你甚至可以使用等級來評價幾乎所有一切──包括距離、重量、時間等等。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "難度層級", "name": "Difficulty Class",
 									"entries": [
-										"Every task—from making an attack to avoiding harm to figuring out a gadget—has a Difficulty Class or DC, a value that tells you how hard that task is to perform. DCs range from 0 (automatic, so easy it’s not worth rolling) to 40 (nearly impossible)."
+										"所有行動──從發動攻擊到躲避傷害或製造器具──都有著相應的難度層級，或稱為 DC，一個用以告訴你這件事有多難執行的數值。DC的範圍從 0（自動成功，這簡單到你甚至不用擲骰）到40（幾乎不可能）。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "檢定", "name": "Checks",
 									"entries": [
-										"Actions are all resolved through checks, a roll of a 20-sided die, plus a modifier. If the total of the check equals or exceeds the Difficulty Class, the action is a success. If it doesn’t, then it’s a failure."
+										"所有的行動都會透過檢定來處理：擲一顆20面骰，並加上相應的修正值。若該檢定的總合等於或超過難度層級，則該行動成功。反之則為失敗。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "情境修正值", "name": "Condition Modifiers",
 									"entries": [
-										"Beneficial conditions apply a +2 bonus on the check (+5 for very highly beneficial), adverse conditions impose a –2 penalty (–5 for highly adverse). This is true whether you’re trying to use a skill, make an attack, use a power, or what have you."
+										"有利的情境將會為該檢定帶來+2的加值（若高度有利則為+5加值），而不利的情境則會強加-2的罰值（高度不利則為-5罰值）。無論你是嘗試使用技能、進行攻擊、使用超能力等等，都適用這個原則。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "抵抗檢定", "name": "Resistance Checks",
 									"entries": [
-										"Avoiding an effect is a resistance check, with a Difficulty Class of 10 + the effect’s modifier or rank. A successful resistance means you avoid the effect, a failed check means you suffer some (or all) of the effect."
+										"避免受到效果的影響將會需要一個抵抗檢定，其難度層級為10 + 該效果的修正值或等級。一個成功的抵抗檢定將使你避免受到該效果的影響，然而失敗的檢定則代表著你會承受該效果的部分（或完整）影響。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "就是這樣！", "name": "That’s it!",
 									"entries": [
-										"That’s the core of the game: roll d20 + rank and modifiers vs. a Difficulty Class. If you understand that, you can do pretty much anything in the game. The rest is just detail. When in doubt, or whenever you want to speed the game along, just have a player make a check of the appropriate trait rank against a DC based on how difficult the task is and you can’t really go wrong."
+										"這就是整個遊戲的核心：骰d20 + 等級和修正值 vs. 難度層級。只要你明白這一點，你就能在遊戲中作到幾乎任何事情，剩下的就只是細節而已。當你有疑問時，或當任何時候你想要加速遊戲的步調，你只需要請玩家們使用適當的數據進行一個檢定，並根據該行動的難度決定其DC，就不會出什麼大問題了。"
 									]
 								}
 							]
