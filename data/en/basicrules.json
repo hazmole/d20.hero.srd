@@ -6204,7 +6204,7 @@
 									"name": "The 55% Rule",
 									"entries": [
 										"A good guideline to keep in mind is the chance of an average character (with a modifier of 0) succeeding at an average task (DC 10) is just over 50% (55% to be exact). So any time you have to have an average character do something, or want to set a difficulty you feel is average for a particular character, aim for around that chance of success. If you want to know what bonus is required to have a 55% chance of succeeding at a particular task, just subtract 10 from the DC. So a DC 25 action (a formidable task) requires a bonus of +15 in order to have a 55% chance of success (on a roll of 10 or higher).",
-										"Keep in mind that this chance of success on a task allows a character to automatically succeed at that task as a routine check (see Routine Checks, following, and in The Basics). This is intentional; the average character only really fails at an average task when hurried or under stress. A 55% chance also allows a player to spend a Victory point to automatically succeed, since a Victory point ensures a die roll of at least 11. (See Victory points.)"
+										"Keep in mind that this chance of success on a task allows a character to automatically succeed at that task as a routine check (see {@b Routine Checks}, following, and in {@rule The Basics|basic|2|Routine Checks}). This is intentional; the average character only really fails at an average task when hurried or under stress. A 55% chance also allows a player to spend a Victory point to automatically succeed, since a Victory point ensures a die roll of at least 11. (See {@rule Victory points|basic|2|Victory points}.)"
 									]
 								},
 								{
@@ -6212,7 +6212,7 @@
 									"name": "Circumstance Modifiers",
 									"entries": [
 										"Circumstance modifiers (see their description in The Basics) are one of the GM’s best tools. Rather than having to memorize a lengthy list of special-case modifiers, just keep this guideline in mind: if the situation is in the character’s favor, that’s good for a +2 bonus on a check. If it’s against the character, that’s a –2 penalty. If things are particularly good or bad, up the circumstance modifier to +/–5.",
-										"It’s that simple. Note that, practically speaking, a major circumstance modifier effectively shifts a check up or down a degree of difficulty, as shown on the Difficulty Class Examples table. Likewise, a major modifier effectively changes the degree of a graded check by one (see Graded Checks)."
+										"It’s that simple. Note that, practically speaking, a major circumstance modifier effectively shifts a check up or down a degree of difficulty, as shown on the Difficulty Class Examples table. Likewise, a major modifier effectively changes the degree of a graded check by one (see {@rule Graded Checks|basic|2|Graded Checks})."
 									]
 								},
 								{

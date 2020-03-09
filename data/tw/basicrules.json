@@ -6193,26 +6193,26 @@
 					"type": "section",
 					"translate_name": "運行遊戲", "name": "Running the Game",
 					"entries": [
-						"While the players are responsible for keeping track of their characters and deciding on their actions, the Gamemaster is responsible for everything else that happens in the game. A good GM tries to make sure the game runs as smoothly as possible and is enjoyable for all of the players. Many components go into creating a good game. The following sections give you the basics, but experience is the best tool to help you become a better Gamemaster.",
+						"當玩家們負責記錄他們角色的數據並決定其行動，遊戲主持人則負責處理所有其他在遊戲中發生的事情。一位好的GM會努力確保遊戲能盡可能地順暢運行，並讓所有玩家都能享受其中。一場好遊戲的營造有著許多要素。以下的段落將提供一些基礎知識，但經驗的累積才是幫助你成為優秀遊戲主持人的最佳利器。",
 						{
 							"type": "entries",
 							"translate_name": "安排難度", "name": "Assigning Difficulties",
 							"entries": [
-								"This game can be broken down into a series of tasks the heroes must perform, from piecing together clues about a villain’s latest scheme to blasting said villain through a wall and disarming his doomsday device in the nick of time. It’s up to the Gamemaster to assign the difficulty of these and numerous other tasks in the game and to determine the outcome of the heroes’ efforts. This section offers some general guidelines on assigning the difficulty of a task.",
+								"這個遊戲的過程可以被分解成一系列英雄們必須執行的行動任務，從拼湊關於反派們陰謀詭計的線索，到破牆闖入並在最後關頭解除反派的末日毀滅裝置。遊戲主持人將負責決定這些行動和遊戲中各種其他差事的難度，並決定英雄們努力奮鬥後的結果。這個段落將提供一些通用指南，用以幫助你決定各種行動的難度層級。",
 								{
 									"type": "entries",
 									"translate_name": "55%原則", "name": "The 55% Rule",
 									"entries": [
-										"A good guideline to keep in mind is the chance of an average character (with a modifier of 0) succeeding at an average task (DC 10) is just over 50% (55% to be exact). So any time you have to have an average character do something, or want to set a difficulty you feel is average for a particular character, aim for around that chance of success. If you want to know what bonus is required to have a 55% chance of succeeding at a particular task, just subtract 10 from the DC. So a DC 25 action (a formidable task) requires a bonus of +15 in order to have a 55% chance of success (on a roll of 10 or higher).",
-										"Keep in mind that this chance of success on a task allows a character to automatically succeed at that task as a routine check (see Routine Checks, following, and in The Basics). This is intentional; the average character only really fails at an average task when hurried or under stress. A 55% chance also allows a player to spend a Victory point to automatically succeed, since a Victory point ensures a die roll of at least 11. (See Victory points.)"
+										"其中一個值得謹記在心的好原則是這樣的：一名普通的角色（修正值為+0）在執行普通水準的差事（DC 10）時，其成功的機率剛好會稍微超過50%（準確來說是55%）。因此，任何時候當你必須要讓某個平均水準的角色執行某個行動，或你要決定任務的難度，而你感覺它對特定角色而言不過是普通水準，則你可以以該成功機率為目標。若你想要知道對某個特定的檢定而言，需要多少的加值才能夠達到55%的成功率，將DC減去10，就能得到你要的數值。因此一個DC 25的差事（令人敬畏的行動）需要有+15的加值，才能夠達到55%的成功率（骰出10或以上才能成功）。",
+										"記住，這個成功的機率讓角色得以藉由例行檢定的方式讓該行動自動成功（參見{@rule 基本規則|basic|2|Routine Checks}與後述關於例行檢定的說明）。這個設計是有意為之的；一名普通的角色只有在倉促或壓力情境下，才有可能會在普通水準的行動中失敗。55%的成功機率也同樣讓玩家能藉由花費一點勝利點來自動成功：因為勝利點能夠確保擲骰結果至少為11（參見{@rule 勝利點|basic|2|Victory points}）。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "情境修正值", "name": "Circumstance Modifiers",
 									"entries": [
-										"Circumstance modifiers (see their description in The Basics) are one of the GM’s best tools. Rather than having to memorize a lengthy list of special-case modifiers, just keep this guideline in mind: if the situation is in the character’s favor, that’s good for a +2 bonus on a check. If it’s against the character, that’s a –2 penalty. If things are particularly good or bad, up the circumstance modifier to +/–5.",
-										"It’s that simple. Note that, practically speaking, a major circumstance modifier effectively shifts a check up or down a degree of difficulty, as shown on the Difficulty Class Examples table. Likewise, a major modifier effectively changes the degree of a graded check by one (see Graded Checks)."
+										"情境修正值（參見{@rule 基本規則|basic|2|circumstance modifiers}中關於它們的說明）是GM運行遊戲時最好的工具之一。你不需要死背硬記一長串在各種特殊情況下的修正值列表，只需要謹記一個簡單的原則：若情況對角色有利，那麼它們就能在檢定中獲得+2加值的好處。若情況對角色不利，那麼就會有-2的罰值。若情況特別好或特別壞，則將情境修正值提升至+/-5。",
+										"就是這麼簡單。要記住，一個重大的情境修正值實際上等同於將該檢定的難度層級向上或向下搬動了整整一個程度，如{@b 難度層級範例表}所示。同樣的，一個重大的情境修正值也會使程度檢定的結果產生一個程度的變動（參見{@rule 程度檢定|basic|2|Graded Checks}）。"
 									]
 								},
 								{
