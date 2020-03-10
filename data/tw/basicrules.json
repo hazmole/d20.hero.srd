@@ -6300,15 +6300,15 @@
 									"type": "entries",
 									"translate_name": "祕密檢定", "name": "Secret Checks",
 									"entries": [
-										"Sometimes it’s a good idea to make checks secretly, so the players don’t necessarily know the result. This is usually the case for any sort of check where the characters don’t immediately know whether they’ve succeeded or failed. For example, Perception checks usually should be made secretly. If the check succeeds, the character notices something. If it fails, then the player doesn’t know whether it’s because the character failed to notice something or there wasn’t anything there to notice in the first place. The same is true for checks involving powers like Mind Reading or Precognition, and certain interaction checks, since the player doesn’t necessarily know the target’s initial attitude or exactly how much it has improved.",
-										"One easy way of making secret checks is to make a list of random d20 rolls in advance. When there’s a need for a secret check during the game, mark off one of the rolls from your list and use that for the check result."
+										"有時候秘密地進行暗骰檢定會是個不錯的主意，這麼一來玩家們就不一定能知道擲骰結果如何。這個情況通常會發生在任何角色們不會立即知道他們成功與否的檢定上。舉例來說，{@skill 感知}檢定通常都該以秘密檢定的方式進行。若檢定成功，則角色們將會注意到某些事情。而若檢定失敗，則玩家們也不會知道他們是因為檢定失敗而沒能發現什麼東西，還是這個地方根本就沒有什麼值得注意的事物。這個原則也同樣適用於涉及像是{@effect 心靈讀取}或{@effect Sense|未來視}之類的超能力的檢定，以及某些交涉類檢定，因為玩家們並不一定會知道目標一開始的態度如何，以及他們的嘗試造成了多大的影響。",
+										"其中一個讓你能簡單進行秘密檢定的方式，是事前準備一張隨機列出d20擲骰結果的清單。每當你在遊戲中需要進行秘密檢定，將清單最上面的擲骰結果劃掉，並將其當作該檢定的擲骰結果。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "置換擲骰檢定的結果", "name": "Altering the Outcome of Die Rolls",
 									"entries": [
-										"On occasion the outcome of a particular die roll may seriously impact the game. For example, the heroes are walking into a trap and none of them make the necessary check to notice the danger in time. Or a hero gets in a lucky shot and the villain rolls a 1 on his Toughness check, resulting in a quick defeat. What do you do?",
+										"有時候，某些特定擲骰檢定的結果會對遊戲造成重大的影響。舉例來說，當英雄們步入陷阱之中，而沒有任何人即時注意到危險。或者當英雄們幸運地命中反派，而反派在他的堅實抵抗檢定中骰出了1，因而瞬間被擊敗。在這種時候，你該怎麼辦呢？",
 										"In some cases, you can just go with the outcome the dice give you. If none of the heroes spot the trap, have it go off. Odds are the heroes only end up captured and will have the opportunity to escape and thwart the villain later in the adventure anyway. Even if the results of the die roll are unexpected, so long as they don’t spoil the fun of the adventure, feel free to go with them. Unexpected twists and turns are part of the fun of an RPG, not only for the players, but also for you when you run the game.",
 										"On the other hand, some die rolls result in anticlimactic or just plain dumb outcomes. In these cases, feel free to change things to make the outcome more interesting or more in line with how the game should go. In the above example, you might decide the villain is only dazed or stunned rather than being knocked out, momentarily giving the heroes the upper hand, but not ending the climactic encounter prematurely.",
 										"Isn’t this cheating? Well, yes, in a manner of speaking it is, but it’s “cheating” in order to make the game more interesting and fun for everyone involved. So long as you don’t alter the outcome of die rolls unfairly or maliciously and you do it to help ensure the game is fun, interesting, and challenging, you shouldn’t have a problem. Besides, the complication system of the game provides you with the perfect excuse to “cheat” to help out the heroes’ adversaries from time to time, and to compensate the players in the process by awarding them Victory points, which they, in turn, can use to “cheat” the fickle die from time to time and ensure their heroes succeed."
@@ -6400,7 +6400,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Unbalanced Heroes",
+									"translate_name": "破壞平衡的英雄", "name": "Unbalanced Heroes",
 									"entries": [
 										"The power level guidelines built into the rules help ensure characters of the same power level are at least in the same ballpark in terms of overall effectiveness. Still, there may be times when a particular combination of abilities and effects makes a character too powerful compared to the other heroes or to the villains in your series.",
 										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone as-is and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
@@ -6408,7 +6408,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Saying No to Your Players",
+									"translate_name": "對你的玩家說「不」", "name": "Saying No to Your Players",
 									"entries": [
 										"A big part of maintaining game balance is the ability to say “no” to your players, setting guidelines for characters and sticking to them. Some of those guidelines are already in place: the limits imposed by power level. They help ensure players can’t just put all their Character points into a single overwhelming combat trait (like a +50 attack bonus, or something similar).",
 										"Even with those limits in place, however, there may be times when a player comes up with a character concept or trait that just isn’t suited for the game and can be unbalancing. For example, it can be hard to run mysteries around a hero with a lot of ranks of Mind Reading. If you plan to have mystery stories, you may want to consider limiting Mind Reading, Postcognition, and similar effects, or finding innovative ways for villains to get around them. If you’re running a four-color game where going for the kill is rare and a player wants to run a blood-thirsty vigilante hero, you may just have to say no and ask the player to come up with another idea.",
@@ -6418,7 +6418,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Saying Yes to Your Players",
+									"translate_name": "對你的玩家說「好」", "name": "Saying Yes to Your Players",
 									"entries": [
 										"Many roleplaying games (even this one) spend a lot of space telling you how to say “no” to your players: how to tell them a power they want is unbalanced, how to tell them the character they have in mind doesn’t fit into the group, and so forth. Some might get the idea that it’s the Gamemaster’s job just to say “no” and frustrate the players. Nothing could be further from the truth! True, sometimes you must be firm and say “no” to something for the betterment of the game and to safeguard everyone’s enjoyment, but a Gamemaster who also learns to say “yes” to the players can ensure everyone has fun.",
 										"Players are a cunning lot, so it’s a virtual certainty that, sooner or later, they will come up with something for their heroes to do that’s not covered in the rules. It may be a particularly innovative maneuver, a new use for a skill or power, using the environment to their advantage in some way, or something you never would have considered before. When this happens, take a moment and ask yourself: “Would it be fun if what the player is proposing happened?” A good way to think about it is, if you saw something similar in a comic book or a superhero cartoon or movie, would it be good? If the answer is “yes” then you probably should let the player at least try it.",
@@ -6426,9 +6426,9 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Modifiers}: Remember the GM’s rule of thumb: if something generally aids or makes a task easier for a character, it’s worth a +2 bonus. If it makes the task harder or hinders the character, it’s worth a –2 penalty, +/–5 for major benefits or penalties. This allows you to assign modifiers for almost any situation on the fly, without having to look things up and slow down the game while puzzling out all the pluses and minuses.",
-												"{@b Extra Effort}: When players want their characters to pull off something outlandish, rather than saying “no” let them try but make them pay for it by counting it as extra effort (see Extra Effort). Extra effort already allows players to pull off all kinds of stunts, so there’s no reason you can’t expand the list. This works particularly well with innovative uses of powers. Since extra effort allows a character to perform power stunts, it can cover a lot of ground.",
-												"{@b Victory points}: Like extra effort, Victory points allow characters to pull off amazing stunts. If a player wants to do something that isn’t normally a part of the character’s abilities, require a Victory point to make the attempt. The Victory point doesn’t do anything but let the character try something outlandish, and players won’t be able to pull off such stunts all the time because they have a limited number of Victory points to spend. Still, it allows for those amazing, one-of-a-kind stunts that happen in the comic books."
+												"{@b 修正值}: Remember the GM’s rule of thumb: if something generally aids or makes a task easier for a character, it’s worth a +2 bonus. If it makes the task harder or hinders the character, it’s worth a –2 penalty, +/–5 for major benefits or penalties. This allows you to assign modifiers for almost any situation on the fly, without having to look things up and slow down the game while puzzling out all the pluses and minuses.",
+												"{@b 奮力一搏}: When players want their characters to pull off something outlandish, rather than saying “no” let them try but make them pay for it by counting it as extra effort (see Extra Effort). Extra effort already allows players to pull off all kinds of stunts, so there’s no reason you can’t expand the list. This works particularly well with innovative uses of powers. Since extra effort allows a character to perform power stunts, it can cover a lot of ground.",
+												"{@b 勝利點}: Like extra effort, Victory points allow characters to pull off amazing stunts. If a player wants to do something that isn’t normally a part of the character’s abilities, require a Victory point to make the attempt. The Victory point doesn’t do anything but let the character try something outlandish, and players won’t be able to pull off such stunts all the time because they have a limited number of Victory points to spend. Still, it allows for those amazing, one-of-a-kind stunts that happen in the comic books."
 											]
 										}
 									]
