@@ -6291,9 +6291,9 @@
 									"type": "entries",
 									"translate_name": "例行檢定", "name": "Routine Checks",
 									"entries": [
-										"Routine checks reflect that some tasks and situations are so trivial it is not worth having a player roll a check. It would be illogical for the character to have a real chance of failing at the task, since failure should be rare enough to constitute a complication in that situation. Examples include things like a competent driver handling a car under ordinary conditions or a trained professional performing the routine tasks of a job.",
-										"Routine checks save time, because you do not need to ask players for a check for every single thing their characters do, but they also provide valuable guidelines for when you should ask the players for a check while running the game. They set a threshold for the Difficulty of certain actions. When coming up with Difficulty Classes for your adventure, keep the routine check rule in mind. If the DC is low enough that anyone can succeed as a routine check, then it may be too low, or the action may not be worth assigning a check.",
-										"Take Perception, for example. If you decide it is a DC 10 Perception check to pick up on some clue or bit of information in the adventure, that Difficulty is low enough that anyone with an unimpaired (0 or higher) Awareness can succeed at the task as a routine check. Assuming the information is also important to the plot, you might be better off to simply tell the players their characters notice it without calling for a check. If there needs to be a chance of failure, then set a higher Difficulty for the check. Of course, If the situation is stressful—such as the midst of combat—then a routine check is not an option, and a lower DC can provide heroes with a reasonably high chance of success with just a small chance of failure for dramatic purposes."
+										"例行檢定反映了某些太過瑣碎，以至於不值得玩家進行擲骰檢定的行為和情境。讓角色在做這件事時有著發生失敗的機率是不合邏輯的，因為在這種情況下失敗的機率理應是微乎其微，甚至足以做為一個糾葛難題。一些例子包括了能幹的司機在正常情況下駕駛車輛、或是訓練有素的專家執行他工作的例行事項。",
+										"例行檢定可以節省不少時間，因為你不需要讓玩家們為他們角色所做的每件小事都進行擲骰檢定，但同時，例行檢定也提供了重要的準則，讓你對於該在何時讓玩家們進行檢定有個大致的概念。它們也為某些行動的難度設定了閾值。當你在運行遊戲時需要決定難度層級時，將例行檢定的規則謹記在心。若DC低到任何人都可以藉著例行檢定自動成功，那就表示難度可能太低、或者這個行動根本不值得大家花時間擲骰。",
+										"以{@skill 感知}為例：如果你決定在冒險中發掘某個線索或情報片段需要進行一個DC 10的感知檢定，那麼這個難度對於任何有著正常察覺屬性（0級或更高）的角色而言都太過簡單，以至於所有人都可以藉由例行檢定來完成這項行動。假設這個情報對於劇情而言事關重大，那麼你最好直接告訴玩家他們的角色注意到了這些線索，而無須要求他們進行檢定。如果你希望保留一點失敗的機會，那麼請為該檢定設定一個較高的難度。當然，如果是在情勢緊張的情境下──比如說在激烈的戰鬥中──那麼例行檢定就行不通了，在這種情況下，較低的DC能夠讓英雄們享有相當高的成功機率，但仍保留微小的失敗機率，增添戲劇性。"
 									]
 								},
 								{
