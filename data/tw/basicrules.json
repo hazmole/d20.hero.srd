@@ -6308,21 +6308,21 @@
 									"type": "entries",
 									"translate_name": "置換擲骰檢定的結果", "name": "Altering the Outcome of Die Rolls",
 									"entries": [
-										"有時候，某些特定擲骰檢定的結果會對遊戲造成重大的影響。舉例來說，當英雄們步入陷阱之中，而沒有任何人即時注意到危險。或者當英雄們幸運地命中反派，而反派在他的堅實抵抗檢定中骰出了1，因而瞬間被擊敗。在這種時候，你該怎麼辦呢？",
-										"In some cases, you can just go with the outcome the dice give you. If none of the heroes spot the trap, have it go off. Odds are the heroes only end up captured and will have the opportunity to escape and thwart the villain later in the adventure anyway. Even if the results of the die roll are unexpected, so long as they don’t spoil the fun of the adventure, feel free to go with them. Unexpected twists and turns are part of the fun of an RPG, not only for the players, but also for you when you run the game.",
-										"On the other hand, some die rolls result in anticlimactic or just plain dumb outcomes. In these cases, feel free to change things to make the outcome more interesting or more in line with how the game should go. In the above example, you might decide the villain is only dazed or stunned rather than being knocked out, momentarily giving the heroes the upper hand, but not ending the climactic encounter prematurely.",
-										"Isn’t this cheating? Well, yes, in a manner of speaking it is, but it’s “cheating” in order to make the game more interesting and fun for everyone involved. So long as you don’t alter the outcome of die rolls unfairly or maliciously and you do it to help ensure the game is fun, interesting, and challenging, you shouldn’t have a problem. Besides, the complication system of the game provides you with the perfect excuse to “cheat” to help out the heroes’ adversaries from time to time, and to compensate the players in the process by awarding them Victory points, which they, in turn, can use to “cheat” the fickle die from time to time and ensure their heroes succeed."
+										"有時候，某些特定擲骰檢定的結果會對遊戲造成重大的影響。舉例來說，當英雄們步入陷阱之中，而沒有任何人即時注意到危險。或者當英雄們幸運的命中反派，而反派在他的堅實抵抗檢定中骰出了1導致瞬間被擊敗。在這種時候，你該怎麼辦呢？",
+										"在某些情況，你可以就直接按照骰子擲出的結果行事。如果沒有任何英雄發現到陷阱，那就讓他們去吧。很有可能英雄們最終只會被抓住，在之後的冒險中獲得逃脫的機會，無論如何，英雄們都將在最後將反派給擊潰。即使擲骰的結果不如預期，只要它不會破壞冒險的樂趣，就儘管放手隨他們去吧。意想不到的曲折正是RPG最大的樂趣之一，對玩家來說是如此，對運行著遊戲的你來說也是這樣。",
+										"然而另一方面，有些擲骰結果會導致劇情虎頭蛇尾，或單純帶來單調愚蠢的結果。在這種情況下，你可以自由地去修改數值，讓結果更加有趣、或更符合遊戲的發展方向。在上述的例子中，你可能會決定讓反派僅僅陷入{@condition 目眩}或{@condition 暈眩}狀態，而非直接被擊倒，讓英雄們暫時佔據上風，而不是直接讓劇情的高潮段落提早落幕。",
+										"這不是作弊嗎？嗯，是的，某方面來說是這樣沒錯．但這種「作弊」是為了讓這場遊戲變得更加有趣，並讓每個參與其中的玩家都能樂在其中。只要你不會惡意或不公平地改變擲骰的結果，且你這麼做是為了讓遊戲變得更有趣、愉快、富有挑戰性，這麼做就不會有什麼問題。再說，遊戲中的「糾葛難題」機制也為你提供了一個絕佳的藉口去「作弊」，讓你能時不時幫助英雄們的敵人，並透過獎勵玩家們勝利點的方式來補償他們。這些勝利點也讓他們能夠反過來在變幻無常的擲骰結果上「作弊」，確保他們的英雄們能在關鍵時刻達成耀眼的成績。"
 									]
 								},
 								{
 									"type": "inset",
 									"translate_name": "告訴我這是如何發生的……", "name": "“TELL ME HOW IT HAPPENS…”",
 									"entries": [
-										"While the game rules provide general outcomes for character actions, in terms of relative success or failure, what the rules do not provide is the “flavor” of those actions, the descriptions and visuals of exactly how they happen. Those details are left up to you and your players to devise as part of your story.",
-										"Therefore a good habit to get into as a Gamemaster is asking your players to not only tell you the outcomes of their die rolls and tests, but to embellish and describe them in as much detail as they wish. For example, you inform a player: “You hit your foe hard enough to daze him.” Follow it up with: “What happens?”",
-										"The player might say, “I follow a couple quick jabs with a powerful uppercut that sends him stumbling back against the railing of the catwalk, then I press my advantage, so we’re both struggling up against it, high above the factory floor.” Alternately, the player might say, “He stumbles back a few steps and I take the opportunity to draw a concealed bolo from my utility belt, which I’m going to use to tie him up next turn.” Same game system outcome, very different descriptions.",
-										"Likewise, encourage players to embellish on their heroes’ failures; part of the fun of the game is for the heroes to deal with setbacks and challenges, and the players will often provide you with ideas in their descriptions. Maybe a hero’s near miss damages some part of the scenery, or endangers innocent bystanders. Perhaps a failed skill check shakes the hero’s confidence and brings up dramatic unresolved issues (a prime roleplaying opportunity).",
-										"Get your players involved in telling you how things happen for their heroes and you further involve them in the story and world of the game."
+										"儘管遊戲規則提供了角色行動在相對成功或失敗時可能導致的大致結果，但規則並沒有提供這些行動的「風味」，亦即關於它是如何發生的描述以及視覺效果。這些細節被留給了你和你的玩家做為你們故事的一部份來設計。",
+										"因此做為一名遊戲主持人，你要養成一個好習慣：要求你的玩家們不僅僅是告訴你他們擲骰和檢定的結果，還要盡可能詳細的描述並修飾角色的行動。舉例來說，你可以告訴玩家：「你這沉重的一擊使敵人陷入目眩。」並接著詢問：「你是怎麼做的？」",
+										"玩家可能會說：「我在一陣連續刺拳之後接了一記強而有力的上鉤拳，讓他跌跌撞撞的靠在了天橋的欄杆上，接著我利用自己的優勢撲了上去，於是我們就在離工廠地面好一段距離的平台上彼此掙扎搏鬥。」或者，玩家可能會說：「他跌跌撞撞的向後退了幾步，我趁機從我的多功能腰帶中抽出了藏好的縛錘索，我準備在下一回合用來把他綑綁起來。」就像這樣，即使在遊戲機制上的結果相同，情境描述卻大有不同。",
+										"同樣的，鼓勵玩家們潤飾他們英雄的失敗；遊戲一部分的樂趣就在於欣賞英雄們對付那些挫敗和挑戰，且玩家們的描述經常能提供你一些絕妙的點子。也許英雄們失手未中的攻擊破壞了一部份的場景、或是危害了無辜的旁觀者。或者在某個技能檢定中失敗嚴重動搖了英雄的自信心，並帶出的尚未被解決的戲劇性議題（一個絕佳的角色扮演機會）。",
+										"讓你的玩家們參與敘事，讓他們告訴你他們的英雄是如何讓事情發生，並進一步讓他們參與到這個遊戲的故事和世界觀中。"
 									]
 								},
 								{
