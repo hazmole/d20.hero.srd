@@ -6389,10 +6389,10 @@
 							"type": "entries",
 							"translate_name": "維持遊戲平衡", "name": "Maintaining Game Balance",
 							"entries": [
-								"遊戲主持人的其中一部份職責就是確保遊戲能夠公平且平衡，這樣一來每個人才能都玩得開心，且所有英雄都能有相同的機會在冒險過程中演出有趣且令人興奮的表現。這件事情有時會略顯棘手，但這個遊戲也為你提供了工具來平衡英雄在面對不同挑戰下得數據，並協助你處理可能會發生的各種問題。",
+								"遊戲主持人的其中一部份職責就是確保遊戲能夠公平且平衡，這樣一來每個人才能都玩得開心，且所有英雄都能有相同的機會在冒險過程中演出有趣且令人興奮的表現。這件事情有時會略顯棘手，但這個遊戲也為你提供了工具來平衡英雄在面對不同挑戰下的數據，並協助你處理可能會發生的各種問題。",
 								{
 									"type": "entries",
-									"translate_name": "規則議題＆房規", "name": "Rules Issues & House Rules",
+									"translate_name": "規則問題＆房規", "name": "Rules Issues & House Rules",
 									"entries": [
 										"儘管本遊戲已經以超級英雄角色扮演為題材提供了一套相當完整且平衡的遊戲系統，但沒有任何遊戲系統能夠完美滿足所有玩家們的需求和胃口，而這套遊戲自然也不例外。遲早，關於特定規則的判例以及該如何在遊戲中使用它們的問題將一一浮現。在某些情況下，這可能會是沒有被概括在既有規則內的意外情境，需要你推斷並想出一個裁定用的規則。在其他情況下，或許某個特定規則會衍生出問題，因為它並不符合你的個人喜好或遊戲風格，而使淂遊戲變得沒有那麼有趣。",
 										"無論是什麼情況，請記住：如果某條規則不適合你們的遊戲團體，那麼無論如何，修改它！你可以由此推斷出一個結論：遊戲主持人凌駕於遊戲規則之上。換句話說，如果你決定創造出一條特定的「房規」以規範你遊戲中某些事物的運作方式、或是決定以特定方式解釋規則書內的某條規則，那麼，它們就是你遊戲中的規則。玩家應該要尊重遊戲主持人的職責，因為他建立和規範遊戲規則的行為是為了讓所有人都能享受到遊戲的樂趣。當發生任何爭論，著眼於找到讓大家都滿意的解決方案，而不是嘗試嚴格遵守「規則所寫」的每個字。所有遊戲的核心精神都是為了獲得樂趣。只要你著眼於此，你就離成功不遠了。"
@@ -6422,7 +6422,7 @@
 									"entries": [
 										"Many roleplaying games (even this one) spend a lot of space telling you how to say “no” to your players: how to tell them a power they want is unbalanced, how to tell them the character they have in mind doesn’t fit into the group, and so forth. Some might get the idea that it’s the Gamemaster’s job just to say “no” and frustrate the players. Nothing could be further from the truth! True, sometimes you must be firm and say “no” to something for the betterment of the game and to safeguard everyone’s enjoyment, but a Gamemaster who also learns to say “yes” to the players can ensure everyone has fun.",
 										"Players are a cunning lot, so it’s a virtual certainty that, sooner or later, they will come up with something for their heroes to do that’s not covered in the rules. It may be a particularly innovative maneuver, a new use for a skill or power, using the environment to their advantage in some way, or something you never would have considered before. When this happens, take a moment and ask yourself: “Would it be fun if what the player is proposing happened?” A good way to think about it is, if you saw something similar in a comic book or a superhero cartoon or movie, would it be good? If the answer is “yes” then you probably should let the player at least try it.",
-										"Gamemasters have three major tools to help them say “yes” to their players:",
+										"遊戲主持人有三個最主要的工具，能幫助他們對他們的玩家說「好」：",
 										{
 											"type": "list",
 											"items": [
