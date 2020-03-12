@@ -6329,7 +6329,7 @@
 									"type": "entries",
 									"translate_name": "造假", "name": "Faking it",
 									"entries": [
-										"有時候，你會遇到一些遊戲規則並未概括的情況，或是你不太確定該如何處理的情境。當遇到這種情況，你可以放心隨意的編造規則。想出一個你覺得適用於該情境的檢定，並讓它進行，這樣你就能維持遊戲的步調，而不用陷困在規則爭論的泥淖之中。這個系統的其中一個優點，就是幾乎所有問題都可以透過一個簡單的檢定來處理。所以，當你完全找不到合適的規則，只要讓其中玩家使用他最符合當下情境的數據（屬性、技能、或超能力）進行一個檢定就好。若檢定結果達到或超過了你預期的難度層級，則他就成功了，反之則是失敗。",
+										"有時候，你會遇到一些遊戲規則並未概括的情況，或是你不太確定該如何處理的情境。當遇到這種情況，你可以放心隨意的編造規則。想出一個你覺得適用於該情境的檢定，並讓它進行，這樣你就能維持遊戲的步調，而不用陷困在規則爭論的泥淖之中。這個系統的其中一個優點，就是幾乎所有問題都可以透過一個簡單的檢定來處理。所以，當你完全找不到合適的規則，只要讓其中玩家使用他最符合當下情境的數據（屬性、技能、或超能力）進行一個檢定就好。若檢定結果達到或超過了你預期的難度層級，那他就成功了，反之則是失敗。",
 										"你也可以在處理遊戲中的一些瑣碎情況時造假。如果你希望玩家們得知一項非常重要的情報，那麼你可以不用費神再去確認他們是否成功通過感知檢定，只要假裝進行了一個檢定，忽略擲骰結果並直接告訴玩家他們的英雄發現了什麼就好。同樣的，如果一名超能力階級10的英雄打算要解決一名超能力階級只有3的暴徒，那麼你也不需要再進行什麼檢定。直接讓玩家描述英雄是如何解決這名倒楣的暴徒就好。這基本上沒什麼懸念，再說，也沒什麼理由去阻止英雄們適時的帥一把。"
 									]
 								}
@@ -6389,13 +6389,13 @@
 							"type": "entries",
 							"translate_name": "維持遊戲平衡", "name": "Maintaining Game Balance",
 							"entries": [
-								"Part of the Gamemaster’s job is to make sure the game is fair and balanced, so everyone can have a good time and all the heroes have an equal chance of doing somefun and exciting things in the course of the adventure. It can be tricky sometimes, but this game gives you tools for balancing the traits of the heroes against different challenges and handling problems that may come up.",
+								"遊戲主持人的其中一部份職責就是確保遊戲能夠公平且平衡，這樣一來每個人才能都玩得開心，且所有英雄都能有相同的機會在冒險過程中演出有趣且令人興奮的表現。這件事情有時會略顯棘手，但這個遊戲也為你提供了工具來平衡英雄在面對不同挑戰下得數據，並協助你處理可能會發生的各種問題。",
 								{
 									"type": "entries",
 									"translate_name": "規則議題＆房規", "name": "Rules Issues & House Rules",
 									"entries": [
-										"While this game presents a fairly complete and balanced game system for superhero roleplaying, no one game system is perfectly suited to every gaming group’s needs and tastes, and this one is no exception. Sooner or later, issues may arise over particular rules and how they are applied in your game. In some cases, it may be an unexpected situation not covered by the existing rules, requiring you to extrapolate and come up with a ruling. In other situations, a particular rule may be problematic, making the game less fun because it doesn’t suit your personal tastes or style of play.",
-										"In all situations, remember: If a rule doesn’t suit your gaming group, then by all means, change it! A corollary of this is: The Gamemaster overrules the rules. That is, if you decide to make up a particular “house rule” about how something works in your game, or to interpret something from the Hero’s Handbook in a particular way, then that’s the way it works in your game. Players should be respectful of the Gamemaster’s job to set up and regulate the rules of the game for everyone’s enjoyment. Any disputes should be discussed with an eye toward finding a solution everyone finds satisfactory, rather than trying to stick to the exact letter of the “rules as written.” The spirit of any game is to have fun. As long as you focus on that, you can’t be far off."
+										"儘管本遊戲已經以超級英雄角色扮演為題材提供了一套相當完整且平衡的遊戲系統，但沒有任何遊戲系統能夠完美滿足所有玩家們的需求和胃口，而這套遊戲自然也不例外。遲早，關於特定規則的判例以及該如何在遊戲中使用它們的問題將一一浮現。在某些情況下，這可能會是沒有被概括在既有規則內的意外情境，需要你推斷並想出一個裁定用的規則。在其他情況下，或許某個特定規則會衍生出問題，因為它並不符合你的個人喜好或遊戲風格，而使淂遊戲變得沒有那麼有趣。",
+										"無論是什麼情況，請記住：如果某條規則不適合你們的遊戲團體，那麼無論如何，修改它！你可以由此推斷出一個結論：遊戲主持人凌駕於遊戲規則之上。換句話說，如果你決定創造出一條特定的「房規」以規範你遊戲中某些事物的運作方式、或是決定以特定方式解釋規則書內的某條規則，那麼，它們就是你遊戲中的規則。玩家應該要尊重遊戲主持人的職責，因為他建立和規範遊戲規則的行為是為了讓所有人都能享受到遊戲的樂趣。當發生任何爭論，著眼於找到讓大家都滿意的解決方案，而不是嘗試嚴格遵守「規則所寫」的每個字。所有遊戲的核心精神都是為了獲得樂趣。只要你著眼於此，你就離成功不遠了。"
 									]
 								},
 								{
@@ -6403,7 +6403,7 @@
 									"translate_name": "破壞平衡的英雄", "name": "Unbalanced Heroes",
 									"entries": [
 										"The power level guidelines built into the rules help ensure characters of the same power level are at least in the same ballpark in terms of overall effectiveness. Still, there may be times when a particular combination of abilities and effects makes a character too powerful compared to the other heroes or to the villains in your series.",
-										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone as-is and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
+										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone else and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
 									]
 								},
 								{
@@ -6426,9 +6426,9 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b 修正值}: Remember the GM’s rule of thumb: if something generally aids or makes a task easier for a character, it’s worth a +2 bonus. If it makes the task harder or hinders the character, it’s worth a –2 penalty, +/–5 for major benefits or penalties. This allows you to assign modifiers for almost any situation on the fly, without having to look things up and slow down the game while puzzling out all the pluses and minuses.",
-												"{@b 奮力一搏}: When players want their characters to pull off something outlandish, rather than saying “no” let them try but make them pay for it by counting it as extra effort (see Extra Effort). Extra effort already allows players to pull off all kinds of stunts, so there’s no reason you can’t expand the list. This works particularly well with innovative uses of powers. Since extra effort allows a character to perform power stunts, it can cover a lot of ground.",
-												"{@b 勝利點}: Like extra effort, Victory points allow characters to pull off amazing stunts. If a player wants to do something that isn’t normally a part of the character’s abilities, require a Victory point to make the attempt. The Victory point doesn’t do anything but let the character try something outlandish, and players won’t be able to pull off such stunts all the time because they have a limited number of Victory points to spend. Still, it allows for those amazing, one-of-a-kind stunts that happen in the comic books."
+												"{@b 修正值}: 牢記GM的經驗法則：如果某樣東西能夠幫上忙或簡化角色所進行的任務，那麼它就值一個+2加值。如果它使任務變得困難或阻礙了角色的行動，那麼它就值一個-2罰值，而如果它能造成重大的增益或阻礙，則會帶來+/-5的修正值。這個法則能你得以快速地為幾乎任何情境分派修正值，而不用在苦苦思索各種加加減減的同時停下來查找規則。",
+												"{@b 奮力一搏}: 當玩家們希望讓他們的角色做出古怪的驚人之舉，與其對他們說「不」，不如將其視為奮力一搏：讓他們嘗試看看，並要求他們付出代價（參見{@rule 奮力一搏|basic|2|Extra Effort}）。奮力一搏本身就允許玩家們達成各種驚人絕技，所以沒道理你不能進一步擴展奮力一搏所能辦到的事情。這個機制特別適合用於創新的超能力應用手段。由於奮力一搏允許角色施展超能力絕技，因此這個機制能覆蓋相當廣泛的情況。",
+												"{@b 勝利點}: 與奮力一搏相同，勝利點也能讓角色們達成驚人壯舉。若玩家想要做出某件不在角色正常能力範圍所及的行動，則他們將需要花費一點勝利點。透過這種方式使用的勝利點除了讓玩家得以嘗試一些超乎尋常的舉動之外不會有其他效果，且因為勝利點的數量有限，因此玩家們也無法一直做出這些驚人壯舉。儘管如此，它仍能讓角色們在遊戲中重現漫畫中那些獨一無二的精彩絕技。"
 											]
 										}
 									]

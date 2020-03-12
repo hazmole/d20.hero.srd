@@ -6403,7 +6403,7 @@
 									"name": "Unbalanced Heroes",
 									"entries": [
 										"The power level guidelines built into the rules help ensure characters of the same power level are at least in the same ballpark in terms of overall effectiveness. Still, there may be times when a particular combination of abilities and effects makes a character too powerful compared to the other heroes or to the villains in your series.",
-										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone as-is and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
+										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone else and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
 									]
 								},
 								{
@@ -6427,7 +6427,7 @@
 											"type": "list",
 											"items": [
 												"{@b Modifiers}: Remember the GM’s rule of thumb: if something generally aids or makes a task easier for a character, it’s worth a +2 bonus. If it makes the task harder or hinders the character, it’s worth a –2 penalty, +/–5 for major benefits or penalties. This allows you to assign modifiers for almost any situation on the fly, without having to look things up and slow down the game while puzzling out all the pluses and minuses.",
-												"{@b Extra Effort}: When players want their characters to pull off something outlandish, rather than saying “no” let them try but make them pay for it by counting it as extra effort (see Extra Effort). Extra effort already allows players to pull off all kinds of stunts, so there’s no reason you can’t expand the list. This works particularly well with innovative uses of powers. Since extra effort allows a character to perform power stunts, it can cover a lot of ground.",
+												"{@b Extra Effort}: When players want their characters to pull off something outlandish, rather than saying “no” let them try but make them pay for it by counting it as extra effort (see {@rule Extra Effort|basic|2|Extra Effort}). Extra effort already allows players to pull off all kinds of stunts, so there’s no reason you can’t expand the list. This works particularly well with innovative uses of powers. Since extra effort allows a character to perform power stunts, it can cover a lot of ground.",
 												"{@b Victory points}: Like extra effort, Victory points allow characters to pull off amazing stunts. If a player wants to do something that isn’t normally a part of the character’s abilities, require a Victory point to make the attempt. The Victory point doesn’t do anything but let the character try something outlandish, and players won’t be able to pull off such stunts all the time because they have a limited number of Victory points to spend. Still, it allows for those amazing, one-of-a-kind stunts that happen in the comic books."
 											]
 										}
