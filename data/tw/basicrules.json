@@ -6327,10 +6327,10 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "編造規則", "name": "Faking it",
+									"translate_name": "造假", "name": "Faking it",
 									"entries": [
-										"Sometimes you’ll run into a situation the game rules don’t cover, or that you’re not sure how to handle. In these cases, feel free to just fake it. Come up with a check you feel suits the situation and go with it, so you can keep the game moving rather than getting bogged down in rules arguments. One of the great things about the system is pretty much everything can be resolved with a simple check. So when all else fails, just have a player make a check with the most appropriate trait (ability, skill, or power). If the check beats your estimation of the difficulty Class, it’s a success. Otherwise, it’s a failure.",
-										"You also can fake it when dealing with certain trivial situations in the game. If there’s an important piece of information you want the players to know, don’t bother seeing if they succeed at a Perception check. You can pretend to make the checks, then ignore the results and tell the players what their heroes find. Likewise, if a power level 10 hero is going to take out a PL 3 thug, you don’t have to make all the rolls. Just ask the player to describe how the hero defeats the hapless thug. It’s pretty much going to happen anyway, and there’s no reason why the hero shouldn’t look cool doing it."
+										"有時候，你會遇到一些遊戲規則並未概括的情況，或是你不太確定該如何處理的情境。當遇到這種情況，你可以放心隨意的編造規則。想出一個你覺得適用於該情境的檢定，並讓它進行，這樣你就能維持遊戲的步調，而不用陷困在規則爭論的泥淖之中。這個系統的其中一個優點，就是幾乎所有問題都可以透過一個簡單的檢定來處理。所以，當你完全找不到合適的規則，只要讓其中玩家使用他最符合當下情境的數據（屬性、技能、或超能力）進行一個檢定就好。若檢定結果達到或超過了你預期的難度層級，則他就成功了，反之則是失敗。",
+										"你也可以在處理遊戲中的一些瑣碎情況時造假。如果你希望玩家們得知一項非常重要的情報，那麼你可以不用費神再去確認他們是否成功通過感知檢定，只要假裝進行了一個檢定，忽略擲骰結果並直接告訴玩家他們的英雄發現了什麼就好。同樣的，如果一名超能力階級10的英雄打算要解決一名超能力階級只有3的暴徒，那麼你也不需要再進行什麼檢定。直接讓玩家描述英雄是如何解決這名倒楣的暴徒就好。這基本上沒什麼懸念，再說，也沒什麼理由去阻止英雄們適時的帥一把。"
 									]
 								}
 							]
