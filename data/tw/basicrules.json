@@ -6402,18 +6402,18 @@
 									"type": "entries",
 									"translate_name": "破壞平衡的英雄", "name": "Unbalanced Heroes",
 									"entries": [
-										"The power level guidelines built into the rules help ensure characters of the same power level are at least in the same ballpark in terms of overall effectiveness. Still, there may be times when a particular combination of abilities and effects makes a character too powerful compared to the other heroes or to the villains in your series.",
-										"When this happens, talk to the player and ask him or her to change the character’s traits to something more balanced and better suited to the series. If necessary, explain that the character makes things less fun for everyone else and changing the character will make the game better for everyone. Suggest some possible changes to make the character balance out better."
+										"規則中內建的超能力階級準則能夠協助確保相同超能力階級的角色們至少在整體強度上大致相仿。儘管如此，有時候某些特定的屬性和效果組合仍然會使角色變得比劇集中的其他英雄或反派更加強大許多。",
+										"當這件事發生時，和那名玩家談一談，並請他或她將角色的數據調整到更平衡且更適合該劇集的程度。若有必要，和他說明這名角色會讓減少其他人在遊戲中的樂趣，且修改這名角色能讓每個人的遊戲體驗變得更好。你也可以向他建議一些可行的修改方式，讓角色能更好的達到平衡。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "對你的玩家說「不」", "name": "Saying No to Your Players",
 									"entries": [
-										"A big part of maintaining game balance is the ability to say “no” to your players, setting guidelines for characters and sticking to them. Some of those guidelines are already in place: the limits imposed by power level. They help ensure players can’t just put all their Character points into a single overwhelming combat trait (like a +50 attack bonus, or something similar).",
-										"Even with those limits in place, however, there may be times when a player comes up with a character concept or trait that just isn’t suited for the game and can be unbalancing. For example, it can be hard to run mysteries around a hero with a lot of ranks of Mind Reading. If you plan to have mystery stories, you may want to consider limiting Mind Reading, Postcognition, and similar effects, or finding innovative ways for villains to get around them. If you’re running a four-color game where going for the kill is rare and a player wants to run a blood-thirsty vigilante hero, you may just have to say no and ask the player to come up with another idea.",
-										"Note that the GM has the authority to say “no” to a particular power effect or other trait, even if it is perfectly “legal” in terms of the game rules and the power level of the series. It’s virtually impossible to present a “one-size-fits-all” system of game balancing characters as diverse as comic book heroes without heavily limiting potential concepts, so the game goes the route of presenting a wide range of available power effects (omitting some real game-breakers). The GM can—and should—choose to limit others on a case-by-case basis, as best suits the needs of the game.",
-										"Having standards for your series and sticking to them can save you a lot of trouble in the long run by heading off problems before they happen."
+										"維持遊戲平衡的一個重點，就是要能夠對你的玩家說「不」，定好規範角色們的準則並堅持下去。其中一些準則規範已經內建在規則之中：包括超能力階級所強加的限制。這個準則能確保玩家們不會把角色點一股腦的全部投入一個壓倒性的戰鬥數據上（比如說+50的攻擊加值，或其他類似的做法）。",
+										"然而即使存在這些限制，有時候玩家仍可能會想出一些不適合遊戲風格、或可能破壞平衡的角色概念或數據組合。舉例來說，如果英雄擁有高等級的{@effect 心靈讀取}能力，那麼營造謎團就會變得相當困難。如果你打算運行一場懸疑主題的遊戲，那麼你可以考慮限制{@effect 心靈讀取}、{@effect Sense|未來視}、和其他類似的效果，或者找出創新的手段讓反派們得以規避這些超能力的偵查。如果你想要運行一場四色時代風格那種殺戮鮮少發生的遊戲，而玩家則想要扮演一名嗜血殘忍的義警英雄，那麼你可能就必須要對他說「不」，並請他想出另一個關於角色的點子。",
+										"請注意，即使特定的超能力效果或數據在遊戲規則層面完全「合法」，且嚴格遵守了劇集的超能力階級限制，GM仍然有否決它們的權力。畢竟，要做出一個能同時保有呈現出各種漫畫人物的多樣性，而又要在不嚴格限制角色概念的情況下兼顧平衡的「萬全」系統，基本上可說是不可能的。而這個遊戲則選擇了提供出各種超能力效果的多樣性路線（忽略了某些可能真正破壞遊戲體驗的要素）。因此，GM可以──也應該要──根據具體情況去做出限制，使其符合遊戲的需求。",
+										"為你的劇集系列制訂標準並嚴格遵守，能夠在問題發生之前就避開它們，從長遠來看，這能為你省去許多麻煩。"
 									]
 								},
 								{
