@@ -6420,38 +6420,38 @@
 									"type": "entries",
 									"translate_name": "對你的玩家說「好」", "name": "Saying Yes to Your Players",
 									"entries": [
-										"許多角色扮演遊戲（包括本遊戲）都會花費大量篇幅教導你如何對你的玩家們說「不」：怎麼解釋他們想要的超能力會破壞平衡、怎麼說明他們心中的角色概念不適合團隊，諸如此類。有些人甚至會認為遊戲主持人的職責就只是說「不」並挫敗玩家們的體驗。事實絕非如此！確實，有時候你必須堅定的否決某些想法來營造出更好的遊戲體驗，捍衛每個人的樂趣不被破壞；然而，懂得如何對玩家說「好」的遊戲主持人，則能夠確保每個人都能在遊戲中玩得開心。",
+										"許多角色扮演遊戲（包括本遊戲）都會花費大量篇幅教導你如何對你的玩家們說「不」：怎麼解釋他們想要的超能力會破壞平衡、怎麼說明他們心中的角色概念不適合團隊，諸如此類。有些人甚至會認為遊戲主持人的職責就只是說「不」並挫敗玩家們的體驗。事實絕非如此！確實，有時候你必須堅定的否決某些想法來營造出更好的遊戲體驗，捍衛每個人的樂趣不被破壞；然而，懂得如何對玩家說「好」的遊戲主持人，才能夠確保每個人都能在遊戲中玩得開心。",
 										"玩家們是一群狡猾的傢伙，因此或早或晚，你幾乎可以肯定他們會想到讓他們的英雄做出一些規則未能涵蓋的行動。這可能會是一種特別創新的戰術策略、一種技能或超能力的新用途、使用環境要素來為他們提供某種程度的優勢、或你以前從來沒有想過的事情。當這種情況發生時，花點時間想一下，問問自己：「如果玩家提議的行動發生了，情況會不會變得很有趣？」另一種思考這個問題的好方式是，想像一下，如果你在超級英雄的漫畫、卡通、或電影中看到類似的情況發生，會是好事嗎？如果答案是肯定的，那麼你最好應該至少讓玩家們嘗試一下。",
 										"遊戲主持人有三個最主要的工具，能幫助他們對他們的玩家說「好」：",
 										{
 											"type": "list",
 											"items": [
-												"{@b 修正值}: 牢記GM的經驗法則：如果某樣東西能夠幫上忙或簡化角色所進行的任務，那麼它就值一個+2加值。如果它使任務變得困難或阻礙了角色的行動，那麼它就值一個-2罰值，而如果它能造成重大的增益或阻礙，則會帶來+/-5的修正值。這個法則能你得以快速地為幾乎任何情境分派修正值，而不用在苦苦思索各種加加減減的同時停下來查找規則。",
-												"{@b 奮力一搏}: 當玩家們希望讓他們的角色做出古怪的驚人之舉，與其對他們說「不」，不如將其視為奮力一搏：讓他們嘗試看看，並要求他們付出代價（參見{@rule 奮力一搏|basic|2|Extra Effort}）。奮力一搏本身就允許玩家們達成各種驚人絕技，所以沒道理你不能進一步擴展奮力一搏所能辦到的事情。這個機制特別適合用於創新的超能力應用手段。由於奮力一搏允許角色施展超能力絕技，因此這個機制能覆蓋相當廣泛的情況。",
-												"{@b 勝利點}: 與奮力一搏相同，勝利點也能讓角色們達成驚人壯舉。若玩家想要做出某件不在角色正常能力範圍所及的行動，則他們將需要花費一點勝利點。透過這種方式使用的勝利點除了讓玩家得以嘗試一些超乎尋常的舉動之外不會有其他效果，且因為勝利點的數量有限，因此玩家們也無法一直做出這些驚人壯舉。儘管如此，它仍能讓角色們在遊戲中重現漫畫中那些獨一無二的精彩絕技。"
+												"{@b 修正值}: 牢記GM的經驗法則：如果某樣東西能夠幫上忙或簡化角色所進行的任務，那麼它就值一個+2加值。如果它使任務變得困難或阻礙了角色的行動，那麼它就值一個-2罰值，而如果它能造成重大的增益或阻礙，則會帶來+/-5的修正值。這個原則能讓你快速地為幾乎所有情境分派適當的修正值，而不用停下來查找規則，苦苦思索各種數字的加加減減。",
+												"{@b 奮力一搏}: 當玩家們希望讓他們的角色做出古怪的驚人之舉，與其對他們說「不」，不如將其視為奮力一搏：讓他們嘗試看看，並要求他們付出代價（參見{@rule 奮力一搏|basic|2|Extra Effort}）。奮力一搏本身就允許玩家們達成各種驚人絕技，所以沒道理你不能進一步擴展奮力一搏所能辦到的事情。這個機制特別適合用於創新的超能力應用手段。由於奮力一搏允許角色施展超能力絕技，因此這個機制能購用來囊括各種不同的情況。",
+												"{@b 勝利點}: 與奮力一搏相同，勝利點也能讓角色們達成驚人的壯舉。若玩家想要做出某件不在角色正常能力範圍所及的行動，則他們將需要花費一點勝利點。透過這種方式使用的勝利點除了讓玩家得以嘗試一些超乎尋常的舉動之外不會有其他效果，而因為勝利點的數量有限，玩家們也無法一直做出這些驚人壯舉。儘管如此，它仍能讓角色們在遊戲中的關鍵時刻重現漫畫中那些獨一無二的精彩絕技。"
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Making Mistakes",
+									"translate_name": "犯錯失誤", "name": "Making Mistakes",
 									"entries": [
-										"Even Gamemasters are only human. Sooner or later, you’ll make a mistake, whether it’s forgetting a particular rule or overlooking something about a character or an element of the story. Don’t worry, it happens, and it doesn’t mean your game is ruined!",
-										"The best way to handle a mistake is to own up to it. Tell your players you screwed up and need to make a change in order to keep the game fair, and fun. For example, if you allow a new power into the game and it turns out it’s way more powerful and useful than you thought, and it’s ruining everyone else’s fun, that’s a problem. Tell your players you made a mistake letting that power into the game in the first place and you have to change the way it works in order to make the game fun and fair for everyone.",
-										"Be reasonable and straightforward in handling your mistakes and your players are much more likely to be cooperative and understanding about them when they (inevitably) happen."
+										"所有遊戲主持人都只不過是人類，因此他們遲早會犯錯失誤。你可能會忘掉某條特定的規則、或是忽略了關於某個角色或故事中的元素。不用擔心，這是一定會發生的事情，但這絕不代表你的遊戲就因此毀了！",
+										"處理失誤的最佳手段就是老實承認錯誤。告訴你的玩家們你搞砸了，接著改正，好繼續維持遊戲的公平和趣味性。舉例來說，如果你許可讓某個新的超能力進到遊戲中，但之後卻發現這個超能力太過強大且萬用到超乎你想像的程度，以至於會破壞到其他所有人的遊戲體驗，那麼這就是個必須被改正的問題。告訴你的玩家你犯了個錯，承認你一開始不該讓這個超能力進到遊戲中，而且為了遊戲的公平性以及大家的樂趣著想，你必須改變它運作的方式。",
+										"盡可能直接且合理的處理你犯下的錯誤，這樣當你（不可避免地）犯錯時，你的玩家們會更能夠理解並配合。"
 									]
 								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Lost in Translation",
+							"translate_name": "迷失於媒介轉換", "name": "Lost in Translation",
 							"entries": [
-								"Some staples of the comic books, while enjoyable in the stories themselves, don’t always translate well to the medium of roleplaying games. You might want to take these “translation issues” into account when planning your adventures.",
+								"漫畫中的某些主要內容，儘管在閱讀時看起來相當有趣，但卻不一定能很好的被轉換成角色扮演遊戲的這種媒介。在規劃你的冒險故事時，你可能會需要仔細考慮這些「轉換問題」。",
 								{
 									"type": "entries",
-									"name": "Defeat and Capture",
+									"translate_name": "敗北與俘虜", "name": "Defeat and Capture",
 									"entries": [
 										"Heroes in the comics are frequently defeated early on in a story. The typical structure is: the heroes encounter the villain, suffer a defeat or reversal, and then come back from defeat to overcome the villain. In longer stories there may be several reversals: the villain beats the heroes and escapes, then beats the heroes and puts them in a death-trap, which they must escape to make their final confrontation with the bad guy.",
 										"This game encourages this kind of narrative structure by awarding Victory points for defeats, capture, and similar complications suffered by the heroes. Essentially, the more the heroes struggle early on in the game, the more resources (in this case, Victory points) they have to overcome the villain later.",
@@ -6461,7 +6461,7 @@
 								},
 								{
 									"type": "inset",
-									"name": "Going for the Kill",
+									"translate_name": "致人於死", "name": "Going for the Kill",
 									"entries": [
 										"The Damage effect makes it relatively difficult to kill someone outright; the target has to first be incapacitated, then further damage causes them to become dying and potentially die. If you want to up the level of lethality in your game, you can apply some or all of the following options:",
 										{
@@ -6479,14 +6479,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Escaping Villains",
+									"translate_name": "反派逃脫", "name": "Escaping Villains",
 									"entries": [
 										"Often, in the comics, the villain gets away. Usually it is during the initial encounters of a story: the heroes run into the villain, who escapes for the next encounter. In the comic books, it’s easy for a writer to engineer the villain’s escape. In a game, you may have to contend with players unwilling to let the villain go, so long as there’s any chance of snatching victory from the jaws of defeat. These players will try anything and everything before they give up, which can cause problems for the story and spoil the game for others. The main ways of dealing with this issue are: providing the villain with an effective escape plan, and proper application of Victory point awards, when those plans go into effect."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Guest Heroes",
+									"translate_name": "客座英雄", "name": "Guest Heroes",
 									"entries": [
 										"Comic books sometimes have “guest stars” in them and some guest heroes are more popular than the main characters! In an RPG, however, the “guest stars” means “non-player characters run by the GM,” so it’s not a good idea to let them dominate the action. This just makes the players feel upstaged and superfluous.",
 										"That’s not to say you can’t have guest heroes show up in your adventures. The trick is to make sure they don’t upstage the heroes. The only exception is when you want the players to dislike the “guests” as much as possible! For example, if you have a story wherein mind-controlled heroes try to upstage the player characters, then go right ahead and have the NPCs steal their thunder. You can be sure the players won’t like them one bit!",
@@ -6496,14 +6496,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "Lethality",
+									"translate_name": "致命性", "name": "Lethality",
 									"entries": [
 										"Comics have different levels of lethality and character death. It’s important to make the expectations of your series clear to the players, just so there’s no misunderstanding. A hero who refuses to kill under any circumstances might be an interesting oddity in a dark and gritty series full of militaristic super-agents, but a cold-blooded vigilante in a four-color world of merciful, law-abiding heroes can quickly become a problem (especially when the heroes feel honor-bound to see their “teammate” answer for his crimes). So it’s best to be sure everyone is on the same page to avoid unnecessary disagreements."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Loner Heroes",
+									"translate_name": "獨行英雄", "name": "Loner Heroes",
 									"entries": [
 										"Another common element in the comics is the loner character: dressed in black, often trained in stealth, and preferring to work alone. That’s all well and good in a solo story, but difficult to include in a team of superheroes. You can get away with a loner who is a reluctant team member incharacter with players who understand and play along with the bit. Far worse is a team of loners, none of whom get along! You can accommodate some loner characters by giving them opportunities to show off their skills and requiring a minimum level of cooperation and willingness to work within the team. You’re better off discouraging entire groups of loners right from the beginning, since odds are they won’t work together for very long."
 									]
