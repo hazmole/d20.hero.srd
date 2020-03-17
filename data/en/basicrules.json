@@ -6460,24 +6460,6 @@
 									]
 								},
 								{
-									"type": "inset",
-									"name": "Going for the Kill",
-									"entries": [
-										"The Damage effect makes it relatively difficult to kill someone outright; the target has to first be incapacitated, then further damage causes them to become dying and potentially die. If you want to up the level of lethality in your game, you can apply some or all of the following options:",
-										{
-											"type": "list",
-											"items": [
-												"Allow attackers to “go for the kill” when they attack. In this case, incapacitating the target also results in their condition becoming dying.",
-												"Use minion characters and have a “taken out” result against them equal the minion being killed rather than simply incapacitated.",
-												"Have certain kinds of attacks—such as guns, fire, or lasers—always count as “going for the kill” when they are used.",
-												"Add dying to the third degree conditions an Affliction effect may impose.",
-												"Have four or more degrees of failure on a resistance check against Damage (and Afflictions that cause the dying condition) result in immediate death. This is a particularly harsh option to impose, but heroes still gain the benefit of Victory points to help them avoid this fate.",
-												"Make conditions suffered from a killing attack slower to recover: one condition per hour or even per day. This emphasizes their seriousness. Also see Lasting Injuries sidebar."
-											]
-										}
-									]
-								},
-								{
 									"type": "entries",
 									"name": "Escaping Villains",
 									"entries": [
@@ -6499,6 +6481,24 @@
 									"name": "Lethality",
 									"entries": [
 										"Comics have different levels of lethality and character death. It’s important to make the expectations of your series clear to the players, just so there’s no misunderstanding. A hero who refuses to kill under any circumstances might be an interesting oddity in a dark and gritty series full of militaristic super-agents, but a cold-blooded vigilante in a four-color world of merciful, law-abiding heroes can quickly become a problem (especially when the heroes feel honor-bound to see their “teammate” answer for his crimes). So it’s best to be sure everyone is on the same page to avoid unnecessary disagreements."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Going for the Kill",
+									"entries": [
+										"The {@effect Damage} effect makes it relatively difficult to kill someone outright; the target has to first be {@condition incapacitated}, then further damage causes them to become {@condition dying} and potentially die. If you want to up the level of lethality in your game, you can apply some or all of the following options:",
+										{
+											"type": "list",
+											"items": [
+												"Allow attackers to “go for the kill” when they attack. In this case, incapacitating the target also results in their condition becoming {@condition dying}.",
+												"Use minion characters and have a “taken out” result against them equal the minion being killed rather than simply incapacitated.",
+												"Have certain kinds of attacks—such as guns, fire, or lasers—always count as “going for the kill” when they are used.",
+												"Add {@condition dying} to the third degree conditions an {@effect Affliction} effect may impose.",
+												"Have four or more degrees of failure on a resistance check against {@effect Damage} (and {@effect Affliction|Afflictions} that cause the {@condition dying} condition) result in immediate death. This is a particularly harsh option to impose, but heroes still gain the benefit of Victory points to help them avoid this fate.",
+												"Make conditions suffered from a killing attack slower to recover: one condition per hour or even per day. This emphasizes their seriousness. Also see {@rule Lasting Injuries|basic|8|Lasting Injuries} sidebar."
+											]
+										}
 									]
 								},
 								{

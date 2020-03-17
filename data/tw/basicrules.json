@@ -6460,45 +6460,45 @@
 									]
 								},
 								{
-									"type": "inset",
-									"translate_name": "致人於死", "name": "Going for the Kill",
-									"entries": [
-										"The Damage effect makes it relatively difficult to kill someone outright; the target has to first be incapacitated, then further damage causes them to become dying and potentially die. If you want to up the level of lethality in your game, you can apply some or all of the following options:",
-										{
-											"type": "list",
-											"items": [
-												"Allow attackers to “go for the kill” when they attack. In this case, incapacitating the target also results in their condition becoming dying.",
-												"Use minion characters and have a “taken out” result against them equal the minion being killed rather than simply incapacitated.",
-												"Have certain kinds of attacks—such as guns, fire, or lasers—always count as “going for the kill” when they are used.",
-												"Add dying to the third degree conditions an Affliction effect may impose.",
-												"Have four or more degrees of failure on a resistance check against Damage (and Afflictions that cause the dying condition) result in immediate death. This is a particularly harsh option to impose, but heroes still gain the benefit of Victory points to help them avoid this fate.",
-												"Make conditions suffered from a killing attack slower to recover: one condition per hour or even per day. This emphasizes their seriousness. Also see Lasting Injuries sidebar."
-											]
-										}
-									]
-								},
-								{
 									"type": "entries",
 									"translate_name": "反派逃脫", "name": "Escaping Villains",
 									"entries": [
-										"Often, in the comics, the villain gets away. Usually it is during the initial encounters of a story: the heroes run into the villain, who escapes for the next encounter. In the comic books, it’s easy for a writer to engineer the villain’s escape. In a game, you may have to contend with players unwilling to let the villain go, so long as there’s any chance of snatching victory from the jaws of defeat. These players will try anything and everything before they give up, which can cause problems for the story and spoil the game for others. The main ways of dealing with this issue are: providing the villain with an effective escape plan, and proper application of Victory point awards, when those plans go into effect."
+										"經常，在漫畫中，反派們都會從英雄手中逃走。這通常會發生在故事一開始的遭遇：英雄們遭遇到反派，而反派則成功逃脫來為下一次的遭遇做鋪墊。在漫畫書中，作者可以很輕易策畫出讓反派逃脫的情境。但在遊戲中，你很有可能必須對上那些不願意放反派逃跑的玩家們，只要哪怕有一絲機會，他們就會在放棄前盡一切的可能嘗試任何行動以從中爭取勝利的可能，然而這可能會為故事帶來問題，並可能甚至破壞他人的遊戲體驗。處理這個問題的主要方式是：為反派準備一套有效的逃跑計畫，並在這些計畫發揮作用時適當地給予玩家們勝利點做為獎勵。"
 									]
 								},
 								{
 									"type": "entries",
-									"translate_name": "客座英雄", "name": "Guest Heroes",
+									"translate_name": "客串英雄", "name": "Guest Heroes",
 									"entries": [
-										"Comic books sometimes have “guest stars” in them and some guest heroes are more popular than the main characters! In an RPG, however, the “guest stars” means “non-player characters run by the GM,” so it’s not a good idea to let them dominate the action. This just makes the players feel upstaged and superfluous.",
-										"That’s not to say you can’t have guest heroes show up in your adventures. The trick is to make sure they don’t upstage the heroes. The only exception is when you want the players to dislike the “guests” as much as possible! For example, if you have a story wherein mind-controlled heroes try to upstage the player characters, then go right ahead and have the NPCs steal their thunder. You can be sure the players won’t like them one bit!",
-										"The rest of the time, it’s best if guest heroes play supporting roles. Have them be the ones defeated and captured by the villains, for example, and allow the player characters to rescue them (also dealing with the issue of captures, previously). Have NPCs come to the heroes for aid or advice. Retiring heroes can pass the torch to a younger generation, while younger, less experienced heroes can look to the player characters for inspiration and guidance.",
-										"Another option is to allow the players to run the guest stars instead of, or in addition to, their regular characters. As long as you’re not upstaging the players, it’s okay to allow them to upstage their own characters! For example, you can allow the players to run members of another hero team, meeting their regular characters as NPCs, or you can have two teams band together, mixing and matching characters from each and having each player run a regular hero and a guest hero. This can be a great way to include various heroes as guest characters in your games."
+										"漫畫故事中有時會出現所謂的「客串明星」，這些客串的英雄們有時甚至比漫畫書中的主要角色還要更有名氣！然而，在角色扮演遊戲中，這些「客串明星」實際上就代表著「由GM控制的非玩家角色」，所以讓他們主宰整個故事的行動絕不是個好主意。這只會讓玩家們覺得被搶了風頭，覺得自己是不必要的。",
+										"這並不是說你不能讓客串英雄出現在你的冒險故事中。有個訣竅是確保他們不會搶了玩家英雄們的鏡頭。唯一的例外是如果你確實打算盡可能的讓玩家們厭惡這些「客串角色」！舉例來說，如果你打算讓故事中出現一個被心靈控制，並嘗試搶走玩家角色風頭的英雄，那麼儘管放手讓他佔盡玩家們本應享有的鏡頭。你可以肯定玩家們在這之後絕對不會喜歡他！",
+										"在其他情況，最好還是讓這些客串英雄們擔當輔助角色。比如說，讓他們做為其中一名被反派們擊敗並俘虜的受害者，並穰玩家角色們前去營救他們（同時處理前述提及的俘虜問題）。或者，讓NPC們前來向英雄們提供協助或建議，退休的老英雄可以將光輝薪火傳給年輕的世代，而年輕、初出茅廬的英雄們則可以尋求玩家角色們的啟發和指導。",
+										"另一個選項，是讓玩家們扮演這些來客串的明星英雄，來代替（或者同時扮演）他們原本的角色。只要你不要搶走玩家們的鏡頭，放給他們自己搶走自己角色的風頭倒沒有關係！舉例來說，你可以讓玩家們扮演另一個英雄團隊的成員，並遇見他們以NPC的身分登場的原有角色、或者你可以讓這兩個團隊聯合，將成員混合並按照玩家匹配，讓每個玩家同時扮演他原本的英雄和一名客串英雄。這同時也是個讓各種不同的英雄們做為客串角色在你遊戲中登場的好方法。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "致命性", "name": "Lethality",
 									"entries": [
-										"Comics have different levels of lethality and character death. It’s important to make the expectations of your series clear to the players, just so there’s no misunderstanding. A hero who refuses to kill under any circumstances might be an interesting oddity in a dark and gritty series full of militaristic super-agents, but a cold-blooded vigilante in a four-color world of merciful, law-abiding heroes can quickly become a problem (especially when the heroes feel honor-bound to see their “teammate” answer for his crimes). So it’s best to be sure everyone is on the same page to avoid unnecessary disagreements."
+										"每本漫畫在表現致命程度和角色死亡的方面上有著各自不同的標準。確保玩家們都清楚你故事劇集在這方面的標準是相當重要的，如此才不會有理解誤差的情況。確實，一名在任何情況都拒絕殺戮的英雄，或許在充斥著軍國主義的超級特工的黑暗殘酷劇集中會相當有趣，但在英雄們普遍寬容守法的四色時代，一名冷酷殘忍的義警則可能會很快帶來一些問題（特別是當其他英雄們覺得有義務讓他們的「隊友」承擔罪行）。因此你最好確定所有人都有相同的共識，以避免不必要的分歧爭論。"
+									]
+								},
+								{
+									"type": "inset",
+									"translate_name": "致人於死", "name": "Going for the Kill",
+									"entries": [
+										"{@effect 傷害}效果的規則使當場殺死某人的行為變得相對困難許多；目標必須先陷入{@condition 失能}狀態，接著進一步的傷害才會使他們陷入{@condition 瀕死}狀態並可能死亡。如果你希望提高你遊戲中的致命程度，則你可以選用下列部分或全部的變體選項：",
+										{
+											"type": "list",
+											"items": [
+												"讓攻擊者在攻擊時得以蓄意「致人於死」。在這種情況下，因此陷入{@condition 失能}狀態的目標將同時陷入{@condition 瀕死}狀態。",
+												"使用嘍囉角色，並讓他們在被「打倒」時直接等同於被殺死，而非單純陷入{@condition 失能}狀態。",
+												"讓某些類型的攻擊──例如槍械、火焰、或雷射──在被使用時永遠被視作會「致人於死」。",
+												"讓{@condition 瀕死}狀態加入{@effect 詛咒}效果所能施加的程度三的狀態中。",
+												"當克服{@effect 傷害}效果的抵抗檢定發生程度四或以上程度的失敗（且當{@effect 詛咒}效果導致了{@condition 瀕死}狀態）時，將會導致立即性的死亡。這是個特別嚴酷的變體選項，但英雄們仍能利用勝利點帶來的好處以協助他們避免當場死亡的命運。",
+												"讓致死性攻擊所導致的狀態回復的更慢：他們必須每休息一小時或一天才能解除一個傷害狀態。這個變體選項強調了這些傷害的嚴重程度。請同樣參見{@rule 長久創傷|basic|8|Lasting Injuries}邊欄。"
+											]
+										}
 									]
 								},
 								{
