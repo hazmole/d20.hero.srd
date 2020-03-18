@@ -6472,7 +6472,7 @@
 									"entries": [
 										"漫畫故事中有時會出現所謂的「客串明星」，這些客串的英雄們有時甚至比漫畫書中的主要角色還要更有名氣！然而，在角色扮演遊戲中，這些「客串明星」實際上就代表著「由GM控制的非玩家角色」，所以讓他們主宰整個故事的行動絕不是個好主意。這只會讓玩家們覺得被搶了風頭，覺得自己是不必要的。",
 										"這並不是說你不能讓客串英雄出現在你的冒險故事中。有個訣竅是確保他們不會搶了玩家英雄們的鏡頭。唯一的例外是如果你確實打算盡可能的讓玩家們厭惡這些「客串角色」！舉例來說，如果你打算讓故事中出現一個被心靈控制，並嘗試搶走玩家角色風頭的英雄，那麼儘管放手讓他佔盡玩家們本應享有的鏡頭。你可以肯定玩家們在這之後絕對不會喜歡他！",
-										"在其他情況，最好還是讓這些客串英雄們擔當輔助角色。比如說，讓他們做為其中一名被反派們擊敗並俘虜的受害者，並穰玩家角色們前去營救他們（同時處理前述提及的俘虜問題）。或者，讓NPC們前來向英雄們提供協助或建議，退休的老英雄可以將光輝薪火傳給年輕的世代，而年輕、初出茅廬的英雄們則可以尋求玩家角色們的啟發和指導。",
+										"在其他情況，最好還是讓這些客串英雄們擔當配角。比如說，讓他們做為其中一名被反派們擊敗並俘虜的受害者，並穰玩家角色們前去營救他們（同時處理前述提及的俘虜問題）。或者，讓NPC們前來向英雄們提供協助或建議，退休的老英雄可以將光輝薪火傳給年輕的世代，而年輕、初出茅廬的英雄們則可以尋求玩家角色們的啟發和指導。",
 										"另一個選項，是讓玩家們扮演這些來客串的明星英雄，來代替（或者同時扮演）他們原本的角色。只要你不要搶走玩家們的鏡頭，放給他們自己搶走自己角色的風頭倒沒有關係！舉例來說，你可以讓玩家們扮演另一個英雄團隊的成員，並遇見他們以NPC的身分登場的原有角色、或者你可以讓這兩個團隊聯合，將成員混合並按照玩家匹配，讓每個玩家同時扮演他原本的英雄和一名客串英雄。這同時也是個讓各種不同的英雄們做為客串角色在你遊戲中登場的好方法。"
 									]
 								},
@@ -6516,26 +6516,26 @@
 					"type": "section",
 					"translate_name": "創造冒險故事", "name": "Creating Adventures",
 					"entries": [
-						"Creating a game is a fairly simple process. First, define the threat around which the adventure revolves. Then sketch out the overall plot, and describe the encounters the heroes are likely to have during the adventure. You’ll also want to make sure you have statistics and character sheets for important supporting characters and villains. Present the players with the start of the adventure and you’re off and running. Will things go exactly the way you planned? Probably not, but that’s part of the fun and challenge of being a Gamemaster!",
+						"創造遊戲故事的過程相當簡單。首先，定義圍繞著冒險故事的威脅。接著勾勒出整體的劇情，並描繪英雄們在冒險過程中可能遇上的種種遭遇。你也會需要確保你為那些重要的配角和反派人物準備好相應的數據和角色卡。向玩家們呈現冒險開頭的情境，接著你就可以開始運行遊戲了。然而，故事發展是否會完美依照你的計畫進行呢？大概不會，不過這也正是做為遊戲主持人所能體驗到的樂趣和挑戰之一！",
 						{
 							"type": "entries",
 							"translate_name": "在你開始之前", "name": "Before you Begin",
 							"entries": [
-								"There are a number of things to consider when you begin planning an adventure, including the plot threads from previous adventures, complications, and the themes and events of past adventures.",
+								"當你開始規劃一場冒險故事的時候，你需要考慮許多事情，包括來自上一場冒險的劇情脈絡、糾葛難題、以及過去冒險的主題和事件。",
 								{
 									"type": "entries",
 									"translate_name": "絕讚創刊號", "name": "Fabulous First Issues",
 									"entries": [
-										"If this is your first adventure, you need to consider a few things, including how to get the heroes together as a team. They may already be a team when the adventure begins—especially if your players are using established heroes—or circumstances in the adventure might bring them together.",
-										"The key things for a first adventure are to introduce the players to the setting and the major supporting characters. So the first adventure should be typical of the sort of adventures you plan to run. Give the players a feel for how things work in the world so they can get into character and into the setting. So, for example, if you’re running a four-color game where character death is a rarity, it’s probably not a good idea to make the first villain a murderous madman who kills with impunity. Likewise, if you’re aiming for a gritty paramilitary style game, you probably don’t want your first adventure to be filled with wacky humor and Silver Age puns.",
-										"If this is your first adventure, you should also decide if the heroes are already together as a team or if they will have the opportunity to form a team during the adventure. Both approaches have their good points. Starting things with the team already assembled allows you to skip some exposition and get right into the action. It also avoids the problem of the heroes not getting together, which can happen. Allowing the players to roleplay the formation of the team, on the other hand, can be fun, and lets the players better define the nature of their team."
+										"如果這是你的第一場冒險，那麼你將需要思考一些問題，包括如何讓英雄們集結成為團隊。他們可能在冒險開始時就已經是一個團隊──特別是若你的玩家們使用的是已經創好的英雄──或冒險中的某些情境可能會促使他們聚集在一起。",
+										"第一場冒險的關鍵要素，就是向玩家們介紹你的背景設定和主要配角。因此你的第一場冒險應該要是一場典型的冒險故事，遵循著你計畫呈現的故事風格類型。這讓玩家們能夠感受這個世界中的事物是如何運作，好讓他們能更順利的進入角色並融入世界觀。因此舉例來說，如果你打算主持一場四色時代風格的遊戲，由於這種故事風格中角色的死亡相當罕見，因此把一名濫殺無辜、逍遙法外的兇殘瘋子當作你的第一位反派可能就不是個好主意。同樣的，如果你預計要呈現一個硬派隼軍事風格的遊戲，那麼你大概不會希望你的第一場冒險中充斥著各種古怪幽默和白銀時代的雙關笑話。",
+										"如果這是你的第一場冒險，你也應該要決定英雄們是否以及集結成隊，又或者他們會在冒險期間才得到組成團隊的機會。這兩種方式都有其各自的優點：從英雄團隊已經集結的情況開始故事，能讓你跳過一些闡述橋段並直接進入正題，這同時也能避免發生英雄們沒有集結的問題（這是有可能發生的）。而另一方面，讓玩家們扮演出他們集結成隊的過程也會相當有趣，並讓玩家們能更好的定義出他們英雄團隊的性質。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "在上次之後，我們的英雄們……", "name": "When Last We Left Our Heroes...",
 									"entries": [
-										"If the adventure is not the first in your series, then the first thing to do is look over your last few adventures. Are there any dangling plot threads left over from those stories, ones the players might be interested in following?",
+										"如果這並不是你劇集系列中的第一場冒險，那麼你該做的第一件事就是回顧一下你近幾次的冒險故事。這些故事是否有任何殘存未解，並可能讓玩家們產生興趣的劇情線索呢？",
 										"Sometimes these dangling threads are placed deliberately, to give the players things to wonder about and look forward to in future adventures. In other cases, they crop up because certain things just didn’t get resolved in a previous adventure, and players might be wondering when (and if) they will be. As a general rule, try and leave a few plot threads open at any given time. They don’t always have to be the same ones. You can wrap up certain plots while opening up new ones to keep the series moving and maintain player interest. In fact, it’s best if you occasionally tie up existing plot threads before starting new ones, providing some closure and keeping things from getting stale."
 									]
 								},
