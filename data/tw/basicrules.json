@@ -99,7 +99,7 @@
 			{
 				"translate_name": "主持遊戲", "name": "Gamemastering",
 				"headers": [
-					{ "_translate_name": "運行遊戲", "name": "Running the Game" },
+					{ "translate_name": "運行遊戲", "name": "Running the Game" },
 					{ "_translate_name": "創造冒險故事", "name": "Creating Adventures" },
 					{ "translate_name": "創造劇集系列", "name": "Creating a Series" },
 					{ "translate_name": "劇集框架", "name": "Series Frameworks" }
@@ -6505,7 +6505,7 @@
 									"type": "entries",
 									"translate_name": "獨行英雄", "name": "Loner Heroes",
 									"entries": [
-										"Another common element in the comics is the loner character: dressed in black, often trained in stealth, and preferring to work alone. That’s all well and good in a solo story, but difficult to include in a team of superheroes. You can get away with a loner who is a reluctant team member incharacter with players who understand and play along with the bit. Far worse is a team of loners, none of whom get along! You can accommodate some loner characters by giving them opportunities to show off their skills and requiring a minimum level of cooperation and willingness to work within the team. You’re better off discouraging entire groups of loners right from the beginning, since odds are they won’t work together for very long."
+										"另一種常見的漫畫元素是那種孤狼般的獨行角色：穿著漆黑衣裝、熟練於暗中隱匿、且偏好獨自行動。這些要素在僅描繪單獨一名角色的故事中運作良好，並不會帶來什麼問題，但這種角色將很難參與到超級英雄團隊之中。如果不情願做為團體成員行動的獨行者只有一名，且他身邊有一群能夠理解並配合他的玩家，那這或許勉強行得通。但最糟糕的情況是一整個團隊都是獨行角色，他們彼此將完全合不來！或許你可以藉由提供他們展現技巧能力的機會，提供做為團體行動的動機，並要求最低限度的合作好將一些獨行角色整合進故事中。不過你最好從一開始就勸阻避免一整隊獨行者的情況發生，因為很顯然，他們共事的情況並不會維持太久。"
 									]
 								}
 							]
