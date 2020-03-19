@@ -6541,10 +6541,10 @@
 								},
 								{
 									"type": "entries",
-									"translate_name": "變換故事節奏", "name": "A Change of Pace",
+									"translate_name": "改變步調", "name": "A Change of Pace",
 									"entries": [
-										"When you start creating an adventure, look over your notes from your last few adventures (if you’ve had a last few). Take a look at any trends in the adventures’ threats, villains, and so forth and decide if you need a change of pace. Running the same sort of adventure time after time can make your game predictable and dull. Sometimes you need to shake things up a bit and give the players something new to sink their teeth into.",
-										"Have your last few adventures all been crime-fighting? How about sending the heroes to another planet or dimension for an adventure or two? After a few adventures of fighting off an alien invasion, give the heroes a vacation on a tropical island where there’s a sinister cult, or to a mountain ski lodge menaced by a yeti. Try an adventure where the heroes are in their secret identities the whole time, or without their powers. Maybe an accident causes the heroes minds to switch bodies, or gives them different powers. The possibilities are endless. Just make sure your “change of pace” adventures are really a change of pace and not just random wackiness (unless that’s what your game is all about)."
+										"在你開始創造冒險故事時，回顧一下你在最近幾場冒險的筆記（若你之前曾帶過幾次的話）。看看冒險中出現的威脅、反派等是否呈現出任何趨勢，並決定你是否需要換換口味。一次又一次主持相同類型的冒險，會讓你的遊戲變得容易預測而乏味。有時候你會需要做出改變，給玩家們一些新事物來全神投入進去。",
+										"你最近的幾場冒險是否全都是在打擊犯罪？要不試著讓一兩場冒險中把英雄們送到另一個行星或維度如何？在幾次擊退外星人入侵的冒險之後，讓英雄們去一座隱匿著當地邪教的熱帶島嶼度假、或是到深受雪人肆虐所苦的高山滑雪小屋旅遊。又或者，試著運行一場英雄們必須自始至終維持他們祕密身分、或是喪失了他們超能力的冒險。也許一場意外導致英雄們的身體與心靈交換、或者讓他們獲得了不一樣的超能力。冒險故事的可能性無窮無盡，你唯一需要確保的是，這些「改變步調」的冒險是真正意義上的改變，而不是單純將一堆隨機的古怪要素扔到玩家面前（除非這就是你遊戲的主軸）。"
 									]
 								}
 							]
@@ -6553,9 +6553,9 @@
 							"type": "entries",
 							"translate_name": "定義威脅", "name": "Defining the Threat",
 							"entries": [
-								"Adventures usually focus on a particular threat or challenge. It might be anything from an alien invasion to a supervillain looking to conquer the world to something as simple as the heroes cracking down on a crime wave in the city or attending a parade in their honor. When the threat presents itself, the heroes must figure out how to overcome it.",
-								"Supervillains’ schemes are the forces that drive a series, since the main job of superheroes is stopping the villains from getting their way. Without these evil plots, there would be very little for heroes to do, apart from deal with petty crimes and natural disasters. So choosing a scheme is typically one of the first steps in creating a successful game.",
-								"If you need further ideas for possible threats, look no further than your local comic shop (or your own back-issue boxes) filled with inspirational comic books. You also can get ideas from television, movies, and even the news and major world events."
+								"冒險故事通常會集中在一個特定的威脅或挑戰上。這可以任何像是外星人入侵、或嘗試征服世界的超級反派等大事件，或者是比如英雄們鎮壓城市中的犯罪潮、或出席為他們所舉辦的紀念遊行這類簡單的事情。當威脅現身時，英雄們必須想辦法找出克服它的方法。",
+								"超級反派的陰謀詭計往往會成為推動整個劇集故事的力量，畢竟超級英雄的主要工作正是阻止超級反派的計畫得逞。若是沒有這些邪惡的計畫，那英雄們除了處理輕微犯罪和自然災害外，就幾乎沒什麼事情可以做了。因此，選擇故事背後的陰謀詭計，通常會是創造一場成功遊戲的第一步。",
+								"如果你需要更多關於威脅的靈感，建議你去當地的漫畫店（或你自己的舊刊書架）翻翻那些能激發想法的漫畫。你也可以從電視節目、電影、或甚至現實世界發生的新聞和重大事件中獲得靈感。"
 							]
 						},
 						{
