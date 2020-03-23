@@ -6590,10 +6590,10 @@
 						},
 						{
 							"type": "entries",
-							"translate_name": "總結", "name": "The Wrap-up",
+							"translate_name": "結局", "name": "The Wrap-up",
 							"entries": [
-								"The wrap-up or epilogue is where you finish up anything after the climax of the adventure. It’s where the heroes haul the villains off to jail, find out any remaining information, resolve the adventure’s mysteries, and so forth. There may still be some dangling threads left over at the end of the adventure (see When Last We Left Our Heroes..., previously) but generally things should be tied up and resolved by the end.",
-								"You can play out the wrap-up, allowing the players to describe what their heroes are doing, or just sum things up for them. For example, “After you capture Fallout and shut down the runaway reactor, the authorities move in to take the supervillain into custody and repair the damage to the nuclear plant. The city is safe once again.”"
+								"結局，或被稱作後日談，是你在冒險的高潮終幕之後用以為一切劃下結尾的場景。在這個場景中，英雄們將把反派們收押關進監獄、找齊所有剩下的情報、正式解決冒險中的謎團等等。儘管冒險故事的最後仍可能留下一些懸而未解的伏線（參見前述的{@rule 在上次之後，我們的英雄們……|basic|9|when last we left our heroes...}段落），但整起事件在大致上都將在結局時被解決。",
+								"你可以同樣用扮演的方式進行結局，讓玩家們描述他們英雄們的所作所為，或者簡單地為他們做總結就好。比如說：「在你們抓獲了反派『核塵怪客』並關閉了失控的核反應爐後，政府當局也採取了行動，將超級反派拘留收押，並開始修復核電廠所受到的損害。在你們的英勇努力下，城市又再一次迎來了和平。」"
 							]
 						},
 						{
