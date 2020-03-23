@@ -1543,8 +1543,8 @@
 					"type": "section",
 					"translate_name": "英雄升級＆強化", "name": "Hero Advancement & Improvement",
 					"entries": [
-						"遊戲主持人會在每個故事結束時給予英雄們角色點做為獎勵。這些角色點代表了英雄們在冒險中所獲得的經驗和信任，以及其他有助於提高他們屬性、技能、和超能力的因素。",
-						"通常來說，英雄們每成功完成一場在一次遊戲聚會中就順利結束的冒險就能得到1點角色點。若英雄們成功攻克了特別強大的敵人或困難的挑戰，那麼GM可以將角色點獎勵增加到2點。至於那些持續超過一次遊戲聚會的冒險，英雄們將在冒險結束時獲得每一次遊戲聚會1點的角色點獎勵，若他們表現的特別優秀，則可能會再額外獲得一點角色點。",
+						"遊戲主持人會在每個故事結束時給予英雄們角色點做為獎勵。這些角色點代表了英雄們在冒險中所獲得的經驗和自信，以及其他有助於提高他們屬性、技能、和超能力的因素。",
+						"通常來說，英雄們每成功完成一場在一次遊戲聚會中就順利結束的冒險就能得到1點角色點。若英雄們成功攻克了特別強大的敵人或困難的挑戰，那麼GM可以將角色點獎勵增加到2點。至於那些持續超過一次遊戲聚會的冒險，英雄們將在冒險結束時獲得每一次遊戲聚會1點的角色點獎勵，若他們的表現特別傑出，則可能會再額外獲得一點角色點。",
 						"遊戲主持人可以藉由在每場冒險中獎勵英雄們更多的角色點以改變他們升級的速度，讓英雄們得以更快的強化他們的超能力，這種做法可能相當適合用於特定類型的遊戲風格。若英雄們在冒險中的表現特別糟糕，比如說未能擊敗反派的主要計畫、或放任許多無辜群眾承受他們本應可以避免的傷害，那麼遊戲主持人也可以選擇不發放角色點做為獎勵。",
 						"玩家可以在冒險結束後花費他們英雄所得的角色點獎勵，來強化英雄們的數據（唯一的限制是劇集的超能力階級限制）。玩家們也可以選擇將這些未花費的角色點存起來，等到超能力階級提升後，才花費角色點來強化那些已經達到階級上限的數據等級。玩家們將按照他們創建英雄時的方式花費角色點以獲得或提升其數據等級。因此若你的英雄擁有一個花費為每級2點的超能力，且你想要將該超能力提升1級，則你需要花費2點你所獲得的角色點才能這麼做。",
 						"就跟起始角色點一樣，一但你將得到的角色點分配到某個數據上，它就會維持在那，除非某個效果（例如{@condition 被變化}狀態）導致角色點的分配被改變。參見{@rule 重新分配角色點|basic|2|reallocating character points}以查閱更多說明。",
@@ -1552,9 +1552,9 @@
 							"type": "entries",
 							"translate_name": "提高超能力階級", "name": "Increasing Power Level",
 							"entries": [
-								"隨著英雄們經歷一場場的冒險，獲得角色點並花費它們以強化自己的數據，他們最終必會撞上劇集超能力階級所帶來的限制（參見{@rule 超能力階級|basic|2|power level}章節以查閱細節）。在一段時間內，這可能是一個好現象，因為超能力階級的限制將會促使英雄們朝著多樣化發展，獲得其他新的技能、特長、和超能力，而非只是單純地將角色點通通灌到他們已經擁有的數據上，無止盡地提升它們的等級。然而，你遲早會需要提升超能力階級，給予英雄們更多強化的喘息空間，讓他們花費獲得的角色點。",
-								"提到超能力階級，起始角色點數總和會是一個很好的參考準則：當英雄們從劇集開始或從上次超能力階級提升之後到現在，已經累績了額外的15點角色點，那麼這時大概就是個讓超能力階級+1的好時機。因此舉例來說，一場超能力階級為10的遊戲，其英雄們將以150點的角色點開局。當他們在經歷了數場冒險後獲得了另外的15點角色點（這讓他們的角色點總和達到了165點），那麼GM就該考慮把超能力階級提升到11級，讓英雄們得以花費他們部分的角色點以強化那些已經達到最大上限的數據。",
-								"在你提升超能力階級之後，你也同時得重新計算英雄們面對的反派和其他挑戰的強度。由於NPC並不會以相同的方式獲得額外的角色點，也不受到與英雄們相同的超能力階級限制，你可以隨意的強化某些非玩家角色的遊戲數據，以跟上英雄們成長的腳步，確保這些反派角色對於英雄們來說仍能構成適當的挑戰。當然，你也可以放任其他角色們被甩落在後，這意味著英雄們已經超越了他們的一些老對手，且他們已經不再如從前那樣構成威脅。此外，隨著劇情發展，你也可以導入新的敵人和挑戰，以符合當下的劇集超能力階級。"
+								"隨著英雄們經歷一場場的冒險，獲得角色點並花費它們以強化自己的數據，他們最終必然會撞上劇集超能力階級所帶來的限制（參見{@rule 超能力階級|basic|2|power level}章節以查閱細節）。在一段時間內，這可能是一個好現象，因為超能力階級的限制將會促使英雄們朝著多樣化發展，獲得其他新的技能、特長、和超能力，而非只是單純地將角色點通通灌到他們已經擁有的數據上，無止盡地提升它們的等級。然而，你遲早會需要提升超能力階級，給予英雄們更多花費角色點來進行強化的空間。",
+								"提到超能力階級，起始角色點數總和會是一個很好的參考準則：當英雄們從劇集開始或從上次超能力階級提升之後到現在，已經累績了額外的15點角色點，那麼這時就是個讓超能力階級+1的好時機。因此舉例來說，假如在一場超能力階級為10的遊戲中，英雄們以150點的角色點開局。當他們經歷了數場冒險，獲得了額外的15點角色點後（這讓他們擁有的角色點總和達到了165點），那麼GM就該考慮把超能力階級提升到11級，讓英雄們得以花費他們部分的角色點來強化那些已經達到最大上限的數據。",
+								"在你提升超能力階級之後，你也同時需要重新計算英雄們面對的反派和其他挑戰的強度。由於NPC既不會以相同的方式獲得額外的角色點，也不會受到與英雄們相同的超能力階級限制，因此你可以隨意強化非玩家角色的遊戲數據，使他們跟上英雄們成長的腳步，並確保這些反派角色仍能夠對英雄們構成適當的挑戰。當然，你也可以放任其他非玩家角色們被英雄們甩落在後，這意味著英雄們已經超越了他們的其中一些老對手，而他們已經不再如從前那樣構成威脅。此外，隨著劇情發展，你也可以導入符合當下超能力階級的嶄新敵人和挑戰。"
 							]
 						}
 					]
@@ -6614,19 +6614,19 @@
 									"type": "entries",
 									"translate_name": "獎勵角色點", "name": "Awarding Character Points",
 									"entries": [
-										"The Gamemaster awards heroes Character points over the course of a series. This represents the experience and confidence the heroes have gained, along with other factors contributing to an increase in their abilities, skills, and powers.",
-										"Generally, heroes each receive 1 Character point for a successfully completed adventure, lasting for one game session. If the heroes overcame especially powerful foes or difficult challenges, the GM can increase the Character point award to 2 points. For adventures lasting more than one game session, the heroes should get 1 additional Character point per session, plus a possible bonus of 1 or 2 Character points at the very end if they did particularly well.",
-										"Gamemasters may vary this rate of advancement by awarding more Character points per adventure, allowing heroes to increase in power faster, which may suit certain styles of game play. The Gamemaster also may choose not to award a Character point for an adventure in which the heroes did especially poorly, such as failing to defeat a villain’s major scheme or allowing many innocent people to suffer harm they could have prevented.",
-										"Players spend their heroes’ awarded Character points between adventures to improve the heroes’ traits, limited only by the series power level. They also can choose to save up unspent Character points, waiting until the series power level increases, in order to spend them to improve a trait already at its maximum rank."
+										"遊戲主持人會在每個故事結束時給予英雄們角色點做為獎勵。這些角色點代表了英雄們在冒險中所獲得的經驗和自信，以及其他有助於提高他們屬性、技能、和超能力的因素。",
+										"通常來說，英雄們每成功完成一場在一次遊戲聚會中就順利結束的冒險就能得到1點角色點。若英雄們成功攻克了特別強大的敵人或困難的挑戰，那麼GM可以將角色點獎勵增加到2點。至於那些持續超過一次遊戲聚會的冒險，英雄們將在冒險結束時獲得每一次遊戲聚會1點的角色點獎勵，若他們的表現特別傑出，則可能會再額外獲得一點角色點。",
+										"遊戲主持人可以藉由在每場冒險中獎勵英雄們更多的角色點以改變他們升級的速度，讓英雄們得以更快的強化他們的超能力，這種做法可能相當適合用於特定類型的遊戲風格。若英雄們在冒險中的表現特別糟糕，比如說未能擊敗反派的主要計畫、或放任許多無辜群眾承受他們本應可以避免的傷害，那麼遊戲主持人也可以選擇不發放角色點做為獎勵。",
+										"玩家可以在冒險結束後花費他們英雄所得的角色點獎勵，來強化英雄們的數據（唯一的限制是劇集的超能力階級限制）。玩家們也可以選擇將這些未花費的角色點存起來，等到超能力階級提升後，才花費角色點來強化那些已經達到階級上限的數據等級。"
 									]
 								},
 								{
 									"type": "entries",
 									"translate_name": "提高超能力階級", "name": "Increasing Power Level",
 									"entries": [
-										"As heroes earn Character points through adventuring and spend them to improve their traits, they will eventually run into the limits imposed by the series power level (see Power Level). For a while, this can be a good thing, since the power level limits encourage players to diversify their heroes: acquiring new skills, advantages, and powers rather than simply pumping points into their existing traits to increase them to higher and higher ranks. However, sooner or later, you’re going to want to raise the series power level, giving heroes a bit more room for advancement and spending their earned Character points.",
-										"A good guideline is to follow the starting Character point totals when it comes to power level: When the heroes accumulate an additional 15 Character points from the start of the series or the last time the power level was raised, it’s probably time to consider raising the power level by one. So a power level 10 series starts out with 150-point heroes. When they have earned another 15 Character points (bringing their total up to 165), the GM should consider raising the series power level to 11, allowing the heroes to spend some of those points to increase traits currently at the maximum limit.",
-										"When you increase the series power level, you should also reevaluate the capabilities of the villains and other challenges the heroes face. While NPCs don’t “earn” Character points, and aren’t even subject to the same power level limits as the heroes, you should feel free to improve the traits of non-player characters in the series to keep pace with the heroes, ensuring those antagonists remain a suitable challenge. It’s also fine to have others lag behind, as the heroes outstrip some of their old foes, who no longer represent the kind of threat they did before, plus you can always introduce new villains and challenges suited to the series power level as things progress.",
+										"隨著英雄們經歷一場場的冒險，獲得角色點並花費它們以強化自己的數據，他們最終必然會撞上劇集超能力階級所帶來的限制（參見{@rule 超能力階級|basic|2|power level}章節以查閱細節）。在一段時間內，這可能是一個好現象，因為超能力階級的限制將會促使英雄們朝著多樣化發展，獲得其他新的技能、特長、和超能力，而非只是單純地將角色點通通灌到他們已經擁有的數據上，無止盡地提升它們的等級。然而，你遲早會需要提升超能力階級，給予英雄們更多花費角色點來進行強化的空間。",
+										"提到超能力階級，起始角色點數總和會是一個很好的參考準則：當英雄們從劇集開始或從上次超能力階級提升之後到現在，已經累績了額外的15點角色點，那麼這時就是個讓超能力階級+1的好時機。因此舉例來說，假如在一場超能力階級為10的遊戲中，英雄們以150點的角色點開局。當他們經歷了數場冒險，獲得了額外的15點角色點後（這讓他們擁有的角色點總和達到了165點），那麼GM就該考慮把超能力階級提升到11級，讓英雄們得以花費他們部分的角色點來強化那些已經達到最大上限的數據。",
+										"在你提升超能力階級之後，你也同時需要重新計算英雄們面對的反派和其他挑戰的強度。由於NPC既不會以相同的方式獲得額外的角色點，也不會受到與英雄們相同的超能力階級限制，因此你可以隨意強化非玩家角色的遊戲數據，使他們跟上英雄們成長的腳步，並確保這些反派角色仍能夠對英雄們構成適當的挑戰。當然，你也可以放任其他非玩家角色們被英雄們甩落在後，這意味著英雄們已經超越了他們的其中一些老對手，而他們已經不再如從前那樣構成威脅。此外，隨著劇情發展，你也可以導入符合當下超能力階級的嶄新敵人和挑戰。",
 										"As the series progresses, you may want to slow the rate of increasing power level, stretching it out to even 20, 30, or more earned Character points. This allows opportunities for the players to further widen and deepen their heroes’ traits rather than focusing on a direct “upward” path of improvement. You may even choose to stop raising power level past a certain point. Some very experienced heroes may be as high as PL15, but have Character point totals well in excess of the recommended starting amount for that level. They’re good examples of how heroes can develop in a series where the power level has become “fixed” but the GM still provides Character point awards for advancement."
 									]
 								}
