@@ -6643,7 +6643,7 @@
 									"entries": [
 										"There may be rewards for the capture of certain wanted super-criminals and grateful governments or corporations might choose to reward helpful heroes financially. Heroes often use these rewards to help fund their own efforts (paying for their equipment, headquarters, etc.) or else donate it to charity. Other heroes are more mercenary and may even require a paying client before they’ll use their powers to help anyone! Altruistic heroes tend to look down on such opportunists, but the mercenaries counter that they’re risking their lives, why shouldn’t they be compensated for it?",
 										"Sometimes the monetary rewards of heroism come in the form of ongoing support from a wealthy patron, trust fund, corporation, or government agency. They can all offer financial backing to a hero or team of heroes and provide them with the resources they need.",
-										"Heroes who come into a sudden windfall can invest some earned Character points acquiring the Benefit advantage to represent their increased wealth. Otherwise the GM can simply award the heroes with an appropriate amount of money or access to a wealthy patron (although that access may come with some strings attached—potential future complications)."
+										"Heroes who come into a sudden windfall can invest some earned Character points acquiring the {@advantage Benefit} advantage to represent their increased wealth. Otherwise the GM can simply award the heroes with an appropriate amount of money or access to a wealthy patron (although that access may come with some strings attached—potential future complications)."
 									]
 								},
 								{

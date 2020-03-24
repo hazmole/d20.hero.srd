@@ -6641,9 +6641,9 @@
 									"type": "entries",
 									"translate_name": "財富", "name": "Wealth",
 									"entries": [
-										"There may be rewards for the capture of certain wanted super-criminals and grateful governments or corporations might choose to reward helpful heroes financially. Heroes often use these rewards to help fund their own efforts (paying for their equipment, headquarters, etc.) or else donate it to charity. Other heroes are more mercenary and may even require a paying client before they’ll use their powers to help anyone! Altruistic heroes tend to look down on such opportunists, but the mercenaries counter that they’re risking their lives, why shouldn’t they be compensated for it?",
-										"Sometimes the monetary rewards of heroism come in the form of ongoing support from a wealthy patron, trust fund, corporation, or government agency. They can all offer financial backing to a hero or team of heroes and provide them with the resources they need.",
-										"Heroes who come into a sudden windfall can invest some earned Character points acquiring the Benefit advantage to represent their increased wealth. Otherwise the GM can simply award the heroes with an appropriate amount of money or access to a wealthy patron (although that access may come with some strings attached—potential future complications)."
+										"抓捕被通緝的超級罪犯很有可能會得到獎賞做為回報，心存感激的政府或企業可能會選擇為英雄們提供經濟上的報酬。英雄們經常會運用這些財富來投資於他們的事業（為他們的裝備、據點總部等物資買單）或將它們捐助給慈善機構。其他比較唯利是圖的英雄則可能甚至會要求他們的客戶事先支付酬勞，才會使用他們的超能力來幫助他人！利他主義的英雄們經常會瞧不起這些機會主義者，但這些收錢辦事的英雄們則會反駁說，他們可是冒上了生命危險耶！憑什麼他們不能拿到回報呢？",
+										"有時候，這些英雄們的財富報酬會是以來自於富裕贊助者、信託基金、公司、或政府機構等對象的持續支持的形式呈現。這些對象全都會為英雄或英雄團隊提供經濟上的幫助，並供給他們所需的資源。",
+										"突然獲得一大筆意外之財的英雄們可以將一部份獲得的角色點獎勵投資到{@advantage 額外優勢}特長上，以代表他們增加的財富。除此之外，GM也可以簡單的讓英雄們獲得一筆價值合適的金錢、或者接觸到一名有錢多金的贊助者（而與這為贊助者的接觸可能會附帶一些條件──並可能成為未來潛在的糾葛難題）。"
 									]
 								},
 								{
