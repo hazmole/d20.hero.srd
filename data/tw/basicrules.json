@@ -6627,7 +6627,7 @@
 										"隨著英雄們經歷一場場的冒險，獲得角色點並花費它們以強化自己的數據，他們最終必然會撞上劇集超能力階級所帶來的限制（參見{@rule 超能力階級|basic|2|power level}章節以查閱細節）。在一段時間內，這可能是一個好現象，因為超能力階級的限制將會促使英雄們朝著多樣化發展，獲得其他新的技能、特長、和超能力，而非只是單純地將角色點通通灌到他們已經擁有的數據上，無止盡地提升它們的等級。然而，你遲早會需要提升超能力階級，給予英雄們更多花費角色點來進行強化的空間。",
 										"提到超能力階級，起始角色點數總和會是一個很好的參考準則：當英雄們從劇集開始或從上次超能力階級提升之後到現在，已經累績了額外的15點角色點，那麼這時就是個讓超能力階級+1的好時機。因此舉例來說，假如在一場超能力階級為10的遊戲中，英雄們以150點的角色點開局。當他們經歷了數場冒險，獲得了額外的15點角色點後（這讓他們擁有的角色點總和達到了165點），那麼GM就該考慮把超能力階級提升到11級，讓英雄們得以花費他們部分的角色點來強化那些已經達到最大上限的數據。",
 										"在你提升超能力階級之後，你也同時需要重新計算英雄們面對的反派和其他挑戰的強度。由於NPC既不會以相同的方式獲得額外的角色點，也不會受到與英雄們相同的超能力階級限制，因此你可以隨意強化非玩家角色的遊戲數據，使他們跟上英雄們成長的腳步，並確保這些反派角色仍能夠對英雄們構成適當的挑戰。當然，你也可以放任其他非玩家角色們被英雄們甩落在後，這意味著英雄們已經超越了他們的其中一些老對手，而他們已經不再如從前那樣構成威脅。此外，隨著劇情發展，你也可以導入符合當下超能力階級的嶄新敵人和挑戰。",
-										"As the series progresses, you may want to slow the rate of increasing power level, stretching it out to even 20, 30, or more earned Character points. This allows opportunities for the players to further widen and deepen their heroes’ traits rather than focusing on a direct “upward” path of improvement. You may even choose to stop raising power level past a certain point. Some very experienced heroes may be as high as PL15, but have Character point totals well in excess of the recommended starting amount for that level. They’re good examples of how heroes can develop in a series where the power level has become “fixed” but the GM still provides Character point awards for advancement."
+										"隨著劇集的進展，你可能會想要減緩提升超能力階級的速度，將其延至每獲得20點、30點或甚至更多的角色點才提升一個階級。這讓玩家們能夠更進一步擴展和深化他們英雄的數據能力，而非僅僅是專注於單純直接的向上強化。你可能甚至會選擇在超過某個階級後，就停下超能力階級的提升。某些相當老練的英雄們的超能力階級可能最高只有15，但他們所擁有的角色點總和卻遠遠超過該階級對應的建議起始角色點數。這些百戰磨練的英雄們正是個體現了英雄們發展方向的絕好範例，儘管在超能力階級被「固定」，而GM仍提供了角色點獎勵的情況下，英雄們仍能朝著各個不同的面向升級發展。"
 									]
 								}
 							]
@@ -6636,7 +6636,7 @@
 							"type": "entries",
 							"translate_name": "其他獎賞", "name": "Other Rewards",
 							"entries": [
-								"Although good deeds are their own reward, heroes do sometimes receive other rewards in addition to Character points. The Gamemaster should feel free to award any of the following to heroes according to the outcome of the adventure and the needs of the series.",
+								"儘管善行本身就是一種回報，英雄們時不時仍會獲得除了角色點以外的其他獎賞。根據冒險故事的結果以及劇集系列的需求，遊戲主持人可以自由地將下列任意的獎賞賜予英雄們。",
 								{
 									"type": "entries",
 									"translate_name": "財富", "name": "Wealth",
