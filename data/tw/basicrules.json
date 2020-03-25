@@ -100,7 +100,7 @@
 				"translate_name": "主持遊戲", "name": "Gamemastering",
 				"headers": [
 					{ "translate_name": "運行遊戲", "name": "Running the Game" },
-					{ "_translate_name": "創造冒險故事", "name": "Creating Adventures" },
+					{ "translate_name": "創造冒險故事", "name": "Creating Adventures" },
 					{ "translate_name": "創造劇集系列", "name": "Creating a Series" },
 					{ "translate_name": "劇集框架", "name": "Series Frameworks" }
 				]
@@ -6668,8 +6668,8 @@
 									"type": "entries",
 									"translate_name": "榮譽", "name": "Honors",
 									"entries": [
-										"In addition to fame and fortune, heroes may receive the gratitude of the people they help. They get awards from civic groups and organizations like the police and fire departments. The mayor gives them the key to the city or arranges for a parade in their honor (or both). The governor or President honors them on national television. Monuments may be erected in their honor and charitable institutions founded or dedicated in their names. A hero team’s trophy room can contain various plaques, medals, and other accolades right alongside captured criminal memorabilia.",
-										"An awards ceremony makes a good ending to an adventure or, perhaps, the beginning of one. After all, what villain can resist so public a target as a hated enemy receiving an award? And so you’re off creating your next adventure!"
+										"除了名聲和財富，英雄們也會得到他們所幫助的人們的感謝。他們會收到來自警察和消防隊這類公民團體和組織的獎勵。市長會將市鑰頒發給他們，或為了紀念他們的義舉而舉辦遊行（或兩者皆有）。州長或總統會在全國電視轉播上向他們致敬。紀念碑將為了他們而被建立，並將他們的名字永遠銘記傳唱。英雄團隊的獎盃展列室可能陳列了各種匾額、勳章、讚賞、和其他紀念他們捕獲重大罪犯的事物。",
+										"頒獎儀式對於一場冒險而言會是個很好的結尾場景，或者，它也可以做為一個不錯的故事開頭。畢竟，有哪個反派能夠抗拒在眾目睽睽之下，在他們的死對頭接受頒獎的時候展開襲擊呢？然後如此這般，你的下一場冒險就這麼開始了！"
 									]
 								}
 							]
