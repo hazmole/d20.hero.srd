@@ -4952,7 +4952,7 @@
 											"type": "entries",
 											"name": "Security System",
 											"entries": [
-												"Various locks and alarms protect the headquarters from unauthorized  access. A Technology check (DC 20) overcomes these systems. Each additional feature increases the DC by +5, to a maximum of DC 40. The security system may be tied into a defense system (if the headquarters is equipped with that feature), so triggering an alarm activates the defense system to disable or restrain the intruder(s)."
+												"Various locks and alarms protect the headquarters from unauthorized  access. A {@skill Technology} check (DC 20) overcomes these systems. Each additional feature increases the DC by +5, to a maximum of DC 40. The security system may be tied into a defense system (if the headquarters is equipped with that feature), so triggering an alarm activates the defense system to disable or restrain the intruder(s)."
 											]
 										},
 										{
@@ -4974,7 +4974,7 @@
 											"type": "entries",
 											"name": "Workshop",
 											"entries": [
-												"A workshop has all the facilities for making various things. It includes tools, workbenches, supplies, and so forth. The Gamemaster may rule certain projects require a dedicated workshop of their own (which is an additional feature). For example, a workshop can easily handle woodworking, metalworking, and machining, but might not be suitable for creating magical inventions (see Inventing in this chapter), which require a separate dedicated workshop."
+												"A workshop has all the facilities for making various things. It includes tools, workbenches, supplies, and so forth. The Gamemaster may rule certain projects require a dedicated workshop of their own (which is an additional feature). For example, a workshop can easily handle woodworking, metalworking, and machining, but might not be suitable for creating magical inventions (see {@rule Inventing|basic|7|inventing} in this chapter), which require a separate dedicated workshop."
 											]
 										}
 									]

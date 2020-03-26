@@ -4945,36 +4945,36 @@
 											"type": "entries",
 											"translate_name": "秘密", "name": "Secret",
 											"entries": [
-												"This is similar to the Concealed feature except the headquarters is not so much concealed as it is “hiding in plain sight,” its existence as a headquarters unknown. So, for example, people assume the abandoned house on the hill or the old, closed-down factory are just that. This feature increases the DCs of checks to discover the lair—typically starting at DC 10—by +10, with each additional application increasing them by +5 to a maximum of +30 (for truly “top-secret” locations)."
+												"這個功能特性與「隱匿」特性有些相似，只不過秘密特性的據點總部並不是單純隱蔽起來，而是能使他人「視若無睹」，建築物本身並未隱藏起來，但它做為據點總部的本質卻不為人所知。因此，舉例來說，人們會認為在山丘上的那棟廢棄宅邸、或是那間老舊、倒閉的工廠就只是看起來那樣，而不會懷疑它是據點總部。這個功能特性會使發現這個巢穴時所進行的技能檢定的DC（通常起始為DC 10）因此+10。每額外應用一級的這個功能特性都將使該技能檢定的DC再+5，最高累積到+30（意味著真正「最高機密」程度的場所）。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "安全系統", "name": "Security System",
 											"entries": [
-												"Various locks and alarms protect the headquarters from unauthorized  access. A Technology check (DC 20) overcomes these systems. Each additional feature increases the DC by +5, to a maximum of DC 40. The security system may be tied into a defense system (if the headquarters is equipped with that feature), so triggering an alarm activates the defense system to disable or restrain the intruder(s)."
+												"各種不同的安全鎖和警報裝置保護著據點總部不被非法入侵。一個成功的{@skill 科技}檢定(DC 20)可以攻克這些系統的保護。每額外應用一級的這個功能特性都將使該技能檢定的DC再+5，最高累積到DC 40。安全系統可能會與防禦系統連動（若該據點總部擁有這個功能特性），因此一旦安全系統的警報被觸發，防禦系統就會被啟動以拘束入侵者或使之無力化。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "自我修復", "name": "Self-repairing",
 											"entries": [
-												"The structure of the headquarters “heals” any damage done to it over time. Essentially, it recovers like a character does. If this feature is taken twice, the structure will even rebuild itself in a week if it is destroyed! If it cannot rebuild in its original location, it reappears in the nearest suitable place."
+												"據點總部的建築物所受到的任何傷害都會隨著時間經過而「回復」。實質上，它將如同角色一樣從傷害中回復。若這個功能特性被應用了二次，則其建築物甚至能夠在被完全摧毀的一個禮拜後自己重建！若它無法在它原本的位置重建，那麼它將會出現在距離該位置最近的合適場所。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "時光邊界", "name": "Temporal Limbo",
 											"entries": [
-												"Time within the headquarters actually moves at a different rate than that of the world outside! Time within the structure is either slowed or sped up compared to the normal passage of time, passing at half or twice the normal rate. Each additional application of this feature doubles the ratio of time passage: one-quarter or four times, one-eighth or eight times, and so forth.",
-												"This time differential allows a character within an accelerated Temporal Limbo to spend additional time planning, building, or recovering while little or no time passes outside, for example. Conversely, it allows characters in a slowed Temporal Limbo to pass great amounts of time outside without aging, perhaps allowing for long periods of self-imposed exile or contemplation."
+												"據點總部內時間的實際流動速率跟外面的世界截然不同！建築內的時間流速與正常的時間流速相比可能更慢或是加速，以正常速度的一半或兩倍的速度流動著。每額外應用一級的這個功能特性都將使時間流速的變動加倍：變為四分之一或四倍、八分之一或八倍，以此類推。",
+												"這個時間的差異將讓角色們得以在時間流逝速度加快的時光邊界地帶中花費更多的時間在計畫、構建物資、或回復傷害上，而同時外面世界卻僅僅過了很短的時間、或甚至只是一瞬間的事。相反的，待在速度減緩的時光地帶中的角色則能夠在不衰老的情況下度過大量的時間，並可能允許長時間的自我放逐或沉思。"
 											]
 										},
 										{
 											"type": "entries",
 											"translate_name": "工坊", "name": "Workshop",
 											"entries": [
-												"A workshop has all the facilities for making various things. It includes tools, workbenches, supplies, and so forth. The Gamemaster may rule certain projects require a dedicated workshop of their own (which is an additional feature). For example, a workshop can easily handle woodworking, metalworking, and machining, but might not be suitable for creating magical inventions (see Inventing in this chapter), which require a separate dedicated workshop."
+												"工坊中備有所有製造各種物品所需的工具設備。它包括了各種工具、工作臺、物資等等。遊戲主持人可能會規定某些工程項目需要在專門的工坊中才能進行（專門工坊將被視作一個額外的功能特性）。舉例來說，一個普通的工坊可以輕易地處理木工、金屬加工、和機械加工等工程，但可能並不適合用來研發魔法發明物（參見本章節的{@rule 發明|basic|7|inventing}規則），而這麼做將會需要另一個專門的工坊。"
 											]
 										}
 									]
