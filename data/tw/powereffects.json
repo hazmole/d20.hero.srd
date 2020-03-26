@@ -2425,8 +2425,8 @@
 					"type": "inset",
 					"translate_name": "幕後花絮：過去視＆未來視", "name": "Under the Hood: Precognition & Postcognition",
 					"entries": [
-						"Precognition and Postcognition can be problematic abilities, since they provide players with considerable information. Keep in mind precognitive and postcognitive information is often cryptic or unclear, and changes in circumstances may lead to changes in visions of the future. If players use either too often, feel free to have their visions become less and less clear as the timelines become tangled by so much constant surveillance and intervention.",
-						"Generally, Precognition is best treated as a plot device for the GM to provide information to the player as suits the adventure, similar to a free use of the inspiration ability of victory points. In fact, GMs looking to limit Precognition and Postcognition may wish to require extra effort or victory points to use them, or require the Uncontrolled modifier."
+						"過去視和未來視的能力可能會造成許多問題，因為他們能夠為玩家們提供相當可觀的情報。要謹記在心，透過過去視和未來視所得到的情報通常會是晦澀難懂且模糊不清的，且情境一旦被改變，未來的景象也可能因此產生變動。若玩家們太過頻繁的使用這幾個能力，你可以讓他們看見的景象變得越來越模糊，因為太過頻繁的監視和干預使得時間線變得糾纏混亂了起來。",
+						"通常來說，未來視最好被當成為劇情服務的工具，讓GM能夠為玩家提供適合該次冒險的情報，這麼做類似於免費使用勝利點的「靈光一閃」的功能。事實上，打算限制過去視和未來視的GM也可以要求玩家們必須使用奮力一搏或支付一點勝利點才能使用它們、或是要求該能力必須要應用{@modifier 不可控}修飾符。"
 					]
 				},
 				{

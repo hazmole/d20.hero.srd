@@ -2426,7 +2426,7 @@
 					"name": "Under the Hood: Precognition & Postcognition",
 					"entries": [
 						"Precognition and Postcognition can be problematic abilities, since they provide players with considerable information. Keep in mind precognitive and postcognitive information is often cryptic or unclear, and changes in circumstances may lead to changes in visions of the future. If players use either too often, feel free to have their visions become less and less clear as the timelines become tangled by so much constant surveillance and intervention.",
-						"Generally, Precognition is best treated as a plot device for the GM to provide information to the player as suits the adventure, similar to a free use of the inspiration ability of victory points. In fact, GMs looking to limit Precognition and Postcognition may wish to require extra effort or victory points to use them, or require the Uncontrolled modifier."
+						"Generally, Precognition is best treated as a plot device for the GM to provide information to the player as suits the adventure, similar to a free use of the inspiration ability of victory points. In fact, GMs looking to limit Precognition and Postcognition may wish to require extra effort or victory points to use them, or require the {@modifier Uncontrolled} modifier."
 					]
 				},
 				{

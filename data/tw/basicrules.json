@@ -81,7 +81,7 @@
 					{ "translate_name": "武器", "name": "Weapons" },
 					{ "translate_name": "護甲", "name": "Armor" },
 					{ "translate_name": "載具", "name": "Vehicles" },
-					{ "_translate_name": "據點總部", "name": "Headquarters" },
+					{ "translate_name": "據點總部", "name": "Headquarters" },
 					{ "translate_name": "構裝體", "name": "Constructs" }
 				]
 			},
