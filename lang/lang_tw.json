@@ -21,6 +21,7 @@
 "title_abilities": "屬性",
 "title_defenses": "防禦",
 "title_equipment": "裝備",
+"title_supportcharacter": "範例配角",
 
 "type_combat": "戰鬥",
 "type_fortune": "運氣",
@@ -35,6 +36,9 @@
 "type_combine": "複合",
 "type_extra": "強化",
 "type_flaw": "缺陷",
+"type_construct": "構裝體",
+"type_supportchar": "配角",
+"type_animal": "動物",
 
 "cost_per": "{0}點/每級",
 "cost_as_base_trait": "與該數據的花費相同",
@@ -153,6 +157,7 @@
 "defense": "防禦",
 "total": "總共",
 "point": "點",
+"supportcharacter": "配角",
 
 "example": "範例",
 "options": "選項",

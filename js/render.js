@@ -3859,6 +3859,9 @@ Renderer.general = {
 			case "extra": return FMT("type_extra");
 			case "flaw": return FMT("type_flaw");
 			case "VAR": return FMT("varies");
+			case "construct": return FMT("type_construct");
+			case "sup_char": return FMT("type_supportchar");
+			case "animal": return FMT("type_animal");
 			default: return "???";
 		}
 	},
@@ -4261,6 +4264,8 @@ Renderer.archetype = {
 		const renderer = Renderer.get();
 		var contentStack = [];
 		
+		var PL = entry.PL? entry.PL: 10;
+
 		contentStack.push(Renderer.utils.getTr(`<span class="bold">${FMT("initiative")}：</span>${Renderer.general.getSignedNumber(entry.init)}`));
 		contentStack.push(Renderer.utils.getTr(`<span class="bold">${FMT("offense")}：</span>`));
 		for(let i=0; i<entry.offense.length; i++){
@@ -4301,7 +4306,8 @@ Renderer.archetype = {
 		spentPoint.push(`<span>${FMT("title_skill")}:${entry.spent.skill} ${FMT("point")}</span>`);
 		spentPoint.push(`<span>${FMT("title_advantage")}:${entry.spent.advantage} ${FMT("point")}</span>`);
 		spentPoint.push(`<span>${FMT("title_power")}:${entry.spent.power} ${FMT("point")}</span>`);
-		spentPoint.push(`<span>${FMT("total")}:${150} ${FMT("point")}</span>`);
+		var total = entry.spent.ability+entry.spent.defense+entry.spent.skill+entry.spent.advantage+entry.spent.power;
+		spentPoint.push(`<span>${FMT("total")}:${total} ${FMT("point")}</span>`);
 		
 		var footerString="";
 		if(entry.footer){
@@ -4310,7 +4316,7 @@ Renderer.archetype = {
 
 		return (`
 			${Renderer.utils.getNameTr(entry)}
-			${Renderer.utils.getTr("<i>"+FMT("pl_num")+" 10</i>")}
+			${Renderer.utils.getTr("<i>"+FMT("pl_num")+" "+PL+"</i>")}
 			${Renderer.utils.getDividerTr()}
 			${Renderer.general.getAbilityRow(entry.attributes, true)}
 			${Renderer.utils.getDividerTr()}

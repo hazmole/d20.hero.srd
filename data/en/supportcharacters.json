@@ -1,0 +1,349 @@
+{
+	"supportcharacter": [
+		{
+			"name": "Zombie",
+			"PL": 2,
+			"type": "construct",
+			"attributes": {
+				"str": 2,
+				"sta": "-",
+				"agl": -1,
+				"dex": -1,
+				"fgt": 1,
+				"int": "-",
+				"awe": -1,
+				"pre": "-"
+			},
+			"defense": {
+				"dodge": 0,
+				"fortitude": "immune",
+				"parry": 1,
+				"toughness": 3,
+				"will": "immune"
+			},
+			"spent": {
+				"ability": -30,
+				"defense": 1,
+				"skill": 0,
+				"advantage": 0,
+				"power": 33
+			},
+			"init": -1,
+			"powers": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@b Undead}: {@effect Immunity|Immunity 30} (Fortitude effects), {@effect Protection|Protection 3} [33 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Attack",
+					"bonus": 1,
+					"range": "close",
+					"effect": "{@effect Damage|Damage 2}"
+				}
+			]
+		},
+		{
+			"name": "Robot",
+			"PL": 5,
+			"type": "construct",
+			"attributes": {
+				"str": 5,
+				"sta": "-",
+				"agl": -1,
+				"dex": -1,
+				"fgt": 0,
+				"int": "-",
+				"awe": 0,
+				"pre": "-"
+			},
+			"defense": {
+				"dodge": 0,
+				"fortitude": "immune",
+				"parry": 0,
+				"toughness": 10,
+				"will": "immune"
+			},
+			"spent": {
+				"ability": -24,
+				"defense": 1,
+				"skill": 2,
+				"advantage": 0,
+				"power": 46
+			},
+			"init": -1,
+			"skills": [
+				{
+					"name": "Close Combat",
+					"suboption": "Unarmed",
+					"rank": 4
+				}
+			],
+			"powers": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@b Armor}: {@effect Protection|Protection 10}, {@modifier Impervious|Impervious 6} [16 points]",
+							"{@b Robot}: {@effect Immunity|Immunity 30} (Fortitude effects) [30 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Attack",
+					"bonus": 4,
+					"range": "close",
+					"effect": "{@effect Damage|Damage 5}"
+				}
+			]
+		},
+		{
+			"name": "Giant Robot",
+			"PL": 8,
+			"type": "construct",
+			"attributes": {
+				"str": 16,
+				"sta": "-",
+				"agl": 0,
+				"dex": 0,
+				"fgt": 0,
+				"int": "-",
+				"awe": 0,
+				"pre": "-"
+			},
+			"defense": {
+				"dodge": -5,
+				"fortitude": "immune",
+				"parry": -5,
+				"toughness": 16,
+				"will": "immune"
+			},
+			"spent": {
+				"ability": -30,
+				"defense": 1,
+				"skill": 0,
+				"advantage": 0,
+				"power": 87
+			},
+			"init": 0,
+			"powers": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@b Armor}: {@effect Protection|Protection 12}, {@modifier Impervious} [24 points]",
+							"{@b Giant}: {@effect Growth|Growth 16}, {@modifier Increased Duration|Continuous}, {@modifier Permanent}, {@modifier Innate} [33 points]",
+							"{@b Robot}: {@effect Immunity|Immunity 30} (Fortitude effects) [30 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Attack",
+					"bonus": 0,
+					"range": "close",
+					"effect": "{@effect Damage|Damage 16}"
+				}
+			]
+		},
+		{
+			"name": "Ape",
+			"PL": 5,
+			"type": "animal",
+			"attributes": {
+				"str": 6,
+				"sta": 4,
+				"agl": 3,
+				"dex": 1,
+				"fgt": 3,
+				"int": -4,
+				"awe": 1,
+				"pre": -1
+			},
+			"defense": {
+				"dodge": 3,
+				"fortitude": 6,
+				"parry": 3,
+				"toughness": 6,
+				"will": 2
+			},
+			"spent": {
+				"ability": 10,
+				"defense": 7,
+				"skill": 6,
+				"advantage": 0,
+				"power": 13
+			},
+			"init": 3,
+			"skills": [
+				{
+					"name": "Athletics",
+					"rank": 6
+				},
+				{
+					"name": "Perception",
+					"rank": 6
+				}
+			],
+			"powers": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@effect Growth|Growth 4} ({@modifier Permanent}, {@modifier Innate}: -2 active defenses) [9 points]",
+							"{@effect Protection|Protection 2} [2 points]",
+							"{@effect Sense|Senses 2} (Low-light, Acute Smell) [2 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Unarmed",
+					"bonus": 3,
+					"range": "close",
+					"effect": "{@effect Damage|Damage 6}"
+				}
+			]
+		},
+		{
+			"name": "Dolphin",
+			"PL": 4,
+			"type": "animal",
+			"attributes": {
+				"str": 1,
+				"sta": 1,
+				"agl": 3,
+				"dex": 1,
+				"fgt": 2,
+				"int": -2,
+				"awe": 1,
+				"pre": -2
+			},
+			"defense": {
+				"dodge": 4,
+				"fortitude": 5,
+				"parry": 4,
+				"toughness": 1,
+				"will": 3
+			},
+			"spent": {
+				"ability": 10,
+				"defense": 9,
+				"skill": 9,
+				"advantage": 0,
+				"power": 8
+			},
+			"init": 3,
+			"skills": [
+				{
+					"name": "Athletics",
+					"rank": 8
+				},
+				{
+					"name": "Close Combat",
+					"suboption": "Unarmed",
+					"rank": 2
+				},
+				{
+					"name": "Perception",
+					"rank": 8
+				}
+			],
+			"powers": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@effect Sense|Senses 4} (Accurate Hearing, Low-Light Vision, UltraHearing) [4 points]",
+							"{@effect Swimming|Swimming 4} (8 MPH) [4 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Unarmed",
+					"bonus": 4,
+					"range": "close",
+					"effect": "{@effect Damage|Damage 1}"
+				}
+			]
+		},
+		{
+			"name": "Hawk",
+			"PL": 4,
+			"type": "animal",
+			"attributes": {
+				"str": -2,
+				"sta": 0,
+				"agl": 3,
+				"dex": 0,
+				"fgt": 3,
+				"int": -4,
+				"awe": 2,
+				"pre": 0
+			},
+			"defense": {
+				"dodge": 7,
+				"fortitude": 2,
+				"parry": 7,
+				"toughness": 0,
+				"will": 2
+			},
+			"spent": {
+				"ability": 8,
+				"defense": 2,
+				"skill": 5,
+				"advantage": 0,
+				"power": 23
+			},
+			"init": 3,
+			"skills": [
+				{
+					"name": "Close Combat",
+					"suboption": "Unarmed",
+					"rank": 4
+				},
+				{
+					"name": "Perception",
+					"rank": 6
+				}
+			],
+			"powers": {
+				"type": "entries",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@effect Flight|Flight 4} (30 MPH; Wings) [4 points]",
+							"{@effect Sense|Senses 2} (Extended: Vision, Low-light Vision) [2 points]",
+							"{@effect Shrinking|Shrinking 8} ({@modifier Permanent}, {@modifier Innate}: +8 Stealth, +4 active defenses) [17 points]"
+						]
+					}
+				]
+			},
+			"offense": [
+				{
+					"name": "Unarmed",
+					"bonus": 7,
+					"range": "close",
+					"effect": "{@effect Damage|Damage -2}"
+				}
+			]
+		}
+	]
+}

@@ -21,6 +21,7 @@
 "title_abilities": "Abilities",
 "title_defenses": "Defenses",
 "title_equipment": "Equipment",
+"title_supportcharacter": "Support Character",
 
 "type_combat": "Combat",
 "type_fortune": "Fortune",
@@ -35,6 +36,9 @@
 "type_combine": "Combine",
 "type_extra": "Extra",
 "type_flaw": "Flaw",
+"type_construct": "Construct",
+"type_supportchar": "Support Char.",
+"type_animal": "Animal",
 
 "cost_per": "{0} point per rank",
 "cost_as_base_trait": "As base Trait",
@@ -153,6 +157,7 @@
 "defense": "Defense",
 "total": "Total",
 "point": "point",
+"supportcharacter": "support character",
 
 "example": "Example",
 "options": "Options",

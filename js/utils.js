@@ -2070,6 +2070,7 @@ UrlUtil.PG_TO_RENDER_LOAD = function (page, success_func){
 		case "conditions.html": success_func(page, "conditions.json", "condition"); break;
 		case "skills.html": success_func(page, "skills.json", "skill"); break;
 		case "modifiers.html": success_func(page, "modifiers.json", "modifier"); break;
+		case "supportcharacters.html": success_func(page, "supportcharacters.json", "supportcharacter"); break;
 		default: return 1; 
 	}
 	return 0;
@@ -2083,6 +2084,7 @@ UrlUtil.PG_TO_RENDER_FUNC = function (page){
 		case "conditions.html": return Renderer.condition.getCompactRenderedString;
 		case "skills.html": return Renderer.skill.getCompactRenderedString;
 		case "modifiers.html": return Renderer.modifier.getCompactRenderedString;
+		case "supportcharacters.html": return Renderer.archetype.getCompactRenderedString;
 		default: return null; 
 	}
 };
