@@ -2617,12 +2617,12 @@
 				},
 				{
 					"type": "inset",
-					"name": "Under the Hood: Summon",
+					"translate_name": "幕後花絮：召喚", "name": "Under the Hood: Summon",
 					"entries": [
-						"Summon is a useful effect; it doesn’t cost much to summon up a gang of minions, giving you a lot of effective actions per round! Gamemasters may wish to limit large numbers of minions (summoned or otherwise) to villains and non-player characters. Player character minions are subject to the series power level limits. There are also practical matters limiting just how much your minions can do at any one time.",
-						"First, directing your minions to do something is a move action. If you want to issue different commands to different minions, then it’s one move action per command. So it’s easier to tell all of your minions “attack!” than it is to issue complex commands to each one in the midst of combat.",
-						"Second, Gamemasters may wish to have groups of minions use team checks (see Team Checks in The Basics) rather than rolling their actions separately. For example, instead of making eight attacks for eight different minions, the GM has seven minions aid the eighth, giving that minion a +5 bonus. This makes groups of minions more effective and efficient overall, but keeps the number of die rolls to a minimum. GMs should keep in mind the limits on the number of opponents that can team up on a character at once.",
-						"Gamemasters may wish to limit the use of the Heroic extra for Summon. Treating minions the same as heroes can greatly slow down combat, especially if there are more than a couple of them, since it becomes that much harder to take them out of a fight."
+						"召喚是一個相當實用的效果；你不需要太多角色點就可以召喚出一大群的嘍囉，讓你在每輪都能夠做出許多有效的行動！遊戲主持人可能會想要限制只有反派和非玩家角色能夠擁有數量龐大的嘍囉。玩家角色的嘍囉同樣受限於劇集超能力階級的限制。此外，以下還有一些其他規定會限制你的嘍囉們所能做到的事情。",
+						"首先，指揮你的嘍囉們去做某件事需要一個移動動作。若你想要對不同的嘍囉們下達不同的命令，那麼你每下達一個命令都需要使用一個移動動作。因此在戰鬥期間，比起對他們個別下達複雜的命令，叫所有的嘍囉一起「攻擊！」會容易的多。",
+						"第二，遊戲主持人可能會希望讓一整群的嘍囉們使用團隊檢定（參見基本規則中的{@rule 團隊檢定|basic|1|team checks}規則），而非為每個個別的行動擲骰。舉例來說，比起讓八位嘍囉分別進行八次攻擊，GM會讓前七位嘍囉協助第八位嘍囉，讓那位嘍囉的攻擊獲得+5加值。這讓一整群的嘍囉在整體上更有效率，並同時讓擲骰的次數壓低到最小值。GM必須要自己記住團隊檢定的限制，最多能讓幾個角色可以同時協助另一個角色的行動。",
+						"遊戲主持人可能會希望限制「英雄級」強化的使用。把嘍囉們視作英雄來處理將會大幅的減慢戰鬥的速度，尤其是若這些嘍囉有好幾個的話更是如此，因為他們將更難以在戰鬥中被打倒。"
 					]
 				}
 			],
@@ -2875,11 +2875,11 @@
 					"type": "inset",
 					"translate_name": "幕後花絮：能力變換效果", "name": "Under the Hood: Variable Effects",
 					"entries": [
-						"Powers based off the Variable effect are obviously very flexible, capable of duplicating a wide range of other effects. Responsibility for controlling Variable effects in the game is placed largely in the hands of both the Gamemaster and responsible players. To do otherwise would require weighing the effect down with numerous game-system limitations that would keep it from doing what it is supposed to do: create a wide range of effects.",
-						"Keep in mind a Variable effect is not supposed to be “any effect I want.” That kind of unlimited power doesn’t belong in the hands of player characters, and is better reserved as a plot device for NPCs. A Variable effect can be “any effect within a given set of parameters,” but it’s up to you and the GM to define those parameters. The limits of power flexibility are deliberately set by Variable effects, the use of extra effort, and victory points.",
-						"Many comic book heroes who appear to have the power to “do anything” are actually using one of these options in game terms. For example, a super-wizard can do practically anything with magic. However, generally speaking, these characters have certain abilities they use all the time (powers they have acquired with character points) and “stunts” they only do from time to time, essentially power stunts performed with extra effort (and possibly victory points). This is why the Magic power, for example, is not a Variable effect: most powers in the game have the potential to do “stunts” via extra effort, so the “variability” of Magic seen in the comics is already built-in to the system, with some costs to control it, without having to give players carte blanche to duplicate any effect in the game at will (which is just likely to slow things down and cause game balance issues).",
-						"Variable effects are better reserved for things where it is difficult to cost-out and define everything about a given power in advance. For example, the ability to shapechange into any animal could be an application of the Morph effect with a long list of Metamorph options, but listing out every single possible animal form, one at a time, would be tedious to say the least, especially when a good number of those forms would be superfluous. A Variable effect, with the descriptor “animal forms” is easier to manage. The player can prebuild certain commonly used animal forms for use during play, but also has the option to new configurations that fit into the power’s descriptors. See the Sample Powers section for some examples of Variable effects in practice.",
-						"簡而言之，能力變換效果是超能力設計的「最後手段」，且GM也必須將它視作如此。"
+						"很明顯，基於能力變換效果來呈現的超能力相當靈活，且能夠複製出各式各樣其他的超能力效果。在這個遊戲中，控制能力變換效果的責任主要落在遊戲主持人和負責任的玩家手中。如果不這樣的話，我們將會需要大量的遊戲機制的限制去權衡這個效果，而這反而會使它偏離它原本的目的：創造出各種不同的超能力效果。",
+						"要記住，能力變換效果並不應該是「我想要的任何效果」。這類沒有任何限制的超能力不應該被玩家角色所擁有，而最好是給NPC當作為劇情服務的工具來使用。一個能力變換效果可以是「在一組給定限制下的任何效果」，而這些限制的實際定義將由你和你的GM共同決定。除了能力變換效果以外，奮力一搏、和勝利點的使用也同樣設定了關於超能力靈活性的限制。",
+						"許多在漫畫中看似擁有「能夠做到任何事情」超能力的英雄們，在這個遊戲中實際上都是使用了這個超能力效果。舉例來說，一名超級巫師可以使用魔法做出幾乎任何事情，就屬於這類。然而通常來說，這類角色只會有幾個他們經常拿來使用的特定能力（也就是他們使用角色點獲得的超能力），以及一些只有偶爾才會使用的「絕技」（亦即藉由奮力一搏，或可能花費勝利點所施展的超能力絕技）。這也正是為什麼範例超能力中的{@samplepower 魔法}超能力並不是能力變換效果：在遊戲中，大部分的超能力都可能只是透過奮力一搏所施展的「超能力絕技」，因此漫畫中那些魔法所具備的「變化性」其實已經內建在遊戲機制之中，你只需要一些成本就能控制它，而不必讓玩家們隨心所欲的去複製遊戲中的所有效果（這麼做可能會拖慢遊戲的進行，並導致遊戲平衡的問題）。",
+						"能力變換效果最好被保留給那些難以估算花費和預先定義所有細節的超能力使用。舉例來說，變身成任意動物的能力可能會套用{@effect 變形}效果，並應用一長串的{@b 質變}強化以定義不同動物的型態。然而，列出每一種動物型態的數據不僅相當乏味，且其中許多動物型態也很有可能會多餘而派不上用場。因此使用帶有「動物型態」描述符的能力變換效果，會更容易讓玩家去管理這些變化。玩家可以預先構築出一些在遊戲中會經常用到的動物型態，但仍保留在遊戲中設定符合超能力描述符的新型態。你可以參見範例超能力章節中關於能力變換的實例（{@samplepower 擬態模仿}和{@samplepower 化形}）。",
+						"總而言之，能力變換效果是超能力設計的「最後手段」，且GM也必須將它視作如此。"
 					]
 				}
 			],
