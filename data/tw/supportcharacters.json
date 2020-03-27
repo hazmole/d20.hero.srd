@@ -1,7 +1,7 @@
 {
 	"supportcharacter": [
 		{
-			"name": "Zombie",
+			"translate_name": "殭屍", "name": "Zombie",
 			"PL": 2,
 			"type": "construct",
 			"attributes": {
@@ -16,10 +16,10 @@
 			},
 			"defense": {
 				"dodge": 0,
-				"fortitude": "immune",
+				"fortitude": "免疫",
 				"parry": 1,
 				"toughness": 3,
-				"will": "immune"
+				"will": "免疫"
 			},
 			"spent": {
 				"ability": -30,
@@ -35,22 +35,22 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Undead}: {@effect Immunity|Immunity 30} (Fortitude effects), {@effect Protection|Protection 3} [33 points]"
+							"{@b 不死生物}: {@effect Immunity|免疫 30} (韌性效果), {@effect Protection|保護 3} [33 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Attack",
+					"translate_name": "攻擊", "name": "Attack",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				}
 			]
 		},
 		{
-			"name": "Robot",
+			"translate_name": "機器人", "name": "Robot",
 			"PL": 5,
 			"type": "construct",
 			"attributes": {
@@ -65,10 +65,10 @@
 			},
 			"defense": {
 				"dodge": 0,
-				"fortitude": "immune",
+				"fortitude": "免疫",
 				"parry": 0,
 				"toughness": 10,
-				"will": "immune"
+				"will": "免疫"
 			},
 			"spent": {
 				"ability": -24,
@@ -81,7 +81,7 @@
 			"skills": [
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 4
 				}
 			],
@@ -91,23 +91,23 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Armor}: {@effect Protection|Protection 10}, {@modifier Impervious|Impervious 6} [16 points]",
-							"{@b Robot}: {@effect Immunity|Immunity 30} (Fortitude effects) [30 points]"
+							"{@b 裝甲}: {@effect Protection|保護 10}, {@modifier Impervious|強抗 6} [16 點]",
+							"{@b 機器人}: {@effect Immunity|免疫 30} (韌性效果) [30 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Attack",
+					"translate_name": "攻擊", "name": "Attack",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 5}"
+					"effect": "{@effect Damage|傷害 5}"
 				}
 			]
 		},
 		{
-			"name": "Giant Robot",
+			"translate_name": "巨大機器人", "name": "Giant Robot",
 			"PL": 8,
 			"type": "construct",
 			"attributes": {
@@ -122,10 +122,10 @@
 			},
 			"defense": {
 				"dodge": -5,
-				"fortitude": "immune",
+				"fortitude": "免疫",
 				"parry": -5,
 				"toughness": 16,
-				"will": "immune"
+				"will": "免疫"
 			},
 			"spent": {
 				"ability": -30,
@@ -141,24 +141,24 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Armor}: {@effect Protection|Protection 12}, {@modifier Impervious} [24 points]",
-							"{@b Giant}: {@effect Growth|Growth 16}, {@modifier Increased Duration|Continuous}, {@modifier Permanent}, {@modifier Innate} [33 points]",
-							"{@b Robot}: {@effect Immunity|Immunity 30} (Fortitude effects) [30 points]"
+							"{@b 裝甲}: {@effect Protection|保護 12}, {@modifier 強抗} [24 點]",
+							"{@b 巨大體型}: {@effect Growth|成長 16}, {@modifier 永駐}, {@modifier 天生} [33 點]",
+							"{@b 機器人}: {@effect Immunity|免疫 30} (韌性效果) [30 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Attack",
+					"translate_name": "攻擊", "name": "Attack",
 					"bonus": 0,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 16}"
+					"effect": "{@effect Damage|傷害 16}"
 				}
 			]
 		},
 		{
-			"name": "Ape",
+			"translate_name": "猩猩", "name": "Ape",
 			"PL": 5,
 			"type": "animal",
 			"attributes": {
@@ -202,24 +202,24 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Growth|Growth 4} ({@modifier Permanent}, {@modifier Innate}: -2 active defenses) [9 points]",
-							"{@effect Protection|Protection 2} [2 points]",
-							"{@effect Sense|Senses 2} (Low-light, Acute Smell) [2 points]"
+							"{@effect Growth|成長 4} ({@modifier 永駐}, {@modifier 天生}) [9 點]",
+							"{@effect Protection|保護 2} [2 點]",
+							"{@effect Sense|感官 2} (微光視覺, 敏銳嗅覺) [2 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 3,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 6}"
+					"effect": "{@effect Damage|傷害 6}"
 				}
 			]
 		},
 		{
-			"name": "Dolphin",
+			"translate_name": "海豚", "name": "Dolphin",
 			"PL": 4,
 			"type": "animal",
 			"attributes": {
@@ -254,7 +254,7 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 2
 				},
 				{
@@ -268,23 +268,23 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Sense|Senses 4} (Accurate Hearing, Low-Light Vision, UltraHearing) [4 points]",
-							"{@effect Swimming|Swimming 4} (8 MPH) [4 points]"
+							"{@effect Sense|感官 4} (準確聽覺, 微光視覺, 超頻聽覺) [4 點]",
+							"{@effect Swimming|游泳 4} (8 哩/小時) [4 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				}
 			]
 		},
 		{
-			"name": "Hawk",
+			"translate_name": "鷹", "name": "Hawk",
 			"PL": 4,
 			"type": "animal",
 			"attributes": {
@@ -315,7 +315,7 @@
 			"skills": [
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 4
 				},
 				{
@@ -329,24 +329,24 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Flight|Flight 4} (30 MPH; Wings) [4 points]",
-							"{@effect Sense|Senses 2} (Extended: Vision, Low-light Vision) [2 points]",
-							"{@effect Shrinking|Shrinking 8} ({@modifier Permanent}, {@modifier Innate}: +8 Stealth, +4 active defenses) [17 points]"
+							"{@effect Flight|飛行 4} (30 哩/小時; 翅膀) [4 點]",
+							"{@effect Sense|感官 2} (延展:視覺, 微光視覺) [2 點]",
+							"{@effect Shrinking|縮小 8} ({@modifier 永駐}, {@modifier 天生}) [17 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 7,
 					"range": "close",
-					"effect": "{@effect Damage|Damage -2}"
+					"effect": "{@effect Damage|傷害 -2}"
 				}
 			]
 		},
 		{
-			"name": "Lion",
+			"translate_name": "獅子", "name": "Lion",
 			"PL": 6,
 			"type": "animal",
 			"attributes": {
@@ -377,7 +377,7 @@
 			"skills": [
 				{
 					"name": "Close Combat",
-					"suboption": "Claws",
+					"suboption": "爪抓",
 					"rank": 3
 				},
 				{
@@ -395,24 +395,24 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Growth|Growth 2} ({@modifier Permanent}, {@modifier Innate}: -1 active defenses) [5 points]",
-							"{@effect Protection|Protection 4} [4 points]",
-							"{@effect Sense|Senses 2} (Low-light Vision, Acute Smell) [2 points]"
+							"{@effect Growth|成長 2} ({@modifier 永駐}, {@modifier 天生}) [5 點]",
+							"{@effect Protection|保護 4} [4 點]",
+							"{@effect Sense|感官 2} (微光視覺, 敏銳嗅覺) [2 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Claws",
+					"translate_name": "爪抓", "name": "Claws",
 					"bonus": 7,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 5}"
+					"effect": "{@effect Damage|傷害 5}"
 				}
 			]
 		},
 		{
-			"name": "Shark",
+			"translate_name": "鯊魚", "name": "Shark",
 			"PL": 4,
 			"type": "animal",
 			"attributes": {
@@ -447,7 +447,7 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Bite",
+					"suboption": "啃咬",
 					"rank": 1
 				},
 				{
@@ -469,34 +469,34 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Damage|Damage 1} (Strength-based) [1 point]",
-							"{@effect Protection|Protection 3} [3 points]",
-							"{@effect Sense|Senses 2} (Low-light Vision, Acute Smell) [2 points]",
-							"{@effect Swimming|Swimming 4} (8 MPH) [4 points]"
+							"{@effect Damage|傷害 1} (基於力量) [1 點]",
+							"{@effect Protection|保護 3} [3 點]",
+							"{@effect Sense|感官 2} (微光視覺, 敏銳嗅覺) [2 點]",
+							"{@effect Swimming|游泳 4} (8 哩/小時) [4 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Bite",
+					"translate_name": "啃咬", "name": "Bite",
 					"bonus": 5,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				},
 				{
-					"name": "Slam",
+					"translate_name": "猛撞", "name": "Slam",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				}
 			],
 			"description": [
-				"For a giant shark, add Growth to the desired level and alter the shark’s abilities appropriately."
+				"對於巨型鯊魚而言，請加入{@effect 成長}效果至所需要的等級，並適當地改變鯊魚的屬性能力數據。"
 			]
 		},
 		{
-			"name": "Whale",
+			"translate_name": "鯨魚", "name": "Whale",
 			"PL": 8,
 			"type": "animal",
 			"attributes": {
@@ -531,7 +531,7 @@
 				},
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 2
 				},
 				{
@@ -545,28 +545,28 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Growth|Growth 12} ({@modifier Permanent}, {@modifier Innate}: +6 Intimidate, -6 active defenses) [25 points]",
-							"{@effect Protection|Protection 1} [1 point]",
-							"{@effect Sense|Senses 4} (Accurate Auditory, Low-light Vision, Ultra-hearing) [4 points]",
-							"{@effect Swimming|Swimming 5} (16 MPH) [5 points]"
+							"{@effect Growth|成長 12} ({@modifier 永駐}, {@modifier 天生}) [25 點]",
+							"{@effect Protection|保護 1} [1 點]",
+							"{@effect Sense|感官 4} (準確聽覺, 微光視覺, 超頻聽覺) [4 點]",
+							"{@effect Swimming|游泳 5} (16 MPH) [5 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 4,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 12}"
+					"effect": "{@effect Damage|傷害 12}"
 				}
 			],
 			"description": [
-				"A roughly 50-foot long humpback or sperm whale. For larger whales such as the blue whale, or smaller whales like the orca, adjust the ranks of Growth."
+				"身長約50呎長的座頭鯨或抹香鯨。對於像是藍鯨這種體型更大、或是像逆戟鯨這種小型鯨魚而言，請妥善調整{@effect 成長}效果的等級。"
 			]
 		},
 		{
-			"name": "Wolf",
+			"translate_name": "狼", "name": "Wolf",
 			"PL": 3,
 			"type": "animal",
 			"attributes": {
@@ -615,21 +615,21 @@
 					{
 						"type": "list",
 						"items": [
-							"{@effect Sense|Senses 3} (Low-light Vision, Acute Olfactory, Tracking) [3 points]"
+							"{@effect Sense|感官 3} (微光視覺, 敏銳嗅覺, 追蹤) [3 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 3,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				}
 			],
 			"description": [
-				"The wolf may also be used to represent other large canines"
+				"狼的數據也可以被用來呈現其他的大型犬科。"
 			]
 		},
 		{
@@ -701,7 +701,7 @@
 					"name": "Unarmed",
 					"bonus": 0,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				}
 			],
 			"description": [
@@ -809,7 +809,7 @@
 					"name": "Unarmed",
 					"bonus": 0,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				}
 			],
 			"description": [
@@ -893,7 +893,7 @@
 					"name": "Unarmed",
 					"bonus": 0,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				}
 			],
 			"description": [
@@ -1009,7 +1009,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 3} [6 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
 							"{@b Camera}, {@b Cell phone}, {@b Computer}, {@b Handcuffs} [4 points]"
 						]
 					}
@@ -1020,13 +1020,13 @@
 					"name": "Unarmed",
 					"bonus": 3,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 5,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -1128,7 +1128,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 3} [6 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
 							"{@b Cell phone}, {@b Handcuffs} [2 points]"
 						]
 					}
@@ -1139,13 +1139,13 @@
 					"name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 3,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -1245,8 +1245,8 @@
 						"type": "list",
 						"items": [
 							"{@b Bulletproof vest}: {@effect Protection|Protection 4}, {@modifier Limited|Limited to Ballistic}, {@modifier Subtle} [3 points]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 3} [6 points]",
-							"{@b Tonfa}: {@effect Damage|Damage 1} [1 point]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
+							"{@b Tonfa}: {@effect Damage|傷害 1} [1 point]",
 							"{@b Cell phone}, {@b Handcuffs} [2 points]"
 						]
 					}
@@ -1257,13 +1257,13 @@
 					"name": "Unarmed",
 					"bonus": 3,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 5,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -1364,8 +1364,8 @@
 						"type": "list",
 						"items": [
 							"{@b Riot gear}: {@effect Protection|Protection 4} [4 points]",
-							"{@b Submachine gun}: {@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|Damage 4} [12 points]",
-							"{@b Tonfa}: {@effect Damage|Damage 1} [1 point]",
+							"{@b Submachine gun}: {@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|傷害 4} [12 points]",
+							"{@b Tonfa}: {@effect Damage|傷害 1} [1 point]",
 							"{@b Cell phone}, {@b Handcuffs} [2 points]"
 						]
 					}
@@ -1376,19 +1376,19 @@
 					"name": "Unarmed",
 					"bonus": 6,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
 					"name": "Tonfa",
 					"bonus": 6,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				},
 				{
 					"name": "SMG",
 					"bonus": 6,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 4}, {@modifier Multiattack}"
+					"effect": "{@effect Damage|傷害 4}, {@modifier Multiattack}"
 				}
 			],
 			"description": [
@@ -1475,7 +1475,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 3} [6 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
 							"9 points of equipment as needed."
 						]
 					}
@@ -1486,13 +1486,13 @@
 					"name": "Unarmed",
 					"bonus": 5,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 5,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -1573,7 +1573,7 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Assault rifle}: {@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|Damage 5} [15 points]",
+							"{@b Assault rifle}: {@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|傷害 5} [15 points]",
 							"{@b Body armor}: {@effect Protection|Protection 3} [3 points]",
 							"17 points of equipment as needed."
 						]
@@ -1585,13 +1585,13 @@
 					"name": "Unarmed",
 					"bonus": 5,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
 					"name": "Assault rifle",
 					"bonus": 5,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 5}, {@modifier Multiattack}"
+					"effect": "{@effect Damage|傷害 5}, {@modifier Multiattack}"
 				}
 			],
 			"description": [
@@ -1686,7 +1686,7 @@
 						"type": "list",
 						"items": [
 							"{@b Bulletproof vest}: {@effect Protection|Protection 4}, {@modifier Limited|Limited to Ballistic}, {@modifier Subtle} [3 points]",
-							"{@b Heavy pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 4} [8 points]",
+							"{@b Heavy pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 4} [8 points]",
 							"{@b Cell phone}: [1 point]"
 						]
 					}
@@ -1697,13 +1697,13 @@
 					"name": "Unarmed",
 					"bonus": 2,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				},
 				{
 					"name": "Heavy pistol",
 					"bonus": 4,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 4}"
+					"effect": "{@effect Damage|傷害 4}"
 				}
 			],
 			"description": [
@@ -1790,8 +1790,8 @@
 						"type": "list",
 						"items": [
 							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 6} [6 points]",
-							"{@b Knife}: {@effect Damage|Damage 1}, {@advantage Improved Critical} [2 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
+							"{@b Knife}: {@effect Damage|傷害 1}, {@advantage Improved Critical} [2 points]",
 							"{@b Cell phone}: [1 point]"
 						]
 					}
@@ -1802,19 +1802,19 @@
 					"name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
 					"name": "Knife",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}, Crit 19-20"
+					"effect": "{@effect Damage|傷害 2}, Crit 19-20"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -1905,8 +1905,8 @@
 						"type": "list",
 						"items": [
 							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 6} [6 points]",
-							"{@b Knife}: {@effect Damage|Damage 1}, {@advantage Improved Critical} [2 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
+							"{@b Knife}: {@effect Damage|傷害 1}, {@advantage Improved Critical} [2 points]",
 							"{@b Cell phone}: [1 point]"
 						]
 					}
@@ -1917,19 +1917,19 @@
 					"name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}"
+					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
 					"name": "Knife",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}, Crit 19-20"
+					"effect": "{@effect Damage|傷害 2}, Crit 19-20"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -2015,8 +2015,8 @@
 						"type": "list",
 						"items": [
 							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 6} [6 points]",
-							"{@b Knife}: {@effect Damage|Damage 1}, {@advantage Improved Critical} [2 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
+							"{@b Knife}: {@effect Damage|傷害 1}, {@advantage Improved Critical} [2 points]",
 							"{@b Cell phone}: [1 point]"
 						]
 					}
@@ -2027,19 +2027,19 @@
 					"name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 0}"
+					"effect": "{@effect Damage|傷害 0}"
 				},
 				{
 					"name": "Knife",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 1}, Crit 19-20"
+					"effect": "{@effect Damage|傷害 1}, Crit 19-20"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [
@@ -2127,7 +2127,7 @@
 						"type": "list",
 						"items": [
 							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|Damage 6} [6 points]",
+							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
 							"{@b Cell phone}: [1 point]"
 						]
 					}
@@ -2138,13 +2138,13 @@
 					"name": "Unarmed",
 					"bonus": 2,
 					"range": "close",
-					"effect": "{@effect Damage|Damage 2}"
+					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
 					"name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
-					"effect": "{@effect Damage|Damage 3}"
+					"effect": "{@effect Damage|傷害 3}"
 				}
 			],
 			"description": [

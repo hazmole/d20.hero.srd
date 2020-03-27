@@ -4329,8 +4329,10 @@ Renderer.archetype = {
 		}
 		var descString="";
 		if(entry.description){
+			var descStack = [];
+			renderer.recursiveRender({entries: entry.description}, descStack, {depth: 0});
 			descString+= Renderer.utils.getDividerTr();
-			descString+= Renderer.utils.getTr("<div class='rd__b-inset'>"+entry.description+"</div>");
+			descString+= Renderer.utils.getTr("<div class='rd__b-inset'>"+descStack.join("")+"</div>");
 		}
 
 		return (`

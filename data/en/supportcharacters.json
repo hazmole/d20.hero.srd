@@ -492,7 +492,7 @@
 				}
 			],
 			"description": [
-				"For a giant shark, add Growth to the desired level and alter the shark’s abilities appropriately."
+				"For a giant shark, add {@effect Growth} to the desired level and alter the shark’s abilities appropriately."
 			]
 		},
 		{
@@ -562,7 +562,7 @@
 				}
 			],
 			"description": [
-				"A roughly 50-foot long humpback or sperm whale. For larger whales such as the blue whale, or smaller whales like the orca, adjust the ranks of Growth."
+				"A roughly 50-foot long humpback or sperm whale. For larger whales such as the blue whale, or smaller whales like the orca, adjust the ranks of {@effect Growth}."
 			]
 		},
 		{
@@ -629,7 +629,7 @@
 				}
 			],
 			"description": [
-				"The wolf may also be used to represent other large canines"
+				"The wolf may also be used to represent other large canines."
 			]
 		},
 		{
