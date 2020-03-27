@@ -3865,6 +3865,15 @@ Renderer.general = {
 			default: return "???";
 		}
 	},
+	getSubTypeText: function(type) {
+		switch(type){
+			case "civil": return FMT("subtype_civilian");
+			case "servant": return FMT("subtype_public_servant");
+			case "comnatant": return FMT("subtype_trained_comnatant");
+			case "underworld": return FMT("subtype_underworld_archetype");
+			default: return "???";
+		}
+	},
 	getCostText: function (cost){
 		if(!cost) return "";
 		var value = cost.value;
@@ -4025,9 +4034,11 @@ Renderer.general = {
 	            optionStack.push(textStack.join(""));
             }
             else{
+				var suffix = advantage.suffix? (" "+advantage.suffix): "";
+
             	var ref_name = advantage.ref_name? advantage.ref_name: advantage.name;
 	            var display_name = (advantage.display_name? advantage.display_name: parseAdvantageName(advantage.name)) + (advantage.suboption? (": "+advantage.suboption): "");
-	            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}}`;
+	            var string = `{@advantage ${ref_name}|${display_name}${advantage.rank?" "+advantage.rank:""}${suffix}}`;
 
 	            var textStack = [];
 	            renderer.recursiveRender(string, textStack, null);
@@ -4050,6 +4061,9 @@ Renderer.general = {
 			case "S": return "school_D";
 			case "extra": return "school_A";
 			case "flaw": return "school_C";
+			case "construct": return "school_T";
+			case "animal": return "school_A";
+			case "sup_char": return "school_I";
 			default: return "";
 		}
 	}
@@ -4311,7 +4325,12 @@ Renderer.archetype = {
 		
 		var footerString="";
 		if(entry.footer){
-			footerString = Renderer.utils.getTr("<div style='float:right;padding-top:10px;'><i>"+entry.footer+"</i></div>")
+			footerString+= Renderer.utils.getTr("<div style='float:right;padding-top:10px;'><i>"+entry.footer+"</i></div>")
+		}
+		var descString="";
+		if(entry.description){
+			descString+= Renderer.utils.getDividerTr();
+			descString+= Renderer.utils.getTr("<div class='rd__b-inset'>"+entry.description+"</div>");
 		}
 
 		return (`
@@ -4325,6 +4344,7 @@ Renderer.archetype = {
 			${advantageString}
 			${equipmentString}
 			${powerString}
+			${descString}
 			${Renderer.utils.getDividerTr()}
 			${Renderer.utils.getTr("<center>"+spentPoint.join("　")+"</center>")}
 			${footerString}

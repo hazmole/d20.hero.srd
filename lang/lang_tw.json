@@ -40,6 +40,11 @@
 "type_supportchar": "配角",
 "type_animal": "動物",
 
+"subtype_civilian": "市民",
+"subtype_public_servant": "公務員",
+"subtype_trained_comnatant": "戰鬥員",
+"subtype_underworld_archetype": "罪犯",
+
 "cost_per": "{0}點/每級",
 "cost_as_base_trait": "與該數據的花費相同",
 "modcost_per": "每級{0}點",

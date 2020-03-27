@@ -37,8 +37,13 @@
 "type_extra": "Extra",
 "type_flaw": "Flaw",
 "type_construct": "Construct",
-"type_supportchar": "Support Char.",
+"type_supportchar": "NPC",
 "type_animal": "Animal",
+
+"subtype_civilian": "Civilian",
+"subtype_public_servant": "Public Servant",
+"subtype_trained_comnatant": "Comnatant",
+"subtype_underworld_archetype": "Underworld",
 
 "cost_per": "{0} point per rank",
 "cost_as_base_trait": "As base Trait",
