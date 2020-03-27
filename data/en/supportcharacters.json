@@ -705,7 +705,7 @@
 				}
 			],
 			"description": [
-				"The bystander represents the everyday people that populate the world. The sort of character a supervillain or other criminal might take hostage or otherwise endanger. Customize the bystander by choosing an expertise such as a profession or trade skill."
+				"The bystander represents the everyday people that populate the world. The sort of character a supervillain or other criminal might take hostage or otherwise endanger. Customize the bystander by choosing an {@skill Expertise} such as a profession or trade skill."
 			]
 		},
 		{
@@ -813,7 +813,7 @@
 				}
 			],
 			"description": [
-				"In a world filled with superheroes and supervillains, there are always reporters around to get the latest story—or just get in the way. The reporter archetype can also be used for any other type of professional by swapping out the Expertise specialties for others."
+				"In a world filled with superheroes and supervillains, there are always reporters around to get the latest story—or just get in the way. The reporter archetype can also be used for any other type of professional by swapping out the {@skill Expertise} specialties for others."
 			]
 		},
 		{

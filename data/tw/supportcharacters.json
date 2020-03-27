@@ -633,7 +633,7 @@
 			]
 		},
 		{
-			"name": "Bystander",
+			"translate_name": "旁觀路人", "name": "Bystander",
 			"PL": 0,
 			"type": "sup_char",
 			"subtype": "civil",
@@ -665,17 +665,17 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Pop Culture",
+					"suboption": "流行文化",
 					"rank": 2
 				}
 			],
@@ -691,25 +691,25 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Cell phone}: [1 point]"
+							"{@b 手機}: [1 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 0,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 0}"
 				}
 			],
 			"description": [
-				"The bystander represents the everyday people that populate the world. The sort of character a supervillain or other criminal might take hostage or otherwise endanger. Customize the bystander by choosing an expertise such as a profession or trade skill."
+				"旁觀路人代表了生活在這個世界上的平民百姓。他們這類角色經常會受到超級反派或其他罪犯的挾持或危害。你可以藉由為他們選擇不同的{@skill 專業}技能（代表他們的專業或交易技能）來客製化不同的旁觀路人角色。"
 			]
 		},
 		{
-			"name": "Reporter",
+			"translate_name": "記者", "name": "Reporter",
 			"PL": 1,
 			"type": "sup_char",
 			"subtype": "civil",
@@ -745,22 +745,22 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Pop Culture",
+					"suboption": "流行文化",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Writing",
+					"suboption": "寫作",
 					"rank": 4
 				},
 				{
@@ -799,25 +799,25 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Camera}, {@b Computer}, {@b Digital recorder}, {@b Smart-phone}: [4 points]"
+							"{@b 照相機}, {@b 電腦}, {@b 數位錄音機}, {@b 智慧型手機}: [4 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 0,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 0}"
 				}
 			],
 			"description": [
-				"In a world filled with superheroes and supervillains, there are always reporters around to get the latest story—or just get in the way. The reporter archetype can also be used for any other type of professional by swapping out the Expertise specialties for others."
+				"在充斥著超級英雄和超級罪犯的世界裡，總會有記者在他們周遭報導著最新的故事新聞──或僅僅是在礙事。藉由替換{@skill 專業}技能的內容，記者範型也可以被用來呈現其他類型的專業人士。"
 			]
 		},
 		{
-			"name": "Scientist",
+			"_translate_name": "科學家", "name": "Scientist",
 			"PL": 1,
 			"type": "sup_char",
 			"subtype": "civil",
@@ -849,17 +849,17 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Pop Culture",
+					"suboption": "流行文化",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Science",
+					"suboption": "科學",
 					"rank": 6
 				},
 				{
@@ -883,14 +883,14 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Camera}, {@b Smart-phone} [2 points]"
+							"{@b 照相機}, {@b 智慧型手機} [2 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 0,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 0}"
@@ -901,7 +901,7 @@
 			]
 		},
 		{
-			"name": "Government Agent",
+			"_translate_name": "政府特務", "name": "Government Agent",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -919,7 +919,7 @@
 				"dodge": 5,
 				"fortitude": 3,
 				"parry": 5,
-				"toughness": "3 / 2 (without Defensive Roll)",
+				"toughness": "3 / 2 (未發動受身時)",
 				"will": 3
 			},
 			"spent": {
@@ -941,27 +941,27 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Behavioral Sciences",
+					"suboption": "行為科學",
 					"rank": 3
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Civics",
+					"suboption": "市政學",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Government Agent",
+					"suboption": "政府特務",
 					"rank": 3
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 2
 				},
 				{
@@ -982,7 +982,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Chosen Weapon",
+					"suboption": "任一武器",
 					"rank": 4
 				},
 				{
@@ -1009,21 +1009,21 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
-							"{@b Camera}, {@b Cell phone}, {@b Computer}, {@b Handcuffs} [4 points]"
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 3} [6 點]",
+							"{@b 照相機}, {@b 手機}, {@b 電腦}, {@b 手銬} [4 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 3,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 5,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -1034,7 +1034,7 @@
 			]
 		},
 		{
-			"name": "Police Chief",
+			"_translate_name": "警察局長", "name": "Police Chief",
 			"PL": 3,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1070,17 +1070,17 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 6
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Police Officer",
+					"suboption": "警察",
 					"rank": 6
 				},
 				{
@@ -1101,7 +1101,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Pistol",
+					"suboption": "手槍",
 					"rank": 2
 				},
 				{
@@ -1128,21 +1128,21 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
-							"{@b Cell phone}, {@b Handcuffs} [2 points]"
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 3} [6 點]",
+							"{@b 手機}, {@b 手銬} [2 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 0}"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 3,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -1153,7 +1153,7 @@
 			]
 		},
 		{
-			"name": "Police Officer",
+			"_translate_name": "警察", "name": "Police Officer",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1171,7 +1171,7 @@
 				"dodge": 2,
 				"fortitude": 4,
 				"parry": 4,
-				"toughness": "6 / 2 (vs. not-ballistic damage)",
+				"toughness": "6 / 2 (對抗非彈道傷害時)",
 				"will": 2
 			},
 			"spent": {
@@ -1189,17 +1189,17 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 3
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Police Officer",
+					"suboption": "警察",
 					"rank": 4
 				},
 				{
@@ -1220,7 +1220,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Pistol",
+					"suboption": "手槍",
 					"rank": 4
 				},
 				{
@@ -1244,23 +1244,23 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Bulletproof vest}: {@effect Protection|Protection 4}, {@modifier Limited|Limited to Ballistic}, {@modifier Subtle} [3 points]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
-							"{@b Tonfa}: {@effect Damage|傷害 1} [1 point]",
-							"{@b Cell phone}, {@b Handcuffs} [2 points]"
+							"{@b 防彈背心}: {@effect Protection|保護 4}, {@modifier Limited|限定子彈}, {@modifier 隱密使用} [3 點]",
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 3} [6 點]",
+							"{@b 警棍}: {@effect Damage|傷害 1} [1 點]",
+							"{@b 手機}, {@b 手銬} [2 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 3,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 5,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -1271,7 +1271,7 @@
 			]
 		},
 		{
-			"name": "SWAT Officer",
+			"_translate_name": "特種警察", "name": "SWAT Officer",
 			"PL": 5,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1289,7 +1289,7 @@
 				"dodge": 4,
 				"fortitude": 6,
 				"parry": 4,
-				"toughness": "6 / 2 (without riot gear)",
+				"toughness": "6 / 2 (未穿戴鎮暴裝備時)",
 				"will": 3
 			},
 			"spent": {
@@ -1307,22 +1307,22 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Police Officer",
+					"suboption": "警察",
 					"rank": 5
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Tactics",
+					"suboption": "戰術",
 					"rank": 5
 				},
 				{
@@ -1335,7 +1335,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Submachine Gun",
+					"suboption": "衝鋒槍",
 					"rank": 4
 				},
 				{
@@ -1363,32 +1363,32 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Riot gear}: {@effect Protection|Protection 4} [4 points]",
-							"{@b Submachine gun}: {@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|傷害 4} [12 points]",
-							"{@b Tonfa}: {@effect Damage|傷害 1} [1 point]",
-							"{@b Cell phone}, {@b Handcuffs} [2 points]"
+							"{@b 鎮暴裝備}: {@effect Protection|保護 4} [4 點]",
+							"{@b 衝鋒槍}: {@modifier Increased Range|遠距} {@modifier 多重攻擊} {@effect Damage|傷害 4} [12 點]",
+							"{@b 警棍}: {@effect Damage|傷害 1} [1 點]",
+							"{@b 手機}, {@b 手銬} [2 點]"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 6,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
-					"name": "Tonfa",
+					"translate_name": "警棍", "name": "Tonfa",
 					"bonus": 6,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 3}"
 				},
 				{
-					"name": "SMG",
+					"translate_name": "衝鋒槍", "name": "SMG",
 					"bonus": 6,
 					"range": "ranged",
-					"effect": "{@effect Damage|傷害 4}, {@modifier Multiattack}"
+					"effect": "{@effect Damage|傷害 4}, {@modifier 多重攻擊}"
 				}
 			],
 			"description": [
@@ -1396,7 +1396,7 @@
 			]
 		},
 		{
-			"name": "Militant",
+			"_translate_name": "激進份子", "name": "Militant",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "comnatant",
@@ -1428,7 +1428,7 @@
 			"skills": [
 				{
 					"name": "Close Combat",
-					"suboption": "Unarmed",
+					"suboption": "徒手",
 					"rank": 4
 				},
 				{
@@ -1437,12 +1437,12 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 3
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Demolitions",
+					"suboption": "爆破",
 					"rank": 6
 				},
 				{
@@ -1451,7 +1451,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Pistol",
+					"suboption": "手槍",
 					"rank": 4
 				},
 				{
@@ -1475,21 +1475,21 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 3} [6 points]",
-							"9 points of equipment as needed."
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 3} [6 點]",
+							"總共 9 點的其他所需裝備。"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 5,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 5,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -1500,7 +1500,7 @@
 			]
 		},
 		{
-			"name": "Soldier",
+			"_translate_name": "士兵", "name": "Soldier",
 			"PL": 5,
 			"type": "sup_char",
 			"subtype": "comnatant",
@@ -1518,7 +1518,7 @@
 				"dodge": 5,
 				"fortitude": 5,
 				"parry": 5,
-				"toughness": "5 / 2 (without Body armor)",
+				"toughness": "5 / 2 (未穿戴護身衣時)",
 				"will": 1
 			},
 			"spent": {
@@ -1536,12 +1536,12 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Soldier",
+					"suboption": "士兵",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Tactics",
+					"suboption": "戰術",
 					"rank": 4
 				},
 				{
@@ -1573,25 +1573,25 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Assault rifle}: {@modifier Increased Range|Ranged} {@modifier Multiattack} {@effect Damage|傷害 5} [15 points]",
-							"{@b Body armor}: {@effect Protection|Protection 3} [3 points]",
-							"17 points of equipment as needed."
+							"{@b 突擊步槍}: {@modifier Increased Range|遠距} {@modifier 多重攻擊} {@effect Damage|傷害 5} [15 點]",
+							"{@b 護身衣}: {@effect Protection|保護 3} [3 點]",
+							"總共 17 點的其他所需裝備。"
 						]
 					}
 				]
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 5,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
-					"name": "Assault rifle",
+					"translate_name": "突擊步槍", "name": "Assault rifle",
 					"bonus": 5,
 					"range": "ranged",
-					"effect": "{@effect Damage|傷害 5}, {@modifier Multiattack}"
+					"effect": "{@effect Damage|傷害 5}, {@modifier 多重攻擊}"
 				}
 			],
 			"description": [
@@ -1599,7 +1599,7 @@
 			]
 		},
 		{
-			"name": "Crime Lord",
+			"_translate_name": "犯罪首腦", "name": "Crime Lord",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1631,17 +1631,17 @@
 			"skills": [
 				{
 					"name": "Expertise",
-					"suboption": "Criminal",
+					"suboption": "犯罪",
 					"rank": 8
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 6
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
@@ -1658,7 +1658,7 @@
 				},
 				{
 					"name": "Ranged Combat",
-					"suboption": "Pistols",
+					"suboption": "手槍",
 					"rank": 4
 				}
 			],
@@ -1666,7 +1666,7 @@
 				{
 					"name": "Benefit",
 					"rank": 5,
-					"suffix": "(Millionaire, Status: Crime Lord)"
+					"suffix": "(百萬富翁, 地位: 犯罪首腦)"
 				},
 				{
 					"name": "Connected"
@@ -1694,7 +1694,7 @@
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 2,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 0}"
@@ -1711,7 +1711,7 @@
 			]
 		},
 		{
-			"name": "Criminal",
+			"_translate_name": "罪犯", "name": "Criminal",
 			"PL": 2,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1747,17 +1747,17 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
@@ -1799,7 +1799,7 @@
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 1}"
@@ -1822,7 +1822,7 @@
 			]
 		},
 		{
-			"name": "Gang Leader",
+			"_translate_name": "混混頭目", "name": "Gang Leader",
 			"PL": 2,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1862,17 +1862,17 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
@@ -1914,7 +1914,7 @@
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 1}"
@@ -1937,7 +1937,7 @@
 			]
 		},
 		{
-			"name": "Street Informant",
+			"_translate_name": "街頭線人", "name": "Street Informant",
 			"PL": 2,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1978,12 +1978,12 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 6
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 4
 				},
 				{
@@ -2024,7 +2024,7 @@
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 1,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 0}"
@@ -2047,7 +2047,7 @@
 			]
 		},
 		{
-			"name": "Thug",
+			"_translate_name": "暴徒", "name": "Thug",
 			"PL": 3,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -2083,7 +2083,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "(Choose One)",
+					"suboption": "(擇一)",
 					"rank": 4
 				},
 				{
@@ -2093,12 +2093,12 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Streetwise",
+					"suboption": "街頭世態",
 					"rank": 4
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Current Events",
+					"suboption": "時事",
 					"rank": 2
 				},
 				{
@@ -2135,7 +2135,7 @@
 			},
 			"offense": [
 				{
-					"name": "Unarmed",
+					"translate_name": "徒手", "name": "Unarmed",
 					"bonus": 2,
 					"range": "close",
 					"effect": "{@effect Damage|傷害 2}"
