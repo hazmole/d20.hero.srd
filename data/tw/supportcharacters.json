@@ -1617,7 +1617,7 @@
 				"dodge": 3,
 				"fortitude": 3,
 				"parry": 3,
-				"toughness": "5 / 1 (vs. not-ballistic damage)",
+				"toughness": "5 / 1 (對抗非彈道傷害時)",
 				"will": 5
 			},
 			"spent": {
@@ -1685,9 +1685,9 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Bulletproof vest}: {@effect Protection|Protection 4}, {@modifier Limited|Limited to Ballistic}, {@modifier Subtle} [3 points]",
-							"{@b Heavy pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 4} [8 points]",
-							"{@b Cell phone}: [1 point]"
+							"{@b 防彈背心}: {@effect Protection|保護 4}, {@modifier Limited|限定子彈}, {@modifier 隱密使用} [3 點]",
+							"{@b 重型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 4} [8 點]",
+							"{@b 手機}: [1 點]"
 						]
 					}
 				]
@@ -1700,7 +1700,7 @@
 					"effect": "{@effect Damage|傷害 0}"
 				},
 				{
-					"name": "Heavy pistol",
+					"translate_name": "重型手槍", "name": "Heavy pistol",
 					"bonus": 4,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 4}"
@@ -1729,7 +1729,7 @@
 				"dodge": 3,
 				"fortitude": 2,
 				"parry": 3,
-				"toughness": "1 / 0 (without Leather jacket)",
+				"toughness": "1 / 0 (未穿戴皮夾克時)",
 				"will": 0
 			},
 			"spent": {
@@ -1789,10 +1789,10 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
-							"{@b Knife}: {@effect Damage|傷害 1}, {@advantage Improved Critical} [2 points]",
-							"{@b Cell phone}: [1 point]"
+							"{@b 皮夾克}: {@effect Protection|保護 1} [1 點]",
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 6} [6 點]",
+							"{@b 刀子}: {@effect Damage|傷害 1}, {@advantage 精通暴擊} [2 點]",
+							"{@b 手機}: [1 點]"
 						]
 					}
 				]
@@ -1805,13 +1805,13 @@
 					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
-					"name": "Knife",
+					"translate_name": "刀子", "name": "Knife",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|傷害 2}, Crit 19-20"
+					"effect": "{@effect Damage|傷害 2}, 暴擊範圍 19-20"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -1840,7 +1840,7 @@
 				"dodge": 3,
 				"fortitude": 2,
 				"parry": 3,
-				"toughness": "1 / 0 (without Leather jacket)",
+				"toughness": "1 / 0 (未穿戴皮夾克時)",
 				"will": 0
 			},
 			"spent": {
@@ -1904,10 +1904,10 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
-							"{@b Knife}: {@effect Damage|傷害 1}, {@advantage Improved Critical} [2 points]",
-							"{@b Cell phone}: [1 point]"
+							"{@b 皮夾克}: {@effect Protection|保護 1} [1 點]",
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 6} [6 點]",
+							"{@b 刀子}: {@effect Damage|傷害 1}, {@advantage 精通暴擊} [2 點]",
+							"{@b 手機}: [1 點]"
 						]
 					}
 				]
@@ -1920,13 +1920,13 @@
 					"effect": "{@effect Damage|傷害 1}"
 				},
 				{
-					"name": "Knife",
+					"translate_name": "刀子", "name": "Knife",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|傷害 2}, Crit 19-20"
+					"effect": "{@effect Damage|傷害 2}, 暴擊範圍 19-20"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -1955,7 +1955,7 @@
 				"dodge": 3,
 				"fortitude": 2,
 				"parry": 3,
-				"toughness": "1 / 0 (without Leather jacket)",
+				"toughness": "1 / 0 (未穿戴皮夾克時)",
 				"will": 1
 			},
 			"spent": {
@@ -1973,7 +1973,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Criminal",
+					"suboption": "犯罪",
 					"rank": 4
 				},
 				{
@@ -2014,10 +2014,10 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
-							"{@b Knife}: {@effect Damage|傷害 1}, {@advantage Improved Critical} [2 points]",
-							"{@b Cell phone}: [1 point]"
+							"{@b 皮夾克}: {@effect Protection|保護 1} [1 點]",
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 6} [6 點]",
+							"{@b 刀子}: {@effect Damage|傷害 1}, {@advantage 精通暴擊} [2 點]",
+							"{@b 手機}: [1 點]"
 						]
 					}
 				]
@@ -2030,13 +2030,13 @@
 					"effect": "{@effect Damage|傷害 0}"
 				},
 				{
-					"name": "Knife",
+					"translate_name": "刀子", "name": "Knife",
 					"bonus": 1,
 					"range": "close",
-					"effect": "{@effect Damage|傷害 1}, Crit 19-20"
+					"effect": "{@effect Damage|傷害 1}, 暴擊範圍 19-20"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
@@ -2065,7 +2065,7 @@
 				"dodge": 2,
 				"fortitude": 4,
 				"parry": 2,
-				"toughness": "3 / 2 (without Leather jacket)",
+				"toughness": "3 / 2 (未穿戴皮夾克時)",
 				"will": 0
 			},
 			"spent": {
@@ -2088,7 +2088,7 @@
 				},
 				{
 					"name": "Expertise",
-					"suboption": "Criminal",
+					"suboption": "犯罪",
 					"rank": 2
 				},
 				{
@@ -2126,9 +2126,9 @@
 					{
 						"type": "list",
 						"items": [
-							"{@b Leather jacket}: {@effect Protection|Protection 1} [1 point]",
-							"{@b Light pistol}: {@modifier Increased Range|Ranged} {@effect Damage|傷害 6} [6 points]",
-							"{@b Cell phone}: [1 point]"
+							"{@b 皮夾克}: {@effect Protection|保護 1} [1 點]",
+							"{@b 輕型手槍}: {@modifier Increased Range|遠距} {@effect Damage|傷害 6} [6 點]",
+							"{@b 手機}: [1 點]"
 						]
 					}
 				]
@@ -2141,7 +2141,7 @@
 					"effect": "{@effect Damage|傷害 2}"
 				},
 				{
-					"name": "Pistol",
+					"translate_name": "手槍", "name": "Pistol",
 					"bonus": 1,
 					"range": "ranged",
 					"effect": "{@effect Damage|傷害 3}"
