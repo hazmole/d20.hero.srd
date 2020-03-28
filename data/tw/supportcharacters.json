@@ -817,7 +817,7 @@
 			]
 		},
 		{
-			"_translate_name": "科學家", "name": "Scientist",
+			"translate_name": "科學家", "name": "Scientist",
 			"PL": 1,
 			"type": "sup_char",
 			"subtype": "civil",
@@ -897,11 +897,11 @@
 				}
 			],
 			"description": [
-				"Scientists are specialists in their chosen field. This archetype can be used as anything from an archaeologist to zoologist, or for anything with a lot of knowledge about a particular subject, such as a professor."
+				"科學家是他們鑽研領域中的專家。這個範型可以被用於任何像是考古學家或動物學家等專業人員、或是像是教授這類在特定科目上擁有大量知識的人物。"
 			]
 		},
 		{
-			"_translate_name": "政府特務", "name": "Government Agent",
+			"translate_name": "政府特務", "name": "Government Agent",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1030,11 +1030,11 @@
 				}
 			],
 			"description": [
-				"Government agents include members of organizations like the FBI, CIA, DEA, ATF, and even the DEO. Government agents are well-rounded with a good selection of skills and combat abilities."
+				"政府特務包括了FBI(聯邦調查局)、CIA(中央情報局)、DEA(美國緝毒局)、ATF(美國菸酒槍炮及爆裂物管理局)、和甚至DEO(超常運作部)等政府組織的成員。政府特務是相當全能的角色，且在專業技術與戰鬥能力的選擇中有著良好的平衡。"
 			]
 		},
 		{
-			"_translate_name": "警察局長", "name": "Police Chief",
+			"translate_name": "警察局長", "name": "Police Chief",
 			"PL": 3,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1149,11 +1149,11 @@
 				}
 			],
 			"description": [
-				"The police chief can be a hero’s greatest ally or worst enemy. Police chiefs may be dedicated public servants or corrupt politicians on the take, depending on the location and the style of your series."
+				"警察局長可以是英雄們的最佳盟友、或最糟糕的敵人。取決於故事劇集的風格和場所，警察局長可能會是忠誠的人民公僕、或是腐敗的貪官汙吏。"
 			]
 		},
 		{
-			"_translate_name": "警察", "name": "Police Officer",
+			"translate_name": "警察", "name": "Police Officer",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1267,11 +1267,11 @@
 				}
 			],
 			"description": [
-				"This archetype focuses primarily on uniformed beat cops. Detectives, undercover. and plainclothes officers have more ranks in Investigate and often in other social skills like Persuasion and Intimidation."
+				"這個範型主要著重在那些穿著制服的巡邏警員。至於偵探、臥底警察、和便衣警察等角色則會有更高等級的{@skill 調查}技能，且經常會有其他更高等級的社交類技能，比如說{@skill 說服}和{@skill 威嚇}等。"
 			]
 		},
 		{
-			"_translate_name": "特種警察", "name": "SWAT Officer",
+			"translate_name": "特種警察", "name": "SWAT Officer",
 			"PL": 5,
 			"type": "sup_char",
 			"subtype": "servant",
@@ -1392,11 +1392,11 @@
 				}
 			],
 			"description": [
-				"SWAT (Special Weapons And Tactics) squads are made up of police officers with special training in squad-level tactics and weapon-use. They deal with serious criminal threats, including mutant criminals."
+				"SWAT（特種武器和戰術）部隊是由那些在戰術和武器使用上經過軍隊程度特別訓練的警察所組成。他們負責與那些嚴重的犯罪威脅周旋，包括超人類罪犯。"
 			]
 		},
 		{
-			"_translate_name": "激進份子", "name": "Militant",
+			"translate_name": "武裝份子", "name": "Militant",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "comnatant",
@@ -1496,11 +1496,11 @@
 				}
 			],
 			"description": [
-				"This archetype represents any sort of militant from militia members to terrorists—anyone who’s trained and ready to kill or die for their cause. More capable militant leaders are supervillains in their own right, often possessing advanced equipment or powers."
+				"這個範型能夠呈現任何類型的武裝份子，從民兵成員到恐怖份子──任何受過專業訓練並準備好為了他們的大業而殺戮或犧牲的人們。能力更強大的武裝份子領袖可能本身就會是超級罪犯，且通常會擁有各種先進裝備或超能力。"
 			]
 		},
 		{
-			"_translate_name": "士兵", "name": "Soldier",
+			"translate_name": "士兵", "name": "Soldier",
 			"PL": 5,
 			"type": "sup_char",
 			"subtype": "comnatant",
@@ -1595,7 +1595,7 @@
 				}
 			],
 			"description": [
-				"This archetype covers the typical infantryman or enlisted soldier. Specialists and officers have appropriate additional training (and skills)."
+				"這個範型囊括了各種經典的步兵或士兵。專門兵種和部隊長官則會經受過其他額外的專業訓練（和技能）。"
 			]
 		},
 		{

@@ -1267,7 +1267,7 @@
 				}
 			],
 			"description": [
-				"This archetype focuses primarily on uniformed beat cops. Detectives, undercover. and plainclothes officers have more ranks in Investigate and often in other social skills like Persuasion and Intimidation."
+				"This archetype focuses primarily on uniformed beat cops. Detectives, undercover. and plainclothes officers have more ranks in {@skill Investigate} and often in other social skills like {@skill Persuasion} and {@skill Intimidation}."
 			]
 		},
 		{
