@@ -4,7 +4,7 @@
 "nav_home": "Home",
 "nav_rules": "Rules",
 "nav_basic_rules": "Rules",
-"nav_pl_opt": "Player Options",
+"nav_pl_opt": "Game Data",
 "nav_settings": "Settings",
 "day_mode": "Day Mode",
 "night_mode": "Night Mode",
@@ -22,6 +22,7 @@
 "title_defenses": "Defenses",
 "title_equipment": "Equipment",
 "title_supportcharacter": "Support Character",
+"title_license": "License",
 
 "type_combat": "Combat",
 "type_fortune": "Fortune",
@@ -163,11 +164,59 @@
 "total": "Total",
 "point": "point",
 "supportcharacter": "support character",
+"ogl": "Open Game License",
 
 "example": "Example",
 "options": "Options",
 "index_intro": "This website provides the Open Game Content portions of the 3rd Edition of the Mutants and Masterminds Superhero Roleplaying Game by Green Ronin Publishing. That means this site includes everything but the two phrases “Hero Points” and “Power Points.”Those phrases (and the associated mechanics) are replaced on this site by the phrases “Victory Points” and “Character Points.”This site contains all the information you need to play the game.",
 "index_translator": ".",
+
+"intro_block": {
+	"type": "section",
+	"name": "Introduction",
+	"entries": [
+		"In this game, you take on the role of a costumed superhero safeguarding the world from threats ranging from scheming super-criminals to alien invasions, hulking monsters, natural disasters, and would-be conquerors.",
+		"This site contains all the information you need to play the game. {@rule The Basics|basic|1} chapter starts you off with a quick overview of how the game works. After you read it, flip through the rest of the site and see the various options for creating heroes. Then you can read the following chapters thoroughly to see which options appeal to you the most.",
+		{
+			"type": "section",
+			"name": "What You Need to Play",
+			"entries": [
+				"Here’s what you need to start playing this game:",
+				{
+					"type": "list",
+					"items":[
+						"This website, which contains all of the rules necessary to create a hero and play the game.",
+						"A character sheet (available via {@link https://www.mutantsandmasterminds.com}.)",
+						"A pencil and some paper.",
+						"At least one twenty-sided die, available from any game or hobby retailer. You may want to have one die for each player, or you can share dice.",
+						"Optionally, you may wish to have printed copies of the many Mutants & Masterminds books available from Green Ronin Publishing (but they are not required in order to play or run a game.)"
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"name": "Using this Site",
+			"entries": [
+				"The best way to use this site depends on whether you plan to be a player or Gamemaster in your game. The Gamemaster creates the world in which the heroes live and controls all non-player characters (NPCs) such as thugs, cops, and supervillains, as well as the supporting cast. Each player controls a superhero he or she has created, interacting with other player characters as well as with the world and stories created by the Gamemaster.",
+				{
+					"type": "entries",
+					"name": "Players",
+					"entries": [
+						"If you’re creating a hero for this game, see {@rule Secret Origins|basic|2} for a basic overview. The following sections contain all the information you need to create your own hero. You may want to consult with your Gamemaster before creating a hero to find out what sort of series your GM is interested in running, and what types of heroes are appropriate."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gamemasters",
+					"entries": [
+						"If you plan to be a Gamemaster, you should familiarize yourself with this whole website. Start by looking over hero creation in the {@rule Secret Origins|basic|2} section. Then read through the {@rule Action & Adventure|basic|8} section, and familiarize yourself with how to do things in the game. You may want to run a few sample combats using the sample archetypes, just to get a feel for things."
+					]
+				}
+			]
+		}
+	]
+},
 
 "see_description": "See description",
 "varies": "Varies",

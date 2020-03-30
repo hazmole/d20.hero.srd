@@ -43,14 +43,19 @@
 <div class="cancer__wrp-sidebar-rhs"><!--5ETOOLS_AD_RIGHT_1--><!--5ETOOLS_AD_RIGHT_2--></div>
 
 <main class="container">
-	<p><i>{{FMT("index_translator")}}</i></p>
+	<div id="translator"><p style="text-decoration: underline;"><i>{{FMT("index_translator")}}</i></p></div>
 	<p>{{FMT("index_intro")}}</p>
+	<hr/>
 	
+	<div id="intro_block" class="stats stats-book" style="background: none;"></div>
+
 </main>
 <footer class="container">
 	
 </footer>
 <!--SCRIPT_ANCHOR-->
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/render.js"></script>
 <script type="text/javascript">
 	var app = angular.module('myApp', []);
 	app.controller('myCtrl', function($scope) {
@@ -59,6 +64,21 @@
 	document.title = FMT("site_title");
 	$(".page__title").html(   FMT("site_title"));
 	$(".page__subtitle").html(FMT("site_desc"));
+
+	//===================
+	var token = languageParser.getActiveLanguage();
+	var intro_block = LANG[token]["intro_block"];
+	
+	const renderer = Renderer.get();
+	var introStack = [];
+	renderer.recursiveRender( intro_block, introStack, {depth: 0} );
+
+	$("#intro_block").html(introStack.join(""));
+	if(token=="en"){
+		$("#translator").hide();
+	}
+
+
 </script>
 </body>
 </html>

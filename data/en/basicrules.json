@@ -124,7 +124,7 @@
 							"type": "list",
 							"items":[
 								"This website, which contains all of the rules necessary to create a hero and play the game.",
-								"A character sheet (available on the Hero Resources page or via {@link https://www.mutantsandmasterminds.com}.)",
+								"A character sheet (available via {@link https://www.mutantsandmasterminds.com}.)",
 								"A pencil and some paper.",
 								"At least one twenty-sided die, available from any game or hobby retailer. You may want to have one die for each player, or you can share dice.",
 								"Optionally, you may wish to have printed copies of the many Mutants & Masterminds books available from Green Ronin Publishing (but they are not required in order to play or run a game.)"

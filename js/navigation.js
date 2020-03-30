@@ -34,6 +34,8 @@ class NavBar {
 		addDivider(ulPlayer);
 		addLi(ulPlayer, "supportcharacters.html", FMT("title_supportcharacter"));
 
+		addLi(navBar, "license.html", FMT("title_license"));
+
 		const ulSettings = addDropdown(navBar, FMT("nav_settings"));
 		addButton(
 			ulSettings,
