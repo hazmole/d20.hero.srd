@@ -1599,7 +1599,7 @@
 			]
 		},
 		{
-			"_translate_name": "犯罪首腦", "name": "Crime Lord",
+			"translate_name": "犯罪首腦", "name": "Crime Lord",
 			"PL": 4,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1707,11 +1707,11 @@
 				}
 			],
 			"description": [
-				"Sitting on top of the criminal underworld are the crime lords. These are men and women who’ve come up through the ranks and now run the show. Physically a crime lord is no match for a hero, but their connections, resources, and knowledge of the underworld can be problematic. The crime lord presented here is a fairly small fish; Gamemasters should make any changes needed to increase the crime lord’s power and influence for the series."
+				"立於罪惡裏社會巔峰的人物，就是犯罪首腦。這些男男女女從底層爬竄而起，現在一切由他們做主。儘管犯罪首腦在身體能力上無法與英雄相提並論，但他們的人脈關係、資源、以及裏社會的知識都能夠為英雄們帶來莫大的麻煩。這個範型所呈現的犯罪首腦只不過是小角色；遊戲主持人可以依照需求做出任何更動以增強犯罪首腦的能力以及對故事劇集的影響力。"
 			]
 		},
 		{
-			"_translate_name": "罪犯", "name": "Criminal",
+			"translate_name": "罪犯", "name": "Criminal",
 			"PL": 2,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1818,11 +1818,11 @@
 				}
 			],
 			"description": [
-				"This archetype represents run-of-the-mill career criminals. Gamemasters should shuffle the criminal’s skill ranks around to specialize as needed."
+				"這個範型呈現了那些尋常普通的罪犯。遊戲主持人可以根據需求調整罪犯的技能等級，使其在某些領域上專業化。"
 			]
 		},
 		{
-			"_translate_name": "混混頭目", "name": "Gang Leader",
+			"translate_name": "混混頭目", "name": "Gang Leader",
 			"PL": 2,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -1933,11 +1933,11 @@
 				}
 			],
 			"description": [
-				"Useful as the leader of a small gang of criminals or thugs. Give the gang leader more ranks in Deception, Expertise, and Persuasion if he leads a larger gang. For an even more influential gang leader, use the crime lord archetype."
+				"這個範型能很好的呈現那些小群罪犯或暴徒的頭目。若他率領的是更大型的幫派，則讓他擁有更高等級的{@skill 欺瞞}、{@skill 專業}、{@skill 說服}技能。若要呈現影響力更龐大的幫派領袖，請使用犯罪首腦範型。"
 			]
 		},
 		{
-			"_translate_name": "街頭線人", "name": "Street Informant",
+			"translate_name": "街頭線人", "name": "Street Informant",
 			"PL": 2,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -2043,11 +2043,11 @@
 				}
 			],
 			"description": [
-				"Street informants are the eyes and ears of the underworld. They aren’t usually involved in anything illegal, but they know what’s going on. They’re not the most physically capable or violent members of the criminal element, but they’re useful contacts and can fill the role of street toughs and gang members."
+				"街頭線人是黑社會中的眼目和耳朵。他們通常並不會直接參與那些非法勾當，但他們清楚知道發生了什麼事。他們不是犯罪分子中那些最強大或最具暴力傾向的成員，但他們是相當有用的線人，並可以擔當街頭惡棍和幫派成員的角色。"
 			]
 		},
 		{
-			"_translate_name": "暴徒", "name": "Thug",
+			"translate_name": "暴徒", "name": "Thug",
 			"PL": 3,
 			"type": "sup_char",
 			"subtype": "underworld",
@@ -2148,7 +2148,7 @@
 				}
 			],
 			"description": [
-				"Thugs can be used as muggers, gangsters, gang members, and henchmen for supervillains. They can also be used as any type of hired muscle from a bodyguard to security guards."
+				"暴徒範型可以被用作搶匪、歹徒、幫派成員、或是超級反派的黨羽。他們也可以被當作任何類型的雇傭武力，包括保鑣或是保安。"
 			]
 		}
 	]

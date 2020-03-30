@@ -1933,7 +1933,7 @@
 				}
 			],
 			"description": [
-				"Useful as the leader of a small gang of criminals or thugs. Give the gang leader more ranks in Deception, Expertise, and Persuasion if he leads a larger gang. For an even more influential gang leader, use the crime lord archetype."
+				"Useful as the leader of a small gang of criminals or thugs. Give the gang leader more ranks in {@skill Deception}, {@skill Expertise}, and {@skill Persuasion} if he leads a larger gang. For an even more influential gang leader, use the crime lord archetype."
 			]
 		},
 		{
